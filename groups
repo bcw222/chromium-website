@@ -1,5 +1,8 @@
 # UUID                                  	Group Name
 #
+cria:project-chromium-website-committers	cria/project-chromium-website-committers
+e3e718b27cca336e3155d6d340a88d072e9927b4	chromium-website-scoped-luci-account
 fb72331db4b2b14d5c7b48151ab945640c9b2591	chromium-website-committers
+global:Change-Owner                     	Change Owner
 global:Registered-Users                 	Logged-in Public Users
 mdb:chrome-git-admins                   	mdb/chrome-git-admins
