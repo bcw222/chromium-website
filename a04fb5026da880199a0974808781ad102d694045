@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "636740f2_a107633c",
+        "filename": "docs/CONTRIBUTING.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2021-11-02T20:10:12Z",
+      "side": 1,
+      "message": "Should this have .git? I think both work and I\u0027m not actually sure what the purpose of the .git but it\u0027s what I\u0027m used to seeing",
+      "revId": "a04fb5026da880199a0974808781ad102d694045",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "58c1de5f_7b651c8b",
+        "filename": "docs/CONTRIBUTING.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2021-11-02T20:10:12Z",
+      "side": 1,
+      "message": "I think this will create a folder called website not chromium_website",
+      "revId": "a04fb5026da880199a0974808781ad102d694045",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e392c71d_956853ca",
+        "filename": "docs/CONTRIBUTING.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2021-11-02T20:10:12Z",
+      "side": 1,
+      "message": "nit: whitespace",
+      "revId": "a04fb5026da880199a0974808781ad102d694045",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
