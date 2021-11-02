@@ -53,6 +53,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0746c2b4_678efb1c",
+        "filename": "docs/CONTRIBUTING.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-02T21:30:07Z",
+      "side": 1,
+      "message": "Oops, good catch, will fix.",
+      "parentUuid": "58c1de5f_7b651c8b",
+      "revId": "a04fb5026da880199a0974808781ad102d694045",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e392c71d_956853ca",
