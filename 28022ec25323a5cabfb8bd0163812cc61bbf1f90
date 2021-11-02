@@ -16,6 +16,23 @@
       "message": "Note that there\u0027s no CQ in this new repo until after this lands, and once this\nlands and we switch the luci-config over to looking in this repo, the \nexperimental/website repo will no longer have a CQ.",
       "revId": "28022ec25323a5cabfb8bd0163812cc61bbf1f90",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d8688dc2_8ee5d116",
+        "filename": "PRESUBMIT.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2021-11-02T20:05:43Z",
+      "side": 1,
+      "message": "I\u0027m confused why this isn\u0027t the same as the one in the experimental. Is that intentional or do I have it mixed up with a different presubmit file? Shouldn\u0027t it be the same as https://chromium.googlesource.com/experimental/website/+/refs/heads/main/PRESUBMIT.py?",
+      "revId": "28022ec25323a5cabfb8bd0163812cc61bbf1f90",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
