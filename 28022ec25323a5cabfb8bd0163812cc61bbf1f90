@@ -33,6 +33,24 @@
       "message": "I\u0027m confused why this isn\u0027t the same as the one in the experimental. Is that intentional or do I have it mixed up with a different presubmit file? Shouldn\u0027t it be the same as https://chromium.googlesource.com/experimental/website/+/refs/heads/main/PRESUBMIT.py?",
       "revId": "28022ec25323a5cabfb8bd0163812cc61bbf1f90",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "79ce6a92_44e11d7c",
+        "filename": "PRESUBMIT.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-02T20:09:21Z",
+      "side": 1,
+      "message": "Good question.\n\nWe had the year wrong in the copyright header, for one thing.\n\nBut, more importantly, I pruned the presubmit checks that aren\u0027t actually \nneeded yet out of this, to make the version history in the prod repo a \nbit more intelligible.\n\nI\u0027ll add the checks back in when I land the first round of content in a follow-on CL.",
+      "parentUuid": "d8688dc2_8ee5d116",
+      "revId": "28022ec25323a5cabfb8bd0163812cc61bbf1f90",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
