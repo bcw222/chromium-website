@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cbd67281_81bf255a",
+        "filename": "docs/CONTRIBUTING.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-02T20:27:17Z",
+      "side": 1,
+      "message": "Either works. I\u0027m not sure that it really matters but I tend to prefer to leave it off.",
+      "parentUuid": "636740f2_a107633c",
+      "revId": "a04fb5026da880199a0974808781ad102d694045",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "58c1de5f_7b651c8b",
@@ -48,6 +66,24 @@
       "writtenOn": "2021-11-02T20:10:12Z",
       "side": 1,
       "message": "nit: whitespace",
+      "revId": "a04fb5026da880199a0974808781ad102d694045",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "16d741da_14536746",
+        "filename": "docs/CONTRIBUTING.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-02T20:27:17Z",
+      "side": 1,
+      "message": "Will fix.",
+      "parentUuid": "e392c71d_956853ca",
       "revId": "a04fb5026da880199a0974808781ad102d694045",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
