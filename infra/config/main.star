@@ -61,6 +61,7 @@ lucicfg.config(
         "luci-milo.cfg",
         "luci-scheduler.cfg",
         "realms.cfg",
+        "tricium-prod.cfg",
     ],
     fail_on_warnings = True,
 )
@@ -72,6 +73,7 @@ luci.project(
     milo = "luci-milo",
     scheduler = "luci-scheduler",
     swarming = "chromium-swarm.appspot.com",
+    tricium = "tricium-prod.appspot.com",
     acls = [
         acl.entry(
             [
@@ -172,6 +174,12 @@ luci.cq_group(
         transient_failure_weight = 1,
         timeout_weight = 2,
     ),
+    verifiers = [
+        luci.cq_tryjob_verifier(
+            builder = "chromium-website-try-builder",
+            mode_allowlist = [cq.MODE_ANALYZER_RUN],
+        ),
+    ],
 )
 
 luci.bucket(name = "try", acls = [
@@ -199,9 +207,4 @@ luci.builder(
     service_account = "chromium-website-try-builder@chops-service-accounts.iam.gserviceaccount.com",
     execution_timeout = 1 * time.hour,
     dimensions = {"cpu": "x86-64", "os": _LINUX_OS, "pool": "luci.flex.try"},
-)
-
-luci.cq_tryjob_verifier(
-    builder = "chromium-website-try-builder",
-    cq_group = PROJECT_NAME,
 )
