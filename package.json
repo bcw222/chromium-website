@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "build": "npm-run-all build:sass build:eleventy",
+    "build:eleventy": "eleventy",
+    "build:sass": "sass site/_stylesheets:build/_stylesheets",
+    "deploy": "npm-run-all deploy:login deploy:hosting",
+    "deploy:login": "firebase login",
+    "deploy:hosting": "firebase deploy --only hosting",
+    "start": "npm-run-all build:sass --parallel watch:*",
+    "watch:eleventy": "eleventy --serve --port=8080",
+    "watch:sass": "sass --watch site/_stylesheets:build/_stylesheets"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "firebase-tools": "^9.18.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.35.1"
+  }
+}
