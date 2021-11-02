@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e4098c2_186a4c85",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-02T19:46:40Z",
+      "side": 1,
+      "message": "Note that there\u0027s no CQ in this new repo until after this lands, and once this\nlands and we switch the luci-config over to looking in this repo, the \nexperimental/website repo will no longer have a CQ.",
+      "revId": "28022ec25323a5cabfb8bd0163812cc61bbf1f90",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
