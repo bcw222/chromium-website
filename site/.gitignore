@@ -1,0 +1,4 @@
+#LOB (large objects/binaries) ignores are listed below. These are maintained by
+#the upload_lobs script and should not need to be modified manually
+#start_lob_ignore
+#end_lob_ignore
