@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1a339bd3_57e597d9",
+        "filename": "site/_includes/page.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2021-11-03T01:23:58Z",
+      "side": 1,
+      "message": "Is there supposed to be a closing tag for this? I\u0027m not familiar with the li tag",
+      "revId": "0b1c9251453f083490d7764e0207a47939ed99f3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d54e2405_c4a7050a",
+        "filename": "site/_stylesheets/default.scss",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2021-11-03T01:23:58Z",
+      "side": 1,
+      "message": "Not sure what this comment block is exactly, the license section gives me hesitation",
+      "range": {
+        "startLine": 5,
+        "startChar": 3,
+        "endLine": 5,
+        "endChar": 44
+      },
+      "revId": "0b1c9251453f083490d7764e0207a47939ed99f3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
