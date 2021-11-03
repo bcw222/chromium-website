@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f19d5b65_acf2c1b1",
+        "filename": ".eleventy.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2021-11-03T19:52:51Z",
+      "side": 1,
+      "message": "I can imagine there being both binary and plain text versions with this extension. Maybe that\u0027s not the case here but if it is/were would we prefer them in git or gs?",
+      "range": {
+        "startLine": 18,
+        "startChar": 6,
+        "endLine": 18,
+        "endChar": 12
+      },
+      "revId": "d357fe9520669b34bb9e6b4003685baa3b53c1b5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
