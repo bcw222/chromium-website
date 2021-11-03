@@ -12,7 +12,7 @@ that is translated / built ahead of time into HTML using the
 Node/JS) and deployed onto [Firebase Cloud Hosting](firebase.google.com/products/hosting).
 
 The Markdown is translated using a single extremely simple
-[LiquidJS](LiquidJS) [template](site/_templates/default.tmpl)
+[LiquidJS](LiquidJS) [template](site/_includes/page.html)
 and the site is served with a single basic
 [Sass/SCSS](sass-lang.com) [stylesheet](site/_stylesheets/default.scss)
 (using the Node/NPM library version of Sass).
