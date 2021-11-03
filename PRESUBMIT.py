@@ -30,11 +30,13 @@ LOB_EXTENSIONS = [
                   '.brd',
                   '.bz2',
                   '.crx',
+                  '.config',
                   '.dia',
                   '.gif',
                   '.graffle',
                   '.ico',
                   '.jpg',
+                  'jpg',  # Some files are missing the '.' :(.
                   '.jpeg',
                   '.mp4',
                   '.msi',
