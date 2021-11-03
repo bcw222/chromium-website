@@ -185,7 +185,11 @@ luci.cq_group(
 luci.bucket(name = "try", acls = [
     acl.entry(
         [acl.BUILDBUCKET_TRIGGERER],
-        groups = ["project-chromium-website-tryjob-access", "service-account-cq"],
+        groups = [
+            "project-chromium-website-tryjob-access",
+            "service-account-cq",
+            "tricium-prod@appspot.gserviceaccount.com",
+        ],
     ),
 ])
 
