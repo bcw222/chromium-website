@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "81124777_9cd8fd0a",
+        "filename": "infra/config/main.star",
+        "patchSetId": 1
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 1381059
+      },
+      "writtenOn": "2021-11-03T01:06:35Z",
+      "side": 1,
+      "message": "hmm.. not sure if it\u0027ll work because it is not a cria group but a plain service account. I think you can add another kwarg `users \u003d [\"tricium-prod@appspot.gserviceaccount.com\"] `. see go/lucicfg#acl.entry",
+      "revId": "17d0e9a9731750a02f96ceb7925878511491c45b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
