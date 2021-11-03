@@ -24,9 +24,9 @@ import urllib.parse
 
 site = 'https://www.chromium.org'
 
-REPO_DIR = os.path.dirname(os.path.dirname(__file__))
-SOURCE_DIR = 'site'
-BUILD_DIR = 'build'
+REPO_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
+SITE_DIR = os.path.join(REPO_DIR, 'site')
+BUILD_DIR = os.path.join(REPO_DIR, 'build')
 DEFAULT_TEMPLATE = '/_includes/page.html'
 
 
@@ -58,6 +58,10 @@ def write_binary_file(path, content):
     with open(path, 'wb') as fp:
         return fp.write(content)
 
+def write_text_file(path, content):
+    with open(path, 'w') as fp:
+        return fp.write(content)
+
 def read_paths(path):
     paths = set()
     with open(path) as fp:
@@ -71,7 +75,7 @@ def read_paths(path):
     return paths
 
 
-def to_path(page, top=SOURCE_DIR, ext='.md'):
+def to_path(page, top=SITE_DIR, ext='.md'):
     page = page.strip()
     if page == '/':
         page = ''
@@ -100,7 +104,9 @@ def walk(top, skip=None):
     return sorted(paths)
 
 
-def write_if_changed(path, content):
+def write_if_changed(path, content, mode='wb', encoding='utf-8'):
+    if mode == 'w':
+        content = content.encode(encoding)
     os.makedirs(os.path.dirname(path), exist_ok=True)
     if os.path.exists(path):
         with open(path, 'rb') as fp:
