@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1ab22f2f_540d1472",
+        "filename": "site/_includes/page.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-03T01:55:28Z",
+      "side": 1,
+      "message": "Closing tags for \u003cli\u003e elements can be omitted if they are immediately followed by another \u003cli\u003e or there\u0027s nothing else in the parent \u003col\u003e/\u003cul\u003e (i.e., they are the last element).",
+      "parentUuid": "1a339bd3_57e597d9",
+      "revId": "0b1c9251453f083490d7764e0207a47939ed99f3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d54e2405_c4a7050a",
         "filename": "site/_stylesheets/default.scss",
         "patchSetId": 1
@@ -31,6 +49,30 @@
       "writtenOn": "2021-11-03T01:23:58Z",
       "side": 1,
       "message": "Not sure what this comment block is exactly, the license section gives me hesitation",
+      "range": {
+        "startLine": 5,
+        "startChar": 3,
+        "endLine": 5,
+        "endChar": 44
+      },
+      "revId": "0b1c9251453f083490d7764e0207a47939ed99f3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "825249f4_27f4b9ad",
+        "filename": "site/_stylesheets/default.scss",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-03T01:55:28Z",
+      "side": 1,
+      "message": "Good question. That reminds me that I wanted to do another pass over this \nregardless to see if we actually needed it.",
+      "parentUuid": "d54e2405_c4a7050a",
       "range": {
         "startLine": 5,
         "startChar": 3,
