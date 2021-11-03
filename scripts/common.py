@@ -129,7 +129,7 @@ class JobQueue:
         self.started = set()
         self.finished = set()
         if multiprocess is None:
-            self.multiprocess = (jobs == 1)
+            self.multiprocess = (jobs > 1)
         else:
             self.multiprocess = multiprocess
         if self.multiprocess:
