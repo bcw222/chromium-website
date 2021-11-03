@@ -138,6 +138,7 @@ luci.builder(
     execution_timeout = 1 * time.hour,
     dimensions = {"cpu": "x86-64", "os": _LINUX_OS, "pool": "luci.flex.ci"},
     triggered_by = ["chromium-website-trigger"],
+    build_numbers = True,
 )
 
 luci.console_view_entry(
@@ -208,4 +209,5 @@ luci.builder(
     service_account = "chromium-website-try-builder@chops-service-accounts.iam.gserviceaccount.com",
     execution_timeout = 1 * time.hour,
     dimensions = {"cpu": "x86-64", "os": _LINUX_OS, "pool": "luci.flex.try"},
+    build_numbers = True,
 )
