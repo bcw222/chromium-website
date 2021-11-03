@@ -16,6 +16,24 @@
       "message": "hmm.. not sure if it\u0027ll work because it is not a cria group but a plain service account. I think you can add another kwarg `users \u003d [\"tricium-prod@appspot.gserviceaccount.com\"] `. see go/lucicfg#acl.entry",
       "revId": "17d0e9a9731750a02f96ceb7925878511491c45b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "83fa4f5d_c3161cef",
+        "filename": "infra/config/main.star",
+        "patchSetId": 1
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-03T01:12:07Z",
+      "side": 1,
+      "message": "Okay, changed.",
+      "parentUuid": "81124777_9cd8fd0a",
+      "revId": "17d0e9a9731750a02f96ceb7925878511491c45b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
