@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3ab6e51f_7a9532d8",
+        "filename": ".eleventy.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2021-11-03T19:28:40Z",
+      "side": 1,
+      "message": "nit: trailing whitespace. Should we enable some presubmit check for these?",
+      "revId": "dbbcecbc2244c47343e2ffc44809d15f1394cb92",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
