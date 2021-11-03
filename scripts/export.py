@@ -88,8 +88,8 @@ def main():
             _ = _handle_entry(path,
                               (entry, metadata, max_input_mtime, args.force,
                                args.raw))
-            content = common.read_text_file('%s/%s.md' % (common.SOURCE_DIR,
-                                                          path))
+            content = common.read_text_file('%s%s/index.md' %
+                                            (common.SITE_DIR, path))
             print(content)
             return 0
         else:
@@ -100,35 +100,40 @@ def main():
 
     paths_to_export = set(paths_to_export)
     for i, entry in enumerate(list(entries.values())[:args.max_results]):
-        if entry['kind'] in ('webpage', 'listpage', 'announcementspage', 'filecabinet'):
+        if entry['kind'] in ('webpage', 'listpage',
+                             'announcementspage', 'filecabinet'):
             metadata = _metadata(entry, entries, parents)
             path = _path(entry, entries, parents)
         elif entry['kind'] == 'attachment':
             metadata = {}
             path = entry['url'].replace(
-                 'https://sites.google.com/a/chromium.org/dev/', '')
+                 'https://sites.google.com/a/chromium.org/dev/', '/')
         else:
             continue
+        if not paths_to_export or (path in paths_to_export):
+            q.request(path, (entry, metadata, max_input_mtime, args.force,
+                             False))
 
-        if not paths_to_export or (
-            ('/' + path).replace('/index', '') in paths_to_export):
-            q.request(path, (entry, metadata, max_input_mtime, args.force, False))
-
+    ret = 0
     for path, res, did_update in q.results():
+        if res:
+            ret = 1
         if did_update:
             updated += 1
 
     print('updated %d entries' % updated)
+    return ret
 
 
 def _find_entry_by_path(path, entries, parents):
     seen = set()
     for entry in entries.values():
-        if entry['kind'] not in ('webpage', 'listpage', 'announcmentspage', 'filecabinet'):
+        if entry['kind'] not in ('webpage', 'listpage',
+                                 'announcmentspage', 'filecabinet'):
             continue
         entry_path = _path(entry, entries, parents)
         seen.add(entry_path)
-        if '/' + entry_path in (path, path + '/index'):
+        if '/' + entry_path == path:
             return entry
     return None
 
@@ -138,13 +143,16 @@ def _handle_entry(task, obj):
     err = ''
     did_update = False
 
+    if not task.startswith('/'):
+        return 'malformed task', False
+
     yaml.SafeDumper.org_represent_str = yaml.SafeDumper.represent_str
 
     if task in (
-        'developers/jinja',
-        'developers/polymer-1-0',
-        'devtools/breakpoints-tutorial/index.html',
-        'devtools/breakpoints-tutorial/script.js',
+        '/developers/jinja',
+        '/developers/polymer-1-0',
+        '/devtools/breakpoints-tutorial/index.html',
+        '/devtools/breakpoints-tutorial/script.js',
         ):
         # TODO: Eleventy chokes on these files.
         return '', False
@@ -164,7 +172,7 @@ def _handle_entry(task, obj):
                          'announcementspage',
                          'filecabinet'):
         target_mtime = max(mtime, max_input_mtime)
-        path = '%s/%s.md' % (common.SOURCE_DIR, task)
+        path = '%s%s/%s' % (common.SITE_DIR, task, 'index.md')
         if True or _needs_update(path, target_mtime, force):
             if raw:
                 content = entry['content']
@@ -178,17 +186,17 @@ def _handle_entry(task, obj):
                 html2markdown.Convert(content_sio, md_sio, url_converter)
                 content = md_sio.getvalue()
                 content = content.replace('    \b\b\b\b', '')
-            did_update = common.write_if_changed(path, content.encode('utf-8'))
+            did_update = common.write_if_changed(path, content, mode='w')
         else:
             did_update = False
     elif entry['kind'] in ('announcement', 'listitem'):
         # TODO: implement me.
         pass
     elif entry['kind'] == 'attachment':
-        path = '%s/%s' % (common.SOURCE_DIR, task)
-        if path in (
-            'site/developers/design-documents/network-stack/cookiemonster/CM-method-calls-new.png',
-            'site/developers/design-documents/cookie-split-loading/objects.png',
+        path = '%s%s' % (common.SITE_DIR, task)
+        if task in (
+            '/developers/design-documents/network-stack/cookiemonster/CM-method-calls-new.png',
+            '/developers/design-documents/cookie-split-loading/objects.png',
         ):
             # These are expected 404's that we ignore.
             did_update = False
@@ -198,6 +206,7 @@ def _handle_entry(task, obj):
                 content = fp.read()
                 did_update = common.write_if_changed(path, content)
             except (HTTPError, URLError, TimeoutError) as e:
+                import pdb; pdb.set_trace()
                 err = 'Error: %s' % e
 
     elif entry['kind'] == 'comment':
@@ -229,14 +238,12 @@ class _URLConverter:
 
 def _path(entry, entries, parents):
     path = entry['page_name']
-    if entry['id'] in parents:
-        path = path + '/index'
     parent_id = entry.get('parent_id')
     while parent_id:
         path = entries[parent_id]['page_name'] + '/' + path
         parent_id = entries[parent_id].get('parent_id')
 
-    return path
+    return '/' + path
 
 
 def _metadata(entry, entries, parents):
@@ -248,7 +255,7 @@ def _metadata(entry, entries, parents):
     parent_id = entry.get('parent_id')
     while parent_id:
         parent = entries[parent_id]
-        path = '/' + _path(parent, entries, parents).replace('/index', '')
+        path = _path(parent, entries, parents)
         title = parent['title']
         crumbs = [[path, title]] + crumbs
         parent_id = parent.get('parent_id')
