@@ -16,6 +16,24 @@
       "message": "Not sure why .config.sha1 isn\u0027t showing up here. Could this be a bug?",
       "revId": "18a39593d7ba4811fa75f2b3f6ba1d8c30ef232c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e4f48c2_79e90b9a",
+        "filename": "site/.gitignore",
+        "patchSetId": 1
+      },
+      "lineNbr": 1177,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-04T23:04:13Z",
+      "side": 1,
+      "message": "I think somehow my previous CL was kinda out of sync. You can see the entry on the line above (line 1176), but the actual .sha1 file didn\u0027t get committed.",
+      "parentUuid": "72b4a51e_66314562",
+      "revId": "18a39593d7ba4811fa75f2b3f6ba1d8c30ef232c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
