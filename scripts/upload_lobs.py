@@ -17,8 +17,10 @@ import sys
 import optparse
 import os
 
-root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
-sys.path.insert(0, root_dir + "/third_party/depot_tools/")
+for path in os.environ['PATH'].split(os.path.pathsep):
+    if path.endswith('depot_tools') and path not in sys.path:
+        sys.path.insert(0, path)
+
 import upload_to_google_storage
 
 # This list must be kept in sync with the lists in //.eleventy.js and
