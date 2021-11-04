@@ -16,6 +16,24 @@
       "message": "Is this a missed lob?",
       "revId": "bcd5ed13fe171826250b11a7790300f04a9b3e9b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd0a26a7_4c556e94",
+        "filename": "site/administrators/ios-mdm-policy-format/ios_chrome_policy.plist",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-04T20:00:31Z",
+      "side": 0,
+      "message": ".plist files can be binary or XML, and this one is XML. I don\u0027t know why Gerrit thinks it is a binary :(.",
+      "parentUuid": "d5516d07_c5ab5b0e",
+      "revId": "bcd5ed13fe171826250b11a7790300f04a9b3e9b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
