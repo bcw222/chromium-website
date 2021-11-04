@@ -30,8 +30,6 @@ allowed_hosts = [
 use_relative_paths = True
 
 deps = {
-  'third_party/depot_tools':
-     'https://chromium.googlesource.com/chromium/tools/depot_tools.git' + '@' + 'c70750b73ee6b9daef0122795cfcd1f4ed4d4f62',
 }
 
 hooks = [
@@ -39,8 +37,7 @@ hooks = [
     'name': 'node_linux64',
     'pattern': '.',
     'condition': 'host_os == "linux"',
-    'action': [ 'vpython3',
-                'third_party/depot_tools/download_from_google_storage.py',
+    'action': [ 'download_from_google_storage',
                 '--no_resume',
                 '--extract',
                 '--no_auth',
@@ -52,8 +49,7 @@ hooks = [
     'name': 'node_mac',
     'pattern': '.',
     'condition': 'host_os == "mac" and host_cpu == "x64"',
-    'action': [ 'vpython3',
-                'third_party/depot_tools/download_from_google_storage.py',
+    'action': [ 'download_from_google_storage',
                 '--no_resume',
                 '--extract',
                 '--no_auth',
@@ -68,8 +64,7 @@ hooks = [
     'name': 'node_mac_arm64',
     'pattern': '.',
     'condition': 'host_os == "mac" and host_cpu == "arm64"',
-    'action': [ 'vpython3',
-                'third_party/depot_tools/download_from_google_storage.py',
+    'action': [ 'download_from_google_storage',
                 '--no_resume',
                 '--extract',
                 '--no_auth',
@@ -81,8 +76,7 @@ hooks = [
     'name': 'node_win',
     'pattern': '.',
     'condition': 'host_os == "win"',
-    'action': [ 'vpython3',
-                'third_party/depot_tools/download_from_google_storage.py',
+    'action': [ 'download_from_google_storage',
                 '--no_resume',
                 '--no_auth',
                 '--bucket', 'chromium-nodejs/14.15.4',
