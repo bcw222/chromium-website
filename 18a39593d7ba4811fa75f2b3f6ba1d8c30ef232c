@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "72b4a51e_66314562",
+        "filename": "site/.gitignore",
+        "patchSetId": 1
+      },
+      "lineNbr": 1177,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2021-11-04T22:53:34Z",
+      "side": 1,
+      "message": "Not sure why .config.sha1 isn\u0027t showing up here. Could this be a bug?",
+      "revId": "18a39593d7ba4811fa75f2b3f6ba1d8c30ef232c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
