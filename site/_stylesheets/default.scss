@@ -23,6 +23,11 @@ code {
   color: rgba(0,96,0,1);
 }
 
+ul[role='navigation'],
+ol[role='navigation'] {
+  list-style: none;
+}
+
 body {
   background-color: rgb(247, 247, 247);
   font-family: $body-fonts;
@@ -32,7 +37,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 1 0 1 5;
+  padding: 7px 0 2px 5px;
 }
 
 #header-left {
@@ -41,11 +46,10 @@ header {
 }
 
 #header-left img#sites-logo {
-  padding-top: 7;
 }
 
 #header-left h2 {
-  margin: 9 0 0 10;
+  margin-left: 10px;
   font-size: 24px;
   font-weight: bold;
   display: inline-block;
@@ -78,6 +82,11 @@ header {
       margin-bottom: 1px;
       padding: 3px 0 2px 0;
       font-size: 13px;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
     }
 
     li {
