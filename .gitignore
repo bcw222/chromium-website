@@ -9,6 +9,7 @@ build
 infra/.recipe_deps
 node_modules
 node_modules.tar.gz
+scripts/feeds
 third_party/depot_tools
 third_party/node/linux/node-linux-x64
 third_party/node/linux/node-linux-x64.tar.gz
