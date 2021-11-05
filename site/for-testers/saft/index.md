@@ -148,7 +148,7 @@ SAFT`. (make sure to update this string when editing this section).
 <table>
 <tr>
 <td> Test</td>
-<td> System state after reboot</td>
+<td colspan=3> System state after reboot</td>
 </tr>
 <tr>
 <td> Firmware</td>

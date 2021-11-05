@@ -235,8 +235,8 @@ TCP (without SSL), and 39% - 55% over SSL.
 
 <table>
 <tr>
-<td>DSL 2 Mbps downlink, 375 kbps uplink</td>
-<td>Cable 4 Mbps downlink, 1 Mbps uplink</td>
+<td colspan=2>DSL 2 Mbps downlink, 375 kbps uplink</td>
+<td colspan=2>Cable 4 Mbps downlink, 1 Mbps uplink</td>
 </tr>
 <tr>
 <td><b>A</b><b>verage ms</b></td>
@@ -345,7 +345,7 @@ RT.
 
 <table>
 <tr>
-<td>Average ms</td>
+<td colspan=2>Average ms</td>
 <td>Speedup</td>
 </tr>
 <tr>
@@ -395,7 +395,7 @@ RT.
 
 <table>
 <tr>
-<td><b>Average ms</b></td>
+<td colspan=2><b>Average ms</b></td>
 <td><b>Speedup</b></td>
 </tr>
 <tr>

@@ -126,14 +126,12 @@ def main():
 
 
 def _find_entry_by_path(path, entries, parents):
-    seen = set()
     for entry in entries.values():
         if entry['kind'] not in ('webpage', 'listpage',
                                  'announcmentspage', 'filecabinet'):
             continue
         entry_path = _path(entry, entries, parents)
-        seen.add(entry_path)
-        if '/' + entry_path == path:
+        if entry_path == path:
             return entry
     return None
 
@@ -206,7 +204,6 @@ def _handle_entry(task, obj):
                 content = fp.read()
                 did_update = common.write_if_changed(path, content)
             except (HTTPError, URLError, TimeoutError) as e:
-                import pdb; pdb.set_trace()
                 err = 'Error: %s' % e
 
     elif entry['kind'] == 'comment':

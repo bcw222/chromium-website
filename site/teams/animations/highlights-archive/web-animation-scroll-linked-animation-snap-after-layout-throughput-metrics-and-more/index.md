@@ -85,26 +85,26 @@ title: Web Animation, Scroll-linked Animation, Snap after layout, throughput met
 <td></tr></td>
 <td><tr></td>
 
-<td><td># Animation.commitStyles did not correctly handle transforms</td></td>
+<td><td colspan=2># Animation.commitStyles did not correctly handle transforms</td></td>
 
 <td></tr></td>
 <td><tr></td>
 
-<td><td>Web Animation on the way</td></td>
+<td><td colspan=2>Web Animation on the way</td></td>
 
-<td><td>The team has made solid progress on new features and bug fixes. Kevin fixed the two regressions above. George (gtsteel@) completed the work on pseudo-element animations on both <a href="https://github.com/w3c/csswg-drafts/pull/4616">specification</a> and <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2031986">implementation</a> sides. As usual, Hao (haozhes@) made our implementation more interoperable by passing more wpt tests!</td></td>
+<td><td colspan=2>The team has made solid progress on new features and bug fixes. Kevin fixed the two regressions above. George (gtsteel@) completed the work on pseudo-element animations on both <a href="https://github.com/w3c/csswg-drafts/pull/4616">specification</a> and <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2031986">implementation</a> sides. As usual, Hao (haozhes@) made our implementation more interoperable by passing more wpt tests!</td></td>
 
-<td><td><img alt="image" src="https://lh4.googleusercontent.com/qUQHx8YY3PrU0F3X-9OfErZR9IwlHsKsCElzfR8h0v9xGR824m708ECrqY_z6gvJHTRSIQWJH1pol7Sshj9rd2BkRqU0Q3jH8H8RSXVTZcXyO5NgXO4zigsDSUzncj_vUbXVvJAj" height=248 width=555></td></td>
+<td><td colspan=2><img alt="image" src="https://lh4.googleusercontent.com/qUQHx8YY3PrU0F3X-9OfErZR9IwlHsKsCElzfR8h0v9xGR824m708ECrqY_z6gvJHTRSIQWJH1pol7Sshj9rd2BkRqU0Q3jH8H8RSXVTZcXyO5NgXO4zigsDSUzncj_vUbXVvJAj" height=248 width=555></td></td>
 
-<td><td><img alt="image" src="https://lh4.googleusercontent.com/tg1Bvj-WJkkw_QW8zVhsgu5AEO-blW-gYIZZL_l-nqcDPxQO89L0l3JIREtJ0-XMhXmEMIy-xDC36QbWsi-LsbHRpy8-7p57ppOCoyI922ZnUvkn64INt1hyGlg_J9HbZzCkov1a" height=251 width=555></td></td>
+<td><td colspan=2><img alt="image" src="https://lh4.googleusercontent.com/tg1Bvj-WJkkw_QW8zVhsgu5AEO-blW-gYIZZL_l-nqcDPxQO89L0l3JIREtJ0-XMhXmEMIy-xDC36QbWsi-LsbHRpy8-7p57ppOCoyI922ZnUvkn64INt1hyGlg_J9HbZzCkov1a" height=251 width=555></td></td>
 
-<td><td>A new path of throughput metrics</td></td>
+<td><td colspan=2>A new path of throughput metrics</td></td>
 
-<td><td>Frame throughput measures the smoothness of Chrome renderer. i.e. higher is better. However, it makes the UMA timeline hard to read. e.g. usually 90th percentile represents the 90% users with better results but it’s opposite in the throughput metrics. To better align with the UMA timeline, Xida (xidachen@) inverted the metrics Throughput with PercentDroppedFrames which still measures the performance but in a more readable way. For example, the graph in the above shows that at 90th percentile we have ~80% frames dropped.</td></td>
+<td><td colspan=2>Frame throughput measures the smoothness of Chrome renderer. i.e. higher is better. However, it makes the UMA timeline hard to read. e.g. usually 90th percentile represents the 90% users with better results but it’s opposite in the throughput metrics. To better align with the UMA timeline, Xida (xidachen@) inverted the metrics Throughput with PercentDroppedFrames which still measures the performance but in a more readable way. For example, the graph in the above shows that at 90th percentile we have ~80% frames dropped.</td></td>
 
-<td><td>Scroll-linked animations</td></td>
+<td><td colspan=2>Scroll-linked animations</td></td>
 
-<td><td>We have been collaborating with Microsoft engineers towards shipping scroll-linked animations. Both Majid (majidvp@) and Olga (<a href="mailto:gerchiko@microsoft.com">gerchiko@microsoft.com</a>) became the <a href="https://drafts.csswg.org/scroll-animations/">specification editors</a> which helps with driving specification discussions and updates. This month, Majid wrote a <a href="https://github.com/w3c/csswg-drafts/pull/4751">PR</a> for css syntax and reviewed <a href="https://github.com/w3c/csswg-drafts/pull/4750">PR</a> to remove ScrollTimeline.fill. Gene (girard@) and Rob (flackr@) helped with reviewing all the outstanding spec issues and prioritized them. On the implementation side, Olga made solid progress on implementing scroll offset <a href="https://wicg.github.io/scroll-animations/#avoiding-cycles">snapshotting</a>; Majid started to prototype <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2070673">element based scroll offset</a> and Yi started to add support for <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2084088">composited scroll-linked animations</a>.</td></td>
+<td><td colspan=2>We have been collaborating with Microsoft engineers towards shipping scroll-linked animations. Both Majid (majidvp@) and Olga (<a href="mailto:gerchiko@microsoft.com">gerchiko@microsoft.com</a>) became the <a href="https://drafts.csswg.org/scroll-animations/">specification editors</a> which helps with driving specification discussions and updates. This month, Majid wrote a <a href="https://github.com/w3c/csswg-drafts/pull/4751">PR</a> for css syntax and reviewed <a href="https://github.com/w3c/csswg-drafts/pull/4750">PR</a> to remove ScrollTimeline.fill. Gene (girard@) and Rob (flackr@) helped with reviewing all the outstanding spec issues and prioritized them. On the implementation side, Olga made solid progress on implementing scroll offset <a href="https://wicg.github.io/scroll-animations/#avoiding-cycles">snapshotting</a>; Majid started to prototype <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2070673">element based scroll offset</a> and Yi started to add support for <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2084088">composited scroll-linked animations</a>.</td></td>
 
 <td></tr></td>
 <td></table></td>

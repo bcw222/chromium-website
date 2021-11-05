@@ -35,13 +35,13 @@ title: September 2020 (Vol. 2) - Code Health, Logical Property Animation, Off-th
 
 <td><td>kevers@ presented our bug fixing effort for the sprint. We closed a fairly large number of bugs and kept the number of P1 bugs fairly steady. Overall the number of bugs has increased.</td></td>
 
-<td><td>Logic clearly dictates…<img alt="image" src="https://lh6.googleusercontent.com/jJoZEGRrSbXcZ-3L4zcBHdorNiKa7ubKF14bTirLSh4vjhqZS16DOkKRue12sCHBVds5tpeJILUDWT_XkH703_TGCE0M_doid4HTeXbH6VVIinP8dj6ln4CmHWkSYRIbX0ZH-dBRbQ" height=228 width=217></td></td>
+<td><td rowspan=2>Logic clearly dictates…<img alt="image" src="https://lh6.googleusercontent.com/jJoZEGRrSbXcZ-3L4zcBHdorNiKa7ubKF14bTirLSh4vjhqZS16DOkKRue12sCHBVds5tpeJILUDWT_XkH703_TGCE0M_doid4HTeXbH6VVIinP8dj6ln4CmHWkSYRIbX0ZH-dBRbQ" height=228 width=217></td></td>
 
-<td><td>kevers@ implemented support for animating logical properties in CSS and programmatic animations. Logical properties depend on the writing mode and text direction. As these animation types have different rules for keyframe construction and reporting, resolving property values when there are potential collisions in longhand property names presented some interesting challenges. </td></td>
+<td><td rowspan=2>kevers@ implemented support for animating logical properties in CSS and programmatic animations. Logical properties depend on the writing mode and text direction. As these animation types have different rules for keyframe construction and reporting, resolving property values when there are potential collisions in longhand property names presented some interesting challenges. </td></td>
 
-<td><td>As a bonus, CSS animations now report computed values when fetching keyframes, fixing an issue with the resolution of variable references.</td></td>
+<td><td rowspan=2>As a bonus, CSS animations now report computed values when fetching keyframes, fixing an issue with the resolution of variable references.</td></td>
 
-<td><td>The above <a href="https://codepen.io/kevers-google/full/wvGNBoL">demo</a> programmatically creates an animated overlay on the insert-inline-start property, which in turn maps to the physical property left, top or right depending on the writing system. Upwards of 60 logical properties can now be animated. </td></td>
+<td><td rowspan=2>The above <a href="https://codepen.io/kevers-google/full/wvGNBoL">demo</a> programmatically creates an animated overlay on the insert-inline-start property, which in turn maps to the physical property left, top or right depending on the writing system. Upwards of 60 logical properties can now be animated. </td></td>
 
 <td></tr></td>
 <td><tr></td>

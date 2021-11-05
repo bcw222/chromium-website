@@ -94,7 +94,7 @@ title: March 2020 - Web Animations, Scroll-linked Animations, Throughput Metrics
 <td></tr></td>
 <td><tr></td>
 
-<td><td>Taking the scenic route - fix CSS transition events after updating the effect</td></td>
+<td><td colspan=2>Taking the scenic route - fix CSS transition events after updating the effect</td></td>
 
 <td></tr></td>
 <td><tr></td>
@@ -148,44 +148,44 @@ title: March 2020 - Web Animations, Scroll-linked Animations, Throughput Metrics
 <td></tr></td>
 <td><tr></td>
 
-<td><td>Playing nicely together - CSS Animation / Web Animation API interactions</td></td>
+<td><td colspan=2>Playing nicely together - CSS Animation / Web Animation API interactions</td></td>
 
-<td><td><img alt="image" src="https://lh5.googleusercontent.com/AgXlDRi8AKQKKAxYgJ2SdFhDjIvVYtKe2d00lYtqS88DvxrkUUOP-rq7_X0dU9R6cSKKMgkQxiLA8JypElSTPRY5n35KlS5vP-UeTBEDOeksnGufimjfVM0G0fsMWQUfYybDnOLw" height=119 width=580></td></td>
+<td><td colspan=2><img alt="image" src="https://lh5.googleusercontent.com/AgXlDRi8AKQKKAxYgJ2SdFhDjIvVYtKe2d00lYtqS88DvxrkUUOP-rq7_X0dU9R6cSKKMgkQxiLA8JypElSTPRY5n35KlS5vP-UeTBEDOeksnGufimjfVM0G0fsMWQUfYybDnOLw" height=119 width=580></td></td>
 
-<td><td>This demo illustrates how AnimationEvent.updateTiming overrides properties set via CSS properties. The updateTiming API may be used to set/override one or more animation properties. A subsequent change via CSS animation properties must not replace values set via the API call. The override behavior is on a per-property basis.</td></td>
+<td><td colspan=2>This demo illustrates how AnimationEvent.updateTiming overrides properties set via CSS properties. The updateTiming API may be used to set/override one or more animation properties. A subsequent change via CSS animation properties must not replace values set via the API call. The override behavior is on a per-property basis.</td></td>
 
-<td><td>Resolve animation ordering issues with free vs markup bound animations</td></td>
+<td><td colspan=2>Resolve animation ordering issues with free vs markup bound animations</td></td>
 
-<td><td><img alt="image" src="https://lh4.googleusercontent.com/HNr4kbgj998Pe7W1MmP8PM7JvWnPhmOaezC3q4F8WJ7oX7F9LjJw2wm_6JCj3L4SNSWEMaipsGlOClXVyIapJJpv35kX8-zPpTuNiaNwScjH-jHxN0SnKbLrOuytmZrtuHadNNzv" height=249 width=453></td></td>
+<td><td colspan=2><img alt="image" src="https://lh4.googleusercontent.com/HNr4kbgj998Pe7W1MmP8PM7JvWnPhmOaezC3q4F8WJ7oX7F9LjJw2wm_6JCj3L4SNSWEMaipsGlOClXVyIapJJpv35kX8-zPpTuNiaNwScjH-jHxN0SnKbLrOuytmZrtuHadNNzv" height=249 width=453></td></td>
 
 <td></tr></td>
 <td><tr></td>
 
-<td><td>This example illustrates effect ordering and composite: add. Each rectangle starts with a pair of animations: a web animation (scale), and a CSS animation (rotation). As the CSS Animation has lower composite ordering, the resultant animation is “rotate then scale” which indicates the expected result from before. In the left rectangle, we grab a reference to the CSS Animation before cancelling (clearing the animation property). When the rotate animation is replayed, it is now a “free” animation and the ordering flips to be creation order: i.e. “scale then rotate”. Since scale and rotate operations are not commutative, we can find the end results are different from the left to right.</td></td>
+<td><td colspan=2>This example illustrates effect ordering and composite: add. Each rectangle starts with a pair of animations: a web animation (scale), and a CSS animation (rotation). As the CSS Animation has lower composite ordering, the resultant animation is “rotate then scale” which indicates the expected result from before. In the left rectangle, we grab a reference to the CSS Animation before cancelling (clearing the animation property). When the rotate animation is replayed, it is now a “free” animation and the ordering flips to be creation order: i.e. “scale then rotate”. Since scale and rotate operations are not commutative, we can find the end results are different from the left to right.</td></td>
 
-<td><td>--- To be continued ---</td></td>
+<td><td colspan=2>--- To be continued ---</td></td>
 
-<td><td>Special thanks to Rob (flackr@) and Majid (majidvp@) who reviewed 40+ non-trivial patches for the excellent work.</td></td>
+<td><td colspan=2>Special thanks to Rob (flackr@) and Majid (majidvp@) who reviewed 40+ non-trivial patches for the excellent work.</td></td>
 
-<td><td>Scroll-linked Animations</td></td>
+<td><td colspan=2>Scroll-linked Animations</td></td>
 
-<td><td>On the standardization front, Majid triaged all outstanding specification issues and identified <a href="https://github.com/w3c/csswg-drafts/milestone/6">12 of them</a> as P1 for the First Public Working Draft (FPWD). Rob proposed <a href="https://github.com/w3c/csswg-drafts/issues/4862">progress-based animations</a> for cleaner developer ergonomic (<a href="https://github.com/w3c/csswg-drafts/pull/4890">pull request</a>) getting rid of the arbitrary duration that is currently needed. And Olga (gerchiko@microsoft.com) drove the discussion on the inactive timeline spec <a href="https://github.com/w3c/csswg-drafts/issues/2066">issue</a> and proposed the timeline state <a href="https://edotor.net/">chart</a>.</td></td>
+<td><td colspan=2>On the standardization front, Majid triaged all outstanding specification issues and identified <a href="https://github.com/w3c/csswg-drafts/milestone/6">12 of them</a> as P1 for the First Public Working Draft (FPWD). Rob proposed <a href="https://github.com/w3c/csswg-drafts/issues/4862">progress-based animations</a> for cleaner developer ergonomic (<a href="https://github.com/w3c/csswg-drafts/pull/4890">pull request</a>) getting rid of the arbitrary duration that is currently needed. And Olga (gerchiko@microsoft.com) drove the discussion on the inactive timeline spec <a href="https://github.com/w3c/csswg-drafts/issues/2066">issue</a> and proposed the timeline state <a href="https://edotor.net/">chart</a>.</td></td>
 
-<td><td>On the implementation side, this sprint Yi (yigu@) added support for running scroll-linked animations on the compositor to free them from the <a href="https://codepen.io/yigu/full/ExjJVQr">busy main thread</a>, Majid <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2070673">landed</a> the initial patch IDL changes to support <a href="https://github.com/w3c/csswg-drafts/issues/4337">element-based scroll offset, and</a> Jordan (jortaylo@microsoft.com) added ScrollTimeline.phase which will be used specially to replace the fill mode.</td></td>
+<td><td colspan=2>On the implementation side, this sprint Yi (yigu@) added support for running scroll-linked animations on the compositor to free them from the <a href="https://codepen.io/yigu/full/ExjJVQr">busy main thread</a>, Majid <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2070673">landed</a> the initial patch IDL changes to support <a href="https://github.com/w3c/csswg-drafts/issues/4337">element-based scroll offset, and</a> Jordan (jortaylo@microsoft.com) added ScrollTimeline.phase which will be used specially to replace the fill mode.</td></td>
 
-<td><td><img alt="image" src="https://lh3.googleusercontent.com/1W1LxJTG6s7Znk7NhC_evWlDBQcxcSC9rAnT3iVPhyMDdFbte5t95MFGv5mjeeYcDgGpmKI40RVm370kDHCKlCKOYfXxtfiiSE5a5umWNf18l88HNyH5x0YvDSXJbww0hb_Jz1Oe" height=258 width=281><img alt="image" src="https://lh4.googleusercontent.com/Xj2XRYqsx2AL-quX7e2OYg3JmhJzzvONhBsZEPSImL_3HnP42tmS1hUn96J1RW1vi8wpDu-IfqAend__rYuE6Ulo1yYKrH0wc5RixwQ8t2USAzj6A3I4iHeyaSDkS4VyX4LfgSMQ" height=259 width=282></td></td>
+<td><td colspan=2><img alt="image" src="https://lh3.googleusercontent.com/1W1LxJTG6s7Znk7NhC_evWlDBQcxcSC9rAnT3iVPhyMDdFbte5t95MFGv5mjeeYcDgGpmKI40RVm370kDHCKlCKOYfXxtfiiSE5a5umWNf18l88HNyH5x0YvDSXJbww0hb_Jz1Oe" height=258 width=281><img alt="image" src="https://lh4.googleusercontent.com/Xj2XRYqsx2AL-quX7e2OYg3JmhJzzvONhBsZEPSImL_3HnP42tmS1hUn96J1RW1vi8wpDu-IfqAend__rYuE6Ulo1yYKrH0wc5RixwQ8t2USAzj6A3I4iHeyaSDkS4VyX4LfgSMQ" height=259 width=282></td></td>
 
-<td><td>Left: the animation becomes janky after adding artificial jank on the main thread.</td></td>
+<td><td colspan=2>Left: the animation becomes janky after adding artificial jank on the main thread.</td></td>
 
-<td><td>Right: the animation is composited therefore it’s still smooth with artificial jank.</td></td>
+<td><td colspan=2>Right: the animation is composited therefore it’s still smooth with artificial jank.</td></td>
 
-<td><td>Finally after sprints of hard work on the rather complex problem, Olga landed the scroll snapshotting <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2005629">work</a> to make the timeline invalidation correct and avoid<a href="https://docs.google.com/presentation/d/12UNGCTJybiL5gEMAGY2f-05WxXARvNz4k-RS02qgNuU/edit#slide=id.g740960215a_1_0"> potential layout cycles</a>. This was a ship-blocker! \\ o /</td></td>
+<td><td colspan=2>Finally after sprints of hard work on the rather complex problem, Olga landed the scroll snapshotting <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2005629">work</a> to make the timeline invalidation correct and avoid<a href="https://docs.google.com/presentation/d/12UNGCTJybiL5gEMAGY2f-05WxXARvNz4k-RS02qgNuU/edit#slide=id.g740960215a_1_0"> potential layout cycles</a>. This was a ship-blocker! \\ o /</td></td>
 
-<td><td>Frame Throughput Metrics</td></td>
+<td><td colspan=2>Frame Throughput Metrics</td></td>
 
-<td><td>Xida (xidachen@) made solid progress on refining high-level metrics to measure renderer performance this sprint.</td></td>
+<td><td colspan=2>Xida (xidachen@) made solid progress on refining high-level metrics to measure renderer performance this sprint.</td></td>
 
-<td><td>Thread throughput unification</td></td>
+<td><td colspan=2>Thread throughput unification</td></td>
 
 <td></tr></td>
 <td><tr></td>
@@ -201,9 +201,9 @@ title: March 2020 - Web Animations, Scroll-linked Animations, Throughput Metrics
 <td></tr></td>
 <td><tr></td>
 
-<td><td>Tracking the last frame</td></td>
+<td><td colspan=2>Tracking the last frame</td></td>
 
-<td><td>It’s possible that after a BeginImpl\[Main\]Frame is reported, the tracker is scheduled to terminate. e.g. an impl-frame could have started right before a sequence stops such as the end of a touch scroll. We will completely lose track of it under such circumstances. With Xida’s <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2079134">work</a>, we can now track the last BeginImplFrame and soon the last BeginMainFrame. </td></td>
+<td><td colspan=2>It’s possible that after a BeginImpl\[Main\]Frame is reported, the tracker is scheduled to terminate. e.g. an impl-frame could have started right before a sequence stops such as the end of a touch scroll. We will completely lose track of it under such circumstances. With Xida’s <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2079134">work</a>, we can now track the last BeginImplFrame and soon the last BeginMainFrame. </td></td>
 
 <td></tr></td>
 <td></table></td>

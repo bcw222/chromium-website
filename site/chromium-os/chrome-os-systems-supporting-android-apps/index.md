@@ -38,7 +38,7 @@ here](https://support.google.com/chromebook/answer/7021273).
 </tr>
 <tr>
 
-<td>Acer</td>
+<td rowspan=36>Acer</td>
 
 <td>Chromebook R11 (CB5-132T, C738T)</td>
 
@@ -292,7 +292,7 @@ here](https://support.google.com/chromebook/answer/7021273).
 </tr>
 <tr>
 
-<td>AOpen</td>
+<td rowspan=5>AOpen</td>
 
 <td>Chromebox Mini</td>
 
@@ -329,7 +329,7 @@ here](https://support.google.com/chromebook/answer/7021273).
 </tr>
 <tr>
 
-<td>Asus</td>
+<td rowspan=20>Asus</td>
 
 <td>Chromebook Flip C100PA</td>
 
@@ -480,7 +480,7 @@ here](https://support.google.com/chromebook/answer/7021273).
 </tr>
 <tr>
 
-<td>CTL</td>
+<td rowspan=10>CTL</td>
 
 <td>NL61 Chromebook</td>
 
@@ -552,7 +552,7 @@ here](https://support.google.com/chromebook/answer/7021273).
 </tr>
 <tr>
 
-<td>Dell</td>
+<td rowspan=11>Dell</td>
 
 <td>Chromebook 11 (3180)</td>
 
@@ -631,7 +631,7 @@ here](https://support.google.com/chromebook/answer/7021273).
 </tr>
 <tr>
 
-<td>eduGear</td>
+<td rowspan=4>eduGear</td>
 
 <td>Chromebook K Series</td>
 
@@ -661,7 +661,7 @@ here](https://support.google.com/chromebook/answer/7021273).
 </tr>
 <tr>
 
-<td>Edxis</td>
+<td rowspan=2>Edxis</td>
 
 <td>Education Chromebook</td>
 
@@ -677,7 +677,7 @@ here](https://support.google.com/chromebook/answer/7021273).
 </tr>
 <tr>
 
-<td>Google</td>
+<td rowspan=3>Google</td>
 
 <td>Chromebook Pixel (2015)</td>
 
@@ -700,7 +700,7 @@ here](https://support.google.com/chromebook/answer/7021273).
 </tr>
 <tr>
 
-<td>Haier</td>
+<td rowspan=4>Haier</td>
 
 <td>Chromebook 11e</td>
 
@@ -748,7 +748,7 @@ here](https://support.google.com/chromebook/answer/7021273).
 </tr>
 <tr>
 
-<td>HP</td>
+<td rowspan=17>HP</td>
 
 <td>Chromebook 11 G5 EE</td>
 
@@ -878,7 +878,7 @@ here](https://support.google.com/chromebook/answer/7021273).
 </tr>
 <tr>
 
-<td>Lenovo</td>
+<td rowspan=30>Lenovo</td>
 
 <td>Thinkpad 11e Chromebook (Gen 3)</td>
 
@@ -1090,7 +1090,7 @@ here](https://support.google.com/chromebook/answer/7021273).
 </tr>
 <tr>
 
-<td>Medion</td>
+<td rowspan=2>Medion</td>
 
 <td>Chromebook S2015</td>
 
@@ -1156,7 +1156,7 @@ here](https://support.google.com/chromebook/answer/7021273).
 </tr>
 <tr>
 
-<td>PCMerge</td>
+<td rowspan=3>PCMerge</td>
 
 <td>Chromebook PCM-116E</td>
 
@@ -1179,7 +1179,7 @@ here](https://support.google.com/chromebook/answer/7021273).
 </tr>
 <tr>
 
-<td>Poin2</td>
+<td rowspan=3>Poin2</td>
 
 <td>Chromebook 11</td>
 
@@ -1202,7 +1202,7 @@ here](https://support.google.com/chromebook/answer/7021273).
 </tr>
 <tr>
 
-<td>Positivo</td>
+<td rowspan=2>Positivo</td>
 
 <td>Chromebook CH1190</td>
 
@@ -1227,7 +1227,7 @@ here](https://support.google.com/chromebook/answer/7021273).
 </tr>
 <tr>
 
-<td>Prowise</td>
+<td rowspan=3>Prowise</td>
 
 <td>Chromebook Eduline</td>
 
@@ -1250,7 +1250,7 @@ here](https://support.google.com/chromebook/answer/7021273).
 </tr>
 <tr>
 
-<td>Samsung</td>
+<td rowspan=6>Samsung</td>
 
 <td>Chromebook Plus</td>
 
@@ -1294,7 +1294,7 @@ here](https://support.google.com/chromebook/answer/7021273).
 </tr>
 <tr>
 
-<td>Sector 5</td>
+<td rowspan=2>Sector 5</td>
 
 <td>E1 Rugged Chromebook</td>
 
@@ -1319,7 +1319,7 @@ here](https://support.google.com/chromebook/answer/7021273).
 </tr>
 <tr>
 
-<td>Toshiba</td>
+<td rowspan=2>Toshiba</td>
 
 <td>Chromebook 2 (2015)</td>
 
@@ -1353,7 +1353,7 @@ here](https://support.google.com/chromebook/answer/7021273).
 </tr>
 <tr>
 
-<td>Viglen</td>
+<td rowspan=3>Viglen</td>
 
 <td>Chromebook 11</td>
 

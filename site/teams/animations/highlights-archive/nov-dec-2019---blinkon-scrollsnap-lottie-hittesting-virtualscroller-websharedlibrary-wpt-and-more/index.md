@@ -74,9 +74,9 @@ title: Nov & Dec 2019
 <td></tr></td>
 <td><tr></td>
 
-<td><td>Animations team at BlinkOn 11</td></td>
+<td><td colspan=2>Animations team at BlinkOn 11</td></td>
 
-<td><td>The animations team presented 3 breakout sessions and 4 lighting talks at BlinkOn 11. See below for details.</td></td>
+<td><td colspan=2>The animations team presented 3 breakout sessions and 4 lighting talks at BlinkOn 11. See below for details.</td></td>
 
 <td></tr></td>
 <td><tr></td>

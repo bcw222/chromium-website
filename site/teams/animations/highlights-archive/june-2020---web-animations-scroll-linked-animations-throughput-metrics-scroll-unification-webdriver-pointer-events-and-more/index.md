@@ -58,35 +58,35 @@ title: June 2020 - Web Animations, Scroll-linked Animations, Throughput Metrics,
 <td><table></td>
 <td><tr></td>
 
-<td><td>A better fps meter</td></td>
+<td><td colspan=2>A better fps meter</td></td>
 
-<td><td>xidachen@ has been working on measuring renderer’s smoothness and developed <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2244002">a better fps meter</a> that reflects smoothness. This new-looking fps meter is available on canary.</td></td>
+<td><td colspan=2>xidachen@ has been working on measuring renderer’s smoothness and developed <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2244002">a better fps meter</a> that reflects smoothness. This new-looking fps meter is available on canary.</td></td>
 
-<td><td><img alt="image" src="https://lh4.googleusercontent.com/7X6mpuYlg8ai4-U3yphi45I7mEFYKW74K27X_2ekbw-_TXxaY51pIQ9elyjSu2tIzFlTmo8KFdIXrv56tTq_XS1US1Dl7_SUMK9U3PYFxA8X43nsq5vdmMLq4Xshjxd4rAqJ0OleEw" height=439 width=580></td></td>
+<td><td colspan=2><img alt="image" src="https://lh4.googleusercontent.com/7X6mpuYlg8ai4-U3yphi45I7mEFYKW74K27X_2ekbw-_TXxaY51pIQ9elyjSu2tIzFlTmo8KFdIXrv56tTq_XS1US1Dl7_SUMK9U3PYFxA8X43nsq5vdmMLq4Xshjxd4rAqJ0OleEw" height=439 width=580></td></td>
 
-<td><td>Improved throughput UKM</td></td>
+<td><td colspan=2>Improved throughput UKM</td></td>
 
-<td><td>In the last sprint, we <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2112953">changed</a> the UKM reporting logic such that we report the median throughput of a page, which better reflects users’ browsing experience. Following graph shows the UKM curve where the red arrow points to the date when our change is landed.</td></td>
+<td><td colspan=2>In the last sprint, we <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2112953">changed</a> the UKM reporting logic such that we report the median throughput of a page, which better reflects users’ browsing experience. Following graph shows the UKM curve where the red arrow points to the date when our change is landed.</td></td>
 
-<td><td><img alt="image" src="https://docs.google.com/drawings/u/0/d/sy-viUUomGinfT8KjKYZiDQ/image" height=335 width=270></td></td>
+<td><td colspan=2><img alt="image" src="https://docs.google.com/drawings/u/0/d/sy-viUUomGinfT8KjKYZiDQ/image" height=335 width=270></td></td>
 
-<td><td>Scroll-linked animations</td></td>
+<td><td colspan=2>Scroll-linked animations</td></td>
 
-<td><td>flackr@ made a lot of progress and discussions on <a href="https://github.com/w3c/csswg-drafts/pull/4890">progress-based animations</a>, particularly focused on procedure for converting time based animations. With this, developers won’t need to specify an arbitrary time duration for the animation:</td></td>
+<td><td colspan=2>flackr@ made a lot of progress and discussions on <a href="https://github.com/w3c/csswg-drafts/pull/4890">progress-based animations</a>, particularly focused on procedure for converting time based animations. With this, developers won’t need to specify an arbitrary time duration for the animation:</td></td>
 
-<td><td><img alt="image" src="https://lh5.googleusercontent.com/pexwnQ-nbMSOhhDhEjfSJKinMbjJxbW3lLZWHk2DN4dl5vAJMEyZriNbYgFjAZ4lEMFXXZrXdTmHO6nkTYLwtn9aqws7V_yKfxYllK500DtZCB6kQJUVyK-7IpJ9RKP-xEhL8TspMw" height=124 width=408></td></td>
+<td><td colspan=2><img alt="image" src="https://lh5.googleusercontent.com/pexwnQ-nbMSOhhDhEjfSJKinMbjJxbW3lLZWHk2DN4dl5vAJMEyZriNbYgFjAZ4lEMFXXZrXdTmHO6nkTYLwtn9aqws7V_yKfxYllK500DtZCB6kQJUVyK-7IpJ9RKP-xEhL8TspMw" height=124 width=408></td></td>
 
-<td><td>Scroll unification</td></td>
+<td><td colspan=2>Scroll unification</td></td>
 
-<td><td>lanwei@ <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2171955">replaced</a> eventsender with gpuBenchmarking.smoothScrollByXY (<a href="https://docs.google.com/spreadsheets/d/17NdL_750nAk51FN-dUprUNpBsp0_QCZZwKFJGENMXPE/">test list</a> 12/62 remaining)</td></td>
+<td><td colspan=2>lanwei@ <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2171955">replaced</a> eventsender with gpuBenchmarking.smoothScrollByXY (<a href="https://docs.google.com/spreadsheets/d/17NdL_750nAk51FN-dUprUNpBsp0_QCZZwKFJGENMXPE/">test list</a> 12/62 remaining)</td></td>
 
-    <td><td>Unblocks scroll unification, because after we finish the scroll
-    unification, the scrolls happens mainly on the compositor thread, and the
-    scroll code in the main thread will be</td></td>
+    <td><td colspan=2>Unblocks scroll unification, because after we finish the
+    scroll unification, the scrolls happens mainly on the compositor thread, and
+    the scroll code in the main thread will be</td></td>
 
-<td><td>removed. eventSender sends the scroll events to the main thread, so it would not work after the scroll unification. (<a href="https://bugs.chromium.org/p/chromium/issues/detail">Issue</a>)</td></td>
+<td><td colspan=2>removed. eventSender sends the scroll events to the main thread, so it would not work after the scroll unification. (<a href="https://bugs.chromium.org/p/chromium/issues/detail">Issue</a>)</td></td>
 
-    <td><td>Tests full event delivery path</td></td>
+    <td><td colspan=2>Tests full event delivery path</td></td>
 
 <td></tr></td>
 <td></table></td>

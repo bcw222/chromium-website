@@ -558,7 +558,7 @@ Last Update: 1 November 2021
 <td>CTL-4100WL, CTL-6100WL</td>
 </tr>
 <tr>
-<td>Wall Charger</td>
+<td colspan=2>Wall Charger</td>
 </tr>
 <tr>
 <td>Anker</td>
@@ -606,7 +606,7 @@ Last Update: 1 November 2021
 <td>WCH002dqWH</td>
 </tr>
 <tr>
-<td>Adapter</td>
+<td colspan=2>Adapter</td>
 </tr>
 <tr>
 <td>Belkin</td>
@@ -704,7 +704,7 @@ Last Update: 1 November 2021
 <td>USB3-AFCM01NBK</td>
 </tr>
 <tr>
-<td>Cable</td>
+<td colspan=2>Cable</td>
 </tr>
 <tr>
 <td>Anker</td>
@@ -912,7 +912,7 @@ Last Update: 1 November 2021
 <td>USB3-CCP10NBK</td>
 </tr>
 <tr>
-<td>Gaming Controller</td>
+<td colspan=2>Gaming Controller</td>
 </tr>
 <tr>
 <td>Google</td>
@@ -940,7 +940,7 @@ Last Update: 1 November 2021
 <td>JC-U4113SBK</td>
 </tr>
 <tr>
-<td>Gaming Headset</td>
+<td colspan=2>Gaming Headset</td>
 </tr>
 <tr>
 <td>Steel Series</td>
@@ -948,7 +948,7 @@ Last Update: 1 November 2021
 <td>61503</td>
 </tr>
 <tr>
-<td>Gaming Mouse</td>
+<td colspan=2>Gaming Mouse</td>
 </tr>
 <tr>
 <td>Steel Series</td>

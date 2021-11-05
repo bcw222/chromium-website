@@ -366,8 +366,14 @@ class Table(TextBlock):
 
 
 class TD(Text):
-  def __init__(self):
-    super().__init__(indent='', prefix='<td>', suffix='</td>')
+  def __init__(self, rowspan, colspan):
+    prefix = '<td'
+    if rowspan and str(rowspan) != '1':
+        prefix += ' rowspan=%s' % rowspan
+    if colspan and str(colspan) != '1':
+        prefix += ' colspan=%s' % colspan
+    prefix += '>'
+    super().__init__(indent='', prefix=prefix, suffix='</td>')
 
 
 class Content(TextBlock):
@@ -1141,7 +1147,7 @@ class MarkdownGenerator:
     if self._IsWithinFragmentType(Table):
       self._AddHTMLBlock('</tr>')
 
-  def StartTD(self, cls):
+  def StartTD(self, cls, rowspan, colspan):
     if self._LastFragmentIs(Div, cls='two-column-container'):
       if cls and ('sites-tile-name-content-1' in cls or
                   'sites-tile-name-content-2' in cls):
@@ -1150,7 +1156,7 @@ class MarkdownGenerator:
       else:
         self._Push(Text())
     elif self._IsWithinFragmentType(Table):
-      self._Push(TD())
+      self._Push(TD(rowspan, colspan))
 
   def EndTD(self):
     if self._LastFragmentIs(Div, cls='column'):
@@ -1276,7 +1282,9 @@ class XhtmlHandler(xml.sax.ContentHandler):
     elif tag == 'tr':
       self._generator.StartTR()
     elif tag == 'td':
-      self._generator.StartTD(attrs.get((None, 'class')))
+      self._generator.StartTD(attrs.get((None, 'class')),
+                              attrs.get((None, 'rowspan')),
+                              attrs.get((None, 'colspan')))
     else:
       match = self._HEADER_TAG_RE.match(tag)
       if match:

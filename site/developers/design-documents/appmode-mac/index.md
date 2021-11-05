@@ -182,7 +182,7 @@ have the shortcut be a full copy of the Chromium application.
 
 <table>
 <tr>
-<td><b>UI</b></td>
+<td colspan=4><b>UI</b></td>
 </tr>
 <tr>
 <td>*Proposal*</td>
@@ -213,7 +213,7 @@ have the shortcut be a full copy of the Chromium application.
 
 <table>
 <tr>
-<td><b>Technical</b></td>
+<td colspan=4><b>Technical</b></td>
 </tr>
 <tr>
 <td>*Proposal*</td>

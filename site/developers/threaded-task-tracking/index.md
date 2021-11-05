@@ -406,7 +406,7 @@ Count\*\* Total run time Avg run time Max run time Avg queue time Max queue time
 <td><a href="http://chromesrc.appspot.com/">task_manager.cc \[971\]</a></td>
 </tr>
 <tr>
-<td>1194 rows (1184 hidden) Show noneShow moreShow all</td>
+<td colspan=12>1194 rows (1184 hidden) Show noneShow moreShow all</td>
 </tr>
 </table>
 
