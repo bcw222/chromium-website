@@ -10,6 +10,31 @@ page_name: releasenotes
 title: MobLab Release Notes
 ---
 
+Nov 4th 2021: Moblab Update
+
+**\*\*\*You should reboot your Moblab when next not running tests to get this
+latest version of the software.\*\*\***
+
+**You should reboot your Moblab to get the latest version of the software.
+==Make sure no tests are running or scheduled==. This update only includes an
+update to the Moblab software; after the update you will be running Moblab
+version R-2.13.0.**
+
+# Highlights
+
+    Added ability to access test images from the Moblab UI;
+
+    Various improvements;
+
+## UI - Manage DUTs
+
+    When connected DUT does not have test image the user will be given a link to
+    copy a test image into the partner's bucket.
+
+## Other
+
+Various bug fixes and improvements.
+
 Sep 30th 2021: Moblab Update
 
 **\*\*\*You should reboot your Moblab when next not running tests to get this
