@@ -24,40 +24,41 @@ EXEs. The tools are:
             SizeBench. Note that SizeBench is incompatible with lld-link so you
             have to build chrome with "use_lld = false", and so far has not
             worked at all.
-*   tools\\win\\ShowGlobals - this executable (must be built from a VS
-            solution) uses DIA2 (and is based off of the dia2dump sample whose
-            source comes with Visual Studio) to print all ‘interesting’ global
-            variables. Just pass the path to a PDB file and details about any
-            large or redundant global variables will be printed. Large global
-            variables are simple enough to understand. Redundant or repeated
-            global variables are when the same global ends up in the binary
-            multiple times - sometimes dozens or hundreds of times. This happens
-            when a non-integral global variable (typically a struct, array,
-            float, or double, or an integral type with a non-trivial
-            constructor) is defined as static or const in a header file, causing
-            it to be instantiated in multiple translation units. The constants
-            kWastageThreshold and kBigSizeThreshold can be used to configure how
-            much information ShowGlobals reports. Making these command-line
-            parameters is left as an exercise for the reader.
-*   tools\\win\\pdb_compare_globals.py - this uses ShowGlobals.exe to
-            get the interesting global variables from two PE files and then
-            print what has changed, either different sizes or different
-            interesting globals. This is designed for understanding size
-            regressions, since binary size regressions, even when they are
-            mostly due to code size, often have a correlated effect on global
-            variables
-*   tools\\win\\pe_summarize.py - this displays a summary of the size of
-            the sections in the DLLs or EXEs whose paths are passed to it. If
-            two copies of the same DLL/EXE are passed to it then the size
-            differences are printed as a summary, to make regressions and
-            improvements easier to see. This is most often used for measuring
-            progress or seeing what section has grown.
-*   tools\\win\\linker_verbose_tracking.py - this scans the output of
-            "link /verbose" in order to see why a particular object file was
-            linked in. This can either be because it was listed on the command
-            line (perhaps it was in a source set) or because it was referenced
-            (often indirectly) by an object file that was listed on the command
-            line.
+*   [tools\\win\\ShowGlobals](https://source.chromium.org/chromium/chromium/src/+/main:tools/win/ShowGlobals/)
+            - this executable (must be built from a VS solution) uses DIA2 (and
+            is based off of the dia2dump sample whose source comes with Visual
+            Studio) to print all ‘interesting’ global variables. Just pass the
+            path to a PDB file and details about any large or redundant global
+            variables will be printed. Large global variables are simple enough
+            to understand. Redundant or repeated global variables are when the
+            same global ends up in the binary multiple times - sometimes dozens
+            or hundreds of times. This happens when a non-integral global
+            variable (typically a struct, array, float, or double, or an
+            integral type with a non-trivial constructor) is defined as static
+            or const in a header file, causing it to be instantiated in multiple
+            translation units. The constants kWastageThreshold and
+            kBigSizeThreshold can be used to configure how much information
+            ShowGlobals reports. Making these command-line parameters is left as
+            an exercise for the reader.
+*   [tools\\win\\pdb_compare_globals.py](https://source.chromium.org/chromium/chromium/src/+/main:tools/win/pdb_compare_globals.py)
+            - this uses ShowGlobals.exe to get the interesting global variables
+            from two PE files and then print what has changed, either different
+            sizes or different interesting globals. This is designed for
+            understanding size regressions, since binary size regressions, even
+            when they are mostly due to code size, often have a correlated
+            effect on global variables
+*   [tools\\win\\pe_summarize.py](https://source.chromium.org/chromium/chromium/src/+/main:tools/win/pe_summarize.py)
+            - this displays a summary of the size of the sections in the DLLs or
+            EXEs whose paths are passed to it. If two copies of the same DLL/EXE
+            are passed to it then the size differences are printed as a summary,
+            to make regressions and improvements easier to see. This is most
+            often used for measuring progress or seeing what section has grown.
+*   [tools\\win\\linker_verbose_tracking.py](https://source.chromium.org/chromium/chromium/src/+/main:tools/win/linker_verbose_tracking.py)
+            - this scans the output of "link /verbose" in order to see why a
+            particular object file was linked in. This can either be because it
+            was listed on the command line (perhaps it was in a source set) or
+            because it was referenced (often indirectly) by an object file that
+            was listed on the command line.
 *   SymbolSort - this is a third party tool [available on
             github](https://github.com/adrianstone55/SymbolSort/) that generates
             various reports, including a sorted-by-size list of all symbols,
