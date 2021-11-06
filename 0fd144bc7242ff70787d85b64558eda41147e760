@@ -33,6 +33,24 @@
       "message": "Do you think we want to let style attributes through? Or do you think it\u0027s too specific to the old site and let\u0027s just start clean?",
       "revId": "0fd144bc7242ff70787d85b64558eda41147e760",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "50ea6059_f549b0bb",
+        "filename": "scripts/html2markdown.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 1285,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-06T21:25:16Z",
+      "side": 1,
+      "message": "Good question. I would prefer to avoid inline styles because they allow you to bypass the main stylesheet and make it harder to keep a consistent look and feel.\n\nFor now, I think we should skip them. You can still specify \u0027class\u0027 and we can add custom rules to the stylesheet, it\u0027ll just be a bit more obvious.\n\nIf people come up with a compelling case for inline styles we can certainly add them.",
+      "parentUuid": "52e23bf4_7f8b7495",
+      "revId": "0fd144bc7242ff70787d85b64558eda41147e760",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
