@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "25505c28_9ea6e915",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1419102
+      },
+      "writtenOn": "2021-11-06T03:48:31Z",
+      "side": 1,
+      "message": "LGTM",
+      "revId": "0fd144bc7242ff70787d85b64558eda41147e760",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "52e23bf4_7f8b7495",
+        "filename": "scripts/html2markdown.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 1285,
+      "author": {
+        "id": 1419102
+      },
+      "writtenOn": "2021-11-06T03:48:31Z",
+      "side": 1,
+      "message": "Do you think we want to let style attributes through? Or do you think it\u0027s too specific to the old site and let\u0027s just start clean?",
+      "revId": "0fd144bc7242ff70787d85b64558eda41147e760",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
