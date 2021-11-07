@@ -1,0 +1,109 @@
+<html>
+  <head>
+  <style>
+    form {
+      margin: 10px;
+    }
+
+    input#path {
+      width: 400px;
+    }
+
+    #pages-container {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    #pages-container > div {
+      flex: 50%;
+      margin: 10px;
+      height: 960px;
+    }
+
+    #pages-container iframe {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+  </head>
+  <body>
+      <form id='nav' action='/'>
+        Page <input id='page-number' type='text' value=0 /> of <span id='pages'>0</span>:
+        <input id='path' type='text' value='/chromium-projects' />
+        <button id='back'>Back</button>
+        <button id='forward'>Forward</button>
+      </form>
+    <div id='pages-container'>
+      <div>
+        <h3>Old</h3>
+        <iframe src='/chromium-projects'></iframe>
+      </div>
+      <div>
+        <h3>New</h3>
+        <iframe src='/chromium-projects'></iframe>
+      </div>
+    </div>
+  <script>
+    (function () {
+      let pages = [
+            '/chromium-projects',
+            '/developers',
+            '/Home',
+            '/chromium-os',
+          ];
+      let current_page = 0;
+      let container = document.getElementById('pages-container');
+      let page_number = document.getElementById('page-number');
+      let path = document.getElementById('path');
+      let currentHeight = 0;
+      document.getElementById('pages').innerText = pages.length;
+
+      document.getElementById('nav').onsubmit = function(evt) {
+            evt.preventDefault();
+            return false;
+          };
+
+      function jumpToPage() {
+        let iframes = document.querySelectorAll('#pages-container iframe');
+        iframes[0].src = '/originals' + pages[current_page];
+        iframes[1].src = pages[current_page];
+        page_number.value = current_page;
+        path.value = pages[current_page];
+      };
+
+      function adjustHeight() {
+        let iframes = document.querySelectorAll('#pages-container iframe');
+        let left_ht = iframes[0].contentWindow.document.body.offsetHeight,
+            right_ht = iframes[1].contentWindow.document.body.offsetHeight;
+        if (left_ht && right_ht) {
+          ht = (left_ht > right_ht) ? left_ht : right_ht;
+        }
+        iframes[0].style.height = ht + 'px';
+        iframes[1].style.height = ht + 'px';
+        setTimeout(adjustHeight, 100);
+      }
+
+      jumpToPage();
+      adjustHeight();
+
+      document.getElementById('back').onclick = function(el) {
+        current_page -= 1;
+        if (current_page < 0) {
+          current_page = pages.length - 1;
+        }
+        jumpToPage();
+        el.preventDefault();
+        return false;
+      };
+      document.getElementById('forward').onclick = function(el) {
+        current_page += 1;
+        if (current_page >= pages.length) {
+          current_page = 0;
+        }
+        jumpToPage();
+        el.preventDefault();
+        return false;
+      };
+    })();
+  </script>
+
