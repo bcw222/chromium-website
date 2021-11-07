@@ -1,0 +1,125 @@
+<html>
+  <head>
+  <style>
+    form {
+      margin: 10px;
+    }
+
+    input#path {
+      width: 400px;
+    }
+
+    #pages-container {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    #pages-container > div {
+      flex: 50%;
+      margin: 10px;
+      height: 960px;
+    }
+
+    #pages-container iframe {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+  </head>
+  <body>
+      <form id='nav' action='/'>
+        Page <input id='page-number' type='text' value=0 /> of <span id='pages'>0</span>:
+        <input id='path' type='text' value='/chromium-projects' />
+        <button id='back'>Back</button>
+        <button id='forward'>Forward</button>
+      </form>
+    <div id='pages-container'>
+      <div>
+        <h3>Old</h3>
+        <iframe src='/chromium-projects'></iframe>
+      </div>
+      <div>
+        <h3>New</h3>
+        <iframe src='/chromium-projects'></iframe>
+      </div>
+    </div>
+  <script>
+    fetch('/pages.json').
+      then(resp => resp.blob()).
+      then(blob => blob.text()).
+      then(
+        function (text) {
+          let pages = JSON.parse(text);
+          let current_page = 0;
+          let container = document.getElementById('pages-container');
+          let page_number = document.getElementById('page-number');
+          let path = document.getElementById('path');
+          let currentHeight = 0;
+
+          document.getElementById('page-number').onchange = function(evt) {
+            updateLocation(page_number.value);
+            evt.preventDefault();
+            return false;
+          }
+          document.getElementById('pages').innerText = pages.length;
+          document.getElementById('back').onclick = function(el) {
+            current_page -= 1;
+            updateLocation(current_page);
+            el.preventDefault();
+            return false;
+          };
+          document.getElementById('forward').onclick = function(el) {
+            current_page += 1;
+            updateLocation(current_page);
+            el.preventDefault();
+            return false;
+          };
+          document.getElementById('nav').onsubmit = function(evt) {
+            evt.preventDefault();
+            return false;
+          };
+
+          function updateLocation(page) {
+            if (page) {
+              current_page = parseInt(page);
+              if (isNaN(current_page)) {
+                let idx = pages.indexOf(page);
+                if (idx != -1) {
+                  current_page = idx;
+                } else {
+                  current_page = 0;
+                }
+              } else if (current_page > pages.length) {
+                current_page = 1;
+              } else if (current_page < 1) {
+                current_page = pages.length;
+              }
+
+              page_number.value = current_page;
+              path.value = pages[current_page - 1];
+              window.history.pushState({}, '', 'compare.html?page=' + path.value);
+              let iframes = document.querySelectorAll('#pages-container iframe');
+              iframes[0].src = '/originals' + path.value;
+              iframes[1].src = path.value;
+            }
+          }
+
+          function adjustHeight() {
+            let iframes = document.querySelectorAll('#pages-container iframe');
+            let left_ht = iframes[0]?.contentWindow?.document?.body?.offsetHeight,
+                right_ht = iframes[1]?.contentWindow?.document?.body?.offsetHeight;
+            let ht;
+            if (left_ht && right_ht) {
+              ht = (left_ht > right_ht) ? left_ht : right_ht;
+              iframes[0].style.height = ht + 'px';
+              iframes[1].style.height = ht + 'px';
+            }
+            setTimeout(adjustHeight, 100);
+          }
+
+          let page = new URL(document.location).searchParams.get("page");
+          updateLocation(page);
+          adjustHeight();
+        });
+  </script>
+
