@@ -83,7 +83,7 @@ def to_path(page, top=SITE_DIR, ext='.md'):
         return page + '/index' + ext
     if os.path.exists(top + page):
         return page
-    if os.path.exists(top + page + ext):
+    if ext and os.path.exists(top + page + ext):
         return page + ext
     return page
 
