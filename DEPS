@@ -29,6 +29,12 @@ allowed_hosts = [
 
 use_relative_paths = True
 
+vars = {
+  # Download the scraped copy of the old site so we can compare new and
+  # old pages easily.
+  'download_old_site': True,
+}
+
 deps = {
 }
 
@@ -88,6 +94,17 @@ hooks = [
     'pattern': '.',
     'action': [ 'python3',
                 'scripts/fetch_node_modules.py'
+    ],
+  },
+  {
+    'name': 'download_originals',
+    'pattern': '.',
+    'condition': 'download_originals',
+    'action': [ 'download_from_google_storage',
+                '--no_resume',
+                '--no_auth',
+                '--bucket', 'chromium-website-lob-storage',
+                '-s', 'old_site.tar.gz.sha1',
     ],
   },
 ]
