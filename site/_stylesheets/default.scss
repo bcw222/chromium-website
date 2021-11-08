@@ -276,3 +276,29 @@ header {
     }
   }
 }
+
+// For compare.html.
+#pagebar {
+   margin: 10px; 
+
+   input#path {
+     width: 400px;
+   }
+}
+#pages-container {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+
+  > div {
+     flex: 50%;
+     margin: 10px;
+     height: 960px;
+   }
+
+  iframe {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+  }
+}
