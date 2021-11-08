@@ -276,3 +276,39 @@ header {
     }
   }
 }
+
+// For compare
+#page-selector {
+  margin: 10px;
+  float: right;
+}
+
+#pagebar {
+   margin: 10px; 
+
+   input#path {
+     width: 400px;
+   }
+}
+
+#pages-container {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+
+  > div {
+     flex: 50%;
+     margin: 10px;
+     height: 960px;
+   }
+
+  #new-page > div {
+    border: 1px solid black;
+  }
+
+  iframe {
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+  }
+}

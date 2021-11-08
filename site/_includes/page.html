@@ -15,6 +15,28 @@ use_title_as_h1: true
 <link rel="stylesheet" type="text/css" href="/_stylesheets/default.css" />
 </head>
 <body>
+{%- if compare %}
+<div id="page-selector">
+<form>
+  <label>View: </label>
+  <input type="radio" id="both" name="display" value="both">
+  Both
+  <input type="radio" id="old" name="display" value="old">
+  Old
+  <input type="radio" id="new" name="display" value="new" checked>
+  New
+</form>
+</div>
+<div id='pages-container'>
+<div id='old-page'>
+<h3>Old</h3>
+<iframe>
+</iframe>
+</div>
+<div id='new-page'>
+<h3>New</h3>
+<div>
+{%- endif %}
 <header>
   <div id="header-left">
     <a href="/" id="userheader-logo">
@@ -83,6 +105,58 @@ use_title_as_h1: true
 {{content}}
   </main>
 </div>
+{%- if compare %}
+</div>
+</div>
+</div>
+<script>
+  (function() {
+    document.getElementById('old').onchange = showOld;
+    document.getElementById('new').onchange = showNew;
+    document.getElementById('both').onchange = showBoth;
+
+    function showOld(evt) {
+      document.getElementById('old-page').style = 'display: block';
+      document.getElementById('new-page').style = 'display: none';
+    }
+    function showNew(evt) {
+      document.getElementById('old-page').style = 'display: none';
+      document.getElementById('new-page').style = 'display: block';
+    }
+    function showBoth(evt) {
+      document.getElementById('old-page').style = 'display: block';
+      document.getElementById('new-page').style = 'display: block';
+    }
+    function adjustHeight() {
+      let old_el = document.querySelector('#pages-container iframe');
+      let new_el = document.querySelector('#new-page');
+      let old_ht = old_el?.contentWindow?.document?.body?.offsetHeight || 0;
+      let new_ht = new_el.offsetHeight || 0;
+      let ht;
+      ht = (old_ht > new_ht) ? old_ht : new_ht;
+      old_el.style.height = ht + 'px';
+      new_el.style.height = ht + 'px';
+      setTimeout(adjustHeight, 100);
+    }
+
+    let loc = new URL(document.location);
+    let iframe = document.querySelector('#pages-container iframe');
+
+    iframe.src = '/originals' + loc.pathname;
+
+    let view = loc.searchParams.get('view') || 'new';
+    document.getElementById(view).checked = true;
+    if (view === 'new') {
+        showNew();
+    } else if (view === 'old') {
+        showOld();
+    } else if (view === 'both') {
+        showBoth();
+    }
+    adjustHeight();
+  })();
+</script>
+{%- endif %}
 </body>
 {%- endif %}
 </html>
