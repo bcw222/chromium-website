@@ -47,11 +47,14 @@ module.exports = config => {
   // rid of the "basically". There has to be a better approach. :).
   let extensions = lob_extensions.concat([
     '.cpp',
+    '.css',
     '.csv',
     '.dot',
     '.ebuild',
     '.el',
     '.html',
+    '.js',
+    '.json',
     'patch',
     '.py',
     '.txt',
