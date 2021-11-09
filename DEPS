@@ -90,4 +90,16 @@ hooks = [
                 'scripts/fetch_node_modules.py'
     ],
   },
+  {
+    'name': 'fetch_lobs',
+    'pattern': '.',
+    'action': [ 'download_from_google_storage',
+                '--no_resume',
+                '--no_auth',
+                '--bucket', 'chromium-website-lob-storage',
+                '-d', 'site',
+                '--recursive',
+                '-t', '16',
+    ],
+  },
 ]
