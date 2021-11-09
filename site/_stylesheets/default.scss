@@ -126,6 +126,20 @@ header {
       text-decoration: underline;
     }
   }
+
+  a.edit_link {
+    background-color: #5a70a6;
+    color: white;
+    border: 1px solid #ccc;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 20px auto;
+    padding: 6px 12px;
+    width: 90%;
+    text-align: center;
+    text-decoration: none;
+  }
 }
 
 #main-content {
