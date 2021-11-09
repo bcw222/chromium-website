@@ -52,6 +52,8 @@ module.exports = config => {
     '.ebuild',
     '.el',
     '.html',
+    '.js',
+    '.json',
     'patch',
     '.py',
     '.txt',
