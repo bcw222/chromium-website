@@ -276,3 +276,66 @@ header {
     }
   }
 }
+
+// Page selector / comparison header bar styles.
+#selector {
+  background-color: #5a70a6;
+  color: white;
+  font-size: 14px;
+  padding: 9px;
+  height: 36px;
+
+  a {
+    color: white;
+    margin-left: 24px;
+  }
+
+  button {
+    background-color: #03194f;
+    border-width: 0px;
+    color: white;
+    padding: 3px 9px;
+    font-size: 12px;
+  }
+
+  button.selected {
+    background-color: white;
+    color: #03194f;
+  }
+
+  #selector-page {
+    float: left;
+
+    #page-number {
+      width: 3em;
+    }
+
+    #path {
+      width: 40em;
+    }
+  }
+
+  #selector-version {
+    float: right;
+  }
+}
+
+#pages-container {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+
+  > div {
+    flex: 50%;
+
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  #old-page {
+    display: none;
+    height: 100%;
+  }
+}
