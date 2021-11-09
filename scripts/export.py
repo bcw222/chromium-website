@@ -99,11 +99,13 @@ def main():
     q = common.JobQueue(_handle_entry, common.cpu_count())
 
     paths_to_export = set(paths_to_export)
+    exported_pages = set()
     for i, entry in enumerate(list(entries.values())[:args.max_results]):
         if entry['kind'] in ('webpage', 'listpage',
                              'announcementspage', 'filecabinet'):
             metadata = _metadata(entry, entries, parents)
             path = _path(entry, entries, parents)
+            exported_pages.add(path.rstrip('/') or '/')
         elif entry['kind'] == 'attachment':
             metadata = {}
             path = entry['url'].replace(
@@ -121,6 +123,10 @@ def main():
         if did_update:
             updated += 1
 
+    if ret == 0:
+        common.write_text_file(
+            os.path.join(common.SITE_DIR, 'pages.json'),
+                         json.dumps(sorted(exported_pages), indent=2) + '\n')
     print('updated %d entries' % updated)
     return ret
 
