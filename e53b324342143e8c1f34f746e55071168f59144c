@@ -120,6 +120,24 @@
       "message": "Unused variable?",
       "revId": "e53b324342143e8c1f34f746e55071168f59144c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "39b09d95_10a92b59",
+        "filename": "site/_scripts/selector.js",
+        "patchSetId": 15
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-09T20:07:22Z",
+      "side": 1,
+      "message": "Ah, you\u0027re right. Good catch, will remove.",
+      "parentUuid": "e6ef8439_883ba06a",
+      "revId": "e53b324342143e8c1f34f746e55071168f59144c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
