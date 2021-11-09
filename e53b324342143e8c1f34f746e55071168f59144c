@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "53b6cb13_fed7853e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 15
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-09T19:07:33Z",
+      "side": 1,
+      "message": "Apologies, this CL is a bit longer than I would normally like to send.\n\nFor some reason this version (patchset #15) doesn\u0027t seem to deploy cleanly, so I can\u0027t point you at what this actually looks like.\n\nI\u0027m still looking into that, but hopefully the code and CL description will \nbe clear enough.",
+      "revId": "e53b324342143e8c1f34f746e55071168f59144c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "94284cc5_dc587c8f",
+        "filename": "site/_includes/page.html",
+        "patchSetId": 15
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-09T19:07:33Z",
+      "side": 1,
+      "message": "The script tag above and this \u003cdiv\u003e are the big changes. In theory, it\u0027d be\ncleaner if I dynamically added this div to the page once we\u0027ve fetched the\nlist of pages (to avoid a flash of incorrect content), but I haven\u0027t gotten\nto that yet.",
+      "revId": "e53b324342143e8c1f34f746e55071168f59144c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d35e31a3_2186e87b",
+        "filename": "site/_includes/page.html",
+        "patchSetId": 15
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-09T19:07:33Z",
+      "side": 1,
+      "message": "Most of the rest of these diffs are just Git getting confused by the re-indentation.",
+      "revId": "e53b324342143e8c1f34f746e55071168f59144c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
