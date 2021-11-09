@@ -90,4 +90,15 @@ hooks = [
                 'scripts/fetch_node_modules.py'
     ],
   },
+  {
+    'name': 'download_originals',
+    'pattern': '.',
+    'condition': 'download_originals',
+    'action': [ 'download_from_google_storage',
+                '--no_resume',
+                '--no_auth',
+                '--bucket', 'chromium-website-lob-storage',
+                '-s', 'originals.tar.gz.sha1',
+    ],
+  },
 ]
