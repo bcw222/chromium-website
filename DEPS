@@ -102,4 +102,11 @@ hooks = [
                 '-t', '16',
     ],
   },
+  {
+    'name': 'fetch_originals',
+    'pattern': '.',
+    'action': [ 'python3',
+                'scripts/fetch_originals.py',
+    ],
+  },
 ]
