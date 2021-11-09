@@ -33,6 +33,7 @@ of any page significantly, with some minor exceptions.
 """
 
 import argparse
+import collections
 import io
 import json
 import os
@@ -40,6 +41,8 @@ import pdb
 import sys
 import time
 import traceback
+import xml.etree.ElementTree as ET
+
 from urllib.request import urlopen
 from urllib.error import HTTPError, URLError
 
@@ -53,6 +56,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--force', action='store_true',
                         help='ignore updated timestamps in local cache')
+    parser.add_argument('-j', '--jobs', type=int, default=common.cpu_count())
     parser.add_argument('-t', '--test', action='store_true')
     parser.add_argument('-r', '--raw', action='store_true')
     parser.add_argument('-v', '--verbose', action='count')
@@ -62,7 +66,7 @@ def main():
     parser.add_argument('path', nargs='*')
     args = parser.parse_args()
 
-    entries, parents = _entries(args)
+    entries = _entries(args)
 
     if args.path:
         paths_to_export = ['%s%s' % ('/' if not path.startswith('/') else '',
@@ -81,10 +85,10 @@ def main():
     paths = []
 
     if args.test:
-        entry = _find_entry_by_path(paths_to_export[0], entries, parents)
+        entry = _find_entry_by_path(paths_to_export[0], entries)
         if entry:
-            metadata = _metadata(entry, entries, parents)
-            path = _path(entry, entries, parents)
+            metadata = _metadata(entry, entries)
+            path = _path(entry, entries)
             _ = _handle_entry(path,
                               (entry, metadata, max_input_mtime, args.force,
                                args.raw))
@@ -96,15 +100,15 @@ def main():
             print('%s not found' % paths_to_export[0])
             return 1
 
-    q = common.JobQueue(_handle_entry, common.cpu_count())
+    q = common.JobQueue(_handle_entry, args.jobs)
 
     paths_to_export = set(paths_to_export)
     exported_pages = set()
     for i, entry in enumerate(list(entries.values())[:args.max_results]):
         if entry['kind'] in ('webpage', 'listpage',
                              'announcementspage', 'filecabinet'):
-            metadata = _metadata(entry, entries, parents)
-            path = _path(entry, entries, parents)
+            metadata = _metadata(entry, entries)
+            path = _path(entry, entries)
             exported_pages.add(path.rstrip('/') or '/')
         elif entry['kind'] == 'attachment':
             metadata = {}
@@ -131,14 +135,14 @@ def main():
     return ret
 
 
-def _find_entry_by_path(path, entries, parents):
+def _find_entry_by_path(path, entries):
     for entry in entries.values():
         if entry['kind'] not in ('webpage', 'listpage',
                                  'announcmentspage', 'filecabinet'):
-            continue
-        entry_path = _path(entry, entries, parents)
+          continue
+        entry_path = _path(entry, entries)
         if entry_path == path:
-            return entry
+          return entry
     return None
 
 
@@ -171,13 +175,13 @@ def _handle_entry(task, obj):
 
 
     mtime = _to_ts(entry['updated'])
+    target_mtime = max(mtime, max_input_mtime)
     if entry['kind'] in ('webpage',
                          'listpage',
                          'announcementspage',
                          'filecabinet'):
-        target_mtime = max(mtime, max_input_mtime)
         path = '%s%s/%s' % (common.SITE_DIR, task, 'index.md')
-        if True or _needs_update(path, target_mtime, force):
+        if _needs_update(path, target_mtime, force):
             if raw:
                 content = entry['content']
             else:
@@ -188,12 +192,19 @@ def _handle_entry(task, obj):
                 md_sio.write('---\n\n')
                 url_converter = _URLConverter()
                 html2markdown.Convert(content_sio, md_sio, url_converter)
+                if entry['kind'] == 'listpage':
+                    md_sio.write('\n\n')
+                    _write_listitems(md_sio, entry)
                 content = md_sio.getvalue()
                 content = content.replace('    \b\b\b\b', '')
+
             did_update = common.write_if_changed(path, content, mode='w')
         else:
             did_update = False
-    elif entry['kind'] in ('announcement', 'listitem'):
+    elif entry['kind'] == 'listitem':
+        # Handled as part of the corresponding 'listpage' entry.
+        pass
+    elif entry['kind'] == 'announcement':
         # TODO: implement me.
         pass
     elif entry['kind'] == 'attachment':
@@ -223,6 +234,29 @@ def _handle_entry(task, obj):
     return err, did_update
 
 
+def _write_listitems(content, entry):
+    if not entry['listitems']:
+        return
+
+    headers = entry['listitems'][0].keys()
+    rows = sorted(entry['listitems'],
+                  key=lambda row: row.get('Release') or '')
+
+    content.write('<table>\n')
+    content.write('  <tr>\n')
+    for header in headers:
+        content.write('    <th>%s</th>\n' % header)
+    content.write('  </tr>\n')
+    for row in rows:
+        content.write('  <tr>\n')
+        for value in row.values():
+            if value and value.startswith('<a xmlns='):
+                value = value.replace(' xmlns="http://www.w3.org/1999/xhtml"', '')
+            content.write('    <td>%s</td>\n' % (value or ''))
+        content.write('  </tr>\n')
+    content.write('</table>\n')
+
+
 class _URLConverter:
     def Translate(self, href):
         if not href:
@@ -239,7 +273,7 @@ class _URLConverter:
         return href
 
 
-def _path(entry, entries, parents):
+def _path(entry, entries):
     path = entry['page_name']
     parent_id = entry.get('parent_id')
     while parent_id:
@@ -249,7 +283,7 @@ def _path(entry, entries, parents):
     return '/' + path
 
 
-def _metadata(entry, entries, parents):
+def _metadata(entry, entries):
     metadata = {}
     metadata['page_name'] = entry['page_name']
     metadata['title'] = entry['title']
@@ -258,7 +292,7 @@ def _metadata(entry, entries, parents):
     parent_id = entry.get('parent_id')
     while parent_id:
         parent = entries[parent_id]
-        path = _path(parent, entries, parents)
+        path = _path(parent, entries)
         title = parent['title']
         crumbs = [[path, title]] + crumbs
         parent_id = parent.get('parent_id')
@@ -285,7 +319,7 @@ def _needs_update(path, mtime, force):
 
 def _entries(args):
     entries = {}
-    parents = set()
+    parents = {}
 
     # Looks like Sites probably caps results at 500 entries per request,
     # even if we request more than that.
@@ -299,7 +333,7 @@ def _entries(args):
         row = _to_row(entry, rownum)
         entries[row['id']] = row
         if row.get('parent_id'):
-            parents.add(row['parent_id'])
+            parents.setdefault(row['parent_id'], set()).add(row['id'])
     if args.verbose:
         print(' ... [%d]' % rownum)
     while next_url:
@@ -308,11 +342,17 @@ def _entries(args):
             row = _to_row(entry, rownum)
             entries[row['id']] = row
             if row.get('parent_id'):
-                parents.add(row['parent_id'])
+              parents.setdefault(row['parent_id'], set()).add(row['id'])
         if args.verbose:
             print(' ... [%d]' % rownum)
 
-    return entries, parents
+    for entry_id, entry in entries.items():
+        if entry['kind'] == 'listpage':
+            entry['listitems'] = [entries[child_id]['fields'] for child_id
+                                  in parents[entry_id]
+                                  if entries[child_id]['kind'] == 'listitem']
+
+    return entries
 
 
 def _fetch(url, force):
@@ -355,6 +395,21 @@ def _to_row(entry, rownum):
         row['url'] = _find_link(entry, 'alternate')
     else:
         row['url'] = _find_link(entry, 'self')
+
+    if row['kind'] == 'listitem':
+        path = row['url'].replace('https://sites.google.com',
+                                  os.path.join(common.REPO_DIR, 'scripts'))
+        if os.path.exists(path):
+          xml_content = common.read_text_file(path)
+        else:
+          print('fetching %s' % row['url'])
+          with urlopen(row['url']) as fp:
+            xml_content = fp.read()
+            common.write_if_changed(path, xml_content)
+
+        root = ET.fromstring(xml_content)
+        fields = root.findall('{http://schemas.google.com/spreadsheets/2006}field')
+        row['fields'] = collections.OrderedDict((el.attrib['name'], el.text) for el in fields)
 
     parent_url = _find_link(entry,
                             'http://schemas.google.com/sites/2008#parent')
