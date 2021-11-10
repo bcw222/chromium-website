@@ -3,9 +3,9 @@
     "build": "npm-run-all build:sass build:eleventy",
     "build:eleventy": "eleventy",
     "build:sass": "sass site/_stylesheets:build/_stylesheets",
-    "deploy": "npm-run-all deploy:login deploy:hosting",
     "deploy:login": "firebase login",
-    "deploy:hosting": "firebase deploy --only hosting",
+    "deploy:prod": "firebase deploy --only hosting --project prod",
+    "deploy:staging": "firebase deploy --only hosting --project staging",
     "start": "npm-run-all build:sass --parallel watch:*",
     "watch:eleventy": "eleventy --serve --port=8080",
     "watch:sass": "sass --watch site/_stylesheets:build/_stylesheets"

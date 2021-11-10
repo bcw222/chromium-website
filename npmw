@@ -31,14 +31,16 @@ else
 fi
 
 # $npm third_party/node/mac/node-darwin-x64/lib/npm/lib/npm.js run "$@"
+script=$1
+shift
 if [ "$1" = "install" ]
 then
   $node_dir/bin/node $node_dir/lib/node_modules/npm \
     --scripts-prepend-node-path=true \
-    "$@"
+    $script "$@"
 else
   $node_dir/bin/node $node_dir/lib/node_modules/npm \
     --scripts-prepend-node-path=true \
-    run-script "$@"
+    run-script $script $@
 fi
 
