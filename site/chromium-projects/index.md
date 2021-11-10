@@ -5,6 +5,8 @@ title: Home
 use_title_as_h1: false
 ---
 
+Hello world!
+
 The Chromium projects include Chromium and Chromium OS, the open-source projects
 behind the [Google Chrome](https://www.google.com/chrome) browser and Google
 Chrome OS, respectively. This site houses the documentation and code related to
