@@ -20,11 +20,41 @@ your device.
 
 ## **Logistics**
 
+*   **To enter the BlinkOn event, starting at 8a PT Nov 16th, click
+            [HERE](https://app.hopin.com/events/blinkon-15/reception)**
 *   **\[NEW\]** Dates: Nov 16-17, 2021 PST 9a - 12p PST
     *   Programming will start @ 9am PST each day, however you are
                 welcome to join up to an hour earlier to find folks in chat, 1:1
                 meetings and join our networking on the platform.
 *   Location: Virtual
+
+**Before & During the event**
+
+To ensure you can access the hopin platform, please check your [Networking
+Connectivity
+Settings](https://hopin.zendesk.com/hc/en-us/articles/360056528911-Network-Connectivity-Settings)
+& [Browser Compatibility
+](https://hopin.zendesk.com/hc/en-us/articles/360056078872-Browser-Compatibility-for-online-events-on-Hopin).
+Please see helpful links below.
+
+## [Hopin Resources](https://docs.google.com/document/d/1SNTmngdbfc1OuxCOaw231guH53p8ks4-YnjecB6CtGk/edit#)
+
+*   [How to access an event as an
+            attendee](https://assets-global.website-files.com/5fb2950be125da5aa25af58e/60b95a6bcaf8722b6b83752c_How%20to%20Access%20an%20Event%20as%20an%20Attendee%20(1).pdf)
+*   [Being a speaker at a Hopin
+            Event](https://assets-global.website-files.com/5fb2950be125da5aa25af58e/60b95bbb779c0790ddf0ae27_Best%20Practices%20for%20Speakers.pdf)
+*   [How to use the Backstage as a
+            speaker](https://hopin.zendesk.com/hc/en-us/articles/360056078472-How-to-use-the-Backstage-as-a-speaker)
+*   [Screensharing on
+            backstage](https://hopin.zendesk.com/hc/en-us/articles/360056078412-How-to-present-slides-on-the-Hopin-Backstage)
+*   [Sharing your
+            PowerPoint](https://hopin.zendesk.com/hc/en-us/articles/360056527631-Sharing-your-Powerpoint)
+*   [Speaker
+            instructions](https://hopin.zendesk.com/hc/en-us/articles/360056078432-Speaker-Instructions)
+*   [Tips for Speaking in and Moderating
+            Sessions](https://hopin.zendesk.com/hc/en-us/articles/4402442259220-Tips-for-Speaking-in-and-Moderating-Sessions)
+
+**BlinkOn Future-looking...**
 
 We continue to shift our BlinkOn events to more fairly distribute the burden of
 meeting at challenging times. Next time we will prioritize the EMEA region. We
@@ -45,17 +75,12 @@ about the agenda.
 
 We have reached our limit and no longer accepting talks.
 
-**For our lightning talk speakers, thank you very much for signing up for our
-BlinkOn 15 lightning talks! Your recorded talk is due Thu, Nov 3 @ 5p pacific!**
-
-*   Please record a **~3 min** video and upload your public presentation
-            link to [**the
-            sheet**](https://docs.google.com/spreadsheets/d/1FzxhGtmfaEP_yO8ePmWoYuvFS0qk44hQA5Mui06E9Rk/edit#gid=0)
-            by **Nov 3!**
+For our lightning talk speakers, thank you very much for signing up for our
+BlinkOn 15 lightning talks and loading your talks into our sheet!
 
 ## Breakout Talks
 
-## We have reached our limit and no longer accepting talks. Thank you to everyone who will be doing a breakout talk. Please add your public link [to this sheet](https://docs.google.com/spreadsheets/d/1x2MXoLaYENQg7WKHWspzwAuttDB38T5pc74ZHRYEKgo/edit#gid=0) prior to your session.
+## We have reached our limit and no longer accepting talks. Thank you to everyone who will be doing a breakout talk. Please add your public accessible link [to this sheet](https://docs.google.com/spreadsheets/d/1x2MXoLaYENQg7WKHWspzwAuttDB38T5pc74ZHRYEKgo/edit#gid=0) prior to your session.
 
 ## \[WIP\] Schedule
 
@@ -67,7 +92,7 @@ All attendees, speakers, sponsors, and volunteers at BlinkOn 15 are required to
 agree with the following Code of Conduct. Organizers will enforce this code
 throughout BlinkOn 15 to help ensure a safe environment for all attendees.
 
-As developers and community organizers, we all pledge to respect everyone who
+**As developers and community organizers, we all pledge to respect everyone who
 attends BlinkOn 15. We do not tolerate harassment of conference participants in
 any form. Sexual language and imagery is not appropriate for any conference
 venue, including talks, workshops, parties, Twitter, and other online media.
@@ -79,26 +104,7 @@ experience. We expect all attendees to do the same. If any member of the
 community violates this code of conduct, they may be sanctioned or expelled from
 BlinkOn 15 and future BlinkOn events. If you are subject to or witness
 unacceptable behavior, or have any other concerns, please email us at
-[blinkon@chromium.org](mailto:blinkon@chromium.org) asap.
-
-## [Hopin Resources](https://docs.google.com/document/d/1SNTmngdbfc1OuxCOaw231guH53p8ks4-YnjecB6CtGk/edit#)
-
-*   [How to access an event as an
-            attendee](https://assets-global.website-files.com/5fb2950be125da5aa25af58e/60b95a6bcaf8722b6b83752c_How%20to%20Access%20an%20Event%20as%20an%20Attendee%20(1).pdf)
-*   [Being a speaker at a Hopin
-            Event](https://assets-global.website-files.com/5fb2950be125da5aa25af58e/60b95bbb779c0790ddf0ae27_Best%20Practices%20for%20Speakers.pdf)
-*   [How to use the Backstage as a
-            speaker](https://hopin.zendesk.com/hc/en-us/articles/360056078472-How-to-use-the-Backstage-as-a-speaker)
-*   [How to use the StreamYard Backstage as a
-            speaker](https://hopin.zendesk.com/hc/en-us/articles/4406327583252-How-to-use-the-StreamYard-Backstage-as-a-speaker)
-*   [Screensharing on
-            backstage](https://hopin.zendesk.com/hc/en-us/articles/360056078412-How-to-present-slides-on-the-Hopin-Backstage)
-*   [Sharing your
-            PowerPoint](https://hopin.zendesk.com/hc/en-us/articles/360056527631-Sharing-your-Powerpoint)
-*   [Speaker
-            instructions](https://hopin.zendesk.com/hc/en-us/articles/360056078432-Speaker-Instructions)
-*   [Tips for Speaking in and Moderating
-            Sessions](https://hopin.zendesk.com/hc/en-us/articles/4402442259220-Tips-for-Speaking-in-and-Moderating-Sessions)
+[blinkon@chromium.org](mailto:blinkon@chromium.org) asap.**
 
 ## **Organizer Information**
 

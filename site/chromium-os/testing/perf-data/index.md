@@ -110,15 +110,8 @@ If you don't see your data, you may need to log into the dashboard with your
 will allow you to also see the internal-only test data.
 
 If you still don't see your data, check to make sure your data is getting
-uploaded to the dashboard in the first place.
-
-*   Make sure "results-chart.json" file in your autotest result
-            directory contains valid values
-*   Use <https://chromeperf.appspot.com/new_points> page to find out
-            whether dashboard has received your data. For example, to find out
-            data points for
-            ChromeOSPerf/cros-alex/platform_BootPerfServer/mhz_primary_cpu,
-            [click here](https://chromeperf.appspot.com/new_points)
+uploaded to the dashboard in the first place. Make sure "results-chart.json"
+file in your autotest result directory contains valid values
 
 ## Instructions for Getting Data onto the Perf Dashboard
 
