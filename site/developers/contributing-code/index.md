@@ -7,4 +7,4 @@ title: Contributing Code
 ---
 
 This document has migrated to
-<https://chromium.googlesource.com/chromium/src/+/master/docs/contributing.md>.
+<https://chromium.googlesource.com/chromium/src/+/main/docs/contributing.md>.

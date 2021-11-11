@@ -14,21 +14,21 @@ title: 'Get the Code: Checkout, Build, & Run Chromium'
 
 Click on one of these links depending on what you want to build.
 
-*   [Linux](https://chromium.googlesource.com/chromium/src/+/master/docs/linux/build_instructions.md)
-*   [Windows](https://chromium.googlesource.com/chromium/src/+/master/docs/windows_build_instructions.md)
-*   [Mac](https://chromium.googlesource.com/chromium/src/+/master/docs/mac_build_instructions.md)
+*   [Linux](https://chromium.googlesource.com/chromium/src/+/main/docs/linux/build_instructions.md)
+*   [Windows](https://chromium.googlesource.com/chromium/src/+/main/docs/windows_build_instructions.md)
+*   [Mac](https://chromium.googlesource.com/chromium/src/+/main/docs/mac_build_instructions.md)
 *   Chrome OS
-    *   [linux-chromeos](https://chromium.googlesource.com/chromium/src/+/master/docs/chromeos_build_instructions.md)
+    *   [linux-chromeos](https://chromium.googlesource.com/chromium/src/+/main/docs/chromeos_build_instructions.md)
                 (runs the Chrome OS version of Chrome on Linux)
     *   [cros-vm](https://chromium.googlesource.com/chromiumos/docs/+/master/cros_vm.md)
                 (runs in a Chrome OS virtual machine)
     *   ["simplechrome"](https://chromium.googlesource.com/chromiumos/docs/+/master/simple_chrome_workflow.md)
                 (runs on Chromebook hardware)
-*   [iOS](https://chromium.googlesource.com/chromium/src/+/master/docs/ios/build_instructions.md)
+*   [iOS](https://chromium.googlesource.com/chromium/src/+/main/docs/ios/build_instructions.md)
 *   Cast (these instructions are still old)
-    *   [Android](https://chromium.googlesource.com/chromium/src/+/master/docs/android_cast_build_instructions.md)
-    *   [Linux](https://chromium.googlesource.com/chromium/src/+/master/docs/linux_cast_build_instructions.md)
-*   [Android](https://chromium.googlesource.com/chromium/src/+/master/docs/android_build_instructions.md)
+    *   [Android](https://chromium.googlesource.com/chromium/src/+/main/docs/android_cast_build_instructions.md)
+    *   [Linux](https://chromium.googlesource.com/chromium/src/+/main/docs/linux/cast_build_instructions.md)
+*   [Android](https://chromium.googlesource.com/chromium/src/+/main/docs/android_build_instructions.md)
 
 ### *The Chromium documentation is gradually moving into the source repository. The links above will take you there.*
 

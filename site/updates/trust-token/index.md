@@ -51,7 +51,7 @@ Tracker](https://bugs.chromium.org/p/chromium/issues/entry)
 
 **Launch Timeline**
 
-Last updated August 5, 2021.
+Last updated November 11, 2021.
 
 The Trust Token API has been running in Origin Trial since Chrome 84, running at
 50% on Dev/Canary/Beta and 10% on Stable. It is currently running through to
@@ -95,6 +95,9 @@ commitment format that contains both the V2 and V3 key commitments until Chrome
 > ...
 
 > }
+
+To prevent ecosystem burn-in of the long origin trial, we will be temporarily
+disabling the API from November 18th to December 2nd.
 
 For the full Chrome release schedule, [see
 here](https://chromiumdash.appspot.com/schedule).
