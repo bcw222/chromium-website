@@ -36,34 +36,32 @@ Chromium, or at runtime using environment variables.
 ## Acquiring Keys
 
 1.  Make sure you are a member of
-            [chromium-dev@chromium.org](https://groups.google.com/a/chromium.org/forum/)
-            (you can just
-            [subscribe](https://groups.google.com/a/chromium.org/forum/) to
-            chromium-dev and choose not to receive mail). *Note: the APIs below
-            are only visible to people subscribed to that group.*
+    [chromium-dev@chromium.org](https://groups.google.com/a/chromium.org/forum/)
+    (you can just [subscribe](https://groups.google.com/a/chromium.org/forum/) to
+    chromium-dev and choose not to receive mail). *Note: the APIs below
+    are only visible to people subscribed to that group.*
 2.  Make sure you are logged in with the Google account associated with
-            the email address that you used to subscribe to chromium-dev.
+    the email address that you used to subscribe to chromium-dev.
 3.  Go to <https://cloud.google.com/console>
 4.  Click on the dropdown next to "Google Cloud Platform" and select
-            **Create Project** (upper right).
+    **Create Project** (upper right).
 5.  (Optional) You may add other members of your organization or team on
-            the Team tab.
+    the Team tab.
 6.  Open the **APIs and Services &gt; Library** from the hamburger menu,
-            search for all of the following APIs. If you're a member of the
-            chromeos-dev Google group you should see all of them. For each of
-            these APIs click on them when found by the search, and then click on
-            "Enable API" button at the top, read and agree to the Terms of
-            Service that is shown, check the "I have read and agree to &lt;API
-            name&gt; Terms of Service" checkbox and click Accept: *(This list
-            might be out of date; try searching for APIs starting with "Chrome"
-            or having "for Chrome" in the name.)*
+    search for all of the following APIs. If you're a member of the
+    chromeos-dev Google group you should see all of them. For each of
+    these APIs click on them when found by the search, and then click on
+    "Enable API" button at the top, read and agree to the Terms of
+    Service that is shown, check the "I have read and agree to &lt;API
+    name&gt; Terms of Service" checkbox and click Accept: *(This list
+    might be out of date; try searching for APIs starting with "Chrome"
+    or having "for Chrome" in the name.)*
     *   Cloud Search API
-    *   Geolocation API (requires [enabling
-                billing](https://developers.google.com/console/help/#EnableBilling)
-                but is free to use; you can skip this one, in which case
-                geolocation features of Chrome will not work)
+    *   Geolocation API (requires [enabling billing](https://developers.google.com/console/help/#EnableBilling)
+        but is free to use; you can skip this one, in which case
+        geolocation features of Chrome will not work)
     *   Google Drive API (enable this for Files.app on Chrome OS and
-                SyncFileSystem API)
+        SyncFileSystem API)
     *   Safe Browsing API
     *   Time Zone API
     *   Optional
@@ -77,31 +75,30 @@ Chromium, or at runtime using environment variables.
     ***If any of these APIs are not shown, recheck step 1.***
 
 1.  Go to the **Credentials** sub tab under the **API & Services**
-            section in the hamburger menu.
+    section in the hamburger menu.
 2.  Click the "**Create credentials**" button then click on the **OAuth
-            client ID** item in the drop-down list.
+    client ID** item in the drop-down list.
     *   Click on the "Configure consent screen" button. Fill in the
-                "Product name" (name it anything you want) and other details if
-                you have available then click on "Save" at the bottom.
+        "Product name" (name it anything you want) and other details if
+        you have available then click on "Save" at the bottom.
     *   Return to the Credentials tab and click the "Add credentials"
-                button again, then select "OAuth 2.0 client ID" from the
-                drop-down list.
+        button again, then select "OAuth 2.0 client ID" from the
+        drop-down list.
     *   In the "Application type" section check the "Other" option and
-                give it a name in the "Name" text box, then click "Create"
+        give it a name in the "Name" text box, then click "Create"
 3.  In the pop-up window that appears you'll see a **client ID** and a
-            "**client secret**" string. Copy and paste those in a text file on
-            your dev box then click OK to dismiss it.
+    "**client secret**" string. Copy and paste those in a text file on
+    your dev box then click OK to dismiss it.
     *   A new item should now appear in the "OAuth 2.0 client IDs" list.
-                You can click on the name of your client id to retrieve the ID
-                and secret at any time. In the next sections, we will refer to
-                the values of the “Client ID” and “Client secret” fields.
+        You can click on the name of your client id to retrieve the ID
+        and secret at any time. In the next sections, we will refer to
+        the values of the “Client ID” and “Client secret” fields.
 4.  Click the **Create credentials** button *again* on the same page.
 
-    *   In the pop-over window that shows up click the **API key**
-                button.
+    *   In the pop-over window that shows up click the **API key** button.
     *   A pop-over should show up giving you the API key. Copy and paste
-                it in a text file to save it, although you can access it later
-                as well.
+        it in a text file to save it, although you can access it later
+        as well.
     *   Click OK to dismiss this.
 
 You should now have an API key and a OAuth 2.0 client ID in on the Credentials
@@ -141,16 +138,24 @@ GOOGLE_DEFAULT_CLIENT_SECRET=<i>your_client_secret</i>
 
 ## Signing in to Chromium is restricted
 
-## Signing in to Chromium requires an OAuth 2.0 token for authentication. As this OAuth 2.0 token gives access to various Google services that handle user data (e.g. Chrome sync), for security and privacy reasons the generation of this OAuth 2.0 token is restricted. This means that signing in to Chromium is restricted (as the OAuth 2.0 token cannot be generated). In order to sign in to Chromium builds, please add your test account to [google-browser-signin-testaccounts@chromium.org](https://groups.google.com/u/1/a/chromium.org/g/google-browser-signin-testaccounts) (accounts in this group are allowed to get access tokens bypassing the restriction above).
+Signing in to Chromium requires an OAuth 2.0 token for authentication. As
+this OAuth 2.0 token gives access to various Google services that handle user
+data (e.g. Chrome sync), for security and privacy reasons the generation of
+this OAuth 2.0 token is restricted. This means that signing in to Chromium is
+restricted (as the OAuth 2.0 token cannot be generated). In order to sign in to
+Chromium builds, please add your test account to
+[google-browser-signin-testaccounts@chromium.org](https://groups.google.com/u/1/a/chromium.org/g/google-browser-signin-testaccounts)
+(accounts in this group are allowed to get access tokens bypassing the
+restriction above).
 
-*Note: Starting with Chromium M69, when the browser is set up with an OAuth 2.0
+*Note*: Starting with Chromium M69, when the browser is set up with an OAuth 2.0
 client ID and client secret, signing in with your Google Account to any Google
 web property will also attempt to sign you in to Chromium (which will fail as
 explained above). To avoid such errors, remove your OAuth 2.0 client ID and
 client secret from your build to stop generating tokens when users sign in to
 Google web properties (remove google_default_client_id,
 google_default_client_secret from gn args and GOOGLE_DEFAULT_CLIENT_ID and
-GOOGLE_DEFAULT_CLIENT_SECRET from your environment settings).*
+GOOGLE_DEFAULT_CLIENT_SECRET from your environment settings).
 
 ## Getting Keys for Your Chromium Derivative
 
@@ -160,12 +165,12 @@ for use in derived products. In the API Console
 quota for some of the APIs listed above. **For APIs that do not have a "Pricing"
 link, additional quota is not available for purchase.**
 
-**Polyfilling chrome.identity API in Your Chromium Derivative**
+### Polyfilling chrome.identity API in Your Chromium Derivative
 
 The default Chromium **chrome.identity.getAuthToken** API that extensions may
 call to obtain auth tokens will fail outside of Google Chrome as the
 implementation uses restricted APIs.
 
 A prototype CL for Chromium embedders might use to replace the implementation
-with one not dependent upon private APIs can be found attached to [this
-post](https://groups.google.com/a/chromium.org/g/embedder-dev/c/tGCJ3QNVzYE).
+with one not dependent upon private APIs can be found attached to
+[this post](https://groups.google.com/a/chromium.org/g/embedder-dev/c/tGCJ3QNVzYE).
