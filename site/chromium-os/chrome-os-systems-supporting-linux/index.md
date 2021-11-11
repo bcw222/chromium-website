@@ -23,261 +23,134 @@ here](https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_
 
 <table>
 <tr>
-
-<td>Manufacturer</td>
-
-<td>Device</td>
-
-</tr>
+<th>Manufacturer
+<th>Device
 <tr>
-
-<td>Acer</td>
-
-<td>Chromebook 11 (C732, C732T, C732L, C732LT)</td>
-
-<td>Chromebook 11 (CB311-8H, CB311-8HT)</td>
-
-<td>Chromebook 11 N7 (C731, C731T)</td>
-
-<td>Chromebook 13 (CB713-1W)</td>
-
-<td>Chromebook 14 (CB3-431)</td>
-
-<td>Chromebook 15 (CB3-532)</td>
-
-<td>Chromebook 15 (CB315-1H, CB315-1HT)</td>
-
-<td>Chromebook 15 (CB515-1H, CB515-1HT)</td>
-
-<td>Chromebook 514</td>
-
-<td>Chromebook R11 (CB5-132T, C738T)</td>
-
-<td>Chromebook R13 (CB5-312T)</td>
-
-<td>Chromebook Spin 11 (CP311-H1, CP311-1HN)</td>
-
-<td>Chromebook Spin 11 (R751T)</td>
-
-<td>Chromebook Spin 13 (CP713-1WN)</td>
-
-<td>Chromebook Spin 15 (CP315)</td>
-
-<td>Chromebook Tab 10</td>
-
-<td>Chromebox CXI3</td>
-
-</tr>
+<td>Acer
+<td>
+Chromebook 11 (C732, C732T, C732L, C732LT)<br/>
+Chromebook 11 (CB311-8H, CB311-8HT)<br/>
+Chromebook 11 N7 (C731, C731T)<br/>
+Chromebook 13 (CB713-1W)<br/>
+Chromebook 14 (CB3-431)<br/>
+Chromebook 15 (CB3-532)<br/>
+Chromebook 15 (CB315-1H, CB315-1HT)<br/>
+Chromebook 15 (CB515-1H, CB515-1HT)<br/>
+Chromebook 514<br/>
+Chromebook R11 (CB5-132T, C738T)<br/>
+Chromebook R13 (CB5-312T)<br/>
+Chromebook Spin 11 (CP311-H1, CP311-1HN)<br/>
+Chromebook Spin 11 (R751T)<br/>
+Chromebook Spin 13 (CP713-1WN)<br/>
+Chromebook Spin 15 (CP315)<br/>
+Chromebook Tab 10<br/>
+Chromebox CXI3
 <tr>
-
 <td>ASUS</td>
-
-<td>Chromebook C202SA</td>
-
-<td>Chromebook C223</td>
-
-<td>Chromebook C300SA / C301SA</td>
-
-<td>Chromebook C423</td>
-
-<td>Chromebook C523</td>
-
-<td>Chromebook Flip C101PA</td>
-
-<td>Chromebook Flip C213</td>
-
-<td>Chromebox 3 (CN65)</td>
-
+<td>
+Chromebook C202SA<br/>
+Chromebook C223<br/>
+Chromebook C300SA / C301SA<br/>
+Chromebook C423<br/>
+Chromebook C523<br/>
+Chromebook Flip C101PA<br/>
+Chromebook Flip C213<br/>
+Chromebox 3 (CN65)
+<tr>
+<td>CTL
+<td>
+Chromebook J41 / J41T<br/>
+Chromebook NL7<br/>
+Chromebook NL7 / NL7T-360 / NL7TW-360<br/>
+Chromebook NL7 LTE<br/>
+Chromebox CBx1<br/>
+J5 Chromebook<br/>
+NL61 Chromebook
+<tr>
+<td>Dell
+<td>
+Chromebook 11 (3180)<br/>
+Chromebook 11 (5190)<br/>
+Chromebook 11 2-in-1 (3189)<br/>
+Chromebook 11 2-in-1 (5190)<br/>
+Inspiron Chromebook 14 2-in-1 (7486)
+<tr>
+<td>Edugear
+<td>CMT Chromebook
+<tr>
+<td>Edxis
+<td>Education Chromebook (NL6D)
 </tr>
 <tr>
-
-<td>CTL</td>
-
-<td>Chromebook J41 / J41T</td>
-
-<td>Chromebook NL7</td>
-
-<td>Chromebook NL7 / NL7T-360 / NL7TW-360</td>
-
-<td>Chromebook NL7 LTE</td>
-
-<td>Chromebox CBx1</td>
-
-<td>J5 Chromebook</td>
-
-<td>NL61 Chromebook</td>
-
-</tr>
+<td>Google
+<td>
+Pixelbook<br/>
+Pixel Slate<br/>
+Pixelbook Go
 <tr>
-
-<td>Dell</td>
-
-<td>Chromebook 11 (3180)</td>
-
-<td>Chromebook 11 (5190)</td>
-
-<td>Chromebook 11 2-in-1 (3189)</td>
-
-<td>Chromebook 11 2-in-1 (5190)</td>
-
-<td>Inspiron Chromebook 14 2-in-1 (7486)</td>
-
-</tr>
+<td>Haier
+<td>Chromebook 11 C
 <tr>
-
-<td>Edugear</td>
-
-<td>CMT Chromebook</td>
-
-</tr>
+<td>HP
+<td>
+Chromebook 11 G5<br/>
+Chromebook 11 G5 EE<br/>
+Chromebook 11 G6 EE<br/>
+Chromebook 14 G5<br/>
+Chromebook 14A G5<br/>
+Chromebook x2<br/>
+Chromebook x360 11 G1 EE<br/>
+Chromebook x360 14<br/>
+Chromebox G2
 <tr>
-
-<td>Edxis</td>
-
-<td>Education Chromebook (NL6D)</td>
-
-</tr>
+<td>Lenovo
+<td>
+100e Chromebook<br/>
+300e/N23 Yoga/Flex 11 Chromebook<br/>
+500e Chromebook<br/>
+Flex 11 Chromebook<br/>
+Ideapad C330 Chromebook<br/>
+Ideapad S330 Chromebook<br/>
+N22 Chromebook<br/>
+N23 Chromebook<br/>
+N23 Chromebook (Touch)<br/>
+N42 Chromebook<br/>
+ThinkPad 11e 3rd Gen Chromebook<br/>
+ThinkPad 11e 4th Gen Chromebook<br/>
+Yoga C630 Chromebook
 <tr>
-
-<td>Google</td>
-
-<td>Pixelbook</td>
-
-<td>Pixel Slate</td>
-
-<td>Pixelbook Go</td>
-
-</tr>
+<td>Mecer
+<td>V2 Chromebook
 <tr>
-
-<td>Haier</td>
-
-<td>Chromebook 11 C</td>
-
-</tr>
+<td>
+Multilaser<br/>
+Chromebook M11C<br/>
 <tr>
-
-<td>HP</td>
-
-<td>Chromebook 11 G5</td>
-
-<td>Chromebook 11 G5 EE</td>
-
-<td>Chromebook 11 G6 EE</td>
-
-<td>Chromebook 14 G5</td>
-
-<td>Chromebook 14A G5</td>
-
-<td>Chromebook x2</td>
-
-<td>Chromebook x360 11 G1 EE</td>
-
-<td>Chromebook x360 14</td>
-
-<td>Chromebox G2</td>
-
-</tr>
+<td>PCMerge
+<td>Chromebook PCM-116T-432B
 <tr>
-
-<td>Lenovo</td>
-
-<td>100e Chromebook</td>
-
-<td>300e/N23 Yoga/Flex 11 Chromebook</td>
-
-<td>500e Chromebook</td>
-
-<td>Flex 11 Chromebook</td>
-
-<td>Ideapad C330 Chromebook</td>
-
-<td>Ideapad S330 Chromebook</td>
-
-<td>N22 Chromebook</td>
-
-<td>N23 Chromebook</td>
-
-<td>N23 Chromebook (Touch)</td>
-
-<td>N42 Chromebook</td>
-
-<td>ThinkPad 11e 3rd Gen Chromebook</td>
-
-<td>ThinkPad 11e 4th Gen Chromebook</td>
-
-<td>Yoga C630 Chromebook</td>
-
-</tr>
+<td>Poin2
+<td>
+Chromebook 11C<br/>
+Chromebook 14<br/>
 <tr>
-
-<td>Mecer</td>
-
-<td>V2 Chromebook</td>
-
-</tr>
+<td>Positivo
+<td>Chromebook C216B
 <tr>
-
-<td>Multilaser</td>
-
-<td>Chromebook M11C</td>
-
-</tr>
+<td>Prowise
+<td>Chromebook Proline
 <tr>
-
-<td>PCMerge</td>
-
-<td>Chromebook PCM-116T-432B</td>
-
-</tr>
+<td>Samsung
+<td>
+Chromebook 3<br/>
+Chromebook Plus<br/>
+Chromebook Plus (LTE)<br/>
+Chromebook Plus (V2)
 <tr>
-
-<td>Poin2</td>
-
-<td>Chromebook 11C</td>
-
-<td>Chromebook 14</td>
-
-</tr>
+<td>ViewSonic
+<td>NMP660 Chromebox
 <tr>
-
-<td>Positivo</td>
-
-<td>Chromebook C216B</td>
-
-</tr>
-<tr>
-
-<td>Prowise</td>
-
-<td>Chromebook Proline</td>
-
-</tr>
-<tr>
-
-<td>Samsung</td>
-
-<td>Chromebook 3</td>
-
-<td>Chromebook Plus</td>
-
-<td>Chromebook Plus (LTE)</td>
-
-<td>Chromebook Plus (V2)</td>
-
-</tr>
-<tr>
-
-<td>ViewSonic</td>
-
-<td>NMP660 Chromebox</td>
-
-</tr>
-<tr>
-
-<td>Viglen</td>
-
-<td>Chromebook 360</td>
-
+<td>Viglen
+<td>Chromebook 360
 </tr>
 </table>
