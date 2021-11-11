@@ -269,13 +269,16 @@ header {
   table {
     border-width: 1px;
     border-style: solid;
-    border-color: rgb(136, 136, 136);
+    border-color: rgb(217, 217, 217);
+    border-spacing: 0px;
+    border-collapse: collapse;
 
     td {
       border-style: solid;
       border-width: 1px;
-      border-color: rgb(136, 136, 136);
-      padding: 1px 5px 3px 5px;
+      border-color: rgb(217, 217, 217);
+      padding: 5px 10px 5px 10px;
+      vertical-align: top;
     }
   }
 
