@@ -22,14 +22,22 @@ import time
 import urllib.parse
 
 
-site = 'https://www.chromium.org'
-
 REPO_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 SITE_DIR = os.path.join(REPO_DIR, 'site')
 BUILD_DIR = os.path.join(REPO_DIR, 'build')
+
+DEPOT_TOOLS_DIR = None
+for path in os.environ['PATH'].split(os.path.pathsep):
+    if path.endswith('depot_tools'):
+        DEPOT_TOOLS_DIR = path
+        if path not in sys.path:
+            sys.path.insert(0, path)
+
+assert DEPOT_TOOLS_DIR is not None, "depot_tools must be in your PATH"
+
+site = 'https://www.chromium.org'
+
 DEFAULT_TEMPLATE = '/_includes/page.html'
-
-
 
 alternates = [
     site,
@@ -124,7 +132,7 @@ def should_update(dest_page, source_pages):
     dest_pages = [dest_page]
     max_source_mtime = max(os.stat(p).st_mtime for p in source_pages)
     max_dest_mtime = max(os.stat(p).st_mtime for p in dest_pages)
-    return max_source_mtime > max_dest_mtime 
+    return max_source_mtime > max_dest_mtime
 
 
 class JobQueue:

@@ -17,13 +17,10 @@ import sys
 import optparse
 import os
 
-for path in os.environ['PATH'].split(os.path.pathsep):
-    if path.endswith('depot_tools') and path not in sys.path:
-        sys.path.insert(0, path)
+import common  # This automatically adds DEPOT_TOOLS_DIR to sys.path.
 
 import upload_to_google_storage
 
-import common
 
 # This list must be kept in sync with the lists in //.eleventy.js and
 # //PRESUBMIT.py.
