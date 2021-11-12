@@ -34,13 +34,14 @@ import subprocess
 import sys
 import tarfile
 
-SRC_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
+import common
+
 
 def main():
   parser = argparse.ArgumentParser(description=__doc__)
   parser.parse_args()
 
-  with open(os.path.join(SRC_ROOT, 'originals.tar.gz.sha1')) as fp:
+  with open(os.path.join(common.REPO_DIR, 'originals.tar.gz.sha1')) as fp:
     expected_sha1 = fp.read().strip()
 
   actual_sha1 = None
@@ -57,7 +58,8 @@ def main():
     return 0
 
   retcode = subprocess.call([
-      'gsutil.py',
+      sys.executable,
+      os.path.join(common.DEPOT_TOOLS, 'gsutil.py'),
       'cp',
       'gs://chromium-website-lob-storage/%s' % expected_sha1,
       tgz
@@ -71,7 +73,7 @@ def main():
     # can extract the archive completely. Consider whether we should do
     # the same.
     with tarfile.open(tgz, 'r:gz') as tar:
-      tar.extractall(path=SRC_ROOT)
+      tar.extractall(path=common.REPO_DIR)
     return 0
   except Exception as e:
     print(e)
