@@ -1,7 +1,39 @@
 # Contributing to www.chromium.org
 
-So far these instructions have only been tested to run on a Mac, but should work
-on Linux and Windows with only a modicum of hoop-jumping.
+In order to contribute to this repo you must have signed the
+[Google Contributor License Agreement](https://cla.developers.google.com/clas)
+and have an active account on
+[Chromium's Gerrit Host](https://chromium-review.googlesource.com).
+
+## Making edits to pages via the web
+
+The site contains a fairly rudimentary in-page editor. To edit a page,
+click on the "Edit this Page" button in the left nav bar. That will take
+you to [edit.chromium.org](https://edit.chromium.org/edit?repo=chromium/website/main)
+and open the page in the editor automatically.
+
+You can edit the Markdown text directly, and, once you're ready to upload
+the change, if you you click on the "Create Change" box in the bottom right
+corner of the page, that will create a Gerrit CL for review. A builder
+will automatically run to build out a copy of the site containing your
+changes so that you can preview them.
+
+Any current Chromium/ChromiumOS contributor (basically anyone with with
+try-job access or bug-editing privileges) can review CLs, but you also
+need OWNERS approval to land them.
+
+This functionality is limited to just editing the text of existing pages,
+and there's not yet any way to preview the change before you upload it
+for review.
+
+If you need to upload new images or other assets, or add new pages, or
+change multiple pages at once, or do anything else more complicated,
+keep reading ...
+
+## Making bigger changes using a local Git checkout
+
+*NOTE: If you have an existing Chromium or ChromiumOS checkout, you will
+hopefully soon have this repo DEPS'ed in in automatically.*
 
 1.  Install depot_tools:
 
@@ -10,40 +42,23 @@ on Linux and Windows with only a modicum of hoop-jumping.
     $ export PATH=/path/to/depot_tools:$PATH
     ```
 
-2. Check out the repo:
+2. Check out the repo and its dependencies:
 
     ```bash
     $ git clone https://chromium.googlesource.com/website
-    ```
-
-3. `cd` into the checkout and download any dependencies:
-
-    ```bash
     $ cd website
     $ gclient sync
     ```
 
-    Note that there is a //.gclient file checked in, so you don't need to
-    run `gclient config` or have a .gclient file in a directory above the
-    website.
-
-4.  *Optional*: Refresh the content from Classic Sites via the public GData
-    APIs.
+    or
 
     ```bash
-    ./scripts/export.py
+    $ fetch website
     ```
 
-    This downloads all of the HTML pages and converts them to Markdown,
-    and also fetches any associated assets (images, attachments, etc.).
+3.  Make your changes! Check out [AUTHORING.md](AUTHORING.md) for guidelines.
 
-    `export` caches the metadata and HTML from Sites locally in the
-    `//export/feeds` directory (but not images or other assets). This is useful
-    when you need to iterate on the HTML->Markdown conversion or other changes
-    where the raw data isn't likely to be needed. To force the script to
-    explicitly re-fetch things, use the `--force` flag.
-
-5.  *Optional*: Build all of the static pages up-front to check for errors.
+4.  Build all of the static pages up-front to check for errors.
     The content will be built into `//build` by default.
 
     ```bash
@@ -55,7 +70,7 @@ on Linux and Windows with only a modicum of hoop-jumping.
     (`npmw` is a simple wrapper around the version of `npm` that is bundled
     as part of this checkout.)
 
-7.  Start a local web server to view the site. The server will (re-)generate
+5.  Start a local web server to view the site. The server will (re-)generate
     the pages on the fly as needed if the input or conversion code changes.
     The content will be built into `//build`.
 
@@ -63,14 +78,7 @@ on Linux and Windows with only a modicum of hoop-jumping.
     $ ./npmw start
     ```
 
-8.  Check in your changes and upload a CL to the Gerrit code review server.
-    Get one of the [//OWNERS](../OWNERS) to review your changes, and then
-    submit the change via the commit queue.
-
-    *NOTE:* If this is your first time contributing something to Chromium
-    or ChromiumOS, please make sure you (or your company) has signed
-    [Google's Contributor License Agreement](https://cla.developers.google.com/),
-    and add yourself to the [//AUTHORS](../AUTHORS) file as part of your change.
+6.  Check in your changes and upload a CL to the Gerrit code review server.
 
     ```bash
     $ git commit -a -m 'whatever'
@@ -79,3 +87,12 @@ on Linux and Windows with only a modicum of hoop-jumping.
 
     If you are adding binary assets (images, etc.) to the site, you will
     need to upload them to the GCS bucket using `//scripts/upload-lobs.py`.
+
+7.  Get one of the [//OWNERS](../OWNERS) to review your changes, and then
+    submit the change via the commit queue.
+
+    *NOTE:* If this is your first time contributing something to Chromium
+    or ChromiumOS, please make sure you (or your company) has signed
+    [Google's Contributor License Agreement](https://cla.developers.google.com/),
+    as noted above, and also add yourself to the [//AUTHORS](../AUTHORS) file
+    as part of your change.
