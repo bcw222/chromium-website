@@ -49,10 +49,11 @@ title: Ash Color Chooser
                 will be shown in the page.**
 *   **Current screenshot:**
 
-    **[<img alt="image"
+    **[<img
+    alt="https://sites.google.com/a/chromium.org/dev/developers/design-documents/aura/ash-color-chooser/Screenshot%202012-06-26%203_50_42%20PM.png?attredirects=0"
     src="/developers/design-documents/aura/ash-color-chooser/Screenshot%202012-06-26%203%3A50%3A42%20PM.png"
     height=320
-    width=400>](/developers/design-documents/aura/ash-color-chooser/Screenshot%202012-06-26%203%3A50%3A42%20PM.png)**
+    width=400>](/developers/design-documents/aura/ash-color-chooser/Screenshot%202012-06-26%203_50_42%20PM.png)**
 
 **# Next plans (not confirmed yet)**
 

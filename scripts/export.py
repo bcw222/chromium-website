@@ -208,6 +208,8 @@ def _handle_entry(task, obj):
         # TODO: implement me.
         pass
     elif entry['kind'] == 'attachment':
+        if ':' in task:
+            task = _URLConverter().Translate(task)
         path = '%s%s' % (common.SITE_DIR, task)
         if task in (
             '/developers/design-documents/network-stack/cookiemonster/CM-method-calls-new.png',
@@ -270,6 +272,10 @@ class _URLConverter:
             href = '/' + '/'.join(href.split('/')[4:])
         if '?' in href:
             href = href[0:href.index('?')]
+        if 'Screenshot' in href:
+            head, tail = href.split('Screenshot')
+            tail = tail.replace(':', '%3A')
+            href = head + 'Screenshot' + tail
         return href
 
 
