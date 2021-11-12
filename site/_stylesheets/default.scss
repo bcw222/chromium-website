@@ -18,9 +18,17 @@ i, em {
   font-style: italic;
 }
 
+pre {
+  margin: 1em;
+  padding: 0.5em 1em 0.5em 1em;
+  background: #efefef;
+  border: 1px solid #d3d3d3;
+}
+
 code {
   font-family: monospace;
   color: rgba(0,96,0,1);
+  background: #efefef;
 }
 
 ul[role='navigation'],
@@ -235,6 +243,10 @@ header {
     li {
       margin-top: 5px;
       margin-bottom: 5px;
+
+      > p:first-of-type {
+        display: inline;
+      }
     }
 
     ul {
@@ -257,6 +269,10 @@ header {
       margin: 5px 0;
       p {
         margin: .5em 0;
+      }
+
+      > p:first-of-type {
+        display: inline;
       }
     }
 
