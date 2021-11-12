@@ -22,6 +22,30 @@
       },
       "revId": "e64da38258d29fc2107f2e281d10914e48e63f72",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b837078c_dda5ecdc",
+        "filename": "site/getting-involved/dev-channel/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-12T20:49:13Z",
+      "side": 0,
+      "message": "Oh yeah, you\u0027re right. Good catch, will fix.",
+      "parentUuid": "039796f9_34291981",
+      "range": {
+        "startLine": 181,
+        "startChar": 0,
+        "endLine": 181,
+        "endChar": 92
+      },
+      "revId": "e64da38258d29fc2107f2e281d10914e48e63f72",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
