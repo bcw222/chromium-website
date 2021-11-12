@@ -24,6 +24,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "029fbc00_bae615c1",
+        "filename": "docs/AUTHORING.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-12T20:45:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5289b97a_432eb838",
+      "range": {
+        "startLine": 51,
+        "startChar": 8,
+        "endLine": 51,
+        "endChar": 9
+      },
+      "revId": "e00e16436c4582b96a44eeec31ea98a3002fd3ff",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "05910a5a_c04d7ea5",
@@ -37,6 +61,24 @@
       "writtenOn": "2021-11-12T20:33:21Z",
       "side": 1,
       "message": "Is slow lob upload/download something we should have here?",
+      "revId": "e00e16436c4582b96a44eeec31ea98a3002fd3ff",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a1734863_885f1672",
+        "filename": "docs/AUTHORING.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-12T20:45:14Z",
+      "side": 1,
+      "message": "Good question.\n\nI think that\u0027s more of an internal thing that authors won\u0027t have to worry about when modifying pages (unless of course they\u0027re adding images to a page, but even then it shouldn\u0027t be too slow for only a few images).\n\nWe could list the issue on the CONTRIBUTING page, but I\u0027m not going to worry about until I get feedback that it\u0027s a problem.",
+      "parentUuid": "05910a5a_c04d7ea5",
       "revId": "e00e16436c4582b96a44eeec31ea98a3002fd3ff",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
