@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "039796f9_34291981",
+        "filename": "site/getting-involved/dev-channel/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 1170419
+      },
+      "writtenOn": "2021-11-12T20:33:38Z",
+      "side": 0,
+      "message": "This line seems a little weird and rendered differently on the sites page,\nhttps://dev.chromium.org/getting-involved/dev-channel/\nvs\nhttps://chromium-website--cl3277232-ps2-cclfxipa.web.app/getting-involved/dev-channel/",
+      "range": {
+        "startLine": 181,
+        "startChar": 0,
+        "endLine": 181,
+        "endChar": 92
+      },
+      "revId": "e64da38258d29fc2107f2e281d10914e48e63f72",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
