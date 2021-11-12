@@ -12,4 +12,4 @@ title: Policy Settings in Chrome
 
 **This documentation has been moved to**
 
-<https://chromium.googlesource.com/chromium/src/+/master/docs/enterprise/add_new_policy.md>
+==<https://source.chromium.org/chromium/chromium/src/+/main:docs/enterprise/add_new_policy.md>==

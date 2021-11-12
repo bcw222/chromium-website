@@ -34,13 +34,15 @@ src="/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202019-1
 
 2. In the upper left, press the **Record** button.
 
-[<img alt="image"
-src="/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-10%2014%3A52%3A09.png">](/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-10%2014%3A52%3A09.png)
+[<img
+alt="https://sites.google.com/a/chromium.org/dev/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-10%2014_52_09.png?attredirects=0"
+src="/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-10%2014%3A52%3A09.png">](/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-10%2014_52_09.png)
 
 3. In the dialog that opens, select **Manually select settings**
 
-> [<img alt="image"
-> src="/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-24%2011%3A16%3A39.png">](/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-24%2011%3A16%3A39.png)
+> [<img
+> alt="https://sites.google.com/a/chromium.org/dev/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-24%2011_16_39.png?attredirects=0"
+> src="/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-24%2011%3A16%3A39.png">](/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-24%2011_16_39.png)
 
 4. Under **Record Categories**, click **All**.
 
@@ -52,14 +54,16 @@ duration of your recording should be about 10 seconds or less.
 
 7. Return to the tracing tab and press **Stop**.
 
-> [<img alt="image"
-> src="/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-10%2014%3A54%3A06.png">](/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-10%2014%3A54%3A06.png)
+> [<img
+> alt="https://sites.google.com/a/chromium.org/dev/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-10%2014_54_06.png?attredirects=0"
+> src="/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-10%2014%3A54%3A06.png">](/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-10%2014_54_06.png)
 
 8. When the recording has been imported, click **Save** at the top of the
 screen, then choose where to save it on your computer.
 
-> [<img alt="image"
-> src="/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-10%2014%3A55%3A28.png">](/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-10%2014%3A55%3A28.png)
+> [<img
+> alt="https://sites.google.com/a/chromium.org/dev/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-10%2014_55_28.png?attredirects=0"
+> src="/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-10%2014%3A55%3A28.png">](/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-10%2014_55_28.png)
 
 9. File a [new performance
 bug](https://code.google.com/p/chromium/issues/entry). Make sure to add a

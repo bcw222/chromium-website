@@ -6,8 +6,7 @@ page_name: spec-mentors
 title: Chromium Specification Mentors
 ---
 
-*Quick links:* [spec-mentors@chromium.org Google
-Group](https://groups.google.com/a/chromium.org/g/spec-mentors); [mentor request
+*Quick link:* [mentor request
 form](https://docs.google.com/forms/d/e/1FAIpQLSfCYE4U13GkZ11rAWBUjOb3Lza-u4m2k3TklQHXe7Zfn3Qo1g/viewform)
 
 #### Introduction
@@ -31,13 +30,6 @@ feature more predictable and less painful for Chromium engineers.
 
 #### How we work
 
-##### General availability
-
-If you have an explainer or spec you'd like some mentorship on or review of, the
-spec mentors are available at any time. Send us an email at
-[spec-mentors@chromium.org](https://groups.google.com/a/chromium.org/g/spec-mentors)
-with links to what you're working on, and we can take a look.
-
 ##### Pairing up with your mentor
 
 Before sending an Intent to Prototype, you are encouraged to find a spec mentor
@@ -54,9 +46,6 @@ with the relevant information. In the latter case, we will get back to you with
 a proposed mentor within 2 business days; we want to make sure your Intent to
 Prototype proceeds as quickly as possible.
 
-Once you're paired up, you should enter your mentor's email address into the
-appropriate field in the Chrome Platform Status tool.
-
 ##### What to expect
 
 Your mentor will be available for you to ask questions or ask for reviews
@@ -65,9 +54,9 @@ someone to review your explainer or specification work, you can collaborate with
 them directly, e.g. using video calls, GitHub pull request reviews, or Google
 Docs.
 
-There are three specific points at which you'll want to request detailed review
-from your mentor, so that they can help ensure that your public artifacts are
-high-quality:
+There are three specific points at which you'll want to request detailed
+specification review from your mentor, so that they can help ensure that your
+public artifacts are high-quality:
 
     (Optional) For your explainer and TAG review request, before sending them
     out in the Intent to Prototype process.
@@ -79,10 +68,6 @@ high-quality:
     vendors.
 
     For your specification, before sending an Intent to Ship.
-
-The [Chrome Platform Status](https://www.chromestatus.com/features) tool, and
-the Intents they generate, will include explicit lines asking for your
-standardization mentor's signoff at these points.
 
 You can also call on your mentor to review the Intents themselves, before you
 send them off to blink-dev and the scrutiny of the API owners and the wider
