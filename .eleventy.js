@@ -66,6 +66,7 @@ module.exports = config => {
   }
 
   return {
+    markdownTemplateEngine: 'njk',
     dir: {
       input: 'site',
       output: 'build'

@@ -138,8 +138,8 @@ Adding documentation is very simple:
             Whichever of extensions and/or apps you add an HTML file in depends
             on which platform can access your API.
     *   Each will look something like:
-                {{+partials.standard_extensions_api api:apis.extensions.myapi
-                intro:intros.myapi /}} (or apps).
+                {{ '{{' }}+partials.standard_extensions_api api:apis.extensions.myapi
+                intro:intros.myapi /{{ '}}' }} (or apps).
 
 **C++ implementation**
 
