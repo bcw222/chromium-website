@@ -5,42 +5,42 @@ use_title_as_h1: true
 <html>
 {%- if redirect %}
 <head>
-  <meta http-equiv="Refresh" content="0; url='{{redirect}}'" />
+  <meta http-equiv="Refresh" content="0; url='{{redirect}}'">
 </head>
 {%- else %}
 <head>
   {%- if title %}
   <title>{{ title }}</title>
   {%- endif %}
-  <link rel="stylesheet" type="text/css" href="/_stylesheets/default.css" />
+  <link rel="stylesheet" href="/_stylesheets/default.css">
   <script src="/_scripts/selector.js"></script>
 </head>
 <body>
   <div id="selector">
     <form action="">
       <div id="selector-page">
-        Page <input id='page-number' type='text' value='' /> of <span id='pages'>1</span>:
-        <input id='path' type='text' value='' />
-        <button id='prev'>&lt;</button>
-        <button id='next'>&gt;</button>
+        Page <input id="page-number" value=""> of <span id="pages">1</span>:
+        <input id="path" value="">
+        <button id="prev">&lt;</button>
+        <button id="next">&gt;</button>
         <a href="https://goto.google.com/chromium-site-review">See the full list of pages to review</a>
       </div>
       <div id="selector-version">
-        <button id='both'>BOTH</button>
-        <button id='old'>OLD</button>
-        <button id='new' class="selected">NEW</button>
+        <button id="both">BOTH</button>
+        <button id="old">OLD</button>
+        <button id="new" class="selected">NEW</button>
       </div>
     </form>
   </div>
-  <div id='pages-container'>
-    <div id='old-page'>
+  <div id="pages-container">
+    <div id="old-page">
       <iframe src="/originals{{ page.url }}"></iframe>
     </div>
-    <div id='new-page'>
+    <div id="new-page">
       <header>
         <div id="header-left">
           <a href="/" id="userheader-logo">
-            <img src="/_assets/customLogo.png" alt="The Chromium Projects" id="sites-logo" />
+            <img src="/_assets/customLogo.png" alt="The Chromium Projects" id="sites-logo">
           </a>
           <h2><a href="/">The Chromium Projects (staging)</a></h2>
         </div>
@@ -90,7 +90,7 @@ use_title_as_h1: true
             and examples are licensed under the
             <a href="https://chromium.googlesource.com/chromium/src/+/master/LICENSE">BSD License</a>.
           </div>
-          <a class="edit_link" href="https://edit.chromium.org/edit?repo=chromium/website/main&file=site{{page.url}}index.md">Edit this page</a>
+          <a class="edit_link" href="https://edit.chromium.org/edit?repo=chromium/website/main&amp;file=site{{page.url}}index.md">Edit this page</a>
         </nav>
         <main id="main-content">
         {%- if breadcrumbs %}
