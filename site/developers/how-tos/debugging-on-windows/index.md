@@ -13,7 +13,7 @@ build instructions.
 
 ## Getting started
 
-### You can use Visual Studio's built-in debugger or [WinDBG](/developers/how-tos/debugging-on-windows/windbg-help) to debug Chromium. You don't need to use the IDE to build in order to use the debugger: Ninja is used to build Chromium and most developers invoke it from a command prompt, and then open the IDE for debugging as necessary. To start debugging an already-built executable with Visual Studio just launch Visual Studio (2019 or higher) and select File-&gt; Open-&gt; Project/Solution (Ctrl+Shift+O) and select the executable of interest. This will create a solution with that executable as the 'project'. You can then launch the debugger with F5 or F11 or from the Debug menu. If you right-click on the executable in Solution Explorer and select properties then you can edit things such as the executable path, command-line arguments, and working directory.
+You can use Visual Studio's built-in debugger or [WinDBG](/developers/how-tos/debugging-on-windows/windbg-help) to debug Chromium. You don't need to use the IDE to build in order to use the debugger: Ninja is used to build Chromium and most developers invoke it from a command prompt, and then open the IDE for debugging as necessary. To start debugging an already-built executable with Visual Studio just launch Visual Studio (2019 or higher) and select File-&gt; Open-&gt; Project/Solution (Ctrl+Shift+O) and select the executable of interest. This will create a solution with that executable as the 'project'. You can then launch the debugger with F5 or F11 or from the Debug menu. If you right-click on the executable in Solution Explorer and select properties then you can edit things such as the executable path, command-line arguments, and working directory.
 
 You can add additional executables to the solution by using File-&gt; Add-&gt;
 Existing Project and selecting another already-built executable. You can select
@@ -56,7 +56,7 @@ your stable browser might see profile versions from the future (Google Chrome
 and Chromium use different profile directories by default so won't collide). Use
 the command-line option:
 
-> --user-data-dir=c:\\tmp\\my_debug_profile (replace the path as necessary)
+   --user-data-dir=c:\\tmp\\my_debug_profile (replace the path as necessary)
 
 Using the IDE, go to the **Debugging** tab of the properties of the chrome
 project, and set the **Command Arguments.**
@@ -75,7 +75,7 @@ directory](/user-experience/user-data-directory) details.
 If you are debugging official Google Chrome release builds, use the symbol
 server:
 
-> https://chromium-browser-symsrv.commondatastorage.googleapis.com
+   https://chromium-browser-symsrv.commondatastorage.googleapis.com
 
 In Visual Studio, this goes in **Tools &gt; Options** under **Debugging &gt;
 Symbols**. You should set up a local cache in a empty directory on your
@@ -84,14 +84,14 @@ computer.
 In windbg you can add this to your symbol server search path with the command
 below, where c:\\Symbols is a local cache directory:
 
-> .sympath+
-> SRV\*c:\\Symbols\*https://chromium-browser-symsrv.commondatastorage.googleapis.com
+   .sympath+
+   SRV\*c:\\Symbols\*https://chromium-browser-symsrv.commondatastorage.googleapis.com
 
 Alternately, You can set the _NT_SYMBOL_PATH environment variable to include
 both the Microsoft and Google symbol servers - VS, windbg, and other tools
 should both respect this environment variable:
 
-> _NT_SYMBOL_PATH=SRV\*C:\\symbols\*https://msdl.microsoft.com/download/symbols;SRV\*C:\\symbols\*https://chromium-browser-symsrv.commondatastorage.googleapis.com
+   _NT_SYMBOL_PATH=SRV\*C:\\symbols\*https://msdl.microsoft.com/download/symbols;SRV\*C:\\symbols\*https://chromium-browser-symsrv.commondatastorage.googleapis.com
 
 Note that symbol servers will let the debuggers download both the PE files (DLLs
 and EXEs) and the PDB files.
@@ -109,7 +109,7 @@ For example, for completeness, the following symbol server environment variable
 will resolve all of the above sources - but this is more than is normally
 needed:
 
-> _NT_SYMBOL_PATH=SRV\*C:\\symbols\*https://msdl.microsoft.com/download/symbols;SRV\*C:\\symbols\*https://chromium-browser-symsrv.commondatastorage.googleapis.com;SRV\*C:\\symbols\*https://download.amd.com/dir/bin;SRV\*C:\\symbols\*https://driver-symbols.nvidia.com/;SRV\*C:\\symbols\*https://software.intel.com/sites/downloads/symbols/
+   _NT_SYMBOL_PATH=SRV\*C:\\symbols\*https://msdl.microsoft.com/download/symbols;SRV\*C:\\symbols\*https://chromium-browser-symsrv.commondatastorage.googleapis.com;SRV\*C:\\symbols\*https://download.amd.com/dir/bin;SRV\*C:\\symbols\*https://driver-symbols.nvidia.com/;SRV\*C:\\symbols\*https://software.intel.com/sites/downloads/symbols/
 
 #### Source indexing
 
@@ -159,7 +159,7 @@ allow you to see the entire state of the program without extra work (although it
 will still have many threads). To use single-process mode, add the command-line
 flag
 
-> `--single-process`
+   `--single-process`
 
 This approach isn't perfect because some problems won't manifest themselves in
 this mode and some features don't work and worker threads are still spawned into
@@ -167,7 +167,7 @@ new processes.
 
 ### Manually attaching to a child process
 
-### You can attach to the running child processes with the debugger. Select
+You can attach to the running child processes with the debugger. Select
 **Tools &gt; Attach to Process** and click the **chrome.exe** process you want
 to attach to. Before attaching, make sure you have selected only Native code
 when attaching to the process This is done by clicking Select... in the Attach
@@ -175,47 +175,47 @@ to Process window and only checking Native. If you forget this, it may attempt
 to attach in "WebKit" mode to debug JavaScript, and you'll get an error message
 "An operation is not legal in the current state."
 
-### You can now debug the two processes as if they were one. When you are
+You can now debug the two processes as if they were one. When you are
 debugging multiple processes, open the **Debug &gt; Windows &gt; Processes**
 window to switch between them.
 
-### Sometimes you are debugging something that only happens on startup, and want
+Sometimes you are debugging something that only happens on startup, and want
 to see the child process as soon as it starts. Use:
 
-> ### --renderer-startup-dialog --no-sandbox
+    --renderer-startup-dialog --no-sandbox
 
-### You have to disable the sandbox or the dialog box will be prohibited from
+You have to disable the sandbox or the dialog box will be prohibited from
 showing. When the dialog appears, visit Tools &gt; Attach to Process and attach
 to the process showing the Renderer startup dialog. Now you're debugging in the
 renderer and can continue execution by pressing OK in the dialog.
 
-### Startup dialogs also exist for other child process types:
+Startup dialogs also exist for other child process types:
 --gpu-startup-dialog, --ppapi-startup-dialog, --utility-startup-dialog,
 --plugin-startup-dialog (for NPAPI).
 
-### For utilities, you can add a service type
+For utilities, you can add a service type
 --utility-startup-dialog=data_decoder.mojom.DataDecoderService.
 
-### You can also try [the vs-chromium
+You can also try [the vs-chromium
 plug-in](http://chromium.github.io/vs-chromium/#attach-to-chrome) to attach to
 the right processes.
 
 ### Semi-automatically attaching the debugger to child processes
 
-### The following flags cause child processes to wait for 60 seconds in a busy
+The following flags cause child processes to wait for 60 seconds in a busy
 loop for a debugger to attach to the process. Once either condition is true, it
 continues on; no exception is thrown.
 
-> ### --wait-for-debugger-children\[=*filter*\]
+    --wait-for-debugger-children\[=*filter*\]
 
-### The filter, if provided, will fire only if it matches the --type parameter
+The filter, if provided, will fire only if it matches the --type parameter
 to the process. Values include renderer, plugin (for NPAPI), ppapi, gpu-process,
 and utility.
 
-### When using this option, it may be helpful to limit the number of renderer
+When using this option, it may be helpful to limit the number of renderer
 processes spawned, using:
 
-> ### --renderer-process-limit=1
+    --renderer-process-limit=1
 
 ### Image File Execution Options
 
@@ -292,20 +292,12 @@ regular expression. Edit default.natstepfilter in the following directory:
 Add regular expressions of functions to not step into. Remember to regex-escape
 *and* XML-escape them, e.g. &lt; for &lt; and \\. for a literal dot. Example:
 
-&lt;Function&gt;&lt;Name&gt;operator
-new&lt;/Name&gt;&lt;Action&gt;NoStepInto&lt;/Action&gt;&lt;/Function&gt;
-
-&lt;Function&gt;&lt;Name&gt;operator
-delete&lt;/Name&gt;&lt;Action&gt;NoStepInto&lt;/Action&gt;&lt;/Function&gt;
-
-&lt;!-- Skip everything in std --&gt;
-
-&lt;Function&gt;&lt;Name&gt;std::.\*&lt;/Name&gt;&lt;Action&gt;NoStepInto&lt;/Action&gt;&lt;/Function&gt;
-
-&lt;!-- all methods on WebKit OwnPtr and variants, ... WTF::\*Ptr&lt;\*&gt;::\*
---&gt;
-
-&lt;Function&gt;&lt;Name&gt;WTF::.\*Ptr&lt;.\*&gt;::.\*&lt;/Name&gt;&lt;Action&gt;NoStepInto&lt;/Action&gt;&lt;/Function&gt;
+    &lt;Function&gt;&lt;Name&gt;operator new&lt;/Name&gt;&lt;Action&gt;NoStepInto&lt;/Action&gt;&lt;/Function&gt;
+    &lt;Function&gt;&lt;Name&gt;operator delete&lt;/Name&gt;&lt;Action&gt;NoStepInto&lt;/Action&gt;&lt;/Function&gt;
+    &lt;!-- Skip everything in std --&gt;
+    &lt;Function&gt;&lt;Name&gt;std::.\*&lt;/Name&gt;&lt;Action&gt;NoStepInto&lt;/Action&gt;&lt;/Function&gt;
+    &lt;!-- all methods on WebKit OwnPtr and variants, ... WTF::\*Ptr&lt;\*&gt;::\*--&gt;
+    &lt;Function&gt;&lt;Name&gt;WTF::.\*Ptr&lt;.\*&gt;::.\*&lt;/Name&gt;&lt;Action&gt;NoStepInto&lt;/Action&gt;&lt;/Function&gt;
 
 This file is read at start of a debugging session (F5), so you don't need to
 restart Visual Studio after changing it.
@@ -321,12 +313,12 @@ V8 supports many command-line flags that are useful for debugging. V8
 command-line flags can be set via the Chromium command-line flag --js-flags; for
 instance:
 
-chrome.exe --js-flags="--trace_exception --heap_stats"
+    chrome.exe --js-flags="--trace_exception --heap_stats"
 
 Note that some V8 command-line flags exist only in the debug build of V8. For a
 list of all V8 flags try:
 
-chrome.exe --js-flags="--help"
+    chrome.exe --js-flags="--help"
 
 ## Graphics debugging
 
@@ -371,7 +363,7 @@ script to copy only modified files (after a rebuild, for example).
 You can also use the zip action of the isolate scripts (tools\\mb\\mb.py) to
 package all the files for a target into a single zip file, for example:
 
-> python tools\\mb\\mb.py zip out/Release base_unittests base_unittests.zip
+    python tools\\mb\\mb.py zip out/Release base_unittests base_unittests.zip
 
 ## Finding all memory allocations
 
@@ -417,7 +409,7 @@ GFlags.exe settings for user mode stack trace database.
 If you then ever suffer a browser memory leak, you can snarf a dump of the
 process with
 
-> umdh -p:&lt;my browser pid&gt; &gt; chrome-browser-leak-umdh-dump.txt
+    umdh -p:&lt;my browser pid&gt; &gt; chrome-browser-leak-umdh-dump.txt
 
 which can then typically be "trivially" analyzed to find the culprit.
 
@@ -456,7 +448,7 @@ page](/developers/testing/page-heap-for-chrome).
 
 *   To put a breakpoint on CreateFile(), add this break point:
 
-> {,,kernel32.dll}_CreateFileW@28
+    {,,kernel32.dll}_CreateFileW@28
 
     *   {,,kernel32.dll}specifies the DLL (context operator).
     *   _ prefix means extern "C".
