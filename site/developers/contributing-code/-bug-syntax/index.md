@@ -90,7 +90,7 @@ keep track of commits that are part of the same code review.
 **Cr-Commit-Position:**
 
 Automatically added by the git-numberer Gerrit plugin when a change is
-submitted, this is of the format fully/qualified/ref@{#123456} and gives both
+submitted, this is of the format fully/qualified/ref@{{ '{#' }}123456} and gives both
 the branch name and "sequence number" along that branch. This approximates an
 SVN-style monotonically increasing revision number.
 

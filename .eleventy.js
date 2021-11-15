@@ -1,6 +1,5 @@
 module.exports = config => {
   config.addWatchTarget('./site/_stylesheets/');
-  config.setTemplateFormats(['md']);
 
   // Copy binary assets over to the dist/ directory.
 
@@ -70,5 +69,8 @@ module.exports = config => {
       input: 'site',
       output: 'build'
     },
+    markdownTemplateEngine: 'njk',
+    templateFormats: ['md', 'njk'],
+    htmlTemplateEngine: 'njk',
   };
 };

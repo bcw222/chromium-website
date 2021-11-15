@@ -103,7 +103,7 @@ use_title_as_h1: true
         {%- if use_title_as_h1 and title %}
           <h1>{{ title }}</h1>
         {%- endif %}
-        {{content}}
+        {{content | safe}}
           </main>
         </div>
       </div>

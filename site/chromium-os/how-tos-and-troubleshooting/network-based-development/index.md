@@ -142,14 +142,14 @@ setenv nfsserverip 172.22.73.60
 setenv board tegra2_seaboard
 setenv serial# <b>yourSerialNumberHere</b>
 setenv user <b>yourUsernameHere</b>
-setenv tftppath /uImage-${user}-${board}-${serial#}
+setenv tftppath /uImage-${user}-${board}-${serial{{ '#}' }}
 saveenv
 </code></pre>
 
 Other variables are set automatically by the boot scripts:
 
 ```none
-rootpath=/export/nfsroot-${user}-${board}-${serial#}
+rootpath=/export/nfsroot-${user}-${board}-${serial{{ '#}' }}
 ```
 
 There are two paths that your server must provide. The first is the path to your
@@ -190,7 +190,7 @@ replacing `nfskey_boot`,. Then change the `bootcmd` so it only runs your flow
 (NOTE: you may need to paste it a little bit at a time):
 
 ```none
-setenv mynfs_setup 'setenv rootpath /export/nfsroot-${user}-${board}-${serial#}; run regen_net_bootargs'
+setenv mynfs_setup 'setenv rootpath /export/nfsroot-${user}-${board}-${serial{{ '#}' }}; run regen_net_bootargs'
 setenv mynfs_boot 'run keynfs_setup; ext2load usb 0:2 ${loadaddr} uImage; bootm ${loadaddr}'
 setenv bootcmd run mynfs_boot
 saveenv
@@ -298,7 +298,7 @@ Ensure that you have an IP address (as shown in the DHCP section above). Then
 this should read in the kernel (assuming you've built it):
 
 ```none
-tftpboot ${loadaddr} ${tftpserverip}:/tftpboot/uImage-${user}-${board}-${serial#}
+tftpboot ${loadaddr} ${tftpserverip}:/tftpboot/uImage-${user}-${board}-${serial{{ '#}' }}
 ```
 
 You'll see this output if things are working well:
