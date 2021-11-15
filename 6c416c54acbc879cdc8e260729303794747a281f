@@ -16,6 +16,41 @@
       "message": "This mostly looks good, with one serious flaw. Some of the four-space indented sections (the two long _NT_SYMBOL_PATH lines) are setting the page width really wide which affects all paragraphs. We really want those long lines to either wrap or else have a scroll bar. Any thoughts? See:\n\nhttps://chromium-website--cl3283240-ps2-ld7cj9oh.web.app/developers/how-tos/debugging-on-windows/",
       "revId": "6c416c54acbc879cdc8e260729303794747a281f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9faacc64_db1751b5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-15T23:35:43Z",
+      "side": 1,
+      "message": "Good question.\n\nI think ideally we\u0027d force this to wrap, but I can\u0027t figure out the right combination of CSS incantations to make that happen on a \u003cpre\u003e\u003ccode\u003e block at the moment. \n\nFailing that, I think a horizontal scrollbar + a fixed width block would work, something like adding:\n\n    pre {\n      overflow-x: scroll;\n      max-width: 80em;\n    }\n    \nto //site/_stylesheets/default.scss should work okay for now.",
+      "parentUuid": "b4525230_417e94ff",
+      "revId": "6c416c54acbc879cdc8e260729303794747a281f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c0ee58e6_315cb648",
+        "filename": "site/developers/how-tos/debugging-on-windows/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-15T23:35:43Z",
+      "side": 1,
+      "message": "Use\n\n```\n--user-data-dir\u003d...\n```\n\ninstead of the 4-space indent. Google Markdown Style (and many other style guides) discourage the indent for code blocks because it doesn\u0027t play nice with things\nlike lists.",
+      "revId": "6c416c54acbc879cdc8e260729303794747a281f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
