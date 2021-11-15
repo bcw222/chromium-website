@@ -34,6 +34,24 @@
       "parentUuid": "502b7d37_fb334c8d",
       "revId": "f37c0953d3ca858cd273a074f8dd87db060ca016",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a868552c_b403018e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-15T19:37:57Z",
+      "side": 1,
+      "message": "Okay, it was definitely the change to Nunjucks that was breaking things; Nunjucks escapes things by default, and Liquid does not. Fixed in the latest patchset.\n\nI guess this\u0027ll teach me to actually look at the content :).",
+      "parentUuid": "239279ff_4207e5c0",
+      "revId": "f37c0953d3ca858cd273a074f8dd87db060ca016",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
