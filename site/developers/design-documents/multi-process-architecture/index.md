@@ -12,7 +12,7 @@ This document describes Chromium's high-level architecture.
 
 ## Problem
 
-It's nearly impossible to build a rendering engine that never crashes or hangs.
+It is nearly impossible to build a rendering engine that never crashes or hangs.
 It's also nearly impossible to build a rendering engine that is perfectly
 secure.
 
