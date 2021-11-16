@@ -39,6 +39,7 @@ ol[role='navigation'] {
 body {
   background-color: rgb(247, 247, 247);
   font-family: $body-fonts;
+  max-width: 100%;
 }
 
 header {
@@ -169,6 +170,11 @@ header {
   a.header-anchor {
     color: inherit;
     text-decoration: inherit;
+  }
+
+  pre {
+    width: calc(100vw - 260px);
+    overflow-x: scroll;
   }
 
   nav.table-of-contents {
