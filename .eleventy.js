@@ -1,5 +1,45 @@
+
 module.exports = config => {
   config.addWatchTarget('./site/_stylesheets/');
+
+  // `markdown-it` is Eleventy's default Markdown rendering engine.
+  // We need a reference to it to customize its behavior, below.
+  const md = require('markdown-it');
+
+  // `markdown-it-anchor` is an Eleventy plugin that will add <a> tags to header elements.
+  // (this improves the accessibility of linking to headers.)
+  const anchor = require('markdown-it-anchor');
+
+  // `uslug` is a Node package that convert text strings into "slugs" in a
+  // Unicode-friendly way. (Slugs are the kebab-cased equivalents of text that
+  // we use for page names, id's, etc. "Hello world" turns into 'hello-world".
+  const uslug = require('uslug');
+
+  // `markdown-it-attrs` is a markdown-it plugin that lets us customize the
+  // `id` and `class` attributes of an element in the generated output;
+  // we use this mostly for customizing the links in header tags.
+  //
+  // `markdown-it-toc-done-right` is a markdown-it plugin that adds support
+  // for the `[TOC]` mechanism for generating the table of contents in a page.
+  let mdlib = md({
+    html: true,
+  }).use(require('markdown-it-attrs'), {
+    leftDelimiter: '{:',
+    rightDelimiter: '}',
+    allowedAttributes: ['id', 'class'],
+  }).use(anchor, {
+    slugify: s => uslug(s),
+    level: 2,
+    permalink: anchor.permalink.headerLink(),
+  }).use(require('markdown-it-toc-done-right'), {
+    slugify: uslug,
+    tocClassName: 'toc',
+    tocFirstLevel: 2,
+    tocPattern: /\[TOC\]/,
+  });
+
+  config.setLibrary('md', mdlib);
+
 
   // Copy binary assets over to the dist/ directory.
 

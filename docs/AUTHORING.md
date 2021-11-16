@@ -21,7 +21,7 @@ SHA-1 checksums that are committed into this repo. Run
 
 ## Front matter
 
-The Markdown pages contain a "front matter" section that can set a few
+The Markdown pages must contain a "front matter" section that can set a few
 variables to control aspects of the page appearance. The front matter
 must be in the form of a YAML document, and the following variables are
 supported:
@@ -84,7 +84,9 @@ Yet more markdown.
 See [/chromium-os/chrome-os-systems-supporting-android-apps](https://new.chromium.org/chromium-os/chrome-os-systems-supporting-android-apps)
 for an example.
 
-## Two-column pages
+## Markdown extensions
+
+### Two-column pages
 
 You can display text in two columns using divs with particular classes:
 
@@ -105,10 +107,36 @@ You can display text in two columns using divs with particular classes:
 See [/chromium-projects](https://new.chromium.org/chromium-projects)
 for an example.
 
+### Tables of contents
+
+If you write `[TOC]` on a line by itself a table of contents will be
+generated from the headers in the file and inserted in its place.
+The table of contents will include H2-H6 headers, but not the
+H1 header (if present).
+
+### Custom IDs and classes
+
+You may customize the `ID` and `class` attributes of block-level elements
+as follows:
+
+```
+## Header 2 {:#my-header .my-class}
+```
+
+will generate:
+
+```
+<h2 class="my-class" id="my-header"><a href="#my-header">Header 2</a></h2>
+```
+
+This should mostly be used to override the automatically-generated id
+for headers, and only sparingly to trigger custom CSS rules on other
+elements.
+
+You must use `{:` and `}` as the delimiters around the custom attributes.
+
 ## Known issues
 
-*   [crbug.com/1260451](crbug.com/1260451): The `%TOC%` shortcode doesn't
-    work.
 *   [crbug.com/1260453](crbug.com/1260453): There's no mechanism for listing
     all the sub-pages of a page yet.
 *   [crbug.com/1269867](crbug.com/1269867): We should have an auto-formatter
