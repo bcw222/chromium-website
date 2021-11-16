@@ -84,7 +84,7 @@ See also: All [How-tos](/developers/how-tos).
 
 ### Blink
 
-*   [Blink Project](http://www.chromium.org/blink)
+*   [Blink Project](/blink)
     *   [DOM Team](/teams/dom-team)
     *   [Binding Team](/teams/binding-team)
     *   [Layout Team](/teams/layout-team)
