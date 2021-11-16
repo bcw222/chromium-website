@@ -331,26 +331,26 @@ firmware bootstrap to the kernel in the disk.
 
 **Pseudocode**
 
-1.  **Verify the partition table on the disk looks sane.**
-2.  **Load kernel A from the disk.**
-3.  **Verify signature of kernel.**
-4.  **If signature is invalid:**
-    1.  **If this is kernel A, retry with kernel B.**
-    2.  **Else this is kernel B. Both kernels are bad, so set the
+1.  Verify the partition table on the disk looks sane.
+2.  Load kernel A from the disk.
+3.  Verify signature of kernel.
+4.  If signature is invalid:
+    1.  If this is kernel A, retry with kernel B.
+    2.  Else this is kernel B. Both kernels are bad, so set the
                 recovery-mode cookie non-volatile register and reboot into
-                recovery firmware.**
-5.  **If kernel was signed with a public key not known to the boot
-            loader, this is a developer kernel:**
-    1.  **Initialize the display.**
-    2.  **Display scary developer mode warning to user. For example:
+                recovery firmware.
+5.  If kernel was signed with a public key not known to the boot
+            loader, this is a developer kernel:
+    1.  Initialize the display.
+    2.  Display scary developer mode warning to user. For example:
                 "Google Chrome OS is not installed. Press space bar to
-                repair."**
-    3.  **Wait for keypress or 30-second delay before continuing.**
-    4.  **If key pressed was Space bar, Enter, or Esc, jump to Recovery
-                Firmware.**
-    5.  **If key pressed was Control+D, dismiss screen.**
-    6.  **Ignore other key presses.**
-6.  **Continue booting the kernel.**
+                repair."
+    3.  Wait for keypress or 30-second delay before continuing.
+    4.  If key pressed was Space bar, Enter, or Esc, jump to Recovery
+                Firmware.
+    5.  If key pressed was Control+D, dismiss screen.
+    6.  Ignore other key presses.
+6.  Continue booting the kernel.
 
 ### Boot log
 
