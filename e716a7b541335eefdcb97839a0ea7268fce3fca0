@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0cbc2d66_d71bce42",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-16T17:31:14Z",
+      "side": 1,
+      "message": "I\u0027ve re-written the CL description to be clearer about what does and doesn\u0027t work;\nsaying that the windows build \"worked\" was just wrong, previously.\n\nThere\u0027s still work to do.",
+      "revId": "e716a7b541335eefdcb97839a0ea7268fce3fca0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
