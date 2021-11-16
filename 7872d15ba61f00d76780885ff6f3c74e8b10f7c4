@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9c289415_57c30149",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2021-11-16T22:42:51Z",
+      "side": 1,
+      "message": "Noticed some oddities I wanted to draw attention to but the changes don\u0027t look like a problem",
+      "revId": "7872d15ba61f00d76780885ff6f3c74e8b10f7c4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4dd79ae7_d5f92305",
+        "filename": "site/chromium-os/chrome-os-systems-supporting-android-apps/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2021-11-16T22:42:51Z",
+      "side": 1,
+      "message": "I think the spacing logic changed and it goes over 80 chars?",
+      "range": {
+        "startLine": 18,
+        "startChar": 73,
+        "endLine": 18,
+        "endChar": 74
+      },
+      "revId": "7872d15ba61f00d76780885ff6f3c74e8b10f7c4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "170a12f1_032b53bd",
+        "filename": "site/chromium-os/chrome-os-systems-supporting-linux/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2021-11-16T22:42:51Z",
+      "side": 1,
+      "message": "I\u0027m thinking this changed from another CL and this is the result of exporting it with this one? I thought these went from td -\u003e th though",
+      "range": {
+        "startLine": 27,
+        "startChar": 16,
+        "endLine": 27,
+        "endChar": 21
+      },
+      "revId": "7872d15ba61f00d76780885ff6f3c74e8b10f7c4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
