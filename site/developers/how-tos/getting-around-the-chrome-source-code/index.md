@@ -116,7 +116,7 @@ src="/developers/how-tos/getting-around-the-chrome-source-code/Content.png">](/d
             operation on untrusted data.
 *   **worker:** Code for running HTML5 Web Workers.
 
-## ## Quick reference for the directory tree under "chrome/"
+## Quick reference for the directory tree under "chrome/"
 
 *   **app**: The "app" is the most basic level of the program. It is run
             on startup, and dispatches to either the browser or renderer code
