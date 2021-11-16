@@ -31,7 +31,7 @@ on to live up to this principle include:
             (including the most current [seccomp-bpf
             layer](http://blog.chromium.org/2012/11/a-safer-playground-for-your-linux-and.html))
     *   [bpf_dsl
-                presentation](https://drive.google.com/file/d/0B9LSc_-kpOQPVHhvcVBza3NWR0k/view)
+                presentation](https://drive.google.com/file/d/0B9LSc_-kpOQPVHhvcVBza3NWR0k/view?usp=sharing)
                 (Sep 2014)
 *   [Chrome on OSX (sandbox)
             overview](/developers/design-documents/sandbox/osx-sandboxing-design)
@@ -59,8 +59,8 @@ in the presence of a vulnerability in the renderer process.
             and
             [SafeSEH](http://msdn.microsoft.com/en-us/library/9a89h429.aspx).
 *   We block [out-of-date or unpopular
-            plugins](http://support.google.com/chrome/bin/answer.py) by default
-            and support work toward [NPAPI
+            plugins](http://support.google.com/chrome/bin/answer.py?hl=en&answer=1181003)
+            by default and support work toward [NPAPI
             deprecation](http://blog.chromium.org/2013/09/saying-goodbye-to-our-old-friend-npapi.html).
 *   We implement memory hardening features, like [Binding
             Integrity](/Home/chromium-security/binding-integrity).

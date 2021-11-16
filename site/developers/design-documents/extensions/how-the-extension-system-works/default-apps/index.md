@@ -27,9 +27,9 @@ mechanism.
 4.  Copy the .crx to
             [src/chrome/browser/resources/default_apps](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/browser/resources/default_apps/).
 5.  Add it to
-            [external_extensions.json](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/browser/resources/default_apps/external_extensions.json)
+            [external_extensions.json](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/browser/resources/default_apps/external_extensions.json?view=markup)
             and
-            [common.gypi](http://src.chromium.org/viewvc/chrome/trunk/src/build/common.gypi)
+            [common.gypi](http://src.chromium.org/viewvc/chrome/trunk/src/build/common.gypi?view=markup)
             (look for default_apps_list and default_apps_list_linux_dest)
 
 Testing your changes by making a branded build is tedious. Instead you can

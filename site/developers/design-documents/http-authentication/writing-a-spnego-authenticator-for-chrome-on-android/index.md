@@ -11,7 +11,7 @@ title: Writing a SPNEGO Authenticator for Chrome on Android
 ---
 
 As described in [Kerberos for Chrome on
-Android](https://docs.google.com/document/d/1G7WAaYEKMzj16PTHT_cIYuKXJG6bBcrQ7QQBQ6ihOcQ/edit),
+Android](https://docs.google.com/document/d/1G7WAaYEKMzj16PTHT_cIYuKXJG6bBcrQ7QQBQ6ihOcQ/edit?usp=sharing),
 in Chrome M46 third parties can enable SPNEGO authentication in Chrome for
 Android. To do this they must provide a SPNEGO Authenticator. This page
 describes the interface between Chrome and the SPNEGO Authenticator.
@@ -32,7 +32,7 @@ AbstractAccountAuthenticator.
 The SPNEGO Authenticator must define a new account type. Its name should be
 derived from the writer’s domain name (e.g. com.example.spnego). As explained in
 [Kerberos for Chrome on
-Android](https://docs.google.com/document/d/1G7WAaYEKMzj16PTHT_cIYuKXJG6bBcrQ7QQBQ6ihOcQ/edit),
+Android](https://docs.google.com/document/d/1G7WAaYEKMzj16PTHT_cIYuKXJG6bBcrQ7QQBQ6ihOcQ/edit?usp=sharing),
 the account type must be defined to use
 [customTokens](http://developer.android.com/reference/android/R.attr.html#customTokens).
 The account type must support the “SPNEGO” feature

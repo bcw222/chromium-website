@@ -96,7 +96,7 @@ update the device.
 
 The touch firmware updater consists of a set of scripts and firmware files. The
 firmware update script is available in a [Chromium OS source
-tree](http://git.chromium.org/gitweb/).
+tree](http://git.chromium.org/gitweb/?p=chromiumos/platform/touch_updater.git;a=tree;f=scripts).
 
 The files used by the touch firmware updater (as seen on the filesystem of a
 target system) are organized as follows:
@@ -133,7 +133,8 @@ are nonresponsive for the duration of the update, and during this process a user
 should not be able to interact with the device.
 
 For details, see the
-[chromeos-touch-update.conf](http://git.chromium.org/gitweb/) job.
+[chromeos-touch-update.conf](http://git.chromium.org/gitweb/?p=chromiumos/platform/touch_updater.git;a=blob;f=scripts/chromeos-touch-update.conf;hb=HEAD)
+job.
 
 The updater also runs as a part of the recovery process from a recovery image
 booted via USB.

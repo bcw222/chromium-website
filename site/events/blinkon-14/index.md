@@ -18,7 +18,7 @@ title: BlinkOn 14
 Welcome to BlinkOn 14 - we're looking forward to hosting you soon!
 
 If you haven't already done so, please [register
-now](https://docs.google.com/forms/d/e/1FAIpQLSc1r9roNnTNDygOYptafgEIc1QkNyV65I0ZW5ySImfwpyVg_w/viewform).
+now](https://docs.google.com/forms/d/e/1FAIpQLSc1r9roNnTNDygOYptafgEIc1QkNyV65I0ZW5ySImfwpyVg_w/viewform?usp=sf_link).
 Registration will remain open until May 12th JST / May 11th PST, but we
 encourage you to register ASAP so that you can stay up to date with the latest
 information.
@@ -43,7 +43,7 @@ times.
 The breakout talk sign up closed on May 11th JST / May 10th PST. If you signed
 up to host a breakout talk, please your add a link to your slides or
 pre-recorded talk to Column F in [this
-sheet](https://docs.google.com/spreadsheets/d/1XkgjTXOPVQd8GzJJafG2QSCUm9c-FZvIztgpygAsFvs/edit).
+sheet](https://docs.google.com/spreadsheets/d/1XkgjTXOPVQd8GzJJafG2QSCUm9c-FZvIztgpygAsFvs/edit?usp=sharing).
 
 ## **Call for Content (Lightning Talks)**
 
@@ -74,7 +74,7 @@ Before your breakout talk, please:
 *   Ensure your backup presenter is available
 
     [Present your slides or pre-recorded
-    talk](https://support.google.com/a/users/answer/9848723)
+    talk](https://support.google.com/a/users/answer/9848723?hl=en&ref_topic=9545472)
 
         On the bottom, select Present now
 
@@ -88,7 +88,7 @@ Before your breakout talk, please:
             slides or pre-recorded talk
 
     If applicable, [remove
-    participants](https://support.google.com/meet/answer/7501121)
+    participants](https://support.google.com/meet/answer/7501121?hl=en&ref_topic=7290350#)
 
         \[External Attendees\] ask a Google participant to remove participants
 
@@ -98,50 +98,54 @@ Before your breakout talk, please:
 During your breakout talk, you can moderate questions using any of the following
 features
 
-*   [Chat](https://support.google.com/meet/answer/9308979) - ask
-            participants to:
+*   [Chat](https://support.google.com/meet/answer/9308979?hl=en&co=GENIE.Platform=Desktop)
+            - ask participants to:
     *   On the top right, select "Chat"
     *   Enter their question and then select "Send"
-*   [Raise hand](https://support.google.com/meet/answer/10159750) - ask
-            participants to:
+*   [Raise
+            hand](https://support.google.com/meet/answer/10159750?hl=en&ref_topic=7290350)
+            - ask participants to:
     *   On the bottom right, select "Raise Hand"
-*   [Q&A](https://support.google.com/meet/answer/10146000) - ask
-            participants to:
+*   [Q&A](https://support.google.com/meet/answer/10146000?hl=en&ref_topic=7290350)
+            - ask participants to:
     *   On the top right, select "Activities" and then "Q&A"
     *   Select "Ask a question"
     *   Enter their question and then click "Post"
 
 ### *Technical Considerations*
 
-    [Turn on captions](https://support.google.com/meet/answer/9300310)
+    [Turn on
+    captions](https://support.google.com/meet/answer/9300310?hl=en&ref_topic=7290350)
 
         On the bottom, select "Turn on captions"
 
     [Change the number of participants you see on your
-    screen](https://support.google.com/meet/answer/9292748)
+    screen](https://support.google.com/meet/answer/9292748?hl=en)
 
         On the bottom, select "More options" and then "Change layout"
 
-    [Mute or pin participants](https://support.google.com/meet/answer/7501121)
+    [Mute or pin
+    participants](https://support.google.com/meet/answer/7501121?hl=en&ref_topic=7290350#)
 
         Select "Mute" or "Pin" in a participant's thumbnail image
 
     \[Internal Attendees\] [Toggle noise cancellation
-    on](https://support.google.com/meet/answer/9919960)
+    on](https://support.google.com/meet/answer/9919960?hl=en)
 
         On the bottom, select "More options"
 
         Select "Settings" and then "Audio"
 
     If you experience quality issues, [change your send and receive resolutions
-    to 360p](https://support.google.com/a/users/answer/9848870)
+    to
+    360p](https://support.google.com/a/users/answer/9848870?hl=en&co=GENIE.Platform=Desktop)
 
         On the bottom, select "More options"
 
         Select "Settings" and then "Video"
 
     If you experience any other troubleshoot issues, visit [troubleshoot issues
-    with Google Meet](https://support.google.com/meet/answer/7380413)
+    with Google Meet](https://support.google.com/meet/answer/7380413?hl=en)
 
 ## Chromium on Slack
 
@@ -174,7 +178,8 @@ create your own channels in Slack or calls in Google Meet.
 
 ### *Google Meet*
 
-*   Go to [meet.google.com](https://www.google.com/url)
+*   Go to
+            [meet.google.com](https://www.google.com/url?q=http://meet.google.com&sa=D&source=editors&ust=1620403221523000&usg=AOvVaw05AjwDCdLqExMuippU1zNV)
 *   Select "New meeting" and then "Start an instant meeting"
 *   After you join the meeting, you will be given a URL to share with
             participants

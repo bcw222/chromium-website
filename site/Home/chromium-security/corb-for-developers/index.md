@@ -25,7 +25,8 @@ the [specification](https://fetch.spec.whatwg.org/#corb), the ["Site Isolation
 for web developers"
 article](https://developers.google.com/web/updates/2018/07/site-isolation), or
 the following [talk](https://youtu.be/dBuykrdhK-A) from Google I/O 2018. (The
-CORB discussion starts at [around 23:20 mark](https://youtu.be/dBuykrdhK-A).)
+CORB discussion starts at [around 23:20
+mark](https://youtu.be/dBuykrdhK-A?t=1401).)
 
 #### Lessons from Spectre and Meltdown, and how the whole web is getting safer
 

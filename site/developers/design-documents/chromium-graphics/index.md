@@ -20,8 +20,8 @@ graphics stack.
 **Starter Tasks**
 
 [Small to medium sized clean up task meta
-list](https://bugs.chromium.org/p/chromium/issues/detail). Please ask on
-specific bugs if you want to start working on it and needs more guidance.
+list](https://bugs.chromium.org/p/chromium/issues/detail?id=822915). Please ask
+on specific bugs if you want to start working on it and needs more guidance.
 
 **Technical Info**
 
@@ -34,7 +34,7 @@ roadmap](/developers/design-documents/gpu-accelerated-compositing-in-chrome/gpu-
 
 To suggest and vote on presentation topics, see [Compositor/GPU/Graphics talks
 you want to
-see](https://docs.google.com/spreadsheets/d/1IUl8IumXjBvxZVcd-K84uEvMcE71hJSWkHhMn0Lshr4/edit).
+see](https://docs.google.com/spreadsheets/d/1IUl8IumXjBvxZVcd-K84uEvMcE71hJSWkHhMn0Lshr4/edit?usp=sharing).
 
 Presentations:
 
@@ -63,7 +63,7 @@ Presentations:
 *   [Tile
             Management](https://docs.google.com/presentation/d/1gBYqSX92dMHa_UFek3F0D0g4-dt8xvRq0hIifC2IS7Y/edit#slide=id.p)
             \[[googler-only
-            video](https://drive.google.com/a/google.com/file/d/0B5eS4VhPbSBzUmZ2UVNZTm1wZmM/view)
+            video](https://drive.google.com/a/google.com/file/d/0B5eS4VhPbSBzUmZ2UVNZTm1wZmM/view?usp=sharing)
             and
             [notes](https://docs.google.com/document/d/16vWNxkI54E3swcq1IQvDR-LsPLXfhtlNh6Rbkbro2fI/edit#heading=h.57tap1txoipr)\]
 *   [Impl-side
@@ -82,13 +82,13 @@ Presentations:
             and
             [notes](https://docs.google.com/document/d/16vWNxkI54E3swcq1IQvDR-LsPLXfhtlNh6Rbkbro2fI/edit#heading=h.wjy9kg2zq8rl)\]
 *   [Compositor and Display
-            Scheduling](https://docs.google.com/presentation/d/1FpTy5DpIGKt8r2t785y6yrHETkg8v7JfJ26zUxaNDUg/edit)
+            Scheduling](https://docs.google.com/presentation/d/1FpTy5DpIGKt8r2t785y6yrHETkg8v7JfJ26zUxaNDUg/edit?usp=sharing)
             \[[googler-only
-            video](https://drive.google.com/a/google.com/file/d/0B_got0batQ0TUDJsUFRPeWVOcEk/view)
+            video](https://drive.google.com/a/google.com/file/d/0B_got0batQ0TUDJsUFRPeWVOcEk/view?usp=sharing)
             and
             [notes](https://docs.google.com/document/d/16vWNxkI54E3swcq1IQvDR-LsPLXfhtlNh6Rbkbro2fI/edit#heading=h.klitp6r86anv)\]
 *   [Gpu
-            Scheduler](https://docs.google.com/a/chromium.org/presentation/d/1QPUu0Nb2_nANLE8VApdMzzrifA6iG_BDG9Cd2L4BFV8/edit)
+            Scheduler](https://docs.google.com/a/chromium.org/presentation/d/1QPUu0Nb2_nANLE8VApdMzzrifA6iG_BDG9Cd2L4BFV8/edit?usp=sharing)
             \[[googler-only
             video](https://drive.google.com/a/google.com/file/d/0BwPS_JpKyELWb0k0NmNURU1uclk/view)
             and
@@ -104,21 +104,21 @@ Presentations:
 *   [Tessellated GPU Path
             Rendering](https://docs.google.com/presentation/d/1tyroXtcGwOvU1LPFxVU-vtBiDkLTcxZ62v2S9wqZ77w/edit#slide=id.p)
 *   [Tessellating Edge-AA GPU Path
-            Rendering](https://docs.google.com/presentation/d/1DpM5QS6kCkIqQN034Zz6oFm201Gd2wvq6Z30QfWNhcA/edit)
+            Rendering](https://docs.google.com/presentation/d/1DpM5QS6kCkIqQN034Zz6oFm201Gd2wvq6Z30QfWNhcA/edit?usp=sharing)
 *   [WebGL 2.0
             Updates](https://www.khronos.org/webgl/wiki/Presentations#September_2016_WebGL_Meetups)
             \[[googler-only
-            presentation](https://docs.google.com/a/google.com/presentation/d/1_V_vDLTTpx7XX7_P2J-Nehy-adhdRJItiN-4Pm9QGHQ/edit)\]
+            presentation](https://docs.google.com/a/google.com/presentation/d/1_V_vDLTTpx7XX7_P2J-Nehy-adhdRJItiN-4Pm9QGHQ/edit?usp=sharing)\]
 *   [Background on color
-            spaces](https://docs.google.com/presentation/d/1c4zjeWDEpHG36gCPZmXjCH7Rlp5_N9p1qyHRIe0AALY/edit)
+            spaces](https://docs.google.com/presentation/d/1c4zjeWDEpHG36gCPZmXjCH7Rlp5_N9p1qyHRIe0AALY/edit?usp=sharing)
             \[[googler-only
-            video](https://drive.google.com/file/d/0B6kh5pYRi1dKWGMtaFU2MkZIVjQ/view)\]
+            video](https://drive.google.com/file/d/0B6kh5pYRi1dKWGMtaFU2MkZIVjQ/view?usp=sharing)\]
 *   [Global Memory
-            Coordination](https://docs.google.com/presentation/d/1H2TN3DMRBlOWrpMqqkWlYeKuc7ecGH4-3tr4zqH5LdQ/edit)
+            Coordination](https://docs.google.com/presentation/d/1H2TN3DMRBlOWrpMqqkWlYeKuc7ecGH4-3tr4zqH5LdQ/edit?usp=sharing)
 *   [The RenderSurfaceLayerList data
             structure](https://docs.google.com/a/chromium.org/presentation/d/11f3A8cdfSSKmYazetxy9ochHuHqsmSEk3RW3DTYBDIc)
 *   [OOP-D: Out-of-Process Display Compositor
-            Talk](https://docs.google.com/presentation/d/1PfaIDZ5oJTEuAEJR8aj-B9QC-r1Pht_jQXwjifM1jQI/edit)
+            Talk](https://docs.google.com/presentation/d/1PfaIDZ5oJTEuAEJR8aj-B9QC-r1Pht_jQXwjifM1jQI/edit?usp=sharing)
 *   [Chromium OS - Compositor
             Pipeline](https://docs.google.com/presentation/d/1MZ0QtHPwxc5yBdfLmsPMgqIhNel5_Uyki-Mem2usW9s/edit#slide=id.g1e31a87b8b_2_285)
             \[[video](https://drive.google.com/file/d/1TVxTBRzXG58268shmCcoeU4gTaQPxFJK/view)\]
@@ -180,16 +180,16 @@ More design docs:
 *   [Partial Texture
             Updates](https://docs.google.com/a/chromium.org/document/d/1yvSVVgJ8bFyWjXGHpb8wDNtGdx8W5co7W0gbzjdFRj0)
 *   [ANGLE WebGL 2
-            Planning](https://docs.google.com/document/d/1MkJxb1bB9_WNeCViVZ4bf4opCH_NhqFn049xGq6lf4Q/edit)
+            Planning](https://docs.google.com/document/d/1MkJxb1bB9_WNeCViVZ4bf4opCH_NhqFn049xGq6lf4Q/edit?usp=sharing)
 *   [Asynchronous GPU
-            Rasterization](https://docs.google.com/a/chromium.org/document/d/1MAUJrOGMuD56hV4JhKp5bTgDv3d9rXRbAftviF8ZmWE/edit)
+            Rasterization](https://docs.google.com/a/chromium.org/document/d/1MAUJrOGMuD56hV4JhKp5bTgDv3d9rXRbAftviF8ZmWE/edit?usp=sharing)
             (Client side of GPU scheduling)
 *   [Color correct rendering
             support](https://docs.google.com/document/d/1BMyXXTmiAragmt5ukVBIIOLDthd7JcJBgGMt-PwuTHY/edit#)
 *   [PictureImageLayer and Directly Composited
             Images](https://docs.google.com/document/d/1sMGAkWhhZT8AfXCAfv4RjT1QxQnkpYKNFW6VXHB7kKk/edit#)
 *   [Discardable GPU
-            Memory](https://docs.google.com/document/d/1LoNv02sntMa7PPK-TZTuMgc3UuWFqKpOdEqtFvcm_QE/edit)
+            Memory](https://docs.google.com/document/d/1LoNv02sntMa7PPK-TZTuMgc3UuWFqKpOdEqtFvcm_QE/edit?usp=sharing)
 *   [GL Command Buffer
             Extensions](https://chromium.googlesource.com/chromium/src/gpu/+/master/GLES2/extensions/CHROMIUM)
     *   [Mailbox
@@ -205,17 +205,17 @@ More design docs:
 *   [Expected Power Savings from Partial Tree
             Updates](https://drive.google.com/file/d/1KyGuiUm5jm50zsAKmaxAHcFclfbOhHVd/view)
 *   [OOP-D: Out-of-Process Display
-            Compositor](https://docs.google.com/document/d/1tFdX9StXn9do31hddfLuZd0KJ_dBFgtYmxgvGKxd0rY/edit)
+            Compositor](https://docs.google.com/document/d/1tFdX9StXn9do31hddfLuZd0KJ_dBFgtYmxgvGKxd0rY/edit?usp=sharing)
 *   [Viz
             Hit-testing](https://docs.google.com/document/d/1iSZSHdZvV6fx8ee-9SidgIlAUAkxFQBNfjRc8I3PJuQ/edit)
 *   [Display Compositing, SkiaRenderer, Skia
             compositing](https://docs.google.com/document/d/1-9zS9c_mJYluu_aX1FvKZuz63FG6R6lWybqJL16ndCo/edit)
 *   [Chrome Windows Direct Composition
-            Explainer](https://docs.google.com/document/d/1WpdM9VWd-c13IbxJF6eoY7dGaaguTsMXawANWoc36WE/edit)
+            Explainer](https://docs.google.com/document/d/1WpdM9VWd-c13IbxJF6eoY7dGaaguTsMXawANWoc36WE/edit?usp=sharing)
 *   [Windows Video
             Overlays](https://docs.google.com/document/d/1hmjMKb1DU9ZD2_NzPfFQYGFS1Urc4dqr_mdGdQxPT-M/edit)
 *   [Surface Synchronization API
-            Guide](https://docs.google.com/document/d/1-54c3c9nZYKxPgKI_ALrpZrwDsXV5VVC2FHlgMh_TOY/edit)
+            Guide](https://docs.google.com/document/d/1-54c3c9nZYKxPgKI_ALrpZrwDsXV5VVC2FHlgMh_TOY/edit?usp=sharing)
 
 **Infrastructure**
 
@@ -238,7 +238,7 @@ More design docs:
     *   [How repaint
                 works](https://docs.google.com/a/chromium.org/document/d/1jxbw-g65ox8BVtPUZajcTvzqNcm5fFnxdi4wbKq-QlY/edit#heading=h.rxj0p5cgef9y)
 *   [Presentation on ANGLE architecture and
-            plans](https://docs.google.com/presentation/d/1CucIsdGVDmdTWRUbg68IxLE5jXwCb2y1E9YVhQo0thg/pub)
+            plans](https://docs.google.com/presentation/d/1CucIsdGVDmdTWRUbg68IxLE5jXwCb2y1E9YVhQo0thg/pub?start=false&loop=false)
 *   [Debugging Chromium with NVIDIA's
             Nsight](/developers/design-documents/chromium-graphics/debugging-with-nsight)
 *   [Chromium WebView graphics
@@ -252,26 +252,26 @@ More design docs:
             (rjkroege)
 *   [OOP-R](https://docs.google.com/presentation/d/1eOjb7CIbXAj3AXGjgWC_RnEY-qUe5ZMc8jfFXE-WPoE/edit)
             (enne)
-*   [OOP-D](https://docs.google.com/presentation/d/1y2KWsTyrVxQ-WcVAKHywxwJGcABxotFqRQ4eTYlXomM/edit)
+*   [OOP-D](https://docs.google.com/presentation/d/1y2KWsTyrVxQ-WcVAKHywxwJGcABxotFqRQ4eTYlXomM/edit?usp=sharing)
             (kylechar)
-*   [SkiaRenderer](https://docs.google.com/presentation/d/1r-pzeK26Ib5TE7qQbXUjLLsJbitF2Co-j_8sG06Wlr0/edit)
+*   [SkiaRenderer](https://docs.google.com/presentation/d/1r-pzeK26Ib5TE7qQbXUjLLsJbitF2Co-j_8sG06Wlr0/edit?usp=sharing)
             (backer)
 *   [Test
-            Infra/Bots](https://docs.google.com/presentation/d/1_BEinU9Jp-L4YGS_FsCTwV7vLLHRO1gW4AmNAtdsN4Q/edit)
+            Infra/Bots](https://docs.google.com/presentation/d/1_BEinU9Jp-L4YGS_FsCTwV7vLLHRO1gW4AmNAtdsN4Q/edit?usp=sharing)
             (jonross)
 *   [Android
-            WebView](https://docs.google.com/presentation/d/1KpNg6AB1Ll8_A8dJCcjxc9pa_vmBLKhKnazJrdO5P7s/edit)
+            WebView](https://docs.google.com/presentation/d/1KpNg6AB1Ll8_A8dJCcjxc9pa_vmBLKhKnazJrdO5P7s/edit?usp=sharing)
             (boliu)
 *   Animations (flackr, no link as it's google internal)
 *   [Angle Status
-            Update](https://docs.google.com/presentation/d/1KabL_0D-pVE5Oe2iGzCxxQhNC7-CPdR57EZ72jIItwI/edit)
+            Update](https://docs.google.com/presentation/d/1KabL_0D-pVE5Oe2iGzCxxQhNC7-CPdR57EZ72jIItwI/edit?usp=sharing)
             (geofflang)
 *   [Project
-            Pastel](https://docs.google.com/presentation/d/1b22BAbf59juu6RBlJ7XqWFGV3Tj1Q_DftrU6MECDU28/edit)
+            Pastel](https://docs.google.com/presentation/d/1b22BAbf59juu6RBlJ7XqWFGV3Tj1Q_DftrU6MECDU28/edit?usp=sharing)
             (nicolascapens)
 *   [Smooth Interactive
-            Animations](https://docs.google.com/presentation/d/14Rfeg7j14zkfWzXT3erLIIOgolx_M6VuqP5NXlLwBCA/edit)
+            Animations](https://docs.google.com/presentation/d/14Rfeg7j14zkfWzXT3erLIIOgolx_M6VuqP5NXlLwBCA/edit?usp=sharing)
             (majidvp)
 *   [VRR on
-            ChromeOS](https://docs.google.com/presentation/d/1RSjR4iYZihfV26uxuprpoq84Dy7-PoJNjquDdUAvdhc/edit)
+            ChromeOS](https://docs.google.com/presentation/d/1RSjR4iYZihfV26uxuprpoq84Dy7-PoJNjquDdUAvdhc/edit?usp=sharing)
             (dcastagna)

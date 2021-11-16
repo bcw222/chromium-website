@@ -66,11 +66,11 @@ at which these event hit determines where the next train of events will be sent
 until we receive another touchStart (due to a different gesture starting or due
 to another finger being pressed on screen). On the compositor, (as of the fix
 for [bug
-](goog_353685820)[351723](https://code.google.com/p/chromium/issues/detail)) we
-do a ray cast at the point of the touch and consult the touchEventHandlerRegion
-for each layer until we hit a layer we know is opaque to hit testing. If there
-is a hit, the compositor forwards this touch event to the renderer and then it
-is sent to blink to be processed as usual. If there is no
+](goog_353685820)[351723](https://code.google.com/p/chromium/issues/detail?id=351723))
+we do a ray cast at the point of the touch and consult the
+touchEventHandlerRegion for each layer until we hit a layer we know is opaque to
+hit testing. If there is a hit, the compositor forwards this touch event to the
+renderer and then it is sent to blink to be processed as usual. If there is no
 touchEventHandlerRegion that was hit, the compositor sends an ACK with
 NO_CONSUMER_EXISTS.
 

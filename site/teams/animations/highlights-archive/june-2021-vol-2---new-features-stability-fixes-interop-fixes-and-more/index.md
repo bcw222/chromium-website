@@ -120,7 +120,7 @@ title: June 2021 (Vol 2) - New features, stability fixes, Interop fixes and more
 <td><td><img alt="image" src="https://lh6.googleusercontent.com/DTQM0AAbpo4H-S7bcy9udCr-jtZ4QenLeuLj6qu_C-HloTqU51QYym46H5gYpYoGN8TQBCqPRt_J91bfgicQfD1706FD7n2eHxcXzhbJTxqw19M9XJy-oVpZOLnebaoqy3PCFSSjIABAAAd61QwsZN8h8Sl74mghfvGMKZbMwEOzBXyj" height=83 width=256></td></td>
 
     <td><td>Also investigated possible shipping options and finalized <a
-    href="https://docs.google.com/document/d/1L66B1QtqHCzAKlLQXdtv-YCmlXrJhi2Je2Vo91XWMsQ/edit">a
+    href="https://docs.google.com/document/d/1L66B1QtqHCzAKlLQXdtv-YCmlXrJhi2Je2Vo91XWMsQ/edit?usp=sharing">a
     plan</a> working with smcgruer@ (Web Payments) and jyasskin@ (Web
     Standards).</td></td>
 
@@ -209,7 +209,7 @@ title: June 2021 (Vol 2) - New features, stability fixes, Interop fixes and more
 
 <td><td><img alt="image" src="https://lh4.googleusercontent.com/eNLvAI5MdHjZRW1284KVgALG5aQcZUluy3twk8P9GsZyr6XsfvXlTb0s3ZBjx_C8nGiy7F2LNFVsnlXIHT8Rr4ofTVtuhDxA2OaXu0BpLokp99uOff3GpAIM05Y24HtZCNE54glfHGM6kZX2HSzobneiU-46_SMZA-dZjohBHddExuM9" height=135 width=283></td></td>
 
-<td><td>flackr@ wrapped up one of our team’s key product excellence/interop OKRs by fixing all WPT tests for position:sticky. Thanks to all the folks on the DOM team that contributed. (<a href="https://wpt.fyi/compat2021">link</a>)</td></td>
+<td><td>flackr@ wrapped up one of our team’s key product excellence/interop OKRs by fixing all WPT tests for position:sticky. Thanks to all the folks on the DOM team that contributed. (<a href="https://wpt.fyi/compat2021?feature=position-sticky">link</a>)</td></td>
 
 <td></tr></td>
 <td></table></td>

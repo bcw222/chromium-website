@@ -338,7 +338,7 @@ in a manner very similar to the regular browser cache.
 In Chrome, the data does not persist across browser restarts; it was, however,
 shared between profiles and incognito modes and was not deleted with other site
 data when such an operation is requested by the user. Google addressed this in
-bug [327783](https://code.google.com/p/chromium/issues/detail).
+bug [327783](https://code.google.com/p/chromium/issues/detail?id=327783).
 
 ### *Other script-accessible storage mechanisms*
 
@@ -634,7 +634,7 @@ The following data is typically open to examination:
     readings](http://www.theregister.co.uk/2013/01/31/smartphone_accelerometer_data_leak/)
     (ondeviceorientation) that are unique to a particular user or to particular
     surroundings. There is a
-    [considerable](http://citeseerx.ist.psu.edu/viewdoc/download)
+    [considerable](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.310.4320&rep=rep1&type=pdf)
     [body](http://www.csis.pace.edu/~ctappert/it691-13spring/projects/mouse-pusara.pdf)
     [of](http://www.cs.wm.edu/~hnw/paper/ccs11.pdf)
     [scientific](http://www.computer.org/csdl/mags/it/2013/04/mit2013040012-abs.html)

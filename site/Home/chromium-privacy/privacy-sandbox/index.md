@@ -117,9 +117,9 @@ Our focus (more details to be added)
         *   [User-Agent String](https://github.com/WICG/ua-client-hints)
     *   Reducing Entropy from Surfaces
         *   [Device
-                    Sensors](https://bugs.chromium.org/p/chromium/issues/detail)
+                    Sensors](https://bugs.chromium.org/p/chromium/issues/detail?id=1018180)
         *   [Battery
-                    Level](https://bugs.chromium.org/p/chromium/issues/detail)
+                    Level](https://bugs.chromium.org/p/chromium/issues/detail?id=661792)
     *   [IP Address](https://github.com/bslassey/ip-blindness)
 *   Cache inspection
     *   [Partitioning HTTP

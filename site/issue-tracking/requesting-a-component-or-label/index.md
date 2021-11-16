@@ -14,9 +14,10 @@ Project members can request the creation of new components or labels by simply
 filing an issue:
 
 *   [Component
-            Request](https://bugs.chromium.org/p/chromium/issues/entry)
+            Request](https://bugs.chromium.org/p/chromium/issues/entry?template=Component%20Request)
             (Template)
-*   [Label Request](https://bugs.chromium.org/p/chromium/issues/entry)
+*   [Label
+            Request](https://bugs.chromium.org/p/chromium/issues/entry?template=Label%20Request)
             (Template)
 
 ## Component versus Label

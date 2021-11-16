@@ -100,9 +100,9 @@ title: Animations Documentation, Throughput Metrics, Code Health, Capability Del
     animation/style regressions due to recent refactoring.</td></td>
 
     <td><td>liviutinta@ fixed a <a
-    href="https://bugs.chromium.org/p/chromium/issues/detail">bug</a> to ensure
-    that when right clicking on a mis-spelled word and contextmenu event
-    prevented, the mis-spelled word should not be highlighted.</td></td>
+    href="https://bugs.chromium.org/p/chromium/issues/detail?id=1076078">bug</a>
+    to ensure that when right clicking on a mis-spelled word and contextmenu
+    event prevented, the mis-spelled word should not be highlighted.</td></td>
 
     <td><td>liviutinta@ also <a
     href="https://critique-ng.corp.google.com/cl/323644938">started</a>
@@ -114,7 +114,7 @@ title: Animations Documentation, Throughput Metrics, Code Health, Capability Del
 
 <td><td>Azimuth/Altitude for Pointer Events</td></td>
 
-<td><td><a href="https://patrickhlauke.github.io/touch/pen-tracker/index.html"><img alt="image" src="https://lh5.googleusercontent.com/4UlT7gRKaxiEjFSMUNpgY83bcFVmaS2YqhPN2mnU5RxMJ2hSrjwi8Ky1ZKJLa5iVm2h8cvVbaLT9vI8WgL9Mw3PWQ_6NqFVL9O_HkKQZlzlNDffgv8kGPUDzmcuxI3ehHhuIoyKguw" height=155 width=282></a></td></td>
+<td><td><a href="https://patrickhlauke.github.io/touch/pen-tracker/index.html?azimuth"><img alt="image" src="https://lh5.googleusercontent.com/4UlT7gRKaxiEjFSMUNpgY83bcFVmaS2YqhPN2mnU5RxMJ2hSrjwi8Ky1ZKJLa5iVm2h8cvVbaLT9vI8WgL9Mw3PWQ_6NqFVL9O_HkKQZlzlNDffgv8kGPUDzmcuxI3ehHhuIoyKguw" height=155 width=282></a></td></td>
 
 <td><td>liviutinta@ has <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2165457">implemented</a> this feature.</td></td>
 

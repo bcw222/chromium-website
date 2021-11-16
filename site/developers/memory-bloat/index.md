@@ -40,8 +40,8 @@ to track the issue.
 ### File a Bug
 
 Please file a bug with a
-"[Performance-Memory](https://code.google.com/p/chromium/issues/list)" label for
-memory bloat issues.
+"[Performance-Memory](https://code.google.com/p/chromium/issues/list?q=Performance%3DMemory)"
+label for memory bloat issues.
 
 ## Efforts and Tools
 
@@ -163,7 +163,7 @@ some parts.
 > C++ object types and more). The limitation is that it works post-mortem and
 > needs a special build (Release with some build options or Debug). It works for
 > Linux and Android for now. Contact: [the dmprof
-> group](https://groups.google.com/a/chromium.org/forum/).
+> group](https://groups.google.com/a/chromium.org/forum/?fromgroups#!forum/dmprof).
 
 > #### [Memory_Watcher](/developers/memory_watcher)
 
@@ -224,7 +224,8 @@ view**](https://developers.google.com/chrome-developer-tools/docs/timeline#memor
 > Allows to take JS heap snapshots, analyze memory graphs and compare snapshots
 > with each other.
 
-> **[JavaScript Object Allocation Tracker](http://www.youtube.com/watch)**
+> **[JavaScript Object Allocation
+> Tracker](http://www.youtube.com/watch?v=x9Jlu_h_Lyw)**
 
 > Dynamic version of the JS heap profiler that allows you to see JS object
 > allocation in real time.

@@ -138,8 +138,8 @@ Adding documentation is very simple:
             Whichever of extensions and/or apps you add an HTML file in depends
             on which platform can access your API.
     *   Each will look something like:
-                {{ '{{' }}+partials.standard_extensions_api api:apis.extensions.myapi
-                intro:intros.myapi /{{ '}}' }} (or apps).
+                {{+partials.standard_extensions_api api:apis.extensions.myapi
+                intro:intros.myapi /}} (or apps).
 
 **C++ implementation**
 
@@ -379,7 +379,7 @@ tests.
             chrome/browser/extensions/extension_function_test_utils.h. Hopefully
             it meets your needs.
 *   If not, there is the older [API
-            tests](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/test/data/extensions/api_test/README.txt)
+            tests](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/test/data/extensions/api_test/README.txt?view=markup)
             for integration tests.
 
 **Iterating**

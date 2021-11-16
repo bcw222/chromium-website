@@ -66,7 +66,8 @@ network drive?**
 > loss**. This mismatch can often occur if a Chrome profile is synced to a
 > roaming profile or network drive across multiple machines that have different
 > versions of Chrome. We strongly encourage admins & users to consider using
-> [Google Chrome Sync](http://www.google.com/support/chrome/bin/answer.py),
+> [Google Chrome
+> Sync](http://www.google.com/support/chrome/bin/answer.py?hl=en&answer=165139&from=165140&rd=1),
 > which persists user settings across machines, instead of using roaming
 > profiles for the time being.
 
@@ -86,7 +87,8 @@ the error "more recent version exists".**
 > newer versions too.
 
 > Verify that you are attempting to install a later version of the MSI by
-> downloading the latest version [here](http://www.google.com/chrome/eula.html).
+> downloading the latest version
+> [here](http://www.google.com/chrome/eula.html?msi=true).
 
 > To see what the latest stable version of Chrome is for Windows, click
 > [here](http://omahaproxy.appspot.com/win).
@@ -98,8 +100,8 @@ the error "more recent version exists".**
 > later version than the MSI.
 
 > You can download the latest stable MSI
-> [here](http://www.google.com/chrome/eula.html), and use this MSI for the
-> repair instead.
+> [here](http://www.google.com/chrome/eula.html?msi=true), and use this MSI for
+> the repair instead.
 
 **When applying the MSI over a previous install, I get the error "There is a
 problem with this Windows Installer package. A program required for this install
@@ -123,7 +125,8 @@ to complete could not be run. Contact your support personal or package vendor"**
 > crash and security fixes.
 
 > If, for some reason, the version of the MSI at the link above is old, please
-> let us know by [filing a bug](http://code.google.com/p/chromium/issues/entry)
+> let us know by [filing a
+> bug](http://code.google.com/p/chromium/issues/entry?template=Enterprise%20Issue)
 > so we can fix it!
 
 **What happens if the user already has 'consumer Chrome' installed and I try to
@@ -235,4 +238,4 @@ on the Chrome Web Store), but it's not being force-installed.**
 **Didn't Find the Answer?**
 
 If you didn't find the question and answer you were looking for, please [file a
-bug](http://code.google.com/p/chromium/issues/entry).
+bug](http://code.google.com/p/chromium/issues/entry?template=Enterprise%20Issue).

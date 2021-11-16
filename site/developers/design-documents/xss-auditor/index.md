@@ -8,7 +8,7 @@ page_name: xss-auditor
 title: XSS Auditor
 ---
 
-## Note: [An Intent to Deprecate and Remove the XSS Auditor](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/TuYw-EZhO9g/blGViehIAwAJ) was published on 15-July-2019. The feature was [permanently disabled](https://chromium.googlesource.com/chromium/src.git/+/73d3b625e731badaf9ad3b8f3e6cdf951387a589) on 5-August-2019 and shortly after fully [removed](https://bugs.chromium.org/p/chromium/issues/detail) for Chrome 78.
+## Note: [An Intent to Deprecate and Remove the XSS Auditor](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/TuYw-EZhO9g/blGViehIAwAJ) was published on 15-July-2019. The feature was [permanently disabled](https://chromium.googlesource.com/chromium/src.git/+/73d3b625e731badaf9ad3b8f3e6cdf951387a589) on 5-August-2019 and shortly after fully [removed](https://bugs.chromium.org/p/chromium/issues/detail?id=968591#c10) for Chrome 78.
 
 ## Design
 
@@ -69,9 +69,9 @@ from the request (an XSS attack), and the XSS Auditor blocks the response.
 ## In the past, the XSS Auditor defaulted to neutering only the
 potentially-reflected block, leaving the rest of the page intact. However, this
 creates a vulnerability whereby an attacker may
-"[snipe](https://bugs.chromium.org/p/chromium/issues/detail)" an unwanted block
-of script from a victim page by sending the script-to-kill in the request body.
-To mitigate such attacks, as of Chrome 57, the XSS Auditor [now
+"[snipe](https://bugs.chromium.org/p/chromium/issues/detail?id=825675)" an
+unwanted block of script from a victim page by sending the script-to-kill in the
+request body. To mitigate such attacks, as of Chrome 57, the XSS Auditor [now
 blocks](https://www.chromestatus.com/features/5748927282282496) the response
 entirely.
 
@@ -124,7 +124,7 @@ src="/developers/design-documents/xss-auditor/XSSAuditorViewSource.png">](/devel
 The code for the XSS Auditor feature can be found in Blink at
 [XSSAuditor.h](https://cs.chromium.org/chromium/src/third_party/blink/renderer/core/html/parser/xss_auditor.h)
 and
-[XSSAuditorDelegate.h](https://cs.chromium.org/chromium/src/third_party/blink/renderer/core/html/parser/xss_auditor_delegate.h).
+[XSSAuditorDelegate.h](https://cs.chromium.org/chromium/src/third_party/blink/renderer/core/html/parser/xss_auditor_delegate.h?).
 Performance tests can be found
 [here](https://cs.chromium.org/chromium/src/third_party/blink/perf_tests/xss_auditor/).
 
@@ -146,7 +146,7 @@ interest in it, then attempts to determine that string by making a series of
 successive guesses until it **detects blocking** by the XSS Auditor. If the XSS
 Auditor blocks the page, the attacker concludes that their guess was correct.
 This form of attack is constrained to pages matching certain
-[criteria](https://bugs.chromium.org/p/chromium/issues/detail).
+[criteria](https://bugs.chromium.org/p/chromium/issues/detail?id=176137#c17).
 
 To combat this threat, the attacker should not be able to detect that the
 Auditor has blocked loading of the page. Most known

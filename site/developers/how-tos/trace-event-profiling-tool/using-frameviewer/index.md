@@ -341,8 +341,8 @@ response to touch input illustrates the entire pipeline in action (and in this
 case, working well).
 
 The traces in this section are all from
-[inbox_app.html](http://git.chromium.org/gitweb/) in the Silk page set. The
-trace files used are available here ([normal
+[inbox_app.html](http://git.chromium.org/gitweb/?p=chromium/src.git;a=blob_plain;f=tools/perf/page_sets/key_silk_cases/inbox_app.html;hb=HEAD)
+in the Silk page set. The trace files used are available here ([normal
 trace](/developers/how-tos/trace-event-profiling-tool/using-frameviewer/inbox_normal_trace))
 and here ([frameviewer
 trace](/developers/how-tos/trace-event-profiling-tool/using-frameviewer/inbox_frameviewer_trace)).
@@ -561,6 +561,6 @@ JavaScript except the empty click handler, which gets called once a second… an
 it’s still repainting!
 
 At which point it becomes clear that this is in fact a bug in Chrome, which one
-[files](https://code.google.com/p/chromium/issues/detail).
+[files](https://code.google.com/p/chromium/issues/detail?id=369358).
 
 Happy hacking!

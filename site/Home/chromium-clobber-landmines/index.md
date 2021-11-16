@@ -105,8 +105,8 @@ A: The change to `build/get_landmines.py` should be included in the
 DEPS to update the revision). You will need to contact the current
 [gardener](/developers/tree-sheriffs#TOC-What-is-a-gardener-) of your component
 (listed at the top left of the [BuildBot
-waterfall](http://build.chromium.org/p/chromium/waterfall)) and have them apply
-the change in their roll. See for example
+waterfall](http://build.chromium.org/p/chromium/waterfall?reload=120)) and have
+them apply the change in their roll. See for example
 [19836002](https://codereview.chromium.org/19836002) for an example of adding a
 landmine during a Blink roll. If a roll lands without a landmine (say thanks to
 autoroll bot), it's ok to commit a separate CL with just the landmine, ideally
@@ -149,11 +149,12 @@ If you move [generated files](/developers/generated-files), then you need to
 clobber the build, otherwise stale files may be used (if they are found earlier
 during header search). Subtly, this shows up only on *later* CLs that change the
 generated file in the new location, but don't overwrite the stale one. See for
-example Issue [381111](https://code.google.com/p/chromium/issues/detail)
-([comment](https://code.google.com/p/chromium/issues/detail)). Further, if this
-change happens in a separate repository (e.g., Blink), then CLs that change the
-generated files don't work until the repo has rolled and a landmine has been
-added. I.e., the steps are:
+example Issue
+[381111](https://code.google.com/p/chromium/issues/detail?id=381111)
+([comment](https://code.google.com/p/chromium/issues/detail?id=381111#c4)).
+Further, if this change happens in a separate repository (e.g., Blink), then CLs
+that change the generated files don't work until the repo has rolled and a
+landmine has been added. I.e., the steps are:
 
 1.  Submit Blink CL moving generated files.
 2.  Roll Blink to Chromium, including landmine (or include in separate

@@ -76,4 +76,4 @@ here](https://developer.android.com/topic/arc/development-environment#debug_with
 mean that it will be available in the Stable channel on the next release of
 Chrome OS. For more information on how to move your device between Chromebook
 release channels[ click
-here](https://support.google.com/chromebook/answer/1086915).
+here](https://support.google.com/chromebook/answer/1086915?hl=en-GB).

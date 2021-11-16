@@ -202,9 +202,9 @@ prefers-reduced-motion + CSS transition events.*
 **Improve animations code health** 0.2
 
 P1 - Begin consolidation of
-[blink::WorkletAnimation](https://cs.chromium.org/chromium/src/third_party/blink/renderer/modules/animationworklet/worklet_animation.h)
+[blink::WorkletAnimation](https://cs.chromium.org/chromium/src/third_party/blink/renderer/modules/animationworklet/worklet_animation.h?l=37&rcl=a4f73cdaeddaee4969614ce2832ea8b997514242)
 and
-[blink::Animation](https://cs.chromium.org/chromium/src/third_party/blink/renderer/core/animation/animation.h).
+[blink::Animation](https://cs.chromium.org/chromium/src/third_party/blink/renderer/core/animation/animation.h?l=64&rcl=a4f73cdaeddaee4969614ce2832ea8b997514242).
 0.1
 
 P2 - Make a blink driven cc integration/unit test possible. 0.0

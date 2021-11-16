@@ -13,8 +13,8 @@ title: Blink Core Projects
 ## blink/core projects
 
 *   **Please see the [Project Warden
-            list](https://code.google.com/p/chromium/issues/list) for more
-            maintainability tasks.**
+            list](https://code.google.com/p/chromium/issues/list?can=2&q=label%3AProject-Warden&colspec=ID+Pri+M+Iteration+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&cells=tiles)
+            for more maintainability tasks.**
 *   Identify and fix scrolling performance problems on this page:
             <http://crbug.com/157016>
 *   Moving widget-loading (iframes/plugins) out of the rendering tree
@@ -62,10 +62,10 @@ title: Blink Core Projects
             <https://bugs.webkit.org/show_bug.cgi?id=101373>
 *   Improve garden-o-matic:
     *   let you minimize failures so they're not in your face:[
-                https://bugs.webkit.org/show_bug.cgi?id=97949](https://bugs.webkit.org/show_bug.cgi)
+                https://bugs.webkit.org/show_bug.cgi?id=97949](https://bugs.webkit.org/show_bug.cgi?id=97949)
     *   show the last revision process by every layout test bot and the
                 last by every non-layout test bot:[
-                https://bugs.webkit.org/show_bug.cgi?id=98088](https://bugs.webkit.org/show_bug.cgi)
+                https://bugs.webkit.org/show_bug.cgi?id=98088](https://bugs.webkit.org/show_bug.cgi?id=98088)
     *   garden-o-matic should run even if you don't have the server
                 running locally: [crbug.com/241506](http://crbug.com/241506)
 
@@ -75,7 +75,7 @@ title: Blink Core Projects
             platform/chromium/foo-expected.txt and
             platform/mac/foo-expected.txt).**
 *   Rebaseline tests from the results.html page:[
-            https://bugs.webkit.org/show_bug.cgi?id=86797](https://bugs.webkit.org/show_bug.cgi)
+            https://bugs.webkit.org/show_bug.cgi?id=86797](https://bugs.webkit.org/show_bug.cgi?id=86797)
 
 *   ****Flakiness dashboard****
     *   gtests should output the same JSON format as run-webkit-tests:
@@ -94,10 +94,10 @@ title: Blink Core Projects
             expected result. If the bitmap has only green and white pixels, it
             passes, otherwise it fails.
 *   Make the text caret not blink in tests:[
-            https://bugs.webkit.org/show_bug.cgi?id=97558](https://bugs.webkit.org/show_bug.cgi)
+            https://bugs.webkit.org/show_bug.cgi?id=97558](https://bugs.webkit.org/show_bug.cgi?id=97558)
 *   using js-test-pre.js should only require a DOCTYPE and
             js-test-pre.js:[
-            https://bugs.webkit.org/show_bug.cgi?id=48344](https://bugs.webkit.org/show_bug.cgi)
+            https://bugs.webkit.org/show_bug.cgi?id=48344](https://bugs.webkit.org/show_bug.cgi?id=48344)
 *   Hundreds of mac failures are due to a slightly different color
             repaint background: <https://bugs.webkit.org/show_bug.cgi?id=83400>
 *   Hundreds of MountainLion-only reftest failures:

@@ -19,11 +19,11 @@ Mastering these queries will allow you to find all issues under a parent
 component.
 
 Example 1.1: Querying all Blink issues
-([component:Blink](https://bugs.chromium.org/p/chromium/issues/list)), from
-Blink to Blink&gt;WebRTC&gt;Audio etc...
+([component:Blink](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=component%3ABlink)),
+from Blink to Blink&gt;WebRTC&gt;Audio etc...
 
 Example 1.1: Querying only issues explicitly w/ the Blink label
-([component=Blink](https://bugs.chromium.org/p/chromium/issues/list))
+([component=Blink](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=component%3DBlink))
 
 ## Tip 2: Hit the "?" key to see a list of keyboard shortcuts.
 

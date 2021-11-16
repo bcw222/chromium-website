@@ -80,7 +80,7 @@ reach out to [Emil](mailto:eae@chromium.org).
             (2015)
 *   [Scroll Anchoring](http:////bit.ly/scroll-anchoring) (2016)
 *   [Shaper Driven Line
-            Breaking](https://docs.google.com/document/d/1eMTBKTnWEMDu00uS2p8Xj-l9Pk7Kf0q5y3FbcCrWYjU/edit)
+            Breaking](https://docs.google.com/document/d/1eMTBKTnWEMDu00uS2p8Xj-l9Pk7Kf0q5y3FbcCrWYjU/edit?usp=sharing)
             (2016)
 *   [Root Layer
             Scrolling](https://docs.google.com/document/d/137p-8FcnRh3C3KXi_x4-fK-SOgj5qOMgarjsqQOn5QQ/)

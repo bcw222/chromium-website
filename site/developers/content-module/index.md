@@ -11,7 +11,7 @@ This documentation moved to the repository at
 (except for the diagram below).
 
 [<img alt="image"
-src="/developers/content-module/Content.png">](https://docs.google.com/a/chromium.org/drawings/d/13yo_bSgwVdOUJFCIeVLL_rmtQ2SqElmxouC81q46GAk/edit)
+src="/developers/content-module/Content.png">](https://docs.google.com/a/chromium.org/drawings/d/13yo_bSgwVdOUJFCIeVLL_rmtQ2SqElmxouC81q46GAk/edit?hl=en_US)
 
 The diagram above illustrates the layering of the different modules. A module
 can include code directly from lower modules. However, a module can not include

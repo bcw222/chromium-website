@@ -89,10 +89,10 @@ are used to using **F6** to switch between window panes (e.g. in Windows
 Explorer), so this should be a very easy shortcut to remember.
 
 [Chrome extensions](https://chrome.google.com/extensions) can install [Page
-Actions and Browser Actions](http://www.google.com/support/chrome/bin/answer.py)
-in the main toolbar. These are all fully accessible using these keystrokes.
-Don't forget to try the **Context Menu** key for Page Actions and Browser
-Actions.
+Actions and Browser
+Actions](http://www.google.com/support/chrome/bin/answer.py?answer=154007) in
+the main toolbar. These are all fully accessible using these keystrokes. Don't
+forget to try the **Context Menu** key for Page Actions and Browser Actions.
 
 The following keys can be used to access the menus:
 
@@ -112,7 +112,7 @@ shortcuts in the menus:
 *   **ALT-F4** quits the application.
 
 Want more information? See the [full list of keyboard
-shortcuts](https://support.google.com/chrome/answer/157179).
+shortcuts](https://support.google.com/chrome/answer/157179?hl=en).
 
 ### Other pages on accessibility
 

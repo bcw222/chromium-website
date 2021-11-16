@@ -45,8 +45,9 @@ areas where developer discussions take place:
 We use Chromium's [issue
 tracker](https://bugs.chromium.org/p/chromium/issues/list) (aka
 [crbug.com](http://crbug.com)). Web Platform issues live under components in
-[Blink](https://bugs.chromium.org/p/chromium/issues/list) and
-[Internals](https://bugs.chromium.org/p/chromium/issues/list).
+[Blink](https://bugs.chromium.org/p/chromium/issues/list?q=component%3Ablink&can=2)
+and
+[Internals](https://bugs.chromium.org/p/chromium/issues/list?q=component%3Ainternals&can=2).
 
 ### Tracking features
 
@@ -88,7 +89,8 @@ implementation of this abstract platform required for running Blink.
             practices on how to debug Blink (using Content Shell).
 *   [Chromium Development](/developers) - Guides and best practices for
             Chromium development
-*   YouTube ([Chrome University](https://www.youtube.com/playlist)
+*   YouTube ([Chrome
+            University](https://www.youtube.com/playlist?list=PLNYkxOF6rcICgS7eFJrGDhMBwWtdTgzpx)
             Playlist) - Introductory lessons that cover the fundamental concepts
             for Chromium development.
 
@@ -108,4 +110,4 @@ follows the [Blink Coding Style Guidelines](/blink/coding-style).
 *   [Launching a Web Platform Feature](/blink/launching-features)
 *   [Removing a Web Platform Feature](/blink/deprecating-features)
 *   (Video) [Intent to Explain: Demystifying the Blink shipping
-            process](https://www.youtube.com/watch)
+            process](https://www.youtube.com/watch?v=y3EZx_b-7tk)

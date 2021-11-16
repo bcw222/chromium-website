@@ -49,7 +49,7 @@ other data types are rendered.
 
 For any issues observed in these uses of OOPIFs, please file a bug in the
 component
-[Internals&gt;Sandbox&gt;SiteIsolation](https://bugs.chromium.org/p/chromium/issues/list).
+[Internals&gt;Sandbox&gt;SiteIsolation](https://bugs.chromium.org/p/chromium/issues/list?q=component:Internals%3ESandbox%3ESiteIsolation).
 
 ### Project Resources
 
@@ -57,7 +57,7 @@ component
     - A visualization of the bugs and tasks that need to be completed for each
     upcoming milestone. (Out of date.)
 
-    [Internals&gt;Sandbox&gt;SiteIsolation](https://bugs.chromium.org/p/chromium/issues/list)
+    [Internals&gt;Sandbox&gt;SiteIsolation](https://bugs.chromium.org/p/chromium/issues/list?q=component:Internals%3ESandbox%3ESiteIsolation)
     - All known bugs with OOPIFs and Site Isolation in general. The overall
     tracking bug for OOPIFs is <https://crbug.com/99379>, and the launch is
     tracked at <https://crbug.com/545200>.
@@ -70,12 +70,12 @@ component
     try bot
 
     [Feature Update
-    FAQ](https://docs.google.com/document/d/1Iqe_CzFVA6hyxe7h2bUKusxsjB6frXfdAYLerM3JjPo/edit)
+    FAQ](https://docs.google.com/document/d/1Iqe_CzFVA6hyxe7h2bUKusxsjB6frXfdAYLerM3JjPo/edit?usp=sharing)
     - General information for how to update Chromium features to be compatible
     with OOPIFs.
 
     [Affected Feature
-    List](https://docs.google.com/document/d/1dCR2aEoBJj_Yqcs6GuM7lUPr0gag77L5OSgDa8bebsI/edit)
+    List](https://docs.google.com/document/d/1dCR2aEoBJj_Yqcs6GuM7lUPr0gag77L5OSgDa8bebsI/edit?usp=sharing)
     - The set of Chromium features we know are affected by OOPIFs.
 
     [Site Isolation Summit
@@ -226,7 +226,7 @@ process's network stack. If the navigation crosses a site boundary that requires
 isolation (according to our Site Isolation policy), the browser process will
 swap the frame's renderer process. This can be done because the browser process
 knows the full frame tree, as described above. Until
-[PlzNavigate](https://docs.google.com/document/d/1cSW8fpJIUnibQKU8TMwLE5VxYZPh4u4LNu_wtkok8UE/edit)
+[PlzNavigate](https://docs.google.com/document/d/1cSW8fpJIUnibQKU8TMwLE5VxYZPh4u4LNu_wtkok8UE/edit?usp=sharing)
 launched, this was implemented using CrossSiteResourceHandler to transfer
 navigations to a different process when needed.
 
@@ -267,4 +267,4 @@ implementation to do hit testing in the browser process to deliver input events
 directly to the intended frame's renderer process. We also manage focus in the
 browser process to send keyboard events directly to the renderer process of the
 focused frame. More details are available in this [design
-document](https://docs.google.com/document/d/1RQUbxiK60Z7CZDcWeryqKeX-bewZzgsirjF2Dprfx3U/edit).
+document](https://docs.google.com/document/d/1RQUbxiK60Z7CZDcWeryqKeX-bewZzgsirjF2Dprfx3U/edit?usp=sharing).

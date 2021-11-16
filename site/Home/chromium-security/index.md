@@ -46,17 +46,17 @@ To learn more:
             Non-Secure](/Home/chromium-security/marking-http-as-non-secure)"
             proposal text.
 *   Have a look at our public [Chrome Security Google Drive
-            folder](https://drive.google.com/open), which contains a whole bunch
-            of useful documents as well.
+            folder](https://drive.google.com/open?id=0B_KwtdC2J1Q6fjFNRElHUHhmLUlNbktKbFVkRXBlVGp0NkZvTDJvZVRZLXozOVFqTWtzM1E&authuser=0),
+            which contains a whole bunch of useful documents as well.
 *   We provide [quarterly
             updates](/Home/chromium-security/quarterly-updates) to what we're
             working on, if anything piques your interest get in touch!
 *   Find out about [our memory
             safety](/Home/chromium-security/memory-safety) work.
 
-## How can I get involved?
+### How can I get involved?
 
-### Find bugs
+**Find bugs**
 
 One of the quickest ways to get involved is finding and [reporting security
 bugs](/Home/chromium-security/reporting-security-bugs). It will get prompt
@@ -76,7 +76,7 @@ forums](/developers/technical-discussion-groups), including the public
 [security-dev](https://groups.google.com/a/chromium.org/forum/#!forum/security-dev)
 list for technical discussions.
 
-### Become a committer
+**Become a committer**
 
 We encourage interested parties to work towards [becoming a
 committer](/getting-involved/become-a-committer). There are many types of
@@ -84,12 +84,12 @@ security related patch that we're excited to collaborate on:
 
 *   Fixes for any security bugs you discover.
 *   Implementing or improving security features, including
-    security-related web platform features (examples: iframe sandbox,
-    XSS auditor, CSP).
+            security-related web platform features (examples: iframe sandbox,
+            XSS auditor, CSP).
 *   Implementing or improving security hardening measures (examples:
-    defensive checks, allocator improvements, ASLR improvements).
+            defensive checks, allocator improvements, ASLR improvements).
 
-### Become an IPC reviewer
+**Become an IPC reviewer**
 
 Bugs in IPC can have nasty consequences, so we take special care to make sure
 additions or changes to IPC avoid [common security
@@ -97,8 +97,7 @@ pitfalls](/Home/chromium-security/education/security-tips-for-ipc). If you want
 to get involved, check out how to become an IPC reviewer
 [here](/Home/chromium-security/ipc-security-reviews).
 
-### Join the team
-
+**Join the team**
 Access to Chromium security bugs and our team mailing list is restricted, for
 obvious reasons. Before applying to join the team, applicants must be committers
 and are expected to have made and continue to make active and significant
@@ -106,20 +105,20 @@ contributions to Chromium security. You should demonstrate some of the following
 before applying:
 
 *   Relevant technical expertise and a history of patches that improve
-    Chromium security.
+            Chromium security.
 *   A history of identifying and responsibly reporting Chromium security
-    vulnerabilities.
+            vulnerabilities.
 *   Other expertise and/or roles that would allow the applicant to
-    significantly contribute to Chromium security on a regular basis.
+            significantly contribute to Chromium security on a regular basis.
 *   \[required\]: Be a committer, and have no personal or professional
-    association that is an ethical conflict of interest (e.g. keeping
-    vulnerabilities or exploits private, or sharing with parties other
-    than the vendor).
+            association that is an ethical conflict of interest (e.g. keeping
+            vulnerabilities or exploits private, or sharing with parties other
+            than the vendor).
 
 To apply for membership, please email
 [security@chromium.org](mailto:security@chromium.org).
 
-## How can I get access to Chromium vulnerabilities?
+How can I get access to Chromium vulnerabilities?
 
 A history of fixed Chromium security bugs is best found via [security notes in
 Stable Channel updates on the Google Chrome releases
@@ -139,4 +138,4 @@ criteria, and require advanced notice of vulnerabilities, request access via
 your need for access (embedder, Linux distribution, etc.) and your continued
 access will require that you follow the terms of list membership.
 
-There is one simple rule for any party with advance access to security vulnerabilities in Chromium: any details of a vulnerability should be considered confidential and only shared on a need to know basis until such time that the vulnerability is responsibly disclosed by the Chromium project. Additionally, any vulnerabilities in third-party dependencies (e.g. Blink, open source parser libraries, etc.) must be treated with the same consideration. Access will be terminated for any member who fails to comply with this rule in letter or spirit.
+### There is one simple rule for any party with advance access to security vulnerabilities in Chromium: any details of a vulnerability should be considered confidential and only shared on a need to know basis until such time that the vulnerability is responsibly disclosed by the Chromium project. Additionally, any vulnerabilities in third-party dependencies (e.g. Blink, open source parser libraries, etc.) must be treated with the same consideration. Access will be terminated for any member who fails to comply with this rule in letter or spirit.

@@ -38,8 +38,9 @@ below are provided later in this document.
             alerts (Not required)**. If you want to have the perf dashboard
             analyze your data for regressions, you should request to have your
             data monitored. To do this, you can send a monitoring request by
-            [clicking here](https://code.google.com/p/chromium/issues/entry) or
-            send a message to chrome-perf-dashboard-team@google.com.
+            [clicking
+            here](https://code.google.com/p/chromium/issues/entry?summary=Monitoring%20Request&comment=Please%20add%20monitoring%20for%20the%20following%20tests%3A%0A%0ABuildbot%20master%20name%3A%0ATest%20suite%20names%3A%0ARestrict%20to%20these%20specific%20traces%20(if%20any)%3A%0AEmail%20address%20and%2For%20url%20of%20sheriff%20rotation%3A%20%0AReceive%20individual%20email%20alerts%20immediately%20or%20as%20a%20daily%20summary%3F%0AShould%20these%20alerts%20be%20Google-internal%3F%0A&labels=Performance-Dashboard-MonitoringRequest%2CRestrict-View-Google&cc=)
+            or send a message to chrome-perf-dashboard-team@google.com.
 5.  See your perf graphs on the dashboard. Navigate in your browser to
             the perf dashboard, log in with your @google.com account (perf data
             is internal-only by default), and then locate and view the perf
@@ -322,9 +323,9 @@ should request to have your data monitored. You can provide an email address to
 receive alerts.
 
 To notify chrome-perf-dashboard-team@, please [**click
-here**](https://code.google.com/p/chromium/issues/entry) to file a "Monitoring
-Request" bug with the label "Performance-Dashboard" with the following info. Or
-send an email to chrome-perf-dashboard-team@google.com
+here**](https://code.google.com/p/chromium/issues/entry?summary=Monitoring%20Request&comment=Please%20add%20monitoring%20for%20the%20following%20tests%3A%0A%0ABuildbot%20master%20name%3A%0ATest%20suite%20names%3A%0ARestrict%20to%20these%20specific%20traces%20(if%20any)%3A%0AEmail%20address%20and%2For%20url%20of%20sheriff%20rotation%3A%20%0AReceive%20individual%20email%20alerts%20immediately%20or%20as%20a%20daily%20summary%3F%0AShould%20these%20alerts%20be%20Google-internal%3F%0A&labels=Performance-Dashboard-MonitoringRequest%2CRestrict-View-Google&cc=)
+to file a "Monitoring Request" bug with the label "Performance-Dashboard" with
+the following info. Or send an email to chrome-perf-dashboard-team@google.com
 
 > Please add monitoring for the following tests:
 

@@ -6,13 +6,16 @@ page_name: same-site
 title: SameSite Updates
 ---
 
-*   **Confused?** [Start here](https://web.dev/samesite-cookies-explained/).
-*   **Developers:** Check out our [testing and debugging tips](/updates/same-site/test-debug).
-*   **Adding \`SameSite=None; Secure\` to your cookies?** Check the list of
-    [incompatible clients](https://chromium.org/updates/same-site/incompatible-clients)
-    here.
-*   **Check the list of [Frequently Asked Questions (FAQ)](/updates/same-site/faq)**
-    for common scenarios and use cases.
+*   **Confused?** [Start
+            here](https://web.dev/samesite-cookies-explained/).
+*   **Developers:** Check out our [testing and debugging
+            tips](/updates/same-site/test-debug).
+*   **Adding \`SameSite=None; Secure\` to your cookies?** Check the list
+            of [incompatible
+            clients](https://chromium.org/updates/same-site/incompatible-clients)
+            here.
+*   **Check the list of [Frequently Asked Questions
+            (FAQ)](/updates/same-site/faq)** for common scenarios and use cases.
 
 **Launch Timeline**
 
@@ -32,22 +35,22 @@ here](https://chromiumdash.appspot.com/schedule). For the SameSite-by-default
 and SameSite=None-requires-Secure launch timeline, see below:
 
 *   **Early October, 2019**: Experimental
-    [SameSite-by-default](https://www.chromestatus.com/feature/5088147346030592)
-    and
-    [SameSite=None-requires-Secure](https://www.chromestatus.com/feature/5633521622188032)
-    behavior launched to 50% of users on Chrome Canary and Dev (Chrome
-    Canary and Dev versions 78+). Windows and Mac users on domain-joined
-    devices and Chrome OS users on enterprise-registered devices will be
-    excluded from the experiment. Chrome 78 Beta users will not receive
-    the experimental behavior.
+            [SameSite-by-default](https://www.chromestatus.com/feature/5088147346030592)
+            and
+            [SameSite=None-requires-Secure](https://www.chromestatus.com/feature/5633521622188032)
+            behavior launched to 50% of users on Chrome Canary and Dev (Chrome
+            Canary and Dev versions 78+). Windows and Mac users on domain-joined
+            devices and Chrome OS users on enterprise-registered devices will be
+            excluded from the experiment. Chrome 78 Beta users will not receive
+            the experimental behavior.
 *   **October 31, 2019**: Chrome 79 Beta released. Experiment extended
-    to 50% of Chrome 79 Beta users, including domain-joined and
-    enterprise-registered devices.
-    [Policies](/administrators/policy-list-3/cookie-legacy-samesite-policies)
-    to manage the experimental behavior (see below) will be available on
-    Chrome 79.
+            to 50% of Chrome 79 Beta users, including domain-joined and
+            enterprise-registered devices.
+            [Policies](/administrators/policy-list-3/cookie-legacy-samesite-policies)
+            to manage the experimental behavior (see below) will be available on
+            Chrome 79.
 *   **Dec 10, 2019**: Chrome 79 Stable released. Stable users on Chrome
-    79 will NOT receive the new SameSite behavior.
+            79 will NOT receive the new SameSite behavior.
 *   **Dec 19, 2019**: Chrome 80 Beta released. Experimental behavior
             still enabled for 50% of Chrome 80 Beta users.
 *   **February 4, 2020**: Chrome 80 Stable released. The enablement of
@@ -67,14 +70,14 @@ and SameSite=None-requires-Secure launch timeline, see below:
             targeting an overall limited global population of users on Chrome 80
             stable and newer. We continue to monitor metrics and ecosystem
             feedback via our [tracking
-            bug](https://bugs.chromium.org/p/chromium/issues/detail), and other
-            support channels.
+            bug](https://bugs.chromium.org/p/chromium/issues/detail?id=1052195),
+            and other support channels.
 *   **March 9, 2020**: The rollout population has been additionally
             increased, although it continues to target a fraction of the overall
             Chrome 80 stable population. We continue to monitor metrics and
             ecosystem feedback via our [tracking
-            bug](https://bugs.chromium.org/p/chromium/issues/detail), and other
-            support channels.
+            bug](https://bugs.chromium.org/p/chromium/issues/detail?id=1052195),
+            and other support channels.
 *   **April 3, 2020**: In light of the extraordinary global
             circumstances due to COVID-19, [we’ve decided to temporarily roll
             back the enforcement of SameSite cookie labeling on Chrome 80
@@ -107,7 +110,7 @@ and SameSite=None-requires-Secure launch timeline, see below:
 *   **July 28, 2020**: The rollout population has been increased to
             target a fraction of the overall Chrome 80+ stable population. We
             are monitoring metrics and ecosystem feedback on our [tracking
-            bug](https://bugs.chromium.org/p/chromium/issues/detail).
+            bug](https://bugs.chromium.org/p/chromium/issues/detail?id=1052195).
 
     **Aug 11, 2020:** The target rollout population has been increased to 100%
     of users on Chrome Stable versions 80 and above, and the actual proportion
@@ -120,7 +123,6 @@ cookie settings for Android WebViews based on versions of Chrome that are
 compatible with the None value, both for cookies accessed via HTTP(S) headers
 and via Android WebView's [CookieManager
 API](https://developer.android.com/reference/android/webkit/CookieManager).
-
 \[**UPDATE Jan 8, 2021**: The modern SameSite behavior ([SameSite=Lax by
 default, SameSite=None requires
 Secure](https://web.dev/samesite-cookies-explained/), and [Schemeful
@@ -129,27 +131,36 @@ Android WebView on apps targeting Android 12 and newer. Existing apps will not
 be affected until they choose to update to target Android 12. Android 12 has not
 yet been released. Existing apps can be tested with the new modern SameSite
 behavior by toggling the flag webview-enable-modern-cookie-same-site in the
-[developer UI](https://chromium.googlesource.com/chromium/src/+/HEAD/android_webview/docs/developer-ui.md#Flag-UI).\]
-
+[developer
+UI](https://chromium.googlesource.com/chromium/src/+/HEAD/android_webview/docs/developer-ui.md#Flag-UI).\]
 This does not apply to Chrome browser on Android, which will begin to enforce
 the new SameSite rules at the same time as the desktop versions of Chrome. The
 new SameSite behavior will not affect Chrome on iOS.
 
 **All updates:**
 
-*   [Mar 18, 2021](https://chromium.org/updates/same-site)
-*   [Jan 8, 2021](https://chromium.org/updates/same-site)
-*   [Aug 11, 2020](https://chromium.org/updates/same-site)
-*   [July 28, 2020](https://chromium.org/updates/same-site)
-*   [July 14, 2020](https://chromium.org/updates/same-site)
-*   [May 28, 2020](https://chromium.org/updates/same-site)
-*   [April 3, 2020](https://chromium.org/updates/same-site)
-*   [Feb 10, 2020](https://chromium.org/updates/same-site)
-*   [Nov 21, 2019](https://chromium.org/updates/same-site)
-*   [Nov 1, 2019](https://chromium.org/updates/same-site)
-*   [Oct 2, 2019](https://chromium.org/updates/same-site)
+*   [Mar 18,
+            2021](https://chromium.org/updates/same-site?pli=1#20210318)
+*   [Jan 8, 2021](https://chromium.org/updates/same-site?pli=1#20210108)
+*   [Aug 11,
+            2020](https://chromium.org/updates/same-site?pli=1#20200811)
+*   [July 28,
+            2020](https://chromium.org/updates/same-site?pli=1#20200728)
+*   [July 14,
+            2020](https://chromium.org/updates/same-site?pli=1#20200714)
+*   [May 28,
+            2020](https://chromium.org/updates/same-site?pli=1#20200528)
+*   [April 3,
+            2020](https://chromium.org/updates/same-site?pli=1#20200403)
+*   [Feb 10,
+            2020](https://chromium.org/updates/same-site?pli=1#20200210)
+*   [Nov 21,
+            2019](https://chromium.org/updates/same-site?pli=1#20191121)
+*   [Nov 1, 2019](https://chromium.org/updates/same-site?pli=1#20191101)
+*   [Oct 2, 2019](https://chromium.org/updates/same-site?pli=1#20191002)
 *   [Sept 30, 2019](#20190930)
-*   [Sept 26, 2019](https://chromium.org/updates/same-site)
+*   [Sept 26,
+            2019](https://chromium.org/updates/same-site?pli=1#20190926)
 
 **Mar 18, 2021**
 
@@ -183,7 +194,8 @@ behavior when they restart Chrome.
 
 The rollout population has been increased to target a fraction of the overall
 Chrome 80+ stable population. We are monitoring metrics and ecosystem feedback
-on our [tracking bug](https://bugs.chromium.org/p/chromium/issues/detail).
+on our [tracking
+bug](https://bugs.chromium.org/p/chromium/issues/detail?id=1052195).
 
 **July 14, 2020**
 
@@ -307,40 +319,40 @@ debugging](/updates/same-site/test-debug).**
 
 To test whether your sites may be affected by the SameSite changes:
 
-Go to chrome://flags and enable #same-site-by-default-cookies and
-#cookies-without-same-site-must-be-secure. Restart the browser for the
-changes to take effect.
+    Go to chrome://flags and enable #same-site-by-default-cookies and
+    #cookies-without-same-site-must-be-secure. Restart the browser for the
+    changes to take effect.
 
-Test your sites, with a focus on anything involving federated login flows,
-multiple domains, or cross-site embedded content. Note that, because of the
-2 minute time threshold for the "Lax+POST" intervention, for any flows
-involving POST requests, you may want to test with and without a long (&gt;
-2 minute) delay.
+    Test your sites, with a focus on anything involving federated login flows,
+    multiple domains, or cross-site embedded content. Note that, because of the
+    2 minute time threshold for the "Lax+POST" intervention, for any flows
+    involving POST requests, you may want to test with and without a long (&gt;
+    2 minute) delay.
 
-If your site stops working:
+    If your site stops working:
 
-*   Try turning off #cookies-without-same-site-must-be-secure. If
-    this fixes the issue, you need to set \`Secure\` on any
-    \`SameSite=None\` cookies your site may be relying upon. (This
-    may require upgrading HTTP sites to HTTPS.)
-*   Try turning off both flags. If this fixes the issue, you need to
-    identify the cookies being accessed in a cross-site context and
-    apply the attributes \`SameSite=None\` and \`Secure\` to them.
-    See ["SameSite cookies
-    explained"](https://web.dev/samesite-cookies-explained/) for
-    more information. If you are not the developer of the site,
-    please reach out to the developer and/or vendor who authored the
-    site.
-*   For flows involving POST requests, if a short delay (&lt; 2
-    minutes) works but a long delay (&gt; 2 minutes) does not work,
-    you will also need to add \`SameSite=None\` and \`Secure\` to
-    the relevant cookies if the operation in question may take
-    longer than 2 minutes. Note that the 2-minute window for
-    "Lax+POST" is a temporary intervention and will be removed at
-    some point in the future (some time after the Stable launch of
-    Chrome 80), at which point cookies involved in these flows will
-    require \`SameSite=None\` and \`Secure\` even if under 2
-    minutes.
+    *   Try turning off #cookies-without-same-site-must-be-secure. If
+                this fixes the issue, you need to set \`Secure\` on any
+                \`SameSite=None\` cookies your site may be relying upon. (This
+                may require upgrading HTTP sites to HTTPS.)
+    *   Try turning off both flags. If this fixes the issue, you need to
+                identify the cookies being accessed in a cross-site context and
+                apply the attributes \`SameSite=None\` and \`Secure\` to them.
+                See ["SameSite cookies
+                explained"](https://web.dev/samesite-cookies-explained/) for
+                more information. If you are not the developer of the site,
+                please reach out to the developer and/or vendor who authored the
+                site.
+    *   For flows involving POST requests, if a short delay (&lt; 2
+                minutes) works but a long delay (&gt; 2 minutes) does not work,
+                you will also need to add \`SameSite=None\` and \`Secure\` to
+                the relevant cookies if the operation in question may take
+                longer than 2 minutes. Note that the 2-minute window for
+                "Lax+POST" is a temporary intervention and will be removed at
+                some point in the future (some time after the Stable launch of
+                Chrome 80), at which point cookies involved in these flows will
+                require \`SameSite=None\` and \`Secure\` even if under 2
+                minutes.
 
 If you are an IT administrator managing a Chrome deployment for your
 organization, policies will temporarily be made available to maintain Chrome's

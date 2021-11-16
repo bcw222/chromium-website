@@ -28,7 +28,7 @@ Examples of things presubmit scripts may be useful for include:
 
 *   Ensuring your change is linked to a bug via a BUG= line.
 *   Ensuring you have run
-            [cpplint.py](http://src.chromium.org/viewvc/chrome/trunk/tools/depot_tools/cpplint.py)
+            [cpplint.py](http://src.chromium.org/viewvc/chrome/trunk/tools/depot_tools/cpplint.py?view=markup)
             or automatically running cpplint for you.
 *   Enforcing coding conventions.
 *   Preventing you from breaking dependency rules e.g. by including a
@@ -164,7 +164,7 @@ with `Check`.
 #### InputApi
 
 The `input_api` parameter is an object of type `presubmit.InputApi`; see [`class
-InputApi`](https://source.chromium.org/chromium/chromium/tools/depot_tools/+/main:presubmit_support.py)
+InputApi`](https://source.chromium.org/chromium/chromium/tools/depot_tools/+/main:presubmit_support.py?q=file:presubmit_support.py%20%22class%20InputApi%22)
 in
 [`presubmit_support.py`](https://source.chromium.org/chromium/chromium/tools/depot_tools/+/main:presubmit_support.py)
 for implementation.
@@ -267,8 +267,9 @@ def MyTest(input_api, output_api):
 You can look at existing scripts for examples ([search:
 PRESUBMIT.py](https://code.google.com/p/chromium/codesearch#search/&q=file:PRESUBMIT.py&sq=package:chromium&type=cs)).
 [Chromium's
-PRESUBMIT.py](http://src.chromium.org/viewvc/chrome/trunk/src/PRESUBMIT.py) and
-[Chromium-os PRESUBMIT.py](http://src.chromium.org/cgi-bin/gitweb.cgi) are
-detailed examples, while the [Blink bindings
+PRESUBMIT.py](http://src.chromium.org/viewvc/chrome/trunk/src/PRESUBMIT.py?view=markup)
+and [Chromium-os
+PRESUBMIT.py](http://src.chromium.org/cgi-bin/gitweb.cgi?p=chromium.git;a=blob;f=PRESUBMIT.py;hb=HEAD)
+are detailed examples, while the [Blink bindings
 PRESUBMIT.py](https://code.google.com/p/chromium/codesearch#chromium/src/third_party/WebKit/Source/bindings/PRESUBMIT.py)
 is a very simple example.

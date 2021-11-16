@@ -22,7 +22,7 @@ M58](https://groups.google.com/a/chromium.org/forum/#!searchin/blink-dev/slimmin
 
 SlimmingPaintV175 - uses property trees for painting in blink, introduces paint
 chunks, uses paint chunks for raster invalidation ([Status: launched in
-M67](https://bugs.chromium.org/p/chromium/issues/detail))
+M67](https://bugs.chromium.org/p/chromium/issues/detail?id=771643))
 
 [BlinkGenPropertyTrees](https://docs.google.com/document/d/17GKr2uIH2O5GthdTyvJpv1qZjoHYoLgrzvCkbCHoID4/view#)
 - sends a layer list instead of a tree, and generates final property trees in
@@ -35,9 +35,9 @@ M75](https://crbug.com/836884))
 ## Presentations
 
 [BlinkOn 3.0
-Presentation](https://docs.google.com/presentation/d/1zpGlx75eTNILTGf3s_F6cQP03OGaN2-HACsZwEobMqY/edit),
-[video](https://www.youtube.com/watch) (start here to find out more about the
-project)
+Presentation](https://docs.google.com/presentation/d/1zpGlx75eTNILTGf3s_F6cQP03OGaN2-HACsZwEobMqY/edit?usp=sharing),
+[video](https://www.youtube.com/watch?v=5Xv2A7aqJ9Y) (start here to find out
+more about the project)
 
 [BlinkOn 4
 presentation](https://docs.google.com/presentation/d/17k62tf1zc5opvIfhCXMiL4UdI9UGvtCJbUEKMPlWZDY/edit)
@@ -91,16 +91,16 @@ discussions and related projects.
 invalidation](https://docs.google.com/document/d/1M669yu7nsF9Wrkm7nQFi3Pp2r-QmCMqm4K7fPPo-doA)
 
 [Representation and implementation of display lists in
-Blink](https://docs.google.com/document/d/1fWvFIY41BJHtB4qBHw3_IZYqScurID4KmE2_a6Be0J4/edit)
+Blink](https://docs.google.com/document/d/1fWvFIY41BJHtB4qBHw3_IZYqScurID4KmE2_a6Be0J4/edit?usp=sharing)
 
 [Layerization based on display
 lists](https://docs.google.com/a/google.com/document/d/1L6vb9JEPFoyt6eNjVla2AbzSUTGyQT93tQKgE3f1EMc/edit)
 
 [Blink paintlist update algorithm
-details](https://docs.google.com/document/d/1bvEdFo9avr11S-2k1-gT1opdYWnPWga68CK3MdoYV7k/edit)
+details](https://docs.google.com/document/d/1bvEdFo9avr11S-2k1-gT1opdYWnPWga68CK3MdoYV7k/edit?usp=sharing)
 
 ==[Bounding Rectangle Strategy for Slimming
-Paint](https://docs.google.com/a/chromium.org/document/d/12G3rfM3EkLYDCRcO1EpEObfeoU24Sqof9S0sPHgELU4/edit)==
+Paint](https://docs.google.com/a/chromium.org/document/d/12G3rfM3EkLYDCRcO1EpEObfeoU24Sqof9S0sPHgELU4/edit?usp=sharing)==
 
 [Slimming Paint for UI
 Compositor](https://docs.google.com/a/chromium.org/document/d/1Oxa3E-ymCqY2-7AlMrL1GEqAtyFE__0PRzhg9EEZt7Y/edit)

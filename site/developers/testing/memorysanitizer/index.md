@@ -17,7 +17,7 @@ MSan in Chromium is unlikely to be usable on systems other than Ubuntu
 Precise/Trusty - please see the note on instrumented libraries below.
 
 MSan bots are running on
-[chromium.memory.fyi](http://build.chromium.org/p/chromium.memory.fyi/waterfall),
+[chromium.memory.fyi](http://build.chromium.org/p/chromium.memory.fyi/waterfall?builder=Chromium+Linux+MSan+Builder&builder=Linux+MSan+Tests&builder=Chromium+Linux+ChromeOS+MSan+Builder&builder=Linux+ChromeOS+MSan+Tests&reload=none),
 [client.webrtc](http://build.chromium.org/p/client.webrtc/builders/Linux%20MSan)
 and
 [chromium.webkit](http://build.chromium.org/p/chromium.webkit/builders/WebKit%20Linux%20MSAN).

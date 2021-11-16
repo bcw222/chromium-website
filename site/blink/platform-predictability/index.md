@@ -34,10 +34,11 @@ For details see:
             Web](http://www.slideshare.net/robnyman/predictability-for-the-web/)
             talk ([video](https://youtu.be/meAl-s77DuA))
 *   [Platform Predictability vision
-            document](https://drive.google.com/open)
+            document](https://drive.google.com/open?id=1jx--r4elUfTP2EGo27UPGncLTAIW3ExF7N2JL7sjki4)
 *   [BlinkOn 6: Web Platform
             Predictability](https://docs.google.com/presentation/d/1umK4QkfCvzicHVJKLNo2yDRyWSqQEamavW9QVFmugNY/edit)
-            talk ([video](https://www.youtube.com/watch))
+            talk
+            ([video](https://www.youtube.com/watch?v=ipfPyM-Kwyk&feature=youtu.be))
 *   [Predictability mailing
             list](https://groups.google.com/a/chromium.org/forum/#!forum/platform-predictability)
 *   [Ecosystem Infrastructure team
@@ -78,8 +79,9 @@ For details see:
             principles of web compatibility](https://bit.ly/blink-compat)
 *   Prioritize bugs in your areas that reflect real developer pain - eg.
             [those most
-            starred](https://bugs.chromium.org/p/chromium/issues/list), [recent
-            regressions](https://bugs.chromium.org/p/chromium/issues/list).
+            starred](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=component:Blink&sort=-stars&colspec=ID%20Stars%20Pri%20Status%20Component%20Opened%20Summary),
+            [recent
+            regressions](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=type%3Dbug-regression+pri%3D0%2C1+component%3Ablink+opened-after%3Atoday-60&colspec=ID+Pri+Mstone+ReleaseBlock+OS+Area+Feature+Status+Owner+Summary&x=m&y=releaseblock&cells=tiles).
 *   Understand how your feature behaves on [all major
             browsers](https://browserstack.com/), file bugs for differences (on
             specs, other engines and/or blink).
@@ -92,22 +94,23 @@ For details see:
 
 *   Chromium Hotlist-Interop: key bugs that impact interoperability
     *   Useful queries:
-                [untriaged](https://bugs.chromium.org/p/chromium/issues/list),
+                [untriaged](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=Hotlist%3DInterop+status%3Duntriaged%2Cunconfirmed&sort=&groupby=&colspec=ID+Pri+Component+Status+Owner+Summary+Modified&nobtn=Update),
                 [high
-                priority](https://bugs.chromium.org/p/chromium/issues/list),
-                [most starred](https://bugs.chromium.org/p/chromium/issues/list)
+                priority](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=Hotlist%3DInterop+pri%3D0%2C1&colspec=ID+Pri+Component+Status+Owner+Summary+Modified&x=m&y=releaseblock&cells=ids),
+                [most
+                starred](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=Hotlist=Interop&sort=-stars&colspec=ID%20Stars%20Pri%20Component%20Status%20Owner%20Summary%20Modified)
     *   [New Hotlist-Interop
-                bug](https://bugs.chromium.org/p/chromium/issues/entry)
+                bug](https://bugs.chromium.org/p/chromium/issues/entry?template=Defect%20report%20from%20user&labels=Type-Bug,Pri-2,Cr-Blink,Hotlist-Interop)
 *   [Chromium
-            Blink&gt;Infra&gt;Ecosystem](https://bugs.chromium.org/p/chromium/issues/list):
+            Blink&gt;Infra&gt;Ecosystem](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=component%3ABlink%3EInfra%3EEcosystem+&colspec=ID+Pri+Component+Status+Owner+Summary+Modified&x=m&y=releaseblock&cells=ids):
             bugs for chromium infrastructure and tooling to promote
             interoperability
 *   [Chromium
-            Internals&gt;FeatureControl](https://bugs.chromium.org/p/chromium/issues/list):
+            Internals&gt;FeatureControl](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=component%3AInternals%3EFeatureControl+&colspec=ID+Pri+Component+Status+Owner+Summary+Modified&x=m&y=releaseblock&cells=ids):
             bugs related to how web platform features are enabled and measured
             (e.g. webexposed tests, UseCounters)
 *   [Chromium bugs filed by other browser
-            vendors](https://bugs.chromium.org/p/chromium/issues/list)
+            vendors](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=reporter:microsoft.com,mozilla,webkit.org,apple.com&sort=-opened+-modified&colspec=ID%20Reporter%20Pri%20Component%20Status%20Owner%20Summary%20Opened%20Modified)
 *   [GitHub issues for
             Chromestatus.com](https://github.com/GoogleChrome/chromium-dashboard/issues)
 
@@ -123,7 +126,7 @@ For details see:
 *   [Webcompat.com](http://webcompat.com/)
 *   [BlinkOn5: Interoperability Case
             Studies](https://docs.google.com/presentation/d/1pOZ8ppcxEsJ6N8KfnfrI0EXwPEvHwg3BHyxzXXw8lRE)
-            ([video](https://www.youtube.com/watch))
+            ([video](https://www.youtube.com/watch?v=a3-zFbwsoEs))
 *   [W3C Web Platform Incubation Community
             Group](https://www.w3.org/community/wicg/)
 *   [The elastic band of

@@ -21,8 +21,8 @@ Native Client technology:
             (<http://www.usenix.org/events/sec10/index.html>), August 2010;
             originally posted February 2010, revised June 2010
 *   [PNaCl: Portable Native Client
-            Executables](https://docs.google.com/a/chromium.org/viewer), white
-            paper, February 2010
+            Executables](https://docs.google.com/a/chromium.org/viewer?a=v&pid=sites&srcid=Y2hyb21pdW0ub3JnfGRldnxneDo3ZmQ2NjI2NjFkM2EzYjFl),
+            white paper, February 2010
 *   [Language-Independent Sandboxing of Just-In-Time Compilation and
             Self-Modifying
             Code](http://static.googleusercontent.com/external_content/untrusted_dlcp/research.google.com/en/us/pubs/archive/37204.pdf),

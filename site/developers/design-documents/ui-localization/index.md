@@ -9,8 +9,9 @@ title: Add & translate strings (aka 'Localization' or 'Translations')
 ---
 
 **Help improve our translations:**
-[File a bug](http://code.google.com/p/chromium/issues/entry) using the
-translation template; CC "chromelocalization@google.com"
+[File a
+bug](http://code.google.com/p/chromium/issues/entry?template=Translation%20Issue)
+using the translation template; CC "chromelocalization@google.com"
 **[Provide
 translations](http://davidplanella.org/chromium-opens-to-community-translations-in-launchpad/)**
 for the chromium-browser package on Ubuntu

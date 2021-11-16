@@ -40,7 +40,7 @@ off main thread which improve smoothness.
     [3](https://houdini.glitch.me/animation)
 
     [Blink Design
-    Document](https://docs.google.com/document/d/1MdpvGtnK_A2kTzLeTd07NUevMON2WBRn5wirxWEFd2w/edit)
+    Document](https://docs.google.com/document/d/1MdpvGtnK_A2kTzLeTd07NUevMON2WBRn5wirxWEFd2w/edit?usp=sharing)
 
 Current Status
 

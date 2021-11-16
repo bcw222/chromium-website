@@ -15,9 +15,9 @@ https://chromium.googlesource.com/chromium/src/+log/oldhash..newhash?pretty=full
 *   [Example changelog without pretty
             option](https://chromium.googlesource.com/chromium/src/+log/a436b4f19b34bc9ae667530d7cf38916b8237172..ca100d5970b0d0b9a3af96d180f5ea2862227a48)
 *   [Example changelog with
-            pretty=full](https://chromium.googlesource.com/chromium/src/+log/a436b4f19b34bc9ae667530d7cf38916b8237172..ca100d5970b0d0b9a3af96d180f5ea2862227a48)
+            pretty=full](https://chromium.googlesource.com/chromium/src/+log/a436b4f19b34bc9ae667530d7cf38916b8237172..ca100d5970b0d0b9a3af96d180f5ea2862227a48?pretty=full)
 *   [Example changelog with
-            pretty=fuller](https://chromium.googlesource.com/chromium/src/+log/a436b4f19b34bc9ae667530d7cf38916b8237172..ca100d5970b0d0b9a3af96d180f5ea2862227a48)
+            pretty=fuller](https://chromium.googlesource.com/chromium/src/+log/a436b4f19b34bc9ae667530d7cf38916b8237172..ca100d5970b0d0b9a3af96d180f5ea2862227a48?pretty=fuller)
 
 JSON format queries:
 

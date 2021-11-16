@@ -14,7 +14,8 @@ Objective: Improve RTL handling in webkit editing and layout/rendering.
 
 Mailing list: rtl-editing@google.com
 
-[Issue tracker](https://spreadsheets.google.com/a/google.com/ccc)
+[Issue
+tracker](https://spreadsheets.google.com/a/google.com/ccc?key=0AjIpE6jmfbPCdHJlOW9iUUp5WmpuQ1VIUTBFR2VncUE&authkey=CKCj8d4O&hl=en#gid=0)
 
 Members: Alex Komoroske (PM), Xiaomei Ji, Ryosuke Niwa, Jeremy Moskovich, Levi
 Weintraub, Uri Bernstein, Aharon Lanin, Roland Steiner, Jason Elbaum, Ahmed
@@ -25,9 +26,9 @@ Hassan, Mohamed Elhawary, Michal Levin (UX).
 *   [Proposal](http://www.w3.org/TR/html-bidi/)
 
 *   [Implementation
-            status](https://docs.google.com/a/google.com/document/d/17nb3wlYkIG9MNtL1mlXVPOVe4QwyApiHRYim3nTi5CE/edit)
+            status](https://docs.google.com/a/google.com/document/d/17nb3wlYkIG9MNtL1mlXVPOVe4QwyApiHRYim3nTi5CE/edit?hl=en#)
 
-*   [WebKit rollup bug](https://bugs.webkit.org/show_bug.cgi)
+*   [WebKit rollup bug](https://bugs.webkit.org/show_bug.cgi?id=50910)
 
 ## Test Suite
 
@@ -110,7 +111,7 @@ Internet Explorer: (0)(1)(7)C(6)B(5)A(4)1(2)2(3)3
 Firefox: (0)(7)C(6)B(5)A(1)(4)1(2)2(3)3
 Chrome/WebKit: (0)C(5)B(4)A1(1)2(2)3(3)(6).
 Which one meets user's expectation is under
-[discussion](https://bugs.webkit.org/show_bug.cgi) right now.
+[discussion](https://bugs.webkit.org/show_bug.cgi?id=53696) right now.
 Another case of lacking clear spec is that there is no consensus on whether a UI
 function should behave logically or visually. Different browsers might behave
 differently. For example, IE handles cursor movement (arrow keys) as logical
@@ -134,18 +135,18 @@ For example, there is no standard defined on how to render &lt;input&gt;
 element, whether it should auto-detects the input text's directionality and uses
 that for rendering, or use the &lt;input&gt; element's directionality for
 rendering the input text. There are some discussions (comment
-[#2](https://bugs.webkit.org/show_bug.cgi),
-[#7](https://bugs.webkit.org/show_bug.cgi),
-[#8](https://bugs.webkit.org/show_bug.cgi),
-[#10](https://bugs.webkit.org/show_bug.cgi) ) in related WebKit
-[issue](https://bugs.webkit.org/show_bug.cgi). For example, there is no standard
-defined on how to render &lt;selection&gt;/&lt;option&gt; elements when either
-or both the element have 'dir' attributes defined. There is discussion (comment
-[#2](https://bugs.webkit.org/show_bug.cgi),
-[#5](https://bugs.webkit.org/show_bug.cgi)) in related Webkit
-[issue](https://bugs.webkit.org/show_bug.cgi). The same goes for for script
-dialog text, &lt;title&gt; attribute etc. Aharon Lanin proposed additional
-requirement for BiDi in HTML for HTML5.
+[#2](https://bugs.webkit.org/show_bug.cgi?id=27889#c10),
+[#7](https://bugs.webkit.org/show_bug.cgi?id=27889#c10),
+[#8](https://bugs.webkit.org/show_bug.cgi?id=27889#c10),
+[#10](https://bugs.webkit.org/show_bug.cgi?id=27889#c10) ) in related WebKit
+[issue](https://bugs.webkit.org/show_bug.cgi?id=27889). For example, there is no
+standard defined on how to render &lt;selection&gt;/&lt;option&gt; elements when
+either or both the element have 'dir' attributes defined. There is discussion
+(comment [#2](https://bugs.webkit.org/show_bug.cgi?id=29612#c5),
+[#5](https://bugs.webkit.org/show_bug.cgi?id=29612#c5)) in related Webkit
+[issue](https://bugs.webkit.org/show_bug.cgi?id=29612). The same goes for for
+script dialog text, &lt;title&gt; attribute etc. Aharon Lanin proposed
+additional requirement for BiDi in HTML for HTML5.
 
 The main issue involved in RTL rendering is not only whether to render
 bi-directional text correctly for any HTML structure (from example, inline
@@ -153,7 +154,7 @@ element inside block element) when 'dir' attribute is set, when unicode bidi
 control characters are used, when unicode-bidi property is set. But also to
 rendering the whole RTL page correctly. For example, previously, the #1 issue
 reported in Middle East North Africa by Chrome users is the [truncation of the
-content of RTL page](https://bugs.webkit.org/show_bug.cgi)s so only the
+content of RTL page](https://bugs.webkit.org/show_bug.cgi?id=23556)s so only the
 right-most part of the content that fit in browser window was displayed. Fixing
 it requires a good understanding of the rendering layer (with 67k line of code)
 and its relation with the page and platform layers. Beyond that, the fix needed

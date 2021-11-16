@@ -61,8 +61,8 @@ headers with unqualified paths.
 
 This shows up as generated files appearing to not be regenerated, though in fact
 the files are being generated in a new location; see for example Issue
-[381111](https://code.google.com/p/chromium/issues/detail)
-([comment](https://code.google.com/p/chromium/issues/detail)).
+[381111](https://code.google.com/p/chromium/issues/detail?id=381111)
+([comment](https://code.google.com/p/chromium/issues/detail?id=381111#c4)).
 
 To avoid this (see also [Chromium clobber landmines: moving generated
 files](/Home/chromium-clobber-landmines#TOC-Moving-generated-files)):
@@ -90,5 +90,5 @@ files](/Home/chromium-clobber-landmines#TOC-Moving-generated-files)):
 ## Dependencies
 
 Currently `checkdeps` is *not* run on generated files (Issue
-[365190](https://code.google.com/p/chromium/issues/detail)), so generated files
-can break componentization.
+[365190](https://code.google.com/p/chromium/issues/detail?id=365190)), so
+generated files can break componentization.

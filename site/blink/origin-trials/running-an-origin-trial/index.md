@@ -341,4 +341,4 @@ The integration instructions now live in the Chromium source repo:
 All of this may change, as we respond to your feedback about the framework
 itself. Please let us know how it works, and what's missing!
 To follow the most up-to-date progress and plans, filter in crbug.com for
-“[component:Internals&gt;OriginTrials](https://bugs.chromium.org/p/chromium/issues/list)”.
+“[component:Internals&gt;OriginTrials](https://bugs.chromium.org/p/chromium/issues/list?q=component:Internals%3EOriginTrials)”.

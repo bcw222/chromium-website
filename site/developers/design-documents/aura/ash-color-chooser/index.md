@@ -21,18 +21,18 @@ title: Ash Color Chooser
 **# First Goal**
 
 *   **Implement simple color picker dialog w[orking with &lt;input
-            type=”color&gt;](https://docs.google.com/a/google.com/document/d/1YIKO-5_m0ZpkvtE24QKKty1ZZk7aYVk-Bw9Xq8zpMEg/edit).**
+            type=”color&gt;](https://docs.google.com/a/google.com/document/d/1YIKO-5_m0ZpkvtE24QKKty1ZZk7aYVk-Bw9Xq8zpMEg/edit?hl=en_US).**
 *   **Implement with views, not HTML.**
 *   **Features**
     *   **Behave as Modal Dialog (see
-                [doc](https://docs.google.com/a/google.com/document/d/1YIKO-5_m0ZpkvtE24QKKty1ZZk7aYVk-Bw9Xq8zpMEg/edit))**
+                [doc](https://docs.google.com/a/google.com/document/d/1YIKO-5_m0ZpkvtE24QKKty1ZZk7aYVk-Bw9Xq8zpMEg/edit?hl=en_US))**
         *   **Appears in the topmost z-order**
     *   **Pick up a color from HSV model**
         *   **Has both a Hue bar and a Saturation-Value plane (see below
                     mock).**
     *   **Pick up a color from text**
         *   **A[llow
-                    copy/paste](https://docs.google.com/a/google.com/document/d/1YIKO-5_m0ZpkvtE24QKKty1ZZk7aYVk-Bw9Xq8zpMEg/edit)**
+                    copy/paste](https://docs.google.com/a/google.com/document/d/1YIKO-5_m0ZpkvtE24QKKty1ZZk7aYVk-Bw9Xq8zpMEg/edit?hl=en_US)**
         *   **Specify the color by …**
             *   **rgb(xx ,yy, zz)**
             *   **#RRGGBB**

@@ -122,7 +122,7 @@ title: January 2021 - Code Health, New Features, Testing and Stability Fixes
     <td><td>Enabled for stable at 1% starting with M88.</td></td>
 
     <td><td>Improvement of the feature is still on-going, such as the <a
-    href="https://bugs.chromium.org/p/chromium/issues/detail">simulated
+    href="https://bugs.chromium.org/p/chromium/issues/detail?id=1150979">simulated
     clicks</a>.</td></td>
 
 <td><td>Capability delegation with payment request</td></td>
@@ -139,8 +139,8 @@ title: January 2021 - Code Health, New Features, Testing and Stability Fixes
 <td><td>liviutinta@ kept working on this feature, and has made progress.</td></td>
 
     <td><td>Landed <a
-    href="https://bugs.chromium.org/p/chromium/issues/detail">scrolling the
-    &lt;select&gt; popup</a>.</td></td>
+    href="https://bugs.chromium.org/p/chromium/issues/detail?id=1113863">scrolling
+    the &lt;select&gt; popup</a>.</td></td>
 
     <td><td>Designed <a
     href="https://docs.google.com/document/d/1w_Pr4sKPXfHz03ZUxVSZL23xjQy-TiKAKf8rmbcW1Fc/edit#">metrics</a>
@@ -244,7 +244,7 @@ title: January 2021 - Code Health, New Features, Testing and Stability Fixes
 
 <td><td>Crash in PointerEventFactory</td></td>
 
-<td><td>mustaq@ untangled a mixed-up <a href="https://bugs.chromium.org/p/chromium/issues/detail">crash report</a> that becomes release-blocker-stable at the last moment. The effort of fixing the crash includes:</td></td>
+<td><td>mustaq@ untangled a mixed-up <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1164347#c4">crash report</a> that becomes release-blocker-stable at the last moment. The effort of fixing the crash includes:</td></td>
 
     <td><td>Determine the root cause, landed the <a
     href="https://chromium-review.googlesource.com/c/chromium/src/+/2488181">fix</a>
@@ -279,7 +279,7 @@ title: January 2021 - Code Health, New Features, Testing and Stability Fixes
 
     <td><td>~40% bugs have owners assigned.</td></td>
 
-<td><td>girard@ re-enabled “<a href="https://chromium-review.googlesource.com/c/chromium/src/+/2643444">MissedTOUCHEVENTF_UP</a>” which tracks a hack in windows touch. We would like to <a href="https://bugs.chromium.org/p/chromium/issues/detail">tear out the hack/workaround</a> once usage drops.</td></td>
+<td><td>girard@ re-enabled “<a href="https://chromium-review.googlesource.com/c/chromium/src/+/2643444">MissedTOUCHEVENTF_UP</a>” which tracks a hack in windows touch. We would like to <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=811273">tear out the hack/workaround</a> once usage drops.</td></td>
 
 <td><td>liviutinta@ removed the <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2595636">AzimuthAltitude flag</a> since it has been turned on by default since M86.</td></td>
 

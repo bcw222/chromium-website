@@ -114,10 +114,10 @@ to map jacks to audio devices.
 ### More documents
 
 *   [Chrome OS Audio Software
-            Overview](https://docs.google.com/document/d/1pDdzlJlNacvOB8CS4Qxg-0aQvEuCK8lFKaWaqckSl3w/edit)
+            Overview](https://docs.google.com/document/d/1pDdzlJlNacvOB8CS4Qxg-0aQvEuCK8lFKaWaqckSl3w/edit?usp=sharing)
 *   [CRAS ELC
-            2014.pdf](https://drive.google.com/file/d/1WBYe-M_xFaHIajn-hfQRBrKhPkbgHNF9/view)
+            2014.pdf](https://drive.google.com/file/d/1WBYe-M_xFaHIajn-hfQRBrKhPkbgHNF9/view?usp=sharing)
 *   [Gain in
-            CRAS](https://docs.google.com/document/d/1FfTGylzC-uGPhzxnotfxXjDeBPRPIMxkzqdQbQWJ7aE/edit)
+            CRAS](https://docs.google.com/document/d/1FfTGylzC-uGPhzxnotfxXjDeBPRPIMxkzqdQbQWJ7aE/edit?usp=sharing)
 *   [UCM Usage
-            Guide](https://docs.google.com/document/d/1AcXZI9dvJBW0Vy6h9vraD7VP9X_MpwHx0eJ6hNc4G_s/edit)
+            Guide](https://docs.google.com/document/d/1AcXZI9dvJBW0Vy6h9vraD7VP9X_MpwHx0eJ6hNc4G_s/edit?usp=sharing)

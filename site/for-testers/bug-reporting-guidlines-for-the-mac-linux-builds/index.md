@@ -17,13 +17,15 @@ a result, there is little to be gained from filing a duplicate bug besides
 slowing down our ability to produce a great piece of software.
 
 Before you file any bug, search the bug tracker to see if your problem is a
-known issues ([Mac query](http://code.google.com/p/chromium/issues/list), [Linux
-query](http://code.google.com/p/chromium/issues/list)). You can safely assume
-that huge holes in functionality (such as fullscreen not working) are well known
-and there's no need to file a bug. If you find the bug is already there, feel
-free to star it so you can find it later and indicate to us another person is
-interested in its resolution. If and only if you can't find the bug in the
-database should you consider filing a new one.
+known issues ([Mac
+query](http://code.google.com/p/chromium/issues/list?can=2&q=os:mac&sort=-stars),
+[Linux
+query](http://code.google.com/p/chromium/issues/list?can=2&q=os:linux&sort=-stars)).
+You can safely assume that huge holes in functionality (such as fullscreen not
+working) are well known and there's no need to file a bug. If you find the bug
+is already there, feel free to star it so you can find it later and indicate to
+us another person is interested in its resolution. If and only if you can't find
+the bug in the database should you consider filing a new one.
 
 If you have any questions about whether or not you should file your bug, feel
 free to visit #chromium on irc.freenode.net and ask the community. We'll be more

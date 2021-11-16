@@ -76,7 +76,7 @@ title: August 2021 - New features, Fixit, Testing, Code health and more!
 
 <td><td> <img alt="image" src="https://lh6.googleusercontent.com/YwLTJWcJyqJCA3Qp3Udo7jVtFHSpaW_DltCWoYfwHucQ5S6TsUlcI1s-OOCVq-EnGpuStDav3F26tpwZYB4lUXtkEa-_fJ6QTfX8nCmzr3t6-HuFSIDNMxVJQnjyI8FnosUWhwlRqg" height=124 width=283></td></td>
 
-<td><td>xidachen@ launched the finch study for composite bgcolor animation. The preliminary <a href="https://uma.googleplex.com/p/chrome/variations">result</a> looks very positive.</td></td>
+<td><td>xidachen@ launched the finch study for composite bgcolor animation. The preliminary <a href="https://uma.googleplex.com/p/chrome/variations?sid=9249d9466a749268e49631a32938b1bb">result</a> looks very positive.</td></td>
 
     <td><td>The above table shows the summary of the result with all platforms
     combined, canary + dev channels.</td></td>
@@ -106,8 +106,8 @@ title: August 2021 - New features, Fixit, Testing, Code health and more!
     href="https://crbug.com/43170">oldest bug</a>.</td></td>
 
     <td><td>We closed <a
-    href="https://bugs.chromium.org/p/chromium/issues/list">15 bugs</a> in
-    total:</td></td>
+    href="https://bugs.chromium.org/p/chromium/issues/list?sort=Pri%20-Stars&x=Status&y=Owner&cells=counts&q=label%3Achrome-fixit-2021%20owner%3Aflackr%2Cgirard%2Ckevers%2Cmustaq%2Cskobes%2Cxidachen%20status%3Afixed%2Cverified%2Cwontfix%2Cduplicate&can=1&colspec=ID%2BPri%2BStars%2BType%2BComponent%2BStatus%2BSummary%2BOwner%2BModified%2BOpened">15
+    bugs</a> in total:</td></td>
 
         <td><td>Got rid of bugs with <a href="https://crbug.com/716694">52</a>,
         <a href="https://crbug.com/1148143">37</a>, <a
@@ -115,8 +115,8 @@ title: August 2021 - New features, Fixit, Testing, Code health and more!
         href="https://crbug.com/61574">12</a> stars.</td></td>
 
         <td><td>Landed code to fix <a
-        href="https://bugs.chromium.org/p/chromium/issues/list">7</a> of
-        bugs.</td></td>
+        href="https://bugs.chromium.org/p/chromium/issues/list?sort=Pri%20-Stars&colspec=ID%20Pri%20Stars%20Type%20Component%20Status%20Summary%20Owner%20Modified%20Opened&x=Status&y=Owner&cells=counts&q=label%3Achrome-fixit-2021%20owner%3Aflackr%2Cgirard%2Ckevers%2Cmustaq%2Cskobes%2Cxidachen%20status%3Afixed%2Cverified&can=1">7</a>
+        of bugs.</td></td>
 
 <td></tr></td>
 <td></table></td>
@@ -283,7 +283,7 @@ title: August 2021 - New features, Fixit, Testing, Code health and more!
     years ago.</td></td>
 
     <td><td>We posted solution ideas but compat risks held us back. Our <a
-    href="https://docs.google.com/document/d/1TKjjwFlQGh2LLm0_mOW6FJdmmwyOBMj_fdWJyAJ_Q50/edit">design
+    href="https://docs.google.com/document/d/1TKjjwFlQGh2LLm0_mOW6FJdmmwyOBMj_fdWJyAJ_Q50/edit?usp=sharing">design
     doc</a> in early 2020 didn’t get enough traction for the same
     reason.</td></td>
 

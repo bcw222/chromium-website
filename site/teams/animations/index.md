@@ -70,7 +70,7 @@ The meetings follow the following schedule:
 *   Week 1: Planning meeting on Tuesday 2:30pm EST, [meeting
             notes](http://bit.ly/animations-team-planning)
 *   Week 3: Demo meeting on Friday 11:00am EST, [meeting
-            notes](https://docs.google.com/document/d/15SH-FgMd0jPtUcPs_3A_JI9sOwmA1JrEZOHvIM8wIm0/edit)
+            notes](https://docs.google.com/document/d/15SH-FgMd0jPtUcPs_3A_JI9sOwmA1JrEZOHvIM8wIm0/edit?usp=sharing)
 
 Highlights from the demo meetings are shared in our ~monthly newsletter, see
 Activities above.
@@ -78,9 +78,9 @@ Activities above.
 ## Bug Triage
 
 The animations team is responsible for bugs filed in the
-[Blink&gt;Animation](https://bugs.chromium.org/p/chromium/issues/list),
-[Internals&gt;Compositing&gt;Animation](https://bugs.chromium.org/p/chromium/issues/list),
-[Internals&gt;Compositing&gt;Scroll](https://bugs.chromium.org/p/chromium/issues/list)
+[Blink&gt;Animation](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=component%3ABlink%3EAnimation+&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids),
+[Internals&gt;Compositing&gt;Animation](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=component%3AInternals%3ECompositing%3EAnimation&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids),
+[Internals&gt;Compositing&gt;Scroll](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=component%3AInternals%3ECompositing%3EScroll&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids)
 components.
 
 The team has a daily triage to confirm, triage, and categorize incoming bugs in

@@ -221,4 +221,4 @@ TypeError: Cannot read property 'testCaseBodies' of undefined
 ### Where should I file bugs?
 
 Swarming specific bugs can be filed on at <http://crbug.com> in [component
-Infra&gt;Platform&gt;Swarming](https://bugs.chromium.org/p/chromium/issues/list).
+Infra&gt;Platform&gt;Swarming](https://bugs.chromium.org/p/chromium/issues/list?q=component%3AInfra%3EPlatform%3ESwarming).

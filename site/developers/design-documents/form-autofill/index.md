@@ -23,7 +23,7 @@ established.
 *   [Google
             Toolbar](http://toolbar.google.com/T5/intl/en/features.html#autofill)
 *   [Firefox](http://support.mozilla.com/en-US/kb/Form+autocomplete)
-*   [Safari](http://docs.info.apple.com/article.html)
+*   [Safari](http://docs.info.apple.com/article.html?path=Safari/2.0/en/ibr47.html)
 *   [Internet
             Explorer](http://msdn.microsoft.com/en-us/library/ms533032%28VS.85%29.aspx)
 

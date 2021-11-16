@@ -30,16 +30,17 @@ specification](https://github.com/autotest/autotest/wiki/ControlRequirements).
 In order to create a valid suite the following two requirements need to be met:
 
 *   A Suite control file (e.g.
-            [test_suites/control.bvt](http://git.chromium.org/gitweb/))
+            [test_suites/control.bvt](http://git.chromium.org/gitweb/?p=chromiumos/third_party/autotest.git;a=blob;f=test_suites/control.bvt;hb=HEAD))
 *   At least one test with the SUITE='your_suite' tag in it.
 
 We have a mechanism that allows suites of tests to be defined dynamically by a
 control file at runtime.
-`[test_suites/control.bvt](http://git.chromium.org/gitweb/)` in the autotest
-repo is a simple example of such a suite, and
-[login_LoginSuccess](http://git.chromium.org/gitweb/) is one test that's
-included in this suite. Looking at the control file for login_LoginSuccess, note
-the line `SUITE='bvt'`. This is used in `control.bvt` like this:
+`[test_suites/control.bvt](http://git.chromium.org/gitweb/?p=chromiumos/third_party/autotest.git;a=blob;f=test_suites/control.bvt;hb=HEAD)`
+in the autotest repo is a simple example of such a suite, and
+[login_LoginSuccess](http://git.chromium.org/gitweb/?p=chromiumos/third_party/autotest.git;a=blob;f=test_suites/control.bvt;hb=HEAD)
+is one test that's included in this suite. Looking at the control file for
+login_LoginSuccess, note the line `SUITE='bvt'`. This is used in `control.bvt`
+like this:
 
 ```none
 suite_tag = 'bvt'
@@ -65,7 +66,8 @@ Some suites have restrictions when it comes to adding tests to them. To read
 about the requirements of a particular test suite refer to its suite control
 under autotest/files/test_suite/control.suite_name.
 
-For example: [control.bvt](http://git.chromium.org/gitweb/)
+For example:
+[control.bvt](http://git.chromium.org/gitweb/?p=chromiumos/third_party/autotest.git;a=blob;f=test_suites/control.bvt)
 
 ## How to Add tests to a Suite
 
@@ -258,7 +260,7 @@ An out of band process runs on the Autotest server to schedule suite runs based
 on a number of events. The code lives under
 ***autotest/files/site_utils/suite_scheduler*** and is configured via a Python
 config file located under
-[autotest/files/suite_scheduler.ini](http://git.chromium.org/gitweb/)
+[autotest/files/suite_scheduler.ini](http://git.chromium.org/gitweb/?p=chromiumos/third_party/autotest.git;a=blob;f=suite_scheduler.ini)
 
 To add your suite send a code review with a new entry as outlined below.
 

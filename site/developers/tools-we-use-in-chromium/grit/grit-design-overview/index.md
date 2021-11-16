@@ -23,7 +23,9 @@ background.
 The source of truth in GRIT is the .grd file (an XML formatted file). This file
 format is only an input format for GRIT; it is not a resource format in and of
 itself. For some good examples of what .grd files look like, see the [various
-such files](https://cs.chromium.org/search/) in the Chromium project.
+such
+files](https://cs.chromium.org/search/?q=file:%5C.grd&sq=package:chromium&type=cs)
+in the Chromium project.
 
 The structure and semantics of the .grd file are encoded in the various
 sub-classes of grit.node.Base.

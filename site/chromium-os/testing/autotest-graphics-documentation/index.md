@@ -22,44 +22,44 @@ Python sources are under src/third_party/autotest/files/client/site_tests
 <tr>
 <td>drwxr-xr-x</td>
 <td>-</td>
-<td><a href="http://git.chromium.org/gitweb/">graphics_GLAPICheck</a></td>
-<td><a href="http://git.chromium.org/gitweb/">tree</a> | <a href="http://git.chromium.org/gitweb/">history</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=autotest.git;a=tree;f=client/site_tests/graphics_GLAPICheck;h=a6adea1387bf225ae8fff9c75c6111c78ebc9152;hb=HEAD">graphics_GLAPICheck</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=autotest.git;a=tree;f=client/site_tests/graphics_GLAPICheck;h=a6adea1387bf225ae8fff9c75c6111c78ebc9152;hb=HEAD">tree</a> | <a href="http://git.chromium.org/gitweb/?p=autotest.git;a=history;f=client/site_tests/graphics_GLAPICheck;hb=HEAD">history</a></td>
 </tr>
 <tr>
 <td>drwxr-xr-x</td>
 <td>-</td>
-<td><a href="http://git.chromium.org/gitweb/">graphics_GLBench</a></td>
-<td><a href="http://git.chromium.org/gitweb/">tree</a> | <a href="http://git.chromium.org/gitweb/">history</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=autotest.git;a=tree;f=client/site_tests/graphics_GLBench;h=87b8a78d5908803418369ef74774b8e609247f44;hb=HEAD">graphics_GLBench</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=autotest.git;a=tree;f=client/site_tests/graphics_GLBench;h=87b8a78d5908803418369ef74774b8e609247f44;hb=HEAD">tree</a> | <a href="http://git.chromium.org/gitweb/?p=autotest.git;a=history;f=client/site_tests/graphics_GLBench;hb=HEAD">history</a></td>
 </tr>
 <tr>
 <td>drwxr-xr-x</td>
 <td>-</td>
-<td><a href="http://git.chromium.org/gitweb/">graphics_O3DSelenium</a></td>
-<td><a href="http://git.chromium.org/gitweb/">tree</a> | <a href="http://git.chromium.org/gitweb/">history</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=autotest.git;a=tree;f=client/site_tests/graphics_O3DSelenium;h=110a6d915564be1c9c85d73f32ab5294b5e361f5;hb=HEAD">graphics_O3DSelenium</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=autotest.git;a=tree;f=client/site_tests/graphics_O3DSelenium;h=110a6d915564be1c9c85d73f32ab5294b5e361f5;hb=HEAD">tree</a> | <a href="http://git.chromium.org/gitweb/?p=autotest.git;a=history;f=client/site_tests/graphics_O3DSelenium;hb=HEAD">history</a></td>
 </tr>
 <tr>
 <td>drwxr-xr-x</td>
 <td>-</td>
-<td><a href="http://git.chromium.org/gitweb/">graphics_SanAngeles</a></td>
-<td><a href="http://git.chromium.org/gitweb/">tree</a> | <a href="http://git.chromium.org/gitweb/">history</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=autotest.git;a=tree;f=client/site_tests/graphics_SanAngeles;h=3164f5fa2b5688cdafe534493ca6e0f86807d3fe;hb=HEAD">graphics_SanAngeles</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=autotest.git;a=tree;f=client/site_tests/graphics_SanAngeles;h=3164f5fa2b5688cdafe534493ca6e0f86807d3fe;hb=HEAD">tree</a> | <a href="http://git.chromium.org/gitweb/?p=autotest.git;a=history;f=client/site_tests/graphics_SanAngeles;hb=HEAD">history</a></td>
 </tr>
 <tr>
 <td>drwxr-xr-x</td>
 <td>-</td>
-<td><a href="http://git.chromium.org/gitweb/">graphics_TearTest</a></td>
-<td><a href="http://git.chromium.org/gitweb/">tree</a> | <a href="http://git.chromium.org/gitweb/">history</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=autotest.git;a=tree;f=client/site_tests/graphics_TearTest;h=2d7e89034a73df1d66134a7ab9dc1ca0761f4f0b;hb=HEAD">graphics_TearTest</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=autotest.git;a=tree;f=client/site_tests/graphics_TearTest;h=2d7e89034a73df1d66134a7ab9dc1ca0761f4f0b;hb=HEAD">tree</a> | <a href="http://git.chromium.org/gitweb/?p=autotest.git;a=history;f=client/site_tests/graphics_TearTest;hb=HEAD">history</a></td>
 </tr>
 <tr>
 <td>drwxr-xr-x</td>
 <td>-</td>
-<td><a href="http://git.chromium.org/gitweb/">graphics_WebGLConformance</a></td>
-<td><a href="http://git.chromium.org/gitweb/">tree</a> | <a href="http://git.chromium.org/gitweb/">history</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=autotest.git;a=tree;f=client/site_tests/graphics_WebGLConformance;h=ad84141374e0338c069895e2c195eaaf7e9f662d;hb=HEAD">graphics_WebGLConformance</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=autotest.git;a=tree;f=client/site_tests/graphics_WebGLConformance;h=ad84141374e0338c069895e2c195eaaf7e9f662d;hb=HEAD">tree</a> | <a href="http://git.chromium.org/gitweb/?p=autotest.git;a=history;f=client/site_tests/graphics_WebGLConformance;hb=HEAD">history</a></td>
 </tr>
 <tr>
 <td>drwxr-xr-x</td>
 <td>-</td>
-<td><a href="http://git.chromium.org/gitweb/">graphics_WindowManagerGraphicsCapture</a></td>
-<td><a href="http://git.chromium.org/gitweb/">tree</a> | <a href="http://git.chromium.org/gitweb/">history</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=autotest.git;a=tree;f=client/site_tests/graphics_WindowManagerGraphicsCapture;h=78e46205be3d01e44b4c8c8ab9adce5118632b9b;hb=HEAD">graphics_WindowManagerGraphicsCapture</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=autotest.git;a=tree;f=client/site_tests/graphics_WindowManagerGraphicsCapture;h=78e46205be3d01e44b4c8c8ab9adce5118632b9b;hb=HEAD">tree</a> | <a href="http://git.chromium.org/gitweb/?p=autotest.git;a=history;f=client/site_tests/graphics_WindowManagerGraphicsCapture;hb=HEAD">history</a></td>
 </tr>
 </table>
 
@@ -69,20 +69,20 @@ Binary dependencies are under src/third_party/autotest/files/client/deps
 <tr>
 <td>drwxr-xr-x</td>
 <td>-</td>
-<td><a href="http://git.chromium.org/gitweb/">glbench-images</a></td>
-<td><a href="http://git.chromium.org/gitweb/">tree</a> | <a href="http://git.chromium.org/gitweb/">history</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=autotest.git;a=tree;f=client/deps/glbench-images;h=635233de155100312539602b4accd574c4efdfb4;hb=HEAD">glbench-images</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=autotest.git;a=tree;f=client/deps/glbench-images;h=635233de155100312539602b4accd574c4efdfb4;hb=HEAD">tree</a> | <a href="http://git.chromium.org/gitweb/?p=autotest.git;a=history;f=client/deps/glbench-images;hb=HEAD">history</a></td>
 </tr>
 <tr>
 <td>drwxr-xr-x</td>
 <td>-</td>
-<td><a href="http://git.chromium.org/gitweb/">glbench</a></td>
-<td><a href="http://git.chromium.org/gitweb/">tree</a> | <a href="http://git.chromium.org/gitweb/">history</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=autotest.git;a=tree;f=client/deps/glbench;h=47be7d689cf1aaa866cc02bf2fd392046d8ff8c5;hb=HEAD">glbench</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=autotest.git;a=tree;f=client/deps/glbench;h=47be7d689cf1aaa866cc02bf2fd392046d8ff8c5;hb=HEAD">tree</a> | <a href="http://git.chromium.org/gitweb/?p=autotest.git;a=history;f=client/deps/glbench;hb=HEAD">history</a></td>
 </tr>
 <tr>
 <td>drwxr-xr-x</td>
 <td>-</td>
-<td><a href="http://git.chromium.org/gitweb/">piglit</a></td>
-<td><a href="http://git.chromium.org/gitweb/">tree</a> | <a href="http://git.chromium.org/gitweb/">history</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=autotest.git;a=tree;f=client/deps/piglit;h=4e06825e78483a5e7c525bf384680c3d087e888a;hb=HEAD">piglit</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=autotest.git;a=tree;f=client/deps/piglit;h=4e06825e78483a5e7c525bf384680c3d087e888a;hb=HEAD">tree</a> | <a href="http://git.chromium.org/gitweb/?p=autotest.git;a=history;f=client/deps/piglit;hb=HEAD">history</a></td>
 </tr>
 </table>
 

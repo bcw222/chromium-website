@@ -146,7 +146,8 @@ without further indication of the reason for rejection.
 
         A cohort is filtered if the browsing behavior of its qualifying users
         has a higher-than-typical rate of visits to web pages on sensitive
-        topics. See [this paper](https://docs.google.com/a/chromium.org/viewer)
+        topics. See [this
+        paper](https://docs.google.com/a/chromium.org/viewer?a=v&pid=sites&srcid=Y2hyb21pdW0ub3JnfGRldnxneDo1Mzg4MjYzOWI2MzU2NDgw)
         for an explanation of the t-closeness calculation.
 
     Other filtering happens in an individual browser instance:

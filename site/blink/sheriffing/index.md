@@ -26,9 +26,9 @@ non-Blink bots.
 Even among the WebKit bots, there are several different kinds of bots:
 
 *   ["Layout"
-            bots](https://build.chromium.org/p/chromium.webkit/waterfall) and
-            [non-Oilpan
-            bots](https://build.chromium.org/p/chromium.webkit/waterfall)
+            bots](https://build.chromium.org/p/chromium.webkit/waterfall?category=layout&failures_only=true)
+            and [non-Oilpan
+            bots](https://build.chromium.org/p/chromium.webkit/waterfall?builder=WebKit+Win+non-Oilpan&builder=WebKit+Win+non-Oilpan+(dbg)&builder=WebKit+Mac+non-Oilpan&builder=WebKit+Mac+non-Oilpan+(dbg)&builder=WebKit+Linux+non-Oilpan&builder=WebKit+Linux+non-Oilpan+(dbg))
     *   This is where most of the action is, because these bots run
                 Blink's many test suites. The bots are called "layout" bots
                 because one of the biggest test suites "Web Tests" was called
@@ -47,7 +47,8 @@ Even among the WebKit bots, there are several different kinds of bots:
                 file instead. You can find some additional information in
                 [Gardening Leak
                 Bots](https://docs.google.com/a/google.com/document/d/11C7zFNKydrorESnE6Nbq98QNmKRMrhSwVMGxkx4fiZM/edit#heading=h.26irfde6145p)
-*   [ASAN bot](http://build.chromium.org/p/chromium.webkit/waterfall)
+*   [ASAN
+            bot](http://build.chromium.org/p/chromium.webkit/waterfall?show=WebKit%20Linux%20ASAN)
     *   This also runs tests, but generally speaking we only care about
                 memory failures on that bot. You can suppress ASAN-specific
                 failures using the
@@ -97,7 +98,7 @@ responsibility to reply promptly to your query.
 
 The web platform team has a large number of tests that are flaky, ignored, or
 unmaintained. We are in the process of finding [teams to monitor test
-directories](https://docs.google.com/spreadsheets/d/1c7O3fJ7aTY92vB5Dfyi_x2VYu4eFdeEeNTys6ECOviQ/edit),
+directories](https://docs.google.com/spreadsheets/d/1c7O3fJ7aTY92vB5Dfyi_x2VYu4eFdeEeNTys6ECOviQ/edit?ts=57112a09#gid=0),
 so that we can track these test issues better. Please note that this should not
 be an individual, but a team. If you have ideas/guesses about some of these
 directories, please reach out to the team and update the sheet. This is the

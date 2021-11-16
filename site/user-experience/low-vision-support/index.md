@@ -87,8 +87,8 @@ partial support for system-level color schemes. Dark mode for Chrome's UI is now
 supported on Mac, and Windows support is on the way.
 
 1.  Install a [Chrome
-            Extension](http://www.google.com/support/chrome/bin/answer.py) which
-            allows you to specify your own custom color combinations, for
+            Extension](http://www.google.com/support/chrome/bin/answer.py?answer=154007)
+            which allows you to specify your own custom color combinations, for
             instance the [Change
             Colors](https://chrome.google.com/extensions/detail/jbmkekhehjedonbhoikhhkmlapalklgn)
             extension.

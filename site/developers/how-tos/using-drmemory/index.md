@@ -15,8 +15,8 @@ title: Using Dr. Memory
 ### Dr. Memory is a new open-source tool for finding memory errors - similar to Memcheck (Valgrind) but with Windows support, including detection of Windows handle leaks and GDI usage errors.
 
 Dr. Memory is running on the MFYI waterfall [MFYI
-waterfall](http://build.chromium.org/p/chromium.memory.fyi/waterfall) where it
-finds bugs in Chromium on Windows.
+waterfall](http://build.chromium.org/p/chromium.memory.fyi/waterfall?builder=Chromium+Windows+Builder+(DrMemory)&builder=Windows+Unit+(DrMemory)&builder=Windows+Browser+(DrMemory)+(1)&builder=Windows+Browser+(DrMemory)+(2)&reload=none)
+where it finds bugs in Chromium on Windows.
 
 If you want to try Dr. Memory on your machine, please do the following:
 
@@ -76,7 +76,7 @@ Release --build-dir src\\out
 Great!
 
 Please file a crbug and add the
-[Stability-Memory-DrMemory](http://code.google.com/p/chromium/issues/list)
+[Stability-Memory-DrMemory](http://code.google.com/p/chromium/issues/list?q=Stability-Memory-DrMemory)
 label.
 
 ### drmemory_light vs drmemory_full
@@ -101,7 +101,7 @@ heuristics that work pretty well to ignore errors stemming from system libraries
 making system calls as opposed to Chromium code, but if you do see an error
 report that you believe is a false positive, please create a short reproducer
 and file it into our [issue
-tracker](http://code.google.com/p/drmemory/issues/list).
+tracker](http://code.google.com/p/drmemory/issues/list?can=2&q=Bug%3DFalsePositive).
 
 ### Suppressing error reports from the bots
 
@@ -182,7 +182,7 @@ applying this patch:
 Index: tools/valgrind/chrome_tests.py
 ===================================================================
 --- tools/valgrind/chrome_tests.py ([revision
-96002](http://code.google.com/p/chromium/source/detail))
+96002](http://code.google.com/p/chromium/source/detail?r=96002))
 +++ tools/valgrind/chrome_tests.py (working copy)
 @@ -271,7 +271,8 @@
 # Valgrind timeouts are in seconds.

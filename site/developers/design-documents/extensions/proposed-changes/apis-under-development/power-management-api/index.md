@@ -135,7 +135,7 @@ Open questions
             removed.
 4.  ~~The initial implementation of this API never made it out of
             experimental, although [an extension which uses
-            it](https://chrome.google.com/webstore/detail/keep-awake-extension/bijihlabcfdnabacffofojgmehjdielb/reviews)
+            it](https://chrome.google.com/webstore/detail/keep-awake-extension/bijihlabcfdnabacffofojgmehjdielb/reviews?hl=en)
             was published. Can the new version of the API use the same method
             names?~~ Yes. I'm updating the existing extension to use the
             chrome.power API if it's present and chrome.experimental.power

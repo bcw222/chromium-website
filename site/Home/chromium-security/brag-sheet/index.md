@@ -20,7 +20,7 @@ title: Security Brag Sheet
             [WebKit](http://blog.chromium.org/2012/04/fuzzing-for-security.html),
             [Adobe
             Flash](http://googleonlinesecurity.blogspot.com/2011/08/fuzzing-at-scale.html)
-            or [Chrome's PDF viewer](http://j00ru.vexillium.org/).
+            or [Chrome's PDF viewer](http://j00ru.vexillium.org/?p=1175).
 
 **White Papers**
 
@@ -98,7 +98,8 @@ title: Security Brag Sheet
 
 ### Advanced Anti- Phishing and Malware defenses
 
-*   We [warn you](http://www.google.com/support/chrome/bin/answer.py)
+*   We [warn
+            you](http://www.google.com/support/chrome/bin/answer.py?answer=99020&hl=en)
             when you're about to visit a website we've previously identify as a
             malware or phishing site.
 *   We keep the user better informed against phishing and similar
@@ -111,7 +112,7 @@ title: Security Brag Sheet
 ### High profile researchers and publications say nice things about us
 
 *   A [Fortune
-            article's](http://tech.fortune.cnn.com/2011/03/21/google-fixes-flashs-security-issues-ahead-of-adobe/)
+            article's](http://tech.fortune.cnn.com/2011/03/21/google-fixes-flashs-security-issues-ahead-of-adobe/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+fortunebrainstormtech+%28Fortune+Brainstorm+Tech%29)
             headline subtext: "Google's record on Chrome browser security is
             impressive, and that is important."
 *   An [interview with Dino Dai Zovi and Charlie

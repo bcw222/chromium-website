@@ -25,7 +25,7 @@ Note: there have been multiple devices released under the moniker "HP Chromebook
 ### Specifications
 
 *   CPU: [Samsung Exynos 5 Dual
-            Core](http://www.samsung.com/global/business/semiconductor/product/application/detail)
+            Core](http://www.samsung.com/global/business/semiconductor/product/application/detail?productId=7668)
             (Cortex A15; 1.7GHz cpu)
 *   GPU: [ARM
             Mali-T604](http://www.arm.com/products/multimedia/mali-graphics-hardware/mali-t604.php)

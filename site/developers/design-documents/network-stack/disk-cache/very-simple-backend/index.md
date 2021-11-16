@@ -64,10 +64,12 @@ cache will benefit simultaneously.
 
 ## Status
 
-See [Bug 173381](https://code.google.com/p/chromium/issues/detail) for status on
-this implementation, or [track the Internals-Network-Cache-Simple issue in
-crbug](https://code.google.com/p/chromium/issues/list). For related designs
-covering performance tracking, see [Disk Cache Benchmarking & Performance
+See [Bug 173381](https://code.google.com/p/chromium/issues/detail?id=173381) for
+status on this implementation, or [track the Internals-Network-Cache-Simple
+issue in
+crbug](https://code.google.com/p/chromium/issues/list?q=label:Internals-Network-Cache-Simple).
+For related designs covering performance tracking, see [Disk Cache Benchmarking
+& Performance
 Tracking](/developers/design-documents/network-stack/disk-cache/disk-cache-benchmarking).
 
 ## External Interface

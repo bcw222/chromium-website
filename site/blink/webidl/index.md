@@ -10,7 +10,7 @@ title: Web IDL in Blink
 interfaces](/developers/web-idl-interfaces); for configuring bindings, see
 [Blink IDL Extended Attributes](/blink/webidl/blink-idl-extended-attributes);
 for IDL dictionaries use, see [IDL dictionaries in
-Blink](https://docs.google.com/document/d/1mRB5zbfHd0lX2Y_Hr7g6grzP_L4Xc6_gBRjL-AE7sY8/edit).*
+Blink](https://docs.google.com/document/d/1mRB5zbfHd0lX2Y_Hr7g6grzP_L4Xc6_gBRjL-AE7sY8/edit?usp=sharing).*
 
 [TOC]
 
@@ -218,7 +218,8 @@ floats), though note that there is no `int` type in Web IDL (specs usually use
 JavaScript has two special values, `undefined` and `null`, which are often
 confusing and do not fit easily into C++. Indeed, precise behavior of
 `undefined` in Web IDL has varied over time and is under discussion (see W3C Bug
-[23532](https://www.w3.org/Bugs/Public/show_bug.cgi) - Dealing with undefined).
+[23532](https://www.w3.org/Bugs/Public/show_bug.cgi?id=23532) - Dealing with
+undefined).
 
 Behavior on `undefined` and `null` **MUST** be tested in web tests, as these can
 be passed and are easy to get wrong. If these tests are omitted, there may be
@@ -254,7 +255,7 @@ For the purposes of Blink, behavior can be summarized as follows:
         *   *However,* this nullability check is *not* done by default:
                     it is only done if `[LegacyInterfaceTypeChecking]` is
                     specified on the interface or member (see Bug
-                    [249598](https://code.google.com/p/chromium/issues/detail):
+                    [249598](https://code.google.com/p/chromium/issues/detail?id=249598):
                     Throw TypeError when null is specified to non-nullable
                     interface parameter)
         *   Thus if `[LegacyInterfaceTypeChecking]` is specified in the
@@ -272,13 +273,13 @@ For the purposes of Blink, behavior can be summarized as follows:
                 argument and for overloaded operations, basically being omitted
                 if trailing (but some exceptions apply). This is complicated
                 (see W3C Bug
-                [23532](https://www.w3.org/Bugs/Public/show_bug.cgi) - Dealing
-                with undefined) and not currently implemented.
+                [23532](https://www.w3.org/Bugs/Public/show_bug.cgi?id=23532) -
+                Dealing with undefined) and not currently implemented.
         Further, note that in some cases one wants different behavior for `f()`
         and `f(undefined)`, which requires an explicit overload, not an optional
         argument; a good example is `Window.alert()`, namely `alert()` vs.
         `alert(undefined)` (see W3C Bug
-        [25686](https://www.w3.org/Bugs/Public/show_bug.cgi)).
+        [25686](https://www.w3.org/Bugs/Public/show_bug.cgi?id=25686)).
     *   `null` affects function resolution for overloaded operations,
                 due to preferring nullable types, but this is the only effect.
 
@@ -335,8 +336,8 @@ Blink C++ function implementing `foo` with no arguments, while
 
 For *overloaded* operations, the situation is more complicated, and not
 currently implemented in Blink (Bug
-[293561](https://code.google.com/p/chromium/issues/detail)). See the [overload
-resolution
+[293561](https://code.google.com/p/chromium/issues/detail?id=293561)). See the
+[overload resolution
 algorithm](http://heycam.github.io/webidl/#dfn-overload-resolution-algorithm) in
 the spec for details.
 
@@ -453,7 +454,7 @@ hiding. However, in a few cases bindings depend on whether the interface
 inherits from some other interface (notably EventHandler or Node), and in a few
 cases bindings depend on the extended attributes of ancestors (these extended
 attributes are "inherited"; the list is
-[compute_dependencies.INHERITED_EXTENDED_ATTRIBUTES](https://cs.chromium.org/chromium/src/third_party/blink/renderer/bindings/scripts/compute_interfaces_info_overall.py),
+[compute_dependencies.INHERITED_EXTENDED_ATTRIBUTES](https://cs.chromium.org/chromium/src/third_party/blink/renderer/bindings/scripts/compute_interfaces_info_overall.py?q=INHERITED_EXTENDED_ATTRIBUTES&l=59),
 and consists of extended attributes that affect memory management). There is
 thus a **shallow dependency** on ancestors, specifically only on the ancestor
 chain and on inherited extended attributes, not on the other contents of
@@ -539,7 +540,7 @@ your CL and which are due to rebaselining due to older CLs.
 
 Note that using real interfaces in test IDL files means changes to real IDL
 files can break run-bindings-tests (e.g., Blink
-[r174804](https://src.chromium.org/viewvc/blink)/CL
+[r174804](https://src.chromium.org/viewvc/blink?revision=174804&view=revision)/CL
 [292503006](https://codereview.chromium.org/292503006/): Oilpan: add
 \[WillBeGarbageCollected\] for Node., since Node is inherited by test files).
 This is ok (we're not going to run run_bindings_tests.py on every IDL edit, and
@@ -597,7 +598,7 @@ out/Release/gen/third_party/blink/renderer/bindings/{core,modules}/v8_xxx.{h,cc}
 
 A few parts of the Web IDL spec are not implemented; features are implemented on
 an as-needed basis. See
-[component:Blink&gt;Bindings](https://bugs.chromium.org/p/chromium/issues/list)
+[component:Blink&gt;Bindings](https://bugs.chromium.org/p/chromium/issues/list?q=component:Blink%3EBindings)
 for open bugs; please feel free to file bugs or contact bindings developers
 ([members of
 blink-reviews-bindings](https://groups.google.com/a/chromium.org/forum/#!members/blink-reviews-bindings),
@@ -621,17 +622,17 @@ can remove the hack when the feature is implemented.
 ### Syntax error causes infinite loop
 
 Some syntax errors cause the IDL parser to enter an infinite loop (Bug
-[363830](https://code.google.com/p/chromium/issues/detail)). Until this is
-fixed, if the compiler hangs, please terminate the compiler and check your
-syntax.
+[363830](https://code.google.com/p/chromium/issues/detail?id=363830)). Until
+this is fixed, if the compiler hangs, please terminate the compiler and check
+your syntax.
 
 ### Type checking
 
 The bindings do not do full type checking (Bug
-[321518](https://code.google.com/p/chromium/issues/detail)). They do some type
-checking, but not all. Notably nullability is not strictly enforced. See
-`[TypeChecking]` under **undefined and null** above to see how to turn on more
-standard type checking behavior for interfaces and members.
+[321518](https://code.google.com/p/chromium/issues/detail?id=321518)). They do
+some type checking, but not all. Notably nullability is not strictly enforced.
+See `[TypeChecking]` under **undefined and null** above to see how to turn on
+more standard type checking behavior for interfaces and members.
 
 ## Bindings development
 

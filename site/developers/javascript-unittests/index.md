@@ -202,7 +202,7 @@ There should be one test file per product file, e.g.
 <table>
 <tr>
 <td>Design docs</td>
-<td> <a href="https://docs.google.com/a/chromium.org/document/d/1SOacnv91zFWEqtietEG6ubh3qDfpds3J3e1Bb1Lfgys/edit">https://docs.google.com/a/chromium.org/document/d/1SOacnv91zFWEqtietEG6ubh3qDfpds3J3e1Bb1Lfgys/edit?usp=sharing</a></td>
+<td> <a href="https://docs.google.com/a/chromium.org/document/d/1SOacnv91zFWEqtietEG6ubh3qDfpds3J3e1Bb1Lfgys/edit?usp=sharing">https://docs.google.com/a/chromium.org/document/d/1SOacnv91zFWEqtietEG6ubh3qDfpds3J3e1Bb1Lfgys/edit?usp=sharing</a></td>
 </tr>
 <tr>
 <td>QUnit documentation </td>

@@ -145,7 +145,7 @@ repository based on a particular upstream tag of the upstream Git repository (or
 our Git import if upstream is not using Git).
 
 [<img alt="image"
-src="/chromium-os/chromiumos-design-docs/source-code-management/repo-archpng">](http://sites.google.com/a/chromium.org/dev/chromium-os/chromiumos-design-docs/source-code-management/repo-arch.png)
+src="/chromium-os/chromiumos-design-docs/source-code-management/repo-archpng">](http://sites.google.com/a/chromium.org/dev/chromium-os/chromiumos-design-docs/source-code-management/repo-arch.png?attredirects=0)
 
 ### Package database
 

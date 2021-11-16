@@ -53,11 +53,12 @@ showing the status of current capabilities.
 We prioritize capabilities by which partners we enable or improve by a given
 capability.
 
-[Full list of capabilities](https://bugs.chromium.org/p/chromium/issues/list):
+[Full list of
+capabilities](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=proj-fugu&sort=pri&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids):
 Every capability that is currently considered as part of Fugu
 
 [Bug Tracking
-Process](https://docs.google.com/document/d/1bAcLkqbEQJEphmjvnguB7WxltT_zEEXrUlwawpbrCNQ/edit):
+Process](https://docs.google.com/document/d/1bAcLkqbEQJEphmjvnguB7WxltT_zEEXrUlwawpbrCNQ/edit?usp=sharing):
 Information on how we track bugs & partners through crbug, as well as the
 meaning of different labels
 

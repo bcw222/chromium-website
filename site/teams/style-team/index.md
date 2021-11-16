@@ -38,7 +38,7 @@ The Style Team triages bugs with the components Blink&gt;CSS.
                 whether to either accept and implement, or reject proposed CSS
                 features.
 *   Triage CSS issues as they arise (and eliminate the
-            [backlog](https://code.google.com/p/chromium/issues/list)).
+            [backlog](https://code.google.com/p/chromium/issues/list?can=2&q=Cr%3DBlink-CSS+&colspec=ID+Pri+M+Week+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=tiles)).
 *   Maintain existing features as necessary.
 *   Improve knowledge of feature usage and deprecate rare and expensive
             feature.
@@ -56,6 +56,6 @@ jiameng@chromium.org, ericwilligers@chromium.org, rjwright@chromium.org
 [Docs](http://blink.style/docs)
 
 [CL best
-practices](https://docs.google.com/document/d/1Zk3y699NTmH96qEDvofiUHbTckHJbkT8t3vY6ker3z0/edit)
+practices](https://docs.google.com/document/d/1Zk3y699NTmH96qEDvofiUHbTckHJbkT8t3vY6ker3z0/edit?ts=590a6e7b#)
 
 Last updated: May 2017

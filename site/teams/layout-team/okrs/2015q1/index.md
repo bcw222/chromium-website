@@ -88,10 +88,10 @@ the silk cases.
 It turns out that all the key_silk_cases tests were already pretty fast when it
 comes to layout.
 
-*   [chapter-reflow](https://chromeperf.appspot.com/report) tests speed
-            up by 5-12% depending on platform.
-*   [line-layout](https://chromeperf.appspot.com/report) tests 4-15%
-            depending on platform.
+*   [chapter-reflow](https://chromeperf.appspot.com/report?masters=ChromiumPerf&bots=android-nexus7v2%2Cchromium-rel-mac9%2Cchromium-rel-win7-gpu-nvidia%2Clinux-release&tests=blink_perf.layout%2Fchapter-reflow&checked=chapter-reflow%2Cchapter-reflow%2Cref%2Cchapter-reflow%2Cref%2Cchapter-reflow%2Cref)
+            tests speed up by 5-12% depending on platform.
+*   [line-layout](https://chromeperf.appspot.com/report?masters=ChromiumPerf&bots=android-nexus7v2%2Cchromium-rel-mac9%2Cchromium-rel-win7-gpu-nvidia%2Clinux-release&tests=blink_perf.layout%2Fline-layout&checked=line-layout%2Cline-layout%2Cref%2Cline-layout%2Cref%2Cline-layout%2Cref&start_rev=318673&end_rev=322609)
+            tests 4-15% depending on platform.
 
 ### Create a Measure API prototype and write-up of lessons learned
 
@@ -174,9 +174,9 @@ Score:1.0
 
 Speed up by over 2x at a minimum and up to 40x in some cases.
 
-*   [ArabicLineLayout](https://chromeperf.appspot.com/report) 2-2.5x
-            depending on platform.
-*   [latin-complex-text](https://chromeperf.appspot.com/report) 8-40x
-            depending on platform.
-*   [vertical-japanese-kokoro-insert](https://chromeperf.appspot.com/report)
+*   [ArabicLineLayout](https://chromeperf.appspot.com/report?masters=ChromiumPerf&bots=android-nexus7v2%2Cchromium-rel-mac9%2Cchromium-rel-win7-gpu-nvidia%2Clinux-release&tests=blink_perf.layout%2FArabicLineLayout&checked=ArabicLineLayout%2CArabicLineLayout%2Cref%2CArabicLineLayout%2Cref&start_rev=318673&end_rev=322609)
+            2-2.5x depending on platform.
+*   [latin-complex-text](https://chromeperf.appspot.com/report?masters=ChromiumPerf&bots=android-nexus7v2%2Cchromium-rel-mac9%2Cchromium-rel-win7-gpu-nvidia%2Clinux-release&tests=blink_perf.layout%2Flatin-complex-text&checked=latin-complex-text%2Cref%2Clatin-complex-text%2Clatin-complex-text%2Cref%2Clatin-complex-text%2Cref&start_rev=318673&end_rev=322609)
+            8-40x depending on platform.
+*   [vertical-japanese-kokoro-insert](https://chromeperf.appspot.com/report?masters=ChromiumPerf&bots=android-nexus7v2%2Cchromium-rel-mac9%2Cchromium-rel-win7-gpu-nvidia%2Clinux-release&tests=blink_perf.layout%2Fvertical-japanese-kokoro-insert&checked=vertical-japanese-kokoro-insert%2Cvertical-japanese-kokoro-insert%2Cref%2Cvertical-japanese-kokoro-insert%2Cref%2Cvertical-japanese-kokoro-insert%2Cref&start_rev=318673&end_rev=322609)
             2-5x depending on platform.

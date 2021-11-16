@@ -47,13 +47,13 @@ Pink: Overdrawn three times
 Red: Overdrawn four or more times
 
 <img alt="image"
-src="https://docs.google.com/a/google.com/drawings/d/sKYz4g05kUmYRmx8p5qR50w/image"
+src="https://docs.google.com/a/google.com/drawings/d/sKYz4g05kUmYRmx8p5qR50w/image?w=599&h=386&rev=1&ac=1"
 height=386 width=599>
 
 Example of GPU overdraw feedback output.
 
 <img alt="image"
-src="https://docs.google.com/a/google.com/drawings/d/s0J4KvzwLwH8-dNJuiC8UOQ/image"
+src="https://docs.google.com/a/google.com/drawings/d/s0J4KvzwLwH8-dNJuiC8UOQ/image?w=599&h=435&rev=22&ac=1"
 height=435 width=599>
 
 Some overdraw is unavoidable. As you are tuning your UI elements or web page,
@@ -64,7 +64,7 @@ amount of GPU overdraw.
 Examples of undesirable and desirable Debug GPU Overdraw output.
 
 <img alt="image"
-src="https://docs.google.com/a/google.com/drawings/d/shfmR54KvCMtndr2_oPSxDg/image"
+src="https://docs.google.com/a/google.com/drawings/d/shfmR54KvCMtndr2_oPSxDg/image?w=624&h=473&rev=102&ac=1"
 height=473 width=624>
 
 # Fixing Overdraw
@@ -92,7 +92,7 @@ The result is presented as a GPU Overdraw counter that changes over time as
 overdraw increase or decrease.
 
 <img alt="image"
-src="https://docs.google.com/a/google.com/drawings/d/sLB42g9KPAjoPQGg8bqA4Sg/image"
+src="https://docs.google.com/a/google.com/drawings/d/sLB42g9KPAjoPQGg8bqA4Sg/image?w=599&h=435&rev=21&ac=1"
 height=435 width=599>
 
 The value of the counter is the percentage of overdraw in the last frame

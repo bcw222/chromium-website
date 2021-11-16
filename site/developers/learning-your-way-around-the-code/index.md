@@ -64,8 +64,8 @@ comprehend the way that the code fits together overall.
 
 **Sometimes to make a fix or add a feature to Chromium, the right place to put it is in Blink (formerly WebKit).**
 **There is a (2012) [“How Webkit works” slide
-deck](https://docs.google.com/presentation/pub). While Blink has forked, some of
-this may still be relevant.**
+deck](https://docs.google.com/presentation/pub?id=1ZRIQbUKw9Tf077odCh66OrrwRIVNLvI_nhLm2Gi__F0).
+While Blink has forked, some of this may still be relevant.**
 
 There is also a slide that explains a [basic workflow for WebKit development for
 people who are already familiar with Chromium

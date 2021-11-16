@@ -29,9 +29,9 @@ future requests. The predominant use cases are:
             destination it can start initiating the connection in parallel with
             the navigation to the redirector.
 
-[Issue 450682](https://code.google.com/p/chromium/issues/detail) tracks the
-implementation as well as issues that came up during implementation and
-experimentation.
+[Issue 450682](https://code.google.com/p/chromium/issues/detail?id=450682)
+tracks the implementation as well as issues that came up during implementation
+and experimentation.
 
 ## Implementation Notes
 
@@ -55,7 +55,8 @@ devices with limited resources.
 
 The initial implementation for preconnect did not take private mode into account
 and all connections were pre-connected in the cookies-allowed connection pool
-leading to [situations](https://code.google.com/p/chromium/issues/detail) where
+leading to
+[situations](https://code.google.com/p/chromium/issues/detail?id=468005) where
 the preconnected connection was not leveraged for the future request.
 
 ### Preconnect Connection Pool Selection Heuristic (proposed)

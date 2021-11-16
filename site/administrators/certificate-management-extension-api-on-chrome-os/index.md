@@ -308,7 +308,7 @@ For web pages requiring client certificate authentication:
 
     The selection can also be automated for specific URLs using the policy
     [Automatically select client certificates for these
-    sites](https://support.google.com/chrome/a/answer/2657289):
+    sites](https://support.google.com/chrome/a/answer/2657289?#AutoSelectCertificateForUrls):
     For URLs that are listed in this policy, the most recent matching client
     certificate will automatically be used for authentication without prompting
     the user.

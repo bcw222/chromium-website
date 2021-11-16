@@ -31,8 +31,8 @@ the device owner or administrator into the operating system trust store are
 expected to continue to work as they do today.
 
 If you’re a Chrome user experiencing a certificate error, please see [this
-support article](https://support.google.com/chrome/answer/6098869) for more
-information.
+support article](https://support.google.com/chrome/answer/6098869?hl=en) for
+more information.
 
 If you're a website operator, you can learn more about [why HTTPS
 matters](https://web.dev/why-https-matters/) and how to [secure your site with

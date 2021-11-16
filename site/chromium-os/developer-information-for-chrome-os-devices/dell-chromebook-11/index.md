@@ -56,7 +56,7 @@ write protect on the system & EC firmware, you can get your machine back into
 working order by entering Recovery Mode and plugging in your recovery image. You
 can create a recovery image from Chrome OS by browsing to chrome://imageburner
 or follow instructions for other OS on the [Chrome OS help
-center](https://support.google.com/chromebook/answer/1080595) site.
+center](https://support.google.com/chromebook/answer/1080595?hl=en) site.
 
 You can build and run Chromium OS on your Dell Chromebook 11 (versions R31 and
 later). Follow the [quick start
