@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "61744dc6_d1548b19",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-16T16:10:19Z",
+      "side": 1,
+      "message": "You can see an example of the rendered table @\n\nhttps://chromium-website--cl3282429-ps3-5fkvff87.web.app/blink\n\nThe TOC is rendered along with the regular content, rather than in a box floated to the side. We may want to change to the floated box, but we can do that in a follow-up CL, as it should just require some CSS changes.",
+      "revId": "11c54a93a39c35fff454c334c72c5758561c07b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
