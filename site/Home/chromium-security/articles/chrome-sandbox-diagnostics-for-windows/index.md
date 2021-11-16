@@ -105,6 +105,7 @@ that is not sandboxed) and some summary information:-
 <tr>
 <td> 25980</td>
 <td> Renderer	</td>
+<td> &nbsp; </td>
 <td> Lockdown</td>
 <td> S-1-16-0 Untrusted</td>
 <td> 01111001110110000000000000010000</td>
@@ -112,6 +113,7 @@ that is not sandboxed) and some summary information:-
 <tr>
 <td> 35952</td>
 <td> Renderer	</td>
+<td> &nbsp; </td>
 <td> Lockdown</td>
 <td> S-1-16-0 Untrusted</td>
 <td> 01111001110110000000000000010000</td>
