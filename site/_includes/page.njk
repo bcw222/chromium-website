@@ -5,10 +5,12 @@ use_title_as_h1: true
 <html>
 {%- if redirect %}
 <head>
+  <meta charset="utf-8">
   <meta http-equiv="Refresh" content="0; url='{{redirect}}'">
 </head>
 {%- else %}
 <head>
+  <meta charset="utf-8">
   {%- if title %}
   <title>{{ title }}</title>
   {%- endif %}
