@@ -104,6 +104,8 @@ title: Technical Discussion Groups
                 that control the exposure of APIs to the web and reports on when
                 and how they are used (Origin trials, UseCounters, Feature
                 Policy, Reporting API, etc.).
+*   [fuchsia-dev](https://groups.google.com/a/chromium.org/g/fuchsia-dev)
+    *   Technical discussions about the Chromium Fuchsia port.
 *   [fugu-dev](https://groups.google.com/a/chromium.org/group/fugu-dev)
     *   Project Fugu is an effort to close gaps in web's capabilities,
                 enabling new classes of applications to run on the web. See
