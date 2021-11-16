@@ -6,8 +6,8 @@
 www.chromium.org is a relatively simple website.
 
 Pages are written in Markdown and translated using a single extremely simple
-[LiquidJS](LiquidJS) [template](site/_includes/page.html) into HTML
-during the build process.
+[Nunjucks](https://mozilla.github.io/nunjucks/)
+[template](site/_includes/page.html) into HTML during the build process.
 
 The site uses a single basic [Sass/SCSS](sass-lang.com)
 [stylesheet](site/_stylesheets/default.scss)
@@ -149,5 +149,3 @@ You must use `{:` and `}` as the delimiters around the custom attributes.
     of Markdown that is supported along with any extensions that are enabled.
 *   [crbug.com/1267094](crbug.com/1267094): We want a better, more WYSIWYG
     authoring environment.
-*   [crbug.com/1269875](crbug.com/1269875): We should really be using
-    Nunjucks instead of Liquid for the HTML template.
