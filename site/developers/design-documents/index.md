@@ -8,13 +8,11 @@ title: Design Documents
 
 ## **Start Here: Background Reading**
 
-*   [Multi-process
-            Architecture](/developers/design-documents/multi-process-architecture):
+*   [Multi-process Architecture](/developers/design-documents/multi-process-architecture):
             Describes the high-level architecture of Chromium
     **Note:** Most of the rest of the design documents assume familiarity with
     the concepts explained in this document.
-*   [How Blink
-            works](https://docs.google.com/document/d/1aitSOucL0VHZa9Z2vbRJSyAIsAz24kX8LFByQ5xQnUg)
+*   [How Blink works](https://docs.google.com/document/d/1aitSOucL0VHZa9Z2vbRJSyAIsAz24kX8LFByQ5xQnUg)
             is a high-level overview of Blink architecture.
 *   The "Life of a Pixel" talk ([slides](http://bit.ly/lifeofapixel) /
             [video](http://bit.ly/loap-2020-video)) is an introduction to
@@ -26,37 +24,28 @@ title: Design Documents
 
 ## See Also:
 
-*   ## ==[Design docs in source
-            code](https://chromium.googlesource.com/chromium/src/+/master/docs/README.md)==
-*   ## [Design doc
-            template](https://docs.google.com/document/d/14YBYKgk-uSfjfwpKFlp_omgUq5hwMVazy_M965s_1KA/edit)
+*   ## ==[Design docs in source code](https://chromium.googlesource.com/chromium/src/+/master/docs/README.md)==
+*   ## [Design doc template](https://docs.google.com/document/d/14YBYKgk-uSfjfwpKFlp_omgUq5hwMVazy_M965s_1KA/edit)
 
 ## General Architecture
 
 *   [Conventions and patterns for multi-platform
             development](/developers/design-documents/conventions-and-patterns-for-multi-platform-development)
-*   [Extension Security
-            Architecture](http://webblaze.cs.berkeley.edu/2010/secureextensions/):
+*   [Extension Security Architecture](http://webblaze.cs.berkeley.edu/2010/secureextensions/):
             How the extension system helps reduce the severity of extension
             vulnerabilities
-*   [HW Video Acceleration in
-            Chrom{e,ium}{,OS}](https://docs.google.com/a/chromium.org/document/d/1LUXNNv1CXkuQRj_2Qg79WUsPDLKfOUboi1IWfX2dyQE/preview#heading=h.c4hwvr7uzkfl)
-*   [Inter-process
-            Communication](/developers/design-documents/inter-process-communication):
+*   [HW Video Acceleration in Chrom{e,ium}{,OS}](https://docs.google.com/a/chromium.org/document/d/1LUXNNv1CXkuQRj_2Qg79WUsPDLKfOUboi1IWfX2dyQE/preview#heading=h.c4hwvr7uzkfl)
+*   [Inter-process Communication](/developers/design-documents/inter-process-communication):
             How the browser, renderer, and plugin processes communicate
-*   [Multi-process Resource
-            Loading](/developers/design-documents/multi-process-resource-loading):
+*   [Multi-process Resource Loading](/developers/design-documents/multi-process-resource-loading):
             How pages and images are loaded from the network into the renderer
-*   [Plugin
-            Architecture](/developers/design-documents/plugin-architecture)
+*   [Plugin Architecture](/developers/design-documents/plugin-architecture)
 *   [Process Models](/developers/design-documents/process-models): Our
             strategies for creating new renderer processes
-*   [Profile
-            Architecture](/developers/design-documents/profile-architecture)
+*   [Profile Architecture](/developers/design-documents/profile-architecture)
 *   [SafeBrowsing](/developers/design-documents/safebrowsing)
 *   [Sandbox](https://chromium.googlesource.com/chromium/src/+/master/docs/design/sandbox.md)
-*   [Security
-            Architecture](http://crypto.stanford.edu/websec/chromium/): How
+*   [Security Architecture](http://crypto.stanford.edu/websec/chromium/): How
             Chromium's sandboxed rendering engine helps protect against malware
 *   [Startup](https://chromium.googlesource.com/chromium/src/+/master/docs/design/startup.md)
 *   [Threading](https://chromium.googlesource.com/chromium/src/+/master/docs/design/threading.md):
@@ -67,8 +56,7 @@ the JavaScript engine used within Chromium.
 
 ## UI Framework
 
-*   [UI Development
-            Practices](/developers/design-documents/ui-development-practices):
+*   [UI Development Practices](/developers/design-documents/ui-development-practices):
             Best practices for UI development inside and outside of Chrome's
             content areas.
 *   [Views framework](/developers/design-documents/chromeviews): Our UI
