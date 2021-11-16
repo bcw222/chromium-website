@@ -13,18 +13,17 @@ title: Blink API owner procedures
 [Last updated via unanimous approval: August 3,
 2021](https://groups.google.com/a/chromium.org/g/blink-api-owners-discuss/c/zeyQuh6Wk5E)
 
-### LGTM Requirements
+## LGTM Requirements
 
-    Shipping a change to add, change or remove any substantial aspect of a
-    web-exposed API requires 3 LGTMs.
+* Shipping a change to add, change or remove any substantial aspect of a web-exposed API requires 3 LGTMs.
 
-    Starting or extending an Origin Trial requires 1 LGTM.
+* Starting or extending an Origin Trial requires 1 LGTM.
 
-    Any non-standard Origin Trial require 3 LGTMs.
+* Any non-standard Origin Trial require 3 LGTMs.
 
-    Intents to Prototype do not require any LGTMs.
+* Intents to Prototype do not require any LGTMs.
 
-### Adding and removing API owners
+## Adding and removing API owners
 
 An API owner may be added after 3 LGTMs, plus evidence of the new API owner
 meeting the [requirements](/blink/guidelines/api-owners/requirements).
@@ -44,14 +43,14 @@ vacation etc.
 API owners may resign at any time, via email to
 [blink-api-owners-discuss@chromium.org](mailto:blink-api-owners-discuss@chromium.org).
 
-### Formal objection
+## Formal objection
 
 An API owner may formally object to any decision, through written communication
 to
 [blink-api-owners-discuss@chromium.org](mailto:blink-api-owners-discuss@chromium.org).
 This triggers the majority vote mechanism.
 
-### Majority vote
+## Majority vote
 
 Any API owners decisions that cannot get the required LGTMs will be decided
 through a majority vote.
@@ -68,15 +67,11 @@ If a vote occurs, the documented final vote (including who voted which way), and
 description of the objection raised, must be published publicly on
 blink-dev@chromium.org.
 
-### What “LGTMs” means
+## What “LGTMs” means
 
 An LGTM is recorded via email to
 [blink-dev@chromium.org](https://groups.google.com/a/chromium.org/g/blink-dev).
 
-    1 LGTM means:
+**1 LGTM means:** An API owner LGTMed the proposal and no API owner formally objected.
 
-An API owner LGTMed the proposal and no API owner formally objected.
-
-    3 LGTMs means:
-
-        3 API owners LGTMed the proposal and no API owner formally objected.
+**3 LGTMs mean:** 3 API owners LGTMed the proposal and no API owner formally objected.
