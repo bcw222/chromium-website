@@ -9,4 +9,4 @@ title: Power testing
 ---
 
 This documentation now lives
-[here](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/refs/heads/master/client/site_tests/power_LoadTest/README.md).
+[here](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/refs/heads/main/client/site_tests/power_LoadTest/README.md).
