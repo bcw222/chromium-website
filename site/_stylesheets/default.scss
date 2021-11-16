@@ -171,6 +171,12 @@ header {
     text-decoration: inherit;
   }
 
+  pre {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    white-space: break-spaces;
+  }
+
   nav.table-of-contents {
     ol {
       line-height: 1em;
