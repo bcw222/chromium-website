@@ -75,7 +75,7 @@ number which are specific to our project. Here you can dive down into them.
 
 *   entd: enterprise daemon -- deprecated in favor of libpolicy (in
             libchromeos package)
-*   [power_manager](https://chromium.googlesource.com/chromiumos/platform2/+/master/power_manager/README.md):
+*   [power_manager](https://chromium.googlesource.com/chromiumos/platform2/+/main/power_manager/README.md):
             userspace daemon for performing power-management-related tasks
 
 ## Media (Audio/Video)
