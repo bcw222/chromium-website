@@ -14,7 +14,7 @@ leave feedback on the [Google Doc
 draft](https://docs.google.com/document/d/1R_2V5_rukVM8S5Hg2XKxiEOVRxvB7NqZOI2lfni2YwE/edit)
 of this page.
 
-## Exempt features:
+## Exempt features
 
 You do not need to use this process if your change does not [affect web API
 behavior to the point that developers need to be aware of
@@ -26,14 +26,13 @@ shared on blink-dev@chromium.org (or chromium-dev@, for projects that have
 significant parts outside of Blink) for feedback (this is also a good way to get
 the attention of other relevant leads).
 
-**Frequently asked questions**
+## Frequently asked questions
 
 **Q**: *Do I need any of this if my project is just refactoring or
 re-architecting the code? Do the [API owners](/blink/guidelines/api-owners) need
 to be involved?*
 
-**A**: *No. The API owners oversee the **process** of shipping [web-exposed
-](/blink/guidelines/web-exposed)API changes. They are not necessarily leads or
+**A**: No. The API owners oversee the **process** of shipping [web-exposed](/blink/guidelines/web-exposed) API changes. They are not necessarily leads or
 overseers of any of the code. Instead, you should get the buy-in of the leads of
 the code areas touched by your project. If there may be side effects of your
 change, you should follow the "Architectural change" process below. In addition,
@@ -42,61 +41,71 @@ such large projects should have public design docs that are also shared on
 [chromium-dev@chromium.org](mailto:chromium-dev@chromium.org), for projects that
 have significant parts outside of third_party/blink) for feedback (this is also
 a good way to get the attention of relevant leads you might not have thought
-of).*
+of).
 
-*For code-related questions, you can email
+For code-related questions, you can email
 [platform-architecture-dev@chromium.org](mailto:platform-architecture-dev@chromium.org)
 in addition to blink-dev@ as a catch-all option when the code ownership is not
-clear or the feature needs large-scale refactoring changes.*
+clear or the feature needs large-scale refactoring changes.
 
 **Q**: *What if I want to add some code to third_party/blink that is for a
 non-web-exposed feature? Is that allowed?*
 
-**A**: *In general, no. On a case-by-case basis an exception could be given if
+**A**: In general, no. On a case-by-case basis an exception could be given if
 there is no other reasonable way to implement the feature. Ask for permission
 from leads of the code area as well as the API owners. (The API owners need to
 be involved only to help understand if the feature really is not web-exposed;
-this can be a very subtle question.)*
+this can be a very subtle question.)
 
 **Q**: *I am not sure of the right approach for my feature. What should I do?*
 
-**A**: *Please reach out to the API owners for help! While they are not
+**A**: Please reach out to the API owners for help! While they are not
 gatekeepers for everything, they are very happy to give advice and unblock your
 feature. An email to
 [blink-api-owners-discuss@chromium.org](mailto:blink-api-owners-discuss@chromium.org)
 is the best way; if a public-facing email is not possible, please email the [API
-owners](/blink/guidelines/api-owners) directly.*
+owners](/blink/guidelines/api-owners) directly.
 
-# The Feature Types
+## The Feature Types
 
 The first thing you will need to do is identify what type of feature you are
 building:
 
-    New feature incubation. This is the normal path when we are incubating and
-    defining new features from scratch - e.g., most
-    [Fugu](/teams/web-capabilities-fugu) features follow this pattern, and any
-    feature where we start without an already-defined standard for the feature.
-    This also covers changes that are extending existing features (e.g.,
-    defining a new value and behavior for an existing standard feature). This
-    type of feature has the most associated process steps, as it is charting new
-    territory.
+### New feature incubation
 
-    Implementation of existing standard. This type of feature has a
-    lighter-weight “fast track” process, but this process can only be used when
-    the feature has already been defined in a consensus standards document -
-    e.g. a W3C Working Group has already agreed on the design, it has already
-    been merged into a WHATWG standard, or the feature has already been
-    implemented in another engine.
+This is the normal path when we are incubating and
+defining new features from scratch - e.g., most
+[Fugu](/teams/web-capabilities-fugu) features follow this pattern, and any
+feature where we start without an already-defined standard for the feature.
+This also covers changes that are extending existing features (e.g.,
+defining a new value and behavior for an existing standard feature). This
+type of feature has the most associated process steps, as it is charting new
+territory.
 
-    Deprecation. Removal of already-shipped features.
+### Implementation of existing standard
 
-    **Web developer facing change to existing code.** This is generally a public
-    service announcement- “This is a web-developer-facing change to existing
-    code without API changes, but you may see side effects.” This may be due to
-    large-scale code refactoring or rewriting, where the goal is to cause no
-    behavioral changes (but due to scope of change, side effects are likely), or
-    this may encompass changes to current code that fix a bug or implement new
-    changes to the spec without changes to the API shape itself.
+This type of feature has a
+lighter-weight “fast track” process, but this process can only be used when
+the feature has already been defined in a consensus standards document -
+e.g. a W3C Working Group has already agreed on the design, it has already
+been merged into a WHATWG standard, or the feature has already been
+implemented in another engine.
+
+### Deprecation
+
+Removal of already-shipped features.
+
+### Web developer facing change to existing code
+
+This is generally a public
+service announcement- “This is a web-developer-facing change to existing
+code without API changes, but you may see side effects.” This may be due to
+large-scale code refactoring or rewriting, where the goal is to cause no
+behavioral changes (but due to scope of change, side effects are likely), or
+this may encompass changes to current code that fix a bug or implement new
+changes to the spec without changes to the API shape itself.
+
+### Changing stages
 
 It is possible to change types later in the process - for example, if you start
 out implementing an already existing standard, but discover you need to incubate
@@ -110,7 +119,7 @@ consider all the steps listed below; this will maximize your chance of success
 on an intent-to-ship and reduce the risk of having to redo parts of your design
 or implementation.
 
-# The Chromium process to launch a new feature
+## The Chromium process to launch a new feature
 
 ### Step 0: Create a ChromeStatus entry, and choose your feature type.
 
@@ -131,17 +140,9 @@ making this process more open and transparent outside Google.
 From this point on, the process changes a little depending on the type of
 feature you’re adding.
 
-    New Feature Incubations
+### For New Feature Incubations
 
-    Implementations of already-defined consensus-based standards
-
-    Feature deprecations
-
-    Web-developer-facing change to existing code, without API changes.
-
-## For New Feature Incubations:
-
-### Step 1: Incubating: Write up use cases and scenarios in an explainer.
+#### Step 1: Incubating: Write up use cases and scenarios in an explainer
 
 Press the "Start" button next to "Start Incubating", fill out the “Motivation”
 section with a brief summary, and then write up the use cases and scenarios in
@@ -170,7 +171,7 @@ Start sketching out a proposed solution in your (public) explainer, detailing
 API design (IDL) in your incubation. If you are a Googler, you may wish to
 review this with your specification mentor before proceeding.
 
-### Step 2: Prototyping
+#### Step 2: Prototyping
 
 Proceed to the “Start Prototyping” stage in ChromeStatus - this will generate an
 “Intent to Prototype” mail for you. Send that email to
@@ -201,7 +202,7 @@ As soon as you have a functional and reasonably complete implementation of your
 initial design ready for developers to try out behind a flag, proceed to the
 next step.
 
-### Step 3: Feature Complete behind a feature flag: iteration on design
+#### Step 3: Feature Complete behind a feature flag: iteration on design
 
 Once you have a functional and reasonably complete feature implementation
 available as a runtime enabled feature, request a
@@ -222,7 +223,7 @@ review and address any issues raised during this stage, and should address any
 issues raised by other horizontal reviews (accessibility, privacy,
 internationalization, etc.).
 
-### Step 4: Evaluate readiness to ship
+#### Step 4: Evaluate readiness to ship
 
 Once you believe you have addressed all major open issues, you should proceed to
 the “Evaluating readiness to ship” stage in ChromeStatus. If you haven't already
@@ -248,7 +249,7 @@ producing a good enough spec to meet the shipping bar can take longer than the
 ~12-16 weeks of an Origin Trial, so starting the spec-writing process too late
 might delay your feature launch.
 
-### Step 5 (Optional): Origin Trial
+#### Step 5 (Optional): Origin Trial
 
 If you want to gather data on the usability of your feature that an [Origin
 Trial](/blink/origin-trials/running-an-origin-trial) can help collect, proceed
@@ -268,7 +269,7 @@ Trial.
 Please note that Origin Trials are not exempt from requiring cross-functional
 approvals from the Chrome launch review process.
 
-### Step 6: Prepare to Ship
+#### Step 6: Prepare to Ship
 
 At this point, if you are a Googler you should get a final spec review from your
 standards mentor, and discuss options for moving your spec to a final
@@ -298,9 +299,9 @@ Once you have shipped your feature, proceed to the "Ship" stage in ChromeStatus.
 The approval status of various stages of the intent process is tracked by the
 API owners in [this spreadsheet](https://bit.ly/blinkintents).
 
-## Implementations of already-defined consensus-based standards
+### Implementations of already-defined consensus-based standards
 
-### Step 1: Write up use cases and scenarios, start coding
+#### Step 1: Write up use cases and scenarios, start coding
 
 Fill out the “Motivation” section with a brief summary, and then write up the
 use cases and scenarios. If this is a large feature, or a combination of
@@ -320,7 +321,7 @@ specification, or even on MDN), and at least a basic sample.
 As soon as you have a functional and reasonably complete implementation of the
 feature ready for developers to try out under a flag, proceed to the next step.
 
-### Step 2: Feature Complete behind a flag and implementation refinement
+#### Step 2: Feature Complete behind a flag and implementation refinement
 
 If the TAG has not already reviewed the consensus specification, request a
 [TAG](https://github.com/w3ctag/design-reviews/issues) review and proceed to the
@@ -335,7 +336,7 @@ shipped, and estimate when (in what milestone) you would like to target
 shipping. You should also decide if an Origin Trial would help gather
 significant data for your feature.
 
-### Step 3 (Optional): Origin Trial
+#### Step 3 (Optional): Origin Trial
 
 If you want to gather data on the usability of your feature that an [Origin
 Trial](/blink/origin-trials/running-an-origin-trial) can help collect, proceed
@@ -369,7 +370,7 @@ N, and the feature is shipped in milestone N+1, sites opting into the origin
 trial will continue to be able to use the feature on Chromium milestone N up to
 (and even after, for those users who have not upgraded) N+1 ships.
 
-### Step 4: Prepare to Ship
+#### Step 4: Prepare to Ship
 
 You should update ChromeStatus with a target milestone for shipping (and
 remember to keep this updated, if things change). You should get final signoff
@@ -393,42 +394,42 @@ days.)
 
 Once you have shipped your feature, proceed to the "Ship" stage in ChromeStatus.
 
-## Feature deprecations
+### Feature deprecations
 
 #### Lessons from the first years of deprecations and removals ([thread](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/1wWhVoKWztY))
 
-    We should weigh the benefits of removing an API more against the cost it
-    has. Percent of page views by itself is not the only metric we care about.
+We should weigh the benefits of removing an API more against the cost it
+has. Percent of page views by itself is not the only metric we care about.
 
-    The cost of removing an API is not accurately reflected by the UseCounter
-    for older, widely implemented APIs. It's more likely that there's a
-    longer-tail of legacy content that we're breaking.
+The cost of removing an API is not accurately reflected by the UseCounter
+for older, widely implemented APIs. It's more likely that there's a
+longer-tail of legacy content that we're breaking.
 
-    We shouldn't remove APIs that have small value on the path towards a removal
-    that has significant value. Getting rid of attribute nodes \*is\* valuable
-    and would benefit the platform. Getting rid of half the attribute node
-    methods is not. So we should evaluate the usage of all the APIs we need to
-    remove together in order to get there. Also, if we remove them, we should
-    remove them all in the same release. Breaking people once is better than
-    breaking them repeatedly in small ways.
+We shouldn't remove APIs that have small value on the path towards a removal
+that has significant value. Getting rid of attribute nodes \*is\* valuable
+and would benefit the platform. Getting rid of half the attribute node
+methods is not. So we should evaluate the usage of all the APIs we need to
+remove together in order to get there. Also, if we remove them, we should
+remove them all in the same release. Breaking people once is better than
+breaking them repeatedly in small ways.
 
-    We should be more hesitant to remove older, widely implemented APIs.
+We should be more hesitant to remove older, widely implemented APIs.
 
-    For cases where we're particularly concerned about the compatibility hit, we
-    should do the removal behind a flag so that we can easily re-enable the API
-    on stable as we don't know the compat hit until the release has been on
-    stable for a couple weeks.
+For cases where we're particularly concerned about the compatibility hit, we
+should do the removal behind a flag so that we can easily re-enable the API
+on stable as we don't know the compat hit until the release has been on
+stable for a couple weeks.
 
-    Enterprise users have additional difficulties reacting to breaking changes,
-    but we also have additional tools to help them. See[ shipping changes that
-    are enterprise-friendly](/developers/enterprise-changes) for best practices.
+Enterprise users have additional difficulties reacting to breaking changes,
+but we also have additional tools to help them. See[ shipping changes that
+are enterprise-friendly](/developers/enterprise-changes) for best practices.
 
-    High-usage APIs may require much more work to land successfully. See
-    [here](https://docs.google.com/document/d/1-_5MagztiYclsMccY4Z66XI465WaasT5I5y2dnhRvoE/edit#heading=h.n49iymp16hl6)
-    for a good example of how this worked in practice with the deprecation and
-    removal of the Web Components v0 APIs.
+High-usage APIs may require much more work to land successfully. See
+[here](https://docs.google.com/document/d/1-_5MagztiYclsMccY4Z66XI465WaasT5I5y2dnhRvoE/edit#heading=h.n49iymp16hl6)
+for a good example of how this worked in practice with the deprecation and
+removal of the Web Components v0 APIs.
 
-### Step 1: Write up motivation
+#### Step 1: Write up motivation
 
 Deprecations and removals must have strong reasons, explicitly balanced against
 the cost of removal. Deprecations should be clear and actionable for developers.
@@ -450,7 +451,7 @@ alternatives to the feature being deprecated. As soon as you have a functional
 removal of the feature ready for developers to try out under a flag, proceed to
 the next step.
 
-### Step 2: Dev trial of deprecation
+#### Step 2: Dev trial of deprecation
 
 Proceed to the “Dev Trials” stage in ChromeStatus. This will generate a “Ready
 for Trial” email that you should send to
@@ -473,7 +474,7 @@ like to target shipping. You should also decide (possibly based on data from the
 dev trial) if a deprecation trial is going to be necessary to help smooth the
 removal of this feature from the web platform.
 
-### Step 3 (Optional): Deprecation Trial
+#### Step 3 (Optional): Deprecation Trial
 
 If you are concerned that there are going to be web developers who need
 additional time to fix up their implementations, and will want to delay your
@@ -495,7 +496,7 @@ Googlers can request a trial for their feature at
 [go/new-origin-trial](http://goto.google.com/new-origin-trial). Once your
 Deprecation Trial is in place, proceed to the next step.
 
-### Step 4: Prepare to Ship
+#### Step 4: Prepare to Ship
 
 You should update ChromeStatus with a target milestone for deprecating the
 feature (and remember to keep this updated, if things change). You should get
@@ -509,12 +510,12 @@ will spark a conversation with the API owners; address any feedback from them,
 and once you get [3 LGT](/blink/guidelines/api-owners/procedures)Ms from the API
 owners, you may proceed.
 
-### Step 5: Disable the feature
+#### Step 5: Disable the feature
 
 Disable the feature by default. Update ChromeStatus to either “Disabled” or
 “Disabled with Deprecation Trial”.
 
-### Step 6: Remove Code
+#### Step 6: Remove Code
 
 If you are running a Deprecation Trial, wait until the Deprecation Trial period
 has ended. (If you need to extend the Deprecation Trial, notify
@@ -530,27 +531,25 @@ If you are unsure of when a feature could be removed, or would like to
 discourage usage, you may deprecate a feature without a removal deadline. This
 is strongly discouraged and will require significant justification:
 
-    Email blink-dev using the[ "Intent to Deprecate"
-    template](https://docs.google.com/a/chromium.org/document/d/1Z7bbuD5ZMzvvLcUs9kAgYzd65ld80d5-p4Cl2a04bV0/edit).
+* Email blink-dev using the ["Intent to Deprecate" template](https://docs.google.com/a/chromium.org/document/d/1Z7bbuD5ZMzvvLcUs9kAgYzd65ld80d5-p4Cl2a04bV0/edit).
 
-        [1 LGTM](/blink/guidelines/api-owners/procedures) necessary from the API
-        owners
+* [1 LGTM](/blink/guidelines/api-owners/procedures) necessary from the API owners
 
-        Must justify why there is no removal date
+* Must justify why there is no removal date
 
 \* It takes 12-18 weeks to hit Stable once you enable instrumentation. If there
 is time pressure you may be able to get permission to merge UseCounter changes
 into an existing dev/beta branch, and make provisional decisions based on data
 from beta channel.
 
-## Web-developer-facing change to existing code (PSA)
+### Web-developer-facing change to existing code (PSA)
 
-### Step 1: Write up motivation and implement code
+#### Step 1: Write up motivation and implement code
 
 Fill out the “Motivation” section with a brief summary, and proceed to the
 “Implementing” stage in ChromeStatus.
 
-### Step 2: (Optional) Dev trial
+#### Step 2: (Optional) Dev trial
 
 If you want to try out this change before shipping it, put your code in Chromium
 as [runtime enabled features](/blink/runtime-enabled-features), and set the
@@ -558,7 +557,7 @@ status to “Dev Trial” in ChromeStatus. This will generate a “Ready for Tri
 email that you should send to [blink-dev](mailto:blink-dev@chromium.org) to
 notify the community they can try out code change.
 
-### Step 3: Prepare to Ship
+#### Step 3: Prepare to Ship
 
 You should update ChromeStatus with a target milestone for shipping (and
 remember to keep this updated, if things change). Proceed to the “Prepare to
@@ -566,44 +565,40 @@ Ship” stage in ChromeStatus; this will generate a “Web-Facing Change PSA” 
 for you. Send that email to [blink-dev](mailto:blink-dev@chromium.org) with the
 summary of the code change and the expected milestone.
 
-### Step 4: (Optional) Finch trial
+#### Step 4: (Optional) Finch trial
 
 You may wish to use [Finch](http://go/finch) to increase confidence in the new
 code as you deploy it.
 
-### Step 5: Ship
+#### Step 5: Ship
 
 Ship it, and set the status to “Shipped”.
 
-# Post Launch
+## Post Launch
 
-    After launching a new feature, watch for crashes, regressions caused by your
-    feature and any substantive spec feedback. Review[
-    UseCounter](/blink/platform-predictability/compat-tools) and other metrics.
-    Update the intent-to-ship thread and ChromeStatus if non-trivial issues
-    (like web compatibility or serious design questions) arise. When in doubt,
-    email blink-dev@ (or blink-api-owners-discuss@ if you prefer a smaller
-    audience) for advice.
+After launching a new feature, watch for crashes, regressions caused by your
+feature and any substantive spec feedback. Review [UseCounter](/blink/platform-predictability/compat-tools) and other metrics.
+Update the intent-to-ship thread and ChromeStatus if non-trivial issues
+(like web compatibility or serious design questions) arise. When in doubt,
+email blink-dev@ (or blink-api-owners-discuss@ if you prefer a smaller
+audience) for advice.
 
-    Once a new API is on by default, continue to support other implementations
-    (for instance, clarifying the spec, improving the tests, fixing bugs, and
-    updating support status in ChromeStatus) until the feature is broadly
-    supported and works the same across engines. Remember, your job is to move
-    the web forward, not simply add features to Chrome.
+Once a new API is on by default, continue to support other implementations
+(for instance, clarifying the spec, improving the tests, fixing bugs, and
+updating support status in ChromeStatus) until the feature is broadly
+supported and works the same across engines. Remember, your job is to move
+the web forward, not simply add features to Chrome.
 
-    Review MDN docs for technical accuracy and clarity. Feel free to make edits
-    directly or reach out to jmedley@.
+Review MDN docs for technical accuracy and clarity. Feel free to make edits
+directly or reach out to jmedley@.
 
-    When you are convinced enabling the feature by default has “stuck”
-    (typically 2 milestones), remove any unused code including
-    RuntimeEnabledFeatures entries.
+When you are convinced enabling the feature by default has “stuck”
+(typically 2 milestones), remove any unused code including
+RuntimeEnabledFeatures entries.
 
 ## Related
 
 For an overview, and explanation of motivations, please see:
 
-*   Video presentation: [Intent to explain: Demystifying the Blink
-            shipping process (Chrome Dev Summit
-            2019)](https://www.youtube.com/watch)
-*   Blog post: [Intent to Explain: Demystifying the Blink Shipping
-            Process](https://blog.chromium.org/2019/11/intent-to-explain-demystifying-blink.html)
+*   Video presentation: [Intent to explain: Demystifying the Blink shipping process (Chrome Dev Summit 2019)](https://www.youtube.com/watch)
+*   Blog post: [Intent to Explain: Demystifying the Blink Shipping Process](https://blog.chromium.org/2019/11/intent-to-explain-demystifying-blink.html)
