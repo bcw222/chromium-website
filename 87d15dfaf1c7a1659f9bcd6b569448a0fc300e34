@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8954de73_2ef05eb6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-16T17:28:33Z",
+      "side": 1,
+      "message": "Yup. But, I need to rewrite npmw regardless, it doesn\u0027t really work right and relies too much on `npm` being present (which isn\u0027t normally on windows).",
+      "parentUuid": "6c215c12_b9deaabe",
+      "revId": "87d15dfaf1c7a1659f9bcd6b569448a0fc300e34",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "588d4838_24f086c1",
@@ -48,6 +66,24 @@
       "writtenOn": "2021-11-16T17:24:05Z",
       "side": 1,
       "message": "This needs to be updated",
+      "revId": "87d15dfaf1c7a1659f9bcd6b569448a0fc300e34",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "12012042_31032b8d",
+        "filename": "scripts/fetch_originals.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-16T17:28:33Z",
+      "side": 1,
+      "message": "Oops, good catch.",
+      "parentUuid": "588d4838_24f086c1",
       "revId": "87d15dfaf1c7a1659f9bcd6b569448a0fc300e34",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
