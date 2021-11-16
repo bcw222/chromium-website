@@ -9,13 +9,10 @@ title: Add & translate strings (aka 'Localization' or 'Translations')
 ---
 
 **Help improve our translations:**
-[File a bug](http://code.google.com/p/chromium/issues/entry) using the
-translation template; CC "chromelocalization@google.com"
-**[Provide
-translations](http://davidplanella.org/chromium-opens-to-community-translations-in-launchpad/)**
-for the chromium-browser package on Ubuntu
+* **[File a bug](http://code.google.com/p/chromium/issues/entry)** using the translation template; CC "chromelocalization@google.com"
+* **[Provide translations](http://davidplanella.org/chromium-opens-to-community-translations-in-launchpad/)** for the chromium-browser package on Ubuntu
 
-## **[TOC]**
+[TOC]
 
 Chromium uses [GRIT](/developers/tools-we-use-in-chromium/grit) for managing its
 translated strings in grd/grdp files.
@@ -31,7 +28,7 @@ the download size if they're not used. It's important to judiciously surround
 strings with appropriate &lt;if&gt; clauses to ensure that they are only
 included on the platforms where they're actually used.
 
-### **How strings get translated**
+### **How strings get translated** {: #TOC-How-strings-get-translated }
 
 1.  Strings get added to a .grd(p) file in en-US.
 2.  \[BlackCloudOfMagic\] Translators are provided with the new strings.
@@ -43,10 +40,9 @@ included on the platforms where they're actually used.
             files
 5.  Changes to .xtb files are submitted to the Chromium source tree
 
-## **Add a string**
+## **Add a string** {: #TOC-Add-a-string }
 
-If you're developing for Mac, also see notes on [how to add strings for Chrome
-on Mac](/developers/design-documents/ui-localization/mac-notes).
+If you're developing for Mac, also see notes on [how to add strings for Chrome on Mac](/developers/design-documents/ui-localization/mac-notes).
 
 1.  Check whether the string you need already exists. If you find a
             matching string, read the description to see how it's intended to be
@@ -54,16 +50,14 @@ on Mac](/developers/design-documents/ui-localization/mac-notes).
 2.  Add the string to the grd file (generated_resources.grd,
             webkit_strings.grd, chromium_strings.grd or
             google_chrome_strings.grd).
-    *   See tips on [writing better user-facing
-                strings](/user-experience/ui-strings).
+    *   See tips on [writing better user-facing strings](/user-experience/ui-strings).
 3.  Include
             [screenshots](/developers/design-documents/ui-localization#TOC-Add-a-screenshot),
             [meanings](/developers/design-documents/ui-localization#TOC-Use-message-meanings-to-disambiguate-strings),
             and
             [descriptions](/developers/design-documents/ui-localization#TOC-Write-good-descriptions)
             for all strings. This is crucial for high-quality translations.
-4.  Use [ICU message
-            syntax](http://userguide.icu-project.org/formatparse/messages) to
+4.  Use [ICU message syntax](http://userguide.icu-project.org/formatparse/messages) to
             accommodate plurals and gender.
 5.  As needed, surround the string with an appropriate &lt;if&gt; clause
             to ensure that it's only included it on platforms where it's
@@ -72,29 +66,28 @@ on Mac](/developers/design-documents/ui-localization/mac-notes).
             the &lt;if&gt; clause.
 6.  The next time you build the solution, this will automatically add
             the en-US string.
-7.  In your code, include ui/base/l10n/l10n_util.h and
-            chrome/grit/generated_resources.h.
-8.  To get the string, use l10n_util::GetStringUTF16. Alternately, you
-            can use l10n_util::GetStringFUTF16 which will replace placeholders
+7.  In your code, include `ui/base/l10n/l10n_util.h` and
+            `chrome/grit/generated_resources.h`.
+8.  To get the string, use `l10n_util::GetStringUTF16`. Alternately, you
+            can use `l10n_util::GetStringFUTF16` which will replace placeholders
             $1 through $4 with the extra arguments of GetStringFUTF16. Note that
             we generally prefer to use UTF-16 encoded strings for user-visible
             text.
 9.  Deal with message placeholder content. Example:
-    *   Hey &lt;ph name="USER"&gt;$1&lt;ex&gt;Joe&lt;/ex&gt;&lt;/ph&gt;,
-                you have &lt;ph
-                name="NUMBER"&gt;&lt;ex&gt;10&lt;/ex&gt;$2&lt;/ph&gt; messages.
+     <pre class="prettyprint">
+     Hey &lt;ph name="USER"&gt;$1&lt;ex&gt;Joe&lt;/ex&gt;&lt;/ph&gt;, you have &lt;ph name="NUMBER"&gt;&lt;ex&gt;10&lt;/ex&gt;$2&lt;/ph&gt; messages.
+     </pre>
 
-## **Add an Android/Java string**
+## **Add an Android/Java string** {: #TOC-Add-an-Android-Java-string }
 
 1.  Check whether the string you need already exists. If you find a
             matching string, read the description to see how it's intended to be
             used, and leverage it if you can. Otherwise, continue.
 2.  Add the string to the grd file in the Java folder (e.g.
-            content/public/android/java/strings/android_content_strings.grd).
-            Strings should be named in all caps with the prefix IDS_. For
-            example: IDS_MY_STRING.
-    *   See tips on [writing better user-facing
-                strings](/user-experience/ui-strings).
+            `content/public/android/java/strings/android_content_strings.grd`).
+            Strings should be named in all caps with the prefix `IDS_`. For
+            example: `IDS_MY_STRING`.
+    *   See tips on [writing better user-facing strings](/user-experience/ui-strings).
 3.  Include
             [screenshots](/developers/design-documents/ui-localization#TOC-Add-a-screenshot),
             [meanings](/developers/design-documents/ui-localization#TOC-Use-message-meanings-to-disambiguate-strings),
@@ -104,18 +97,16 @@ on Mac](/developers/design-documents/ui-localization/mac-notes).
 4.  At build time, an Android-style strings.xml file will be generated
             in the out directory.
 5.  You can reference these strings in Java code using the standard
-            R.string.my_string syntax, or in Android layouts using
-            @string/my_string. Note: the name is lowercase and the IDS_ prefix
+            `R.string.my_string` syntax, or in Android layouts using
+            `@string/my_string`. Note: the name is lowercase and the `IDS_` prefix
             is stripped.
-6.  Deal with [special
-            characters](https://developer.android.com/guide/topics/resources/string-resource#FormattingAndStyling).
+6.  Deal with [special characters](https://developer.android.com/guide/topics/resources/string-resource#FormattingAndStyling).
 7.  Deal with message placeholder content. Example:
-    *   Hey &lt;ph
-                name="USER"&gt;%1$s&lt;ex&gt;Joe&lt;/ex&gt;&lt;/ph&gt;, you have
-                &lt;ph name="NUMBER"&gt;&lt;ex&gt;10&lt;/ex&gt;%2$d&lt;/ph&gt;
-                messages.
+        <pre class="prettyprint">
+        Hey &lt;ph name="USER"&gt;%1$s&lt;ex&gt;Joe&lt;/ex&gt;&lt;/ph&gt;, you have &lt;ph name="NUMBER"&gt;&lt;ex&gt;10&lt;/ex&gt;%2$d&lt;/ph&gt; messages.
+        </pre>
 
-## **Add a new grd(p) file**
+## **Add a new grd(p) file** {: #TOC-Add-a-new-grd-p-file }
 
 This should be rare. We want to be very careful about expanding the number of
 grd(p) files in our source tree.
@@ -127,77 +118,57 @@ grd(p) files in our source tree.
             the following actions. This doesn't impact the translation process,
             but your new grd file won't compile without them.
     *   New grd files need to be added to
-                /src/tools/gritsettings/resource_ids
+                `/src/tools/gritsettings/resource_ids`
     *   New grd files need to have a rule added to
-                /src/chrome/chrome_resources.gyp. During 'gclient sync', these
-                grit rules are run, and your grd's '.h' file will be generated.
-                This file should be included by any .cc file that references
+                `/src/chrome/chrome_resources.gyp`. During `gclient sync`, these
+                grit rules are run, and your grd's `.h` file will be generated.
+                This file should be included by any `.cc` file that references
                 your strings.
 
 **Notes for translation:**
 
 *   New grd files need to be added to
-            /src/tools/gritsettings/translation_expectations.pyl (or
+            `/src/tools/gritsettings/translation_expectations.pyl` (or
             &lt;message&gt;s won't be translated).
 *   If your new grd(p) will result in new XTB files after translation,
             you must commit placeholder .xtb files or else Chrome won't compile.
             The placeholders need to have a basic xml structure. Example for
             creating the XTBs:
-
-> > &gt; for lang in fr de en-GB etc; do echo '&lt;?xml version="1.0"
-> > ?&gt;&lt;!DOCTYPE translationbundle&gt;&lt;translationbundle
-> > lang="'$lang'"&gt;&lt;/translationbundle&gt;' &gt; foo_strings_$lang.xtb;
-> > done
+            <pre class="prettyprint">
+                > for lang in fr de en-GB etc; do echo '<?xml version="1.0" ?><!DOCTYPE translationbundle><translationbundle lang="'$lang'"></translationbundle>' > foo_strings_$lang.xtb; done
+            </pre>
 
 *   If your new grd will NOT be translated (set in
             translation_expectations.pyl and no XTB placeholder files required
             above), there is very minimal XML content required in your grd.
             Example:
-
-> > &lt;?xml version="1.0" encoding="utf-8"?&gt;
-
-> > &lt;!--
-
-> > This file contains all "about" strings. It is set to NOT be translated, in
-> > translation_expectations.pyl. en-US only.
-
-> > --&gt;
-
-> > &lt;grit base_dir="." latest_public_release="0" current_release="1"
-
-> > source_lang_id="en" enc_check="möl"&gt;
-
-> > &lt;outputs&gt;
-
-> > &lt;output filename="grit/about_strings.h" type="rc_header"&gt;
-
-> > &lt;emit emit_type='prepend'&gt;&lt;/emit&gt;
-
-> > &lt;/output&gt;
-
-> > &lt;/outputs&gt;
-
-> > &lt;release seq="1" allow_pseudo="false"&gt;
-
-> > &lt;messages fallback_to_english="true"&gt;
-
-> > &lt;message name="IDS_NACL_DEBUG_MASK_CHOICE_DEBUG_ALL"&gt;
-
-> > Debug everything.
-
-> > &lt;/message&gt;
-
-> > &lt;/messages&gt;
-
-> > &lt;/release&gt;
-
-> > &lt;/grit&gt;
+                <pre class="prettyprint">
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!--
+                    This file contains all "about" strings.  It is set to NOT be translated, in translation_expectations.pyl.  en-US only.
+                    -->
+                    <grit base_dir="." latest_public_release="0" current_release="1"
+                        source_lang_id="en" enc_check="möl">
+                    <outputs>
+                        <output filename="grit/about_strings.h" type="rc_header">
+                        <emit emit_type='prepend'></emit>
+                        </output>
+                    </outputs>
+                    <release seq="1" allow_pseudo="false">
+                        <messages fallback_to_english="true">
+                        <message name="IDS_NACL_DEBUG_MASK_CHOICE_DEBUG_ALL">
+                            Debug everything.
+                        </message>
+                        </messages>
+                    </release>
+                    </grit>
+                </pre>
 
 ---
 
-## **Give context to translators**
+## **Give context to translators** {: #TOC-Give-context-to-translators }
 
-### **Add a screenshot**
+### **Add a screenshot** {: #TOC-Add-a-screenshot }
 
 Screenshots of Chrome's UI strings can provide more and clearer context for our
 translators. Requests for screenshots make up at least 5% of localization bugs.
@@ -206,7 +177,7 @@ Follow the steps at
 [**https://g.co/chrome/translation**](https://g.co/chrome/translation) to add a
 screenshot to correspond with your strings.
 
-### **Use message meanings to disambiguate strings**
+### **Use message meanings to disambiguate strings** {: #TOC-Use-message-meanings-to-disambiguate-strings }
 
 **When?** Existing translations are reused when a new message matches an
 existing one. We rely heavily on reused translations to keep our localization
@@ -233,34 +204,35 @@ so we can't reuse the existing translation. We added a meaning to the string so
 that the automated Translation Console tool disambiguates this string. The
 meaning's details will help future Chromium contributors understand the
 difference among identical strings; however, the translators will not see the
-meaning attribute.
+`meaning` attribute:
+```
+<message name="IDS_BOOKMARK_BUBBLE_PAGE_BOOKMARKED" 
+  meaning="In Title Case for Apple OS"
+  desc="In Title Case: Title of the bubble after bookmarking a page.">
+  Bookmark Added!
+</message>
+```
 
-> &lt;message name="IDS_BOOKMARK_BUBBLE_PAGE_BOOKMARKED" **meaning="In Title
-> Case for Apple OS"** desc="In Title Case: Title of the bubble after
-> bookmarking a page."&gt;
+### **Write good descriptions** {: #TOC-Write-good-descriptions }
 
-> Bookmark Added!
-
-> &lt;/message&gt;
-
-### **Write good descriptions**
-
-Why? The message description is a critical piece of context our translators
+**Why?** The message description is a critical piece of context our translators
 receive when translating UI strings. Translators see each string in isolation
 and in a random order: they don't know which feature the string is associated
 with, where it might appear on a page, or what action it triggers. Adding enough
 context to each string in a project increases the speed, accuracy, and quality
-of translations, which ultimately improves user satisfaction. For example, the
-translator would only see what is in bold:
+of translations, which ultimately improves user satisfaction. For example, of the following code:
+```
+<message name="IDS_BOOKMARK_BUBBLE_PAGE_BOOKMARKED" 
+  desc="In Title Case: Title of the bubble after bookmarking a page.">
+  Bookmark Added!
+</message>
+```
+the translator would only see:
+* "In Title Case: Title of the bubble after bookmarking a page."
+* "Bookmark Added!"
 
-> &lt;message name="IDS_BOOKMARK_BUBBLE_PAGE_BOOKMARKED" desc="**In Title Case:
-> Title of the bubble after bookmarking a page.**"&gt;
 
-> **Bookmark Added!**
-
-> &lt;/message&gt;
-
-How? Add as much of the info below in the message description as would be
+**How?** Add as much of the info below in the message description as would be
 useful:
 
 *   Location: Button, title, link, drop-down menu, etc.
@@ -288,36 +260,29 @@ they still understand it?
 Note: changing a message description without changing the message itself or
 adding a meaning attribute does not trigger a retranslation of a string.
 
-#### Examples of good message descriptions
+**Examples of good message descriptions:**
 
-> Source text: "US city or zip" Description: The message is displayed in gray in
-> an empty search box for a movie showtimes location. Localize by country to
-> name city and optional postal code. *Comment: This description clearly
-> explains where the source text appears in the UI, and gives instructions on
-> how the message should be adapted for non-US locales.* Source text: "Zoom"
-> Description: Clicking the Zoom menu command launches help on how to zoom. Try
-> to limit translations to 10 characters. *Comment: A thorough description tells
-> what the source text plays does, what it triggers, and states a character
-> limit as well as a rationale.* Source text: "Account budget increased"
-> Description: This text is the placeholder in the sentence 'PLACEHOLDER from X
-> to Y' *Comment: Since the string is only part of a sentence, this description
-> provides essential information about context, and alerts the translator that
-> it will appear as part of a longer UI message.*
+1. Source text: "US city or zip"
+    * Description: The message is displayed in gray in an empty search box for a movie showtimes location. Localize by country to name city and optional postal code.
+    * *Comment: This description clearly explains where the source text appears in the UI, and gives instructions on how the message should be adapted for non-US locales.*
+2. Source text: "Zoom"
+    * Description: Clicking the Zoom menu command launches help on how to zoom. Try to limit translations to 10 characters.
+    * *Comment: A thorough description tells what the source text plays does, what it triggers, and states a character limit as well as a rationale.*
+3. Source text: "Account budget increased"
+    * Description: This text is the placeholder in the sentence 'PLACEHOLDER from X to Y'
+    * *Comment: Since the string is only part of a sentence, this description provides essential information about context, and alerts the translator that it will appear as part of a longer UI message.*
 
-#### Examples of poor message descriptions
+**Examples of poor message descriptions:**
 
-> Source text: "All" Description: The word "All" in the phrase "Select: All
-> None" *Comment: Good immediate context, but unclear what "all" refers to.
-> Suggested description: Appears in the phrase "Select: All None" and refers to
-> message threads.* Source text: "PLACEHOLDER from X to Y" Description:
-> Describes account budget changes *Comment: It is not clear what the
-> placeholders are used for. Suggested description: Describes account budget
-> changes; PLACEHOLDER is one of "account budget increased" or "account budget
-> decreased"; X and Y are both dollar amounts.* Source text: "We could not send
-> your message. A space alien ate it. Please try again in a few minutes."
-> Description: A funny error message. *Comment: Translators will translate the
-> message literally, so if they should be creative, the message description
-> should let them know that. Also, "space alien" may not be culturally
-> appropriate. Better Description: An error message. Since humor varies across
-> cultures, use an appropriate translation for the error. It doesn't have to be
-> a direct translation.*
+1. Source text: "All"
+    * Description: The word "All" in the phrase "Select: All None"
+    * *Comment: Good immediate context, but unclear what "all" refers to.*
+    * *Suggested description: Appears in the phrase "Select: All None" and refers to message threads.*
+2. Source text: "PLACEHOLDER from X to Y" 
+    * Description: Describes account budget changes
+    * *Comment: It is not clear what the placeholders are used for.*
+    * *Suggested description: Describes account budget changes; PLACEHOLDER is one of "account budget increased" or "account budget decreased"; X and Y are both dollar amounts.*
+3. Source text: "We could not send your message. A space alien ate it. Please try again in a few minutes."
+    * Description: A funny error message.
+    * *Comment: Translators will translate the message literally, so if they should be creative, the message description should let them know that. Also, "space alien" may not be culturally appropriate.*
+    * *Better Description: An error message. Since humor varies across cultures, use an appropriate translation for the error. It doesn't have to be a direct translation.*
