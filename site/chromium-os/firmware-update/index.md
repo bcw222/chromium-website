@@ -6,10 +6,10 @@ page_name: firmware-update
 title: Firmware Update
 ---
 
+**WARNING: Remember to backup your original firmware! The flash memory contains some device information that cannot be recovered if overwritten.**
+
 [TOC]
 
-## WARNING: Remember to backup your original firmware! The flash memory contains
-some device information that cannot be recovered if overwritten.
 
 ## Glossary
 
