@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "02aee2f3_34bd6bb2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-16T16:11:55Z",
+      "side": 1,
+      "message": "This is still a work-in-progress, but it\u0027s close. I\u0027m sending it out as a preview ...",
+      "revId": "87d15dfaf1c7a1659f9bcd6b569448a0fc300e34",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
