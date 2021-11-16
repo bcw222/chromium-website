@@ -8,14 +8,10 @@ title: Blink (Rendering Engine)
 
 ## Mission
 
----
-
 Make the Web the premier platform for experiencing the world’s information and
 deliver the world’s best implementation of the Web platform.
 
 ## What is Blink?
-
----
 
 Blink is the name of the [rendering
 engine](https://en.wikipedia.org/wiki/Web_browser_engine) used by Chromium and
@@ -23,8 +19,6 @@ particularly refers to the code living under
 ***[src/third_party/blink](https://chromium.googlesource.com/chromium/src/+/refs/heads/master/third_party/blink/).***
 
 ## Participating
-
----
 
 [Chromium](http://chromium.org) is an
 [inclusive](https://chromium.googlesource.com/chromium/src/+/master/CODE_OF_CONDUCT.md)
@@ -78,8 +72,6 @@ channels for staying up-to-date:
 
 ## Developing
 
----
-
 ### Learning about Blink Development
 
 Blink is implemented on top of an abstract platform and thus cannot be run by
@@ -117,9 +109,3 @@ follows the [Blink Coding Style Guidelines](/blink/coding-style).
 *   [Removing a Web Platform Feature](/blink/deprecating-features)
 *   (Video) [Intent to Explain: Demystifying the Blink shipping
             process](https://www.youtube.com/watch)
-
-## Page Directory
-
----
-
-<img alt="image" src="http://www.google.com/chart" height=300 width=500>
