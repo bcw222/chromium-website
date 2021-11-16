@@ -171,6 +171,11 @@ header {
     text-decoration: inherit;
   }
 
+  pre {
+    white-space: break-spaces;
+    word-break: break-all;
+  }
+
   nav.table-of-contents {
     ol {
       line-height: 1em;
