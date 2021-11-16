@@ -171,6 +171,11 @@ header {
     text-decoration: inherit;
   }
 
+  pre {
+    overflow-x: scroll;
+    width: 80em;
+  }
+
   nav.table-of-contents {
     ol {
       line-height: 1em;
