@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb5f2a97_7dfdc002",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-16T22:14:09Z",
+      "side": 1,
+      "message": "I don\u0027t expect you to review every diff (I didn\u0027t, either), but looking at the code change in //scripts/export.py should be straightforward and you can check a few diffs to verify it.",
+      "revId": "298f95d78dc99185c6d1454c9c7a577b42081db5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
