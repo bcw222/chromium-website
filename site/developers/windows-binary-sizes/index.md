@@ -116,7 +116,7 @@ into a spreadsheet to ensure that the columns line up.
 Some fixed issues include:
 
 *   webrtc regression was analyzed to find a fix - see[
-            https://bugs.chromium.org/p/chromium/issues/detail?id=734631#c14](https://bugs.chromium.org/p/chromium/issues/detail)
+            https://bugs.chromium.org/p/chromium/issues/detail?id=734631#c14](https://bugs.chromium.org/p/chromium/issues/detail?id=734631#c14)
             for the many steps, and
             [crrev.com/c/567030](https://chromium-review.googlesource.com/c/567030/)
 *   We have 216 functions instances of color_xform_RGBA&lt;T&gt;
@@ -126,7 +126,7 @@ Some fixed issues include:
 *   A regression in chrome_watcher.dll was methodically analyzed to
             understand precisely where the size was coming from - see the steps
             listed out starting at [this bug
-            comment](https://bugs.chromium.org/p/chromium/issues/detail).
+            comment](https://bugs.chromium.org/p/chromium/issues/detail?id=717103#c24).
 
 The most egregious problems shown by these reports have been fixed but some
 remaining issues include:

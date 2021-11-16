@@ -15,15 +15,15 @@ title: 3.  U-Boot Drivers
 This section lists the functional requirements for Chrome OS drivers and
 describes how to implement the drivers using U-Boot APIs and configuration
 files. It provides links to useful code samples from the [U-Boot source
-tree](http://git.denx.de/).
+tree](http://git.denx.de/?p=u-boot.git;a=tree).
 
 ## Board Configuration
 
 Each board has a file that contains config options for each board component. For
 example, the Samsung SMDK5250 (Exynos5250) board is specified in the file
-[include/configs/smdk5250.h](http://git.denx.de/). This file controls which
-components are enabled and specifies certain parameters for each board
-component.
+[include/configs/smdk5250.h](http://git.denx.de/?p=u-boot.git;a=blob;f=include/configs/smdk5250.h;h=c0f86228b08a0fb4df48d70180144af2990b76c2;hb=HEAD).
+This file controls which components are enabled and specifies certain parameters
+for each board component.
 
 ## Driver Configuration
 
@@ -128,7 +128,7 @@ functionality. Important clock functions to implement include the following:
 *</tr>*
 *<tr>*
 *<td> <b>Example</b></td>*
-*<td><a href="http://git.denx.de/">arch/arm/cpu/tegra20-common/clock.c</a></td>*
+*<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=arch/arm/cpu/tegra20-common/clock.c;h=12987a6893691f8646016ac1e242b71519a811da;hb=HEAD">arch/arm/cpu/tegra20-common/clock.c</a></td>*
 *</tr>*
 *</table>*
 
@@ -196,21 +196,21 @@ about the device and fills in the `ueth_data` structure.
 <table>
 <tr>
 <td><b> Header File</b></td>
-<td><a href="http://git.denx.de/">include/net.h</a></td>
-<td> <a href="http://git.denx.de/">include/usb_ether.h</a></td>
+<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=include/net.h;h=970d4d1fab13df2c093062e1cf015625bb5db558;hb=HEAD">include/net.h</a></td>
+<td> <a href="http://git.denx.de/?p=u-boot.git;a=blob;f=include/usb_ether.h;h=7c7aecb30574d4536915f20f262a858470160421;hb=HEAD">include/usb_ether.h</a></td>
 </tr>
 <tr>
 <td> <b>Implementation File</b></td>
-<td><a href="http://git.denx.de/">drivers/net/lan91c96.c</a> *(private to driver)*</td>
+<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/net/lan91c96.c;h=11d350eb8daeeefdf87724b62c4f0e4039a9e713;hb=HEAD">drivers/net/lan91c96.c</a> *(private to driver)*</td>
 </tr>
 <tr>
 <td> <b>Makefile</b></td>
-<td><a href="http://git.denx.de/">drivers/net/Makefile</a> </td>
+<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/net/Makefile;h=786a6567a5fc9ba5dbfc2c68262a789c5338a2ea;hb=HEAD">drivers/net/Makefile</a> </td>
 </tr>
 <tr>
 <td> <b>Example</b></td>
 <td><a href="http://drivers/usb/eth/asix.c">drivers/usb/eth/asix.c</a> *(specific adapter)*</td>
-<td> <a href="http://git.denx.de/">drivers/usb/eth/usb_ether.c</a> *(generic interface)*</td>
+<td> <a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/usb/eth/usb_ether.c;h=f361e8b16857eeb7815f7ae594e83567246bce09;hb=HEAD">drivers/usb/eth/usb_ether.c</a> *(generic interface)*</td>
 </tr>
 </table>
 
@@ -231,8 +231,8 @@ read as 0 or 1. If an output, then its value can be set to 0 or 1.
 #### Generic GPIO Interface
 
 U-Boot provides a generic GPIO interface in
-`[include/asm-generic/gpio.h](http://git.denx.de/)`. This interface provides the
-following functions:
+`[include/asm-generic/gpio.h](http://git.denx.de/?p=u-boot.git;a=blob;f=include/asm-generic/gpio.h;h=bfedbe44596aa31fb2266f7e052a63401f06d181;hb=HEAD)`.
+This interface provides the following functions:
 
 <table>
 <tr>
@@ -327,7 +327,7 @@ able to accept both numbers and names for GPIO pins, as defined in gpio.h.
 *<table>*
 *<tr>*
 *<td><b> Header File</b></td>*
-*<td><a href="http://git.denx.de/">arch/arm/include/asm/arch-tegra20/gpio.h</a></td>*
+*<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=arch/arm/include/asm/arch-tegra20/gpio.h;h=e2848fec67ba58d038b20f8666ccf693f4beafd1;hb=HEAD">arch/arm/include/asm/arch-tegra20/gpio.h</a></td>*
 *</tr>*
 *<tr>*
 *<td> <b>Implementation File</b></td>*
@@ -335,11 +335,11 @@ able to accept both numbers and names for GPIO pins, as defined in gpio.h.
 *</tr>*
 *<tr>*
 *<td><b> Makefile</b></td>*
-*<td><a href="http://git.denx.de/">drivers/gpio/Makefile</a></td>*
+*<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/gpio/Makefile;h=9df1e2632f774805b635edd317292cb3196fa6cf;hb=HEAD">drivers/gpio/Makefile</a></td>*
 *</tr>*
 *<tr>*
 *<td> <b>Example</b></td>*
-*<td><a href="http://git.denx.de/">drivers/gpio/tegra_gpio.c</a> (?)</td>*
+*<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/gpio/tegra_gpio.c;h=2417968214d7f075db3cec79af623c21cc16f012;hb=HEAD">drivers/gpio/tegra_gpio.c</a> (?)</td>*
 *</tr>*
 *</table>*
 
@@ -429,19 +429,19 @@ read and write data.
 <table>
 <tr>
 <td><b> Header File</b></td>
-<td><a href="http://git.denx.de/">include/i2c.h</a></td>
+<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=include/i2c.h;h=c60d07583bf68cbcc3b1dc6bf67f41a44585c920;hb=HEAD">include/i2c.h</a></td>
 </tr>
 <tr>
 <td> <b>Implementation File</b></td>
-<td><a href="http://git.denx.de/">drivers/i2c/*driverName.c*</a></td>
+<td><a href="http://git.denx.de/?p=u-boot.git;a=tree;f=drivers/i2c;hb=HEAD">drivers/i2c/*driverName.c*</a></td>
 </tr>
 <tr>
 <td> <b>Makefile</b></td>
-<td><a href="http://git.denx.de/">drivers/i2c/Makefile</a></td>
+<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/i2c/Makefile;h=5dbdbe3672259c0d9a72bd79502fe99990f1cbde;hb=HEAD">drivers/i2c/Makefile</a></td>
 </tr>
 <tr>
 <td> <b>Example</b></td>
-<td><a href="http://git.denx.de/">drivers/tegra_i2c.c</a></td>
+<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/i2c/tegra_i2c.c;h=efc77fa910fcc7dcb969afc99d5c5822b99096f1;hb=HEAD">drivers/tegra_i2c.c</a></td>
 </tr>
 </table>
 
@@ -472,8 +472,8 @@ AP.
 </tr>
 <tr>
 <td> <b>Implementation File</b></td>
-<td><a href="http://git.denx.de/">drivers/input/keyboard.c</a></td>
-<td><a href="http://git.denx.de/">drivers/input/i8042.c</a></td>
+<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/input/keyboard.c;h=614592ef3c18febcf27f23a7ac600208d9db03aa;hb=HEAD">drivers/input/keyboard.c</a></td>
+<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/input/i8042.c;h=26958aaa3eaca4e9a3dced2bd3d6fc81735a08bb;hb=HEAD">drivers/input/i8042.c</a></td>
 </tr>
 <tr>
 <td> <b>Makefile</b></td>
@@ -571,8 +571,8 @@ configuration file.
 <td> <b>Implementation File</b></td>
 <td>drivers/input/cros_ec_keyb.c</td>
 <td>*(uses standard input layer of U-Boot:*</td>
-<td><a href="http://git.denx.de/">drivers/input/input.c</a> *and*</td>
-<td><a href="http://git.denx.de/">drivers/input/key_matrix.c</a>)</td>
+<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/input/input.c;h=04fa5f0bd200d2ce45f2a488561290bb21772862;hb=HEAD">drivers/input/input.c</a> *and*</td>
+<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/input/key_matrix.c;h=946a186a1ffaf2ad511cba5e0749efc53ddf8e16;hb=HEAD">drivers/input/key_matrix.c</a>)</td>
 </tr>
 <tr>
 <td> <b>Makefile</b></td>
@@ -580,7 +580,7 @@ configuration file.
 </tr>
 <tr>
 <td> <b>Example</b></td>
-<td><a href="http://git.denx.de/">drivers/input/tegra-kbc.c</a></td>
+<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/input/tegra-kbc.c;h=88471d3edf253e432458a44fb0c8d5ed29317d47;hb=HEAD">drivers/input/tegra-kbc.c</a></td>
 </tr>
 </table>
 
@@ -675,20 +675,20 @@ drivers/video directory.
 *<table>*
 *<tr>*
 *<td><b> Header File</b></td>*
-*<td> <a href="http://git.denx.de/">include/lcd.h</a></td>*
+*<td> <a href="http://git.denx.de/?p=u-boot.git;a=blob;f=include/lcd.h;h=42070d76366e8465a84baf3e90a7e95bff429a62;hb=HEAD">include/lcd.h</a></td>*
 *</tr>*
 *<tr>*
 *<td> <b>Implementation File</b></td>*
-*<td> <a href="http://git.denx.de/">drivers/video</a></td>*
+*<td> <a href="http://git.denx.de/?p=u-boot.git;a=tree;f=drivers/video;h=e7574c212fc1aef7e44d7a541a77c648f5519781;hb=HEAD">drivers/video</a></td>*
 *</tr>*
 *<tr>*
 *<td> <b>Makefile</b></td>*
-*<td> <a href="http://git.denx.de/">drivers/video/Makefile</a></td>*
+*<td> <a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/video/Makefile;h=ebb6da823cee9e945da43e4f76b4549c59cbe7df;hb=HEAD">drivers/video/Makefile</a></td>*
 *</tr>*
 *<tr>*
 *<td> <b>Example </b></td>*
 *<td> CONFIG_LCD___</td>*
-*<td> <a href="http://git.denx.de/">drivers/video/tegra.c</a></td>*
+*<td> <a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/video/tegra.c;h=750a2834383f035109ed2f6bd012f63bbfc64243;hb=HEAD">drivers/video/tegra.c</a></td>*
 *</tr>*
 *</table>*
 
@@ -701,7 +701,7 @@ U-Boot.
 *<table>*
 *<tr>*
 *<td><b> Header File</b></td>*
-*<td> <a href="http://git.denx.de/">include/video.h</a></td>*
+*<td> <a href="http://git.denx.de/?p=u-boot.git;a=blob;f=include/lcd.h;h=42070d76366e8465a84baf3e90a7e95bff429a62;hb=HEAD">include/video.h</a></td>*
 *</tr>*
 *<tr>*
 *<td> <b>Implementation File</b></td>*
@@ -709,12 +709,12 @@ U-Boot.
 *</tr>*
 *<tr>*
 *<td> <b>Makefile</b></td>*
-*<td> <a href="http://git.denx.de/">drivers/video/Makefile</a></td>*
+*<td> <a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/video/Makefile;h=ebb6da823cee9e945da43e4f76b4549c59cbe7df;hb=HEAD">drivers/video/Makefile</a></td>*
 *</tr>*
 *<tr>*
 *<td> <b>Example</b></td>*
 *<td> CONFIG_VIDEO___</td>*
-*<td> <a href="http://git.denx.de/">drivers/video/coreboot_fb.c </a></td>*
+*<td> <a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/video/coreboot_fb.c;h=d93bd894a225763791d35f9d00ea562cc32a0c2e;hb=HEAD">drivers/video/coreboot_fb.c </a></td>*
 *</tr>*
 *</table>*
 
@@ -769,7 +769,7 @@ boot time and can be initialized later by the kernel.
 <table>
 <tr>
 <td><b> Header File</b></td>
-<td><a href="http://git.denx.de/">arch/arm/include/asm/arch-tegra20/pinmux.h</a></td>
+<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=arch/arm/include/asm/arch-tegra20/pinmux.h;h=797e158e68ae49b14cf646a76add1d5098eff8da;hb=HEAD">arch/arm/include/asm/arch-tegra20/pinmux.h</a></td>
 </tr>
 <tr>
 <td> <b>Implementation File</b></td>
@@ -791,7 +791,7 @@ boot time and can be initialized later by the kernel.
 <td> <b>Example</b></td>
 <td> *<table>*</td>
 <td> *<tr>*</td>
-<td> *<td><a href="http://git.denx.de/">arch/arm/cpu/tegra20-common/pinmux.c</a></td>*</td>
+<td> *<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=arch/arm/cpu/tegra20-common/pinmux.c;h=a2a09169e54bc46acbdc0b2bc5f89478a775b2be;hb=HEAD">arch/arm/cpu/tegra20-common/pinmux.c</a></td>*</td>
 <td> *</tr>*</td>
 <td> *</table>*</td>
 </tr>
@@ -835,11 +835,11 @@ such as the display and eMMC. It also checks the battery if needed.
 *</tr>*
 *<tr>*
 *<td> <b>Makefile</b></td>*
-*<td><a href="http://git.denx.de/">drivers/power/Makefile</a></td>*
+*<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/power/Makefile;h=8c7190156c302b60b9f5b8601bc7e4e7a0594b73;hb=HEAD">drivers/power/Makefile</a></td>*
 *</tr>*
 *<tr>*
 *<td> <b>Example</b></td>*
-*<td>CONFIG_POWER_MAX8998 (for PMIC) CONFIG_POWER_BATTERY_ <a href="http://git.denx.de/">board/samsung/trats/trats.c</a></td>*
+*<td>CONFIG_POWER_MAX8998 (for PMIC) CONFIG_POWER_BATTERY_ <a href="http://git.denx.de/?p=u-boot.git;a=blob;f=board/samsung/trats/trats.c;h=e540190984740da822678724a71ffed0764b1cb2;hb=HEAD">board/samsung/trats/trats.c</a></td>*
 *</tr>*
 *</table>*
 
@@ -869,12 +869,12 @@ to implement include the following:
 *<table>*
 *<tr>*
 *<td><b> Header File</b></td>*
-*<td><a href="http://git.denx.de/">include/pwm.h</a> (basic interface)</td>*
-*<td> <a href="http://git.denx.de/">arch/arm/include/asm/arch-tegra20/pwm.h </a>(AP functions)</td>*
+*<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=include/pwm.h;h=13acf85933b3afab39f20e04a5520077864f598b;hb=HEAD">include/pwm.h</a> (basic interface)</td>*
+*<td> <a href="http://git.denx.de/?p=u-boot.git;a=blob;f=arch/arm/include/asm/arch-tegra20/pwm.h;h=9e03837ccbbc0418c6b7c4d58c187fb4cabc4bce;hb=HEAD">arch/arm/include/asm/arch-tegra20/pwm.h </a>(AP functions)</td>*
 *</tr>*
 *<tr>*
 *<td> <b>Implementation File</b></td>*
-*<td><a href="http://git.denx.de/">arch/arm/cpu/armv7/tegra20/pwm.c</a></td>*
+*<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=arch/arm/cpu/armv7/tegra20/pwm.c;h=b655c5cd06f28d748a56b9c91367529d0a61cca5;hb=HEAD">arch/arm/cpu/armv7/tegra20/pwm.c</a></td>*
 *</tr>*
 *<tr>*
 *<td> <b>Makefile</b></td>*
@@ -884,7 +884,7 @@ to implement include the following:
 *<td> <b>Example</b></td>*
 *<td> *<table>*</td>*
 *<td> *<tr>*</td>*
-*<td> *<td><a href="http://git.denx.de/">arch/arm/cpu/armv7/tegra20/pwm.c</a></td>*</td>*
+*<td> *<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=arch/arm/cpu/armv7/tegra20/pwm.c;h=b655c5cd06f28d748a56b9c91367529d0a61cca5;hb=HEAD">arch/arm/cpu/armv7/tegra20/pwm.c</a></td>*</td>*
 *<td> *</tr>*</td>*
 *<td> *</table>*</td>*
 *</tr>*
@@ -947,15 +947,15 @@ Key values to set in struct mmc include the following:
 *<table>*
 *<tr>*
 *<td><b> Header File</b></td>*
-*<td><a href="http://git.denx.de/">include/mmc.h</a></td>*
+*<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=include/mmc.h;h=a13e2bdcf16886a755a8cf8b74974b3425ca373b;hb=HEAD">include/mmc.h</a></td>*
 *</tr>*
 *<tr>*
 *<td> <b>Implementation File</b></td>*
-*<td><a href="http://git.denx.de/">drivers/mmc</a></td>*
+*<td><a href="http://git.denx.de/?p=u-boot.git;a=tree;f=drivers/mmc;hb=HEAD">drivers/mmc</a></td>*
 *</tr>*
 *<tr>*
 *<td> <b>Makefile</b></td>*
-*<td><a href="http://git.denx.de/">drivers/mmc/Makefile</a> </td>*
+*<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/mmc/Makefile;h=a1dd7302bfc732122fe6620ded02b46dd8c817fd;hb=HEAD">drivers/mmc/Makefile</a> </td>*
 *</tr>*
 *<tr>*
 *<td> <b>Example</b></td>*
@@ -980,8 +980,8 @@ example, board/samsung/dts/exynos5250-smdk5250.dts).
 Each device connected to the SPI bus (for example, the EC, touchpad, and SPI
 flash could all be connected to this bus) contains a reference to the `spi_slave
 structure` in its implementation file(for example, see
-`[drivers/mtd/spi/winbond.c](http://git.denx.de/)` for the SPI flash chip and
-`drivers/misc/cros-ec.c for the EC`.
+`[drivers/mtd/spi/winbond.c](http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/mtd/spi/winbond.c;h=f6aab3d32f459d82d0a9e606f4382fe67981160f;hb=HEAD)`
+for the SPI flash chip and `drivers/misc/cros-ec.c for the EC`.
 
 #### Implementation Notes
 
@@ -1017,19 +1017,19 @@ the `spi_release_bus()` function.
 <table>
 <tr>
 <td><b> Header File</b></td>
-<td><a href="http://git.denx.de/">include/spi.h</a></td>
+<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=include/spi.h;h=60e85db9a46e052c97b638c58bb93114a378e3b7;hb=HEAD">include/spi.h</a></td>
 </tr>
 <tr>
 <td> <b>Implementation File</b></td>
-<td><a href="http://git.denx.de/">drivers/spi/exynos_spi.c</a></td>
+<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/spi/exynos_spi.c;h=be60ada2ba43a17ecda4a8b968b08b791f0af73f;hb=HEAD">drivers/spi/exynos_spi.c</a></td>
 </tr>
 <tr>
 <td> <b>Makefile</b></td>
-<td><a href="http://git.denx.de/">drivers/spi/Makefile</a></td>
+<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/spi/Makefile;h=824d357d94818ea9c05fa5b0d437aff181b50195;hb=HEAD">drivers/spi/Makefile</a></td>
 </tr>
 <tr>
 <td> <b>Example</b></td>
-<td><a href="http://git.denx.de/">drivers/spi/exynos_spi.c</a></td>
+<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/spi/exynos_spi.c;h=be60ada2ba43a17ecda4a8b968b08b791f0af73f;hb=HEAD">drivers/spi/exynos_spi.c</a></td>
 </tr>
 </table>
 
@@ -1080,22 +1080,22 @@ functions defined in spi_flash_internal.h.
 <table>
 <tr>
 <td> <b>Header File</b> </td>
-<td> <a href="http://git.denx.de/">include/spi_flash.h</a></td>
-<td> <a href="http://git.denx.de/">drivers/mtd/spi/spi_flash_</a><a href="http://internal.h">internal.h</a></td>
+<td> <a href="http://git.denx.de/?p=u-boot.git;a=blob;f=include/spi_flash.h;h=9da90624f23d665fc58c95e37da02096b1adde07;hb=HEAD">include/spi_flash.h</a></td>
+<td> <a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/mtd/spi/spi_flash_internal.h;h=141cfa8b26d75e6e816c7315530854a93035b803;hb=HEAD">drivers/mtd/spi/spi_flash_</a><a href="http://internal.h">internal.h</a></td>
 </tr>
 <tr>
 <td> <b>Implementation File</b></td>
-<td> <a href="http://git.denx.de/">drivers/mtd/spi</a>/*yourDriver.c*</td>
+<td> <a href="http://git.denx.de/?p=u-boot.git;a=tree;f=drivers/mtd/spi;hb=HEAD">drivers/mtd/spi</a>/*yourDriver.c*</td>
 </tr>
 <tr>
 <td> <b>Makefile</b></td>
-<td> <a href="http://git.denx.de/">drivers/mtd/spi/Makefile</a>/</td>
+<td> <a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/mtd/spi/Makefile;h=90f83924e2bf23b9ab4c621495ca236c14a19acd;hb=HEAD">drivers/mtd/spi/Makefile</a>/</td>
 </tr>
 <tr>
 <td> <b>Example</b> </td>
 <td>CONFIG_SPI_FLASH and</td>
 <td> CONFIG_SPI_FLASH_winbond</td>
-<td> <a href="http://git.denx.de/">drivers/mtd/spi/winbond.c</a></td>
+<td> <a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/mtd/spi/winbond.c;h=f6aab3d32f459d82d0a9e606f4382fe67981160f;hb=HEAD">drivers/mtd/spi/winbond.c</a></td>
 </tr>
 </table>
 
@@ -1127,7 +1127,7 @@ To implement this driver, you have two tasks:
 </tr>
 <tr>
 <td> <b>Implementation File</b></td>
-<td><a href="http://git.denx.de/">common/cmd_dtt.c</a></td>
+<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=common/cmd_dtt.c;h=cd94423d21910d61055bade1bc285dbed099b9f9;hb=HEAD">common/cmd_dtt.c</a></td>
 </tr>
 <tr>
 <td> <b>Makefile</b></td>
@@ -1206,7 +1206,7 @@ benchmarking.
 *<table>*
 *<tr>*
 *<td><b> Header File</b></td>*
-*<td><a href="http://git.denx.de/">include/common.h</a></td>*
+*<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=include/common.h;h=4ad17eafb9b89a15975b0b8945a1b70c198d8d88;hb=HEAD">include/common.h</a></td>*
 *</tr>*
 *<tr>*
 *<td> <b>Implementation File</b></td>*
@@ -1219,7 +1219,7 @@ benchmarking.
 *<td> <b>Example</b></td>*
 *<td> *<table>*</td>*
 *<td> *<tr>*</td>*
-*<td> *<td><a href="http://git.denx.de/">arch/arm/cpu/armv7/s5p_common/timer.c</a></td>*</td>*
+*<td> *<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=arch/arm/cpu/armv7/s5p-common/timer.c;h=bb0e795e66823d4963acd309ebbdd3e67bf7d4a4;hb=HEAD">arch/arm/cpu/armv7/s5p_common/timer.c</a></td>*</td>*
 *<td> *</tr>*</td>*
 *<td> *</table>*</td>*
 *</tr>*
@@ -1254,7 +1254,7 @@ int tis_sendrecv(const uint8_t *sendbuf, size_t send_size, uint8_t *recvbu
 <table>
 <tr>
 <td> <b>Header File</b> </td>
-<td> <a href="http://git.denx.de/">include/tpm.h</a></td>
+<td> <a href="http://git.denx.de/?p=u-boot.git;a=blob;f=include/tpm.h;h=6b21e9c7349c298c6fc9253324112db58935f805;hb=HEAD">include/tpm.h</a></td>
 </tr>
 <tr>
 <td> <b>Implementation File</b></td>
@@ -1262,12 +1262,12 @@ int tis_sendrecv(const uint8_t *sendbuf, size_t send_size, uint8_t *recvbu
 </tr>
 <tr>
 <td> <b>Makefile</b></td>
-<td> <a href="http://git.denx.de/">drivers/tpm/Makefile</a></td>
+<td> <a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/tpm/Makefile;h=be11c8b595f1367daffc623aff8aa7c694a36749;hb=HEAD">drivers/tpm/Makefile</a></td>
 </tr>
 <tr>
 <td> <b>Example</b></td>
 <td> CONFIG_GENERIC_LPC_TPM</td>
-<td> <a href="http://git.denx.de/">drivers/tpm/generic_lpc_tpm.c</a></td>
+<td> <a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/tpm/generic_lpc_tpm.c;h=6c494eb98a339c5b77859bdbc1ccbd8e6a6a6ff5;hb=HEAD">drivers/tpm/generic_lpc_tpm.c</a></td>
 </tr>
 </table>
 
@@ -1305,19 +1305,19 @@ gd-&gt;flags |= GD_FLG_SILENT;
 *<table>*
 *<tr>*
 *<td><b> Header File</b></td>*
-*<td> <a href="http://git.denx.de/">include/serial.h</a></td>*
+*<td> <a href="http://git.denx.de/?p=u-boot.git;a=blob;f=include/serial.h;h=14f863ed20ec73f67ed2df791ad2ad4b904b689c;hb=HEAD">include/serial.h</a></td>*
 *</tr>*
 *<tr>*
 *<td> <b>Implementation File</b></td>*
-*<td> <a href="http://git.denx.de/">drivers/serial/</a></td>*
+*<td> <a href="http://git.denx.de/?p=u-boot.git;a=tree;f=drivers/serial;h=82deabb40ad2e94538a483ad8abfe9600b48d330;hb=HEAD">drivers/serial/</a></td>*
 *</tr>*
 *<tr>*
 *<td><b> Makefile</b></td>*
-*<td> <a href="http://git.denx.de/">drivers/serial/Makefile</a></td>*
+*<td> <a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/serial/Makefile;h=5e8b64873d9bb3beff8d9b7c41437908645601d8;hb=HEAD">drivers/serial/Makefile</a></td>*
 *</tr>*
 *<tr>*
 *<td> <b>Example</b></td>*
-*<td>CONFIG_SYS_NS16550 <a href="http://git.denx.de/">drivers/serial/serial_ns16550.c</a></td>*
+*<td>CONFIG_SYS_NS16550 <a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/serial/serial_ns16550.c;h=c1c0134bcb3fdd8ec7e6c8a93e9f463291b5b9ca;hb=HEAD">drivers/serial/serial_ns16550.c</a></td>*
 *</tr>*
 *</table>*
 
@@ -1413,8 +1413,8 @@ different aspects of USB, including the following:
 *<table>*
 *<tr>*
 *<td><b> Header File</b></td>*
-*<td><a href="http://git.denx.de/">drivers/usb/host/ehci.h</a></td>*
-*<td> <a href="http://git.denx.de/">drivers/usb/host/ohci.h</a></td>*
+*<td><a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/usb/host/ehci.h;h=1e3cd793b6091650ed1e7ed61b6bfca3f7046a69;hb=HEAD">drivers/usb/host/ehci.h</a></td>*
+*<td> <a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/usb/host/ohci.h;h=d977e8ff3ce31ee93990a68990590bafdc3800ea;hb=HEAD">drivers/usb/host/ohci.h</a></td>*
 *</tr>*
 *<tr>*
 *<td> <b>Implementation File</b></td>*
@@ -1430,7 +1430,7 @@ different aspects of USB, including the following:
 *</tr>*
 *<tr>*
 *<td> <b>Example</b></td>*
-*<td> <a href="http://git.denx.de/">drivers/usb/host/ehci-tegra.c</a></td>*
+*<td> <a href="http://git.denx.de/?p=u-boot.git;a=blob;f=drivers/usb/host/ehci-tegra.c;h=a1c43f8331787c7cf84e0eabcf0d373ae1ebabe4;hb=HEAD">drivers/usb/host/ehci-tegra.c</a></td>*
 *</tr>*
 *</table>*
 

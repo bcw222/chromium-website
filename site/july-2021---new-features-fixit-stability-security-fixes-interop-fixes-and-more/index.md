@@ -63,7 +63,7 @@ title: July 2021 - New features, fixit, stability/security fixes, interop fixes 
 
 <td><td>Capability Delegation</td></td>
 
-<td><td>mustaq@ finalized <a href="https://docs.google.com/document/d/1L66B1QtqHCzAKlLQXdtv-YCmlXrJhi2Je2Vo91XWMsQ/edit">Q3-Q4 shipping plan</a>:</td></td>
+<td><td>mustaq@ finalized <a href="https://docs.google.com/document/d/1L66B1QtqHCzAKlLQXdtv-YCmlXrJhi2Je2Vo91XWMsQ/edit?usp=sharing">Q3-Q4 shipping plan</a>:</td></td>
 
     <td><td>origin trial at M94</td></td>
 
@@ -175,19 +175,19 @@ title: July 2021 - New features, fixit, stability/security fixes, interop fixes 
 
 <td><td><td><img alt="image" src="https://lh6.googleusercontent.com/79QhFw8veAOa5QuPOd526oGT8RMnbdrC92KsMj0M1eVDPPxkq2oLAazEAHrbCQbcLs77tQ15B87YU9FmvTDcoarlqngKkuDVrvJlGfjX0AHI47LfHq3vflDsjgweFIKzz8DZsG49ow" height=11 width=277></td></td></td>
 
-<td><td><td>mustaq@ fixed a crash <a href="https://bugs.chromium.org/p/chromium/issues/detail">bug</a>. The root cause is simply that hittest code is unaware that the contenteditable element is not editable (<a href="https://chromium-review.googlesource.com/c/chromium/src/+/3006934">CL</a>).</td></td></td>
+<td><td><td>mustaq@ fixed a crash <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1196872">bug</a>. The root cause is simply that hittest code is unaware that the contenteditable element is not editable (<a href="https://chromium-review.googlesource.com/c/chromium/src/+/3006934">CL</a>).</td></td></td>
 
 <td><td><td>Binary size increase</td></td></td>
 
 <td><td><td><img alt="image" src="https://lh4.googleusercontent.com/-aonhm4OSowxVTec2CwsQtYUymc7eYGOUaq0JfDAw64zTSXv8nZcux24FLSxWn86NJv7Yn7g5dMpy3SJcw5dIolEBnJB2IVQfS0psqddF0GdSP6YBpu5na0NjnctDO1Xm43G89Uokw" height=540 width=123></td></td></td>
 
-<td><td><td>flackr@ investigated a binary size increase <a href="https://bugs.chromium.org/p/chromium/issues/detail">bug</a> on Android, where Android stretch shader adds a large (~6KB) shader string (shown above).</td></td></td>
+<td><td><td>flackr@ investigated a binary size increase <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1226170">bug</a> on Android, where Android stretch shader adds a large (~6KB) shader string (shown above).</td></td></td>
 
     <td><td><td>Short term, only include shader string on Android (<a
     href="https://chromium-review.googlesource.com/c/chromium/src/+/3016756">CL</a>).</td></td></td>
 
     <td><td><td>Long term, find a way to <a
-    href="https://bugs.chromium.org/p/chromium/issues/detail">compress
+    href="https://bugs.chromium.org/p/chromium/issues/detail?id=1227747">compress
     string</a>.</td></td></td>
 
 <td><td></tr></td></td>
@@ -234,7 +234,7 @@ title: July 2021 - New features, fixit, stability/security fixes, interop fixes 
 
 <td><td><td><img alt="image" src="https://lh3.googleusercontent.com/H3RZ16cqhZwwNG8O_ea_qJsLmxaiZLSeduLfiRnetgWljFW6x3Fvca8uzLrQD__RY42Lv-Zx5NaFTQmCprz95vdlNrIva0T-3aaIqCS0arWFcg0xyn_Y6HkV4a_eELFzd6cRAo-fKQ" height=113 width=277></td></td></td>
 
-<td><td><td>skobes@ landed a <a href="https://chromium-review.googlesource.com/c/chromium/src/+/3002029">CL</a> that fixes a jumpy scrollbar <a href="https://bugs.chromium.org/p/chromium/issues/detail">bug</a>.</td></td></td>
+<td><td><td>skobes@ landed a <a href="https://chromium-review.googlesource.com/c/chromium/src/+/3002029">CL</a> that fixes a jumpy scrollbar <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1175210">bug</a>.</td></td></td>
 
 <td><td></tr></td></td>
 <td><td></table></td></td>

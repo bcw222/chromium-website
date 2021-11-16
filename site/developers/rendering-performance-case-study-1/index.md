@@ -103,7 +103,7 @@ are tiles much further away from the viewport that are still resident in memory
 -- this indicates suboptimal resource management.
 
 Conclusion: file a Chrome bug with these findings,
-[crbug.com/412436](https://code.google.com/p/chromium/issues/detail)
+[crbug.com/412436](https://code.google.com/p/chromium/issues/detail?id=412436)
 
 Symptom: Tap delay on menu button
 

@@ -27,7 +27,7 @@ title: Bug Life Cycle and Reporting Guidelines
 *   Report bugs at
             <https://code.google.com/p/chromium/issues/entry?template=Defect%20on%20Chrome%20OS>
 *   View existing bugs at [Chromium OS
-            issues](https://code.google.com/p/chromium/issues/list)
+            issues](https://code.google.com/p/chromium/issues/list?can=2&q=os%3Dchrome)
 
 You need a [Google Account](https://www.google.com/accounts/NewAccount)
 associated with your email address in order to use the bug system.

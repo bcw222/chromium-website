@@ -85,10 +85,11 @@ Open
 
 ## Interpretation of the plot. A case study.
 
-Let's profile [Octane's](http://www.google.com/url) pdfjs benchmark. Due to the
-nature of the benchmark, having many accesses to typed arrays, we expect a
-considerable amount of time being spent in external callbacks (which implement
-typed arrays).
+Let's profile
+[Octane's](http://www.google.com/url?sa=D&q=http%3A%2F%2Foctane-benchmark.googlecode.com)
+pdfjs benchmark. Due to the nature of the benchmark, having many accesses to
+typed arrays, we expect a considerable amount of time being spent in external
+callbacks (which implement typed arrays).
 
 Figure 1: Using only `--prof`, the resulting plot only contains the sampling
 based data. Note that the granularity isn't really enough to get a good picture

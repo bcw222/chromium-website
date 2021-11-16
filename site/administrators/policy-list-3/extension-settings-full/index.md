@@ -9,9 +9,10 @@ title: Extension Settings Full Description
 ---
 
 **For help setting this policy, see the help center for examples for
-[Windows](https://support.google.com/chrome/a/answer/7532015),
-[macOS](https://support.google.com/chrome/a/answer/7517624), and
-[Linux](https://support.google.com/chrome/a/answer/7517525).**
+[Windows](https://support.google.com/chrome/a/answer/7532015?hl=en&ref_topic=7517516),
+[macOS](https://support.google.com/chrome/a/answer/7517624?hl=en&ref_topic=7517516),
+and
+[Linux](https://support.google.com/chrome/a/answer/7517525?hl=en&ref_topic=7517516).**
 
 This policy controls multiple settings, including settings controlled by any
 existing extension-related policies. This policy will override any legacy

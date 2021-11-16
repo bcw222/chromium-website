@@ -11,155 +11,172 @@ Its goal is to explain the current design in a way that further work can be
 developed in-style, or so that our assumptions can be challenged, changed, and
 improved.
 
-<div class="two-column-container">
-<div class="column">
+<table>
+<tr>
 
-![Chrome](/user-experience/Chrome.png)
+<td><a href="/user-experience/Chrome.png"><img alt="image"
+src="/user-experience/Chrome.png"></a></td>
 
-## Chrome Features
+<td>## Chrome Features</td>
 
-### Window
+<td><b>Window</b></td>
 
-[Window Frame](/user-experience/window-frame) |
-[Tabs](/user-experience/tabs) |
-[Throbber](/user-experience/tabs/throbber) |
-[Toolbar](/user-experience/toolbar) |
-[Omnibox](/user-experience/omnibox)
+<td><a href="/user-experience/window-frame">Window Frame</a> | <a
+href="/user-experience/tabs">Tabs</a> | <a
+href="/user-experience/tabs/throbber">Throbber</a> | <a
+href="/user-experience/toolbar">Toolbar</a> | <a
+href="/user-experience/omnibox">Omnibox</a> </td>
 
-### Browsing
+<td><b>Browsing</b></td>
 
-[Bookmarks](/user-experience/bookmarks) |
-[History](/user-experience/history) |
-[New Tab Page](/user-experience/new-tab-page)
+<td><a href="/user-experience/bookmarks">Bookmarks</a> | <a
+href="/user-experience/history">History</a> | <a
+href="/user-experience/new-tab-page">New Tab Page</a> </td>
 
-### Additional UI
+<td><b>Additional UI</b></td>
 
-[Downloads](/user-experience/downloads) |
-[Status Bubble](/user-experience/status-bubble) |
-[Find in Page](/user-experience/find-in-page) |
-[Options](/user-experience/options">Options) |
-[Incognito](/user-experience/incognito)
+<td><a href="/user-experience/downloads">Downloads</a> | <a
+href="/user-experience/status-bubble">Status Bubble</a> | <a
+href="/user-experience/find-in-page">Find in Page</a> | <a
+href="/user-experience/options">Options</a> | <a
+href="/user-experience/incognito">Incognito</a> </td>
 
-[Notifications](/user-experience/notifications) |
-[Infobars](/user-experience/infobars) |
-[Multiple Chrome Users](/user-experience/multi-profiles)
+<td><a href="/user-experience/notifications">Notifications</a> | <a
+href="/user-experience/infobars">Infobars</a> | <a
+href="/user-experience/multi-profiles">Multiple Chrome Users</a> </td>
 
-### Appearance
+<td><b>Appearance</b></td>
 
-["/user-experience/visual-design) |
-["/user-experience/resolution-independence) |
-Themes
+<td><a href="/user-experience/visual-design">Visual Design</a> | <a
+href="/user-experience/resolution-independence">Resolution Independence</a> |
+Themes</td>
 
-### Accessibility
+<td><b>Accessibility</b></td>
 
-[Keyboard Access](/user-experience/keyboard-access) |
-Touch Access |
-[Low-Vision Support](/user-experience/low-vision-support) |
-[Screen reader support](/user-experience/assistive-technology-support)
+<td><a href="/user-experience/keyboard-access">Keyboard Access</a> | Touch
+Access | <a href="/user-experience/low-vision-support">Low-Vision Support</a> |
+<a href="/user-experience/assistive-technology-support">Screen reader
+support</a> </td>
 
-### UI text
+<td><b>UI text</b></td>
 
-[Write strings](/user-experience/ui-strings) |
-[Write message descriptions](/developers/design-documents/ui-localization#TOC-Use-message-meanings-to-disambiguate-strings)
+<td><a href="/user-experience/ui-strings">Write strings</a> | <a
+href="/developers/design-documents/ui-localization#TOC-Use-message-meanings-to-disambiguate-strings">Write
+message descriptions</a></td>
 
-## UX themes
+<td>## UX themes</td>
 
-### Content not chrome
+<td><b>Content not chrome</b> </td>
 
-*   In the long term, we think of Chromium as a tabbed window
-    manager or shell for the web rather than a browser application. We
-    avoid putting things into our UI in the same way you would hope that
-    Apple and Microsoft would avoid putting things into the standard
-    window frames of applications on their operating systems.</td>
-*   The tab is our equivalent of a desktop application's title bar;
-    the frame containing the tabs is a convenient mechanism for managing
-    groups of those applications. In future, there may be other tab
-    types that do not host the normal browser toolbar.</td>
-*   Chrome OS: A system UI that uses as little screen space as
-    possible by combining apps and standard web pages into a minimal tab
-    strip: While existing operating systems have web tabs and native
-    applications in two separate strips, Chromium OS combines these,
-    giving you access to everything from one strip. The tab is the
-    equivalent of a desktop application's title bar; the frame
-    containing the tabs is a simple mechanism for managing sets of those
-    applications and pages. We are exploring
-    ["/chromium-os/user-experience/window-ui">three main
-    variants) for the window UI. All of them reflect this unified
-    strip.
-*   Chrome OS: Reduced window management: No pixel-level window
-    positioning, instead operating in a full-screen mode and exploring
-    new ways to handle secondary tasks:
-    *   Panels, floating windows that can dock to the bottom of the
-        screen as a means of handling tasks like chat, music players, or
-        other accessories.
-    *   Split screen, for viewing two pieces of content side-by-side.
+*   <td>In the long term, we think of Chromium as a tabbed window
+            manager or shell for the web rather than a browser application. We
+            avoid putting things into our UI in the same way you would hope that
+            Apple and Microsoft would avoid putting things into the standard
+            window frames of applications on their operating systems.</td>
+*   <td>The tab is our equivalent of a desktop application's title bar;
+            the frame containing the tabs is a convenient mechanism for managing
+            groups of those applications. In future, there may be other tab
+            types that do not host the normal browser toolbar.</td>
+*   <td>Chrome OS: A system UI that uses as little screen space as
+            possible by combining apps and standard web pages into a minimal tab
+            strip: While existing operating systems have web tabs and native
+            applications in two separate strips, Chromium OS combines these,
+            giving you access to everything from one strip. The tab is the
+            equivalent of a desktop application's title bar; the frame
+            containing the tabs is a simple mechanism for managing sets of those
+            applications and pages. We are exploring <a
+            href="/chromium-os/user-experience/window-ui">three main
+            variants</a> for the window UI. All of them reflect this unified
+            strip.</td>
+*   <td>Chrome OS: Reduced window management: No pixel-level window
+            positioning, instead operating in a full-screen mode and exploring
+            new ways to handle secondary tasks:</td>
+    *   <td>Panels, floating windows that can dock to the bottom of the
+                screen as a means of handling tasks like chat, music players, or
+                other accessories.</td>
+    *   <td>Split screen, for viewing two pieces of content
+                side-by-side.</td>
 
-#### Light, fast, responsive, tactile
+<td><b>Light, fast, responsive, tactile</b></td>
 
-*   Chromium should feel lightweight (cognitively and physically) and fast.
-    *   Web applications with the functionality of desktop applications
+*   <td>Chromium should feel lightweight (cognitively and physically)
+            and fast.</td>
 
-*   Enhanced functionality through HTML 5: offline modes, background
-    processing, notifications, and more.
-*   Better access points and discovery: On Chromium-based browsers,
-    we've addressed the access point issue by allowing applications to
-    install shortcuts on your desktop. Similarly, we are using
-    ["/chromium-os/user-experience/tab-ui">pinned tabs) and
-    search as a way to quickly access apps in Chromium OS.
-*   While the tab bar is sufficient to access existing tabs, we are
-    creating a new primary  ["/chromium-os/user-experience/access-points">access point)
-    that provides a list of frequently used applications and tools.
+<td><b>Web applications with the functionality of desktop applications</b></td>
 
-#### Search as a primary form of navigation
+*   <td>Enhanced functionality through HTML 5: offline modes, background
+            processing, notifications, and more.</td>
+*   <td>Better access points and discovery: On Chromium-based browsers,
+            we've addressed the access point issue by allowing applications to
+            install shortcuts on your desktop. Similarly, we are using <a
+            href="/chromium-os/user-experience/tab-ui">pinned tabs</a> and
+            search as a way to quickly access apps in Chromium OS.</td>
+*   <td>While the tab bar is sufficient to access existing tabs, we are
+            creating a new primary <a
+            href="/chromium-os/user-experience/access-points">access point</a>
+            that provides a list of frequently used applications and tools.</td>
 
-*   Chromium's address bar and the Quick Search Box have simplified
-    the way you access personal content and the web. In Chromium OS, we
-    are unifying the behavior of the two, and exploring how each can be
-    used to make navigation faster and more intuitive.
+<td><b>Search as a primary form of navigation</b></td>
 
-</div>
-<div class="column">
+*   <td>Chromium's address bar and the Quick Search Box have simplified
+            the way you access personal content and the web. In Chromium OS, we
+            are unifying the behavior of the two, and exploring how each can be
+            used to make navigation faster and more intuitive.</td>
 
-![image](/user-experience/ChromeOS.png)
+<td><a href="/user-experience/ChromeOS.png"><img alt="image"
+src="/user-experience/ChromeOS.png"></a></td>
 
-## Chrome OS Features
+<td>## Chrome OS Features</td>
 
-Note: UI under development. Designs are subject to change.
+<td><b>Note: UI under development. Designs are subject to change.</b></td>
 
-### Primary UI
+<td><b>Primary UI</b></td>
 
-[Window UI Variations](/chromium-os/user-experience/window-ui) |
-[Window Management](/chromium-os/user-experience/window-management) |
-[Pinned Tabs](/chromium-os/user-experience/tab-ui) |
-[Apps Menu](/chromium-os/user-experience/access-points) |
-[Panels](/chromium-os/user-experience/panels)
+<td><a href="/chromium-os/user-experience/window-ui">Window UI Variations</a> |
+<a href="/chromium-os/user-experience/window-management">Window Management</a> |
+<a href="/chromium-os/user-experience/tab-ui">Pinned Tabs</a> | <a
+href="/chromium-os/user-experience/access-points">Apps Menu</a> | <a
+href="/chromium-os/user-experience/panels">Panels</a> </td>
 
-UI Elements |
-[Gestures](/user-experience/multitouch) |
-[System Status](/chromium-os/user-experience/system-status-icons)
+<td><a href="/system/errors/NodeNotFound">UI Elements</a> | <a
+href="/user-experience/multitouch">Gestures</a> | <a
+href="/chromium-os/user-experience/system-status-icons">System Status
+Icons</a></td>
 
-### Core Applications
+<td><b>Core Applications</b></td>
 
-Settings |
-[Content Browser](/chromium-os/user-experience/content-browser) |
-[Open/Save Dialogs](/chromium-os/user-experience/opensave-dialogs) |
-[Shelf](/chromium-os/user-experience/shelf)
+<td> <a href="javascript:void(0);">Settings</a> | <a
+href="/chromium-os/user-experience/content-browser">Content Browser</a> | <a
+href="/chromium-os/user-experience/opensave-dialogs">Open/Save Dialogs</a> | <a
+href="/chromium-os/user-experience/shelf">Shelf</a> </td>
 
-### Devices
+<td><b>Devices</b></td>
 
-[Form Factors](/chromium-os/user-experience/form-factors) |
-[Resolution Independence](/user-experience/resolution-independence)
+<td> <a href="/chromium-os/user-experience/form-factors">Form Factors</a> | <a
+href="/user-experience/resolution-independence">Resolution Independence</a>
+</td>
 
-## Video and Screenshots
+<td>## Video and Screenshots</td>
 
-The implementation, the concept video, and the screenshots are presenting
-different UI explorations. Expect to see some variation.
+<td>The implementation, the concept video, and the screenshots are presenting
+different UI explorations. Expect to see some variation.</td>
 
-![image](/chromium-os/user-experience/Concept2.jpg)
+<td><b><a href="http://www.youtube.com/watch?v=hJ57xzo287U"><img alt="image"
+src="/chromium-os/user-experience/Concept2.jpg"></a></b></td>
 
-<img alt="image" src="/chromium-os/user-experience/sdres_0000_Basic.png" height=112 width=200>
-<img alt="image" src="/chromium-os/user-experience/sdres_0001_App-Menu.png" height=112 width=200>
-<img alt="image" src="/chromium-os/user-experience/sdres_0002_Panels.png" height=112 width=200>
+<td><a href="/chromium-os/user-experience/sdres_0000_Basic.png"><img alt="image"
+src="/chromium-os/user-experience/sdres_0000_Basic.png" height=112
+width=200></a> <a
+href="/chromium-os/user-experience/sdres_0001_App-Menu.png"><img alt="image"
+src="/chromium-os/user-experience/sdres_0001_App-Menu.png" height=112
+width=200></a> <a href="/chromium-os/user-experience/sdres_0002_Panels.png"><img
+alt="image" src="/chromium-os/user-experience/sdres_0002_Panels.png" height=112
+width=200></a> </td>
 
-</div>
-</div>
+</tr>
+</table>
+
+<table>
+<tr>
+</tr>
+</table>

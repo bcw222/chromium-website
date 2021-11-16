@@ -252,8 +252,8 @@ problems with Websites. Using them can greatly decrease the amount of effort and
 guesswork that goes into fixing compatibility issues:
 
 1.  Google Chrome has a [variety of built-in
-            tools](http://www.google.com/support/chrome/bin/answer.py) to help
-            developers track down compatibility and performance issues.
+            tools](http://www.google.com/support/chrome/bin/answer.py?hl=en&answer=95691)
+            to help developers track down compatibility and performance issues.
 2.  [Firebug](http://getfirebug.com/) - An excellent Firefox extension
             that can help examining markup, JavaScript and performance issues.
 3.  [Fiddler](http://www.fiddler2.com/) - A free Windows-only tool that

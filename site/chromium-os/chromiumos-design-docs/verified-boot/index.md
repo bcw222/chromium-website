@@ -149,7 +149,7 @@ into the kernel or supplied through a device interface from a trusted initial
 RAM disk.
 
 [<img alt="image"
-src="/chromium-os/chromiumos-design-docs/verified-boot/diag2png">](http://sites.google.com/a/chromium.org/dev/chromium-os/chromiumos-design-docs/verified-boot/diag2.png)
+src="/chromium-os/chromiumos-design-docs/verified-boot/diag2png">](http://sites.google.com/a/chromium.org/dev/chromium-os/chromiumos-design-docs/verified-boot/diag2.png?attredirects=0)
 
 Note that SHA-1 is considered to be [unsafe after 2010 by
 NIST](http://csrc.nist.gov/groups/ST/toolkit/secure_hashing.html) for general

@@ -29,11 +29,12 @@ for the complete command line used in the current instance.
 1.  Exit any running-instance of Chrome.
 2.  Right click on your "Chrome" shortcut.
 3.  Choose properties.
-4.  At the end of your "Target:" line add the command line flags. For example:
+4.  At the end of your "Target:" line add the command line flags. For
+            example:
     *   `--disable-gpu-vsync`
 5.  With that example flag, it should look like below (replacing
-    "--disable-gpu-vsync" with any other command line flags you want to
-    use):
+            "--disable-gpu-vsync" with any other command line flags you want to
+            use):
     `chrome.exe --disable-gpu-vsync`
 6.  Launch Chrome like normal with the shortcut.
 
@@ -42,8 +43,8 @@ for the complete command line used in the current instance.
 1.  Quit any running instance of Chrome.
 2.  Run your favorite Terminal application.
 3.  In the terminal, run commands like below (replacing
-    "--remote-debugging-port=9222" with any other command line flags you
-    want to use):
+            "--remote-debugging-port=9222" with any other command line flags you
+            want to use):
 
     ```none
     /Applications/Chromium.app/Contents/MacOS/Chromium --remote-debugging-port=9222
@@ -56,8 +57,8 @@ for the complete command line used in the current instance.
 1.  Quit any running instance of Chrome.
 2.  Run your favorite terminal emulator.
 3.  In the terminal, run commands like below (replacing
-    "--remote-debugging-port=9222" with any other command line flags you
-    want to use):
+            "--remote-debugging-port=9222" with any other command line flags you
+            want to use):
 
     ```none
     chromium-browser --remote-debugging-port=9222
@@ -79,7 +80,7 @@ App Store or Testflight).
 
 ## V8 Flags
 
-V8 can take a number of flags as well, via Chrome's `--js-flags` flag. For
+V8 can take a number of flags as well, via Chrome's `js-flags` flag. For
 example, this traces V8 optimizations:
 
 ```none
@@ -126,7 +127,8 @@ might no be enough to trigger reading this file). See
 There's an alternative method for setting flags with ContentShell that doesn't
 require building yourself:
 
-1.  Download a [LKGR build of Android](https://download-chromium.appspot.com/).
+1.  Download a [LKGR build of
+            Android](https://download-chromium.appspot.com/?platform=Android&type=continuous).
 2.  This will include both ChromePublic.apk and ContentShell.apk
 3.  Install ContentShell APK to your device.
 4.  Run this magic incantation
@@ -150,8 +152,9 @@ tree](https://chromium.googlesource.com/chromium/src/+/HEAD/android_webview/docs
 ## Chrome OS
 
 1.  Put the device into [dev mode, disable rootfs verification, and
-    bring up a command prompt](/chromium-os/poking-around-your-chrome-os-device).
+            bring up a command
+            prompt](/chromium-os/poking-around-your-chrome-os-device).
 2.  Modify /etc/chrome_dev.conf (read the comments in the file for more
-    details).
+            details).
 3.  Restart the UI via:
     `sudo restart ui`

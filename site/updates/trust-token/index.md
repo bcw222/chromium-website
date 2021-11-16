@@ -47,7 +47,7 @@ clarification, please file an issue at:
 
 If you have questions/suggestions related to the Chrome origin trial or
 implementation, please file a bug at: [Chromium Bug
-Tracker](https://bugs.chromium.org/p/chromium/issues/entry)
+Tracker](https://bugs.chromium.org/p/chromium/issues/entry?components=Internals%3ENetwork%3ETrustTokens)
 
 **Launch Timeline**
 

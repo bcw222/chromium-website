@@ -40,7 +40,7 @@ title: August 2021 (Vol.2) - New features, Code health, Stability/security fixes
 
 <td><td>xidachen@ resolved a few problems and this feature is now close to finch on Beta. Specifically we have enabled field trial testing (<a href="https://chromium-review.googlesource.com/c/chromium/src/+/3085961">CL</a>) so all perf bots can run tests with this feature. All regressions and improvements are summarized <a href="https://docs.google.com/document/d/1Fkp7udbCgYqVtNf4gn-NXGVYamPrd_n0qKqalruTq6E/edit#heading=h.6genmqxclwba">here</a>.</td></td>
 
-<td><td>We have resolved the memory increase (<a href="https://chromium-review.googlesource.com/c/chromium/src/+/3088776">CL</a>). Here is an <a href="https://bugs.chromium.org/p/chromium/issues/detail">example</a> where a perf test used to crash due to OOM now works fine.</td></td>
+<td><td>We have resolved the memory increase (<a href="https://chromium-review.googlesource.com/c/chromium/src/+/3088776">CL</a>). Here is an <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1238995">example</a> where a perf test used to crash due to OOM now works fine.</td></td>
 
 <td><td><img alt="image" src="https://lh3.googleusercontent.com/BlgpoWYHjGO-GwxXaaDY5Bx0AFAp6cww8WbcxkZecQRKvkvY5tIw60xzDE6XiWEbGIzGoH7f9deTeZKU_0QNoQkLwKJzl9PGfYVYW_SI3iFnwP-9j3zQ2EWUpytmUK4qtebbkwU6_w=s0" height=47 width=283></td></td>
 
@@ -127,7 +127,7 @@ title: August 2021 (Vol.2) - New features, Code health, Stability/security fixes
 
 <td><td><img alt="image" src="https://lh4.googleusercontent.com/hcw7zn56d5_NPAcmaJy1PaiMmtLKJul2Ze_tfE610DNIQs-wca7nZtOxOtXW-_v2i4IlpP-wyb4_zpJRm2uL2KPlUEGdciq-POm2T7UwR4dcwUyuFeOtLPomHUtDd8TvyNXOqHC1lA=s0" height=236 width=264></td></td>
 
-<td><td>skobes@ fixed a <a href="https://bugs.chromium.org/p/chromium/issues/detail">bug</a> where scrollTo doesn’t abort mouse wheel scroll animation. The solution is to cancel impl-side scroll animation when we get a programmatic scroll. This also fixed a bug in scroll unification.</td></td>
+<td><td>skobes@ fixed a <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1114794">bug</a> where scrollTo doesn’t abort mouse wheel scroll animation. The solution is to cancel impl-side scroll animation when we get a programmatic scroll. This also fixed a bug in scroll unification.</td></td>
 
 <td></tr></td>
 <td></table></td>

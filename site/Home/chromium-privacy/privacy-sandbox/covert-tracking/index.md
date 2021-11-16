@@ -68,8 +68,9 @@ Certain APIs expose more information than is strictly needed for their purpose.
 Efforts are underway to systematically identify these APIs and reduce the
 information exposed to the minimum required for their motivating use cases.
 Examples include the [device
-orientation](https://bugs.chromium.org/p/chromium/issues/detail) and
-[battery-level](https://bugs.chromium.org/p/chromium/issues/detail) APIs.
+orientation](https://bugs.chromium.org/p/chromium/issues/detail?id=1018180) and
+[battery-level](https://bugs.chromium.org/p/chromium/issues/detail?id=661792)
+APIs.
 
 ## Cache Inspection
 
@@ -79,7 +80,8 @@ will be in the HTTP cache of the browser. As a third party embedded on another
 site, it can attempt to load those resources in such a way that they will appear
 if they are in the cache but will not load from the server if they are not in
 the cache. This can create a stable cross-site identifier. Chrome will
-[partition the HTTP cache](https://groups.google.com/a/chromium.org/forum/)
+[partition the HTTP
+cache](https://groups.google.com/a/chromium.org/forum/?utm_medium=email&utm_source=footer#!msg/blink-dev/6KKXv1PqPZ0/3_1nYzrBBAAJ)
 using top frame origin in order to prevent using this technique to create the
 stable cross-site identifier. Chrome will also [need to partition or disable
 other means of storing data in third party

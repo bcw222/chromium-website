@@ -32,7 +32,7 @@ displays the current muting status.**
 user clicks the system / status tray in the lower-right corner of the screen:**
 
 **<img alt="image" src="https://lh4.googleusercontent.com/ibZ7w_Ljo-MURsOQhV0Dx-XZPpdDU5fLEKNKSOSLkh6BlyyiTvsk94XiNWQfLpVSpYLemRluuqywKIFvTKJDB_uUbLyl381r2Zby4kUUkkkpzSrdRJ8" height=362px; width=324px;>**
-**The volume keys’ current behavior was initially proposed in [chromium-os bug 13618](https://code.google.com/p/chromium-os/issues/detail). Briefly,**
+**The volume keys’ current behavior was initially proposed in [chromium-os bug 13618](https://code.google.com/p/chromium-os/issues/detail?id=13618). Briefly,**
 
 **### When not muted:**
 
@@ -56,6 +56,6 @@ user clicks the system / status tray in the lower-right corner of the screen:**
 
 **This is a poor substitute; decreasing the volume from 100% to 0% takes more than a second and the user is unable to easily restore the original volume level later.**
 
-**### The toggle button between the icon and the slider is confusing (see e.g. [this bug](https://code.google.com/p/chromium/issues/detail)).**
+**### The toggle button between the icon and the slider is confusing (see e.g. [this bug](https://code.google.com/p/chromium/issues/detail?id=170935)).**
 
-**The button was originally labeled, but the label’s visual appearance was sub-optimal ([chromium bug 143426](https://code.google.com/p/chromium/issues/detail)). Per [chromium bug 152070](https://code.google.com/p/chromium/issues/detail), the unlabeled button will be merged into a more-meaningful icon (as tracked in [chromium bug 137947](https://code.google.com/p/chromium/issues/detail)).**
+**The button was originally labeled, but the label’s visual appearance was sub-optimal ([chromium bug 143426](https://code.google.com/p/chromium/issues/detail?id=143426)). Per [chromium bug 152070](https://code.google.com/p/chromium/issues/detail?id=152070), the unlabeled button will be merged into a more-meaningful icon (as tracked in [chromium bug 137947](https://code.google.com/p/chromium/issues/detail?id=137947)).**

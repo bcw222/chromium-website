@@ -12,8 +12,8 @@ It's best to have discussions on chromium-dev@chromium.org or
 media-dev@chromium.org for media specific matters.
 
 We are component
-[Internals&gt;Media](https://bugs.chromium.org/p/chromium/issues/list) on the
-Chromium bug tracker.
+[Internals&gt;Media](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=component%3AInternals%3EMedia)
+on the Chromium bug tracker.
 
 ### Documentation
 

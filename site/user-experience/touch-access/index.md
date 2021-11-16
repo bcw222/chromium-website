@@ -11,8 +11,8 @@ an interface for users with disabilities to be able to interact with a touch
 screen. It's based on the same ideas used on [iOS
 VoiceOver](http://axslab.com/articles/ios-voiceover-gestures-and-keyboard-commands.php)
 and [Android
-TalkBack](https://support.google.com/accessibility/android/answer/6006598), but
-with a few Chrome-specific differences.
+TalkBack](https://support.google.com/accessibility/android/answer/6006598?hl=en),
+but with a few Chrome-specific differences.
 
 Currently iOS and Android provide mobile touch accessibility by allowing users
 to touch the screen to explore the content currently showing. The user can hear

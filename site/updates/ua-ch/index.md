@@ -42,8 +42,8 @@ that, though permitted in the HTTP specification, weren’t previously common in
 request headers, such as double-quotes (“), equal signs (=), forward-slashes
 (/), and question marks (?). Some Web-Application-Firewall (WAF) software, as
 well as backend security measures, may
-[mis-categorize](https://bugs.chromium.org/p/chromium/issues/detail) those new
-characters as “suspicious”, and as such, block those requests.
+[mis-categorize](https://bugs.chromium.org/p/chromium/issues/detail?id=1091285)
+those new characters as “suspicious”, and as such, block those requests.
 
 This typically presents itself as a 4XX HTTP response code (e.g. 400, 404 or
 422), either on any request or on POST requests or API endpoints (which servers
@@ -69,7 +69,7 @@ Here are some basic troubleshooting steps:
 If after trying these things, you have determined that it may be a UA-CH issue,
 please [file a CR bug](https://crbug.com/new), including \[UA-CH\] in its title.
 Add a comment about it to the following [tracking
-bug](https://bugs.chromium.org/p/chromium/issues/detail).
+bug](https://bugs.chromium.org/p/chromium/issues/detail?id=1091285).
 
 # **(Depricated) How to identify if a user is in the stable experiment**
 

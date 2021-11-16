@@ -272,7 +272,7 @@ Here is an early guess at sizes and layout of the EEPROM. These sizes may change
 as we progress with implementation.
 
 [<img alt="image"
-src="/chromium-os/chromiumos-design-docs/firmware-boot-and-recovery/eeprom-mappng">](http://sites.google.com/a/chromium.org/dev/chromium-os/chromiumos-design-docs/firmware-boot-and-recovery/eeprom-map.png)
+src="/chromium-os/chromiumos-design-docs/firmware-boot-and-recovery/eeprom-mappng">](http://sites.google.com/a/chromium.org/dev/chromium-os/chromiumos-design-docs/firmware-boot-and-recovery/eeprom-map.png?attredirects=0)
 
 ## Firmware block descriptions
 

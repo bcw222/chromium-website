@@ -20,7 +20,7 @@ Chromium OS consists of three major components:
 *   Firmware
 
 [<img alt="image"
-src="/chromium-os/chromiumos-design-docs/software-architecture/overviewpng">](http://sites.google.com/a/chromium.org/dev/chromium-os/chromiumos-design-docs/software-architecture/overview.png)
+src="/chromium-os/chromiumos-design-docs/software-architecture/overviewpng">](http://sites.google.com/a/chromium.org/dev/chromium-os/chromiumos-design-docs/software-architecture/overview.png?attredirects=0)
 
 ## High-level design
 
@@ -52,7 +52,7 @@ Our firmware will implement the following functionality:
             that is normally found in PC firmware.
 
 [<img alt="image"
-src="/chromium-os/chromiumos-design-docs/software-architecture/firmwarepng">](http://sites.google.com/a/chromium.org/dev/chromium-os/chromiumos-design-docs/software-architecture/firmware.png)
+src="/chromium-os/chromiumos-design-docs/software-architecture/firmwarepng">](http://sites.google.com/a/chromium.org/dev/chromium-os/chromiumos-design-docs/software-architecture/firmware.png?attredirects=0)
 
 ### System-level and user-land software
 
@@ -95,4 +95,4 @@ The window manager contains a compositor that animates these windows and renders
 them via OpenGL or OpenGL|ES.
 
 [<img alt="image"
-src="/chromium-os/chromiumos-design-docs/software-architecture/chromepng">](http://sites.google.com/a/chromium.org/dev/chromium-os/chromiumos-design-docs/software-architecture/chrome.png)
+src="/chromium-os/chromiumos-design-docs/software-architecture/chromepng">](http://sites.google.com/a/chromium.org/dev/chromium-os/chromiumos-design-docs/software-architecture/chrome.png?attredirects=0)

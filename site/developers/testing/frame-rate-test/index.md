@@ -119,7 +119,7 @@ not hardware-accelerated there.
     6.  [Linux Perf
                 (lowmem)](http://build.chromium.org/p/chromium.perf/builders/Linux%20Perf%20%28lowmem%29)
     > **([View all six
-    > here](http://build.chromium.org/p/chromium.perf/waterfall))**
+    > here](http://build.chromium.org/p/chromium.perf/waterfall?branch=&builder=XP+Interactive+Perf&builder=Mac10.5+Perf%283%29&builder=Mac10.6+Perf%283%29&builder=Old+Mac10.6+Perf%283%29&builder=Linux+Perf+%282%29&builder=Linux+Perf+%28lowmem%29&reload=none))**
 
 ### You can track the software rendered performance graphically using the [performance dashboard](http://build.chromium.org/f/chromium/perf/dashboard/overview.html). You may also click **\[**results**\]** from the [perf waterfall](http://build.chromium.org/p/chromium.perf/waterfall) to view the graph.
 
@@ -133,7 +133,7 @@ not hardware-accelerated there.
 
 Gestures are simply keyframe animations that are applied to the document scroll.
 The animations and their keyframes are stored in the `__gestures` object in
-[head.js](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/test/data/perf/frame_rate/head.js):
+[head.js](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/test/data/perf/frame_rate/head.js?view=markup):
 
 ```none
 var __gestures = {
@@ -161,12 +161,12 @@ You can either add keyframed animations to this list, or ask head.js to record a
 new gesture for you:
 
 1.  Open a webpage to record from (must include
-            [head.js](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/test/data/perf/frame_rate/head.js)).
+            [head.js](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/test/data/perf/frame_rate/head.js?view=markup)).
 2.  Type `__start_recording()` in the javascript console.
 3.  Perform any gestures you wish to record.
 4.  Type `__stop()` in the javascript console.
 5.  Copy the output from `JSON.stringify(__recording)` in the console.
 6.  Paste the output in
-            [head.js](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/test/data/perf/frame_rate/head.js)
+            [head.js](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/test/data/perf/frame_rate/head.js?view=markup)
             as a new member of `__gestures`.
 7.  Copy the formatting from other gestures.

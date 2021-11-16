@@ -30,7 +30,7 @@ M65](https://developers.google.com/web/updates/2018/03/nic65).
 Off-Thread Paint Worklet
 
 Off-Thread Paint Worklet ([design
-doc](https://docs.google.com/document/d/1USTH2Vd4D2tALsvZvy4B2aWotKWjkCYP5m0g7b90RAU/edit))
+doc](https://docs.google.com/document/d/1USTH2Vd4D2tALsvZvy4B2aWotKWjkCYP5m0g7b90RAU/edit?ts=5bb772e1#heading=h.2zu1g67jbavu))
 is an ongoing effort (as of 2019/01) to run the developer-provided paint
 functions on a different thread than the main rendering loop, and asynchronously
 from the standard document lifecycle. The goal is performance isolation, to

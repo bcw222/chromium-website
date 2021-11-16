@@ -357,7 +357,7 @@ each address, so the tool will output the complete inlining stack of the
 callsite in this case.
 
 <img alt="image"
-src="https://docs.google.com/a/google.com/drawings/d/smNpbdQn4fwNyua1T6c4YNg/image"
+src="https://docs.google.com/a/google.com/drawings/d/smNpbdQn4fwNyua1T6c4YNg/image?w=560&h=420&rev=1&ac=1"
 height=420 width=560>
 
 # Implementation
@@ -555,7 +555,7 @@ already in the current path, there are two cases,
         to the length of the invalid path (the suffix matches the invalid path)
         and we already proved that [the changes of matching length is only
         related to the previous matching
-        length](https://docs.google.com/document/d/1Yt9mWfFM4BuRU9qYipIs8eo4MjLgXCKyHk_3gGWK_d0/edit).
+        length](https://docs.google.com/document/d/1Yt9mWfFM4BuRU9qYipIs8eo4MjLgXCKyHk_3gGWK_d0/edit?ts=59a7d62f#bookmark=id.m0yxxq2cmd0c).
         So there is a cycle.
 
     The matching length at this function is new.
@@ -569,7 +569,7 @@ an invalid path.
 If there is a cycle like the below on callgraph.
 
 <img alt="image"
-src="https://docs.google.com/a/google.com/drawings/d/stolPC15LUeA3tjJDWQcnXA/image"
+src="https://docs.google.com/a/google.com/drawings/d/stolPC15LUeA3tjJDWQcnXA/image?w=427&h=203&rev=36&ac=1"
 height=203 width=427>
 
 And we set an invalid path A-&gt;B-&gt;C-&gt;A-&gt;B-&gt;C-&gt;A-&gt;B-&gt;C

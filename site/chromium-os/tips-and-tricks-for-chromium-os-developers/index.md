@@ -78,7 +78,7 @@ If you want to pull in from a different git server you will need to add a
 different remote for the project. Please type `repo manifest -o tmp.xml` to dump
 your current manifest to see an example. More documentation on the manifest file
 format is available on the [repo Manifest format
-docs](http://android.git.kernel.org/).
+docs](http://android.git.kernel.org/?p=tools/repo.git;a=blob;f=docs/manifest_xml.txt;hb=HEAD).
 
 ### How to make `repo sync` less disruptive by running the stages separately
 

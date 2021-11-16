@@ -144,6 +144,6 @@ third "id" argument. The nearest match in time establishes the relationship.
 *   [trace_event_common.h](https://code.google.com/p/chromium/codesearch#chromium/src/base/trace_event/common/trace_event_common.h&q=f:trace_event_common.h&sq=package:chromium&type=cs&l=1),
             the basic readme for trace_event instrumentation
 *   [Tracing Ecosystem
-            Explainer](https://docs.google.com/document/d/1QADiFe0ss7Ydq-LUNOPpIf6z4KXGuWs_ygxiJxoMZKo/edit)
+            Explainer](https://docs.google.com/document/d/1QADiFe0ss7Ydq-LUNOPpIf6z4KXGuWs_ygxiJxoMZKo/edit?pli=1#heading=h.dytg6ymhhy0b)
 *   [Trace Event
-            Format](https://docs.google.com/document/d/1CvAClvFfyA5R-PhYUmn5OOQtYMH4h6I0nSsKchNAySU/edit)
+            Format](https://docs.google.com/document/d/1CvAClvFfyA5R-PhYUmn5OOQtYMH4h6I0nSsKchNAySU/edit?pli=1)

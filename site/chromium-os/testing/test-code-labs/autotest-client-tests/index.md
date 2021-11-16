@@ -16,7 +16,8 @@ title: Autotest Client Tests
 
 *   [Autotest Best
             Practices](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/refs/heads/master/docs/best-practices.md)
-*   [Autotest Coding Style Guide](http://git.chromium.org/gitweb/)
+*   [Autotest Coding Style
+            Guide](http://git.chromium.org/gitweb/?p=chromiumos/third_party/autotest.git;a=blob;f=CODING_STYLE;h=777cc1de3e409a69581ae44a9432d8634dc114e6;hb=HEAD)
 *   [Writing
             Autotests](http://www.chromium.org/chromium-os/testing/autotest-developer-faq#TOC-Writing-Autotests)
 *   [Dynamic Suites
@@ -65,7 +66,7 @@ instance is part of a job. Autotest creates this job object and forks a child
 process to execute its control file.
 
 <img alt="image"
-src="https://docs.google.com/a/google.com/drawings/d/szgUiW_L7jkUJospRoV-dlQ/image"
+src="https://docs.google.com/a/google.com/drawings/d/szgUiW_L7jkUJospRoV-dlQ/image?w=668&h=107&rev=1&ac=1"
 height=107px; width=668px;>
 
 Note the exec mentioned above is the python keyword, not os.exec
@@ -224,8 +225,8 @@ editor on a Chromium OS device non-intuitive then edit the file locally and use
 a copy tool like rcp/scp to send it to the DUT.
 
 1. Add a print statement to the
-[login_LoginSuccess](https://gerrit.chromium.org/gerrit/gitweb) test you just
-ran
+[login_LoginSuccess](https://gerrit.chromium.org/gerrit/gitweb?p=chromiumos/third_party/autotest.git;a=blob;f=client/site_tests/login_LoginSuccess/login_LoginSuccess.py;h=2b46ccbb0b37c2eaaa5e0c1a0a23b37c7d877546;hb=HEAD)
+test you just ran
 
 2. rsync it into /usr/local/autotest/tests on the client
 
@@ -271,14 +272,16 @@ To which you can add the necessary control variables as described in the
 [autotest best
 practices](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/refs/heads/master/docs/best-practices.md).
 Job.run_test can take any named arguments, and the appropriate ones will be
-[cherry picked](http://git.chromium.org/gitweb/) and passed on to the test.
+[cherry
+picked](http://git.chromium.org/gitweb/?p=chromiumos/third_party/autotest.git;a=blob;f=client/common_lib/test.py;h=9b51cd65f25b05b9f9a0b60339f77af85f46dc4b;hb=546142013484dbdb2c1322debe9e5fc5e91f63c1#l474)
+and passed on to the test.
 
 3. Create a test file:
 
 At a bare minimum the test needs a run_once method, which should contain the
 implementation of the test; it also needs to inherit from[
-test.test](https://gerrit.chromium.org/gerrit/gitweb). Most tests also need
-initialize and cleanup methods. Create a test file
+test.test](https://gerrit.chromium.org/gerrit/gitweb?p=chromiumos/third_party/autotest.git;a=blob;f=client/bin/test.py;h=33f194ca39e955d030789b08ae8f89bda8f45cab;hb=HEAD).
+Most tests also need initialize and cleanup methods. Create a test file
 `client/site_tests/kernel_HdParmBasic/kernel_HdParmBasic.py`:
 
 ```none
@@ -295,7 +298,8 @@ from autotest_lib.client.bin import testclass kernel_HdParmBasic(test.test):    
 Notice how only run_once takes the argument named_arg, which was passed in by
 the `job.run_test `method. You can pass arguments to initialize and cleanup this
 way too. You can find examples of initialize and cleanup methods in helper
-classes, like [cros_ui_test](https://gerrit.chromium.org/gerrit/gitweb).
+classes, like
+[cros_ui_test](https://gerrit.chromium.org/gerrit/gitweb?p=chromiumos/third_party/autotest.git;a=blob;f=client/cros/cros_ui_test.py;h=1f95267d8dce01626e7bcb560922e9513eef265d;hb=HEAD).
 
 ## Emerging and Running
 

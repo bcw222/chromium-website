@@ -74,15 +74,19 @@ a way to compromise a renderer process, for several reasons:
 *   Past experience suggests that potentially exploitable bugs will be
             present in future Chrome releases. There were [10 potentially
             exploitable bugs in renderer components in
-            M69](https://bugs.chromium.org/p/chromium/issues/list), [5 in
-            M70](https://bugs.chromium.org/p/chromium/issues/list), [13 in
-            M71](https://bugs.chromium.org/p/chromium/issues/list), [13 in
-            M72](https://bugs.chromium.org/p/chromium/issues/list), [15 in
-            M73](https://bugs.chromium.org/p/chromium/issues/list). This volume
-            of bugs holds steady despite years of investment into developer
-            education, fuzzing, Vulnerability Reward Programs, etc. Note that
-            this only includes bugs that are reported to us or are found by our
-            team.
+            M69](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=Release%3D0-M69%2C1-M69%2C2-M69%2C3-M69+Type%3DBug-Security+Security_Severity%3DHigh%2CCritical+-status%3ADuplicate+label%3Aallpublic+component%3ABlink%2CInternals%3ECompositing%2CInternals%3EImages%3ECodecs%2CInternals%3EMedia%2CInternals%3ESkia%2CInternals%3EWebRTC%2C+-component%3ABlink%3EMedia%3EPictureInPicture%2CBlink%3EPayments%2CBlink%3EStorage%2CInternals%3ECore%2CInternals%3EPrinting%2CInternals%3EStorage%2CMojo%2CServices%3ESync%2CUI%3EBrowser&sort=m&groupby=&colspec=ID+Status+CVE+Security_Severity+Security_Impact+Component+Summary),
+            [5 in
+            M70](https://bugs.chromium.org/p/chromium/issues/list?sort=m&groupby=&colspec=ID%20Status%20CVE%20Security_Severity%20Security_Impact%20Component%20Summary&q=Release%3D0-M70%2C1-M70%2C2-M70%2C3-M70%20Type%3DBug-Security%20Security_Severity%3DHigh%2CCritical%20-status%3ADuplicate%20label%3Aallpublic%20component%3ABlink%2CInternals%3ECompositing%2CInternals%3EImages%3ECodecs%2CInternals%3EMedia%2CInternals%3ESkia%2CInternals%3EWebRTC%2C%20-component%3ABlink%3EMedia%3EPictureInPicture%2CBlink%3EPayments%2CBlink%3EStorage%2CInternals%3ECore%2CInternals%3EPrinting%2CInternals%3EStorage%2CMojo%2CServices%3ESync%2CUI%3EBrowser&can=1),
+            [13 in
+            M71](https://bugs.chromium.org/p/chromium/issues/list?sort=m&groupby=&colspec=ID%20Status%20CVE%20Security_Severity%20Security_Impact%20Component%20Summary&q=Release%3D0-M71%2C1-M71%2C2-M71%2C3-M71%20Type%3DBug-Security%20Security_Severity%3DHigh%2CCritical%20-status%3ADuplicate%20label%3Aallpublic%20component%3ABlink%2CInternals%3ECompositing%2CInternals%3EImages%3ECodecs%2CInternals%3EMedia%2CInternals%3ESkia%2CInternals%3EWebRTC%2C%20-component%3ABlink%3EMedia%3EPictureInPicture%2CBlink%3EPayments%2CBlink%3EStorage%2CInternals%3ECore%2CInternals%3EPrinting%2CInternals%3EStorage%2CMojo%2CServices%3ESync%2CUI%3EBrowser&can=1),
+            [13 in
+            M72](https://bugs.chromium.org/p/chromium/issues/list?sort=m&groupby=&colspec=ID%20Status%20CVE%20Security_Severity%20Security_Impact%20Component%20Summary&q=Release%3D0-M72%2C1-M72%2C2-M72%2C3-M72%20Type%3DBug-Security%20Security_Severity%3DHigh%2CCritical%20-status%3ADuplicate%20label%3Aallpublic%20component%3ABlink%2CInternals%3ECompositing%2CInternals%3EImages%3ECodecs%2CInternals%3EMedia%2CInternals%3ESkia%2CInternals%3EWebRTC%2C%20-component%3ABlink%3EMedia%3EPictureInPicture%2CBlink%3EPayments%2CBlink%3EStorage%2CInternals%3ECore%2CInternals%3EPrinting%2CInternals%3EStorage%2CMojo%2CServices%3ESync%2CUI%3EBrowser&can=1),
+            [15 in
+            M73](https://bugs.chromium.org/p/chromium/issues/list?sort=m&groupby=&colspec=ID%20Status%20CVE%20Security_Severity%20Security_Impact%20Component%20Summary&q=Release%3D0-M73%2C1-M73%2C2-M73%2C3-M73%20Type%3DBug-Security%20Security_Severity%3DHigh%2CCritical%20-status%3ADuplicate%20label%3Aallpublic%20component%3ABlink%2CInternals%3ECompositing%2CInternals%3EImages%3ECodecs%2CInternals%3EMedia%2CInternals%3ESkia%2CInternals%3EWebRTC%2C%20-component%3ABlink%3EMedia%3EPictureInPicture%2CBlink%3EPayments%2CBlink%3EStorage%2CInternals%3ECore%2CInternals%3EPrinting%2CInternals%3EStorage%2CMojo%2CServices%3ESync%2CUI%3EBrowser&can=1).
+            This volume of bugs holds steady despite years of investment into
+            developer education, fuzzing, Vulnerability Reward Programs, etc.
+            Note that this only includes bugs that are reported to us or are
+            found by our team.
 *   Security bugs can often be made exploitable: even 1-byte buffer
             overruns [can be turned into an
             exploit](https://googleprojectzero.blogspot.com/2014/08/the-poisoned-nul-byte-2014-edition.html).

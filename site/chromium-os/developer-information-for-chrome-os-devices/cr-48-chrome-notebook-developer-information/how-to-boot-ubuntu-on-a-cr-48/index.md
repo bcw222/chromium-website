@@ -392,8 +392,8 @@ Now we need to change the kernel command line to use our Ubuntu rootfs instead
 of a Chrome OS rootfs. For this, we'll use `make_dev_ssd.sh`, located in the
 Chromium OS source tree under
 `src/platform/vboot_reference/scripts/image_signing/.` The [latest
-version](http://git.chromium.org/cgi-bin/gitweb.cgi) has options to change
-individual kernel command lines.
+version](http://git.chromium.org/cgi-bin/gitweb.cgi?p=vboot_reference.git;a=tree)
+has options to change individual kernel command lines.
 
 Use `scp` to copy it from your host to the stateful partition of the Cr-48. Note
 we'll also need `common_minimal.sh from the same directory.`

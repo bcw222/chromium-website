@@ -24,14 +24,14 @@ Guide](http://www.chromium.org/chromium-os/developer-guide).
 ### Peach Pit (XE503C12)
 
 *   CPU: [Samsung Exynos 5 Octa
-            5420](http://www.samsung.com/global/business/semiconductor/product/application/detail)
+            5420](http://www.samsung.com/global/business/semiconductor/product/application/detail?productId=7977&iaId=2341)
             (1.9GHz Quad A15 / 1.3GHz Quad A7)
 *   Display: 11.6" 1366x768
 
 ### Peach Pi (XE503C32)
 
 *   CPU: [Samsung Exynos 5 Octa
-            5800](http://www.samsung.com/global/business/semiconductor/product/application/detail)
+            5800](http://www.samsung.com/global/business/semiconductor/product/application/detail?productId=7977&iaId=2341)
             (2.0GHz Quad A15 / 1.3GHz Quad A7)
 *   Display: 13.3" 1920x1080
 
@@ -151,8 +151,10 @@ work:
 brick your system and make it unrecoverable. DO NOT ATTEMPT if you are not
 familiar with this process.**
 
-**[Stop.](http://www.youtube.com/watch) [Don't.](http://www.youtube.com/watch)
-[Come back.](http://www.youtube.com/watch)**
+**[Stop.](http://www.youtube.com/watch?feature=fvwp&NR=1&v=Fj3WBfRZ5Nc&t=0m31s)
+[Don't.](http://www.youtube.com/watch?feature=fvwp&NR=1&v=Fj3WBfRZ5Nc&t=0m31s)
+[Come
+back.](http://www.youtube.com/watch?feature=fvwp&NR=1&v=Fj3WBfRZ5Nc&t=0m31s)**
 
 Really. Opening the case will allow you to modify the read-only firmware that
 makes recovery possible. If someone from "teh internets" says "You need to

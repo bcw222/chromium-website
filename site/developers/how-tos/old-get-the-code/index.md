@@ -199,7 +199,7 @@ The `git cl upload` command will upload your code review to
             support channels for Chrome itself but forums for developers.**
 *   If you think there is an infrastructure problem that affects many
             developers, file [a new bug with the label
-            'Infra'](https://bugs.chromium.org/p/chromium/issues/entry). It will
-            be looked at by our infrastructure team.
+            'Infra'](https://bugs.chromium.org/p/chromium/issues/entry?template=Build%20Infrastructure).
+            It will be looked at by our infrastructure team.
 *   If you work at Google, check out the [Googler-specific Chrome
             documentation](http://wiki/Main/ChromeBuildInstructions).

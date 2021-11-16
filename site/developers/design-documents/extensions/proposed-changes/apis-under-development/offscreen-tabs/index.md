@@ -87,7 +87,7 @@ width=400>](/developers/design-documents/extensions/proposed-changes/apis-under-
 ## **Design Review Slides**
 
 [Slides from API design
-review](https://docs.google.com/a/chromium.org/present/edit)
+review](https://docs.google.com/a/chromium.org/present/edit?id=dcz7497p_9gzwfsfgs)
 
 ## Spec (outdated)
 

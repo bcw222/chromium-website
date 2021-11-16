@@ -15,8 +15,8 @@ Welcome to PDFium Security!
 *   [PDFium project page](https://code.google.com/p/pdfium/)
 *   [PDFium Git repository](https://pdfium.googlesource.com/)
 *   [Known PDFium security
-            issues](https://code.google.com/p/chromium/issues/list) (Please pick
-            1 and fix it!)
+            issues](https://code.google.com/p/chromium/issues/list?can=2&q=Cr%3DInternals-Plugins-PDF+Type%3DBug-Security+&colspec=ID+Pri+M+Iteration+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&cells=tiles)
+            (Please pick 1 and fix it!)
 
 ## Integer Overflow
 

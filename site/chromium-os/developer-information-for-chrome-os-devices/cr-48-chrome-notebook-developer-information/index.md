@@ -368,8 +368,8 @@ the recovery screen). Congratulations!
 image. Since your image was not signed by the release keys (it's self-signed
 image), it will only boot in Developer Mode. If you want to go back to Release
 Mode, just copy (/bin/dd) [a recovery
-image](http://support.google.com/chromeos/bin/answer.py) directly to a USB
-drive, without making any modifications to it.
+image](http://support.google.com/chromeos/bin/answer.py?hl=en&answer=1080595)
+directly to a USB drive, without making any modifications to it.
 
 ---
 

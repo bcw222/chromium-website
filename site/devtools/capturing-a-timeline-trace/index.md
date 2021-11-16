@@ -9,7 +9,7 @@ title: Capturing a Timeline Trace
 ### Prereqs if recording from Android:
 
 *   Use an up-to-date [Chrome Dev Channel on
-            android](https://play.google.com/store/apps/details).
+            android](https://play.google.com/store/apps/details?id=com.chrome.dev&hl=en).
 *   [Connect to the device with remote
             debugging](https://developers.google.com/web/tools/chrome-devtools/debug/remote-debugging/remote-debugging)
 

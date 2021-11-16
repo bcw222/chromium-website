@@ -84,7 +84,8 @@ column represents a “feature” and each row represents a platform configurati
 Current work is marked, as well as what’s finished and what’s yet to be
 attempted.
 
-[Link to spreadsheet](https://docs.google.com/a/chromium.org/spreadsheet/ccc),
+[Link to
+spreadsheet](https://docs.google.com/a/chromium.org/spreadsheet/ccc?key=0AmUAouCtyY6-dDIwV19qNzJvb3RvOG1QWnNnUlpLS1E#gid=0),
 or see below (see "overview" tab for key):
 
 #### GPU Feature Dashboard

@@ -57,7 +57,7 @@ working order by entering Recovery Mode and plugging in your recovery image. You
 can create a recovery image from Chrome OS by browsing to
 [chrome://imageburner](javascript:void(0);) or follow instructions for other OS
 on the [Chrome OS help
-center](https://support.google.com/chromebook/answer/1080595) site.
+center](https://support.google.com/chromebook/answer/1080595?hl=en) site.
 
 You can build and run Chromium OS on your Toshiba CB30 (versions R32 and later).
 Follow the [quick start guide](/chromium-os/quick-start-guide) to setup a build

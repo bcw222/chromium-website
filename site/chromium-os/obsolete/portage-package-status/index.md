@@ -29,16 +29,16 @@ owners are always welcome, but where they are not received packages are assigned
 to owners through technical teams.
 
 Package status and ownership is maintained on the [Portage Package Status
-spreadsheet](https://spreadsheets1.google.com/a/chromium.org/spreadsheet/ccc).
+spreadsheet](https://spreadsheets1.google.com/a/chromium.org/spreadsheet/ccc?key=tJuuSuHmrEMqdL5b8dkgBIA).
 Package owners can check that spreadsheet at any time to see if any of their
 packages are out of date. The [second
-sheet](https://spreadsheets.google.com/a/chromium.org/spreadsheet/ccc) of the
-spreadsheet presents the data statistically and with pretty charts.
+sheet](https://spreadsheets.google.com/a/chromium.org/spreadsheet/ccc?pli=1&key=0AsXDKtaHikmcdEp1dVN1SG1yRU1xZEw1Yjhka2dCSUE#gid=1)
+of the spreadsheet presents the data statistically and with pretty charts.
 
 ### **What you should do**
 
 Check the [package status
-spreadsheet](https://spreadsheets1.google.com/a/chromium.org/spreadsheet/ccc),
+spreadsheet](https://spreadsheets1.google.com/a/chromium.org/spreadsheet/ccc?key=tJuuSuHmrEMqdL5b8dkgBIA),
 and claim ownership of packages that you think you should own (**all
 chromium.org accounts can edit the document**). This is a team effort, and we
 need everyone to do their part. If you think you are best positioned to
@@ -80,8 +80,8 @@ sync_package_status --pretend --owner=<i>chromiumuser</i>
 
 To see statistics and charts about the upgrade progress of the entire team or
 your group, see the
-[Stats](https://docs.google.com/a/chromium.org/spreadsheet/ccc) worksheet of the
-same spreadsheet.
+[Stats](https://docs.google.com/a/chromium.org/spreadsheet/ccc?key=0AsXDKtaHikmcdEp1dVN1SG1yRU1xZEw1Yjhka2dCSUE#gid=1)
+worksheet of the same spreadsheet.
 
 To disable the filing of Tracker issues for a single package, change the
 "Tracker" column value for that package's row to "disable".
@@ -145,7 +145,7 @@ want to upgrade package FOO. How do I exclude FOO from the automatic issue
 filer?*
 
 **A**: In the [packages
-spreadsheet](https://spreadsheets1.google.com/a/chromium.org/spreadsheet/ccc),
+spreadsheet](https://spreadsheets1.google.com/a/chromium.org/spreadsheet/ccc?key=tJuuSuHmrEMqdL5b8dkgBIA),
 find the row for package FOO and change the Tracker value for that row to be
 "disable".
 

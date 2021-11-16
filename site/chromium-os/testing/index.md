@@ -92,8 +92,8 @@ MobLab is a self-contained automated test environment running on a Chromebox.
 
 ### Related Links
 
-*   [Slides](https://docs.google.com/present/edit) for testing in
-            Chromium OS
+*   [Slides](https://docs.google.com/present/edit?id=0AXd3jph7Jzc6ZGQ4NjI1el8waGszOXZwZmI)
+            for testing in Chromium OS
 *   [Autotest API
             docs](https://github.com/autotest/autotest/wiki/TestDeveloper)
 

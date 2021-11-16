@@ -165,9 +165,10 @@ processes will have:-
 This is a hex representation of the [Windows process mitigation
 options](https://docs.microsoft.com/en-us/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessmitigationpolicy).
 You can decode this [using the attached
-decoder](https://docs.google.com/a/chromium.org/viewer), which will show that
-the following process mitigations are enabled: HEAP_TERMINATE, BOTTOM_UP_ASLR,
-STRICT_HANDLE_CHECKS, WIN32K_SYSTEM_CALL_DISABLE, EXTENSION_POINT_DISABLE,
+decoder](https://docs.google.com/a/chromium.org/viewer?a=v&pid=sites&srcid=Y2hyb21pdW0ub3JnfGRldnxneDo3MDg0MDMzODNjODgzMDMy),
+which will show that the following process mitigations are enabled:
+HEAP_TERMINATE, BOTTOM_UP_ASLR, STRICT_HANDLE_CHECKS,
+WIN32K_SYSTEM_CALL_DISABLE, EXTENSION_POINT_DISABLE,
 BLOCK_NON_MICROSOFT_BINARIES, FONT_DISABLE, IMAGE_LOAD_NO_REMOTE,
 IMAGE_LOAD_NO_LOW_LABEL and RESTRICT_INDIRECT_BRANCH_PREDICTION.
 
@@ -232,8 +233,8 @@ advice to run with the ‘--no-sandbox’ flag or to use Windows 7 compatibility
 mode. We do not encourage this as it will significantly reduce your security,
 and may prevent Chromium from working properly. Instead we encourage you to
 search the [Chrome community support
-forum](https://support.google.com/chrome/community) and to report problems to
-your suppliers. We encourage software vendors and enterprises to test their
+forum](https://support.google.com/chrome/community?hl=en) and to report problems
+to your suppliers. We encourage software vendors and enterprises to test their
 applications and sites with Chrome’s Beta and Dev channels to uncover
 incompatibilities before they might affect their products or business. The
 output of chrome://sandbox, in combination with chrome://conflicts, might help

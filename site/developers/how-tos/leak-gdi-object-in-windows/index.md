@@ -24,7 +24,7 @@ title: Leak GDI Objects in Windows
 ### DeleteObject with HICON
 
 **DeleteObject WIN32 API works all GDI objects except for icon**
-([97559](http://code.google.com/p/chromium/issues/detail))
+([97559](http://code.google.com/p/chromium/issues/detail?id=97559))
 
 We must use DestroyIcon.
 

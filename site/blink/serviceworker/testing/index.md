@@ -15,7 +15,7 @@ Tests, Telemetry Performance Tests, and Blink Layout Tests.
 
 ## Performance Tests
 
-### [Issue 372759](https://code.google.com/p/chromium/issues/detail) is tracking the development of Service Worker performance tests.
+### [Issue 372759](https://code.google.com/p/chromium/issues/detail?id=372759) is tracking the development of Service Worker performance tests.
 
 How to run the performance tests:
 

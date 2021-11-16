@@ -19,7 +19,9 @@ link. Also you should be using a serial null modem cable.
 ## USB Serial Dongle
 
 This is a common way of getting a serial port on a computer. See [TRENDnet USB
-to Serial converter](http://www.google.com/url) for example.
+to Serial
+converter](http://www.google.com/url?q=http%3A%2F%2Ftrendnet.com%2Fproducts%2Fproddetail.asp%3Fprod%3D150_TU-S9%26cat%3D49&sa=D&sntz=1&usg=AFrqEzej3O8N15gqmTe0cLvyXkQt6wK5uQ)
+for example.
 
 ## ser2net
 

@@ -73,8 +73,8 @@ development? Take a look through the Life Of A Chromium Developer slide deck:
 **#### Life of a Chromium Developer**
 
 Chromium committers: click
-[here](https://www.google.com/a/chromium.org/ServiceLogin2) to log in to edit
-the slide deck.
+[here](https://www.google.com/a/chromium.org/ServiceLogin2?continue=http%3A%2F%2Fdocs.google.com%2Fa%2Fchromium.org%2Fpresent%2Fedit%3Fid%3D0AetfwCoL2lQAZGQ5bXJ0NDVfMGRtdGQ0OWM2&service=writely&passive=true)
+to log in to edit the slide deck.
 
 </div>
 </div>

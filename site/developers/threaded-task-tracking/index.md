@@ -277,7 +277,7 @@ Count\*\* Total run time Avg run time Max run time Avg queue time Max queue time
 <td>Browser</td>
 <td>3036</td>
 <td>disk_cache::InFlightIO::OnIOComplete</td>
-<td><a href="http://chromesrc.appspot.com/">in_flight_io.cc \[62\]</a></td>
+<td><a href="http://chromesrc.appspot.com/?path=.%5Cdisk_cache%5Cin_flight_io.cc&line=62">in_flight_io.cc \[62\]</a></td>
 </tr>
 <tr>
 <td>990</td>
@@ -291,7 +291,7 @@ Count\*\* Total run time Avg run time Max run time Avg queue time Max queue time
 <td>Browser</td>
 <td>3036</td>
 <td>disk_cache::InFlightBackendIO::PostOperation</td>
-<td><a href="http://chromesrc.appspot.com/">in_flight_backend_io.cc \[472\]</a></td>
+<td><a href="http://chromesrc.appspot.com/?path=.%5Cdisk_cache%5Cin_flight_backend_io.cc&line=472">in_flight_backend_io.cc \[472\]</a></td>
 </tr>
 <tr>
 <td>961</td>
@@ -305,7 +305,7 @@ Count\*\* Total run time Avg run time Max run time Avg queue time Max queue time
 <td>Browser</td>
 <td>3036</td>
 <td>net::SpdySession::ReadSocket</td>
-<td><a href="http://chromesrc.appspot.com/">spdy_session.cc \[773\]</a></td>
+<td><a href="http://chromesrc.appspot.com/?path=.%5Cspdy%5Cspdy_session.cc&line=773">spdy_session.cc \[773\]</a></td>
 </tr>
 <tr>
 <td>831</td>
@@ -319,7 +319,7 @@ Count\*\* Total run time Avg run time Max run time Avg queue time Max queue time
 <td>Browser</td>
 <td>3036</td>
 <td>IPC::ChannelProxy::Send</td>
-<td><a href="http://chromesrc.appspot.com/">ipc_channel_proxy.cc \[357\]</a></td>
+<td><a href="http://chromesrc.appspot.com/?path=.%5Cipc_channel_proxy.cc&line=357">ipc_channel_proxy.cc \[357\]</a></td>
 </tr>
 <tr>
 <td>561</td>
@@ -333,7 +333,7 @@ Count\*\* Total run time Avg run time Max run time Avg queue time Max queue time
 <td>Browser</td>
 <td>3036</td>
 <td>IPC::ChannelProxy::Context::AddFilter</td>
-<td><a href="http://chromesrc.appspot.com/">ipc_channel_proxy.cc \[236\]</a></td>
+<td><a href="http://chromesrc.appspot.com/?path=.%5Cipc_channel_proxy.cc&line=236">ipc_channel_proxy.cc \[236\]</a></td>
 </tr>
 <tr>
 <td>470</td>
@@ -347,7 +347,7 @@ Count\*\* Total run time Avg run time Max run time Avg queue time Max queue time
 <td>Browser</td>
 <td>3036</td>
 <td>IPC::ChannelProxy::Context::OnMessageReceivedNoFilter</td>
-<td><a href="http://chromesrc.appspot.com/">ipc_channel_proxy.cc \[116\]</a></td>
+<td><a href="http://chromesrc.appspot.com/?path=.%5Cipc_channel_proxy.cc&line=116">ipc_channel_proxy.cc \[116\]</a></td>
 </tr>
 <tr>
 <td>405</td>
@@ -361,7 +361,7 @@ Count\*\* Total run time Avg run time Max run time Avg queue time Max queue time
 <td>Browser</td>
 <td>3036</td>
 <td>base::win::ObjectWatcher::DoneWaiting</td>
-<td><a href="http://chromesrc.appspot.com/">object_watcher.cc \[130\]</a></td>
+<td><a href="http://chromesrc.appspot.com/?path=.%5Cwin%5Cobject_watcher.cc&line=130">object_watcher.cc \[130\]</a></td>
 </tr>
 <tr>
 <td>404</td>
@@ -375,7 +375,7 @@ Count\*\* Total run time Avg run time Max run time Avg queue time Max queue time
 <td>Browser</td>
 <td>3036</td>
 <td>_IpcMessageHandlerClass::OnDataReceivedACK</td>
-<td><a href="http://chromesrc.appspot.com/">resource_dispatcher_host.cc \[408\]</a></td>
+<td><a href="http://chromesrc.appspot.com/?path=.%5Cbrowser%5Crenderer_host%5Cresource_dispatcher_host.cc&line=408">resource_dispatcher_host.cc \[408\]</a></td>
 </tr>
 <tr>
 <td>379</td>
@@ -389,7 +389,7 @@ Count\*\* Total run time Avg run time Max run time Avg queue time Max queue time
 <td>Browser</td>
 <td>3036</td>
 <td>\`anonymous-namespace'::ChromeCookieMonsterDelegate::OnCookieChanged</td>
-<td><a href="http://chromesrc.appspot.com/">profile_io_data.cc \[95\]</a></td>
+<td><a href="http://chromesrc.appspot.com/?path=.%5Cbrowser%5Cprofiles%5Cprofile_io_data.cc&line=95">profile_io_data.cc \[95\]</a></td>
 </tr>
 <tr>
 <td>362</td>
@@ -403,7 +403,7 @@ Count\*\* Total run time Avg run time Max run time Avg queue time Max queue time
 <td>Browser</td>
 <td>3036</td>
 <td>TaskManagerModel::NotifyBytesRead</td>
-<td><a href="http://chromesrc.appspot.com/">task_manager.cc \[971\]</a></td>
+<td><a href="http://chromesrc.appspot.com/?path=.%5Cbrowser%5Ctask_manager%5Ctask_manager.cc&line=971">task_manager.cc \[971\]</a></td>
 </tr>
 <tr>
 <td colspan=12>1194 rows (1184 hidden) Show noneShow moreShow all</td>
@@ -555,7 +555,7 @@ Count\*\*Total run timeAvg run timeMax run timeAvg queue timeMax queue timeBirth
 <td>Browser</td>
 <td>3036</td>
 <td>disk_cache::InFlightIO::OnIOComplete</td>
-<td><a href="http://chromesrc.appspot.com/">in_flight_io.cc \[62\]</a></td>
+<td><a href="http://chromesrc.appspot.com/?path=.%5Cdisk_cache%5Cin_flight_io.cc&line=62">in_flight_io.cc \[62\]</a></td>
 </tr>
 </table>
 
@@ -590,7 +590,8 @@ supports max, this link will be removed from the UI.
 
 If you're a Google employee, check out [this
 techtalk](https://goto.google.com/chrome-profiler-internals-techtalk-video).
-Otherwise [check out the code](https://cs.chromium.org/search/).
+Otherwise [check out the
+code](https://cs.chromium.org/search/?q=tracked_objects).
 
 **I'd like to see just the tasks that appear between two distinct points in
 time. How do I avoid seeing all the other data?**

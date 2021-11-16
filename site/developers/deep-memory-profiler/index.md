@@ -10,7 +10,7 @@ title: Deep Memory Profiler
 
 The Deep Memory Profiler tools (dmprof) were not maintained, became
 non-functional, and were **removed** from the codebase . See [issue
-490464](https://code.google.com/p/chromium/issues/detail).
+490464](https://code.google.com/p/chromium/issues/detail?id=490464).
 
 ## Introduction
 
@@ -30,10 +30,10 @@ the memory eater”. (It would be helpful also for leak.)
 ### Announcement
 
 Future announcements (e.g. command line changes) will be done in
-[dmprof@chromium.org](https://groups.google.com/a/chromium.org/forum/).
+[dmprof@chromium.org](https://groups.google.com/a/chromium.org/forum/?fromgroups#!forum/dmprof).
 Subscribe it if you're interested.
 
-document.getElementById('form1383632660').submit();
+document.getElementById('form2004940606').submit();
 
 ### Sub-profilers
 
@@ -219,7 +219,7 @@ Use the dmprof script to analyze with the dumped heap profiles.
             Calc and Google Spreadsheet.
 3.  Draw a (stacked) line chart on the spreadseet for columns from
             FROM_HERE_FOR_TOTAL to UNTIL_HERE_FOR_TOTAL. (See [the
-            example](https://docs.google.com/spreadsheet/ccc).)
+            example](https://docs.google.com/spreadsheet/ccc?key=0Ajevw6ceMEA7dHZzNHFGRlRKcHItT21XNVlhR3Y3RWc).)
 
 ```none
 $ dmprof csv dmprof.03511.0001.heap > dmprof.03511.result.csv
@@ -396,7 +396,7 @@ It breaks down memory usage into relatively specific components.
 **Policy "l2"**
 
 It tries to breakdown memory usage into specific components. See
-[policy.l2.json](http://src.chromium.org/viewvc/chrome/trunk/src/tools/deep_memory_profiler/policy.l2.json)
+[policy.l2.json](http://src.chromium.org/viewvc/chrome/trunk/src/tools/deep_memory_profiler/policy.l2.json?view=markup)
 for details, and report to dmprof@chromium.org to add more components.
 
 <table>

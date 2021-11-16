@@ -95,9 +95,10 @@ applies here.
 src="/developers/slack/blob_think.png">](/developers/slack/blob_think.png) Tips
 and Tricks
 
-There are [many pages](https://www.google.se/search) listing Tips and Tricks for
-Slack. These are a couple selected to make the transition from earlier systems
-smoother.
+There are [many
+pages](https://www.google.se/search?client=opera&q=slack+tips+and+tricks&sourceid=opera&ie=UTF-8&oe=UTF-8)
+listing Tips and Tricks for Slack. These are a couple selected to make the
+transition from earlier systems smoother.
 
 **Read like IRC?**
 

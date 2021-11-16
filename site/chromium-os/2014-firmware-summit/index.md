@@ -17,7 +17,7 @@ firmware@chromium.org
 
 <td>#### Duncan Laurie</td>
 
-<td>## <a href="https://docs.google.com/presentation/d/1h-nsDGlQmYI21dr95nYgLmyCYDgBIpJWSt9b7AqTZaw/pub">Presentation</a></td>
+<td>## <a href="https://docs.google.com/presentation/d/1h-nsDGlQmYI21dr95nYgLmyCYDgBIpJWSt9b7AqTZaw/pub?start=false&loop=false&delayms=3000">Presentation</a></td>
 
 <td>## <a href="http://youtu.be/HwsTRThChn0">Video</a></td>
 
@@ -33,7 +33,7 @@ important features.</td>
 
 <td>#### Aaron Durbin </td>
 
-<td>## <a href="https://docs.google.com/presentation/d/1hwkzVrbAWUFqdEeWPaNSTp0MKpEGxY1gt90UmG7bBFg/pub">Presentation</a></td>
+<td>## <a href="https://docs.google.com/presentation/d/1hwkzVrbAWUFqdEeWPaNSTp0MKpEGxY1gt90UmG7bBFg/pub?start=false&loop=false&delayms=3000">Presentation</a></td>
 
 <td>## <a href="http://youtu.be/HKJNJh6JW_Y">Video</a></td>
 
@@ -46,7 +46,7 @@ important features.</td>
 
 <td>#### Stefan Reinauer</td>
 
-<td>## <a href="https://docs.google.com/presentation/d/1jWOVuJ59LqvoweS9xbKY4RJw9pVDQNVk8aMQKtwHAqk/pub">Presentation</a> </td>
+<td>## <a href="https://docs.google.com/presentation/d/1jWOVuJ59LqvoweS9xbKY4RJw9pVDQNVk8aMQKtwHAqk/pub?start=false&loop=false&delayms=3000">Presentation</a> </td>
 
 <td>## <a href="http://youtu.be/d0d9gxmg0xQ">Video</a> </td>
 
@@ -59,7 +59,7 @@ important features.</td>
 
 <td>## Shawn Nematbakhsh </td>
 
-<td>## <a href="https://docs.google.com/presentation/d/1ogewSJS8kOhqVEZgH1AlY3e5XD66jXdeoWoPjjLIKb0/pub">Presentation</a></td>
+<td>## <a href="https://docs.google.com/presentation/d/1ogewSJS8kOhqVEZgH1AlY3e5XD66jXdeoWoPjjLIKb0/pub?start=false&loop=false&delayms=3000">Presentation</a></td>
 
 <td>## <a href="http://youtu.be/8wPskpLHFIo">Video</a> </td>
 
@@ -72,7 +72,7 @@ important features.</td>
 
 <td>## Gabe Black</td>
 
-<td>## <a href="https://docs.google.com/presentation/d/1pH8ltQ3cGKy9dRaTxHtZbA50QLZCw6HE8LDoi1y_gcs/pub">Presentation</a> </td>
+<td>## <a href="https://docs.google.com/presentation/d/1pH8ltQ3cGKy9dRaTxHtZbA50QLZCw6HE8LDoi1y_gcs/pub?start=false&loop=false&delayms=3000">Presentation</a> </td>
 
 <td>## <a href="http://youtu.be/6ZKeDGI75vw">Video</a> </td>
 
@@ -85,7 +85,7 @@ important features.</td>
 
 <td>## Bill Richardson</td>
 
-<td>## <a href="https://docs.google.com/presentation/d/1Xa_Z5SjW-soPvkugAR8__TEJFrJpzoZUa9HNR14Sjs8/pub">Presentation</a></td>
+<td>## <a href="https://docs.google.com/presentation/d/1Xa_Z5SjW-soPvkugAR8__TEJFrJpzoZUa9HNR14Sjs8/pub?start=false&loop=false&delayms=3000">Presentation</a></td>
 
 <td>## <a href="http://youtu.be/Ie7LRGgCXC8">Video</a> </td>
 
@@ -98,7 +98,7 @@ important features.</td>
 
 <td>## Bernie Thompson</td>
 
-<td>## <a href="https://docs.google.com/presentation/d/1hqo_LT4jAjlckZPxADFYI_rpCr9IRlydnbRVjyTTCiM/pub">Presentation</a></td>
+<td>## <a href="https://docs.google.com/presentation/d/1hqo_LT4jAjlckZPxADFYI_rpCr9IRlydnbRVjyTTCiM/pub?start=false&loop=false&delayms=3000">Presentation</a></td>
 
 <td>## <a href="http://youtu.be/RWxyMdVrGiI">Video</a> </td>
 
@@ -111,7 +111,7 @@ important features.</td>
 
 <td>## Dave Parker</td>
 
-<td>## <a href="https://docs.google.com/a/chromium.org/presentation/d/1hqo_LT4jAjlckZPxADFYI_rpCr9IRlydnbRVjyTTCiM/pub">Presentation</a></td>
+<td>## <a href="https://docs.google.com/a/chromium.org/presentation/d/1hqo_LT4jAjlckZPxADFYI_rpCr9IRlydnbRVjyTTCiM/pub?start=false&loop=false&delayms=3000#slide=id.g2bc8270bb_55">Presentation</a></td>
 
 <td>## <a href="http://youtu.be/jqtoZc3X3lE">Video</a> </td>
 

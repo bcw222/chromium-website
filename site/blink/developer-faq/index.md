@@ -47,7 +47,7 @@ performance benefits we're excited to investigate:
     *   JIT DOM attribute getters in V8. That would allow V8 to access
                 div.id, div.firstChild, etc without leaving JIT code. Mozilla is
                 also meanwhile trying to[ JIT DOM attribute
-                getters](https://bugzilla.mozilla.org/show_bug.cgi).
+                getters](https://bugzilla.mozilla.org/show_bug.cgi?id=747285).
     *   Implement the DOM in JS. This has the potential to make
                 JavaScript DOM access dramatically faster, but will involve a
                 very large re-write of WebKit’s DOM implementation. IE is
@@ -267,50 +267,52 @@ and Developer Advocate Paul Irish
 
 Below are the top-voted questions, along with timecodes you can click (will open
 in a new window):
-[1:12](http://www.youtube.com/watch) What will be the relationship between the
-WebKit and Blink codebases going forward?
-[2:42](http://www.youtube.com/watch) When will Blink ship on the Chrome channels
-Canary/Beta/Stable?
-[3:25](http://www.youtube.com/watch) How does the plan for transitioning the
-WebKit integrated in Android to Blink look like?
-[4:59](http://www.youtube.com/watch) Can you elaborate on the idea of moving the
-DOM into JavaScript?
-[6:40](http://www.youtube.com/watch) Can you elaborate on the idea of "removing
-obscure parts of the DOM and make backwards incompatible changesthat benefit
-performance or remove complexity"?
-[8:35](http://www.youtube.com/watch) How will Blink responsibly deprecate
-prefixed CSS properties?
-[9:30](http://www.youtube.com/watch) What will prevent the same collaborative
-development difficulties that have hampered Webkit emerging in Blink, as it
-gains more contributors and is ported to more platforms?
-[12:35](http://www.youtube.com/watch) Will changes to Blink be contributed back
-to the WebKit project?
-[13:34](http://www.youtube.com/watch) Google said problems living with the
-WebKit2 multi-process model was a prime reason to create Blink, but Apple
-engineers say they asked to integrate Chromium's multi-process into WebKit prior
-to creating WebKit2, and were refused. What gives?
-[16:46](http://www.youtube.com/watch) Is the plan to shift Android's
-&lt;webview&gt; implementation over to Blink as well?
-[17:26](http://www.youtube.com/watch) Will blink be able to support multiple
-scripting languages? E.g. Dart.
-[19:34](http://www.youtube.com/watch) How will affect other browsers that have
-adopted WebKit?
-[20:44](http://www.youtube.com/watch) Does this means Google stops contributions
-to WebKit?
-[21:31](http://www.youtube.com/watch) What Open Source license will Blink have?
-Will it continue to support the H.264 video codec?
-[22:11](http://www.youtube.com/watch) Any user-agent string changes?
-[23:38](http://www.youtube.com/watch) When we'll be able to test first versions
-of Blink in Chromium?
-[24:15](http://www.youtube.com/watch) How can developers follow Blink's
-development?
-[25:40](http://www.youtube.com/watch) What is
+[1:12](http://www.youtube.com/watch?v=TlJob8K_OwE#t=1m12s) What will be the
+relationship between the WebKit and Blink codebases going forward?
+[2:42](http://www.youtube.com/watch?v=TlJob8K_OwE#t=2m42s) When will Blink ship
+on the Chrome channels Canary/Beta/Stable?
+[3:25](http://www.youtube.com/watch?v=TlJob8K_OwE#t=3m25s) How does the plan for
+transitioning the WebKit integrated in Android to Blink look like?
+[4:59](http://www.youtube.com/watch?v=TlJob8K_OwE#t=4m59s) Can you elaborate on
+the idea of moving the DOM into JavaScript?
+[6:40](http://www.youtube.com/watch?v=TlJob8K_OwE#t=6m40s) Can you elaborate on
+the idea of "removing obscure parts of the DOM and make backwards incompatible
+changesthat benefit performance or remove complexity"?
+[8:35](http://www.youtube.com/watch?v=TlJob8K_OwE#t=8m35s) How will Blink
+responsibly deprecate prefixed CSS properties?
+[9:30](http://www.youtube.com/watch?v=TlJob8K_OwE#t=9m30s) What will prevent the
+same collaborative development difficulties that have hampered Webkit emerging
+in Blink, as it gains more contributors and is ported to more platforms?
+[12:35](http://www.youtube.com/watch?v=TlJob8K_OwE#t=12m35s) Will changes to
+Blink be contributed back to the WebKit project?
+[13:34](http://www.youtube.com/watch?v=TlJob8K_OwE#t=13m34s) Google said
+problems living with the WebKit2 multi-process model was a prime reason to
+create Blink, but Apple engineers say they asked to integrate Chromium's
+multi-process into WebKit prior to creating WebKit2, and were refused. What
+gives?
+[16:46](http://www.youtube.com/watch?v=TlJob8K_OwE#t=16m46s) Is the plan to
+shift Android's &lt;webview&gt; implementation over to Blink as well?
+[17:26](http://www.youtube.com/watch?v=TlJob8K_OwE#t=17m26s) Will blink be able
+to support multiple scripting languages? E.g. Dart.
+[19:34](http://www.youtube.com/watch?v=TlJob8K_OwE#t=19m34s) How will affect
+other browsers that have adopted WebKit?
+[20:44](http://www.youtube.com/watch?v=TlJob8K_OwE#t=20m44s) Does this means
+Google stops contributions to WebKit?
+[21:31](http://www.youtube.com/watch?v=TlJob8K_OwE#t=21m31s) What Open Source
+license will Blink have? Will it continue to support the H.264 video codec?
+[22:11](http://www.youtube.com/watch?v=TlJob8K_OwE#t=22m11s) Any user-agent
+string changes?
+[23:38](http://www.youtube.com/watch?v=TlJob8K_OwE#t=23m38s) When we'll be able
+to test first versions of Blink in Chromium?
+[24:15](http://www.youtube.com/watch?v=TlJob8K_OwE#t=24m15s) How can developers
+follow Blink's development?
+[25:40](http://www.youtube.com/watch?v=TlJob8K_OwE#t=25m40s) What is
 [chromestatus.com](http://chromestatus.com/) about?
-[26:40](http://www.youtube.com/watch) How will this impact Dart language's
-progress?
-[27:13](http://www.youtube.com/watch) Will this be a direct competitor against
-Mozilla's new engine?
-[29:03](http://www.youtube.com/watch) When will all existing vendor prefixes in
-Blink be phased out?
-[30:20](http://www.youtube.com/watch) Will you support -blink-text-decoration:
-blink? ;)
+[26:40](http://www.youtube.com/watch?v=TlJob8K_OwE#t=26m40s) How will this
+impact Dart language's progress?
+[27:13](http://www.youtube.com/watch?v=TlJob8K_OwE#t=27m13s) Will this be a
+direct competitor against Mozilla's new engine?
+[29:03](http://www.youtube.com/watch?v=TlJob8K_OwE#t=29m03s) When will all
+existing vendor prefixes in Blink be phased out?
+[30:20](http://www.youtube.com/watch?v=TlJob8K_OwE#t=30m20s) Will you support
+-blink-text-decoration: blink? ;)

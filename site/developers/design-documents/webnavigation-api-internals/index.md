@@ -57,10 +57,10 @@ WebContents.**
 
 **For a successful navigation, a frame has to go through several states (see
 also Adam’s recent presentation “[How WebKit
-works](https://docs.google.com/a/google.com/presentation/pub)”). Keep in mind
-that you can receive these signals from any number of RenderViewHosts. You
-should ignore all signals but from the current RenderViewHost or the pending
-RenderViewHost.**
+works](https://docs.google.com/a/google.com/presentation/pub?id=1ZRIQbUKw9Tf077odCh66OrrwRIVNLvI_nhLm2Gi__F0#slide=id.p)”).
+Keep in mind that you can receive these signals from any number of
+RenderViewHosts. You should ignore all signals but from the current
+RenderViewHost or the pending RenderViewHost.**
 
 **Since a frame is only uniquely identified within a renderer process, and a
 WebContents can be a delegate for several RenderViewHosts in different renderer

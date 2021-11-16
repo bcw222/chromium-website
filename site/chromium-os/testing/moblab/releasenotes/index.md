@@ -295,7 +295,7 @@ version R-2.7.3.
     Moblab software version exposed;
 
     Contact email become required for feedback filing;
-    [b/1186115](https://bugs.chromium.org/p/chromium/issues/detail)
+    [b/1186115](https://bugs.chromium.org/p/chromium/issues/detail?id=1186115)
 
     Enrolling older devices issue addressed;
 

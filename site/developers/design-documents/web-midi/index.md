@@ -44,7 +44,7 @@ width=400>](/developers/design-documents/web-midi/Web%20MIDI%20design%20overview
 ## Chromium open issues
 
 *   [Cr=Blink-WebMIDI @
-            crbug.com](https://code.google.com/p/chromium/issues/list)
+            crbug.com](https://code.google.com/p/chromium/issues/list?q=Cr%3DBlink-WebMIDI)
 
 ## Trouble shooting
 

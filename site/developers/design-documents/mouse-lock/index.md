@@ -54,7 +54,7 @@ and the shared user interface Full Screen Bubble UI .
             time (see strings below).
 *   A content setting remembers the permission for any domain a user
             previously allowed. (done in
-            [97768](http://code.google.com/p/chromium/issues/detail))
+            [97768](http://code.google.com/p/chromium/issues/detail?id=97768))
 *   Mouse lock can be exited in many ways:
     *   Programmatically.
     *   User pressing Esc.
@@ -134,9 +134,9 @@ first person controls but a cursor used for inventory management.
 > Mouse Cursor Exceptions
 
 State transitions for the initial Chrome 16 launch were enumerated in this
-[spreadsheet](https://spreadsheets.google.com/spreadsheet/ccc), which is now out
-of date with the addition of extension triggered full screen and non fullscreen
-permission of mouse lock.
+[spreadsheet](https://spreadsheets.google.com/spreadsheet/ccc?key=0Ah7RuMHPdFJYdEFMSndkblFyWWNKdU9vUUloUk5GVVE#gid=0),
+which is now out of date with the addition of extension triggered full screen
+and non fullscreen permission of mouse lock.
 
 **Tests are in:**
 
@@ -145,4 +145,4 @@ permission of mouse lock.
 *   [fullscreen_mouselock.py](http://code.google.com/codesearch#search/&exact_package=chromium&q=fullscreen_mouselock.py&type=cs)
 
 Related open issues:
-[Feature=Input-MouseLock](http://code.google.com/p/chromium/issues/list)
+[Feature=Input-MouseLock](http://code.google.com/p/chromium/issues/list?can=2&q=Feature%3DInput-MouseLock&colspec=ID+Pri+Mstone+ReleaseBlock+Area+Feature+Status+Owner+Summary&cells=tiles)

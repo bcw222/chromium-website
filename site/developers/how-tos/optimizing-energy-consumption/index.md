@@ -16,7 +16,7 @@ Here are two really great talks on optimizing battery life:
     2013](https://developer.apple.com/videos/wwdc/2013/#701) is a great
     overview.
 
-    Android, [project volta](https://www.youtube.com/watch) talk.
+    Android, [project volta](https://www.youtube.com/watch?v=KzSKIpJepUw) talk.
     (Google-internal [project
     volta](https://sites.google.com/a/google.com/volta/) [tech
     talk](http://go/volta-tech-talk-video) and
@@ -175,15 +175,15 @@ chromium.perf waterfall
 
 Several energy tests are running on the chromium.perf waterfall:
 
-    [tab_switching.five_blank_pages](https://chromeperf.appspot.com/report)
+    [tab_switching.five_blank_pages](https://chromeperf.appspot.com/report?masters=ChromiumPerf&bots=chromium-rel-mac9%2Cchromium-rel-win7-dual%2Cchromium-rel-win7-gpu-ati%2Cchromium-rel-win7-gpu-intel%2Cchromium-rel-win7-gpu-nvidia%2Cchromium-rel-win7-single%2Cchromium-rel-win7-x64-dual%2Cchromium-rel-win8-dual%2Cchromium-rel-xp-dual%2Clinux-oilpan-release%2Clinux-release&tests=tab_switching.five_blank_pages%2Fenergy_consumption_mwh&rev=299488&checked=energy_consumption_mwh%2Cblank_page.html_ref%2Cref%2Cenergy_consumption_mwh%2Cblank_page.html_ref%2Cref)
 
-    [tab_switching.top_10](https://chromeperf.appspot.com/report)
+    [tab_switching.top_10](https://chromeperf.appspot.com/report?masters=ChromiumPerf&bots=chromium-rel-mac9%2Cchromium-rel-win7-dual%2Cchromium-rel-win7-gpu-ati%2Cchromium-rel-win7-gpu-intel%2Cchromium-rel-win7-gpu-nvidia%2Cchromium-rel-win7-single%2Cchromium-rel-win7-x64-dual%2Cchromium-rel-win8-dual%2Cchromium-rel-xp-dual%2Clinux-oilpan-release%2Clinux-release&tests=tab_switching.top_10%2Fenergy_consumption_mwh&rev=299488&checked=energy_consumption_mwh%2Cref)
 
-    [tab_switching.typical_25](https://chromeperf.appspot.com/report)
+    [tab_switching.typical_25](https://chromeperf.appspot.com/report?masters=ChromiumPerf&bots=chromium-rel-mac9%2Cchromium-rel-win7-dual%2Cchromium-rel-win7-gpu-ati%2Cchromium-rel-win7-gpu-intel%2Cchromium-rel-win7-gpu-nvidia%2Cchromium-rel-win7-single%2Cchromium-rel-win7-x64-dual%2Cchromium-rel-win8-dual%2Cchromium-rel-xp-dual%2Clinux-oilpan-release%2Clinux-release&tests=tab_switching.typical_25%2Fenergy_consumption_mwh&rev=299488&checked=energy_consumption_mwh%2Cref%2Cenergy_consumption_mwh%2Cref)
 
-    [tab_switching.tough_energy_cases](https://chromeperf.appspot.com/report)
+    [tab_switching.tough_energy_cases](https://chromeperf.appspot.com/report?masters=ChromiumPerf&bots=chromium-rel-mac9%2Cchromium-rel-win7-dual%2Cchromium-rel-win7-gpu-ati%2Cchromium-rel-win7-gpu-intel%2Cchromium-rel-win7-gpu-nvidia%2Cchromium-rel-win7-single%2Cchromium-rel-win7-x64-dual%2Cchromium-rel-win8-dual%2Cchromium-rel-xp-dual%2Clinux-oilpan-release%2Clinux-release&tests=tab_switching.tough_energy_cases%2Fenergy_consumption_mwh&rev=299488&checked=energy_consumption_mwh%2Cref%2Cenergy_consumption_mwh%2Cref)
 
-    [power.android_acceptance](https://chromeperf.appspot.com/report)
+    [power.android_acceptance](https://chromeperf.appspot.com/report?masters=ChromiumPerf&bots=android-motoe%2Candroid-nexus10%2Candroid-nexus4%2Candroid-nexus5%2Candroid-nexus7v2&tests=power.android_acceptance%2Fenergy_consumption_mwh&checked=core)
 
 You can look at the effects of a submitted change. After [bug
 423394](http://crbug.com/423394) is fixed, you will be able to get traces for

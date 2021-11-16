@@ -11,8 +11,9 @@ title: How to file Web Bluetooth bugs
 [TOC]
 
 When [filing a Web Bluetooth
-bug](https://bugs.chromium.org/p/chromium/issues/entry), please attach some
-Bluetooth logs (both Chrome and platform logs) so we can debug the issue.
+bug](https://bugs.chromium.org/p/chromium/issues/entry?components=Blink%3EBluetooth&source=chromium.org),
+please attach some Bluetooth logs (both Chrome and platform logs) so we can
+debug the issue.
 
 ## General Bluetooth Inspection Tools
 
@@ -25,8 +26,9 @@ attempting to communicate with:
                 chooser dialog, blocklist, or other web platform security
                 aspects of Web Bluetooth.
 2.  [nRF Connect for
-            Android](https://play.google.com/store/apps/details) or [nRF Connect
-            for iOS](https://itunes.apple.com/us/app/nrf-connect/id1054362403)
+            Android](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp&hl=en)
+            or [nRF Connect for
+            iOS](https://itunes.apple.com/us/app/nrf-connect/id1054362403?mt=8)
     *   Generic tool that allows you to scan, advertise and explore your
                 Bluetooth low energy (BLE) devices and communicate with them.
 
@@ -35,7 +37,8 @@ attempting to communicate with:
 These devices are some that can be used to act as peripheral devices.
 
 1.  [BLE Peripheral
-            Simulator](https://play.google.com/store/apps/details) Android app
+            Simulator](https://play.google.com/store/apps/details?id=io.github.webbluetoothcg.bletestperipheral)
+            Android app
     *   Simulates a devices with Battery, Heart Rate, Health Thermometer
                 services. Developers can connect to the app to Read and Write
                 Characteristics, Subscribe to Notifications for when the
@@ -73,9 +76,10 @@ below:
 #### Platform logs
 
 1.  Install Apple's [Additional Tools for
-            XCode](https://developer.apple.com/download/more/) if you have XCode
-            8+, otherwise install Apple's [Hardware IO Tools for
-            Xcode](https://developer.apple.com/downloads/).
+            XCode](https://developer.apple.com/download/more/?name=Additional%20Tools%20for%20XCode)
+            if you have XCode 8+, otherwise install Apple's [Hardware IO Tools
+            for
+            Xcode](https://developer.apple.com/downloads/?name=Hardware%20IO%20Tools).
 2.  Use **Bluetooth Explorer** in that package to try to discover and
             connect to your device.
     *   Devices | Low Energy Devices will let you scan for and connect

@@ -34,18 +34,18 @@ to end support.
             options](https://services.harman.com/partners/adobe) for Flash
             Player beyond 2020. These can be used in complement with Chrome's
             [Legacy Browser Support
-            (LBS)](https://support.google.com/chrome/a/answer/9270076), allowing
-            for both to remain secure and up to date.
+            (LBS)](https://support.google.com/chrome/a/answer/9270076?hl=en),
+            allowing for both to remain secure and up to date.
 
 ### Support for AllowOutdatedPlugins disabled (Target: All Chrome versions - Sept 2021)
 
 #### Summary
 
 It will no longer be possible to enable Flash Player, via Enterprise policy
-([AllowOutdatedPlugins](https://cloud.google.com/docs/chrome-enterprise/policies/)),
+([AllowOutdatedPlugins](https://cloud.google.com/docs/chrome-enterprise/policies/?policy=AllowOutdatedPlugins)),
 in versions of Chrome before Chrome 88 on Windows, Mac, and Linux. ChromeOS will
 continue to allow the use of the
-[AllowOutdatedPlugins](https://cloud.google.com/docs/chrome-enterprise/policies/)
+[AllowOutdatedPlugins](https://cloud.google.com/docs/chrome-enterprise/policies/?policy=AllowOutdatedPlugins)
 policy.
 
 #### Rationale
@@ -56,8 +56,8 @@ of Chrome.
 
 #### Announcements/ Artifacts
 
-*   [1064657](https://bugs.chromium.org/p/chromium/issues/detail) :
-            Update Plugin Meta Data to block Flash Player
+*   [1064657](https://bugs.chromium.org/p/chromium/issues/detail?id=1064657)
+            : Update Plugin Meta Data to block Flash Player
 
 #### Notes for Administrators
 
@@ -67,8 +67,8 @@ of Chrome.
             options](https://services.harman.com/partners/adobe) for Flash
             Player beyond 2020. These can be used in complement with Chrome's
             [Legacy Browser Support
-            (LBS)](https://support.google.com/chrome/a/answer/9270076), allowing
-            for both to remain secure and up to date.
+            (LBS)](https://support.google.com/chrome/a/answer/9270076?hl=en),
+            allowing for both to remain secure and up to date.
 
 ---
 
@@ -179,7 +179,7 @@ for the mock-ups).
 
 *   [Proposal](https://docs.google.com/presentation/d/106_KLNJfwb9L-1hVVa4i29aw1YXUy9qFX-Ye4kvJj-4/edit#slide=id.p)
 *   [Design
-            Doc](https://docs.google.com/a/chromium.org/document/d/1QD3HQdkBgJea_92f5rars06Bd_SJz5IXjuNHhBuWCcg/edit)
+            Doc](https://docs.google.com/a/chromium.org/document/d/1QD3HQdkBgJea_92f5rars06Bd_SJz5IXjuNHhBuWCcg/edit?usp=sharing)
 *   [Intent to
             Implement](https://groups.google.com/a/chromium.org/forum/#!searchin/chromium-dev/HTML5$20by$20default/chromium-dev/0wWoRRhTA_E/__E3jf40OAAJ)
 *   [Site Engagement
@@ -380,7 +380,8 @@ to the settings simplification in the following release.
 
 #### Announcements/ Artifacts
 
-*   Tracking [issue](https://bugs.chromium.org/p/chromium/issues/detail)
+*   Tracking
+            [issue](https://bugs.chromium.org/p/chromium/issues/detail?id=709550)
 
 ### Unify Flash Settings (Target: Chrome 62 - Oct 2017)
 
@@ -603,4 +604,4 @@ TBD
 **Unity**
 
 *   [Unity and creating content in a Post-Flash
-            World](https://blogs.unity3d.com/) (July 2017)
+            World](https://blogs.unity3d.com/?p=52557) (July 2017)

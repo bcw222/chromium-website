@@ -99,9 +99,9 @@ being served.
 
 If a DSE wants to customize the prefetch behavior, such as to add a query
 parameter, they may submit a change list to alter the [Chromium Source Code
-(components/search_engines/prepopulated_engines.json)](https://source.chromium.org/chromium/chromium/src/+/main:components/search_engines/prepopulated_engines.json)
+(components/search_engines/prepopulated_engines.json)](https://source.chromium.org/chromium/chromium/src/+/main:components/search_engines/prepopulated_engines.json?q=prepopulate%20-f:Debug%2Fgen%20f:json&ss=chromium)
 to modify the search URL. Google has added a
-[google:prefetchSource](https://source.chromium.org/chromium/chromium/src/+/main:components/search_engines/prepopulated_engines.json)
+[google:prefetchSource](https://source.chromium.org/chromium/chromium/src/+/main:components/search_engines/prepopulated_engines.json?q=f:prepopulated%20google:prefetchSource%20-f:Debug%2Fgen&ss=chromium)
 parameter to the search URL (i.e., the URL adds
 “[&pf=cs](https://source.chromium.org/chromium/chromium/src/+/main:components/search_engines/template_url.cc;l=1153;drc=98898daa2e8f46ff098cea1f2e218f8a8266c838;bpv=1;bpt=1)”).
 This query parameter is sent by chromium and used by Google Search’s server to

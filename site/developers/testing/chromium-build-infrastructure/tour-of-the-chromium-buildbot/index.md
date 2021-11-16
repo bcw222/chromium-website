@@ -218,11 +218,11 @@ of the "update" step to see exactly what gclient sync pulled in.
 The "tree" is the sum of the various source repositories used to build the
 project, being Chromium, ChromiumOS, NativeClient, etc. In Chromium case, it's
 chrome/src/ plus everything listed in its
-[DEPS](http://src.chromium.org/viewvc/chrome/trunk/src/DEPS) file, and a bit
-more for Google Chrome like trademarked graphics. The tree can be "open",
-"closed" or "throttled". The normal state is open. When tests break, the tree is
-closed by putting the word "closed" in the tree status;
-[PRESUBMIT.py](http://src.chromium.org/viewvc/chrome/trunk/src/PRESUBMIT.py)
+[DEPS](http://src.chromium.org/viewvc/chrome/trunk/src/DEPS?view=markup) file,
+and a bit more for Google Chrome like trademarked graphics. The tree can be
+"open", "closed" or "throttled". The normal state is open. When tests break, the
+tree is closed by putting the word "closed" in the tree status;
+[PRESUBMIT.py](http://src.chromium.org/viewvc/chrome/trunk/src/PRESUBMIT.py?view=markup)
 checks the status and will block commits, and the build sheriff will act to fix
 the tree. When the tree is throttled, commits are only allowed with specific
 permission from the build sheriff, generally because the sheriff wants to make

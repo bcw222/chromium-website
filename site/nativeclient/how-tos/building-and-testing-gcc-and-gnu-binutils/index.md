@@ -14,13 +14,15 @@ title: Building and Testing GCC and GNU binutils
 
 This page describes the structure of source code of the GCC-based Native Client
 toolchain. The sources are based on stable releases of external packages:
-[Binutils](http://git.chromium.org/gitweb/),
-[GCC](http://git.chromium.org/gitweb/),
-[Newlib](http://git.chromium.org/gitweb/),
-[GDB](http://git.chromium.org/gitweb/), [GlibC](http://git.chromium.org/gitweb/)
-plus a subset of [linux kernel headers](http://git.chromium.org/gitweb/). The
-rest of the page addresses the structure of the source repositories, the ways to
-synchronize patches across them and the build script.
+[Binutils](http://git.chromium.org/gitweb/?p=nacl-binutils.git;a=summary),
+[GCC](http://git.chromium.org/gitweb/?p=nacl-gcc.git;a=summary),
+[Newlib](http://git.chromium.org/gitweb/?p=nacl-newlib.git;a=summary),
+[GDB](http://git.chromium.org/gitweb/?p=nacl-gdb.git;a=summary),
+[GlibC](http://git.chromium.org/gitweb/?p=nacl-glibc.git;a=summary) plus a
+subset of [linux kernel
+headers](http://git.chromium.org/gitweb/?p=linux-headers-for-nacl.git;a=summary).
+The rest of the page addresses the structure of the source repositories, the
+ways to synchronize patches across them and the build script.
 
 ## Prerequisites
 

@@ -9,7 +9,7 @@ title: OS X Password Manager/Keychain Integration
 ---
 
 Note: As of version 45, the password manager is [no longer integrated with
-Keychain](https://code.google.com/p/chromium/issues/detail), since the
+Keychain](https://code.google.com/p/chromium/issues/detail?id=466638), since the
 interoperability goal discussed in the Background section is no longer possible.
 This document is here for historical purposes only.
 

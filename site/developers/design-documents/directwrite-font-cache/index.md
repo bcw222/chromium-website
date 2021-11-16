@@ -35,7 +35,7 @@ Glyphs will still be directly loaded from disk.
 ## Implementation:
 
 <img alt="image"
-src="https://docs.google.com/a/google.com/drawings/d/sr3ilNMP6rJv-ADbjZC1BFQ/image"
+src="https://docs.google.com/a/google.com/drawings/d/sr3ilNMP6rJv-ADbjZC1BFQ/image?w=624&h=263&rev=1&ac=1"
 height=263px; width=624px;>
 
 Inside content/renderer most of the code which deals with all DirectWrite custom
@@ -540,7 +540,7 @@ segments cached from that file. Here in the list we just store start, length and
 pointer inside original cache file, which is memory mapped.
 
 <img alt="image"
-src="https://docs.google.com/a/google.com/drawings/d/shy9MpsyCNfdhVX7zqgAefA/image"
+src="https://docs.google.com/a/google.com/drawings/d/shy9MpsyCNfdhVX7zqgAefA/image?w=594&h=214&rev=1&ac=1"
 height=214px; width=594px;>
 
 ## Histogram of total fonts with cached percentile.

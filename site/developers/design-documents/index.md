@@ -104,7 +104,7 @@ the JavaScript engine used within Chromium.
 *   ## [GPU Program
             Caching](https://docs.google.com/a/chromium.org/document/d/1Vceem-nF4TCICoeGSh7OMXxfGuJEJYblGXRgN9V9hcE/edit)
 *   ## [Compositing in Blink/WebCore: from WebCore::RenderLayer to
-            cc::Layer](https://docs.google.com/presentation/d/1dDE5u76ZBIKmsqkWi2apx3BqV8HOcNf4xxBdyNywZR8/edit)
+            cc::Layer](https://docs.google.com/presentation/d/1dDE5u76ZBIKmsqkWi2apx3BqV8HOcNf4xxBdyNywZR8/edit?usp=sharing)
 *   ## [Compositor Thread
             Architecture](/developers/design-documents/compositor-thread-architecture)
 *   ## [Rendering
@@ -114,7 +114,7 @@ the JavaScript engine used within Chromium.
 *   ## [Video Playback and
             Compositor](http://www.chromium.org/developers/design-documents/video-playback-and-compositor)
 *   ## [ANGLE architecture
-            presentation](https://docs.google.com/presentation/d/1CucIsdGVDmdTWRUbg68IxLE5jXwCb2y1E9YVhQo0thg/pub)
+            presentation](https://docs.google.com/presentation/d/1CucIsdGVDmdTWRUbg68IxLE5jXwCb2y1E9YVhQo0thg/pub?start=false&loop=false)
 
 **Network stack**
 
@@ -217,7 +217,7 @@ which is the build script generation tool.
 *   [Form Autofill](/developers/design-documents/form-autofill): A
             feature to automatically fill out an html form with appropriate
             data.
-*   [Geolocation](https://docs.google.com/a/chromium.org/document/pub):
+*   [Geolocation](https://docs.google.com/a/chromium.org/document/pub?id=13rAaY1dG0nrlKpfy7Txlec4U6dsX3PE9aXHkvE37JZo):
             Adding support for [W3C Geolocation
             API](http://www.w3.org/TR/geolocation-API/) using native WebKit
             bindings.
@@ -256,7 +256,7 @@ which is the build script generation tool.
 *   [Pepper plugin
             implementation](/developers/design-documents/pepper-plugin-implementation)
 *   [Plugin Power
-            Saver](https://docs.google.com/document/d/1r4xFSsR4gtjBf1gOP4zHGWIFBV7WWZMgCiAHeepoHVw/edit)
+            Saver](https://docs.google.com/document/d/1r4xFSsR4gtjBf1gOP4zHGWIFBV7WWZMgCiAHeepoHVw/edit?usp=sharing)
 *   [Preferences](/developers/design-documents/preferences)
 *   [Prerender](/developers/design-documents/prerender)
 *   [Print Preview](/developers/design-documents/print-preview)
@@ -287,7 +287,7 @@ which is the build script generation tool.
 *   [Temporary downloads](/system/errors/NodeNotFound)
 *   [Time Sources](/developers/design-documents/time-sources):
             Determining the time on a Chrome OS device
-*   [TimeTicks](https://docs.google.com/document/d/1ypBZPZnshJ612FWAjkkpSBQiII7vYEEDsRkDOkVjQFw/edit):
+*   [TimeTicks](https://docs.google.com/document/d/1ypBZPZnshJ612FWAjkkpSBQiII7vYEEDsRkDOkVjQFw/edit?usp=sharing):
             How our monotonic timer, TimeTicks, works on different OSes
 *   [UI Mirroring
             Infrastructure](/developers/design-documents/ui-mirroring-infrastructure):
@@ -327,7 +327,7 @@ which is the build script generation tool.
     *   [JNI Bindings](/developers/design-documents/android-jni)
     *   [Android WebView docs](/developers/androidwebview)
     *   [Child process
-                importance](https://docs.google.com/document/d/1PTI3udZ6TI-R0MlSsl2aflxRcnZ5blnkGGHE5JRI_Z8/edit)
+                importance](https://docs.google.com/document/d/1PTI3udZ6TI-R0MlSsl2aflxRcnZ5blnkGGHE5JRI_Z8/edit?usp=sharing)
 *   **Chrome OS**
     *   See the [Chrome OS design
                 documents](/chromium-os/chromiumos-design-docs) section.
@@ -382,4 +382,6 @@ which is the build script generation tool.
 
 ## Full listing of all sub-pages:
 
-<img alt="image" src="http://www.google.com/chart" height=300 width=500>
+<img alt="image"
+src="http://www.google.com/chart?chc=sites&cht=d&chdp=sites&chl=%5B%5BPage+listing'%3D20'f%5Cv'a%5C%3D0'10'%3D499'0'dim'%5Cbox1'b%5CF6F6F6'fC%5CF6F6F6'eC%5C0'sk'%5C%5B%22Subpage+Listing%22'%5D'a%5CV%5C%3D12'f%5C%5DV%5Cta%5C%3D10'%3D0'%3D500'%3D297'dim'%5C%3D10'%3D10'%3D500'%3D297'vdim'%5Cbox1'b%5Cva%5CF6F6F6'fC%5CC8C8C8'eC%5C'a%5C%5Do%5CLauto'f%5C&sig=lxEPbO98PQKCTIgDHMqrwU0hJD8"
+height=300 width=500>

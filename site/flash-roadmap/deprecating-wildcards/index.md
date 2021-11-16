@@ -13,7 +13,7 @@ Through enterprise policies:
 Notes:
 
 Currently, a wildcard port is
-[serialized](https://source.chromium.org/chromium/chromium/src/+/master:components/content_settings/core/common/content_settings_pattern_parser.cc;l=234-237;drc=456596a0b27623349d38e49d0e9812b24d47d5d8)
+[serialized](https://source.chromium.org/chromium/chromium/src/+/master:components/content_settings/core/common/content_settings_pattern_parser.cc;l=234-237;drc=456596a0b27623349d38e49d0e9812b24d47d5d8?originalUrl=https:%2F%2Fcs.chromium.org%2F)
 as an empty port into prefs. Changing the semantics would require migration.
 
 <table>

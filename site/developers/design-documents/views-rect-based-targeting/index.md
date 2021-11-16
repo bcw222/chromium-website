@@ -47,25 +47,27 @@ case. Otherwise, if called with a non-unit rect, the overrides of
 **View::GetEventHandlerForRect()**, with two exceptions mentioned in the "Future
 work" section below.
 
-See [r232891](https://src.chromium.org/viewvc/chrome) for the implementation
-details.
+See
+[r232891](https://src.chromium.org/viewvc/chrome?view=revision&revision=232891)
+for the implementation details.
 
 **Future work**
 
 The algorithm does not seem to perform as well for touchscreens which do not
 report their own radius values (as compared to touchscreens which do); see
-[issue 315795](https://code.google.com/p/chromium/issues/detail). Furthermore,
-rect-based event targeting is not yet implemented for **AutofillDialogViews** or
-**NotificationView**.
+[issue 315795](https://code.google.com/p/chromium/issues/detail?id=315795).
+Furthermore, rect-based event targeting is not yet implemented for
+**AutofillDialogViews** or **NotificationView**.
 
 **Metrics**
 
 UMA metrics have been added to the **Ash.GestureTarget** histogram to give a
 rough estimation of how difficult it is for users to successfully tap on views
-elements (see [r209263](https://src.chromium.org/viewvc/chrome)). These metrics
-specifically focus on successful taps (where the tap resulted in a user-visible
-effect) and unsuccessful taps (where the tap had no visible effect) on the
-tabstrip and surrounding regions.
+elements (see
+[r209263](https://src.chromium.org/viewvc/chrome?revision=209263&view=revision)).
+These metrics specifically focus on successful taps (where the tap resulted in a
+user-visible effect) and unsuccessful taps (where the tap had no visible effect)
+on the tabstrip and surrounding regions.
 
 Successful taps counted:
 
@@ -113,10 +115,10 @@ following:
 \[1\] Originally the distance to the *center line* (the line that remains after
 repeatedly removing 1px borders from the rectangle) of the view was used in
 order to prevent bias against wide/tall rectangular targets. But in
-[r241955](https://src.chromium.org/viewvc/chrome) this was changed to instead
-use the center point to fix an edge case and also because wide/tall targets
-would never actually be candidates for rect-based targeting due to their size
-relative to a touch region.
+[r241955](https://src.chromium.org/viewvc/chrome?revision=241955&view=revision)
+this was changed to instead use the center point to fix an edge case and also
+because wide/tall targets would never actually be candidates for rect-based
+targeting due to their size relative to a touch region.
 
 \[2\] Each double-tap to maximize or restore the window contributes 2 to the
 value of this count, and each single tap also contributes 2 to the value of this

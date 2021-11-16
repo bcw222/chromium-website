@@ -67,9 +67,9 @@ of changes that need to be reverted from the stable channel.
         API...)
 
     We will announce the changes in the "Coming Soon" section of the [enterprise
-    release notes](https://support.google.com/chrome/a/answer/7679408) before
-    your change ships to stable and in the "This release" section when the
-    change goes to stable. If you've announced the changes in the
+    release notes](https://support.google.com/chrome/a/answer/7679408?hl=en)
+    before your change ships to stable and in the "This release" section when
+    the change goes to stable. If you've announced the changes in the
     [chromium-enterprise](https://groups.google.com/a/chromium.org/forum/#!forum/chromium-enterprise)
     technical discussion group, or if it has a Chrome launch bug, the enterprise
     team will reach out to you to confirm the plan and the wording each time the

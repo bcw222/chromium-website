@@ -101,13 +101,13 @@ title: August 2020 - Code Health, Animations, Context Menu and more!
     time offset for the compositor assumes the animation is running in the
     forward direction. The time offset is incorrect if playing in the reverse
     direction and there is a start delay (<a
-    href="https://bugs.chromium.org/p/chromium/issues/detail">1095813</a>).</td></td>
+    href="https://bugs.chromium.org/p/chromium/issues/detail?id=1095813">1095813</a>).</td></td>
 
     <td><td>The solution is to Include the tweak for start delay only if the
     playback rate is positive. (<a
     href="https://chromium-review.googlesource.com/c/chromium/src/+/2339712">CL</a>).</td></td>
 
-<td><td>kevers@ Fixed 5 WPT test flakes and one non-WPT test flake for animations. (<a href="https://bugs.chromium.org/p/chromium/issues/detail">1093451</a>,<a href="https://bugs.chromium.org/p/chromium/issues/detail"> 1092177</a>,<a href="https://bugs.chromium.org/p/chromium/issues/detail"> 1092141</a>, <a href="https://bugs.chromium.org/p/chromium/issues/detail">1064065</a>, <a href="https://bugs.chromium.org/p/chromium/issues/detail">1085564</a>, <a href="https://bugs.chromium.org/p/chromium/issues/detail">623434</a>)</td></td>
+<td><td>kevers@ Fixed 5 WPT test flakes and one non-WPT test flake for animations. (<a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1093451">1093451</a>,<a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1092177"> 1092177</a>,<a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1092141"> 1092141</a>, <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1064065">1064065</a>, <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1085564">1085564</a>, <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=623434">623434</a>)</td></td>
 
 <td><td>WebDriver Actions API Spec</td></td>
 
@@ -118,8 +118,8 @@ title: August 2020 - Code Health, Animations, Context Menu and more!
 <td><td>liviutinta@ shipped the Azimuth and Altitude.</td></td>
 
     <td><td>Received 3 LGTMs on <a
-    href="https://groups.google.com/a/chromium.org/forum/">Intent to
-    Ship</a></td></td>
+    href="https://groups.google.com/a/chromium.org/forum/?utm_medium=email&utm_source=footer#!msg/blink-dev/ZRI-7X_4GwM/Sp1ZMIw5AgAJ">Intent
+    to Ship</a></td></td>
 
     <td><td>Landed <a href="http://crrev.com/c/2343385">CL</a> to enable the
     feature flag by default</td></td>
@@ -137,14 +137,14 @@ title: August 2020 - Code Health, Animations, Context Menu and more!
     <td><td>Before: draggable divs can’t show context menu because a touch
     interaction has to choose between dragging vs context-menu. We have links
     and images always non-draggable for this reason. (Hi-res video <a
-    href="https://drive.google.com/file/d/1W2zX7_SdCVVoV0yh9nwK6SY7X29ozOII/view">here</a>).</td></td>
+    href="https://drive.google.com/file/d/1W2zX7_SdCVVoV0yh9nwK6SY7X29ozOII/view?usp=sharing">here</a>).</td></td>
 
 <td><td><img alt="image" src="https://lh4.googleusercontent.com/mI0QBIs9oloJh6Foi_XwnQJzfH4VwmPZejBZkcPwmMOEjj2k4R9l-ledgLWkVXpVONHg6sHtsZU1JhlPqWkoz5RZqbv8MoMBmkjcL70QaqXT9n9fvov5ltkyj_5xqNOF_dDNh1jbZQ" height=200 width=280></td></td>
 
     <td><td>After: draggable elements shows context menu on drag-end, like
     Windows desktop icons. Context menu depends on where the element is dropped.
     Works on divs, links and images. (Hi-res video <a
-    href="https://drive.google.com/file/d/1MkUOjoi6qJnUl_XFphFzqonVQjg9XyO5/view">here</a>.)</td></td>
+    href="https://drive.google.com/file/d/1MkUOjoi6qJnUl_XFphFzqonVQjg9XyO5/view?usp=sharing">here</a>.)</td></td>
 
 <td><td><img alt="image" src="https://lh4.googleusercontent.com/Y4BB2dlHUTM3gmFARKxmlPRJ0WWZhSLkaCwNr_r7LrbsRPBBqaoY6sSvKYgEe13wMVEmZFWsUI4bTnTSHnZnewJiJWDqjhChVNLLbkOZqw_klQOQ1ZusQw8cvyAApXSkCLFRDuM3Rg" height=200 width=280></td></td>
 

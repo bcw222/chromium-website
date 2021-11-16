@@ -81,11 +81,12 @@ function is a member function and will complain if the type is not refcounted
 function arguments, it will use a COMPILE_ASSERT to try to verify they are not
 raw pointers to a refcounted type (only possible with full type information, not
 forward declarations). Instead, use scoped_refptrs or call make_scoped_refptr()
-to prevent [bugs](http://code.google.com/p/chromium/issues/detail). In addition,
-base::Bind() understands base::WeakPtr. If the function is a member function and
-the first argument is a base::WeakPtr to the object, base::Bind() will inject a
-wrapper function that only invokes the function pointer if the base::WeakPtr is
-non-NULL. base::Bind() also has the following helper wrappers for arguments.
+to prevent [bugs](http://code.google.com/p/chromium/issues/detail?id=28083). In
+addition, base::Bind() understands base::WeakPtr. If the function is a member
+function and the first argument is a base::WeakPtr to the object, base::Bind()
+will inject a wrapper function that only invokes the function pointer if the
+base::WeakPtr is non-NULL. base::Bind() also has the following helper wrappers
+for arguments.
 
 *   base::Unretained() - disables the refcounting of member function
             receiver objects (which may not be of refcounted types) and the
@@ -131,7 +132,8 @@ lifetime management is difficult to reason about.
 
 They're globals, so you generally should [avoid using
 them](http://www.object-oriented-security.org/lets-argue/singletons), as per the
-[style guide](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml).
+[style
+guide](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml?showone=Static_and_Global_Variables#Static_and_Global_Variables).
 That said, when you use globals in Chromium code, it's often good to use one of
 these, and in general, prefer base::LazyInstance over Singleton. The reason to
 use these classes is construction is lazy (thereby preventing startup slowdown

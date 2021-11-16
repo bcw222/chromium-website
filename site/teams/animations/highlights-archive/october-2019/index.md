@@ -59,7 +59,7 @@ title: October 2019
 
     <td>Lots of changes in the works to align with the spec.</td>
 
-<td>Stephen (smcgruer@) <a href="https://bugs.chromium.org/p/chromium/issues/detail">implemented</a> accumulate composite for <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1829355">transform</a> and <a href="https://chromium.googlesource.com/chromium/src.git/+/cc208c1adc376fa59aaa07897ed0555cebece58e">filter</a> properties bringing us one step closer to feature parity with Gecko.</td>
+<td>Stephen (smcgruer@) <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=788440">implemented</a> accumulate composite for <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1829355">transform</a> and <a href="https://chromium.googlesource.com/chromium/src.git/+/cc208c1adc376fa59aaa07897ed0555cebece58e">filter</a> properties bringing us one step closer to feature parity with Gecko.</td>
 
 <td><table></td>
 <td><tr></td>
@@ -68,7 +68,7 @@ title: October 2019
 
 <td><td>Frame Throughput Metric</td></td>
 
-<td><td>The initial version of the <a href="https://uma.googleplex.com/p/chrome/histograms">Frame Throughput</a> metric has landed. We have already made a few rounds of bug fixing and corrections.</td></td>
+<td><td>The initial version of the <a href="https://uma.googleplex.com/p/chrome/histograms?sid=85974f925706cadddcae47f545d649f7">Frame Throughput</a> metric has landed. We have already made a few rounds of bug fixing and corrections.</td></td>
 
 <td><td>Gene (girard@) and Xida (xidachen@) have been <a href="https://docs.google.com/spreadsheets/d/1-KJDVN60XQNrMtMRTv_9GldGMEwMkCpdlBfWyqgdtOQ/edit#gid=0">evaluating</a> the metric to guide such refinements. </td></td>
 
@@ -81,7 +81,7 @@ title: October 2019
 
 <td><td>Scroll Timeline & Animation Worklet</td></td>
 
-<td><td>We (Majid, Yi from Chrome with Olga, Jordan from Edge team) have completed the <a href="https://docs.google.com/document/d/1laATsw0V4bibsADvps5vV2oVEyZgjXzs_LLxo7pzn00/edit">design document</a> for the Scroll Timeline. We also worked on preparing a <a href="https://docs.google.com/presentation/d/12UNGCTJybiL5gEMAGY2f-05WxXARvNz4k-RS02qgNuU/edit">presentation</a> on it for BlinkOn to share its current status.</td></td>
+<td><td>We (Majid, Yi from Chrome with Olga, Jordan from Edge team) have completed the <a href="https://docs.google.com/document/d/1laATsw0V4bibsADvps5vV2oVEyZgjXzs_LLxo7pzn00/edit?usp=sharing">design document</a> for the Scroll Timeline. We also worked on preparing a <a href="https://docs.google.com/presentation/d/12UNGCTJybiL5gEMAGY2f-05WxXARvNz4k-RS02qgNuU/edit">presentation</a> on it for BlinkOn to share its current status.</td></td>
 
 <td><td>Majid continued on improving Animation Worklet specifications (<a href="https://github.com/w3c/css-houdini-drafts/commit/ed84d19b90c459cf405bfb0fc98e6bbfe9ee5ea8">1</a>, <a href="https://github.com/w3c/css-houdini-drafts/commit/69d3ab9f72b76b5517227d8dd859efbea057f510">2</a>, <a href="https://github.com/w3c/css-houdini-drafts/commit/8448e9812d93c959b26f73197d91c7295f6bbad7">3</a>).</td></td>
 
@@ -100,11 +100,11 @@ title: October 2019
 
 <td><td>Kaan (alsan@) has been making many improvements (<a href="https://chromium-review.googlesource.com/c/chromium/src/+/1865048">1</a>, <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1865048">2</a>, <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1865048">3</a>, <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1902008">4</a>) to our scroll snap code resulting in fixes of long-standing bugs and enables landing additional features. He also implemented <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1845673">tracking snapped elements</a> which is the first part of snap-after-layout.</td></td>
 
-<td><td>Majid has reached out to our contact at Safari to help improve Scroll Snap interop. He worked to improve our wpt tests: upstreaming input driven scroll snap tests to wpt (<a href="https://chromium-review.googlesource.com/c/chromium/src/+/1893142">keyboard</a>, <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1922950">touch</a>), <a href="https://bugs.chromium.org/p/chromium/issues/detail">fixing</a> an issue to have 8 tests pass on Chrome.</td></td>
+<td><td>Majid has reached out to our contact at Safari to help improve Scroll Snap interop. He worked to improve our wpt tests: upstreaming input driven scroll snap tests to wpt (<a href="https://chromium-review.googlesource.com/c/chromium/src/+/1893142">keyboard</a>, <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1922950">touch</a>), <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1003055">fixing</a> an issue to have 8 tests pass on Chrome.</td></td>
 
 <td><td>OT Paint Worklets Launch-ish </td></td>
 
-<td><td>This cycle Paint Worklet was launched briefly but had to be reverted due to <a href="https://bugs.chromium.org/p/chromium/issues/detail">unforeseen interactions</a> with OOP-R. In preparation for this launch Xida added necessary <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1827246">metrics</a> and improved stability (<a href="https://chromium-review.googlesource.com/c/chromium/src/+/1838674">\[1\]</a> <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1789828">\[2\]</a>). We are now working to fix the newly discovered issue, improve test coverage, and relaunch.</td></td>
+<td><td>This cycle Paint Worklet was launched briefly but had to be reverted due to <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1020238">unforeseen interactions</a> with OOP-R. In preparation for this launch Xida added necessary <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1827246">metrics</a> and improved stability (<a href="https://chromium-review.googlesource.com/c/chromium/src/+/1838674">\[1\]</a> <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1789828">\[2\]</a>). We are now working to fix the newly discovered issue, improve test coverage, and relaunch.</td></td>
 
 <td></tr></td>
 <td></table></td>

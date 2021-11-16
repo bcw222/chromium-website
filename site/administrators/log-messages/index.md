@@ -18,7 +18,7 @@ macro](https://cs.chromium.org/chromium/src/base/syslog_logging.h) can often
 give some context to the meaning of the message.
 
 More information about Chrome's debug logs can be found
-[here](https://support.google.com/chrome/a/answer/6271282).
+[here](https://support.google.com/chrome/a/answer/6271282?hl=en).
 
 ## Site Isolation SYSLOGs
 

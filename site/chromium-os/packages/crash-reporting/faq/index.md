@@ -379,7 +379,7 @@ handler is sent.
 
 An example of how to catch SIGSEGV without screwing up `crash_reporter` can be
 found in Google Breakpad's
-[src/breakpad/src/client/linux/handler/exception_handler.cc](http://code.google.com/p/google-breakpad/source/browse/trunk/src/client/linux/handler/exception_handler.cc):
+[src/breakpad/src/client/linux/handler/exception_handler.cc](http://code.google.com/p/google-breakpad/source/browse/trunk/src/client/linux/handler/exception_handler.cc?spec=svn1020&r=1018#223):
 
 ```none
 void ExceptionHandler::SignalHandler(int sig, siginfo_t* info, void* uc) {

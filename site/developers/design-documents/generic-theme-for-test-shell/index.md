@@ -15,7 +15,8 @@ Windows can render form controls and other widgets differently depending on your
 desktop settings (classic mode vs. XP theme vs. Vista theme vs. Aero, etc.).
 
 In order to solve this problem, we've [implemented a generic set of
-widgets](http://src.chromium.org/viewvc/chrome) for the test shell (in
+widgets](http://src.chromium.org/viewvc/chrome?view=rev&revision=26161) for the
+test shell (in
 [test_shell_webthemecontrols.{cc,h}](http://src.chromium.org/viewvc/chrome/trunk/src/webkit/tools/test_shell/test_shell_webthemecontrol.cc)
 and
 [test_shell_webthemeengine.{cc,h}](http://src.chromium.org/viewvc/chrome/trunk/src/webkit/tools/test_shell/test_shell_webthemeengine.cc)

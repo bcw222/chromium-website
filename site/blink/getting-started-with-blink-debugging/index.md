@@ -181,5 +181,5 @@ and run Chrome with `--no-sandbox` command line option.
 
 It is difficult to understand whether an issue lies in the Print Preview logic
 or the Rendering logic. This
-[document](https://docs.google.com/document/d/1aK27hiUPEm75OD4Dw2yQ9CmNDkLjL7_ZzglLdHW6UzQ/edit)
+[document](https://docs.google.com/document/d/1aK27hiUPEm75OD4Dw2yQ9CmNDkLjL7_ZzglLdHW6UzQ/edit?usp=sharing)
 uses some of the tools available to us to help solve this issue.

@@ -134,9 +134,9 @@ require a normal emerge.
 ### Running tests in a VM - cros_run_vm_tests
 
 WARNING: After
-[crbug/710629](https://bugs.chromium.org/p/chromium/issues/detail), 'betty' is
-the only board regularly run through pre-CQ and CQ VMTest and so is the most
-likely to work at ToT. 'betty' is based on 'amd64-generic', though, so
+[crbug/710629](https://bugs.chromium.org/p/chromium/issues/detail?id=710629),
+'betty' is the only board regularly run through pre-CQ and CQ VMTest and so is
+the most likely to work at ToT. 'betty' is based on 'amd64-generic', though, so
 'amd64-generic' is likely to also work for most (non-ARC) tests.
 
 VM tests are conveniently wrapped into a script cros_run_vm_tests that sets up

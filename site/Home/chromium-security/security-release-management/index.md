@@ -125,19 +125,21 @@ following search criteria:
 *   -Security_Severity=None
 *   Security_Impact=Stable
 
-For example, [this link](https://code.google.com/p/chromium/issues/list) shows
-the security fixes that went into the initial Beta -&gt; Stable promotion of
-Chrome 26, and [this link](https://code.google.com/p/chromium/issues/list) shows
-the security fixes that went into the first post-stable patch of the Chrome 24
-branch.
+For example, [this
+link](https://code.google.com/p/chromium/issues/list?can=1&q=Type%3DBug-Security+M%3D26+Release%3D0+-Security_Severity%3DNone+-OS%3DChrome+-OS%3DAndroid&colspec=ID+Pri+M+Iteration+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=tiles)
+shows the security fixes that went into the initial Beta -&gt; Stable promotion
+of Chrome 26, and [this
+link](https://code.google.com/p/chromium/issues/list?can=1&q=Type%3DBug-Security+M%3D24+Release%3D1+-Security_Severity%3DNone+-OS%3DChrome+-OS%3DAndroid&colspec=ID+Pri+M+Iteration+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=tiles)
+shows the security fixes that went into the first post-stable patch of the
+Chrome 24 branch.
 
 Every externally reported issue gets assigned a CVE ID per MITRE's [CVE Counting
 Rules](https://cve.mitre.org/cve/editorial_policies/counting_rules.html).
 Chrome's CVE pool is
-[here](https://docs.google.com/a/google.com/spreadsheet/ccc) (Google
-internal-only link, sorry). As of Chrome 27, we're focusing the release notes on
-externally reported issues. This mirrors how Mozilla Firefox arranges their
-release notes, saves the precious resource of CVEs, saves a lot of time in
+[here](https://docs.google.com/a/google.com/spreadsheet/ccc?key=0AoQyc9BFHd9FdE43bkxKZFRtOEk3eW5zeEhST29zTmc#gid=0)
+(Google internal-only link, sorry). As of Chrome 27, we're focusing the release
+notes on externally reported issues. This mirrors how Mozilla Firefox arranges
+their release notes, saves the precious resource of CVEs, saves a lot of time in
 preparing release notes, and appropriately focuses our security release notes on
 the excellent contributions and rewards of external researchers.
 

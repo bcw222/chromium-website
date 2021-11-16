@@ -237,5 +237,6 @@ src="/chromium-os/how-tos-and-troubleshooting/get-a-3g-modem-running/GSM%20PIN%2
 
 You can run autotests against a live carrier network, or you can use an
 emulated-network testbed. See [Running and Writing Autotests for Cell
-Emulators](https://docs.google.com/a/google.com/document/pub) and [Chrome OS
-Cellular Testbed Setup](https://docs.google.com/a/google.com/document/pub).
+Emulators](https://docs.google.com/a/google.com/document/pub?id=1FTSAO-5hVTAV9t7RNZWJRN_QOOqpl5qZJua4k3POwKc)
+and [Chrome OS Cellular Testbed
+Setup](https://docs.google.com/a/google.com/document/pub?id=1yG7j8Iw9PnQTH-93zP5BqB0qQRU08az11A_eN0acd70).

@@ -61,9 +61,9 @@ as monitoring and bug-filing systems.
 *   [Gsutil
             setup](https://sites.google.com/a/google.com/chromeos/for-team-members/lab2/infrastructure-components/gsutil-setup)
 *   Perf dashboard uploader: \[[user
-            guide](https://docs.google.com/a/google.com/document/d/1zykB3eO9rXSCAv6czoha-CL8yvH4mg6GyRtaJuVOefo/edit)(**\***)
+            guide](https://docs.google.com/a/google.com/document/d/1zykB3eO9rXSCAv6czoha-CL8yvH4mg6GyRtaJuVOefo/edit?usp=sharing)(**\***)
             | [developer
-            guide](https://docs.google.com/a/google.com/document/d/1jUe4PXCCaj1_rII7_J4uu8mLwRgglljEvCH_ssd057s/edit)(**\***)\]
+            guide](https://docs.google.com/a/google.com/document/d/1jUe4PXCCaj1_rII7_J4uu8mLwRgglljEvCH_ssd057s/edit?usp=sharing)(**\***)\]
 *   Test health monitoring \[[user
             guide](https://sites.google.com/a/google.com/chromeos/for-team-members/lab2/infrastructure-components/test-health-monitoring)(**\***)
             | [developer

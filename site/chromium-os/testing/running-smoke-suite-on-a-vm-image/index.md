@@ -71,9 +71,9 @@ On Ubuntu Lucid, use apt-get to install qemu-kvm:
 ### Build a testable VM image
 
 WARNING: After
-[crbug/710629](https://bugs.chromium.org/p/chromium/issues/detail), 'betty' is
-the only board regularly run through pre-CQ and CQ VMTest and so is the most
-likely to work at ToT. 'betty' is based on 'amd64-generic', though, so
+[crbug/710629](https://bugs.chromium.org/p/chromium/issues/detail?id=710629),
+'betty' is the only board regularly run through pre-CQ and CQ VMTest and so is
+the most likely to work at ToT. 'betty' is based on 'amd64-generic', though, so
 'amd64-generic' is likely to also work for most (non-ARC) tests.
 
 Next, build the testable VM image. The following steps assume that:
@@ -201,7 +201,7 @@ the test is run.
 
 The autotest infrastructure is maintained in the **chromeos-base/autotest**
 cros_workon
-[ebuild](http://www.gentoo.org/proj/en/devrel/handbook/handbook.xml).
+[ebuild](http://www.gentoo.org/proj/en/devrel/handbook/handbook.xml?part=2&chap=1).
 
 Individual tests and test suites are in the **chromeos-base/autotest-tests**
 ebuild.

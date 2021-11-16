@@ -37,15 +37,16 @@ model persists changes back to the pref store via a set of granular JS APIs.
 
 **Design Documents**
 
-Design documents can be found [here](https://drive.google.com/open). The
-following are a few major docs:
+Design documents can be found
+[here](https://drive.google.com/open?id=0B6VE9j_QZJCrfnZhLUNWeTlIX1JKdEJEWkoweC1sNzlKbG9MTmUyX2t1akVPenQ4UFVRWGc&authuser=2).
+The following are a few major docs:
 
 *   [Chrome Settings API
             Wrapper](https://docs.google.com/a/chromium.org/document/d/1PnGKrP6_dXS3L1h36buxHPW3zSWup5FaTaGthed3CUc/edit#heading=h.xgjl2srtytjt)
             - describes interaction between Chrome Settings page UI elements and
             underlying Chrome APIs.
 *   [chrome.settingsPrivate
-            API](https://docs.google.com/a/chromium.org/document/d/1PCQltNDdyZyuPHUdqYIjeObRrVOhf8WTr6BLfuTQ4ew/edit)
+            API](https://docs.google.com/a/chromium.org/document/d/1PCQltNDdyZyuPHUdqYIjeObRrVOhf8WTr6BLfuTQ4ew/edit?pli=1#heading=h.adz03dmup02t)
             - describes the new extension API used to interact with the pref
             store from JS.
 *   [i18n Design

@@ -68,7 +68,7 @@ title: June 2020 - Web Animations, Scroll-linked Animations, Throughput Metrics,
 
 <td><td colspan=2>In the last sprint, we <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2112953">changed</a> the UKM reporting logic such that we report the median throughput of a page, which better reflects users’ browsing experience. Following graph shows the UKM curve where the red arrow points to the date when our change is landed.</td></td>
 
-<td><td colspan=2><img alt="image" src="https://docs.google.com/drawings/u/0/d/sy-viUUomGinfT8KjKYZiDQ/image" height=335 width=270></td></td>
+<td><td colspan=2><img alt="image" src="https://docs.google.com/drawings/u/0/d/sy-viUUomGinfT8KjKYZiDQ/image?w=270&h=335&rev=15&ac=1&parent=14Nvi8kAwj_lSQYSf2z6Ywhvz7TD4B8S9Z-LViAhB5LI" height=335 width=270></td></td>
 
 <td><td colspan=2>Scroll-linked animations</td></td>
 
@@ -84,7 +84,7 @@ title: June 2020 - Web Animations, Scroll-linked Animations, Throughput Metrics,
     scroll unification, the scrolls happens mainly on the compositor thread, and
     the scroll code in the main thread will be</td></td>
 
-<td><td colspan=2>removed. eventSender sends the scroll events to the main thread, so it would not work after the scroll unification. (<a href="https://bugs.chromium.org/p/chromium/issues/detail">Issue</a>)</td></td>
+<td><td colspan=2>removed. eventSender sends the scroll events to the main thread, so it would not work after the scroll unification. (<a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1047176">Issue</a>)</td></td>
 
     <td><td colspan=2>Tests full event delivery path</td></td>
 

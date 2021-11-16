@@ -30,7 +30,7 @@ title: "NetLog: Chrome\u2019s network logging system"
             [Catapult NetLog
             Viewer](https://chromium.googlesource.com/catapult/+/master/netlog_viewer/).**
 *   **(net_internals_ui.cc) \[[Removed in
-            2018](https://bugs.chromium.org/p/chromium/issues/detail)\]
+            2018](https://bugs.chromium.org/p/chromium/issues/detail?id=678391&desc=2#c18)\]
             ~~Forwards events to the JavaScript application
             chrome://net-internals. This app can visualize the data and also
             export it to a file~~**
@@ -95,7 +95,7 @@ do need to serialize the events, this is the JSON format that we use:**
 **<td> The event stream is a flat sequence of events, which has intermixed starts and completions for all sorts of asynchronous events (potentially happening across multiple threads).</td>**
 **<td> The usefulness of source is to be able to group these events into logical blocks with a serial control flow.</td>**
 **<td> The source object itself is comprised of two sub-fields “id” and “type”. The “id” is unique across all types. The type field is included as a convenience so that processing the event stream can be done in a stateless manner.</td>**
-**<td> The list of possible source types is enumerated in <a href="https://cs.chromium.org/chromium/src/net/log/net_log_source_type_list.h">net_log_source_type_list.h</a></td>**
+**<td> The list of possible source types is enumerated in <a href="https://cs.chromium.org/chromium/src/net/log/net_log_source_type_list.h?q=net_log_source_type_list.h&sq=package:chromium&dr">net_log_source_type_list.h</a></td>**
 **</tr>**
 **<tr>**
 **<td>phase</td>**
@@ -122,7 +122,7 @@ pointer to a net::NetLog to send the events to.**
 **[<img alt="image"
 src="/developers/design-documents/network-stack/netlog/NetLog1.png">](/developers/design-documents/network-stack/netlog/NetLog1.png)**
 
-**Most commonly, this net::NetLog dependency is passed via a net::BoundNetLog parameter rather than directly as a net::NetLog\*. This is a wrapper to “bind” the same source parameter to each event output to the stream. You can think of it like creating a private event stream for a single entity. Read more about this in [net_log.h](https://cs.chromium.org/chromium/src/net/log/net_log.h)**
+**Most commonly, this net::NetLog dependency is passed via a net::BoundNetLog parameter rather than directly as a net::NetLog\*. This is a wrapper to “bind” the same source parameter to each event output to the stream. You can think of it like creating a private event stream for a single entity. Read more about this in [net_log.h](https://cs.chromium.org/chromium/src/net/log/net_log.h?type=cs&sq=package:chromium&g=0)**
 **Ultimately though, net::NetLog is just a boring interface and doesn’t actually do anything.**
 **In the Chrome browser, the concrete implementation of net::NetLog used is [ChromeNetLog](https://cs.chromium.org/chromium/src/components/net_log/chrome_net_log.h). We configure things so that all network logging events for all browser profiles flow through a single instance of ChromeNetLog. ChromeNetLog is responsible for forwarding this event stream on to other interested parties via an observer mechanism.**
 **As was alluded to earlier in the overview, [FileNetLogObserver ](https://cs.chromium.org/chromium/src/net/log/file_net_log_observer.h)is implemented as one such observer (which serializes the network events to a JSON file).**
@@ -218,6 +218,6 @@ AFTER the problem had already happened.
 **Other core features of v3 were unittests for the JavaScript frontend, and a timeline visualization to plot network metrics both in real-time and from postmortem dump files.**
 **v3 also got custom views for Sockets, SPDY sessions, Winsock LSPs (SPIs), a slew of other functionality and increased logging sprinkled throughout the network stack.**
 **version 4: The extraction of the viewer**
-**In 2018, the JavaScript of the viewer application was** [removed](https://bugs.chromium.org/p/chromium/issues/detail) from the net-internals page and extracted to a [new repository](https://github.com/catapult-project/catapult/tree/master/netlog_viewer) and running from a [public app server](https://netlog-viewer.appspot.com/#import). The reasons for this extraction are documented in the [NetLog Viewer design document](https://docs.google.com/document/d/1Ll7T5cguj5m2DqkUTad5DWRCqtbQ3L1q9FRvTN5-Y28/).
+**In 2018, the JavaScript of the viewer application was** [removed](https://bugs.chromium.org/p/chromium/issues/detail?id=678391&desc=2#c18) from the net-internals page and extracted to a [new repository](https://github.com/catapult-project/catapult/tree/master/netlog_viewer) and running from a [public app server](https://netlog-viewer.appspot.com/#import). The reasons for this extraction are documented in the [NetLog Viewer design document](https://docs.google.com/document/d/1Ll7T5cguj5m2DqkUTad5DWRCqtbQ3L1q9FRvTN5-Y28/).
 version ?:
 **… patches welcome!**

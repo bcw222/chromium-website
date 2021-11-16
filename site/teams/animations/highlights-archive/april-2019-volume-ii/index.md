@@ -31,7 +31,7 @@ title: April 2019, Volume II
 
 <td>Lottie in a PaintWorklet</td>
 
-<td><a href="https://airbnb.design/lottie/">Lottie</a> is a popular framework from AirBnB that renders After Effects animations, allowing designers to create rich complex animations. Its <a href="https://github.com/airbnb/lottie-web">web implementation</a>, however, is not very performant. This sprint, Rob Flack (flackr@) prototyped a port of the Lottie renderer to a PaintWorklet - driven by a standard Web Animation for input progress. Not only does this bring richer devtools integration, but with the ongoing <a href="https://docs.google.com/document/d/1USTH2Vd4D2tALsvZvy4B2aWotKWjkCYP5m0g7b90RAU/edit">Off-Thread PaintWorklet</a> effort we will soon be able to render Lottie animations performance-isolated from the main thread!</td>
+<td><a href="https://airbnb.design/lottie/">Lottie</a> is a popular framework from AirBnB that renders After Effects animations, allowing designers to create rich complex animations. Its <a href="https://github.com/airbnb/lottie-web">web implementation</a>, however, is not very performant. This sprint, Rob Flack (flackr@) prototyped a port of the Lottie renderer to a PaintWorklet - driven by a standard Web Animation for input progress. Not only does this bring richer devtools integration, but with the ongoing <a href="https://docs.google.com/document/d/1USTH2Vd4D2tALsvZvy4B2aWotKWjkCYP5m0g7b90RAU/edit?ts=5bb772e1#heading=h.2zu1g67jbavu">Off-Thread PaintWorklet</a> effort we will soon be able to render Lottie animations performance-isolated from the main thread!</td>
 
 <td><table></td>
 <td><tr></td>
@@ -56,7 +56,7 @@ title: April 2019, Volume II
 
 <td><td>BlinkOn has come - and gone!</td></td>
 
-<td><td>Two thirds of the Animations team decamped to Toronto for BlinkOn, spending two days listening to (and giving) talks, syncing with colleagues from around the world, and getting to know some of our new collaborators from Microsoft. Both Stephen's <a href="https://docs.google.com/presentation/u/1/d/1WrzDN_PiKBfOVUrrbOV8gHQO-ODN0gdCpWE4xMYv29c/edit">Off Main Thread CSS Paint</a> and Majid's <a href="https://docs.google.com/presentation/d/1BCEbLCg-o_Ko65byel5QGnO7Cwf5aPZPjqnnMNbbA5E/edit">Event Delegation to Worker and Worklets</a> talks were well attended and well received.</td></td>
+<td><td>Two thirds of the Animations team decamped to Toronto for BlinkOn, spending two days listening to (and giving) talks, syncing with colleagues from around the world, and getting to know some of our new collaborators from Microsoft. Both Stephen's <a href="https://docs.google.com/presentation/u/1/d/1WrzDN_PiKBfOVUrrbOV8gHQO-ODN0gdCpWE4xMYv29c/edit?usp=drive_web&ouid=105513761242358226829">Off Main Thread CSS Paint</a> and Majid's <a href="https://docs.google.com/presentation/d/1BCEbLCg-o_Ko65byel5QGnO7Cwf5aPZPjqnnMNbbA5E/edit">Event Delegation to Worker and Worklets</a> talks were well attended and well received.</td></td>
 
 <td><td>Web Animations - Moar Interop</td></td>
 

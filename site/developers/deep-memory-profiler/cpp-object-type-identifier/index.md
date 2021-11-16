@@ -8,7 +8,7 @@ page_name: cpp-object-type-identifier
 title: C++ Object Type Identifier (a.k.a. Type Profiler)
 ---
 
-## Type Profiler no longer exists, see [crbug.com/490464](https://code.google.com/p/chromium/issues/detail).
+## Type Profiler no longer exists, see [crbug.com/490464](https://code.google.com/p/chromium/issues/detail?id=490464).
 
 ## Introduction
 
@@ -122,6 +122,6 @@ utilize the mapping by yourself. To use it from your code,
 ## References
 
 *   \[1\] Jozsef Mihalicza et al.: "[Type-preserving heap profiler for
-            C++](http://ieeexplore.ieee.org/xpl/freeabs_all.jsp)", Proceedings
-            of the 2011 27th IEEE International Conference on Software
-            Maintenance (ICSM '11).
+            C++](http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=6080813)",
+            Proceedings of the 2011 27th IEEE International Conference on
+            Software Maintenance (ICSM '11).
