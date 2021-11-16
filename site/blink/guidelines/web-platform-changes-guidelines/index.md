@@ -164,14 +164,14 @@ benefits:
   implementation can read a specification and understand how it would map to
   their implementation, separate from the Chromium one.
 
-  Similarly, specifications are reviewable by non-implementers, including web
+* Similarly, specifications are reviewable by non-implementers, including web
   developers and groups providing wide review. Writing a specification makes
   it easier to capture the input of such groups.
 
-  Writing a specification crystalizes what the intended behavior is, separate
+* Writing a specification crystalizes what the intended behavior is, separate
   from the implemented behavior.
 
-  Specifications provide a mechanism for IPR coverage. The amount of coverage
+* Specifications provide a mechanism for IPR coverage. The amount of coverage
   varies depending on specification venue, but most venues at the very least
   guarantee that the specification writers' organization grants a patent
   license to implement the specification.
