@@ -19,6 +19,8 @@ and a large combination of supported host chipsets, flash memory devices, and
 external programmers. The code is generally adaptable to a wide variety of
 chipsets and interfaces and is thus a good candidate for servicing the needs of
 Chromium OS platforms.
+
+
 Flashrom main URL: http://www.flashrom.org
 
 Flashrom @ Chromium.org documentation:
