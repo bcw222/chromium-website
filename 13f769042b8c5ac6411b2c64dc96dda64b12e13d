@@ -16,6 +16,24 @@
       "message": "Are you removing this because you intentionally don\u0027t want it, or because it\u0027s broken?\n\nI\u0027m working on fixing the sub-page listings, so I can add it back when that\u0027s working if you like.",
       "revId": "13f769042b8c5ac6411b2c64dc96dda64b12e13d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bdb97283_efd05115",
+        "filename": "site/blink/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1197619
+      },
+      "writtenOn": "2021-11-16T21:37:07Z",
+      "side": 0,
+      "message": "http://www.google.com/chart is a 400 error page, so using it as an image doesn\u0027t seem useful.",
+      "parentUuid": "e836dee8_05926457",
+      "revId": "13f769042b8c5ac6411b2c64dc96dda64b12e13d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
