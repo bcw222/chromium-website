@@ -8,7 +8,7 @@ page_name: web-platform-changes-guidelines
 title: Blink Values in Practice
 ---
 
-#### Introduction
+## Introduction
 
 The Blink project's [core values](/blink/guidelines/values) are to promote a
 useful and thriving web, while being a good user agent and safeguarding the
@@ -35,7 +35,7 @@ forward, and the reasoning behind the various processes and requirements we
 place on members of the Chromium community as part of the [launch
 process](/blink/launching-features) that puts our values into practice.
 
-#### Finding balance
+## Finding balance
 
 For all browser developers, there is an inherent tension between moving the web
 forward and preserving interoperability and compatibility. On the one hand, the
@@ -73,30 +73,30 @@ In an ideal world, all changes would both dramatically move the web forward, and
 involve zero interoperability and compatibility risk. In practice, this is
 rarely the case, and a tradeoff needs to be made:
 
-    If a change has low interop/compat risk and significantly moves the web
-    forward, Chromium welcomes it. (Example: [shipping CSS
-    Grid](https://groups.google.com/a/chromium.org/g/blink-dev/c/hBx1ffTS9CQ/m/TMTigaDIAgAJ).)
+* If a change has low interop/compat risk and significantly moves the web
+  forward, Chromium welcomes it. (Example: [shipping CSS
+  Grid](https://groups.google.com/a/chromium.org/g/blink-dev/c/hBx1ffTS9CQ/m/TMTigaDIAgAJ).)
 
-    If a change has low interop/compat risk but isn't expected to significantly
-    move the web forward, Chromium usually still welcomes it. (Example: [moving
-    prefixed event handler properties
-    around](https://groups.google.com/a/chromium.org/g/blink-dev/c/4Fidt4JqkTk).)
-    Occasionally, Chromium will reject changes in this bucket to avoid technical
-    complexity (e.g., removing our implementation of [KV
-    Storage](https://www.chromestatus.com/features/6428344899862528)).
+* If a change has low interop/compat risk but isn't expected to significantly
+  move the web forward, Chromium usually still welcomes it. (Example: [moving
+  prefixed event handler properties
+  around](https://groups.google.com/a/chromium.org/g/blink-dev/c/4Fidt4JqkTk).)
+  Occasionally, Chromium will reject changes in this bucket to avoid technical
+  complexity (e.g., removing our implementation of [KV
+  Storage](https://www.chromestatus.com/features/6428344899862528)).
 
-    If a change has high interop/compat risk and isn't expected to significantly
-    move the web forward, Chromium will usually not welcome it. (Example: [not
-    shipping canvas
-    supportsContext](https://groups.google.com/a/chromium.org/g/blink-dev/c/n1LP6cE2or4).)
+* If a change has high interop/compat risk and isn't expected to significantly
+  move the web forward, Chromium will usually not welcome it. (Example: [not
+  shipping canvas
+  supportsContext](https://groups.google.com/a/chromium.org/g/blink-dev/c/n1LP6cE2or4).)
 
-    If a change has high interop/compat risk but is expected to significantly
-    move the web forward, Chromium will sometimes welcome it after a careful,
-    publicly-considered explanation, accompanied by the artifacts discussed
-    below. (Example: [shipping
-    WebUSB](https://groups.google.com/a/chromium.org/g/blink-dev/c/KuXx_k2KIis).)
+* If a change has high interop/compat risk but is expected to significantly
+  move the web forward, Chromium will sometimes welcome it after a careful,
+  publicly-considered explanation, accompanied by the artifacts discussed
+  below. (Example: [shipping
+  WebUSB](https://groups.google.com/a/chromium.org/g/blink-dev/c/KuXx_k2KIis).)
 
-#### The role of the API OWNERS
+## The role of the API OWNERS
 
 To find this balance and resolve the above tradeoffs on a per-change basis,
 Chromium delegates to a trusted group, the [Blink API
@@ -118,9 +118,9 @@ We have not always done this perfectly in the past, and to be honest, it’s
 unlikely we’ll always do it perfectly in the future. But we commit to trying to
 work well with others—even when we are implementing features ahead of others.
 
-#### Launch artifacts that Chromium values
+## Launch artifacts that Chromium values
 
-##### Explainers
+### Explainers
 
 [Explainers](https://w3ctag.github.io/explainers) are a proposal's first contact
 with the world. Well-written and comprehensive explainers help other interested
@@ -130,19 +130,19 @@ assume minimal previous domain knowledge in order to serve these goals well.
 
 In particular, an explainer should present a living record of:
 
-    What problem we are solving.
+* What problem we are solving.
 
-    Why we think that problem is important to solve.
+* Why we think that problem is important to solve.
 
-    What the impact of solving the problem would be.
+* What the impact of solving the problem would be.
 
-    Over time, the explainer will develop a specific solution proposal, with
-    supporting arguments for why that proposal is the best among alternatives.
+* Over time, the explainer will develop a specific solution proposal, with
+  supporting arguments for why that proposal is the best among alternatives.
 
-    Detailed discussion of any concerns raised by other implementers or by
-    wide-review groups, summing up any open questions or conclusions reached.
-    (This often ends up in the "FAQ" or "Alternatives considered" sections, or
-    in other natural locations like the "Security and privacy considerations".)
+* Detailed discussion of any concerns raised by other implementers or by
+  wide-review groups, summing up any open questions or conclusions reached.
+  (This often ends up in the "FAQ" or "Alternatives considered" sections, or
+  in other natural locations like the "Security and privacy considerations".)
 
 Explainers should be documents that other implementers can easily read or skim
 to figure out whether they think a feature is worth investing in. If these other
@@ -151,7 +151,7 @@ entry point for them to engage in the early design process. Such early
 engagement is excellent news: it increases the chance of the feature launching
 to other engines' users, sooner.
 
-##### Specifications
+### Specifications
 
 A good specification is critical to other implementations being able to
 interoperably implement a feature, and to that feature eventually reaching users
@@ -159,22 +159,22 @@ of those other implementations. Although our code is open source, and in theory
 anyone could implement based on it, good specifications have the following
 benefits:
 
-    Specifications operate at a higher level than source code, using
-    implementation-agnostic abstractions. Thus, an implementer working on any
-    implementation can read a specification and understand how it would map to
-    their implementation, separate from the Chromium one.
+* Specifications operate at a higher level than source code, using
+  implementation-agnostic abstractions. Thus, an implementer working on any
+  implementation can read a specification and understand how it would map to
+  their implementation, separate from the Chromium one.
 
-    Similarly, specifications are reviewable by non-implementers, including web
-    developers and groups providing wide review. Writing a specification makes
-    it easier to capture the input of such groups.
+  Similarly, specifications are reviewable by non-implementers, including web
+  developers and groups providing wide review. Writing a specification makes
+  it easier to capture the input of such groups.
 
-    Writing a specification crystalizes what the intended behavior is, separate
-    from the implemented behavior.
+  Writing a specification crystalizes what the intended behavior is, separate
+  from the implemented behavior.
 
-    Specifications provide a mechanism for IPR coverage. The amount of coverage
-    varies depending on specification venue, but most venues at the very least
-    guarantee that the specification writers' organization grants a patent
-    license to implement the specification.
+  Specifications provide a mechanism for IPR coverage. The amount of coverage
+  varies depending on specification venue, but most venues at the very least
+  guarantee that the specification writers' organization grants a patent
+  license to implement the specification.
 
 ***Note:** the venue for a specification, and whether it is a "specification"
 (individual unofficial draft, W3C CG draft, TC39 stage 2...) or a "standard"
@@ -212,7 +212,7 @@ maintenance of the specification even after Chromium ships the feature. This is
 especially true if a second implementer starts implementing and filing bugs
 based on their experience.
 
-##### Tests
+### Tests
 
 By contributing [web platform tests](https://github.com/web-platform-tests/wpt)
 for our proposals, we create a machine-checkable subset of the specification. In
@@ -246,7 +246,7 @@ infrastructure. We have a dedicated team,
 [ecosystem-infra@chromium.org](https://groups.google.com/a/chromium.org/g/ecosystem-infra),
 which works to improve our testing infrastructure and mitigate such gaps.
 
-##### Web developer and end user feedback
+### Web developer and end user feedback
 
 The best evidence for the value of a feature is testimonials or data from users
 and web developers. Before launch, these can be gathered in a variety of ways,
@@ -263,7 +263,7 @@ step in the process before shipping. The goal is to present a body of evidence
 that makes it easy for other engines to evaluate whether they would like to
 bring the proposal to their implementation, or not.
 
-##### Wide review
+### Wide review
 
 There are specific groups, usually in the specification ecosystem, which are
 dedicated to reviewing feature proposals. The [W3C
@@ -273,29 +273,28 @@ can gather, the better.
 
 Other groups to consider are:
 
-    Relevant working groups or specification editors, e.g. the CSSWG for CSS
-    feature proposals; the HTML Standard editors for HTML feature proposals;
-    etc.
+* Relevant working groups or specification editors, e.g. the CSSWG for CSS
+  feature proposals; the HTML Standard editors for HTML feature proposals;
+  etc.
 
-    Cross-functional W3C groups such as the [Internationalization
-    WG](https://www.w3.org/International/core/Overview), [Privacy
-    IG](https://www.w3.org/Privacy/IG/), or [APA
-    WG](https://www.w3.org/2018/08/apa-charter).
+* Cross-functional W3C groups such as the [Internationalization
+  WG](https://www.w3.org/International/core/Overview), [Privacy
+  IG](https://www.w3.org/Privacy/IG/), or [APA
+  WG](https://www.w3.org/2018/08/apa-charter).
 
-    Chromium cross-functional review groups, such as the
-    [security](/Home/chromium-security), privacy, permissions, and anti-tracking
-    teams.
+* Chromium cross-functional review groups, such as the
+  [security](/Home/chromium-security), privacy, permissions, and anti-tracking
+  teams.
 
-    Directly reaching out to other browser engine implementers or standards
-    engineers for their
-    [signals](https://docs.google.com/document/d/1xkHRXnFS8GDqZi7E0SSbR3a7CZsGScdxPUWBsNgo-oo/edit).
+* Directly reaching out to other browser engine implementers or standards
+  engineers for their [signals](https://docs.google.com/document/d/1xkHRXnFS8GDqZi7E0SSbR3a7CZsGScdxPUWBsNgo-oo/edit).
 
 None of these groups are obligated to respond; many are busy with other reviews
 or with their own work. But we always attempt to reach out, and respond to any
 concerns or questions raised. And then we work to capture any answers, or
 resultant changes, in a permanent location like the specification or explainer.
 
-#### Conclusion
+## Conclusion
 
 Notably, these guidelines do not have an explicit requirement that a feature be
 standardized (as opposed to specified), or that a feature have multi-implementer
