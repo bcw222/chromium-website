@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "752b4062_c9a86c66",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1318532
+      },
+      "writtenOn": "2021-11-16T20:42:27Z",
+      "side": 1,
+      "message": "Please reassign if there is a different Code Owner 🙏  Thank you!",
+      "revId": "dfc384b80866869cd116dbda489c593542820634",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
