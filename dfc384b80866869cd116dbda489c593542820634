@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a388cf60_290b6bea",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-17T18:45:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "752b4062_c9a86c66",
+      "revId": "dfc384b80866869cd116dbda489c593542820634",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9817bf52_80a7e838",
@@ -66,6 +84,24 @@
       "side": 1,
       "message": "Thank you! I was trying to follow https://developers.google.com/style/code-samples but I think maybe that doesn\u0027t apply to the New Chromium :)  Did my new published edit fix the issue?",
       "parentUuid": "9817bf52_80a7e838",
+      "revId": "dfc384b80866869cd116dbda489c593542820634",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1ca6ca36_92ebcb39",
+        "filename": "site/developers/design-documents/ui-localization/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-17T18:45:19Z",
+      "side": 1,
+      "message": "Ah, interesting, I thought the Google style guide(s) discouraged them, but\nit looks like I read them wrong.\n\nI think you need to rebase your CL; we can\u0027t preview it as-is to see if it worked.",
+      "parentUuid": "9751cb3c_1639c98a",
       "revId": "dfc384b80866869cd116dbda489c593542820634",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
