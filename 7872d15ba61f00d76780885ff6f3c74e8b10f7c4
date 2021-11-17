@@ -65,6 +65,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae8fa475_0f8ca303",
+        "filename": "site/chromium-os/chrome-os-systems-supporting-android-apps/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-17T02:43:17Z",
+      "side": 1,
+      "message": "Fixed.",
+      "parentUuid": "b4dc5799_ba029245",
+      "range": {
+        "startLine": 18,
+        "startChar": 73,
+        "endLine": 18,
+        "endChar": 74
+      },
+      "revId": "7872d15ba61f00d76780885ff6f3c74e8b10f7c4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "170a12f1_032b53bd",
@@ -102,6 +126,30 @@
       "side": 1,
       "message": "Yeah, I think you\u0027re right. Not sure why I didn\u0027t get a merge conflict here ...\n\nWill fix.",
       "parentUuid": "170a12f1_032b53bd",
+      "range": {
+        "startLine": 27,
+        "startChar": 16,
+        "endLine": 27,
+        "endChar": 21
+      },
+      "revId": "7872d15ba61f00d76780885ff6f3c74e8b10f7c4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e4f047d_654d7b13",
+        "filename": "site/chromium-os/chrome-os-systems-supporting-linux/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-17T02:43:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5f8829ba_0f3142a3",
       "range": {
         "startLine": 27,
         "startChar": 16,
