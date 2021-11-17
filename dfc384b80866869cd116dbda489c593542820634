@@ -50,6 +50,24 @@
       "message": "I think this needs to be wrapped in a fenced code block instead, e.g.:\n\n```\n\u003c?xml ...\n```\n\nindented code blocks don\u0027t really work right and the style guide discourages them.",
       "revId": "dfc384b80866869cd116dbda489c593542820634",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9751cb3c_1639c98a",
+        "filename": "site/developers/design-documents/ui-localization/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1318532
+      },
+      "writtenOn": "2021-11-17T13:43:38Z",
+      "side": 1,
+      "message": "Thank you! I was trying to follow https://developers.google.com/style/code-samples but I think maybe that doesn\u0027t apply to the New Chromium :)  Did my new published edit fix the issue?",
+      "parentUuid": "9817bf52_80a7e838",
+      "revId": "dfc384b80866869cd116dbda489c593542820634",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
