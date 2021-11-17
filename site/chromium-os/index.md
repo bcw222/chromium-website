@@ -17,12 +17,10 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 
 ### Videos
 
-*   [What is Google Chrome
-            OS?](http://www.youtube.com/watch?v=0QRO3gKj3qw)
-*   [Chromium OS Security](http://www.youtube.com/watch?v=A9WVmNfgjtQ)
-*   [Chromium OS & Open
-            Source](http://www.youtube.com/watch?v=KA5RQv9mBoY)
-*   [Chromium OS Fast Boot](http://www.youtube.com/watch?v=mTFfl7AjNfI)
+*   [What is a Chromebook?](https://www.youtube.com/watch?v=e2HdZVn4V68)
+*   [Chromium OS Security](https://www.youtube.com/watch?v=A9WVmNfgjtQ)
+*   [Chromium OS & Open Source](https://www.youtube.com/watch?v=KA5RQv9mBoY)
+*   [Chromium OS Fast Boot](https://www.youtube.com/watch?v=mTFfl7AjNfI)
 
 ### For contributors
 
@@ -65,8 +63,7 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 </div>
 <div class="column">
 
-### [<img alt="image"
-src="/chromium-os/comp2_200x146.jpg">](/chromium-os/comp2_200x146.jpg)
+[Illustration of a Chrome OS device](/chromium-os/comp2_200x146.jpg)
 
 ### Source code
 
