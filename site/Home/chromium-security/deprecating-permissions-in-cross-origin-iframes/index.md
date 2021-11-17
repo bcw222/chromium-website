@@ -8,6 +8,8 @@ page_name: deprecating-permissions-in-cross-origin-iframes
 title: Deprecating Permissions in Cross-Origin Iframes
 ---
 
+**Contents**
+
 [TOC]
 
 ## Proposal
@@ -15,22 +17,21 @@ title: Deprecating Permissions in Cross-Origin Iframes
 It’s proposed that by default the following permissions cannot be requested or
 used by content contained in cross-origin iframes:
 
-    Geolocation (getCurrentPosition and watchPosition)
-
-    Midi (requestMIDIAccess)
-
-    Encrypted media extensions (requestMediaKeySystemAccess)
-
-    Microphone, Camera (getUserMedia)
+*  Geolocation (getCurrentPosition and watchPosition)
+*  Midi (requestMIDIAccess)
+*  Encrypted media extensions (requestMediaKeySystemAccess)
+*  Microphone, Camera (getUserMedia)
 
 In order for a cross-origin frame to use these features, the embedding page must
 specify a Permission Policy enables the feature for the frame. For example, to
 enable geolocation in an iframe, the embedder could specify the iframe tag as:
 
-&lt;iframe src="<https://example.com>" allow="geolocation"&gt;&lt;/iframe&gt;
+```html
+<iframe src="<https://example.com>" allow="geolocation"></iframe>
+```
 
 You can find the original blink [intent to deprecate thread
-here.](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/mG6vL09JMOQ)
+here](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/mG6vL09JMOQ).
 
 **This is a living document** — as we learn more, we'll probably need to change
 this page.
@@ -79,8 +80,10 @@ that is to modify the &lt;iframe&gt; tag to include an allow attribute which
 specifies the name of the permission. For example, to enable geolocation and
 mic/camera for an iframe, the following would be specified:
 
-&lt;iframe src="<https://example.com>" allow="geolocation; microphone;
-camera"&gt;&lt;/iframe&gt;
+```html
+<iframe src="<https://example.com>" allow="geolocation; microphone;
+camera"></iframe>
+```
 
 Note that the above will grant geolocation, microphone and camera access to the
 origin specified in the "src" attribute, i.e. in this case it would be
@@ -88,8 +91,10 @@ https://example.com. In some cases, other origins will be loaded in the iframe
 that you may also wish to grant access to. In those cases you can explicitly
 specify the origins to grant access to:
 
-&lt;iframe src="<https://example.com>" allow="geolocation https://example.com
-https://foo.com;"&gt;&lt;/iframe&gt;
+```html
+<iframe src="<https://example.com>" allow="geolocation https://example.com
+https://foo.com;"></iframe>
+```
 
 The above example would grant geolocation to https://example.com as well as
 https://foo.com when they are loaded in the iframe. To grant access to all
@@ -98,8 +103,9 @@ should be used carefully as it means that any page that gets loaded in the
 iframe can request geolocation, which is often not the intent. The code would
 look as follows:
 
-&lt;iframe src="<https://example.com>" allow="geolocation
-\*;"&gt;&lt;/iframe&gt;
+```html
+<iframe src="<https://example.com>" allow="geolocation *;"></iframe>
+```
 
 Valid values for allow include:
 
