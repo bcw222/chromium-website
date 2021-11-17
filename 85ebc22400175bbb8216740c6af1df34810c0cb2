@@ -16,6 +16,23 @@
       "message": "Hi Dirk,\n\nSubmitting a minor update for your review after receiving your email re: the \"new\" chromium.org!\n\nPlease let me know if you have any questions.\n\nThanks,\nRyan",
       "revId": "85ebc22400175bbb8216740c6af1df34810c0cb2",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3447f873_2acaa09d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-17T17:56:42Z",
+      "side": 1,
+      "message": "lgtm, thanks for the fixes!",
+      "revId": "85ebc22400175bbb8216740c6af1df34810c0cb2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
