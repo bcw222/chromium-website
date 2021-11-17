@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eb828ccd_ba908f07",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2021-11-17T06:41:01Z",
+      "side": 1,
+      "message": "Besides the merge conflict and failed builder it lgtm. Not sure why the builder failed",
+      "revId": "3a8a63be37f3dcf6f58ee82788b9a848cf777aea",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
