@@ -37,8 +37,9 @@ make -C
 M=\`pwd\` ARCH=arm CROSS_COMPILE=armv7a-cros-linux-gnueabi- modules
 After building the kernel module, we need to copy gatord and the kernel module
 to the target device, and they must be placed in the same directory.
-[ARM DS-5 Using ARM Streamline](http://infocenter.arm.com/help/index.jsp) has
-more detailed information about building and using streamline.
+[ARM DS-5 Using ARM
+Streamline](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0482b/index.html)
+has more detailed information about building and using streamline.
 In order to profile ChromeOS during its bootup, we don't have enough time to set
 the Eclipse for DS-5 to connect to ChromeOS, and capture the profiling result.
 Instead, we can run the daemon in a "local capture" mode, i.e., we can run the
@@ -51,7 +52,7 @@ below:
 buffer_mode="streaming" sample_rate="normal" target_path="/tmp/@F_@N"
 duration="10"/&gt;
 More information about "local capture" can be find at
-[here](http://infocenter.arm.com/help/index.jsp).
+[here](http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.faqs/ka14991.html).
 Here is the result of a local capture after post-startup, where ureadahead
 starts running. Streamline captures the system information for 10 seconds and
 the boot takes about 5 seconds to complete after post-startup. From streamline,

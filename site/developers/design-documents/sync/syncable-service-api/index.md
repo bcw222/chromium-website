@@ -38,9 +38,9 @@ enum SyncType { BOOKMARKS, PREFERENCES, ... };
 class SyncData {
  public:
   SyncType sync_type();
-  // The service-specific data is in a [protobuf extension](http://code.google.com/apis/protocolbuffers/docs/proto.html#extensions) of [EntitySpecifics](https://cs.chromium.org/chromium/src/components/sync/protocol/sync.proto)
+  // The service-specific data is in a [protobuf extension](http://code.google.com/apis/protocolbuffers/docs/proto.html#extensions) of [EntitySpecifics](https://cs.chromium.org/chromium/src/components/sync/protocol/sync.proto?l=69)
   // which corresponds to sync_type().
-  [EntitySpecifics](https://cs.chromium.org/chromium/src/components/sync/protocol/sync.proto) specifics();
+  [EntitySpecifics](https://cs.chromium.org/chromium/src/components/sync/protocol/sync.proto?l=69) specifics();
 };
 class SyncChange {
  public:
@@ -50,11 +50,11 @@ class SyncChange {
   // change_type is DELETE, this contains the data right before deletion.
   SyncData sync_data();
 };
-SyncData CreateSyncData(SyncType sync_type, [EntitySpecifics](https://cs.chromium.org/chromium/src/components/sync/protocol/sync.proto) specifics);
+SyncData CreateSyncData(SyncType sync_type, [EntitySpecifics](https://cs.chromium.org/chromium/src/components/sync/protocol/sync.proto?l=69) specifics);
 // |tag| should be a unique data-type specific ID that can be used to
 // prevent duplicate entries for the same object, e.g. for extensions,
 // it would be the extension ID.
-SyncChange CreateSyncChange(SyncChange::ChangeType type, SyncType sync_type, [EntitySpecifics](https://cs.chromium.org/chromium/src/components/sync/protocol/sync.proto) specifics, string tag);
+SyncChange CreateSyncChange(SyncChange::ChangeType type, SyncType sync_type, [EntitySpecifics](https://cs.chromium.org/chromium/src/components/sync/protocol/sync.proto?l=69) specifics, string tag);
 ```
 
 Both `SyncData` and `SyncChange` are immutable, thread-safe, and cheaply
@@ -203,11 +203,12 @@ There will most likely be one instance per thread of `SyncChangeProcessor` which
 handles all the data types which live on that thread.
 
 An earlier API proposal by Nicolas Zea is
-[here](https://docs.google.com/a/google.com/document/d/1-Ky4lhCTIN_9cTef2zZsIh3pBALQUPj-3Hh2BpPkX20/edit)
+[here](https://docs.google.com/a/google.com/document/d/1-Ky4lhCTIN_9cTef2zZsIh3pBALQUPj-3Hh2BpPkX20/edit?hl=en)
 (available only to Googlers).
 
-[Life of a Sync Item Update](https://docs.google.com/Doc) is useful for
-understanding how exactly sync works behind the scenes.
+[Life of a Sync Item
+Update](https://docs.google.com/Doc?docid=0Aa_pnb1d4_gnZDUzOWp4bV80ZDhjeng1ZzU&hl=en)
+is useful for understanding how exactly sync works behind the scenes.
 
 #### Future plans
 

@@ -60,8 +60,9 @@ OS code base.
             configurations
     *   e.g. "release" or "canary" or "firmware" or "factory" or "pfq"
                 or "paladin" or "incremental" or "asan" or ...
-    *   see [cbuildbot_config.py](http://git.chromium.org/gitweb/) in
-                the chromite repo for more examples (look at the CONFIG
+    *   see
+                [cbuildbot_config.py](http://git.chromium.org/gitweb/?p=chromiumos/chromite.git;a=blob;f=buildbot/cbuildbot_config.py)
+                in the chromite repo for more examples (look at the CONFIG
                 constants at the top)
         *   you can also run `` `cbuildbot -l -a` `` to get a feel for
                     the "group" names

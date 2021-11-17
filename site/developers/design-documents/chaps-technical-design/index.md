@@ -59,7 +59,7 @@ The following resources provide useful background to this document:
             the TPM-specific implementation. This link provides details on the
             plugin and the model it implements.
 *   [PKCS #11: Cryptographic Token Interface
-            Standard](http://www.rsa.com/rsalabs/node.asp)
+            Standard](http://www.rsa.com/rsalabs/node.asp?id=2133)
 *   [TCG Software Stack
             Specification](http://www.trustedcomputinggroup.org/files/resource_files/6479CD77-1D09-3519-AD89EAD1BC8C97F0/TSS_1_2_Errata_A-final.pdf)
 

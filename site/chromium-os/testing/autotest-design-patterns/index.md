@@ -27,8 +27,8 @@ giving the maximum number of times the test should be retried.
 > Note that a previous method of retrying flaky tests was to use the RETRIES
 > attribute. While this attribute is no longer in use, one might find this in
 > commits merged in or before Aug 2018. [This
-> bug](https://bugs.chromium.org/p/chromium/issues/detail) tracks the migration
-> from RETRIES to JOB_RETRIES.
+> bug](https://bugs.chromium.org/p/chromium/issues/detail?id=873716) tracks the
+> migration from RETRIES to JOB_RETRIES.
 
 ## Wrapping a GTest test in Autotest
 

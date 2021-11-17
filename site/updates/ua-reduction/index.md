@@ -271,8 +271,8 @@ Note: There may not be user-visible changes here, unless the user was on a lower
 version.
 
 Also note that the macOS platform version was already [capped to
-10_15_7](https://bugs.chromium.org/p/chromium/issues/detail) in Chrome 90 for
-site compatibility reasons.
+10_15_7](https://bugs.chromium.org/p/chromium/issues/detail?id=1175225) in
+Chrome 90 for site compatibility reasons.
 
 <table>
 <tr>
@@ -538,7 +538,7 @@ In Phase 6, we change the &lt;deviceModel&gt; token to “K” and change the
 
 navigator.appVersion is effectively an alias of navigator.userAgent (it’s
 [everything after
-“Mozilla/”](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/core/frame/navigator_id.cc;l=56)).
+“Mozilla/”](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/core/frame/navigator_id.cc;l=56?q=appVersion&ss=chromium)).
 
 To avoid confusion and reduce implementation complexity, we aim to follow the
 same plan for navigator.userAgent.

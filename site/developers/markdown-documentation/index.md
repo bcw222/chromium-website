@@ -24,4 +24,6 @@ https://chromium.googlesource.com/chromium/src/+/master/&lt;my
 path&gt;/README.md
 ([example](https://chromium.googlesource.com/chromium/src/+/master/third_party/WebKit/Source/core/paint/README.md)).
 
-[Here are some more examples](https://cs.chromium.org/search/) to learn from.
+[Here are some more
+examples](https://cs.chromium.org/search/?q=file:readme.md+-file:/third_party/&type=cs)
+to learn from.

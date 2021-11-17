@@ -11,7 +11,8 @@ title: Reporting memory bloat/leak issues
 
 <td>## How to file a bug for memory bloat/leak issues:</td>
 
-    <td>Use <a href="https://code.google.com/p/chromium/issues/entry">this
+    <td>Use <a
+    href="https://code.google.com/p/chromium/issues/entry?template=Memory%20usage">this
     template</a> when filing a bug for memory bloat/leak issues.</td>
 
     <td>See <a

@@ -92,16 +92,16 @@ API to access the actual device sensors.
 The ‘generic_sensor’ component exposes following mojo interfaces for
 communication with JS bindings:
 
-    [SensorProvider](https://cs.chromium.org/chromium/src/device/generic_sensor/public/interfaces/sensor_provider.mojom)
+    [SensorProvider](https://cs.chromium.org/chromium/src/device/generic_sensor/public/interfaces/sensor_provider.mojom?l=33)
     is a “factory like” interface that provides data about the sensors present
     on the device and their capabilities (reporting mode, maximum sampling
     frequency).
 
-    [Sensor](https://cs.chromium.org/chromium/src/device/generic_sensor/public/interfaces/sensor.mojom)
+    [Sensor](https://cs.chromium.org/chromium/src/device/generic_sensor/public/interfaces/sensor.mojom?l=42)
     is an interface wrapping a concrete device sensor. JS bindings code uses it
     to start polling the device sensor with the configurations obtained from JS.
 
-    [SensorClient](https://cs.chromium.org/chromium/src/device/generic_sensor/public/interfaces/sensor.mojom)
+    [SensorClient](https://cs.chromium.org/chromium/src/device/generic_sensor/public/interfaces/sensor.mojom?l=80)
     is implemented by JS bindings code to be notified about errors occurred on
     platform side and about sensor reading updates for sensors with ‘onchange’
     reporting mode.
@@ -115,7 +115,7 @@ latency.
 GSF component diagram is shown on figure below:
 
 <img alt="image"
-src="https://docs.google.com/drawings/u/3/d/swJKFqj5wPl_myKrVsrPfvA/image"
+src="https://docs.google.com/drawings/u/3/d/swJKFqj5wPl_myKrVsrPfvA/image?w=624&h=173&rev=1&ac=1&parent=1Ml65ZdW5AgIsZTszk4mD_ohr40pcrdVFOIf0ZtWxDv0"
 height=173 width=624>
 
 # Detailed Design
@@ -224,7 +224,7 @@ the same type and they have different sampling frequencies: 1Hz, 50Hz, 10Hz,
 
 The maximum sampling frequency used is 50 Hz and PlatformSensor updates shared
 buffer using this frequency. <img alt="image"
-src="https://docs.google.com/drawings/u/3/d/seLUCG5qYsxSM0B-2rqap5A/image"
+src="https://docs.google.com/drawings/u/3/d/seLUCG5qYsxSM0B-2rqap5A/image?w=652&h=488&rev=61&ac=1&parent=1Ml65ZdW5AgIsZTszk4mD_ohr40pcrdVFOIf0ZtWxDv0"
 height=488 width=652>
 
 Note: the given sampling frequency value is capped to 60 Hz for security
@@ -366,7 +366,7 @@ PlatformSensorLinux derived from a PlatformSensor, a SensorDeviceManager and a
 SensorReader, which is a base class for a PollingSensorReader.
 
 <img alt="image"
-src="https://docs.google.com/drawings/u/3/d/sRFxDJyPPjE85FLZKbmQGCg/image"
+src="https://docs.google.com/drawings/u/3/d/sRFxDJyPPjE85FLZKbmQGCg/image?w=579&h=65&rev=1&ac=1&parent=1Ml65ZdW5AgIsZTszk4mD_ohr40pcrdVFOIf0ZtWxDv0"
 height=65 width=579><img alt="generic_base.png"
 src="https://lh3.googleusercontent.com/D_qfkaVYUldbQPHUFNrxpbpkI1SGv6yxJlxuO1r6b88ne7jkuoqpLZelPc_nZCbqefzEQf5nKivGxnyIaaucFGLnqyI8svPuHiPczpomteqVN3E-OGgNI76MqVPQZ6Ak1rDm-cPuVtzXzKpmQA"
 height=740 width=803>
@@ -424,7 +424,7 @@ src="https://lh3.googleusercontent.com/05VRDc-LdkOLgTi6-HuFBjbZ8qzUVT8iBtigiZbvW
 height=553 width=624>
 
 <img alt="image"
-src="https://docs.google.com/drawings/u/3/d/s-HVe_BTAtNxE_My3Rl6HRA/image"
+src="https://docs.google.com/drawings/u/3/d/s-HVe_BTAtNxE_My3Rl6HRA/image?w=579&h=69&rev=1&ac=1&parent=1Ml65ZdW5AgIsZTszk4mD_ohr40pcrdVFOIf0ZtWxDv0"
 height=69 width=579>
 
 ## Chrome OS and Linux: threading model
@@ -468,7 +468,7 @@ src="https://lh6.googleusercontent.com/PVqMgrhDf57huqKTFHmuyofmIQMXvXKmEOu6RFki9
 height=518 width=590>
 
 <img alt="image"
-src="https://docs.google.com/drawings/u/3/d/szpXlJsbA4i15I6FIku9Auw/image"
+src="https://docs.google.com/drawings/u/3/d/szpXlJsbA4i15I6FIku9Auw/image?w=579&h=69&rev=1&ac=1&parent=1Ml65ZdW5AgIsZTszk4mD_ohr40pcrdVFOIf0ZtWxDv0"
 height=69 width=579>
 
 <img alt="generic_sensors_cd_mac.png"
@@ -476,7 +476,7 @@ src="https://lh5.googleusercontent.com/0IbAyniyvBWeqcBJ40LRkcu4qo_olAaveiuxFpd31
 height=652 width=657>
 
 <img alt="image"
-src="https://docs.google.com/drawings/u/3/d/saLeDm0SYjy7M5I_uX-tE_w/image"
+src="https://docs.google.com/drawings/u/3/d/saLeDm0SYjy7M5I_uX-tE_w/image?w=579&h=69&rev=1&ac=1&parent=1Ml65ZdW5AgIsZTszk4mD_ohr40pcrdVFOIf0ZtWxDv0"
 height=69 width=579>
 
 # Security and Privacy
@@ -530,8 +530,8 @@ frequency is not exposed to JS objects.
 Generic Sensor APIs functions the same in incognito and regular windows.
 
 Discussion of past issues discovered in Blink’s Device Orientation and Motion
-APIs is [here](https://bugs.chromium.org/p/chromium/issues/detail), we believe
-they are all addressed by the above mitigations.
+APIs is [here](https://bugs.chromium.org/p/chromium/issues/detail?id=598674), we
+believe they are all addressed by the above mitigations.
 
 ## Sensor permissions considerations
 

@@ -19,12 +19,13 @@ experience by implementing new innovative privacy features.
 If you discover a privacy issue, e.g. a behavior where your personal information
 is not adequately protected, or used in an non-transparent or unexpected
 fashion, or bugs related to existing privacy features such as the content
-settings, please [file a bug](http://code.google.com/p/chromium/issues/entry) in
+settings, please [file a
+bug](http://code.google.com/p/chromium/issues/entry?template=Privacy%20issue) in
 our public bug tracker.
 
 If you want to report a privacy issue that contains e.g. personal information,
 or other sensitive data, please file a bug using the [confidential
-template](https://bugs.chromium.org/p/chromium/issues/entry).
+template](https://bugs.chromium.org/p/chromium/issues/entry?template=Privacy+issue+%28confidential%29).
 
 For general discussions, please post to the [technical discussion
 forums](/developers/technical-discussion-groups).

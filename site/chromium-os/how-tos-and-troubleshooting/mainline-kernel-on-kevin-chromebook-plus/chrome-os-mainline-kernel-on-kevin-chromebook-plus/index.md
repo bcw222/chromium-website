@@ -11,7 +11,7 @@ title: Chrome OS + Mainline kernel on kevin (Chromebook Plus)
 ---
 
 Adapted from Tomasz's instructions
-[here](https://bugs.chromium.org/p/chromium/issues/detail)
+[here](https://bugs.chromium.org/p/chromium/issues/detail?id=907715#c7)
 
 ## Applying the downstream patches
 

@@ -29,7 +29,7 @@ The latest version of DoH providers recognized by Chrome (canary) can be found
 Note that users can configure any DoH providers of their choosing, the providers
 included in Chrome are for the auto-upgrade mechanism and for a list of
 popular/relevant options as a convenience (see the [requirements and
-process](https://docs.google.com/document/d/128i2YTV2C7T6Gr3I-81zlQ-_Lprnsp24qzy_20Z1Psw/edit)).
+process](https://docs.google.com/document/d/128i2YTV2C7T6Gr3I-81zlQ-_Lprnsp24qzy_20Z1Psw/edit?usp=sharing)).
 
 For technical questions, please send an email to
 [net-dev@](https://groups.google.com/a/chromium.org/forum/#!forum/net-dev/) with

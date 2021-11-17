@@ -66,4 +66,4 @@ git cl upload
 Ensure the repository in question **is mirrored at chromium.googlesource.com**.
 We do this to avoid swamping upstream hosts with loads of traffic from our
 developers and bot fleet. To mirror a repository, please file an [infrastructure
-ticket](https://code.google.com/p/chromium/issues/entry).
+ticket](https://code.google.com/p/chromium/issues/entry?template=Build%20Infrastructure).

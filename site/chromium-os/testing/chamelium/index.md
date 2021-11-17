@@ -34,7 +34,8 @@ Chamelium consists of 3 primary components:
     micro-SD card that provides the Linux image and FPGA configuration. This can
     be purchased from distributors like
     [Arrow](https://parts.arrow.com/item/detail/arrow-development-tools/sockit#eFGz)
-    or [Terasic](http://www.terasic.com.tw/cgi-bin/page/archive.pl).
+    or
+    [Terasic](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=205&No=816).
 
     source code for the underlying test infrastructure and logic
 
@@ -81,7 +82,8 @@ Chamelium:
 
     1 micro-SD card reader
 
-    [1 HSMC flex cable](http://www.terasic.com.tw/cgi-bin/page/archive.pl)
+    [1 HSMC flex
+    cable](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=78&No=275)
 
     Depending on what you’d like to test, one of each of the following cables:
     HDMI, VGA, and DP
@@ -133,7 +135,7 @@ The following equipment is optional:
 ### Image the SD card
 
 Download
-[tio_v2_4G.img.zip](https://drive.google.com/file/d/1ZITcjsjy8_5WyMRjx1cGMYj8PvlGK3um/view)
+[tio_v2_4G.img.zip](https://drive.google.com/file/d/1ZITcjsjy8_5WyMRjx1cGMYj8PvlGK3um/view?usp=sharing)
 and unzip it. dd tio_v2_4G.img onto the micro-SD card from your Linux host.
 
 # sudo dd if=tio_v2_4G.img of=/dev/sdx bs=4M oflag=sync
@@ -152,7 +154,7 @@ Updates on v2 image:
     Fixed broken pip.
 
 Old v1 image:
-[tio.image.gz](https://drive.google.com/file/d/0B9Ff7PW3or-BeHVnQnhkZHBWM2c/view)
+[tio.image.gz](https://drive.google.com/file/d/0B9Ff7PW3or-BeHVnQnhkZHBWM2c/view?usp=sharing)
 
 ### Configure the external display emulator board
 
@@ -399,16 +401,16 @@ refer to the documentation below.
         and CAT9883CRegisterRev01.pdf)
 
         [Chamelium Hardware Design
-        Overview](https://docs.google.com/document/d/1Ae_qcraDwNA5dkWkVo3PhK2SQzZITTv-rlDUFE5tybI/edit)
+        Overview](https://docs.google.com/document/d/1Ae_qcraDwNA5dkWkVo3PhK2SQzZITTv-rlDUFE5tybI/edit?usp=sharing)
 
         [Chamelium External Display
-        Emulator](https://docs.google.com/presentation/d/1p8F8defw3fQzCtUyZyoQjROQ37jIZRDwkBT9XG2Cj3g/edit)
+        Emulator](https://docs.google.com/presentation/d/1p8F8defw3fQzCtUyZyoQjROQ37jIZRDwkBT9XG2Cj3g/edit?usp=sharing)
 
         [HSMC pin
-        mapping](https://docs.google.com/spreadsheets/d/1ISQF5VookmiZWYXKs4fedR6LO5MDmiH0V1v1EMsuiPc/edit)
+        mapping](https://docs.google.com/spreadsheets/d/1ISQF5VookmiZWYXKs4fedR6LO5MDmiH0V1v1EMsuiPc/edit?usp=sharing)
 
         [FPGA pin
-        mapping](https://docs.google.com/spreadsheets/d/1AkgGdehgp27SnCDMjQ6qxNdfmGV2NTp9bAL8llEtLUo/edit)
+        mapping](https://docs.google.com/spreadsheets/d/1AkgGdehgp27SnCDMjQ6qxNdfmGV2NTp9bAL8llEtLUo/edit?usp=sharing)
 
         FPGA pin locations (see attachment: FPGA pins.png)
 
@@ -416,9 +418,9 @@ refer to the documentation below.
 
 *   The FPGA specs:
     *   [FPGA Development
-                Guide](https://docs.google.com/document/d/1CkQ-VbEW2NumtsmKyWqJlqBKJuCj0QY8qxDT4dKxJWc/edit)
+                Guide](https://docs.google.com/document/d/1CkQ-VbEW2NumtsmKyWqJlqBKJuCj0QY8qxDT4dKxJWc/edit?usp=sharing)
     *   [FPGA
-                Interface](https://docs.google.com/document/d/1_HjEMA8fBoHkUbpUZq-OXtITfiomCb1HBKN07T-POlY/edit)
+                Interface](https://docs.google.com/document/d/1_HjEMA8fBoHkUbpUZq-OXtITfiomCb1HBKN07T-POlY/edit?usp=sharing)
     *   FPGA RTL Source Code (see attachment:
                 video-chameleon-658cadce37849ec8330f7cbfa01135983984ec24.tar.gz)
 *   Test software:

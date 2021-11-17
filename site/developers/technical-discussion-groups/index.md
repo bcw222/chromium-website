@@ -156,14 +156,14 @@ title: Technical Discussion Groups
                 graphics drivers, & input devices.
 *   [paint-dev](https://groups.google.com/a/chromium.org/forum/#!forum/paint-dev)
     *   Discussion forum for the [Paint team](/teams/paint-team).
-*   [pepper-dev](https://groups.google.com/a/chromium.org/forum/)
+*   [pepper-dev](https://groups.google.com/a/chromium.org/forum/?fromgroups#!forum/pepper-dev)
     *   List for discussing technical issues related to the Pepper APIs
                 in Chromium, including proposals for new APIs, changes to
                 existing APIs and discussion around the implementation of APIs
                 in the browser.
 *   [platform-architecture-dev](https://groups.google.com/a/chromium.org/forum/#!forum/platform-architecture-dev)
     *   Discussion forum for the [Platform Architecture
-                Team](https://docs.google.com/document/d/1_fs3efUiimJzDotTzcdVddS6TtHG1lUdPnJocyERWJA/edit).
+                Team](https://docs.google.com/document/d/1_fs3efUiimJzDotTzcdVddS6TtHG1lUdPnJocyERWJA/edit?pref=2&pli=1).
 *   [platform-predictability](https://groups.google.com/a/chromium.org/forum/#!forum/platform-predictability)
     *   Discussion forum for the [Web Platform Predictability
                 effort](/blink/platform-predictability).

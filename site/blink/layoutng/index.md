@@ -25,7 +25,8 @@ Although the user visible impact should be minimal, LayoutNG changes some
 behavior in very subtle ways, fixes hundreds of tests, and improves
 compatibility with other browsers. Despite our best efforts, it is likely that
 this will cause some sites and applications to render or behave slightly
-differently. \[[CRBug query](https://bugs.chromium.org/p/chromium/issues/list)\]
+differently. \[[CRBug
+query](https://bugs.chromium.org/p/chromium/issues/list?colspec=ID%20Pri%20M%20Stars%20ReleaseBlock%20Component%20Status%20Owner%20Summary%20OS%20Modified&q=Type%3DBug-Regression%20Label%3ALayoutNG&can=1)\]
 
 The performance characteristics are also quite different; although performance
 on a whole is similar or slightly better than before, certain use cases are
@@ -228,8 +229,9 @@ and overall [tracking bug](https://crbug.com/591099).
 For more detailed information about the specific compatibility issues and bugs
 fixed by LayoutNG, please see the issues linked above or search the Chromium bug
 database for bugs marked
-[Fixed-In-LayoutNG](https://bugs.chromium.org/p/chromium/issues/list).
+[Fixed-In-LayoutNG](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=label%3AFixed-In-LayoutNG).
 
 If you suspect that LayoutNG may have caused a web site to break, please [file a
-bug report](https://bugs.chromium.org/p/chromium/issues/entry) and we'll
-investigate.
+bug
+report](https://bugs.chromium.org/p/chromium/issues/entry?summary=%5BLayoutNG%5D+Enter+one-line+summary&labels=LayoutNG&components=Blink%3ELayout)
+and we'll investigate.

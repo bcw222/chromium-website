@@ -19,7 +19,7 @@ pages are fetched from the network.
 ## Conceptual application layers
 
 [<img alt="image"
-src="https://docs.google.com/drawings/pub">](https://docs.google.com/drawings/pub)
+src="https://docs.google.com/drawings/pub?id=1gdSTfvLxbJDbX8oiWo5LTwAmXmdMQvjoUhYEhfhj0-k&w=473&h=211">](https://docs.google.com/drawings/pub?id=1gdSTfvLxbJDbX8oiWo5LTwAmXmdMQvjoUhYEhfhj0-k&w=473&h=204)
 
 (The original Google Doc for this illustration is http://goo.gl/MsEJX which is
 open for editing by any @chromium.org)

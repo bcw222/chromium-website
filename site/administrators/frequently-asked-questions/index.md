@@ -181,14 +181,15 @@ platforms?**
 > Yes, if you are a Google Apps for Business customer. Call the same number, use
 > the same email address, or file a ticket via your control panel the same way
 > you do for any Google Apps issues. Click
-> [here](http://support.google.com/enterprisehelp/bin/answer.py) for information
-> on how to access the Google Enterprise Support Portal.
+> [here](http://support.google.com/enterprisehelp/bin/answer.py?hl=en&answer=138863)
+> for information on how to access the Google Enterprise Support Portal.
 
 **What other support resources are available?**
 
-> Google Chrome has a full [help center](http://www.google.com/support/chrome/),
-> along with a [help forum](http://www.google.com/support/forum/p/Chrome), and
-> [public bug tracker](http://code.google.com/p/chromium/issues/list).
+> Google Chrome has a full [help
+> center](http://www.google.com/support/chrome/?hl=en-US), along with a [help
+> forum](http://www.google.com/support/forum/p/Chrome?hl=en&utm_source=HC&utm_medium=leftnav&utm_campaign=chrome),
+> and [public bug tracker](http://code.google.com/p/chromium/issues/list).
 
 **I found a bug in Chrome that I need fixed. Who should I contact and when can I
 expect it fixed?**
@@ -225,5 +226,5 @@ work in it. What can we do?**
 > 1. Update the legacy application to work on modern browsers (if possible)
 
 > 2. Use Chrome's [legacy browser
-> support](https://support.google.com/chrome/a/answer/3019558) to enable loading
-> legacy applications in a legacy browser.
+> support](https://support.google.com/chrome/a/answer/3019558?hl=en) to enable
+> loading legacy applications in a legacy browser.

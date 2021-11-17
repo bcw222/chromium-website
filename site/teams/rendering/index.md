@@ -61,7 +61,7 @@ members.
 *   **CSS Containment**
     Ongoing work to optimize performance isolation for CSS containment.
 *   **[LayoutNG](/blink/layoutng)**, issue
-            [591099](https://bugs.chromium.org/p/chromium/issues/detail).
+            [591099](https://bugs.chromium.org/p/chromium/issues/detail?id=591099).
     A new layout system for Blink designed with fragmentation, extensibility and
     interruptibility in mind.
     Phase 1 (block flow) launched in M77.
@@ -70,7 +70,7 @@ members.
 *   **[Composite After
             Paint](https://docs.google.com/document/d/114ie7KJY3e850ZmGh4YfNq8Vq10jGrunZJpaG6trWsQ/view)**
             (CAP), issue
-            [471333](https://bugs.chromium.org/p/chromium/issues/detail).
+            [471333](https://bugs.chromium.org/p/chromium/issues/detail?id=471333).
     Previously known as Slimming Paint v2. Project to re-implement the
     Blink&lt;-&gt;CC picture recording API to work in terms of a global display
     list rather than a tree of cc::Layers. It will result in a drastic
@@ -78,7 +78,7 @@ members.
     and cc, which in turn will yield improved performance, correctness and
     flexibility.
 *   **src: local() matching**, issue
-            [627143](https://bugs.chromium.org/p/chromium/issues/detail).
+            [627143](https://bugs.chromium.org/p/chromium/issues/detail?id=627143).
     Font matching and IPC improvements to allow for spec compliant font matching
     and improved web font performance.
 
@@ -121,7 +121,7 @@ public mailing list. If you're interested in participating please talk to
 
 Meeting notes are public and are sent to *rendering-core-dev*, they're also
 available in this document: [Meeting
-notes](https://docs.google.com/document/d/1J1E_cAAPVEuwTOEN7nCs8YcDAWclQboV4bfrMG8wBn4/edit).
+notes](https://docs.google.com/document/d/1J1E_cAAPVEuwTOEN7nCs8YcDAWclQboV4bfrMG8wBn4/edit?usp=sharing).
 
 ### Slack
 
@@ -212,20 +212,23 @@ Going through the bug database to find a suitable bug is quite a daunting task
 though. To make it a little easier we try to maintain a list of bugs that we
 think are suitable starter bugs. Those bugs are marked with a *GoodFirstBug*
 label. Use the following queries to see *GoodFirstBug* in the [style &
-layout](https://bugs.chromium.org/p/chromium/issues/list) and [paint &
-compositing](https://bugs.chromium.org/p/chromium/issues/list) components
-respectively.
+layout](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=Component%3ABlink%3ECSS%2CBlink%3EFonts%2CBlink%3EFullscreen%2CBlink%3ELayout%2CBlink%3ETextAutosize+Hotlist%3DGoodFirstBug+&colspec=ID+Pri+M+Stars+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=tiles)
+and [paint &
+compositing](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=Component%3ABlink%3EPaint%2CBlink%3ECanvas%2CBlink%3ECompositing%2CBlink%3ESVG%2CBlink%3EImage%2CBlink%3EHitTesting%2CBlink%3EGeometry+Hotlist%3DGoodFirstBug+&colspec=ID+Pri+M+Stars+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=tiles)
+components respectively.
 If you prefer, the following queries will show all open bugs in the respective
-bucket: [style & layout](https://bugs.chromium.org/p/chromium/issues/list),
-[paint & compositing](https://bugs.chromium.org/p/chromium/issues/list).
+bucket: [style &
+layout](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=Component%3ABlink%3ECSS%2CBlink%3EFonts%2CBlink%3EFullscreen%2CBlink%3ELayout%2CBlink%3ETextAutosize&colspec=ID+Pri+M+Stars+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=tiles),
+[paint &
+compositing](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=Component%3ABlink%3EPaint%2CBlink%3ECanvas%2CBlink%3ECompositing%2CBlink%3ESVG%2CBlink%3EImage%2CBlink%3EHitTesting%2CBlink%3EGeometry&colspec=ID+Pri+M+Stars+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=tiles).
 
 ## Documentation
 
 For a high-level overview of the rendering pipeline please see the [Life of a
-Pixel](https://www.youtube.com/watch) ([slide deck](http://bit.ly/lifeofapixel))
-talk that Steve Kobes gave a little while ago. It gives a very good overview and
-explains how the different steps in the pipeline work and interact with each
-other.
+Pixel](https://www.youtube.com/watch?v=w8lm4GV7ahg) ([slide
+deck](http://bit.ly/lifeofapixel)) talk that Steve Kobes gave a little while
+ago. It gives a very good overview and explains how the different steps in the
+pipeline work and interact with each other.
 
 For more in-depth documentation about specific rendering stages see the relevant
 markdown files checked into the main source tree. The README.md file in each top
@@ -274,7 +277,7 @@ as not all contributors have *chromium.org* accounts.
             Factor](https://docs.google.com/document/d/1CZSCPzOYujdUMyChocwzOBPKxYAoTsEoezMye30Hdcs/)
             (2015)
 *   [Unprefix CSS Writing
-            Modes](https://docs.google.com/document/d/1lGrcTSlKMDeOEKZbHqvdLnW_Soywn7oICci2ApBXB00/edit)
+            Modes](https://docs.google.com/document/d/1lGrcTSlKMDeOEKZbHqvdLnW_Soywn7oICci2ApBXB00/edit?usp=sharing)
             (2015)
 *   [Slimming Paint](/blink/slimming-paint) (2016)
 *   [LayoutNG](https://docs.google.com/document/d/1uxbDh4uONFQOiGuiumlJBLGgO4KDWB8ZEkp7Rd47fw4/)
@@ -284,13 +287,13 @@ as not all contributors have *chromium.org* accounts.
             Breaking](https://docs.google.com/document/d/1eMTBKTnWEMDu00uS2p8Xj-l9Pk7Kf0q5y3FbcCrWYjU/)
             (2016)
 *   [Hyphenation in
-            Blink](https://docs.google.com/document/d/1ZgMnNxYxvPJYMOeyxJs8MsfGMNFiDKrz64AySxlCzpk/edit)
+            Blink](https://docs.google.com/document/d/1ZgMnNxYxvPJYMOeyxJs8MsfGMNFiDKrz64AySxlCzpk/edit?usp=sharing)
             (2016)
 *   ["system-ui" generic font
-            family](https://docs.google.com/document/d/1BI0OiWRUvsBOuPxPlF5J-_xtUZ49eVDUEXZXoF32ZcM/edit)
+            family](https://docs.google.com/document/d/1BI0OiWRUvsBOuPxPlF5J-_xtUZ49eVDUEXZXoF32ZcM/edit?usp=sharing)
             (2016)
 *   [Using ICU BiDi in
-            LayoutNG](https://docs.google.com/document/d/1GXtjMXE46IFDXUdzyUAY2_yzZ3tJoiuYPV15e5xtGeE/edit)
+            LayoutNG](https://docs.google.com/document/d/1GXtjMXE46IFDXUdzyUAY2_yzZ3tJoiuYPV15e5xtGeE/edit?usp=sharing)
             (2016)
 *   [Root Layer
             Scrolling](https://docs.google.com/document/d/137p-8FcnRh3C3KXi_x4-fK-SOgj5qOMgarjsqQOn5QQ/)
@@ -335,7 +338,7 @@ as not all contributors have *chromium.org* accounts.
             fragmentation](https://docs.google.com/document/d/1EJOdFesZKspvrU7uWtGl-8ab2jIrzRF6NKJhwYOs6hU/)
             (2019)
 *   [Moving out from
-            NGPaintFragment](https://docs.google.com/document/d/1O6u2BWhvjsT_dkqQZPftmqZ-qgBqxGlA2ZyLh_xBpgQ/edit)
+            NGPaintFragment](https://docs.google.com/document/d/1O6u2BWhvjsT_dkqQZPftmqZ-qgBqxGlA2ZyLh_xBpgQ/edit?usp=sharing)
             (2019)
 *   [NGFragmentItem](https://docs.google.com/document/d/10vJ6wdyEdeGkmcotKBZ9h3YtDzw5FIpDksa8rCHVFuM/)
             (2019)
@@ -351,16 +354,16 @@ as not all contributors have *chromium.org* accounts.
 *   [FastBorderRadius](https://docs.google.com/document/d/1bYuKa_X9faxHTs6B5OjE4n92ytP8CrEToeuBE4Mr7hI/edit)
             (2019/2020)
 *   [Improving UKM Client
-            Counts](https://docs.google.com/document/d/1P49GrDe3mDDV9Q1yUm27ioWE4m1_Zz1FwRwVwGQh-ZI/edit)
+            Counts](https://docs.google.com/document/d/1P49GrDe3mDDV9Q1yUm27ioWE4m1_Zz1FwRwVwGQh-ZI/edit?usp=sharing)
             (2020)
 *   [Ensuring Rendering of Sub-pixel
-            Borders](https://docs.google.com/document/d/1fAYkOFxp2Luh6OOoXxtwOehmvNRGNss58ibQtVXL0Tw/edit)
+            Borders](https://docs.google.com/document/d/1fAYkOFxp2Luh6OOoXxtwOehmvNRGNss58ibQtVXL0Tw/edit?usp=sharing)
             (2020)
 *   [Metrics for HTML
-            Parsing](https://docs.google.com/document/d/1zWlnQELDePFJBz105RgjjgPCkDN7quiVOHSWzNMf-DU/edit)
+            Parsing](https://docs.google.com/document/d/1zWlnQELDePFJBz105RgjjgPCkDN7quiVOHSWzNMf-DU/edit?usp=sharing)
             (2020)
 *   [Improving Tracking of Web Test
-            Changes](https://docs.google.com/document/d/1SCKmT1S7HmoaZFYThqXiqrQJvQPikUfV6mwwXbW7Bk4/edit)
+            Changes](https://docs.google.com/document/d/1SCKmT1S7HmoaZFYThqXiqrQJvQPikUfV6mwwXbW7Bk4/edit?usp=sharing)
             (2020)
 *   [Dependency-Aware
             MatchedPropertiesCache](https://docs.google.com/document/d/1uJSpTD9mAgFGljMaQzTvjFKzsvAv1yRJ15M0ZPzAVbo)
@@ -378,7 +381,7 @@ as not all contributors have *chromium.org* accounts.
             Queries](https://docs.google.com/document/d/17pymtoSq1WIP6mSQj-fSPU_3EdeB0AfjdTq38bYW574)
             (2020)
 *   [SVG Text
-            NG](https://docs.google.com/document/d/1GOPKXsAMyKBCcTlByEwGHdu6QuG6YTd_mDwOX8z9S2c/edit)
+            NG](https://docs.google.com/document/d/1GOPKXsAMyKBCcTlByEwGHdu6QuG6YTd_mDwOX8z9S2c/edit?usp=sharing)
             (2021)
 
 Presentations
@@ -394,11 +397,11 @@ Presentations
 *   [Compositing
             memory](https://docs.google.com/presentation/d/1_8PLdXVUPclq7aiWnTU7UES43NMjaUnRBbQYypmqrQQ/edit#slide=id.p)
             (pdr, Feb 2020)
-*   [Portals](https://docs.google.com/presentation/d/1UYQe9jOysS2zX1yyiqP-LOxJdo-elC0grP-xUbVBtxY/edit)
+*   [Portals](https://docs.google.com/presentation/d/1UYQe9jOysS2zX1yyiqP-LOxJdo-elC0grP-xUbVBtxY/edit?usp=sharing)
             (lfg, Feb 2020)
 *   [FlexNG](https://docs.google.com/presentation/d/10e7bnBrkpNJj8aQXiofCJCslWpPtlxZyt7wZIw9NQrg/edit)
             (dgrogan, Mar 2020)
-*   [Scrolling](https://docs.google.com/presentation/d/1cQZLTKzUWD2O0fUQhwaL4DbRckPPNiOjDqwfPYQzoDc/edit)
+*   [Scrolling](https://docs.google.com/presentation/d/1cQZLTKzUWD2O0fUQhwaL4DbRckPPNiOjDqwfPYQzoDc/edit?usp=sharing)
             (samfort@microsoft, Mar 2020)
 
 Google-internal design documents (aim is to migrate them to the list above; on

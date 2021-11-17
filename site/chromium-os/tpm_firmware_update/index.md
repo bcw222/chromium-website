@@ -403,12 +403,12 @@ the failure:
 
 ### Subsequent TPM firmware update prompt
 
-Due to a [bug](https://bugs.chromium.org/p/chromium/issues/detail) in the
-original implementation of the TPM firmware update flow, a vulnerable Storage
-Root Key (a key held in the TPM that is used to encrypt other keys) from before
-the update may remain even after completing the update. This affects a small
-number of devices that did not finish the TPM firmware update in normal boot
-mode but only after retry using a recovery image. This can be addressed by
+Due to a [bug](https://bugs.chromium.org/p/chromium/issues/detail?id=872746) in
+the original implementation of the TPM firmware update flow, a vulnerable
+Storage Root Key (a key held in the TPM that is used to encrypt other keys) from
+before the update may remain even after completing the update. This affects a
+small number of devices that did not finish the TPM firmware update in normal
+boot mode but only after retry using a recovery image. This can be addressed by
 performing another powerwash to clear the TPM again and thus regenerate a new
 Storage Root Key that is not vulnerable. Chrome OS M70 and later will show a
 one-time system notification saying "Security upgrade available" / "Reset your

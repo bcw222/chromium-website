@@ -11,7 +11,7 @@ other questions, general concerns or discussion of this process, please e-mail
 [blink-api-owners-discuss@chromium.org](mailto:blink-api-owners-discuss@chromium.org).
 If you'd like to provide feedback on this page or the process it describes,
 leave feedback on the [Google Doc
-draft](https://docs.google.com/document/d/1R_2V5_rukVM8S5Hg2XKxiEOVRxvB7NqZOI2lfni2YwE/edit)
+draft](https://docs.google.com/document/d/1R_2V5_rukVM8S5Hg2XKxiEOVRxvB7NqZOI2lfni2YwE/edit?usp=sharing)
 of this page.
 
 ## Exempt features
@@ -132,10 +132,10 @@ access. Follow the directions to name your feature and give a short summary, and
 select the appropriate feature type.
 
 For Chrome, some launches will require a formal[ Chrome launch
-review](https://bugs.chromium.org/p/chromium/issues/entry) (especially if your
-feature has security, privacy, legal, or UI implications). This is the point
-where you should file a launch bug if this applies to you. We are working on
-making this process more open and transparent outside Google.
+review](https://bugs.chromium.org/p/chromium/issues/entry?template=Chrome+Launch+Feature)
+(especially if your feature has security, privacy, legal, or UI implications).
+This is the point where you should file a launch bug if this applies to you. We
+are working on making this process more open and transparent outside Google.
 
 From this point on, the process changes a little depending on the type of
 feature you’re adding.
@@ -434,7 +434,7 @@ removal of the Web Components v0 APIs.
 Deprecations and removals must have strong reasons, explicitly balanced against
 the cost of removal. Deprecations should be clear and actionable for developers.
 First, read the [guidelines for deprecating a
-feature](https://docs.google.com/a/chromium.org/document/d/1LdqUfUILyzM5WEcOgeAWGupQILKrZHidEXrUxevyi_Y/edit).
+feature](https://docs.google.com/a/chromium.org/document/d/1LdqUfUILyzM5WEcOgeAWGupQILKrZHidEXrUxevyi_Y/edit?usp=sharing).
 Measure feature usage in the wild. [ Various
 tools](/blink/platform-predictability/compat-tools) are available, but typically
 this is accomplished by simply adding your feature to the[ UseCounter::Feature
@@ -600,5 +600,8 @@ RuntimeEnabledFeatures entries.
 
 For an overview, and explanation of motivations, please see:
 
-*   Video presentation: [Intent to explain: Demystifying the Blink shipping process (Chrome Dev Summit 2019)](https://www.youtube.com/watch)
-*   Blog post: [Intent to Explain: Demystifying the Blink Shipping Process](https://blog.chromium.org/2019/11/intent-to-explain-demystifying-blink.html)
+*   Video presentation: [Intent to explain: Demystifying the Blink
+            shipping process (Chrome Dev Summit
+            2019)](https://www.youtube.com/watch?v=y3EZx_b-7tk&list=PLNYkxOF6rcIDA1uGhqy45bqlul0VcvKMr&index=17)
+*   Blog post: [Intent to Explain: Demystifying the Blink Shipping
+            Process](https://blog.chromium.org/2019/11/intent-to-explain-demystifying-blink.html)

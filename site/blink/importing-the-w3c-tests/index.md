@@ -60,7 +60,7 @@ Updating the set of tests run by Blink requires commit access to Chromium like
 anything else, so make sure you have that first.
 
 We control which tests are imported via
-[LayoutTests/W3CImportExpectations](https://code.google.com/p/chromium/codesearch),
+[LayoutTests/W3CImportExpectations](https://code.google.com/p/chromium/codesearch?q=W3CImportExpectations#chromium/src/third_party/WebKit/LayoutTests/W3CImportExpectations),
 which has a list of directories to skip during import. This means that any new
 tests and directories that show up in the W3C repos are automatically imported.
 
@@ -78,10 +78,10 @@ locally to your local repository. You may then upload the changes.
 
 If you wish to add more tests (by un-skipping some of the directories currently
 skipped in
-[W3CImportExpectations](https://code.google.com/p/chromium/codesearch)), you can
-modify that file locally and commit it, and on the next auto-import, the new
-tests should be imported. If you want to import immediately, you can also run
-wpt-import --allow-local-commits.
+[W3CImportExpectations](https://code.google.com/p/chromium/codesearch?q=W3CImportExpectations#chromium/src/third_party/WebKit/LayoutTests/W3CImportExpectations)),
+you can modify that file locally and commit it, and on the next auto-import, the
+new tests should be imported. If you want to import immediately, you can also
+run wpt-import --allow-local-commits.
 
 ## Contributing Blink tests back to the W3C
 
@@ -112,7 +112,7 @@ third_party/WebKit/Tools/Scripts/webkitpy/thirdparty/wpt/wpt/manifest \
     [//third_party/WebKit/Tools/Scripts/wpt-import](https://cs.chromium.org/chromium/src/third_party/WebKit/Tools/Scripts/wpt-import)
 
     Libraries:
-    [//third_party/WebKit/Tools/Scripts/webkitpy/w3c/](https://cs.chromium.org/chromium/src/third_party/WebKit/Tools/Scripts/webkitpy/w3c/)
+    [//third_party/WebKit/Tools/Scripts/webkitpy/w3c/](https://cs.chromium.org/chromium/src/third_party/WebKit/Tools/Scripts/webkitpy/w3c/?q=local_wpt&sq=package:chromium)
 
 ### Will the exported commits be linked to my GitHub profile?
 

@@ -56,10 +56,10 @@ IN_PROC_BROWSER_TEST_F, which requires src/content/public/test/browser_test.h.
 The parent class of the test depends on which binary it's in:
 
 *   browser_tests and interactive_ui_tests use
-            [InProcessBrowserTest](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/test/base/in_process_browser_test.h)
+            [InProcessBrowserTest](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/test/base/in_process_browser_test.h?revision=HEAD&view=markup)
             (src/chrome/test/base/in_process_browser_test.h)
 *   content_browsertests use
-            [ContentBrowserTest](http://src.chromium.org/viewvc/chrome/trunk/src/content/test/content_browser_test.h)
+            [ContentBrowserTest](http://src.chromium.org/viewvc/chrome/trunk/src/content/test/content_browser_test.h?view=markup)
             (src/content/test/content_browser_test.h)
 
 Both browser tests in src/content and src/chrome have access to a collection of

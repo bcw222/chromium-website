@@ -22,7 +22,7 @@ It is mapped into the Chromium tree via
 ## Filing bugs
 
 Bugs are filed under the
-[label:Cr-Internals-Network-SSL](https://code.google.com/p/chromium/issues/list)
+[label:Cr-Internals-Network-SSL](https://code.google.com/p/chromium/issues/list?q=label:Cr-Internals-Network-SSL)
 using the [Chromium issue
 tracker](https://code.google.com/p/chromium/issues/list).
 

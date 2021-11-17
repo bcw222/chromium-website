@@ -145,7 +145,7 @@ and told where to gather its performance test results. Modifying a harness to
 add more data may not require any buildbot configuration changes.
 
 Tests in Chromium typically use one of the methods in
-[chrome/test/perf/perf_test.h](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/test/perf/perf_test.h)
+[chrome/test/perf/perf_test.h](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/test/perf/perf_test.h?view=markup)
 to print their results in the standard format expected by the post-processing
 scripts.
 
@@ -178,7 +178,7 @@ description of which graph+trace regressed or got faster.
 #### Format of expectations file
 
 Perf regression monitoring is controlled via
-[src/tools/perf_expectations/perf_expectations.json](http://src.chromium.org/viewvc/chrome/trunk/src/tools/perf_expectations/perf_expectations.json).
+[src/tools/perf_expectations/perf_expectations.json](http://src.chromium.org/viewvc/chrome/trunk/src/tools/perf_expectations/perf_expectations.json?view=markup).
 This is a JSON file with the following format:
 {
 "PERFID/TEST/GRAPH/TRACE": {"reva": REVA, "revb": REVB, "improve": IMPROVE,

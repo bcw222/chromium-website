@@ -48,7 +48,8 @@ release it is.
 
 **[Source Quicklinks](https://chrome.google.com/extensions/detail/ncjnjlfeffaclcioiphpaofhkebnmknj)**
 Adds a page action to quickly jump between [Code
-Search](http://www.google.com/codesearch), Trac, ViewVC, and Gitweb.
+Search](http://www.google.com/codesearch?vert=chromium), Trac, ViewVC, and
+Gitweb.
 
 **[Hide chromium code search banner](https://chrome.google.com/webstore/detail/hide-chromium-code-search/podmafjjpjkcjldlhcigjmelmdpignni)**
 Saves wasted screen space by removing banner on code search.
@@ -87,7 +88,7 @@ Show a tree of dependent bugs in crbug.com.
 Toolkit](https://chrome.google.com/webstore/detail/rietveld-usability-toolki/nmljjlfbnbekmadhbpfpkcminoejelga)**
 Various Rietveld tweaks (inline diffs, syntax highlighting, etc).
 
-**[OmniChromium](https://chrome.google.com/webstore/detail/omnichromium/ainboabogofdlcfeciphjjmmicblabml)**
+**[OmniChromium](https://chrome.google.com/webstore/detail/omnichromium/ainboabogofdlcfeciphjjmmicblabml?hl=en)**
 Adds Chromium search+autocomplete tools to the Omnibox: codesearch, commits by
 author, bugs, revisions.
 
@@ -95,7 +96,7 @@ author, bugs, revisions.
 Quickly access crbugs you have recently viewed.
 
 [**TryBot
-Re-Runner**](https://chrome.google.com/webstore/detail/trybot-re-runner/hidamppghiegbmolihgabohmibkmkgpn)
+Re-Runner**](https://chrome.google.com/webstore/detail/trybot-re-runner/hidamppghiegbmolihgabohmibkmkgpn?hl=en-US)
 Easily select failed trybots for re-running.
 
 [**Open My
@@ -127,7 +128,7 @@ to bugs.webkit.org.
 ~~Displays the status of the WebKit buildbot in the toolbar. Click to see more
 detailed status in a popup.~~ Not useful after Blink fork.
 
-~~**[Google Code enhancements for Chromium](http://code.google.com/p/chromium/downloads/detail)**~~
+~~**[Google Code enhancements for Chromium](http://code.google.com/p/chromium/downloads/detail?name=codesite.crx&can=2&q=)**~~
 ~~Inlined images and fix svn path in issues.~~ svn path is now handled by
 crrev.com
 

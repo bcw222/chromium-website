@@ -52,7 +52,7 @@ TimelineBasedMeasurement over other
 measurements?](https://docs.google.com/document/d/10G0PbePQOwJao57Mu6Xr7Fx0o2ng8fwZ33wUqpnsyog)
 
 [How does TimelineBasedMeasurement
-work?](https://docs.google.com/document/d/1cx_yplQQUVtIka5DD846kcfheIdIoTHfCL0dH93ezA8/edit)
+work?](https://docs.google.com/document/d/1cx_yplQQUVtIka5DD846kcfheIdIoTHfCL0dH93ezA8/edit?usp=sharing)
 
 ## I think I need to write a new measurement, now what?
 

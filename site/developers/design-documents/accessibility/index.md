@@ -62,11 +62,11 @@ We use Chromium's issue tracker to keep track of bugs and feature development.
 You can keep track of Accessibility issues using the following links:
 
 *   [All Accessibility
-            bugs](https://code.google.com/p/chromium/issues/list)
+            bugs](https://code.google.com/p/chromium/issues/list?q=Cr%3DUI-Accessibility)
 *   [Windows accessibility
-            bugs](https://code.google.com/p/chromium/issues/list)
+            bugs](https://code.google.com/p/chromium/issues/list?q=Cr%3DUI-Accessibility+os%3Dwindows)
 *   [Mac accessibility
-            bugs](https://code.google.com/p/chromium/issues/list)
+            bugs](https://code.google.com/p/chromium/issues/list?q=Cr%3DUI-Accessibility+os%3Dmac)
 
 You can also file a [New issue](http://code.google.com/p/chromium/issues/entry).
 

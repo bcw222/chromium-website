@@ -276,7 +276,7 @@ have historically relied on stopping powerd and then restarting it after we're
 done. This avoids the problem of interrupting the EC such that it needs to load
 more code, and avoids UI jank that can last up to a minute and cause a user to
 try to reboot the system. For historical context, see
-[chromium-os:18895](https://code.google.com/p/chromium/issues/detail).
+[chromium-os:18895](https://code.google.com/p/chromium/issues/detail?id=201998).
 
 #### Shared SPI block diagram
 
@@ -288,7 +288,7 @@ We like firmware updates to be done as quickly as possible. This is important
 not only to minimize any side-effects the user might see as well as overall
 risk, but also to optimize time spent on the assembly line when a device is
 being manufactured
-([chromium-os:14139](https://code.google.com/p/chromium/issues/detail)).
+([chromium-os:14139](https://code.google.com/p/chromium/issues/detail?id=197236)).
 
 Some older systems had performance issues when flashrom ran if powerd was
 enabled. This was due to poor DVFS implementations that could dramatically
@@ -297,16 +297,16 @@ flashrom.
 
 One side-effect was that flashrom would take an excessively long time to
 complete due to bad usleep() behavior
-([chromium-os:15025](https://code.google.com/p/chromium/issues/detail)).
+([chromium-os:15025](https://code.google.com/p/chromium/issues/detail?id=198133)).
 However, when we disabled powerd we found that the UI would become janky
-([chromium-os:19321](https://code.google.com/p/chromium/issues/detail)).
+([chromium-os:19321](https://code.google.com/p/chromium/issues/detail?id=202422)).
 Eventually settled on disabling powerd only for operations expected to take a
 long time and are destructive (erase/writes).
 
 Now that powerd is smarter, we stopped disabling powerd
-([chromium:400641](https://code.google.com/p/chromium/issues/detail)) and expect
-it to avoid doing anything which may degrade performance while flashrom is
-running.
+([chromium:400641](https://code.google.com/p/chromium/issues/detail?id=400641))
+and expect it to avoid doing anything which may degrade performance while
+flashrom is running.
 
 ## Testing
 

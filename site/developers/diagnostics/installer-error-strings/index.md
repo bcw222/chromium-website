@@ -13,7 +13,7 @@ presentation to the user. The strings are written to the registry by
 [WriteInstallerResult](http://codesearch.google.com/codesearch#OAMlx_jo-ck/src/chrome/installer/util/installer_state.h&exact_package=chromium&q=WriteInstallerResult&l=183&ct=rc&cd=1).
 As of this writing, the set of error string message identifiers (search for them
 in
-[google_chrome_strings.grd](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/app/google_chrome_strings.grd)
+[google_chrome_strings.grd](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/app/google_chrome_strings.grd?view=markup)
 for their corresponding text) is:
 
 <table>

@@ -55,7 +55,7 @@ TopContainerView always slides over infobars.
 These are the states for the top controls. “Closed” is the steady state.
 
 <img alt="image"
-src="https://docs.google.com/a/google.com/drawings/d/s2NLSYoYsxuc8Z5YxLbWGyg/image"
+src="https://docs.google.com/a/google.com/drawings/d/s2NLSYoYsxuc8Z5YxLbWGyg/image?w=512&h=258&rev=644&ac=1"
 height=258px; width=512px;>
 
 During the sliding and revealed states the TopContainerView paints to a

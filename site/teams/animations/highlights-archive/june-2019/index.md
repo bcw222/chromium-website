@@ -38,13 +38,13 @@ title: June 2019
 
 <td><td>Jump timing functions</td></td>
 
-<td><td><a href="https://drafts.csswg.org/css-easing-1/#step-easing-functions">Jump timing functions</a> allow developers to choose the starting / ending behavior of the steps timing function. Thanks to Kevin’s (kevers@) <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1634722">hard work</a> chromium has <a href="https://groups.google.com/a/chromium.org/forum/">shipped these functions in M77</a>!</td></td>
+<td><td><a href="https://drafts.csswg.org/css-easing-1/#step-easing-functions">Jump timing functions</a> allow developers to choose the starting / ending behavior of the steps timing function. Thanks to Kevin’s (kevers@) <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1634722">hard work</a> chromium has <a href="https://groups.google.com/a/chromium.org/forum/?utm_medium=email&utm_source=footer#!msg/blink-dev/u65DesVOzmY/htUnPfFcBgAJ">shipped these functions in M77</a>!</td></td>
 
 <td><td><img alt="image" src="https://lh5.googleusercontent.com/BHmrokKErIb7eNeCsjGw4Ae6c-PDYX3YCjfB8ENHs70ELIQLDuL2nwSOza0XygjTYFQ5ZMKh8vmY11gBqmRZRv9FBbrh0aOmzD3dZcAhkIS9yYNZStUQle-EIFrjIKbhBM1x06eN" height=121 width=291.65571205007825></td></td>
 
 <td><td>Scroll snap … stop!</td></td>
 
-<td><td>A common use case for scroll snap is a paginated UI. Often, developers want users to be able to easily swipe to the next page. Thanks to Majid’s (majidvp@) efforts scroll snap stop has now <a href="https://groups.google.com/a/chromium.org/d/msg/blink-dev/bkUwigYHJDM/Bzvm8tkHAgAJ">officially shipped</a> in <a href="https://www.chromestatus.com/features/5439846480871424">M75</a> and used by <a href="https://drive.google.com/file/d/1D-xXO6wstu0HJJXvvwFjNpa2R1gzwuhG/view">AirBnb</a>.</td></td>
+<td><td>A common use case for scroll snap is a paginated UI. Often, developers want users to be able to easily swipe to the next page. Thanks to Majid’s (majidvp@) efforts scroll snap stop has now <a href="https://groups.google.com/a/chromium.org/d/msg/blink-dev/bkUwigYHJDM/Bzvm8tkHAgAJ">officially shipped</a> in <a href="https://www.chromestatus.com/features/5439846480871424">M75</a> and used by <a href="https://drive.google.com/file/d/1D-xXO6wstu0HJJXvvwFjNpa2R1gzwuhG/view?usp=sharing">AirBnb</a>.</td></td>
 
 <td></tr></td>
 <td><tr></td>

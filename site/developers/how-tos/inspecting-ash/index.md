@@ -13,10 +13,10 @@ Chrome DevTools. This is accomplished by re-using the existing frontend DevTools
 inspector and creating a backend in Chrome and Components which interact with
 DevTools inspector using the DevTools protocol language. We name this tool
 Chrome UI Devtools. The design document for this tool can be found
-[here](https://docs.google.com/document/d/1zpXnSLFrTbLRBJNnO2lWXV--nTOUWfBLPXwA9BDEsKA/edit).
+[here](https://docs.google.com/document/d/1zpXnSLFrTbLRBJNnO2lWXV--nTOUWfBLPXwA9BDEsKA/edit?usp=sharing).
 
 And,
-[here](https://docs.google.com/presentation/d/1q3RBp-QEIx5snjbi3_FNl1pp8wf74DXFpt_NgT0KMB0/edit)
+[here](https://docs.google.com/presentation/d/1q3RBp-QEIx5snjbi3_FNl1pp8wf74DXFpt_NgT0KMB0/edit?usp=sharing)
 is a slideshow containing numerous GIFs showing what this is like to use.
 
 **Distances between a pinned element (in solid blue border) and a hovered

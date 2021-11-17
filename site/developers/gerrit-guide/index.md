@@ -71,16 +71,18 @@ one Gerrit account you can link them yourself:
             use your @google.com email to login, and @chromium.org in "Register
             new email" dialog.
 6.  If you see any errors during this process, file a [Infra-Git
-            ticket](https://bugs.chromium.org/p/chromium/issues/entry) with the
-            subject "Link my &lt;id&gt;@chromium.org and &lt;id&gt;@google.com
-            accounts". If it is urgent, email ajp@chromium.org. Otherwise, the
-            request should be handled within 2-3 days.
+            ticket](https://bugs.chromium.org/p/chromium/issues/entry?template=Infra-Git)
+            with the subject "Link my &lt;id&gt;@chromium.org and
+            &lt;id&gt;@google.com accounts". If it is urgent, email
+            ajp@chromium.org. Otherwise, the request should be handled within
+            2-3 days.
 
 ==If you have two Gerrit accounts== you need an admin to link them. File a
-[Infra-Git ticket](https://bugs.chromium.org/p/chromium/issues/entry) with the
-subject "Link my &lt;id&gt;@chromium.org and &lt;id&gt;@google.com accounts". If
-it is urgent, email ajp@chromium.org. Otherwise, the request should be handled
-within 2-3 days.
+[Infra-Git
+ticket](https://bugs.chromium.org/p/chromium/issues/entry?template=Infra-Git)
+with the subject "Link my &lt;id&gt;@chromium.org and &lt;id&gt;@google.com
+accounts". If it is urgent, email ajp@chromium.org. Otherwise, the request
+should be handled within 2-3 days.
 
 Once your accounts are linked, you'll be able to use both @chromium.org and
 @google.com emails in git commits. It is particularly useful if you have your
@@ -110,10 +112,10 @@ If you have linked accounts, and want to unlink them:
             with your @google account).
 
 If you see any errors during this process, file [Infra-Git
-ticket](https://bugs.chromium.org/p/chromium/issues/entry) with the subject
-"Unlink my &lt;id&gt;@chromium.org and &lt;id&gt;@google.com accounts". If it is
-urgent, email ajp@chromium.org. Otherwise, the request should be handled within
-2-3 days.
+ticket](https://bugs.chromium.org/p/chromium/issues/entry?template=Infra-Git)
+with the subject "Unlink my &lt;id&gt;@chromium.org and &lt;id&gt;@google.com
+accounts". If it is urgent, email ajp@chromium.org. Otherwise, the request
+should be handled within 2-3 days.
 
 ## Watching Projects / Notifications
 
@@ -161,9 +163,9 @@ Documentation](https://gerrit-review.googlesource.com/Documentation/index.html)
 to see if there are hints in there.
 
 If you have any problems please [open a Build Infrastructure
-issue](https://bugs.chromium.org/p/chromium/issues/entry) on the **Chromium**
-issue tracker (the "Build Infrastructure" template should be automatically
-selected).
+issue](https://bugs.chromium.org/p/chromium/issues/entry?template=Build+Infrastructure)
+on the **Chromium** issue tracker (the "Build Infrastructure" template should be
+automatically selected).
 
 For additional information, you can also visit the [PolyGerrit + Chromium
 FAQ](https://polygerrit.appspot.com/).

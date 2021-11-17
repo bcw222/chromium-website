@@ -615,4 +615,5 @@ here](https://support.google.com/chromebook/answer/7021273).
 1. If a device status is marked as available on the Beta channel this does not
 mean that it will be available in the Stable channel on the next release of
 Chrome OS. For more information on how to move your device between Chromebook
-release channels [click here](https://support.google.com/chromebook/answer/1086915).
+release channels [click
+here](https://support.google.com/chromebook/answer/1086915?hl=en-GB).

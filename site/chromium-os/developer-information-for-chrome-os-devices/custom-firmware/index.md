@@ -76,8 +76,9 @@ The first generation of Chromebooks (Cr-48, Alex, ZGB) uses a BIOS called "H2C".
             launched in 32-bit mode. Our kernel has to be specially modified to
             handle this difference.**
 *   **The "bootloader stub" is a standard UEFI executable, with source
-            in [src/third_party/bootstub/](http://git.chromium.org/gitweb/). The
-            purpose of this tiny executable is to**
+            in
+            [src/third_party/bootstub/](http://git.chromium.org/gitweb/?p=chromiumos/third_party/bootstub.git).
+            The purpose of this tiny executable is to**
     *   **Update the kernel cmdline to let the kernel find the correct
                 rootfs partition.**
     *   **Obtain the memory map from the BIOS that the kernel will
@@ -176,8 +177,8 @@ Notes:
             and U-Boot doesn't have that.**
 4.  **At some point we should modify `vbutil_kernel` to be more
             accommodating so we don't have to use these tricks. There's a
-            [bug](http://code.google.com/p/chromium-os/issues/detail) open for
-            that, and I'll get to it Real Soon Now.**
+            [bug](http://code.google.com/p/chromium-os/issues/detail?id=23548)
+            open for that, and I'll get to it Real Soon Now.**
 
 **Step three** is to copy that image to the chromebook and try it out.
 

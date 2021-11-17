@@ -132,7 +132,7 @@ The trace event will contain all the information captured by the previous
 NetLog, and will be shown in the following format:
 
 <img alt="image"
-src="https://docs.google.com/a/google.com/drawings/d/sGXr-eMkBNj31sftVEkr-7A/image"
+src="https://docs.google.com/a/google.com/drawings/d/sGXr-eMkBNj31sftVEkr-7A/image?w=595&h=127&rev=33&ac=1&fmt=svg"
 height=127 width=595>
 
 As see in the graph, most of the download file events are grouped under

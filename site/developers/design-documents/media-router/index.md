@@ -96,7 +96,8 @@ The media router consists of four distinct components:
             Presentation API.
 4.  The Presentation Mojo interface acts as a bridge between the Chrome
             Media Router and the Blink implementation of the Presentation API
-            ([launch bug](https://code.google.com/p/chromium/issues/detail)).
+            ([launch
+            bug](https://code.google.com/p/chromium/issues/detail?id=412331)).
 
 ## Architecture
 

@@ -29,11 +29,14 @@ implemented using DOMUI consists of the New Tab Page, History, Downloads,
 Extensions, about:versions and many others. ChromeOS is also in the process of
 using DOMUI for menus.
 
-Testing these UIs is [possible today](http://www.google.com/codesearch/p) using
-[UITest](http://www.google.com/codesearch/p) with DOM automation enabled.
-However, writing these test require generating strings of JavaScript code that
-is (using the automation provider) asynchronously evaluated in the browser tab
-and the result of that is asynchronously returned.
+Testing these UIs is [possible
+today](http://www.google.com/codesearch/p?hl=en#OAMlx_jo-ck/src/chrome/browser/dom_ui/new_tab_ui_uitest.cc&q=NewTabUITest%20NTPHasLoginName&exact_package=chromium&sa=N&cd=1&ct=rc&l=55)
+using
+[UITest](http://www.google.com/codesearch/p?hl=en#OAMlx_jo-ck/src/chrome/test/ui/ui_test.h&q=%22class%20UITest%22&exact_package=chromium&sa=N&cd=1&ct=rc&l=458)
+with DOM automation enabled. However, writing these test require generating
+strings of JavaScript code that is (using the automation provider)
+asynchronously evaluated in the browser tab and the result of that is
+asynchronously returned.
 
 There are 3 problems with this approach:
 

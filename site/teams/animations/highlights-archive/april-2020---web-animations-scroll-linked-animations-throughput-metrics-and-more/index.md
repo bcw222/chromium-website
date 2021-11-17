@@ -28,7 +28,7 @@ title: April 2020 - Web Animations, Scroll-linked Animations, Throughput Metrics
 
 <td><img alt="image" src="https://lh5.googleusercontent.com/Asd0BAjki50O1Jd36jqK8YY87ftxZs4-UTyjagI2h_J-YXt_TCDKwOVcib-lSWoPZzyqhL9DmvaipvwzNVLkpwxr3acGYHXxUbY2m3xeNtuBRmz70cD3ii11lX7NceLqahtL_5Uf" height=244 width=317></td>
 
-<td>Celebrate shipping Web Animation API<a href="https://jsbin.com/weqamosare/1/edit"> using the API</a></td>
+<td>Celebrate shipping Web Animation API<a href="https://jsbin.com/weqamosare/1/edit?js,output"> using the API</a></td>
 
 <td><table></td>
 <td><tr></td>
@@ -50,7 +50,7 @@ title: April 2020 - Web Animations, Scroll-linked Animations, Throughput Metrics
 
 <td><td>Green Volume Meter</td></td>
 
-<td><td>Google Meet usage has surged significantly, <a href="https://www.theverge.com/2020/4/28/21240434/google-meet-three-million-users-per-day-pichai-earnings">adding 3M users per day</a>. We’ve noticed that the green volume meter was unexpectedly re-rastered during animation, causing significant CPU usage. Rob (flackr@) came to the rescue and <a href="https://bugs.chromium.org/p/chromium/issues/detail">fixed</a> the issue by preserving the raster scale for animations with will-change: transform. This avoids unnecessary and expensive rasterization, and should greatly reduce CPU/power usage. </td></td>
+<td><td>Google Meet usage has surged significantly, <a href="https://www.theverge.com/2020/4/28/21240434/google-meet-three-million-users-per-day-pichai-earnings">adding 3M users per day</a>. We’ve noticed that the green volume meter was unexpectedly re-rastered during animation, causing significant CPU usage. Rob (flackr@) came to the rescue and <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1074055">fixed</a> the issue by preserving the raster scale for animations with will-change: transform. This avoids unnecessary and expensive rasterization, and should greatly reduce CPU/power usage. </td></td>
 
 <td><td><img alt="image" src="https://lh4.googleusercontent.com/xs4GcGU_ey6XxTBPJndhQgyTwZTMiNFuTX3bOTnxgImBUZGsXFIvlhTMbv-x28U93zhNiZP3TC168i_8MloXC2zT3iZxd-zWw6CLHSVYfijGqMQCHLqAwo5fNp6bT2sJes9VsL6o" height=152 width=280></td></td>
 
@@ -81,7 +81,7 @@ title: April 2020 - Web Animations, Scroll-linked Animations, Throughput Metrics
 
 <td><td colspan=2>Animations Team Hackathon</td></td>
 
-<td><td colspan=2>To better understand the Web Animation APIs we’re using and experience the awesome ergonomics of them, and/or pain points, Gene (girard@) initiated the first ever Animations team 1-day hackathon. We created lots of fun experiments that exercise the new APIs: <a href="https://majido.github.io/animation_jam/app/index.html">interactive animation editor</a>, <a href="https://codepen.io/shengha2/pen/NWGWLvq">tetris</a>, <a href="https://codepen.io/yigu/pen/dyYPoLY">ping pong</a>, <a href="https://codepen.io/george-steel/pen/zYvYWxO">got it game</a>, <a href="https://jsbin.com/tanuzonixo/1/edit">pendulum </a>(<a href="https://docs.google.com/document/d/1VImYZIzh6mSRwBhSgwiUsB8Mj9NCASqMYzXEa4JXXk4/edit">explainer).</a></td></td>
+<td><td colspan=2>To better understand the Web Animation APIs we’re using and experience the awesome ergonomics of them, and/or pain points, Gene (girard@) initiated the first ever Animations team 1-day hackathon. We created lots of fun experiments that exercise the new APIs: <a href="https://majido.github.io/animation_jam/app/index.html">interactive animation editor</a>, <a href="https://codepen.io/shengha2/pen/NWGWLvq">tetris</a>, <a href="https://codepen.io/yigu/pen/dyYPoLY">ping pong</a>, <a href="https://codepen.io/george-steel/pen/zYvYWxO">got it game</a>, <a href="https://jsbin.com/tanuzonixo/1/edit?html,css,js,output">pendulum </a>(<a href="https://docs.google.com/document/d/1VImYZIzh6mSRwBhSgwiUsB8Mj9NCASqMYzXEa4JXXk4/edit?usp=sharing">explainer).</a></td></td>
 
 <td><td colspan=2><img alt="image" src="https://lh4.googleusercontent.com/T_bcxoaClVBZ9n8k-zQlEaI9eMHlIamrMH4ydr7WSvu0hmvTec4RwW9ZsjCEc42w1VrhCY6QHwNXRFnUDmSkjHGvNBAKNXEb_x0C5qF2KegFbmFY2j01q_r4sBIbQnOVYdw66L4b" height=241 width=245></td></td>
 

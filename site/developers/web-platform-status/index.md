@@ -62,8 +62,9 @@ were added in m11. Stable release for web pages \[not apps/extensions\] was m13.
 Spec: [w3c spec](http://dev.w3.org/2009/dap/file-system/file-dir-sys.html)
 
 Notes: [devtools
-support](https://bug-45982-attachments.webkit.org/attachment.cgi) coming. Needs
-flag `--allow-file-access-from-files` for testing from file:// URLs.
+support](https://bug-45982-attachments.webkit.org/attachment.cgi?id=70320)
+coming. Needs flag `--allow-file-access-from-files` for testing from file://
+URLs.
 
 Demos:
 [layouttests](http://trac.webkit.org/browser/trunk/LayoutTests/fast/filesystem)
@@ -100,7 +101,7 @@ Availability: basic in m8, sync api in m9 for web workers
 
 Spec: [w3c spec](http://www.w3.org/TR/file-writer-api/)
 
-Tickets: [webk.it/44358](https://bugs.webkit.org/show_bug.cgi)
+Tickets: [webk.it/44358](https://bugs.webkit.org/show_bug.cgi?id=44358)
 
 Dev Contact: Eric Uhrhane (ericu)
 
@@ -285,7 +286,8 @@ Dev Contact: adamk
 
 Allow web applications to handle URL protocols like mailto:.
 Availability: m13
-Tickets: [~~crbug.com/11359~~](http://code.google.com/p/chromium/issues/detail)
+Tickets:
+[~~crbug.com/11359~~](http://code.google.com/p/chromium/issues/detail?id=11359)
 
 Notes: Protocol list: "mailto", "mms", "nntp", "rtsp", "webcal". Custom
 protocols require "web+" prefix (e.g. "web+myScheme").
@@ -333,7 +335,7 @@ x-webkit-deflate-frame
 
 Demo: [demo](http://slides.html5rocks.com/#web-sockets)
 
-Tickets: [WebKit protocol ticket](https://bugs.webkit.org/show_bug.cgi)
+Tickets: [WebKit protocol ticket](https://bugs.webkit.org/show_bug.cgi?id=50099)
 
 Planned: Implement permessage-compress extension and mux extension
 
@@ -444,7 +446,7 @@ Updates in M21 (from M20)
 
 *   Exceptions are now raised when methods are called on deleted objects
 *   [Creating a transaction from within a transaction callback now
-            fails](https://groups.google.com/a/chromium.org/forum/)
+            fails](https://groups.google.com/a/chromium.org/forum/?fromgroups#!topic/chromium-html5/VlWI87JFKMk)
 *   Cursor value modifications are now preserved until cursor iterates
 *   Error codes should now match the latest spec
 *   Nonstandard enumeration API has now been renamed to
@@ -456,7 +458,7 @@ Updates in M21 (from M20)
 *   The `IDBObjectStore.autoIncrement` property is now available
 *   [`transaction()`, `openCursor()` and `openKeyCursor()` have been
             updated to take strings instead of numbers for enum
-            values](https://groups.google.com/a/chromium.org/forum/)
+            values](https://groups.google.com/a/chromium.org/forum/?fromgroups#!topic/chromium-html5/OhsoAQLj7kc)
 
 #### Web Storage
 
@@ -468,7 +470,7 @@ clone algorithm can clone can be stored, all browser implementations currently
 allow only strings. Chrome's [storage capacity is currently
 2.5mb](http://dev-test.nemikor.com/web-storage/support-test/).
 
-Tickets: [webk.it/41645](https://bugs.webkit.org/show_bug.cgi)
+Tickets: [webk.it/41645](https://bugs.webkit.org/show_bug.cgi?id=41645)
 Dev Contact: Jeremy Orlow (jorlow) -&gt; Michael Nordman (michaeln)
 
 **Quota Management API**
@@ -511,7 +513,8 @@ Availability: m6
 Spec: [whatwg
 spec](http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-progress-element)
 
-Demo: [demo of elements in action](http://peter.sh/examples/)
+Demo: [demo of elements in
+action](http://peter.sh/examples/?/html/meter-progress.html)
 
 #### Ruby
 
@@ -620,7 +623,7 @@ with a bunch of properties renamed.
 
 Spec: [w3 spec](http://www.w3.org/TR/css3-flexbox/)
 
-Tickets: [webk.it/62048](https://bugs.webkit.org/show_bug.cgi)
+Tickets: [webk.it/62048](https://bugs.webkit.org/show_bug.cgi?id=62048)
 
 Demo: <http://html5-demos.appspot.com/static/css/flexbox/index.html>
 
@@ -637,7 +640,7 @@ about:flags)
 
 Spec: [w3c](http://dev.w3.org/csswg/css3-regions/)
 
-Tickets: [webk.it/57312](https://bugs.webkit.org/show_bug.cgi)
+Tickets: [webk.it/57312](https://bugs.webkit.org/show_bug.cgi?id=57312)
 
 #### position: sticky
 
@@ -700,8 +703,8 @@ Notes: Accelerated 2D canvas [targeting](http://crbug.com/61526) m14 for
 windows/linux; perhaps m15 for mac. Currently, available in about:flags.
 
 webp format: `canvas.toDataURL("image/webp")`
-[added](http://code.google.com/p/chromium/issues/detail) in m17 (WebKit 535),
-but m18 on Mac.
+[added](http://code.google.com/p/chromium/issues/detail?id=63221) in m17 (WebKit
+535), but m18 on Mac.
 
 In M20, `canvas.getImageData(...).data` returns a `Uint8ClampedArray` instead of
 a `CanvasPixelArray`.
@@ -765,7 +768,8 @@ Availability: dev channel since m12. stable channel in m14. m24 adds the ability
 for [live mic
 input](http://updates.html5rocks.com/2012/09/Live-Web-Audio-Input-Enabled)
 (enable in about:flags). m25 [updated API
-calls](https://code.google.com/p/chromium/issues/detail) to the latest spec.
+calls](https://code.google.com/p/chromium/issues/detail?id=160176) to the latest
+spec.
 
 Android availability: TBD ([issue 166003](http://crbug.com/166003))
 
@@ -954,7 +958,8 @@ Notes: As of m13, elements internally ported to the shadow dom:
 &lt;progress&gt;, &lt;meter&gt;, &lt;video&gt;, &lt;input type=range&gt;,
 &lt;keygen&gt;.
 
-Tickets: [webkit shadow dom tickets](https://bugs.webkit.org/buglist.cgi)
+Tickets: [webkit shadow dom
+tickets](https://bugs.webkit.org/buglist.cgi?query_format=advanced&short_desc_type=substring&short_desc=shadow+dom&long_desc_type=substring&long_desc=&bug_file_loc_type=allwordssubstr&bug_file_loc=&keywords_type=allwords&keywords=&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&emailassigned_to1=1&emailtype1=substring&email1=&emailassigned_to2=1&emailreporter2=1&emailcc2=1&emailtype2=substring&email2=&bugidtype=include&bug_id=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0=)
 
 Notes: More details at [What the heck is a Shadow
 DOM?](http://glazkov.com/2011/01/14/what-the-heck-is-shadow-dom/), [+Component
@@ -980,7 +985,7 @@ Dev Contact: rafaelw
 
 Method for registering (creating) custom elements in script.
 
-Availability: [bug](https://bugs.webkit.org/show_bug.cgi)
+Availability: [bug](https://bugs.webkit.org/show_bug.cgi?id=100229)
 
 **CSS @host at-rule**
 
@@ -1055,7 +1060,7 @@ window.
 [WHATWG](http://www.whatwg.org/specs/web-apps/current-work/multipage/commands.html#the-dialog-element)
 
 #### Bug:
-[webk.it/](goog_742956014)[84635](https://bugs.webkit.org/show_bug.cgi)
+[webk.it/](goog_742956014)[84635](https://bugs.webkit.org/show_bug.cgi?id=84635)
 
 #### Availability: Behind a flag in m25. Enable "Experimental WebKit Features"
 in about:flags.
@@ -1232,7 +1237,7 @@ Documentation: [HTML5
 Rocks](http://updates.html5rocks.com/2012/02/Pointer-Lock-API-Brings-FPS-Games-to-the-Browser)
 
 Notes: [Chromium tracking
-issue](http://code.google.com/p/chromium/issues/detail)
+issue](http://code.google.com/p/chromium/issues/detail?id=72754)
 
 Dev contact: scheib
 
@@ -1255,8 +1260,8 @@ might want to throttle back action or set an idle state.
 Availability: m13, prefixed as `document.webkitHidden`
 
 Notes: Relatedly, setTimeout/Interval are clamped to 1000ms when in a background
-tab as of [m11](http://code.google.com/p/chromium/issues/detail). Firefox 5 has
-the
+tab as of [m11](http://code.google.com/p/chromium/issues/detail?id=66078).
+Firefox 5 has the
 [same](https://developer.mozilla.org/en/DOM/window.setTimeout#Minimum_delay_and_timeout_nesting)
 behavior.
 
@@ -1387,8 +1392,8 @@ Availability: in development.
 Notes: [WHATWG
 proposal](http://lists.whatwg.org/htdig.cgi/whatwg-whatwg.org/2012-October/037711.html).
 
-Tickets: [crbug](http://code.google.com/p/chromium/issues/detail), [webkit meta
-bug](https://bugs.webkit.org/show_bug.cgi)
+Tickets: [crbug](http://code.google.com/p/chromium/issues/detail?id=159537),
+[webkit meta bug](https://bugs.webkit.org/show_bug.cgi?id=100560)
 
 ## DOM APIs
 
@@ -1423,4 +1428,4 @@ More resources for going deep with HTML5:
             Network](https://developer.mozilla.org/en/HTML/HTML5)
 *   [StackOverflow:
             html5](http://stackoverflow.com/questions/tagged/html5)
-*   [#html5](http://webchat.freenode.net/) on freenode
+*   [#html5](http://webchat.freenode.net/?channels=html5) on freenode

@@ -41,7 +41,8 @@ malware and will likely be labeled as malware by Google and anti-virus vendors.
             Questions](/administrators/frequently-asked-questions)
 *   [Supported directory path
             variables](/administrators/policy-list-3/user-data-directory-variables)
-*   [Known Issues](http://code.google.com/p/chromium/issues/list)
+*   [Known
+            Issues](http://code.google.com/p/chromium/issues/list?can=2&q=Feature%3DEnterprise)
 *   [iOS MDM Policy Format](/administrators/ios-mdm-policy-format)
 *   [Advanced Integration for SAML SSO on Chrome
             Devices](/administrators/advanced-integration-for-saml-sso-on-chrome-devices)
@@ -55,4 +56,4 @@ malware and will likely be labeled as malware by Google and anti-virus vendors.
 
 You can view all of the Enterprise feature requests and bugs sorted by their
 milestone on the [Chromium bug
-tracker](http://code.google.com/p/chromium/issues/list).
+tracker](http://code.google.com/p/chromium/issues/list?can=2&q=Cr%3DEnterprise&mode=grid&y=&x=Mstone&cells=tiles).

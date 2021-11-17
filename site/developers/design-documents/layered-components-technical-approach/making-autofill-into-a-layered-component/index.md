@@ -107,12 +107,13 @@ broad categories:
 *   Eliminate convenience usages of the content layer **\[DONE\]**
 *   Abstract BrowserContext usage **\[DONE\]**
     *   Several CLs, see tracking
-                [bug](https://code.google.com/p/chromium/issues/detail)
-    *   Example [CL](https://code.google.com/p/chromium/issues/detail)
+                [bug](https://code.google.com/p/chromium/issues/detail?id=303034)
+    *   Example
+                [CL](https://code.google.com/p/chromium/issues/detail?id=303047)
                 abstracting BrowserContext::IsOffTheRecord()
 *   Abstract BrowserThread usage **\[DONE\]**
     *   Several CLs, see tracking
-                [bug](https://code.google.com/p/chromium/issues/detail)
+                [bug](https://code.google.com/p/chromium/issues/detail?id=303009)
     *   Example [CL](https://codereview.chromium.org/25783002)
 *   [Build Autofill core code and component-level unittests on
             iOS](https://codereview.chromium.org/108013004) **\[DONE\]**

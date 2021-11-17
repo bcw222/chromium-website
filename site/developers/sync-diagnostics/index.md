@@ -118,7 +118,8 @@ title: Sync diagnostics
 *   Sync talks to the sync server via POSTing to clients4.google.com.
 *   Sync talks to the notification servers via XMPP (talk.google.com).
 *   Both sockets should show up in **chrome://net-internals** (after
-            [82365](http://code.google.com/p/chromium/issues/detail) is fixed).
+            [82365](http://code.google.com/p/chromium/issues/detail?id=82365) is
+            fixed).
 
 ### Room for improvement
 

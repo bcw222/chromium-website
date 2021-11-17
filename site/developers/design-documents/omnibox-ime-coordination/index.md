@@ -168,12 +168,13 @@ need ideas for measuring the impact of our change.
 
 ## Links
 
-*   [Chromium bug 2924](http://code.google.com/p/chromium/issues/detail)
-            - Don't let IME candidate window overwrite the autocomplete popup
 *   [Chromium bug
-            38450](http://code.google.com/p/chromium/issues/detail) - Omnibox
-            autocomplete behavior for Korean is less than optimal (related, but
-            this design doc doesn’t affect this bug)
+            2924](http://code.google.com/p/chromium/issues/detail?id=2924) -
+            Don't let IME candidate window overwrite the autocomplete popup
 *   [Chromium bug
-            245578](https://code.google.com/p/chromium/issues/detail) - IME
-            candidate window overlaps Omnibox suggest.
+            38450](http://code.google.com/p/chromium/issues/detail?id=38450) -
+            Omnibox autocomplete behavior for Korean is less than optimal
+            (related, but this design doc doesn’t affect this bug)
+*   [Chromium bug
+            245578](https://code.google.com/p/chromium/issues/detail?id=245578)
+            - IME candidate window overlaps Omnibox suggest.

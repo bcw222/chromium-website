@@ -27,7 +27,7 @@ title: Chrome Frame
 
 ### Chrome Legacy Browser Support
 
-## If your organization wants to take advantage of the Chrome browser, but your users still need to access older websites and apps that require Internet Explorer, you can use [Legacy Browser Support](https://www.google.com/intl/en/chrome/business/browser/lbs.html) to easily and automatically switch between browsers. When your user clicks a link that requires a legacy browser to open (such as a site that requires ActiveX), the URL will automatically open in the legacy browser from Chrome. You can specify which URLs to launch into a second browser and deploy this Chrome policy for the organization. More info on [Legacy Browser Support in our help center.](http://support.google.com/chrome/a/bin/answer.py)
+## If your organization wants to take advantage of the Chrome browser, but your users still need to access older websites and apps that require Internet Explorer, you can use [Legacy Browser Support](https://www.google.com/intl/en/chrome/business/browser/lbs.html) to easily and automatically switch between browsers. When your user clicks a link that requires a legacy browser to open (such as a site that requires ActiveX), the URL will automatically open in the legacy browser from Chrome. You can specify which URLs to launch into a second browser and deploy this Chrome policy for the organization. More info on [Legacy Browser Support in our help center.](http://support.google.com/chrome/a/bin/answer.py?hl=en&answer=3019558)
 
 ### How should I deliver feature-forward experiences across browsers now?
 

@@ -20,10 +20,11 @@ execution on a core to be observed across security boundaries via
 microarchitectural state, on certain Intel CPUs. They are described in [Intel's
 announcement](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00233.html),
 and referred to as
-MSBDS/[CVE-2018-12126](https://cve.mitre.org/cgi-bin/cvename.cgi),
-MLPDS/[CVE-2018-12127](https://cve.mitre.org/cgi-bin/cvename.cgi),
-MFBDS/[CVE-2018-12130](https://cve.mitre.org/cgi-bin/cvename.cgi), and
-MDSUM/[CVE-2019-11091](https://cve.mitre.org/cgi-bin/cvename.cgi).
+MSBDS/[CVE-2018-12126](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2018-12126),
+MLPDS/[CVE-2018-12127](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2018-12127),
+MFBDS/[CVE-2018-12130](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2018-12130),
+and
+MDSUM/[CVE-2019-11091](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2019-11091).
 
 An attacker successfully exploiting these vulnerabilities could read sensitive
 data from other processes running on the system, breaking the isolation between
@@ -40,7 +41,7 @@ mitigation.
 Some operating system mitigations will also require changes in Chrome which we
 shall include in subsequent Chrome releases. Users should ensure their version
 of Chrome is [always up to
-date](https://support.google.com/chrome/answer/95414).
+date](https://support.google.com/chrome/answer/95414?co=GENIE.Platform%3DDesktop).
 
 ## Response
 

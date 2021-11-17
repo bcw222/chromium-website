@@ -236,7 +236,7 @@ Release Schedule
 More information
 
 [Autoplay policy summary
-presentation](https://docs.google.com/presentation/d/1DhW29bTLkDO6JSqp_wLUyByo00nI4krQ9laGQYQEJLU/edit)
+presentation](https://docs.google.com/presentation/d/1DhW29bTLkDO6JSqp_wLUyByo00nI4krQ9laGQYQEJLU/edit?usp=sharing)
 
 [Autoplay design
 document](https://docs.google.com/document/d/1EH7qZatVnTXsBGvQc_53R97Z0xqm6zRblKg3eVmNp30/edit)

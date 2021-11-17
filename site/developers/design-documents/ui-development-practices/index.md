@@ -38,7 +38,7 @@ Some features need to inspect or modify the DOM of the current tab, which can be
 any arbitrary website. Blink's Web\* C++ API is intentionally simple and limited
 to guide you to use it only for what is practical. When Blink’s C++ API is
 impractical, use [isolated
-world](https://cs.chromium.org/chromium/src/content/public/browser/render_frame_host.h)
+world](https://cs.chromium.org/chromium/src/content/public/browser/render_frame_host.h?q=ExecuteJavaScriptInIsolatedWorld&sq=package:chromium&dr=CSs&rcl=1467300303&l=130)
 script injection. The script injected should be as lean as possible and should
 not contain any code that deals with other browsers (for example Closure).
 

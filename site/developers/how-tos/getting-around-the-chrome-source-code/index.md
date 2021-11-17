@@ -31,7 +31,7 @@ These projects are as follows:
 *   **android_webview:** Provides a facade over src/content suitable for
             integration into the android platform. NOT intended for usage in
             individual android applications (APK). [More
-            information](https://docs.google.com/document/d/1a_cUP1dGIlRQFUSic8bhAOxfclj4Xzw-yRDljVk1wB0/edit)
+            information](https://docs.google.com/document/d/1a_cUP1dGIlRQFUSic8bhAOxfclj4Xzw-yRDljVk1wB0/edit?usp=sharing)
             about the Android WebView source code organization.
 *   **apps**: [Chrome packaged
             apps](http://developer.chrome.com/apps/about_apps.html).

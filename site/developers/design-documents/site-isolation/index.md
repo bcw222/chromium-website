@@ -181,10 +181,10 @@ content out of privileged extension
 processes](https://blog.chromium.org/2017/05/improving-extension-security-with-out.html).
 
 As of Chrome 63, Site Isolation could be
-[enabled](https://support.google.com/chrome/answer/7623121) as an [additional
-mitigation against universal cross-site scripting (UXSS) vulnerabilities and
-Spectre](/Home/chromium-security/site-isolation). It was also available via
-[enterprise
+[enabled](https://support.google.com/chrome/answer/7623121?hl=en) as an
+[additional mitigation against universal cross-site scripting (UXSS)
+vulnerabilities and Spectre](/Home/chromium-security/site-isolation). It was
+also available via [enterprise
 policy](https://www.blog.google/topics/connected-workspaces/security-enhancements-and-more-enterprise-chrome-browser-customers/).
 That initial support was still in progress and had [known issues and
 tradeoffs](https://support.google.com/chrome/a/answer/7581529), but helped to
@@ -309,9 +309,9 @@ action is necessary.
 Updating Chrome Features:
 
 *   [Feature Update FAQ for Out-of-Process
-            iframes](https://docs.google.com/document/d/1Iqe_CzFVA6hyxe7h2bUKusxsjB6frXfdAYLerM3JjPo/edit)
+            iframes](https://docs.google.com/document/d/1Iqe_CzFVA6hyxe7h2bUKusxsjB6frXfdAYLerM3JjPo/edit?usp=sharing)
 *   [Features to Update for Out-of-Process
-            iframes](https://docs.google.com/document/d/1dCR2aEoBJj_Yqcs6GuM7lUPr0gag77L5OSgDa8bebsI/edit)
+            iframes](https://docs.google.com/document/d/1dCR2aEoBJj_Yqcs6GuM7lUPr0gag77L5OSgDa8bebsI/edit?usp=sharing)
 
 Build Status:
 
@@ -328,19 +328,19 @@ Talks and discussion from January 2015.
 
 ### Site Isolation Overview
 
-[Slides](https://docs.google.com/presentation/d/10HTTK4dsxO5p6FcpEOq8EkuV4yiBx2n6dBki8cqDWyo/edit)
+[Slides](https://docs.google.com/presentation/d/10HTTK4dsxO5p6FcpEOq8EkuV4yiBx2n6dBki8cqDWyo/edit?usp=sharing)
 
 #### Site Isolation Overview
 
 ### Chromium Changes for OOPIF
 
-[Slides](https://docs.google.com/presentation/d/1e25K7BW3etNDm1-lkMltMcCcRDeVwLibBcbACRhqZ1k/edit)
+[Slides](https://docs.google.com/presentation/d/1e25K7BW3etNDm1-lkMltMcCcRDeVwLibBcbACRhqZ1k/edit?usp=sharing)
 
 #### Chromium Changes for OOPIF
 
 ### Blink Changes for OOPIF
 
-[Slides](https://docs.google.com/presentation/d/11nrXiuXBTC72E5l_MUtu2eJN6rcW9PtBewDOPPTk9Bc/edit)
+[Slides](https://docs.google.com/presentation/d/11nrXiuXBTC72E5l_MUtu2eJN6rcW9PtBewDOPPTk9Bc/edit?usp=sharing)
 
 #### Blink Changes for OOPIF
 

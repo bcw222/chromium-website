@@ -8,9 +8,10 @@ page_name: video
 title: Audio / Video Playback
 ---
 
-## Interested in helping out? Check out our [bugs](https://bugs.chromium.org/p/chromium/issues/list)! New to Chromium? [GoodFirstBug](https://bugs.chromium.org/p/chromium/issues/list) is your friend!
+## Interested in helping out? Check out our [bugs](https://bugs.chromium.org/p/chromium/issues/list?q=component%3AInternals%3EMedia)! New to Chromium? [GoodFirstBug](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=component%3AInternals%3EMedia+Hotlist%3DGoodFirstBug) is your friend!
 
-Filing a new bug: [Template](https://bugs.chromium.org/p/chromium/issues/entry)
+Filing a new bug:
+[Template](https://bugs.chromium.org/p/chromium/issues/entry?template=Audio/Video%20Issue)
 
 **Documentation:**
 

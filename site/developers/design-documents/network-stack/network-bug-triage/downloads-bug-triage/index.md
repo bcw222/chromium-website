@@ -12,16 +12,18 @@ page_name: downloads-bug-triage
 title: Triaging Downloads Bugs
 ---
 
-[Downloads bugs](https://code.google.com/p/chromium/issues/list) are
-automatically cc'd to the mailing list download-bugs@chromium.org. People on the
-bugs rotation should subscribe to that list. The suggested frequency for
+[Downloads
+bugs](https://code.google.com/p/chromium/issues/list?can=2&q=cr-ui-browser%3Ddownloads&sort=&groupby=&colspec=ID+Pri+Status+Modified+Owner+Summary&nobtn=Update)
+are automatically cc'd to the mailing list download-bugs@chromium.org. People on
+the bugs rotation should subscribe to that list. The suggested frequency for
 handling incoming bugs is 2-3 days, but that's just a suggestion.
 
 Triagers should
 
 1.  Attempt to reproduce and set the correct Status for [untriaged and
-            unconfirmed bugs](http://crbug.com/). (That search ignores
-            Needs-Feedback and External bugs.)
+            unconfirmed
+            bugs](http://crbug.com/?q=cr-ui-browser%3Ddownloads+status%3Auntriaged%2Cunconfirmed+-blocking%3A96604+-needs%3Dfeedback&colspec=ID+Summary+Modified).
+            (That search ignores Needs-Feedback and External bugs.)
     *   Engage with users as they report bugs to get all the information
                 we need for eventual resolution.
     *   Set Type-Feature Available for feature requests or mark WontFix
@@ -44,7 +46,7 @@ Triagers should
                     use-after-free that might be reproducible in the wild, it's
                     a security issue.
             *   [chromecrash
-                        query](https://chromecrash.corp.google.com/browse):
+                        query](https://chromecrash.corp.google.com/browse?q=int32(extract_regexp(product.version%2C%20r'%5Cd%2B%5C.%5Cd%2B%5C.(%5Cd%2B)%5C.%5Cd%2B'))%20%3E%3D%200%20AND%0Acustom_data.ChromeCrashProto.ptype%3D'browser'%20AND%0A(custom_data.ChromeCrashProto.magic_signature_1.component%20CONTAINS%20'src%2Fcontent%2Fbrowser%2Fdownload'%20OR%0A%20custom_data.ChromeCrashProto.magic_signature_1.component%20CONTAINS%20'src%2Fchrome%2Fbrowser%2Fdownload'%20OR%0A%20custom_data.ChromeCrashProto.magic_signature_1.file_path%20CONTAINS%20'src%2Fchrome%2Fbrowser%2Fextensions%2Fapi%2Fdownloads'%20OR%0A%20custom_data.ChromeCrashProto.magic_signature_1.file_path%20CONTAINS%20'src%2Fchrome%2Fbrowser%2Fui%2Fwebui%2Fdownload')):
                         fiddle with the literal 0 to find crashes
                         before/after/at a specific branch.
         *   Badly broken features
@@ -54,12 +56,13 @@ Triagers should
         *   Some issues on windows are due to bad shell extensions.
                     Point reporters to
                     [ShellMenuView](http://www.nirsoft.net/utils/shell_menu_view.html)
-2.  Categorize [uncategorized bugs](http://crbug.com) by adding them to
-            the "Blocked on" list of one of [these category
-            bugs](http://crbug.com/).
+2.  Categorize [uncategorized
+            bugs](http://crbug.com?q=cr-ui-browser%3Ddownloads+-blocking%3A68191+-blocking%3A68195+-blocking%3A68196+-blocking%3A68197+-blocking%3A68198+-blocking%3A68200+-blocking%3A68201+-blocking%3A68204+-blocking%3A68206+-blocking%3A68208+-blocking%3A68209+-blocking%3A68276+-blocking%3A68356+-blocking%3A68358+-blocking%3A68359+-blocking%3A68361+-blocking%3A69298+-blocking%3A78147+-blocking%3A78148+-blocking%3A96604+-blocking%3A133971+-blocking%3A133960&colspec=ID+Summary+Modified)
+            by adding them to the "Blocked on" list of one of [these category
+            bugs](http://crbug.com/?q=Cr-Ui-Browser%3DDownloads+blocking%3A133960&colspec=ID+Summary).
 3.  Sweep
-            [needs=feedback](https://code.google.com/p/chromium/issues/list): if
-            feedback has been provided, remove needs-feedback and continue
+            [needs=feedback](https://code.google.com/p/chromium/issues/list?can=2&q=cr-ui-browser=downloads%20needs=feedback&sort=modified&colspec=ID%20Status%20Owner%20Summary%20Modified):
+            if feedback has been provided, remove needs-feedback and continue
             debugging; if feedback has not been provided after 2 weeks, Archive
             the bug.
 4.  When major changes such as file moves happen, either update the

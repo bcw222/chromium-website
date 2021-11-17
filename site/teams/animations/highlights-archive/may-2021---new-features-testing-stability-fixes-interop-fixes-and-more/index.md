@@ -183,22 +183,24 @@ title: May 2021 - New features, Testing, Stability fixes, Interop fixes and more
 
 <td><td><img alt="image" src="https://lh5.googleusercontent.com/MHKcz_eBTvaoEMvqtpGDxweELZwCGAEm7xdV4D89dz-1T_asGIKvFg2CL6O7ILhfZ_g6I4KFxpy-nes3cVhiFfAKGgxiQNsPF6lXQ8NOAGO9JjUrGSnuKigT25helY0xJ-PJSA3S-g" height=150 width=273> <img alt="image" src="https://lh6.googleusercontent.com/I7aNfDvFvhYarIPRGEYMVMSkFFNB8yPVjHStk4q9AeYvyrh6TolUXxSAAFZPsYrqHEtwBNvMRwk7a_sbFpg8ky_gGcaUn8jKxymnneXvxmi5UGPZCxSBh_ealFjDY-73bE5RXlb6mA" height=150 width=270></td></td>
 
-<td><td>Our team closed fewer bugs this sprint, but we did get a <a href="https://youtu.be/m0JrspsaVDk">chance</a> to <a href="https://youtu.be/VrEP7SPfQVM">have</a> a <a href="https://youtu.be/VrEP7SPfQVM">bunch</a> of <a href="https://youtu.be/m0JrspsaVDk">great</a> <a href="https://youtu.be/m0JrspsaVDk">conversations</a> at Blinkon... The rate of incoming bugs was relatively consistent.</td></td>
+<td><td>Our team closed fewer bugs this sprint, but we did get a <a href="https://youtu.be/m0JrspsaVDk?t=1779">chance</a> to <a href="https://youtu.be/VrEP7SPfQVM?list=PL9ioqAuyl6ULbse3njxmvJgJArp_-pKxY&t=3208">have</a> a <a href="https://youtu.be/VrEP7SPfQVM?list=PL9ioqAuyl6ULbse3njxmvJgJArp_-pKxY&t=3370">bunch</a> of <a href="https://youtu.be/m0JrspsaVDk?t=78">great</a> <a href="https://youtu.be/m0JrspsaVDk?t=201">conversations</a> at Blinkon... The rate of incoming bugs was relatively consistent.</td></td>
 
-    <td><td>Xida Chen <a href="https://youtu.be/VrEP7SPfQVM">Composite
+    <td><td>Xida Chen <a
+    href="https://youtu.be/VrEP7SPfQVM?list=PL9ioqAuyl6ULbse3njxmvJgJArp_-pKxY&t=3208">Composite
     background-color animation</a></td></td>
 
-    <td><td>Jordan Taylor: <a href="https://youtu.be/VrEP7SPfQVM">Scroll
+    <td><td>Jordan Taylor: <a
+    href="https://youtu.be/VrEP7SPfQVM?list=PL9ioqAuyl6ULbse3njxmvJgJArp_-pKxY&t=3370">Scroll
     Timelines</a></td></td>
 
-    <td><td>Liviu Tinta: <a href="https://youtu.be/m0JrspsaVDk">Disable Double
-    Tap to Zoom</a></td></td>
+    <td><td>Liviu Tinta: <a href="https://youtu.be/m0JrspsaVDk?t=78">Disable
+    Double Tap to Zoom</a></td></td>
 
-    <td><td>Rob Flack: <a href="https://youtu.be/m0JrspsaVDk">Scroll To
+    <td><td>Rob Flack: <a href="https://youtu.be/m0JrspsaVDk?t=201">Scroll To
     \*</a></td></td>
 
     <td><td>Liviu Tinta: <a
-    href="https://youtu.be/m0JrspsaVDk">click/auxclick/contextmentu as
+    href="https://youtu.be/m0JrspsaVDk?t=1779">click/auxclick/contextmentu as
     PointerEvents</a></td></td>
 
 <td></tr></td>

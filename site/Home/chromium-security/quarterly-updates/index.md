@@ -178,7 +178,7 @@ shipped in Chrome 88, offering process isolation at an origin granularity (for
 performance reasons rather than security). We explored [new
 options](https://chromium-review.googlesource.com/c/chromium/src/+/2782585) for
 memory safety and helped with the
-[MiraclePtr](https://docs.google.com/document/d/1pnnOAIz_DMWDI4oIOFoMAqLnf_MZ2GsrJNb_dbQ3ZBg/edit)
+[MiraclePtr](https://docs.google.com/document/d/1pnnOAIz_DMWDI4oIOFoMAqLnf_MZ2GsrJNb_dbQ3ZBg/edit?usp=sharing)
 experiments. Finally, we made several stability improvements, continued
 refactoring for [SiteInstanceGroup](https://crbug.com/1195535), and helped
 unblock the
@@ -314,7 +314,7 @@ Andrew
 
 ## We’re also working on reducing the privilege of the network service sandbox on Windows. We’re planning to do the same on Android later in the year.
 
-## [FuzzBench](https://github.com/google/fuzzbench) continues to help the research community benchmark and create more efficient fuzzing engines (e.g. [AFL++ 3.0](https://github.com/AFLplusplus/AFLplusplus/releases/tag/3.0c), [SymQEMU](https://twitter.com/mboehme_/status/1351729922364960770), etc). We added support for [bug-based benchmarking](https://github.com/google/fuzzbench/search) ([sample report](https://www.fuzzbench.com/reports/2020-12-19-bug/index.html)), [fuzzer stats api](https://github.com/google/fuzzbench/pull/648), [saturated corpora testing](https://github.com/google/fuzzbench/pull/760). Our [OSS-Fuzz](https://github.com/google/oss-fuzz) platform now has first-class support for [Python fuzzing](https://google.github.io/oss-fuzz/getting-started/new-project-guide/python-lang/), and continues to grow at a brisk pace ([~400](https://github.com/google/oss-fuzz/tree/master/projects) projects, [25K+](https://bugs.chromium.org/p/oss-fuzz/issues/list) bugs). Based on community feedback, we created a lightweight, standalone [ClusterFuzz python package](https://pypi.org/project/clusterfuzz/) (alpha) for common fuzzing use cases, e.g. stacktrace parsing. We have refactored [AFL fuzzing integration](https://github.com/google/clusterfuzz/pull/2147) to use the [engine interface](https://github.com/google/clusterfuzz/blob/master/src/python/lib/clusterfuzz/fuzz/engine.py). We have been working on a solution to better track vulnerabilities in third-party dependencies. We have also bootstrapped several open source security efforts under the [OpenSSF](https://openssf.org/) foundation, e.g. [security scorecards](https://opensource.googleblog.com/2020/11/security-scorecards-for-open-source.html), [finding critical projects](https://opensource.googleblog.com/2020/12/finding-critical-open-source-projects.html), etc.
+## [FuzzBench](https://github.com/google/fuzzbench) continues to help the research community benchmark and create more efficient fuzzing engines (e.g. [AFL++ 3.0](https://github.com/AFLplusplus/AFLplusplus/releases/tag/3.0c), [SymQEMU](https://twitter.com/mboehme_/status/1351729922364960770), etc). We added support for [bug-based benchmarking](https://github.com/google/fuzzbench/search?p=1&q=%22type%3A+bug%22) ([sample report](https://www.fuzzbench.com/reports/2020-12-19-bug/index.html)), [fuzzer stats api](https://github.com/google/fuzzbench/pull/648), [saturated corpora testing](https://github.com/google/fuzzbench/pull/760). Our [OSS-Fuzz](https://github.com/google/oss-fuzz) platform now has first-class support for [Python fuzzing](https://google.github.io/oss-fuzz/getting-started/new-project-guide/python-lang/), and continues to grow at a brisk pace ([~400](https://github.com/google/oss-fuzz/tree/master/projects) projects, [25K+](https://bugs.chromium.org/p/oss-fuzz/issues/list?q=-status%3AWontFix%2CDuplicate&can=1) bugs). Based on community feedback, we created a lightweight, standalone [ClusterFuzz python package](https://pypi.org/project/clusterfuzz/) (alpha) for common fuzzing use cases, e.g. stacktrace parsing. We have refactored [AFL fuzzing integration](https://github.com/google/clusterfuzz/pull/2147) to use the [engine interface](https://github.com/google/clusterfuzz/blob/master/src/python/lib/clusterfuzz/fuzz/engine.py). We have been working on a solution to better track vulnerabilities in third-party dependencies. We have also bootstrapped several open source security efforts under the [OpenSSF](https://openssf.org/) foundation, e.g. [security scorecards](https://opensource.googleblog.com/2020/11/security-scorecards-for-open-source.html), [finding critical projects](https://opensource.googleblog.com/2020/12/finding-critical-open-source-projects.html), etc.
 
 ## We implemented blocking of requests from insecure contexts to private networks (first part of [CORS-RFC1918](https://web.dev/cors-rfc1918-feedback/)), and are analyzing metrics to chart a path to launch.
 
@@ -322,13 +322,13 @@ Andrew
 
 ## We also implemented a first version of a [Sanitizer API](https://github.com/WICG/sanitizer-api) and started the specification process.
 
-## With [CrossOriginOpenerPolicy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy) (COOP) and [CrossOriginEmbedderPolicy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy) (COEP) launched, we were able to [re-enable SharedArrayBuffers on Android](https://docs.google.com/document/d/1tXfF0sdMQJPtwc2qEGF_V_z5xiCkP3ayS5ByRz6Rc-A/edit) gated behind crossOriginIsolated (a.k.a COOP+COEP), which Firefox has also done. We have a plan to [deprecate all SAB usage without crossOriginIsolated](https://groups.google.com/a/chromium.org/g/blink-dev/c/1NKvbIj3dq4/m/cdfo-JazBQAJ) in Chrome 91 (with reverse Origin Trial until Chrome 93).
+## With [CrossOriginOpenerPolicy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy) (COOP) and [CrossOriginEmbedderPolicy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy) (COEP) launched, we were able to [re-enable SharedArrayBuffers on Android](https://docs.google.com/document/d/1tXfF0sdMQJPtwc2qEGF_V_z5xiCkP3ayS5ByRz6Rc-A/edit?ts=5f236efa) gated behind crossOriginIsolated (a.k.a COOP+COEP), which Firefox has also done. We have a plan to [deprecate all SAB usage without crossOriginIsolated](https://groups.google.com/a/chromium.org/g/blink-dev/c/1NKvbIj3dq4/m/cdfo-JazBQAJ) in Chrome 91 (with reverse Origin Trial until Chrome 93).
 
 ## This will require users of SharedArrayBuffers to adopt COOP and COEP. Adopting COEP has proved difficult. We have heard that the deployment of COEP was difficult for a certain number of websites that embed third-party content. We are considering a new form of COEP that might alleviate those issues: [credentialless](https://github.com/mikewest/credentiallessness). To help drive adoption of COOP we moved the [COOP reporting API](https://web.dev/coop-coep/) out of Origin Trial to on by default in Chrome 89.
 
 ## We have started to collect [metrics](https://deprecate.it/) on dangerous web behaviors, with the hope of driving them down. The first one we’ll likely be looking at is [document.domain](https://github.com/mikewest/deprecating-document-domain).
 
-## The Security Architecture team completed the [CORS for content scripts migration](/Home/chromium-security/extension-content-script-fetches) in Chrome 87, removing the allowlist for older extensions and strengthening Site Isolation for all desktop users! Opt-in origin isolation was renamed to [Origin-Keyed Agent Clusters](https://www.chromestatus.com/feature/5683766104162304) and is on track to launch in Chrome 88. We are making progress towards additional Android Site Isolation for OAuth and COOP sites, and we helped secure SkBitmap IPCs against memory bugs. Finally, we have been investing in architecture changes, including [SiteInfo](https://source.chromium.org/chromium/chromium/src/+/master:content/browser/site_instance_impl.h;drc=62f7e7ad10582e60fb724e65dd2b088d4837fe4e;l=28) to better track principals and SiteInstanceGroup to simplify the process model, along with significant reviews for [Multiple Page Architecture](https://docs.google.com/document/d/1NginQ8k0w3znuwTiJ5qjYmBKgZDekvEPC22q0I4swxQ/edit) and [Multiple Blink Isolates](https://docs.google.com/document/d/1qgDcgQWIXbsJrJUPuqnXv7sy8zf9xrf1ol90D0g7H5o/edit).
+## The Security Architecture team completed the [CORS for content scripts migration](/Home/chromium-security/extension-content-script-fetches) in Chrome 87, removing the allowlist for older extensions and strengthening Site Isolation for all desktop users! Opt-in origin isolation was renamed to [Origin-Keyed Agent Clusters](https://www.chromestatus.com/feature/5683766104162304) and is on track to launch in Chrome 88. We are making progress towards additional Android Site Isolation for OAuth and COOP sites, and we helped secure SkBitmap IPCs against memory bugs. Finally, we have been investing in architecture changes, including [SiteInfo](https://source.chromium.org/chromium/chromium/src/+/master:content/browser/site_instance_impl.h;drc=62f7e7ad10582e60fb724e65dd2b088d4837fe4e;l=28) to better track principals and SiteInstanceGroup to simplify the process model, along with significant reviews for [Multiple Page Architecture](https://docs.google.com/document/d/1NginQ8k0w3znuwTiJ5qjYmBKgZDekvEPC22q0I4swxQ/edit?usp=sharing) and [Multiple Blink Isolates](https://docs.google.com/document/d/1qgDcgQWIXbsJrJUPuqnXv7sy8zf9xrf1ol90D0g7H5o/edit?usp=sharing).
 
 ## Cheers,
 
@@ -344,8 +344,8 @@ third quarter of 2020.
 The Chrome Safe Browsing team continued the [roll-out of Enhanced Safe
 Browsing](https://security.googleblog.com/2020/05/enhanced-safe-browsing-protection-now.html)
 by launching it on Android in Chrome 86, and [releasing a
-video](https://www.youtube.com/watch) with background on the feature. We also
-launched [deep scanning of suspicious
+video](https://www.youtube.com/watch?v=w8uNzQqsTrU) with background on the
+feature. We also launched [deep scanning of suspicious
 downloads](https://security.googleblog.com/2020/09/improved-malware-protection-for-users.html),
 initially for users of Google’s Advanced Protection program, which received
 [positive
@@ -384,19 +384,22 @@ isolate the network service), and getting a better grip on Mojo.
 
 Bugs-- has started encouraging Chrome developers to submit vulnerability
 analysis after the bug is fixed
-([example](https://bugs.chromium.org/p/chromium/issues/detail)). This guides our
-future work on eliminating common bug patterns. We cross-collaborated with
-fuzzing teams across Google to host 50 summer interns, with strong impact across
-Chrome and other critical open source software (see [blog
+([example](https://bugs.chromium.org/p/chromium/issues/detail?id=1126424#c41)).
+This guides our future work on eliminating common bug patterns. We
+cross-collaborated with fuzzing teams across Google to host 50 summer interns,
+with strong impact across Chrome and other critical open source software (see
+[blog
 post](https://opensource.googleblog.com/2020/10/fuzzing-internships-for-open-source.html)).
 We have added automated regression testing of past fixed crashes for
 engine-based fuzzers (e.g. libFuzzer, AFL). We have made several changes to our
 underlying fuzzing and build infrastructures - UI improvements, Syzkaller
 support, OSS-Fuzz builder rewrite, etc. Lastly, we continue to push fuzzing
 research across the industry using our FuzzBench benchmarking platform and have
-led to improvements in [AFL++](https://github.com/google/fuzzbench/commits),
-[libFuzzer](https://github.com/google/fuzzbench/commits) and
-[Honggfuzz](https://github.com/google/fuzzbench/commits) fuzzing engines.
+led to improvements in
+[AFL++](https://github.com/google/fuzzbench/commits?author=vanhauser-thc),
+[libFuzzer](https://github.com/google/fuzzbench/commits?author=dokyungs) and
+[Honggfuzz](https://github.com/google/fuzzbench/commits?author=robertswiecki)
+fuzzing engines.
 
 The Open Web Platform security team continues to focus on two problems:
 injection attacks, and isolation primitives.
@@ -499,7 +502,7 @@ security focus on
 Chrome's IPC system, and started looking at what's needed to improve developer
 ergonomics and make it easier to reason about communicating over security
 boundaries. Also with CSA, we've worked on how
-[MiraclePtr](https://docs.google.com/document/d/1pnnOAIz_DMWDI4oIOFoMAqLnf_MZ2GsrJNb_dbQ3ZBg/edit)
+[MiraclePtr](https://docs.google.com/document/d/1pnnOAIz_DMWDI4oIOFoMAqLnf_MZ2GsrJNb_dbQ3ZBg/edit?usp=sharing)
 could help prevent use after free bugs in C++ code.
 
 Bugs-- continued to develop and improve the FuzzBench platform which has helped
@@ -546,7 +549,7 @@ enforcements for request initiators, and we improved the update mechanism for
 Android Site Isolation's list of isolated sites. Much of Q2 was spent on cleanup
 and documentation, though, particularly test infrastructure and flaky test
 improvements. Finally, we also contributed to
-[MiraclePtr](https://docs.google.com/document/d/1pnnOAIz_DMWDI4oIOFoMAqLnf_MZ2GsrJNb_dbQ3ZBg/edit)
+[MiraclePtr](https://docs.google.com/document/d/1pnnOAIz_DMWDI4oIOFoMAqLnf_MZ2GsrJNb_dbQ3ZBg/edit?usp=sharing)
 efforts to reduce memory bugs, and we helped more teams use WebUI by adding
 support for web iframes.
 
@@ -603,11 +606,12 @@ These changes have now been delayed due to changing global circumstances, but
 are still planned for release at the appropriate time.
 
 To improve how users understand website identity, we experimented with a [new
-security indicator icon](https://bugs.chromium.org/p/chromium/issues/detail) for
+security indicator
+icon](https://bugs.chromium.org/p/chromium/issues/detail?id=1008219) for
 insecure pages. We also experimentally launched a [new
-warning](https://bugs.chromium.org/p/chromium/issues/detail) for sites with
-spoofy-looking domain names. We’re now analyzing experiment results and planning
-next steps for these changes.
+warning](https://bugs.chromium.org/p/chromium/issues/detail?id=982930) for sites
+with spoofy-looking domain names. We’re now analyzing experiment results and
+planning next steps for these changes.
 
 The Platform Security team made significant forward progress on enabling the
 network service to be sandboxed on all platforms (it already is on macOS). This
@@ -707,8 +711,8 @@ We also had two telemetry based launches for sending pings to Safe Browsing when
 users who have opted into Safe Browsing Extended Reporting focus on password
 fields and reuse their passwords on Android.
 
-[HTTPS adoption](https://transparencyreport.google.com/https/overview) has risen
-dramatically, but
+[HTTPS adoption](https://transparencyreport.google.com/https/overview?hl=en) has
+risen dramatically, but
 [many](https://chromestatus.com/metrics/feature/timeline/popularity/609)
 https:// pages still include http:// subresources — known as mixed content. In
 October, the Usable Security team published a
@@ -898,7 +902,7 @@ in early 2020.
 In Q3, Enamel also made improvements to our lookalike domain warning, with
 clearer strings and new heuristics for detecting spoofing attacks. We also added
 additional signals in our [Suspicious Site Reporter
-extension](https://chrome.google.com/webstore/detail/suspicious-site-reporter/jknemblkbdhdcpllfgbfekkdciegfboi)
+extension](https://chrome.google.com/webstore/detail/suspicious-site-reporter/jknemblkbdhdcpllfgbfekkdciegfboi?hl=en-US)
 for power users to identify suspicious sites that they can report to Safe
 Browsing for scanning. In Chrome 77, we
 [relocated](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/ev-to-page-info.md)
@@ -975,8 +979,8 @@ This generated some good [press
 coverage](https://techcrunch.com/2019/07/18/google-will-now-pay-bigger-rewards-for-discovering-chrome-security-bugs/)
 which should help spread the word about the Chrome VRP. Tell your friends, and
 submit your Chrome security bugs
-[here](https://bugs.chromium.org/p/chromium/issues/entry) and they'll be
-considered for a reward when they're fixed!
+[here](https://bugs.chromium.org/p/chromium/issues/entry?template=Security%20Bug)
+and they'll be considered for a reward when they're fixed!
 
 In Chrome security generally we've been working to address an issue called the
 “patch gap”, where security bug fixes are posted in our open-source code
@@ -1034,8 +1038,8 @@ reviews, Platform Security engineers have been continuing to investigate ways to
 help Chrome engineers create fewer memory safety bugs for clusterfuzz to find.
 While performance is a concern when adding checks to libraries, some reports of
 regressions nicely turned out to be [red
-herrings](https://bugs.chromium.org/p/chromium/issues/detail). On macOS, Chrome
-executables are [now
+herrings](https://bugs.chromium.org/p/chromium/issues/detail?id=957296#c15). On
+macOS, Chrome executables are [now
 signed](https://chromium-review.googlesource.com/c/chromium/src/+/1666734) with
 the [hardened runtime
 options](https://developer.apple.com/documentation/security/hardened_runtime_entitlements)
@@ -1043,7 +1047,8 @@ enabled. Also on macOS, the change to have [Mojo use Mach
 IPC](https://docs.google.com/document/d/1nEUEAP3pq6T9WgEucy2j02QwEHi0PaFdpaQcT8ooH9E/edit#),
 rather than POSIX file descriptors/socket pairs, is now fully rolled out. On
 Windows, we started to
-[enable](https://bugs.chromium.org/p/chromium/issues/detail) [Arbitrary Code
+[enable](https://bugs.chromium.org/p/chromium/issues/detail?id=961831)
+[Arbitrary Code
 Guard](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-exploit-guard/exploit-protection-exploit-guard#mitigation-comparison)
 on processes that don't need dynamic code at runtime.
 
@@ -1062,8 +1067,9 @@ priority.
 To augment our fuzzing efforts and find vulnerabilities for known bad patterns,
 we have decided to invest in static code analysis efforts with
 [Semmle](https://semmle.com/). We have written our custom QL queries and
-reported [15](https://bugs.chromium.org/p/chromium/issues/list) bugs so far
-(some of these were developed in collaboration with [Project
+reported
+[15](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=label%3AFound-With-Semmle)
+bugs so far (some of these were developed in collaboration with [Project
 Zero](https://googleprojectzero.blogspot.com/)).
 
 We have made several changes to improve fuzzing efficiency which include -
@@ -1129,7 +1135,7 @@ a temporary allowlist for affected extensions that need to migrate. We tightened
 compromised renderer checks for navigations, postMessage, and BroadcastChannel.
 We also continued cross-browser discussions about [Long-Term Web Browser
 Mitigations for
-Spectre](https://docs.google.com/document/d/1dnUjxfGWnvhQEIyCZb0F2LmCZ9gio6ogu2rhMGqi6gY/edit),
+Spectre](https://docs.google.com/document/d/1dnUjxfGWnvhQEIyCZb0F2LmCZ9gio6ogu2rhMGqi6gY/edit?usp=sharing),
 as well as headers for [isolating
 pages](https://github.com/whatwg/html/issues/3740) and [enabling precise
 timers](https://github.com/whatwg/html/issues/4175). Finally, we are close to
@@ -1156,10 +1162,10 @@ decisions, but
 [of](http://www.usablesecurity.org/papers/jackson.pdf)
 [research](http://grouplab.cpsc.ucalgary.ca/grouplab/uploads/Publications/Publications/2011-DomainHighlighting.CHI.pdf)
 suggests that they don’t. We summarized our own research and thinking on this
-topic in an [Enigma 2019 talk](https://www.youtube.com/watch). We open-sourced a
-[tool](https://github.com/chromium/trickuri) that we use to help browser
-developers display site identity correctly. We also published a set of [URL
-display
+topic in an [Enigma 2019 talk](https://www.youtube.com/watch?v=RPoAc0ScdTM). We
+open-sourced a [tool](https://github.com/chromium/trickuri) that we use to help
+browser developers display site identity correctly. We also published a set of
+[URL display
 guidelines](https://chromium.googlesource.com/chromium/src/+/master/docs/security/url_display_guidelines/url_display_guidelines.md)
 and subsequently incorporated them into the [URL
 standard](https://url.spec.whatwg.org/#url-rendering).
@@ -1188,8 +1194,8 @@ source projects. To improve the efficiency of our cores, we have developed
 automated fuzzer weights management based on fuzzer quality/freshness/code
 changes. Additionally, we have developed several new WebGL fuzzers (some of them
 leverage [GraphicsFuzz](https://github.com/google/graphicsfuzz)) and found
-[63](https://bugs.chromium.org/p/chromium/issues/list) bugs. We have
-significantly scaled up fuzzing Chrome on Android (x86) by using
+[63](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=metzman_graphicsfuzz_crash_fuzzer+-status%3AWontFix%2CDuplicate+OR+metzman_graphicsfuzz_mutator++-status%3AWontFix%2CDuplicate+OR+metzman_webgl_api_fuzzer++-status%3AWontFix%2CDuplicate+OR+metzman_webgl_mutator++-status%3AWontFix%2CDuplicate)
+bugs. We have significantly scaled up fuzzing Chrome on Android (x86) by using
 [Cuttlefish](https://github.com/google/android-cuttlefish) over
 [GCE](https://cloud.google.com/compute/docs/). Lastly, we have transitioned
 Chrome code coverage tools development to Chrome Infra team, see the new dash
@@ -1233,28 +1239,29 @@ the stable channel as an experiment: it looks the same but is much improved
 [under the
 hood](https://docs.google.com/document/d/1rEBpw5V-Nn1UIi8CIFa5ZZvwlR08SkY3CogvWE2UMFs/edit).
 We built a new version of the [HTTPS Transparency
-Report](https://transparencyreport.google.com/https/overview) for top sites; the
-report now displays aggregate statistics for the top sites instead of individual
-sites. We also built a [new interstitial
+Report](https://transparencyreport.google.com/https/overview?hl=en) for top
+sites; the report now displays aggregate statistics for the top sites instead of
+individual sites. We also built a [new interstitial
 warning](https://blog.chromium.org/2018/11/notifying-users-of-unclear-subscription.html)
 to notify Chrome users of unclear mobile subscription billing pages. The new
 warning and policy launched in Chrome 71.
 
 The Bugs-- team ported libFuzzer to work on Windows, which was previously
 lacking coverage guided fuzzing support, and this resulted in
-[93](https://bugs.chromium.org/p/chromium/issues/list) new bugs. We hosted a
-month-long
+[93](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=windows_libfuzzer_chrome_asan+reporter%3Aclusterfuzz%40chromium.org+-status%3Aduplicate%2Cwontfix&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids)
+new bugs. We hosted a month-long
 [Fuzzathon](https://groups.google.com/a/chromium.org/d/msg/chromium-dev/MAiBRTllPuI/hPbEMRWQDAAJ)
 in November, focused on improving fuzz coverage for Chrome’s browser process and
 Chrome OS. This effort led to 85 submissions and
-[157](https://bugs.chromium.org/p/chromium/issues/list) bugs. We have added more
-automation towards auto-adjusting cpu cycles allocated to various fuzzers based
-on code coverage changes and recency of fuzzer submission. Lastly, we added
-Linux x86 fuzzing configurations
+[157](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=-status%3AWontFix%2CDuplicate+id%3A907387%2C908754%2C903899%2C907386%2C904054%2C911112%2C904053%2C906711%2C912230%2C906370%2C907662%2C907663%2C910842%2C910843%2C906416%2C906417%2C906418%2C907302%2C903724%2C906395%2C906393%2C906391%2C911475%2C906399%2C908049%2C901782%2C907912%2C908196%2C906007%2C908829%2C907847%2C905334%2C912202%2C910918%2C912208%2C910917%2C904613%2C906568%2C906374%2C907561%2C907560%2C912455%2C907070%2C903251%2C910852%2C910851%2C903252%2C906396%2C910480%2C903828%2C911030%2C906349%2C908678%2C903052%2C903782%2C912219%2C902693%2C902690%2C904689%2C904682%2C905273%2C905272%2C905275%2C907999%2C911320%2C906352%2C906350%2C906356%2C906354%2C910497%2C910970%2C906359%2C904055%2C905649%2C910930%2C905401%2C906469%2C906705%2C910522%2C907693%2C906462%2C910835%2C902964%2C907051%2C906466%2C906372%2C903772%2C912299%2C911155%2C910926%2C910929%2C910928%2C906659%2C903233%2C907345%2C907344%2C904093%2C904090%2C905413%2C906329%2C909713%2C908781%2C905985%2C909801%2C912506%2C906801%2C901649%2C904382%2C905259%2C902605%2C908039%2C903280%2C904141%2C908004%2C910898%2C902131%2C910069%2C904655%2C910896%2C903088%2C906337%2C906440%2C912476%2C906333%2C908392%2C902227%2C912479%2C906448%2C906339%2C910248%2C904712%2C904792%2C910469%2C903690%2C901239%2C902860%2C911700%2C906381%2C906382%2C911822%2C905621%2C904725%2C910866%2C910862%2C911827%2C910860%2C907524%2C901675%2C901674%2C906438%2C906439%2C910892%2C907278%2C904736%2C904734%2C907718%2C907157%2C910592%2C908237%2C907453%2C908232%2C904105%2C908230%2C912227%2C912224%2C912223%2C904221%2C905463%2C903237%2C903236%2C904227%2C903234%2C906425%2C906421%2C906423%2C906422%2C906429%2C906428%2C908209%2C911409%2C912520&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids)
+bugs. We have added more automation towards auto-adjusting cpu cycles allocated
+to various fuzzers based on code coverage changes and recency of fuzzer
+submission. Lastly, we added Linux x86 fuzzing configurations
 ([1](https://ci.chromium.org/p/chromium/builders/luci.chromium.ci/Libfuzzer%20Upload%20Linux32%20ASan),
 [2](https://ci.chromium.org/p/chromium/builders/luci.chromium.ci/Libfuzzer%20Upload%20Linux32%20ASan%20Debug))
 for libFuzzer, which resulted in
-[100](https://bugs.chromium.org/p/chromium/issues/list) new bugs.
+[100](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=x86_libfuzzer_chrome_asan+-status%3AWontFix%2CDuplicate+OR+x86_libfuzzer_chrome_asan_debug+-status%3AWontFix%2CDuplicate&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids)
+new bugs.
 
 In Platform Security, we started sandboxing the network service on macOS. On
 Windows, we’re starting to experiment with an improved GPU sandbox. The network
@@ -1317,9 +1324,10 @@ model](https://en.wikipedia.org/wiki/Recurrent_neural_network) to improve upon
 corpus quality and code coverage. We experimented with improving fuzzing
 efficiency by adding instability handling and mutation stats strategies inside
 libFuzzer. We added a new [Mojo service
-fuzzer](https://bugs.chromium.org/p/chromium/issues/detail) by extending the
-Mojo javascript bindings and found [security
-bugs](https://bugs.chromium.org/p/chromium/issues/list). We also
+fuzzer](https://bugs.chromium.org/p/chromium/issues/detail?id=607649) by
+extending the Mojo javascript bindings and found [security
+bugs](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=mojo_fuzzer+label%3AClusterFuzz+Type%3DBug-Security&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids).
+We also
 [migrated](https://chromium.googlesource.com/chromium/src/+/master/docs/code_coverage.md)
 our fuzzing infrastructure to provide [Clang Source-based Code
 Coverage](https://clang.llvm.org/docs/SourceBasedCodeCoverage.html) reports and
@@ -1339,9 +1347,10 @@ Chrome OS Security wrapped up the response to the [L1TF
 vulnerability](https://www.intel.com/content/www/us/en/architecture-and-technology/l1tf.html),
 fixes for which enabled shipping Linux apps on Chrome OS without exposing users
 to extra risk. Moreover, we received [an (almost) full-chain exploit for Chrome
-OS](https://bugs.chromium.org/p/chromium/issues/detail) that both validated
-earlier sandboxing work (like for Shill, Chrome OS’s connection manager) and
-also shed light on further hardening work that was wrapped up in Q3.
+OS](https://bugs.chromium.org/p/chromium/issues/detail?id=884511) that both
+validated earlier sandboxing work (like for Shill, Chrome OS’s connection
+manager) and also shed light on further hardening work that was wrapped up in
+Q3.
 
 Chrome 70 shipped TLS 1.3, although we did have to disable a downgrade check in
 this release due to a last-minute incompatibility with some network devices.
@@ -1418,23 +1427,23 @@ developers to see which parts of the code are not covered by fuzzers and unit
 tests. We wrote a [Mojo service
 fuzzer](https://cs.chromium.org/chromium/src/mojo/public/tools/fuzzers/) that
 generates fuzzing bindings in JS and found some scary
-[vulnerabilities](https://bugs.chromium.org/p/chromium/issues/list). We added
-[libFuzzer fuzzing support in Chrome
+[vulnerabilities](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=mojo_fuzzer+Type%3DBug-Security&sort=-type&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified+Type&x=m&y=releaseblock&cells=ids).
+We added [libFuzzer fuzzing support in Chrome
 OS](https://chromium.googlesource.com/chromiumos/docs/+/master/fuzzing.md) and
 got new fuzz target contributions from Chrome OS developers and found several
-[bugs](https://bugs.chromium.org/p/chromium/issues/list). We made numerous
-improvements to our ClusterFuzz fuzzing infrastructure, examples include
-dynamically adjusting CPU allocation for inefficient fuzz targets until their
-performance issues are resolved, cross-pollinating corpuses across fuzz targets
-and projects, and more.
+[bugs](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=libfuzzer_asan_chromeos+-status%3ADuplicate%2CWontFix+label%3AClusterFuzz&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids).
+We made numerous improvements to our ClusterFuzz fuzzing infrastructure,
+examples include dynamically adjusting CPU allocation for inefficient fuzz
+targets until their performance issues are resolved, cross-pollinating corpuses
+across fuzz targets and projects, and more.
 
 The Platform Security team has been working on adding bounds checks and other
 sanity checks to
-[base/containers](https://bugs.chromium.org/p/chromium/issues/detail), as part
-of an overarching effort to harden heavily-used code and catch bugs. We’ve had
-some good initial success and expect to keep working on this for the rest of the
-year. This is a good area for open source contributors and VRP hunters to work
-on, too!
+[base/containers](https://bugs.chromium.org/p/chromium/issues/detail?id=817982),
+as part of an overarching effort to harden heavily-used code and catch bugs.
+We’ve had some good initial success and expect to keep working on this for the
+rest of the year. This is a good area for open source contributors and VRP
+hunters to work on, too!
 
 In our quest to move the web to 100% HTTPS, we prepared for showing Not Secure
 warnings on all http:// pages which started in M68. We sent Search Console
@@ -1505,15 +1514,15 @@ on behalf of the Chrome Security Team
 
 It's time for another update from your friends in Chrome Security, who are hard at work trying to keep Chrome as the most secure platform to browse the Internet. We'd also like to welcome our colleagues in Chrome OS security to this update - you'll be able to hear what they've been up to each quarter going forward.**
 
-In our effort to find and fix bugs, we collaborated with the [Skia](https://skia.org/) team and [integrated](https://github.com/google/oss-fuzz/tree/master/projects/skia) 21 fuzz targets into OSS-Fuzz for continuous 24x7 fuzzing on Skia trunk. So far, we have found [38](https://bugs.chromium.org/p/oss-fuzz/issues/list) security vulns! We also added several new fuzz targets as part of a 2-week bug bash (e.g. [multi-msg mojo fuzzer](https://chromium-review.googlesource.com/c/chromium/src/+/973685), [audio decoder fuzzer](https://chromium-review.googlesource.com/c/chromium/src/+/976184), [appcache manifest parsing fuzzer](https://chromium-review.googlesource.com/c/chromium/src/+/982677), [json fuzzer](https://chromium-review.googlesource.com/c/chromium/src/+/959564) [improvements](https://chromium-review.googlesource.com/c/chromium/src/+/971063), etc) and found an additional [vulnerability](https://crbug.com/826193) through code review. We added libFuzzer support for Chrome OS and integrated it with ClusterFuzz. Sample [puffin fuzzer](https://chromium-review.googlesource.com/c/chromiumos/overlays/chromiumos-overlay/+/944190) found [11](https://bugs.chromium.org/p/chromium/issues/list) bugs (includes 2 security). We made several improvements to AFL fuzzing engine integration and fuzzing strategies. This brings it on-par with libFuzzer in terms of the number of bugs found -- it's now ~3X more productive than before! We added support for building MSan instrumented system libraries for newer debian distros ([1](https://github.com/google/oss-fuzz/issues/608), [2](/developers/testing/memorysanitizer)).**
+In our effort to find and fix bugs, we collaborated with the [Skia](https://skia.org/) team and [integrated](https://github.com/google/oss-fuzz/tree/master/projects/skia) 21 fuzz targets into OSS-Fuzz for continuous 24x7 fuzzing on Skia trunk. So far, we have found [38](https://bugs.chromium.org/p/oss-fuzz/issues/list?can=1&q=Proj%3Dskia+Type%3DBug-Security+-status%3ADuplicate&colspec=ID+Type+Component+Status+Proj+Reported+Owner+Summary&cells=ids) security vulns! We also added several new fuzz targets as part of a 2-week bug bash (e.g. [multi-msg mojo fuzzer](https://chromium-review.googlesource.com/c/chromium/src/+/973685), [audio decoder fuzzer](https://chromium-review.googlesource.com/c/chromium/src/+/976184), [appcache manifest parsing fuzzer](https://chromium-review.googlesource.com/c/chromium/src/+/982677), [json fuzzer](https://chromium-review.googlesource.com/c/chromium/src/+/959564) [improvements](https://chromium-review.googlesource.com/c/chromium/src/+/971063), etc) and found an additional [vulnerability](https://crbug.com/826193) through code review. We added libFuzzer support for Chrome OS and integrated it with ClusterFuzz. Sample [puffin fuzzer](https://chromium-review.googlesource.com/c/chromiumos/overlays/chromiumos-overlay/+/944190) found [11](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=libfuzzer_asan_chromeos+-status%3AWontFix%2CDuplicate&colspec=ID+Type+Component+Status+Proj+Reported+Owner+Summary&x=m&y=releaseblock&cells=ids) bugs (includes 2 security). We made several improvements to AFL fuzzing engine integration and fuzzing strategies. This brings it on-par with libFuzzer in terms of the number of bugs found -- it's now ~3X more productive than before! We added support for building MSan instrumented system libraries for newer debian distros ([1](https://github.com/google/oss-fuzz/issues/608), [2](/developers/testing/memorysanitizer)).**
 
-To [help users infected with unwanted software](https://support.google.com/chrome/answer/2765944), we moved the standalone Chrome Cleanup Tool into Chrome. Scanning and cleaning Windows machines can now be triggered by visiting chrome://settings/cleanup. There was some misunderstanding on Twitter about why Chrome was scanning, which we clarified. We also pointed people to the [unwanted software protection](https://www.google.com/chrome/privacy/whitepaper.html#unwantedsoftware) section of Chrome's privacy whitepaper so they can understand what data is and isn’t sent back to Google.**
+To [help users infected with unwanted software](https://support.google.com/chrome/answer/2765944?co=GENIE.Platform%3DDesktop&hl=en), we moved the standalone Chrome Cleanup Tool into Chrome. Scanning and cleaning Windows machines can now be triggered by visiting chrome://settings/cleanup. There was some misunderstanding on Twitter about why Chrome was scanning, which we clarified. We also pointed people to the [unwanted software protection](https://www.google.com/chrome/privacy/whitepaper.html#unwantedsoftware) section of Chrome's privacy whitepaper so they can understand what data is and isn’t sent back to Google.**
 
 In our effort to move the web to 100% HTTPS, we [announced](https://security.googleblog.com/2018/02/a-secure-web-is-here-to-stay.html) that Chrome will start marking all HTTP pages with a Not Secure warning in July. This is a big milestone that concludes a multi-year effort to roll out this warning to all non-secure pages. Alongside that announcement, we added a [mixed content audit](https://developers.google.com/web/tools/lighthouse/audits/mixed-content) to [Lighthouse](https://developers.google.com/web/tools/lighthouse/), an automated tool for improving webpage quality. This audit helps developers find and fix mixed content, a major hurdle for migrating to HTTPS. We also [announced](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/ANnafFBhReY/1Xdr53KxBAAJ) the deprecation of AppCache in nonsecure contexts.**
 
-In addition to MOAR TLS, we also want more secure and usable HTTPS, or BETTER TLS. With that goal in mind, we made changes to get better metrics about features intended to help users with client or network misconfigurations that break their HTTPS connections (like our [customized certificate warnings](https://research.google.com/pubs/archive/46359.pdf)). We also added more of these “helper” features too: for example, we now bundle help content targeted at users who are stuck with incorrect clocks, captive portals, or other configuration problems that interfere with HTTPS. Finally, we started preparing for Chrome’s upcoming Certificate Transparency [enforcement deadline](https://groups.google.com/a/chromium.org/d/msg/ct-policy/wHILiYf31DE/iMFmpMEkAQAJ) by analyzing and releasing some [metrics](https://www.youtube.com/watch) about the state of CT adoption so far.**
+In addition to MOAR TLS, we also want more secure and usable HTTPS, or BETTER TLS. With that goal in mind, we made changes to get better metrics about features intended to help users with client or network misconfigurations that break their HTTPS connections (like our [customized certificate warnings](https://research.google.com/pubs/archive/46359.pdf)). We also added more of these “helper” features too: for example, we now bundle help content targeted at users who are stuck with incorrect clocks, captive portals, or other configuration problems that interfere with HTTPS. Finally, we started preparing for Chrome’s upcoming Certificate Transparency [enforcement deadline](https://groups.google.com/a/chromium.org/d/msg/ct-policy/wHILiYf31DE/iMFmpMEkAQAJ) by analyzing and releasing some [metrics](https://www.youtube.com/watch?v=e_rwG7MA5VU) about the state of CT adoption so far.**
 
-To help make security more usable in Chrome, we’re exploring how [URLs are problematic](https://www.youtube.com/watch). We removed https/http schemes and www/m subdomains from the steady-state omnibox, and we’re studying the impact of removing positive security indicators that might mislead or distract from the important security information in the origin.**
+To help make security more usable in Chrome, we’re exploring how [URLs are problematic](https://www.youtube.com/watch?v=UD-ukjVoeLc). We removed https/http schemes and www/m subdomains from the steady-state omnibox, and we’re studying the impact of removing positive security indicators that might mislead or distract from the important security information in the origin.**
 
 **Chrome OS Security had a busy Q1. The vulnerabilities known as [Meltdown and
 Spectre](https://meltdownattack.com/) were disclosed in early January, and a
@@ -1524,9 +1533,10 @@ HOWTO
 doc](https://chromium.googlesource.com/chromiumos/docs/+/master/security_review_howto.md),
 to allow the larger Chrome OS team to better prepare for security reviews of
 their features. Moreover, after being bit by symlinks and FIFOs being used as
-part of [several](https://bugs.chromium.org/p/chromium/issues/detail)
-[exploit](https://bugs.chromium.org/p/chromium/issues/detail)
-[chains](https://bugs.chromium.org/p/chromium/issues/detail), we finally landed
+part of [several](https://bugs.chromium.org/p/chromium/issues/detail?id=344051)
+[exploit](https://bugs.chromium.org/p/chromium/issues/detail?id=648971)
+[chains](https://bugs.chromium.org/p/chromium/issues/detail?id=766253), we
+finally landed
 [symlink](https://chromium-review.googlesource.com/c/chromiumos/platform2/+/966683)
 and
 [FIFO](https://chromium-review.googlesource.com/c/chromiumos/platform2/+/978780)
@@ -1556,9 +1566,9 @@ subsequently.**
 
     **Starting standards discussions for Cross-Origin Read Blocking (CORB).**
 
-**Thanks to these improvements, we have been running field trials and are preparing to launch the strict Site Isolation policy on desktop. We [talked about](https://www.youtube.com/watch) much of this work at Google I/O.**
+**Thanks to these improvements, we have been running field trials and are preparing to launch the strict Site Isolation policy on desktop. We [talked about](https://www.youtube.com/watch?v=dBuykrdhK-A) much of this work at Google I/O.**
 
-**Finally, we continue to work on exploit mitigations and other security hardening efforts. For example, [Oilpan](https://chromium.googlesource.com/chromium/src/+/lkcr/third_party/WebKit/Source/platform/heap/BlinkGCDesign.md), blink's garbage collecting memory management system, [removed its inline metadata](https://bugs.chromium.org/p/chromium/issues/detail), which make it more difficult to overwrite with memory corruption bugs. This was the culmination of several years of effort, as performance issues were worked through. In Android P, we refactored the WebView [zygote](https://developer.android.com/topic/performance/memory-overview) to become a child of the main app_process zygote, reducing memory usage and helping with the performance of future Site Isolation efforts. Members of Platform Security also helped coordinate the response to Spectre and Meltdown, and still managed to find time to conduct their routine reviews of new [Chrome features](https://www.chromestatus.com/features).**
+**Finally, we continue to work on exploit mitigations and other security hardening efforts. For example, [Oilpan](https://chromium.googlesource.com/chromium/src/+/lkcr/third_party/WebKit/Source/platform/heap/BlinkGCDesign.md), blink's garbage collecting memory management system, [removed its inline metadata](https://bugs.chromium.org/p/chromium/issues/detail?id=633030), which make it more difficult to overwrite with memory corruption bugs. This was the culmination of several years of effort, as performance issues were worked through. In Android P, we refactored the WebView [zygote](https://developer.android.com/topic/performance/memory-overview) to become a child of the main app_process zygote, reducing memory usage and helping with the performance of future Site Isolation efforts. Members of Platform Security also helped coordinate the response to Spectre and Meltdown, and still managed to find time to conduct their routine reviews of new [Chrome features](https://www.chromestatus.com/features).**
 
 ## Q4 2017
 
@@ -1577,9 +1587,9 @@ In effort to find and fix bugs, we (Bugs--):
 
     Wrote a new and easily extensible javascript fuzzer using
     [Babel](https://babeljs.io/), which found 100+ bugs in both V8
-    ([list](https://bugs.chromium.org/p/chromium/issues/list)) and other browser
-    javascript engines
-    ([list](https://bugs.chromium.org/p/oss-fuzz/issues/list)).
+    ([list](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=ochang_js_fuzzer+-status%3ADuplicate%2CWontFix&sort=-security_severity+-secseverity+-owner+-modified&colspec=ID+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner+Reporter&x=m&y=releaseblock&cells=tiles))
+    and other browser javascript engines
+    ([list](https://bugs.chromium.org/p/oss-fuzz/issues/list?can=1&q=js_fuzzer+-status%3AWontFix%2CDuplicate&colspec=ID+Type+Component+Status+Proj+Reported+Owner+Summary&cells=ids)).
 
     Started integrating [Clang Source-based Code
     Coverage](https://clang.llvm.org/docs/SourceBasedCodeCoverage.html) in the
@@ -1587,7 +1597,7 @@ In effort to find and fix bugs, we (Bugs--):
     Coverage](https://clang.llvm.org/docs/SanitizerCoverage.html). Clang
     coverage is very precise, shows hit frequencies and is much easier to
     visualize. You can follow progress
-    [here](https://bugs.chromium.org/p/chromium/issues/list).
+    [here](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=component%3ATools%3ECodeCoverage).
 
     Hosted a month long fuzzathon in October where Chromium developers
     participated in writing new [fuzz
@@ -1596,11 +1606,13 @@ In effort to find and fix bugs, we (Bugs--):
     which were in new uncovered areas of codebase; results
     [here](https://clusterfuzz.com/v2/fuzzathon).
 
-    Fixed several [bugs](https://bugs.chromium.org/p/chromium/issues/list) in
-    our automated owner and component assignment pipeline and
-    [expanded](https://bugs.chromium.org/p/chromium/issues/detail) our builder
-    infrastructure to archive builds more frequently, for more accurate blame
-    results. Faster and more accurate bug triaging means faster fixes for users!
+    Fixed several
+    [bugs](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=component%3ATools%3ETest%3EPredator+status%3AFixed%2CVerified&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids)
+    in our automated owner and component assignment pipeline and
+    [expanded](https://bugs.chromium.org/p/chromium/issues/detail?id=760607) our
+    builder infrastructure to archive builds more frequently, for more accurate
+    blame results. Faster and more accurate bug triaging means faster fixes for
+    users!
 
 Other than fixing bugs, we (MOAR TLS, Enamel, Safe Browsing) also:
 
@@ -1636,8 +1648,8 @@ Last quarter, we (Platform Security / Site Isolation):
     bringing both greater security and cleaner code.
 
     [Refactored sandbox code out of
-    //content](https://bugs.chromium.org/p/chromium/issues/detail) to make it
-    easier to use across the system.
+    //content](https://bugs.chromium.org/p/chromium/issues/detail?id=708738) to
+    make it easier to use across the system.
 
     Worked on and helped coordinate Chrome's response to the recently announced
     [Spectre and Meltdown CPU
@@ -1731,16 +1743,18 @@ Bugs-- team
 
         We finished the remaining pieces of our end-to-end bug triage automation
         and are now auto-assigning
-        [owners](https://bugs.chromium.org/p/chromium/issues/list) and
-        [components](https://bugs.chromium.org/p/chromium/issues/list) for all
-        newly filed bugs.
+        [owners](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=label%3ATest-Predator-AutoOwner&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids)
+        and
+        [components](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=label%3ATest-Predator-AutoComponents&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids)
+        for all newly filed bugs.
 
     We have also made infrastructure improvements to
     [OSS-Fuzz](https://github.com/google/oss-fuzz) to better isolate workloads
     between different projects. OSS-Fuzz continues to improve the security of
     the overall web
     ([74](https://github.com/google/oss-fuzz/tree/master/projects) projects
-    running 24x7, [636](https://bugs.chromium.org/p/oss-fuzz/issues/list)
+    running 24x7,
+    [636](https://bugs.chromium.org/p/oss-fuzz/issues/list?can=1&q=-component%3AInfra+status%3ANew%2CFixed%2CVerified+Type%3DBug-Security+&sort=-id&colspec=ID+Type+Component+Status+Proj+Reported+Owner+Summary&cells=ids)
     security bugs fixed)!
 
 Enamel, Permissions
@@ -1764,7 +1778,7 @@ Enamel, Permissions
         and Windows in Chrome 63.
 
     Launched new [Site
-    Details](https://docs.google.com/document/d/1gQG1-QjOuswdwZC-yMhWai7divOPXiCp0mO82SO5VSs/edit)
+    Details](https://docs.google.com/document/d/1gQG1-QjOuswdwZC-yMhWai7divOPXiCp0mO82SO5VSs/edit?pli=1)
     page.
 
     Removed non-factory-default settings from PageInfo and added back in the
@@ -1798,13 +1812,13 @@ Chrome Safe Browsing
 Platform Security
 
     Added support for [new Win10 sandbox
-    mitigations](https://bugs.chromium.org/p/chromium/issues/detail) in M61 as
-    part of our continued Windows Sandbox efforts.
+    mitigations](https://bugs.chromium.org/p/chromium/issues/detail?id=733739)
+    in M61 as part of our continued Windows Sandbox efforts.
 
     To help block 3rd-party code being injected into Chrome processes on Windows
     we've [Enabled third-party blocking on all child
-    processes](https://bugs.chromium.org/p/chromium/issues/detail), after warmup
-    (delayed mitigation), in M62.
+    processes](https://bugs.chromium.org/p/chromium/issues/detail?id=750886#c1),
+    after warmup (delayed mitigation), in M62.
 
     New in Android O, the Chrome-powered WebView component [now renders content
     in a separate, sandboxed
@@ -1854,16 +1868,17 @@ reproduction easy for developers. Our open source fuzzing efforts (aka
 [OSS-Fuzz](https://github.com/google/oss-fuzz)) continue to improve the security
 of the overall web
 ([86](https://github.com/google/oss-fuzz/tree/master/projects) projects,
-[1859](https://bugs.chromium.org/p/oss-fuzz/issues/list) bugs, see recent blog
-post
+[1859](https://bugs.chromium.org/p/oss-fuzz/issues/list?can=1&q=-component:Infra%20status:New,Fixed,Verified&sort=-id&colspec=ID%20Type%20Component%20Status%20Proj%20Reported%20Owner%20Summary)
+bugs, see recent blog post
 [here](https://testing.googleblog.com/2017/05/oss-fuzz-five-months-later-and.html)).
 We have written a new Javascript fuzzer that has filed
-[102](https://bugs.chromium.org/p/chromium/issues/list) bugs to date, many with
-security implications. We also found some interesting vulnerabilities
-([1](https://bugs.chromium.org/p/chromium/issues/detail),
-[2](https://bugs.chromium.org/p/chromium/issues/detail),
-[3](https://bugs.chromium.org/p/chromium/issues/detail)) through our code
-auditing efforts.
+[102](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=inferno_js_fuzzer%20-status:Duplicate,WontFix%20OR%20inferno_js_fuzzer_c%20-status:Duplicate,WontFix&sort=-id+-security_severity+-secseverity+-owner+-modified&colspec=ID%20Pri%20Status%20Summary%20Modified%20OS%20M%20Security_severity%20Security_impact%20Owner%20Reporter)
+bugs to date, many with security implications. We also found some interesting
+vulnerabilities
+([1](https://bugs.chromium.org/p/chromium/issues/detail?id=740710),
+[2](https://bugs.chromium.org/p/chromium/issues/detail?id=716044),
+[3](https://bugs.chromium.org/p/chromium/issues/detail?id=724299)) through our
+code auditing efforts.
 
 We integrated the Safe Browsing API with WebView [starting in Android
 O](https://developer.android.com/preview/features/managing-webview.html),
@@ -1882,12 +1897,12 @@ into granting access to content they didn’t intend.
 
 The Platform Security team has concluded several years of A/B experimentation on
 Android, and with Chrome 58 we have turned on the [Seccomp-BPF
-sandbox](https://bugs.chromium.org/p/chromium/issues/detail) for all compatible
-devices. This sandbox filters system calls to reduce the attack surface of the
-Linux kernel in renderer processes. Currently about 50% of Android devices
-support Seccomp, and this number is rising at a steady rate. In Chrome 59, you
-can navigate to about:sandbox to see whether your Android device supports
-Seccomp.
+sandbox](https://bugs.chromium.org/p/chromium/issues/detail?id=166704) for all
+compatible devices. This sandbox filters system calls to reduce the attack
+surface of the Linux kernel in renderer processes. Currently about 50% of
+Android devices support Seccomp, and this number is rising at a steady rate. In
+Chrome 59, you can navigate to about:sandbox to see whether your Android device
+supports Seccomp.
 
 We have migrated PDFium to use PartitionAlloc for most allocations, with
 distinct partitions for strings, array buffers, and general allocations. In
@@ -1955,9 +1970,11 @@ now feature a new fuzzer statistics page, crash statistics page and fuzzer
 performance analyzer. We’ve also continued to improve our
 [OSS-Fuzz](https://github.com/google/oss-fuzz)
 [offering](https://opensource.googleblog.com/2016/12/announcing-oss-fuzz-continuous-fuzzing.html),
-adding numerous [features](https://github.com/google/oss-fuzz/issues) requested
-by developers and reaching [1000
-bugs](https://bugs.chromium.org/p/oss-fuzz/issues/list) milestone with 47
+adding numerous
+[features](https://github.com/google/oss-fuzz/issues?page=3&q=is%3Aissue+is%3Aclosed)
+requested by developers and reaching [1000
+bugs](https://bugs.chromium.org/p/oss-fuzz/issues/list?can=1&q=status%3AFixed%2CVerified+Type%3ABug%2CBug-Security+-component%3AInfra+)
+milestone with 47
 [projects](https://github.com/google/oss-fuzz/tree/master/projects) in just five
 months since launch.
 
@@ -1990,11 +2007,11 @@ foster cross-vendor cooperation on developer-facing security features. Over the
 holidays, Google's security team gave us a holiday gift consisting entirely of
 [interesting ways to bypass CSP's
 nonces](http://sebastian-lekies.de/csp/bypasses.php). We've fixed some
-[obvious](https://bugs.chromium.org/p/chromium/issues/detail)
-[bugs](https://bugs.chromium.org/p/chromium/issues/detail) they uncovered, and
-we'll continue working with other vendors to harden the spec and our
-implementations. In other CSP news, we polished a mechanism to [enforce CSP on
-child frames](https://w3c.github.io/webappsec-csp/embedded/), shipped a
+[obvious](https://bugs.chromium.org/p/chromium/issues/detail?id=679291)
+[bugs](https://bugs.chromium.org/p/chromium/issues/detail?id=680072) they
+uncovered, and we'll continue working with other vendors to harden the spec and
+our implementations. In other CSP news, we polished a mechanism to [enforce CSP
+on child frames](https://w3c.github.io/webappsec-csp/embedded/), shipped a
 [\`script-sample\`
 property](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/XlcpobBfJOI/8WYpiyk0CQAJ)
 in CSP reports, and [allowed hashes to match external
@@ -2029,12 +2046,12 @@ large. To help people understand the security limitations of non-secure HTTP,
 Chrome now marks HTTP pages with passwords or credit card form fields as “not
 secure” in the address bar, and is experimenting with in-form contextual
 warnings. We’ll [remove
-support](https://bugs.chromium.org/p/chromium/issues/detail) for EME over
-non-secure origins in Chrome 58, and we’ll [remove
+support](https://bugs.chromium.org/p/chromium/issues/detail?id=672605) for EME
+over non-secure origins in Chrome 58, and we’ll [remove
 support](https://groups.google.com/a/chromium.org/forum/m/#!topic/blink-dev/IVgkxkRNtMo)
 for notifications over non-secure origins in Chrome 61. We talked about our
 #MOARTLS methodology and the HTTPS business case at
-[Enigma](https://www.youtube.com/watch).
+[Enigma](https://www.youtube.com/watch?v=jplIY1GXBHM&feature=youtu.be).
 
 In addition to #MOARTLS, we want to ensure more secure TLS through work on
 protocols and the certificate ecosystem. TLS 1.3 is the next, major version of
@@ -2087,7 +2104,7 @@ post
 So far, more than [50
 projects](https://github.com/google/oss-fuzz/tree/master/projects) have been
 integrated with OSS-Fuzz and we found ~350
-[bugs](https://bugs.chromium.org/p/oss-fuzz/issues/list).
+[bugs](https://bugs.chromium.org/p/oss-fuzz/issues/list?can=1&q=Type%3ABug%2CBug-Security%20-component%3AInfra%20-status%3ADuplicate%2CWontFix&colspec=ID%20Type%20Component%20Status%20Proj%20Reported%20Owner%20Summary&num=100&start=300).
 
 Security bugs submitted by external researchers can receive cash money from the
 [Chrome VRP](https://g.co/ChromeBugRewards).
@@ -2167,11 +2184,12 @@ we're actively working to drive #MOARTLS across Google and the Internet at
 large.
 
 We added a new [HTTPS Usage
-section](https://www.google.com/transparencyreport/https/metrics/) to the
+section](https://www.google.com/transparencyreport/https/metrics/?hl=en) to the
 Transparency Report, which shows how the percentage of Chrome pages loaded over
 HTTPS increases with time. We talked externally at O’Reilly Security NYC +
-Amsterdam and [Chrome Dev Summit](https://www.youtube.com/watch) about upcoming
-HTTP UI changes and the business case for HTTPS. We published [positive
+Amsterdam and [Chrome Dev Summit](https://www.youtube.com/watch?v=iP75a1Y9saY)
+about upcoming HTTP UI changes and the business case for HTTPS. We published
+[positive
 stories](https://blog.chromium.org/2016/11/heres-to-more-https-on-web.html)
 about HTTPS migrations.
 
@@ -2216,11 +2234,14 @@ Our[ Bugs--](/Home/chromium-security/bugs) effort aims to find (and exterminate)
 security bugs.
 
 We have continued to improve upon our [libFuzzer](http://go/libfuzzer-chrome)
-and [AFL](https://cs.chromium.org/chromium/src/third_party/afl/) integration
-with ClusterFuzz, which includes automated performance analysis and quarantining
-of bad units (like slow units, leaks, etc). We have scaled our code coverage to
-~[160](https://cs.chromium.org/search/) targets with help from Chrome
-developers, who contributed these during the month-long
+and
+[AFL](https://cs.chromium.org/chromium/src/third_party/afl/?q=third_party/afl&sq=package:chromium&dr)
+integration with ClusterFuzz, which includes automated performance analysis and
+quarantining of bad units (like slow units, leaks, etc). We have scaled our code
+coverage to
+~[160](https://cs.chromium.org/search/?q=%22+int+LLVMFuzzerTestOneInput%22+-libFuzzer/src+-llvm/+-buildtools+-file:.md&sq=package:chromium&type=cs)
+targets with help from Chrome developers, who contributed these during the
+month-long
 [Fuzzathon](https://groups.google.com/a/chromium.org/forum/#!topic/chromium-dev/MAiBRTllPuI).
 We have improved our infrastructure reliability and response times by adding a
 24x7 monitoring solution, and fixing more than two dozen fuzzers in the process.
@@ -2259,7 +2280,7 @@ We like to avoid showing unnecessarily scary warnings when we can. We analyzed
 data from opted-in Safe Browsing Extended Reporting users to quantify the major
 causes of spurious TLS warnings, like [bad client
 clocks](/developers/design-documents/sane-time) and [misconfigured intermediate
-certificates](https://docs.google.com/document/d/1ryqFMSHHRDERg1jm3LeVt7VMfxtXXrI8p49gmtniNP0/edit).
+certificates](https://docs.google.com/document/d/1ryqFMSHHRDERg1jm3LeVt7VMfxtXXrI8p49gmtniNP0/edit?pli=1).
 We also launched two experiments,
 [Expect-CT](https://docs.google.com/document/d/1VDtHiKa5c96ohP_p-V1k6u83fIh952e_szZVypO4AvQ/edit)
 and
@@ -2350,22 +2371,23 @@ support for[ AFL](http://lcamtuf.coredump.cx/afl/) and continued to improve the[
 libFuzzer](http://llvm.org/docs/LibFuzzer.html)-[ClusterFuzz](/Home/chromium-security/bugs/using-clusterfuzz)
 integration, both of which allow coverage-guided testing on a per-function
 basis. The number of libFuzzer based fuzzers have expanded from 70 to[
-115](https://cs.chromium.org/search/), and we’re processing ~500 Billion
-testcases every day! We’re also researching new ways to improve fuzzer
-efficiency and maximize code coverage
+115](https://cs.chromium.org/search/?q=TestOneInput%5C(const+-file:third_party/llvm+-file:third_party/libFuzzer/src&sq=package:chromium&type=cs),
+and we’re processing ~500 Billion testcases every day! We’re also researching
+new ways to improve fuzzer efficiency and maximize code coverage
 ([example](https://chromium.googlesource.com/chromium/src/+/1a6bef1675e05626a4692ab6fa43cbbc5515299b)).
 In response to recent trends from[ Vulnerability Reward Program
 (VRP)](https://www.google.com/about/appsecurity/chrome-rewards/index.html) and[
 Pwnium](http://blog.chromium.org/2015/02/pwnium-v-never-ending-pwnium.html)
 submissions, we wrote a new fuzzer for v8 builtins, which has already yielded[
-bugs](https://bugs.chromium.org/p/chromium/issues/detail). Not everything can be
-automated, so we started auditing parts of[
+bugs](https://bugs.chromium.org/p/chromium/issues/detail?id=625752). Not
+everything can be automated, so we started auditing parts of[
 mojo](/developers/design-documents/mojo), Chrome’s new IPC mechanism, and found
-several issues ([1](https://bugs.chromium.org/p/chromium/issues/detail),[
-2](https://bugs.chromium.org/p/chromium/issues/detail),[
-3](https://bugs.chromium.org/p/chromium/issues/detail),[
-4](https://bugs.chromium.org/p/chromium/issues/detail),[
-5](https://bugs.chromium.org/p/chromium/issues/detail)).
+several issues
+([1](https://bugs.chromium.org/p/chromium/issues/detail?id=611887),[
+2](https://bugs.chromium.org/p/chromium/issues/detail?id=612364),[
+3](https://bugs.chromium.org/p/chromium/issues/detail?id=612613),[
+4](https://bugs.chromium.org/p/chromium/issues/detail?id=613698),[
+5](https://bugs.chromium.org/p/chromium/issues/detail?id=622522)).
 
 **Bugs still happen, so our[ Guts](/Home/chromium-security/guts) effort builds
 in multiple layers of defense.** Many Android apps use[
@@ -2418,8 +2440,8 @@ VRP](https://www.google.com/about/appsecurity/chrome-rewards/) program.
 foster cross-vendor cooperation on developer-facing security features.** We
 shipped an implementation of the[ Credential Management
 API](https://w3c.github.io/webappsec-credential-management/) (and[ presented a
-detailed overview](https://youtu.be/MnvUlGFb3GQ) at Google I/O), iterated on[
-Referrer Policy](https://www.w3.org/TR/referrer-policy/) with a[
+detailed overview](https://youtu.be/MnvUlGFb3GQ?t=7m23s) at Google I/O),
+iterated on[ Referrer Policy](https://www.w3.org/TR/referrer-policy/) with a[
 \`referrer-policy\`
 header](https://www.w3.org/TR/referrer-policy/#referrer-policy-header)
 implementation behind a flag, and improved our support for[ SameSite
@@ -2444,8 +2466,10 @@ security more human-friendly (and thus, effective).
 we're actively working to drive #MOARTLS across Google and the Internet at
 large.**[ Emily](https://twitter.com/estark37) and[
 Emily](https://twitter.com/emschec) busted HTTPS myths for large audiences at[
-Google I/O](https://www.youtube.com/watch) and the[ Progressive Web App dev
-summit](https://www.youtube.com/watch). The[ HSTS Preload
+Google
+I/O](https://www.youtube.com/watch?v=YMfW1bfyGSY&index=19&list=PLOU2XLYxmsILe6_eGvDN3GyiodoV3qNSC)
+and the[ Progressive Web App dev
+summit](https://www.youtube.com/watch?v=e6DUrH56g14). The[ HSTS Preload
 list](https://cs.chromium.org/chromium/src/net/http/transport_security_state_static.json)
 has seen[ 3x growth](https://twitter.com/lgarron/status/747530273047273472)
 since the beginning of the year – a great problem to have! We’ve addressed some[
@@ -2521,12 +2545,13 @@ and Beta channels with M50.
 
 Chrome on Windows is evolving rapidly in step with the operating system. We
 shipped [four new layers of defense in
-depth](https://bugs.chromium.org/p/chromium/issues/detail) to take advantage of
-the latest capabilities in Windows 10, some of which patch vulnerabilities found
-by our own
+depth](https://bugs.chromium.org/p/chromium/issues/detail?id=504006) to take
+advantage of the latest capabilities in Windows 10, some of which patch
+vulnerabilities found by our own
 [research](https://googleprojectzero.blogspot.co.uk/2015/05/in-console-able.html)
-and [feedback](https://bugs.chromium.org/p/project-zero/issues/detail)! There
-was great media attention when these changes landed, from [Ars
+and
+[feedback](https://bugs.chromium.org/p/project-zero/issues/detail?id=213&redir=1)!
+There was great media attention when these changes landed, from [Ars
 Technica](http://arstechnica.com/information-technology/2016/02/chrome-picks-up-bonus-security-features-on-windows-10/)
 to a [Risky Business podcast](http://risky.biz/RB398), which said: “There have
 been some engineering changes to Chrome on Windows 10 which look pretty good. …
@@ -2551,12 +2576,13 @@ We spend time building[ security
 features](/developers/design-documents/safebrowsing) that[ people
 see](/Home/chromium-security/enamel). In response to user feedback, we’ve
 replaced [the old full screen
-prompt](https://bugs.chromium.org/p/chromium/issues/attachment) with a [new,
-lighter weight ephemeral
-message](https://bugs.chromium.org/p/chromium/issues/attachment) in M50 across
-Windows and Linux. We launched a few bug fixes and updates to the [Security
-panel](https://developers.google.com/web/updates/2015/12/security-panel), which
-we continue to iterate on and support in an effort to drive forward HTTPS
+prompt](https://bugs.chromium.org/p/chromium/issues/attachment?aid=178299&inline=1)
+with a [new, lighter weight ephemeral
+message](https://bugs.chromium.org/p/chromium/issues/attachment?aid=222712&inline=1)
+in M50 across Windows and Linux. We launched a few bug fixes and updates to the
+[Security
+panel](https://developers.google.com/web/updates/2015/12/security-panel?hl=en),
+which we continue to iterate on and support in an effort to drive forward HTTPS
 adoption. We also continued our work on [removing powerful features on insecure
 origins](/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 (e.g. [geolocation](https://crbug.com/561641)).
@@ -2614,9 +2640,10 @@ gone](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/yz1lU9YTeys
 With help from the [libFuzzer](http://llvm.org/docs/LibFuzzer.html) folks, we
 got much better fuzzing coverage on
 [BoringSSL](https://boringssl.googlesource.com/boringssl/), which resulted in
-[CVE-2016-0705](https://web.nvd.nist.gov/view/vuln/detail). We ended up adding a
-"fuzzer mode" to the SSL stack to help the fuzzer get past cryptographic
-invariants in the handshake, which smoked out some minor (memory leak) bugs.
+[CVE-2016-0705](https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-0705).
+We ended up adding a "fuzzer mode" to the SSL stack to help the fuzzer get past
+cryptographic invariants in the handshake, which smoked out some minor (memory
+leak) bugs.
 
 Last, but not least, we rewrote a large chunk of BoringSSL's ASN.1 parsing with
 a simpler and more standards-compliant stack.
@@ -2644,16 +2671,17 @@ exterminate) security bugs.** We’ve integrated
 [ClusterFuzz](/Home/chromium-security/bugs/using-clusterfuzz), which means we
 can do coverage-guided fuzz testing on a per-function basis. The result, as you
 may have guessed, is several [new
-bugs](https://code.google.com/p/chromium/issues/list). The Bugs-- team has a
-larger goal this year to help Chromium developers write a ClusterFuzz fuzzer
-alongside every unittest, and libFuzzer integration is an important step toward
-achieving that goal. Separately, we’ve made security improvements and cleanups
-in the [Pdfium](https://code.google.com/p/pdfium/) codebase and [fixed lots of
-open bugs](https://code.google.com/p/chromium/issues/list). We also started some
-manual code auditing efforts, and discovered several high severity bugs
-([here](https://crbug.com/555784), [here](https://crbug.com/559310), and
-[here](https://crbug.com/570427)), and [1](https://crbug.com/564501) critical
-severity bug.
+bugs](https://code.google.com/p/chromium/issues/list?can=1&q=type%3Abug-security+label%3AStability-LibFuzzer&sort=-security_severity+-secseverity+-owner+-modified&colspec=ID+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner+Reporter&x=m&y=releaseblock&cells=tiles).
+The Bugs-- team has a larger goal this year to help Chromium developers write a
+ClusterFuzz fuzzer alongside every unittest, and libFuzzer integration is an
+important step toward achieving that goal. Separately, we’ve made security
+improvements and cleanups in the [Pdfium](https://code.google.com/p/pdfium/)
+codebase and [fixed lots of open
+bugs](https://code.google.com/p/chromium/issues/list?can=1&q=status%3AFixed+type%3DBug-Security+owner%3Aochang+Cr%3DInternals-Plugins-PDF).
+We also started some manual code auditing efforts, and discovered several high
+severity bugs ([here](https://crbug.com/555784),
+[here](https://crbug.com/559310), and [here](https://crbug.com/570427)), and
+[1](https://crbug.com/564501) critical severity bug.
 
 **Bugs still happen, so our [Guts](/Home/chromium-security/guts) effort builds
 in multiple layers of defense.** On Android, we’re running an experiment that
@@ -2698,7 +2726,7 @@ other hand, we’re also trying to show users fewer security warnings in the fir
 place by decreasing our false positive rate for HTTPS warnings. We spent a large
 part of the quarter analyzing client errors that contribute to false alarm HTTPS
 errors; check out our [Real World Crypto
-talk](https://docs.google.com/presentation/d/1Qmpl-5epx0B5C2t4XsUTyjgbwab_rXfK_4iHqX3IC30/edit)
+talk](https://docs.google.com/presentation/d/1Qmpl-5epx0B5C2t4XsUTyjgbwab_rXfK_4iHqX3IC30/edit?pref=2&pli=1#slide=id.gf44795496_0_1)
 for more details.
 
 **Beyond the browser, our [web platform efforts](/Home/chromium-security/owp)
@@ -2732,7 +2760,7 @@ large.** We've continued our effort to [deprecate powerful features on insecure
 origins](/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 by readying to block insecure usage of [geolocation
 APIs](http://dev.w3.org/geo/api/spec-source.html). We also took to the
-[stage](https://www.youtube.com/watch) at the [Chrome Dev
+[stage](https://www.youtube.com/watch?v=9WuP4KcDBpI) at the [Chrome Dev
 Summit](https://developer.chrome.com/devsummit) to spread the word, telling
 developers about what we’re doing in Chrome to make deploying TLS easier and
 more secure.
@@ -2760,8 +2788,8 @@ which were shown to be [even weaker than previously
 believed](https://sites.google.com/site/itstheshappening/). To make it easier
 for developers and site operators to understand these changes, we debuted a new
 [Security
-Panel](https://developers.google.com/web/updates/2015/12/security-panel) that
-provides enhanced diagnostics and will continue to be improved with richer
+Panel](https://developers.google.com/web/updates/2015/12/security-panel?hl=en)
+that provides enhanced diagnostics and will continue to be improved with richer
 diagnostics in the coming months.
 
 For more thrilling security updates and feisty rants, subscribe to
@@ -2793,16 +2821,17 @@ Security team triage and verify bugs, including incoming [vulnerability
 reward](https://www.google.com/about/appsecurity/android-rewards/) submissions,
 and now supports custom APK uploads and the ability to launch commands. Back on
 the Chrome front, we’re working on enabling [Control Flow Integrity (CFI)
-checks](https://code.google.com/p/chromium/issues/detail) on Linux, which
-converts invalid vptr accesses into non-exploitable crashes; [8
-bugs](https://code.google.com/p/chromium/issues/list) discovered so far! We’ve
-made [numerous improvements](https://code.google.com/p/chromium/issues/detail)
-to how we fuzz Chrome on Android with respect to speed and accuracy. We also
-made some progress toward our goal of expanding ClusterFuzz platform support to
-include iOS. In our efforts to improve Chrome Stability, we added
+checks](https://code.google.com/p/chromium/issues/detail?id=464797) on Linux,
+which converts invalid vptr accesses into non-exploitable crashes; [8
+bugs](https://code.google.com/p/chromium/issues/list?can=1&q=linux_cfi_chrome&colspec=ID+Pri+M+Stars+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=tiles)
+discovered so far! We’ve made [numerous
+improvements](https://code.google.com/p/chromium/issues/detail?id=511270) to how
+we fuzz Chrome on Android with respect to speed and accuracy. We also made some
+progress toward our goal of expanding ClusterFuzz platform support to include
+iOS. In our efforts to improve Chrome Stability, we added
 [LeakSanitizer](http://clang.llvm.org/docs/LeakSanitizer.html) (LSAN) into our
 list of supported memory tools, which has already found [38
-bugs](https://code.google.com/p/chromium/issues/list).
+bugs](https://code.google.com/p/chromium/issues/list?can=1&q=label%3AClusterFuzz+-status%3AWontFix%2CDuplicate+%22-leak%22+linux_lsan_chrome_mp&sort=id+-security_severity+-secseverity+-owner+-modified&colspec=ID+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner+Reporter&x=m&y=releaseblock&cells=tiles).
 
 Bugs still happen, so our[ Guts](/Home/chromium-security/guts) effort builds in
 multiple layers of defense. Plugin security remains a very important area of
@@ -2828,11 +2857,12 @@ We’ve been making steady progress on [Site
 Isolation](/developers/design-documents/site-isolation), and are preparing to
 enable out-of-process iframes (OOPIFs) for web pages inside extension processes.
 You can test this mode before it launches with --isolate-extensions. We have
-[performance bots](https://chromeperf.appspot.com/report) and UMA stats lined
-up, and we'll start with some early trials on Canary and Dev channel. Meanwhile,
-we've added support for hit testing in the browser process, scrolling, context
-menus, and script calls between all reachable frames (even with changes to
-window.opener).
+[performance
+bots](https://chromeperf.appspot.com/report?sid=74ebe5d13c09e34915152f51ee178f77421b1703d2bf26a7a586375f2c5e2cc7)
+and UMA stats lined up, and we'll start with some early trials on Canary and Dev
+channel. Meanwhile, we've added support for hit testing in the browser process,
+scrolling, context menus, and script calls between all reachable frames (even
+with changes to window.opener).
 
 Not all security problems can be solved in[ Chrome’s
 guts](/Home/chromium-security/guts), so[ we work on making security more
@@ -2980,14 +3010,15 @@ and fixed some [longstanding](https://crbug.com/483458)
 Policy](http://www.w3.org/TR/referrer-policy/) implementation.
 
 Elsewhere, we've started prototyping [Per-Page
-Suborigins](https://code.google.com/p/chromium/issues/detail) with the intent of
-bringing a concrete proposal to WebAppSec, published a new draft of
+Suborigins](https://code.google.com/p/chromium/issues/detail?id=336894) with the
+intent of bringing a concrete proposal to WebAppSec, published a new draft of
 [First-Party-Only
 cookies](https://tools.ietf.org/html/draft-west-first-party-cookies-03) (and are
 working through some [infrastructure
 improvements](https://docs.google.com/document/d/19NACt9PXOUTJi60klT2ZGcFlgHM5wM1Owtcw2GQOKPI/edit)
 so we can ship them), and [poked at sandboxed
-iframes](https://wiki.whatwg.org/index.php) to make it possible to sandbox ads.
+iframes](https://wiki.whatwg.org/index.php?title=Iframe_sandbox_improvments) to
+make it possible to sandbox ads.
 
 We see migration to HTTPS as foundational to any security whatsoever
 ([and](https://tools.ietf.org/html/rfc7258)
@@ -2997,12 +3028,12 @@ We see migration to HTTPS as foundational to any security whatsoever
 [ones](https://blog.mozilla.org/security/2015/04/30/deprecating-non-secure-http/)),
 so we're actively working to drive #MOARTLS across Google and the Internet at
 large. As a small practical step on top of the [HTTPS webmasters fundamentals
-section](https://developers.google.com/web/fundamentals/discovery-and-distribution/security-with-https/),
+section](https://developers.google.com/web/fundamentals/discovery-and-distribution/security-with-https/?hl=en),
 we’ve added some functionality to [Webmaster
-Tools](https://www.google.com/webmasters/tools/home) to provide better
-assistance to webmasters when dealing with common errors in managing a site over
-TLS (launching soon!). Also, we're now measuring the usage of [pre-existing,
-powerful features on non-secure
+Tools](https://www.google.com/webmasters/tools/home?hl=en&pli=1) to provide
+better assistance to webmasters when dealing with common errors in managing a
+site over TLS (launching soon!). Also, we're now measuring the usage of
+[pre-existing, powerful features on non-secure
 origins](/Home/chromium-security/deprecating-powerful-features-on-insecure-origins),
 and are now printing deprecation warnings in the JavaScript console. Our
 ultimate goal is to make all powerful features, such as Geolocation and
@@ -3025,29 +3056,33 @@ of some work from last quarter:
 
 The[ Bugs--](/Home/chromium-security/bugs) effort aims to find (and exterminate)
 security bugs. Last quarter, we rewrote our IPC fuzzer, which resulted in
-[lots](https://code.google.com/p/chromium/issues/list)
-[more](https://code.google.com/p/chromium/issues/list)
-[bugs](https://code.google.com/p/chromium/issues/list) discovered by
-[ClusterFuzz](/Home/chromium-security/bugs/using-clusterfuzz)! We also expanded
-fuzzing platform support (Android Lollipop, Linux with Nvidia GPU), added
-[archived builds](http://storage.cloud.google.com/chrome-test-builds/media) for
+[lots](https://code.google.com/p/chromium/issues/list?can=1&q=linux_asan_chrome_ipc+type%3Dbug-security+-status%3AWontFix%2CDuplicate+&sort=-id+-security_severity+-secseverity+-owner+-modified&colspec=ID+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner+Reporter&x=m&y=releaseblock&cells=tiles)
+[more](https://code.google.com/p/chromium/issues/list?can=1&q=linux_asan_chrome_ipc_32bit+type%3Dbug-security+-status%3AWontFix%2CDuplicate&sort=-id+-security_severity+-secseverity+-owner+-modified&colspec=ID+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner+Reporter&x=m&y=releaseblock&cells=tiles)
+[bugs](https://code.google.com/p/chromium/issues/list?can=1&q=linux_msan_chrome_ipc+type%3Dbug-security+-status%3AWontFix%2CDuplicate&sort=-id+-security_severity+-secseverity+-owner+-modified&colspec=ID+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner+Reporter&x=m&y=releaseblock&cells=tiles)
+discovered by [ClusterFuzz](/Home/chromium-security/bugs/using-clusterfuzz)! We
+also expanded fuzzing platform support (Android Lollipop, Linux with Nvidia
+GPU), added [archived
+builds](http://storage.cloud.google.com/chrome-test-builds/media) for
 [proprietary media codecs](http://www.chromium.org/audio-video) testing on all
 platforms, and used more code annotations to find bugs (like
-[this](https://code.google.com/p/chromium/issues/detail) or
-[this](https://code.google.com/p/chromium/issues/detail)). We auto-add previous
-crash tests to our data corpus, which helps to catch regressions even if a
-developer forgets to add a test
-([example](https://code.google.com/p/chromium/issues/detail)). We’ve also
-started experimenting with enabling and leveraging code coverage information
-from fuzzing. Contrary to what [some reports may
+[this](https://code.google.com/p/chromium/issues/detail?id=468519&can=1&q=%22Container-overflow%20in%20%22%20type%3Dbug-security%20-status%3AWontFix%2CDuplicate&sort=-id%20-security_severity%20-secseverity%20-owner%20-modified&colspec=ID%20Pri%20Status%20Summary%20Modified%20OS%20M%20Security_severity%20Security_impact%20Owner%20Reporter)
+or
+[this](https://code.google.com/p/chromium/issues/detail?id=468406&can=1&q=%22Container-overflow%20in%20%22%20type%3Dbug-security%20-status%3AWontFix%2CDuplicate&sort=-id%20-security_severity%20-secseverity%20-owner%20-modified&colspec=ID%20Pri%20Status%20Summary%20Modified%20OS%20M%20Security_severity%20Security_impact%20Owner%20Reporter)).
+We auto-add previous crash tests to our data corpus, which helps to catch
+regressions even if a developer forgets to add a test
+([example](https://code.google.com/p/chromium/issues/detail?id=478745)). We’ve
+also started experimenting with enabling and leveraging code coverage
+information from fuzzing. Contrary to what [some reports may
 imply](http://secunia.com/resources/vulnerability-review/browser-security/), [we
 don’t think vulnerability counting is a good standalone metric for
 security](http://lcamtuf.blogspot.com/2010/05/vulnerability-databases-and-pie-charts.html),
 and more bugs discovered internally
-([653](https://code.google.com/p/chromium/issues/list) bugs in 2014 vs.
-[380](https://code.google.com/p/chromium/issues/list) bugs in 2013), means more
-bugs fixed, means safer software! Outside of engineering, inferno@ gave a talk
-at [nullcon](http://nullcon.net/) about Chrome fuzzing
+([653](https://code.google.com/p/chromium/issues/list?can=1&q=type%3Abug-security+label%3AClusterFuzz+opened-after%3A2014%2F1%2F1+opened-before%3A2015%2F1%2F1+-status%3AWontFix%2CDuplicate&sort=-id+-security_severity+-secseverity+-owner+-modified&colspec=ID+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner+Reporter&x=m&y=releaseblock&cells=tiles)
+bugs in 2014 vs.
+[380](https://code.google.com/p/chromium/issues/list?can=1&q=type%3Abug-security+label%3AClusterFuzz+opened-after%3A2013%2F1%2F1+opened-before%3A2014%2F1%2F1+-status%3AWontFix%2CDuplicate&sort=-id+-security_severity+-secseverity+-owner+-modified&colspec=ID+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner+Reporter&x=m&y=releaseblock&cells=tiles)
+bugs in 2013), means more bugs fixed, means safer software! Outside of
+engineering, inferno@ gave a talk at [nullcon](http://nullcon.net/) about Chrome
+fuzzing
 ([slides](http://nullcon.net/website/archives/ppt/goa-15/analyzing-chrome-crash-reports-at-scale-by-abhishek-arya.pdf))
 and we launched [never-ending
 Pwnium](http://blog.chromium.org/2015/02/pwnium-v-never-ending-pwnium.html) with
@@ -3084,7 +3119,7 @@ renderer-side security checks, sending postMessage between subframes, keeping
 script references alive). Great progress has also been made on session history,
 DevTools, and test/performance infrastructure, and other teams have started
 updating their features for out-of-process iframes after our [Site Isolation
-Summit](https://www.youtube.com/playlist).
+Summit](https://www.youtube.com/playlist?list=PL9ioqAuyl6UJmC0hyI-k1wYW08O71lBn8).
 
 Not all security problems can be solved in[ Chrome’s
 guts](/Home/chromium-security/guts), so[ we work on making security more
@@ -3100,7 +3135,7 @@ PageInfo and Site Settings, making it easier than ever for people to manage
 their permissions. Desktop updates to PageInfo and Site Settings are in
 progress, too. Finally, we just launched a new extension, [Chrome User
 Experience
-Surveys](https://chrome.google.com/webstore/detail/chrome-user-experience-su/hgimloonaobbeeagepickockgdcghfnn),
+Surveys](https://chrome.google.com/webstore/detail/chrome-user-experience-su/hgimloonaobbeeagepickockgdcghfnn?utm_source=newsletter&utm_medium=security&utm_campaign=CUES%20extension),
 which asks people for in-the-moment feedback after they use certain Chrome
 features. If you’re interested in helping improve Chrome, you should try it out!
 
@@ -3154,18 +3189,18 @@ The[ Bugs--](/Home/chromium-security/bugs) effort aims to find (and exterminate)
 security bugs. Last quarter, we incorporated more [coverage
 data](https://code.google.com/p/address-sanitizer/wiki/AsanCoverage) into our
 [ClusterFuzz dashboard](https://cluster-fuzz.appspot.com/#coverage), especially
-for [Android](https://cluster-fuzz.appspot.com/coverage). With this, we hope to
-optimize our test cases and improve fuzzing efficiency. We also incorporated 5
-new fuzzers from the external research community as part of the fuzzer reward
-program. This has resulted in
-[33](https://code.google.com/p/chromium/issues/list)
-[new](https://code.google.com/p/chromium/issues/list)
-[security](https://code.google.com/p/chromium/issues/list) vulnerabilities.
-Finally, we wrote a multi-threaded test case minimizer from scratch based on
-[delta debugging](https://www.st.cs.uni-saarland.de/dd/) (a long-standing
-request from blink devs!) which produces clean, small, reproducible test cases.
-In reward program news, we've paid over $1.6 million for externally reported
-Chrome bugs since 2010 ([$4 million total across
+for [Android](https://cluster-fuzz.appspot.com/coverage?platform=ANDROID). With
+this, we hope to optimize our test cases and improve fuzzing efficiency. We also
+incorporated 5 new fuzzers from the external research community as part of the
+fuzzer reward program. This has resulted in
+[33](https://code.google.com/p/chromium/issues/list?can=1&q=decoder_langfuzz+Type%3DBug-Security+-status%3ADuplicate&colspec=ID+Pri+M+Week+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=tiles)
+[new](https://code.google.com/p/chromium/issues/list?can=1&q=therealholden_worker+Type%3DBug-Security+-status%3ADuplicate&colspec=ID+Pri+M+Week+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=tiles)
+[security](https://code.google.com/p/chromium/issues/list?can=1&q=cdiehl_peach+Type%3DBug-Security+-status%3ADuplicate&colspec=ID+Pri+M+Week+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=tiles)
+vulnerabilities. Finally, we wrote a multi-threaded test case minimizer from
+scratch based on [delta debugging](https://www.st.cs.uni-saarland.de/dd/) (a
+long-standing request from blink devs!) which produces clean, small,
+reproducible test cases. In reward program news, we've paid over $1.6 million
+for externally reported Chrome bugs since 2010 ([$4 million total across
 Google](http://googleonlinesecurity.blogspot.com/2015/01/security-reward-programs-year-in-review.html)).
 In 2014, over 50% of reward program bugs were found and fixed before they hit
 the stable channel, protecting our main user population. Oh, and in case you
@@ -3188,15 +3223,15 @@ After ~2 years of work on [Site
 Isolation](/developers/design-documents/site-isolation), we’re happy to announce
 that [out-of-process iframes](/developers/design-documents/oop-iframes) are
 working well enough that some Chrome features have [started updating to support
-them](https://docs.google.com/document/d/1dCR2aEoBJj_Yqcs6GuM7lUPr0gag77L5OSgDa8bebsI/edit)!
+them](https://docs.google.com/document/d/1dCR2aEoBJj_Yqcs6GuM7lUPr0gag77L5OSgDa8bebsI/edit?usp=sharing)!
 These include autofill (done), accessibility (nearly done), &lt;webview&gt;
 (prototyping), devtools, and extensions. We know how complex a rollout this will
 be, and we’re ready with testing infrastructure and
 [FYI](http://build.chromium.org/p/chromium.fyi/builders/Site%20Isolation%20Linux)
 [bots](http://build.chromium.org/p/chromium.fyi/builders/Site%20Isolation%20Win).
 As we announced at our recent Site Isolation Summit
-([video](https://www.youtube.com/playlist),
-[slides](https://docs.google.com/presentation/d/10HTTK4dsxO5p6FcpEOq8EkuV4yiBx2n6dBki8cqDWyo/edit)),
+([video](https://www.youtube.com/playlist?list=PL9ioqAuyl6UJmC0hyI-k1wYW08O71lBn8),
+[slides](https://docs.google.com/presentation/d/10HTTK4dsxO5p6FcpEOq8EkuV4yiBx2n6dBki8cqDWyo/edit?usp=sharing)),
 our goal for Q1 is to finish up OOPIF support with the help of all of Chrome.
 
 Not all security problems can be solved in [Chrome’s
@@ -3240,21 +3275,22 @@ some work from last quarter:
 The[ Bugs--](/Home/chromium-security/bugs) effort aims to find (and exterminate)
 security bugs. We increased Clusterfuzz cores across all desktop platforms (Mac,
 Android, Windows, and Linux), resulting in
-[155](https://code.google.com/p/chromium/issues/list) security and
-[275](https://code.google.com/p/chromium/issues/list) functional bugs since last
-update! We also started fuzzing D-Bus system services on Chrome OS, which is our
-first attempt at leveraging Clusterfuzz for the operating system. One of the
-common security pitfalls in C++ is bad casting (often rooted in aggressive
-polymorphism). To address, [one of our
+[155](https://code.google.com/p/chromium/issues/list?can=1&q=Type%3DBug-Security+label%3AClusterFuzz+opened-after%3A2014%2F7%2F1+opened-before%3A2014%2F9%2F31+-status%3AWontFix%2CDuplicate&sort=-security_severity+-secseverity+-owner+-modified&colspec=ID+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner+Reporter&x=m&y=releaseblock&cells=tiles)
+security and
+[275](https://code.google.com/p/chromium/issues/list?can=1&q=Type%3DBug+label%3AClusterFuzz+opened-after%3A2014%2F7%2F1+opened-before%3A2014%2F9%2F31+-status%3AWontFix%2CDuplicate&sort=-security_severity+-secseverity+-owner+-modified&colspec=ID+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner+Reporter&x=m&y=releaseblock&cells=tiles)
+functional bugs since last update! We also started fuzzing D-Bus system services
+on Chrome OS, which is our first attempt at leveraging Clusterfuzz for the
+operating system. One of the common security pitfalls in C++ is bad casting
+(often rooted in aggressive polymorphism). To address, [one of our
 interns](http://www.cc.gatech.edu/~blee303/) tweaked [UBSAN (Undefined Behavior
 Sanitizer)
-vptr](https://drive.google.com/file/d/0Bxvv8gduedamTEJCUlN6eERtWUE/view) to
-detect bad-casting at runtime, which resulted in [11 new security
-bugs](https://code.google.com/p/chromium/issues/list)! We’ve continued to
-collaborate with external researchers on new fuzzing techniques to find bugs in
-V8, Pdfium, Web Workers, IDB, and more. Shout out to attekett, cloudfuzzer,
-decoder.oh, and therealholden for their attention and bugs over the past
-quarter!
+vptr](https://drive.google.com/file/d/0Bxvv8gduedamTEJCUlN6eERtWUE/view?usp=sharing)
+to detect bad-casting at runtime, which resulted in [11 new security
+bugs](https://code.google.com/p/chromium/issues/list?can=1&q=Type%3DBug-Security+linux_ubsan_vptr_chrome+-status%3ADuplicate%2CWontFix&sort=-security_severity+-secseverity+-owner+-modified&colspec=ID+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner+Reporter&x=m&y=releaseblock&cells=tiles&)!
+We’ve continued to collaborate with external researchers on new fuzzing
+techniques to find bugs in V8, Pdfium, Web Workers, IDB, and more. Shout out to
+attekett, cloudfuzzer, decoder.oh, and therealholden for their attention and
+bugs over the past quarter!
 
 Finding bugs is only half the battle, so we also did a few things to make it
 easier to get security bugs ==fixed==, including (1) a new [security
@@ -3269,12 +3305,13 @@ Bugs still happen, so our[ Guts](/Home/chromium-security/guts) effort builds in
 multiple layers of defense. We did a number of things to push
 [seccomp-bpf](http://blog.chromium.org/2012/11/a-safer-playground-for-your-linux-and.html)
 onto more platforms and architectures, including: (1) adding support for
-[MIPS](https://code.google.com/p/chromium/issues/detail) and
-[ARM64](https://code.google.com/p/chromium/issues/detail), (2) adding a [new
-capability](https://lkml.org/lkml/2014/7/17/844) to initialize seccomp-bpf in
-the presence of threads (bringing us a big step closer to a stronger sandbox on
-Android), (3) [general tightening of the sandboxes](https://crbug.com/413855),
-and (4) writing a [domain-specific language to better express BPF
+[MIPS](https://code.google.com/p/chromium/issues/detail?id=369594) and
+[ARM64](https://code.google.com/p/chromium/issues/detail?id=355125), (2) adding
+a [new capability](https://lkml.org/lkml/2014/7/17/844) to initialize
+seccomp-bpf in the presence of threads (bringing us a big step closer to a
+stronger sandbox on Android), (3) [general tightening of the
+sandboxes](https://crbug.com/413855), and (4) writing a [domain-specific
+language to better express BPF
 policies](https://drive.google.com/file/d/0B9LSc_-kpOQPVHhvcVBza3NWR0k/view). We
 also helped ensure a [safe launch of Android apps on Chrome
 OS](http://chrome.blogspot.com/2014/09/first-set-of-android-apps-coming-to.html),
@@ -3333,15 +3370,17 @@ to define and implement [referrer
 policies](https://w3c.github.io/webappsec/specs/referrer-policy/). We’ve also
 been helping on some security consulting for [Service
 Worker](/blink/serviceworker); kudos to the team for making changes to [handle
-plugins more securely](https://code.google.com/p/chromium/issues/detail),
-[restrict usage to secure origins](http://crbug.com/394213), and for addressing
-some memory caching issues. If you want to learn more about what’s going on in
-the Blink Security world, check out the
-[Blink-SecurityFeature](https://code.google.com/p/chromium/issues/list) label.
+plugins more
+securely](https://code.google.com/p/chromium/issues/detail?id=413094), [restrict
+usage to secure origins](http://crbug.com/394213), and for addressing some
+memory caching issues. If you want to learn more about what’s going on in the
+Blink Security world, check out the
+[Blink-SecurityFeature](https://code.google.com/p/chromium/issues/list?q=label:Cr-Blink-SecurityFeature)
+label.
 
 And then there’s other random things, like ad-hoc hunting for security bugs
 (e.g. [local privilege escalation bug in
-pppd](https://code.google.com/p/chromium/issues/detail)), [giving
+pppd](https://code.google.com/p/chromium/issues/detail?id=390709)), [giving
 Chromebooks](http://www.washingtonpost.com/blogs/the-switch/wp/2014/08/18/finding-a-safe-space-for-kids-to-hack/)
 to [kids at
 DEFCON](https://www.flickr.com/photos/asirap/sets/72157645916802437), and
@@ -3383,17 +3422,24 @@ platform coverage on Windows, Linux, and Android). We also added [code coverage
 stats](https://cluster-fuzz.appspot.com/#coverage) to the ClusterFuzz UI, which
 some teams have been finding helpful as a complement to their QA testing, as
 well as [fuzzer stats](https://cluster-fuzz.appspot.com/#fuzzerstats), which [V8
-team now checks](https://cluster-fuzz.appspot.com/fuzzerstats) in new rollouts.
-Finally, we added some new fuzzers (WebGL, GPU commands) and integrated a number
-of memory debugging tools to find new classes of bugs (e.g.
+team now
+checks](https://cluster-fuzz.appspot.com/fuzzerstats?fuzzer_name=stgao_chromebot2&job_type=linux_asan_chrome_v8&last_n_revisions=30)
+in new rollouts. Finally, we added some new fuzzers (WebGL, GPU commands) and
+integrated a number of memory debugging tools to find new classes of bugs (e.g.
 [AddressSanitizer](https://code.google.com/p/address-sanitizer/) on Windows
-found [22](https://code.google.com/p/chromium/issues/list) bugs, [Dr.
-Memory](http://www.drmemory.org/) on Windows found
-[1](https://code.google.com/p/chromium/issues/list) bug,
+found
+[22](https://code.google.com/p/chromium/issues/list?can=1&q=type%3Abug-security+%22windows_asan_chrome%22&sort=-security_severity+-secseverity+-owner+-modified&colspec=ID+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner+Reporter&x=m&y=releaseblock&cells=tiles)
+bugs, [Dr. Memory](http://www.drmemory.org/) on Windows found
+[1](https://code.google.com/p/chromium/issues/list?can=2&q=Stability%3DMemory-DrMemory+label%3Aclusterfuzz&colspec=ID+Pri+M+Iteration+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=tiles)
+bug,
 [MemorySanitizer](https://code.google.com/p/memory-sanitizer/wiki/MemorySanitizer)
-on Linux found [146](https://code.google.com/p/chromium/issues/list) bugs, and
+on Linux found
+[146](https://code.google.com/p/chromium/issues/list?can=1&q=label%3AClusterFuzz+Stability%3DMemory-MemorySanitizer+&sort=-security_severity+-secseverity+-owner+-modified&colspec=ID+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner+Reporter&x=m&y=releaseblock&cells=tiles)
+bugs, and
 [LeakSanitizer](https://code.google.com/p/address-sanitizer/wiki/LeakSanitizer)
-on Linux found [18](https://code.google.com/p/chromium/issues/list) bugs).
+on Linux found
+[18](https://code.google.com/p/chromium/issues/list?can=1&q=label%3AClusterFuzz+Stability%3DMemory-LeakSanitizer+&sort=-security_severity+-secseverity+-owner+-modified&colspec=ID+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner+Reporter&x=m&y=releaseblock&cells=tiles)
+bugs).
 
 Another source of security bugs is our [vulnerability reward
 program](/Home/chromium-security/vulnerability-rewards-program), which saw a
@@ -3408,9 +3454,10 @@ reward structure and coming up with clever ways to keep researchers engaged.
 
 Outside of external bug reports, we spent quite a bit of time [improving the
 security posture of Pdfium](/Home/chromium-security/pdfium-security) (Chrome's
-[recently opensourced](http://blog.foxitsoftware.com/) PDF renderer) via finding
-/ fixing ~[150](https://code.google.com/p/chromium/issues/list) bugs, removing
-risky code (e.g. [custom
+[recently opensourced](http://blog.foxitsoftware.com/?p=641) PDF renderer) via
+finding / fixing
+~[150](https://code.google.com/p/chromium/issues/list?can=1&q=type%3Abug-security+Cr%3DInternals-Plugins-PDF+closed-after%3A2014%2F4%2F1+closed-before%3A2014%2F7%2F31&sort=-security_severity+-secseverity+-owner+-modified&colspec=ID+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner+Reporter&x=m&y=releaseblock&cells=tiles)
+bugs, removing risky code (e.g. [custom
 allocator](https://pdfium.googlesource.com/pdfium/+/3522876d5291922ddc62bf1b70d02743b0850673)),
 and using [secure integer
 library](https://code.google.com/p/chromium/codesearch#chromium/src/base/numerics/&ct=rc&cd=1&q=numerics&sq=package:chromium)
@@ -3503,11 +3550,11 @@ we’re aiming to scale up resources from [a few devices on inferno@’s
 desk](https://plus.sandbox.google.com/u/0/103970240746069356722/posts/LckbsWq6QFZ)
 to 100 bots over the next few months. On the fuzzer front, mbarbella@ wrote a
 new V8 fuzzer that helped shake out
-[30+](https://code.google.com/p/chromium/issues/list)
-[bugs](https://code.google.com/p/chromium/issues/list); kudos to the V8 team for
-being so proactive at fixing these issues and prioritizing additional proactive
-security work this quarter. Spring welcomed a hot new line of PoC exploits at
-[Pwn2Own](http://www.pwn2own.com/) and [Pwnium
+[30+](https://code.google.com/p/chromium/issues/list?can=1&q=type%3Dbug-security+-status%3Aduplicate+mbarbella_js_mutation&sort=-security_severity+-secseverity+-owner+-modified&colspec=ID+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner+Reporter&x=m&y=releaseblock&cells=tiles)
+[bugs](https://code.google.com/p/chromium/issues/list?can=1&q=type%3Dbug-security+-status%3Aduplicate+mbarbella_js_mutation_test&sort=-security_severity+-secseverity+-owner+-modified&colspec=ID+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner+Reporter&x=m&y=releaseblock&cells=tiles);
+kudos to the V8 team for being so proactive at fixing these issues and
+prioritizing additional proactive security work this quarter. Spring welcomed a
+hot new line of PoC exploits at [Pwn2Own](http://www.pwn2own.com/) and [Pwnium
 4](http://blog.chromium.org/2014/01/show-off-your-security-skills.html):
 highlights included a classic ensemble of overly broad IPC paired with a Windows
 “feature,” and a bold chain of 5 intricate bugs for persistent system compromise
@@ -3518,9 +3565,9 @@ program](/Home/chromium-security/vulnerability-rewards-program). We also started
 rewarding researchers for bugs in [Chrome extensions developed "by
 Google.”](http://googleonlinesecurity.blogspot.com/2014/02/security-reward-programs-update.html)
 Outside of finding and fixing bugs, jschuh@ landed [a safe numeric
-class](https://code.google.com/p/chromium/issues/detail) to help prevent
-arithmetic overflow bugs from being introduced in the first place; use it and
-you'll [sleep better](https://xkcd.com/571/) too!
+class](https://code.google.com/p/chromium/issues/detail?id=332611) to help
+prevent arithmetic overflow bugs from being introduced in the first place; use
+it and you'll [sleep better](https://xkcd.com/571/) too!
 
 Bugs still happen, so we build in multiple layers of defense. One of our most
 common techniques is [sandboxing](/Home/chromium-security/guts), which helps to
@@ -3550,7 +3597,8 @@ Not all security can be solved in [Chromium’s
 Guts](/Home/chromium-security/guts), so [we work on making security more
 user-friendly](/Home/chromium-security/enamel) too. We finally landed the
 controversial change to [remember passwords, even when
-autocomplete='off'](https://code.google.com/p/chromium/issues/detail) in
+autocomplete='off'](https://code.google.com/p/chromium/issues/detail?id=177288)
+in
 [M34](http://blog.chromium.org/2014/02/chrome-34-responsive-images-and_9316.html),
 which is a small, but [significant change to return control back to the
 user](/Home/chromium-security/security-faq). We also made some [tweaks to the
@@ -3604,21 +3652,24 @@ safest, most hardened, and security-tested viewer available. [Malware via
 Microsoft .docs are also
 common](https://www.eff.org/deeplinks/2014/01/vietnamese-malware-gets-personal),
 so we’re eagerly awaiting the day we can open Office Docs in
-[Quickoffice](https://support.google.com/quickoffice/answer/2986862) by default.
+[Quickoffice](https://support.google.com/quickoffice/answer/2986862?hl=en) by
+default.
 Find (and fix) more security bugs: We recently welcomed a new member to the
-team, [Sheriffbot](https://code.google.com/p/chromium/issues/list). He’s already
-started making the [mortal security
+team,
+[Sheriffbot](https://code.google.com/p/chromium/issues/list?can=1&q=type%3Abug-security+commentby%3Aclusterfuzz%40chromium.org+-reporter%3Aclusterfuzz%40chromium.org&sort=-id+-security_severity+-secseverity+-owner+-modified&colspec=ID+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner+Reporter&cells=tiles).
+He’s already started making the [mortal security
 sheriffs’](/Home/chromium-security/security-sheriff) lives easier by finding new
 owners, adding Cr- area labels, helping apply and fix bug labels, and reminding
 people about open security bugs they have assigned to them.
 Our fuzzing mammoth, [ClusterFuzz](https://cluster-fuzz.appspot.com/), is now
 fully supported on Windows and has helped find
-[32](https://code.google.com/p/chromium/issues/list) new bugs. We’ve added a
-bunch of new fuzzers to cover Chromium IPC (5 high severity bugs), networking
-protocols (1 critical severity bug from a certificate fuzzer, 1 medium severity
-bug from an HTTP protocol fuzzer), and WebGL (1 high severity bug in Angle).
-Want to write a [fuzzer](http://en.wikipedia.org/wiki/Fuzz_testing) to add
-security fuzzing coverage to your code? Check out the [ClusterFuzz
+[32](https://code.google.com/p/chromium/issues/list?can=1&q=type:bug-security%20label:Hotlist-SyzyASAN%20label:ClusterFuzz&sort=-id+-security_severity+-secseverity+-owner+-modified&colspec=ID%20Pri%20Status%20Summary%20Modified%20OS%20M%20Security_severity%20Security_impact%20Owner%20Reporter)
+new bugs. We’ve added a bunch of new fuzzers to cover Chromium IPC (5 high
+severity bugs), networking protocols (1 critical severity bug from a certificate
+fuzzer, 1 medium severity bug from an HTTP protocol fuzzer), and WebGL (1 high
+severity bug in Angle). Want to write a
+[fuzzer](http://en.wikipedia.org/wiki/Fuzz_testing) to add security fuzzing
+coverage to your code? Check out the [ClusterFuzz
 documentation](/Home/chromium-security/bugs/using-clusterfuzz), or get in touch.
 In November, we helped sponsor a [Pwn2Own contest at the PacSec conference in
 Tokyo](http://h30499.www3.hp.com/t5/HP-Security-Research-Blog/Mobile-Pwn2Own-2013/ba-p/6202185#.Ut6t45DTm91).
@@ -3637,11 +3688,11 @@ default](http://blog.chromium.org/2013/09/saying-goodbye-to-our-old-friend-npapi
 and have plans to completely remove support by the end of the year. This change
 significantly reduces Chrome’s exposure to browser plugin vulnerabilities. We
 also implemented additional [heap partitioning for buffers and
-strings](https://code.google.com/p/chromium/issues/detail) in Blink, which
-further mitigates memory exploitation techniques. Our Win64 port of Chromium is
-now continuously tested on the main waterfall and is on track to ship this
-quarter. Lastly, we migrated our Linux and Chrome OS sandbox to a new policy
-format and did a lot of overdue sandbox code cleanup.
+strings](https://code.google.com/p/chromium/issues/detail?id=270531) in Blink,
+which further mitigates memory exploitation techniques. Our Win64 port of
+Chromium is now continuously tested on the main waterfall and is on track to
+ship this quarter. Lastly, we migrated our Linux and Chrome OS sandbox to a new
+policy format and did a lot of overdue sandbox code cleanup.
 On our [site isolation](/developers/design-documents/site-isolation) project,
 we’ve started landing infrastructure code on trunk to support out-of-process
 iframes. We are few CLs away from having functional cross-process iframe behind
@@ -3678,8 +3729,9 @@ Last quarter, we reorganized the larger team into 3 subgroups:
 helping get them fixed. The group is currently working on expanding
 [Clusterfuzz](https://cluster-fuzz.appspot.com/) coverage to other platforms
 (Windows and Mac), adding fuzzers to cover IPC, networking, and WebGL, adding
-more [security ASSERTS](http://svnsearch.org/svnsearch/repos/BLINK/search) to
-catch memory corruption bugs. They're also automating some of the grungy and
+more [security
+ASSERTS](http://svnsearch.org/svnsearch/repos/BLINK/search?logMessage=ASSERT_WITH_SECURITY_IMPLICATION)
+to catch memory corruption bugs. They're also automating some of the grungy and
 manual parts of being [security
 sheriff](/Home/chromium-security/security-sheriff) to free up human cycles for
 more exciting things.
@@ -3718,32 +3770,34 @@ In [Chrome
 we fixed a load of security bugs! The spike in bugs was likely due to a few
 factors: (1) we started accepting fuzzers (7 total) from invited external
 researchers as part of a Beta extension to our vulnerability reward program
-(resulting in [26](https://code.google.com/p/chromium/issues/list) new bugs),
-(2) we [increased reward
+(resulting in
+[26](https://code.google.com/p/chromium/issues/list?can=1&q=type%3Abug-security+label%3AExternal-Fuzzer-Contribution+-status%3AWontFix%2CDuplicate&sort=-security_severity+-secseverity+-owner+-modified&colspec=ID+Stars+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner&x=m&y=releaseblock&cells=tiles)
+new bugs), (2) we [increased reward
 payouts](http://googleonlinesecurity.blogspot.com/2013/08/security-rewards-at-google-two.html)
 to spark renewed interest from the public, and (3) we found a bunch of new
 buffer (over|under)flow and casting bugs ourselves by adding
-[ASSERT_WITH_SECURITY_IMPLICATION](http://svnsearch.org/svnsearch/repos/BLINK/search)s
+[ASSERT_WITH_SECURITY_IMPLICATION](http://svnsearch.org/svnsearch/repos/BLINK/search?logMessage=ASSERT_WITH_SECURITY_IMPLICATION)s
 in Blink. In M30, we also added [a new layer of
-sandboxing](https://code.google.com/p/chromium/issues/detail) to NaCl on Chrome
-OS, with seccomp-bpf.
+sandboxing](https://code.google.com/p/chromium/issues/detail?id=168812) to NaCl
+on Chrome OS, with seccomp-bpf.
 
 Last, but not least, we want to give a shout out to individuals outside the
 security team that made an extraordinary effort to improve Chrome security:
 
 *   Jochen Eisinger for redoing the pop-up blocker... so that it
             [actually blocks
-            pop-ups](https://code.google.com/p/chromium/issues/detail) (instead
-            of hiding them). Beyond frustrating users, this bug was a security
-            liability, but due to the complexity of the fix, languished in the
-            issue tracker for years.
+            pop-ups](https://code.google.com/p/chromium/issues/detail?id=38458)
+            (instead of hiding them). Beyond frustrating users, this bug was a
+            security liability, but due to the complexity of the fix, languished
+            in the issue tracker for years.
 *   Mike West for his work on CSP, as well as tightening downloading of
             bad content types.
 *   Avi Drissman for fixing a [longstanding bug where PDF password input
-            was not masked](http://code.google.com/p/chromium/issues/detail).
+            was not
+            masked](http://code.google.com/p/chromium/issues/detail?id=54748#c49).
 *   Ben Hawkes and Ivan Fratic for finding
-            [four](https://code.google.com/p/chromium/issues/list) potentially
-            exploitable Chrome bugs using WinFuzz.
+            [four](https://code.google.com/p/chromium/issues/list?can=1&q=label%3AWinFuzz)
+            potentially exploitable Chrome bugs using WinFuzz.
 *   Mateusz Jurczyk on finding ton of bugs in VP9 video decoder.
 
 Happy Hacking,
@@ -3768,13 +3822,15 @@ past week, but hopefully will recover once everyone returns from July vacation
 :)
 
 As of July 1st, [Clusterfuzz](http://goto/clusterfuzz) has helped us find and
-fix [822](https://code.google.com/p/chromium/issues/list) bugs! Last quarter, we
-added a [new check](http://svnsearch.org/svnsearch/repos/BLINK/search) to
-identify out of bound memory accesses and bad casts
+fix
+[822](https://code.google.com/p/chromium/issues/list?can=1&q=type%3Abug-security+ClusterFuzz+status%3AFixed+closed-before%3A2013%2F7%2F1&sort=-id+-security_severity+-secseverity+-owner+-modified&colspec=ID+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner&x=m&y=releaseblock&cells=tiles)
+bugs! Last quarter, we added a [new
+check](http://svnsearch.org/svnsearch/repos/BLINK/search?logMessage=ASSERT_WITH_SECURITY_IMPLICATION)
+to identify out of bound memory accesses and bad casts
 (ASSERT_WITH_SECURITY_IMPLICATION), which resulted in
-~[72](https://code.google.com/p/chromium/issues/list) new bugs identified and
-fixed. We’re also beta testing a “Fuzzer Donation” extension to our
-[vulnerability reward
+~[72](https://code.google.com/p/chromium/issues/list?can=1&q=type%3Abug-security+%22ASSERTION+FAILED%22+status%3AFixed+opened-after%3A2013%2F1%2F1&sort=-security_severity+-secseverity+-owner+-modified&colspec=ID+Stars+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner&x=m&y=releaseblock&cells=tiles)
+new bugs identified and fixed. We’re also beta testing a “Fuzzer Donation”
+extension to our [vulnerability reward
 program](/Home/chromium-security/vulnerability-rewards-program).
 
 Anecdotally, this quarter we noticed an increase in the number of IPC reviews
@@ -3788,14 +3844,15 @@ We’ve mostly wrapped up the [binding
 integrity](/Home/chromium-security/binding-integrity) exploit mitigation changes
 we started last quarter, and it’s now landed on all desktop platforms and Clank.
 Remaining work entails [making additional V8 wrapped types inherit from
-ScriptWrappable](https://code.google.com/p/chromium/issues/detail) so more
-Chrome code benefits from this protection. We also started a new memory
+ScriptWrappable](https://code.google.com/p/chromium/issues/detail?id=236671&can=1&q=tsepez%20scriptwrappable&colspec=ID%20Pri%20M%20Iteration%20ReleaseBlock%20Cr%20Status%20Owner%20Summary%20OS%20Modified)
+so more Chrome code benefits from this protection. We also started a new memory
 hardening change that aims to [place DOM nodes inside their own heap
-partition](https://code.google.com/p/chromium/issues/detail). Why would we want
-to do that? Used-after-free memory bugs are common. By having a separate
-partition, the attacker gets a more limited choice of what to overlap on top of
-the freed memory slot, which makes these types of bugs substantially harder to
-exploit. (It turns out there is some performance improvement in doing this too!)
+partition](https://code.google.com/p/chromium/issues/detail?id=246860). Why
+would we want to do that? Used-after-free memory bugs are common. By having a
+separate partition, the attacker gets a more limited choice of what to overlap
+on top of the freed memory slot, which makes these types of bugs substantially
+harder to exploit. (It turns out there is some performance improvement in doing
+this too!)
 
 Sandboxing++
 
@@ -3803,9 +3860,9 @@ We’re constantly trying to improve [Chrome
 sandboxing](/developers/design-documents/sandbox). On [Chrome OS and
 Linux](https://code.google.com/p/chromium/wiki/LinuxSandboxing), The GPU process
 is now sandboxed on ARM
-([M28](https://code.google.com/p/chromium/issues/detail)) and we’ve been been
-working on [sandboxing NaCl](https://code.google.com/p/chromium/issues/detail)
-under
+([M28](https://code.google.com/p/chromium/issues/detail?id=235870)) and we’ve
+been been working on [sandboxing
+NaCl](https://code.google.com/p/chromium/issues/detail?id=168812) under
 [seccomp-bpf](http://blog.chromium.org/2012/11/a-safer-playground-for-your-linux-and.html).
 We’ve also increased seccomp-bpf test coverage and locked down sandbox
 parameters (i.e. less attack surface). Part of the Chrome seccomp-bpf sandbox is
@@ -3826,7 +3883,8 @@ Chrome work across platforms
     infrastructure to get a stable Win64 release build for canary tests.
 
     On Chrome OS, work on kernel ASLR is ongoing, and we continued sandboxing
-    [system daemons](https://code.google.com/p/chromium/issues/detail).
+    [system
+    daemons](https://code.google.com/p/chromium/issues/detail?id=224082).
 
 Site Isolation Efforts
 
@@ -3882,14 +3940,14 @@ vulnerabilities ([161564](http://crbug.com/161564),
 [162114](http://crbug.com/162114), [167840](http://crbug.com/167840),
 [169685](http://crbug.com/169685)) and cdn and cevans found / fixed a bunch of
 other interesting memory corruption bugs
-([169973](https://code.google.com/p/chromium/issues/detail),
-[166708](https://code.google.com/p/chromium/issues/detail),
-[164682](https://code.google.com/p/chromium/issues/detail)). Underground rumors
-indicate many of these internally discovered bugs collided with discoveries from
-third party researchers (that were either sitting on or using them for their own
-purposes). At this point, most of the IPCs that handle file paths have been
-audited, and we’ve started putting together a doc with [security tips to mind
-when writing
+([169973](https://code.google.com/p/chromium/issues/detail?id=169973),
+[166708](https://code.google.com/p/chromium/issues/detail?id=166708),
+[164682](https://code.google.com/p/chromium/issues/detail?id=164682)).
+Underground rumors indicate many of these internally discovered bugs collided
+with discoveries from third party researchers (that were either sitting on or
+using them for their own purposes). At this point, most of the IPCs that handle
+file paths have been audited, and we’ve started putting together a doc with
+[security tips to mind when writing
 IPC](https://sites.google.com/a/google.com/chrome-security/security-tips-for-ipc).
 
 On the fuzzing front, we updated and added a number of [fuzzers to
@@ -3899,11 +3957,11 @@ extension APIs (meacer), WebRTC (phoglund), Canvas/Skia (aarya), and
 Flicker/media (aarya); aarya also taught Clusterfuzz to look for dangerous
 ASSERTs with security implications, which resulted in even more bugs. Kudos to
 Clusterfuzz and the ASAN team for kicking out another [132 security
-bugs](https://code.google.com/p/chromium/issues/list) last quarter! One downside
-to all these new bugs is that our queue of open security bugs across Chrome has
-really spiked ([85+ as of
-today](https://code.google.com/p/chromium/issues/list)). PIease help us fix
-these bugs!
+bugs](https://code.google.com/p/chromium/issues/list?can=1&q=type%3Abug-security+label%3AClusterFuzz+opened-after%3A2012%2F12%2F31+-status%3Awontfix+-status%3Aduplicate+opened-before%3A2013%2F4%2F1&sort=-id+-security_severity+-secseverity+-owner+-modified&colspec=ID+Stars+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner&x=m&y=releaseblock&cells=tiles)
+last quarter! One downside to all these new bugs is that our queue of open
+security bugs across Chrome has really spiked ([85+ as of
+today](https://code.google.com/p/chromium/issues/list?can=2&q=Security_Severity%3DCritical+OR+Security_Severity%3DHigh+OR+Security_Severity%3DMedium&colspec=ID+Pri+M+Iteration+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=tiles)).
+PIease help us fix these bugs!
 
 Process hardening
 
@@ -3962,7 +4020,7 @@ of them are automatically flagged as malware (and taken down), ~Z malware
 escalations are manually escalated from extension reviewers (and then reviewed
 again by security;. meacer also added a fuzzer for extensions and apps APIs, and
 has been fixing [the resulting
-bugs](https://code.google.com/p/chromium/issues/list).
+bugs](https://code.google.com/p/chromium/issues/list?can=1&q=Fuzzer%3A+Meacer_extension_apis&colspec=ID+Pri+M+Iteration+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=tiles).
 
 Until we meet again (probably in the issue tracker)...
 

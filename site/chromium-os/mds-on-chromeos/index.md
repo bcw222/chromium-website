@@ -57,11 +57,12 @@ execution on a core to be observed across security boundaries via
 microarchitectural state, on certain Intel CPUs. They are described in [Intel's
 announcement](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00233.html),
 and referred to as
-MSBDS/[CVE-2018-12126](https://cve.mitre.org/cgi-bin/cvename.cgi),
-MLPDS/[CVE-2018-12127](https://cve.mitre.org/cgi-bin/cvename.cgi),
-MFBDS/[CVE-2018-12130](https://cve.mitre.org/cgi-bin/cvename.cgi), and
-MDSUM/[CVE-2019-11091](https://cve.mitre.org/cgi-bin/cvename.cgi). See below for
-more details.
+MSBDS/[CVE-2018-12126](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2018-12126),
+MLPDS/[CVE-2018-12127](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2018-12127),
+MFBDS/[CVE-2018-12130](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2018-12130),
+and
+MDSUM/[CVE-2019-11091](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2019-11091).
+See below for more details.
 
 ## Microarchitectural Store Buffer Data Sampling (MSBDS) and Microarchitectural Fill Buffer Data Sampling (MFBDS)
 

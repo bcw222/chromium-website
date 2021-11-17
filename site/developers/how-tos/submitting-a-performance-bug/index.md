@@ -66,9 +66,9 @@ screen, then choose where to save it on your computer.
 > src="/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-10%2014%3A55%3A28.png">](/developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-10%2014_55_28.png)
 
 9. File a [new performance
-bug](https://code.google.com/p/chromium/issues/entry). Make sure to add a
-descriptive title, your Chrome version, your operating system and version, URLs
-(if applicable), and details about your issue.
+bug](https://code.google.com/p/chromium/issues/entry?summary=Performance+issue:&comment=Chrome+Version+++++++%3A%0AOperating+System+and+Version%3A+%0AURLs+(if+applicable)+%3A%0A%0ADescription+of+performance+problem:%0A%0A%0A%0ARemember%20to%20attach%20your%20trace%20file%20to%20this%20bug!&labels=Type-Bug,Pri-2,Hotlist-Slow,Performance&).
+Make sure to add a descriptive title, your Chrome version, your operating system
+and version, URLs (if applicable), and details about your issue.
 
 10. Click **Attach a file** and locate the trace file you saved in step 7. There
 is a 10MB limit, so you may need to compress the file first.

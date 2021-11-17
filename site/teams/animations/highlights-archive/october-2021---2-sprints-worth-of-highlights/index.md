@@ -109,9 +109,9 @@ title: October 2021 - 2 sprint's worth of highlights
 
 <td><td><img alt="image" src="https://lh3.googleusercontent.com/l0vhMbMctf57poYsl-uh5sgv7seC1o8DYejptY9Br5oTMupHsqEDh9DC7D-pKwr4USj280259hc2LKLByAhs2ZKnuex3hx1Qy4O7-Ueq1slSvvpjtbxdQ-dXGlhJTR9ByR1FcQ54zQ" height=220 width=208></td></td>
 
-<td><td>In addition to being a challenging problem by itself, the bug “worsened” two other security bugs (on leaking autofill <a href="https://bugs.chromium.org/p/chromium/issues/detail">966562</a> and bypassing sandbox restriction <a href="https://crbug.com/1035315">1035315</a>) in the last two years!</td></td>
+<td><td>In addition to being a challenging problem by itself, the bug “worsened” two other security bugs (on leaking autofill <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=966562">966562</a> and bypassing sandbox restriction <a href="https://crbug.com/1035315">1035315</a>) in the last two years!</td></td>
 
-<td><td>After a long brainstorming through unactionable whiteboard drawings, <a href="https://uma.googleplex.com/p/chrome/histograms">misleading UMA</a> discovery and stalled <a href="https://docs.google.com/document/d/1TKjjwFlQGh2LLm0_mOW6FJdmmwyOBMj_fdWJyAJ_Q50/edit">design discussion</a>, we were able to find and <a href="https://chromium-review.googlesource.com/c/chromium/src/+/3154195">land</a> a fix in Q3, yayy!</td></td>
+<td><td>After a long brainstorming through unactionable whiteboard drawings, <a href="https://uma.googleplex.com/p/chrome/histograms?sid=c4e21a8aa954807b89df16f4d2d8e9be">misleading UMA</a> discovery and stalled <a href="https://docs.google.com/document/d/1TKjjwFlQGh2LLm0_mOW6FJdmmwyOBMj_fdWJyAJ_Q50/edit?usp=sharing">design discussion</a>, we were able to find and <a href="https://chromium-review.googlesource.com/c/chromium/src/+/3154195">land</a> a fix in Q3, yayy!</td></td>
 
 <td></tr></td>
 <td></table></td>
@@ -121,7 +121,7 @@ title: October 2021 - 2 sprint's worth of highlights
 
 <td><td>Fixed overscroll glow position (flackr@)</td></td>
 
-<td><td>Overscroll glow on android <a href="https://bugs.chromium.org/p/chromium/issues/detail">could appear in the wrong position</a>.</td></td>
+<td><td>Overscroll glow on android <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1253617">could appear in the wrong position</a>.</td></td>
 
 <td><td><img alt="image" src="https://lh3.googleusercontent.com/eoyR3w60Cqa8PVbrNBA_9-jTOKg4on6uc6MSmCn4lAxrDCNlyY1H4Z59BVPs_fEwg6m7vJMCmylEAq3CF6UVFuxvOQQH-_4Lb5zis14Ox1erYLJLiP0gUd0G3Jx_44DhKMIVdRwO8g" height=153 width=283></td></td>
 

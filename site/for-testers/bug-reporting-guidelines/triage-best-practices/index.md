@@ -61,9 +61,9 @@ title: Triage Best Practices
 
 *   Start by checking your team's load balance.
     *   Using your standard triage query, pull up the
-                "[Grid](https://bugs.chromium.org/p/chromium/issues/list)" view.
-                Set ***Rows*** to be "Owner," ***Columns*** to be "None," and
-                ***Cells*** to be "Counts"
+                "[Grid](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=&colspec=ID+Pri+M+Stars+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&groupby=&sort=&x=m&y=releaseblock&cells=tiles&mode=grid)"
+                view. Set ***Rows*** to be "Owner," ***Columns*** to be "None,"
+                and ***Cells*** to be "Counts"
     *   Get a rough sense for everyone's issue distribution.
     *   **Pro Tip:** Keep that page opened in the background, as a
                 reference for when you are assigning issues.

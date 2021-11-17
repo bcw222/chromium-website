@@ -17,4 +17,4 @@ for reproducible security bugs for which it does not seem like a similar issue
 has been filed already.
 
 If you have a concern, please file a bug using [this
-template](https://bugs.chromium.org/p/chromium/issues/entry).
+template](https://bugs.chromium.org/p/chromium/issues/entry?components=Tools%3EStability%3EClusterFuzz).

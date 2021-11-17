@@ -46,7 +46,8 @@ We test Chrome with recent versions of the following assistive technology:
 
 #### If you are reporting bugs, please test the "Canary" version of Chrome, which can be installed alongside the standard version you already have installed. It helps a lot to know if the bug reproduces in the latest version or not.
 
-> [Chrome Canary download instructions](https://www.google.com/url)
+> [Chrome Canary download
+> instructions](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CDcQFjAA&url=https%3A%2F%2Fwww.google.com%2Fintl%2Fen%2Fchrome%2Fbrowser%2Fcanary.html&ei=3x52UcGWPMGpiAKZhoBg&usg=AFQjCNEmCd7QnngnWgQiA5M_Vyvwzq71Vw&sig2=lTuBDKvb6i4xs7Ph8fZjGQ&bvm=bv.45580626,d.cGE)
 
 > Please report bugs at [CRBug.com](http://CRBug.com) (redirects to
 > <https://bugs.chromium.org/p/chromium/>)

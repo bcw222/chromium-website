@@ -9,10 +9,11 @@ title: PGP Key
 ---
 
 Sensitive security bug reports should be filed on the [Chromium bug
-tracker](https://bugs.chromium.org/p/chromium/issues/entry). Please make sure to
-select the Security template, as this will ensure the correct access controls
-are in place. However, if you must use email to reach us and wish to protect the
-message in transit, you can use this PGP key and send to security@chromium.org
+tracker](https://bugs.chromium.org/p/chromium/issues/entry?template=Security+Bug).
+Please make sure to select the Security template, as this will ensure the
+correct access controls are in place. However, if you must use email to reach us
+and wish to protect the message in transit, you can use this PGP key and send to
+security@chromium.org
 
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 

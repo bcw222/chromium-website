@@ -18,51 +18,56 @@ channel builds, all the way up to our Stable channel releases that happen every
 All channels may be run in parallel -- they install into distinct directories
 and use dedicated User Data directories.
 
-*   [Stable channel for Windows](http://www.google.com/chrome)
-*   [Beta channel for Windows](http://www.google.com/chrome)
-*   [Dev channel for Windows](http://www.google.com/chrome/eula.html)
-*   [Canary build for Windows](http://tools.google.com/dlpage/chromesxs)
+*   [Stable channel for
+            Windows](http://www.google.com/chrome?platform=win)
+*   [Beta channel for
+            Windows](http://www.google.com/chrome?platform=win)
+*   [Dev channel for
+            Windows](http://www.google.com/chrome/eula.html?extra=devchannel&platform=win)
+*   [Canary build for
+            Windows](http://tools.google.com/dlpage/chromesxs?platform=win)
 
 #### Mac
 
-*   [Stable channel for Mac](http://google.com/chrome)
-*   [Beta channel for Mac](http://google.com/chrome)
+*   [Stable channel for Mac](http://google.com/chrome?platform=mac)
+*   [Beta channel for Mac](http://google.com/chrome?platform=mac)
 *   [Dev channel for
-            Mac](http://www.google.com/chrome/intl/en/eula_dev.html)
-*   [Canary build for Mac](http://tools.google.com/dlpage/chromesxs)
-            (Note, this will run in parallel to any other Chrome channel you
-            have installed, it will not use the same profile)
+            Mac](http://www.google.com/chrome/intl/en/eula_dev.html?dl=mac)
+*   [Canary build for
+            Mac](http://tools.google.com/dlpage/chromesxs?platform=mac) (Note,
+            this will run in parallel to any other Chrome channel you have
+            installed, it will not use the same profile)
 
 #### Linux
 
-[Stable channel](http://www.google.com/chrome)
+[Stable channel](http://www.google.com/chrome?platform=linux)
 **32-bit Ubuntu/Debian**
 
 *   [Beta channel for 32-bit
-            Debian/Ubuntu](http://www.google.com/chrome/intl/en/eula_beta.html)
+            Debian/Ubuntu](http://www.google.com/chrome/intl/en/eula_beta.html?dl=beta_i386_deb)
 *   [Dev channel for 32-bit
-            Debian/Ubuntu](http://www.google.com/chrome/intl/en/eula_dev.html)
+            Debian/Ubuntu](http://www.google.com/chrome/intl/en/eula_dev.html?dl=unstable_i386_deb)
 
 **32-bit Fedora/OpenSUSE**
 
 *   [Beta channel for 32-bit
-            Fedora/OpenSUSE](http://www.google.com/chrome/intl/en/eula_beta.html)
+            Fedora/OpenSUSE](http://www.google.com/chrome/intl/en/eula_beta.html?dl=beta_i386_rpm)
 *   [Dev channel for 32-bit
-            Fedora/OpenSUSE](http://www.google.com/chrome/intl/en/eula_dev.html)
+            Fedora/OpenSUSE](http://www.google.com/chrome/intl/en/eula_dev.html?dl=unstable_i386_rpm)
 
 **64-bit Ubuntu/Debian**
 
 *   [Beta channel for 64-bit
-            Debian/Ubuntu](http://www.google.com/chrome/intl/en/eula_beta.html)
+            Debian/Ubuntu](http://www.google.com/chrome/intl/en/eula_beta.html?dl=beta_amd64_deb)
 *   [Dev channel for 64-bit
-            Debian/Ubuntu](http://www.google.com/chrome/intl/en/eula_dev.html)
+            Debian/Ubuntu](http://www.google.com/chrome/intl/en/eula_dev.html?dl=unstable_amd64_deb)
 
 **64-bit Fedora/Red Hat/OpenSUSE**
 
 *   [Beta channel for 64-bit
-            Fedora/OpenSUSE](http://www.google.com/chrome/intl/en/eula_beta.html)
+            Fedora/OpenSUSE](http://www.google.com/chrome/intl/en/eula_beta.html?dl=beta_amd64_rpm)
 *   [Dev channel for 64-bit
-            Fedora/OpenSUSE](http://www.google.com/chrome/intl/en/eula_dev.html)
+            Fedora/OpenSUSE](http://www.google.com/chrome/intl/en/eula_dev.html?dl=unstable_amd64_dev)
 
 ### How do I choose which channel to use?
 

@@ -97,7 +97,7 @@ deployment options will be supported:
             and update_url cannot point to any other host other than
             <https://clients2.google.com/service/update2/crx>.
 *   For Enterprises, we’ll continue to support [group
-            policy](https://support.google.com/chrome/a/answer/188453) to
+            policy](https://support.google.com/chrome/a/answer/188453?hl=en) to
             install extensions, irrespective of where the extensions are hosted.
             Note that any extension which is not hosted on the Web Store and
             installed via GPO on a machine which has not joined a domain will be

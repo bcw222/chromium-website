@@ -54,7 +54,7 @@ title: 'February 2021: New Features, Testing, Stability Fixes, Code Health and m
     state is stale.</td></td>
 
     <td><td>Unblocks remaining steps in developing the feature. (<a
-    href="https://docs.google.com/document/d/1Enj8nD-y2vgCp2A6-M2QFoUKf1-nxMX023ervOoXi50/edit">Design
+    href="https://docs.google.com/document/d/1Enj8nD-y2vgCp2A6-M2QFoUKf1-nxMX023ervOoXi50/edit?usp=sharing">Design
     doc</a>)</td></td>
 
 <td><td>Composite background-color animation</td></td>
@@ -85,7 +85,7 @@ title: 'February 2021: New Features, Testing, Stability Fixes, Code Health and m
     href="https://docs.google.com/document/d/1iz0YdNKHpcObTe3UrM7uY6fsGv8xOlwY35m5dZzIoR8/edit">doc</a>
     that describes how to detect different types of main-thread animations from
     traces. And here is a sample <a
-    href="https://drive.google.com/file/d/1IdObZMCYRMraUIYcM5RSQo2L9u2Uhqw9/view">video</a>
+    href="https://drive.google.com/file/d/1IdObZMCYRMraUIYcM5RSQo2L9u2Uhqw9/view?usp=sharing&resourcekey=0-rTeQ2zu0ajWxMtGGhFAKng">video</a>
     of output.</td></td>
 
 <td><td>Impulse animations</td></td>
@@ -201,7 +201,7 @@ title: 'February 2021: New Features, Testing, Stability Fixes, Code Health and m
 
 <td><td>girard@ started this Tabs <a href="https://docs.google.com/document/u/0/d/18C_W5SRsuPfCyyXbEsCjiHOGc8OWJXRlKvKKN-rlYsQ/edit">One-Pager</a>, and a lot of people are contributing to it now.</td></td>
 
-<td><td>flackr@ and nsull@ took a first pass at an <a href="https://docs.google.com/document/d/1HcQ75iRhO-dT7EHB6JrjmMATa9XlSCYZKWrXbzakexQ/edit">explainer</a>.</td></td>
+<td><td>flackr@ and nsull@ took a first pass at an <a href="https://docs.google.com/document/d/1HcQ75iRhO-dT7EHB6JrjmMATa9XlSCYZKWrXbzakexQ/edit?resourcekey=0-kYHpL3r3jY3Q8wtTaOa6aA">explainer</a>.</td></td>
 
 <td><td>Disable double tap to zoom for mobile viewport</td></td>
 
@@ -212,7 +212,7 @@ title: 'February 2021: New Features, Testing, Stability Fixes, Code Health and m
 
 <td><td>Accessibility click indistinguishable from real click</td></td>
 
-<td><td>liviutinta@ landed a <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2679278">CL</a> to fix this <a href="https://bugs.chromium.org/p/chromium/issues/detail">bug</a>. The fix included:</td></td>
+<td><td>liviutinta@ landed a <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2679278">CL</a> to fix this <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1150979">bug</a>. The fix included:</td></td>
 
     <td><td>Added pointer events up/down.</td></td>
 

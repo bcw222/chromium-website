@@ -19,19 +19,19 @@ improvement is to find a non-intrusive way to prevent accidental quitting while
 still allowing users to quit easily and quickly.
 
 This touches aspects of issues
-[147](http://code.google.com/p/chromium/issues/detail),
-[27786](http://code.google.com/p/chromium/issues/detail), and
-[34215](http://code.google.com/p/chromium/issues/detail).
+[147](http://code.google.com/p/chromium/issues/detail?id=147),
+[27786](http://code.google.com/p/chromium/issues/detail?id=27786), and
+[34215](http://code.google.com/p/chromium/issues/detail?id=34215).
 
 ## Proposed UI
 
 The proposed experience, from [issue
-27786](http://code.google.com/p/chromium/issues/detail), is to display a
-floating window when the user taps Cmd+Q that instructs them to continue holding
-in order to quit. After a few seconds, the quit is confirmed and Chrome proceeds
-to exit. If the user does not continue to hold Cmd+Q, the floating window will
-remain on screen for a few seconds before fading out to give the user
-instructions if they do actually intend to quit.
+27786](http://code.google.com/p/chromium/issues/detail?id=27786), is to display
+a floating window when the user taps Cmd+Q that instructs them to continue
+holding in order to quit. After a few seconds, the quit is confirmed and Chrome
+proceeds to exit. If the user does not continue to hold Cmd+Q, the floating
+window will remain on screen for a few seconds before fading out to give the
+user instructions if they do actually intend to quit.
 
 We have not yet decided if this UI is the right one, and there are some concerns
 that presenting users with such non-standard UI will help them learn habits that

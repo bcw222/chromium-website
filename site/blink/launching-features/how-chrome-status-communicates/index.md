@@ -24,7 +24,7 @@ or how it improves the web platform. Do this even if it seems obvious to you.
 Tips:
 
 *   Omit needless words. This is from "[The Elements of
-            Style](https://www.amazon.com/Elements-Style-Fourth-William-Strunk/dp/020530902X/ref=pd_bxgy_14_img_3)".
+            Style](https://www.amazon.com/Elements-Style-Fourth-William-Strunk/dp/020530902X/ref=pd_bxgy_14_img_3?_encoding=UTF8&pd_rd_i=020530902X&pd_rd_r=de87e78e-8526-11e8-914f-9f4b0c666b45&pd_rd_w=mZsdS&pd_rd_wg=bq1yC&pf_rd_i=desktop-dp-sims&pf_rd_m=ATVPDKIKX0DER&pf_rd_p=3914568618330124508&pf_rd_r=KQZKKVTXAZHWAEFD7SR9&pf_rd_s=desktop-dp-sims&pf_rd_t=40701&psc=1&refRID=KQZKKVTXAZHWAEFD7SR9)".
             Most people have words in their writing that can be removed without
             affecting comprehension or meaning.
 *   Do not take shortcuts at the cost of clarity. If you cut so many

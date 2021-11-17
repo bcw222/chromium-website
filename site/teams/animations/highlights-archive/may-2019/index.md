@@ -41,22 +41,22 @@ title: May 2019
 
 <td><td>Scroll Snap</td></td>
 
-<td><td>Scroll Snap is continuing to gain traction, with AirBnB being the latest partner to <a href="http://crbug.com/920482#c9">start using the feature</a> and Firefox <a href="https://bugzilla.mozilla.org/show_bug.cgi">continuing to implement</a> the new spec. On our side we have shifted into supporting the product: Majid (majidvp@) has been busy triaging bugs, addressing partner requests, and polishing the code.</td></td>
+<td><td>Scroll Snap is continuing to gain traction, with AirBnB being the latest partner to <a href="http://crbug.com/920482#c9">start using the feature</a> and Firefox <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1312165#c6">continuing to implement</a> the new spec. On our side we have shifted into supporting the product: Majid (majidvp@) has been busy triaging bugs, addressing partner requests, and polishing the code.</td></td>
 
 <td></tr></td>
 <td><tr></td>
 
-<td><td><a href="https://uma.googleplex.com/p/chrome/histograms"><img alt="image" src="https://lh6.googleusercontent.com/IUKoi9dwyyJhEUdaoyDeGdtFoKLI_WO1j-Bkzk1s7RxSaP9ZZYTk6ugL1KHylCTX2IE5K6Vc8zvKUpKocBFDwF48OQJatYnjlXsJSSukICRCRvLKb6q2vVaHw_SM40RBFyXQDBtm" height=113.00000000000003 width=283></a></td></td>
+<td><td><a href="https://uma.googleplex.com/p/chrome/histograms?endDate=20190515&dayCount=7&histograms=Blink.Animation.CompositedAnimationFailureReason&fixupData=true&showMax=true&filters=isofficial%2CEQ%2CTrue&implicitFilters=isofficial"><img alt="image" src="https://lh6.googleusercontent.com/IUKoi9dwyyJhEUdaoyDeGdtFoKLI_WO1j-Bkzk1s7RxSaP9ZZYTk6ugL1KHylCTX2IE5K6Vc8zvKUpKocBFDwF48OQJatYnjlXsJSSukICRCRvLKb6q2vVaHw_SM40RBFyXQDBtm" height=113.00000000000003 width=283></a></td></td>
 
 <td><td>Understanding performance better</td></td>
 
-<td><td>Stephen (smcgruer@) landed a new <a href="https://uma.googleplex.com/p/chrome/histograms/">UMA metric</a> this sprint to track why animations fail to run on the fast path. This allows the team to better understand where effort is needed to speed up existing animations on the web - vital for smoother user experiences.</td></td>
+<td><td>Stephen (smcgruer@) landed a new <a href="https://uma.googleplex.com/p/chrome/histograms/?endDate=20190519&dayCount=7&histograms=Blink.Animation.CompositedAnimationFailureReason&fixupData=true&showMax=true&filters=isofficial%2CEQ%2CTrue&implicitFilters=isofficial">UMA metric</a> this sprint to track why animations fail to run on the fast path. This allows the team to better understand where effort is needed to speed up existing animations on the web - vital for smoother user experiences.</td></td>
 
 <td><td><img alt="image" src="https://lh5.googleusercontent.com/z-ajU372TxKnGgMOwOSQa30PmFdlpv-ZAWn_gZBkcvv91oDDyy9-Bl3W3t3Wz76F7OXc-VG3wxCP9PjyxClhdVKJ_fju9h25ymlvF0X3iSQxTQNEvzGHRYOqClEi9F-tWHW2zBrp" height=237 width=203></td></td>
 
 <td><td>Smoothly animating Paint Worklets</td></td>
 
-<td><td>One of the key goals of the <a href="https://docs.google.com/document/d/1USTH2Vd4D2tALsvZvy4B2aWotKWjkCYP5m0g7b90RAU/edit">Off-Thread PaintWorklet</a> project is to enable smoothly animating Paint Worklets even when the main thread is busy. Xida (xidachen@) has been working on a <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1601334">prototype</a> of the Animation integration and this sprint was able to show smoothly animating, raster inducing (!) Paint Worklets even as the main thread janked.</td></td>
+<td><td>One of the key goals of the <a href="https://docs.google.com/document/d/1USTH2Vd4D2tALsvZvy4B2aWotKWjkCYP5m0g7b90RAU/edit?ts=5bb772e1#heading=h.2zu1g67jbavu">Off-Thread PaintWorklet</a> project is to enable smoothly animating Paint Worklets even when the main thread is busy. Xida (xidachen@) has been working on a <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1601334">prototype</a> of the Animation integration and this sprint was able to show smoothly animating, raster inducing (!) Paint Worklets even as the main thread janked.</td></td>
 
 <td></tr></td>
 <td></table></td>

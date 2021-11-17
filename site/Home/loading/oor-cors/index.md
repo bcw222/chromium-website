@@ -43,8 +43,8 @@ With the legacy CORS, [Resource Timing
 API](https://w3c.github.io/resource-timing/) counts CORS preflight request as a
 separate entry. But this is not aligned with the spec requirement. Once the
 OOR-CORS is rolled out, it does not. See [the relevant crbug
-entry](https://bugs.chromium.org/p/chromium/issues/detail) for detailed
-discussion.
+entry](https://bugs.chromium.org/p/chromium/issues/detail?id=982924) for
+detailed discussion.
 
 **Cross-origin redirects for &lt;img crossorigin=anonymous&gt; do not send
 Cookies any more**
@@ -136,7 +136,7 @@ your installed Chrome Extensions may cause the issue. You can disable each
 Chrome Extensions at chrome://extensions/ step by step to find the problematic
 one. Once you find the one, please report the issue to the Chrome Extensions
 developers. For enterprise users, there is a workaround,
-[CorsMitigationList](https://cloud.google.com/docs/chrome-enterprise/policies/).
+[CorsMitigationList](https://cloud.google.com/docs/chrome-enterprise/policies/?policy=CorsMitigationList).
 If you set this policy (empty list is also fine), all Chrome Extensions run in a
 compatible mode. This will cause small negative performance impact, but it will
 work.
@@ -145,17 +145,17 @@ If you are a bit familiar with CORS, you can do further debugging to have a
 crafted workaround or to find a solution. If you see CORS preflight failures in
 the logs, and you are sure that the target server does not handle CORS preflight
 correctly, you can craft the
-[CorsMitigationList](https://cloud.google.com/docs/chrome-enterprise/policies/)
+[CorsMitigationList](https://cloud.google.com/docs/chrome-enterprise/policies/?policy=CorsMitigationList)
 not to send a preflight request for such condition. You will put your seeing
 non-standard HTTP header name into the
-[CorsMitigationList](https://cloud.google.com/docs/chrome-enterprise/policies/).
+[CorsMitigationList](https://cloud.google.com/docs/chrome-enterprise/policies/?policy=CorsMitigationList).
 For instance, if the CORS preflight has the following line in the request
 header:
 
 > Access-Control-Request-Headers: my-auth,my-account
 
 adding "my-auth" and "my-account" into the
-[CorsMitigationList](https://cloud.google.com/docs/chrome-enterprise/policies/)
+[CorsMitigationList](https://cloud.google.com/docs/chrome-enterprise/policies/?policy=CorsMitigationList)
 will stop sending the CORS preflight for the case. Registered header names will
 be exempted from the CORS preflight condition checks as [CORS-safelisted request
 headers](https://fetch.spec.whatwg.org/#cors-safelisted-request-header). Note
@@ -172,14 +172,14 @@ Viewer](https://netlog-viewer.appspot.com/#import) is general purpose online
 tools to check details on the dump.
 
 The last resort for enterprise users is
-[CorsLegacyModeEnabled](https://cloud.google.com/docs/chrome-enterprise/policies/).
+[CorsLegacyModeEnabled](https://cloud.google.com/docs/chrome-enterprise/policies/?policy=CorsLegacyModeEnabled).
 It will allow you to use the legacy CORS instead of OOR-CORS. For other users,
 setting chrome://flags/#out-of-blink-cors to Disabled will have the same effect.
 But this option will be removed at Chrome m83. So please be careful about that.
 You should contact us through [this bug report
-link](https://bugs.chromium.org/p/chromium/issues/entry). Concrete repro steps
-or [NetLog dump](/for-testers/providing-network-details) will help us and make
-investigation smooth.
+link](https://bugs.chromium.org/p/chromium/issues/entry?components=Blink%3ESecurityFeature%3ECORS,Blink%3ELoader&cc=toyoshim@chromium.org).
+Concrete repro steps or [NetLog dump](/for-testers/providing-network-details)
+will help us and make investigation smooth.
 
 **WebView Specific Information**
 
@@ -210,11 +210,11 @@ article, [Remote Debugging
 Webviews](https://developers.google.com/web/tools/chrome-devtools/remote-debugging/webviews).
 
 **Bug Reports:** Please file a report from [this
-link](https://bugs.chromium.org/p/chromium/issues/entry) (Components:
-Blink&gt;SecurityFeatyre&gt;CORS, Blink&gt;Loader,Mobile&gt;WebView; CC:
-toyoshim@chromium.org). Early reports without strong confidence are welcomed as
-the team wants to get early feedback so that the team can provide a fixed binary
-ASAP.
+link](https://bugs.chromium.org/p/chromium/issues/entry?components=Blink%3ESecurityFeature%3ECORS,Blink%3ELoader,Mobile%3EWebView&cc=toyoshim@chromium.org)
+(Components: Blink&gt;SecurityFeatyre&gt;CORS,
+Blink&gt;Loader,Mobile&gt;WebView; CC: toyoshim@chromium.org). Early reports
+without strong confidence are welcomed as the team wants to get early feedback
+so that the team can provide a fixed binary ASAP.
 
 Information for Chrome Developers
 

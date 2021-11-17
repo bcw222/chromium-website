@@ -30,7 +30,8 @@ to fill in anything the report is missing. If you don’t have a particular buil
 on hand to perform the analysis against, you can leave a comment in the bug
 requesting that another team member assist in verifying it. The list of
 currently open security (modulo **Security-Severity-None**) bugs can be viewed
-with [this query](https://code.google.com/p/chromium/issues/list).
+with [this
+query](https://code.google.com/p/chromium/issues/list?can=2&q=Type%3DBug-Security+-Security_Severity%3DNone&sort=-secseverity&groupby=&colspec=ID+Pri+Area+Feature+Status+Summary+Modified+Owner+Mstone+OS+Secseverity+Reporter+Secimpacts).
 
 ### Security Features & Non-Vulnerabilities
 
@@ -129,8 +130,9 @@ be done by replying to your confirmation email). Once bug access is granted,
 you'll need to configure your account to get emailed on all inbound security
 bugs. You do this by adding **webkit-security-unassigned@lists.webkit.org** to
 the **User Watching** section on the [Email
-Preferences](https://bugs.webkit.org/userprefs.cgi) tab on WebKit's bugzilla.
-(You'll probably want to create a Gmail filter on these messages as well.)
+Preferences](https://bugs.webkit.org/userprefs.cgi?tab=email) tab on WebKit's
+bugzilla. (You'll probably want to create a Gmail filter on these messages as
+well.)
 
 **Landing WebKit Patches**
 
@@ -164,10 +166,11 @@ appropriate area/feature labels, and set the status to “Untriaged.”
 
 The shepherding process starts with finding an owner for a bug. If you have
 access to security bugs, you can find a list of all open security bugs without
-an owner [here](http://code.google.com/p/chromium/issues/list). When analysing a
-bug for triage you’ll often find that you can work out a solution yourself. If
-that’s the case and you have time to develop a patch, then this is usually the
-most expedient solution to getting a fix out.
+an owner
+[here](http://code.google.com/p/chromium/issues/list?can=2&q=Type%3DBug-Security+-Security_SecSeverity%3DNone+-has%3Aowner&sort=-security_secseverity&colspec=ID+Pri+Area+Feature+Status+Summary+Modified+Owner+Mstone+OS+Secseverity&x=mstone&y=area&cells=tiles).
+When analysing a bug for triage you’ll often find that you can work out a
+solution yourself. If that’s the case and you have time to develop a patch, then
+this is usually the most expedient solution to getting a fix out.
 
 For bugs that you can’t fix yourself, you’ll need to find an owner. If you don’t
 know who to assign a bug to, it’s often best to start by asking other members of
@@ -237,8 +240,9 @@ verify that the **ReleaseBlock-Stable** flag is present.
 ### Updating and Release Notes
 
 After a patch has been landed (and potentially merged) you’ll need to update the
-[security release document](https://docs.google.com/a/google.com/Doc), which is
-used for tracking security bugs for release notes.
+[security release
+document](https://docs.google.com/a/google.com/Doc?docid=0AUtTDLyP_VtYY2dxczZrNHpfODhzajZzbWd6&hl=en),
+which is used for tracking security bugs for release notes.
 
 ### Vulnerability Rewards Nomination
 

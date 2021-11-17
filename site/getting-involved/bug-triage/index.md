@@ -22,8 +22,9 @@ so that you can do even more.
 ## Finding duplicates
 
 Many of the bugs that are filed are duplicates of existing bugs. Look through
-the [unconfirmed bugs](http://code.google.com/p/chromium/issues/list) for any
-that are already filed.
+the [unconfirmed
+bugs](http://code.google.com/p/chromium/issues/list?can=2&q=status:unconfirmed&sort=-id&colspec=ID%20Stars%20Area%20Feature%20Status%20Summary%20Modified%20OS)
+for any that are already filed.
 
 *   If you can edit bugs: Close the new bug as a duplicate of the
             existing bug. If there are several new duplicates of each other with
@@ -48,8 +49,8 @@ something is clearly a feature request, rather than a bug report, you should
 skip this step.
 
 Look through the [unconfirmed
-bugs](http://code.google.com/p/chromium/issues/list) for reports that nobody has
-tried to reproduce.
+bugs](http://code.google.com/p/chromium/issues/list?can=2&q=status:unconfirmed&sort=-id&colspec=ID%20Stars%20Area%20Feature%20Status%20Summary%20Modified%20OS)
+for reports that nobody has tried to reproduce.
 
 *   If you can reproduce the bug:
     *   Leave a comment saying so, and include your Chromium version and
@@ -122,8 +123,9 @@ For bugs that are about compatibility with specific sites, creating a reduced
 test case is extremely helpful. If you are familiar with HTML, CSS, and/or
 Javascript, this is a great way to use your skills to help improve Chromium.
 
-Look through the [Compat](http://code.google.com/p/chromium/issues/list) bugs
-for issues that haven’t already been tracked down to a specific problem—the
+Look through the
+[Compat](http://code.google.com/p/chromium/issues/list?can=2&q=area:compat&sort=-id&colspec=ID%20Stars%20Pri%20Area%20Feature%20Type%20Status%20Summary%20Modified%20Owner%20Mstone%20OS)
+bugs for issues that haven’t already been tracked down to a specific problem—the
 Needs-Reduction label is helpful in finding these, but it doesn’t always get
 added. Once you can reproduce a problem, [try to
 isolate](/system/errors/NodeNotFound) exactly what in the

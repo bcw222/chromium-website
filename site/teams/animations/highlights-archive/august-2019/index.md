@@ -46,7 +46,7 @@ title: August 2019
 
 <td><td>Smooth Paint Worklet animations</td></td>
 
-<td><td>An important goal of the <a href="https://docs.google.com/document/d/1USTH2Vd4D2tALsvZvy4B2aWotKWjkCYP5m0g7b90RAU/edit">Off-thread PaintWorklet</a> project is being able to animate Paint Worklets on the compositor thread. This keeps them smooth even if the main thread is busy. As of our most recent sprint, this is now working (behind a flag) in the latest Chromium code! The example above shows that the animation is smooth (left-hand side) with the flag turned on, and less smooth (right-hand side) with the flag off.</td></td>
+<td><td>An important goal of the <a href="https://docs.google.com/document/d/1USTH2Vd4D2tALsvZvy4B2aWotKWjkCYP5m0g7b90RAU/edit?ts=5bb772e1#heading=h.2zu1g67jbavu">Off-thread PaintWorklet</a> project is being able to animate Paint Worklets on the compositor thread. This keeps them smooth even if the main thread is busy. As of our most recent sprint, this is now working (behind a flag) in the latest Chromium code! The example above shows that the animation is smooth (left-hand side) with the flag turned on, and less smooth (right-hand side) with the flag off.</td></td>
 
 <td></tr></td>
 <td><tr></td>
@@ -62,7 +62,7 @@ title: August 2019
 <td></tr></td>
 <td></table></td>
 
-<td><a href="https://www.lucidchart.com/documents/edit/069541b2-a5d7-4b5f-89f3-56455afac3f3/0"><img alt="image" src="https://lh5.googleusercontent.com/h1XoTiLsay-bJT3_4WgJYlI7xCNMbSjeppOoc04D-JAZ-d3JInkO3NQcRt13bDSifCULj3olIczD_QH9d9XEg29oG6TlP285eaX8ebrPOJeXhoGKAxG5egQ6VJ9G9Upg1wgAqiGJ" height=394.6268181818181 width=511></a></td>
+<td><a href="https://www.lucidchart.com/documents/edit/069541b2-a5d7-4b5f-89f3-56455afac3f3/0?callback=close&name=docs&callback_type=back&v=972&s=660"><img alt="image" src="https://lh5.googleusercontent.com/h1XoTiLsay-bJT3_4WgJYlI7xCNMbSjeppOoc04D-JAZ-d3JInkO3NQcRt13bDSifCULj3olIczD_QH9d9XEg29oG6TlP285eaX8ebrPOJeXhoGKAxG5egQ6VJ9G9Upg1wgAqiGJ" height=394.6268181818181 width=511></a></td>
 
 <td>Figure that shows how the verification of hit test result works and how it does not work</td>
 

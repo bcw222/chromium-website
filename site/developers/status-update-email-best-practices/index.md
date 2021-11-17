@@ -30,7 +30,7 @@ Bluetooth GATT Access to web apps.
 *   Additional [launch
             requirements](https://www.chromestatus.com/feature/5264933985976320)
             have moved the planned experiment launch from M50 to M51.
-    *   [Issues](https://bugs.chromium.org/p/chromium/issues/list)
+    *   [Issues](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=component%3ABlink%3EBluetooth+M%3D51&sort=pri&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids)
                 include tab indicator and fuzzing. Additional feature
                 improvements are stretch goals to improve demos.
 *   Started migration to Mojo, and eventual migration to Blink.

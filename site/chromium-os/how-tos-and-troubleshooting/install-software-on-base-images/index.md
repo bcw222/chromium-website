@@ -125,8 +125,8 @@ and assume they are installed while resolving dependencies
 
 ## Known bugs
 
-[label:dev_install](http://code.google.com/p/chromium/issues/list) on
-[crbug.com](https://crbug.com/)
+[label:dev_install](http://code.google.com/p/chromium/issues/list?q=label%3Adev_install)
+on [crbug.com](https://crbug.com/)
 
 ## Who to contact for more info (@chromium)
 

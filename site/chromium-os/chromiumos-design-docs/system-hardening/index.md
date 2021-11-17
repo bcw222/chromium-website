@@ -106,17 +106,17 @@ capabilities](http://www.ibm.com/developerworks/aix/library/l-posixcap.html).
 Privileges that were once limited to uid=0 are now available in a coarse-grained
 fashion using runtime and file system (extended attribute)-based labeling. In
 addition, process tree capabilities inheritance is possible with a [lightweight
-kernel patch](http://marc.info/). With file system capabilities enabled,
-specific process trees can also disable uid=0 from having any default privilege
-(other than that granted by file system permissions) using the securebits
-SECURE_NOROOT and SECURE_NO_SETUID_FIXUP. All processes in the subtree could
-then be locked into this pure capability-based superuser privilege mode barring
-a kernel privilege escalation vulnerability. All capabilities are broken into
-effective, permitted, and inherited sets, which can be applied to a file or
-process. In addition, processes all have a starting bounding set that places an
-upper limit on which capabilities can be used, even if in one of the other sets.
-At present, we're not aware of any Linux distributions that make heavy use of
-capabilities.
+kernel patch](http://marc.info/?l=linux-kernel&m=125026482525494&w=2). With file
+system capabilities enabled, specific process trees can also disable uid=0 from
+having any default privilege (other than that granted by file system
+permissions) using the securebits SECURE_NOROOT and SECURE_NO_SETUID_FIXUP. All
+processes in the subtree could then be locked into this pure capability-based
+superuser privilege mode barring a kernel privilege escalation vulnerability.
+All capabilities are broken into effective, permitted, and inherited sets, which
+can be applied to a file or process. In addition, processes all have a starting
+bounding set that places an upper limit on which capabilities can be used, even
+if in one of the other sets. At present, we're not aware of any Linux
+distributions that make heavy use of capabilities.
 
 [Linux Security Modules](http://lwn.net/Articles/154277/) (LSM) is a subsystem
 of the Linux Kernel Modules that implements a number of kernel task-based hooks.
@@ -188,7 +188,7 @@ perform a range of behaviors when launching a new executable:
     *   Will support net namespacing (for locking down network
                 interfaces w/veth)
 *   A generic [suid
-            sandbox](http://src.chromium.org/viewvc/chrome/trunk/src/sandbox/linux/suid/sandbox.c)
+            sandbox](http://src.chromium.org/viewvc/chrome/trunk/src/sandbox/linux/suid/sandbox.c?revision=25019&view=markup)
             (using the features above)
 
 The final implementation should include a standalone library, libminijail, and a

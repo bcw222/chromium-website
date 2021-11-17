@@ -54,7 +54,7 @@ instead.
 
 Any implementation of Chromium's cache exposes two interfaces:
 disk_cache::Backend and disk_cache::Entry. (see
-[src/net/disk_cache/disk_cache.h](http://src.chromium.org/viewvc/chrome/trunk/src/net/disk_cache/disk_cache.h)).
+[src/net/disk_cache/disk_cache.h](http://src.chromium.org/viewvc/chrome/trunk/src/net/disk_cache/disk_cache.h?view=markup)).
 The Backend provides methods to enumerate the resources stored on the cache
 (a.k.a Entries), open old entries or create new ones etc. Operations specific to
 a given resource are handled with the Entry interface.
@@ -104,7 +104,7 @@ while at the same time keeping frequently modified data together, so that we can
 leverage the underlying operating system to reduce access latency.
 
 The structure of a cache address is defined on
-[disk_cache/addr.h](http://src.chromium.org/viewvc/chrome/trunk/src/net/disk_cache/addr.h),
+[disk_cache/addr.h](http://src.chromium.org/viewvc/chrome/trunk/src/net/disk_cache/addr.h?view=markup),
 and basically tells if the required data is stored inside a block-file or as a
 separate file and the number of the file (block file or otherwise). If the data
 is part of a block-file, the cache address also has the number of the first
@@ -122,7 +122,7 @@ length.
 ### Index File Structure
 
 The index file structure is specified on
-[disk_cache/disk_format.h.](http://src.chromium.org/viewvc/chrome/trunk/src/net/disk_cache/disk_format.h)
+[disk_cache/disk_format.h.](http://src.chromium.org/viewvc/chrome/trunk/src/net/disk_cache/disk_format.h?view=markup)
 Basically, it is just an disk_cache::IndexHeader structure followed by the
 actual hash table. The number of entries in the table is at least
 disk_cache::kIndexTablesize (65536), but the actual size is controlled by the
@@ -143,7 +143,7 @@ means that the format is now incompatible with older formats.
 ### Block File Structure
 
 The block-file structure is specified on
-[disk_cache/disk_format.h](http://src.chromium.org/viewvc/chrome/trunk/src/net/disk_cache/disk_format.h).
+[disk_cache/disk_format.h](http://src.chromium.org/viewvc/chrome/trunk/src/net/disk_cache/disk_format.h?view=markup).
 Basically, it is just a file header (disk_cache::BlockFileHeader) followed by a
 variable number of fixed-size data blocks. Block files are named data_n, where n
 is the decimal file number.
@@ -250,7 +250,7 @@ if the application crashes it will be quite difficult to extract any information
 that was accessed while browsing in that mode.
 
 There are a few different types of caches (see
-[net/base/cache_type.h](http://src.chromium.org/viewvc/chrome/trunk/src/net/base/cache_type.h)),
+[net/base/cache_type.h](http://src.chromium.org/viewvc/chrome/trunk/src/net/base/cache_type.h?view=markup)),
 mainly defined by their intended use: there is a media specific cache, the
 general purpose disk cache, and another one that serves as the back end storage
 for AppCache, in addition to the in-memory type already mentioned. All types of
@@ -289,7 +289,7 @@ find code like entry-&gt;rankings()-&gt;Store().
 Support for the eviction algorithm of the cache is implemented on
 disk_cache/rankings (and mem_rankings for the in-memory one), and the eviction
 itself is implemented on
-[disk_cache/eviction](http://src.chromium.org/viewvc/chrome/trunk/src/net/disk_cache/eviction.cc).
+[disk_cache/eviction](http://src.chromium.org/viewvc/chrome/trunk/src/net/disk_cache/eviction.cc?view=markup).
 Right now we have a simple Least Recently Used algorithm that just starts
 deleting old entries once a certain limit is exceeded, and a second algorithm
 that takes reuse and age into account before evicting an entry. We also have the
@@ -339,7 +339,7 @@ one for the newly created one.
 ### Enumerations
 
 A good example of enumerating the entries stored by the cache is located at
-[src/net/url_request/url_request_view_cache_job.cc](http://src.chromium.org/viewvc/chrome/trunk/src/net/url_request/url_request_view_cache_job.cc)
+[src/net/url_request/url_request_view_cache_job.cc](http://src.chromium.org/viewvc/chrome/trunk/src/net/url_request/url_request_view_cache_job.cc?view=markup)
 . It should be noted that this interface is not making any statements about the
 order in which the entries are enumerated, so it is not a good idea to make
 assumptions about it. Also, it could take a long time to go through all the info

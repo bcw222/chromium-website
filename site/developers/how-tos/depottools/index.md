@@ -77,7 +77,7 @@ commands! If the doc is not adequate, send patches to fix them.
     *   It works for subcommands too like: git-cl help patch
 
 Otherwise, there are
-[many](http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/app_notepad.mspx)
+[many](http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/app_notepad.mspx?mfr=true)
 [great](https://www.vim.org/) [text](https://www.gnu.org/software/emacs/)
 [editors](https://notepad-plus-plus.org/) that can help you out to read what the
 tools are actually doing.

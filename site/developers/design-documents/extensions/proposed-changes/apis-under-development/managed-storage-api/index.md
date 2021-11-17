@@ -121,7 +121,7 @@ This proposal involves a backend modification and an extension to the existing
 
 On the backend, a new storage API implementation will be added that pulls values
 from the [policy
-service](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/browser/policy/policy_service.h)
+service](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/browser/policy/policy_service.h?view=markup)
 for the particular extension, when available. These values are exposed in the
 'managed' namespace. The 'managed' namespace is similar to 'local' and 'sync',
 but is a read-only namespace.

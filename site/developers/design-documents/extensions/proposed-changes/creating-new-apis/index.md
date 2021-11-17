@@ -379,7 +379,7 @@ tests.
             chrome/browser/extensions/extension_function_test_utils.h. Hopefully
             it meets your needs.
 *   If not, there is the older [API
-            tests](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/test/data/extensions/api_test/README.txt)
+            tests](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/test/data/extensions/api_test/README.txt?view=markup)
             for integration tests.
 
 **Iterating**

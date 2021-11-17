@@ -10,7 +10,7 @@ title: SummerOfCode2013
 
 Add your ideas below with your name as a possible mentor. [Register with GSOC as
 a
-mentor](https://google-melange.appspot.com/gsoc/profile/mentor/google/gsoc2013)
+mentor](https://google-melange.appspot.com/gsoc/profile/mentor/google/gsoc2013?org=chromium)
 using your chromium.org account.
 
 **Students**
@@ -69,7 +69,7 @@ also. The best language for the tests is probably Python.
 **Your own idea!**
 
 If you have an idea you would like to propose, email
-[chromium-dev](https://groups.google.com/a/chromium.org/group/chromium-dev/topics)
+[chromium-dev](https://groups.google.com/a/chromium.org/group/chromium-dev/topics?pli=1)
 with the following:
 
 *   Your name

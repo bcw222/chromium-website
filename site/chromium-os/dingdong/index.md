@@ -32,8 +32,9 @@ It provides the following features:
 ### [<img alt="image" src="/chromium-os/dingdong/DingDong%20Block%20Diagram.png"
 height=400 width=377>](/chromium-os/dingdong/DingDong%20Block%20Diagram.png)
 
-For schematics, [click here](https://docs.google.com/a/chromium.org/viewer) or
-see the attached file.
+For schematics, [click
+here](https://docs.google.com/a/chromium.org/viewer?a=v&pid=sites&srcid=Y2hyb21pdW0ub3JnfGRldnxneDo3MWY0NGE4NGM4MjBiYTIy)
+or see the attached file.
 
 ## Firmware Source Code
 

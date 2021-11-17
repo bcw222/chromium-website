@@ -50,27 +50,27 @@ from no such limitations.
 
 *   [SIGCOMM 2017 Paper](https://research.google/pubs/pub46403/)
 *   [QUIC
-            overview](https://docs.google.com/document/d/1gY9-YNDNAB1eip-RTPbqphgySwSNSDHLq9D5Bty4FSU/edit)
+            overview](https://docs.google.com/document/d/1gY9-YNDNAB1eip-RTPbqphgySwSNSDHLq9D5Bty4FSU/edit?usp=sharing)
 *   [QUIC FAQ](/quic/quic-faq)
 *   [A Guide to Parsing QUIC Client Hellos for Network Middlebox
             Vendors](https://docs.google.com/document/d/1GV2j-PGl7YGFqmWbYvzu7-UNVIpFdbprtmN9tt6USG8/preview)
 *   [Legacy QUIC wire specification (versions up to and including
-            Q043)](https://docs.google.com/document/d/1WJvyZflAO2pq77yOLbp9NsGjC1CHetAXV8I0fQe-B_U/edit)
+            Q043)](https://docs.google.com/document/d/1WJvyZflAO2pq77yOLbp9NsGjC1CHetAXV8I0fQe-B_U/edit?usp=sharing)
 *   [Legacy QUIC wire specification (versions from Q044 to Q048
-            inclusive)](https://docs.google.com/document/d/1FcpCJGTDEMblAs-Bm5TYuqhHyUqeWpqrItw2vkMFsdY/edit)
+            inclusive)](https://docs.google.com/document/d/1FcpCJGTDEMblAs-Bm5TYuqhHyUqeWpqrItw2vkMFsdY/edit?usp=sharing)
 *   [Cleartext QUIC wire specification (versions Q049 and
             above)](https://tools.ietf.org/html/draft-ietf-quic-invariants-07)
 *   [QUIC crypto design
-            doc](https://docs.google.com/document/d/1g5nIXAIkN_Y-7XJW5K45IblHd_L2f5LTaDUDwvZ5L6g/edit)
+            doc](https://docs.google.com/document/d/1g5nIXAIkN_Y-7XJW5K45IblHd_L2f5LTaDUDwvZ5L6g/edit?usp=sharing)
 *   [Getting started with the QUIC toy client and
             server](/quic/playing-with-quic)
-*   [QUIC tech talk](https://www.youtube.com/watch)
+*   [QUIC tech talk](https://www.youtube.com/watch?v=hQZ-0mXFmk8)
 *   [QUIC
-            Discovery](https://docs.google.com/document/d/1i4m7DbrWGgXafHxwl8SwIusY2ELUe8WX258xt2LFxPM/edit)
+            Discovery](https://docs.google.com/document/d/1i4m7DbrWGgXafHxwl8SwIusY2ELUe8WX258xt2LFxPM/edit?usp=sharing)
 *   [QUIC FEC v1
-            (deprecated)](https://docs.google.com/document/d/1Hg1SaLEl6T4rEU9j-isovCo8VEjjnuCPTcLNJewj7Nk/edit)
+            (deprecated)](https://docs.google.com/document/d/1Hg1SaLEl6T4rEU9j-isovCo8VEjjnuCPTcLNJewj7Nk/edit?usp=sharing)
 *   [QUIC flow
-            control](https://docs.google.com/document/d/1F2YfdDXKpy20WVKJueEf4abn_LVZHhMUMS5gX6Pgjl4/edit)
+            control](https://docs.google.com/document/d/1F2YfdDXKpy20WVKJueEf4abn_LVZHhMUMS5gX6Pgjl4/edit?usp=sharing)
 
 **Pre-Working Group IETF Material**
 
@@ -79,22 +79,22 @@ from no such limitations.
     *   [QUIC Protocol
                 Overview](https://www.ietf.org/proceedings/96/slides/slides-96-quic-5.pdf)
 *   Presentations from the IETF-93 (Prague) BarBoF on QUIC
-            ([Video](http://recordings.conf.meetecho.com/Playout/watch.jsp))
-    *   [Introduction](https://docs.google.com/presentation/d/15bnWhEBVRVZDO5up7UTpZU-o6jPOfGU4fT5JlBZ7-Cs/edit)
+            ([Video](http://recordings.conf.meetecho.com/Playout/watch.jsp?recording=IETF93_QUIC&chapter=BAR_BOF))
+    *   [Introduction](https://docs.google.com/presentation/d/15bnWhEBVRVZDO5up7UTpZU-o6jPOfGU4fT5JlBZ7-Cs/edit?usp=sharing)
     *   [QUIC Protocol
-                Overview](https://docs.google.com/presentation/d/15e1bLKYeN56GL1oTJSF9OZiUsI-rcxisLo9dEyDkWQs/edit)
+                Overview](https://docs.google.com/presentation/d/15e1bLKYeN56GL1oTJSF9OZiUsI-rcxisLo9dEyDkWQs/edit?usp=sharing)
     *   [Implementing QUIC For Fun And
-                Learning](https://docs.google.com/presentation/d/1BjPUowoOoG0ywmq5r8QNqnC9JPELUe02jvgyoOW3HFw/edit)
+                Learning](https://docs.google.com/presentation/d/1BjPUowoOoG0ywmq5r8QNqnC9JPELUe02jvgyoOW3HFw/edit?usp=sharing)
                 (Christian Huitema, Microsoft)
     *   [QUIC Congestion Control and Loss
-                Recovery](https://docs.google.com/presentation/d/1T9GtMz1CvPpZtmF8g-W7j9XHZBOCp9cu1fW0sMsmpoo/edit)
+                Recovery](https://docs.google.com/presentation/d/1T9GtMz1CvPpZtmF8g-W7j9XHZBOCp9cu1fW0sMsmpoo/edit?usp=sharing)
 *   Initial Presentation at IETF-88
             ([Slides](https://www.ietf.org/proceedings/88/slides/slides-88-tsvarea-10.pdf))
 
 Video
 
 *   [QUIC Connection Migration
-            demo](https://drive.google.com/file/d/1DlMI_3MOxnWarvEVfzKxFqmD7c-u1cYG/view)
+            demo](https://drive.google.com/file/d/1DlMI_3MOxnWarvEVfzKxFqmD7c-u1cYG/view?usp=sharing)
 
 Code
 

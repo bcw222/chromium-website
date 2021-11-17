@@ -46,7 +46,7 @@ title: Tree Sheriffs
 
 *   ## To join, leave, or request other membership modifications to a
             sheriff rotation, file a bug
-            [here](https://bugs.chromium.org/p/chromium/issues/entry).
+            [here](https://bugs.chromium.org/p/chromium/issues/entry?summary=Sheriff+rotation%3A+%24ADD_OR_REMOVE_USER&comment=What+modifications+to+a+sheriff+rotation+would+you+like+made%3F%0D%0A%0D%0AWhich+sheriff+rotation%3F&labels=Restrict-View-Google%2CPri-2%2CSheriff-Rotation-Chromium%2CLT-Trooper&cc=benhenry%40chromium.org%2Cefoo%40chromium.org&status=Untriaged&components=Infra%3ESheriffing%3ERotations).
 *   ## Specify the Sheriff rotation you would like to join in the
             description of the bug filed.
 

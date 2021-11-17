@@ -217,12 +217,12 @@ davidben)**
             Didn't have time to tackle the major items such as thread-safe
             certificate cache and certificate verification result cache.
 *   [Certificate enrollment with the HTML &lt;keygen&gt;
-            tag](http://code.google.com/p/chromium/issues/detail). -- 0.7.
-            davidben added UI and fixed many bugs in certificate enrollment.
-            Remaining work is to [support all formats of
+            tag](http://code.google.com/p/chromium/issues/detail?id=148). --
+            0.7. davidben added UI and fixed many bugs in certificate
+            enrollment. Remaining work is to [support all formats of
             application/x-x509-user-cert
-            responses](http://code.google.com/p/chromium/issues/detail), and
-            then to test with various CAs.
+            responses](http://code.google.com/p/chromium/issues/detail?id=37142),
+            and then to test with various CAs.
 
 **Feature work on download handling (ahendrickson)**
 
@@ -238,13 +238,14 @@ davidben)**
 *   Implement alternate eviction algorithm and measure impact (to reduce
             the cookies evicted while browsing). -- 1
 *   (Stretch) [Restrict access of CookieMonster to IO
-            Thread](http://code.google.com/p/chromium/issues/detail). -- 0
+            Thread](http://code.google.com/p/chromium/issues/detail?id=44083).
+            -- 0
 
 **URL Prefetching (gavinp)**
 
 *   [Implement link
-            rel=prefetch](http://code.google.com/p/chromium/issues/detail) and
-            measure impact. -- 1.0; implemented, measurement shows 10%
+            rel=prefetch](http://code.google.com/p/chromium/issues/detail?id=13505)
+            and measure impact. -- 1.0; implemented, measurement shows 10%
             improvement of PLT
 *   Implement link HTTP headers and measure impact. -- 0.5; preliminary
             code reviews sent out.
@@ -254,18 +255,21 @@ davidben)**
 *   Simultaneous streaming readers on ranges in a cache entry (to
             support video prefetch for YouTube). -- 0
 *   Experiment with [request throttling at the cache
-            layer](http://code.google.com/p/chromium/issues/detail) -- 1.0
+            layer](http://code.google.com/p/chromium/issues/detail?id=10727) --
+            1.0
 
 **HTTP authentication (cbentzel)**
 
 *   Integrated Authentication on all platforms. -- 0.9; NTLM on
             Linux/OSX not supported without auth prompt.
 *   Add full proxy authentication support to
-            [SocketStream](http://code.google.com/p/chromium/issues/detail) and
-            [SPDY](http://code.google.com/p/chromium/issues/detail). -- 0
-*   [System level tests for
-            NTLM/Negotiate](http://code.google.com/p/chromium/issues/detail). --
+            [SocketStream](http://code.google.com/p/chromium/issues/detail?id=47069)
+            and
+            [SPDY](http://code.google.com/p/chromium/issues/detail?id=46620). --
             0
+*   [System level tests for
+            NTLM/Negotiate](http://code.google.com/p/chromium/issues/detail?id=35021).
+            -- 0
 
 **Simulated Network Tester (cbentzel, klm, tonyg)**
 
@@ -290,11 +294,11 @@ davidben)**
 **Proxy handling**
 
 *   [Extension API for changing proxy
-            settings](http://code.google.com/p/chromium/issues/detail) (pamg) --
-            0.5
+            settings](http://code.google.com/p/chromium/issues/detail?id=48930)
+            (pamg) -- 0.5
 *   [Execute PAC scripts out of
-            process](http://code.google.com/p/chromium/issues/detail) (eroman)
-            -- 0; punted
+            process](http://code.google.com/p/chromium/issues/detail?id=11746)
+            (eroman) -- 0; punted
 
 **Implement HTTP pipelining (vandebo)**
 
@@ -304,15 +308,16 @@ davidben)**
 
 *   Support the WebTiming spec. -- 1.0; landed in Chrome 6.
 *   [Enable persisting disk cache of pre-parsed
-            javascript](http://code.google.com/p/chromium/issues/detail). -- 0
+            javascript](http://code.google.com/p/chromium/issues/detail?id=32407).
+            -- 0
 *   Pass all of the BrowserScope tests -- 0.9; ToT chromium scores
             91/100 on the tests
 
 **SafeBrowsing (lzheng)**
 
 *   [Add end to end tests for
-            safe-browsing](http://code.google.com/p/chromium/issues/detail) --
-            1.0
+            safe-browsing](http://code.google.com/p/chromium/issues/detail?id=47318)
+            -- 1.0
 *   Extract the safe browsing code to its own library that can be
             re-used by other projects -- 0
 
@@ -328,8 +333,8 @@ in red.
 #### #### Run PAC scripts out of process
 
 #### [Move the evaluation of proxy auto-config scripts out of the browser
-process](http://code.google.com/p/chromium/issues/detail) to a sandboxed process
-for better security. (eroman)
+process](http://code.google.com/p/chromium/issues/detail?id=11746) to a
+sandboxed process for better security. (eroman)
 
 #### Ended up doing multi-threaded PAC execution instead, to address performance
 problems associated with speculative requests + slow DNS (crbug.com/11079)
@@ -337,8 +342,8 @@ problems associated with speculative requests + slow DNS (crbug.com/11079)
 #### Cache pre-parsed JavaScript
 
 The work on the HTTP cache side is done. Need to write the code for [WebKit and
-V8 use the interface](http://code.google.com/p/chromium/issues/detail) and
-measure the performance impact. (tonyg, rvargas)
+V8 use the interface](http://code.google.com/p/chromium/issues/detail?id=32407)
+and measure the performance impact. (tonyg, rvargas)
 
 Done. M6 has pre-parsed JS in the memory cache ON by default. It has pre-parsed
 JS in the disk cache is OFF by default (--enable-preparsed-js-caching).
@@ -347,16 +352,16 @@ JS in the disk cache is OFF by default (--enable-preparsed-js-caching).
 
 Use NSS for SSL on Windows by default. We need to modify NSS to [use Windows
 CryptoAPI for SSL client
-authentication](http://code.google.com/p/chromium/issues/detail). (wtc)
+authentication](http://code.google.com/p/chromium/issues/detail?id=37560). (wtc)
 
 Done. NSS is being used for SSL on all platforms.
 
 #### Improve the network error page
 
 The network error page should [help the user diagnose and fix the
-problem](http://code.google.com/p/chromium/issues/detail) (see also [issue
-18673](http://code.google.com/p/chromium/issues/detail)), rather than merely
-displaying a network error code. (eroman, jar, jcivelli)
+problem](http://code.google.com/p/chromium/issues/detail?id=40431) (see also
+[issue 18673](http://code.google.com/p/chromium/issues/detail?id=18673)), rather
+than merely displaying a network error code. (eroman, jar, jcivelli)
 
 The UI of the error page has not been improved, however some user-level
 connectivity tests have been added to help diagnose when a chronic network error
@@ -365,19 +370,21 @@ is happening (chrome://net-internals/#tests).
 #### #### Implement SSLClientSocketPool
 
 #### This allows us to implement [late binding of SSL
-sockets](http://code.google.com/p/chromium/issues/detail) and is a prerequisite
-refactor for speculative SSL pre-connection and pipelining. (vandebo)
+sockets](http://code.google.com/p/chromium/issues/detail?id=30357) and is a
+prerequisite refactor for speculative SSL pre-connection and pipelining.
+(vandebo)
 
 #### Done.
 
 #### #### HTTP authentication
 
 *   #### Implement the [Negotiate (SPNEGO) authentication scheme on
-            Linux and Mac](http://code.google.com/p/chromium/issues/detail)
-            using GSS-API. (ahendrickson)
+            Linux and
+            Mac](http://code.google.com/p/chromium/issues/detail?id=33033) using
+            GSS-API. (ahendrickson)
     #### Almost completed.
 *   #### Create [system-level tests for NTLM and Negotiate
-            authentication](http://code.google.com/p/chromium/issues/detail).
+            authentication](http://code.google.com/p/chromium/issues/detail?id=35021).
             (cbentzel)
     #### Hasn't been started yet.
 
@@ -392,9 +399,10 @@ refactor for speculative SSL pre-connection and pipelining. (vandebo)
             hit/miss rates, including "near misses". (rvargas)
     #### Still needs investigation.
 *   #### Make the [HTTP
-            cache](http://code.google.com/p/chromium/issues/detail) and [disk
-            cache](http://code.google.com/p/chromium/issues/detail) fully
-            asynchronous. Right now the HTTP cache is serving the metadata
+            cache](http://code.google.com/p/chromium/issues/detail?id=26729) and
+            [disk
+            cache](http://code.google.com/p/chromium/issues/detail?id=26730)
+            fully asynchronous. Right now the HTTP cache is serving the metadata
             synchronously, which may block the IO thread.
     #### Done.
 *   #### Throttle the requests.
@@ -404,7 +412,8 @@ refactor for speculative SSL pre-connection and pipelining. (vandebo)
 #### Network internals instrumentation, logging, and diagnostics
 
 *   [Create a chrome://net page for debugging the network
-            stack](http://code.google.com/p/chromium/issues/detail). (eroman)
+            stack](http://code.google.com/p/chromium/issues/detail?id=37421).
+            (eroman)
     *   This will replace about:net-internals and about:net.
     *   Allow tracing of network requests and their internal states.
     *   Diagnosing performance problems.
@@ -444,7 +453,8 @@ This is a stretch goal because we may not have time to work on this in Q2.
             AI_ADDRCONFIG and when to pass AF_INET to getaddrinfo, so we get the
             best host name resolution performance. (jar)
 *   Implement IPv6 extensions to
-            [FTP](http://code.google.com/p/chromium/issues/detail). (gavinp)
+            [FTP](http://code.google.com/p/chromium/issues/detail?id=35050).
+            (gavinp)
     Done. Support for EPSV.
 
 #### Speculative TCP pre-connection
@@ -469,24 +479,24 @@ these flags:
 #### Improve WebKit resource loading
 
 Improve resource loading so we can pass all of the [network tests on
-Browserscope](http://www.browserscope.org/) (Chromium issues
-[13505](http://code.google.com/p/chromium/issues/detail),
-[40014](http://code.google.com/p/chromium/issues/detail),
-[40019](http://code.google.com/p/chromium/issues/detail) and WebKit [bug
-20710](https://bugs.webkit.org/show_bug.cgi)). Most of the work will be in
-WebKit. (gavinp, tonyg).
+Browserscope](http://www.browserscope.org/?category=network&v=top) (Chromium
+issues [13505](http://code.google.com/p/chromium/issues/detail?id=13505),
+[40014](http://code.google.com/p/chromium/issues/detail?id=40014),
+[40019](http://code.google.com/p/chromium/issues/detail?id=40019) and WebKit
+[bug 20710](https://bugs.webkit.org/show_bug.cgi?id=20710)). Most of the work
+will be in WebKit. (gavinp, tonyg).
 
 Work in progress.
 
 #### #### Certificate UI
 
 *   #### [Linux certificate management
-            UI](http://code.google.com/p/chromium/issues/detail). (summer
-            intern?)
+            UI](http://code.google.com/p/chromium/issues/detail?id=19991).
+            (summer intern?)
     #### Work in progress.
 *   #### UI for [&lt;keygen&gt; certificate
-            enrollment](http://code.google.com/p/chromium/issues/detail) on
-            Linux and Windows: right now &lt;keygen&gt; finishes silently.
+            enrollment](http://code.google.com/p/chromium/issues/detail?id=148)
+            on Linux and Windows: right now &lt;keygen&gt; finishes silently.
             (summer intern?)
     #### Work in progress by summer intern.
 
@@ -514,13 +524,13 @@ Work in progress.
 test coverage helps bring up new ports. In addition, any bugs that get fixed
 should get unit tests to prevent regression.
 #### We should [add performance
-tests](http://code.google.com/p/chromium/issues/detail) to measure the
+tests](http://code.google.com/p/chromium/issues/detail?id=6754) to measure the
 performance of the network stack and track it over time.
 
 #### ********Fix SSLUITests********
 
 All the [SSLUITests are marked as
-flaky](http://code.google.com/p/chromium/issues/detail) now.
+flaky](http://code.google.com/p/chromium/issues/detail?id=40932) now.
 
 #### ********Better histograms********
 
@@ -535,23 +545,23 @@ context about requests (flesh out the ResourceType enum).
 #### #### Captive portals
 
 #### [Avoid certificate name mismatch
-errors](http://code.google.com/p/chromium/issues/detail) when visiting an HTTPS
-page through a captive portal.
+errors](http://code.google.com/p/chromium/issues/detail?id=71736) when visiting
+an HTTPS page through a captive portal.
 
 #### #### HTTP pipelining
 
 #### We should implement an [optional pipelining
-mode](http://code.google.com/p/chromium/issues/detail).
+mode](http://code.google.com/p/chromium/issues/detail?id=8991).
 
 #### #### HTTP authentication
 
 *   #### [support NTLMv2 on Linux and
-            Mac](http://code.google.com/p/chromium/issues/detail)
+            Mac](http://code.google.com/p/chromium/issues/detail?id=22532)
 
 #### We also need to review the interaction between HTTP authentication and disk
 cache. For example, [cached pages that were downloaded with authentication
 should not be retrieved without
-authentication](http://code.google.com/p/chromium/issues/detail).
+authentication](http://code.google.com/p/chromium/issues/detail?id=454).
 
 #### FTP
 
@@ -559,7 +569,7 @@ authentication](http://code.google.com/p/chromium/issues/detail).
 *   caching directory listings.
 
 We need to be able to [request FTP URLs through a
-proxy](http://code.google.com/p/chromium/issues/detail).
+proxy](http://code.google.com/p/chromium/issues/detail?id=11227).
 
 #### Preference service for network settings
 
@@ -567,9 +577,9 @@ We strive to use the system network settings so that users can control the
 network settings of all applications easily. However, there will be some
 configuration settings specific to our network stack, so we need to have our own
 preference service for those settings. See also [issue
-266](http://code.google.com/p/chromium/issues/detail), in which some Firefox
-users demand that we not use the WinInet proxy settings (the de facto system
-proxy settings) on Windows.
+266](http://code.google.com/p/chromium/issues/detail?id=266), in which some
+Firefox users demand that we not use the WinInet proxy settings (the de facto
+system proxy settings) on Windows.
 
 #### Share code between HTTP, SPDY, and WebSocket
 
@@ -578,4 +588,5 @@ support. We should find out if some code can be shared.
 
 #### WPAD over DHCP
 
-Support [WPAD over DHCP](http://code.google.com/p/chromium/issues/detail).
+Support [WPAD over
+DHCP](http://code.google.com/p/chromium/issues/detail?id=18575).

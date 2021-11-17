@@ -46,4 +46,4 @@ approach.**
     result of going through the design review process with cpu@ and jam@.
 
 *   **How can I follow along?** **There is a [tracking
-            bug](https://code.google.com/p/chromium/issues/detail).**
+            bug](https://code.google.com/p/chromium/issues/detail?id=186422).**

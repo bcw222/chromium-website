@@ -32,8 +32,9 @@ Two specific incompatibilities have been found with EMET:
 
 ## ROP chain detection and prevention (Chrome 35+)
 
-After [Chromium revision 254340](http://src.chromium.org/viewvc/chrome), Visual
-Studio 2013 is the only supported build chain for Chromium on Windows.
+After [Chromium revision
+254340](http://src.chromium.org/viewvc/chrome?view=revision&revision=254340),
+Visual Studio 2013 is the only supported build chain for Chromium on Windows.
 Unfortunately, we have observed compatibility problems with Microsoft’s Enhanced
 Mitigation Experience Toolkit (EMET) and Chromium compiled on Windows using
 Visual Studio 2013.

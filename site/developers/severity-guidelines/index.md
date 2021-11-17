@@ -37,12 +37,14 @@ exploitation](https://security.googleblog.com/2013/05/disclosure-timeline-for-vu
 Example bugs:
 
     Memory corruption in the browser process controllable by a malicious web
-    site ([564501](https://bugs.chromium.org/p/chromium/issues/detail)).
+    site
+    ([564501](https://bugs.chromium.org/p/chromium/issues/detail?id=564501)).
 
     Exploit chains made up of multiple bugs that can lead to code execution
     outside of the sandbox
-    ([416449](https://bugs.chromium.org/p/chromium/issues/detail)). Note that
-    the individual bugs that make up the chain will have lower severity ratings.
+    ([416449](https://bugs.chromium.org/p/chromium/issues/detail?id=416449)).
+    Note that the individual bugs that make up the chain will have lower
+    severity ratings.
 
 ### High severity
 
@@ -66,27 +68,27 @@ Example bugs:
     A bug that allows full circumvention of the same origin policy. Universal
     XSS bugs fall into this category, as they allow script execution in the
     context of an arbitrary origin
-    ([534923](https://bugs.chromium.org/p/chromium/issues/detail)).
+    ([534923](https://bugs.chromium.org/p/chromium/issues/detail?id=534923)).
 
     A bug that allows arbitrary code execution within the confines of the
     sandbox, such as renderer or GPU process memory corruption
-    ([570427](https://bugs.chromium.org/p/chromium/issues/detail),
-    [468936](https://bugs.chromium.org/p/chromium/issues/detail)).
+    ([570427](https://bugs.chromium.org/p/chromium/issues/detail?id=570427),
+    [468936](https://bugs.chromium.org/p/chromium/issues/detail?id=468936)).
 
     Complete control over the apparent origin in the omnibox
-    ([76666](https://bugs.chromium.org/p/chromium/issues/detail)).
+    ([76666](https://bugs.chromium.org/p/chromium/issues/detail?id=76666)).
 
     Memory corruption in the browser process that can only be triggered from a
     compromised renderer, leading to a sandbox escape
-    ([469152](https://bugs.chromium.org/p/chromium/issues/detail)).
+    ([469152](https://bugs.chromium.org/p/chromium/issues/detail?id=469152)).
 
     Kernel memory corruption that could be used as a sandbox escape from a
     compromised renderer
-    ([377392](https://bugs.chromium.org/p/chromium/issues/detail)).
+    ([377392](https://bugs.chromium.org/p/chromium/issues/detail?id=377392)).
 
     Memory corruption in the browser process that requires specific user
     interaction, such as granting a permission
-    ([455735](https://bugs.chromium.org/p/chromium/issues/detail)).
+    ([455735](https://bugs.chromium.org/p/chromium/issues/detail?id=455735)).
 
 ### Medium severity
 
@@ -105,42 +107,42 @@ merge to the current stable milestone, assign it to the next stable milestone.
 Example bugs:
 
     An out-of-bounds read in a renderer process
-    ([281480](https://bugs.chromium.org/p/chromium/issues/detail)).
+    ([281480](https://bugs.chromium.org/p/chromium/issues/detail?id=281480)).
 
     An uninitialized memory read in the browser process where the values are
     passed to a compromised renderer via IPC
-    ([469151](https://bugs.chromium.org/p/chromium/issues/detail)).
+    ([469151](https://bugs.chromium.org/p/chromium/issues/detail?id=469151)).
 
     Memory corruption that requires a specific extension to be installed
-    ([313743](https://bugs.chromium.org/p/chromium/issues/detail)).
+    ([313743](https://bugs.chromium.org/p/chromium/issues/detail?id=313743)).
 
     An HSTS bypass
-    ([461481](https://bugs.chromium.org/p/chromium/issues/detail)).
+    ([461481](https://bugs.chromium.org/p/chromium/issues/detail?id=461481)).
 
     A bypass of the same origin policy for pages that meet several preconditions
-    ([419383](https://bugs.chromium.org/p/chromium/issues/detail)).
+    ([419383](https://bugs.chromium.org/p/chromium/issues/detail?id=419383)).
 
     A bug that allows web content to tamper with trusted browser UI
-    ([550047](https://bugs.chromium.org/p/chromium/issues/detail)).
+    ([550047](https://bugs.chromium.org/p/chromium/issues/detail?id=550047)).
 
     A bug that reduces the effectiveness of the sandbox
-    ([338538](https://bugs.chromium.org/p/chromium/issues/detail)).
+    ([338538](https://bugs.chromium.org/p/chromium/issues/detail?id=338538)).
 
     A bug that allows arbitrary pages to bypass security interstitials
-    ([540949](https://bugs.chromium.org/p/chromium/issues/detail)).
+    ([540949](https://bugs.chromium.org/p/chromium/issues/detail?id=540949)).
 
     A bug that allows an a
 
     ttacker to reliably read or infer browsing history
-    ([381808](https://bugs.chromium.org/p/chromium/issues/detail)).
+    ([381808](https://bugs.chromium.org/p/chromium/issues/detail?id=381808)).
 
     An address bar spoof where only certain URLs can be displayed, or with other
     mitigating factors
-    ([265221](https://bugs.chromium.org/p/chromium/issues/detail)).
+    ([265221](https://bugs.chromium.org/p/chromium/issues/detail?id=265221)).
 
     Memory corruption in a renderer process that requires specific user
     interaction, such as dragging an object
-    ([303772](https://bugs.chromium.org/p/chromium/issues/detail)).
+    ([303772](https://bugs.chromium.org/p/chromium/issues/detail?id=303772)).
 
 ### Low severity
 
@@ -154,16 +156,16 @@ stable or beta branches.
 Example bugs:
 
     Bypass requirement for a user gesture
-    ([256057](https://bugs.chromium.org/p/chromium/issues/detail)).
+    ([256057](https://bugs.chromium.org/p/chromium/issues/detail?id=256057)).
 
     Partial CSP bypass
-    ([534570](https://bugs.chromium.org/p/chromium/issues/detail)).
+    ([534570](https://bugs.chromium.org/p/chromium/issues/detail?id=534570)).
 
     A limited extension permission bypass
-    ([169632](https://bugs.chromium.org/p/chromium/issues/detail)).
+    ([169632](https://bugs.chromium.org/p/chromium/issues/detail?id=169632)).
 
     An uncontrolled single-byte out-of-bounds read
-    ([128163](https://bugs.chromium.org/p/chromium/issues/detail)).
+    ([128163](https://bugs.chromium.org/p/chromium/issues/detail?id=128163)).
 
 The [security FAQ](/Home/chromium-security/security-faq) covers many of the
 cases that we do not consider to be security bugs, such as [denial of

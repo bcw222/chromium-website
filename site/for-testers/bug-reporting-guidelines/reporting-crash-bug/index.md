@@ -98,7 +98,7 @@ raw crash data.
 *   System crash reports are logged to `/data/data/$PACKAGE/cache/Crash\
             Reports/`, where `$PACKAGE` depends on which app (chrome, content
             test shell, etc..), as defined
-            [here](https://cs.chromium.org/chromium/src/third_party/catapult/devil/devil/android/constants/chrome.py).
+            [here](https://cs.chromium.org/chromium/src/third_party/catapult/devil/devil/android/constants/chrome.py?l=11).
 *   Sometimes the crash will also be printed to the "logcat" and/or as a
             tombstone file. More info
             [here](/developers/how-tos/debugging-on-android#TOC-Symbolizing-Crashstacks-Tombstones)

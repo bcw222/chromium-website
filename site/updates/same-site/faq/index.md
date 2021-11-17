@@ -105,7 +105,7 @@ continue to function in the future.
 
 Chrome extensions use the `chrome-extension://` URL scheme, which appears as
 cross-site to anything `https://` or `http://`. The fix, which is to
-[treat](https://cs.chromium.org/chromium/src/chrome/renderer/extensions/chrome_extensions_renderer_client.cc)
+[treat](https://cs.chromium.org/chromium/src/chrome/renderer/extensions/chrome_extensions_renderer_client.cc?l=327-328&rcl=93f8b74447f261ada0224ae54176fbecdf03a294)
 extension-initiated requests as same-site**\***, is available in Chrome 79 and
 later. Some use cases involving requests made from web frames on extension pages
 may also behave differently in Chrome 80. If you test on newer (80+) versions of
@@ -113,7 +113,7 @@ Chrome and find that your extension is still broken, please file a bug on
 crbug.com using [this template](https://bit.ly/2lJMd5c).
 
 **\***
-[If](https://cs.chromium.org/chromium/src/chrome/renderer/extensions/chrome_extensions_renderer_client.cc)
+[If](https://cs.chromium.org/chromium/src/chrome/renderer/extensions/chrome_extensions_renderer_client.cc?l=86-90&rcl=9235d01ebbb6f18a74b0b99f7922175b4f11e68a)
 the extension has host permissions access to the page.
 
 ### Q: Are cookies in WebViews affected by the new default behavior?

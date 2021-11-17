@@ -208,7 +208,8 @@ to turn on the clock for the LCD or enable USB because those peripherals are not
 used before U-Boot executes.
 
 For more information on SPL and other config options for SPL, see the [SPL
-README file](http://git.denx.de/).
+README
+file](http://git.denx.de/?p=u-boot.git;a=blob;f=doc/README.SPL;h=4e1cb28800411e0c7f626970bec2326baf45d49c;hb=HEAD).
 
 ## Flat Device Tree
 

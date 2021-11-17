@@ -33,13 +33,14 @@ what should drive our work.
 
 *   Communications: loading-dev@chromium.org is our public discussion
             group for all things related to Loading in Chrome.
-*   crbug: [blink](https://bugs.chromium.org/p/chromium/issues/list)
+*   crbug:
+            [blink](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=component%3ABlink%3ELoader%2CBlink%3ENetwork%2CBlink%3EServiceWorker%2CBlink%3EWorker&sort=pri+-component&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids)
 
 ## I have a reproducible bad Loading user experience, what do I do?
 
 *   ## As a user:
     *   ## File a [Speed
-                bug](https://bugs.chromium.org/p/chromium/issues/entry)
+                bug](https://bugs.chromium.org/p/chromium/issues/entry?template=Speed%20Bug)
     *   ## Include the "Loading" keyword in the subject if the issue
                 fits within the scope of the North Star.
     *   ## If you are not sure, don't include the "Loading" keyword,

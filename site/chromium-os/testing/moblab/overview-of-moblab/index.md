@@ -89,7 +89,7 @@ to assist in troubleshooting.
 
 <td>OR</td>
 
-<td>==<a href="https://www.amazon.com/Linksys-Ethernet-Chromebook-Ultrabook-USB3GIG/dp/B00LIW8TBG/ref=sr_1_1">https://www.amazon.com/Linksys-Ethernet-Chromebook-Ultrabook-USB3GIG/dp/B00LIW8TBG/ref=sr_1_1?ie=UTF8&qid=1491807967&sr=8-1&keywords=linksys+usb+ethernet+adapter</a>==</td>
+<td>==<a href="https://www.amazon.com/Linksys-Ethernet-Chromebook-Ultrabook-USB3GIG/dp/B00LIW8TBG/ref=sr_1_1?ie=UTF8&qid=1491807967&sr=8-1&keywords=linksys+usb+ethernet+adapter">https://www.amazon.com/Linksys-Ethernet-Chromebook-Ultrabook-USB3GIG/dp/B00LIW8TBG/ref=sr_1_1?ie=UTF8&qid=1491807967&sr=8-1&keywords=linksys+usb+ethernet+adapter</a>==</td>
 
 <td>---</td>
 
@@ -136,7 +136,7 @@ CTS against x86 DUTs.**
 <tr>
 <td> RAM</td>
 <td> 16GB</td>
-<td><a href="https://www.amazon.com/gp/product/B00J8U549K/ref=oh_aui_search_detailpage">https://www.amazon.com/gp/product/B00J8U549K/ref=oh_aui_search_detailpage?ie=UTF8&psc=1</a></td>
+<td><a href="https://www.amazon.com/gp/product/B00J8U549K/ref=oh_aui_search_detailpage?ie=UTF8&psc=1">https://www.amazon.com/gp/product/B00J8U549K/ref=oh_aui_search_detailpage?ie=UTF8&psc=1</a></td>
 </tr>
 </table>
 

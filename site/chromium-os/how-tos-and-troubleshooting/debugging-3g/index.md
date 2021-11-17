@@ -106,7 +106,8 @@ developer mode on the platform before you are able to access the shell.
 *   Wait for system to wipe stateful partition.
 *   When booted, press CTRL+ALT+F2 (right arrow) to enter VT2 shell.
 *   Use username chronos or root. No password necessary.
-*   You can now use [sftp](http://www.openbsd.org/cgi-bin/man.cgi),
+*   You can now use
+            [sftp](http://www.openbsd.org/cgi-bin/man.cgi?query=sftp&sektion=1),
             [curl](http://curl.haxx.se/docs/manpage.html),
             [wget](http://www.gnu.org/software/wget/manual/wget.html) or
             [iperf](http://iperf.sourceforge.net/) for testing performance.
