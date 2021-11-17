@@ -8,8 +8,7 @@ title: Design Documents
 
 ## **Start Here: Background Reading**
 
-*   [Multi-process
-            Architecture](/developers/design-documents/multi-process-architecture):
+*   [Multi-process Architecture](/developers/design-documents/multi-process-architecture):
             Describes the high-level architecture of Chromium
     **Note:** Most of the rest of the design documents assume familiarity with
     the concepts explained in this document.
