@@ -171,6 +171,16 @@ header {
     text-decoration: inherit;
   }
 
+  del {
+    background-color: rgb(244, 204, 204);
+    text-decoration: inherit;
+  }
+
+  ins {
+    background-color: rgb(217, 234, 211);
+    text-decoration: inherit;
+  }
+
   pre {
     white-space: break-spaces;
     word-break: break-all;
@@ -311,8 +321,9 @@ header {
     border-color: rgb(217, 217, 217);
     border-spacing: 0px;
     border-collapse: collapse;
+    margin: 1.3em 0 1.3em 0;
 
-    td {
+    td, th {
       border-style: solid;
       border-width: 1px;
       border-color: rgb(217, 217, 217);
