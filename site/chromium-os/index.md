@@ -65,8 +65,7 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 </div>
 <div class="column">
 
-### [<img alt="image"
-src="/chromium-os/comp2_200x146.jpg">](/chromium-os/comp2_200x146.jpg)
+### ![](/chromium-os/comp2_200x146.jpg)
 
 ### Source code
 
