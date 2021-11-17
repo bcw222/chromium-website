@@ -36,7 +36,7 @@ Web archives:
 **Bug Triage**
 
 The DevTools team is responsible for bugs filed for the
-[Platform&gt;DevTools](https://bugs.chromium.org/p/chromium/issues/list)
+[Platform&gt;DevTools](https://bugs.chromium.org/p/chromium/issues/list?q=component%3APlatform%3EDevTools)
 component.
 
 **Members**

@@ -14,7 +14,7 @@ while they surf the web. Here are some of the things we're doing to make
 security on the web easier for everyone — both people who use browsers and web
 apps, and web app developers. Some of these points are discussed in more detail
 in [Improving Chrome’s Security
-Warnings](https://docs.google.com/presentation/d/16ygiQS0_5b9A4NwHxpcd6sW3b_Up81_qXU-XY86JHc4/edit)
+Warnings](https://docs.google.com/presentation/d/16ygiQS0_5b9A4NwHxpcd6sW3b_Up81_qXU-XY86JHc4/edit?usp=sharing)
 by Adrienne Porter Felt.
 
 [TOC]
@@ -47,8 +47,9 @@ Password management is hard. Sometimes people choose weak passwords, re-use
 passwords inappropriately, or type passwords into phishing websites. The browser
 currently offers people minimal assistance in choosing good passwords or knowing
 when to enter them. We're currently using [Safe Browsing to help warn people
-about phishing pages](https://support.google.com/chrome/answer/99020), but we're
-also working on other ways to make authentication on the web easier and safer.
+about phishing pages](https://support.google.com/chrome/answer/99020?hl=en), but
+we're also working on other ways to make authentication on the web easier and
+safer.
 
 ## Website Authentication
 
@@ -169,7 +170,7 @@ Simulate the effects of colorblindness:
 ## **Documents**
 
 *   [Chrome Security UX (Enamel) Public
-            Folder](https://drive.google.com/open)
+            Folder](https://drive.google.com/open?id=0B6FmQe6bc6yVZ012REktU09NOEE&authuser=0)
     *   [Chrome Security
                 UI](https://docs.google.com/a/chromium.org/document/d/11-SXwzCGBlk8q1cNtb7peZjb2UjRPrKSFhOfZhTOz24/edit)
 *   [Security guidelines for Chrome Extension & App API

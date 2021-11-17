@@ -31,7 +31,7 @@ title: June 2019, Volume II
 
 <td>Gmail, possessed?</td>
 
-<td>A spooky bug floated our way this sprint as users began reporting that their gmail and twitter pages were <a href="https://bugs.chromium.org/p/chromium/issues/detail">scrolling without any user input</a>! After initial analysis from the input team (great work by bokan@!) identified it as a BlinkGenPropertyTrees-related Animations bug, Rob (flackr@) spent days teasing out first a reproduction, then a diagnosis (surprise, <a href="http://crbug.com/962346">it was complicated</a>), and finally landing <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1256422">a fix</a> that took care of this ghostly occurrence. Who you gonna call? Rob Flack, apparently.</td>
+<td>A spooky bug floated our way this sprint as users began reporting that their gmail and twitter pages were <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=962346">scrolling without any user input</a>! After initial analysis from the input team (great work by bokan@!) identified it as a BlinkGenPropertyTrees-related Animations bug, Rob (flackr@) spent days teasing out first a reproduction, then a diagnosis (surprise, <a href="http://crbug.com/962346">it was complicated</a>), and finally landing <a href="https://chromium-review.googlesource.com/c/chromium/src/+/1256422">a fix</a> that took care of this ghostly occurrence. Who you gonna call? Rob Flack, apparently.</td>
 
 <td><table></td>
 <td><tr></td>
@@ -59,7 +59,7 @@ title: June 2019, Volume II
 
 <td><td>Exploring the Animations space</td></td>
 
-<td><td>It can be easy when working in the browser space to lose sight of what our corner of the web platform is actually like for web developers. This sprint Gene (girard@) put together and published <a href="https://docs.google.com/document/d/1hPfNx9aM7KHRO7DZDTvrBAQUbTdYIap9U__uqp_-EQo/edit">an overview</a> of the tools and processes web developers are using to create and deliver animations on the web. This form of insight is vital to better understand what features we should be prioritizing, and to deliver a better web for everyone.</td></td>
+<td><td>It can be easy when working in the browser space to lose sight of what our corner of the web platform is actually like for web developers. This sprint Gene (girard@) put together and published <a href="https://docs.google.com/document/d/1hPfNx9aM7KHRO7DZDTvrBAQUbTdYIap9U__uqp_-EQo/edit?usp=sharing">an overview</a> of the tools and processes web developers are using to create and deliver animations on the web. This form of insight is vital to better understand what features we should be prioritizing, and to deliver a better web for everyone.</td></td>
 <td><td>(Chart above uses data originally from <a href="https://trends.builtwith.com/">https://trends.builtwith.com</a>.)</td></td>
 
 <td><td><img alt="image" src="https://lh6.googleusercontent.com/8HBpbkDCHE7aPyKADf56885lm6O9DjjjxZ4PEpqWoW2oc0n89WUMnJK6ySLkUMH7afHHKB5U7CP-fggLDrFcHD0uYKOHTZbb3JPk8gha16UvPrpMQVp-2HWvkb7eHNt6I2ImCoX8" height=173 width=283></td></td>

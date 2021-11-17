@@ -29,7 +29,7 @@ title: September 2019
 
 <td>TPAC - Technical Plenary And Cookies</td>
 
-<td>Several members of the team attended TPAC to make progress on key specifications. We did <a href="https://docs.google.com/document/d/1-y6rEBbOi3jXUtiuBW2ecmQSBKatCQu_ZC_N8yLY3DI/edit">pre-planning</a> ensuring key issues are filed and discussed with the right people. Full trip-report is <a href="https://docs.google.com/document/d/1S49ZrTaCV1KMkFK4hdtMwheM9Sjdd_eiyDqH0A-3q48/edit">here</a> but some highlights from TPAC are:</td>
+<td>Several members of the team attended TPAC to make progress on key specifications. We did <a href="https://docs.google.com/document/d/1-y6rEBbOi3jXUtiuBW2ecmQSBKatCQu_ZC_N8yLY3DI/edit">pre-planning</a> ensuring key issues are filed and discussed with the right people. Full trip-report is <a href="https://docs.google.com/document/d/1S49ZrTaCV1KMkFK4hdtMwheM9Sjdd_eiyDqH0A-3q48/edit?usp=sharing">here</a> but some highlights from TPAC are:</td>
 
     <td>Agreements on deferring some small features (<a
     href="https://github.com/w3c/csswg-drafts/issues/4300">1</a>, <a
@@ -45,7 +45,7 @@ title: September 2019
 
     <td>Kevin (kevers@) learned a lot about WPT and how we can use it more
     effectively which he <a
-    href="https://docs.google.com/presentation/d/1hlweg5L2V6gyxtXnj6MeCTXqNHRMnvAILNDIPS8dnOc/edit">shared</a>
+    href="https://docs.google.com/presentation/d/1hlweg5L2V6gyxtXnj6MeCTXqNHRMnvAILNDIPS8dnOc/edit?usp=sharing">shared</a>
     with the team.</td>
 
 <td>All of these were a result of constructive discussions with collaborators from Microsoft, Mozilla and Apple.</td>
@@ -68,7 +68,7 @@ title: September 2019
 
 <td><td>Web Animation Progress</td></td>
 
-<td><td>Stephen (smcgruer@) spend time to <a href="https://docs.google.com/document/d/1YPgb85q9w3HGKuMb4YCgTNaUTcF9mkjcMmfb2AeD64I/edit#heading=h.luhqvvzi99ac">categorize</a> and file bugs for all remaining failures. Stephen also made <a href="https://bugs.chromium.org/p/chromium/issues/detail">progress</a> on implementation of ‘composite: accumulate’ and several timing bugs <a href="https://chromium.googlesource.com/chromium/src.git/+/c004564dcd80e078136866d21ab942e78a93753a">\[1\]</a>, <a href="https://chromium.googlesource.com/chromium/src.git/+/73b9e0f4905111da5034767d7956eca0940aaac0">\[2\]</a>, <a href="https://chromium.googlesource.com/chromium/src.git/+/108ec45b194b5e9a16d91e1ef0cd4dd145b00ae6">\[3\]</a>.</td></td>
+<td><td>Stephen (smcgruer@) spend time to <a href="https://docs.google.com/document/d/1YPgb85q9w3HGKuMb4YCgTNaUTcF9mkjcMmfb2AeD64I/edit#heading=h.luhqvvzi99ac">categorize</a> and file bugs for all remaining failures. Stephen also made <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=788440#c9">progress</a> on implementation of ‘composite: accumulate’ and several timing bugs <a href="https://chromium.googlesource.com/chromium/src.git/+/c004564dcd80e078136866d21ab942e78a93753a">\[1\]</a>, <a href="https://chromium.googlesource.com/chromium/src.git/+/73b9e0f4905111da5034767d7956eca0940aaac0">\[2\]</a>, <a href="https://chromium.googlesource.com/chromium/src.git/+/108ec45b194b5e9a16d91e1ef0cd4dd145b00ae6">\[3\]</a>.</td></td>
 
 <td></tr></td>
 <td><tr></td>

@@ -18,7 +18,7 @@ order to make triage more efficient, we automate certain tasks.
 Googlers can view sheriffbot's source at
 [go/sheriffbot-source](https://goto.google.com/sheriffbot-source). Please file
 issues with Sheriffbot
-[here](https://bugs.chromium.org/p/chromium/issues/entry).
+[here](https://bugs.chromium.org/p/chromium/issues/entry?components=Tools%3EStability%3ESheriffbot).
 
 *   ### **Unconfirmed bugs which are not updated for a year**
 

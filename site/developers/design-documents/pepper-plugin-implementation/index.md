@@ -66,7 +66,7 @@ If the bug relates to a Native Client specific part, additionally use the label:
 *   NaCl
 
 See the [current open bugs under the "Cr-Internals-Plugins-Pepper"
-label](https://code.google.com/p/chromium/issues/list).
+label](https://code.google.com/p/chromium/issues/list?can=2&q=label%3ACr-Internals-Plugins-Pepper&colspec=ID+Pri+M+Iteration+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&cells=tiles).
 
 ## Running a plugin in Chrome
 
@@ -91,7 +91,7 @@ run:
 > file:///local/src/ppapi/examples/2d/2d.html
 
 In this case, application/x-ppapi-example-2d is what is specified in the
-[example.html](http://src.chromium.org/viewvc/chrome/trunk/src/ppapi/examples/2d/2d.html)
+[example.html](http://src.chromium.org/viewvc/chrome/trunk/src/ppapi/examples/2d/2d.html?revision=144972&view=markup)
 page. This can be anything you want, as long as the two types match. Note also
 that we specify --ppapi-out-of-process. In-process mode is being deprecated so
 it's a good idea to use this in general.

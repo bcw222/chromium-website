@@ -717,4 +717,4 @@ other than Python.
 
 **What if my test requires a build artifact?**
 
-**[Internal-only documentation for build artifact downloading](https://docs.google.com/a/google.com/document/d/1rcfuMIPaaCOUp_41ahNdVM9K88iMYtCSdbiKCHn346U/edit)**
+**[Internal-only documentation for build artifact downloading](https://docs.google.com/a/google.com/document/d/1rcfuMIPaaCOUp_41ahNdVM9K88iMYtCSdbiKCHn346U/edit?usp=sharing)**

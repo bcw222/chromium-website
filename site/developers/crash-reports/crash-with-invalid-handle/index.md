@@ -106,11 +106,12 @@ that points to the code at fault.
 ### For users:
 
 *   Consider installing a
-            [Canary](https://www.google.com/chrome/browser/canary.html) or
-            [Dev](https://www.google.com/chrome/browser/index.html) Channel
-            Build (Windows only. See [this](/getting-involved/dev-channel) for
-            information about what a channel is and what to do before installing
-            a new one).
+            [Canary](https://www.google.com/chrome/browser/canary.html?platform=win)
+            or
+            [Dev](https://www.google.com/chrome/browser/index.html?extra=devchannel&platform=win)
+            Channel Build (Windows only. See
+            [this](/getting-involved/dev-channel) for information about what a
+            channel is and what to do before installing a new one).
 *   Search your system for malware, and try removing software that
             interacts directly with Chrome by injecting DLLs. In the past we
             have seen correlation between 3rd party software loaded into Chrome

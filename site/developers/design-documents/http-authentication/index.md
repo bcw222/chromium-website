@@ -90,8 +90,8 @@ proxy authentication).
 
 > Starting in Chrome 81, Integrated Authentication is [disabled by default for
 > off-the-record (Incognito/Guest)
-> profiles](https://bugs.chromium.org/p/chromium/issues/detail), and the user
-> will need to enter the username and password.
+> profiles](https://bugs.chromium.org/p/chromium/issues/detail?id=458508#c62),
+> and the user will need to enter the username and password.
 
 **Kerberos SPN generation**
 
@@ -226,8 +226,8 @@ proxy authentication).
 *   Support GSSAPI on Windows \[for MIT Kerberos for Windows or
             Heimdal\]
 *   Offer [a policy to disable Basic authentication
-            scheme](https://bugs.chromium.org/p/chromium/issues/detail) over
-            unencrypted channels.
+            scheme](https://bugs.chromium.org/p/chromium/issues/detail?id=1025002)
+            over unencrypted channels.
 
 **Questions?**
 

@@ -24,9 +24,9 @@ unusable. Some tips for speeding it up:
             However, be aware that Code Search (see below) will not work on code
             that's been filtered out!
 *   ### A very useful extension which helps manage this is
-            [VsFunnel](https://marketplace.visualstudio.com/items). This
-            extension allows you to select which projects in a solution will be
-            loaded at solution load time, and which will remain in the
+            [VsFunnel](https://marketplace.visualstudio.com/items?itemName=DimitriDering.Funnel).
+            This extension allows you to select which projects in a solution
+            will be loaded at solution load time, and which will remain in the
             "unloaded" state. Unloaded projects are not indexed by VS, so this
             extension can drastically speed up VS responsiveness. The unloaded
             projects will remain searchable via VsChromium (see below).

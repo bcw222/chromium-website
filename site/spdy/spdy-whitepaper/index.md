@@ -478,7 +478,8 @@ particular:
 To help with these challenges, we encourage you to get involved:
 
 *   Send feedback, comments, suggestions, ideas to the [chromium-discuss
-            discussion group](http://groups.google.com/group/chromium-discuss).
+            discussion
+            group](http://groups.google.com/group/chromium-discuss?pli=1).
 *   Download, build, run, and test the [Google Chrome client
             code](http://src.chromium.org/viewvc/chrome/trunk/src/net/spdy/).
 *   Contribute improvements to the code base.

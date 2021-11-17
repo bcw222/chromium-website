@@ -19,8 +19,8 @@ regressions within one release.
 ## Suggested workflow:
 
 1.  Every other day check the list of [Untriaged
-            bugs](https://bugs.chromium.org/p/chromium/issues/list) with the aim
-            to reduce the number to zero.
+            bugs](https://bugs.chromium.org/p/chromium/issues/list?can=37830509&sort=-id&colspec=ID+Pri+M+Status+Owner+Summary+Modified)
+            with the aim to reduce the number to zero.
     For each bug, check whether the issue can be reproduced.
     *   If not either mark as WontFix or add the "Needs-Feedback" label
                 and ask for follow up information.
@@ -34,8 +34,8 @@ regressions within one release.
                 assign to owner for specific area. For P2 set status to
                 Available.
 2.  At least once a week check the list of regressions
-            ([P0/P1](https://bugs.chromium.org/p/chromium/issues/list),
-            [P2/P3](https://bugs.chromium.org/p/chromium/issues/list)).
+            ([P0/P1](https://bugs.chromium.org/p/chromium/issues/list?can=37830592&q=Pri%3D0%2C1&sort=-id&colspec=ID+Pri+M+Status+Owner+Summary+Modified),
+            [P2/P3](https://bugs.chromium.org/p/chromium/issues/list?can=37830592&q=-Pri%3D0%2C1&sort=-id&colspec=ID+Pri+M+Status+Owner+Summary+Modified)).
     For each P0 or P1 regression, check if it can still be reproduced.
     *   If not mark as Fixed and add comment to CL that fixed it.
     *   If the issue persists ping the owner or assign one as needed.
@@ -44,9 +44,10 @@ regressions within one release.
 
 ## Relevant Links
 
-*   [Untriaged bugs](https://bugs.chromium.org/p/chromium/issues/list)
+*   [Untriaged
+            bugs](https://bugs.chromium.org/p/chromium/issues/list?can=37830509&sort=-id&colspec=ID+Pri+M+Status+Owner+Summary+Modified)
 *   [P0 and P1
-            regressions](https://bugs.chromium.org/p/chromium/issues/list)
+            regressions](https://bugs.chromium.org/p/chromium/issues/list?can=37830592&q=Pri%3D0%2C1&sort=-id&colspec=ID+Pri+M+Status+Owner+Summary+Modified)
 *   [P2 and P3
-            regressions](https://bugs.chromium.org/p/chromium/issues/list)
+            regressions](https://bugs.chromium.org/p/chromium/issues/list?can=37830592&q=-Pri%3D0%2C1&sort=-id&colspec=ID+Pri+M+Status+Owner+Summary+Modified)
 *   [Bisecting builds](/developers/bisect-builds-py)

@@ -200,7 +200,7 @@ side and on Chromium side:
 </tr>
 <tr>
 <td> Get your change's commit hash from:</td>
-<td> <a href="http://git.chromium.org/gitweb/">http://git.chromium.org/gitweb/?p=chromiumos/platform/cros.git;a=commit;h=HEAD</a></td>
+<td> <a href="http://git.chromium.org/gitweb/?p=chromiumos/platform/cros.git;a=commit;h=HEAD">http://git.chromium.org/gitweb/?p=chromiumos/platform/cros.git;a=commit;h=HEAD</a></td>
 </tr>
 <tr>
 <td> Update DEPS:</td>
@@ -243,7 +243,7 @@ will have this new Cros that does not bind with the deprecated method.
 </tr>
 <tr>
 <td> Get your change's commit hash from:</td>
-<td> <a href="http://git.chromium.org/gitweb/">http://git.chromium.org/gitweb/?p=chromiumos/platform/cros.git;a=commit;h=HEAD</a> </td>
+<td> <a href="http://git.chromium.org/gitweb/?p=chromiumos/platform/cros.git;a=commit;h=HEAD">http://git.chromium.org/gitweb/?p=chromiumos/platform/cros.git;a=commit;h=HEAD</a> </td>
 </tr>
 <tr>
 <td> Update DEPS:</td>
@@ -262,7 +262,7 @@ will have this new Cros that does not bind with the deprecated method.
 </tr>
 <tr>
 <td> Get your change's commit hash from:</td>
-<td> <a href="http://git.chromium.org/gitweb/">http://git.chromium.org/gitweb/?p=chromiumos/platform/cros.git;a=commit;h=HEAD</a></td>
+<td> <a href="http://git.chromium.org/gitweb/?p=chromiumos/platform/cros.git;a=commit;h=HEAD">http://git.chromium.org/gitweb/?p=chromiumos/platform/cros.git;a=commit;h=HEAD</a></td>
 </tr>
 <tr>
 <td> Update DEPS:</td>

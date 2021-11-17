@@ -11,7 +11,7 @@ title: Third Party Developers
 ## Important Notice
 
 The
-[ForceNetworkInProcess](https://cloud.google.com/docs/chrome-enterprise/policies/)
+[ForceNetworkInProcess](https://cloud.google.com/docs/chrome-enterprise/policies/?policy=ForceNetworkInProcess)
 will be removed soon. The official announcement will start from [Chrome
 Enterprise release notes](https://support.google.com/chrome/a/answer/7679408)
 for Chrome 80. The original plan was to remove it at Chrome 82, but will be
@@ -98,8 +98,8 @@ It is very likely that there is a long tail of use cases that we have not
 considered. If a developer feels they have a use case that is not easily
 addressed using alternative APIs or known workarounds they can feel free to
 reach out to the team by [filing a
-bug](https://bugs.chromium.org/p/chromium/issues/entry). You can also reach out
-to the team on the
+bug](https://bugs.chromium.org/p/chromium/issues/entry?description=Please+describe+your+third+party+use+case+here.&labels=Hotlist-ThirdPartySoftware,OS-Windows&oss=linux&owner=chrisha@chromium.org&components=Internals%3EPlatformIntegration).
+You can also reach out to the team on the
 [windows-third-party@chromium.org](mailto:windows-third-party@chromium.org)
 mailing list.
 
@@ -116,7 +116,7 @@ of evaluating the impact of blocking on your software.
 A. The short answer is no. Unless you are a publisher of accessibility software,
 in which case we will happily allow your software until suitable alternative
 APIs are available. Please [file a
-bug](https://bugs.chromium.org/p/chromium/issues/entry)!
+bug](https://bugs.chromium.org/p/chromium/issues/entry?description=Please+describe+your+third+party+use+case+here.&labels=Hotlist-ThirdPartySoftware,OS-Windows&oss=linux&owner=chrisha@chromium.org&components=Internals%3EPlatformIntegration)!
 
 **Q. What about shell extensions?**
 
@@ -124,16 +124,17 @@ A. For the time being we are warning about shell extensions that inject, and
 blocking them when possible. We realize that this is less than ideal given that
 most shell extensions injection innocently. We are actively [moving all file
 dialog code to an external utility
-process](https://bugs.chromium.org/p/chromium/issues/detail) where injection
-will be allowed. As of November 2018 this is being experimented with.
+process](https://bugs.chromium.org/p/chromium/issues/detail?id=884075&q=out%20of%20process%20file%20dialogs&colspec=ID%20Pri%20M%20Stars%20ReleaseBlock%20Component%20Status%20Owner%20Summary%20OS%20Modified)
+where injection will be allowed. As of November 2018 this is being experimented
+with.
 
 **Q. What about printing?**
 
 A. Chrome will allow software to inject as part of the printing stack, and will
 not warn about modules that are injected during printing. We are actively
 [working to move printing to an external utility
-process](https://bugs.chromium.org/p/chromium/issues/detail) so that this
-injection will no longer incur in the browser process.
+process](https://bugs.chromium.org/p/chromium/issues/detail?id=809738) so that
+this injection will no longer incur in the browser process.
 
 **Q. What about IME?**
 
@@ -148,7 +149,7 @@ IMM32 will be deprecated, and these modules will no longer be allowed to inject.
 
 A. On Windows 8 and above we will be blocking event hooks (and other legacy
 injection mechanisms) from injecting into the browser process using the
-[PROCESS_CREATION_MITIGATION_POLICY_EXTENSION_POINT_DISABLE_ALWAYS_ON](https://www.google.com/search)
+[PROCESS_CREATION_MITIGATION_POLICY_EXTENSION_POINT_DISABLE_ALWAYS_ON](https://www.google.com/search?q=PROCESS_CREATION_MITIGATION_POLICY_EXTENSION_POINT_DISABLE_ALWAYS_ON&oq=PROCESS_CREATION_MITIGATION_POLICY_EXTENSION_POINT_DISABLE_ALWAYS_ON&aqs=chrome..69i57j69i59.542j0j4&sourceid=chrome&ie=UTF-8)
 mitigation policy. Note that there is [ongoing work](/developers/mus-ash) to
 move window management and input to an external UI process. We will be
 evaluating whether or not to bring this technology to the windows platform, and
@@ -166,8 +167,8 @@ blocking will apply. They are invoked when downloaded files are scanned using
 is used to enable [Mark of the
 Web](https://technet.microsoft.com/en-us/ms537628(v=VS.71)) support on the
 Windows platform. This scanning is being [moved to a utility
-process](https://bugs.chromium.org/p/chromium/issues/detail) so that the
-injection will no longer incur in the browser process.
+process](https://bugs.chromium.org/p/chromium/issues/detail?id=883477&q=owner%3Apmonette%40chromium.org%20&colspec=ID%20Pri%20M%20Stars%20ReleaseBlock%20Component%20Status%20Owner%20Summary%20OS%20Modified)
+so that the injection will no longer incur in the browser process.
 
 **Q. What about *\[feature or use case X\]*?**
 
@@ -186,5 +187,5 @@ whether or not Chromium's network stack is in the main browser process. These
 policies will be supported for at minimum the calendar year 2019, and 6 months
 (4 Chromium versions) notice will be provided prior to removing them. Notice
 will be provided on this page, as well as via the [enterprise release
-notes](https://support.google.com/chrome/a/answer/7679408) for the affected
-release.
+notes](https://support.google.com/chrome/a/answer/7679408?hl=en) for the
+affected release.

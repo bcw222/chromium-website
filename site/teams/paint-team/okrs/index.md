@@ -10,7 +10,8 @@ title: Paint team OKRs
 
 ## Q1 2017
 
-Code health [#wp-predictability](https://easyokrs.googleplex.com/search/)
+Code health
+[#wp-predictability](https://easyokrs.googleplex.com/search/?q=wp-predictability)
 
 Owner: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/)
 
@@ -25,8 +26,8 @@ Owner: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/)
 *   Should this be M56 and later, given it has not gone to stable yet?
 
 Improve quality of implementation
-[#wp-predictability](https://easyokrs.googleplex.com/search/)
-[#wp-architecture](https://easyokrs.googleplex.com/search/)
+[#wp-predictability](https://easyokrs.googleplex.com/search/?q=wp-predictability)
+[#wp-architecture](https://easyokrs.googleplex.com/search/?q=wp-architecture)
 
 *   P2Top-starred bugs fixed
 *   Fix at least the following"
@@ -44,7 +45,7 @@ Improve quality of implementation
 *   Owner: fs@opera.com
 
 Understand, maintain and improve performance
-[#wp-performance](https://easyokrs.googleplex.com/search/)
+[#wp-performance](https://easyokrs.googleplex.com/search/?q=wp-performance)
 
 Owner: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/)
 
@@ -53,9 +54,9 @@ Owner: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/)
 *   Owner: [wkorman](https://easyokrs.googleplex.com/view/wkorman/)
 
 Improve paint/compositing interfaces
-[#wp-performance](https://easyokrs.googleplex.com/search/)
-[#wp-health](https://easyokrs.googleplex.com/search/)
-[#wp-architecture](https://easyokrs.googleplex.com/search/)
+[#wp-performance](https://easyokrs.googleplex.com/search/?q=wp-performance)
+[#wp-health](https://easyokrs.googleplex.com/search/?q=wp-health)
+[#wp-architecture](https://easyokrs.googleplex.com/search/?q=wp-architecture)
 
 Owners: [ajuma](https://easyokrs.googleplex.com/view/ajuma/),
 [chrishtr](https://easyokrs.googleplex.com/view/chrishtr/),
@@ -140,8 +141,8 @@ Owner:
             [flackr](https://easyokrs.googleplex.com/view/flackr/),
             [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/),
             [wkorman](https://easyokrs.googleplex.com/view/wkorman/)
-*   [#wp-architecture](https://easyokrs.googleplex.com/search/),
-            [#wp-performance](https://easyokrs.googleplex.com/search/)
+*   [#wp-architecture](https://easyokrs.googleplex.com/search/?q=wp-architecture),
+            [#wp-performance](https://easyokrs.googleplex.com/search/?q=wp-performance)
     Have a concrete design of how SPV2 will information necessary for
     touch-action hit testing on the compositor.
 
@@ -187,7 +188,7 @@ Owners: [chrome-gpu](https://easyokrs.googleplex.com/view/chrome-gpu/),
 
 ## Q4 2016
 
-Code health [#wp-health](https://easyokrs.googleplex.com/search/)
+Code health [#wp-health](https://easyokrs.googleplex.com/search/?q=wp-health)
 
 Owner: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/)
 
@@ -233,8 +234,8 @@ alt="Link"
 src="https://easyokrs.googleplex.com/images/link.png">](https://easyokrs.googleplex.com/o/2336130/)
 
 0.56P2Improve quality of implementation
-[#wp-predictability](https://easyokrs.googleplex.com/search/)
-[#wp-health](https://easyokrs.googleplex.com/search/)
+[#wp-predictability](https://easyokrs.googleplex.com/search/?q=wp-predictability)
+[#wp-health](https://easyokrs.googleplex.com/search/?q=wp-health)
 
 Owner: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/)
 
@@ -278,7 +279,7 @@ Owner: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/)
     EOQ: no progress
 
 1.00P1Understand, maintain and improve performance
-[#wp-performance](https://easyokrs.googleplex.com/search/)
+[#wp-performance](https://easyokrs.googleplex.com/search/?q=wp-performance)
 
 Owner: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/)
 
@@ -295,9 +296,9 @@ Owner: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/)
     No outstanding open issues.
 
 0.58P2Improve paint/compositing interfaces
-[#wp-performance](https://easyokrs.googleplex.com/search/)
-[#wp-health](https://easyokrs.googleplex.com/search/)
-[#wp-architecture](https://easyokrs.googleplex.com/search/)
+[#wp-performance](https://easyokrs.googleplex.com/search/?q=wp-performance)
+[#wp-health](https://easyokrs.googleplex.com/search/?q=wp-health)
+[#wp-architecture](https://easyokrs.googleplex.com/search/?q=wp-architecture)
 
 Owner: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/)
 
@@ -335,8 +336,8 @@ Owner: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/)
     passing yet.
 
 0.46P1Finish cc property tree implementation
-[#wp-performance](https://easyokrs.googleplex.com/search/)
-[#wp-health](https://easyokrs.googleplex.com/search/)
+[#wp-performance](https://easyokrs.googleplex.com/search/?q=wp-performance)
+[#wp-health](https://easyokrs.googleplex.com/search/?q=wp-health)
 
 Owners: [ajuma](https://easyokrs.googleplex.com/view/ajuma/),
 [jaydasika](https://easyokrs.googleplex.com/view/jaydasika/),
@@ -381,7 +382,7 @@ P2New features
 Owner: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/)
 
 *   0.10P2Drive tentative standards agreement on a raster scale spec
-            [#wp-ergonomics](https://easyokrs.googleplex.com/search/)
+            [#wp-ergonomics](https://easyokrs.googleplex.com/search/?q=wp-ergonomics)
 *   Raster scale defines the scale at which to raster composited layers
     Note: crbug.com/652448 tracks doing this automatically for background
     images, and is tracked in another
@@ -391,15 +392,15 @@ Owner: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/)
     revert code. No progress
     any standards discussion.
 *   0.00P2Fix all bugs blocking backdrop-filter launch
-            [#wp-predictability](https://easyokrs.googleplex.com/search/)
+            [#wp-predictability](https://easyokrs.googleplex.com/search/?q=wp-predictability)
 *   Owner: [jaydasika](https://easyokrs.googleplex.com/view/jaydasika/)
 *   All dependent bugs of crbug.com/497522 fixed.
     Mid-quarter update: no progress so far.
     EOQ update: no progress.
 
 0.93P1Improve paint invalidation correctness and performance
-[#wp-health](https://easyokrs.googleplex.com/search/)
-[#wp-performance](https://easyokrs.googleplex.com/search/)
+[#wp-health](https://easyokrs.googleplex.com/search/?q=wp-health)
+[#wp-performance](https://easyokrs.googleplex.com/search/?q=wp-performance)
 
 Owners: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/),
 [wangxianzhu](https://easyokrs.googleplex.com/view/wangxianzhu/)
@@ -426,7 +427,7 @@ Owners: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/),
 
 ## Q3 2016
 
-## Code health [#wp-health](https://easyokrs.googleplex.com/search/)
+## Code health [#wp-health](https://easyokrs.googleplex.com/search/?q=wp-health)
 
 ## Owners: [junov](https://easyokrs.googleplex.com/view/junov/),
 [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/),
@@ -473,8 +474,8 @@ Owners: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/),
     ## EOQ update: met
 
 ## 0.40Improve quality of implementation
-[#wp-predictability](https://easyokrs.googleplex.com/search/)
-[#wp-health](https://easyokrs.googleplex.com/search/)
+[#wp-predictability](https://easyokrs.googleplex.com/search/?q=wp-predictability)
+[#wp-health](https://easyokrs.googleplex.com/search/?q=wp-health)
 
 ## Owner: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/)
 
@@ -516,8 +517,9 @@ Owners: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/),
             [blink-layout](https://easyokrs.googleplex.com/view/blink-layout/),
             [szager](https://easyokrs.googleplex.com/view/szager/),
             [wkorman](https://easyokrs.googleplex.com/view/wkorman/)
-*   ## [#wp-predictability](https://easyokrs.googleplex.com/search/)
-            [#wp-health](https://easyokrs.googleplex.com/search/)
+*   ##
+            [#wp-predictability](https://easyokrs.googleplex.com/search/?q=wp-predictability)
+            [#wp-health](https://easyokrs.googleplex.com/search/?q=wp-health)
     ## Shared between the paint and layout teams.
     ## Update: at risk. Plan in place for removing the Widget hierarchy, but not
     much progress yet.
@@ -527,7 +529,7 @@ Owners: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/),
     in flight.
 
 ## 0.97Understand, maintain and improve performance
-[#wp-performance](https://easyokrs.googleplex.com/search/)
+[#wp-performance](https://easyokrs.googleplex.com/search/?q=wp-performance)
 
 ## Owner: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/)
 
@@ -551,8 +553,8 @@ Owners: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/),
     ## EOQ: in code review.
 
 ## 0.67Improve paint/compositing interfaces
-[#wp-performance](https://easyokrs.googleplex.com/search/)
-[#wp-health](https://easyokrs.googleplex.com/search/)
+[#wp-performance](https://easyokrs.googleplex.com/search/?q=wp-performance)
+[#wp-health](https://easyokrs.googleplex.com/search/?q=wp-health)
 
 ## Owner: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/)
 
@@ -581,8 +583,8 @@ Owners: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/),
     rects. Interest rests not yet done.
 
 ## 0.58Finish cc property tree implementation
-[#wp-performance](https://easyokrs.googleplex.com/search/)
-[#wp-health](https://easyokrs.googleplex.com/search/)
+[#wp-performance](https://easyokrs.googleplex.com/search/?q=wp-performance)
+[#wp-health](https://easyokrs.googleplex.com/search/?q=wp-health)
 
 ## Owner: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/)
 
@@ -625,18 +627,18 @@ Owners: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/),
 ## 1.00New features
 
 *   ## 1.00P2Support custom paint
-            [#wp-future](https://easyokrs.googleplex.com/search/)
+            [#wp-future](https://easyokrs.googleplex.com/search/?q=wp-future)
 *   ## Code reviews, design reviews, etc.
     ## Mid-quarter update: on track. (nothing to do)
     ## EOQ update: met
 *   ## 1.00P2Unprefix -webkit-clip-path
-            [#wp-predictability](https://easyokrs.googleplex.com/search/)
+            [#wp-predictability](https://easyokrs.googleplex.com/search/?q=wp-predictability)
 *   ## owner:fs@opera.com
     ## Mid-quarter update: on track, code complete already. Sending an intent to
     ship soon.
     ## EOQ update: met
 
-## Code health [#wp-health](https://easyokrs.googleplex.com/search/)
+## Code health [#wp-health](https://easyokrs.googleplex.com/search/?q=wp-health)
 
 ## Owner: [blink-layout](https://easyokrs.googleplex.com/view/blink-layout/)
 
@@ -644,7 +646,7 @@ Owners: [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/),
 *   ## Owners: [atotic](https://easyokrs.googleplex.com/view/atotic/),
             [paint-dev](https://easyokrs.googleplex.com/view/paint-dev/),
             [wangxianzhu](https://easyokrs.googleplex.com/view/wangxianzhu/)
-*   ## [#wp-health](https://easyokrs.googleplex.com/search/)
+*   ## [#wp-health](https://easyokrs.googleplex.com/search/?q=wp-health)
     ## Reduce life cycle violations in the rendering pipeline.
     ## Shared between the paint and layout teams.
 

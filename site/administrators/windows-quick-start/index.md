@@ -12,7 +12,8 @@ group policy. For further configuration, please reference the other
 documentation at <http://dev.chromium.org/administrators>.
 **1. Download the MSI.**
 
-Download the [Google Chrome MSI](http://www.google.com/chrome/eula.html).
+Download the [Google Chrome
+MSI](http://www.google.com/chrome/eula.html?msi=true).
 **2. Download the ADM / ADMX template.**
 You can download the ADM template or ADMX template
 [here](/administrators/policy-templates).

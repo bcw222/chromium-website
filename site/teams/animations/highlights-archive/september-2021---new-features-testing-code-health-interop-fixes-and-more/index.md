@@ -46,14 +46,14 @@ title: September 2021 - New features, testing, code health, interop fixes and mo
     href="https://github.com/mozilla/standards-positions/issues/565#issuecomment-918137857">useful/reasonable</a>.</td></td>
 
     <td><td>Mozilla also <a
-    href="https://github.com/WICG/capability-delegation/issues">started bugs &
-    enhancements</a> discussions.</td></td>
+    href="https://github.com/WICG/capability-delegation/issues?q=is%3Aissue+author%3Aannevk+">started
+    bugs & enhancements</a> discussions.</td></td>
 
 <td><td>For payment capability delegation, the origin trial is now <a href="https://developer.chrome.com/origintrials/#/view_trial/640637046993453057">ready</a> for partners.</td></td>
 
 <td><td>Composite BG-color animation</td></td>
 
-<td><td>xidachen@ <a href="https://critique-ng.corp.google.com/cl/395582428">launched</a> the finch study for the feature CompositeBGColorAnimation on Beta channel, with 50% control vs 50% enabled. The preliminary <a href="https://uma.googleplex.com/p/chrome/variations">result</a> looks very positive (Note that currently we have &lt; 7 days of data). Here are some highlights of the result:</td></td>
+<td><td>xidachen@ <a href="https://critique-ng.corp.google.com/cl/395582428">launched</a> the finch study for the feature CompositeBGColorAnimation on Beta channel, with 50% control vs 50% enabled. The preliminary <a href="https://uma.googleplex.com/p/chrome/variations?sid=15e5e4da675df567f60a113eb822ccde">result</a> looks very positive (Note that currently we have &lt; 7 days of data). Here are some highlights of the result:</td></td>
 
     <td><td>We do see performance improvement on Animations Smoothness
     metrics.</td></td>

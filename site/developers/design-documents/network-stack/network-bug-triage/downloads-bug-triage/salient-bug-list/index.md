@@ -64,6 +64,6 @@ for duping). Feel free to edit this list as you feel moved.
 </tr>
 <tr>
 <td> Downloads fail with 'Insufficient Permissions' error</td>
-<td><a href="https://code.google.com/p/chromium/issues/detail">161793</a></td>
+<td><a href="https://code.google.com/p/chromium/issues/detail?id=161793">161793</a></td>
 </tr>
 </table>

@@ -50,8 +50,8 @@ LOG(INFO) &lt;&lt; "2+2=" &lt;&lt; callback_add.Run(2, 2);
 
 Utility functions to encode/decode URLs and web-form-like parameters.
 
-std::string encoded = WebParamsEncode({{ '{{' }} "q", "test"}, {"path", "/usr/bin"},
-{"#", "%" {{ '}}' }});
+std::string encoded = WebParamsEncode({{ '{{' }}"q", "test"}, {"path", "/usr/bin"},
+{"#", "%"{{ '}}' }});
 
 EXPECT_EQ("q=test&path=%2Fusr%2Fbin&%23=%25", encoded);
 

@@ -72,7 +72,7 @@ title: April 2021 - New features, Testing, Stability fixes, Interop fixes, Metri
 
 <td><td>Our team is partnering with the skia team, to develop a variant of CSS paint worklet (a native paint worklet), to paint the background faster using native code.</td></td>
 
-<td><td>The picture on the left shows example usage (full <a href="https://jsbin.com/foxasib/10/edit">JSBin</a> example). In the example, we don’t need to use the traditional CSS paint APIs such as “addModule” or “registerPaint”. Rather we use the “skottie” as the name to identify that this is native paint worklet.</td></td>
+<td><td>The picture on the left shows example usage (full <a href="https://jsbin.com/foxasib/10/edit?html,css,js">JSBin</a> example). In the example, we don’t need to use the traditional CSS paint APIs such as “addModule” or “registerPaint”. Rather we use the “skottie” as the name to identify that this is native paint worklet.</td></td>
 
 <td><td>The change is in a work-in-progress <a href="https://chromium-review.googlesource.com/c/chromium/src/+/2776692">CL</a>, currently the animation is running on the main thread, we need some more work to move it off the main thread.</td></td>
 
@@ -151,7 +151,7 @@ title: April 2021 - New features, Testing, Stability fixes, Interop fixes, Metri
     href="https://docs.google.com/document/d/1_4Tg9Bt1OXO6mjAF3a-gaH07G-siGKeSkj13GQnOmjo/edit#bookmark=id.qztvoysscbtv">report</a>
     for the finch.</td></td>
 
-<td><td>The only explanation is maybe extension messaging <a href="https://bugs.chromium.org/p/chromium/issues/detail">clobbering</a> user activation again. </td></td>
+<td><td>The only explanation is maybe extension messaging <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=957553">clobbering</a> user activation again. </td></td>
 
 <td></tr></td>
 <td><tr></td>
@@ -174,9 +174,9 @@ title: April 2021 - New features, Testing, Stability fixes, Interop fixes, Metri
 
     <td><td>This is the top 7th renderer crash on latest beta on mac. It is
     responsible for 4 bugs (2 <a
-    href="https://bugs.chromium.org/p/chromium/issues/list">P1</a> release
-    blockers, 2 <a
-    href="https://bugs.chromium.org/p/chromium/issues/list">P2s</a>).</td></td>
+    href="https://bugs.chromium.org/p/chromium/issues/list?q=id%3A1183276%2C1189926%2C&can=1">P1</a>
+    release blockers, 2 <a
+    href="https://bugs.chromium.org/p/chromium/issues/list?q=id%3A1194276%2C1193025%2C&can=1">P2s</a>).</td></td>
 
 <td></tr></td>
 <td></table></td>

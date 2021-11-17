@@ -27,7 +27,7 @@ listed in their extension's
 [permissions](https://developer.chrome.com/extensions/declare_permissions),
 regardless of the origin that the content script is running within. As part of a
 broader [Extension Manifest
-V3](https://docs.google.com/document/d/1nPu6Wy4LWR66EFLeYInl3NzzhHzc-qnk4w4PX-0XMw8/edit)
+V3](https://docs.google.com/document/d/1nPu6Wy4LWR66EFLeYInl3NzzhHzc-qnk4w4PX-0XMw8/edit?usp=sharing)
 effort to improve extension security, privacy, and performance, these
 cross-origin requests in content scripts will soon be disallowed. Instead,
 content scripts will be subject to the same request rules as the page they are
@@ -165,7 +165,7 @@ setting chrome://flags/#cors-for-content-scripts to “Enabled” and
 chrome://flags/#force-empty-CORB-and-CORS-allowlist to “Enabled”:
 
 > [<img alt="image"
-> src="https://drive.google.com/uc">](https://drive.google.com/file/d/1xPpHGMmjgMOYDEZH1U02XvAxDHDPMwoc/view)
+> src="https://drive.google.com/uc?id=1xPpHGMmjgMOYDEZH1U02XvAxDHDPMwoc&export=download">](https://drive.google.com/file/d/1xPpHGMmjgMOYDEZH1U02XvAxDHDPMwoc/view?usp=drive_web)
 
 If your extension makes cross-origin fetches from content scripts, then your
 extension may be broken and you may observe one of the following errors in the
@@ -301,9 +301,10 @@ does not put the user's sensitive data at risk.
 We have reached out to developers whose extensions are on the allowlist.
 
 If your extension is on the allowlist and no longer needs to be, please [**file
-a bug here**](https://bugs.chromium.org/p/chromium/issues/entry) to have it
-removed. You may verify that your extension no longer needs to be on the
-allowlist by testing that it continues to work after launching Chrome
+a bug
+here**](https://bugs.chromium.org/p/chromium/issues/entry?template=Defect+report+from+user&components=Internals%3ESandbox%3ESiteIsolation&blocking=846346&cc=lukasza@chromium.org&summary=Remove+extension+%3Cextension+id%3E+from+the+CORB+allowlist)
+to have it removed. You may verify that your extension no longer needs to be on
+the allowlist by testing that it continues to work after launching Chrome
 81.0.4035.0 or higher with the following [command line
 flags](/developers/how-tos/run-chromium-with-flags):
 
@@ -315,7 +316,7 @@ setting chrome://flags/#cors-for-content-scripts to “Enabled” and
 chrome://flags/#force-empty-CORB-and-CORS-allowlist to “Enabled”:
 
 > [<img alt="image"
-> src="https://drive.google.com/uc">](https://drive.google.com/file/d/1xPpHGMmjgMOYDEZH1U02XvAxDHDPMwoc/view)
+> src="https://drive.google.com/uc?id=1xPpHGMmjgMOYDEZH1U02XvAxDHDPMwoc&export=download">](https://drive.google.com/file/d/1xPpHGMmjgMOYDEZH1U02XvAxDHDPMwoc/view?usp=drive_web)
 
 If your extension is not yet on the allowlist and still depends on cross-origin
 requests, these requests may stop working and you may observe the following
@@ -340,7 +341,7 @@ adding an extension to the allowlist, but we're now generally avoiding this when
 possible, because users of allowlisted extensions are vulnerable to additional
 security attacks. To report issues encountered during the Chrome 87 deprecation
 of the allowlist, please [open a Chromium
-bug](https://bugs.chromium.org/p/chromium/issues/entry).
+bug](https://bugs.chromium.org/p/chromium/issues/entry?template=Defect+report+from+user&components=Internals%3ESandbox%3ESiteIsolation&blocking=846346&cc=lukasza@chromium.org&summary=CORB/CORS+allowlist+deprecation+in+Chrome+87).
 
 ## Summary
 

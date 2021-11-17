@@ -22,7 +22,7 @@ OS Developer Guide](/chromium-os/developer-guide).
 ### Specifications
 
 *   CPU: [Samsung Exynos 5 Dual
-            (5250)](http://www.samsung.com/global/business/semiconductor/product/application/detail)
+            (5250)](http://www.samsung.com/global/business/semiconductor/product/application/detail?productId=7668)
             (Cortex A15; 1.7GHz dual core cpu)
 *   GPU: [ARM
             Mali-T604](http://www.arm.com/products/multimedia/mali-graphics-hardware/mali-t604.php)

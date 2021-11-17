@@ -263,11 +263,11 @@ some of our long-term goals:
 
 *   [chromium/src/chrome/browser/chromeos/options](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/browser/chromeos/options/)
             (configuration page)
-*   [chromium-os/src/platform/cros](http://src.chromium.org/cgi-bin/gitweb.cgi)
+*   [chromium-os/src/platform/cros](http://src.chromium.org/cgi-bin/gitweb.cgi?p=cros.git;a=summary)
             (libcros part, replacement for ibus-setup and ibus-panel)
-    *   [chromeos_ime.cc](http://src.chromium.org/cgi-bin/gitweb.cgi) -
-                APIs used for implementing the candidate window
-    *   [chromeos_language.cc](http://src.chromium.org/cgi-bin/gitweb.cgi)
+    *   [chromeos_ime.cc](http://src.chromium.org/cgi-bin/gitweb.cgi?p=cros.git;a=blob;f=chromeos_ime.cc;hb=HEAD)
+                - APIs used for implementing the candidate window
+    *   [chromeos_language.cc](http://src.chromium.org/cgi-bin/gitweb.cgi?p=cros.git;a=blob;f=chromeos_ime.cc;hb=HEAD)
                 - APIs used for manipulating input language status.
 
 ### Candidate window

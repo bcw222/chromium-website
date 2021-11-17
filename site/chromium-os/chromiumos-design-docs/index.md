@@ -40,7 +40,7 @@ design docs in the coming months.**
             Presentation](https://docs.google.com/a/chromium.org/presentation/d/1HHf_0nKrceQr_NQYGMpVlYTIYF8ky-eNxP7W5Lxw94Y/present#slide=id.g341ad2000_020)
             (2014)
 *   [Verified Boot
-            Presentation](https://docs.google.com/presentation/d/14haBMrbpc2zlgdWmiaTlp_iDG_A8t5PTTXFMz5kqHSM/present)
+            Presentation](https://docs.google.com/presentation/d/14haBMrbpc2zlgdWmiaTlp_iDG_A8t5PTTXFMz5kqHSM/present?slide=id.g11a5e5b4cf_0_140)
             (2016)
 *   [Keyboard-Controlled Reset
             Circuit](/chromium-os/chromiumos-design-docs/keyboard-controlled-reset-circuit)

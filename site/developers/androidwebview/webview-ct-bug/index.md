@@ -23,7 +23,7 @@ September 2016. More information about Certificate transparency is available
 Due to a bug in Chrome’s implementation of Certificate Transparency, pages
 served with Symantec certificates will not load in WebView versions 53 or 54,
 starting 10 weeks after each WebView release. More details are available [in
-this public bug](https://bugs.chromium.org/p/chromium/issues/detail).
+this public bug](https://bugs.chromium.org/p/chromium/issues/detail?id=664177).
 
 The chromium-dev group also includes extra information
 [here.](https://groups.google.com/a/chromium.org/forum/#!topic/chromium-dev/_ZILH704AVU)

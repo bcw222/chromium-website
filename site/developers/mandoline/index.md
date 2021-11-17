@@ -24,6 +24,7 @@ Sub-pages:
 
 *   [Build, Debug & Test instructions](/developers/mandoline/build).
 
-Bugs: [all open](https://code.google.com/p/chromium/issues/list)
+Bugs: [all
+open](https://code.google.com/p/chromium/issues/list?can=2&q=label%3AProj-Mandoline&colspec=ID+Pri+M+Week+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=tiles)
 
 IRC: #mandoline on freenode

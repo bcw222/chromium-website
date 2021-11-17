@@ -16,7 +16,7 @@ The design described here is currently not used on OS X. Please see the
 Communication](/developers/design-documents/inter-process-communication) design
 doc for coverage of the current implementation for all platforms.
 A reference implementation of Mach based IPC including a kqueue bridge can be
-found in [issue 5308](http://code.google.com/p/chromium/issues/detail).
+found in [issue 5308](http://code.google.com/p/chromium/issues/detail?id=5308).
 
 In 2015, another consideration was given to using Mach IPC, and [the results of
 that survey are

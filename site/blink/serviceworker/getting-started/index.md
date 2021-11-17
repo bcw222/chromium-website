@@ -73,4 +73,5 @@ being used, follow these instructions:
 ### Documentation
 
 *   For an overview of the possibilities: Jake's [ServiceWorker is
-            coming, look busy](https://www.youtube.com/watch) talk (30min)
+            coming, look busy](https://www.youtube.com/watch?v=SmZ9XcTpMS4) talk
+            (30min)

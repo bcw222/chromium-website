@@ -18,7 +18,7 @@ or Google Chrome. The differences are described
 There are several different ways to get the browser:
 
 *   If you want to deploy Google Chrome, download Google Chrome
-            [here](http://www.google.com/chrome/eula.html).
+            [here](http://www.google.com/chrome/eula.html?platform=linux&hl=en&hl=en).
 *   If you want to deploy Chromium, your distro may have already
             repackaged Chromium for you. See which distros have repackaged
             Chromium

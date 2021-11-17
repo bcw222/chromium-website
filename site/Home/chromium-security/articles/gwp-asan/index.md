@@ -57,8 +57,8 @@ GWP-ASan is currently enabled for all Windows and macOS users for allocations
 made using malloc() and PartitionAlloc. It is only enabled for a small fraction
 of allocations and processes to reduce performance and memory overhead to a
 negligible amount. At the time of writing it has found [over sixty
-bugs](https://bugs.chromium.org/p/chromium/issues/list) (many are still
-restricted view). About 90% of the issues GWP-ASan has found are
+bugs](https://bugs.chromium.org/p/chromium/issues/list?q=Hotlist%3DGWP-ASan&can=1)
+(many are still restricted view). About 90% of the issues GWP-ASan has found are
 use-after-frees. The remaining are out-of-bounds reads and writes.
 
 Design
@@ -103,7 +103,8 @@ instrument a subset of allocations. For example, on Windows we instrument malloc
 and free by overriding the symbols for modules we build linked against //base,
 so some DLLs shipped with Chrome—let alone Windows system code—may not be
 instrumented. On macOS however the system allocator allows adding global hooks
-meaning we can ([and](https://bugs.chromium.org/p/chromium/issues/list)
+meaning we can
+([and](https://bugs.chromium.org/p/chromium/issues/list?q=Hotlist%3DGWP-ASan%20Component%3DInternals%3EPlatformIntegration&can=1)
 [do](https://support.apple.com/en-us/HT210634)) detect memory errors from
 allocations originating in code we don’t control, like Apple system libraries.
 

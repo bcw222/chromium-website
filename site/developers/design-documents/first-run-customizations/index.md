@@ -15,7 +15,7 @@ before chrome first run in the same folder as the chrome.exe binary.
 The master_preferences file is a text file of JSON format, which needs to
 contain some specific name/value pairs. A prototypical file is shown here (for a
 more exhaustive list consult the [source
-code](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/installer/util/master_preferences.h)
+code](http://src.chromium.org/viewvc/chrome/trunk/src/chrome/installer/util/master_preferences.h?view=markup)
 directly):
 
 {

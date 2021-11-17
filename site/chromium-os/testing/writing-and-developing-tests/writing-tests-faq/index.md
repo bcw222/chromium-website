@@ -17,7 +17,8 @@ title: Writing Tests FAQ
 As Autotest is a mature upstream project we follow their style code when it
 comes to committing changes here as opposed to the Chromium OS style guide.
 Please refer to the coding style document that is in autotest/CODING_STYLE or
-view it [here](https://gerrit.chromium.org/gerrit/gitweb).
+view it
+[here](https://gerrit.chromium.org/gerrit/gitweb?p=chromiumos/third_party/autotest.git;a=blob;f=CODING_STYLE;).
 
 ## Upstream Documentation
 

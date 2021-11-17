@@ -34,8 +34,8 @@ attribute.
             browsers on iOS 12. These versions will erroneously treat cookies
             marked with \`SameSite=None\` as if they were marked
             \`SameSite=Strict\`. This
-            [bug](https://bugs.webkit.org/show_bug.cgi) has been fixed on newer
-            versions of iOS and MacOS.
+            [bug](https://bugs.webkit.org/show_bug.cgi?id=198181) has been fixed
+            on newer versions of iOS and MacOS.
 
 Here is a potential approach to working around incompatible clients (in
 pseudocode). If you implement this sample, we highly encourage you to do your

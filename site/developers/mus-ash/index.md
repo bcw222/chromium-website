@@ -37,7 +37,7 @@ what are part of the browser. mus+ash is built on top of Mandoline UI Service
 
 <td>The window service runs as part of the ash process, instead of in a separate process. This allows us to write small apps the use the window service mojo APIs, as preparation for making the very large chrome browser use those APIs..</td>
 
-<td><a href="https://bugs.chromium.org/p/chromium/issues/list">Proj-Mash-WS2</a></td>
+<td><a href="https://bugs.chromium.org/p/chromium/issues/list?can=2&q=Proj%3DMash-WS2&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids">Proj-Mash-WS2</a></td>
 
 <td>Q2/3 2018</td>
 
@@ -48,7 +48,7 @@ what are part of the browser. mus+ash is built on top of Mandoline UI Service
 
 <td>Migrating KSV into a separate app using the window service mojo APIs from above.</td>
 
-<td><a href="https://bugs.chromium.org/p/chromium/issues/list">Proj-Mash-KSV</a></td>
+<td><a href="https://bugs.chromium.org/p/chromium/issues/list?can=2&q=+Proj%3DMash-KSV&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids">Proj-Mash-KSV</a></td>
 
 <td>Q3 2018 (M69 Beta, M70 Stable)</td>
 
@@ -59,7 +59,7 @@ what are part of the browser. mus+ash is built on top of Mandoline UI Service
 
 <td>Ash header refactoring to support making single process Mash work. Allows chrome browser to use the window service APIs, but still has ash and browser in a single process. This lets us exercise very complex window APIs without having to finish all the ash / browser decoupling.</td>
 
-<td><a href="https://bugs.chromium.org/p/chromium/issues/list">Proj-Mash-SingleProcess</a></td>
+<td><a href="https://bugs.chromium.org/p/chromium/issues/list?can=2&q=Proj%3DMash-SingleProcess+&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids">Proj-Mash-SingleProcess</a></td>
 
 <td>Q4 2018</td>
 
@@ -70,7 +70,7 @@ what are part of the browser. mus+ash is built on top of Mandoline UI Service
 
 <td>Ash header refactoring to support making ash and the browser run in separate processes. This is the end goal of the mustash project.</td>
 
-<td><a href="https://bugs.chromium.org/p/chromium/issues/list">Proj-Mash-MultiProcess</a></td>
+<td><a href="https://bugs.chromium.org/p/chromium/issues/list?can=2&q=Proj%3DMash-MultiProcess&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids">Proj-Mash-MultiProcess</a></td>
 
 <td>Q2/Q3 2019</td>
 
@@ -92,42 +92,42 @@ what are part of the browser. mus+ash is built on top of Mandoline UI Service
     </tr>
     <tr>
 
-    <td><a href="https://bugs.chromium.org/p/chromium/issues/list">Proj-Mash</a></td>
+    <td><a href="https://bugs.chromium.org/p/chromium/issues/list?can=2&q=Proj%3DMash&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids">Proj-Mash</a></td>
 
     <td>Label for tracking all Mustash related issues (bugs, features)</td>
 
     </tr>
     <tr>
 
-    <td><a href="https://bugs.chromium.org/p/chromium/issues/list">Proj-Mash-WS2</a></td>
+    <td><a href="https://bugs.chromium.org/p/chromium/issues/list?can=2&q=Proj%3DMash-WS2&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids">Proj-Mash-WS2</a></td>
 
     <td>Tracking Window Service 2 work</td>
 
     </tr>
     <tr>
 
-    <td><a href="https://bugs.chromium.org/p/chromium/issues/list">Proj-Mash-KSV</a></td>
+    <td><a href="https://bugs.chromium.org/p/chromium/issues/list?can=2&q=Proj%3DMash-KSV&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids">Proj-Mash-KSV</a></td>
 
     <td>Tracking KSV migration</td>
 
     </tr>
     <tr>
 
-    <td><a href="https://bugs.chromium.org/p/chromium/issues/list">Proj-Mash-SingleProcess</a></td>
+    <td><a href="https://bugs.chromium.org/p/chromium/issues/list?can=2&q=Proj%3DMash-SingleProcess&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids">Proj-Mash-SingleProcess</a></td>
 
     <td>Tracking ash refactoring support mash in single process</td>
 
     </tr>
     <tr>
 
-    <td><a href="https://bugs.chromium.org/p/chromium/issues/list">Proj-Mash-MultiProcess</a></td>
+    <td><a href="https://bugs.chromium.org/p/chromium/issues/list?can=2&q=Proj%3DMash-MultiProcess&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids">Proj-Mash-MultiProcess</a></td>
 
     <td>Tracking ash refactoring support mash in multi process</td>
 
     </tr>
     <tr>
 
-    <td><a href="https://bugs.chromium.org/p/chromium/issues/list">Proj-Mash-Cleanup</a></td>
+    <td><a href="https://bugs.chromium.org/p/chromium/issues/list?can=2&q=Proj%3DMash-Cleanup&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids">Proj-Mash-Cleanup</a></td>
 
     <td>Label for tracking clean up tasks.</td>
 
@@ -139,7 +139,7 @@ what are part of the browser. mus+ash is built on top of Mandoline UI Service
 *   [Intent to
             Implement](https://groups.google.com/a/chromium.org/d/msg/chromium-dev/stof4wmbEDg/bhvWa-PrFQAJ)
             on chromium-dev with high level tactical details
-*   [Bugs](https://code.google.com/p/chromium/issues/list)
+*   [Bugs](https://code.google.com/p/chromium/issues/list?can=2&q=mustash)
 *   Notes in
             [//ash/README.md](https://chromium.googlesource.com/chromium/src.git/+/master/ash/README.md)
 *   Googlers: See go/mustash and linked documents

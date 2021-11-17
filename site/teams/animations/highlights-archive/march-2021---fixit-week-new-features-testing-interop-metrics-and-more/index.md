@@ -76,7 +76,7 @@ title: March 2021 - Fixit week, New features, Testing, Interop, Metrics and more
 
 <td><td>Our team had a fixit week during Mar 1~5, and the team made tremendous progress!</td></td>
 
-<td><td>Bugs we closed: <a href="https://bugs.chromium.org/u/2341872843/hotlists/Interactions-FixIt-2021Q1">40</a> including:</td></td>
+<td><td>Bugs we closed: <a href="https://bugs.chromium.org/u/2341872843/hotlists/Interactions-FixIt-2021Q1?can=1">40</a> including:</td></td>
 
     <td><td>P1s fixed: 4</td></td>
 
@@ -86,7 +86,7 @@ title: March 2021 - Fixit week, New features, Testing, Interop, Metrics and more
 
     <td><td>Others (WAIs, dups): 18</td></td>
 
-<td><td>Bugs re-triaged: <a href="https://bugs.chromium.org/u/flackr@chromium.org/hotlists/Interactions-2021-Retriage">19</a> including:</td></td>
+<td><td>Bugs re-triaged: <a href="https://bugs.chromium.org/u/flackr@chromium.org/hotlists/Interactions-2021-Retriage?can=1">19</a> including:</td></td>
 
     <td><td>Fixed: 2</td></td>
 
@@ -299,13 +299,13 @@ title: March 2021 - Fixit week, New features, Testing, Interop, Metrics and more
 
 <td><td><img alt="image" src="https://lh4.googleusercontent.com/xCplj7tBIokIzfY3bN1pO4H07CEWAZq9qG8C9p8DmlfYfor-6CGO4h9OdyDZsR03gCf5esw4S1xIsIvYiyLRBcxvS1C7k6zIDFvS_111zX_QJjBHotjN4mBbY_Gj7VMV51LgF9b9OkIw1SU2Tld6sb6IpufwOub1V2YeJK-ShNRd0XPB" height=167 width=283></td></td>
 
-<td><td>flackr@ created <a href="https://bugs.chromium.org/p/chromium/issues/detail">meta tracking bug</a> for this. During this sprint, <a href="https://bugs.chromium.org/p/chromium/issues/list">3 issues</a> were closed. Moreover, a <a href="https://wpt.fyi/results/css/css-position/sticky/position-sticky-scrollIntoView.html">WPT test</a> has been landed to track new spec scrollIntoView behavior.</td></td>
+<td><td>flackr@ created <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1185163">meta tracking bug</a> for this. During this sprint, <a href="https://bugs.chromium.org/p/chromium/issues/list?q=commentby%3Aflackr%40chromium.org%20sticky%20closed%3E2021-2-22%20closed%3C2021-3-12&can=1">3 issues</a> were closed. Moreover, a <a href="https://wpt.fyi/results/css/css-position/sticky/position-sticky-scrollIntoView.html?label=experimental&label=master&aligned">WPT test</a> has been landed to track new spec scrollIntoView behavior.</td></td>
 
 <td><td>Fixed falsely overconstrained stick positioning</td></td>
 
 <td><td><img alt="image" src="https://lh4.googleusercontent.com/xtsXFqA5IqyV2xz6JWUDk25Ee5dkse6mUKh_5FTcPYpISbkPWErpJR5k3fMnUMI9qnyzgLJSziuxiFSOPImhoGdqX-fZ4NWry2y1Jivg6v_KZ5E75YtqmMTl-vw8OVl7xAa8VJmY7dVCm6VwrsrmLkbG3vK_A-VH1453sQTMChlYha0U" height=137 width=137><img alt="image" src="https://lh4.googleusercontent.com/BG8InXEt7-3mnsMMdOjt8vPJ_Ff8aexfkJ2xiBSV3JryUb501rzf6JUkU2ELO8H0bUHzSU5zYg_gS8FeLzm0DQsjWUr_WlMZKvOJtfhK4O3KmArm4vROemwz6axHO3l66GcIXtbzKtAA_WHOJZYEPPvUQE-BcoIlh7yun3UZUoXyrMbj" height=136 width=136></td></td>
 
-<td><td>flackr@ fixed a stick position <a href="https://bugs.chromium.org/p/chromium/issues/detail">bug</a>. In the above demo:</td></td>
+<td><td>flackr@ fixed a stick position <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=841432">bug</a>. In the above demo:</td></td>
 
     <td><td>The left one is the wrong behavior where the bottom constraint is
     ignored.</td></td>
@@ -332,10 +332,11 @@ title: March 2021 - Fixit week, New features, Testing, Interop, Metrics and more
     changes.</td></td>
 
     <td><td>Unfortunately the percentage of sites that might break is not going
-    down (<a href="https://uma.googleplex.com/p/chrome/timeline_v2/">Beta</a>:
+    down (<a
+    href="https://uma.googleplex.com/p/chrome/timeline_v2/?sid=29901cc34c7b4b624f5a759bda0b5a34">Beta</a>:
     ~2.2%, <a
-    href="https://uma.googleplex.com/p/chrome/timeline_v2/">Stable</a>: ~0.5% of
-    page loads)</td></td>
+    href="https://uma.googleplex.com/p/chrome/timeline_v2/?sid=706cc2310b84fa2bdb3e87b52b1c052b">Stable</a>:
+    ~0.5% of page loads)</td></td>
 
 <td><td>Scroll snap behavior with scrollbar arrow keys</td></td>
 
@@ -365,7 +366,7 @@ title: March 2021 - Fixit week, New features, Testing, Interop, Metrics and more
 
 <td><td><img alt="image" src="https://lh3.googleusercontent.com/xoghGSmjwTGotF0VxXGa_XGkMHaKNQvIOvSx4CRqVpN900oCWoCYZwmMxbaz7IptN0gLl00CrW0XRgwSbhuOB3PZEjC4n1eDX3OqRybkLOhor4IUKXrFVqsTTyJNjMJmtfPHjIlYGAEtJdgIdluiKurKJJV6DahQdzEaNNQdvAwR1rgl" height=117 width=283></td></td>
 
-<td><td>Finch study: <a href="https://uma.googleplex.com/p/chrome/variations">Scroll prediction</a></td></td>
+<td><td>Finch study: <a href="https://uma.googleplex.com/p/chrome/variations?sid=950bc8883d9b9c8ce6469b5592a5e81a">Scroll prediction</a></td></td>
 
 <td><td>flackr@ is launching this finch study on behave of a Microsoft engineer.</td></td>
 

@@ -17,7 +17,7 @@ ninja -C out/Release minidump_stackwalk dump_syms. To build these tools from
 source in a Breakpad checkout, check out the source from
 <http://code.google.com/p/google-breakpad/> and follow the included
 instructions. Prebuilt binaries from thestig@ are [available for
-download](https://drive.google.com/folderview).
+download](https://drive.google.com/folderview?id=0B5yuieQYffwPfmYwNktxYUVxb2tobHlkS2hqcjlHMUplMTdndkVaMlU0QXlaa3cwSE9xZm8&usp=sharing).
 
 ### Get the crash dump
 
@@ -104,4 +104,4 @@ Minidumps](/developers/crash-reports#TOC-Working-with-Minidumps).
 
 If you've built Chromium.app with symbols, the easiest way to symbolize a crash
 is to let Crashpad forward the crash to the system crash reporter. See
-[set_system_crash_reporter_forwarding](https://cs.chromium.org/chromium/src/third_party/crashpad/crashpad/client/crashpad_info.h).
+[set_system_crash_reporter_forwarding](https://cs.chromium.org/chromium/src/third_party/crashpad/crashpad/client/crashpad_info.h?l=135).

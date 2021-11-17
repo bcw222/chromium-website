@@ -28,7 +28,7 @@ to know anything about one another. This video gives a quick overview:**
 **# Status of the API**
 
 **Web Intents is enabled as an experimental API starting in Chrome 19 in order to gather feedback from web developers to shape the future of the API. In particular, this experimental version is prefixed and only allows applications to register as services in their Chrome Web Store app manifest.**
-**This is an experimental API that will change over time with feedback from real world usage, potentially in backwards-incompatible ways. If you choose to experiment with Web Intents, be sure to follow the[ Web Intents Google + page](https://plus.google.com/116171619992010691739/posts), where we'll announce any impending breaking changes in Chrome's implementation based on the feedback we receive from this experimental release. You can provide feedback on the API or ask questions on the [Web Intents discussion list](https://groups.google.com/forum/).**
+**This is an experimental API that will change over time with feedback from real world usage, potentially in backwards-incompatible ways. If you choose to experiment with Web Intents, be sure to follow the[ Web Intents Google + page](https://plus.google.com/116171619992010691739/posts), where we'll announce any impending breaking changes in Chrome's implementation based on the feedback we receive from this experimental release. You can provide feedback on the API or ask questions on the [Web Intents discussion list](https://groups.google.com/forum/?fromgroups#!forum/web-intents-discuss).**
 
 **# Walkthrough of an example**
 
@@ -256,7 +256,7 @@ src="/developers/web-intents-in-chrome/Screen%20shot%202012-05-10%20at%2012.40.5
 
 **## How can I influence the API's development?**
 
-**First and foremost, by using it! It's impossible to design APIs in a vacuum, especially for ones as potentially complex as Web Intents. Make sure you're subscribed to the [Web Intents discussion list](https://groups.google.com/forum/), and send any comments, questions, or suggestions you have. If you're interested in directly influencing the specification, we encourage you to participate in the [W3C mailing list](http://lists.w3.org/Archives/Public/public-web-intents/).**
+**First and foremost, by using it! It's impossible to design APIs in a vacuum, especially for ones as potentially complex as Web Intents. Make sure you're subscribed to the [Web Intents discussion list](https://groups.google.com/forum/?fromgroups#!forum/web-intents-discuss), and send any comments, questions, or suggestions you have. If you're interested in directly influencing the specification, we encourage you to participate in the [W3C mailing list](http://lists.w3.org/Archives/Public/public-web-intents/).**
 
 **## What types of changes are expected in the future?**
 
@@ -283,7 +283,7 @@ src="/developers/web-intents-in-chrome/Screen%20shot%202012-05-10%20at%2012.40.5
 
 **## I'm having trouble getting it working. Where can I go for help?**
 
-**Send any comments, questions, or suggestions to the [Web Intents discussion list](https://groups.google.com/forum/).**
+**Send any comments, questions, or suggestions to the [Web Intents discussion list](https://groups.google.com/forum/?fromgroups#!forum/web-intents-discuss).**
 
 **## How will breaking changes be communicated?**
 
@@ -319,7 +319,7 @@ src="/developers/web-intents-in-chrome/Screen%20shot%202012-05-10%20at%2012.40.5
 
 **Remember that this is an experimental API that is evolving rapidly. In the future we may make breaking changes to the API. Only use the API if you can commit to staying current with any changes that may occur.**
 **To be alerted of breaking changes in upcoming versions of Chrome, follow our [Google + page](https://plus.google.com/116171619992010691739/posts). We'll also send announcements to the discussion list.**
-**To ask for help, talk about the implementation in Chrome, float informal ideas, or general discussion, use the [Web Intents discussion list](https://groups.google.com/forum/).**
+**To ask for help, talk about the implementation in Chrome, float informal ideas, or general discussion, use the [Web Intents discussion list](https://groups.google.com/forum/?fromgroups#!forum/web-intents-discuss).**
 **To participate in formal discussions about evolving the specification,
 participate in the [W3C mailing
 list](http://lists.w3.org/Archives/Public/public-web-intents/).**

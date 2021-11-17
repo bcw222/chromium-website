@@ -66,8 +66,8 @@ Build](http://www.chromium.org/developers/web-idl-interfaces#TOC-Build)).
 There are relatively long lists of .gypi includes in the .gyp files, which are
 due to factoring for componentization, and are longer than desired due to
 layering violations, namely `bindings_core` → `bindings_modules` (Bug
-[358074](https://code.google.com/p/chromium/issues/detail)): these make the
-(bad) dependencies explicit.
+[358074](https://code.google.com/p/chromium/issues/detail?id=358074)): these
+make the (bad) dependencies explicit.
 
 ## Performance
 
@@ -87,11 +87,11 @@ which should only rebuild that file's bindings and any dependents, not trigger a
 full rebuild.
 
 Current performance (as of Blink
-[r168630](https://src.chromium.org/viewvc/blink) in March 2014) is acceptable:
-on a fast Linux workstation with 16 cores, full regeneration takes ~3 seconds
-(~50 seconds of user time, ~80 ms/IDL file), and full rebuilds on IDL changes
-only occur if a dependency IDL file (partial interface or implemented interface)
-is touched, which is infrequent.
+[r168630](https://src.chromium.org/viewvc/blink?revision=168630) in March 2014)
+is acceptable: on a fast Linux workstation with 16 cores, full regeneration
+takes ~3 seconds (~50 seconds of user time, ~80 ms/IDL file), and full rebuilds
+on IDL changes only occur if a dependency IDL file (partial interface or
+implemented interface) is touched, which is infrequent.
 
 The coarsest way to profile a full build – which is sufficient for verifying
 coarse improvements – is to do a build (using ninja), then `touch
@@ -109,8 +109,8 @@ simplifying generated code are the main approaches.
 
 The main improvement would be precise computation of dependencies to minimize
 full rebuilds, so only dependent files are rebuild if a dependency is touched
-(Bug [341748](https://code.google.com/p/chromium/issues/detail)), but this would
-require GYP changes.
+(Bug [341748](https://code.google.com/p/chromium/issues/detail?id=341748)), but
+this would require GYP changes.
 
 ### Details
 
@@ -272,8 +272,8 @@ are used multiple times)), which slows down both gyp runtime and the build
 any *O*(*n*) work in the inputs, notably calling a Python script that runs a
 global computation, results in *O*(*n*2) work at gyp runtime.
 
-See also [350317](https://code.google.com/p/chromium/issues/detail): Reduce size
-of individual_generated_bindings.ninja​​.
+See also [350317](https://code.google.com/p/chromium/issues/detail?id=350317):
+Reduce size of individual_generated_bindings.ninja​​.
 
 Work can be reduces to *O*(1) if instead of using a Python script to compute
 dependencies dynamically (at gyp runtime), one determines the dependencies
@@ -353,5 +353,5 @@ computation in rules.
 ### References
 
 *   [Issue 341748: Improve bindings
-            build](https://code.google.com/p/chromium/issues/detail): tracking
-            bug for build rewrite (2014)
+            build](https://code.google.com/p/chromium/issues/detail?id=341748):
+            tracking bug for build rewrite (2014)

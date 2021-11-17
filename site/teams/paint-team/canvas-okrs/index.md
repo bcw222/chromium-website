@@ -10,8 +10,9 @@ title: Canvas team OKRs
 
 ## Q4 2016
 
-Ship OffscreenCanvas [#wp-performance](https://easyokrs.googleplex.com/search/)
-[#wp-ergonomics](https://easyokrs.googleplex.com/search/)
+Ship OffscreenCanvas
+[#wp-performance](https://easyokrs.googleplex.com/search/?q=wp-performance)
+[#wp-ergonomics](https://easyokrs.googleplex.com/search/?q=wp-ergonomics)
 
 Owners: [chrome-canvas](https://easyokrs.googleplex.com/view/chrome-canvas/),
 [junov](https://easyokrs.googleplex.com/view/junov/),
@@ -46,7 +47,7 @@ alt="Link"
 src="https://easyokrs.googleplex.com/images/link.png">](https://easyokrs.googleplex.com/o/2361706/)
 
 OffscreenCanvas testing and tracking
-[#wp-predictability](https://easyokrs.googleplex.com/search/)
+[#wp-predictability](https://easyokrs.googleplex.com/search/?q=wp-predictability)
 
 Owners: [chrome-canvas](https://easyokrs.googleplex.com/view/chrome-canvas/),
 [junov](https://easyokrs.googleplex.com/view/junov/),
@@ -89,7 +90,7 @@ Owners: [chrome-canvas](https://easyokrs.googleplex.com/view/chrome-canvas/),
     perf issues.
 
 requestAnimationFrame in Workers
-[#wp-ergonomics](https://easyokrs.googleplex.com/search/)
+[#wp-ergonomics](https://easyokrs.googleplex.com/search/?q=wp-ergonomics)
 
 Owners: [chrome-canvas](https://easyokrs.googleplex.com/view/chrome-canvas/),
 [junov](https://easyokrs.googleplex.com/view/junov/)
@@ -98,7 +99,8 @@ Owners: [chrome-canvas](https://easyokrs.googleplex.com/view/chrome-canvas/),
 *   Spec it
 *   Ship it in M57
 
-Product excellence [#wp-health](https://easyokrs.googleplex.com/search/)
+Product excellence
+[#wp-health](https://easyokrs.googleplex.com/search/?q=wp-health)
 
 Owners: [chrome-canvas](https://easyokrs.googleplex.com/view/chrome-canvas/),
 [xidachen](https://easyokrs.googleplex.com/view/xidachen/),
@@ -128,7 +130,8 @@ Owners: [chrome-canvas](https://easyokrs.googleplex.com/view/chrome-canvas/),
 *   Owners: [xidachen](https://easyokrs.googleplex.com/view/xidachen/),
             [xlai](https://easyokrs.googleplex.com/view/xlai/)
 
-Misc canvas features [#wp-ergonomics](https://easyokrs.googleplex.com/search/)
+Misc canvas features
+[#wp-ergonomics](https://easyokrs.googleplex.com/search/?q=wp-ergonomics)
 
 Owner: [chrome-canvas](https://easyokrs.googleplex.com/view/chrome-canvas/)
 
@@ -145,7 +148,7 @@ Owner: [chrome-canvas](https://easyokrs.googleplex.com/view/chrome-canvas/)
 ## Q3 2016
 
 OffscreenCanvas feature complete
-[#wp-future](https://easyokrs.googleplex.com/search/)
+[#wp-future](https://easyokrs.googleplex.com/search/?q=wp-future)
 
 Owners: [chrome-canvas](https://easyokrs.googleplex.com/view/chrome-canvas/),
 [junov](https://easyokrs.googleplex.com/view/junov/),
@@ -183,7 +186,7 @@ alt="Link"
 src="https://easyokrs.googleplex.com/images/link.png">](https://easyokrs.googleplex.com/o/2239617/)
 
 0.10P3Canvas color space support
-[#wp-future](https://easyokrs.googleplex.com/search/)
+[#wp-future](https://easyokrs.googleplex.com/search/?q=wp-future)
 
 Owners: [chrome-canvas](https://easyokrs.googleplex.com/view/chrome-canvas/),
 [junov](https://easyokrs.googleplex.com/view/junov/)
@@ -206,7 +209,8 @@ Owners: [chrome-canvas](https://easyokrs.googleplex.com/view/chrome-canvas/),
             color space plumbing in the compositor is there, not functional due
             to several missing pieces in skia, blink and compositor.
 
-0.74P1Product Excellence [#wp-health](https://easyokrs.googleplex.com/search/)
+0.74P1Product Excellence
+[#wp-health](https://easyokrs.googleplex.com/search/?q=wp-health)
 
 Owners: [chrome-canvas](https://easyokrs.googleplex.com/view/chrome-canvas/),
 [junov](https://easyokrs.googleplex.com/view/junov/),
@@ -254,8 +258,8 @@ Owners: [chrome-canvas](https://easyokrs.googleplex.com/view/chrome-canvas/),
     probably not be fixed this quarter.
     EOQ status: 1/2 bugs fixed + bonus bug 424291
 
-Misc Features [#wp-future](https://easyokrs.googleplex.com/search/)
-[#wp-performance](https://easyokrs.googleplex.com/search/)
+Misc Features [#wp-future](https://easyokrs.googleplex.com/search/?q=wp-future)
+[#wp-performance](https://easyokrs.googleplex.com/search/?q=wp-performance)
 
 Owner: [chrome-canvas](https://easyokrs.googleplex.com/view/chrome-canvas/)
 

@@ -17,17 +17,17 @@ title: For Testers
 
 *   [Find duplicate bugs](http://code.google.com/p/chromium/issues/list)
 *   [Confirm unconfirmed bugs
-            ](http://code.google.com/p/chromium/issues/list)
+            ](http://code.google.com/p/chromium/issues/list?q=status:Unconfirmed)
 *   [Confirm unconfirmed Mac
-            bugs](http://code.google.com/p/chromium/issues/list)
+            bugs](http://code.google.com/p/chromium/issues/list?can=2&q=+os:mac+status:unconfirmed&colspec=ID+Stars+Pri+Area+Type+Status+Summary+Modified+Owner+Mstone+OS&cells=tiles)
 *   [Confirm unconfirmed Linux
-            bugs](http://code.google.com/p/chromium/issues/list)
+            bugs](http://code.google.com/p/chromium/issues/list?can=2&q=os:Linux+status:unconfirmed&colspec=ID+Stars+Pri+Area+Type+Status+Summary+Modified+Owner+Mstone+OS&x=mstone&y=area&cells=tiles)
 *   [Help us by creating reduced test
             cases](/system/errors/NodeNotFound)
 *   [Verify Mac fixed
-            bugs](http://code.google.com/p/chromium/issues/list)
+            bugs](http://code.google.com/p/chromium/issues/list?can=1&q=os:mac+status:fixed&colspec=ID+Stars+Pri+Area+Type+Status+Summary+Modified+Owner+Mstone+OS&x=mstone&y=area&cells=tiles)
 *   [Verify Linux fixed
-            bugs](http://code.google.com/p/chromium/issues/list)
+            bugs](http://code.google.com/p/chromium/issues/list?can=1&q=os:Linux+status:fixed&colspec=ID+Stars+Pri+Area+Type+Status+Summary+Modified+Owner+Mstone+OS&x=mstone&y=area&cells=tiles)
 *   [Frontend testing](/for-testers/frontend-testing)
 *   [Backend testing](/system/errors/NodeNotFound)
 *   [Firmware testing](/for-testers/faft)

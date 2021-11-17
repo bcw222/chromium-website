@@ -30,7 +30,7 @@ security-dev@chromium.org
             developers](https://docs.google.com/document/d/1RamP4-HJ7GAJY3yv2ju2cK50K9GhOsydJN6KIO81das/pub).
 *   Do not implement your own allocator. Custom allocators are a major
             source of [security
-            vulnerabilities](https://www.securecoding.cert.org/confluence/pages/viewpage.action).
+            vulnerabilities](https://www.securecoding.cert.org/confluence/pages/viewpage.action?pageId=437).
             Chrome's existing allocators (e.g.
             [Tcmalloc](https://code.google.com/p/chromium/codesearch#chromium/src/third_party/tcmalloc/chromium/src/&q=tcmalloc&sq=package:chromium),
             [PartitionAlloc](https://code.google.com/p/chromium/codesearch#chromium/src/third_party/WebKit/Source/wtf/PartitionAlloc.h&q=PartitionAlloc&sq=package:chromium&type=cs&l=1))
@@ -46,9 +46,9 @@ security-dev@chromium.org
             following refernces are also good resources on integer security
             issues:
     *   CERT C++ [Secure Coding
-                Standard](https://www.securecoding.cert.org/confluence/pages/viewpage.action).
+                Standard](https://www.securecoding.cert.org/confluence/pages/viewpage.action?pageId=637).
     *   Mark Dowd, John McDonald, Justin Schuh, [The Art of Software
                 Security Assessment: Identifying and Preventing Software
-                Vulnerabilities](http://www.amazon.com/Art-Software-Security-Assessment-Vulnerabilities/dp/0321444426/ref=sr_1_1).
+                Vulnerabilities](http://www.amazon.com/Art-Software-Security-Assessment-Vulnerabilities/dp/0321444426/ref=sr_1_1?s=books&ie=UTF8&qid=1402949525&sr=1-1&keywords=The+Art+of+Software+Security+Assessment).
     *   Robert C. Seacord, [Secure Coding in C and
                 C++](http://www.amazon.com/Secure-Coding-Robert-C-Seacord/dp/0321335724).

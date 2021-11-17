@@ -64,9 +64,9 @@ directive](http://www.squid-cache.org/Doc/config/https_port/).**
 ## **Debugging Certificate Errors**
 
 Debugging certificate errors for a secure web proxy [may be
-difficult](https://bugs.chromium.org/p/chromium/issues/detail) because the
-certificate information is not readily visible. Certificate information is
-captured in NetLogs (capture with chrome://net-export, view with
+difficult](https://bugs.chromium.org/p/chromium/issues/detail?id=1130233)
+because the certificate information is not readily visible. Certificate
+information is captured in NetLogs (capture with chrome://net-export, view with
 <https://netlog-viewer.appspot.com/>). Alternatively, without the proxy
 configured, navigate directly to the proxy's endpoint (e.g.
 <https://123.123.123.123:1234/>) in a new tab and you'll get the typical

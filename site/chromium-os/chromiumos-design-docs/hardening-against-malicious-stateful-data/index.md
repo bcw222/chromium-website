@@ -22,10 +22,10 @@ symlinks, directory layout, etc.) that will affect a subsequent boot in a way
 that re-exploits the device, thus providing a vehicle for the attacker to get a
 persistent exploit.
 
-[Both](https://bugs.chromium.org/p/chromium/issues/detail)
-[examples](https://bugs.chromium.org/p/chromium/issues/detail) of persistent
-Chrome OS exploits that have been reported to us up to now exploit this (symlink
-attacks) as their persistence mechanism. Thus, we need to:
+[Both](https://bugs.chromium.org/p/chromium/issues/detail?id=351788)
+[examples](https://bugs.chromium.org/p/chromium/issues/detail?id=648971) of
+persistent Chrome OS exploits that have been reported to us up to now exploit
+this (symlink attacks) as their persistence mechanism. Thus, we need to:
 
     Eliminate data dependencies on stateful data as much as possible from the
     boot process.
@@ -99,18 +99,18 @@ privileged code.
 
 ### Restricting symlink traversal
 
-[Both](https://bugs.chromium.org/p/chromium/issues/detail)
-[cases](https://bugs.chromium.org/p/chromium/issues/detail) of persistent Chrome
-OS exploits that have been reported via the Chrome vulnerability reward program
-relied heavily on placing symlinks on the stateful file system to re-exploit the
-system after a reboot. The idea is to place a symlink somewhere on a path
-written to by a privileged process during boot to redirect the write to a
-different location. In some cases, the data that gets written can also be
-controlled by the attacker, e.g. when the code in question is copying files from
-one location in the stateful file system to another. It turns out that
-intentional usage of symlinks is actually very rare on the stateful file system.
-Given that and the relative success of symlink attacks, it makes sense to
-generally disallow symlink traversal.
+[Both](https://bugs.chromium.org/p/chromium/issues/detail?id=351788)
+[cases](https://bugs.chromium.org/p/chromium/issues/detail?id=648971) of
+persistent Chrome OS exploits that have been reported via the Chrome
+vulnerability reward program relied heavily on placing symlinks on the stateful
+file system to re-exploit the system after a reboot. The idea is to place a
+symlink somewhere on a path written to by a privileged process during boot to
+redirect the write to a different location. In some cases, the data that gets
+written can also be controlled by the attacker, e.g. when the code in question
+is copying files from one location in the stateful file system to another. It
+turns out that intentional usage of symlinks is actually very rare on the
+stateful file system. Given that and the relative success of symlink attacks, it
+makes sense to generally disallow symlink traversal.
 
 To prevent symlinks to be traversed on the stateful file system, there are a
 variety of possible approaches:
@@ -204,7 +204,7 @@ file systems. We'll need to allow a few exceptions:
             privileged system daemons write to files in /var/log. We should
             consider restricting this further, but will grant an exception for
             now.~~ The risk of symlinks in /var/log being abused has been
-            [mitigated](https://bugs.chromium.org/p/chromium/issues/detail).
+            [mitigated](https://bugs.chromium.org/p/chromium/issues/detail?id=916152).
 *   /home: When using ext4 encryption, encrypted user data actually
             resides within the stateful file system and encryption is handled on
             a per-file basis. To avoid blowing up scope considerably for initial
@@ -235,16 +235,16 @@ for generic per-inode access control policies regarding other types of accesses
 to the file system. In this way, we can support the use of additional hooks in
 the Chromium OS LSM which consult the "inode mark" when making decisions about
 other file system security policies. For example, one recent
-[exploit](https://bugs.chromium.org/p/chromium/issues/detail) modified a file on
-the stateful file system to convert it from a normal file into a FIFO in order
-to disable the execution progress of a program that opened the file for reading.
-In light of this, we have added an additional policy to the "inode mark"
-metadata that allows us to deny opening of FIFOs on the stateful file system in
-addition to restricting symlink traversal. We use the file_open hook in the LSM
-to check the inode metadata when a FIFO is being opened on the system. All other
-details are the same as described above for restricting symlink traversal. As
-FIFO usage is even more rare than usage of symlinks on the stateful file system,
-the only exceptions to this policy are:
+[exploit](https://bugs.chromium.org/p/chromium/issues/detail?id=766253) modified
+a file on the stateful file system to convert it from a normal file into a FIFO
+in order to disable the execution progress of a program that opened the file for
+reading. In light of this, we have added an additional policy to the "inode
+mark" metadata that allows us to deny opening of FIFOs on the stateful file
+system in addition to restricting symlink traversal. We use the file_open hook
+in the LSM to check the inode metadata when a FIFO is being opened on the
+system. All other details are the same as described above for restricting
+symlink traversal. As FIFO usage is even more rare than usage of symlinks on the
+stateful file system, the only exceptions to this policy are:
 
 *   /mnt/stateful_partition/dev_image: Used for developers running in
             dev mode.

@@ -430,15 +430,15 @@ Add the imports at the beginning of test wrapper.
 import logging, os, subprocess, tempfile, time
 
 from autotest_lib.client.common_lib import
-[error](https://gerrit.chromium.org/gerrit/gitweb)
+[error](https://gerrit.chromium.org/gerrit/gitweb?p=chromiumos/third_party/autotest.git;a=blob;f=client/common_lib/error.py;h=d9854db796a812b86089773b4cfb365a8ddf0359;hb=HEAD)
 from autotest_lib.server import
-[autotest](https://gerrit.chromium.org/gerrit/gitweb)
+[autotest](https://gerrit.chromium.org/gerrit/gitweb?p=chromiumos/third_party/autotest.git;a=blob;f=server/autotest.py;h=56b578b08da7d61762dad1bec71608db84ed81d4;hb=HEAD)
 from autotest_lib.server import
-[hosts](https://gerrit.chromium.org/gerrit/gitweb)
+[hosts](https://gerrit.chromium.org/gerrit/gitweb?p=chromiumos/third_party/autotest.git;a=tree;f=server/hosts;h=c493f142abfaacc5a9db28c64cbc3fbbe9d08f75;hb=HEAD)
 from autotest_lib.server import
-[test](https://gerrit.chromium.org/gerrit/gitweb)
+[test](https://gerrit.chromium.org/gerrit/gitweb?p=chromiumos/third_party/autotest.git;a=blob;f=server/test.py;h=8fdba9d7c40addf23e139b060f558e17bb34e40b;hb=HEAD)
 from autotest_lib.server import
-[utils](https://gerrit.chromium.org/gerrit/gitweb)
+[utils](https://gerrit.chromium.org/gerrit/gitweb?p=chromiumos/third_party/autotest.git;a=blob;f=server/utils.py;h=72f72f938f37b7c7cac729de05df446b0bbbd253;hb=HEAD)
 
 These modules include some useful base classes to be used to run commands in a
 test device or control a servo device. More details about how

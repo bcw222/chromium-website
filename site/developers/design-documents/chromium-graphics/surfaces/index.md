@@ -152,7 +152,7 @@ to the client along with associated synchronization points.
 SurfaceService structure
 
 <img alt="image"
-src="https://docs.google.com/a/chromium.org/drawings/d/s_yolhxJiIsHvNqY0pwkVFw/image"
+src="https://docs.google.com/a/chromium.org/drawings/d/s_yolhxJiIsHvNqY0pwkVFw/image?w=624&h=431&rev=3&ac=1"
 height=431px; width=624px;>
 
 The SurfaceManager keeps track of all surfaces created in the system. For each

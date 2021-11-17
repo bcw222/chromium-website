@@ -27,7 +27,7 @@ resembles the following:
 ### Running a Windows VM
 
 Instructions on setting up a Windows VM on a Linux host [can be found
-here](https://docs.google.com/a/google.com/document/d/1fAQRjM9oJqVrxzNpS1GH_62smLgphvpeWChCKo-wW2Y/edit)
+here](https://docs.google.com/a/google.com/document/d/1fAQRjM9oJqVrxzNpS1GH_62smLgphvpeWChCKo-wW2Y/edit?usp=sharing)
 (for Googlers only). For how to run it locally on windows, check the
 instructions [here](/developers/telemetry/run_locally).
 

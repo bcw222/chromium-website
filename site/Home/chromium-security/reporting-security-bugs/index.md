@@ -33,7 +33,7 @@ FAQ.](https://chromium.googlesource.com/chromium/src/+/master/docs/security/faq.
 These are the criteria that we expect from a good security bug report:
 
 *   Was filed via the [security
-            template](https://code.google.com/p/chromium/issues/entry).
+            template](https://code.google.com/p/chromium/issues/entry?template=Security%20Bug).
 *   Contains a clear and descriptive title.
 *   Includes the Chromium/Chrome version number and [release
             channel](/getting-involved/dev-channel).

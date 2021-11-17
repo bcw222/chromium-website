@@ -189,8 +189,9 @@ details on deprecation dates and private enterprise PKIs.
 
 Chrome requires a minimum DHE group size of 1024-bits. See [this
 announcement](https://groups.google.com/a/chromium.org/forum/#!topic/security-dev/WyGIpevBV1s)
-and [this page](https://support.google.com/chrome/answer/6098869) for more
-details. Affected sites will fail to load with
+and [this
+page](https://support.google.com/chrome/answer/6098869?p=dh_error&rd=1#DHkey)
+for more details. Affected sites will fail to load with
 ERR_SSL_WEAK_SERVER_EPHEMERAL_DH_KEY.
 
 #### SSLv3

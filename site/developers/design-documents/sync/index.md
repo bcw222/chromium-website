@@ -13,18 +13,22 @@ title: Sync
 [Embassy](/developers/design-documents/sync/embassy) (using native model state
 to make model association + shutdown robust against change processing failures)
 
-[Life of a Sync Item Update](https://docs.google.com/Doc)
+[Life of a Sync Item
+Update](https://docs.google.com/Doc?docid=0Aa_pnb1d4_gnZDUzOWp4bV80ZDhjeng1ZzU&hl=en)
 
 [Syncable Service API](/developers/design-documents/sync/syncable-service-api)
 
 [Sync Data Best
 Practices](/developers/design-documents/sync/sync-data-best-practices)
 
-[Client side architecture](http://docs.google.com/Doc)
+[Client side
+architecture](http://docs.google.com/Doc?docid=0Aa_pnb1d4_gnZDUzOWp4bV8yNXg2OW5oZGI&hl=en)
 
-[A look at extensions / sync interaction](http://docs.google.com/Doc)
+[A look at extensions / sync
+interaction](http://docs.google.com/Doc?docid=0Aa_pnb1d4_gnZDUzOWp4bV8wZHNzdHdnczI&hl=en)
 
-[Extensions quota service proposal](http://docs.google.com/Doc)
+[Extensions quota service
+proposal](http://docs.google.com/Doc?docid=0Aa_pnb1d4_gnZDUzOWp4bV8xZnhqaHJmZjM&hl=en)
 
 [Unified Sync And Storage
 proposal](/developers/design-documents/sync/unified-sync-and-storage-overview)

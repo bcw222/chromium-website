@@ -26,7 +26,7 @@ the manifest format, and some change the behavior of existing APIs.
 *   We want to reduce the need for background pages to help save memory,
             and some ideas for how to do this require breaking changes. See [a
             list of related
-            bugs](http://code.google.com/p/chromium/issues/list).
+            bugs](http://code.google.com/p/chromium/issues/list?q=TaskForce%3DBackgroundPagesMustDie).
 *   Split out host permissions and API permissions into separate fields
             ([crbug.com/62898](http://crbug.com/62898))
     *   We might want to design for extensibility in these fields, for

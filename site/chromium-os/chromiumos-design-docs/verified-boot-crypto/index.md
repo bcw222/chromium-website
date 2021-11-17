@@ -337,7 +337,8 @@ At the very least, the read-only firmware needs to implement the following:
             written to by any other component
 
 Items 1 and 2 are required to verify the signing key. Item 3 is required to
-[prevent rollback attacks](https://docs.google.com/a/google.com/Doc).
+[prevent rollback
+attacks](https://docs.google.com/a/google.com/Doc?docid=0AWwzXTHj7UwzZGhtOHZwNHJfMTNnaHc1cHNmNA&hl=en#Preventing_Rollback_Attacks_32).
 
 The weaker (relatively) crypto algorithms used by the signing keys **may** be
 implemented in the R/W firmware. However, there are risks to consider here:

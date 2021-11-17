@@ -242,10 +242,10 @@ DestroyProfileServices().
 If you need an example of what the above looks like, try looking at these
 patches:
 
-*   [r100516](http://src.chromium.org/viewvc/chrome): A simple example,
-            adding a new ProfileKeyedService. This shows off a minimal
-            ServiceFactory subclass.
-*   [r104806](http://src.chromium.org/viewvc/chrome):
+*   [r100516](http://src.chromium.org/viewvc/chrome?view=rev&revision=100516):
+            A simple example, adding a new ProfileKeyedService. This shows off a
+            minimal ServiceFactory subclass.
+*   [r104806](http://src.chromium.org/viewvc/chrome?view=rev&revision=104806):
             plugin_prefs_factory.h gives an example of how to deal with things
             that are (and have to stay) refcounted. This patch also shows off
             how to move your preferences into your ProfileKeyedServiceFactory.

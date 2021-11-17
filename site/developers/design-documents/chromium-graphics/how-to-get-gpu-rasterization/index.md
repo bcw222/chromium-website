@@ -19,7 +19,7 @@ settings and a device allow-list.
 ### How to enable GPU rasterization:
 
 *   **Chrome on Android version &gt;= 54** ([chromium rev
-            406004](https://bugs.chromium.org/p/chromium/issues/detail))
+            406004](https://bugs.chromium.org/p/chromium/issues/detail?id=591179#c16))
     *   Define a viewport. (Either as a `<meta>` tag, or in CSS as
                 @viewport).
     *   Any viewport definition will work.

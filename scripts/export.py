@@ -43,6 +43,7 @@ import time
 import traceback
 import xml.etree.ElementTree as ET
 
+from urllib.parse import urlparse
 from urllib.request import urlopen
 from urllib.error import HTTPError, URLError
 
@@ -270,7 +271,9 @@ class _URLConverter:
 
         if href.startswith('/_/rsrc'):
             href = '/' + '/'.join(href.split('/')[4:])
-        if '?' in href:
+
+        url = urlparse(href)
+        if '?' in href and url.netloc == '':
             href = href[0:href.index('?')]
         if 'Screenshot' in href:
             head, tail = href.split('Screenshot')

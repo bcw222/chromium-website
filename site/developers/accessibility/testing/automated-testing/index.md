@@ -79,7 +79,7 @@ file. You can refer to [this
 test](https://source.chromium.org/chromium/chromium/src/+/main:content/browser/accessibility/accessibility_tree_formatter_mac_browsertest.mm)
 as an example. Also the test file should be added into corresponding block in
 `Build.gn`, for example, under
-[content_browsertests](https://source.chromium.org/chromium/chromium/src/+/main:content/test/BUILD.gn).
+[content_browsertests](https://source.chromium.org/chromium/chromium/src/+/main:content/test/BUILD.gn?q=%22test(%22content_browsertests%22)%20%7B%22&ss=chromium%2Fchromium%2Fsrc).
 
 ### Dump Accessibility Testing
 

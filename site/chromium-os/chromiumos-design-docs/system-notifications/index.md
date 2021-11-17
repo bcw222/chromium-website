@@ -41,7 +41,7 @@ okay to be notified even in the lock screen, it just notifies the new system
 status.
 
 See also the [notification blocking code
-update](https://docs.google.com/document/d/1Ox0Gb659lE2eusk-Gwm-a_JkARva7LydQc3hZNJvDn0/edit)
+update](https://docs.google.com/document/d/1Ox0Gb659lE2eusk-Gwm-a_JkARva7LydQc3hZNJvDn0/edit?usp=sharing)
 design doc.
 
 ## List of the system notifications

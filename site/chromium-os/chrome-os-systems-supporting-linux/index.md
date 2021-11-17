@@ -16,7 +16,7 @@ Linux (Beta) are listed below. Unless otherwise specified, all devices launched
 in 2019 will support Linux (Beta).
 
 To learn how to set up Linux (Beta) on supported Chromebooks, [click
-here](https://support.google.com/chromebook/answer/9145439).
+here](https://support.google.com/chromebook/answer/9145439?hl=en).
 
 For in-depth technical documentation, [click
 here](https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md).

@@ -17,7 +17,7 @@ fuzzers](/Home/chromium-security/bugs/developing-fuzzers-for-clusterfuzz) and
 [using ClusterFuzz](/Home/chromium-security/bugs/using-clusterfuzz).
 
 Noticed a problem? File a bug using [this
-template](https://bugs.chromium.org/p/chromium/issues/entry).
+template](https://bugs.chromium.org/p/chromium/issues/entry?components=Tools%3EStability%3EClusterFuzz).
 
 [TOC]
 

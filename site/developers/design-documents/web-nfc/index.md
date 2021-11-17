@@ -54,7 +54,7 @@ Last updated: 22 Dec 2020
 
 ### Details:
 
-# **<img alt="image" src="https://docs.google.com/drawings/u/1/d/sXWxXeOVTW7-4k_g3YrWR9w/image" height=447 width=624>**
+# **<img alt="image" src="https://docs.google.com/drawings/u/1/d/sXWxXeOVTW7-4k_g3YrWR9w/image?w=624&h=447&rev=1361&ac=1&parent=1Q8cCKRJXIMLEw_bOHH6eRjzU9GN2nlpZTRK56knAyfQ" height=447 width=624>**
 
     # **NFCProxy will be the mojo interface proxy for NDEFReader(s).**
 
@@ -97,7 +97,7 @@ Last updated: 22 Dec 2020
 
 ## Android adaptation
 
-# **<img alt="image" src="https://docs.google.com/drawings/u/1/d/s9b1hpRzyLqspPbIWs5MOeg/image" height=435 width=624>**
+# **<img alt="image" src="https://docs.google.com/drawings/u/1/d/s9b1hpRzyLqspPbIWs5MOeg/image?w=624&h=435&rev=1703&ac=1&parent=1Q8cCKRJXIMLEw_bOHH6eRjzU9GN2nlpZTRK56knAyfQ" height=435 width=624>**
 
 # **The most important classes for Android adaptation are[ NfcImpl](https://cs.chromium.org/chromium/src/services/device/nfc/android/java/src/org/chromium/device/nfc/NfcImpl.java),[ NfcTagHandler](https://cs.chromium.org/chromium/src/services/device/nfc/android/java/src/org/chromium/device/nfc/NfcTagHandler.java) and[ NdefMessageUtils](https://cs.chromium.org/chromium/src/services/device/nfc/android/java/src/org/chromium/device/nfc/NdefMessageUtils.java).**
 

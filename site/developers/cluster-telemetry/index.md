@@ -58,7 +58,7 @@ CT has been used to gather perf data for the following projects:
 **Which telemetry benchmarks does CT support?**
 
 CT supports all benchmarks listed in
-[tools/perf/contrib/cluster_telemetry](https://source.chromium.org/chromium/chromium/src/+/master:tools/perf/contrib/cluster_telemetry/;l=1).
+[tools/perf/contrib/cluster_telemetry](https://source.chromium.org/chromium/chromium/src/+/master:tools/perf/contrib/cluster_telemetry/;l=1?q=contrib%2Fcluster&sq=&ss=chromium&originalUrl=https:%2F%2Fcs.chromium.org%2F).
 Many of these benchmarks exist outside of CT, but these are the corresponding CT
 compatible versions.
 

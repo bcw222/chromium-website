@@ -50,13 +50,13 @@ mailing list:
 [sherifing
 notes](https://docs.google.com/document/d/1xjFD9yJVuUtekJe3a9rpBmYqTOvRuGwML3BP2SBvC3s/edit#heading=h.nyhdzanbjl3i)
 [conversion cheat
-sheet](https://docs.google.com/document/d/1OyBYvN0dwvpqfSZBdsfZ29iTFqGnVS2sdiPV14Z-Fto/edit)
+sheet](https://docs.google.com/document/d/1OyBYvN0dwvpqfSZBdsfZ29iTFqGnVS2sdiPV14Z-Fto/edit?usp=sharing)
 [bug triaging
-instructions](https://docs.google.com/document/d/1hMav0DUXW5ZF67L_g5B92VR-hYEgfUchhU9oHBByeJA/edit)
+instructions](https://docs.google.com/document/d/1hMav0DUXW5ZF67L_g5B92VR-hYEgfUchhU9oHBByeJA/edit?usp=sharing)
 
 **Device Service˜**
 
-[Device](https://bugs.chromium.org/p/chromium/issues/detail)
+[Device](https://bugs.chromium.org/p/chromium/issues/detail?id=612328)
 
 **Identity Service**
 
@@ -70,11 +70,11 @@ identity-service-dev@chromium.org](https://groups.google.com/a/chromium.org/foru
 
 **Past Projects**
 
-*   [Prefs](https://docs.google.com/document/d/1JU8QUWxMEXWMqgkvFUumKSxr7Z-nfq0YvreSJTkMVmU/edit)
-*   [Process/Sandbox](https://bugs.chromium.org/p/chromium/issues/detail)
+*   [Prefs](https://docs.google.com/document/d/1JU8QUWxMEXWMqgkvFUumKSxr7Z-nfq0YvreSJTkMVmU/edit?usp=sharing)
+*   [Process/Sandbox](https://bugs.chromium.org/p/chromium/issues/detail?id=654986)
 
 A prioritized list of projects that still need to be done is
-[available](https://docs.google.com/document/d/1VB0v_xwd7TqBLEF-5sFsC-zwqveEMS3EgJCtS_enzz8/edit).
+[available](https://docs.google.com/document/d/1VB0v_xwd7TqBLEF-5sFsC-zwqveEMS3EgJCtS_enzz8/edit?usp=sharing).
 
 ## Code Location
 

@@ -21,8 +21,8 @@ latency of web pages. Its successor is
                     Start](/spdy/An_Argument_For_Changing_TCP_Slow_Start.pdf) -
                     Mike Belshe 01/11/10
         *   [More Bandwidth Doesn't Matter
-                    (much)](http://docs.google.com/a/chromium.org/viewer) - Mike
-                    Belshe 04/08/10
+                    (much)](http://docs.google.com/a/chromium.org/viewer?a=v&pid=sites&srcid=Y2hyb21pdW0ub3JnfGRldnxneDoxMzcyOWI1N2I4YzI3NzE2)
+                    - Mike Belshe 04/08/10
     *   Standards Work
         *   [SSL Next-Protocol-Negotiation Extension
                     ](http://tools.ietf.org/html/draft-agl-tls-nextprotoneg-00.html)-

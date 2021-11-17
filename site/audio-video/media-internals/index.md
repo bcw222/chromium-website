@@ -38,7 +38,7 @@ you’d like to measure to the list at the top.
 
 ## Media Internals Internals
 
-## <img alt="image" src="https://docs.google.com/a/chromium.org/drawings/image" height=495px; width=622px;>
+## <img alt="image" src="https://docs.google.com/a/chromium.org/drawings/image?id=sBsZFnDZRDJWcztz8vkkn6Q&w=622&h=495&rev=214&ac=1" height=495px; width=622px;>
 
 MediaLog contains helper methods for creating MediaLogEvents, and
 ContentMediaLog implements its AddEvent() function to send a MediaLogEvent to

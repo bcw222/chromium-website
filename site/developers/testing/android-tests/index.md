@@ -126,7 +126,7 @@ Each instrumentation test should have a test size and feature annotation.
 *   The feature annotation is used to specify which feature(s) the test
             is exercising.
 *   The list of features can be found in
-            [crbug](http://chromegw.corp.google.com/viewvc/chrome-internal/trunk/tools/issue_tracker/labels.txt).
+            [crbug](http://chromegw.corp.google.com/viewvc/chrome-internal/trunk/tools/issue_tracker/labels.txt?view=markup).
 *   To add a feature annotation to your test, add the @Feature
             annotation and specify the feature(s) that the test is testing.
     *   For example: @Feature({"Mobile-WebView"})

@@ -27,8 +27,8 @@ Server](/system/errors/NodeNotFound), to perform automated testing of their
 pending CL on multiple platforms in multiple configurations.
 [Rietveld](http://code.google.com/p/rietveld/) is used for code reviews and the
 Chromium team uses a [slightly forked
-version](http://code.google.com/p/rietveld/source/browse/) to better integrate
-it with the rest of the Chromium infrastructure.
+version](http://code.google.com/p/rietveld/source/browse/?name=chromium) to
+better integrate it with the rest of the Chromium infrastructure.
 
 Before the integration, the Commit Queue is awaken as soon as the CL author, or
 one of his reviewer, checks the infamous *Commit checkbox* on Rietveld. The
@@ -76,12 +76,12 @@ The infrastructure consist of:
 The first task is to make sure Try Jobs results on Rietveld can be trusted. This
 is done by differentiating try jobs triggered directly from Rietveld from any
 other try jobs. The polling code is in
-[try_job_rietveld.py](http://src.chromium.org/viewvc/chrome/trunk/tools/build/scripts/master/try_job_rietveld.py)
+[try_job_rietveld.py](http://src.chromium.org/viewvc/chrome/trunk/tools/build/scripts/master/try_job_rietveld.py?view=markup)
 and sets the build property `try_job_key` that is then used to certify this try
 jobs was indeed triggered from Rietveld in
-[view_chromium.py](http://code.google.com/p/rietveld/source/browse/codereview/views_chromium.py).
+[view_chromium.py](http://code.google.com/p/rietveld/source/browse/codereview/views_chromium.py?name=chromium).
 The json packets are pushed via Buildbot's [HttpStatusPush
-implementation](http://src.chromium.org/viewvc/chrome/trunk/tools/build/third_party/buildbot_8_4p1/buildbot/status/status_push.py)
+implementation](http://src.chromium.org/viewvc/chrome/trunk/tools/build/third_party/buildbot_8_4p1/buildbot/status/status_push.py?view=markup)
 from the Try Server back into Rietveld's /status_listener URL as HTTP POST
 requests.
 

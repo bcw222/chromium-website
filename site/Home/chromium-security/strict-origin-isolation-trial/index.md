@@ -80,7 +80,7 @@ If you experience incorrect behaviour during the trial, first check the
 variations list in chrome://version to see if the variation for the trial
 (0x4c825337 or 1283609399), is present. If so, and if the issue goes away when
 disabling the trial (see above), please file a bug by clicking on [this
-link](https://bugs.chromium.org/p/chromium/issues/entry).
+link](https://bugs.chromium.org/p/chromium/issues/entry?template=Defect+report+from+user&components=Internals%3ESandbox%3ESiteIsolation&blocking=902399&cc=wjmaclean@chromium.org&summary=Issue+during+Strict+Origin+Isolation+Trial:).
 
 ## Recommended Developer Actions
 

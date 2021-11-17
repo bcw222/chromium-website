@@ -35,13 +35,14 @@ Slack](https://chromium.slack.com).
 **Useful bug queries**
 
 *   [Blink&gt;input,
-            Blink&gt;scroll](https://bugs.chromium.org/p/chromium/issues/list) -
-            all (or most) bugs we're tracking
+            Blink&gt;scroll](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=component%3ABlink%3EInput%2CBlink%3EScroll&sort=-id+-modified+-opened&colspec=ID+Pri+Summary+Modified+Opened&x=m&y=releaseblock&cells=ids)
+            - all (or most) bugs we're tracking
 *   We triage the bugs almost daily with [this
             process](https://docs.google.com/document/d/1IDjoUbe8_1lbhM10EVHwvMi0g9EUXImy0ufxtfvJqe0/edit).
-*   [Available bugs](https://bugs.chromium.org/p/chromium/issues/list)
+*   [Available
+            bugs](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=component%3ABlink%3EInput%2CBlink%3EScroll+status%3AAvailable+&sort=-id+-modified+-opened&colspec=ID+Pri+Summary+Modified+Opened&x=m&y=releaseblock&cells=ids)
 *   [Code cleanup
-            ideas](https://bugs.chromium.org/p/chromium/issues/list)
+            ideas](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=component%3ABlink%3EInput%2CBlink%3EScroll+Hotlist%3DCodeHealth+&sort=-id+-modified+-opened&colspec=ID+Pri+Summary+Modified+Opened&x=m&y=releaseblock&cells=ids)
 
 **Related specifications & Working Groups**
 
@@ -58,9 +59,12 @@ updates make sure to join their public mailing lists as well.
 
 **Presentations & Talks**
 
-*   [Overscroll Customization](https://www.youtube.com/watch) lightning
-            talk
-*   [Scroll into text](https://www.youtube.com/watch) lightning talk
+*   [Overscroll
+            Customization](https://www.youtube.com/watch?v=sp1R-0dd7qg&t=18m54s)
+            lightning talk
+*   [Scroll into
+            text](https://www.youtube.com/watch?v=sp1R-0dd7qg&t=15m50s)
+            lightning talk
 *   [Event Delegation to
             Workers](https://docs.google.com/presentation/d/1BCEbLCg-o_Ko65byel5QGnO7Cwf5aPZPjqnnMNbbA5E/edit#slide=id.g5636de1525_0_0)
 *   [Fling On
@@ -75,7 +79,7 @@ updates make sure to join their public mailing lists as well.
             Scroller](https://docs.google.com/presentation/d/1nfM4jjQt9pijIThK8KSwavdZtWgifDjo6odHNg-ThvM/)
 *   Extensible Scrolling - BlinkOn 3 (Nov 2014):
             [slides](https://docs.google.com/a/chromium.org/presentation/d/1P5LYe-jqC0mSFJoBDz8gfJZMDwj6aGeFYLx_AD6LHVU/edit#slide=id.p),
-            [video](https://www.youtube.com/watch)
+            [video](https://www.youtube.com/watch?v=L8aTuoQWI8A)
 *   [Smooth to the touch: chromium's challenges in input on
             mobile](https://docs.google.com/a/chromium.org/presentation/d/1VYfCKye4TM-QiR_hiLvwYxhci_xc5YcA4oZxtrp2qes/edit#slide=id.p)
             - BlinkOn 2 (May 2014)
@@ -99,37 +103,37 @@ updates make sure to join their public mailing lists as well.
 *   [Gesture
             Recognition](http://www.chromium.org/developers/design-documents/aura/gesture-recognizer)
 *   [Vsync-aligned buffered
-            input](https://docs.google.com/document/d/1L2JTgYMksmXgujKxxhyV45xL8jNhbCh60NQHoueKyS4/edit)
+            input](https://docs.google.com/document/d/1L2JTgYMksmXgujKxxhyV45xL8jNhbCh60NQHoueKyS4/edit?usp=sharing)
 *   [Touchpad and Wheel
             Latching](https://docs.google.com/document/d/1BizkQyW_FDU98sGxbHOZsAQWGYIA3xxXoFQZ3_XNo1o/edit)
 *   [Touchpad pinch
-            zoom](https://docs.google.com/document/d/1cYdt9r9stHLA2lbJ2I-Ucl_djhdSyngYFbmufZaLRHE/edit)
+            zoom](https://docs.google.com/document/d/1cYdt9r9stHLA2lbJ2I-Ucl_djhdSyngYFbmufZaLRHE/edit?usp=sharing)
 *   User Activation v2
     *   [How Chrome uses user
-                gestures](https://docs.google.com/document/d/1mcxB5J_u370juJhSsmK0XQONG2CIE3mvu827O-Knw_Y/edit)
+                gestures](https://docs.google.com/document/d/1mcxB5J_u370juJhSsmK0XQONG2CIE3mvu827O-Knw_Y/edit?usp=sharing)
                 (May 2017)
     *   [Case study: Popup with user-activation across
-                browsers](https://docs.google.com/document/d/1hYRTEkfWDl-KO4Y6cG469FBC3nyBy9_SYItZ1EEsXUA/edit)
+                browsers](https://docs.google.com/document/d/1hYRTEkfWDl-KO4Y6cG469FBC3nyBy9_SYItZ1EEsXUA/edit?usp=sharing)
                 (May 2017)
     *   [User Activation v2: Main
-                design](https://docs.google.com/document/d/1erpl1yqJlc1pH0QvVVmi1s3WzqQLsEXTLLh6VuYp228/edit)
+                design](https://docs.google.com/document/d/1erpl1yqJlc1pH0QvVVmi1s3WzqQLsEXTLLh6VuYp228/edit?usp=sharing)
                 (May 2017)
     *   [User Activation v2 with site
-                isolation](https://docs.google.com/document/d/1XL3vCedkqL65ueaGVD-kfB5RnnrnTaxLc7kmU91oerg/edit)
+                isolation](https://docs.google.com/document/d/1XL3vCedkqL65ueaGVD-kfB5RnnrnTaxLc7kmU91oerg/edit?usp=sharing)
                 (May 2018)
 *   Input for Worker:
     *   Initial design discussion: [Low-latency Event Handling in
-                Worker](https://docs.google.com/document/d/165f85uAKlknlQHwPkmpqLVq0O50XVkxzgTkO4utAsds/edit)
+                Worker](https://docs.google.com/document/d/165f85uAKlknlQHwPkmpqLVq0O50XVkxzgTkO4utAsds/edit?usp=sharing)
                 (July 2017)
     *   JS API proposals for [Routing Worker Events through the
                 Compositor
-                Thread](https://docs.google.com/a/chromium.org/document/d/1Ah3-O7Emp7cURyh-TINME0fId9laU0ctMCwjmlArgqU/edit)
+                Thread](https://docs.google.com/a/chromium.org/document/d/1Ah3-O7Emp7cURyh-TINME0fId9laU0ctMCwjmlArgqU/edit?usp=sharing)
                 (July 2017)
 *   [Plumbing mouse as mouse on
-            Android](https://docs.google.com/document/d/1mpBR7J7kgTXvp0QACVjhxtwNJ7bgGoTMmxfxN2dupGg/edit)
+            Android](https://docs.google.com/document/d/1mpBR7J7kgTXvp0QACVjhxtwNJ7bgGoTMmxfxN2dupGg/edit?usp=sharing)
             (October 2016)
 *   [Coalesced
-            Events](https://docs.google.com/document/d/1x-e8fH3I0DBrmrNufPQwRJHMYnW5q9CYZVEHe7BsfpI/edit)
+            Events](https://docs.google.com/document/d/1x-e8fH3I0DBrmrNufPQwRJHMYnW5q9CYZVEHe7BsfpI/edit?usp=sharing)
             (October 2016)
 
 # **Learning Resources**
@@ -138,7 +142,7 @@ updates make sure to join their public mailing lists as well.
             overview](https://docs.google.com/a/chromium.org/presentation/d/10oIOTWFKIHArnfk8ZZx-9evvDpWC9EwRjDrZIz83Dz0/edit)
 *   [Scrolling in blink](http://bit.ly/blink-scrolling)
 *   [Android tracing cheat
-            sheet](https://docs.google.com/presentation/u/1/d/1poMF7AEu5vd21BzUTIYfm2SXurEMlv2OVDlzs6JNRfg/edit)
+            sheet](https://docs.google.com/presentation/u/1/d/1poMF7AEu5vd21BzUTIYfm2SXurEMlv2OVDlzs6JNRfg/edit?usp=sharing)
 *   [Blink coordinate
             spaces](/developers/design-documents/blink-coordinate-spaces)
 *   [Touch event behavior details across

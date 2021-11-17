@@ -64,7 +64,7 @@ title: Chrome Apps Migration
 
 # **<td>Planned</td>**
 
-# **<td><a href="https://bugs.chromium.org/p/chromium/issues/detail">Launch Event</a></td>**
+# **<td><a href="https://bugs.chromium.org/p/chromium/issues/detail?id=844279">Launch Event</a></td>**
 
 # **<td>79</td>**
 
@@ -196,7 +196,7 @@ title: Chrome Apps Migration
 
 # **<td>Partial Support</td>**
 
-# **<td><a href="https://bugs.chromium.org/p/chromium/issues/detail">Alarms</a></td>**
+# **<td><a href="https://bugs.chromium.org/p/chromium/issues/detail?id=891339">Alarms</a></td>**
 
 # **<td>78</td>**
 

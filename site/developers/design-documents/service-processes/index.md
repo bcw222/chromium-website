@@ -34,8 +34,9 @@ Overview
 
 > > Service processes are launched at login by adding a property list (.plist)
 > > to ~/Library/LaunchAgents. This means that service processes on MacOS X are
-> > controlled by [launchd](http://www.afp548.com/article.php). This has some
-> > interesting ramifications that are discussed below.
+> > controlled by
+> > [launchd](http://www.afp548.com/article.php?story=20050620071558293). This
+> > has some interesting ramifications that are discussed below.
 
 ## Process Lifetime
 

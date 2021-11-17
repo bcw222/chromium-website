@@ -75,7 +75,7 @@ service-worker-discuss@chromium.org](https://groups.google.com/a/chromium.org/fo
             [ED](https://slightlyoff.github.io/ServiceWorker/spec/service_worker/)
 *   [Testing](/blink/serviceworker/testing)
 *   Implementation bugs use the
-            [Blink&gt;ServiceWorker](https://bugs.chromium.org/p/chromium/issues/list)
+            [Blink&gt;ServiceWorker](https://bugs.chromium.org/p/chromium/issues/list?q=component:Blink%3EServiceWorker)
             component. If you sign-in, you can subscribe to get e-mail updates
             at Profile &gt; Saved Queries.
 *   Mailing lists: we use
@@ -88,7 +88,7 @@ service-worker-discuss@chromium.org](https://groups.google.com/a/chromium.org/fo
     *   [Hitchhiker's guide to Service Worker
                 classes](https://docs.google.com/a/chromium.org/document/d/1DoueYsm-UOvqDyqIPd9aGAWWQ1XZKX89CsJXDF7j_2Q/edit)
     *   [How to Implement a Web Platform Feature on Service
-                Workers](https://docs.google.com/document/d/1cBZay5IbPHFLtDpFPu7q9XevtydiuTKbqXKIFaBZDJQ/edit)
+                Workers](https://docs.google.com/document/d/1cBZay5IbPHFLtDpFPu7q9XevtydiuTKbqXKIFaBZDJQ/edit?usp=sharing)
 
 </div>
 </div>

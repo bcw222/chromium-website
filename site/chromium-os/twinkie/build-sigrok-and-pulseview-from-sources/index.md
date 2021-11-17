@@ -13,11 +13,12 @@ in libsigrok,
 
 the easiest path is to use the last released versions:
 
-[libsigrok-0.5.0](http://sigrok.org/gitweb/) (with [twinkie-0.5.0
+[libsigrok-0.5.0](http://sigrok.org/gitweb/?p=libsigrok.git;a=shortlog;h=refs/heads/libsigrok-0.5.x)
+(with [twinkie-0.5.0
 patch](https://github.com/vpalatin/libsigrok/commit/6228032ec0c86b776b80ed91bf810952fdd561a7))
-[libsigrokdecode-0.5.0](http://sigrok.org/gitweb/)
-[sigrok-cli-0.7.0](http://sigrok.org/gitweb/)
-[pulseview-0.4.0](http://sigrok.org/gitweb/)
+[libsigrokdecode-0.5.0](http://sigrok.org/gitweb/?p=libsigrokdecode.git;a=shortlog;h=refs/heads/libsigrokdecode-0.5.x)
+[sigrok-cli-0.7.0](http://sigrok.org/gitweb/?p=sigrok-cli.git;a=shortlog;h=refs/heads/sigrok-cli-0.7.x)
+[pulseview-0.4.0](http://sigrok.org/gitweb/?p=pulseview.git;a=shortlog;h=refs/heads/pulseview-0.4.x)
 
 Here is a recipe working on Ubuntu Trusty LTS:
 

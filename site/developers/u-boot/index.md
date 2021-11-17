@@ -34,7 +34,8 @@ new nodes and properties, and a **libfdt** library exists for reading and
 writing them. For more information about FDT, [see the specification
 document](https://www.power.org/resources/downloads/Power_ePAPR_APPROVED_v1.0.pdf)
 before you continue reading here. You might also find the U-Boot
-[doc/README.fdt-control](http://git.denx.de/cgi-bin/gitweb.cgi) file useful.
+[doc/README.fdt-control](http://git.denx.de/cgi-bin/gitweb.cgi?p=u-boot.git;a=blob;f=doc/README.fdt-control;h=85bda035043497d8d23aed8a436e24d630c60937;hb=2c734cd932b53b46e9f89e4f5db9360afc459ae6)
+file useful.
 ***Note*:** as of March 2012 we still use '**seaboard**' (rather than
 '**generic**') as the name of our generic Tegra2 board. This may change in the
 future.
@@ -417,36 +418,36 @@ address 0x0.
 <td> 0000 8000</td>
 <td> 32KB</td>
 <td> 4MB</td>
-<td><a href="http://git.chromium.org/gitweb/">zreladdr</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=chromiumos/third_party/kernel.git;a=blob;f=arch/arm/mach-tegra/Makefile.boot;hb=chromeos-2.6.38">zreladdr</a></td>
 <td>Not used by u-boot, but good to keep in mind that this is the location the kernel will eventually decompress / relocate itself to (TODO: will it put any initramdisk here too?). It's important there's room so the decompressed kernel won't clobber the FDT.</td>
 </tr>
 <tr>
 <td> 0010 0000</td>
 <td> 1MB</td>
 <td> 8MB</td>
-<td><a href="http://git.chromium.org/gitweb/">CHROMEOS_KERNEL_LOADADDR</a></td>
-<td><a href="http://git.chromium.org/gitweb/">CHROMEOS_KERNEL_BUFSIZE</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=chromiumos/third_party/u-boot.git;a=blob;f=include/configs/chromeos.h;hb=chromeos-v2011.06">CHROMEOS_KERNEL_LOADADDR</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=chromiumos/third_party/u-boot.git;a=blob;f=include/configs/chromeos.h;hb=chromeos-v2011.06">CHROMEOS_KERNEL_BUFSIZE</a></td>
 <td>vboot loads the FIT image here; FDT and zImage will then be relocated elsewhere</td>
 </tr>
 <tr>
 <td> 0040 8000</td>
 <td> 4MB + 32KB</td>
 <td> 4MB</td>
-<td><a href="http://git.chromium.org/gitweb/">CONFIG_LOADADDR</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=chromiumos/third_party/u-boot.git;a=blob;f=include/configs/tegra2-common.h;hb=chromeos-v2011.06">CONFIG_LOADADDR</a></td>
 <td>Area to load scripts or kernel uImage (prior to decompression); used by legacy u-boot. TODO: Why not use 0x00100000?</td>
 </tr>
 <tr>
 <td> 00e0 8000</td>
 <td> 14MB + 32KB</td>
 <td> 1MB</td>
-<td><a href="http://git.chromium.org/gitweb/">TEXT_BASE</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=chromiumos/third_party/u-boot.git;a=blob;f=include/configs/tegra2-common.h;hb=chromeos-v2011.06">TEXT_BASE</a></td>
 <td>Start of U-Boot code region. Data appears immediately after</td>
 </tr>
 <tr>
 <td> 01ff c000</td>
 <td> 32MB - 16KB</td>
 <td> 16KB</td>
-<td><a href="http://git.chromium.org/gitweb/">CONFIG_SYS_BOOTMAPSZ</a> appears to control the 32MB (can be overridden by environment variables).</td>
+<td><a href="http://git.chromium.org/gitweb/?p=chromiumos/third_party/u-boot.git;a=blob;f=include/configs/tegra2-common.h;hb=chromeos-v2011.06">CONFIG_SYS_BOOTMAPSZ</a> appears to control the 32MB (can be overridden by environment variables).</td>
 <td>The 16KB comes from the padded size of the kernel's FDT (as the FDT grows, this should move).</td>
 <td>U-boot ends up relocating the kernel's copy of the FDT to here.</td>
 </tr>
@@ -454,15 +455,15 @@ address 0x0.
 <td> 0200 0000</td>
 <td> 32MB</td>
 <td> 512KB</td>
-<td><a href="http://git.chromium.org/gitweb/">CONFIG_CHROMEOS_RAMOOPS_RAM_START</a></td>
-<td><a href="http://git.chromium.org/gitweb/">CONFIG_CHROMEOS_RAMOOPS_RAM_SIZE</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=chromiumos/third_party/kernel.git;a=blob;f=chromeos/config/armel/config.common.armel;hb=chromeos-2.6.38">CONFIG_CHROMEOS_RAMOOPS_RAM_START</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=chromiumos/third_party/kernel.git;a=blob;f=chromeos/config/config.common.chromeos;hb=chromeos-2.6.38">CONFIG_CHROMEOS_RAMOOPS_RAM_SIZE</a></td>
 <td>Kernel preserved area (kcrashmem). This is preserved_start in the kernel, or kcrashmem= environment variable in U-Boot.</td>
 </tr>
 <tr>
 <td> 0300 0000</td>
 <td> 48MB</td>
 <td> ?MB</td>
-<td><a href="http://git.chromium.org/gitweb/">kernel_fdt.its</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=chromiumos/overlays/chromiumos-overlay.git;a=blob;f=sys-kernel/chromeos-kernel/files/kernel_fdt.its">kernel_fdt.its</a></td>
 <td>Image is copied here by u-boot before jumping to.</td>
 </tr>
 <tr>
@@ -472,15 +473,15 @@ address 0x0.
 <td> 4MB + </td>
 <td> 24KB</td>
 <td> 8KB</td>
-<td><a href="http://git.chromium.org/gitweb/">TEGRA_LP0_ADDR</a></td>
-<td><a href="http://git.chromium.org/gitweb/">TEGRA_LP0_SIZE</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=chromiumos/third_party/u-boot.git;a=blob;f=include/configs/tegra2-common.h;hb=chromeos-v2011.06">TEGRA_LP0_ADDR</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=chromiumos/third_party/u-boot.git;a=blob;f=include/configs/tegra2-common.h;hb=chromeos-v2011.06">TEGRA_LP0_SIZE</a></td>
 <td>Used in suspend / resume.</td>
 </tr>
 <tr>
 <td> 3768 0000</td>
 <td> 1GB - ~144MB</td>
 <td> varies; ~2MB</td>
-<td><a href="http://git.chromium.org/gitweb/">frame-buffer</a></td>
-<td><a href="http://git.chromium.org/gitweb/">lcd_get_size()</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=chromiumos/third_party/u-boot.git;a=blob;f=board/nvidia/seaboard/tegra2-seaboard.dts;hb=chromeos-v2011.06">frame-buffer</a></td>
+<td><a href="http://git.chromium.org/gitweb/?p=chromiumos/third_party/u-boot.git;a=blob;f=common/lcd.c;hb=chromeos-v2011.06">lcd_get_size()</a></td>
 </tr>
 </table>

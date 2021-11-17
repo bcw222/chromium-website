@@ -30,9 +30,9 @@ the release of Chrome 80 stable. We will be monitoring feedback about these
 policies and will provide updates on their lifetime as appropriate.**~~
 
 The policies
-[LegacySameSiteCookieBehaviorEnabled](https://cloud.google.com/docs/chrome-enterprise/policies/)
+[LegacySameSiteCookieBehaviorEnabled](https://cloud.google.com/docs/chrome-enterprise/policies/?policy=LegacySameSiteCookieBehaviorEnabled)
 and
-[LegacySameSiteCookieBehaviorEnabledForDomainList](https://cloud.google.com/docs/chrome-enterprise/policies/)
+[LegacySameSiteCookieBehaviorEnabledForDomainList](https://cloud.google.com/docs/chrome-enterprise/policies/?policy=LegacySameSiteCookieBehaviorEnabledForDomainList)
 allow you to revert the SameSite behavior of cookies (possibly on specific
 domains) to legacy behavior.
 

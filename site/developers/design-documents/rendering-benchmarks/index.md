@@ -174,7 +174,7 @@ down.
 
 Other synthetic gestures, such as pinch-to-zoom or swipe, are available. See the
 [Synthetic Gestures in
-Chrome](https://docs.google.com/a/chromium.org/document/d/1VZ0FhQVc5e2HA9_mJ3HRQlXylCMgNiEJx9kVXe7yTfE/edit)
+Chrome](https://docs.google.com/a/chromium.org/document/d/1VZ0FhQVc5e2HA9_mJ3HRQlXylCMgNiEJx9kVXe7yTfE/edit?usp=sharing)
 document for a full list of gestures and how they're implemented in Chrome.
 
 The smoothness measurement `tools/perf/measurements/smoothness.py` captures a

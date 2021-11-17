@@ -15,7 +15,7 @@ title: Binding Team
 ## Projects
 
     Make Window objects interoperable
-    ([Overview](https://docs.google.com/presentation/d/18Ap_EKEBu7nzDrlFM7FbCR4EgrNd3ryLabJUh-YvEwM/edit))
+    ([Overview](https://docs.google.com/presentation/d/18Ap_EKEBu7nzDrlFM7FbCR4EgrNd3ryLabJUh-YvEwM/edit?disco=AAAAARwFnJ0&pli=1#slide=id.g2480feb0_1_0))
 
     Script-disabled rendering
     ([Overview](https://docs.google.com/document/d/1p0yHAhx_DLOlP94LzcuGcr5KS0rGBEPhyLeVa6KZs7k/edit))

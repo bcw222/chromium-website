@@ -232,17 +232,19 @@ feature's web platform tests suite. Ideally, something like 100% coverage of
 both "spec lines" and Chromium code would ensure that Chromium implements the
 spec faithfully, and that others will be able to leverage the tests to implement
 the spec in the same way. Some sample test suites which approach this goal
-include [url/](https://wpt.fyi/results/url),
-[streams/](https://wpt.fyi/results/streams), and
-[pointerevents/](https://wpt.fyi/results/pointerevents).
+include
+[url/](https://wpt.fyi/results/url?label=master&label=experimental&aligned),
+[streams/](https://wpt.fyi/results/streams?label=master&label=experimental&aligned),
+and
+[pointerevents/](https://wpt.fyi/results/pointerevents?label=master&label=experimental&aligned).
 
 In practice, this is a hard goal to reach. We can try to approach it by
 [annotating specifications](https://tabatkins.github.io/bikeshed/#wpt-element)
 with their associated tests, and running the appropriate Chromium [code coverage
 tools](https://chromium.googlesource.com/chromium/src.git/+/master/docs/testing/code_coverage.md).
 Another hurdle is that some things are [not
-testable](https://github.com/web-platform-tests/wpt/issues) with current
-infrastructure. We have a dedicated team,
+testable](https://github.com/web-platform-tests/wpt/issues?q=is%3Aopen+is%3Aissue+label%3Atype%3Auntestable)
+with current infrastructure. We have a dedicated team,
 [ecosystem-infra@chromium.org](https://groups.google.com/a/chromium.org/g/ecosystem-infra),
 which works to improve our testing infrastructure and mitigate such gaps.
 

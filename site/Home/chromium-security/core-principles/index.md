@@ -15,9 +15,9 @@ security. If we’re doing it right, these aspects should all work hand-in-hand.
 In most cases, we want security to be nearly invisible to the user. We update
 transparently and try to provide safe defaults without asking users to make
 security decisions. When [security
-indicators](http://support.google.com/chrome/bin/answer.py) are surfaced, we aim
-to clearly explain the situation and highlight the most important information,
-such as the hostname and SSL state in the address bar.
+indicators](http://support.google.com/chrome/bin/answer.py?hl=en&answer=95617)
+are surfaced, we aim to clearly explain the situation and highlight the most
+important information, such as the hostname and SSL state in the address bar.
 
 ### Design for defense in depth (and more depth).
 
@@ -31,10 +31,11 @@ hardening](http://www.matasano.com/research/Attacking_Clientside_JIT_Compilers_P
 and [SafeSEH](http://msdn.microsoft.com/en-us/library/9a89h429.aspx)—along with
 custom technologies like [Safe
 Browsing](http://code.google.com/apis/safebrowsing/), [out-of-date plugin
-blocking](http://support.google.com/chrome/bin/answer.py), silent auto-update,
-and [verified boot](/chromium-os/chromiumos-design-docs/verified-boot) on Chrome
-OS. And we continue to work towards advancing the state of the art with research
-into areas like per-origin sandboxing and control flow integrity.
+blocking](http://support.google.com/chrome/bin/answer.py?hl=en&answer=1181003),
+silent auto-update, and [verified
+boot](/chromium-os/chromiumos-design-docs/verified-boot) on Chrome OS. And we
+continue to work towards advancing the state of the art with research into areas
+like per-origin sandboxing and control flow integrity.
 
 ### Security is a team responsibility.
 

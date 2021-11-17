@@ -25,8 +25,8 @@ affectionately named, consists of 12000+ cores and fuzzes hundreds of millions
 of test cases each day to produce de-duplicated security bugs with small
 reproducible test cases. Since it was built (in 2009), ClusterFuzz has helped us
 find and fix [roughly two thousand security bugs in
-Chromium](https://code.google.com/p/chromium/issues/list) and other third party
-software.
+Chromium](https://code.google.com/p/chromium/issues/list?can=1&q=label%3AClusterFuzz+-status%3AWontFix%2CDuplicate+Type%3DBug-Security+&colspec=ID+Pri+M+Iteration+ReleaseBlock+Cr+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=tiles)
+and other third party software.
 
 ## Vulnerability Response and Remediation
 
@@ -74,7 +74,7 @@ exploits. We support these contests with sponsorships.
 *   Pwn2Own at CanSecWest 2014:
             [results](https://docs.google.com/presentation/d/1c90yZXNHs7w8oi7uXveEOCx5-8O_NZIxolEKalscuAQ/view).
 *   Pwn2Own at PacSec 2013: [Chrome on Android exploit
-            writeup](https://docs.google.com/document/d/1tHElG04AJR5OR2Ex-m_Jsmc8S5fAbRB3s4RmTG_PFnw/edit)
+            writeup](https://docs.google.com/document/d/1tHElG04AJR5OR2Ex-m_Jsmc8S5fAbRB3s4RmTG_PFnw/edit?usp=sharing)
 *   Pwn2Own at CanSecWest 2013:
             [results](http://blog.chromium.org/2013/03/pwnium-3-and-pwn2own-results.html),
             MWR labs' write up of their Chrome exploit ([Part
@@ -85,7 +85,7 @@ exploits. We support these contests with sponsorships.
 ## Presentations
 
 *   [Detect bad-casting at runtime with UndefinedBehavior
-            Sanitizer](https://drive.google.com/file/d/0Bxvv8gduedamTEJCUlN6eERtWUE/view)
+            Sanitizer](https://drive.google.com/file/d/0Bxvv8gduedamTEJCUlN6eERtWUE/view?usp=sharing)
 
 ## Links
 

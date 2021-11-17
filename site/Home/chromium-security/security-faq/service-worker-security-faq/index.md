@@ -109,7 +109,7 @@ the Service Worker, invalidating the HTTP cache every 24 hours. (Additionally,
 change](https://w3c.github.io/ServiceWorker/#dfn-use-cache), browsers will
 revalidate the HTTP cache for SW scripts unless the site opts into using the
 cache. Chrome does not yet adhere to this new part of the spec, [but will
-soon](https://bugs.chromium.org/p/chromium/issues/detail).)
+soon](https://bugs.chromium.org/p/chromium/issues/detail?id=675540).)
 
 The browser also performs an update check whenever the SW starts and
 periodically while the worker is running, if it has not checked in the last 24
@@ -135,7 +135,7 @@ If an origin has any Service Workers running, each worker will be shut down soon
 after it processes the last event. Events that can keep a worker alive include
 push notifications. (Note that the [push notifications will trigger a
 user-visible notification if the SW does not create
-one](https://cs.chromium.org/chromium/src/chrome/browser/push_messaging/push_messaging_notification_manager.cc),
+one](https://cs.chromium.org/chromium/src/chrome/browser/push_messaging/push_messaging_notification_manager.cc?type=cs&l=270),
 and they also require the person to grant the origin permission in a prompt. you
 can see that in action in this [push notifications demo
 app](https://gauntface.github.io/simple-push-demo/).)
@@ -324,17 +324,17 @@ that would be potentially rewardable under the Vulnerability Rewards Program
         USB, Bluetooth
 
 Here is [a list of historical SW security
-bugs](https://bugs.chromium.org/p/chromium/issues/list) in Chromium’s bug
-tracker.
+bugs](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=Type%3DBug-Security+serviceworker&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids)
+in Chromium’s bug tracker.
 
 If you believe you have found a bug in the SW specification, please [file a new
 Chromium bug using the Security
-template](https://bugs.chromium.org/p/chromium/issues/entry). It’s a good idea
-to file bugs with all browser vendors that implement the buggy section of the
-spec.
+template](https://bugs.chromium.org/p/chromium/issues/entry?template=Security%20Bug).
+It’s a good idea to file bugs with all browser vendors that implement the buggy
+section of the spec.
 
 If you believe you have found a bug in Chrome’s implementation of SW, please
 [file a new bug using the Security
-template](https://bugs.chromium.org/p/chromium/issues/entry). The Chrome
-Security Team will triage it within 1 or 2 business days. Good bug reports come
-with minimal test cases that demonstrate the problem!
+template](https://bugs.chromium.org/p/chromium/issues/entry?template=Security%20Bug).
+The Chrome Security Team will triage it within 1 or 2 business days. Good bug
+reports come with minimal test cases that demonstrate the problem!

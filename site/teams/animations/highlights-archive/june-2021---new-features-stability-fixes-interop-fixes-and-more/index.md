@@ -142,7 +142,7 @@ title: June 2021 - New features, stability fixes, Interop fixes and more!
 <td><td>mustaq@ fixed a fake activation issue as a suspect for <a href="http://crbug.com/1201355">a navigation problem</a>.</td></td>
 
     <td><td>UMA investigation revealed <a
-    href="https://bugs.chromium.org/p/chromium/issues/detail">&lt;0.005%</a>
+    href="https://bugs.chromium.org/p/chromium/issues/detail?id=1082258#c7">&lt;0.005%</a>
     page loads could be affected.</td></td>
 
     <td><td>Tentatively removed the fake user activation notification from JS
@@ -160,10 +160,10 @@ title: June 2021 - New features, stability fixes, Interop fixes and more!
 
 <td><td><img alt="image" src="https://lh6.googleusercontent.com/S2OGqJ8UBP5vXu-AHhhmG08aQ8vAqNZiIfalExhOPEMLceQvuMFl46LyzwWSQ8z7GuIAN72tD8D1ggtAWgoxMyyMu3fT_mq_a7C8pEzfn6AJGJQpdqNOC9TBCy0ETSsiXw1rFtJ7Pw" height=249 width=219></td></td>
 
-<td><td>xidachen@ kept working on the <a href="https://bugs.chromium.org/p/chromium/issues/detail">bug</a>, where chrome propagates overscroll-behavior from the &lt;body&gt; element, while by spec it should be from the &lt;html&gt; element.</td></td>
+<td><td>xidachen@ kept working on the <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=954423">bug</a>, where chrome propagates overscroll-behavior from the &lt;body&gt; element, while by spec it should be from the &lt;html&gt; element.</td></td>
 
     <td><td>A detailed <a
-    href="https://docs.google.com/document/d/1-pqljDgzzgRVve2oWUq237JPgtT12wcoctxbtBaHZdU/edit">doc</a>
+    href="https://docs.google.com/document/d/1-pqljDgzzgRVve2oWUq237JPgtT12wcoctxbtBaHZdU/edit?ts=609ec0c2#heading=h.1xrzhx8chbuz">doc</a>
     describing the problem.</td></td>
 
     <td><td>Break the feature counter into two cases. (<a

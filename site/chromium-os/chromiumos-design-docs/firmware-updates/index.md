@@ -23,4 +23,5 @@ Flashrom main URL: http://www.flashrom.org
 
 Flashrom @ Chromium.org documentation:
 http://[goo.gl/rEAwz](http://goo.gl/rEAwz) \[ [Long
-URL](https://docs.google.com/document/pub) \]
+URL](https://docs.google.com/document/pub?id=1H8zZ3aEMZmfO4ZEsWbHooUdGOgxy5LTPJ19YbaDsxdQ)
+\]

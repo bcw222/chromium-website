@@ -135,23 +135,6 @@ These are your standard Chromebook/Chromebox/etc devices.
   </tr>
   <tr>
     <td></td>
-    <td>Asus</td>
-    <td><a href="https://www.asus.com/Laptops/For-Home/Chromebook/ASUS-Chromebook-Detachable-CM3-CM3000/"> ASUS Chromebook Detachable CM3 (CM3000)</a></td>
-    <td>Kakadu</td>
-    <td>kukui</td>
-    <td>kukui</td>
-    <td>arm</td>
-    <td>4.19</td>
-    <td>aarch64</td>
-    <td>MT8183</td>
-    <td>Chromeblet</td>
-    <td>R88</td>
-    <td></td>
-    <td></td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td></td>
     <td>Lenovo</td>
     <td><a href="https://www.lenovo.com/us/en/coming-soon/IdeaPad-F5-CB-13CML-05/p/88IPFC51448">IdeaPad Flex 5i Chromebook (13", 5) </a></td>
     <td>Akemi</td>
@@ -169,60 +152,9 @@ These are your standard Chromebook/Chromebox/etc devices.
   </tr>
   <tr>
     <td></td>
-    <td>HP</td>
-    <td><a href="">HP Chromebook x360 14b / HP Chromebook x360 14a</a></td>
-    <td>Blooguard</td>
-    <td>octopus</td>
-    <td>octopus</td>
-    <td>x86_64</td>
-    <td>4.14</td>
-    <td>x86_64</td>
-    <td>Gemini Lake</td>
-    <td>Convertible</td>
-    <td></td>
-    <td>06/2026</td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
     <td>Lenovo</td>
-    <td><a href="https://www.aboutchromebooks.com/news/mwc-2021-lenovo-chromebook-5i-and-flex-5i-debut-look-great-on-paper/">IdeaPad Flex 5i Chromebook</a></td>
-    <td>lillipup</td>
-    <td>volteer</td>
-    <td>volteer</td>
-    <td>x86_64</td>
-    <td>5.4</td>
-    <td>x86_64</td>
-    <td>TigerLake-UP3</td>
-    <td>Chromebook</td>
-    <td>R90</td>
-    <td>June 2029</td>
-    <td></td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Asus</td>
-    <td><a href="https://www.asus.com/Laptops/For-Home/Chromebook/ASUS-Chromebook-Flip-CM3-CM3200/">ASUS Chromebook Flip CM3 (CM3200)</a></td>
-    <td>Damu</td>
-    <td>jacuzzi</td>
-    <td>jacuzzi</td>
-    <td>arm</td>
-    <td>4.19</td>
-    <td>aarch64</td>
-    <td>MT8183</td>
-    <td>Convertible</td>
-    <td>R87</td>
-    <td></td>
-    <td></td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Lenovo</td>
-    <td><a href="https://www.lenovo.com/us/en/coming-soon/300e-AMD-G3/p/22ED03E3EA3">Lenovo 300e Chromebook Gen 3 AMD</a></td>
-    <td>vilboz360</td>
+    <td><a href="https://www.lenovo.com/gb/en/laptops/lenovo/student-chromebooks/100e-AMD-G3/p/22ED01E1EA3">Lenovo 100e Chromebook Gen 3 AMD</a></td>
+    <td>vilboz</td>
     <td>zork</td>
     <td>dalboz</td>
     <td>x86_64</td>
@@ -230,7 +162,7 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Pollock</td>
     <td>Chromebook</td>
-    <td>R91</td>
+    <td>M91</td>
     <td></td>
     <td></td>
     <td></td>
@@ -254,20 +186,71 @@ These are your standard Chromebook/Chromebox/etc devices.
   </tr>
   <tr>
     <td></td>
+    <td>Asus</td>
+    <td><a href="https://www.asus.com/Laptops/For-Home/Chromebook/ASUS-Chromebook-Flip-CM3-CM3200/">ASUS Chromebook Flip CM3 (CM3200)</a></td>
+    <td>Damu</td>
+    <td>jacuzzi</td>
+    <td>jacuzzi</td>
+    <td>arm</td>
+    <td>4.19</td>
+    <td>aarch64</td>
+    <td>MT8183</td>
+    <td>Convertible</td>
+    <td>R87</td>
+    <td></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td></td>
     <td>Lenovo</td>
-    <td><a href="https://www.lenovo.com/gb/en/laptops/lenovo/student-chromebooks/100e-AMD-G3/p/22ED01E1EA3">Lenovo 100e Chromebook Gen 3 AMD</a></td>
-    <td>vilboz</td>
-    <td>zork</td>
-    <td>dalboz</td>
+    <td><a href="https://www.aboutchromebooks.com/news/mwc-2021-lenovo-chromebook-5i-and-flex-5i-debut-look-great-on-paper/">IdeaPad Flex 5i Chromebook</a></td>
+    <td>lillipup</td>
+    <td>volteer</td>
+    <td>volteer</td>
     <td>x86_64</td>
     <td>5.4</td>
     <td>x86_64</td>
-    <td>Pollock</td>
+    <td>TigerLake-UP3</td>
     <td>Chromebook</td>
-    <td>M91</td>
+    <td>R90</td>
+    <td>June 2029</td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>HP</td>
+    <td><a href="">HP Chromebook x360 14b / HP Chromebook x360 14a</a></td>
+    <td>Blooguard</td>
+    <td>octopus</td>
+    <td>octopus</td>
+    <td>x86_64</td>
+    <td>4.14</td>
+    <td>x86_64</td>
+    <td>Gemini Lake</td>
+    <td>Convertible</td>
+    <td></td>
+    <td>06/2026</td>
     <td></td>
     <td></td>
+  </tr>
+  <tr>
     <td></td>
+    <td>Asus</td>
+    <td><a href="https://www.asus.com/Laptops/For-Home/Chromebook/ASUS-Chromebook-Detachable-CM3-CM3000/"> ASUS Chromebook Detachable CM3 (CM3000)</a></td>
+    <td>Kakadu</td>
+    <td>kukui</td>
+    <td>kukui</td>
+    <td>arm</td>
+    <td>4.19</td>
+    <td>aarch64</td>
+    <td>MT8183</td>
+    <td>Chromeblet</td>
+    <td>R88</td>
+    <td></td>
+    <td></td>
+    <td>Yes</td>
   </tr>
   <tr>
     <td></td>
@@ -285,6 +268,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td></td>
     <td>Yes</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Lenovo</td>
+    <td><a href="https://www.lenovo.com/us/en/coming-soon/300e-AMD-G3/p/22ED03E3EA3">Lenovo 300e Chromebook Gen 3 AMD</a></td>
+    <td>vilboz360</td>
+    <td>zork</td>
+    <td>dalboz</td>
+    <td>x86_64</td>
+    <td>5.4</td>
+    <td>x86_64</td>
+    <td>Pollock</td>
+    <td>Chromebook</td>
+    <td>R91</td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>2010-12-05</td>
@@ -441,23 +441,6 @@ These are your standard Chromebook/Chromebox/etc devices.
   </tr>
   <tr>
     <td>2013-01-30</td>
-    <td>HP</td>
-    <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/hp-pavilion-14-chromebook">HP Pavilion Chromebook 14</a></td>
-    <td>Butterfly</td>
-    <td>butterfly</td>
-    <td></td>
-    <td>x86_64</td>
-    <td>3.8</td>
-    <td>x86_64</td>
-    <td>SandyBridge</td>
-    <td>Chromebook</td>
-    <td>R22</td>
-    <td>R65</td>
-    <td></td>
-    <td>No</td>
-  </tr>
-  <tr>
-    <td>2013-01-30</td>
     <td>Google</td>
     <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/chromebook-pixel">Google Chromebook Pixel</a></td>
     <td>Link</td>
@@ -470,6 +453,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Chromebook</td>
     <td>R22</td>
     <td>R69</td>
+    <td></td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>2013-01-30</td>
+    <td>HP</td>
+    <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/hp-pavilion-14-chromebook">HP Pavilion Chromebook 14</a></td>
+    <td>Butterfly</td>
+    <td>butterfly</td>
+    <td></td>
+    <td>x86_64</td>
+    <td>3.8</td>
+    <td>x86_64</td>
+    <td>SandyBridge</td>
+    <td>Chromebook</td>
+    <td>R22</td>
+    <td>R65</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -594,23 +594,6 @@ These are your standard Chromebook/Chromebox/etc devices.
   </tr>
   <tr>
     <td>2014-05-18</td>
-    <td>Samsung</td>
-    <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/samsung-chromebook-2">Samsung Chromebook 2 13"</a></td>
-    <td>Pi</td>
-    <td>peach_pi</td>
-    <td>peach</td>
-    <td>arm</td>
-    <td>3.8</td>
-    <td>arm</td>
-    <td>Exynos 5450</td>
-    <td>Chromebook</td>
-    <td>R34</td>
-    <td>R75</td>
-    <td></td>
-    <td>No</td>
-  </tr>
-  <tr>
-    <td>2014-05-18</td>
     <td>LG</td>
     <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/lg-chromebase-22cv241-w">LG Chromebase 22CV241 &amp; 22CB25S</a></td>
     <td>Monroe</td>
@@ -623,6 +606,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Chromebase</td>
     <td>R33</td>
     <td></td>
+    <td></td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>2014-05-18</td>
+    <td>Samsung</td>
+    <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/samsung-chromebook-2">Samsung Chromebook 2 13"</a></td>
+    <td>Pi</td>
+    <td>peach_pi</td>
+    <td>peach</td>
+    <td>arm</td>
+    <td>3.8</td>
+    <td>arm</td>
+    <td>Exynos 5450</td>
+    <td>Chromebook</td>
+    <td>R34</td>
+    <td>R75</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -698,8 +698,8 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>2014-06-14</td>
     <td><white label></td>
     <td><a href=""></a></td>
-    <td>Expresso</td>
-    <td>expresso</td>
+    <td>Enguarde</td>
+    <td>enguarde</td>
     <td>rambi</td>
     <td>x86_64</td>
     <td>4.4</td>
@@ -715,8 +715,8 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>2014-06-14</td>
     <td><white label></td>
     <td><a href=""></a></td>
-    <td>Enguarde</td>
-    <td>enguarde</td>
+    <td>Expresso</td>
+    <td>expresso</td>
     <td>rambi</td>
     <td>x86_64</td>
     <td>4.4</td>
@@ -900,23 +900,6 @@ These are your standard Chromebook/Chromebox/etc devices.
   </tr>
   <tr>
     <td>2015-02-28</td>
-    <td>Dell</td>
-    <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/generic">Dell Chromebook 11 (3120)</a></td>
-    <td>Candy</td>
-    <td>candy</td>
-    <td>rambi</td>
-    <td>x86_64</td>
-    <td>4.4</td>
-    <td>x86_64</td>
-    <td>BayTrail</td>
-    <td>Chromebook</td>
-    <td>R39</td>
-    <td></td>
-    <td></td>
-    <td>No</td>
-  </tr>
-  <tr>
-    <td>2015-02-28</td>
     <td>Acer</td>
     <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/acer-c670-chromebook">Acer C670 Chromebook 11</a></td>
     <td>Paine</td>
@@ -931,6 +914,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td></td>
     <td></td>
+  </tr>
+  <tr>
+    <td>2015-02-28</td>
+    <td>Dell</td>
+    <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/generic">Dell Chromebook 11 (3120)</a></td>
+    <td>Candy</td>
+    <td>candy</td>
+    <td>rambi</td>
+    <td>x86_64</td>
+    <td>4.4</td>
+    <td>x86_64</td>
+    <td>BayTrail</td>
+    <td>Chromebook</td>
+    <td>R39</td>
+    <td></td>
+    <td></td>
+    <td>No</td>
   </tr>
   <tr>
     <td>2015-03-11</td>
@@ -985,6 +985,23 @@ These are your standard Chromebook/Chromebox/etc devices.
   </tr>
   <tr>
     <td>2015-04-30</td>
+    <td><white label></td>
+    <td><a href=""></a></td>
+    <td>Mighty</td>
+    <td>veyron_mighty</td>
+    <td>veyron_pinky</td>
+    <td>arm</td>
+    <td>4.19</td>
+    <td>arm</td>
+    <td>RK3288</td>
+    <td>Chromebook</td>
+    <td>R41</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>2015-04-30</td>
     <td>Acer</td>
     <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/acer-c910-chromebook">Acer Chromebook 15</a></td>
     <td>Yuna</td>
@@ -1018,18 +1035,18 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
   </tr>
   <tr>
-    <td>2015-04-30</td>
-    <td><white label></td>
-    <td><a href=""></a></td>
-    <td>Mighty</td>
-    <td>veyron_mighty</td>
-    <td>veyron_pinky</td>
-    <td>arm</td>
-    <td>4.19</td>
-    <td>arm</td>
-    <td>RK3288</td>
-    <td>Chromebook</td>
-    <td>R41</td>
+    <td>2015-05-01</td>
+    <td>Acer</td>
+    <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/generic">Acer Chromebox CXI2</a></td>
+    <td>Rikku</td>
+    <td>rikku</td>
+    <td>jecht</td>
+    <td>x86_64</td>
+    <td>3.14</td>
+    <td>x86_64</td>
+    <td>Broadwell</td>
+    <td>Chromebox</td>
+    <td>R42</td>
     <td></td>
     <td></td>
     <td></td>
@@ -1047,23 +1064,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>RK3288</td>
     <td>Chromebook</td>
     <td>R41</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>2015-05-01</td>
-    <td>Acer</td>
-    <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/generic">Acer Chromebox CXI2</a></td>
-    <td>Rikku</td>
-    <td>rikku</td>
-    <td>jecht</td>
-    <td>x86_64</td>
-    <td>3.14</td>
-    <td>x86_64</td>
-    <td>Broadwell</td>
-    <td>Chromebox</td>
-    <td>R42</td>
     <td></td>
     <td></td>
     <td></td>
@@ -1581,23 +1581,6 @@ These are your standard Chromebook/Chromebox/etc devices.
   <tr>
     <td>2017-02-28</td>
     <td>AOpen</td>
-    <td><a href="http://www.aopen.com/us/chrome-mini-products">AOpen Chromebase Mini</a></td>
-    <td>tiger</td>
-    <td>veyron_tiger</td>
-    <td>veyron_pinky</td>
-    <td>arm</td>
-    <td>4.19</td>
-    <td>arm</td>
-    <td>RK3288</td>
-    <td>Chromebase</td>
-    <td>R54</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>2017-02-28</td>
-    <td>AOpen</td>
     <td><a href="http://www.aopen.com/us/chrome-mini-products">AOpen Chromebox Mini</a></td>
     <td>fievel</td>
     <td>veyron_fievel</td>
@@ -1607,6 +1590,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>RK3288</td>
     <td>Chromebox</td>
+    <td>R54</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>2017-02-28</td>
+    <td>AOpen</td>
+    <td><a href="http://www.aopen.com/us/chrome-mini-products">AOpen Chromebase Mini</a></td>
+    <td>tiger</td>
+    <td>veyron_tiger</td>
+    <td>veyron_pinky</td>
+    <td>arm</td>
+    <td>4.19</td>
+    <td>arm</td>
+    <td>RK3288</td>
+    <td>Chromebase</td>
     <td>R54</td>
     <td></td>
     <td></td>
@@ -1631,23 +1631,6 @@ These are your standard Chromebook/Chromebox/etc devices.
   </tr>
   <tr>
     <td>2017-04-24</td>
-    <td>HP</td>
-    <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/generic">HP Chromebook x360 11 G1 EE</a></td>
-    <td>Snappy</td>
-    <td>snappy</td>
-    <td>reef</td>
-    <td>x86_64</td>
-    <td>4.4</td>
-    <td>x86_64</td>
-    <td>ApolloLake</td>
-    <td>Convertible</td>
-    <td>R56</td>
-    <td></td>
-    <td></td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td>2017-04-24</td>
     <td>Lenovo</td>
     <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/generic">Lenovo Thinkpad 11e Chromebook / Lenovo Thinkpad Yoga 11e Chromebook</a></td>
     <td>Pyro</td>
@@ -1658,6 +1641,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>ApolloLake</td>
     <td>Chromebook</td>
+    <td>R56</td>
+    <td></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>2017-04-24</td>
+    <td>HP</td>
+    <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/generic">HP Chromebook x360 11 G1 EE</a></td>
+    <td>Snappy</td>
+    <td>snappy</td>
+    <td>reef</td>
+    <td>x86_64</td>
+    <td>4.4</td>
+    <td>x86_64</td>
+    <td>ApolloLake</td>
+    <td>Convertible</td>
     <td>R56</td>
     <td></td>
     <td></td>
@@ -1802,19 +1802,19 @@ These are your standard Chromebook/Chromebox/etc devices.
   <tr>
     <td>2018-03-01</td>
     <td>Lenovo</td>
-    <td><a href="https://www.lenovo.com/us/en/laptops/lenovo/lenovo-n-series/100e-Chromebook/p/88ELC1S9999">Lenovo 100e Chromebook</a></td>
-    <td>robo</td>
-    <td>coral</td>
-    <td>coral</td>
-    <td>x86_64</td>
-    <td>4.4</td>
-    <td>x86_64</td>
-    <td>ApolloLake</td>
-    <td>Chromebook</td>
+    <td><a href="https://www.lenovo.com/us/en/laptops/lenovo/lenovo-n-series/300e-Chromebook/p/88ELC1S9997">Lenovo 300e Chromebook</a></td>
+    <td>hana</td>
+    <td>hana</td>
+    <td>oak</td>
+    <td>arm</td>
+    <td>3.18</td>
+    <td>aarch64</td>
+    <td>MT8173</td>
+    <td>Convertible</td>
     <td>R64</td>
     <td></td>
     <td></td>
-    <td>Yes</td>
+    <td></td>
   </tr>
   <tr>
     <td>2018-03-01</td>
@@ -1836,19 +1836,19 @@ These are your standard Chromebook/Chromebox/etc devices.
   <tr>
     <td>2018-03-01</td>
     <td>Lenovo</td>
-    <td><a href="https://www.lenovo.com/us/en/laptops/lenovo/lenovo-n-series/300e-Chromebook/p/88ELC1S9997">Lenovo 300e Chromebook</a></td>
-    <td>hana</td>
-    <td>hana</td>
-    <td>oak</td>
-    <td>arm</td>
-    <td>3.18</td>
-    <td>aarch64</td>
-    <td>MT8173</td>
-    <td>Convertible</td>
+    <td><a href="https://www.lenovo.com/us/en/laptops/lenovo/lenovo-n-series/100e-Chromebook/p/88ELC1S9999">Lenovo 100e Chromebook</a></td>
+    <td>robo</td>
+    <td>coral</td>
+    <td>coral</td>
+    <td>x86_64</td>
+    <td>4.4</td>
+    <td>x86_64</td>
+    <td>ApolloLake</td>
+    <td>Chromebook</td>
     <td>R64</td>
     <td></td>
     <td></td>
-    <td></td>
+    <td>Yes</td>
   </tr>
   <tr>
     <td>2018-03-05</td>
@@ -1903,23 +1903,6 @@ These are your standard Chromebook/Chromebox/etc devices.
   </tr>
   <tr>
     <td>2018-06-01</td>
-    <td>HP</td>
-    <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/generic">HP Chromebook x2</a></td>
-    <td>Soraka</td>
-    <td>soraka</td>
-    <td>poppy</td>
-    <td>x86_64</td>
-    <td>4.4</td>
-    <td>x86_64</td>
-    <td>Kabylake-Y</td>
-    <td>Chromeblet</td>
-    <td></td>
-    <td></td>
-    <td>Left Port</td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td>2018-06-01</td>
     <td>Acer</td>
     <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/generic">Acer Chromebox CXI3</a></td>
     <td>Sion</td>
@@ -1937,26 +1920,26 @@ These are your standard Chromebook/Chromebox/etc devices.
   </tr>
   <tr>
     <td>2018-06-01</td>
-    <td>ASUS</td>
-    <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/generic">ASUS Chromebox 3</a></td>
-    <td>Teemo</td>
-    <td>fizz</td>
-    <td>fizz</td>
+    <td>HP</td>
+    <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/generic">HP Chromebook x2</a></td>
+    <td>Soraka</td>
+    <td>soraka</td>
+    <td>poppy</td>
     <td>x86_64</td>
     <td>4.4</td>
     <td>x86_64</td>
-    <td>Kabylake-U/R</td>
-    <td>Chromebox</td>
+    <td>Kabylake-Y</td>
+    <td>Chromeblet</td>
     <td></td>
     <td></td>
-    <td></td>
+    <td>Left Port</td>
     <td>Yes</td>
   </tr>
   <tr>
     <td>2018-06-01</td>
-    <td>Viewsonic</td>
-    <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/generic">ViewSonic NMP660 Chromebox</a></td>
-    <td>Wukong</td>
+    <td>ASUS</td>
+    <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/generic">ASUS Chromebox 3</a></td>
+    <td>Teemo</td>
     <td>fizz</td>
     <td>fizz</td>
     <td>x86_64</td>
@@ -1985,6 +1968,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td></td>
     <td></td>
+  </tr>
+  <tr>
+    <td>2018-06-01</td>
+    <td>Viewsonic</td>
+    <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/generic">ViewSonic NMP660 Chromebox</a></td>
+    <td>Wukong</td>
+    <td>fizz</td>
+    <td>fizz</td>
+    <td>x86_64</td>
+    <td>4.4</td>
+    <td>x86_64</td>
+    <td>Kabylake-U/R</td>
+    <td>Chromebox</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Yes</td>
   </tr>
   <tr>
     <td>2018-06-14</td>
@@ -2022,23 +2022,6 @@ These are your standard Chromebook/Chromebox/etc devices.
   </tr>
   <tr>
     <td>2018-06-30</td>
-    <td>CTL</td>
-    <td><a href="https://ctl.net/products/ctl-nl7t-chromebook-for-education-1">CTL Chromebook NL7T-360</a></td>
-    <td>Blacktip360</td>
-    <td>coral</td>
-    <td>coral</td>
-    <td>x86_64</td>
-    <td>4.4</td>
-    <td>x86_64</td>
-    <td>ApolloLake</td>
-    <td>Convertible</td>
-    <td>R67</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>2018-06-30</td>
     <td><white label></td>
     <td><a href=""></a></td>
     <td>blacktip</td>
@@ -2053,6 +2036,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td></td>
     <td>Yes</td>
+  </tr>
+  <tr>
+    <td>2018-06-30</td>
+    <td>CTL</td>
+    <td><a href="https://ctl.net/products/ctl-nl7t-chromebook-for-education-1">CTL Chromebook NL7T-360</a></td>
+    <td>Blacktip360</td>
+    <td>coral</td>
+    <td>coral</td>
+    <td>x86_64</td>
+    <td>4.4</td>
+    <td>x86_64</td>
+    <td>ApolloLake</td>
+    <td>Convertible</td>
+    <td>R67</td>
+    <td></td>
+    <td></td>
+    <td></td>
   </tr>
   <tr>
     <td>2018-06-30</td>
@@ -2175,23 +2175,6 @@ These are your standard Chromebook/Chromebox/etc devices.
   </tr>
   <tr>
     <td>2018-10-26</td>
-    <td>Lenovo</td>
-    <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/generic">Yoga Chromebook C630</a></td>
-    <td>pantheon</td>
-    <td>pantheon</td>
-    <td>nami</td>
-    <td>x86_64</td>
-    <td>4.4</td>
-    <td>x86_64</td>
-    <td>Kabylake-U/R</td>
-    <td>Convertible</td>
-    <td>R69</td>
-    <td></td>
-    <td></td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td>2018-10-26</td>
     <td>Acer</td>
     <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/generic">Acer Chromebook 13 / Spin 13</a></td>
     <td>Akali / Akali360</td>
@@ -2219,6 +2202,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Kabylake-U/R</td>
     <td>Chromebook</td>
+    <td>R69</td>
+    <td></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>2018-10-26</td>
+    <td>Lenovo</td>
+    <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/generic">Yoga Chromebook C630</a></td>
+    <td>pantheon</td>
+    <td>pantheon</td>
+    <td>nami</td>
+    <td>x86_64</td>
+    <td>4.4</td>
+    <td>x86_64</td>
+    <td>Kabylake-U/R</td>
+    <td>Convertible</td>
     <td>R69</td>
     <td></td>
     <td></td>
@@ -2345,20 +2345,20 @@ These are your standard Chromebook/Chromebox/etc devices.
   </tr>
   <tr>
     <td>2019-02-27</td>
-    <td>Acer</td>
-    <td><a href="http://eu-acerforeducation.acer.com/resources/bett-show-2019-acer-unveils-new-suite-of-11-6-inch-chromebooks/">Acer Chromebook 311</a></td>
-    <td>bobba</td>
-    <td>bobba</td>
-    <td>octopus</td>
-    <td>x86_64</td>
-    <td>4.14</td>
-    <td>x86_64</td>
-    <td>Gemini Lake</td>
+    <td>Lenovo</td>
+    <td><a href="https://www.lenovo.com/us/en/laptops/lenovo/student-chromebooks/Lenovo-100e-Chromebook-2nd-Gen-MTK/p/88ELC1S9989">Lenovo 100e Chromebook 2nd Gen (MTK)</a></td>
+    <td>Sycamore</td>
+    <td>hana</td>
+    <td>oak</td>
+    <td>arm</td>
+    <td>3.18</td>
+    <td>aarch64</td>
+    <td>MT8173</td>
     <td>Chromebook</td>
     <td>R72</td>
     <td></td>
     <td></td>
-    <td>Yes</td>
+    <td></td>
   </tr>
   <tr>
     <td>2019-02-27</td>
@@ -2379,20 +2379,20 @@ These are your standard Chromebook/Chromebox/etc devices.
   </tr>
   <tr>
     <td>2019-02-27</td>
-    <td>Lenovo</td>
-    <td><a href="https://www.lenovo.com/us/en/laptops/lenovo/student-chromebooks/Lenovo-100e-Chromebook-2nd-Gen-MTK/p/88ELC1S9989">Lenovo 100e Chromebook 2nd Gen (MTK)</a></td>
-    <td>Sycamore</td>
-    <td>hana</td>
-    <td>oak</td>
-    <td>arm</td>
-    <td>3.18</td>
-    <td>aarch64</td>
-    <td>MT8173</td>
+    <td>Acer</td>
+    <td><a href="http://eu-acerforeducation.acer.com/resources/bett-show-2019-acer-unveils-new-suite-of-11-6-inch-chromebooks/">Acer Chromebook 311</a></td>
+    <td>bobba</td>
+    <td>bobba</td>
+    <td>octopus</td>
+    <td>x86_64</td>
+    <td>4.14</td>
+    <td>x86_64</td>
+    <td>Gemini Lake</td>
     <td>Chromebook</td>
     <td>R72</td>
     <td></td>
     <td></td>
-    <td></td>
+    <td>Yes</td>
   </tr>
   <tr>
     <td>2019-02-27</td>
@@ -2406,23 +2406,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Chromebook</td>
-    <td>R72</td>
-    <td></td>
-    <td></td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td>2019-03-01</td>
-    <td>Lenovo</td>
-    <td><a href="Lenovo%20300e%20Chromebook%202nd%20Gen%20(Intel)">Lenovo 300e Chromebook 2nd Gen (Intel)</a></td>
-    <td>Phaser360</td>
-    <td>Octopus</td>
-    <td>octopus</td>
-    <td>x86_64</td>
-    <td>4.14</td>
-    <td>x86_64</td>
-    <td>Gemini Lake</td>
-    <td>Convertible</td>
     <td>R72</td>
     <td></td>
     <td></td>
@@ -2457,6 +2440,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Chromebook</td>
+    <td>R72</td>
+    <td></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>2019-03-01</td>
+    <td>Lenovo</td>
+    <td><a href="Lenovo%20300e%20Chromebook%202nd%20Gen%20(Intel)">Lenovo 300e Chromebook 2nd Gen (Intel)</a></td>
+    <td>Phaser360</td>
+    <td>Octopus</td>
+    <td>octopus</td>
+    <td>x86_64</td>
+    <td>4.14</td>
+    <td>x86_64</td>
+    <td>Gemini Lake</td>
+    <td>Convertible</td>
     <td>R72</td>
     <td></td>
     <td></td>
@@ -2533,8 +2533,8 @@ These are your standard Chromebook/Chromebox/etc devices.
   <tr>
     <td>2019-03-22</td>
     <td>Acer</td>
-    <td><a href="https://9to5google.com/2019/01/23/acer-amd-chromebooks-education/">Acer Chromebook Spin 311 (R721T)</a></td>
-    <td>Kasumi360</td>
+    <td><a href="https://9to5google.com/2019/01/23/acer-amd-chromebooks-education/">The Acer Chromebook 311 (C721) </a></td>
+    <td>Kasumi</td>
     <td>grunt</td>
     <td>grunt</td>
     <td>x86_64</td>
@@ -2550,8 +2550,8 @@ These are your standard Chromebook/Chromebox/etc devices.
   <tr>
     <td>2019-03-22</td>
     <td>Acer</td>
-    <td><a href="https://9to5google.com/2019/01/23/acer-amd-chromebooks-education/">The Acer Chromebook 311 (C721) </a></td>
-    <td>Kasumi</td>
+    <td><a href="https://9to5google.com/2019/01/23/acer-amd-chromebooks-education/">Acer Chromebook Spin 311 (R721T)</a></td>
+    <td>Kasumi360</td>
     <td>grunt</td>
     <td>grunt</td>
     <td>x86_64</td>
@@ -2737,8 +2737,8 @@ These are your standard Chromebook/Chromebox/etc devices.
   <tr>
     <td>2019-08-26</td>
     <td>Dell</td>
-    <td><a href="https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/dell-latitude-5400-chromebook-enterprise/spd/latitude-14-5400-chrome-laptop/xctolc540014us1">Dell Latitude 5400 Chromebook Enterprise</a></td>
-    <td>sarien</td>
+    <td><a href="https://www.dell.com/en-us/work/shop/cty/pdp/spd/latitude-13-5300-2-in-1-chrome-laptop">Latitude 5300 2-in-1 Chromebook Enterprise</a></td>
+    <td>arcada</td>
     <td>sarien</td>
     <td>sarien</td>
     <td>x86_64</td>
@@ -2754,8 +2754,8 @@ These are your standard Chromebook/Chromebox/etc devices.
   <tr>
     <td>2019-08-26</td>
     <td>Dell</td>
-    <td><a href="https://www.dell.com/en-us/work/shop/cty/pdp/spd/latitude-13-5300-2-in-1-chrome-laptop">Latitude 5300 2-in-1 Chromebook Enterprise</a></td>
-    <td>arcada</td>
+    <td><a href="https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/dell-latitude-5400-chromebook-enterprise/spd/latitude-14-5400-chrome-laptop/xctolc540014us1">Dell Latitude 5400 Chromebook Enterprise</a></td>
+    <td>sarien</td>
     <td>sarien</td>
     <td>sarien</td>
     <td>x86_64</td>
@@ -2788,23 +2788,6 @@ These are your standard Chromebook/Chromebox/etc devices.
   <tr>
     <td>2019-09-04</td>
     <td>Acer</td>
-    <td><a href="https://news.acer.com/acer-delivers-full-lineup-of-chromebooks-for-family-fun-entertainment-productivity">Acer Chromebook 314 (CB314-1H/1HT)</a></td>
-    <td>Droid</td>
-    <td>octopus</td>
-    <td>octopus</td>
-    <td>x86_64</td>
-    <td>4.14</td>
-    <td>x86_64</td>
-    <td>Gemini Lake</td>
-    <td>Chromebook</td>
-    <td>R76</td>
-    <td></td>
-    <td></td>
-    <td>Yes</td>
-  </tr>
-  <tr>
-    <td>2019-09-04</td>
-    <td>Acer</td>
     <td><a href="https://news.acer.com/acer-delivers-full-lineup-of-chromebooks-for-family-fun-entertainment-productivity">Acer Chromebook Spin 311 (CP311-2H)</a></td>
     <td>gik360</td>
     <td>octopus</td>
@@ -2814,6 +2797,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Convertible</td>
+    <td>R76</td>
+    <td></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>2019-09-04</td>
+    <td>Acer</td>
+    <td><a href="https://news.acer.com/acer-delivers-full-lineup-of-chromebooks-for-family-fun-entertainment-productivity">Acer Chromebook 314 (CB314-1H/1HT)</a></td>
+    <td>Droid</td>
+    <td>octopus</td>
+    <td>octopus</td>
+    <td>x86_64</td>
+    <td>4.14</td>
+    <td>x86_64</td>
+    <td>Gemini Lake</td>
+    <td>Chromebook</td>
     <td>R76</td>
     <td></td>
     <td></td>
@@ -2992,23 +2992,6 @@ These are your standard Chromebook/Chromebox/etc devices.
   <tr>
     <td>2020-01-20</td>
     <td>HP</td>
-    <td><a href="https://store.hp.com/us/en/pdp/hp-chromebook-14-g5-notebook-pc-customizable-8mq26av-mb">HP Chromebook 14 G6</a></td>
-    <td>Dorp</td>
-    <td>octopus</td>
-    <td>octopus</td>
-    <td>x86_64</td>
-    <td>4.14</td>
-    <td>x86_64</td>
-    <td>Gemini Lake</td>
-    <td>Chromebook</td>
-    <td>R78</td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>2020-01-20</td>
-    <td>HP</td>
     <td><a href="https://store.hp.com/us/en/pdp/hp-chromebook-11-g8-ee-notebook-pc-customizable-8mq33av-mb">HP Chromebook 11 G8 EE</a></td>
     <td>Vorticon</td>
     <td>octopus</td>
@@ -3041,18 +3024,18 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
   </tr>
   <tr>
-    <td>2020-02-28</td>
-    <td>Lenovo</td>
-    <td><a href="https://www.lenovo.com/us/en/laptops/lenovo/student-chromebooks/Lenovo-100e-Chromebook-2nd-Gen-AST/p/88ELC1S8035">Lenovo 100e 2nd Gen AMD</a></td>
-    <td>Treeya</td>
-    <td>Grunt</td>
-    <td></td>
+    <td>2020-01-20</td>
+    <td>HP</td>
+    <td><a href="https://store.hp.com/us/en/pdp/hp-chromebook-14-g5-notebook-pc-customizable-8mq26av-mb">HP Chromebook 14 G6</a></td>
+    <td>Dorp</td>
+    <td>octopus</td>
+    <td>octopus</td>
     <td>x86_64</td>
     <td>4.14</td>
     <td>x86_64</td>
-    <td>Stoney Ridge</td>
+    <td>Gemini Lake</td>
     <td>Chromebook</td>
-    <td>R80</td>
+    <td>R78</td>
     <td></td>
     <td></td>
     <td></td>
@@ -3087,6 +3070,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Gemini Lake</td>
     <td>Chromebook</td>
     <td>R79</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>2020-02-28</td>
+    <td>Lenovo</td>
+    <td><a href="https://www.lenovo.com/us/en/laptops/lenovo/student-chromebooks/Lenovo-100e-Chromebook-2nd-Gen-AST/p/88ELC1S8035">Lenovo 100e 2nd Gen AMD</a></td>
+    <td>Treeya</td>
+    <td>Grunt</td>
+    <td></td>
+    <td>x86_64</td>
+    <td>4.14</td>
+    <td>x86_64</td>
+    <td>Stoney Ridge</td>
+    <td>Chromebook</td>
+    <td>R80</td>
     <td></td>
     <td></td>
     <td></td>

@@ -52,8 +52,8 @@ title: October 2020 - Code Health, Scroll Timelines, Synthetic User Activation, 
     <td><td>Discovered two bugs.</td></td>
 
         <td><td><a
-        href="https://bugs.chromium.org/p/chromium/issues/detail">Wrong error
-        thrown</a>.</td></td>
+        href="https://bugs.chromium.org/p/chromium/issues/detail?id=1136516">Wrong
+        error thrown</a>.</td></td>
 
         <td><td><a
         href="https://github.com/w3c/csswg-drafts/issues/5599">rootMargin

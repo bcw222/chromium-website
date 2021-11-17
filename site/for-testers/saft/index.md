@@ -14,20 +14,21 @@ SAFT stands for Semi Automated Firmware Test. It is a Python and BASH based
 Linux application enabled in the [ChromeOS](/chromium-os) test distribution. On
 the target system SAFT code is placed in `/usr/sbin/firmware/saft. The source
 code is controlled by a separate [git](goog_880557684)`
-`[repository](http://gerrit.chromium.org/gerrit/gitweb). `
+`[repository](http://gerrit.chromium.org/gerrit/gitweb?p=chromiumos%2Fplatform%2Fsaft.git;a=shortlog;h=HEAD).
+`
 
 SAFT is designed to verify BIOS functionality, including different aspects of
 [Verified Boot](/chromium-os/chromiumos-design-docs/verified-boot) and [Google
 Chrome OS Firmware - High Level
-Specification](https://docs.google.com/a/google.com/Doc). To test this
-thoroughly multiple system restarts are needed, some including booting in
-recovery mode. This is why **SAFT requires the flash drive to be present on the
-system under test**, both to keep state between reboots and to provide recovery
-mode boot medium. Recovery mode boot requires operator involvement (unplugging
-and plugging in the flash drive), which makes SAFT a 'semi automated' test. SAFT
-is meant to be run by the firmware vendors, and is required to be easy to set up
-and run. This is why it is not using the autotest framework, all what's needed
-is a target netbook and a flash memory stick.
+Specification](https://docs.google.com/a/google.com/Doc?docid=0AbUTgMyqR_XeZGRuaDd4OXdfODJkbTRjZzJjdA&hl=en).
+To test this thoroughly multiple system restarts are needed, some including
+booting in recovery mode. This is why **SAFT requires the flash drive to be
+present on the system under test**, both to keep state between reboots and to
+provide recovery mode boot medium. Recovery mode boot requires operator
+involvement (unplugging and plugging in the flash drive), which makes SAFT a
+'semi automated' test. SAFT is meant to be run by the firmware vendors, and is
+required to be easy to set up and run. This is why it is not using the autotest
+framework, all what's needed is a target netbook and a flash memory stick.
 
 The Chrome OS root file system is immutable, so there is a need to enable or
 disable SAFT execution without modifying the root fs contents. The SAFT

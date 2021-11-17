@@ -355,8 +355,8 @@ created for you.
 #### **Handling eclasses**
 
 Some packages make use of
-[eclasses](http://www.gentoo.org/proj/en/devrel/handbook/handbook.xml), which
-are essentially ebuild code factored out into library files shared across
+[eclasses](http://www.gentoo.org/proj/en/devrel/handbook/handbook.xml?part=2&chap=2),
+which are essentially ebuild code factored out into library files shared across
 multiple packages. If an ebuild file includes an inherit statement, then it uses
 an eclass. You don't have to check for this before you upgrade. The upgrade
 script will attempt to detect when an eclass must be upgraded along with a
