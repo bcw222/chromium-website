@@ -51,6 +51,24 @@
       "parentUuid": "03ee61fd_52044289",
       "revId": "682f4cfe5e474c62c791170ce95c761e655e357f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f6b16ed7_5495c889",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-17T20:18:53Z",
+      "side": 1,
+      "message": "It\u0027s a good suggestion. I only recently learned about semantic newlines, but I \nfear that I\u0027m personally too hard-wired to like line breaks and relatively narrow text widths to be happy with it (and I\u0027ve never liked it when text editors do soft wrapping to work around this).\n\nI\u0027m also reluctant to do it here given that we don\u0027t do anything like this for\nany of the other file types in chromium/chromiumos repos.",
+      "parentUuid": "a2c91f3d_f2fff8f3",
+      "revId": "682f4cfe5e474c62c791170ce95c761e655e357f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
