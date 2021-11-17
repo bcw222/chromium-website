@@ -9,8 +9,7 @@ title: Creating and Using Profiles
 *(This page deals with establishing entirely separate data directories for
 running parallel instances of the Chrome browser. To create separate user
 accounts within the same Chrome browser instance, please read about the
-[multiple accounts
-feature](http://www.chromium.org/user-experience/multi-profiles).)*
+[multiple accounts feature](/user-experience/multi-profiles).)*
 
 By creating and using multiple profiles, you can do development — creating
 extensions, modifying the browser, or testing the browser — while still being
@@ -21,7 +20,7 @@ basic process:
 
 *   Create a folder to hold data for the new profile.
 *   Create a shortcut or alias that launches the browser, using the
-            **--user-data-dir** command-line argument to specify the profile's
+            `--user-data-dir` command-line argument to specify the profile's
             location.
 *   Whenever you launch the browser, use the shortcut or alias that's
             associated with the profile. If the profile folder is empty, the
@@ -37,11 +36,11 @@ basic process:
             (Right-click, then Copy.) Name the new shortcut something like
             **Chrome Development**.
 3.  Right-click the **Chrome Development** shortcut, choose
-            **Properties**, and paste **--user-data-dir=C:\\chrome-dev-profile**
+            **Properties**, and paste `--user-data-dir=C:\\chrome-dev-profile`
             at the end of the **Target** field. The result might look like this:
-    "C:\\Documents and Settings\\me\\Local Settings\\Application
-    Data\\Google\\Chrome\\Application\\chrome.exe"
-    --user-data-dir=c:\\chrome-dev-profile
+    `"C:\Documents and Settings\me\Local Settings\Application
+    Data\Google\Chrome\Application\chrome.exe"
+    --user-data-dir=C:\chrome-dev-profile`
 4.  Start Google Chrome by double-clicking the **Chrome Development**
             shortcut. This creates the profile data.
 
@@ -57,7 +56,7 @@ from scratch. Here's how:
 
 1.  Close Google Chrome.
 2.  Delete the contents of your profile folder — the folder you
-            specified with --user-data-dir (for example,
+            specified with `--user-data-dir` (for example,
             **C:\\chrome-dev-profile**).
 
 ### Instructions: Mac
