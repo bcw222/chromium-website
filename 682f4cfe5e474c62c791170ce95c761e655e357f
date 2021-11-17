@@ -16,6 +16,23 @@
       "message": "See https://new.chromium.org/chromium-os/ to observe the brokenness.",
       "revId": "682f4cfe5e474c62c791170ce95c761e655e357f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "03ee61fd_52044289",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-17T18:31:01Z",
+      "side": 1,
+      "message": "I thought I had fixed this, so I checked and, I had, sort of, but then I broke it again.\n\nApparently you can nest an HTML element inside the `[]` as long as it doesn\u0027t wrap across lines. I don\u0027t think I fully understand the rules around inline HTML in Markdown yet (either in the specs or in markdown-it\u0027s implementation).\n\nThere\u0027s no reason in this case to be using the tag at all, so your fix is strictly better than mine was.\n\nI need to figure out how to be more careful when re-importing things.\n\nThanks!",
+      "revId": "682f4cfe5e474c62c791170ce95c761e655e357f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
