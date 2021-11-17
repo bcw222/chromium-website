@@ -141,7 +141,15 @@ GOOGLE_DEFAULT_CLIENT_SECRET=<i>your_client_secret</i>
 
 ## Signing in to Chromium is restricted
 
-## Signing in to Chromium requires an OAuth 2.0 token for authentication. As this OAuth 2.0 token gives access to various Google services that handle user data (e.g. Chrome sync), for security and privacy reasons the generation of this OAuth 2.0 token is restricted. This means that signing in to Chromium is restricted (as the OAuth 2.0 token cannot be generated). In order to sign in to Chromium builds, please add your test account to [google-browser-signin-testaccounts@chromium.org](https://groups.google.com/u/1/a/chromium.org/g/google-browser-signin-testaccounts) (accounts in this group are allowed to get access tokens bypassing the restriction above).
+Signing in to Chromium requires an OAuth 2.0 token for authentication. As this
+OAuth 2.0 token gives access to various Google services that handle user data
+(e.g. Chrome sync), for security and privacy reasons the generation of this
+OAuth 2.0 token is restricted. This means that signing in to Chromium is
+restricted (as the OAuth 2.0 token cannot be generated). In order to sign in
+to Chromium builds, please add your test account to
+[google-browser-signin-testaccounts@chromium.org](https://groups.google.com/u/1/a/chromium.org/g/google-browser-signin-testaccounts)
+(accounts in this group are allowed to get access tokens bypassing the
+restriction above).
 
 *Note: Starting with Chromium M69, when the browser is set up with an OAuth 2.0
 client ID and client secret, signing in with your Google Account to any Google
@@ -160,9 +168,9 @@ for use in derived products. In the API Console
 quota for some of the APIs listed above. **For APIs that do not have a "Pricing"
 link, additional quota is not available for purchase.**
 
-**Polyfilling chrome.identity API in Your Chromium Derivative**
+### Polyfilling chrome.identity API in Your Chromium Derivative
 
-The default Chromium **chrome.identity.getAuthToken** API that extensions may
+The default Chromium `chrome.identity.getAuthToken` API that extensions may
 call to obtain auth tokens will fail outside of Google Chrome as the
 implementation uses restricted APIs.
 
