@@ -50,6 +50,24 @@
       "message": "Nit: please remove the trailing spaces if you can.",
       "revId": "7b56d3e4404d1f869d5c276ab9786a2c01935acf",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc894ac9_eeac70bb",
+        "filename": "site/developers/how-tos/api-keys/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1194993
+      },
+      "writtenOn": "2021-11-17T20:17:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ecbc993b_948976e9",
+      "revId": "7b56d3e4404d1f869d5c276ab9786a2c01935acf",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
