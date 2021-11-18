@@ -122,6 +122,24 @@
       "parentUuid": "1ca6ca36_92ebcb39",
       "revId": "dfc384b80866869cd116dbda489c593542820634",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7605d30f_dbb762f8",
+        "filename": "site/developers/design-documents/ui-localization/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-18T23:17:36Z",
+      "side": 1,
+      "message": "Ah, interesting. Normally there\u0027s a button at the top that says \"Rebase\". Rebasing a patch means that you have it apply to a different point in the version history. E.g., you created your patch against code from a week ago, and now we want to apply it to today\u0027s code.\n\nBut, for some reason that\u0027s not an option for you. I don\u0027t know if it\u0027s because of the specifics of your change, or if something weird happened. \n\nI\u0027ll fix it :).",
+      "parentUuid": "aada74b2_19da6bd3",
+      "revId": "dfc384b80866869cd116dbda489c593542820634",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
