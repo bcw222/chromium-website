@@ -16,6 +16,23 @@
       "message": "@domenic - any advice/feedback you have on the Node/JS stuff would be appreciated, I\u0027m no Node dev.",
       "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c16d5c77_0407c3e4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2021-11-18T23:10:02Z",
+      "side": 1,
+      "message": "lgtm, don\u0027t want to trigger submit before domenic can check though",
+      "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
