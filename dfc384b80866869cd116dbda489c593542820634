@@ -104,6 +104,24 @@
       "parentUuid": "9751cb3c_1639c98a",
       "revId": "dfc384b80866869cd116dbda489c593542820634",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aada74b2_19da6bd3",
+        "filename": "site/developers/design-documents/ui-localization/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1318532
+      },
+      "writtenOn": "2021-11-18T12:12:19Z",
+      "side": 1,
+      "message": "Sure! How do I \"rebase my CL\"? Sorry, I am a UX Writer and super unfamiliar with Chromium/Gerrit :)",
+      "parentUuid": "1ca6ca36_92ebcb39",
+      "revId": "dfc384b80866869cd116dbda489c593542820634",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
