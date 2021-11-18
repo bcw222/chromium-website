@@ -18,15 +18,27 @@ the lifetime of heap-allocated objects is called RAII - **R**esource
 Here's some sample use of `std::unique_ptr<>`, the most common type of smart
 pointer:
 
-> ` // We can put a pointer into a std::unique_ptr<> at construction time...
-> std::unique_ptr value(base::JSONReader::Read(data)); std::unique_ptr
-> foo_ptr(new Foo(...)); // ...or by using reset(). std::unique_ptr bar_ptr; //
-> Like "Bar* bar_ptr = nullptr;". bar_ptr.reset(new Bar(...)); // Now |bar_ptr|
-> is non-nullptr and owns the object. // We can test the std::unique_ptr<>
-> directly. if (!value) return false; // get() accesses the raw pointer
-> underneath. Foo* raw_ptr = foo_ptr.get(); // We can call through the
-> std::unique_ptr<> as if it were a raw pointer. DictionaryValue* dict; if
-> (!value->GetAsDictionary(&dict)) return false; `
+```cpp
+// We can put a pointer into a std::unique_ptr<> at construction time...
+std::unique_ptr value(base::JSONReader::Read(data));
+std::unique_ptr foo_ptr(new Foo(...));
+
+// ...or by using reset().
+std::unique_ptr bar_ptr;      // Like "Bar* bar_ptr = nullptr;".
+bar_ptr.reset(new Bar(...));  // Now |bar_ptr| is non-nullptr and owns the object.
+
+// We can test the std::unique_ptr<> directly.
+if (!value)
+  return false;
+
+// get() accesses the raw pointer underneath.
+Foo* raw_ptr = foo_ptr.get();
+
+// We can call through the std::unique_ptr<> as if it were a raw pointer.
+DictionaryValue* dict;
+if (!value->GetAsDictionary(&dict))
+  return false;
+```
 
 ## Why do we use them?
 
@@ -100,25 +112,42 @@ illustrated below.
             ownership of the argument. Callers need to use `std::move()` to
             indicate that they're passing ownership if the object being passed
             is not a temporary:
-    > ` // Foo() takes ownership of |bar|. void Foo(std::unique_ptr<Bar> bar);
-    > ... std::unique_ptr<Bar> bar_ptr(new Bar()); Foo(std::move(bar_ptr)); //
-    > After this statement, |bar_ptr| is null. Foo(std::unique_ptr<Bar>(new
-    > Bar())); // No need to use std::move() on temporaries. `
+    ```cpp
+    // Foo() takes ownership of |bar|.
+    void Foo(std::unique_ptr<Bar> bar);
+
+    ...
+    std::unique_ptr<Bar> bar_ptr(new Bar());
+    Foo(std::move(bar_ptr));          // After this statement, |bar_ptr| is null.
+    Foo(std::unique_ptr<Bar>(new Bar()));  // No need to use std::move() on temporaries.
+    ```
 
 *   If a function **returns** a `std::unique_ptr<>`, that means the
             caller takes ownership of the returned object. Usage of
             `std::move()` while returning an object is only needed if the return
             type of the function differs from the type of the local variable.
-    > ` class Base { ... }; class Derived : public Base { ... }; // Foo takes
-    > ownership of |base|, and the caller takes ownership of the returned //
-    > object. std::unique_ptr<Base> Foo(std::unique_ptr<Base> base) { if (cond)
-    > { return base; // Transfers ownership of |base| back to // the caller. }
-    > // Note that on these next codepaths, |base| is deleted on exit. if
-    > (cond2) { return std::unique_ptr<Base>(new Base())); // No std::move()
-    > necessary on temporaries. } std::unique_ptr<Derived> derived(new
-    > Derived()); return std::move(derived); // Note that std::move() is
-    > necessary because // type of |derived| is different from the return //
-    > type of the function. } `
+    ```cpp
+    class Base { ... };
+    class Derived : public Base { ... };
+
+    // Foo takes ownership of |base|, and the caller takes ownership of the returned
+    // object.
+    std::unique_ptr<Base> Foo(std::unique_ptr<Base> base) {
+      if (cond) {
+        return base;                           // Transfers ownership of |base| back to
+                                               // the caller.
+      }
+
+      // Note that on these next codepaths, |base| is deleted on exit.
+      if (cond2) {
+        return std::unique_ptr<Base>(new Base()));  // No std::move() necessary on temporaries.
+      }
+      std::unique_ptr<Derived> derived(new Derived());
+      return std::move(derived);               // Note that std::move() is necessary because
+                                               // type of |derived| is different from the return
+                                               // type of the function.
+    }
+    ```
 
 *   If a function takes or returns a raw pointer, it may mean no
             ownership is transferred, or it may not. Much of Chromium was
