@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "b0b5400a_3924baab",
+        "filename": ".eleventy.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1197619
+      },
+      "writtenOn": "2021-11-18T23:30:07Z",
+      "side": 1,
+      "message": "Nit: collectionAll would be more idiomatic JS",
+      "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "4255caa7_100f504b",
@@ -31,6 +48,159 @@
       "writtenOn": "2021-11-18T23:10:02Z",
       "side": 1,
       "message": "lgtm, don\u0027t want to trigger submit before domenic can check though",
+      "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d2d192d_8690cfc5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1197619
+      },
+      "writtenOn": "2021-11-18T23:30:07Z",
+      "side": 1,
+      "message": "Important logic looks good, just found a few potential JS cleanups. Feel free to merge or ask for re-review after fixing.",
+      "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2f902f04_a3f07373",
+        "filename": "docs/AUTHORING.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 1197619
+      },
+      "writtenOn": "2021-11-18T23:30:07Z",
+      "side": 1,
+      "message": "Isn\u0027t [TOC] already used for tables of contents?",
+      "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c6c57a7d_72fbca67",
+        "filename": "scripts/subpages.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1197619
+      },
+      "writtenOn": "2021-11-18T23:30:07Z",
+      "side": 1,
+      "message": "Nit: collectionOfAllPages would be more idiomatic JS\n\nSimilar for item_url below.",
+      "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8f3acab2_b31ced30",
+        "filename": "scripts/subpages.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1197619
+      },
+      "writtenOn": "2021-11-18T23:30:07Z",
+      "side": 1,
+      "message": "Nit: let could be const here. (Since you never reassign map to a new value.)\n\nMore substantive: I can\u0027t figure out what this is a map from/too. The keys are both dirnames and urls? A comment would be good.",
+      "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b5a86623_719a77fc",
+        "filename": "scripts/subpages.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1197619
+      },
+      "writtenOn": "2021-11-18T23:30:07Z",
+      "side": 1,
+      "message": "Missing `const` before subPage; this will create a global variable currently.",
+      "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d550234e_ccace3e9",
+        "filename": "scripts/subpages.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1197619
+      },
+      "writtenOn": "2021-11-18T23:30:07Z",
+      "side": 1,
+      "message": "This could be `const indent \u003d \"  \".repeat(depth);`",
+      "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0f3e356b_cb7aa1b9",
+        "filename": "scripts/subpages.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1197619
+      },
+      "writtenOn": "2021-11-18T23:30:07Z",
+      "side": 1,
+      "message": "This should be `let s` (or probably better, a descriptive variable name). Right now you are creating and assigning to a new global property s.",
+      "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8994f3c2_d93fa49c",
+        "filename": "scripts/subpages.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1197619
+      },
+      "writtenOn": "2021-11-18T23:30:07Z",
+      "side": 1,
+      "message": "Nit: you could do `\u003cnav class\u003d\"subpage-listing\"\u003e` instead for the same effect and slightly more idiomatic HTML.",
+      "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8c078a05_8b9a7bff",
+        "filename": "scripts/subpages.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1197619
+      },
+      "writtenOn": "2021-11-18T23:30:07Z",
+      "side": 1,
+      "message": "Nit: I would say \"property\" instead of \"fld\"",
       "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
