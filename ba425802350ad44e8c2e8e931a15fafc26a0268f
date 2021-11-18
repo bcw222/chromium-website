@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7866a150_59a8fa12",
+        "filename": "site/developers/design-documents/ui-localization/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-18T23:34:01Z",
+      "side": 1,
+      "message": "You had added `{: #TOC-How-strings-get-translated }` here to customize the page fragment (presumably to make it compatible with the way the Sites page worked).\n\nUnfortunately, it looks like there\u0027s a bug and the TOC-generating plugin that I\u0027m using isn\u0027t actually picking up the customized identifiers.\n\nI\u0027ve changed this back to the default (which does work), and fixed the links on this page that cross-link to the different sections.\n\nHowever, if we have documentation elsewhere that is relying on http://chromium.org/developers-design-documents/ui-localization#TOC-How-strings-get-translated to still work, this won\u0027t work right.\n\nIf so, I think we have two choices:\n\n1) Don\u0027t worry about it (the URL will still link to the page and people may be able to figure it out)\n\n2) I can fix the TOC-generating plugin to be Sites-compatible (and to handle the custom IDs; I\u0027ll do the latter regardless, but I don\u0027t actually like Sites having used TOC- in the IDs, so I kinda prefer the new format).\n\n3) We can insert `\u003ca name\u003d\"TOC-How-strings-get-translated\"\u003e` into the heading.\n\nLet me know which of the above you might like?",
+      "revId": "ba425802350ad44e8c2e8e931a15fafc26a0268f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "17b323c7_df88a9ca",
+        "filename": "site/developers/design-documents/ui-localization/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-18T23:34:01Z",
+      "side": 1,
+      "message": "The code formatting we see on the new page doesn\u0027t match how the old page does things; it picks up the generic site-wide CSS rule, which adds a green background.\n\nWe can fix the formatting by either using \u003csamp\u003e tags instead of backquotes, or by providing a custom CSS rule to turn off the green backgrounds on this page.\n\nAre you okay with the background, or would you strongly prefer no background?",
+      "range": {
+        "startLine": 52,
+        "startChar": 36,
+        "endLine": 52,
+        "endChar": 37
+      },
+      "revId": "ba425802350ad44e8c2e8e931a15fafc26a0268f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4a1e477d_ef44ff3c",
+        "filename": "site/developers/design-documents/ui-localization/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 280,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-18T23:34:01Z",
+      "side": 1,
+      "message": "Here the old site had an indented block with no bullets. Do you like the bullets better?\n\nThere\u0027s not an easy way to do just a regular indented block at the moment, but we can add one (e.g., wrap things in a `\u003cdiv class\u003d\"indent\"\u003e` tag) if you\u0027d prefer not to have the bullets and multiple levels of indentation.",
+      "revId": "ba425802350ad44e8c2e8e931a15fafc26a0268f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
