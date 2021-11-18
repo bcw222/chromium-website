@@ -6,7 +6,7 @@ page_name: design-documents
 title: Design Documents
 ---
 
-## **Start Here: Background Reading**
+## Start Here: Background Reading
 
 *   [Multi-process
             Architecture](/developers/design-documents/multi-process-architecture):
@@ -26,9 +26,9 @@ title: Design Documents
 
 ## See Also:
 
-*   ## ==[Design docs in source
-            code](https://chromium.googlesource.com/chromium/src/+/master/docs/README.md)==
-*   ## [Design doc
+*   [Design docs in source
+            code](https://chromium.googlesource.com/chromium/src/+/master/docs/README.md)
+*   [Design doc
             template](https://docs.google.com/document/d/14YBYKgk-uSfjfwpKFlp_omgUq5hwMVazy_M965s_1KA/edit)
 
 ## General Architecture
@@ -88,32 +88,31 @@ the JavaScript engine used within Chromium.
 
 **Graphics**
 
-*   ## [Overview](/developers/design-documents/chromium-graphics)
-*   ## [GPU Accelerated Compositing in
+*   [Overview](/developers/design-documents/chromium-graphics)
+*   [GPU Accelerated Compositing in
             Chrome](/developers/design-documents/gpu-accelerated-compositing-in-chrome)
-*   ## [GPU Feature Status
+*   [GPU Feature Status
             Dashboard](/developers/design-documents/gpu-accelerated-compositing-in-chrome/gpu-architecture-roadmap)
-*   ## [Rendering Architecture
+*   [Rendering Architecture
             Diagrams](/developers/design-documents/rendering-architecture-diagrams)
-*   ## [Graphics and
-            Skia](/developers/design-documents/graphics-and-skia)
-*   ## [RenderText and Chrome UI text
+*   [Graphics and Skia](/developers/design-documents/graphics-and-skia)
+*   [RenderText and Chrome UI text
             drawing](/developers/design-documents/rendertext)
-*   ## [GPU Command
+*   [GPU Command
             Buffer](/developers/design-documents/gpu-command-buffer)
-*   ## [GPU Program
+*   [GPU Program
             Caching](https://docs.google.com/a/chromium.org/document/d/1Vceem-nF4TCICoeGSh7OMXxfGuJEJYblGXRgN9V9hcE/edit)
-*   ## [Compositing in Blink/WebCore: from WebCore::RenderLayer to
+*   [Compositing in Blink/WebCore: from WebCore::RenderLayer to
             cc::Layer](https://docs.google.com/presentation/d/1dDE5u76ZBIKmsqkWi2apx3BqV8HOcNf4xxBdyNywZR8/edit?usp=sharing)
-*   ## [Compositor Thread
+*   [Compositor Thread
             Architecture](/developers/design-documents/compositor-thread-architecture)
-*   ## [Rendering
+*   [Rendering
             Benchmarks](/developers/design-documents/rendering-benchmarks)
-*   ## [Impl-side
+*   [Impl-side
             Painting](/developers/design-documents/impl-side-painting)
-*   ## [Video Playback and
+*   [Video Playback and
             Compositor](http://www.chromium.org/developers/design-documents/video-playback-and-compositor)
-*   ## [ANGLE architecture
+*   [ANGLE architecture
             presentation](https://docs.google.com/presentation/d/1CucIsdGVDmdTWRUbg68IxLE5jXwCb2y1E9YVhQo0thg/pub?start=false&loop=false)
 
 **Network stack**
@@ -382,6 +381,4 @@ which is the build script generation tool.
 
 ## Full listing of all sub-pages:
 
-<img alt="image"
-src="http://www.google.com/chart?chc=sites&cht=d&chdp=sites&chl=%5B%5BPage+listing'%3D20'f%5Cv'a%5C%3D0'10'%3D499'0'dim'%5Cbox1'b%5CF6F6F6'fC%5CF6F6F6'eC%5C0'sk'%5C%5B%22Subpage+Listing%22'%5D'a%5CV%5C%3D12'f%5C%5DV%5Cta%5C%3D10'%3D0'%3D500'%3D297'dim'%5C%3D10'%3D10'%3D500'%3D297'vdim'%5Cbox1'b%5Cva%5CF6F6F6'fC%5CC8C8C8'eC%5C'a%5C%5Do%5CLauto'f%5C&sig=lxEPbO98PQKCTIgDHMqrwU0hJD8"
-height=300 width=500>
+{% subpages collections.all %}
