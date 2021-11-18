@@ -1,6 +1,7 @@
-
 module.exports = config => {
   config.addWatchTarget('./site/_stylesheets/');
+
+  const recurse = require('./recurse.js');
 
   // `markdown-it` is Eleventy's default Markdown rendering engine.
   // We need a reference to it to customize its behavior, below.
@@ -40,6 +41,11 @@ module.exports = config => {
 
   config.setLibrary('md', mdlib);
 
+  function handleSubPages(collection_all) {
+    let page = this.page.url;
+    return recurse.render(page, collection_all);
+  };
+  config.addNunjucksShortcode("subpages", handleSubPages);
 
   // Copy binary assets over to the dist/ directory.
 
