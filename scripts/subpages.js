@@ -1,0 +1,74 @@
+// Copyright 2021 Google LLC
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     https://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+function rtrim(s, ch) {
+  if (s.endsWith(ch)) {
+    return s.substr(0, s.length - 1);
+  }
+  return s;
+}
+
+function render(page, collection) {
+  page = rtrim(page, '/');
+
+  let subPages = [];
+  for (const item of collection) {
+    if (item.data.page.url.startsWith(page)) {
+      let item_url = rtrim(item.data.page.url, '/');
+      let comps = item_url.split('/');
+      subPages.push({
+        title: item.data.title,
+        url: item_url,
+        dirname: comps.slice(0, comps.length - 1).join('/'),
+        children: [],
+      })
+    }
+  }
+
+  subPages.sort((x, y) => (x.url > y.url ? x : (x.url === y.url ? 0 : -1)));
+
+  let map = new Map();
+  map.set(page, {url: page, children: []});
+
+  for (subPage of subPages) {
+    map.set(subPage.url, subPage);
+    if (map.has(subPage.dirname)) {
+      map.get(subPage.dirname).children.push(subPage);
+    }
+  }
+
+  function walk(obj, depth) {
+    let indent = '';
+    for (i = 0; i < depth; i++) {
+      indent += '  ';
+    }
+    if (obj.children.length) {
+      let s = `${indent}<details>
+${indent}  <summary><a href="${obj.url}">${obj.title}</a></summary>
+${indent}  <ul>
+`;
+      for (ch of obj.children) {
+        s += `${indent}    <li>\n${walk(ch, depth + 3)}`;
+      }
+      s += `${indent}  </ul>\n${indent}</details>\n`;
+      return s;
+    } else {
+      return `${indent}<a href="${obj.url}">${obj.title}</a>\n`;
+    }
+  }
+
+  return `\n${ walk(map.get(page), 0) }\n`;
+}
+
+exports.render = render;
