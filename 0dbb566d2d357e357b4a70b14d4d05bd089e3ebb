@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "93865f3e_019361c6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1197619
+      },
+      "writtenOn": "2021-11-19T16:33:36Z",
+      "side": 1,
+      "message": "Beautiful! Minor style suggestions but the code looks great.",
+      "revId": "0dbb566d2d357e357b4a70b14d4d05bd089e3ebb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "346055dd_c9c0952f",
+        "filename": "scripts/subpages.js",
+        "patchSetId": 9
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1197619
+      },
+      "writtenOn": "2021-11-19T16:33:36Z",
+      "side": 1,
+      "message": "Maybe depth -\u003e indentDepth to make it clearer that\u0027s all it\u0027s used for (and why it\u0027s incrementing by 3).",
+      "revId": "0dbb566d2d357e357b4a70b14d4d05bd089e3ebb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0cbf90fc_d3e11481",
+        "filename": "scripts/subpages.js",
+        "patchSetId": 9
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1197619
+      },
+      "writtenOn": "2021-11-19T16:33:36Z",
+      "side": 1,
+      "message": "You could do\n\nreturn (x, y) \u003d\u003e {\n  ...\n};",
+      "revId": "0dbb566d2d357e357b4a70b14d4d05bd089e3ebb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
