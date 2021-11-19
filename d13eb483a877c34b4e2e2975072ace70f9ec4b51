@@ -16,6 +16,41 @@
       "message": "Looks like the builder is failing because \"Unknown block tag: images\" wondering if it\u0027s part of subpages pulling in multiple images?",
       "revId": "d13eb483a877c34b4e2e2975072ace70f9ec4b51",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "17817430_29542aae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-19T18:54:03Z",
+      "side": 1,
+      "message": "I\u0027m getting sloppy ... I should\u0027ve tested this locally and also waiting for the build to be green before sending this out for review. Sorry!\n\nAlso, it looks like I broke something in the listing, because I\u0027m now seeing duplicate pages. I\u0027ve filed crbug.com/1272014 for that, as I don\u0027t want to overload this change.",
+      "revId": "d13eb483a877c34b4e2e2975072ace70f9ec4b51",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ce0e1034_ded8c520",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-19T18:54:03Z",
+      "side": 1,
+      "message": "Oh, I got that entry wrong; it should\u0027ve been \"subpages\", not \"images\".",
+      "parentUuid": "72e02b84_b4685156",
+      "revId": "d13eb483a877c34b4e2e2975072ace70f9ec4b51",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
