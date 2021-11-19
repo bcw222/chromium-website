@@ -1,4 +1,3 @@
-
 module.exports = config => {
   config.addWatchTarget('./site/_stylesheets/');
 
@@ -40,6 +39,14 @@ module.exports = config => {
 
   config.setLibrary('md', mdlib);
 
+  // TODO(crbug.com/1271672): Figure out how to make this syntax and API
+  // less clunky.
+  const subpages = require('./scripts/subpages.js')
+  function handleSubPages(collectionAll) {
+    let pageUrl = this.page.url;
+    return subpages.render(pageUrl, collectionAll);
+  };
+  config.addNunjucksShortcode("subpages", handleSubPages);
 
   // Copy binary assets over to the dist/ directory.
 

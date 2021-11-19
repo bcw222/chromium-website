@@ -111,3 +111,7 @@ follows the [Blink Coding Style Guidelines](/blink/coding-style).
 *   [Removing a Web Platform Feature](/blink/deprecating-features)
 *   (Video) [Intent to Explain: Demystifying the Blink shipping
             process](https://www.youtube.com/watch?v=y3EZx_b-7tk)
+
+### Page Directory
+
+{% subpages collections.all %}
