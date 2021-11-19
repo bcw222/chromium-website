@@ -16,6 +16,23 @@
       "message": "Hi Dirk, PTAL - thank you!",
       "revId": "160250ab3411d04e7d96e0218c12de79c675ff4e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a64e7c6b_4ec40540",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-19T01:47:28Z",
+      "side": 1,
+      "message": "Thanks for the fixes!",
+      "revId": "160250ab3411d04e7d96e0218c12de79c675ff4e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
