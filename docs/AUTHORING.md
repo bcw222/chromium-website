@@ -114,6 +114,15 @@ generated from the headers in the file and inserted in its place.
 The table of contents will include H2-H6 headers, but not the
 H1 header (if present).
 
+### Subpages
+
+If you write `{% subpages collections.all %} you will get a hierarchical
+tree of links to all of the subpages of your page inserted into the doc.
+
+*Note: the syntax for this is clunky and we hope to replace this with a
+proper shortcode like `[TOC]`. Star [crbug.com/1271672](crbug.com/1271672)
+to get updates on this.
+
 ### Custom IDs and classes
 
 You may customize the `ID` and `class` attributes of block-level elements
@@ -137,8 +146,6 @@ You must use `{:` and `}` as the delimiters around the custom attributes.
 
 ## Known issues
 
-*   [crbug.com/1260453](crbug.com/1260453): There's no mechanism for listing
-    all the sub-pages of a page yet.
 *   [crbug.com/1269867](crbug.com/1269867): We should have an auto-formatter
     for the Markdown pages.
 *   [crbug.com/1269868](crbug.com/1269868): We should consider using a linter.
