@@ -16,6 +16,23 @@
       "message": "You can compare\n\nhttps://chromium-website--cl3288313-ps2-glfpi715.web.app/blink\nhttps://new.chromium.org/blink\n\nand\n\nhttps://chromium-website--cl3288313-ps2-glfpi715.web.app/developers/design-documents/bluetooth-design-docs\nhttps://new.chromium.org/developers/design-documents/bluetooth-design-docs\n\nto see the fixes.",
       "revId": "d828c4dc518c835921545067f5b96c2daa2df3f9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aca23aad_adf89813",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1197619
+      },
+      "writtenOn": "2021-11-19T20:55:04Z",
+      "side": 1,
+      "message": "*Almost* makes one want to write tests for these helpers... ;)",
+      "revId": "d828c4dc518c835921545067f5b96c2daa2df3f9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
