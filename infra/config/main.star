@@ -178,7 +178,11 @@ luci.cq_group(
     verifiers = [
         luci.cq_tryjob_verifier(
             builder = "chromium-website-try-builder",
-            mode_allowlist = [cq.MODE_ANALYZER_RUN],
+            mode_allowlist = [
+                cq.MODE_ANALYZER_RUN,
+                cq.MODE_DRY_RUN,
+                cq.MODE_FULL_RUN,
+            ],
         ),
     ],
 )
