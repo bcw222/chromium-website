@@ -29,29 +29,31 @@ function render(pageUrl, collectionOfAllPages) {
   // the pages in `collectionOfAllPages` with `pageUrl` as an ancestor.
   let subPages = [];
   for (const item of collectionOfAllPages) {
-    if (item.data.page.url.startsWith(topPage.url)) {
-      subPages.push(new Page(item.data.title, item.data.page.url));
+    let itemUrl = trimslash(item.data.page.url);
+    if (itemUrl.startsWith(topPage.url + '/')) {
+      subPages.push(new Page(item.data.title, itemUrl));
     }
   }
-  subPages.sort(byProperty('title'));
 
   // A mapping from URLs to Pages for `pageUrl` and all its sub-pages.
   const pageMap = new Map();
   pageMap.set(topPage.url, topPage);
 
-  // Now build the mapping of sub-pages to pages.
-  for (subPage of subPages) {
+  // sorting the pages by url ensures that a parent will be added to the
+  // map before any of its descendants.
+  subPages.sort(byProperty('url'));
+
+  for (const subPage of subPages) {
     pageMap.set(subPage.url, subPage);
-    if (pageMap.has(subPage.parentPage)) {
-      pageMap.get(subPage.parentPage).subPages.push(subPage);
-    }
+    pageMap.get(subPage.parentUrl).subPages.push(subPage);
   }
 
   let html = ('<nav class="subpage-listing">\n' +
               '  <h4>Subpage Listing</h4>\n' +
               '  <ul>\n');
 
-  for (const subPage of subPages) {
+  topPage.subPages.sort(byProperty('title'));
+  for (const subPage of topPage.subPages) {
     html += '    <li>\n' + subPage.walk(3);
   }
   html += ('  </ul>\n' +
@@ -63,8 +65,8 @@ function render(pageUrl, collectionOfAllPages) {
 class Page {
   constructor(title, url) {
     this.title = title;
-    this.url = rtrim(url, '/');
-    this.parentPage = dirname(this.url);
+    this.url = trimslash(url);
+    this.parentUrl = dirname(this.url);
 
     // This holds only the immediate sub-pages of the page, not the
     // transitive closure of all sub-pages.
@@ -81,7 +83,7 @@ class Page {
     this.subPages.sort(byProperty('title'));
 
     if (this.subPages.length) {
-      let html = (`${indent}<details>\n` +
+      let html = (`${indent}<details open>\n` +
                   `${indent}  <summary><a href="${this.url}">${
                       this.title}</a></summary>\n` +
                   `${indent}  <ul>\n`);
@@ -109,9 +111,9 @@ function dirname(path) {
   return comps.slice(0, comps.length - 1).join('/');
 }
 
-// Returns a copy of the string `s` with the rightmost `ch` removed.
-function rtrim(s, ch) {
-  if (s.endsWith(ch)) {
+// Returns a copy of the string `s` with the rightmost `/` removed.
+function trimslash(s) {
+  if (s.endsWith('/')) {
     return s.substr(0, s.length - 1);
   }
   return s;
