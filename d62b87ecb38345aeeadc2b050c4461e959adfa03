@@ -38,6 +38,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "060b9e75_fdda608e",
+        "filename": ".eleventy.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-19T00:36:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e607187d_ebb817b9",
+      "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "4255caa7_100f504b",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 7
@@ -118,6 +136,24 @@
       "side": 1,
       "message": "I left out the word \"like\", i.e., \"a proper shortcode like `[TOC]`\".",
       "parentUuid": "2f902f04_a3f07373",
+      "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "07ca87b8_166789ca",
+        "filename": "docs/AUTHORING.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-19T00:36:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a7f9a849_f6dd1eb5",
       "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
