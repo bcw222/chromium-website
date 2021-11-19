@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "e607187d_ebb817b9",
+        "filename": ".eleventy.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-19T00:35:53Z",
+      "side": 1,
+      "message": "Ah, right. My python_naming is habitual and I keep having to go back and fix these :).",
+      "parentUuid": "b0b5400a_3924baab",
+      "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "4255caa7_100f504b",
@@ -88,6 +106,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a7f9a849_f6dd1eb5",
+        "filename": "docs/AUTHORING.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-19T00:35:53Z",
+      "side": 1,
+      "message": "I left out the word \"like\", i.e., \"a proper shortcode like `[TOC]`\".",
+      "parentUuid": "2f902f04_a3f07373",
+      "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c6c57a7d_72fbca67",
         "filename": "scripts/subpages.js",
         "patchSetId": 7
@@ -99,6 +135,24 @@
       "writtenOn": "2021-11-18T23:30:07Z",
       "side": 1,
       "message": "Nit: collectionOfAllPages would be more idiomatic JS\n\nSimilar for item_url below.",
+      "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a93b87f_80e1b668",
+        "filename": "scripts/subpages.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-19T00:35:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c6c57a7d_72fbca67",
       "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -120,6 +174,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e628344f_a499db68",
+        "filename": "scripts/subpages.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-19T00:35:53Z",
+      "side": 1,
+      "message": "Good point. Let me rework this to use a class and add some comments.",
+      "parentUuid": "8f3acab2_b31ced30",
+      "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b5a86623_719a77fc",
@@ -133,6 +205,24 @@
       "writtenOn": "2021-11-18T23:30:07Z",
       "side": 1,
       "message": "Missing `const` before subPage; this will create a global variable currently.",
+      "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "915f488d_cdc72072",
+        "filename": "scripts/subpages.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-19T00:35:53Z",
+      "side": 1,
+      "message": "Oops, good catch.",
+      "parentUuid": "b5a86623_719a77fc",
       "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -154,6 +244,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "08498043_2fc57f94",
+        "filename": "scripts/subpages.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-19T00:35:53Z",
+      "side": 1,
+      "message": "There\u0027s a .repeat()? I looked for it in the MDN docs but apparently I missed it :(.",
+      "parentUuid": "d550234e_ccace3e9",
+      "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0f3e356b_cb7aa1b9",
@@ -167,6 +275,24 @@
       "writtenOn": "2021-11-18T23:30:07Z",
       "side": 1,
       "message": "This should be `let s` (or probably better, a descriptive variable name). Right now you are creating and assigning to a new global property s.",
+      "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "491e21ce_f275b3e5",
+        "filename": "scripts/subpages.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-19T00:35:53Z",
+      "side": 1,
+      "message": "Oops, good catch. Fixed.",
+      "parentUuid": "0f3e356b_cb7aa1b9",
       "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -188,6 +314,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dfe7bf93_116dcb7f",
+        "filename": "scripts/subpages.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-19T00:35:53Z",
+      "side": 1,
+      "message": "Ah, right I forgot about \u003cnav\u003e. Changed.",
+      "parentUuid": "8994f3c2_d93fa49c",
+      "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8c078a05_8b9a7bff",
@@ -201,6 +345,24 @@
       "writtenOn": "2021-11-18T23:30:07Z",
       "side": 1,
       "message": "Nit: I would say \"property\" instead of \"fld\"",
+      "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ef93286_68b0e3de",
+        "filename": "scripts/subpages.js",
+        "patchSetId": 7
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-19T00:35:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8c078a05_8b9a7bff",
       "revId": "d62b87ecb38345aeeadc2b050c4461e959adfa03",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
