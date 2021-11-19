@@ -39,6 +39,30 @@
       },
       "revId": "c37131cb73c75cfbb1e0bd8aa0adb385c6fb2faa",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "97685546_0c8f7fad",
+        "filename": "site/administrators/certificate-management-extension-api-on-chrome-os/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1503463
+      },
+      "writtenOn": "2021-11-19T12:54:33Z",
+      "side": 1,
+      "message": "I kept it as close to the original as possible. But I am fine connecting it.",
+      "parentUuid": "3ba259a5_7bf6a045",
+      "range": {
+        "startLine": 139,
+        "startChar": 0,
+        "endLine": 142,
+        "endChar": 0
+      },
+      "revId": "c37131cb73c75cfbb1e0bd8aa0adb385c6fb2faa",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
