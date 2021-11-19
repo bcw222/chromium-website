@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee10bbb9_95bba66f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1175129
+      },
+      "writtenOn": "2021-11-19T12:47:38Z",
+      "side": 1,
+      "message": "LGTM % nit",
+      "revId": "c37131cb73c75cfbb1e0bd8aa0adb385c6fb2faa",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3ba259a5_7bf6a045",
+        "filename": "site/administrators/certificate-management-extension-api-on-chrome-os/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1175129
+      },
+      "writtenOn": "2021-11-19T12:47:38Z",
+      "side": 1,
+      "message": "nit: Should this be connected to each other, or have some sentence separating them?",
+      "range": {
+        "startLine": 139,
+        "startChar": 0,
+        "endLine": 142,
+        "endChar": 0
+      },
+      "revId": "c37131cb73c75cfbb1e0bd8aa0adb385c6fb2faa",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
