@@ -19,7 +19,7 @@ browsers with support for features like JavaScript and WebAssembly.
 
 The Chrome Security Team has written [a document covering the variety of defense
 techniques
-available](https://chromium.googlesource.com/chromium/src/+/master/docs/security/side-channel-threat-model.md).
+available](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/side-channel-threat-model.md).
 
 **Protecting users with Site Isolation**
 
@@ -51,7 +51,7 @@ best practices:
     and specify an X-Content-Type-Options: nosniff response header for any URLs
     with user-specific or sensitive content, to take full advantage of
     [Cross-Origin Read
-    Blocking](https://chromium.googlesource.com/chromium/src/+/master/services/network/cross_origin_read_blocking_explainer.md)
+    Blocking](https://chromium.googlesource.com/chromium/src/+/HEAD/services/network/cross_origin_read_blocking_explainer.md)
     (CORB).
 
 Web developers should also see the [Meltdown/Spectre

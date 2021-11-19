@@ -14,4 +14,4 @@ will support it natively.
 
 The specification can be found here:
 
-<https://chromium.googlesource.com/chromium/src/+/master/components/onc/docs/onc_spec.md>
+<https://chromium.googlesource.com/chromium/src/+/HEAD/components/onc/docs/onc_spec.md>

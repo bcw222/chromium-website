@@ -45,7 +45,7 @@ inaccessible to other processes. Chrome calls the processes running sites
 renderers and its main coordinating process the browser. The browser is
 supported by network, audio and gpu processes, and uses short-lived data-decoder
 and utility processes to parse and verify complex data formats. The goal of the
-[sandbox](https://chromium.googlesource.com/chromium/src/%2B/master/docs/design/sandbox.md)
+[sandbox](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/design/sandbox.md)
 is to allow these processes the level of access to the operating system they
 need to do their jobs, and nothing more. Below, we’ll use the output of
 chrome://sandbox to show some of these restrictions.
@@ -129,7 +129,7 @@ renderer process has the same sandbox configuration. For information on which
 renderer process hosts which site, see the Task Manager (Shift+Esc).
 
 [Sandbox
-Type](https://chromium.googlesource.com/chromium/src/+/master/docs/design/sandbox.md)
+Type](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/design/sandbox.md)
 ranges from ‘No Sandbox’ (the most permissive), via ‘Limited’ and ‘Restricted’
 to ‘Lockdown’ (the least permissive). The main browser process runs without a
 sandbox, and some supporting processes might do so, especially if the services

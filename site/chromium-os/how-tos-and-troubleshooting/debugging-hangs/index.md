@@ -48,4 +48,4 @@ You may also be able to see crash report IDs at chrome://crashes.
 
 For a complete and up-to-date list of debug key sequences including those for
 ChromiumOS devices without a keyboard check
-[here](https://chromium.googlesource.com/chromiumos/docs/+/master/debug_buttons.md).
+[here](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/debug_buttons.md).

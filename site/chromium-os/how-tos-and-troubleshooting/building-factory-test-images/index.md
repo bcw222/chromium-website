@@ -13,4 +13,4 @@ manufacturing flow - from pre-flash, system imaging, calibration and
 qualification, functional tests, finalization to RMA.
 
 The related documents are now moved to [factory
-repo](https://chromium.googlesource.com/chromiumos/platform/factory/+/master/README.md).
+repo](https://chromium.googlesource.com/chromiumos/platform/factory/+/HEAD/README.md).

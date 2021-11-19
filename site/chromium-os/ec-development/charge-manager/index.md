@@ -106,10 +106,10 @@ immediately selects charge port and current using standard rules.
 Interfaces
 
 Source:
-<https://chromium.googlesource.com/chromiumos/platform/ec/+/master/common/charge_manager.c>
+<https://chromium.googlesource.com/chromiumos/platform/ec/+/HEAD/common/charge_manager.c>
 
 Unit tests:
-<https://chromium.googlesource.com/chromiumos/platform/ec/+/master/test/charge_manager.c>
+<https://chromium.googlesource.com/chromiumos/platform/ec/+/HEAD/test/charge_manager.c>
 
 Basic functionality:
 

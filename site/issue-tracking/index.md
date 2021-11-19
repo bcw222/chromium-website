@@ -21,7 +21,7 @@ Topics
 *   [Migrating Issue
             Components](/issue-tracking/migrating-issue-components)
 *   [Monorail (Issue Tracker)
-            API](https://chromium.googlesource.com/infra/infra/+/master/appengine/monorail/doc/api.md)
+            API](https://chromium.googlesource.com/infra/infra/+/HEAD/appengine/monorail/doc/api.md)
 *   [Tips and Tricks](/issue-tracking/tips-and-tricks)
 
 Process

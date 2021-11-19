@@ -352,11 +352,11 @@ change the <samp>&lt;androidVersion&gt;</samp> token to a static “10” string
 
 navigator.appVersion is effectively an alias of navigator.userAgent (it’s
 [everything after
-“Mozilla/”](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/core/frame/navigator_id.cc;l=56?q=appVersion&ss=chromium)).
+“Mozilla/”](https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/renderer/core/frame/navigator_id.cc;l=56?q=appVersion&ss=chromium)).
 =======
 <samp>navigator.appVersion</samp> is effectively an alias of
 <samp>navigator.userAgent</samp> (it’s [everything after
-“Mozilla/”](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/core/frame/navigator_id.cc;l=56)).
+“Mozilla/”](https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/renderer/core/frame/navigator_id.cc;l=56)).
 
 To avoid confusion and reduce implementation complexity, we aim to follow the
 same plan for <samp>navigator.userAgent</samp>.

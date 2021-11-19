@@ -20,7 +20,7 @@ across a particular build to validate a larger system.
 
 If you are interested in how dynamic suites works and how it interacts with the
 CrOS Infrastructure please check out it's [generously documented py
-module](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/master/server/cros/dynamic_suite/dynamic_suite.py).
+module](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/server/cros/dynamic_suite/dynamic_suite.py).
 
 Test Suites build on the Autotest [control file
 specification](https://github.com/autotest/autotest/wiki/ControlRequirements).

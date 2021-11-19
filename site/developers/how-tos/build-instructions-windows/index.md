@@ -9,4 +9,4 @@ title: Build Instructions (Windows)
 ---
 
 **Windows build instructions have been moved! See them
-[here.](https://chromium.googlesource.com/chromium/src/+/master/docs/windows_build_instructions.md)**
+[here.](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/windows_build_instructions.md)**

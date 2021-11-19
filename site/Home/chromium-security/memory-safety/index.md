@@ -23,7 +23,7 @@ bug, security asserts"
 src="/Home/chromium-security/memory-safety/piechart.png">](/Home/chromium-security/memory-safety/piechart.png)
 
 (Analysis based on 912 high or critical
-[severity](https://chromium.googlesource.com/chromium/src/+/master/docs/security/severity-guidelines.md)
+[severity](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/severity-guidelines.md)
 security bugs since 2015, affecting the Stable channel.)
 
 These bugs are spread evenly across our codebase, and a high proportion of our
@@ -50,11 +50,11 @@ We still have processes sharing information about multiple sites. For example,
 the network service is a large component written in C++ whose job is parsing
 very complex inputs from any maniac on the network. This is what we call “the
 doom zone” in our [Rule Of
-2](https://chromium.googlesource.com/chromium/src/+/master/docs/security/rule-of-2.md)
+2](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/rule-of-2.md)
 policy: the network service is a large, soft target and
 [vulnerabilities](https://googleprojectzero.blogspot.com/2020/02/several-months-in-life-of-part1.html)
 there are of
-[Critical](https://chromium.googlesource.com/chromium/src/+/master/docs/security/severity-guidelines.md#TOC-Critical-severity)
+[Critical](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/severity-guidelines.md#TOC-Critical-severity)
 severity.
 
 Just as Site Isolation improved safety by tying renderers to specific sites, we
@@ -65,7 +65,7 @@ However, it would also explode the number of processes Chromium needs, with all
 the efficiency concerns that raises.
 
 Meanwhile, our insistence on the [Rule Of
-2](https://chromium.googlesource.com/chromium/src/+/master/docs/security/rule-of-2.md)
+2](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/rule-of-2.md)
 is preventing Chrome developers from shipping features, as it’s already
 sometimes just too expensive to start a new process to handle untrustworthy
 data.

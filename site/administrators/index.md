@@ -51,7 +51,7 @@ malware and will likely be labeled as malware by Google and anti-virus vendors.
 *   [Complex policies on
             Windows](/administrators/complex-policies-on-windows)
 *   [Policies on
-            Webview](https://chromium.googlesource.com/chromium/src/+/master/docs/webview_policies.md)
+            Webview](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/webview_policies.md)
 *   [Administrative Log Messages](/administrators/log-messages)
 
 You can view all of the Enterprise feature requests and bugs sorted by their

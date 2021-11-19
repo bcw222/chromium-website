@@ -100,7 +100,7 @@ rarely the case, and a tradeoff needs to be made:
 
 To find this balance and resolve the above tradeoffs on a per-change basis,
 Chromium delegates to a trusted group, the [Blink API
-OWNERS](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/API_OWNERS),
+OWNERS](https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/API_OWNERS),
 to decide what web platform features are delivered to our users. Concretely,
 they are the final approvers in the [Blink process](/blink/launching-features),
 where Chromium contributors present a series of artifacts as part of their
@@ -241,7 +241,7 @@ and
 In practice, this is a hard goal to reach. We can try to approach it by
 [annotating specifications](https://tabatkins.github.io/bikeshed/#wpt-element)
 with their associated tests, and running the appropriate Chromium [code coverage
-tools](https://chromium.googlesource.com/chromium/src.git/+/master/docs/testing/code_coverage.md).
+tools](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/code_coverage.md).
 Another hurdle is that some things are [not
 testable](https://github.com/web-platform-tests/wpt/issues?q=is%3Aopen+is%3Aissue+label%3Atype%3Auntestable)
 with current infrastructure. We have a dedicated team,

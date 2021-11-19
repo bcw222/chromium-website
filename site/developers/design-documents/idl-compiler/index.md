@@ -9,4 +9,4 @@ title: IDL compiler
 ---
 
 This documentation has moved to
-<https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/bindings/IDLCompiler.md>
+<https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/bindings/IDLCompiler.md>

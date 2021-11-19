@@ -23,7 +23,7 @@ Filing a new bug:
 
 Much of the documentation below is out of date and has significant gaps. For the
 most up to date documentation please see the
-[README.md](https://chromium.googlesource.com/chromium/src/+/master/media/README.md)
+[README.md](https://chromium.googlesource.com/chromium/src/+/HEAD/media/README.md)
 file in the media/ directory (which is where all the code for Chromium's media
 pipeline lives).
 

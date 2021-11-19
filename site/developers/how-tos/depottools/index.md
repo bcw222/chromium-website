@@ -165,7 +165,7 @@ have to update the revision number(s) constantly, what we call **deps rolls**.
 ### DEPS examples
 
 Chromium's
-[src/DEPS](https://chromium.googlesource.com/chromium/src/+/master/DEPS) is a
+[src/DEPS](https://chromium.googlesource.com/chromium/src/+/HEAD/DEPS) is a
 fairly complex example that will show all the possibilities of a DEPS file.
 
 ## Sending patches

@@ -40,7 +40,7 @@ How do I join?
 ## First … sign up!
 
     ## Anybody in the
-    [AUTHORS](https://chromium.googlesource.com/chromium/src/+/master/AUTHORS)
+    [AUTHORS](https://chromium.googlesource.com/chromium/src/+/HEAD/AUTHORS)
     file is welcome to join the slack.
 
     ## Folks on allow-listed email domains from AUTHORS can directly use
@@ -88,7 +88,7 @@ src="/developers/slack/blob_praise.png">](/developers/slack/blob_praise.png)
 Good Behavior Required!
 
 ## As with all Chromium venues, the [Chromium Code of
-Conduct](https://chromium.googlesource.com/chromium/src/+/master/CODE_OF_CONDUCT.md)
+Conduct](https://chromium.googlesource.com/chromium/src/+/HEAD/CODE_OF_CONDUCT.md)
 applies here.
 
 ## [<img alt="image"

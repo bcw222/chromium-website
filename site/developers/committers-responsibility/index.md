@@ -9,8 +9,8 @@ title: Responsibilities of Committers and Reviewers
 <table>
 <tr>
 <td>This content should be migrated eventually to in-repo documentation:</td>
-<td><a href="https://chromium.googlesource.com/chromium/src/+/master/docs/contributing.md">master/docs/contributing.md</a></td>
-<td><a href="https://chromium.googlesource.com/chromium/src/+/master/docs/code_reviews.md">master/docs/code_reviews.md</a></td>
+<td><a href="https://chromium.googlesource.com/chromium/src/+/HEAD/docs/contributing.md">master/docs/contributing.md</a></td>
+<td><a href="https://chromium.googlesource.com/chromium/src/+/HEAD/docs/code_reviews.md">master/docs/code_reviews.md</a></td>
 </tr>
 </table>
 
@@ -20,7 +20,7 @@ those guidelines:
 1.  Find the right reviewer for your changes **and** for patches you're
             asked to review.
 2.  Use the [Commit
-            Queue](https://chromium.googlesource.com/chromium/src/+/master/docs/infra/cq.md)
+            Queue](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/infra/cq.md)
             to commit your change (by setting Commit-Queue +2 on the code review
             page). For exceptional cases where you might not use the CQ, see
             [Directly committing

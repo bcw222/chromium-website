@@ -16,7 +16,7 @@ on your chromium os netbook.
 ### Compiling the browser
 
 See the "[simple
-chrome](https://chromium.googlesource.com/chromiumos/docs/+/master/simple_chrome_workflow.md)"
+chrome](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/simple_chrome_workflow.md)"
 workflow.
 
 ## Setting up the device
@@ -57,7 +57,7 @@ sudo gdbserver :1234 /tmp/chrome/src/*BOARD-NAME*_out/Debug/chrome
 
 **For more up-to-date instructions, see [the Remote GDB section of the Simple
 Chrome
-workflow](https://chromium.googlesource.com/chromiumos/docs/+/master/simple_chrome_workflow.md#Remote-GDB).**
+workflow](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/simple_chrome_workflow.md#Remote-GDB).**
 
 First build a cross-gdb on your host machine (inside the chroot).
 `sudo USE=expat emerge `cross-i686-pc-linux-gnu/gdb (x86)

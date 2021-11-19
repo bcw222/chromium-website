@@ -221,7 +221,7 @@ content.
 # Further Information
 
 For more information about LayoutNG, please see the
-[documentation](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/core/layout/ng/README.md),
+[documentation](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/core/layout/ng/README.md),
 [design
 document](https://docs.google.com/document/d/1uxbDh4uONFQOiGuiumlJBLGgO4KDWB8ZEkp7Rd47fw4/)
 and overall [tracking bug](https://crbug.com/591099).

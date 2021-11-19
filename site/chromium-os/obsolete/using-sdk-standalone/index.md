@@ -43,7 +43,7 @@ and start over.
 
 The latest version of SDK can be located in chromiumos-overlay.git repository,
 in
-[sdk_version.conf](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/master/chromeos/binhost/host/sdk_version.conf)
+[sdk_version.conf](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/chromeos/binhost/host/sdk_version.conf)
 
 The individual SDK tarballs can be found in the Google Storage mirror:
 <http://commondatastorage.googleapis.com/chromiumos-sdk/>
@@ -51,7 +51,7 @@ The individual SDK tarballs can be found in the Google Storage mirror:
 In order to download the latest SDK automatically, you can execute:
 
 ```none
-eval $(curl -s https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/master/chromeos/binhost/host/sdk_version.conf?format=TEXT | base64 -d | grep '^SDK_LATEST_VERSION=')
+eval $(curl -s https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/chromeos/binhost/host/sdk_version.conf?format=TEXT | base64 -d | grep '^SDK_LATEST_VERSION=')
 wget "https://commondatastorage.googleapis.com/chromiumos-sdk/cros-sdk-${SDK_LATEST_VERSION}.tar.xz"
 ```
 

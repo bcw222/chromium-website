@@ -14,7 +14,7 @@ information about the population, but little or nothing can be concluded about
 individual users from their reports.
 
 Descriptions of individual metrics should be found in
-[tools/metrics/rappor/rappor.xml](https://chromium.googlesource.com/chromium/src/+/master/tools/metrics/rappor/rappor.xml)
+[tools/metrics/rappor/rappor.xml](https://chromium.googlesource.com/chromium/src/+/HEAD/tools/metrics/rappor/rappor.xml)
 
 For full technical details of the algorithm, see [the RAPPOR
 paper](http://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/42852.pdf).
@@ -73,12 +73,12 @@ certainty.
 
 To add a new rappor metric, you need to add a bit of code to collect your
 sample, and add your metric to
-[tools/metrics/rappor/rappor.xml](https://chromium.googlesource.com/chromium/src/+/master/tools/metrics/rappor/rappor.xml).
+[tools/metrics/rappor/rappor.xml](https://chromium.googlesource.com/chromium/src/+/HEAD/tools/metrics/rappor/rappor.xml).
 Samples should be recorded on the UI thread of the browser process. For most use
 cases, you will want to use one of the helper methods in
-[components/rappor/rappor_utils.h](https://chromium.googlesource.com/chromium/src/+/master/components/rappor/rappor_utils.h)
+[components/rappor/rappor_utils.h](https://chromium.googlesource.com/chromium/src/+/HEAD/components/rappor/rappor_utils.h)
 (formerly
-[chrome/browser/metrics/rappor/sampling.h](https://chromium.googlesource.com/chromium/src/+/master/chrome/browser/metrics/rappor/sampling.h))
+[chrome/browser/metrics/rappor/sampling.h](https://chromium.googlesource.com/chromium/src/+/HEAD/chrome/browser/metrics/rappor/sampling.h))
 e.g.
 
 ```none
@@ -134,7 +134,7 @@ If you collect multiple samples for the same metric in one reporting interval
 the randomized report.
 
 Remember to add documentation for your metric to
-[tools/metrics/rappor/rappor.xml](https://chromium.googlesource.com/chromium/src/+/master/tools/metrics/rappor/rappor.xml)
+[tools/metrics/rappor/rappor.xml](https://chromium.googlesource.com/chromium/src/+/HEAD/tools/metrics/rappor/rappor.xml)
 
 ```none
 <table>

@@ -26,7 +26,7 @@ would be slower and use more disk space.
 
 If you are a multitasker or want to build chromium for different targets without
 clobbering each other, then perhaps you'll like the
-[gclient-new-workdir.py](https://chromium.googlesource.com/chromium/tools/depot_tools.git/+/master/gclient-new-workdir.py)
+[gclient-new-workdir.py](https://chromium.googlesource.com/chromium/tools/depot_tools.git/+/HEAD/gclient-new-workdir.py)
 script located in
 [depot_tools.](http://www.chromium.org/developers/how-tos/depottools) The script
 works by creating a new working directory with symlinks pointing to the git

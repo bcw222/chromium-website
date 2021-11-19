@@ -13,4 +13,4 @@ title: API Proposals (New APIs Start Here)
 ---
 
 This page has moved to
-<https://chromium.googlesource.com/chromium/src/+/master/extensions/docs/new_api_proposal.md>.
+<https://chromium.googlesource.com/chromium/src/+/HEAD/extensions/docs/new_api_proposal.md>.

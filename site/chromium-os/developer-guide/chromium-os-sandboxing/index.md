@@ -18,21 +18,21 @@ title: Chromium OS Sandboxing
 ## Contents
 
 *   [Best practices for writing secure system
-            services](https://chromium.googlesource.com/chromiumos/docs/+/master/sandboxing.md#Best-practices-for-writing-secure-system-services)
+            services](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md#Best-practices-for-writing-secure-system-services)
 *   [Just tell me what I need to
-            do](https://chromium.googlesource.com/chromiumos/docs/+/master/sandboxing.md#Just-tell-me-what-I-need-to-do)
+            do](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md#Just-tell-me-what-I-need-to-do)
 *   [User
-            ids](https://chromium.googlesource.com/chromiumos/docs/+/master/sandboxing.md#User-ids)
-*   [Capabilities](https://chromium.googlesource.com/chromiumos/docs/+/master/sandboxing.md#Capabilities)
-*   [Namespaces](https://chromium.googlesource.com/chromiumos/docs/+/master/sandboxing.md#Namespaces)
+            ids](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md#User-ids)
+*   [Capabilities](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md#Capabilities)
+*   [Namespaces](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md#Namespaces)
 *   [Seccomp
-            filters](https://chromium.googlesource.com/chromiumos/docs/+/master/sandboxing.md#Seccomp-filters)
+            filters](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md#Seccomp-filters)
     *   [Detailed instructions for generating a seccomp
-                policy](https://chromium.googlesource.com/chromiumos/docs/+/master/sandboxing.md#Detailed-instructions-for-generating-a-seccomp-policy)
+                policy](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md#Detailed-instructions-for-generating-a-seccomp-policy)
 *   [Securely mounting cryptohome daemon store
-            folders](https://chromium.googlesource.com/chromiumos/docs/+/master/sandboxing.md#Securely-mounting-cryptohome-daemon-store-folders)
+            folders](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md#Securely-mounting-cryptohome-daemon-store-folders)
 *   [Minijail
-            wrappers](https://chromium.googlesource.com/chromiumos/docs/+/master/sandboxing.md#Minijail-wrappers)
+            wrappers](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md#Minijail-wrappers)
 
 In Chrome OS, OS-level functionality (such as configuring network interfaces) is
 implemented by a collection of system services, and provided to Chrome over
@@ -51,7 +51,7 @@ Chrome OS uses a few different mechanisms to isolate system services from Chrome
 and from each other. We use a helper program called Minijail (executable
 `minijail0`). In most cases, Minijail is used in the service's init script. In
 other cases, [Minijail
-wrappers](https://chromium.googlesource.com/chromiumos/docs/+/master/sandboxing.md#Minijail-wrappers)
+wrappers](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md#Minijail-wrappers)
 are used if a service wants to apply restrictions to the programs that it
 launches, or to itself.
 
@@ -79,7 +79,7 @@ bugs](http://en.wikipedia.org/wiki/Code_injection#Shell_injection) are easy to
 miss. If you need functionality separated from your main service, use normal C++
 binaries, not shell scripts. Moreover, when you execute them, consider further
 restricting their privileges (see section [Minijail
-wrappers](https://chromium.googlesource.com/chromiumos/docs/+/master/sandboxing.md#Minijail-wrappers)).
+wrappers](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md#Minijail-wrappers)).
 
 ## Just tell me what I need to do
 
@@ -90,15 +90,15 @@ wrappers](https://chromium.googlesource.com/chromiumos/docs/+/master/sandboxing.
             the previous step. In your init script:
     *   `exec minijail0 -u <user> /full/path/to/binary`
     *   See section [User
-                ids](https://chromium.googlesource.com/chromiumos/docs/+/master/sandboxing.md#User-ids).
+                ids](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md#User-ids).
 *   If your service fails, you might need to grant it capabilities. See
             section
-            [Capabilities](https://chromium.googlesource.com/chromiumos/docs/+/master/sandboxing.md#Capabilities).
+            [Capabilities](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md#Capabilities).
 *   Use as many namespaces as possible. See section
-            [Namespaces](https://chromium.googlesource.com/chromiumos/docs/+/master/sandboxing.md#Namespaces).
+            [Namespaces](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md#Namespaces).
 *   Consider reducing the kernel attack surface exposed to your service
             by using seccomp filters, see section [Seccomp
-            filters](https://chromium.googlesource.com/chromiumos/docs/+/master/sandboxing.md#Seccomp-filters).
+            filters](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md#Seccomp-filters).
 
 ## User ids
 
@@ -109,7 +109,7 @@ system functionality that‘s only available to the root user. Using the
 `permission_broker` service as an example, here’s its Upstart config file (lives
 in `/etc/init`):
 
-[`permission_broker.conf`](https://chromium.googlesource.com/chromiumos/platform2/+/master/permission_broker/permission_broker.conf)
+[`permission_broker.conf`](https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/permission_broker/permission_broker.conf)
 
 env PERMISSION_BROKER_GRANT_GROUP=devbroker-access start on starting
 system-services stop on stopping system-services respawn # Run as 'devbroker'
@@ -129,7 +129,7 @@ for a different user) can be found in the following CL:
 <https://crrev.com/c/383076>
 
 See the [Chrome OS user accounts
-README](https://chromium.googlesource.com/chromiumos/overlays/eclass-overlay/+/master/profiles/base/accounts/README.md)
+README](https://chromium.googlesource.com/chromiumos/overlays/eclass-overlay/+/HEAD/profiles/base/accounts/README.md)
 for more details.
 
 There‘s a test in the CQ that keeps track of the users present on the system
@@ -157,7 +157,7 @@ operations. Capabilities are passed to Minijail using the `-c` switch.
 `permission_broker`, for example, needs capabilities to be able to `chown(2)`
 device nodes.
 
-[`permission_broker.conf`](https://chromium.googlesource.com/chromiumos/platform2/+/master/permission_broker/permission_broker.conf)
+[`permission_broker.conf`](https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/permission_broker/permission_broker.conf)
 
 env PERMISSION_BROKER_GRANT_GROUP=devbroker-access start on starting
 system-services stop on stopping system-services respawn # Run as
@@ -221,10 +221,10 @@ Minijail can take a policy file that describes what syscalls will be allowed,
 what syscalls will be denied, and what syscalls will only be allowed with
 specific arguments. The full description of the policy file language can be
 found in the [`syscall_filter.c`
-source](https://chromium.googlesource.com/aosp/platform/external/minijail/+/master/syscall_filter.c#239).
+source](https://chromium.googlesource.com/aosp/platform/external/minijail/+/HEAD/syscall_filter.c#239).
 
 Abridged policy for [`mtpd` on amd64
-platforms](https://chromium.googlesource.com/chromiumos/platform2/+/master/mtpd/mtpd-seccomp-amd64.policy):
+platforms](https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/mtpd/mtpd-seccomp-amd64.policy):
 
 # Copyright (c) 2012 The Chromium OS Authors. All rights reserved. # Use of this
 source code is governed by a BSD-style license that can be # found in the
@@ -243,7 +243,7 @@ killed. The policy file can also tell the kernel to fail the system call
 To write a policy file, run the target program under `strace` and use that to
 come up with the list of syscalls that need to be allowed during normal
 execution. The [generate_syscall_policy.py
-script](https://chromium.googlesource.com/aosp/platform/external/minijail/+/master/tools/generate_seccomp_policy.py)
+script](https://chromium.googlesource.com/aosp/platform/external/minijail/+/HEAD/tools/generate_seccomp_policy.py)
 will take `strace` output files and generate a policy file suitable for use with
 Minijail. On top of that, the `-L` option will print the name of the first
 syscall to be blocked to syslog. The best way to proceed is to combine both
@@ -254,7 +254,7 @@ should NOT be used in production.
 The policy file needs to be installed in the system, so we need to add it to the
 ebuild file:
 
-[`mtpd-9999.ebuild`](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/master/chromeos-base/mtpd/mtpd-9999.ebuild)
+[`mtpd-9999.ebuild`](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/chromeos-base/mtpd/mtpd-9999.ebuild)
 
 # Install seccomp policy file. insinto /usr/share/policy use seccomp && newins
 "mtpd-seccomp-${ARCH}.policy" mtpd-seccomp.policy
@@ -262,7 +262,7 @@ ebuild file:
 And finally, the policy file has to be passed to Minijail, using the `-S`
 option:
 
-[`mtpd.conf`](https://chromium.googlesource.com/chromiumos/platform2/+/master/mtpd/mtpd.conf)
+[`mtpd.conf`](https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/mtpd/mtpd.conf)
 
 # use minijail (drop root, set no_new_privs, set seccomp filter). # Mount /proc,
 /sys, /dev, /run/udev so that USB devices can be # discovered. Also mount

@@ -9,7 +9,7 @@ title: Build Instructions (Chromium OS on Linux)
 ---
 
 This page has been replaced by
-<https://chromium.googlesource.com/chromium/src/+/master/docs/chromeos_build_instructions.md>
+<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/chromeos_build_instructions.md>
 
 ## Running Chromium on a Chromium OS device
 

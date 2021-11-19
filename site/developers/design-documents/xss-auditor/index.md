@@ -36,7 +36,7 @@ regular expressions.
 ## False Negatives (Bypasses and bugs)
 
 Bypasses are [not considered security
-bugs](https://chromium.googlesource.com/chromium/src/+/master/docs/security/faq.md#Are-XSS-filter-bypasses-considered-security-bugs),
+bugs](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/faq.md#Are-XSS-filter-bypasses-considered-security-bugs),
 but should be logged against the [XSS Auditor component](https://goo.gl/4xSVhV)
 as functional issues. Stored (attacks where the script is stored in a site's
 database, for instance) and DOM-based XSS attacks (where JavaScript on the page

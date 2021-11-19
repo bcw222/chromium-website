@@ -44,7 +44,7 @@ folder and run \`repo sync\` to pull down the new code.
 
 Local manifest files can have any name as long as they are of the .xml
 extension. Their format is the same as normal manifest files, and can be viewed
-[here](https://gerrit.googlesource.com/git-repo/+/master/docs/manifest-format.txt).
+[here](https://gerrit.googlesource.com/git-repo/+/HEAD/docs/manifest-format.txt).
 A simple example manifest file for pulling
 <http://github.com/chromiumos/foo.git> on branch “branchname” into
 src/private-overlays/overlay-foo-private:

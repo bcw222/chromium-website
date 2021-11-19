@@ -16,12 +16,12 @@ deliver the world’s best implementation of the Web platform.
 Blink is the name of the [rendering
 engine](https://en.wikipedia.org/wiki/Web_browser_engine) used by Chromium and
 particularly refers to the code living under
-***[src/third_party/blink](https://chromium.googlesource.com/chromium/src/+/refs/heads/master/third_party/blink/).***
+***[src/third_party/blink](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/).***
 
 ## Participating
 
 [Chromium](http://chromium.org) is an
-[inclusive](https://chromium.googlesource.com/chromium/src/+/master/CODE_OF_CONDUCT.md)
+[inclusive](https://chromium.googlesource.com/chromium/src/+/HEAD/CODE_OF_CONDUCT.md)
 open-source community that values fostering a supportive culture.
 
 ### Discussions
@@ -98,9 +98,9 @@ implementation of this abstract platform required for running Blink.
 
 Blink follows all standard [Chromium](/developers) practices, including those on
 [contributing
-code](https://chromium.googlesource.com/chromium/src/+/master/docs/contributing.md)
+code](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/contributing.md)
 and [becoming a committer](/getting-involved/become-a-committer). Code living in
-*[src/third_party/blink](https://chromium.googlesource.com/chromium/src/+/refs/heads/master/third_party/blink/)*
+*[src/third_party/blink](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/)*
 follows the [Blink Coding Style Guidelines](/blink/coding-style).
 
 ### Launching and Removing Features

@@ -11,4 +11,4 @@ title: Battery Notifications
 ---
 
 Moved
-[here](https://chromium.googlesource.com/chromiumos/platform2/+/master/power_manager/docs/battery_notifications.md).
+[here](https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/power_manager/docs/battery_notifications.md).

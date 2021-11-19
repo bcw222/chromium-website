@@ -13,4 +13,4 @@ title: Network bug triage
 This page has moved to the source repository:
 
 [Chrome Network Bug
-Triage](https://chromium.googlesource.com/chromium/src/+/master/net/docs/bug-triage.md)
+Triage](https://chromium.googlesource.com/chromium/src/+/HEAD/net/docs/bug-triage.md)

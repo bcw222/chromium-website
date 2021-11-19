@@ -9,7 +9,7 @@ title: Working with web-platform-tests in blink
 ## OBSOLETE
 
 **See
-[here](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/web_platform_tests.md)
+[here](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/web_platform_tests.md)
 instead**
 
 [TOC]

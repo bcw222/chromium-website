@@ -23,7 +23,7 @@ See these blog posts to learn more about DoH in Chrome:
 ### DoH Providers
 
 The latest version of DoH providers recognized by Chrome (canary) can be found
-[here](https://source.chromium.org/chromium/chromium/src/+/master:net/dns/public/doh_provider_entry.cc)
+[here](https://source.chromium.org/chromium/chromium/src/+/HEAD:net/dns/public/doh_provider_entry.cc)
 (the format should be self explanatory).
 
 Note that users can configure any DoH providers of their choosing, the providers

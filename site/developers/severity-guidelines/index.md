@@ -9,7 +9,7 @@ title: Severity Guidelines for Security Issues
 ### **Do not edit — for historical reference only**
 
 ### The [canonical version of this page is now in the Chromium source
-tree](https://chromium.googlesource.com/chromium/src/+/master/docs/security/severity-guidelines.md).
+tree](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/severity-guidelines.md).
 
 ### ---
 

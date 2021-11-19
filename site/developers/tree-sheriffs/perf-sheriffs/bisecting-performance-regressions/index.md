@@ -11,4 +11,4 @@ title: Bisecting Performance Regressions
 ---
 
 Latest docs are at:
-<https://chromium.googlesource.com/chromium/src/+/master/docs/speed/bisects.md>
+<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/speed/bisects.md>

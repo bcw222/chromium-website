@@ -100,10 +100,10 @@ sudo ftx_prog --old-vid 0x0403 --new-vid 0x18d1 --old-pid 0x6015 --new-pid 0x500
 ## Firmware Source Code
 
 The firmware is located In the Chromium Embedded Controller repository under
-*[board/plankton/](https://chromium.googlesource.com/chromiumos/platform/ec/+/master/board/plankton/)*
+*[board/plankton/](https://chromium.googlesource.com/chromiumos/platform/ec/+/HEAD/board/plankton/)*
 :
 
-<https://chromium.googlesource.com/chromiumos/platform/ec/+/master/board/plankton/>
+<https://chromium.googlesource.com/chromiumos/platform/ec/+/HEAD/board/plankton/>
 
 ### Building Firmware
 

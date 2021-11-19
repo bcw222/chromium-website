@@ -19,7 +19,7 @@ To learn how to set up Linux (Beta) on supported Chromebooks, [click
 here](https://support.google.com/chromebook/answer/9145439?hl=en).
 
 For in-depth technical documentation, [click
-here](https://chromium.googlesource.com/chromiumos/docs/+/master/containers_and_vms.md).
+here](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/containers_and_vms.md).
 
 <table>
 <tr>

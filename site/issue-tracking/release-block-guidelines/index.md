@@ -7,7 +7,7 @@ title: Release Block Guidelines
 ---
 
 See also [this more recent
-document](https://chromium.googlesource.com/chromium/src.git/+/master/docs/process/release_blockers.md).
+document](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/process/release_blockers.md).
 
 What are the intents of ReleaseBlock?
 ReleaseBlock issues are immediately gating the release of the branch (Dev, Beta,

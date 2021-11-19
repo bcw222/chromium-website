@@ -7,14 +7,14 @@ title: For Developers
 <div class="two-column-container">
 <div class="column">
 
-#### *See also: docs in the source code - <https://chromium.googlesource.com/chromium/src/+/master/docs/README.md>*
+#### *See also: docs in the source code - <https://chromium.googlesource.com/chromium/src/+/HEAD/docs/README.md>*
 
 ### Start here
 
 *   [Get the Code: Checkout, Build, &
             Run](/developers/how-tos/get-the-code)
 *   [Contributing
-            code](https://chromium.googlesource.com/chromium/src/+/master/docs/contributing.md)
+            code](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/contributing.md)
 
 ### How-tos
 
@@ -25,7 +25,7 @@ title: For Developers
 *   [Quick reference](/developers/quick-reference) of common development
             commands.
 *   Look at our [Git
-            Cookbook](https://chromium.googlesource.com/chromium/src/+/master/docs/git_cookbook.md)
+            Cookbook](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/git_cookbook.md)
             for a helpful walk-through, or the [Fast Intro to Git
             Internals](/developers/fast-intro-to-git-internals) for a background
             intro to git.
@@ -35,10 +35,10 @@ title: For Developers
 
 *   Debugging on [Windows](/developers/how-tos/debugging-on-windows),
             [Mac OS X](/developers/how-tos/debugging-on-os-x),
-            [Linux](https://chromium.googlesource.com/chromium/src/+/master/docs/linux/debugging.md)
+            [Linux](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/linux/debugging.md)
             and
-            [Android](https://chromium.googlesource.com/chromium/src/+/master/docs/android_debugging_instructions.md).
-*   [Threading](https://chromium.googlesource.com/chromium/src/+/master/docs/threading_and_tasks.md)
+            [Android](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/android_debugging_instructions.md).
+*   [Threading](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/threading_and_tasks.md)
 *   [Subtle Threading Bugs and How to Avoid
             Them](/developers/design-documents/threading/suble-threading-bugs-and-patterns-to-avoid-them)
 *   [Visual Studio tricks](/developers/how-tos/visualstudio-tricks)
@@ -48,12 +48,12 @@ title: For Developers
             visualizers](/developers/how-tos/how-to-set-up-visual-studio-debugger-visualizers)
             to make the watch window more convenient
 *   [Linux
-            Development](https://chromium.googlesource.com/chromium/src/+/master/docs/linux_development.md)
+            Development](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/linux_development.md)
             tips and porting guide
 *   [Mac Development](/developers/how-tos/mac-development)
 *   [Generated files](/developers/generated-files)
 *   [Chromoting (Chrome Remote Desktop)
-            compilation](https://chromium.googlesource.com/chromium/src/+/master/docs/chromoting_build_instructions.md)
+            compilation](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/chromoting_build_instructions.md)
 *   [Updating module
             dependencies](/developers/how-tos/chromium-modularization)
 *   [Editing
@@ -63,12 +63,12 @@ title: For Developers
     *   [Eclipse](/developers/using-eclipse-with-chromium)
     *   [Emacs
                 cscope](/developers/how-tos/cscope-emacs-example-linux-setup)
-    *   [QtCreator](https://chromium.googlesource.com/chromium/src/+/master/docs/qtcreator.md)
+    *   [QtCreator](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/qtcreator.md)
     *   [SlickEdit](/developers/slickedit-editor-notes)
     *   [Sublime
-                Text](https://chromium.googlesource.com/chromium/src/+/master/docs/sublime_ide.md)
+                Text](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/sublime_ide.md)
     *   [Visual Studio
-                Code](https://chromium.googlesource.com/chromium/src/+/master/docs/vscode.md)
+                Code](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/vscode.md)
 *   [Learning your way around the
             code](/developers/learning-your-way-around-the-code)
 *   [Guide to Important Libraries, Abstractions, and Data
@@ -94,7 +94,7 @@ See also: All [How-tos](/developers/how-tos).
     *   [Animation Team](/teams/animations)
     *   [Input Team](/teams/input-dev)
 *   [Running and Debugging the Blink web tests (pka layout
-            tests)](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/web_tests.md)
+            tests)](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/web_tests.md)
 *   [Blink Sheriffing](/blink/sheriffing)
 *   [Web IDL interfaces](/developers/web-idl-interfaces)
 *   [Class Diagram: Blink Core to Chrome
@@ -106,12 +106,12 @@ See also: All [How-tos](/developers/how-tos).
 *   [Phases of
             Rendering](https://docs.google.com/a/chromium.org/document/d/1UkxPz9GDQXLBZcbw5OeUQpk1VIq_BKhm6BGvWJ5mKdU/edit)
 *   [Web Platform
-            Tests](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/web_platform_tests.md)
+            Tests](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/web_platform_tests.md)
 *   [Baseline computation and some line layout
             docs](https://docs.google.com/a/chromium.org/document/d/1OP49xbB-D7A0qKNAwFTOfbDL-1dYxu74Jp38ZKAS6kk/edit)
 *   [Fast Text Autosizer](http://tinyurl.com/fasttextautosizer)
 *   [Debugging with
-            ScopedLogger](https://chromium.googlesource.com/chromium/src/+/master/third_party/WebKit/Source/wtf/ScopedLogger.md)
+            ScopedLogger](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/WebKit/Source/wtf/ScopedLogger.md)
 
 ### Testing and Infrastructure
 
@@ -142,9 +142,9 @@ See also: All [How-tos](/developers/how-tos).
 *   [GPU Rendering
             Benchmarks](/developers/design-documents/rendering-benchmarks)
 *   [Infra
-            documentation](https://chromium.googlesource.com/infra/infra/+/master/doc/index.md)
+            documentation](https://chromium.googlesource.com/infra/infra/+/HEAD/doc/index.md)
 *   [Contacting a
-            Trooper](https://chromium.googlesource.com/infra/infra/+/master/doc/users/contacting_troopers.md)
+            Trooper](https://chromium.googlesource.com/infra/infra/+/HEAD/doc/users/contacting_troopers.md)
 
 ### Performance
 
@@ -189,10 +189,10 @@ See also: All [How-tos](/developers/how-tos).
 *   [C++ use in Chromium](http://chromium-cpp.appspot.com/)
 *   [GN](https://gn.googlesource.com/gn/): Meta-build system that
             generates NinjaBuild files; Intended to be GYP replacement.
-*   [MB](https://chromium.googlesource.com/chromium/src/+/master/tools/mb#):
+*   [MB](https://chromium.googlesource.com/chromium/src/+/HEAD/tools/mb#):
             Meta-build wrapper around both GN and GYP.
 *   [Chrome
-            Infra](https://chromium.googlesource.com/infra/infra/+/master/doc/index.md)
+            Infra](https://chromium.googlesource.com/infra/infra/+/HEAD/doc/index.md)
 
 </div>
 <div class="column">
@@ -219,9 +219,9 @@ See also: All [How-tos](/developers/how-tos).
     *   [Committer's
                 responsibility](/developers/committers-responsibility)
     *   [OWNERS
-                Files](https://chromium.googlesource.com/chromium/src/+/master/docs/code_reviews.md)
+                Files](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/code_reviews.md)
     *   [Try server
-                usage](https://chromium.googlesource.com/chromium/src/+/master/docs/infra/trybot_usage.md)
+                usage](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/infra/trybot_usage.md)
     *   [Commit queue](/developers/testing/commit-queue)
     *   [Tips for minimizing code review lag across
                 timezones](/developers/contributing-code/minimizing-review-lag-across-time-zones)

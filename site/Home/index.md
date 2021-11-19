@@ -20,16 +20,16 @@ to help you learn to build and work with the Chromium source code.
             Run](/developers/how-tos/get-the-code)
 *   [Contributing code](/developers/contributing-code)
 *   Debug on [Windows](/developers/how-tos/debugging-on-windows), [OS
-            X](https://chromium.googlesource.com/chromium/src/+/master/docs/mac/debugging.md),
-            [Linux](https://chromium.googlesource.com/chromium/src/+/master/docs/linux/debugging.md)
+            X](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/mac/debugging.md),
+            [Linux](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/linux/debugging.md)
             or
-            [Android](https://chromium.googlesource.com/chromium/src/+/master/docs/android_debugging_instructions.md).
+            [Android](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/android_debugging_instructions.md).
 *   [Report a bug](/for-testers/bug-reporting-guidelines)
 
 #### Other important links
 
 *   [Documentation in the source
-            tree](https://chromium.googlesource.com/chromium/src.git/+/master/docs/)
+            tree](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/)
 *   [Discussion Groups](/developers/discussion-groups) (such as
             [chromium-discuss](http://groups.google.com/a/chromium.org/group/chromium-discuss))
 *   [Chromium Blog](http://blog.chromium.org)

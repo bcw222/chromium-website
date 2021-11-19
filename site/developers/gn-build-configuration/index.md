@@ -12,11 +12,11 @@ already [got a Chromium checkout](/developers/how-tos/get-the-code).
 See also
 
 *   Run "gn help" from the command line.
-*   [All GN Docs](https://gn.googlesource.com/gn/+/master/docs/)
+*   [All GN Docs](https://gn.googlesource.com/gn/+/HEAD/docs/)
 *   [GN Quick Start
-            Guide](https://gn.googlesource.com/gn/+/master/docs/quick_start.md)
+            Guide](https://gn.googlesource.com/gn/+/HEAD/docs/quick_start.md)
 *   [GN
-            Reference](https://gn.googlesource.com/gn/+/master/docs/reference.md)
+            Reference](https://gn.googlesource.com/gn/+/HEAD/docs/reference.md)
             (a dump of everything from "gn help" in one web page).
 
 ## Understanding GN build flags
@@ -70,7 +70,7 @@ command line flag and/or written to the args.gn file.*
 ### Component build
 
 The [component
-build](https://chromium.googlesource.com/chromium/src/+/master/docs/component_build.md)
+build](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/component_build.md)
 links many parts of Chrome into separate shared libraries to avoid the long link
 step at the end. It is the default when compiling debug non-iOS builds and most
 developers use this mode for everyday builds and debugging. Startup is slower
@@ -166,7 +166,7 @@ $ gn gen out\\mybuild --ide=vs
 Projects are configured for VS 2015 by default.
 
 See [this
-page](https://chromium.googlesource.com/chromium/src/+/master/docs/windows_build_instructions.md)
+page](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/windows_build_instructions.md)
 for more information on configuring Chromium builds for Windows.
 
 ### Android build (from Linux)

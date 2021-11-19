@@ -10,4 +10,4 @@ title: Running a Chromium OS image under KVM
 
 [TOC]
 
-<https://chromium.googlesource.com/chromiumos/docs/+/master/cros_vm.md>
+<https://chromium.googlesource.com/chromiumos/docs/+/HEAD/cros_vm.md>

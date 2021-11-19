@@ -7,4 +7,4 @@ title: Eclipse Configuration for Android
 ---
 
 Moved to
-<https://chromium.googlesource.com/chromium/src.git/+/master/docs/eclipse.md>.
+<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/eclipse.md>.

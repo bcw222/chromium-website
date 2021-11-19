@@ -8,7 +8,7 @@ page_name: blocking-cross-site-documents
 title: Blocking Cross-Site Documents for Site Isolation
 ---
 
-### NOTE: This page represents earlier work that led to the current [Cross-Origin Read Blocking (CORB)](/Home/chromium-security/corb-for-developers) policy. Also see the [CORB explainer](https://chromium.googlesource.com/chromium/src/+/master/services/network/cross_origin_read_blocking_explainer.md) and the relevant part of the [Fetch spec](https://fetch.spec.whatwg.org/#corb).
+### NOTE: This page represents earlier work that led to the current [Cross-Origin Read Blocking (CORB)](/Home/chromium-security/corb-for-developers) policy. Also see the [CORB explainer](https://chromium.googlesource.com/chromium/src/+/HEAD/services/network/cross_origin_read_blocking_explainer.md) and the relevant part of the [Fetch spec](https://fetch.spec.whatwg.org/#corb).
 
 ### Motivation
 

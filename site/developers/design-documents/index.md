@@ -27,7 +27,7 @@ title: Design Documents
 ## See Also:
 
 *   [Design docs in source
-            code](https://chromium.googlesource.com/chromium/src/+/master/docs/README.md)
+            code](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/README.md)
 *   [Design doc
             template](https://docs.google.com/document/d/14YBYKgk-uSfjfwpKFlp_omgUq5hwMVazy_M965s_1KA/edit)
 
@@ -54,12 +54,12 @@ title: Design Documents
 *   [Profile
             Architecture](/developers/design-documents/profile-architecture)
 *   [SafeBrowsing](/developers/design-documents/safebrowsing)
-*   [Sandbox](https://chromium.googlesource.com/chromium/src/+/master/docs/design/sandbox.md)
+*   [Sandbox](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/design/sandbox.md)
 *   [Security
             Architecture](http://crypto.stanford.edu/websec/chromium/): How
             Chromium's sandboxed rendering engine helps protect against malware
-*   [Startup](https://chromium.googlesource.com/chromium/src/+/master/docs/design/startup.md)
-*   [Threading](https://chromium.googlesource.com/chromium/src/+/master/docs/design/threading.md):
+*   [Startup](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/design/startup.md)
+*   [Threading](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/design/threading.md):
             How to use threads in Chromium
 
 Also see the documentation for [V8](http://code.google.com/apis/v8/), which is
@@ -84,7 +84,7 @@ the JavaScript engine used within Chromium.
 *   [Focus and Activation with Views and
             Aura](/developers/design-documents/aura/focus-and-activation).
 *   [Input Event Routing in Desktop
-            UI](https://chromium.googlesource.com/chromium/src/+/master/docs/ui/input_event/index.md).
+            UI](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/ui/input_event/index.md).
 
 **Graphics**
 
@@ -172,7 +172,7 @@ the JavaScript engine used within Chromium.
 
 *   [IDL build](/developers/design-documents/idl-build)
 *   [IDL
-            compiler](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/bindings/IDLCompiler.md)
+            compiler](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/bindings/IDLCompiler.md)
 
 See also the documentation for [GYP](https://code.google.com/p/gyp/w/list),
 which is the build script generation tool.
@@ -247,7 +247,7 @@ which is the build script generation tool.
 *   [Omnibox Prefetch for Default Search
             Engines](/developers/design-documents/omnibox-prefetch-for-default-search-engines)
 *   [Ozone Porting
-            Abstraction](https://chromium.googlesource.com/chromium/src/+/master/docs/ozone_overview.md)
+            Abstraction](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/ozone_overview.md)
 *   [Password Form Styles that Chromium
             Understands](/developers/design-documents/form-styles-that-chromium-understands)
 *   [Password

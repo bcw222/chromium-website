@@ -14,7 +14,7 @@ title: XBuddy for Devserver
 ## <tr>
 
 ## <td>This documentation now lives <a
-href="https://chromium.googlesource.com/chromiumos/docs/+/refs/heads/master/xbuddy.md">here</a>.</td>
+href="https://chromium.googlesource.com/chromiumos/docs/+/HEAD/xbuddy.md">here</a>.</td>
 
 ## </tr>
 ## </table>

@@ -134,7 +134,7 @@ detected or if it's explicitly enabled (see above).
 
 For a high-level overview of the implementation of Chrome's accessibility
 support, see
-[/docs/accessibility.md](https://chromium.googlesource.com/chromium/src/+/master/docs/accessibility.md).
+[/docs/accessibility.md](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/accessibility.md).
 
 ## API support
 

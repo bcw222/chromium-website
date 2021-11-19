@@ -11,4 +11,4 @@ title: Web Test Expectations and Baselines
 ---
 
 This content now lives at
-[docs/testing/web_test_expectations.md](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/web_test_expectations.md)
+[docs/testing/web_test_expectations.md](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/web_test_expectations.md)

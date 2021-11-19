@@ -48,7 +48,7 @@ design docs in the coming months.**
 ### Firmware
 
 *   [CBI: CrOS Board
-            Info](https://chromium.googlesource.com/chromiumos/docs/+/master/design_docs/cros_board_info.md)
+            Info](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/design_docs/cros_board_info.md)
 *   [Firmware Boot and
             Recovery](/chromium-os/chromiumos-design-docs/firmware-boot-and-recovery)
 *   [Disk Format](/chromium-os/chromiumos-design-docs/disk-format)
@@ -85,7 +85,7 @@ design docs in the coming months.**
 *   [Partition
             Resizing](/chromium-os/chromiumos-design-docs/partition-resizing)
 *   [Power
-            Manager](https://chromium.googlesource.com/chromiumos/platform2/+/master/power_manager/README.md)
+            Manager](https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/power_manager/README.md)
 *   [Battery Life
             Overview](/chromium-os/chromiumos-design-docs/chrome-os-battery-life-overview)
 *   [Performance

@@ -50,7 +50,7 @@ generate a CA certificate (`net/tools/quic/certs/out/2048-sha256-root.pem`)
 which you will need to add to your OS's root certificate store in order for it
 to be trusted during certificate validation. For doing this on Linux, please see
 [these
-instructions](https://chromium.googlesource.com/chromium/src/+/master/docs/linux/cert_management.md).
+instructions](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/linux/cert_management.md).
 This will allow quic_client to verify the certificate correctly. However, note
 that Chrome/Chromium (the browser) does not allow custom CAs for QUIC, so you'll
 also need to pass in --ignore-certificate-errors-spki-list with the

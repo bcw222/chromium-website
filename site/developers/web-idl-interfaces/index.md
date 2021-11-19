@@ -17,25 +17,25 @@ the V8 JavaScript virtual machine uses to call Blink itself). [Web IDL in
 Blink](/blink/webidl) is close to the standard, and the resulting bindings use
 standard conventions to call Blink code, but there are additional features to
 specify implementation details, primarily [Blink IDL extended
-attributes](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/bindings/IDLExtendedAttributes.md).
+attributes](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/bindings/IDLExtendedAttributes.md).
 
 To implement a new Web IDL interface in Blink:
 
 *   **Interface:** write an IDL file: `foo.idl`
 *   **Implementation:** write a C++ file and header: `foo.cc, foo.h`
 *   **Build:** add files to the build: edit
-            [idl_in_core.gni](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/bindings/idl_in_core.gni)/[idl_in_modules.gni](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/bindings/idl_in_modules.gni)
+            [idl_in_core.gni](https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/renderer/bindings/idl_in_core.gni)/[idl_in_modules.gni](https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/renderer/bindings/idl_in_modules.gni)
             and
-            [generated_in_core.gni](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/bindings/generated_in_core.gni)/[generated_in_modules.gni](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/bindings/generated_in_modules.gni)
+            [generated_in_core.gni](https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/renderer/bindings/generated_in_core.gni)/[generated_in_modules.gni](https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/renderer/bindings/generated_in_modules.gni)
     (for the old bindings generator, edit also
-    [core_idl_files.gni](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/core/core_idl_files.gni)/[modules_idl_files.gni](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/modules/modules_idl_files.gni)
+    [core_idl_files.gni](https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/renderer/core/core_idl_files.gni)/[modules_idl_files.gni](https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/renderer/modules/modules_idl_files.gni)
     and
-    [third_party/blink/renderer/bindings/core/v8/generated.gni](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/bindings/core/v8/generated.gni)/[third_party/blink/renderer/bindings/modules/v8/generated.gni](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/bindings/modules/v8/generated.gni)
+    [third_party/blink/renderer/bindings/core/v8/generated.gni](https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/renderer/bindings/core/v8/generated.gni)/[third_party/blink/renderer/bindings/modules/v8/generated.gni](https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/renderer/bindings/modules/v8/generated.gni)
     if necessary.)
 *   **Tests:** write unit tests ([web
-            tests](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/web_tests.md))
+            tests](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/web_tests.md))
             in
-            [web_tests](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/web_tests/)
+            [web_tests](https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/web_tests/)
 
 The bulk of the work is the implementation, secondarily tests. Writing an IDL
 file should require minimal work (ideally just copy-and-paste the spec),
@@ -254,7 +254,7 @@ class Foo : public ScriptWrappable /* maybe others */ {
 ### Garbage Collection
 
 ## See [Blink GC API
-reference](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/platform/heap/BlinkGCAPIReference.md)
+reference](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/platform/heap/BlinkGCAPIReference.md)
 
 ## Build
 
@@ -274,24 +274,24 @@ in the build:
             bindings
 
 For the code generator v1, see comments in
-[core_idl_files.gni](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/core/core_idl_files.gni)
+[core_idl_files.gni](https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/renderer/core/core_idl_files.gni)
 and/or
-[modules_idl_files.gni](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/modules/modules_idl_files.gni)
+[modules_idl_files.gni](https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/renderer/modules/modules_idl_files.gni)
 in which GN variable your IDL file should be listed. And if your IDL file
 defines a callback function or a new union type, see [generated.gni for core
-component](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/bindings/core/v8/generated.gni)
+component](https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/renderer/bindings/core/v8/generated.gni)
 or [generated.gni for modules
-component](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/bindings/modules/v8/generated.gni)
+component](https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/renderer/bindings/modules/v8/generated.gni)
 in which GN variable generated files should be listed.
 
 For the code generator v2, see
-[idl_in_core.gni](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/bindings/idl_in_core.gni)
+[idl_in_core.gni](https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/renderer/bindings/idl_in_core.gni)
 or
-[idl_in_modules.gni](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/bindings/idl_in_modules.gni)
+[idl_in_modules.gni](https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/renderer/bindings/idl_in_modules.gni)
 for IDL files, and
-[generated_in_core.gni](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/bindings/generated_in_core.gni)
+[generated_in_core.gni](https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/renderer/bindings/generated_in_core.gni)
 or
-[generated_in_modules.gni](https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/bindings/generated_in_modules.gni)
+[generated_in_modules.gni](https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/renderer/bindings/generated_in_modules.gni)
 for generated files.
 
 ## Tests

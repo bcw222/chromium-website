@@ -70,7 +70,7 @@ tests and smoke tests in the same way that the builders do.
 ### Writing Tests & Suites
 
 *   [Autotest Best
-            Practices](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/refs/heads/master/docs/best-practices.md)
+            Practices](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/best-practices.md)
             - Start here when writing any code for Autotest.
 *   [Autotest Developer
             FAQ](/chromium-os/testing/autotest-developer-faq) - Working on test

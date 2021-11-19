@@ -11,7 +11,7 @@ title: Blink post-merge FAQ
 **Pre-merge:**
 
 > Blink git SHA:
-> [37d233bde3baaea720a9a81296fa77b63c9d8981](https://chromium.googlesource.com/chromium/blink/+/refs/heads/master)
+> [37d233bde3baaea720a9a81296fa77b63c9d8981](https://chromium.googlesource.com/chromium/blink/+/HEAD)
 
 > Blink revision: **[202666](http://blinkrev.hasb.ug/202666)**
 

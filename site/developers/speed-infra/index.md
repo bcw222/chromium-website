@@ -7,4 +7,4 @@ title: Speed Infra
 ---
 
 Content has moved to
-<https://chromium.googlesource.com/chromium/src/+/master/docs/speed/README.md>
+<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/speed/README.md>

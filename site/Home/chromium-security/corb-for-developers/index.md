@@ -20,7 +20,7 @@ included with [Site Isolation](/Home/chromium-security/site-isolation).
 This document aims to help web developers know what actions they should take in
 response to CORB. For more information about CORB in general, please see the
 [CORB
-explainer](https://chromium.googlesource.com/chromium/src/+/master/services/network/cross_origin_read_blocking_explainer.md),
+explainer](https://chromium.googlesource.com/chromium/src/+/HEAD/services/network/cross_origin_read_blocking_explainer.md),
 the [specification](https://fetch.spec.whatwg.org/#corb), the ["Site Isolation
 for web developers"
 article](https://developers.google.com/web/updates/2018/07/site-isolation), or

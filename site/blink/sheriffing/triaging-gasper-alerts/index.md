@@ -10,4 +10,4 @@ title: Triaging Gasper Alerts
 
 ## Obsolete.
 
-## More relevant updated information at: <https://chromium.googlesource.com/chromium/src/+/master/docs/speed/perf_regression_sheriffing.md>
+## More relevant updated information at: <https://chromium.googlesource.com/chromium/src/+/HEAD/docs/speed/perf_regression_sheriffing.md>

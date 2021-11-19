@@ -589,7 +589,7 @@ trace:
 1.  Click on the event and note the class and line values.
     *   e.g. `class: 41, line: 783`
 2.  Open the
-            [ipc/ipc_message_start.h](https://chromium.googlesource.com/chromium/src/+/master/ipc/ipc_message_start.h)
+            [ipc/ipc_message_start.h](https://chromium.googlesource.com/chromium/src/+/HEAD/ipc/ipc_message_start.h)
             for your build.
     *   Protip: If it's not ToT, you can pull the git hash from
                 about:version and replace \`master\` in the URL with the hash.

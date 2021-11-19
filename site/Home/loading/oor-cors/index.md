@@ -199,7 +199,7 @@ mode.
 **NetLog dump:** WebView does not allow end users to take NetLog dump, and
 “userdebug” or “eng” builds of Android system are needed to take. See [Net
 debugging in
-WebView](https://chromium.googlesource.com/chromium/src/+/master/android_webview/docs/net-debugging.md)
+WebView](https://chromium.googlesource.com/chromium/src/+/HEAD/android_webview/docs/net-debugging.md)
 for details.
 
 **DevTools:** End users can not use DevTools for remote debugging as they do for

@@ -28,7 +28,7 @@ to a log file
 *   Verbose logging shows up with their own VERBOSEn label.
     *   `--vmodule` enables verbose logging on a per module basis.
                 Details in
-                [base/logging.h](https://chromium.googlesource.com/chromium/src/+/master/base/logging.h).
+                [base/logging.h](https://chromium.googlesource.com/chromium/src/+/HEAD/base/logging.h).
                 Add --v=-3 at the end to suppress all other logging.
 *   Any page load (even the new tab page) will print messages tagged
             with VERBOSE1; for example:

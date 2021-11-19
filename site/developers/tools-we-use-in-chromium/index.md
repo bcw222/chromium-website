@@ -31,5 +31,5 @@ viewers that we use, but this one will work on all main supported platforms
 
 **Editor extensions - Emacs has some custom extensions to make chromium
 development easier -
-<https://chromium.googlesource.com/chromium/src/+/master/docs/emacs.md> (TODO:
+<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/emacs.md> (TODO:
 as we find others for other editors, add them here!)**

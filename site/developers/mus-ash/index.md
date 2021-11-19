@@ -141,7 +141,7 @@ what are part of the browser. mus+ash is built on top of Mandoline UI Service
             on chromium-dev with high level tactical details
 *   [Bugs](https://code.google.com/p/chromium/issues/list?can=2&q=mustash)
 *   Notes in
-            [//ash/README.md](https://chromium.googlesource.com/chromium/src.git/+/master/ash/README.md)
+            [//ash/README.md](https://chromium.googlesource.com/chromium/src/+/HEAD/ash/README.md)
 *   Googlers: See go/mustash and linked documents
 
 **Build Instructions**

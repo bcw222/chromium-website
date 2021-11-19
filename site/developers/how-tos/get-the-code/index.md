@@ -20,9 +20,9 @@ Click on one of these links depending on what you want to build.
 *   Chrome OS
     *   [linux-chromeos](https://chromium.googlesource.com/chromium/src/+/main/docs/chromeos_build_instructions.md)
                 (runs the Chrome OS version of Chrome on Linux)
-    *   [cros-vm](https://chromium.googlesource.com/chromiumos/docs/+/master/cros_vm.md)
+    *   [cros-vm](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/cros_vm.md)
                 (runs in a Chrome OS virtual machine)
-    *   ["simplechrome"](https://chromium.googlesource.com/chromiumos/docs/+/master/simple_chrome_workflow.md)
+    *   ["simplechrome"](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/simple_chrome_workflow.md)
                 (runs on Chromebook hardware)
 *   [iOS](https://chromium.googlesource.com/chromium/src/+/main/docs/ios/build_instructions.md)
 *   Cast (these instructions are still old)

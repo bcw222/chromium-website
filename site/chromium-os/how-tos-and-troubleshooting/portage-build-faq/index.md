@@ -9,5 +9,5 @@ title: EBuild FAQ
 ---
 
 **This page has moved to
-<https://chromium.googlesource.com/chromiumos/docs/+/master/portage/ebuild_faq.md>.
+<https://chromium.googlesource.com/chromiumos/docs/+/HEAD/portage/ebuild_faq.md>.
 Please update the link that brought you here.**

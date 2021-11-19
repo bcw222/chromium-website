@@ -38,7 +38,7 @@ be sufficient for some purposes. However, more specialized tools are available.
 
 ## Linux, ChromeOS, Android
 
-See <https://chromium.googlesource.com/chromium/src/+/master/docs/profiling.md>
+See <https://chromium.googlesource.com/chromium/src/+/HEAD/docs/profiling.md>
 
 ### OS X
 
@@ -98,7 +98,7 @@ of features.
 ## Android
 
 See [Profiling Content Shell on
-Android](https://chromium.googlesource.com/chromium/src/+/master/docs/profiling_content_shell_on_android.md)
+Android](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/profiling_content_shell_on_android.md)
 for detailed Android-specific instructions, and [Telemetry
 profiling](/developers/telemetry/profiling) for general instructions about using
 Telemetry to profile (rather than using `adb_profile_chrome`).

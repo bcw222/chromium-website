@@ -31,7 +31,7 @@ To learn more:
             exploitation](/Home/chromium-security/guts), and [make security
             easier for users and developers](/Home/chromium-security/enamel).
 *   Peruse the [Security
-            FAQ](https://chromium.googlesource.com/chromium/src/+/master/docs/security/faq.md)
+            FAQ](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/faq.md)
             for answers to common questions.
 *   Learn about how [Security
             Reviews](/Home/chromium-security/security-reviews) work in Chrome.
@@ -61,7 +61,7 @@ To learn more:
 One of the quickest ways to get involved is finding and [reporting security
 bugs](/Home/chromium-security/reporting-security-bugs). It will get prompt
 attention from a [security
-sheriff](https://chromium.googlesource.com/chromium/src/+/master/docs/security/sheriff.md),
+sheriff](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/sheriff.md),
 be kept private until we coordinate disclosure, and possibly qualify for a cash
 reward through our [Vulnerability Rewards
 Program](/Home/chromium-security/vulnerability-rewards-program). We occasionally
@@ -127,7 +127,7 @@ You can also find fixed, publicly visible Type=Bug-Security bugs in the [issue
 tracker](https://crbug.com/) (note: security bugs automatically become publicly
 visible 14 weeks after they are fixed). All security bugs are rated according to
 our [severity
-guidelines](https://chromium.googlesource.com/chromium/src/+/master/docs/security/severity-guidelines.md),
+guidelines](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/severity-guidelines.md),
 which we keep in line with industry standards.
 
 Advance notice of (fixed) Chromium security vulnerabilities is restricted to

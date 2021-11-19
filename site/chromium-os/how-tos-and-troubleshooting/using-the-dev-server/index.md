@@ -9,5 +9,5 @@ title: Dev server
 ---
 
 Moved to
-<https://chromium.googlesource.com/chromiumos/chromite/+/refs/heads/master/docs/devserver.md>.
+<https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/docs/devserver.md>.
 Please update the link that brought you here.

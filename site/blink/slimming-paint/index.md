@@ -85,7 +85,7 @@ discussions and related projects.
 
 ## Resources and Design Docs
 
-[core/paint/README.md](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/core/paint/README.md)
+[core/paint/README.md](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/core/paint/README.md)
 
 [Slimming paint
 invalidation](https://docs.google.com/document/d/1M669yu7nsF9Wrkm7nQFi3Pp2r-QmCMqm4K7fPPo-doA)

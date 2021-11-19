@@ -113,7 +113,7 @@ Build a test image:
 ```
 
 Now follow the instructions from the [Chromium OS Developer
-Guide](https://chromium.googlesource.com/chromiumos/docs/+/master/developer_guide.md#Installing-Chromium-OS-on-your-Device)
+Guide](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_guide.md#Installing-Chromium-OS-on-your-Device)
 to flash your image to a USB stick and boot it on your device.
 
 Deploying changes to the kernel is as easy as:

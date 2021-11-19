@@ -22,10 +22,10 @@ coordinate with the Infra team and troopers while adding these tests.
 Make sure your test target is in one of the builder targets in
 [all.gyp](https://chromium.googlesource.com/chromium/chromium/+/trunk/build/all.gyp).
 Then add the test entries (GTestTestStep and BuildrunnerGTest) to
-[chromium_factory](https://chromium.googlesource.com/chromium/tools/build/+/master/scripts/master/factory/chromium_factory.py).
+[chromium_factory](https://chromium.googlesource.com/chromium/tools/build/+/HEAD/scripts/master/factory/chromium_factory.py).
 Finally put the test on the
-[chromium.fyi](https://chromium.googlesource.com/chromium/tools/build/+/master/masters/master.chromium.fyi)
-[master.cfg](https://chromium.googlesource.com/chromium/tools/build/+/master/masters/master.chromium.fyi/master.cfg)
+[chromium.fyi](https://chromium.googlesource.com/chromium/tools/build/+/HEAD/masters/master.chromium.fyi)
+[master.cfg](https://chromium.googlesource.com/chromium/tools/build/+/HEAD/masters/master.chromium.fyi/master.cfg)
 for the platforms that make sense for the test. Watch these tests and eliminate
 any flakiness that arises.
 
@@ -36,13 +36,13 @@ Chromium waterfall. As these parts depend on each other, try to land all the
 following simultaneously (with a trooper's help):
 
 1.  Add the test to
-            [chromium_trybot.json](https://chromium.googlesource.com/chromium/src/+/master/testing/buildbot/chromium_trybot.json).
+            [chromium_trybot.json](https://chromium.googlesource.com/chromium/src/+/HEAD/testing/buildbot/chromium_trybot.json).
 2.  Add the test to the appropriate bots in
-            [src/testing/buildbot/](https://chromium.googlesource.com/chromium/src/+/master/testing/buildbot/).
+            [src/testing/buildbot/](https://chromium.googlesource.com/chromium/src/+/HEAD/testing/buildbot/).
 3.  Add your test to
-            [lkgr_finder.py](https://chromium.googlesource.com/chromium/tools/build/+/master/scripts/tools/lkgr_finder.py)
+            [lkgr_finder.py](https://chromium.googlesource.com/chromium/tools/build/+/HEAD/scripts/tools/lkgr_finder.py)
             and CQ's
-            [projects.py](https://chromium.googlesource.com/chromium/tools/commit-queue/+/master/projects.py).
+            [projects.py](https://chromium.googlesource.com/chromium/tools/commit-queue/+/HEAD/projects.py).
 
 Most bots on the main Chromium waterfall have been converted to recipes, which
 have the simplified flow listed above. If you are adding tests to a non-recipe

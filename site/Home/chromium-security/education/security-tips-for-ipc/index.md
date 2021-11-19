@@ -11,10 +11,10 @@ title: Security Tips for IPC
 ---
 
 **Note: This document is for legacy IPC. For Mojo IPC, please refer to
-<https://chromium.googlesource.com/chromium/src/+/master/docs/security/mojo.md>**
+<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/mojo.md>**
 
 **The [Integer Semantics section has moved to Markdown
-too](https://chromium.googlesource.com/chromium/src/+/master/docs/security/integer-semantics.md).**
+too](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/integer-semantics.md).**
 
 Chrome's[inter-process communication
 (IPC)](http://www.chromium.org/developers/design-documents/inter-process-communication)

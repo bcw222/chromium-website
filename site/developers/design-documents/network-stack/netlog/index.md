@@ -28,7 +28,7 @@ title: "NetLog: Chrome\u2019s network logging system"
 *   **([file_net_log_observer.cc](https://cs.chromium.org/chromium/src/net/log/file_net_log_observer.h))
             Serializes the event stream to a JSON file that can be loaded by the
             [Catapult NetLog
-            Viewer](https://chromium.googlesource.com/catapult/+/master/netlog_viewer/).**
+            Viewer](https://chromium.googlesource.com/catapult/+/HEAD/netlog_viewer/).**
 *   **(net_internals_ui.cc) \[[Removed in
             2018](https://bugs.chromium.org/p/chromium/issues/detail?id=678391&desc=2#c18)\]
             ~~Forwards events to the JavaScript application
@@ -178,7 +178,7 @@ context, these restrictions can be relaxed.
 
 ***Limiting Log Size***
 
-**[FileNetLogObserver::FileWriter](https://source.chromium.org/chromium/chromium/src/+/master:net/log/file_net_log_observer.cc;l=238;drc=0afff123401318329000bfe34af0cde12ce3488c;bpv=1;bpt=1) explains the implementation of the basic "circular" log: To accommodate the request for a size-limited JSON file, instead of writing a single JSON output file initially, Chrome instead creates a folder full of event-containing JSON fragment files (10 by default) that are overwritten on a least-recently-written basis. When the capture is complete, Chrome will stitch the partial files together, including a "prefix" and "end" file containing the constants and other non-event data.**
+**[FileNetLogObserver::FileWriter](https://source.chromium.org/chromium/chromium/src/+/HEAD:net/log/file_net_log_observer.cc;l=238;drc=0afff123401318329000bfe34af0cde12ce3488c;bpv=1;bpt=1) explains the implementation of the basic "circular" log: To accommodate the request for a size-limited JSON file, instead of writing a single JSON output file initially, Chrome instead creates a folder full of event-containing JSON fragment files (10 by default) that are overwritten on a least-recently-written basis. When the capture is complete, Chrome will stitch the partial files together, including a "prefix" and "end" file containing the constants and other non-event data.**
 
 **NetLogExporter::CreateScratchDir's function uses |scratch_dir.CreateUniqueTempDir()| to choose the target location.**
 

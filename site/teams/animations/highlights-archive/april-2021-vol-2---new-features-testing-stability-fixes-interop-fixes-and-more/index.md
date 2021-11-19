@@ -137,7 +137,7 @@ title: April 2021 (Vol. 2) - New features, Testing, Stability fixes, Interop fix
     <td><td>Several mouse wheel tests are flaking.</td></td>
 
     <td><td>Focused on <a
-    href="https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/web_tests/fast/scrolling/percentage-mousewheel-scroll.html;l=1;drc=e51dd5c377fd47393a171f6bdcd7c1a6a9a609c5?q=percentage-mousewheel-scroll&sq=&ss=chromium%2Fchromium%2Fsrc">percentage-mousewheel-scroll</a>
+    href="https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/web_tests/fast/scrolling/percentage-mousewheel-scroll.html;l=1;drc=e51dd5c377fd47393a171f6bdcd7c1a6a9a609c5?q=percentage-mousewheel-scroll&sq=&ss=chromium%2Fchromium%2Fsrc">percentage-mousewheel-scroll</a>
     which has highest scroll on flake dashboard.</td></td>
 
     <td><td>Scroll and wheel events getting dropped.</td></td>
@@ -168,7 +168,7 @@ title: April 2021 (Vol. 2) - New features, Testing, Stability fixes, Interop fix
 
 <td><td><img alt="image" src="https://lh6.googleusercontent.com/K3v4CmTZiknQj2hNvwbhnT-A7daryFxJOBV_Oc8rF41LmZf6f_ngngIbjIySHjPtfJJVQKC3p57kQ8tba0WgoyckbH9iciVOGEvm-JRjFkCKVcY4eI4HcyIva3BYjvb1FVwejKJnKQ" height=207 width=262></td></td>
 
-<td><td>flackr@ fixed a UAF problem. Specifically, we were synchronously resolving ready promise during <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1196781#c10">RunPaintLifecyclePhase</a>. Since promise resolution already <a href="https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/core/animation/animation.cc;l=2382;drc=c86618b300799fd70be83a72afbe7e15f124493d?q=Animation::CommitPendingPause">handles forbidden script context by posting a task</a> so the solution was to wrap UpdateAnimations call in ScriptForbiddenScope. We move ScriptForbiddenScope to entire lifecycle with explicit exceptions for locations where we expect/handle script execution.</td></td>
+<td><td>flackr@ fixed a UAF problem. Specifically, we were synchronously resolving ready promise during <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=1196781#c10">RunPaintLifecyclePhase</a>. Since promise resolution already <a href="https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/renderer/core/animation/animation.cc;l=2382;drc=c86618b300799fd70be83a72afbe7e15f124493d?q=Animation::CommitPendingPause">handles forbidden script context by posting a task</a> so the solution was to wrap UpdateAnimations call in ScriptForbiddenScope. We move ScriptForbiddenScope to entire lifecycle with explicit exceptions for locations where we expect/handle script execution.</td></td>
 
 <td></tr></td>
 <td></table></td>

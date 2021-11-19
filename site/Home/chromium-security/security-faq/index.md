@@ -9,4 +9,4 @@ title: Security FAQ
 ---
 
 **The [canonical version of the FAQ is now in the Chromium source
-tree](https://chromium.googlesource.com/chromium/src/+/master/docs/security/faq.md).**
+tree](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/faq.md).**

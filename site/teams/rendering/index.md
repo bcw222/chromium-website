@@ -235,13 +235,13 @@ markdown files checked into the main source tree. The README.md file in each top
 level directory is a good starting point. Some of the key documents are linked
 below.
 
-*   [renderer/core/css/README.md](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/core/css/README.md)
-*   [renderer/core/dom/README.md](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/core/dom/README.md)
-*   [renderer/core/layout/README.md](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/core/layout/README.md)
-*   [renderer/core/layout/ng/README.md](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/core/layout/ng/README.md)
-*   [renderer/core/paint/README.md](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/core/paint/README.md)
-*   [platform/graphics/paint/README.md](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/platform/graphics/paint/README.md)
-*   [platform/fonts/README.md](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/platform/fonts/README.md)
+*   [renderer/core/css/README.md](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/core/css/README.md)
+*   [renderer/core/dom/README.md](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/core/dom/README.md)
+*   [renderer/core/layout/README.md](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/core/layout/README.md)
+*   [renderer/core/layout/ng/README.md](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/core/layout/ng/README.md)
+*   [renderer/core/paint/README.md](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/core/paint/README.md)
+*   [platform/graphics/paint/README.md](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/platform/graphics/paint/README.md)
+*   [platform/fonts/README.md](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/platform/fonts/README.md)
 
 [Debugging Blink
 objects](https://docs.google.com/document/d/1vgQY11pxRQUDAufxSsc2xKyQCKGPftZ5wZnjY2El4w8/edit#heading=h.8x8n9x5rkr0)

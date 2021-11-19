@@ -11,4 +11,4 @@ title: OBSOLETE. Memory profiling in chrome://tracing
 ---
 
 Moved to
-<https://chromium.googlesource.com/chromium/src/+/master/docs/memory-infra/README.md>
+<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/memory-infra/README.md>

@@ -8,7 +8,7 @@ title: Creating Chrome WebUI Interfaces
 
 If you are building a WebUI interface under components/ then see [Creating WebUI
 Interfaces in
-components/](https://chromium.googlesource.com/chromium/src/+/master/docs/webui_in_components.md)
+components/](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/webui_in_components.md)
 
 Creating a Chrome WebUI interface is simple yet involves changing a number of
 files. This guide briefly steps over the process. For brevity, copyright notices

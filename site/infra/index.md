@@ -20,7 +20,7 @@ Join [infra-dev@chromium.org](mailto:infra-dev@chromium.org) for discussion of
 Chromium infrastructure related issues.
 
 Most of the documentation is now at:
-<https://chromium.googlesource.com/infra/infra/+/master/doc/index.md>.
+<https://chromium.googlesource.com/infra/infra/+/HEAD/doc/index.md>.
 
 Google employees can also find more information at the [internal Chrome
 Infrastructure](https://sites.google.com/a/google.com/chrome-infrastructure/)

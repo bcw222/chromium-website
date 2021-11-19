@@ -11,7 +11,7 @@ title: System Hardening
 [TOC]
 
 Note: A practical guide for hardening individual services can be found
-[here](https://chromium.googlesource.com/chromiumos/docs/+/master/sandboxing.md).
+[here](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md).
 
 ## Abstract
 

@@ -130,7 +130,7 @@ filter. The supported property filters are:
 
 For example, `@ALLOW:AXARIALive` will add `AXARIALive` attributes to the result
 tree on mac. Also see `example-tree-filters.txt` in
-[tools/accessibility/inspect](https://source.chromium.org/chromium/chromium/src/+/master:tools/accessibility/inspect/example-tree-filters.txt)
+[tools/accessibility/inspect](https://source.chromium.org/chromium/chromium/src/+/HEAD:tools/accessibility/inspect/example-tree-filters.txt)
 for more examples.
 
 ### Other options

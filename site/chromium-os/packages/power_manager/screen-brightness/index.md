@@ -11,4 +11,4 @@ title: Screen Brightness
 ---
 
 Moved
-[here](https://chromium.googlesource.com/chromiumos/platform2/+/master/power_manager/docs/screen_brightness.md).
+[here](https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/power_manager/docs/screen_brightness.md).

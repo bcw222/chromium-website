@@ -10,7 +10,7 @@ title: Get Started Building EC Images (Quickly)
 
 The [Chromium OS Developer Guide](/chromium-os/developer-guide) and [EC
 Development
-Guide](https://chromium.googlesource.com/chromiumos/platform/ec/+/master/README.md)
+Guide](https://chromium.googlesource.com/chromiumos/platform/ec/+/HEAD/README.md)
 walk through the steps needed to fetch and build Chromium OS source. These steps
 can be followed to retrieve and build EC source as well. On the other hand, if
 your sole interest is building an EC image, the general developer guide contains

@@ -8,7 +8,7 @@ page_name: rendering-benchmarks
 title: Rendering Benchmarks (aka Smoothness benchmarks)
 ---
 
-**## **Deprecated: see** <https://chromium.googlesource.com/chromium/src/+/master/docs/speed/benchmark/harnesses/rendering.md>**
+**## **Deprecated: see** <https://chromium.googlesource.com/chromium/src/+/HEAD/docs/speed/benchmark/harnesses/rendering.md>**
 
 ## **Contact: nduca, ernstm****
 

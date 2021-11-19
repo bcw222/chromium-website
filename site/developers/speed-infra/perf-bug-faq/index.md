@@ -9,4 +9,4 @@ title: FAQ for when a perf regression bug is assigned to you
 ---
 
 This page has been moved to
-<https://chromium.googlesource.com/chromium/src/+/master/docs/speed/addressing_performance_regressions.md>
+<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/speed/addressing_performance_regressions.md>

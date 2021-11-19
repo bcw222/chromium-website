@@ -19,7 +19,7 @@ This page discusses how to debug a **ChromiumOS minidump**.
 
 *   If you instead have a **Linux Chrome minidump**, see [Linux Minidump
             To
-            Core](https://chromium.googlesource.com/chromium/src/+/master/docs/linux/minidump_to_core.md).
+            Core](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/linux/minidump_to_core.md).
 *   If you instead have a **Windows Chrome minidump**, just load the
             minidump into Visual Studio or windbg, set up the Chrome symbol
             server and Microsoft symbol server, and enable source indexing.

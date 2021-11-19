@@ -28,11 +28,11 @@ documented in the [​Web IDL spec](https://heycam.github.io/webidl/), but it is
 too formal to read :-) and there are several differences between the Web IDL
 spec and the Blink IDL due to implementation issues. For design docs on bindings
 generation, see [IDL build](/developers/design-documents/idl-build) and [IDL
-compiler](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/bindings/IDLCompiler.md).
+compiler](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/bindings/IDLCompiler.md).
 
 For Blink developers, the main details of IDLs are the extended attributes,
 which control implementation-specific behavior: see [Blink IDL Extended
-Attributes](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/bindings/IDLExtendedAttributes.md)
+Attributes](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/bindings/IDLExtendedAttributes.md)
 for extensive details.
 
 Our goal is to converge Blink's IDL and Web IDL. The grammar is almost
@@ -73,7 +73,7 @@ The key points are as follows:
 *   Extended attributes enable you to control the bindings code more in
             detail.
 *   There are ~60 extended attributes, explained in [a separate
-            page](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/bindings/IDLExtendedAttributes.md).
+            page](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/bindings/IDLExtendedAttributes.md).
 *   Extended attributes can be specified on interfaces, methods,
             attributes, arguments, and types (but not constants, enums, etc.).
 
@@ -557,7 +557,7 @@ discussed and fixed in CL
 ### Behavior tests
 
 To test behavior, use [web
-tests](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/web_tests.md),
+tests](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/web_tests.md),
 most simply actual interfaces that use the behavior you're implementing. If
 adding new behavior, it's preferable to make code generator changes and the
 first actual use case in the same CL, so that it is properly tested, and the
@@ -609,7 +609,7 @@ if you have any questions, problems, or requests.
 Bindings generation can be controlled in many ways, generally by adding an
 extended attribute to specify the behavior, sometimes by special-casing a
 specific type, interface, or member. If the existing [extended
-attributes](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/bindings/IDLExtendedAttributes.md)
+attributes](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/bindings/IDLExtendedAttributes.md)
 are not sufficient (or buggy), please file a bug and contact bindings
 developers!
 
@@ -645,7 +645,7 @@ more standard type checking behavior for interfaces and members.
 *   [Web IDL interfaces](/developers/web-idl-interfaces) – overview
             how-to for Blink developers
 *   [Blink IDL Extended
-            Attributes](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/bindings/IDLExtendedAttributes.md)
+            Attributes](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/bindings/IDLExtendedAttributes.md)
             – reference for Blink developers and bindings developers
 *   [IDL build](/developers/design-documents/idl-build) – design doc
 *   [IDL compiler](/developers/design-documents/idl-compiler) – design

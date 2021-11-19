@@ -443,7 +443,7 @@ Or you can specify a Chromium OS config base. We have one for each major
 platform/SoC that ships in an official Chrome OS device, and we have
 architecture generic configs. You can find the full list by browsing the
 [chromeos/config/ directory in the kernel
-tree](https://chromium.googlesource.com/chromiumos/third_party/kernel/+/master/chromeos/config/).
+tree](https://chromium.googlesource.com/chromiumos/third_party/kernel/+/HEAD/chromeos/config/).
 Unlike a defconfig, splitconfigs are much smaller fragments which start with a
 common base and then enable/disable a few options relative to that.
 
@@ -590,7 +590,7 @@ Presumably you'd like to be able to easily (and cleanly) produce artifacts for
 your board. In our [chromite
 repo](https://chromium.googlesource.com/chromiumos/chromite), we have a tool
 called
-[cbuildbot](https://chromium.googlesource.com/chromiumos/chromite/+/master/scripts/cbuildbot.py)
+[cbuildbot](https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/scripts/cbuildbot.py)
 that takes care of all that for us. Normally it's run by
 [buildbot](http://buildbot.net/) on a
 [waterfall](http://build.chromium.org/p/chromiumos/waterfall) to produce all the
@@ -600,7 +600,7 @@ even [run it locally](/chromium-os/build/local-trybot-documentation).
 ### chromite/buildbot/cbuildbot_config.py
 
 At any rate, you'll need to update this [master
-file](https://chromium.googlesource.com/chromiumos/chromite/+/master/cbuildbot/cbuildbot_config.py)
+file](https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/cbuildbot/cbuildbot_config.py)
 to add your new board configs. There are a few classes of configs to be familiar
 with:
 
@@ -634,5 +634,5 @@ These are the ACL files used by gsutil to apply access for people. Used whenever
 you want to upload files and grant access to people who have the boto file.
 
 The TXT format is documented in the [gsutil
-FAQ](https://chromium.googlesource.com/chromiumos/docs/+/master/gsutil.md#installing-gsutil).
+FAQ](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/gsutil.md#installing-gsutil).
 The JSON format is not yet used. Support for the XML format has been dropped.

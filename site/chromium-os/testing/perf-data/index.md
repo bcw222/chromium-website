@@ -26,7 +26,7 @@ below are provided later in this document.
             sheriff rotation. Also decide if you need to override any of the
             other default presentation settings for your perf graphs on the
             dashboard. To do so, add an entry for your perf test to the
-            [perf_dashboard_config.json](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/master/tko/perf_upload/perf_dashboard_config.json)
+            [perf_dashboard_config.json](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/tko/perf_upload/perf_dashboard_config.json)
             file to specify your sheriff rotation and custom presentation
             settings.
 3.  Let the test run a few times. Wait for your test to run a few times
@@ -123,7 +123,7 @@ dashboard, you must have your test invoke self.output_perf_value() for every
 perf metric measured by your test that you want displayed on the perf dashboard.
 
 The output_perf_value function is currently defined
-[here](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/master/client/common_lib/test.py).
+[here](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/client/common_lib/test.py).
 Here is the function definition:
 
 def output_perf_value(self, description, value, units=None,
@@ -203,7 +203,7 @@ standard deviation (error) from among all 5 measured values. Note that the
 indeed considered to be better.
 
 Autotest
-[platform_GesturesRegressionTest](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/master/client/site_tests/platform_GesturesRegressionTest/platform_GesturesRegressionTest.py)
+[platform_GesturesRegressionTest](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/client/site_tests/platform_GesturesRegressionTest/platform_GesturesRegressionTest.py)
 is an example of a real test that invokes self.output_perf_value().
 
 It's assumed that every perf metric outputted by a test will have a unique
@@ -258,7 +258,7 @@ We generally recommend just use "ChromeOSPerf" for Chrome OS tests.
 
 Once you have determined the appropriate “master” name, add a new entry to the
 file
-[perf_dashboard_config.json](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/master/tko/perf_upload/perf_dashboard_config.json)
+[perf_dashboard_config.json](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/tko/perf_upload/perf_dashboard_config.json)
 to specify this. This JSON config file specifies the master name and any
 overridden presentation settings. It is formatted as a list of dictionaries,
 where each dictionary contains the config values for a particular perf test
@@ -357,7 +357,7 @@ for your data there.
 
 1.  Make sure your test has run at least a few times in the lab
 2.  Make sure there is an entry for your test in the file
-            [perf_dashboard_config.json](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/master/tko/perf_upload/perf_dashboard_config.json)
+            [perf_dashboard_config.json](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/tko/perf_upload/perf_dashboard_config.json)
     1.  If in the control file, the test is run in the following way
         job.run_test('dummy_Pass', tag="bluetooth")
         then in perf_dashboard_config.json, the field "autotest_name" should

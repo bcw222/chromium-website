@@ -33,7 +33,7 @@ title: Animations Documentation, Throughput Metrics, Code Health, Capability Del
 
 <td><td>Animations Documentation</td></td>
 
-<td><td>kevers@ has made a lot of progress updating documentations in <a href="https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/core/animation/README.md">README.md</a>. Specifically,</td></td>
+<td><td>kevers@ has made a lot of progress updating documentations in <a href="https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/core/animation/README.md">README.md</a>. Specifically,</td></td>
 
     <td><td>Landed 5 CLs with roughly 1300 lines of documentation
     added.</td></td>

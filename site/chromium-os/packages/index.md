@@ -26,7 +26,7 @@ number which are specific to our project. Here you can dive down into them.
 
 ## Debug/Development
 
-*   [debugd](https://chromium.googlesource.com/chromiumos/platform2/+/master/debugd/):
+*   [debugd](https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/debugd/):
             daemon for debugging issues
 *   chromeos-dev: set of packages used in developer images and available
             by running
@@ -34,7 +34,7 @@ number which are specific to our project. Here you can dive down into them.
             in release images
 *   [crash-reporter](/chromium-os/packages/crash-reporting): crash
             processing program/uploader
-*   [crosh](https://chromium.googlesource.com/chromiumos/platform2/+/master/crosh/):
+*   [crosh](https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/crosh/):
             interactive shell for running low level commands, running ssh,
             etc...
 *   [dev_install](/chromium-os/how-tos-and-troubleshooting/install-software-on-base-images):
@@ -75,7 +75,7 @@ number which are specific to our project. Here you can dive down into them.
 
 *   entd: enterprise daemon -- deprecated in favor of libpolicy (in
             libchromeos package)
-*   [power_manager](https://chromium.googlesource.com/chromiumos/platform2/+/master/power_manager/README.md):
+*   [power_manager](https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/power_manager/README.md):
             userspace daemon for performing power-management-related tasks
 
 ## Media (Audio/Video)

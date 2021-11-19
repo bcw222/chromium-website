@@ -361,7 +361,7 @@ and replace the binary in /usr/local/chromedriver/.
 
 Writing a test that uses Chrome Driver to interact with Chrome is easy. There is
 [a wrapper
-class](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/master/client/common_lib/cros/chromedriver.py)
+class](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/client/common_lib/cros/chromedriver.py)
 for using Chrome Driver available in ChromeOS/Autotest. The wrapper class, as a
 context manager type, and handles the following tasks for you:
 
@@ -375,7 +375,7 @@ context manager type, and handles the following tasks for you:
     Shutdowns Chrome Driver process, and logs out of ChromeOS.
 
 To write a test, you can follow the example of test
-[desktopui_UrlFetchWithChromeDriver](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/master/client/site_tests/desktopui_UrlFetchWithChromeDriver/desktopui_UrlFetchWithChromeDriver.py).
+[desktopui_UrlFetchWithChromeDriver](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/client/site_tests/desktopui_UrlFetchWithChromeDriver/desktopui_UrlFetchWithChromeDriver.py).
 All you need to do to get started are basically:
 
     import the wrapper class

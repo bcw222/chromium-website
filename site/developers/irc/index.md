@@ -33,7 +33,7 @@ channel. In particular, if you are committing, please connect to the channel so
 that the sheriff or others may notify you of build breaks and other
 time-sensitive issues with the build infrastructure. Consider adding your IRC
 nick to the table here:
-<https://chromium.googlesource.com/chromium/src/+/master/docs/user_handle_mapping.md>,
+<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/user_handle_mapping.md>,
 espeically if it varies wildly from your @chromium.org account name. (This helps
 us know who to ping when things go wrong.)
 

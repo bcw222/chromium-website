@@ -9,4 +9,4 @@ title: GPU Bots & Pixel Wrangling
 ---
 
 This page has moved to
-<https://chromium.googlesource.com/chromium/src/+/master/docs/gpu/pixel_wrangling.md>.
+<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/gpu/pixel_wrangling.md>.

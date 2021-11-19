@@ -9,4 +9,4 @@ title: Closure Compilation
 ---
 
 See:
-[wiki:ClosureCompilation](https://chromium.googlesource.com/chromium/src/+/master/docs/closure_compilation.md)
+[wiki:ClosureCompilation](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/closure_compilation.md)

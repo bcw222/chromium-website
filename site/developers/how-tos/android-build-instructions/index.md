@@ -9,4 +9,4 @@ title: Build Instructions (Android)
 ---
 
 This page has been replaced by
-<https://chromium.googlesource.com/chromium/src/+/master/docs/android_build_instructions.md>
+<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/android_build_instructions.md>

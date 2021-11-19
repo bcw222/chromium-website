@@ -180,7 +180,7 @@ for any chromium open source specific questions.
 
 *   Running an executable on a swarming bot is documented at in the
             [user
-            guide](https://chromium.googlesource.com/infra/luci/luci-py.git/+/master/appengine/swarming/doc/User-Guide.md).
+            guide](https://chromium.googlesource.com/infra/luci/luci-py.git/+/HEAD/appengine/swarming/doc/User-Guide.md).
 *   Monitor the running tasks by visiting
             [chromium-swarm.appspot.com](https://chromium-swarm.appspot.com).
 

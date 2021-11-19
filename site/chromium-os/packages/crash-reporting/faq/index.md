@@ -47,7 +47,7 @@ which is where I found the address-adjusting logic.
 ### Is there a design document for Chrome OS Crash Reporting?
 
 Yes, in the [project
-sources](https://chromium.googlesource.com/chromiumos/platform2/+/master/crash-reporter/docs/design.md).
+sources](https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/crash-reporter/docs/design.md).
 For a general overview, though:
 
 For **non-Chrome** processes we use an external program, `crash_reporter`, that

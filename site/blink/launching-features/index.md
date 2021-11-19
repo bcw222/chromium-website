@@ -190,7 +190,7 @@ flag](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/re
 Consider adding a[ UseCounter](/blink/platform-predictability/compat-tools) to
 track usage of your new feature in the wild, and be sure to write integration
 tests for your feature as[
-web-platform-tests](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/web_platform_tests.md)
+web-platform-tests](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/web_platform_tests.md)
 as you go. Continue to work with your API mentor if there are any design
 changes.
 
@@ -290,7 +290,7 @@ default. You can learn more about the policies and guidelines the API owners
 evaluate [here](/blink/guidelines). Requirements for new API owners are
 [here](/blink/blink-api-owners-requirements). Email
 blink-api-owners-discuss@chromium.org or reach out to one of the[ API
-owners](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/API_OWNERS)
+owners](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/API_OWNERS)
 if there is no open/unaddressed feedback and you are still blocked on LGTMs
 after 5 days.
 
@@ -313,7 +313,7 @@ Proceed to the “Start Prototyping” stage in ChromeStatus - this will generat
 [blink-dev](mailto:blink-dev@chromium.org) and start checking in prototype code
 to Chromium as [runtime enabled features](/blink/runtime-enabled-features).
 Ensure there are adequate
-[web-platform-tests](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/web_platform_tests.md)
+[web-platform-tests](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/web_platform_tests.md)
 for this feature. Also ensure you have an API overview and descriptions for all
 IDL methods and properties (this is probably already in the consensus standard
 specification, or even on MDN), and at least a basic sample.
@@ -388,7 +388,7 @@ API owners will apply in evaluating whether the feature is mature enough to
 ship. (API owners requirements are listed[
 here](/blink/blink-api-owners-requirements) - email
 blink-api-owners-discuss@chromium.org or reach out to one of the[ API
-owners](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/API_OWNERS)
+owners](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/API_OWNERS)
 if no open/unaddressed feedback and you are still blocked on LGTMs after 5
 days.)
 

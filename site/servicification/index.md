@@ -25,7 +25,7 @@ mailing list:
             & [slide deck](http://go/servicification-presentation) (both
             internal only)
 *   [how to create a
-            service](https://chromium.googlesource.com/chromium/src/+/master/docs/servicification.md)
+            service](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/servicification.md)
 *   [Mandoline](https://docs.google.com/document/d/1AjTsDoY6ugaykfqGLyOHYfp67hMp0tMjDbZcJ5EH9fw/edit#heading=h.otewm6d8oykp):
             experimental browser that we prototyped these ideas in
 
@@ -78,4 +78,4 @@ A prioritized list of projects that still need to be done is
 
 ## Code Location
 
-[src/services/](https://chromium.googlesource.com/chromium/src/+/master/services/)
+[src/services/](https://chromium.googlesource.com/chromium/src/+/HEAD/services/)

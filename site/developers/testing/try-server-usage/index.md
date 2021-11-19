@@ -9,4 +9,4 @@ title: Try Server usage
 ---
 
 [This page has
-moved.](https://chromium.googlesource.com/chromium/src/+/master/docs/infra/trybot_usage.md)
+moved.](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/infra/trybot_usage.md)

@@ -119,7 +119,7 @@ You probably want IDL, though be warned *IDL syntax errors occasionally cause
 the compiler to never terminate*.
 
 Fourth, list the schema in
-[//extensions/common/api/schemas.gni](https://source.chromium.org/chromium/chromium/src/+/master:extensions/common/api/schema.gni),
+[//extensions/common/api/schemas.gni](https://source.chromium.org/chromium/chromium/src/+/HEAD:extensions/common/api/schema.gni),
 which tells the build system to generate a bunch of boilerplate for you in
 &lt;build_dir&gt;/gen/extensions/common/api or
 &lt;build_dir&gt;/gen/chrome/common/extensions/api: models for your API, and the
@@ -161,7 +161,7 @@ extensions/browser/extension_function.h.
             the idiom for this is catching bugs in the renderer (for example:
             schema validation errors).
 *   Add your implementation files to
-            [chrome/common/extensions/api/api_sources.gni](https://source.chromium.org/chromium/chromium/src/+/master:chrome/common/extensions/api/api_sources.gni).
+            [chrome/common/extensions/api/api_sources.gni](https://source.chromium.org/chromium/chromium/src/+/HEAD:chrome/common/extensions/api/api_sources.gni).
 
 **Model generation**
 
@@ -170,7 +170,7 @@ extensions/browser/api/myapi/myapi_api.h/cc or
 chrome/browser/extensions/api/myapi/myapi_api.h/cc (depending on where it was
 declared).This is so that the code generator can find the header file defining
 your extension function implementations. Remember to add your source files to
-[//chrome/common/extensions/api/api_sources.gni](https://source.chromium.org/chromium/chromium/src/+/master:chrome/common/extensions/api/api_sources.gni).
+[//chrome/common/extensions/api/api_sources.gni](https://source.chromium.org/chromium/chromium/src/+/HEAD:chrome/common/extensions/api/api_sources.gni).
 
 In your header file, include extensions/common/api/myapi.h or
 chrome/common/extensions/api/myapi.h to use the generated model. This comes from

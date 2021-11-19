@@ -9,4 +9,4 @@ title: Vectorized icons in native Chrome UI
 ---
 
 the docs have migrated to markdown:
-<https://chromium.googlesource.com/chromium/src/+/master/components/vector_icons/README.md>
+<https://chromium.googlesource.com/chromium/src/+/HEAD/components/vector_icons/README.md>

@@ -16,13 +16,13 @@ title: Reporting memory bloat/leak issues
     template</a> when filing a bug for memory bloat/leak issues.</td>
 
     <td>See <a
-    href="https://chromium.googlesource.com/chromium/src.git/+/master/docs/memory/filing_memory_bugs.md">instructions
+    href="https://chromium.googlesource.com/chromium/src/+/HEAD/docs/memory/filing_memory_bugs.md">instructions
     here</a>.</td>
 
 <td>## How to take a snapshot of memory usage:</td>
 
 *   <td>See <a
-            href="https://chromium.googlesource.com/chromium/src.git/+/master/docs/memory/debugging_memory_issues.md#taking-a-heap-dump">instructions
+            href="https://chromium.googlesource.com/chromium/src/+/HEAD/docs/memory/debugging_memory_issues.md#taking-a-heap-dump">instructions
             here</a></td>
 
 </tr>

@@ -191,9 +191,9 @@ More design docs:
 *   [Discardable GPU
             Memory](https://docs.google.com/document/d/1LoNv02sntMa7PPK-TZTuMgc3UuWFqKpOdEqtFvcm_QE/edit?usp=sharing)
 *   [GL Command Buffer
-            Extensions](https://chromium.googlesource.com/chromium/src/gpu/+/master/GLES2/extensions/CHROMIUM)
+            Extensions](https://chromium.googlesource.com/chromium/src/gpu/+/HEAD/GLES2/extensions/CHROMIUM)
     *   [Mailbox
-                Extension](https://chromium.googlesource.com/chromium/src/gpu/+/master/GLES2/extensions/CHROMIUM/CHROMIUM_texture_mailbox.txt)
+                Extension](https://chromium.googlesource.com/chromium/src/gpu/+/HEAD/GLES2/extensions/CHROMIUM/CHROMIUM_texture_mailbox.txt)
 *   [cc::Surfaces for
             Videos](https://docs.google.com/document/d/1tIWUfys0fH2L7h1uH8r53uIrjQg1Ee15ttTMlE0X2Ow/edit#)
 *   [Command Buffer Multi

@@ -13,4 +13,4 @@ title: OBSOLETE. Heap Profiling with memory-infra
 ---
 
 Moved to
-<https://chromium.googlesource.com/chromium/src/+/master/docs/memory-infra/heap_profiler.md>
+<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/memory-infra/heap_profiler.md>

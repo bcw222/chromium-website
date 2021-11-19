@@ -9,7 +9,7 @@ title: Crash Reporting (Chrome OS System)
 ---
 
 *   The main docs now exist in markdown:
-    *   <https://chromium.googlesource.com/chromiumos/platform2/+/master/crash-reporter/>
+    *   <https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/crash-reporter/>
 *   There's a Chrome OS [Crash Reporting
             FAQ](/chromium-os/packages/crash-reporting/faq).
 *   Getting [Stack

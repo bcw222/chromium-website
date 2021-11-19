@@ -20,7 +20,7 @@ discussion, e-mail
 [UseCounter](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/use_counter_wiki.md)
 is a framework in Blink which is used to record per-page anonymous aggregated
 metrics on feature usage, often via the [\[Measure\] idl
-attribute](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/bindings/IDLExtendedAttributes.md#Measure_i_m_a_c).
+attribute](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/bindings/IDLExtendedAttributes.md#Measure_i_m_a_c).
 Results are shown publicly on
 [chromestatus.com](https://www.chromestatus.com/metrics/feature/popularity) (for
 the [dominant milestone per

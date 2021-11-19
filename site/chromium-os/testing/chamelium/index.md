@@ -427,9 +427,9 @@ refer to the documentation below.
     *   [chameleond](https://chromium.googlesource.com/chromiumos/platform/chameleon/)
                 - daemon to drive the hardware and expose its control interfaces
     *   [test
-                harness](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/master/client/cros/multimedia/)
+                harness](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/client/cros/multimedia/)
                 - library in autotest harness to interact with chameleond
     *   [tests
-                cases](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/master/server/site_tests/)
+                cases](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/server/site_tests/)
                 - modular test cases that are meant to represent real-world,
                 end-user behavior

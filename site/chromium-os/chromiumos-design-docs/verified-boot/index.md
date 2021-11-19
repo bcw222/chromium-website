@@ -219,9 +219,9 @@ mapper setup process (either using dmsetup from an initrd or directly in the
 kernel).
 
 Living implementation documentation can be found
-[here](https://chromium.googlesource.com/chromiumos/third_party/kernel/+/master/Documentation/device-mapper/dm-verity.txt)
+[here](https://chromium.googlesource.com/chromiumos/third_party/kernel/+/HEAD/Documentation/device-mapper/dm-verity.txt)
 and
-[here](https://chromium.googlesource.com/chromiumos/third_party/kernel/+/master/Documentation/device-mapper/dm-bht.txt).
+[here](https://chromium.googlesource.com/chromiumos/third_party/kernel/+/HEAD/Documentation/device-mapper/dm-bht.txt).
 
 ## Other issues, ideas, and notes
 

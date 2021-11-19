@@ -11,7 +11,7 @@ title: Release process
 [TOC]
 
 **Update: See**
-<https://chromium.googlesource.com/chromium/src.git/+/master/docs/process/release_cycle.md#Overview>
+<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/process/release_cycle.md#Overview>
 for more information.
 
 **OPINION EXPRESSED IN THIS DOCUMENT ARE THE VIEW OF MARC-ANTOINE RUEL AND ARE

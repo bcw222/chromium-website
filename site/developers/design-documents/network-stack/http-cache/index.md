@@ -26,18 +26,18 @@ transfer-encoding logic, which means that it deals with transfer-encoding
 properties and stores resources with the content-encoding set by the server.
 
 The cache implements the
-[HttpTransactionFactory](https://chromium.googlesource.com/chromium/src/+/master/net/http/http_transaction_factory.h)
+[HttpTransactionFactory](https://chromium.googlesource.com/chromium/src/+/HEAD/net/http/http_transaction_factory.h)
 interface, so an
-[HttpCache::Transaction](https://chromium.googlesource.com/chromium/src/+/master/net/http/http_cache_transaction.h)
+[HttpCache::Transaction](https://chromium.googlesource.com/chromium/src/+/HEAD/net/http/http_cache_transaction.h)
 (which is an implementation of
-[HttpTransaction](https://chromium.googlesource.com/chromium/src/+/master/net/http/http_transaction.h))
+[HttpTransaction](https://chromium.googlesource.com/chromium/src/+/HEAD/net/http/http_transaction.h))
 will be the transaction associated with the
-[URLRequestJob](https://chromium.googlesource.com/chromium/src/+/master/net/url_request/url_request_job.h)
+[URLRequestJob](https://chromium.googlesource.com/chromium/src/+/HEAD/net/url_request/url_request_job.h)
 used to fetch most
-[URLRequests](https://chromium.googlesource.com/chromium/src/+/master/net/url_request/url_request.h).
+[URLRequests](https://chromium.googlesource.com/chromium/src/+/HEAD/net/url_request/url_request.h).
 
 There's an instance of an
-[HttpCache](https://chromium.googlesource.com/chromium/src/+/master/net/http/http_cache.h)
+[HttpCache](https://chromium.googlesource.com/chromium/src/+/HEAD/net/http/http_cache.h)
 for every profile (and for every isolated app). In fact, a profile may contain
 two instances of the cache: one for regular requests and another one for media
 requests.
@@ -45,7 +45,7 @@ requests.
 Note that because the HttpCache is the one in charge of serving requests either
 from disk or from the network, it actually owns the HttpTransactionFactory that
 creates network transactions, and the
-[disk_cache::Backend](https://chromium.googlesource.com/chromium/src/+/master/net/disk_cache/disk_cache.h)
+[disk_cache::Backend](https://chromium.googlesource.com/chromium/src/+/HEAD/net/disk_cache/disk_cache.h)
 that is used to serve requests from disk. When the HttpCache is destroyed
 (usually when the profile data goes away), both the disk backend and the network
 layer (HttpTransactionFactory) go away.

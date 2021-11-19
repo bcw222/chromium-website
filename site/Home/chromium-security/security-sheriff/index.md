@@ -9,4 +9,4 @@ title: Security Sheriff
 ---
 
 The [canonical version of this document is now in the Chromium source
-tree](https://chromium.googlesource.com/chromium/src/+/master/docs/security/sheriff.md).
+tree](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/sheriff.md).

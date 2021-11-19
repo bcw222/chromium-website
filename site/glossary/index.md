@@ -5,4 +5,4 @@ title: GLOSSARY
 ---
 
 Moved to
-<https://chromium.googlesource.com/chromiumos/docs/+/master/glossary.md>
+<https://chromium.googlesource.com/chromiumos/docs/+/HEAD/glossary.md>

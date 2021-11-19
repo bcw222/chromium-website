@@ -96,7 +96,7 @@ chrome://accessibility.
 ## Compilation
 
 [Using the Closure
-Compiler](https://chromium.googlesource.com/chromium/src/+/master/docs/closure_compilation.md)
+Compiler](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/closure_compilation.md)
 to typecheck your code is strongly recommended. This requires [annotating your
 JavaScript with JSDoc
 tags](https://developers.google.com/closure/compiler/docs/js-for-compiler) and

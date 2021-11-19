@@ -68,7 +68,7 @@ An example Chromium OS version string:
 #### Chromium & Chromium OS
 
 All releases of Chromium OS are tagged in the
-[chromiumos/manifest-versions.git](https://chromium.googlesource.com/chromiumos/manifest-versions/+/master/paladin/buildspecs/)
+[chromiumos/manifest-versions.git](https://chromium.googlesource.com/chromiumos/manifest-versions/+/HEAD/paladin/buildspecs/)
 repository. You can look up a Chromium version by doing:
 
 *   find the buildspec for the specific version you're interested in
@@ -90,5 +90,5 @@ app engine to see what versions of Chrome shipped in which versions of Chrome
 OS.
 
 Alternatively, all releases of Chrome are tagged in the
-[chromeos/manifest-versions.git](https://chrome-internal.googlesource.com/chromeos/manifest-versions/+/master/buildspecs/)
+[chromeos/manifest-versions.git](https://chrome-internal.googlesource.com/chromeos/manifest-versions/+/HEAD/buildspecs/)
 repository. Follow the same steps as above w/Chromium.

@@ -250,7 +250,7 @@ processes. The master tracking bug is <https://crbug.com/467770>.
     Policy](/developers/design-documents/blocking-cross-site-documents) design
     evolved into [Cross-Origin Read Blocking
     (CORB)](/Home/chromium-security/corb-for-developers), with a [CORB
-    Explainer](https://chromium.googlesource.com/chromium/src/+/master/services/network/cross_origin_read_blocking_explainer.md).
+    Explainer](https://chromium.googlesource.com/chromium/src/+/HEAD/services/network/cross_origin_read_blocking_explainer.md).
     This was implemented for non-compromised renderer processes when Site
     Isolation is enabled as of Chrome 63, and for compromised renderers as of
     Chrome 77. The work was tracked at <https://crbug.com/268640>.

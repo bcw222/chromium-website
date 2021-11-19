@@ -9,7 +9,7 @@ title: Using Sublime Text as your IDE
 ## The below instructions are outdated.
 
 ## New instructions:
-<https://chromium.googlesource.com/chromium/src/+/master/docs/sublime_ide.md>
+<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/sublime_ide.md>
 
 ## [TOC]
 

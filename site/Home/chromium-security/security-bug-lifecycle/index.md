@@ -9,7 +9,7 @@ title: Security Bug Lifecycle
 ---
 
 The [canonical version of this document is now in the Chromium source
-tree](https://chromium.googlesource.com/chromium/src/+/master/docs/security/sheriff.md).
+tree](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/sheriff.md).
 
 The following document describes the process of working from an inbound security
 bug report to releasing a fix on all affected branches. You can also refer to

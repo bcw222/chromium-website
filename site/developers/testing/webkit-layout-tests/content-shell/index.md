@@ -11,4 +11,4 @@ title: Running web tests using the content shell
 ---
 
 This content now lives at
-[docs/testing/web_tests_in_content_shell.md](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/web_tests_in_content_shell.md)
+[docs/testing/web_tests_in_content_shell.md](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/web_tests_in_content_shell.md)

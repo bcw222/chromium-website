@@ -13,11 +13,11 @@ title: Getting Started with Blink Debugging
 While many of the tools and tips on this page can be used for it, this page
 focuses on debugging Blink outside the context of the web tests. For more web
 test specific instructions, see [this
-page](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/web_tests.md).
+page](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/web_tests.md).
 For more general Chromium debugging info, see the respective pages for debugging
 on [Windows](/developers/how-tos/debugging-on-windows),
 [Mac](/developers/how-tos/debugging-on-os-x), and
-[Linux](https://chromium.googlesource.com/chromium/src/+/master/docs/linux_debugging.md).
+[Linux](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/linux_debugging.md).
 
 ### Linux
 
@@ -162,7 +162,7 @@ following will print the Layout Tree:
 functions and pretty printers that can make working with some of Blink's types
 easier and more convenient, such as pretty printers for LayoutUnit and
 LayoutSize classes. You can find it at third_party/blink/tools/gdb/blink.py; see
-[LinuxDebugging](https://chromium.googlesource.com/chromium/src/+/master/docs/linux/debugging.md)
+[LinuxDebugging](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/linux/debugging.md)
 for instructions.`
 
 ### Printing back trace

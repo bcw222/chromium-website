@@ -9,4 +9,4 @@ title: flag-ownership
 ---
 
 [This page has
-moved.](https://chromium.googlesource.com/chromium/src/+/master/docs/flag_ownership.md)
+moved.](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/flag_ownership.md)

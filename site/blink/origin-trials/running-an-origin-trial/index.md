@@ -334,7 +334,7 @@ The process is as follows:
 ## How to integrate your feature with the framework?
 
 The integration instructions now live in the Chromium source repo:
-<https://chromium.googlesource.com/chromium/src/+/master/docs/origin_trials_integration.md>
+<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/origin_trials_integration.md>
 
 ## Roadmap
 

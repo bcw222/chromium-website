@@ -121,6 +121,6 @@ are.
 ## Implementation
 
 You can find the default implicit system package in the
-[chromiumos-overlay](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/master/virtual/implicit-system).
+[chromiumos-overlay](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/virtual/implicit-system).
 It documents the various packages it pulls in and gives reasoning as to why each
 one exists.

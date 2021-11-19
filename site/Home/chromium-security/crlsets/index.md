@@ -22,7 +22,7 @@ can be enabled by policy and, in some cases, the underlying system certificate
 library always performs these checks no matter what Chromium does.
 
 The Chromium source code that implements CRLSets is, of course,
-[public](https://chromium.googlesource.com/chromium/src/+/master/net/cert/crl_set.cc).
+[public](https://chromium.googlesource.com/chromium/src/+/HEAD/net/cert/crl_set.cc).
 But the process by which they are generated is not.
 
 We maintain an internal list of crawled CRLs which are intended to cover

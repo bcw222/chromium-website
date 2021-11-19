@@ -9,7 +9,7 @@ title: Network Stack
 ---
 
 **Warning:** This document is somewhat outdated. See
-<https://chromium.googlesource.com/chromium/src/+/master/net/docs/life-of-a-url-request.md>
+<https://chromium.googlesource.com/chromium/src/+/HEAD/net/docs/life-of-a-url-request.md>
 for more modern information.
 
 [TOC]

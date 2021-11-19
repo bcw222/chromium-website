@@ -227,6 +227,6 @@ and the package_dir (/usr/local/packages) which calls into bin/job
     <https://github.com/autotest/autotest/wiki/Autoserv>
 
 *   User-facing documentation about test dependencies:
-            <https://chromium.googlesource.com/chromiumos/third_party/autotest/+/refs/heads/master/docs/best-practices.md#Adding-test-deps>
+            <https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/best-practices.md#Adding-test-deps>
 
 *Published May 13, 2013*

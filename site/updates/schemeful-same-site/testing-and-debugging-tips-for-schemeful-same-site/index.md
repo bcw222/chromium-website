@@ -164,9 +164,9 @@ reproducing the problem.
             as the above but for cookies which blocked from being set.
 
 For the full descriptions of every histogram, see
-[histograms.xml](https://source.chromium.org/chromium/chromium/src/+/master:tools/metrics/histograms/histograms_xml/cookie/histograms.xml)
+[histograms.xml](https://source.chromium.org/chromium/chromium/src/+/HEAD:tools/metrics/histograms/histograms_xml/cookie/histograms.xml)
 and
-[enums.xml](https://source.chromium.org/chromium/chromium/src/+/master:tools/metrics/histograms/enums.xml?originalUrl=https:%2F%2Fcs.chromium.org%2F)
+[enums.xml](https://source.chromium.org/chromium/chromium/src/+/HEAD:tools/metrics/histograms/enums.xml?originalUrl=https:%2F%2Fcs.chromium.org%2F)
 (very large files!) in the Chromium source tree.
 
 ### Using a NetLog Dump

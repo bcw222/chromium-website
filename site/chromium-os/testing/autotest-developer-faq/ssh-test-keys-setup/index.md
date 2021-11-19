@@ -32,7 +32,7 @@ title: Setting up SSH Access to your test device.
     *   You can get the key from the chromiumos checkout under
                 ***chromiumos/src/scripts/mod_for_test_scripts/ssh_keys/testing_rsa***
     *   Or download from
-                <https://chromium.googlesource.com/chromiumos/chromite/+/master/ssh_keys>
+                <https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/ssh_keys>
 *   Restrict the permissions on ~/.ssh/testing_rsa; SSH will ignore the
             file if the permissions are too open:
 

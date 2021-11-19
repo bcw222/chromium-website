@@ -82,7 +82,7 @@ features.
 
 The GSF implementation consists of two main components: Sensor module in Blink
 (located at
-[third_party/WebKit/Source/](https://chromium.googlesource.com/chromium/src/+/master/third_party/WebKit/Source/modules/sensor)[modules/sensor](https://chromium.googlesource.com/chromium/src/+/master/third_party/WebKit/Source/modules/sensor))
+[third_party/WebKit/Source/](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/WebKit/Source/modules/sensor)[modules/sensor](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/WebKit/Source/modules/sensor))
 which contains JS bindings for Generic Sensor API and concrete sensors APIs, and
 ‘generic_sensor’ component (located at
 [services/device/generic_sensor/](https://cs.chromium.org/chromium/src/services/device/generic_sensor/))

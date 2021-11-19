@@ -46,7 +46,7 @@ implemented for asserting (and removing) write protect:
 *   Screw - a screw shorts a pad on the PCB. While this screw is
             inserted, WP is asserted. WP can be deasserted by disassembling the
             device and removing this special screw.
-*   [cr50](https://chromium.googlesource.com/chromiumos/platform/ec/+/master/board/cr50/)
+*   [cr50](https://chromium.googlesource.com/chromiumos/platform/ec/+/HEAD/board/cr50/)
             - a special security chip asserts the WP signal. While a battery is
             present on the device, the WP signal will be asserted. Disassembling
             the device and physically disconnecting the battery causes WP to be
@@ -75,12 +75,12 @@ page](/chromium-os/developer-information-for-chrome-os-devices).
 **Disabling Write Protect for cr50**
 
 If you have a
-[suzyQ](https://chromium.googlesource.com/chromiumos/third_party/hdctools/+/master/docs/ccd.md#suzyq-suzyqable),
+[suzyQ](https://chromium.googlesource.com/chromiumos/third_party/hdctools/+/HEAD/docs/ccd.md#suzyq-suzyqable),
 you can disable write protect without opening the case. You can [enable
 Case-Closed Debugging
-(CCD)](https://chromium.googlesource.com/chromiumos/platform/ec/+/master/docs/case_closed_debugging_cr50.md#ccd-setup)
+(CCD)](https://chromium.googlesource.com/chromiumos/platform/ec/+/HEAD/docs/case_closed_debugging_cr50.md#ccd-setup)
 and then [use a cr50 console command to disable write
-protect](https://chromium.googlesource.com/chromiumos/platform/ec/+/master/docs/case_closed_debugging_cr50.md#wp-control).
+protect](https://chromium.googlesource.com/chromiumos/platform/ec/+/HEAD/docs/case_closed_debugging_cr50.md#wp-control).
 The write protect command is only accessible through suzyQ.
 
 If you don't want to go through the ccd open process or don't have a suzyQ, you

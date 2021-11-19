@@ -33,4 +33,4 @@ right to accept the contribution:
 
 If you have any questions or doubts, cc accounts@chromium.org for help. Also,
 please see this for more information:
-<https://chromium.googlesource.com/chromium/src/+/master/docs/contributing.md>
+<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/contributing.md>

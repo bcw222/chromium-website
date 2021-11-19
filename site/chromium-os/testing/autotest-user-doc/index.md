@@ -10,4 +10,4 @@ title: Autotest for Chromium OS developers
 
 This content has moved to:
 
-<https://chromium.googlesource.com/chromiumos/third_party/autotest/+/master/docs/user-doc.md>
+<https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/user-doc.md>

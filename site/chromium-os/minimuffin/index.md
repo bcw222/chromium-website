@@ -33,10 +33,10 @@ For schematic, see the attached file at the bottom of this page.
 ## Firmware Source Code
 
 The firmware is located In the Chromium Embedded Controller repository under
-*[board/zinger/](https://chromium.googlesource.com/chromiumos/platform/ec/+/master/board/zinger/)*
+*[board/zinger/](https://chromium.googlesource.com/chromiumos/platform/ec/+/HEAD/board/zinger/)*
 :
 
-<https://chromium.googlesource.com/chromiumos/platform/ec/+/master/board/zinger/>
+<https://chromium.googlesource.com/chromiumos/platform/ec/+/HEAD/board/zinger/>
 
 ### Building Firmware
 

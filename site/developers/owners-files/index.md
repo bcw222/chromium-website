@@ -7,4 +7,4 @@ title: OWNERS Files
 ---
 
 This documentation has [moved to the source
-tree](https://chromium.googlesource.com/chromium/src/+/master/docs/code_reviews.md).
+tree](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/code_reviews.md).

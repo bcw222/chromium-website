@@ -11,4 +11,4 @@ title: Suspend and Resume
 ---
 
 Moved
-[here](https://chromium.googlesource.com/chromiumos/platform2/+/master/power_manager/docs/suspend_resume.md).
+[here](https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/power_manager/docs/suspend_resume.md).

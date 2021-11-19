@@ -15,5 +15,5 @@ Perf sheriffing has now been split into two separate rotations:
             ([internal
             doc](http://goto.google.com/chrome-perf-regression-sheriffing))
 *   [**Perfbot Health
-            Sheriffing**](https://chromium.googlesource.com/chromium/src/+/master/docs/speed/bot_health_sheriffing/main.md)
+            Sheriffing**](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/speed/bot_health_sheriffing/main.md)
             ([internal doc](http://goto.google.com/perf-bot-health-sheriffs))

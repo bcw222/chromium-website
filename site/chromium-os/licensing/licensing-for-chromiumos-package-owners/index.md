@@ -37,7 +37,7 @@ MP keys.
 For firmware packages (where the file is installed into /lib/firmware/ and
 loaded into devices at runtime), you should push for a simple license that would
 allow for inclusion into
-[linux-firmware](https://chromium.googlesource.com/chromiumos/third_party/linux-firmware/+/master/).
+[linux-firmware](https://chromium.googlesource.com/chromiumos/third_party/linux-firmware/+/HEAD/).
 If you view the various license files in there, you should be able to get a gist
 of what will work. Main goal is to allow for free redistribution.
 
@@ -171,7 +171,7 @@ I then edited that new file and put the proper name for the copyright.
 ## How will licensing work?
 
 The license file is currently generated after the fact with
-<https://chromium.googlesource.com/chromiumos/chromite/+/master/licensing/licenses.py>
+<https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/licensing/licenses.py>
 
 Once all packages are fixed to pass licensing (we have some left to fix, and
 it's time consuming when we don't have easy to Email owners for each package,

@@ -9,4 +9,4 @@ title: Sandbox
 ---
 
 [This page has moved to the source code
-docs.](https://chromium.googlesource.com/chromium/src/+/master/docs/design/sandbox.md)
+docs.](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/design/sandbox.md)

@@ -15,7 +15,7 @@ title: Autotest Client Tests
 # References
 
 *   [Autotest Best
-            Practices](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/refs/heads/master/docs/best-practices.md)
+            Practices](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/best-practices.md)
 *   [Autotest Coding Style
             Guide](http://git.chromium.org/gitweb/?p=chromiumos/third_party/autotest.git;a=blob;f=CODING_STYLE;h=777cc1de3e409a69581ae44a9432d8634dc114e6;hb=HEAD)
 *   [Writing
@@ -191,7 +191,7 @@ test_that -b x86-mario 192.168.x.x suite:smoke
 ```
 
 Please see the[ test_that
-](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/refs/heads/master/docs/test-that.md)page
+](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/test-that.md)page
 for more details.
 
 ## Directly on the DUT
@@ -270,7 +270,7 @@ AUTHOR = "Chrome OS Team"NAME = "kernel_HdParmBasic"TIME = "SHORT"TEST_TYPE = "c
 
 To which you can add the necessary control variables as described in the
 [autotest best
-practices](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/refs/heads/master/docs/best-practices.md).
+practices](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/best-practices.md).
 Job.run_test can take any named arguments, and the appropriate ones will be
 [cherry
 picked](http://git.chromium.org/gitweb/?p=chromiumos/third_party/autotest.git;a=blob;f=client/common_lib/test.py;h=9b51cd65f25b05b9f9a0b60339f77af85f46dc4b;hb=546142013484dbdb2c1322debe9e5fc5e91f63c1#l474)

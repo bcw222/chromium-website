@@ -26,7 +26,7 @@ password disclosure using the Inspect Element feature to convert the
 "\*\*\*\*\*\*\*" into the underlying text.
 
 To understand why, see the [Chromium Security
-FAQ.](https://chromium.googlesource.com/chromium/src/+/master/docs/security/faq.md)
+FAQ.](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/faq.md)
 
 ### General Guidelines
 
@@ -126,4 +126,4 @@ for a larger award:
 
 The visibility of security bugs is restricted until a fix has been widely
 deployed. For more information see the [Security
-FAQ](https://chromium.googlesource.com/chromium/src/+/master/docs/security/faq.md#TOC-Can-you-please-un-hide-old-security-bugs-).
+FAQ](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/faq.md#TOC-Can-you-please-un-hide-old-security-bugs-).

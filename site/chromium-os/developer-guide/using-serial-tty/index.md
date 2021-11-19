@@ -48,7 +48,7 @@ TTY_CONSOLE="${TTY_CONSOLE} tty1 ttyS0"
 ## Which tty are available?
 
 The tty available are listed in [chromeos-base/tty
-ebuild](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/master/chromeos-base/tty/tty-0.0.1.ebuild).
+ebuild](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/chromeos-base/tty/tty-0.0.1.ebuild).
 
 The current list of tty's:
 

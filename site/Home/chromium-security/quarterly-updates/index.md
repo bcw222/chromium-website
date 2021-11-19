@@ -302,7 +302,7 @@ Andrew
 
 ## Interested in helping to protect users of Chrome, Chromium, and the entire web? We're hiring! Take a look at [g.co/chrome/hiring](https://g.co/chrome/hiring), with several of the roles in Washington, DC: [g.co/chrome/securityprivacydc](https://g.co/chrome/securityprivacydc).
 
-## The Usable Security team fully launched a new warning for [lookalike domain names](https://chromium.googlesource.com/chromium/src/+/master/docs/security/lookalikes/lookalike-domains.md): low-quality or suspicious domains that make it hard for people to understand which website they’re actually visiting. We continued to place some final nails in the coffin of [mixed content](https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html) (insecure subresources on secure pages). Secure pages are no longer allowed to initiate any [insecure downloads](https://blog.chromium.org/2020/02/protecting-users-from-insecure.html) as of Chrome 88. We uncovered some issues with our new [warning on mixed form submissions](https://blog.chromium.org/2020/08/protecting-google-chrome-users-from.html) due to redirects, and this warning will be re-launching in Chrome 88 as well.
+## The Usable Security team fully launched a new warning for [lookalike domain names](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/lookalikes/lookalike-domains.md): low-quality or suspicious domains that make it hard for people to understand which website they’re actually visiting. We continued to place some final nails in the coffin of [mixed content](https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html) (insecure subresources on secure pages). Secure pages are no longer allowed to initiate any [insecure downloads](https://blog.chromium.org/2020/02/protecting-users-from-insecure.html) as of Chrome 88. We uncovered some issues with our new [warning on mixed form submissions](https://blog.chromium.org/2020/08/protecting-google-chrome-users-from.html) due to redirects, and this warning will be re-launching in Chrome 88 as well.
 
 ## With HTTPS adoption continuing to rise, it’s now time to begin treating https:// as the default protocol, so we began implementing a change to the Chrome address bar to default to https:// instead of http:// if the user doesn’t type a scheme. Stay tuned for more information about this change in Q1.
 
@@ -310,7 +310,7 @@ Andrew
 
 ## The Chrome Safe Browsing team helped the Chrome for iOS team roll out real-time Safe Browsing protections in Chrome 86 for iOS. Also, in addition to our existing mechanism to disable malicious Chrome Extensions with a large install base, we rolled out a new mechanism that allows us to also disable malware extensions with a small install base.
 
-## On the memory safety front, we've been getting ready to ship [Oilpanned](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/platform/heap/BlinkGCAPIReference.md) [XFA](https://en.wikipedia.org/wiki/XFA) and continue to engage with the [MiraclePtr and \*Scan](https://docs.google.com/document/d/1pnnOAIz_DMWDI4oIOFoMAqLnf_MZ2GsrJNb_dbQ3ZBg/edit#) project. As those initiatives are treating the symptom rather than the cause, we continue to investigate what a safer dialect of C++ would look like, and to improve Rust/C++ interoperability ahead of any possible future rust experiments. Ongoing work on exploit mitigations includes [Control-flow Enforcement Technology](https://newsroom.intel.com/editorials/intel-cet-answers-call-protect-common-malware-threats/), [GWP-ASan](https://chromium.googlesource.com/chromium/src/+/lkgr/docs/gwp_asan.md), and [Control Flow Guard](https://docs.microsoft.com/en-us/windows/win32/secbp/control-flow-guard).
+## On the memory safety front, we've been getting ready to ship [Oilpanned](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/platform/heap/BlinkGCAPIReference.md) [XFA](https://en.wikipedia.org/wiki/XFA) and continue to engage with the [MiraclePtr and \*Scan](https://docs.google.com/document/d/1pnnOAIz_DMWDI4oIOFoMAqLnf_MZ2GsrJNb_dbQ3ZBg/edit#) project. As those initiatives are treating the symptom rather than the cause, we continue to investigate what a safer dialect of C++ would look like, and to improve Rust/C++ interoperability ahead of any possible future rust experiments. Ongoing work on exploit mitigations includes [Control-flow Enforcement Technology](https://newsroom.intel.com/editorials/intel-cet-answers-call-protect-common-malware-threats/), [GWP-ASan](https://chromium.googlesource.com/chromium/src/+/lkgr/docs/gwp_asan.md), and [Control Flow Guard](https://docs.microsoft.com/en-us/windows/win32/secbp/control-flow-guard).
 
 ## We’re also working on reducing the privilege of the network service sandbox on Windows. We’re planning to do the same on Android later in the year.
 
@@ -328,7 +328,7 @@ Andrew
 
 ## We have started to collect [metrics](https://deprecate.it/) on dangerous web behaviors, with the hope of driving them down. The first one we’ll likely be looking at is [document.domain](https://github.com/mikewest/deprecating-document-domain).
 
-## The Security Architecture team completed the [CORS for content scripts migration](/Home/chromium-security/extension-content-script-fetches) in Chrome 87, removing the allowlist for older extensions and strengthening Site Isolation for all desktop users! Opt-in origin isolation was renamed to [Origin-Keyed Agent Clusters](https://www.chromestatus.com/feature/5683766104162304) and is on track to launch in Chrome 88. We are making progress towards additional Android Site Isolation for OAuth and COOP sites, and we helped secure SkBitmap IPCs against memory bugs. Finally, we have been investing in architecture changes, including [SiteInfo](https://source.chromium.org/chromium/chromium/src/+/master:content/browser/site_instance_impl.h;drc=62f7e7ad10582e60fb724e65dd2b088d4837fe4e;l=28) to better track principals and SiteInstanceGroup to simplify the process model, along with significant reviews for [Multiple Page Architecture](https://docs.google.com/document/d/1NginQ8k0w3znuwTiJ5qjYmBKgZDekvEPC22q0I4swxQ/edit?usp=sharing) and [Multiple Blink Isolates](https://docs.google.com/document/d/1qgDcgQWIXbsJrJUPuqnXv7sy8zf9xrf1ol90D0g7H5o/edit?usp=sharing).
+## The Security Architecture team completed the [CORS for content scripts migration](/Home/chromium-security/extension-content-script-fetches) in Chrome 87, removing the allowlist for older extensions and strengthening Site Isolation for all desktop users! Opt-in origin isolation was renamed to [Origin-Keyed Agent Clusters](https://www.chromestatus.com/feature/5683766104162304) and is on track to launch in Chrome 88. We are making progress towards additional Android Site Isolation for OAuth and COOP sites, and we helped secure SkBitmap IPCs against memory bugs. Finally, we have been investing in architecture changes, including [SiteInfo](https://source.chromium.org/chromium/chromium/src/+/HEAD:content/browser/site_instance_impl.h;drc=62f7e7ad10582e60fb724e65dd2b088d4837fe4e;l=28) to better track principals and SiteInstanceGroup to simplify the process model, along with significant reviews for [Multiple Page Architecture](https://docs.google.com/document/d/1NginQ8k0w3znuwTiJ5qjYmBKgZDekvEPC22q0I4swxQ/edit?usp=sharing) and [Multiple Blink Isolates](https://docs.google.com/document/d/1qgDcgQWIXbsJrJUPuqnXv7sy8zf9xrf1ol90D0g7H5o/edit?usp=sharing).
 
 ## Cheers,
 
@@ -498,7 +498,7 @@ memory safety techniques, and exploitation mitigation technologies.
 
 Along with our colleagues in Chrome Security Architecture, we've sharpened the
 security focus on
-[Mojo](https://chromium.googlesource.com/chromium/src.git/+/master/mojo/README.md),
+[Mojo](https://chromium.googlesource.com/chromium/src/+/HEAD/mojo/README.md),
 Chrome's IPC system, and started looking at what's needed to improve developer
 ergonomics and make it easier to reason about communicating over security
 boundaries. Also with CSA, we've worked on how
@@ -556,7 +556,7 @@ support for web iframes.
 In the world of the Web PKI, TLS certificates issued from default-trusted CAs
 after 2020-09-01 will be rejected if their lifetime is greater than 398 days,
 beginning with Chrome 85. See the [documentation and
-FAQ](https://chromium.googlesource.com/chromium/src/+/master/net/docs/certificate_lifetimes.md).
+FAQ](https://chromium.googlesource.com/chromium/src/+/HEAD/net/docs/certificate_lifetimes.md).
 This is part of a number of changes [adopted
 by](https://cabforum.org/2020/07/16/ballot-sc31-browser-alignment/) CA/Browser
 Forum with unanimous support from major Browsers, which aligns the Baseline
@@ -630,7 +630,7 @@ disruptive upstream changes in glibc and the kernel.
 
 Discussions about the various ways we can improve memory safety continue, and we
 laid plans to migrate PDFium’s XFA support to
-[Oilpan](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/platform/heap/BlinkGCAPIReference.md)
+[Oilpan](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/platform/heap/BlinkGCAPIReference.md)
 garbage collection, with the help of Oilpan and V8 teams. This will enable us to
 safely ship XFA in production, hopefully in 2020.
 
@@ -845,7 +845,7 @@ from certificates used to intercept their communications by adding the ability
 to rapidly deploy targeted protections via our
 [CRLSet](/Home/chromium-security/crlsets) mechanism. CRLSets allow us to quickly
 respond, using the [Component
-Updater](https://chromium.googlesource.com/chromium/src/+/master/components/component_updater/README.md),
+Updater](https://chromium.googlesource.com/chromium/src/+/HEAD/components/component_updater/README.md),
 without requiring a full Chrome release or respin.
 
 More generally, we continue to work on the “patch gap”, where security bug fixes
@@ -1110,7 +1110,7 @@ We also spent some time making life easier for Chrome OS developers. Devs now
 have access to a
 [time-of-check-time-of-use](https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use)
 safe [file
-library](https://chromium.googlesource.com/chromiumos/platform2/libbrillo/+/refs/heads/master/brillo/safe_fd.h),
+library](https://chromium.googlesource.com/chromiumos/platform2/libbrillo/+/HEAD/brillo/safe_fd.h),
 and a [simplified
 mechanism](https://groups.google.com/a/chromium.org/d/msg/chromium-os-dev/zYP4tlXQmRg/aMyd2l-SBAAJ)
 for building system call filtering policies.
@@ -1166,7 +1166,7 @@ topic in an [Enigma 2019 talk](https://www.youtube.com/watch?v=RPoAc0ScdTM). We
 open-sourced a [tool](https://github.com/chromium/trickuri) that we use to help
 browser developers display site identity correctly. We also published a set of
 [URL display
-guidelines](https://chromium.googlesource.com/chromium/src/+/master/docs/security/url_display_guidelines/url_display_guidelines.md)
+guidelines](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/url_display_guidelines/url_display_guidelines.md)
 and subsequently incorporated them into the [URL
 standard](https://url.spec.whatwg.org/#url-rendering).
 
@@ -1328,7 +1328,7 @@ fuzzer](https://bugs.chromium.org/p/chromium/issues/detail?id=607649) by
 extending the Mojo javascript bindings and found [security
 bugs](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=mojo_fuzzer+label%3AClusterFuzz+Type%3DBug-Security&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids).
 We also
-[migrated](https://chromium.googlesource.com/chromium/src/+/master/docs/code_coverage.md)
+[migrated](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/code_coverage.md)
 our fuzzing infrastructure to provide [Clang Source-based Code
 Coverage](https://clang.llvm.org/docs/SourceBasedCodeCoverage.html) reports and
 deprecated [Sancov](https://clang.llvm.org/docs/SanitizerCoverage.html).
@@ -1429,7 +1429,7 @@ fuzzer](https://cs.chromium.org/chromium/src/mojo/public/tools/fuzzers/) that
 generates fuzzing bindings in JS and found some scary
 [vulnerabilities](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=mojo_fuzzer+Type%3DBug-Security&sort=-type&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified+Type&x=m&y=releaseblock&cells=ids).
 We added [libFuzzer fuzzing support in Chrome
-OS](https://chromium.googlesource.com/chromiumos/docs/+/master/fuzzing.md) and
+OS](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/fuzzing.md) and
 got new fuzz target contributions from Chrome OS developers and found several
 [bugs](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=libfuzzer_asan_chromeos+-status%3ADuplicate%2CWontFix+label%3AClusterFuzz&colspec=ID+Pri+M+Stars+ReleaseBlock+Component+Status+Owner+Summary+OS+Modified&x=m&y=releaseblock&cells=ids).
 We made numerous improvements to our ClusterFuzz fuzzing infrastructure,
@@ -1476,7 +1476,7 @@ decision.
 Chrome OS spent a big chunk of Q2 updating and documenting our processes to
 ensure we can better handle future incidents like Spectre and Meltdown. We
 expanded our [security review
-guidelines](https://chromium.googlesource.com/chromiumos/docs/+/master/security_review_howto.md)
+guidelines](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/security_review_howto.md)
 so that they can be used both by security engineers while reviewing a feature,
 as well as by SWE and PM feature owners as they navigate the Chrome OS launch
 process.
@@ -1530,7 +1530,7 @@ flurry of activity followed as we rushed to patch older kernels against Meltdown
 in Chrome OS 66, and incorporated Spectre fixes for ARM Chrome OS devices in
 Chrome OS 67. We also started codifying our [security review guidelines in a
 HOWTO
-doc](https://chromium.googlesource.com/chromiumos/docs/+/master/security_review_howto.md),
+doc](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/security_review_howto.md),
 to allow the larger Chrome OS team to better prepare for security reviews of
 their features. Moreover, after being bit by symlinks and FIFOs being used as
 part of [several](https://bugs.chromium.org/p/chromium/issues/detail?id=344051)
@@ -1601,7 +1601,7 @@ In effort to find and fix bugs, we (Bugs--):
 
     Hosted a month long fuzzathon in October where Chromium developers
     participated in writing new [fuzz
-    targets](https://chromium.googlesource.com/chromium/src/testing/libfuzzer/+/master/README.md)
+    targets](https://chromium.googlesource.com/chromium/src/testing/libfuzzer/+/HEAD/README.md)
     and fixing blockers for existing ones. This resulted in 93 bugs, several of
     which were in new uncovered areas of codebase; results
     [here](https://clusterfuzz.com/v2/fuzzathon).
@@ -1644,7 +1644,7 @@ As always, we invest a lot in security architecture and exploit mitigations.
 Last quarter, we (Platform Security / Site Isolation):
 
     Started rolling out the [Mac Sandbox
-    v2](https://chromium.googlesource.com/chromium/src.git/+/master/sandbox/mac/seatbelt_sandbox_design.md),
+    v2](https://chromium.googlesource.com/chromium/src/+/HEAD/sandbox/mac/seatbelt_sandbox_design.md),
     bringing both greater security and cleaner code.
 
     [Refactored sandbox code out of
@@ -1731,7 +1731,7 @@ Bugs-- team
     experimented with in-process fuzzing with
     [libprotobuf-mutator](https://github.com/google/libprotobuf-mutator) and
     added a
-    [sample](https://chromium.googlesource.com/chromium/src/+/master/testing/libfuzzer/libprotobuf-mutator.md).
+    [sample](https://chromium.googlesource.com/chromium/src/+/HEAD/testing/libfuzzer/libprotobuf-mutator.md).
 
     Recent ClusterFuzz improvements for developers:
 

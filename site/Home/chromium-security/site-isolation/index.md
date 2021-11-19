@@ -109,7 +109,7 @@ can make exploitation easier.
 
 Chrome's architecture provides additional defenses against these powerful
 attacks. Chrome's
-[sandbox](https://chromium.googlesource.com/chromium/src/+/master/docs/design/sandbox.md)
+[sandbox](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/design/sandbox.md)
 helps prevent a compromised renderer process from being able to access arbitrary
 local resources (e.g. files, devices). Site Isolation helps protect websites
 against attacks from compromised renderer processes, UXSS, and side-channel

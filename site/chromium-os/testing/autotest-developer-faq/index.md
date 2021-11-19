@@ -164,7 +164,7 @@ The best way is to prepare a CL and test it using
 Most tests are checked in under third_party/autotest/files/ (autotest.git
 chromium-os project). Some may be scattered around other locations. See [the
 autotest
-docs](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/master/docs/user-doc.md#Q1_What-autotest-ebuilds-are-out-there)
+docs](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/user-doc.md#Q1_What-autotest-ebuilds-are-out-there)
 to find out the complete list.
 
 **`Test cases are not upstreamed to the general autotest repository as most are

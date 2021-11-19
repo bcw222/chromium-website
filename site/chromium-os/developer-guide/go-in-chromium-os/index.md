@@ -82,7 +82,7 @@ Write an ebuild to fetch and install third party packages to
 
 *   If the upstream repository has tagged releases, use the ebuild
             version to fetch and install the corresponding release. Example:
-            [dev-go/errors](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/master/dev-go/errors)
+            [dev-go/errors](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/dev-go/errors)
 
     ```none
     # Copyright 2018 The Chromium OS Authors. All rights reserved.# Distributed under the terms of the GNU General Public License v2.EAPI="6"CROS_GO_SOURCE="github.com/pkg/errors v${PV}"CROS_GO_PACKAGES=(	"github.com/pkg/errors")inherit cros-goDESCRIPTION="Error handling primitives for Go."HOMEPAGE="https://github.com/pkg/errors"SRC_URI="$(cros-go_src_uri)"LICENSE="BSD"SLOT="0"KEYWORDS="*"IUSE=""RESTRICT="binchecks strip"DEPEND=""RDEPEND=""
@@ -91,7 +91,7 @@ Write an ebuild to fetch and install third party packages to
 *   If the upstream repository does not have release tags, keep the
             ebuild version at `0.0.1` and manage the commit hash manually.
             Example:
-            [dev-go/glog](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/master/dev-go/glog/glog-0.0.1.ebuild)
+            [dev-go/glog](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/dev-go/glog/glog-0.0.1.ebuild)
 
     ```none
     # Copyright 2018 The Chromium OS Authors. All rights reserved.# Distributed under the terms of the GNU General Public License v2.EAPI="6"CROS_GO_SOURCE="github.com/golang/glog 44145f04b68cf362d9c4df2182967c2275eaefed"CROS_GO_PACKAGES=(	"github.com/golang/glog")inherit cros-goDESCRIPTION="Leveled execution logs for Go"HOMEPAGE="https://github.com/golang/glog"SRC_URI="$(cros-go_src_uri)"LICENSE="BSD-Google"SLOT="0"KEYWORDS="*"IUSE=""RESTRICT="binchecks strip"DEPEND=""RDEPEND=""
@@ -99,7 +99,7 @@ Write an ebuild to fetch and install third party packages to
 
 *   If the canonical import path is different from the repository path,
             specify it along with the repository path. Example:
-            [dev-go/go-sys](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/master/dev-go/go-sys/go-sys-0.0.1.ebuild)
+            [dev-go/go-sys](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/dev-go/go-sys/go-sys-0.0.1.ebuild)
 
     ```none
     # Copyright 2018 The Chromium OS Authors. All rights reserved.# Distributed under the terms of the GNU General Public License v2.EAPI="6"CROS_GO_SOURCE="go.googlesource.com/sys:golang.org/x/sys a646d33e2ee3172a661fc09bca23bb4889a41bc8"CROS_GO_PACKAGES=(	"golang.org/x/sys/unix")inherit cros-goDESCRIPTION="Go packages for low-level interaction with the operating system"HOMEPAGE="https://golang.org/x/sys"SRC_URI="$(cros-go_src_uri)"LICENSE="BSD-Google"SLOT="0"KEYWORDS="*"IUSE=""RESTRICT="binchecks strip"DEPEND=""RDEPEND=""
@@ -144,7 +144,7 @@ other projects, its ebuild only needs to fetch and install the package files to
 **`"/usr/lib/gopath"`**.
 
 *   Example:
-            [dev-go/seccomp](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/master/dev-go/seccomp/seccomp-9999.ebuild)
+            [dev-go/seccomp](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/dev-go/seccomp/seccomp-9999.ebuild)
 
     ```none
     # Copyright 2018 The Chromium OS Authors. All rights reserved.# Distributed under the terms of the GNU General Public License v2.EAPI="6"CROS_WORKON_PROJECT="chromiumos/platform/go-seccomp"CROS_WORKON_LOCALNAME="../platform/go-seccomp"CROS_GO_PACKAGES=(	"chromiumos/seccomp")inherit cros-workon cros-goDESCRIPTION="Go support for Chromium OS Seccomp-BPF policy files"HOMEPAGE="https://chromium.org/chromium-os/developer-guide/chromium-os-sandboxing"LICENSE="BSD-Google"SLOT="0"KEYWORDS="~*"IUSE=""RESTRICT="binchecks strip"DEPEND=""RDEPEND=""
@@ -168,7 +168,7 @@ other projects, its ebuild only needs to fetch and install the package files to
 For a typical Go project that needs to build and install executables:
 
 *   Example:
-            [dev-go/golint](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/master/dev-go/golint/golint-0.0.1.ebuild)
+            [dev-go/golint](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/dev-go/golint/golint-0.0.1.ebuild)
 
     ```none
     # Copyright 2018 The Chromium OS Authors. All rights reserved.# Distributed under the terms of the GNU General Public License v2.EAPI="6"CROS_GO_SOURCE="github.com/golang/lint c5fb716d6688a859aae56d26d3e6070808df29f7"CROS_GO_BINARIES=(	"github.com/golang/lint/golint")inherit cros-goDESCRIPTION="A linter for Go source code"HOMEPAGE="https://github.com/golang/lint"SRC_URI="$(cros-go_src_uri)"LICENSE="BSD-Google"SLOT="0"KEYWORDS="*"IUSE=""RESTRICT="binchecks strip"DEPEND="dev-go/go-tools"RDEPEND=""
@@ -186,7 +186,7 @@ A single ebuild can install executable binaries, as well as provide Go packages
 for other projects to import.
 
 *   Example:
-            [dev-go/go-tools](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/master/dev-go/go-tools/go-tools-0.0.1.ebuild)
+            [dev-go/go-tools](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/dev-go/go-tools/go-tools-0.0.1.ebuild)
 
     ```none
     # Copyright 2018 The Chromium OS Authors. All rights reserved.# Distributed under the terms of the GNU General Public License v2.EAPI="6"CROS_GO_SOURCE="go.googlesource.com/tools:golang.org/x/tools 2d19ab38faf14664c76088411c21bf4fafea960b"CROS_GO_PACKAGES=(	"golang.org/x/tools/go/gcimporter15"	"golang.org/x/tools/go/gcexportdata")CROS_GO_TEST=(	"${CROS_GO_PACKAGES[@]}")CROS_GO_BINARIES=(	"golang.org/x/tools/cmd/godoc"	"golang.org/x/tools/cmd/guru:goguru")inherit cros-goDESCRIPTION="Packages and tools that support the Go programming language"HOMEPAGE="https://golang.org/x/tools"SRC_URI="$(cros-go_src_uri)"LICENSE="BSD-Google"SLOT="0"KEYWORDS="*"IUSE=""RESTRICT="binchecks strip"DEPEND=""RDEPEND=""
@@ -214,7 +214,7 @@ for other projects to import.
 ## **Useful functions and variables**
 
 The cros-go eclass is defined here:
-[chromiumos-overlay/eclass/cros-go.eclass](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/master/eclass/cros-go.eclass)
+[chromiumos-overlay/eclass/cros-go.eclass](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/eclass/cros-go.eclass)
 `CROS_GO_SOURCE`                Path to the upstream repository and commit id.
 Go repositories on `"github.com"` and `"*.googlesource.com"` are supported.
 The source string contains the path of the git repository containing Go

@@ -7,4 +7,4 @@ title: FAFT
 ---
 
 Migrated to
-<https://chromium.googlesource.com/chromiumos/third_party/autotest/+/refs/heads/master/docs/faft-how-to-run-doc.md>
+<https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/faft-how-to-run-doc.md>

@@ -32,9 +32,9 @@ Use [cros deploy](/chromium-os/build/cros-deploy)
 
 First, check if the third party library is already available as a Gentoo package
 under
-[src/third_party/portage-stable](https://chromium.googlesource.com/chromiumos/overlays/portage-stable/+/master/)
+[src/third_party/portage-stable](https://chromium.googlesource.com/chromiumos/overlays/portage-stable/+/HEAD/)
 or
-[src/third_party/chromiumos-overlay](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/master/).
+[src/third_party/chromiumos-overlay](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/).
 
 If yes, then just add the package name to the DEPEND (if build-time dependency)
 and/or RDEPEND (if run-time dependency) of your app's ebuild.

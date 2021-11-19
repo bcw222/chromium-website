@@ -99,9 +99,9 @@ Video
 Code
 
 *   [Chrome
-            implementation](https://chromium.googlesource.com/chromium/src/+/master/net/quic/)
+            implementation](https://chromium.googlesource.com/chromium/src/+/HEAD/net/quic/)
 *   [Standalone test server and
-            client](https://chromium.googlesource.com/chromium/src/+/master/net/tools/quic/)
+            client](https://chromium.googlesource.com/chromium/src/+/HEAD/net/tools/quic/)
 
 **Mailing lists**
 

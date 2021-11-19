@@ -20,13 +20,13 @@ required for building Android, and a Mac is required for building iOS.
 This page documents common checkout and build instructions. There are
 platform-specific pages with additional information and requirements:
 
-*   [Linux](https://chromium.googlesource.com/chromium/src/+/master/docs/linux_build_instructions.md)
-*   [Windows](https://chromium.googlesource.com/chromium/src/+/master/docs/windows_build_instructions.md)
-*   [Mac](https://chromium.googlesource.com/chromium/src/+/master/docs/mac_build_instructions.md)
-*   [ChromeOS](https://chromium.googlesource.com/chromium/src/+/master/docs/chromeos_build_instructions.md)
-*   [iOS](https://chromium.googlesource.com/chromium/src/+/master/docs/ios_build_instructions.md)
-*   [Cast](https://chromium.googlesource.com/chromium/src/+/master/docs/cast_build_instructions.md)
-*   [Android](https://chromium.googlesource.com/chromium/src/+/master/docs/android_build_instructions.md)
+*   [Linux](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/linux_build_instructions.md)
+*   [Windows](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/windows_build_instructions.md)
+*   [Mac](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/mac_build_instructions.md)
+*   [ChromeOS](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/chromeos_build_instructions.md)
+*   [iOS](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/ios_build_instructions.md)
+*   [Cast](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/cast_build_instructions.md)
+*   [Android](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/android_build_instructions.md)
 
 ### Set up your environment
 
@@ -110,7 +110,7 @@ gn gen out/Default
             system and CPU.
 *   For more info on GN, run `gn help` on the command line or read the
             [quick start
-            guide](https://chromium.googlesource.com/chromium/src/+/master/tools/gn/docs/quick_start.md).
+            guide](https://chromium.googlesource.com/chromium/src/+/HEAD/tools/gn/docs/quick_start.md).
 
 ## Building
 
@@ -133,7 +133,7 @@ You can run chrome with (substituting "Default" with your build directory):
 *   Windows: `out\Default\chrome.exe`
 *   Mac: `out/Default/Chromium.app/Contents/MacOS/Chromium`
 *   [Android](/developers/how-tos/android-build-instructions)
-*   [iOS](https://chromium.googlesource.com/chromium/src/+/master/docs/ios_build_instructions.md)
+*   [iOS](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/ios_build_instructions.md)
 
 ### Running tests
 

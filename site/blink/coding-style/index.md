@@ -8,30 +8,30 @@ title: Blink Coding Style Guidelines
 
 These guidelines are specific to the [Blink](/blink) project, not to be confused
 with the general [Chromium coding
-style](https://chromium.googlesource.com/chromium/src/+/master/styleguide/styleguide.md).
+style](https://chromium.googlesource.com/chromium/src/+/HEAD/styleguide/styleguide.md).
 
 [TOC]
 
 ## C++
 
 This documentation has moved to the [Blink C++ Style
-Guide](https://chromium.googlesource.com/chromium/src/+/master/styleguide/c++/blink-c++.md).
+Guide](https://chromium.googlesource.com/chromium/src/+/HEAD/styleguide/c++/blink-c++.md).
 
 ## Python
 
 This documentation has moved to the [Blink Python Style
-Guide](https://chromium.googlesource.com/chromium/src/+/master/styleguide/python/blink-python.md).
+Guide](https://chromium.googlesource.com/chromium/src/+/HEAD/styleguide/python/blink-python.md).
 
 ## Web tests
 
 See [Writing Web
-Tests](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/writing_web_tests.md).
+Tests](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/writing_web_tests.md).
 
 ## License
 
 Existing files in Blink use a longer header license block inherited from WebKit,
 however new files should follow the Chromium [File Header
-Style](https://chromium.googlesource.com/chromium/src/+/master/styleguide/c++/c++.md#File-headers).
+Style](https://chromium.googlesource.com/chromium/src/+/HEAD/styleguide/c++/c++.md#File-headers).
 
 To use this license block you must make sure you have completed the [External
 Contributor

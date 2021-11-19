@@ -13,4 +13,4 @@ title: OBSOLETE. GPU Memory Tracing
 ---
 
 Moved to
-<https://chromium.googlesource.com/chromium/src/+/master/docs/memory-infra/probe-gpu.md>
+<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/memory-infra/probe-gpu.md>

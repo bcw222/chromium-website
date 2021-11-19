@@ -10,4 +10,4 @@ title: Running Telemetry on Chrome OS
 
 This page has moved to:
 
-<https://chromium.googlesource.com/chromiumos/docs/+/master/cros_vm.md#Run-telemetry-unit-tests>
+<https://chromium.googlesource.com/chromiumos/docs/+/HEAD/cros_vm.md#Run-telemetry-unit-tests>

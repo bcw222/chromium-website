@@ -21,7 +21,7 @@ authenticating incoming protobufs.
 
 The term "policy blob" usually refers to a binary-encoded PolicyFetchResponse
 protobuf message as defined here:
-<https://chromium.googlesource.com/chromium/src/components/policy/proto/+/master/device_management_backend.proto>
+<https://chromium.googlesource.com/chromium/src/components/policy/proto/+/HEAD/device_management_backend.proto>
 
 This protobuf message is a nested structure and contains binary-encoded payload
 protobufs. The layers are as follows:
@@ -41,10 +41,10 @@ protobufs. The layers are as follows:
             which is indicated by type google/chromeos/user. The protobuf
             definition is generated at compile time from
             chrome/app/policy/policy_templates.json:
-            <https://chromium.googlesource.com/chromium/src/+/master/components/policy/resources/policy_templates.json>
+            <https://chromium.googlesource.com/chromium/src/+/HEAD/components/policy/resources/policy_templates.json>
 4.  Chromium OS device policy is handled by ChromeDeviceSettingsProto
             defined in
-            <https://chromium.googlesource.com/chromium/src/chrome/browser/chromeos/policy/proto/+/master/chrome_device_policy.proto>
+            <https://chromium.googlesource.com/chromium/src/chrome/browser/chromeos/policy/proto/+/HEAD/chrome_device_policy.proto>
             and is applicable if the policy type is google/chromeos/device.
 
 ## Manipulating binary blobs

@@ -15,7 +15,7 @@ became obsolete, so please consult the following two sections for details on
 these tests:
 
 [Reproducing WebGL conformance test failures
-locally](https://chromium.googlesource.com/chromium/src.git/+/master/docs/gpu/pixel_wrangling.md#Reproducing-WebGL-conformance-test-failures-locally)
+locally](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/gpu/pixel_wrangling.md#Reproducing-WebGL-conformance-test-failures-locally)
 
 [Running the GPU Tests
-Locally](https://chromium.googlesource.com/chromium/src.git/+/master/docs/gpu/gpu_testing.md#Running-the-GPU-Tests-Locally)
+Locally](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/gpu/gpu_testing.md#Running-the-GPU-Tests-Locally)

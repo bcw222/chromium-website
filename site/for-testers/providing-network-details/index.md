@@ -81,4 +81,4 @@ For info about adding command line options, see
 **Advanced: Viewing the NetLog dump file**
 
 The log file can be loaded using the
-[netlog_viewer](https://chromium.googlesource.com/catapult/+/master/netlog_viewer/).
+[netlog_viewer](https://chromium.googlesource.com/catapult/+/HEAD/netlog_viewer/).

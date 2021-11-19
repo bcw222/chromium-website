@@ -7,4 +7,4 @@ title: Web Development Style Guide
 ---
 
 has moved to here:
-<https://chromium.googlesource.com/chromium/src/+/master/styleguide/web/web.md>
+<https://chromium.googlesource.com/chromium/src/+/HEAD/styleguide/web/web.md>

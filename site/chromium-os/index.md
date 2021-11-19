@@ -57,10 +57,10 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 
 *   [Chromium OS FAQ](/chromium-os/chromium-os-faq)
 *   [Project contact
-            details](https://chromium.googlesource.com/chromiumos/docs/+/master/contact.md)
+            details](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/contact.md)
             (groups/etc...)
 *   [Report
-            bugs](https://chromium.googlesource.com/chromiumos/docs/+/master/reporting_bugs.md)
+            bugs](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/reporting_bugs.md)
 
 </div>
 <div class="column">
@@ -72,17 +72,17 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 *   First time? Use the [Chromium OS Quick Start
             Guide](/chromium-os/quick-start-guide)
 *   Read the [Chromium OS Developer
-            Guide](https://chromium.googlesource.com/chromiumos/docs/+/master/developer_guide.md)
+            Guide](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_guide.md)
             to learn how to build the source
 *   [Overview](/chromium-os/developer-guide/directory-structure) of the
             source
 *   [Browse](https://chromium.googlesource.com/) the source
 *   [Coding Style
-            Guidelines](https://chromium.googlesource.com/chromiumos/docs/+/master/styleguide/)
+            Guidelines](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/styleguide/)
     *   [Chromium OS Python Style
-                Guide](https://chromium.googlesource.com/chromiumos/docs/+/master/styleguide/python.md)
+                Guide](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/styleguide/python.md)
     *   [Chromium OS Shell Style
-                Guide](https://chromium.googlesource.com/chromiumos/docs/+/master/styleguide/shell.md)
+                Guide](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/styleguide/shell.md)
     *   For other languages, follow the [Google Style
                 Guide](https://github.com/google/styleguide/#google-style-guides)
     *   For third-party code, follow the external project style guides

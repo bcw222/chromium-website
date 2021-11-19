@@ -8,4 +8,4 @@ page_name: layout-test-style-guidelines
 title: Web Test Style Guidelines
 ---
 
-[docs/testing/writing_web_tests.md](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/writing_web_tests.md)
+[docs/testing/writing_web_tests.md](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/writing_web_tests.md)

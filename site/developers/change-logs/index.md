@@ -22,14 +22,14 @@ https://chromium.googlesource.com/chromium/src/+log/oldhash..newhash?pretty=full
 JSON format queries:
 
 *   add format=JSON to any query (note the ALL CAPS). E.g.:
-            <https://chromium.googlesource.com/chromium/src/+log/master?pretty=full&format=JSON>
+            <https://chromium.googlesource.com/chromium/src/+log/main?pretty=full&format=JSON>
 *   The "next" key inside JSON provides a cursor for the next page. Use
             it with s=&lt;next_cursor&gt;, e.g.
-            <https://chromium.googlesource.com/chromium/src/+log/master?pretty=full&s=baa385c24c57df62f64a5f1fecee739dc2dcc3ba>
+            <https://chromium.googlesource.com/chromium/src/+log/main?pretty=full&s=baa385c24c57df62f64a5f1fecee739dc2dcc3ba>
     *   The last page will have no "next" key. Also any page except for
                 the first will have a "previous" cursor to page backwards.
 *   Page size: e.g. n=1000:
-            <https://chromium.googlesource.com/chromium/src/+log/master?pretty=full&format=JSON&n=1000>
+            <https://chromium.googlesource.com/chromium/src/+log/main?pretty=full&format=JSON&n=1000>
 
 Note, that JSON format has a ")\]}'" line at the top, to prevent cross-site
 scripting. When parsing, assert that the first line has ")\]}'", strip it, and

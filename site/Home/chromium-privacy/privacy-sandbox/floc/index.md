@@ -80,7 +80,7 @@ The browser instance's cohort calculation is based on the following inputs:
         uses the document.interestCohort() API, or
 
         is detected as loading ads-related resources (see [Ad Tagging in
-        Chromium](https://chromium.googlesource.com/chromium/src/+/master/docs/ad_tagging.md)).
+        Chromium](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/ad_tagging.md)).
 
     The API is disabled, and the domain name is ignored, on any page which is
     served with the HTTP response header Permissions-Policy: interest-cohort=().

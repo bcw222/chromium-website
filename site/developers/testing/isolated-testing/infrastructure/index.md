@@ -23,7 +23,7 @@ Integration system.
 
 This page is about the Chromium specific Swarming infrastructure. For the
 general Swarming Design, see [its
-documentation](https://chromium.googlesource.com/infra/luci/luci-py/+/master/appengine/swarming/doc/Design.md).
+documentation](https://chromium.googlesource.com/infra/luci/luci-py/+/HEAD/appengine/swarming/doc/Design.md).
 
 ## Background
 

@@ -7,6 +7,6 @@ title: Using Eclipse with Chromium
 ---
 
 *   Linux:
-            <https://chromium.googlesource.com/chromium/src/+/master/docs/linux_eclipse_dev.md>
+            <https://chromium.googlesource.com/chromium/src/+/HEAD/docs/linux_eclipse_dev.md>
 *   Android:
-            <https://chromium.googlesource.com/chromium/src.git/+/master/docs/eclipse.md>
+            <https://chromium.googlesource.com/chromium/src/+/HEAD/docs/eclipse.md>

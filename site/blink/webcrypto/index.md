@@ -238,7 +238,7 @@ Chromium's WebCrypto implementation supports all of the key formats - "raw",
 ## Examples of how to use WebCrypto
 
 Some examples of using WebCrypto can be found in the [Blink
-LayoutTests](https://chromium.googlesource.com/chromium/blink/+/master/LayoutTests/crypto/).
+LayoutTests](https://chromium.googlesource.com/chromium/blink/+/HEAD/LayoutTests/crypto/).
 
 (These can't be run directly in the browser because they access functionality
 from the test harness, however it gives an idea of how to call the various
@@ -396,24 +396,24 @@ WebCrypto bugs/features.
 
 ### Code location reference
 
-*   [src/components/webcrypto](https://chromium.googlesource.com/chromium/src/+/master/components/webcrypto)
+*   [src/components/webcrypto](https://chromium.googlesource.com/chromium/src/+/HEAD/components/webcrypto)
     Contains the actual crypto algorithm implementations (HMAC, ECDH, RSA-PSS,
     etc.).
-*   [src/components/test/data/webcrypto](https://chromium.googlesource.com/chromium/src/+/master/components/test/data/webcrypto)
+*   [src/components/test/data/webcrypto](https://chromium.googlesource.com/chromium/src/+/HEAD/components/test/data/webcrypto)
     Test data used by
-    [src/components/webcrypto](https://chromium.googlesource.com/chromium/src/+/master/components/webcrypto).
+    [src/components/webcrypto](https://chromium.googlesource.com/chromium/src/+/HEAD/components/webcrypto).
     Note that more extensive tests live in LayoutTests, and these will
     eventually be transitioned there too.
-*   [src/third_party/WebKit/LayoutTests/crypto](https://chromium.googlesource.com/chromium/blink/+/master/LayoutTests/crypto)
+*   [src/third_party/WebKit/LayoutTests/crypto](https://chromium.googlesource.com/chromium/blink/+/HEAD/LayoutTests/crypto)
     The end-to-end Javascript tests that exercise WebCrypto's crypto.subtle.\*
     methods.
 
-*   [src/third_party/WebKit/public/platform/WebCrypto.h](https://chromium.googlesource.com/chromium/blink/+/master/public/platform/WebCrypto.h)
+*   [src/third_party/WebKit/public/platform/WebCrypto.h](https://chromium.googlesource.com/chromium/blink/+/HEAD/public/platform/WebCrypto.h)
     Public interface that defines the Blink &lt;--&gt; Chromium layer
-*   [src/third_party/WebKit/Source/modules/crypto](https://chromium.googlesource.com/chromium/blink/+/master/Source/modules/crypto)
+*   [src/third_party/WebKit/Source/modules/crypto](https://chromium.googlesource.com/chromium/blink/+/HEAD/Source/modules/crypto)
     The Blink layer (responsible for interacting with the Javascript), and then
     calling into Chromium side using the WebCrypto interface.
-*   [src/third_party/WebKit/Source/bindings/modules/v8/ScriptValueSerializerForModules.cpp](https://chromium.googlesource.com/chromium/blink/+/master/Source/bindings/modules/v8/ScriptValueSerializerForModules.cpp)
+*   [src/third_party/WebKit/Source/bindings/modules/v8/ScriptValueSerializerForModules.cpp](https://chromium.googlesource.com/chromium/blink/+/HEAD/Source/bindings/modules/v8/ScriptValueSerializerForModules.cpp)
     Implements the structured clone for CryptoKey
 
 ### Running the Chromium unit-tests

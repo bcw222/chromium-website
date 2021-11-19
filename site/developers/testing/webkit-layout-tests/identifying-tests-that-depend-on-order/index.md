@@ -11,4 +11,4 @@ title: Fixing web test flakiness
 ---
 
 This content now lives at
-[docs/testing/identifying_tests_that_depend_on_order.md](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/identifying_tests_that_depend_on_order.md)
+[docs/testing/identifying_tests_that_depend_on_order.md](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/identifying_tests_that_depend_on_order.md)

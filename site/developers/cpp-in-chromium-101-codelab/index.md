@@ -9,4 +9,4 @@ title: C++ in Chromium 101 - Codelab
 The tutorial has moved to being checked in to the source tree.
 
 See the [C++ in Chromium 101
-Codelab](https://chromium.googlesource.com/chromium/src.git/+/master/codelabs/cpp101/codelab.md).
+Codelab](https://chromium.googlesource.com/chromium/src/+/HEAD/codelabs/cpp101/codelab.md).

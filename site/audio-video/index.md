@@ -18,7 +18,7 @@ on the Chromium bug tracker.
 ### Documentation
 
 See
-[media/README.md](https://chromium.googlesource.com/chromium/src/+/refs/heads/master/media/README.md).
+[media/README.md](https://chromium.googlesource.com/chromium/src/+/HEAD/media/README.md).
 For historical reference, here's the original [design doc for HTML5
 audio/video](/developers/design-documents/video).
 

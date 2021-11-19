@@ -57,7 +57,7 @@ party projects, you should follow the style that project has decided on.
 
 Most communication between processes is done via D-Bus. See the ["D-Bus best
 practices"
-doc](https://chromium.googlesource.com/chromiumos/docs/+/master/dbus_best_practices.md)
+doc](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/dbus_best_practices.md)
 for more information.
 
 #### Data Serialization

@@ -10,7 +10,7 @@ Types of Strings
 In the Chromium code base, we use std::string and std::u16string. Blink uses
 WTF::String instead, which is patterned on std::string, but is a slightly
 different class (see the
-[docs](https://chromium.googlesource.com/chromium/src/+/master/third_party/blink/renderer/platform/wtf/text/README.md)
+[docs](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/platform/wtf/text/README.md)
 for their guidelines, we’ll only talk about Chromium here). We also have a
 StringPiece\[16\] class, which is basically a pointer to a string that is owned
 elsewhere with a length of how many characters from the other string form this

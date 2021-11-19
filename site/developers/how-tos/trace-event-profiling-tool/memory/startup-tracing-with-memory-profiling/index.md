@@ -18,7 +18,7 @@ title: Startup tracing with memory profiling
             page](/developers/how-tos/trace-event-profiling-tool/recording-tracing-runs)
             for general information on startup tracing.
 *   See [this
-            page](https://chromium.googlesource.com/chromium/src/+/master/docs/memory-infra/README.md)
+            page](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/memory-infra/README.md)
             for general information about memory tracing.
 
 There are two ways to perform memory tracing at startup:

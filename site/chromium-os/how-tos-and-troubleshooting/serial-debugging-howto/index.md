@@ -74,7 +74,7 @@ Settings**, below.
 ### The console= option
 
 The console= option is described in detail in
-[kernel-parameters.txt](https://chromium.googlesource.com/chromiumos/third_party/kernel/+/master/Documentation/kernel-parameters.txt)
+[kernel-parameters.txt](https://chromium.googlesource.com/chromiumos/third_party/kernel/+/HEAD/Documentation/kernel-parameters.txt)
 in the Linux kernel source tree.
 
 ### Platform Specific Settings

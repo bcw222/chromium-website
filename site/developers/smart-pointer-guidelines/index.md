@@ -58,7 +58,7 @@ is used for reference-counted objects (though normally you should avoid these --
 see below). If you're familiar with C++11, `scoped_refptr<>` is similar in
 intent to `std::shared_ptr<>`.
 
-[base/memory/](https://chromium.googlesource.com/chromium/src/+/master/base/memory/)
+[base/memory/](https://chromium.googlesource.com/chromium/src/+/HEAD/base/memory/)
 has a few other objects of interest:
 
 *   `WeakPtr<>` is not actually a smart pointer; it functions like a

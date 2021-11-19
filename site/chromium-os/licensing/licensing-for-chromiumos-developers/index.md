@@ -20,7 +20,7 @@ included them to include some required build packages that provide static
 libraries (.a) linked in other projects and therefore part of Chrome OS, but not
 part of the package list.
 
-[licences.py](https://chromium.googlesource.com/chromiumos/chromite/+/master/licensing/licenses.py)
+[licences.py](https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/licensing/licenses.py)
 is currently meant to run inside a cros_sdk chroot after you have built an
 x86-alex board, it will ask portage for the list of packages installed by the
 build, and then retrieve the list of packages and their licenses. This is done

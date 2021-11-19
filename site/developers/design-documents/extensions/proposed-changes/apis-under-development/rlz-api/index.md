@@ -36,7 +36,7 @@ For background documents, please see:
             string](https://github.com/rogerta/rlz/blob/wiki/HowToReadAnRlzString.md)
 *   The [RLZ open source project](https://github.com/rogerta/rlz/)
             (since merged into the [main Chromium source
-            repo](https://chromium.googlesource.com/chromium/src/+/master/rlz/))
+            repo](https://chromium.googlesource.com/chromium/src/+/HEAD/rlz/))
 
 ## **Use Cases**
 

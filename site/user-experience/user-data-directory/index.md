@@ -7,4 +7,4 @@ title: User Data Directory
 ---
 
 This content moved to
-<https://chromium.googlesource.com/chromium/src/+/master/docs/user_data_dir.md>.
+<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/user_data_dir.md>.

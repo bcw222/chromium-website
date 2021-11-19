@@ -198,7 +198,7 @@ disassembly and letting the final diff do the work.
 #### Source Code
 
 Everyone loves source, so you can find it here:
-<https://chromium.googlesource.com/chromium/src/courgette/+/master>
+<https://chromium.googlesource.com/chromium/src/courgette/+/HEAD>
 
 #### Summary
 

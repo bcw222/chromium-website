@@ -9,4 +9,4 @@ title: Startup
 ---
 
 [This page has moved to the source code
-docs.](https://chromium.googlesource.com/chromium/src/+/master/docs/design/startup.md)
+docs.](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/design/startup.md)

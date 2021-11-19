@@ -8,4 +8,4 @@ page_name: android-jni
 title: JNI on Chromium for Android
 ---
 
-### Moved to: <https://chromium.googlesource.com/chromium/src/+/master/base/android/jni_generator/README.md>
+### Moved to: <https://chromium.googlesource.com/chromium/src/+/HEAD/base/android/jni_generator/README.md>

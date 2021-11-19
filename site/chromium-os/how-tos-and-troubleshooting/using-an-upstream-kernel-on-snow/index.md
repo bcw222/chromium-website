@@ -165,7 +165,7 @@ Chromebook](/system/errors/NodeNotFound).
 One especially weird thing when working with the upstream kernel is that
 standard ChromeOS kernel `splitconfig` system isn't in place. The kernel ebuild
 used by ChromeOS will realize that and will pick up a backup config from
-[chromiumos-overlay](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/master/eclass/cros-kernel).
+[chromiumos-overlay](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/eclass/cros-kernel).
 On snow it will pick up the `exynos5_defconfig` in particular.
 
 If you need to make changes to the kernel config locally the easiest thing to do

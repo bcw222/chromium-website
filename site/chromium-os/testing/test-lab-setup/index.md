@@ -67,7 +67,7 @@ to give you access to these builds.
     *   **apt-get install python-cherrypy3 python-lockfile**, or
                 easy_install -U cherrypy3 lockfile
 *   [gsutil
-            installed](https://chromium.googlesource.com/chromiumos/docs/+/master/gsutil.md#installing-gsutil)
+            installed](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/gsutil.md#installing-gsutil)
 *   A .boto file in your home directory
     *   Run \`gsutil config\`
 

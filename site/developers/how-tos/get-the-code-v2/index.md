@@ -174,7 +174,7 @@ If you're building Chrome for:
 *   Chrome OS, see [these build
             instructions](http://www.chromium.org/developers/how-tos/build-instructions-chromeos)
 *   Android, see [these build
-            instructions](https://chromium.googlesource.com/chromium/src/+/master/docs/android_build_instructions.md)
+            instructions](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/android_build_instructions.md)
 *   iOS, see [these build instructions](/system/errors/NodeNotFound)
 
 ## Using the last known good/compilable revision (LKGR/LKCR)

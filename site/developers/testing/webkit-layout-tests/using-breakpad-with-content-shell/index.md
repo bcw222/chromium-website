@@ -11,4 +11,4 @@ title: Using breakpad with content shell
 ---
 
 This content now lives at
-<https://chromium.googlesource.com/chromium/src/+/master/docs/testing/using_breakpad_with_content_shell.md>
+<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/using_breakpad_with_content_shell.md>

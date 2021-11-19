@@ -220,7 +220,7 @@ title: 'February 2021: New Features, Testing, Stability Fixes, Code Health and m
 
     <td><td>Cleaned up the code by using SimulatedClickCreationScope as argument
     for <a
-    href="https://source.chromium.org/chromium/chromium/src/+/master:third_party/blink/renderer/core/dom/element.h;drc=763c071aa91f87c5e404edff98bc5bac8075d4a1;l=600">Element::AccessKeyAction</a>
+    href="https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/renderer/core/dom/element.h;drc=763c071aa91f87c5e404edff98bc5bac8075d4a1;l=600">Element::AccessKeyAction</a>
     instead of bool send_mouse_events to clarify where the simulated click
     originates from</td></td>
 

@@ -9,4 +9,4 @@ title: ANGLE Standalone Testing Infrastructure (obsolete)
 ---
 
 This page is now moved to
-<https://chromium.googlesource.com/angle/angle/+/master/infra/README.md>
+<https://chromium.googlesource.com/angle/angle/+/HEAD/infra/README.md>

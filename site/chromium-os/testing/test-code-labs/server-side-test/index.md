@@ -15,7 +15,7 @@ title: Server Side Test for Chromium OS Autotest Codelab
 ****## References****
 
     ****[Autotest Best
-    Practices](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/refs/heads/master/docs/best-practices.md)****
+    Practices](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/best-practices.md)****
 
     ****[Writing
     Autotests](http://www.chromium.org/chromium-os/testing/autotest-developer-faq#TOC-Writing-Autotests)****
@@ -159,7 +159,7 @@ title: Server Side Test for Chromium OS Autotest Codelab
 
 ****#### Step 2.1. Create a Control file****
 
-****A control file contains important metadata about the test (name, author, description, duration, what suite it’s in, etc) and then pulls in and executes the actual test code. Detailed description about each variable can be found in the [Autotest Best Practices](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/refs/heads/master/docs/best-practices.md). You can also find more information about control files [here](https://github.com/autotest/autotest/wiki/AddingTest).****
+****A control file contains important metadata about the test (name, author, description, duration, what suite it’s in, etc) and then pulls in and executes the actual test code. Detailed description about each variable can be found in the [Autotest Best Practices](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/best-practices.md). You can also find more information about control files [here](https://github.com/autotest/autotest/wiki/AddingTest).****
 
 ****In the folder power_MyBacklightTest you just created, create a control file named “control”, with the following content, set NAME to the test name of “power_MyBacklightTest”. Note that NAME must be exactly the same as the folder name. Set AUTHOR to your name or email address (\[user_name\]@chromium.org).****
 
@@ -714,7 +714,7 @@ Code of the test wrapper
 Reference:
 /src/third_party/autotest/files/server/site_tests/power_BacklightServer
 
-<https://chromium.googlesource.com/chromiumos/third_party/autotest/+/master/server/site_tests/power_BacklightServer>
+<https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/server/site_tests/power_BacklightServer>
 
 ---
 

@@ -11,4 +11,4 @@ title: GPU Bot Details
 ---
 
 This page has moved to
-<https://chromium.googlesource.com/chromium/src/+/master/docs/gpu/gpu_testing_bot_details.md>.
+<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/gpu/gpu_testing_bot_details.md>.

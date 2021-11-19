@@ -26,15 +26,15 @@ specification](http://autotest.readthedocs.org/en/latest/main/local/ControlRequi
 In order to create a valid suite the following two requirements need to be met:
 
 *   A Suite control file (e.g.
-            [test_suites/control.bvt-inline](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/master/test_suites/control.bvt-inline))
+            [test_suites/control.bvt-inline](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/test_suites/control.bvt-inline))
 *   At least one test with the 'suite:&lt;your_suite_name&gt;' tag in
             the ATTRIBUTES line of test control file.
 
 We have a mechanism that allows suites of tests to be defined dynamically by a
 control file at runtime.
-`[test_suites/control.bvt-inline](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/master/test_suites/control.bvt-inline)`
+`[test_suites/control.bvt-inline](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/test_suites/control.bvt-inline)`
 in the autotest repo is a simple example of such a suite, and
-[login_LoginSuccess](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/master/client/site_tests/login_LoginSuccess/control)
+[login_LoginSuccess](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/client/site_tests/login_LoginSuccess/control)
 is one test that's included in this suite. Looking at the control file for
 login_LoginSuccess, note the line ATTRIBUTES = "suite:bvt-inline,
 suite:push_to_prod, suite:smoke". This is used in `control.bvt-inline` like
@@ -76,7 +76,7 @@ about the requirements of a particular test suite refer to its suite control
 under autotest/files/test_suites/control.suite_name.
 
 For example:
-[control.bvt-inline](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/master/test_suites/control.bvt-inline)
+[control.bvt-inline](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/test_suites/control.bvt-inline)
 
 ## How to Add tests to a Suite
 
@@ -324,7 +324,7 @@ on a number of events. The code lives under
 config file) can be created in ***autotest/files/suite_scheduler.ini.***
 
 For the test lab, the config file is located in chromeos-admin repo as
-[suite_scheduler.ini](https://chrome-internal.googlesource.com/chromeos/chromeos-admin/+/master/puppet/modules/lab/files/autotest_cautotest/suite_scheduler.ini)
+[suite_scheduler.ini](https://chrome-internal.googlesource.com/chromeos/chromeos-admin/+/HEAD/puppet/modules/lab/files/autotest_cautotest/suite_scheduler.ini)
 ([sample
 CL](https://chrome-internal-review.googlesource.com/#/c/chromeos/chromeos-admin/+/465732/)).
 

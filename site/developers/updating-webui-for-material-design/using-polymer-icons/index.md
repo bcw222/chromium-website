@@ -16,7 +16,7 @@ These can be custom SVG icons or copies of Polymer's
 
 To create the iconset your WebUI will use, copy the format of an existing icons
 file (e.g.,
-[cr_elements/icons.html](https://source.chromium.org/chromium/chromium/src/+/master:ui/webui/resources/cr_elements/icons.html)).
+[cr_elements/icons.html](https://source.chromium.org/chromium/chromium/src/+/HEAD:ui/webui/resources/cr_elements/icons.html)).
 Change the name of the `iron-iconset-svg` for your WebUI, and add the SVGs you
 need (see below). Example:
 

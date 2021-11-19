@@ -9,7 +9,7 @@ title: Media Router & Web Presentation API
 ---
 
 **This document is obsolete and will be removed soon. [The new version is
-here](https://chromium.googlesource.com/chromium/src.git/+/refs/heads/master/docs/media/media_router.md).**
+here](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/media/media_router.md).**
 
 The media router is a component in Chrome responsible for matching clients that
 wish to render content outside the browser (*media sources*) with devices and

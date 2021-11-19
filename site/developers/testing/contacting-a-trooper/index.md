@@ -9,4 +9,4 @@ title: Contacting a Trooper
 ---
 
 **Page has moved to
-[markdown](https://chromium.googlesource.com/infra/infra/+/master/doc/users/contacting_troopers.md).**
+[markdown](https://chromium.googlesource.com/infra/infra/+/HEAD/doc/users/contacting_troopers.md).**

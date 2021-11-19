@@ -39,10 +39,10 @@ or see the attached file.
 ## Firmware Source Code
 
 The firmware is located In the Chromium Embedded Controller repository under
-*[board/dingdong/](https://chromium.googlesource.com/chromiumos/platform/ec/+/master/board/hoho/)*
+*[board/dingdong/](https://chromium.googlesource.com/chromiumos/platform/ec/+/HEAD/board/hoho/)*
 :
 
-<https://chromium.googlesource.com/chromiumos/platform/ec/+/master/board/dingdong/>
+<https://chromium.googlesource.com/chromiumos/platform/ec/+/HEAD/board/dingdong/>
 
 ### Building Firmware
 

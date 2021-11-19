@@ -65,7 +65,7 @@ started, but it's recommended to first read at minimum:
             this is useful if you want to capture isolated SkPictures for the
             Skia team.
 *   [Tracking memory
-            allocations](https://chromium.googlesource.com/chromium/src/+/master/components/tracing/docs/memory_infra.md)
+            allocations](https://chromium.googlesource.com/chromium/src/+/HEAD/components/tracing/docs/memory_infra.md)
             with memory-infra tracing
 
 **Even further reading:**

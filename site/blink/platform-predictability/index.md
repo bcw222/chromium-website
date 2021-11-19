@@ -65,7 +65,7 @@ For details see:
 *   Blink's mission is to make the web better, fight the temptation to
             focus narrowly on just making Chrome great!
 *   Prefer [web-platform-test changes in your
-            CLs](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/web_platform_tests.md)
+            CLs](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/web_platform_tests.md)
             over web_tests changes where practical
 *   What matters to web developers is eliminating surprises, so focus on
             [pragmatic paths to

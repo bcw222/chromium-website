@@ -59,7 +59,7 @@ After Breakpad is enabled, you can have crash report minidumps generated
 locally.
 
 To get crash reports for content_shell and layout tests, see [this
-page](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/using_crashpad_with_content_shell.md).
+page](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/using_crashpad_with_content_shell.md).
 
 ### On Windows
 
@@ -96,7 +96,7 @@ loaded modules. It takes all of this information and puts it into a minidump
 file. This minidump is then HTTP POST uploaded to Google, along with some
 metadata. The metadata contains information like Chrome version, OS name and
 version, and [crash
-keys](https://chromium.googlesource.com/chromium/src/+/master/docs/debugging_with_crash_keys.md).
+keys](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/debugging_with_crash_keys.md).
 
 Once the crash report and metadata are received, a server begins processing it.
 The first step is to symbolize the instruction pointers to get function names
@@ -245,7 +245,7 @@ Another way to make variable values accessible in a crash report is to report it
 as metadata, rather than keeping it in the minidump. The metadata is viewable in
 the crash dashboard and is not contained in the minidump file. Learn more about
 [debugging with crash keys
-here](https://chromium.googlesource.com/chromium/src/+/master/docs/debugging_with_crash_keys.md).
+here](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/debugging_with_crash_keys.md).
 
 ## Checking Out a Release Branch
 

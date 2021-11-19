@@ -101,9 +101,9 @@ content::SimulateMouseClick(web_contents);
 In general, existing tests provide the best examples on how to write a new test.
 Look at the browser_tests and interactive_ui_tests targets in the [chrome/test
 build
-file](https://chromium.googlesource.com/chromium/src/+/master/chrome/test/BUILD.gn),
+file](https://chromium.googlesource.com/chromium/src/+/HEAD/chrome/test/BUILD.gn),
 or the content_browsertests target in [content/test build
-file](https://chromium.googlesource.com/chromium/src/+/master/content/test/BUILD.gn)
+file](https://chromium.googlesource.com/chromium/src/+/HEAD/content/test/BUILD.gn)
 to see a list of tests.
 
 ## Debugging
@@ -126,7 +126,7 @@ Browser tests do not show pixel output by default. Use
 --enable-pixel-output-in-tests to change this.
 
 In case you are debugging JavaScript browser tests (e.g. tests defined in
-[cr_settings_browsertest.js](https://source.chromium.org/chromium/chromium/src/+/master:chrome/test/data/webui/settings/cr_settings_browsertest.js)),
+[cr_settings_browsertest.js](https://source.chromium.org/chromium/chromium/src/+/HEAD:chrome/test/data/webui/settings/cr_settings_browsertest.js)),
 it can be helpful to add debugger; statements and to pass
 --auto-open-devtools-for-tabs. This way the browser test will automatically halt
 when the debugger; statement is hit, allowing you to inspect the execution state
@@ -138,7 +138,7 @@ To allow more customization (such as changing the command line flags of the
 browser process, i.e. to enable features that are off by default), the test
 fixture can derive from InProcessBrowserTest or ContentBrowserTest and override
 some methods. See their shared base class,
-[BrowserTestBase](https://chromium.googlesource.com/chromium/src/+/master/content/public/test/browser_test_base.h),
+[BrowserTestBase](https://chromium.googlesource.com/chromium/src/+/HEAD/content/public/test/browser_test_base.h),
 for more information
 
 ## Tests Spanning Restarts

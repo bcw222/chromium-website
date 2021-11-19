@@ -133,7 +133,7 @@ operate without the IO thread index by directly opening files in the directory.
 
 ### Code Location
 
-[src/net/disk_cache/simple](https://chromium.googlesource.com/chromium/src/+/master/net/disk_cache/simple/)
+[src/net/disk_cache/simple](https://chromium.googlesource.com/chromium/src/+/HEAD/net/disk_cache/simple/)
 
 ## Potential Improvements
 

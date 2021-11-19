@@ -7,4 +7,4 @@ title: Using Atom as your IDE
 ---
 
 This content has moved to
-<https://chromium.googlesource.com/chromium/src/+/master/docs/atom.md>
+<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/atom.md>

@@ -278,9 +278,9 @@ the previous histogram entries, then check the histogram entries again after
 reproducing the problem.
 
 For the full descriptions of every histogram, see
-[histograms.xml](https://source.chromium.org/chromium/chromium/src/+/master:tools/metrics/histograms/histograms.xml?originalUrl=https:%2F%2Fcs.chromium.org%2F)
+[histograms.xml](https://source.chromium.org/chromium/chromium/src/+/HEAD:tools/metrics/histograms/histograms.xml?originalUrl=https:%2F%2Fcs.chromium.org%2F)
 and
-[enums.xml](https://source.chromium.org/chromium/chromium/src/+/master:tools/metrics/histograms/enums.xml?originalUrl=https:%2F%2Fcs.chromium.org%2F)
+[enums.xml](https://source.chromium.org/chromium/chromium/src/+/HEAD:tools/metrics/histograms/enums.xml?originalUrl=https:%2F%2Fcs.chromium.org%2F)
 (very large files!) in the Chromium source tree.
 
 ### Using a NetLog dump

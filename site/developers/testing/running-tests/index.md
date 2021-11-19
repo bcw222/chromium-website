@@ -14,7 +14,7 @@ title: Running tests locally
 
 ### Windows
 
-1.  [Build](https://chromium.googlesource.com/chromium/src/+/master/docs/windows_build_instructions.md)
+1.  [Build](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/windows_build_instructions.md)
 2.  Set the test as the startup project and press F5 to compile it.
 3.  Or in a cmd window, run the test of interest in `src\chrome\Debug`,
             e.g. `src\chrome\Debug\base_unittests.exe`
@@ -22,7 +22,7 @@ title: Running tests locally
 ### Linux
 
 1.  `cd` `src/`
-2.  [Build](https://chromium.googlesource.com/chromium/src/+/master/docs/linux/build_instructions.md)
+2.  [Build](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/linux/build_instructions.md)
 3.  `Run the test of interest, e.g. ./out/Debug/base_unittests`
 
 Many unit tests create a chromium UI, which means they need the ability to
@@ -46,7 +46,7 @@ build directory with target_os="chromeos".
 
 ### Mac
 
-1.  [Build](https://chromium.googlesource.com/chromium/src/+/master/docs/mac_build_instructions.md)
+1.  [Build](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/mac_build_instructions.md)
             the tests: **ninja -C out/{Debug,Release} {test_target}**
 2.  Run the appropriate test target:
             **./out/{Debug,Release}/{test_target}**
@@ -75,7 +75,7 @@ third_party/blink/tools/run_web_tests.py --debug .
 
 More information about running web tests or fixing web tests can be found on the
 [**Web Tests
-page**](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/web_tests.md).
+page**](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/web_tests.md).
 
 ## **Unit tests and Browser tests**
 

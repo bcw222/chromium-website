@@ -42,7 +42,7 @@ Rather than having to maintain the mirror manually, we've written a script that
 should automate things for you. To fetch it:
 
 ```none
-wget 'https://chromium.googlesource.com/chromiumos/chromite/+/master/scripts/cros_mirror?format=text' -O - | base64 -d > cros_mirror
+wget 'https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/scripts/cros_mirror?format=text' -O - | base64 -d > cros_mirror
 chmod a+rx cros_mirror
 ```
 

@@ -8,7 +8,7 @@ title: Handling Blink failures
 
 AKA gardening or sheriffing. See also [the documentation of the Test
 Expectations
-files](https://chromium.googlesource.com/chromium/src/+/master/docs/testing/web_test_expectations.md),
+files](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/web_test_expectations.md),
 the [generic sheriffing docs](/developers/tree-sheriffs), and the
 [Chromium-specific sheriffing
 docs](/developers/tree-sheriffs/sheriff-details-chromium).

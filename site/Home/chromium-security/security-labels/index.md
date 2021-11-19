@@ -9,4 +9,4 @@ title: Security labels/components
 ---
 
 Please see
-[security-labels.md](https://chromium.googlesource.com/chromium/src/+/master/docs/security/security-labels.md).
+[security-labels.md](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/security-labels.md).

@@ -65,7 +65,7 @@ embedder.
 #### Naming
 
 The Blink API follows the [Blink coding
-conventions](https://chromium.googlesource.com/chromium/src/+/master/styleguide/c++/blink-c++.md).
+conventions](https://chromium.googlesource.com/chromium/src/+/HEAD/styleguide/c++/blink-c++.md).
 
 All public Blink API types and classes are in the namespace `blink` and have the
 prefix `Web`, both mostly for historical reasons. Types that are thin wrappers

@@ -11,4 +11,4 @@ title: Inactivity Delays
 ---
 
 Moved
-[here](https://chromium.googlesource.com/chromiumos/platform2/+/master/power_manager/docs/inactivity_delays.md).
+[here](https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/power_manager/docs/inactivity_delays.md).

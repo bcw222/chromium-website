@@ -34,7 +34,7 @@ title: Android Tests
 ## Running Tests
 
 View this guide for running Android tests:
-<https://chromium.googlesource.com/chromium/src/+/master/docs/testing/android_test_instructions.md>
+<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/android_test_instructions.md>
 
 ## Location of Test Code
 
