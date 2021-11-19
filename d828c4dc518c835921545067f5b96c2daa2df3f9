@@ -33,6 +33,24 @@
       "message": "*Almost* makes one want to write tests for these helpers... ;)",
       "revId": "d828c4dc518c835921545067f5b96c2daa2df3f9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6195f78a_1f3984f9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-19T20:58:06Z",
+      "side": 1,
+      "message": "Yeah, I did actually have some test code I wrote up while working on the feature,\nbut it wasn\u0027t that realistic so I didn\u0027t include it. \n\nIf this breaks again, I\u0027ll definitely add some code (three strikes and you\u0027re out and all ..).",
+      "parentUuid": "aca23aad_adf89813",
+      "revId": "d828c4dc518c835921545067f5b96c2daa2df3f9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
