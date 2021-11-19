@@ -29,18 +29,15 @@ There are up to 5 elements in an array, none of which are required. However,
 they are parsed by position, so to provide the 5th element, all previous fields
 must be present (but can be empty). The fields are:
 
-    The query value (must match the user input)
+1. The query value (must match the user input)
 
-    The suggestion list (an array of the suggestions text, i.e., possible
-    autocompleted query values)
+1. The suggestion list (an array of the suggestions text, i.e., possible autocompleted query values)
 
-    The description list (an array of the descriptive text corresponding to to
-    the suggestion list that is shown to the user)
+1. The description list (an array of the descriptive text corresponding to to the suggestion list that is shown to the user)
 
-    The query URL list (appears to be unused in Chrome, but needs to be the 4th
-    item)
+1. The query URL list (appears to be unused in Chrome, but needs to be the 4th item)
 
-    A JSON object of optional values
+1. A JSON object of optional values
 
 We will assume that the search engine has already implemented at least the first
 and second field of the suggestion API. The third field is optional, but will be
@@ -59,36 +56,25 @@ suggestion result, as it is at the top of the list, so the index is 0). Once the
 suggestion index is identified, the following should be added to the JSON object
 replacing &lt;prefetch index&gt; with the appropriate value:
 
-"google:clientdata": {
-
-"phi": &lt;prefetch index&gt;
-
-}
+    "google:clientdata": {
+        "phi": <prefetch index>;
+    }
 
 An example of the entire suggestion autocomplete response is provided below. It
 will cause a prefetch for the first result in the suggestion list:
 
-\[
+    [
+        "do",
+        ["Dog","Dolphin","Dodo"\],
+        ["Terrestrial Mammal", "Aquatic Mammal", "Extinct Bird"],
+        [],
+        {
+            "google:clientdata": {
+                "phi": 0
+            }
 
-"do",
-
-\["Dog","Dolphin","Dodo"\],
-
-\["Terrestrial Mammal", "Aquatic Mammal", "Extinct Bird"\],
-
-\[\],
-
-{
-
-"google:clientdata": {
-
-"phi": 0
-
-}
-
-}
-
-\]
+        }
+    ]
 
 This response will show the user the three results (Dog: Terrestrial mammal,
 Dolphin: Aquatic Mammal, Dodo: Extinct Bird), and it will trigger a prefetch of
@@ -112,30 +98,27 @@ treat the request as a prefetch from the omnibox.
 There are various reasons that Search prefetches might not be triggered by
 Chrome or might not be served to the user:
 
-    The user has disabled speculative prefetching
+* The user has disabled speculative prefetching
 
-    The user has disabled Javascript (overall of for the search provider domain)
+* The user has disabled Javascript (overall of for the search provider domain)
 
-    The suggestion engine is not the DSE
+* The suggestion engine is not the DSE
 
-    There was a recent error when prefetching
+* There was a recent error when prefetching
 
-    There were too many recent prefetches that the user did not navigate to
+* There were too many recent prefetches that the user did not navigate to
 
-    A prefetch (for that search term) was issued recently, whether it can be
-    served or not
+* A prefetch (for that search term) was issued recently, whether it can be served or not
 
-    Chrome (or an extension) blocked or delayed the search query URL
+* Chrome (or an extension) blocked or delayed the search query URL
 
-    The prefetch did not finish (see a 2XX response code) by the time the user
-    navigated
+* The prefetch did not finish (see a 2XX response code) by the time the user navigated
 
-    The user changed language, changed DSE, cleared history, etc. before the
-    user navigates to the prefetch
+* The user changed language, changed DSE, cleared history, etc. before the user navigates to the prefetch
 
-    The prefetch became stale (60 seconds is the current configuration)
+* The prefetch became stale (60 seconds is the current configuration)
 
-    The request failed (received a non 2XX error, timed out, network error)
+* The request failed (received a non 2XX error, timed out, network error)
 
 Additionally, if the DSE adds a prefetch parameter, and the prefetch is served,
 the address bar will show the URL the user would have otherwise navigated to
