@@ -12,46 +12,45 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// This file implements support for the "subpages" extension. If a
-// page author inserts `{% subpages collections.all %}` into a document,
-// this function will find all of the pages that are sub-pages of
-// the specified page (sub-pages in the sense that /blink/design-documents
-// is a sub-page of /blink) and display them in a hierarchical tree
-// format. `pageUrl` should be the path of the current page (Eleventy's
-// `page.url`) and `collectionOfAllPages` should be Eleventy's
-// `collections.all`.
+// This file implements support for the "subpages" extension. If a page author
+// inserts `{% subpages collections.all %}` into a document, this function will
+// find all of the pages that are sub-pages of the specified page (sub-pages in
+// the sense that /blink/design-documents is a sub-page of /blink) and display
+// them in a hierarchical tree format. `pageUrl` should be the (path part of
+// the) url of the current page (Eleventy's `page.url`) and
+// `collectionOfAllPages` should be Eleventy's `collections.all`.
 //
-// TODO(crbug.com/1271672): Figure out how to make this cleaner so the
-// syntax is less clunky.
+// TODO(crbug.com/1271672): Figure out how to make this cleaner so the syntax
+// is less clunky.
 function render(pageUrl, collectionOfAllPages) {
   let topPage = new Page('', pageUrl);
 
-  // the pages in `collectionOfAllPages` with `pageUrl` as an ancestor.
   let subPages = [];
   for (const item of collectionOfAllPages) {
-    if (item.data.page.url.startsWith(topPage.url)) {
+    if (isDescendant(item, topPage)) {
       subPages.push(new Page(item.data.title, item.data.page.url));
     }
   }
-  subPages.sort(byProperty('title'));
 
-  // A mapping from URLs to Pages for `pageUrl` and all its sub-pages.
+  // Create a map from URLs to Pages for `pageUrl` and its sub-pages.
   const pageMap = new Map();
   pageMap.set(topPage.url, topPage);
 
-  // Now build the mapping of sub-pages to pages.
-  for (subPage of subPages) {
+  // Sorting the pages by url ensures that a parent will be added to the
+  // map before any of its descendants when we populate the map.
+  subPages.sort(byProperty('url'));
+
+  for (const subPage of subPages) {
     pageMap.set(subPage.url, subPage);
-    if (pageMap.has(subPage.parentPage)) {
-      pageMap.get(subPage.parentPage).subPages.push(subPage);
-    }
+    pageMap.get(subPage.parentUrl).subPages.push(subPage);
   }
 
   let html = ('<nav class="subpage-listing">\n' +
               '  <h4>Subpage Listing</h4>\n' +
               '  <ul>\n');
 
-  for (const subPage of subPages) {
+  topPage.subPages.sort(byProperty('title'));
+  for (const subPage of topPage.subPages) {
     html += '    <li>\n' + subPage.walk(3);
   }
   html += ('  </ul>\n' +
@@ -63,8 +62,8 @@ function render(pageUrl, collectionOfAllPages) {
 class Page {
   constructor(title, url) {
     this.title = title;
-    this.url = rtrim(url, '/');
-    this.parentPage = dirname(this.url);
+    this.url = trimSlash(url);
+    this.parentUrl = dirname(this.url);
 
     // This holds only the immediate sub-pages of the page, not the
     // transitive closure of all sub-pages.
@@ -81,7 +80,7 @@ class Page {
     this.subPages.sort(byProperty('title'));
 
     if (this.subPages.length) {
-      let html = (`${indent}<details>\n` +
+      let html = (`${indent}<details open>\n` +
                   `${indent}  <summary><a href="${this.url}">${
                       this.title}</a></summary>\n` +
                   `${indent}  <ul>\n`);
@@ -90,11 +89,9 @@ class Page {
         html += (`${indent}    <li>\n` +
                  `${subPage.walk(indentDepth + 3)}`);
       }
-      html += (
-        `${indent}  </ul>\n` +
-        `${indent}</details>\n`
-      );
-        return html;
+      html += (`${indent}  </ul>\n` +
+               `${indent}</details>\n`);
+      return html;
     } else {
       return `${indent}<a href="${this.url}">${this.title}</a>\n`;
     }
@@ -109,12 +106,17 @@ function dirname(path) {
   return comps.slice(0, comps.length - 1).join('/');
 }
 
-// Returns a copy of the string `s` with the rightmost `ch` removed.
-function rtrim(s, ch) {
-  if (s.endsWith(ch)) {
+// Returns a copy of the string `s` with the rightmost `/` removed.
+function trimSlash(s) {
+  if (s.endsWith('/')) {
     return s.substr(0, s.length - 1);
   }
   return s;
+}
+
+function isDescendant(item, topPage) {
+  let itemUrl = trimSlash(item.data.page.url);
+  return itemUrl.startsWith(topPage.url + '/');
 }
 
 // Returns a comparison function that will compare two objects by
