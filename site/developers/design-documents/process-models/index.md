@@ -99,8 +99,8 @@ Javascript).
 
 Chromium also supports a process model that isolates different sites from each
 other, but groups all instances of the same site into the same process. To use
-this model, users should specify a --process-per-site command-line switch when
-starting Chromium. This creates fewer renderer processes, trading some
+this model, users should specify a `--process-per-site` command-line switch
+when starting Chromium. This creates fewer renderer processes, trading some
 robustness for lower memory overhead. This model is based on the origin of the
 content and not the relationships between tabs.
 
@@ -133,7 +133,7 @@ content and not the relationships between tabs.
 The process-per-site-instance and process-per-site models both consider the
 origin of the content when creating renderer processes. Chromium also supports a
 simpler model which dedicates one renderer process to each group of
-script-connected tabs. This model can be selected using the --process-per-tab
+script-connected tabs. This model can be selected using the `--process-per-tab`
 command-line switch.
 
 Specifically, we refer to a set of tabs with script connections to each other as
@@ -164,7 +164,7 @@ significantly simpler in practice than process-per-site-instance.
 ### Single process
 
 Finally, for the purposes of comparison, Chromium supports a single process
-model that can be enabled using the --single-process command-line switch. In
+model that can be enabled using the `--single-process` command-line switch. In
 this model, both the browser and rendering engine are run within a single OS
 process.
 The single process model provides a baseline for measuring any overhead that the
@@ -206,7 +206,7 @@ process models, along with their implications.
             Isolation](/developers/design-documents/site-isolation) project.
     However, there is a mechanism web pages can use to suggest that a link
     points to an unrelated page and can be safely rendered in a different
-    process. If a link has the rel=noreferrer target=_blank attributes, then
+    process. If a link has the `rel=noreferrer target=_blank` attributes, then
     Chromium will typically render it in a different process.
 *   Subframes are currently rendered in the same process as their parent
             page. Although cross-site subframes do not have script access to
@@ -227,17 +227,17 @@ process models, along with their implications.
 ## Implementation notes
 
 Two classes in Chromium represent the abstractions needed for the various
-process models: BrowsingInstance and SiteInstance.
-The BrowsingInstance class represents a set of script-connected tabs within the
-browser, also known as a unit of related browsing contexts in the HTML 5 spec.
-In the process-per-tab model, we create a renderer process for each
-BrowsingInstance.
-The SiteInstance class represents a set of connected pages from the same site.
-It is a subdivision of pages within a BrowsingInstance, and it is important that
-there is only one SiteInstance per site within a BrowsingInstance. In the
-process-per-site-instance model, we create a renderer process for each
-SiteInstance. To implement process-per-site, we ensure that all SiteInstances
-from the same site end up in the same process.
+process models: `BrowsingInstance` and `SiteInstance`.
+The `BrowsingInstance` class represents a set of script-connected tabs within
+the browser, also known as a unit of related browsing contexts in the HTML 5
+spec. In the process-per-tab model, we create a renderer process for each
+`BrowsingInstance`.
+The `SiteInstance` class represents a set of connected pages from the same site.
+It is a subdivision of pages within a `BrowsingInstance`, and it is important
+that there is only one `SiteInstance` per site within a `BrowsingInstance`. In
+the process-per-site-instance model, we create a renderer process for each
+`SiteInstance`. To implement process-per-site, we ensure that all
+`SiteInstances` from the same site end up in the same process.
 
 ## Academic Papers
 
