@@ -16,7 +16,7 @@ Chromium has a [multi-process
 architecture](/developers/design-documents/multi-process-architecture) which
 means that we have a lot of processes communicating with each other. Our main
 inter-process communication primitive is the named pipe. On Linux & OS X, we use
-a socketpair(). A named pipe is allocated for each renderer process for
+a `socketpair()`. A named pipe is allocated for each renderer process for
 communication with the browser process. The pipes are used in asynchronous mode
 to ensure that neither end is blocked waiting for the other.
 
@@ -54,9 +54,9 @@ renderer-to-browser messages (see "Synchronous messages" below).
 
 We have two primary types of messages: "routed" and "control." Control messages
 are handled by the class that created the pipe. Sometimes that class will allow
-others to received message by having a MessageRouter object that other listeners
-can register with and received "routed" messages sent with their unique (per
-pipe) id.
+others to received message by having a `MessageRouter` object that other
+listeners can register with and received "routed" messages sent with their
+unique (per pipe) id.
 
 For example, when rendering, control messages are not specific to a given view
 and will be handled by the `RenderProcess` (renderer) or the `RenderProcessHost`
@@ -65,47 +65,47 @@ view-specific so are control messages. An example of routed messages are a
 message to ask a view to paint a region.
 
 Routed messages have historically been used to get messages to a specific
-RenderViewHost. However, technically any class can receive routed messages by
-using RenderProcessHost::GetNextRoutingID and registering itself with
-RenderProcessHost::AddRoute. Currently both RenderViewHost and RenderFrameHost
-instances have their own routing IDs.
+`RenderViewHost`. However, technically any class can receive routed messages by
+using `RenderProcessHost::GetNextRoutingID` and registering itself with
+`RenderProcessHost::AddRoute`. Currently both `RenderViewHost` and
+`RenderFrameHost` instances have their own routing IDs.
 
 Independent of the message type is whether the message is sent from the browser
 to the renderer, or from the renderer to the browser. Messages related to a
 document's frame sent from the browser to the renderer are called `Frame`
 messages because they are being sent *to* the `RenderFrame`. Similarly, messages
 sent from the renderer to the browser are called `FrameHost` messages because
-they are being sent *to* the RenderFrameHost. You will notice the messages
+they are being sent *to* the `RenderFrameHost`. You will notice the messages
 defined in
 [frame_messages.h](https://code.google.com/p/chromium/codesearch#chromium/src/content/common/frame_messages.h)
-are two sections, one for Frame and one for FrameHost messages.
+are two sections, one for `Frame` and one for `FrameHost` messages.
 
 Plugins also have separate processes. Like the render messages, there are
 `PluginProcess` messages (sent from the browser to the plugin process) and
 `PluginProcessHost` messages (sent from the plugin process to the browser).
 These messages are all defined in
-`[plugin_process_messages.h](https://code.google.com/p/chromium/codesearch#chromium/src/content/common/plugin_process_messages.h)`.
+[`plugin_process_messages.h`](https://code.google.com/p/chromium/codesearch#chromium/src/content/common/plugin_process_messages.h).
 The automation messages (for controlling the browser from the UI tests) are done
 in a similar manner.
 
 The same organization applies for other groups of messages exchanged between the
-browser and the renderer, as for View and ViewHost labeled messages exchanged
-between RenderViewHost and RenderView, defined in
+browser and the renderer, as for `View` and `ViewHost` labeled messages
+exchanged between `RenderViewHost` and `RenderView`, defined in
 [view_messages.h](https://code.google.com/p/chromium/codesearch#chromium/src/content/common/view_messages.h).
 
 ### Declaring messages
 
 Special macros are used to declare messages. To declare a routed message from
-the renderer to the browser (e.g. a FrameHost message specific to a frame) that
-contains a URL and an integer as an argument, write:
-
+the renderer to the browser (e.g. a `FrameHost` message specific to a frame)
+that contains a URL and an integer as an argument, write:
+```cpp
 IPC_MESSAGE_ROUTED2(FrameHostMsg_MyMessage, GURL, int)
-
-To declare a control message from the browser to the renderer (e.g. a Frame
+```
+To declare a control message from the browser to the renderer (e.g. a `Frame`
 message not specific to a frame) that contains no parameters, write:
-
+```cpp
 IPC_MESSAGE_CONTROL0(FrameMsg_MyMessage)
-
+```
 #### Pickling values
 
 Parameters are serialized and de-serialized to message bodies using the
@@ -133,12 +133,13 @@ thread of the browser to the renderer. The `RenderWidgetHost` (base class for
 Messages are sent by pointer and will be deleted by the IPC layer after they are
 dispatched. Therefore, once you can find the appropriate `Send` function, just
 call it with a new message:
-
-Send(new ViewMsg_StopFinding(routing_id_)); Notice that you must specify the
-routing ID in order for the message to be routed to the correct View/ViewHost on
-the receiving end. Both the `RenderWidgetHost` (base class for `RenderViewHost`)
-and the `RenderWidget` (base class for `RenderView`) have` GetRoutingID()`
-members that you can use.
+```cpp
+Send(new ViewMsg_StopFinding(routing_id_));
+```
+Notice that you must specify the routing ID in order for the message to be
+routed to the correct View/ViewHost on the receiving end. Both the
+`RenderWidgetHost` (base class for `RenderViewHost`) and the `RenderWidget`
+(base class for `RenderView`) have` GetRoutingID()` members that you can use.
 
 ### Handling messages
 
@@ -146,22 +147,21 @@ Messages are handled by implementing the `IPC::Listener` interface, the most
 important function on which is `OnMessageReceived`. We have a variety of macros
 to simplify message handling in this function, which can best be illustrated by
 example:
-
+```cpp
 MyClass::OnMessageReceived(const IPC::Message& message) {
-IPC_BEGIN_MESSAGE_MAP(MyClass, message)
-// Will call OnMyMessage with the message. The parameters of the message will be
-unpacked for you.
-IPC_MESSAGE_HANDLER(ViewHostMsg_MyMessage, OnMyMessage)
-...
-IPC_MESSAGE_UNHANDLED_ERROR() // This will throw an exception for unhandled
-messages.
-IPC_END_MESSAGE_MAP()
+  IPC_BEGIN_MESSAGE_MAP(MyClass, message)
+    // Will call OnMyMessage with the message. The parameters of the message will be unpacked for you.
+    IPC_MESSAGE_HANDLER(ViewHostMsg_MyMessage, OnMyMessage)  
+    ...
+    IPC_MESSAGE_UNHANDLED_ERROR()  // This will throw an exception for unhandled messages.
+  IPC_END_MESSAGE_MAP()
 }
-// This function will be called with the parameters extracted from the
-ViewHostMsg_MyMessage message.
+
+// This function will be called with the parameters extracted from the ViewHostMsg_MyMessage message.
 MyClass::OnMyMessage(const GURL& url, int something) {
-...
+  ...
 }
+```
 
 You can also use `IPC_DEFINE_MESSAGE_MAP` to implement the function definition
 for you as well. In this case, do not specify a message variable name, it will
@@ -174,15 +174,17 @@ Other macros:
             you can specify your own class to send the message to, instead of
             sending it to the current class.
 
-IPC_MESSAGE_FORWARD(ViewHostMsg_MyMessage, some_object_pointer,
-SomeObject::OnMyMessage)
+    ```cpp
+    IPC_MESSAGE_FORWARD(ViewHostMsg_MyMessage, some_object_pointer, SomeObject::OnMyMessage)
+    ```
 
 *   `IPC_MESSAGE_HANDLER_GENERIC`: This allows you to write your own
             code, but you have to unpack the parameters from the message
             yourself:
 
-IPC_MESSAGE_HANDLER_GENERIC(ViewHostMsg_MyMessage, printf("Hello, world, I got
-the message."))
+    ```cpp
+    IPC_MESSAGE_HANDLER_GENERIC(ViewHostMsg_MyMessage, printf("Hello, world, I got the message."))
+    ```
 
 ### Security considerations
 
@@ -194,7 +196,7 @@ tips on how to avoid common pitfalls.
 
 ## Channels
 
-`IPC::Channel` (defined in ipc`/ipc_channel.h`) defines the methods for
+`IPC::Channel` (defined in `ipc/ipc_channel.h`) defines the methods for
 communicating across pipes. `IPC::SyncChannel` provides additional capabilities
 for synchronously waiting for responses to some messages (the renderer processes
 use this as described below in the "Synchronous messages" section, but the
@@ -235,10 +237,12 @@ concept of return parameters). For a control function which takes two input
 parameters and returns one parameter, you would append `2_1` to the macro name
 to get:
 
-IPC_SYNC_MESSAGE_CONTROL2_1(SomeMessage, // Message name
-GURL, //input_param1
-int, //input_param2
-std::string); //result
+```cpp
+IPC_SYNC_MESSAGE_CONTROL2_1(SomeMessage,  // Message name
+                            GURL, //input_param1
+                            int, //input_param2
+                            std::string); //result
+```
 
 Likewise, you can also have messages that are routed to the view in which case
 you would replace "control" with "routed" to get `IPC_SYNC_MESSAGE_ROUTED2_1`.
@@ -263,11 +267,12 @@ this means that the synchronous message reply can be processed out-of-order.
 
 Synchronous messages are sent the same way normal messages are, with output
 parameters being given to the constructor. For example:
-
+```cpp
 const GURL input_param("http://www.google.com/");
 std::string result;
 content::RenderThread::Get()-&gt;Send(new MyMessage(input_param, &result));
 printf("The result is %s\\n", result.c_str());
+```
 
 ### Handling synchronous messages
 
@@ -276,14 +281,15 @@ Synchronous messages and asynchronous messages use the same
 function for the message will have the same signature as the message
 constructor, and the function will simply write the output to the output
 parameter. For the above message you would add
-
-IPC_MESSAGE_HANDLER(MyMessage, OnMyMessage) to the `OnMessageReceived` function,
-and write:
-
-void RenderProcessHost::OnMyMessage(GURL input_param, std::string\* result) {
-\*result = input_param.spec() + " is not available";
+```cpp
+IPC_MESSAGE_HANDLER(MyMessage, OnMyMessage)
+```
+to the `OnMessageReceived` function, and write:
+```cpp
+void RenderProcessHost::OnMyMessage(GURL input_param, std::string* result) {
+  *result = input_param.spec() + " is not available";
 }
-
+```
 ### Converting message type to a message name
 
 If you get a crash and you have the message type you can convert this to a
