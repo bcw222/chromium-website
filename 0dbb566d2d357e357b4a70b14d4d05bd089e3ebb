@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bbc6497e_09ced931",
+        "filename": "scripts/subpages.js",
+        "patchSetId": 9
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-19T17:15:50Z",
+      "side": 1,
+      "message": "Good idea. Done.",
+      "parentUuid": "346055dd_c9c0952f",
+      "revId": "0dbb566d2d357e357b4a70b14d4d05bd089e3ebb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0cbf90fc_d3e11481",
@@ -48,6 +66,24 @@
       "writtenOn": "2021-11-19T16:33:36Z",
       "side": 1,
       "message": "You could do\n\nreturn (x, y) \u003d\u003e {\n  ...\n};",
+      "revId": "0dbb566d2d357e357b4a70b14d4d05bd089e3ebb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a78b1306_876c7333",
+        "filename": "scripts/subpages.js",
+        "patchSetId": 9
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-19T17:15:50Z",
+      "side": 1,
+      "message": "Also a good idea. Done.",
+      "parentUuid": "0cbf90fc_d3e11481",
       "revId": "0dbb566d2d357e357b4a70b14d4d05bd089e3ebb",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
