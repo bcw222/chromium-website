@@ -5,6 +5,14 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ]
+    ],
+
+    "headers": [{
+      "source": "**/*",
+      "headers": [ {
+        "key": "Content-Security-Policy",
+        "value": "script-src 'strict-dynamic' https:; object-src 'none'; base-uri 'none'; report-uri https://csp.withgoogle.com/csp/chromium-website/"
+      }]
+    }]
   }
 }
