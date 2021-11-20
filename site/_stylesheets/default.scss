@@ -478,8 +478,26 @@ header {
 
   // Used by the `[TOC]` extension.
   .table-of-contents {
+    border: 1px solid $box-border-color;
+    background-color: $box-bg-color;
+    display: table;
+    font-size: 12px;
+    margin-left: 1em;
+    padding: 1em 2em 1em 1em;
+
+    a {
+      text-decoration: none;
+    }
+
+    > ol::before {
+      content: "Contents";
+      display: block;
+      font-weight: 700;
+      margin: 0 0 0.5em -1em;
+    }
+
     ol {
-      line-height: 1em;
+      line-height: 1.1em;
       margin: 0;
       padding-left: 1.2em;
 
