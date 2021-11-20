@@ -31,16 +31,16 @@ break some of the rules in its own process.
 
 This protection is made possible by the following changes in Chrome's behavior:
 
-*   Cross-site documents are always put into a different process,
-            whether the navigation is in the current tab, a new tab, or an
-            iframe (i.e., one web page embedded inside another). Note that only
-            a subset of sites are isolated on Android, to reduce overhead.
-*   Cross-site data (such as HTML, XML, JSON, and PDF files) is not
-            delivered to a web page's process unless the server says it should
-            be allowed (using [CORS](https://www.w3.org/TR/cors/)).
-*   Security checks in the browser process can detect and terminate a
-            misbehaving renderer process (only on desktop platforms for the time
-            being).
+* Cross-site documents are always put into a different process,
+  whether the navigation is in the current tab, a new tab, or an
+  iframe (i.e., one web page embedded inside another). Note that only
+  a subset of sites are isolated on Android, to reduce overhead.
+* Cross-site data (such as HTML, XML, JSON, and PDF files) is not
+  delivered to a web page's process unless the server says it should
+  be allowed (using [CORS](https://www.w3.org/TR/cors/)).
+* Security checks in the browser process can detect and terminate a
+  misbehaving renderer process (only on desktop platforms for the time
+  being).
 
 Here, we use a precise definition for a **site**: the scheme and registered
 domain name, including the public suffix, but ignoring subdomains, port, or
@@ -71,30 +71,30 @@ attacks in the renderer process) need to be explicitly included in a browser’s
 security threat model. We assume that determined attackers will be able to find
 a way to compromise a renderer process, for several reasons:
 
-*   Past experience suggests that potentially exploitable bugs will be
-            present in future Chrome releases. There were [10 potentially
-            exploitable bugs in renderer components in
-            M69](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=Release%3D0-M69%2C1-M69%2C2-M69%2C3-M69+Type%3DBug-Security+Security_Severity%3DHigh%2CCritical+-status%3ADuplicate+label%3Aallpublic+component%3ABlink%2CInternals%3ECompositing%2CInternals%3EImages%3ECodecs%2CInternals%3EMedia%2CInternals%3ESkia%2CInternals%3EWebRTC%2C+-component%3ABlink%3EMedia%3EPictureInPicture%2CBlink%3EPayments%2CBlink%3EStorage%2CInternals%3ECore%2CInternals%3EPrinting%2CInternals%3EStorage%2CMojo%2CServices%3ESync%2CUI%3EBrowser&sort=m&groupby=&colspec=ID+Status+CVE+Security_Severity+Security_Impact+Component+Summary),
-            [5 in
-            M70](https://bugs.chromium.org/p/chromium/issues/list?sort=m&groupby=&colspec=ID%20Status%20CVE%20Security_Severity%20Security_Impact%20Component%20Summary&q=Release%3D0-M70%2C1-M70%2C2-M70%2C3-M70%20Type%3DBug-Security%20Security_Severity%3DHigh%2CCritical%20-status%3ADuplicate%20label%3Aallpublic%20component%3ABlink%2CInternals%3ECompositing%2CInternals%3EImages%3ECodecs%2CInternals%3EMedia%2CInternals%3ESkia%2CInternals%3EWebRTC%2C%20-component%3ABlink%3EMedia%3EPictureInPicture%2CBlink%3EPayments%2CBlink%3EStorage%2CInternals%3ECore%2CInternals%3EPrinting%2CInternals%3EStorage%2CMojo%2CServices%3ESync%2CUI%3EBrowser&can=1),
-            [13 in
-            M71](https://bugs.chromium.org/p/chromium/issues/list?sort=m&groupby=&colspec=ID%20Status%20CVE%20Security_Severity%20Security_Impact%20Component%20Summary&q=Release%3D0-M71%2C1-M71%2C2-M71%2C3-M71%20Type%3DBug-Security%20Security_Severity%3DHigh%2CCritical%20-status%3ADuplicate%20label%3Aallpublic%20component%3ABlink%2CInternals%3ECompositing%2CInternals%3EImages%3ECodecs%2CInternals%3EMedia%2CInternals%3ESkia%2CInternals%3EWebRTC%2C%20-component%3ABlink%3EMedia%3EPictureInPicture%2CBlink%3EPayments%2CBlink%3EStorage%2CInternals%3ECore%2CInternals%3EPrinting%2CInternals%3EStorage%2CMojo%2CServices%3ESync%2CUI%3EBrowser&can=1),
-            [13 in
-            M72](https://bugs.chromium.org/p/chromium/issues/list?sort=m&groupby=&colspec=ID%20Status%20CVE%20Security_Severity%20Security_Impact%20Component%20Summary&q=Release%3D0-M72%2C1-M72%2C2-M72%2C3-M72%20Type%3DBug-Security%20Security_Severity%3DHigh%2CCritical%20-status%3ADuplicate%20label%3Aallpublic%20component%3ABlink%2CInternals%3ECompositing%2CInternals%3EImages%3ECodecs%2CInternals%3EMedia%2CInternals%3ESkia%2CInternals%3EWebRTC%2C%20-component%3ABlink%3EMedia%3EPictureInPicture%2CBlink%3EPayments%2CBlink%3EStorage%2CInternals%3ECore%2CInternals%3EPrinting%2CInternals%3EStorage%2CMojo%2CServices%3ESync%2CUI%3EBrowser&can=1),
-            [15 in
-            M73](https://bugs.chromium.org/p/chromium/issues/list?sort=m&groupby=&colspec=ID%20Status%20CVE%20Security_Severity%20Security_Impact%20Component%20Summary&q=Release%3D0-M73%2C1-M73%2C2-M73%2C3-M73%20Type%3DBug-Security%20Security_Severity%3DHigh%2CCritical%20-status%3ADuplicate%20label%3Aallpublic%20component%3ABlink%2CInternals%3ECompositing%2CInternals%3EImages%3ECodecs%2CInternals%3EMedia%2CInternals%3ESkia%2CInternals%3EWebRTC%2C%20-component%3ABlink%3EMedia%3EPictureInPicture%2CBlink%3EPayments%2CBlink%3EStorage%2CInternals%3ECore%2CInternals%3EPrinting%2CInternals%3EStorage%2CMojo%2CServices%3ESync%2CUI%3EBrowser&can=1).
-            This volume of bugs holds steady despite years of investment into
-            developer education, fuzzing, Vulnerability Reward Programs, etc.
-            Note that this only includes bugs that are reported to us or are
-            found by our team.
-*   Security bugs can often be made exploitable: even 1-byte buffer
-            overruns [can be turned into an
-            exploit](https://googleprojectzero.blogspot.com/2014/08/the-poisoned-nul-byte-2014-edition.html).
-*   Deployed mitigations (like
-            [ASLR](http://en.wikipedia.org/wiki/Address_space_layout_randomization)
-            or [DEP](http://en.wikipedia.org/wiki/Data_Execution_Prevention))
-            are [not always
-            effective](https://googleprojectzero.blogspot.com/2019/04/virtually-unlimited-memory-escaping.html).
+* Past experience suggests that potentially exploitable bugs will be
+  present in future Chrome releases. There were [10 potentially
+  exploitable bugs in renderer components in
+  M69](https://bugs.chromium.org/p/chromium/issues/list?can=1&q=Release%3D0-M69%2C1-M69%2C2-M69%2C3-M69+Type%3DBug-Security+Security_Severity%3DHigh%2CCritical+-status%3ADuplicate+label%3Aallpublic+component%3ABlink%2CInternals%3ECompositing%2CInternals%3EImages%3ECodecs%2CInternals%3EMedia%2CInternals%3ESkia%2CInternals%3EWebRTC%2C+-component%3ABlink%3EMedia%3EPictureInPicture%2CBlink%3EPayments%2CBlink%3EStorage%2CInternals%3ECore%2CInternals%3EPrinting%2CInternals%3EStorage%2CMojo%2CServices%3ESync%2CUI%3EBrowser&sort=m&groupby=&colspec=ID+Status+CVE+Security_Severity+Security_Impact+Component+Summary),
+  [5 in
+  M70](https://bugs.chromium.org/p/chromium/issues/list?sort=m&groupby=&colspec=ID%20Status%20CVE%20Security_Severity%20Security_Impact%20Component%20Summary&q=Release%3D0-M70%2C1-M70%2C2-M70%2C3-M70%20Type%3DBug-Security%20Security_Severity%3DHigh%2CCritical%20-status%3ADuplicate%20label%3Aallpublic%20component%3ABlink%2CInternals%3ECompositing%2CInternals%3EImages%3ECodecs%2CInternals%3EMedia%2CInternals%3ESkia%2CInternals%3EWebRTC%2C%20-component%3ABlink%3EMedia%3EPictureInPicture%2CBlink%3EPayments%2CBlink%3EStorage%2CInternals%3ECore%2CInternals%3EPrinting%2CInternals%3EStorage%2CMojo%2CServices%3ESync%2CUI%3EBrowser&can=1),
+  [13 in
+  M71](https://bugs.chromium.org/p/chromium/issues/list?sort=m&groupby=&colspec=ID%20Status%20CVE%20Security_Severity%20Security_Impact%20Component%20Summary&q=Release%3D0-M71%2C1-M71%2C2-M71%2C3-M71%20Type%3DBug-Security%20Security_Severity%3DHigh%2CCritical%20-status%3ADuplicate%20label%3Aallpublic%20component%3ABlink%2CInternals%3ECompositing%2CInternals%3EImages%3ECodecs%2CInternals%3EMedia%2CInternals%3ESkia%2CInternals%3EWebRTC%2C%20-component%3ABlink%3EMedia%3EPictureInPicture%2CBlink%3EPayments%2CBlink%3EStorage%2CInternals%3ECore%2CInternals%3EPrinting%2CInternals%3EStorage%2CMojo%2CServices%3ESync%2CUI%3EBrowser&can=1),
+  [13 in
+  M72](https://bugs.chromium.org/p/chromium/issues/list?sort=m&groupby=&colspec=ID%20Status%20CVE%20Security_Severity%20Security_Impact%20Component%20Summary&q=Release%3D0-M72%2C1-M72%2C2-M72%2C3-M72%20Type%3DBug-Security%20Security_Severity%3DHigh%2CCritical%20-status%3ADuplicate%20label%3Aallpublic%20component%3ABlink%2CInternals%3ECompositing%2CInternals%3EImages%3ECodecs%2CInternals%3EMedia%2CInternals%3ESkia%2CInternals%3EWebRTC%2C%20-component%3ABlink%3EMedia%3EPictureInPicture%2CBlink%3EPayments%2CBlink%3EStorage%2CInternals%3ECore%2CInternals%3EPrinting%2CInternals%3EStorage%2CMojo%2CServices%3ESync%2CUI%3EBrowser&can=1),
+  [15 in
+  M73](https://bugs.chromium.org/p/chromium/issues/list?sort=m&groupby=&colspec=ID%20Status%20CVE%20Security_Severity%20Security_Impact%20Component%20Summary&q=Release%3D0-M73%2C1-M73%2C2-M73%2C3-M73%20Type%3DBug-Security%20Security_Severity%3DHigh%2CCritical%20-status%3ADuplicate%20label%3Aallpublic%20component%3ABlink%2CInternals%3ECompositing%2CInternals%3EImages%3ECodecs%2CInternals%3EMedia%2CInternals%3ESkia%2CInternals%3EWebRTC%2C%20-component%3ABlink%3EMedia%3EPictureInPicture%2CBlink%3EPayments%2CBlink%3EStorage%2CInternals%3ECore%2CInternals%3EPrinting%2CInternals%3EStorage%2CMojo%2CServices%3ESync%2CUI%3EBrowser&can=1).
+  This volume of bugs holds steady despite years of investment into
+  developer education, fuzzing, Vulnerability Reward Programs, etc.
+  Note that this only includes bugs that are reported to us or are
+  found by our team.
+* Security bugs can often be made exploitable: even 1-byte buffer
+  overruns [can be turned into an
+  exploit](https://googleprojectzero.blogspot.com/2014/08/the-poisoned-nul-byte-2014-edition.html).
+* Deployed mitigations (like
+  [ASLR](http://en.wikipedia.org/wiki/Address_space_layout_randomization)
+  or [DEP](http://en.wikipedia.org/wiki/Data_Execution_Prevention))
+  are [not always
+  effective](https://googleprojectzero.blogspot.com/2019/04/virtually-unlimited-memory-escaping.html).
 
 Second, universal cross-site scripting (UXSS) bugs pose a similar threat.
 Security bugs of this form would normally let an attacker bypass the Same Origin
@@ -122,7 +122,7 @@ Re-Think](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/
 
 ## Current Status
 
-**Desktop Platforms:**
+#### Desktop Platforms
 
 Site Isolation was [enabled by
 default](https://security.googleblog.com/2018/07/mitigating-spectre-with-site-isolation.html)
@@ -134,7 +134,7 @@ like Spectre/Meltdown. As of Chrome 77, Site Isolation also now defends against
 fully compromised renderer processes and UXSS bugs on desktop platforms. In M92,
 Site Isolation expanded to isolate all extensions from each other as well.
 
-**Android:**
+#### Android
 
 On Android devices with at least 2 GB of RAM, Site Isolation has been enabled
 for sites that users log into since Chrome 77. In Chrome 92, this expanded to
@@ -143,44 +143,44 @@ adopt Cross-Origin-Opener-Policy headers.
 
 ## Related Blog Posts
 
-*   [Improving extension security with out-of-process
-            iframes](https://blog.chromium.org/2017/05/improving-extension-security-with-out.html)
-            - May 2017
-*   [Mitigating Spectre with Site Isolation in
-            Chrome](https://security.googleblog.com/2018/07/mitigating-spectre-with-site-isolation.html)
-            - July 2018
-*   [Improving Site Isolation for Stronger Browser
-            Security](https://security.googleblog.com/2019/10/improving-site-isolation-for-stronger.html)
-            / [Recent Site Isolation
-            improvements](https://blog.chromium.org/2019/10/recent-site-isolation-improvements.html)
-            - October 2019
-*   [Mitigating Side-Channel
-            Attacks](https://blog.chromium.org/2021/03/mitigating-side-channel-attacks.html)
-            / [A Spectre proof-of-concept for a Spectre-proof
-            web](https://security.googleblog.com/2021/03/a-spectre-proof-of-concept-for-spectre.html)
-            - March 2021
-*   [Protecting more with Site
-            Isolation](https://security.googleblog.com/2021/07/protecting-more-with-site-isolation.html)
-            / [Privacy and performance, working together in
-            Chrome](https://blog.google/products/chrome/privacy-and-performance-working-together-chrome/)
-            - July 2021
+* [Improving extension security with out-of-process
+  iframes](https://blog.chromium.org/2017/05/improving-extension-security-with-out.html)
+  \- May 2017
+* [Mitigating Spectre with Site Isolation in
+  Chrome](https://security.googleblog.com/2018/07/mitigating-spectre-with-site-isolation.html)
+  \- July 2018
+* [Improving Site Isolation for Stronger Browser
+  Security](https://security.googleblog.com/2019/10/improving-site-isolation-for-stronger.html)
+  / [Recent Site Isolation
+  improvements](https://blog.chromium.org/2019/10/recent-site-isolation-improvements.html)
+  \- October 2019
+* [Mitigating Side-Channel
+  Attacks](https://blog.chromium.org/2021/03/mitigating-side-channel-attacks.html)
+  / [A Spectre proof-of-concept for a Spectre-proof
+  web](https://security.googleblog.com/2021/03/a-spectre-proof-of-concept-for-spectre.html)
+  \- March 2021
+* [Protecting more with Site
+  Isolation](https://security.googleblog.com/2021/07/protecting-more-with-site-isolation.html)
+  / [Privacy and performance, working together in
+  Chrome](https://blog.google/products/chrome/privacy-and-performance-working-together-chrome/)
+  \- July 2021
 
 ## Limitations
 
-*   **Sites vs Origins**: Compatibility with document.domain changes
-            currently requires us to use sites (e.g., https://example.com)
-            rather than origins (e.g., https://foo.example.com) for defining
-            process boundaries. This allows multiple origins within a site to
-            share the same process.
-*   **Filtering cross-site data**: Cross-Origin Read Blocking (CORB) is
-            a best effort approach that tries to protect as much sensitive
-            content as possible, but it is limited by the need to preserve
-            compatibility with incorrectly labeled resources (e.g., JavaScript
-            files labeled as HTML).
-*   **Unavailable in some settings**: Site Isolation is not yet
-            supported in Android WebView, or on Chrome for Android devices with
-            less than 2GB of RAM, or in the &lt;webview&gt; tags used in Chrome
-            Apps.
+* **Sites vs Origins**: Compatibility with document.domain changes
+  currently requires us to use sites (e.g., https://example.com)
+  rather than origins (e.g., https://foo.example.com) for defining
+  process boundaries. This allows multiple origins within a site to
+  share the same process.
+* **Filtering cross-site data**: Cross-Origin Read Blocking (CORB) is
+  a best effort approach that tries to protect as much sensitive
+  content as possible, but it is limited by the need to preserve
+  compatibility with incorrectly labeled resources (e.g., JavaScript
+  files labeled as HTML).
+* **Unavailable in some settings**: Site Isolation is not yet
+  supported in Android WebView, or on Chrome for Android devices with
+  less than 2GB of RAM, or in the &lt;webview&gt; tags used in Chrome
+  Apps.
 
 ## Tradeoffs
 
@@ -191,30 +191,30 @@ possible. A few known issues remain:
 
 For users:
 
-*   Higher overall memory use in Chrome. On desktop in Chrome 67, this
-            is about 10-13% when isolating all sites with many tabs open. On
-            Android in Chrome 77, this is about 3-5% overhead when isolating
-            sites that users log into.
+* Higher overall memory use in Chrome. On desktop in Chrome 67, this
+  is about 10-13% when isolating all sites with many tabs open. On
+  Android in Chrome 77, this is about 3-5% overhead when isolating
+  sites that users log into.
 
 For web developers:
 
-*   Full-page layout is no longer synchronous, since the frames of a
-            page may be spread across multiple processes. This may affect pages
-            that change the size of a frame and then send a postMessage to it,
-            since the receiving frame may not yet know its new size when
-            receiving the message. One workaround is to send the new size in the
-            postMessage itself if the receiving frame needs it. As of Chrome 68,
-            pages can also work around this by forcing a layout in the sending
-            frame before sending the postMessage. See [Site Isolation for web
-            developers](https://developers.google.com/web/updates/2018/07/site-isolation)
-            for more details.
-*   Unload handlers may not always run when the tab is closed.
-            postMessage might not work from an unload handler
-            ([964950](https://crbug.com/964950)).
-*   When debugging with --disable-web-security, it may also be necessary
-            to disable Site Isolation (using
-            --disable-features=IsolateOrigins,site-per-process) to access
-            cross-origin frames.
+* Full-page layout is no longer synchronous, since the frames of a
+  page may be spread across multiple processes. This may affect pages
+  that change the size of a frame and then send a postMessage to it,
+  since the receiving frame may not yet know its new size when
+  receiving the message. One workaround is to send the new size in the
+  postMessage itself if the receiving frame needs it. As of Chrome 68,
+  pages can also work around this by forcing a layout in the sending
+  frame before sending the postMessage. See [Site Isolation for web
+  developers](https://developers.google.com/web/updates/2018/07/site-isolation)
+  for more details.
+* Unload handlers may not always run when the tab is closed.
+  postMessage might not work from an unload handler
+  ([964950](https://crbug.com/964950)).
+* When debugging with `--disable-web-security`, it may also be necessary
+  to disable Site Isolation (using
+  `--disable-features=IsolateOrigins,site-per-process`) to access
+  cross-origin frames.
 
 ## How to Configure
 
@@ -234,21 +234,20 @@ Android, for users desiring the highest security on devices with sufficient RAM.
 This mode ensures that all sites are put into dedicated processes that are not
 shared with other sites. It can be enabled in either of the following ways:
 
-*   Visit chrome://flags#enable-site-per-process, click Enable, and
-            restart. (See also: [help center
-            article](https://support.google.com/chrome/answer/7623121). Note
-            that this flag is only present on Android. It is missing on other
-            platforms, where it is already enabled by default.)
+* Visit chrome://flags#enable-site-per-process, click Enable, and
+  restart. (See also: [help center
+  article](https://support.google.com/chrome/answer/7623121). Note
+  that this flag is only present on Android. It is missing on other
+  platforms, where it is already enabled by default.)
 
-    [<img alt="image"
-    src="/Home/chromium-security/site-isolation/site-isolation-flag-1.png">](/Home/chromium-security/site-isolation/site-isolation-flag-1.png)
+  ![](/Home/chromium-security/site-isolation/site-isolation-flag-1.png)
 
-*   Or, use an [Enterprise
-            Policy](https://support.google.com/chrome/a/answer/7581529) to
-            enable
-            [SitePerProcess](/administrators/policy-list-3#SitePerProcess) or
-            [SitePerProcessAndroid](/administrators/policy-list-3#SitePerProcessAndroid)
-            within your organization.
+* Or, use an [Enterprise
+  Policy](https://support.google.com/chrome/a/answer/7581529) to
+  enable
+  [SitePerProcess](/administrators/policy-list-3#SitePerProcess) or
+  [SitePerProcessAndroid](/administrators/policy-list-3#SitePerProcessAndroid)
+  within your organization.
 
 ### 2) Isolating Specific Origins
 
@@ -265,26 +264,26 @@ This mode is automatically enabled on Android devices with at least 2 GB of
 memory as of Chrome 77, for sites that users log into. This mode can be further
 manually configured in any of the following ways:
 
-*   In Chrome 77 or later versions: Enable
-            chrome://flags/#isolate-origins, provide the list of origins to
-            isolate (e.g.
-            “https://foo.example.com,https://\[\*.\]corp.example.com”), and
-            restart Chrome.
+* In Chrome 77 or later versions: Enable
+  chrome://flags/#isolate-origins, provide the list of origins to
+  isolate (e.g.
+  "https://foo.example.com,https://[*.]corp.example.com"), and
+  restart Chrome.
 
-*   Use [command line flags](/for-testers/command-line-flags) to start
-            Chrome with --isolate-origins followed by a comma-separated list of
-            origins to isolate. For example:
-    --isolate-origins=https://foo.example.com,https://\[\*.\]corp.example.com
-    Be careful not to include effective top-level domains (e.g., https://co.uk
-    or https://appspot.com; see the full list at <https://publicsuffix.org>),
-    because these will be ignored.
-*   Or, use an [Enterprise
-            Policy](https://support.google.com/chrome/a/answer/7581529) to
-            enable
-            [IsolateOrigins](https://chromeenterprise.google/policies/#IsolateOrigins)
-            or
-            [IsolateOriginsAndroid](https://chromeenterprise.google/policies/#IsolateOriginsAndroid)
-            within your organization.
+* Use [command line flags](/for-testers/command-line-flags) to start
+  Chrome with `--isolate-origins` followed by a comma-separated list of
+  origins to isolate. For example:
+  `--isolate-origins=https://foo.example.com,https://[*.]corp.example.com`
+  Be careful not to include effective top-level domains (e.g., https://co.uk
+  or https://appspot.com; see the full list at <https://publicsuffix.org>),
+  because these will be ignored.
+* Or, use an [Enterprise
+  Policy](https://support.google.com/chrome/a/answer/7581529) to
+  enable
+  [IsolateOrigins](https://chromeenterprise.google/policies/#IsolateOrigins)
+  or
+  [IsolateOriginsAndroid](https://chromeenterprise.google/policies/#IsolateOriginsAndroid)
+  within your organization.
 
 ### **3) Isolating All Origins**
 
@@ -305,10 +304,9 @@ You can also try opting out of field trials of Site Isolation to diagnose bugs,
 by visiting chrome://flags#site-isolation-trial-opt-out, choosing "Disabled (not
 recommended)," and restarting.
 
-[<img alt="image"
-src="/Home/chromium-security/site-isolation/site-isolation-flag-2.png">](/Home/chromium-security/site-isolation/site-isolation-flag-2.png)
+![](/Home/chromium-security/site-isolation/site-isolation-flag-2.png)
 
-Starting Chrome with the --disable-site-isolation-trials flag is equivalent to
+Starting Chrome with the `--disable-site-isolation-trials` flag is equivalent to
 the opt-out above.
 
 Note that if Site Isolation has been enabled by enterprise policy, then none of
@@ -327,19 +325,18 @@ enabled.
 If you would like to test that Site Isolation has been successfully turned on in
 practice, you can follow the steps below:
 
-1.  Navigate to a website that has cross-site subframes. For example:
-    *   Navigate to
-                <http://csreis.github.io/tests/cross-site-iframe.html>.
-    *   Click the "Go cross-site (complex page)" button.
-    *   The main page will now be on the http://csreis.github.io site
-                and the subframe will be on the https://chromium.org site.
-2.  Open Chrome's Task Manager: Chrome Menu -&gt; More tools -&gt; Task
-            manager (Shift+Esc).
-3.  Verify that the main page and the subframe are listed in separate
-            rows associated with different processes. For example:
-    *   Tab: creis.github.io/tests/cross-site-iframe.html - Process ID =
-                1234
-    *   Subframe: https://chromium.org - Process ID = 5678
+1. Navigate to a website that has cross-site subframes. For example:
+   * Navigate to
+     <http://csreis.github.io/tests/cross-site-iframe.html>.
+   * Click the "Go cross-site (complex page)" button.
+   * The main page will now be on the http://csreis.github.io site
+     and the subframe will be on the https://chromium.org site.
+2. Open Chrome's Task Manager: Chrome Menu -&gt; More tools -&gt; Task
+   manager (Shift+Esc).
+3. Verify that the main page and the subframe are listed in separate
+   rows associated with different processes. For example:
+   * Tab: creis.github.io/tests/cross-site-iframe.html - Process ID = 1234
+   * Subframe: https://chromium.org - Process ID = 5678
 
 If you see the subframe process in Chrome's Task Manager, then Site Isolation is
 correctly enabled. These steps work when using the "Isolating all sites"
