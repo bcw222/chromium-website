@@ -8,13 +8,13 @@ $monospace-fonts: monospace;
 /* colors */
 
 $body-bg-color: rgb(247, 247, 247);
-$body-color: black;
+$body-color: rgb(0, 0, 0);
 
 $box-border-color: rgb(211, 211, 211);
 $box-bg-color: rgb(241, 241, 241);
 
 $button-bg-color: rgb(3, 25, 79);
-$button-color: white;
+$button-color: rgb(255, 255, 255);
 $button-border-color: rgb(192, 192, 192);
 
 $code-color: rgb(0, 96, 0);
@@ -23,9 +23,9 @@ $code-bg-color: rgb(239, 239, 239);
 $del-bg-color: rgb(244, 204, 204);
 $ins-bg-color: rgb(217, 234, 211);
 
-$heading-color: black;
+$heading-color: rgb(0, 0, 0);
 
-$main-bg-color: white;
+$main-bg-color: rgb(255, 255, 255);
 $main-border-color: $box-border-color;
 
 $license-color: rgb(94, 106, 114);
@@ -156,31 +156,17 @@ ol[role='navigation'] {
 /* main header */
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 7px 0 2px 5px;
-}
-
-#header-left {
-  display: flex;
-  justify-content: flex-start;
+  margin: 5px 0px 5px 10px;
 
   a {
     color: $link-color-heading;
+    display: flex;
     text-decoration: none;
-
-    &:hover {
-      color: $link-color;
-      text-decoration: underline;
-    }
   }
 
-  h2 {
-    margin-left: 10px;
-    font-size: 24px;
-    font-weight: bold;
-    display: inline-block;
+  img {
+    display: block;
+    margin-right: 10px;
   }
 }
 
@@ -193,76 +179,61 @@ header {
   min-width: 160px;
   width: 160px;
 
-  > div {
+  section {
     background-color: $sidebar-section-bg-color;
     margin: 0 5px 6px 5px;
     padding: 0 0 0 5px;
-
-    a {
-      color: $link-color;
-      text-decoration: none;
-    }
-
-    h4 {
-      font-weight: 700;
-      color: $sidebar-section-color;
-      margin-bottom: 1px;
-      padding: 3px 0 2px 0;
-      font-size: 13px;
-    }
-
-    ul {
-      margin: 0;
-      padding: 0;
-
-      li {
-        margin: 1px 0;
-        padding: 2px 0 0 0;
-        line-height: 1.33em;
-
-        &.selected {
-          font-weight: bold;
-          a {
-            color: $sidebar-section-selected-color;
-          }
-        }
-      }
-    }
   }
 
-  > div:first-of-type {
-    > ul > li:first-of-type {
-      margin-top: 0;
-    }
-  }
-
-  .license {
-    margin: 0 5px 6px 5px;
-    padding: 11px 5px 5px 5px;
-    background-color: $license-bg-color;
-    color: $license-color;
-    font-size: 10px;
-    line-height: normal;
-
-    a {
-      text-decoration: underline;
-    }
-  }
-
-  a.edit_link {
-    background-color: $button-bg-color;
-    color: $button-color;
-    border: 1px solid $button-border-color;
+  a {
+    color: $link-color;
     display: block;
-    font-size: 14px;
-    font-weight: 700;
-    margin: 20px auto;
-    padding: 6px 12px;
-    width: 90%;
-    text-align: center;
     text-decoration: none;
+
+    &.selected {
+      font-weight: bold;
+      color: $sidebar-section-selected-color;
+    }
+  }
+
+  h4 {
+    color: $sidebar-section-color;
+    font-weight: 700;
+    font-size: 13px;
+    margin-bottom: 1px;
+    padding: 3px 0 2px 0;
   }
 }
+
+// Explicitly use the `a` tag to override the specificity of `#sidebar a`.
+a#edit-this-page {
+  background-color: $button-bg-color;
+  color: $button-color;
+  border: 1px solid $button-border-color;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 20px auto;
+  padding: 6px 12px;
+  width: 90%;
+  text-align: center;
+  text-decoration: none;
+}
+
+#license {
+  margin: 0 5px 6px 5px;
+  padding: 11px 5px 5px 5px;
+  background-color: $license-bg-color;
+  color: $license-color;
+  font-size: 10px;
+  line-height: normal;
+
+  a {
+    display: inline;
+    text-decoration: underline;
+  }
+}
+
 
 /* main panel */
 
@@ -270,7 +241,7 @@ header {
   display: flex;
 }
 
-#main-content {
+main {
   background-color: $main-bg-color;
   border-style: solid;
   border-width: 1px;
@@ -280,7 +251,7 @@ header {
   flex: 1 100%;
   line-height: 1.3;
   margin-right: 5px;
-  padding: 20px;
+  padding: 10px 20px 10px 20px;
 
   a:visited {
     color: $link-visited-color;
@@ -302,9 +273,9 @@ header {
   }
 
   h1 {
-    margin: 10px 0 1.4em;
     font-size: 22px;
     font-weight: 700;
+    margin-bottom: 1em;
 
     a {
       color: $link-color-heading;
@@ -322,7 +293,6 @@ header {
     font-weight: 700;
     margin: 1.2em 0 .7em 0;
   }
-
 
   h4 {
     font-weight: 700;
@@ -351,14 +321,6 @@ header {
   pre {
     white-space: break-spaces;
     word-break: break-all;
-  }
-
-  #title-crumbs {
-    padding: 6px 0 0 10px;
-
-    + h3 {
-      margin-top: 6px;
-    }
   }
 
   ul {
@@ -494,10 +456,14 @@ header {
     display: flex;
     align-items: flex-start;
 
-    > div.column {
+    > div {
       flex: 50%;
       margin: 0;
       padding-right: 30px;
+    }
+
+    > p:first-of-type {
+      margin-top: 0;
     }
   }
 }

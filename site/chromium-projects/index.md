@@ -12,7 +12,7 @@ the Chromium projects and is intended for developers interested in learning
 about and contributing to the open-source projects.
 
 <div class="two-column-container">
-<div class="column">
+  <div>
 
 ## [Chromium](/Home)
 
@@ -27,8 +27,8 @@ Looking for Google Chrome?
 
 [Download Google Chrome](https://www.google.com/chrome)
 
-</div>
-<div class="column">
+  </div>
+  <div>
 
 ## [Chromium OS](/chromium-os)
 
@@ -45,5 +45,5 @@ Looking for Google Chrome OS devices?
 
 [Visit the Google ChromeOS site](https://www.google.com/chromeos)
 
-</div>
+  </div>
 </div>
