@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "99a343d3_e2a35ca2",
+        "filename": "site/Home/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-22T18:19:42Z",
+      "side": 1,
+      "message": "Oops, line 17 looks like it got inserted. I\u0027ll fix that, and maybe it\u0027ll then make more sense. At any rate, this is the original text, and I\u0027d rather not mess with the text on the pages until after launch (to minimize differences).",
+      "parentUuid": "cf47b1e4_56205a79",
+      "revId": "50e037af09f422029eca8c222cb9da90c900b267",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "fef35057_657853a8",
@@ -31,6 +49,24 @@
       "writtenOn": "2021-11-22T17:57:47Z",
       "side": 1,
       "message": "This doesn\u0027t work on the gerrit preview, I assume this works in prod?",
+      "revId": "50e037af09f422029eca8c222cb9da90c900b267",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9ad9ec4_815782bc",
+        "filename": "site/Home/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-22T18:19:42Z",
+      "side": 1,
+      "message": "Yeah, it works in prod: https://chromium-website--cl3294123-ps2-vx26jd99.web.app/Home/.\n\nI don\u0027t actually see the gerrit preview link at the moment, where are you seeing it?",
+      "parentUuid": "fef35057_657853a8",
       "revId": "50e037af09f422029eca8c222cb9da90c900b267",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
