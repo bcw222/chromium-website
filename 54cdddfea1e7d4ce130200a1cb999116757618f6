@@ -22,6 +22,30 @@
       },
       "revId": "54cdddfea1e7d4ce130200a1cb999116757618f6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "19a145df_f9f8926f",
+        "filename": "firebase.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-22T16:46:46Z",
+      "side": 1,
+      "message": "Okay.\n\nFor some reason, there seems to be a bug where the tryjobs aren\u0027t running automatically and staging this. I just manually kicked off a job:\n\nhttps://chromium-website--cl3288316-ps5-sjr1r6vo.web.app/chromium-projects/\n\nThat does not appear to have served the headers, at least that I can see, so\nI\u0027ll have to dig into this.\n\nI\u0027ll post another CL and change this to \u0027none\u0027 just to be more accurate.\n\nIt is really true that there are no scripts executing on the site at the moment, but I don\u0027t expect this to stay true for long as I\u0027m planning to enable Google Analytics, at least.\n\nI\u0027ll probably work on a follow-up CL to test out some sort of script-hashing headers, too.",
+      "parentUuid": "72bc40c6_2dc54591",
+      "range": {
+        "startLine": 14,
+        "startChar": 29,
+        "endLine": 14,
+        "endChar": 52
+      },
+      "revId": "54cdddfea1e7d4ce130200a1cb999116757618f6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
