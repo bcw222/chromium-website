@@ -83,7 +83,18 @@ pre {
   padding: 0.5em 1em 0.5em 1em;
 }
 
+/* page layout */
+body {
+  display: grid;
+  grid-template-columns: min-content max-content 1fr max-content;
+  grid-template-rows: min-content min-content min-content min-content 1fr;
+}
+
 header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
   margin: 5px 0px 5px 10px;
 
   a {
@@ -98,16 +109,22 @@ header {
   }
 }
 
-/* main panel */
-
-#main-wrapper {
-  display: flex;
+#search {
+  border: 1px solid $box-border-color;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin: 10px;
+  padding: 5px;
 }
 
-
-#sidebar-left {
-  flex: 0 auto;
+#navbar {
   font-size: 12px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
   line-height: 1.33em;
   min-width: 160px;
   width: 160px;
@@ -136,34 +153,41 @@ header {
     margin-bottom: 1px;
     padding: 3px 0 2px 0;
   }
+}
 
-  #license {
-    background-color: $license-bg-color;
-    color: $license-color;
-    font-size: 10px;
-    line-height: normal;
-    margin: 0 5px 6px 5px;
-    padding: 11px 5px 5px 5px;
+#edit-this-page {
+  background-color: $button-bg-color;
+  color: $button-color;
+  border: 1px solid $button-border-color;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  margin: 20px auto;
+  padding: 6px 12px;
+  width: 90%;
+  text-align: center;
+  text-decoration: none;
+}
 
-    a {
-      display: inline;
-      text-decoration: underline;
-    }
-  }
+#license {
+  margin: 0 5px 6px 5px;
+  padding: 11px 5px 5px 5px;
+  background-color: $license-bg-color;
+  color: $license-color;
+  font-size: 10px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  line-height: normal;
 
-  // Explicitly use the `a` tag to override the specificity of `#sidebar a`.
-  a#edit-this-page {
-    background-color: $button-bg-color;
-    border: 1px solid $button-border-color;
-    color: $button-color;
-    display: block;
-    font-size: 14px;
-    font-weight: 700;
-    margin: 20px auto;
-    padding: 6px 12px;
-    text-align: center;
-    text-decoration: none;
-    width: 90%;
+  a {
+    display: inline;
+    text-decoration: underline;
   }
 }
 
@@ -173,6 +197,10 @@ main {
   flex: 1 100%;
   font-family: $body-fonts;
   font-size: 13.333px;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 6;
   line-height: 1.3;
   margin-right: 5px;
   padding: 20px;
