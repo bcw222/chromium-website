@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "72bc40c6_2dc54591",
+        "filename": "firebase.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1211509
+      },
+      "writtenOn": "2021-11-22T07:34:59Z",
+      "side": 1,
+      "message": "If you\u0027re really not executing scripts, `\u0027none\u0027` is appropriate. If you are executing script, I think this header will break it, because no `\u003cscript\u003e` tag will execute (because we ignore host-based source-lists in the presence of `strict-dynamic`).\n\nHappy to chat through it this evening if you can show me a staged version of this page?",
+      "range": {
+        "startLine": 14,
+        "startChar": 29,
+        "endLine": 14,
+        "endChar": 52
+      },
+      "revId": "54cdddfea1e7d4ce130200a1cb999116757618f6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
