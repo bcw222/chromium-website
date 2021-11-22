@@ -105,6 +105,24 @@
       "parentUuid": "d9ad9ec4_815782bc",
       "revId": "50e037af09f422029eca8c222cb9da90c900b267",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6279b3ee_c2779afe",
+        "filename": "site/Home/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-22T18:50:13Z",
+      "side": 1,
+      "message": "Ah, I was looking right past it. \n\nYeah, that\u0027s not going to work in Gitiles, because the path is relative to\nthe root of the site content (i.e., //site), not the root of the repo.",
+      "parentUuid": "2a129252_1c4bc7b3",
+      "revId": "50e037af09f422029eca8c222cb9da90c900b267",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
