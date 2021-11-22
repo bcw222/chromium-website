@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "280e0619_c0a55bd2",
+        "filename": "site/administrators/policy-list-3/user-data-directory-variables/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1142256
+      },
+      "writtenOn": "2021-11-22T18:27:43Z",
+      "side": 1,
+      "message": "question: after the migrations, will the new pages use the same URLs or shall we point to the new ones?",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 70
+      },
+      "revId": "adbc5e57107d15f913adbb4ad29e4d0bcbec72a6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
