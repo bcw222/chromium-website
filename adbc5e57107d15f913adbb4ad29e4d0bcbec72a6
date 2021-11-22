@@ -22,6 +22,30 @@
       },
       "revId": "adbc5e57107d15f913adbb4ad29e4d0bcbec72a6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "825ebcef_09f41074",
+        "filename": "site/administrators/policy-list-3/user-data-directory-variables/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-22T18:52:33Z",
+      "side": 1,
+      "message": "the URLs should continue to work. www.chromium.org will be the primary URL (and should\u0027ve been before, too), but dev.chromium.org will be a CNAME (alias) for www.\n\nThe paths should be the same pre- and post-migration, so no existing URLs should break. If we find any that do, I\u0027ll consider that a bug.",
+      "parentUuid": "280e0619_c0a55bd2",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 70
+      },
+      "revId": "adbc5e57107d15f913adbb4ad29e4d0bcbec72a6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
