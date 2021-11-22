@@ -46,6 +46,30 @@
       },
       "revId": "54cdddfea1e7d4ce130200a1cb999116757618f6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "91dbe9ed_a45a60f8",
+        "filename": "firebase.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-22T17:00:00Z",
+      "side": 1,
+      "message": "Okay, the latest CL (with script-src \u0027none\u0027) looks like it worked correctly @ https://chromium-website--cl3288316-ps6-y34pfamk.web.app/ to me, at least.\n\nPlease take another look?",
+      "parentUuid": "19a145df_f9f8926f",
+      "range": {
+        "startLine": 14,
+        "startChar": 29,
+        "endLine": 14,
+        "endChar": 52
+      },
+      "revId": "54cdddfea1e7d4ce130200a1cb999116757618f6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
