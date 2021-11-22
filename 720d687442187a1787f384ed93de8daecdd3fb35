@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e32fd770_e21e81cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1189840
+      },
+      "writtenOn": "2021-11-22T19:13:01Z",
+      "side": 1,
+      "message": "ewag@ friendly ping for OWNERS review",
+      "revId": "720d687442187a1787f384ed93de8daecdd3fb35",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
