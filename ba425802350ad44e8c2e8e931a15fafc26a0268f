@@ -133,6 +133,24 @@
       "parentUuid": "4a1e477d_ef44ff3c",
       "revId": "ba425802350ad44e8c2e8e931a15fafc26a0268f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f8830ad7_6c807efc",
+        "filename": "site/developers/design-documents/ui-localization/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 280,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-22T18:14:58Z",
+      "side": 1,
+      "message": "I wasn\u0027t wild about how comment and description looked like with the bulletted indent and long italics (which I think isn\u0027t all that legible w/o a real italic font).\n\nThe latest attempt I posted uses bold for the clauses, a single bulletted list w/ paragraphs and a bit more spacing.\n\nI suggest we go with this for now, land the CL (to get the other fixes), and then come back and play with the formatting some more.",
+      "parentUuid": "f537eb8f_3ba79aea",
+      "revId": "ba425802350ad44e8c2e8e931a15fafc26a0268f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
