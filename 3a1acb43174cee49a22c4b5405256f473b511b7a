@@ -16,6 +16,23 @@
       "message": "Ewa, could you please review this new.chromium.org website change?",
       "revId": "3a1acb43174cee49a22c4b5405256f473b511b7a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd7191a4_026f858e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1194993
+      },
+      "writtenOn": "2021-11-22T16:45:06Z",
+      "side": 1,
+      "message": "Passing this review to Dirk.",
+      "revId": "3a1acb43174cee49a22c4b5405256f473b511b7a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
