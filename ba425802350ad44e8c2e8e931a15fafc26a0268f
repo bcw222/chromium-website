@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "24fcd518_68159fb2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1318532
+      },
+      "writtenOn": "2021-11-22T11:23:53Z",
+      "side": 1,
+      "message": "Thank you so immensely for your help with this CL! 🙏",
+      "revId": "ba425802350ad44e8c2e8e931a15fafc26a0268f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7866a150_59a8fa12",
@@ -14,6 +31,24 @@
       "writtenOn": "2021-11-18T23:34:01Z",
       "side": 1,
       "message": "You had added `{: #TOC-How-strings-get-translated }` here to customize the page fragment (presumably to make it compatible with the way the Sites page worked).\n\nUnfortunately, it looks like there\u0027s a bug and the TOC-generating plugin that I\u0027m using isn\u0027t actually picking up the customized identifiers.\n\nI\u0027ve changed this back to the default (which does work), and fixed the links on this page that cross-link to the different sections.\n\nHowever, if we have documentation elsewhere that is relying on http://chromium.org/developers-design-documents/ui-localization#TOC-How-strings-get-translated to still work, this won\u0027t work right.\n\nIf so, I think we have two choices:\n\n1) Don\u0027t worry about it (the URL will still link to the page and people may be able to figure it out)\n\n2) I can fix the TOC-generating plugin to be Sites-compatible (and to handle the custom IDs; I\u0027ll do the latter regardless, but I don\u0027t actually like Sites having used TOC- in the IDs, so I kinda prefer the new format).\n\n3) We can insert `\u003ca name\u003d\"TOC-How-strings-get-translated\"\u003e` into the heading.\n\nLet me know which of the above you might like?",
+      "revId": "ba425802350ad44e8c2e8e931a15fafc26a0268f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aa50a86a_1767955e",
+        "filename": "site/developers/design-documents/ui-localization/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1318532
+      },
+      "writtenOn": "2021-11-22T11:23:53Z",
+      "side": 1,
+      "message": "I agree that we can use the default (and that TOC- IDs are kinda ugly). There is a subpage called \"Mac Notes\" which will need to have its anchored links updated, but that\u0027s not urgent or a big deal. Thank you!",
+      "parentUuid": "7866a150_59a8fa12",
       "revId": "ba425802350ad44e8c2e8e931a15fafc26a0268f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -41,6 +76,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ffe99b11_98c8f5ce",
+        "filename": "site/developers/design-documents/ui-localization/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1318532
+      },
+      "writtenOn": "2021-11-22T11:23:53Z",
+      "side": 1,
+      "message": "I am completely ambivalent about the background! No need to fix formatting with complex tags or CSS rules.",
+      "parentUuid": "17b323c7_df88a9ca",
+      "range": {
+        "startLine": 52,
+        "startChar": 36,
+        "endLine": 52,
+        "endChar": 37
+      },
+      "revId": "ba425802350ad44e8c2e8e931a15fafc26a0268f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4a1e477d_ef44ff3c",
@@ -54,6 +113,24 @@
       "writtenOn": "2021-11-18T23:34:01Z",
       "side": 1,
       "message": "Here the old site had an indented block with no bullets. Do you like the bullets better?\n\nThere\u0027s not an easy way to do just a regular indented block at the moment, but we can add one (e.g., wrap things in a `\u003cdiv class\u003d\"indent\"\u003e` tag) if you\u0027d prefer not to have the bullets and multiple levels of indentation.",
+      "revId": "ba425802350ad44e8c2e8e931a15fafc26a0268f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f537eb8f_3ba79aea",
+        "filename": "site/developers/design-documents/ui-localization/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 280,
+      "author": {
+        "id": 1318532
+      },
+      "writtenOn": "2021-11-22T11:23:53Z",
+      "side": 1,
+      "message": "I don\u0027t actually like my formatting very much! I just couldn\u0027t figure out how to make it scannable otherwise. \n\nCan we do something that\u0027s kind of a mix of old \u0026 new? It would be great for \"Source text\" and \"Description\" to be indented together so that they\u0027re clearly linked; then, \"Comment\" and \"Suggested description\" can be bulleted underneath, so they\u0027re more clearly commentary. WDYT?",
+      "parentUuid": "4a1e477d_ef44ff3c",
       "revId": "ba425802350ad44e8c2e8e931a15fafc26a0268f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
