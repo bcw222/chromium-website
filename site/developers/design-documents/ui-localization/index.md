@@ -271,44 +271,60 @@ adding a meaning attribute does not trigger a retranslation of a string.
 
 **Examples of good message descriptions:**
 
-* Source text: "US city or zip"
-    * Description: The message is displayed in gray in an empty search box for
-      a movie showtimes location. Localize by country to name city and optional
-      postal code.
-    * *Comment: This description clearly explains where the source text appears
-      in the UI, and gives instructions on how the message should be adapted
-      for non-US locales.*
-2. Source text: "Zoom"
-    * Description: Clicking the Zoom menu command launches help on how to zoom.
-      Try to limit translations to 10 characters.
-    * *Comment: A thorough description tells what the source text plays does,
-      what it triggers, and states a character limit as well as a rationale.*
-3. Source text: "Account budget increased"
-    * Description: This text is the placeholder in the sentence 'PLACEHOLDER
-      from X to Y'
-    * *Comment: Since the string is only part of a sentence, this description
-      provides essential information about context, and alerts the translator
-      that it will appear as part of a longer UI message.*
+* **Source text**: "US city or zip" <br>
+  **Description**: The message is displayed in gray in an empty search box for
+  a movie showtimes location. Localize by country to name city and optional
+  postal code. <br>
+  **Comment**: This description clearly explains where the source text appears
+  in the UI, and gives instructions on how the message should be adapted
+  for non-US locales. <br>
+
+  <br>
+
+* **Source text**: "Zoom" <br>
+  **Description**: Clicking the Zoom menu command launches help on how to zoom.
+  Try to limit translations to 10 characters. <br>
+  **Comment**: A thorough description tells what the source text plays does,
+  what it triggers, and states a character limit as well as a rationale. <br>
+
+  <br>
+
+* **Source text**: "Account budget increased" <br>
+  **Description**: This text is the placeholder in the sentence 'PLACEHOLDER
+  from X to Y' <br>
+  **Comment**: Since the string is only part of a sentence, this description
+  provides essential information about context, and alerts the translator
+  that it will appear as part of a longer UI message. <br>
+
+  <br>
 
 **Examples of poor message descriptions:**
 
-1. Source text: "All"
-    * Description: The word "All" in the phrase "Select: All None"
-    * *Comment: Good immediate context, but unclear what "all" refers to.*
-    * *Suggested description: Appears in the phrase "Select: All None" and
-      refers to message threads.*
-2. Source text: "PLACEHOLDER from X to Y"
-    * Description: Describes account budget changes
-    * *Comment: It is not clear what the placeholders are used for.*
-    * *Suggested description: Describes account budget changes; PLACEHOLDER is
-      one of "account budget increased" or "account budget decreased"; X and Y
-      are both dollar amounts.*
-3. Source text: "We could not send your message. A space alien ate it. Please
-try again in a few minutes."
-    * Description: A funny error message.
-    * *Comment: Translators will translate the message literally, so if they
-      should be creative, the message description should let them know that.
-      Also, "space alien" may not be culturally appropriate.*
-    * *Better Description: An error message. Since humor varies across
-      cultures, use an appropriate translation for the error. It doesn't have
-      to be a direct translation.*
+* **Source text**: "All" <br>
+  **Description**: The word "All" in the phrase "Select: All None" <br>
+  **Comment**: Good immediate context, but unclear what "all" refers to. <br>
+  **Suggested description**: Appears in the phrase "Select: All None" and
+  refers to message threads. <br>
+
+  <br>
+
+* **Source text**: "PLACEHOLDER from X to Y" <br>
+  **Description**: Describes account budget changes <br>
+  **Comment**: It is not clear what the placeholders are used for. <br>
+  **Suggested description**: Describes account budget changes; PLACEHOLDER is
+  one of "account budget increased" or "account budget decreased"; X and Y
+  are both dollar amounts. <br>
+
+  <br>
+
+* **Source text**: "We could not send your message. A space alien ate it. Please
+  try again in a few minutes." <br>
+  **Description**: A funny error message. <br>
+  **Comment**: Translators will translate the message literally, so if they
+  should be creative, the message description should let them know that.
+  Also, "space alien" may not be culturally appropriate. <br>
+  **Better Description**: An error message. Since humor varies across
+  cultures, use an appropriate translation for the error. It doesn't have
+  to be a direct translation. <br>
+
+  <br>
