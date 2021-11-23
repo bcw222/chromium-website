@@ -1,8 +1,16 @@
 ---
 use_title_as_h1: true
 ---
+
+{%- macro selected_href(url) -%}
+{%- if (page.url | lower) == (url + '/') -%}
+class="selected" href="{{ url }}"
+{%- else -%}
+href="{{ url }}"
+{%- endif -%}
+{%- endmacro -%}
+
 <!DOCTYPE html>
-<html>
 {%- if redirect %}
 <head>
   <meta charset="utf-8">
@@ -16,76 +24,54 @@ use_title_as_h1: true
   {%- endif %}
   <link rel="stylesheet" href="/_stylesheets/default.css">
 </head>
-<body>
-  <header>
-    <div id="header-left">
-      <a href="/" id="userheader-logo">
-        <img src="/_assets/customLogo.png" alt="The Chromium Projects" id="sites-logo">
-      </a>
-      <h2><a href="/">The Chromium Projects</a></h2>
+
+<header>
+  <a href="/">
+    <img alt="the Chromium logo" src="/_assets/customLogo.png">
+    <h2>The Chromium Projects</h2>
+  </a>
+</header>
+
+<div id="main-wrapper">
+  <nav id="sidebar-left">
+    <section>
+      <a {{ selected_href("/chromium-projects") }}>Home</a>
+      <a {{ selected_href("/Home") }}>Chromium</a>
+      <a {{ selected_href("/chromium-os") }}>Chromium OS</a>
+    </section>
+    <section>
+      <h4>Quick links</h4>
+      <a href="/for-testers/bug-reporting-guidelines">Report bugs</a>
+      <a href="/developers/discussion-groups">Discuss</a>
+      <a href="/sitemap">Sitemap</a>
+    </section>
+    <section>
+      <h4>Other sites</h4>
+      <a href="https://blog.chromium.org/">Chromium Blog</a>
+      <a href="https://developer.chrome.com/extensions">Google Chrome Extensions</a>
+    </section>
+    <section id="license" role="complementary">
+      Except as otherwise
+      <a href="https://developers.google.com/site-policies.html#restrictions">noted</a>,
+      the content of this page is licensed under a
+      <a href="https://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 license</a>,
+      and examples are licensed under the
+      <a href="https://chromium.googlesource.com/chromium/src/+/HEAD/LICENSE">BSD License</a>.
+    </section>
+    <a id="edit-this-page" href="https://edit.chromium.org/edit?repo=chromium/website/main&amp;file=site{{page.url}}index.md">Edit this page</a>
+  </nav>
+  <main>
+  {%- if breadcrumbs %}
+    <div class="breadcrumbs">
+  {%- for link in breadcrumbs %}
+      <a href="{{ link[0] }}">{{ link[1] }}</a> &gt;
+  {%- endfor %}
     </div>
-  </header>
-  <div id="main-wrapper">
-    <nav id="sidebar-left">
-      <div>
-        <ul role="navigation">
-          {%- if page_name == "chromium-projects" %}
-          <li class="selected">Home
-          {%- else %}
-          <li><a href="/">Home</a>
-          {%- endif %}
-          {%- if page_name == "Home" %}
-          <li class="selected">Chromium
-          {%- else %}
-          <li><a href="/Home">Chromium</a>
-          {%- endif %}
-          {%- if page_name == "chromium-os" %}
-          <li class="selected">Chromium OS
-          {%- else %}
-          <li><a href="/chromium-os">Chromium OS</a>
-          {%- endif %}
-        </ul>
-      </div>
-      <div>
-        <h4>Quick links</h4>
-        <ul role="navigation">
-          <li><a href="/for-testers/bug-reporting-guidelines">Report bugs</a>
-          <li><a href="/developers/discussion-groups">Discuss</a>
-          <li><a href="/sitemap">Sitemap</a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h4>Other sites</h4>
-        <ul role="navigation">
-          <li><a href="https://blog.chromium.org/">Chromium Blog</a>
-          <li><a href="https://developer.chrome.com/extensions">Google Chrome Extensions</a>
-        </ul>
-      </div>
-      <div class="license" role="complementary">
-        Except as otherwise
-        <a href="https://developers.google.com/site-policies.html#restrictions">noted</a>,
-        the content of this page is licensed under a
-        <a href="https://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 license</a>,
-        and examples are licensed under the
-        <a href="https://chromium.googlesource.com/chromium/src/+/HEAD/LICENSE">BSD License</a>.
-      </div>
-      <a class="edit_link" href="https://edit.chromium.org/edit?repo=chromium/website/main&amp;file=site{{page.url}}index.md">Edit this page</a>
-    </nav>
-    <main id="main-content">
-    {%- if breadcrumbs %}
-      <div class="breadcrumbs">
-    {%- for link in breadcrumbs %}
-        <a href="{{ link[0] }}">{{ link[1] }}</a> &gt;
-    {%- endfor %}
-      </div>
-    {%- endif %}
-    {%- if use_title_as_h1 and title %}
-      <h1>{{ title }}</h1>
-    {%- endif %}
-    {{content | safe}}
-    </main>
-  </div>
-</body>
+  {%- endif %}
+  {%- if use_title_as_h1 and title %}
+    <h1>{{ title }}</h1>
+  {%- endif %}
+  {{content | safe}}
+  </main>
+</div>
 {%- endif %}
-</html>
