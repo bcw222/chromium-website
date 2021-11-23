@@ -151,6 +151,24 @@
       "parentUuid": "f537eb8f_3ba79aea",
       "revId": "ba425802350ad44e8c2e8e931a15fafc26a0268f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "20a41265_4ba72960",
+        "filename": "site/developers/design-documents/ui-localization/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 280,
+      "author": {
+        "id": 1318532
+      },
+      "writtenOn": "2021-11-23T12:05:38Z",
+      "side": 1,
+      "message": "SGTM!",
+      "parentUuid": "f8830ad7_6c807efc",
+      "revId": "ba425802350ad44e8c2e8e931a15fafc26a0268f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
