@@ -70,6 +70,30 @@
       },
       "revId": "54cdddfea1e7d4ce130200a1cb999116757618f6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc233fef_fe1cf651",
+        "filename": "firebase.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1211509
+      },
+      "writtenOn": "2021-11-23T06:41:02Z",
+      "side": 1,
+      "message": "It looks to me like the policy is being applied to your subresources, but not to documents. That is, `https://chromium-website--cl3288316-ps6-y34pfamk.web.app/_stylesheets/default.css` is served with a `content-security-policy` header, but `https://chromium-website--cl3288316-ps6-y34pfamk.web.app/chromium-projects/` is not.\n\nI\u0027m not terribly familiar with Firebase\u0027s globbing rules, but I wonder whether `**/*` should just be `**` (or `*`? Not sure what the difference is.)",
+      "parentUuid": "91dbe9ed_a45a60f8",
+      "range": {
+        "startLine": 14,
+        "startChar": 29,
+        "endLine": 14,
+        "endChar": 52
+      },
+      "revId": "54cdddfea1e7d4ce130200a1cb999116757618f6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
