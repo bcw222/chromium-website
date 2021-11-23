@@ -287,6 +287,22 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
   </tr>
   <tr>
+    <td></td>
+    <td>Asus</td>
+    <td><a href="https://www.asus.com/Laptops/For-Home/Chromebook/ASUS-Chromebook-Flip-CM3-CM3200/">ASUS Chromebook Flip CM3 (CM3200)</a></td>
+    <td>Hayato</td>
+    <td>asurada</td>
+    <td>asurada</td>
+    <td>arm</td>
+    <td>5.4</td>
+    <td>aarch64</td>
+    <td>MT8192</td>
+    <td>Chromebook</td>
+    <td>M91</td>
+    <td>June 2029</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
     <td>2010-12-05</td>
     <td>Google</td>
     <td><a href="/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information">Cr-48</a></td>
