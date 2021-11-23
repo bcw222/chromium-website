@@ -13,7 +13,7 @@ component](/issue-tracking/editing-components), marking it as "Deprecated".
 Let's go through an example, migrating issues from
 "Blink&gt;Webrtc&gt;GetUserMedia" to "Blink&gt;GetUserMedia".
 
-Step 1 - Bulk Edit
+## Step 1 - Bulk Edit
 
 1. Search "All issues" for the component that you want to deprecate (e.g.
 Blink&gt;&gt;Webrtc&gt;GetUserMedia). Once the results list appears, Select
@@ -34,7 +34,7 @@ deprecate starting with a minus ("-"). In this example
 [<img alt="image"
 src="/issue-tracking/migrating-issue-components/Bulk%20Edit%20-%20Confirm.png">](/issue-tracking/migrating-issue-components/Bulk%20Edit%20-%20Confirm.png)
 
-Step 2 - Deprecate the component (to keep it out of Auto-complete)
+## Step 2 - Deprecate the component (to keep it out of Auto-complete)
 
 1. Once you load up the issue tracker, click on the "Development process" link
 on the top most menu.
