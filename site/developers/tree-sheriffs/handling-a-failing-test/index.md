@@ -8,7 +8,7 @@ page_name: handling-a-failing-test
 title: Handling a failing test
 ---
 
-*[TOC]*
+[TOC]
 
 **File a bug:**
 
