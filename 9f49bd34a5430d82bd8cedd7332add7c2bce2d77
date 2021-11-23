@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36062f65_d93b030f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1249287
+      },
+      "writtenOn": "2021-11-23T22:44:08Z",
+      "side": 1,
+      "message": "PTAL and LGTM",
+      "revId": "9f49bd34a5430d82bd8cedd7332add7c2bce2d77",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
