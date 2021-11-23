@@ -390,6 +390,7 @@ header {
   }
 
   ol {
+    list-style-position: outside;
     list-style-type: decimal;
     padding-left: 40px;
     margin: 1em 0;
