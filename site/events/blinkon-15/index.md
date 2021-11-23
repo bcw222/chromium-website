@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /events
-  - Chromium project related events.
+  - Chromium project related events
 page_name: blinkon-15
 title: BlinkOn 15
 ---
@@ -54,7 +54,7 @@ Please see helpful links below.
 *   [Tips for Speaking in and Moderating
             Sessions](https://hopin.zendesk.com/hc/en-us/articles/4402442259220-Tips-for-Speaking-in-and-Moderating-Sessions)
 
-**BlinkOn Future-looking...**
+**BlinkOn Future-looking**
 
 We continue to shift our BlinkOn events to more fairly distribute the burden of
 meeting at challenging times. Next time we will prioritize the EMEA region. We
@@ -67,9 +67,9 @@ when they become available.
 
 ## **Registration**
 
-Save the \[NEW\] dates and [REGISTER NOW](https://hopin.com/events/blinkon-15)
-for BlinkOn 15! We'll confirm all registrants and communicate more information
-about the agenda.
+Save the **\[NEW\]** dates and [REGISTER
+NOW](https://hopin.com/events/blinkon-15) for BlinkOn 15! We'll confirm all
+registrants and communicate more information about the agenda.
 
 ## Lightning Talks
 
@@ -82,7 +82,7 @@ BlinkOn 15 lightning talks and loading your talks into our sheet!
 
 ## We have reached our limit and no longer accepting talks. Thank you to everyone who will be doing a breakout talk. Please add your public accessible link [to this sheet](https://docs.google.com/spreadsheets/d/1x2MXoLaYENQg7WKHWspzwAuttDB38T5pc74ZHRYEKgo/edit#gid=0) prior to your session.
 
-## \[WIP\] Schedule
+## Schedule
 
 ## **<img alt="image" src="http://www.google.com/chart?chc=sites&cht=d&chdp=sites&chl=%5B%5BGoogle+Gadget'%3D20'f%5Cv'a%5C%3D0'10'%3D475'0'dim'%5Cbox1'b%5CF6F6F6'fC%5CF6F6F6'eC%5C0'sk'%5C%5B%22Include+gadget+(iframe)%22'%5D'a%5CV%5C%3D12'f%5C%5DV%5Cta%5C%3D10'%3D0'%3D476'%3D697'dim'%5C%3D10'%3D10'%3D476'%3D697'vdim'%5Cbox1'b%5Cva%5CF6F6F6'fC%5CC8C8C8'eC%5C'a%5C%5Do%5CLauto'f%5C&sig=fLkW1Kkvb6mVxNQcAOw6Rge97c8" height=700 width=475>**
 

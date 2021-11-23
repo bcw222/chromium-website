@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /events
-  - Chromium project related events.
+  - Chromium project related events
 page_name: blinkon-14
 title: BlinkOn 14
 ---

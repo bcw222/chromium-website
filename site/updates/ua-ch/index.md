@@ -15,7 +15,7 @@ Client Hints, you can read up on them
 
 # **Launch Timeline**
 
-Last updated August 2, 2021
+Last updated November 22, 2021
 
 *   **March 3, 2021: UA-CH is rolling out to 100% of stable population
             in tandem with version 89**
@@ -29,7 +29,9 @@ Last updated August 2, 2021
 *   **May, 2020:** UA-CH was rolled out to most of Chrome Canary, Dev
             and Beta populations.
 *   **June 10, 2021**: Critical-CH and ACCEPT_CH features were disabled
-            due to a potential crash while investigating and implementing fixes
+            due to a potential crash while investigating and implementing fixes.
+*   **November 22, 2021**: Intent to Ship: Sec-CH-UA-Full-Version-List
+            user-agent client hint.
 
 # **Possible Site Compatibility Issue**
 
