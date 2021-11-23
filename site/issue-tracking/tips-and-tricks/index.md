@@ -27,15 +27,18 @@ Example 1.1: Querying only issues explicitly w/ the Blink label
 
 ## Tip 2: Hit the "?" key to see a list of keyboard shortcuts.
 
-## Spoiler alert:
-## Issue list: J and K for previous and next issue, X to check a checkbox.
-## Issue detail page: J and K for previous and next issue, U to go up to list, R to select the comment field on the issue detail page.
-## Anywhere: / to select the search box.
+Spoiler alert:
+
+Issue list: J and K for previous and next issue, X to check a checkbox.
+
+Issue detail page: J and K for previous and next issue, U to go up to list, R to select the comment field on the issue detail page.
+
+Anywhere: / to select the search box.
 
 ## Tip 3: To get a clean link to an issue, click on the issue number in the header.
 
-## That gives you a simple URL that you can share with others.
+That gives you a simple URL that you can share with others.
 
 ## Tip 4: Add monorail issue search as a Search Engine in the Chrome Omnibar.
 
-## Just pop up a menu on your chrome browsers location bar and choose "Edit Search Engines...". E.g., I have the shortcut "mm" search for issues in /p/monorail. Typing "mm 12345" takes me directly to that issue. You can also treat the issue entry page as a search engine, e.g., I have "mnew" mapped to "https://bugs.chromium.org/p/monorail/issues/entry?summary=%s"
+Just pop up a menu on your chrome browsers location bar and choose "Edit Search Engines...". E.g., I have the shortcut "mm" search for issues in /p/monorail. Typing "mm 12345" takes me directly to that issue. You can also treat the issue entry page as a search engine, e.g., I have "mnew" mapped to "https://bugs.chromium.org/p/monorail/issues/entry?summary=%s"
