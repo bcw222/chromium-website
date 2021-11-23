@@ -33,7 +33,7 @@ Future announcements (e.g. command line changes) will be done in
 [dmprof@chromium.org](https://groups.google.com/a/chromium.org/forum/?fromgroups#!forum/dmprof).
 Subscribe it if you're interested.
 
-document.getElementById('form2004940606').submit();
+document.getElementById('form39898447').submit();
 
 ### Sub-profilers
 
