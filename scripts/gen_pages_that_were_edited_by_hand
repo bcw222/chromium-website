@@ -1,0 +1,24 @@
+#!/bin/bash
+#
+
+# List of bulk edits as of 11/22:
+
+# 4d7339a3 - initial import (11/4)
+# 3d5e48fc - 2nd import (11/5)
+# 7aa01375 - rowspan/colspan fix
+# 4cd78e70 - 3rd import (11/9)
+# 0f82ab83 - outbound URL fix
+# f1f62e9f - master->main fix
+
+# Command to list all pages that were edited by hand and should not be
+# re-imported automatically:
+
+(git diff --name-only 4d7339a3..3d5e48fc^ site && \
+ git diff --name-only 3d5e48fc..7aa01375^ site && \
+ git diff --name-only 7aa01375..4cd78e70^ site && \
+ git diff --name-only 4cd78e70..0f82ab83^ site && \
+ git diff --name-only 0f82ab83..f1f62e9f^ site && \
+ git diff --name-only f1f62e9f..HEAD site) | \
+ grep index.md | sort | uniq | sed -e 's-^site--' -e 's-/index.md--' | \
+ grep -v '^$' \
+ > pages_that_were_edited_by_hand.txt
