@@ -21,10 +21,8 @@ It is mapped into the Chromium tree via
 
 ## Filing bugs
 
-Bugs are filed under the
-[label:Cr-Internals-Network-SSL](https://code.google.com/p/chromium/issues/list?q=label:Cr-Internals-Network-SSL)
-using the [Chromium issue
-tracker](https://code.google.com/p/chromium/issues/list).
+Bugs are filed under the [BoringSSL issue
+tracker](https://bugs.chromium.org/p/boringssl/issues/list).
 
 ## Building
 
@@ -35,10 +33,8 @@ up to build through ninja by executing:
 
 ```none
 cd src/third_party/boringssl/src
-mkdir build
-cd build
-cmake -GNinja ..
-ninja
+cmake -GNinja -B build
+ninja -C build
 ```
 
 Once the ninja files are generated you can re-build from other directories
@@ -54,13 +50,6 @@ See
 [instructions](https://boringssl.googlesource.com/boringssl/+/HEAD/BUILDING.md#Running-tests)
 in BUILDING.md to run the tests. From a Chromium checkout, this incantation may
 be used:
-
-```none
-cd src/third_party/boringssl/src
-ninja -C build && go run util/all_tests.go && (cd ssl/test/runner/ && go fmt && go test)
-```
-
-Or, if CMake is 3.2 or higher:
 
 ```none
 cd src/third_party/boringssl/src
@@ -80,7 +69,7 @@ Chromium to get the updates.
 
 To roll BoringSSL create a changelist in the Chromium repository that modifies
 [src/DEPS](https://chromium.googlesource.com/chromium/src/+/HEAD/DEPS) and
-re-generates the gypi and asm files:
+re-generates the gn and asm files:
 
 *   Simple example: <https://codereview.chromium.org/866213002> (Just
             modifies DEPS):
@@ -91,17 +80,5 @@ re-generates the gypi and asm files:
 There is a script to automate all these steps:
 
 ```none
-python third_party/boringssl/roll_boringssl.py
-```
-
-If the roll has added tests (the gypi modifications will list a new test), then
-you must add a new entry in
-[boringssl_unittest.cc](https://code.google.com/p/chromium/codesearch#chromium/src/third_party/boringssl/boringssl_unittest.cc&sq=package:chromium&type=cs).
-See util/all_tests.go for how the test is run. For a test which takes no
-arguments, the new entry should look like this:
-
-```none
-TEST(BoringSSL, PQueue) {
-  TestSimple("pqueue_test");
-}
+python3 third_party/boringssl/roll_boringssl.py
 ```

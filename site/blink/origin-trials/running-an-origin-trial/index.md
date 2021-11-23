@@ -306,7 +306,7 @@ starting a new origin trial, to follow the previous trial.
 
 The process is as follows:
 
-*   Email
+*   If desired, email
             [experimentation-dev@chromium.org](https://groups.google.com/a/chromium.org/forum/#!forum/experimentation-dev)
             to consult on the appropriate approach. If there are sensitive
             details, Googlers can contact
