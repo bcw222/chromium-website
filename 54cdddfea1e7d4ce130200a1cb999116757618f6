@@ -94,6 +94,30 @@
       },
       "revId": "54cdddfea1e7d4ce130200a1cb999116757618f6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a970454e_75b5c3eb",
+        "filename": "firebase.json",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-23T17:02:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bc233fef_fe1cf651",
+      "range": {
+        "startLine": 14,
+        "startChar": 29,
+        "endLine": 14,
+        "endChar": 52
+      },
+      "revId": "54cdddfea1e7d4ce130200a1cb999116757618f6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
