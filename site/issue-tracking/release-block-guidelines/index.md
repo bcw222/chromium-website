@@ -6,17 +6,19 @@ page_name: release-block-guidelines
 title: Release Block Guidelines
 ---
 
-See also [this more recent
-document](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/process/release_blockers.md).
+**See also [this more recent document](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/process/release_blockers.md).**
 
-What are the intents of ReleaseBlock?
+**What are the intents of ReleaseBlock?**
+
 ReleaseBlock issues are immediately gating the release of the branch (Dev, Beta,
 Stable). These issues require the highest priority of attention from the
 engineers assigned (since they are directly on the critical path). They are
 meant to be used as a tool for program managers to focus engineers to get a
 Chrome release launched with high standard of quality (e.g. absent critical
 regressions, stability, build issues, etc...).
-What aren’t the intents?
+
+**What aren’t the intents?**
+
 ReleaseBlock issues **are not** meant to be a scoping or prioritization tool (we
 have specific labels and normal processes for each of those, respectively
 mstone- and pri-). If an issue isn’t getting sufficient attention, it should be
@@ -24,7 +26,7 @@ escalated to a TPM and/or the priority adjusted accordingly. Making arbitrary
 issues ReleaseBlockers, when mstone and proper prioritization would otherwise
 suffice, makes it very hard to see the true critical path of our release cycle.
 
-Best Practices:
+**Best Practices:**
 
 *   Nominate blockers liberally, it’s better to catch someone’s
             attention than to ignore an issue.
@@ -37,7 +39,7 @@ Best Practices:
             merge, add a Merge-Requested flag and the TPM responsible for the
             branch will take a look.
 
-Signals of Poor Practices:
+**Signals of Poor Practices:**
 
 *   Assigned a P2/P3 issue as a ReleaseBlocker
     *   ***Explanation:***

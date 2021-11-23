@@ -142,9 +142,10 @@ See also: All [How-tos](/developers/how-tos).
 *   [GPU Rendering
             Benchmarks](/developers/design-documents/rendering-benchmarks)
 *   [Infra
-            documentation](https://chromium.googlesource.com/infra/infra/+/HEAD/doc/index.md)
+            documentation](https://chromium.googlesource.com/infra/infra/+doc/HEAD/doc/index.md)
 *   [Contacting a
-            Trooper](https://chromium.googlesource.com/infra/infra/+/HEAD/doc/users/contacting_troopers.md)
+            Trooper](https://chromium.googlesource.com/infra/infra/+doc/HEAD/doc/users/contacting_troopers.md)
+            
 
 ### Performance
 
