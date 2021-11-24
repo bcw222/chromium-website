@@ -1,5 +1,6 @@
 # UUID                                  	Group Name
 #
+66a514c2b4c6a1731b5ce1e8d1ef6f95ee654885	owners-override-chromium
 cria:project-chromium-website-committers	cria/project-chromium-website-committers
 e3e718b27cca336e3155d6d340a88d072e9927b4	chromium-website-scoped-luci-account
 global:Change-Owner                     	Change Owner
