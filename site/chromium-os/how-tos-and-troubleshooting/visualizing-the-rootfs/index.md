@@ -41,6 +41,4 @@ your trusty web browser.
 Here's an example snapshot of a Chrome OS image (note: yours will be interactive
 so you can dig in to different areas).
 
-[<img
-alt="https://sites.google.com/a/chromium.org/dev/chromium-os/how-tos-and-troubleshooting/visualizing-the-rootfs/Screenshot%20from%202013-04-08%2013%_46_48.png?attredirects=0"
-src="/chromium-os/how-tos-and-troubleshooting/visualizing-the-rootfs/Screenshot%20from%202013-04-08%2013%3A46%3A48.png">](javascript:void(0);)
+![](/chromium-os/how-tos-and-troubleshooting/visualizing-the-rootfs/Screenshot%20from%202013-04-08%2013_46_48.png)

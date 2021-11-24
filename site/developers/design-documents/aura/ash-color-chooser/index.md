@@ -42,18 +42,13 @@ title: Ash Color Chooser
 
 *   **first mock**
 
-    **[<img alt="image"
-    src="/developers/design-documents/aura/ash-color-chooser/col.png">](/developers/design-documents/aura/ash-color-chooser/col.png)**
+    **![](/developers/design-documents/aura/ash-color-chooser/col.png)**
 
     *   **Confirmed that the upper box isn’t necessary, since the color
                 will be shown in the page.**
 *   **Current screenshot:**
 
-    **[<img
-    alt="https://sites.google.com/a/chromium.org/dev/developers/design-documents/aura/ash-color-chooser/Screenshot%202012-06-26%203_50_42%20PM.png?attredirects=0"
-    src="/developers/design-documents/aura/ash-color-chooser/Screenshot%202012-06-26%203%3A50%3A42%20PM.png"
-    height=320
-    width=400>](/developers/design-documents/aura/ash-color-chooser/Screenshot%202012-06-26%203_50_42%20PM.png)**
+    **![](/developers/design-documents/aura/ash-color-chooser/Screenshot%202012-06-26%203_50_42%20PM.png)**
 
 **# Next plans (not confirmed yet)**
 
