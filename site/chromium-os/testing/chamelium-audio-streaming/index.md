@@ -256,12 +256,6 @@ The first wav file is where underrun is detected.
 Press the black arrow on the left of a channel and select **Spectrogram** so the
 part where waveform dropped to zero is obvious.
 
-[<img
-alt="https://sites.google.com/a/chromium.org/dev/chromium-os/testing/chamelium-audio-streaming/Screenshot%20from%202017-03-07%2017_51_43.png?attredirects=0"
-src="/chromium-os/testing/chamelium-audio-streaming/Screenshot%20from%202017-03-07%2017%3A51%3A43.png">](/chromium-os/testing/chamelium-audio-streaming/Screenshot%20from%202017-03-07%2017_51_43.png)
+![](/chromium-os/testing/chamelium-audio-streaming/Screenshot%20from%202017-03-07%2017_51_43.png)
 
 The second wav file is where normal playback is resumed.
-
-[<img
-alt="https://sites.google.com/a/chromium.org/dev/chromium-os/testing/chamelium-audio-streaming/Screenshot%20from%202017-03-07%2017%_53%_38.png?attredirects=0"
-src="/chromium-os/testing/chamelium-audio-streaming/Screenshot%20from%202017-03-07%2017%3A53%3A38.png">](javascript:void(0);)
