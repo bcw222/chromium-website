@@ -16,6 +16,97 @@
       "message": "PTAL and LGTM",
       "revId": "9f49bd34a5430d82bd8cedd7332add7c2bce2d77",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "466f1ab4_17188ebc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-24T01:46:44Z",
+      "side": 1,
+      "message": "lgtm w/ comments addressed.",
+      "revId": "9f49bd34a5430d82bd8cedd7332add7c2bce2d77",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5cb18456_c99252e8",
+        "filename": "site/developers/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-24T01:46:44Z",
+      "side": 1,
+      "message": "Why do you have the \"doc\" here in \"+doc\"? It seems to work either way ...",
+      "revId": "9f49bd34a5430d82bd8cedd7332add7c2bce2d77",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9a736f48_c7c05df6",
+        "filename": "site/issue-tracking/autotriage/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-24T01:46:44Z",
+      "side": 1,
+      "message": "IMO it looks a little weird to have bullets next to headers. I might either make these not be a bulleted list, or I might make them not be headers (but leave the bold in). Up to you, though.",
+      "revId": "9f49bd34a5430d82bd8cedd7332add7c2bce2d77",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4db9a003_ba68bddd",
+        "filename": "site/issue-tracking/autotriage/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-24T01:46:44Z",
+      "side": 1,
+      "message": "Nit: delete the \"****\".",
+      "range": {
+        "startLine": 64,
+        "startChar": 53,
+        "endLine": 64,
+        "endChar": 57
+      },
+      "revId": "9f49bd34a5430d82bd8cedd7332add7c2bce2d77",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e13129af_318ac30b",
+        "filename": "site/issue-tracking/issue-tracking-lifecycle/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-24T01:46:44Z",
+      "side": 1,
+      "message": "The export kinda mangled images in some cases, and it doesn\u0027t look like this is working in the preview, either. Try:\n\n    ![](/issue-tracking/issue-tracking-lifecycle/Conceptual%20Model.png)",
+      "revId": "9f49bd34a5430d82bd8cedd7332add7c2bce2d77",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
