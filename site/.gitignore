@@ -17,13 +17,13 @@ blink/layoutng/legacy_float_margin.png
 blink/layoutng/ng_float_overlap.png
 blink/layoutng/legacy_ar_wrap.png
 blink/when-will-a-fix-ship-in-chrome-stable-or-canary/omahaprox.png
-blink/when-will-a-fix-ship-in-chrome-stable-or-canary/Screen%20Shot%202015-04-04%20at%205.36.49%20PM.png
-blink/when-will-a-fix-ship-in-chrome-stable-or-canary/Screen%20Shot%202015-04-04%20at%204.18.39%20PM.png
+blink/when-will-a-fix-ship-in-chrome-stable-or-canary/Screen Shot 2015-04-04 at 5.36.49 PM.png
+blink/when-will-a-fix-ship-in-chrome-stable-or-canary/Screen Shot 2015-04-04 at 4.18.39 PM.png
 blink/when-will-a-fix-ship-in-chrome-stable-or-canary/f3a.png
 blink/when-will-a-fix-ship-in-chrome-stable-or-canary/Untitled-5.fw.png
 blink/when-will-a-fix-ship-in-chrome-stable-or-canary/chromeversion.png
-blink/when-will-a-fix-ship-in-chrome-stable-or-canary/Screen%20Shot%202015-04-04%20at%205.38.39%20PM.png
-blink/when-will-a-fix-ship-in-chrome-stable-or-canary/Screen%20Shot%202015-04-04%20at%203.19.28%20PM.png
+blink/when-will-a-fix-ship-in-chrome-stable-or-canary/Screen Shot 2015-04-04 at 5.38.39 PM.png
+blink/when-will-a-fix-ship-in-chrome-stable-or-canary/Screen Shot 2015-04-04 at 3.19.28 PM.png
 blink/when-will-a-fix-ship-in-chrome-stable-or-canary/cr-commit-pos.png
 blink/when-will-a-fix-ship-in-chrome-stable-or-canary/chromestatus42.png
 blink/directory-dependency-in-blink/before.png
@@ -37,29 +37,29 @@ Home/chromium-security/articles/gwp-asan/diag4.png
 Home/chromium-security/articles/gwp-asan/gwp-asan-diagram2.png
 Home/chromium-security/articles/gwp-asan/gwp-asan-diagram3.png
 Home/chromium-security/articles/gwp-asan/gwp-asan-diagram1.png
-Home/chromium-security/guts/Chrome%20Security%20Architecture.png
+Home/chromium-security/guts/Chrome Security Architecture.png
 Home/chromium-security/marking-http-as-non-secure/form-and-incognito-http-bad-verbose.png
-Home/chromium-security/marking-http-as-non-secure/Treatment%20of%20HTTP%20Pages%20with%20User%20Input.gif
+Home/chromium-security/marking-http-as-non-secure/Treatment of HTTP Pages with User Input.gif
 Home/chromium-security/marking-http-as-non-secure/phase-3-wide.png
-Home/chromium-security/marking-http-as-non-secure/blog%20image%202.png
+Home/chromium-security/marking-http-as-non-secure/blog image 2.png
 Home/chromium-security/marking-http-as-non-secure/http-bad-sep-2018.png
-Home/chromium-security/marking-http-as-non-secure/blog%20image%201.png
-Home/chromium-security/marking-http-as-non-secure/Treatment%20of%20HTTP%20Pages@1x.png
+Home/chromium-security/marking-http-as-non-secure/blog image 1.png
+Home/chromium-security/marking-http-as-non-secure/Treatment of HTTP Pages@1x.png
 Home/chromium-security/marking-http-as-non-secure/phase-3-narrow.png
 Home/chromium-security/enamel/origins.png
 Home/chromium-security/crlsets/CRLSetComponents.png
-Home/chromium-security/security-sheriff/Life%20of%20a%20Security%20Issue%20(2).png
-Home/chromium-security/security-sheriff/Life%20of%20a%20Security%20Issue.png
-Home/chromium-security/security-sheriff/Screen%20Shot%202016-05-20%20at%2015.41.22.png
-Home/chromium-security/security-sheriff/Life%20of%20a%20Security%20Issue%20(3).png
-Home/chromium-security/security-sheriff/Life%20of%20a%20Security%20Issue%20(1).png
+Home/chromium-security/security-sheriff/Life of a Security Issue (2).png
+Home/chromium-security/security-sheriff/Life of a Security Issue.png
+Home/chromium-security/security-sheriff/Screen Shot 2016-05-20 at 15.41.22.png
+Home/chromium-security/security-sheriff/Life of a Security Issue (3).png
+Home/chromium-security/security-sheriff/Life of a Security Issue (1).png
 Home/chromium-security/site-isolation/site-isolation-flag-2.png
 Home/chromium-security/site-isolation/site-isolation-flag-1.png
 Home/chromium-security/site-isolation/site-per-process-flag.png
-Home/chromium-privacy/privacy-sandbox/floc/Sensitivity%20of%20Cohorts.pdf
-chromium-os/hoho/HoHo%20Block%20Diagram.png
+Home/chromium-privacy/privacy-sandbox/floc/Sensitivity of Cohorts.pdf
+chromium-os/hoho/HoHo Block Diagram.png
 chromium-os/hoho/810-10116-02_20150109_hdmi_SCH_0.pdf
-chromium-os/hoho/HoHo%20Block%20Diagram%20(1).png
+chromium-os/hoho/HoHo Block Diagram (1).png
 chromium-os/hoho/chromium-os-hoho.tar.bz2
 chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/lumpy-dev-switch.jpg
 chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/lumpy-internals-bare.jpg
@@ -183,52 +183,52 @@ chromium-os/developer-information-for-chrome-os-devices/lg-chromebase-22cv241-w/
 chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook/c720-chromebook-innards-small.png
 chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook/c720-chromebook-innards.png
 chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook/c720-chromebook-annotated-innards.png
-chromium-os/ec-development/usb-low-power-boot/PD%20Low%20Battery%20Boot.png
+chromium-os/ec-development/usb-low-power-boot/PD Low Battery Boot.png
 chromium-os/ec-development/usb-low-power-boot/new_low_bat.png
 chromium-os/ec-development/usb-low-power-boot/samus_low_bat.png
 chromium-os/ec-development/ec-image-geometry-spec/cr50.png
 chromium-os/ec-development/ec-image-geometry-spec/storage2.png
-chromium-os/2014-firmware-summit/2014%20Chrome%20OS%20Firmware%20Summit-%20Chrome%20EC.pdf
-chromium-os/2014-firmware-summit/ARM%20coreboot%20porting.pdf
-chromium-os/2014-firmware-summit/x86%20coreboot%20porting.pdf
-chromium-os/2014-firmware-summit/ChromeOS%20firmware%20summit%20-%20Depthcharge.pdf
-chromium-os/2014-firmware-summit/Coreboot%20Mainboard%20Porting.pdf
-chromium-os/2014-firmware-summit/2014%20Chrome%20OS%20Firmware%20Summit-%20Overview.pdf
-chromium-os/2014-firmware-summit/Chrome%20OS%20Firmware%20-%202017.pdf
-chromium-os/2014-firmware-summit/Chrome%20OS%20Firmware%20Summit-%20Sundries.pdf
-chromium-os/type-c-on-rk3399-chromebooks/Type%20C%20on%20a%20Chromebook.jpg
-chromium-os/type-c-on-rk3399-chromebooks/Type%20C%20on%20a%20Chromebook.png
-chromium-os/obsolete/using-eclipse-to-debug-chrome-on-chrome-os/chrome%20remote%20main.png
-chromium-os/obsolete/using-eclipse-to-debug-chrome-on-chrome-os/c%2B%2B%20build.png
+chromium-os/2014-firmware-summit/2014 Chrome OS Firmware Summit- Chrome EC.pdf
+chromium-os/2014-firmware-summit/ARM coreboot porting.pdf
+chromium-os/2014-firmware-summit/x86 coreboot porting.pdf
+chromium-os/2014-firmware-summit/ChromeOS firmware summit - Depthcharge.pdf
+chromium-os/2014-firmware-summit/Coreboot Mainboard Porting.pdf
+chromium-os/2014-firmware-summit/2014 Chrome OS Firmware Summit- Overview.pdf
+chromium-os/2014-firmware-summit/Chrome OS Firmware - 2017.pdf
+chromium-os/2014-firmware-summit/Chrome OS Firmware Summit- Sundries.pdf
+chromium-os/type-c-on-rk3399-chromebooks/Type C on a Chromebook.jpg
+chromium-os/type-c-on-rk3399-chromebooks/Type C on a Chromebook.png
+chromium-os/obsolete/using-eclipse-to-debug-chrome-on-chrome-os/chrome remote main.png
+chromium-os/obsolete/using-eclipse-to-debug-chrome-on-chrome-os/c++ build.png
 chromium-os/obsolete/using-eclipse-to-debug-chrome-on-chrome-os/resource-filters.png
-chromium-os/obsolete/using-eclipse-to-debug-chrome-on-chrome-os/debugger%20shared%20libraries.png
-chromium-os/obsolete/using-eclipse-to-debug-chrome-on-chrome-os/debugger%20main.png
-chromium-os/obsolete/using-eclipse-to-debug-chrome-on-chrome-os/Properties%20for%20src.png
-chromium-os/obsolete/using-eclipse-to-debug-chrome-on-chrome-os/c%2B%2B%20build%20env.png
-chromium-os/obsolete/using-eclipse-to-debug-chrome-on-chrome-os/debug%20connection.png
-chromium-os/obsolete/using-eclipse-to-debug-chrome-on-chrome-os/Resource%20Filters.png
+chromium-os/obsolete/using-eclipse-to-debug-chrome-on-chrome-os/debugger shared libraries.png
+chromium-os/obsolete/using-eclipse-to-debug-chrome-on-chrome-os/debugger main.png
+chromium-os/obsolete/using-eclipse-to-debug-chrome-on-chrome-os/Properties for src.png
+chromium-os/obsolete/using-eclipse-to-debug-chrome-on-chrome-os/c++ build env.png
+chromium-os/obsolete/using-eclipse-to-debug-chrome-on-chrome-os/debug connection.png
+chromium-os/obsolete/using-eclipse-to-debug-chrome-on-chrome-os/Resource Filters.png
 chromium-os/obsolete/monitoring-tools/timeline.jpg
-chromium-os/firmware-porting-guide/2-concepts/Verified%20Boot%20Flow.png
+chromium-os/firmware-porting-guide/2-concepts/Verified Boot Flow.png
 chromium-os/getting-dev-hardware/dev-hardware-list/ChromeOSCompatibilitylist-20091121-A.xlsx
 chromium-os/getting-dev-hardware/dev-hardware-list/icon-checkmark.gif
 chromium-os/plankton/IMG_5169.jpg
 chromium-os/plankton/leds.jpeg
-chromium-os/plankton/Plankton%20Raiden%20MCU%20command%20table.pdf
-chromium-os/plankton/Plankton_raiden%20block%20diagram.png
+chromium-os/plankton/Plankton Raiden MCU command table.pdf
+chromium-os/plankton/Plankton_raiden block diagram.png
 chromium-os/plankton/buttons.jpeg
-chromium-os/plankton/Plankton%20Raiden%20Software%20Care%20&%20Feed.jpg
+chromium-os/plankton/Plankton Raiden Software Care & Feed.jpg
 chromium-os/plankton/plankton-master.tar.gz
 chromium-os/cable-and-adapter-tips-and-tricks/SourcePowerRule.png
-chromium-os/donnettes/smart%20receptacle-05042017.pdf
+chromium-os/donnettes/smart receptacle-05042017.pdf
 chromium-os/servo/servov4/650-00588-01_20170601_servo_v4_pvt1_SCH_0.pdf
 chromium-os/servo/image00.jpg
 chromium-os/servo/810-10010-03_20120227_servo_SCH_0.pdf
 chromium-os/servo/chromium_os_servo_v2.tar.gz
 chromium-os/servo/servo_v2_bot.jpg
-chromium-os/servo/IMG_20151019_085815%20(1)%20(1).jpg
+chromium-os/servo/IMG_20151019_085815 (1) (1).jpg
 chromium-os/servo/chromium_os_yoshi_flex.tar.gz
 chromium-os/servo/servomicro/652-00166-05_20190308_servo_micro_SCH_0.pdf
-chromium-os/servo/servomicro/Case-Closed%20Debug%20in%20Chromebooks%20and%20Servo%20Micro.pdf
+chromium-os/servo/servomicro/Case-Closed Debug in Chromebooks and Servo Micro.pdf
 chromium-os/servo/servo_v2_top.jpg
 chromium-os/ccd/suzy-qs-1.png
 chromium-os/ccd/951-00273-01_20180607_suzyqable_SCH_1.pdf
@@ -250,23 +250,23 @@ chromium-os/testing/moblab/usingmoblab/Selection_946.png
 chromium-os/testing/moblab/setup/Selection_971.png
 chromium-os/testing/moblab/setup/Selection_970.png
 chromium-os/testing/moblab/setup/Selection_972.png
-chromium-os/testing/moblab/setup/Screenshot%20from%202014-09-02%2017_21_38.png
+chromium-os/testing/moblab/setup/Screenshot from 2014-09-02 17_21_38.png
 chromium-os/testing/moblab/setup/Selection_973.png
 chromium-os/testing/moblab/setup/image00.png
 chromium-os/testing/moblab/setup/image01.png
 chromium-os/testing/moblab/setup/image03.png
 chromium-os/testing/moblab/setup/image02.png
-chromium-os/testing/moblab/setup/Screenshot%20from%202014-09-02%2017_21_50.png
+chromium-os/testing/moblab/setup/Screenshot from 2014-09-02 17_21_50.png
 chromium-os/testing/moblab/setup/Selection_968.png
 chromium-os/testing/moblab/faft-testing-with-moblab/create_job_faft.png
-chromium-os/testing/moblab/faft-testing-with-moblab/Running%20FAFT%20(Fully%20Automated%20Firmware%20Tests)%20with%20MobLab.png
-chromium-os/testing/moblab/faft-testing-with-moblab/servo%20v2%20diagram.png
-chromium-os/testing/moblab/releasenotes/Screenshot%20from%202014-09-02%2017_21_38.png
+chromium-os/testing/moblab/faft-testing-with-moblab/Running FAFT (Fully Automated Firmware Tests) with MobLab.png
+chromium-os/testing/moblab/faft-testing-with-moblab/servo v2 diagram.png
+chromium-os/testing/moblab/releasenotes/Screenshot from 2014-09-02 17_21_38.png
 chromium-os/testing/moblab/releasenotes/mob1.png
 chromium-os/testing/moblab/releasenotes/mob2.png
 chromium-os/testing/moblab/releasenotes/7tG9QTai4PUH2ue.png
 chromium-os/testing/moblab/releasenotes/5AjtD5fj5XrBV3X.png
-chromium-os/testing/moblab/releasenotes/Screenshot%20from%202014-09-02%2017_21_50.png
+chromium-os/testing/moblab/releasenotes/Screenshot from 2014-09-02 17_21_50.png
 chromium-os/testing/moblab/releasenotes/944NKgXvoL9ubsp.png
 chromium-os/testing/moblab/releasenotes/65cXCzDADkz.png
 chromium-os/testing/moblab/mob-monitor/mobmonitor.png
@@ -277,29 +277,29 @@ chromium-os/testing/hardware_qualification/HWQual.pdf
 chromium-os/testing/chamelium-audio-streaming/IMG_0001.jpg
 chromium-os/testing/chamelium-audio-streaming/IMG_0003.jpg
 chromium-os/testing/chamelium-audio-streaming/IMG_0002.jpg
-chromium-os/testing/chamelium-audio-board/Chameleon%20Audio%20Board%20R1.1%20Release%20PCB.zip
-chromium-os/testing/chamelium-audio-board/Chameleon%20Audio%20-%20New%20Page%20(4).png
-chromium-os/testing/chamelium-audio-board/Chameleon%20Audio%20Board%20Block%20Diagram.png
-chromium-os/testing/chamelium-audio-board/Chameleon%20Audio%20Board%20R1.1%20Release.pdf
-chromium-os/testing/chamelium/FPGA%20pins.png
-chromium-os/testing/chamelium/IT6803%20Programming%20Guide.1.05.pdf
+chromium-os/testing/chamelium-audio-board/Chameleon Audio Board R1.1 Release PCB.zip
+chromium-os/testing/chamelium-audio-board/Chameleon Audio - New Page (4).png
+chromium-os/testing/chamelium-audio-board/Chameleon Audio Board Block Diagram.png
+chromium-os/testing/chamelium-audio-board/Chameleon Audio Board R1.1 Release.pdf
+chromium-os/testing/chamelium/FPGA pins.png
+chromium-os/testing/chamelium/IT6803 Programming Guide.1.05.pdf
 chromium-os/testing/chamelium/png;base644fb8f58c45521404.png
 chromium-os/testing/chamelium/Chameleon_B1_R1.2_Release.brd
-chromium-os/testing/chamelium/IT6803TE%20Datasheet_for_Google%20v0.83.pdf
+chromium-os/testing/chamelium/IT6803TE Datasheet_for_Google v0.83.pdf
 chromium-os/testing/chamelium/s2mbf9hZBTGKMFHBgqQqDiA.png
 chromium-os/testing/chamelium/s3x3vmsvmeWSlhdK4GEG60A.png
 chromium-os/testing/chamelium/IT6506_Datasheet_for_Google_v1.3.pdf
-chromium-os/testing/chamelium/Chameleon-B1_R1.2_Release%20%5Bfor%20external%20use%5D.pdf
+chromium-os/testing/chamelium/Chameleon-B1_R1.2_Release %5Bfor external use%5D.pdf
 chromium-os/testing/chamelium/video-chameleon-658cadce37849ec8330f7cbfa01135983984ec24.tar.gz
-chromium-os/testing/chamelium/cat9883c_datasheet_for_Google_Rev1%203.pdf
-chromium-os/testing/chamelium/IT6506%20Programming%20Guide.pdf
+chromium-os/testing/chamelium/cat9883c_datasheet_for_Google_Rev1 3.pdf
+chromium-os/testing/chamelium/IT6506 Programming Guide.pdf
 chromium-os/testing/chamelium/swKcCTHdtRXI6IJ-pzsZR9Q.png
 chromium-os/testing/chamelium/CAT9883CRegisterRev01.pdf
 chromium-os/testing/chamelium/spstW8nBPTZeJhUk-NjRnQg.png
 chromium-os/testing/chamelium/sjR3S5TzIrNaCyuUbwvWwbA.png
-chromium-os/testing/chamelium/Chameleon_B1_R1.2-%20Gerber%20file.zip
+chromium-os/testing/chamelium/Chameleon_B1_R1.2- Gerber file.zip
 chromium-os/testing/chamelium/Chameleon_B1_R1.1_BOM.xlsx
-chromium-os/testing/chamelium/Chameleon%20Video%20-%20New%20Page%20(4).png
+chromium-os/testing/chamelium/Chameleon Video - New Page (4).png
 chromium-os/testing/autotest-user-doc/atest-diagram.svg
 chromium-os/testing/autotest-user-doc/atest-diagram.png
 chromium-os/user-experience/settings/5-UnderTheHood.png
@@ -324,7 +324,7 @@ chromium-os/user-experience/form-factors/Tablet.png
 chromium-os/user-experience/form-factors/Display.png
 chromium-os/user-experience/form-factors/laptop.png
 chromium-os/user-experience/form-factors/netbook.png
-chromium-os/user-experience/form-factors/Form%20Factors.png
+chromium-os/user-experience/form-factors/Form Factors.png
 chromium-os/user-experience/Concept2.jpg
 chromium-os/user-experience/opensave-dialogs/Open.png
 chromium-os/user-experience/opensave-dialogs/Save.png
@@ -344,7 +344,7 @@ chromium-os/user-experience/djpg
 chromium-os/user-experience/cjpg
 chromium-os/user-experience/tab-ui/tab_stripspng
 chromium-os/user-experience/sdres_0000_Basic.png
-chromium-os/user-experience/system-status-icons/Screen%20shot%202009-12-01%20at%2012.23.56%20PM.PNG.png
+chromium-os/user-experience/system-status-icons/Screen shot 2009-12-01 at 12.23.56 PM.PNG.png
 chromium-os/user-experience/system-status-icons/NetworkMenu.png
 chromium-os/user-experience/window-management/Chrome-OS-Overlay.png
 chromium-os/user-experience/window-management/Overview.png
@@ -358,14 +358,14 @@ chromium-os/user-experience/Concept.jpg
 chromium-os/user-experience/sdres_0001_App-Menu.png
 chromium-os/user-experience/shelf/Shelf.png
 chromium-os/comp2jpg
-chromium-os/minimuffin/45W%20Type-C%20Adapter%20Control%20Board%20150710.pdf
-chromium-os/minimuffin/45W%20Type-C%20Adapter%20Control%20Board%20150710.gif
+chromium-os/minimuffin/45W Type-C Adapter Control Board 150710.pdf
+chromium-os/minimuffin/45W Type-C Adapter Control Board 150710.gif
 chromium-os/packages/biod/biod_diagram.png
 chromium-os/packages/power_manager/suspend-and-resume/suspend_flowchart.png
 chromium-os/how-tos-and-troubleshooting/kernel-configuration/kernel_config_diag.png
 chromium-os/how-tos-and-troubleshooting/kernel-configuration/kernel_config_diag.svg
 chromium-os/how-tos-and-troubleshooting/running-chromeos-image-under-virtual-machines/Screenshot-QEMU-KVM.png
-chromium-os/how-tos-and-troubleshooting/get-a-3g-modem-running/GSM%20PIN%20code%20types.png
+chromium-os/how-tos-and-troubleshooting/get-a-3g-modem-running/GSM PIN code types.png
 chromium-os/twinkie/pulseview_zoom_packetx3.png
 chromium-os/twinkie/older-sigrok-packages/twinkie_v1.1.2705-bc6d966.combined.bin
 chromium-os/twinkie/pulseview_zoom_packet.png
@@ -391,8 +391,8 @@ chromium-os/chromiumos-design-docs/filesystem-autoupdate/ChromeOSFilesystemAutou
 chromium-os/chromiumos-design-docs/disk-format/kernel2.png
 chromium-os/chromiumos-design-docs/disk-format/layout.png
 chromium-os/chromiumos-design-docs/disk-format/flow.png
-chromium-os/chromiumos-design-docs/ec-3po/EC-3PO-%20The%20EC%20console%20interpreter%20(1).png
-chromium-os/chromiumos-design-docs/ec-3po/EC-3PO-%20The%20EC%20console%20interpreter.png
+chromium-os/chromiumos-design-docs/ec-3po/EC-3PO- The EC console interpreter (1).png
+chromium-os/chromiumos-design-docs/ec-3po/EC-3PO- The EC console interpreter.png
 chromium-os/chromiumos-design-docs/boot-design/boot_design_diagram.png
 chromium-os/chromiumos-design-docs/protecting-cached-user-data/disk-encryption-on-chrome-os--dmcrypt2bext42b1008hapdf
 chromium-os/chromiumos-design-docs/protecting-cached-user-data/disk-encryption-benchmarks--ecryptfs2bext3-1008hapdf
@@ -404,7 +404,7 @@ chromium-os/chromiumos-design-docs/firmware-boot-and-recovery/flowchart1png
 chromium-os/chromiumos-design-docs/firmware-boot-and-recovery/ChromeOSFirmwareBootandRecoveryPUBLISHED.png
 chromium-os/chromiumos-design-docs/firmware-boot-and-recovery/eeprom-mappng
 chromium-os/chromiumos-design-docs/network-portal-detection/FlimflamServiceStateMachine.png
-chromium-os/chromiumos-design-docs/network-portal-detection/FlimflamServiceStateMachine%20(1).png
+chromium-os/chromiumos-design-docs/network-portal-detection/FlimflamServiceStateMachine (1).png
 chromium-os/chromiumos-design-docs/network-portal-detection/FlimflamServiceStateMachine.svg
 chromium-os/chromiumos-design-docs/recovery-mode/srjy2ox0dbMkVTv25qW2QdA.png
 chromium-os/chromiumos-design-docs/recovery-mode/sk78RvI_UcGGddwNUBzsAcA.png
@@ -421,7 +421,7 @@ chromium-os/chromiumos-design-docs/software-architecture/overviewpng
 chromium-os/chromiumos-design-docs/software-architecture/chromepng
 chromium-os/chromiumos-design-docs/verified-boot-data-structures/keyblock.png
 chromium-os/chromiumos-design-docs/verified-boot-data-structures/recovery.png
-chromium-os/chromiumos-design-docs/verified-boot-data-structures/VerifiedBootDataStructures%20(1).png
+chromium-os/chromiumos-design-docs/verified-boot-data-structures/VerifiedBootDataStructures (1).png
 chromium-os/chromiumos-design-docs/verified-boot-data-structures/vbsignature.png
 chromium-os/chromiumos-design-docs/verified-boot-data-structures/readonly.png
 chromium-os/chromiumos-design-docs/verified-boot-data-structures/normal.png
@@ -440,7 +440,7 @@ chromium-os/chromiumos-design-docs/text-input/basic-architecture2.png
 chromium-os/chromiumos-design-docs/text-input/candidate_window.png
 chromium-os/chromiumos-design-docs/text-input/input.png
 chromium-os/dingdong/chromium-os-dingdong.tar.bz2
-chromium-os/dingdong/DingDong%20Block%20Diagram.png
+chromium-os/dingdong/DingDong Block Diagram.png
 chromium-os/dingdong/810-10117-03_20151211_dingdong_SCH_0.pdf
 chromium-os/comp2_200x146.jpg
 favicon.ico
@@ -454,7 +454,7 @@ for-testers/providing-network-details/inclue-bytes-mobile.png
 for-testers/providing-network-details/netexport.png
 for-testers/providing-network-details/net-export-raw-bytes-61.png
 for-testers/providing-network-details/netinternals_export.png
-for-testers/providing-network-details/Screen%20Shot%202017-04-26%20at%2011.18.49%20AM.png
+for-testers/providing-network-details/Screen Shot 2017-04-26 at 11.18.49 AM.png
 for-testers/providing-network-details/capture-bytes.png
 for-testers/providing-network-details/net-export-61.png
 for-testers/providing-network-details/save-to-file.png
@@ -465,27 +465,27 @@ for-testers/faft/rc_typec.png
 for-testers/faft/pd_typeC.png
 for-testers/faft/ServoV4.png
 for-testers/faft/ServoV4-typeC-micro.png
-for-testers/faft/FAFT%20(1).jpg
-for-testers/faft/FAFT%20Hardware%20Setup%20Layout.png
+for-testers/faft/FAFT (1).jpg
+for-testers/faft/FAFT Hardware Setup Layout.png
 for-testers/faft/Servo2_with_labels.jpg
 for-testers/faft/rc_typec_official.png
 for-testers/touch-firmware-tests/TouchFWTests.png
-for-testers/enable-logging/configure%20providers.png
+for-testers/enable-logging/configure providers.png
 getting-involved/dev-channel/wrench.png
-omnibox-history-provider/Screen%20shot%202011-02-16%20at%202.59.44%20PM.png
-omnibox-history-provider/HQP%20Search.jpg
+omnibox-history-provider/Screen shot 2011-02-16 at 2.59.44 PM.png
+omnibox-history-provider/HQP Search.jpg
 omnibox-history-provider/HQP.jpg
 omnibox-history-provider/caching/Shutdown.png
 omnibox-history-provider/caching/Initialization.png
 omnibox-history-provider/caching/Startup.png
 omnibox-history-provider/caching/StartupDetail.png
 omnibox-history-provider/caching/ShutdownDetail.png
-omnibox-history-provider/Screen%20shot%202011-02-16%20at%203.16.49%20PM.png
+omnibox-history-provider/Screen shot 2011-02-16 at 3.16.49 PM.png
 omnibox-history-provider/HQP.tiff
 updates/same-site/test-debug/tsyEts8ZOXE.png
 updates/schemeful-same-site/testing-and-debugging-tips-for-schemeful-same-site/tsyEts8ZOXE.png
-updates/schemeful-same-site/testing-and-debugging-tips-for-schemeful-same-site/SS%20of%20Issue.png
-updates/schemeful-same-site/testing-and-debugging-tips-for-schemeful-same-site/SS%20of%20flags.png
+updates/schemeful-same-site/testing-and-debugging-tips-for-schemeful-same-site/SS of Issue.png
+updates/schemeful-same-site/testing-and-debugging-tips-for-schemeful-same-site/SS of flags.png
 hsts/email.png
 careers/logo_chrome_color_144dp.png
 spdy/More_Bandwidth_Doesn_t_Matter_2_(2).pdf
@@ -498,7 +498,7 @@ spdy/spdy-data/spdy-rtt2.png
 spdy/spdy-data/spdy-pktloss.png
 spdy/spdy-data/spdy-bytes.png
 audio-video/ChromiumMediaBuffering.png
-audio-video/ChromiumMediaPlayerFSStack%20(1).png
+audio-video/ChromiumMediaPlayerFSStack (1).png
 audio-video/ChromiumMediaBuffering.svg
 audio-video/ChromiumMediaPlayerFSStack.png
 devtools/google-chrome-developer-tools-tutorial/heap_snapshot_drill_down.png
@@ -554,7 +554,7 @@ devtools/google-chrome-developer-tools-tutorial/heap_snapshot_compare.png
 devtools/google-chrome-developer-tools-tutorial/elements_search.png
 devtools/google-chrome-developer-tools-tutorial/elements_panel.png
 devtools/google-chrome-developer-tools-tutorial/console_dirxml.png
-devtools/capturing-a-timeline-trace/save%20timeline.png
+devtools/capturing-a-timeline-trace/save timeline.png
 devtools/feed-icon16x16.png
 devtools/page_menu.png
 devtools/wrench-icon.jpg
@@ -569,14 +569,14 @@ user-experience/omnibox/cheese_results.png
 user-experience/omnibox/omnibox_results.png
 user-experience/visual-design/chrome_colorscheme.png
 user-experience/visual-design/chrome_0.2_psd.zip
-user-experience/visual-design/mathemagics%20(1).png
+user-experience/visual-design/mathemagics (1).png
 user-experience/status-bubble/status_bubble_hover.png
 user-experience/status-bubble/status_bubble.png
 user-experience/status-bubble/status_bubble_whiter.png
 user-experience/multitouch/GesturesImages.png
 user-experience/multitouch/gestures_concept.mp4
-user-experience/resolution-independence/Screen%20shot%202009-10-14%20at%208.47.17%20AM.png
-user-experience/resolution-independence/Screen%20shot%202010-02-02%20at%2010.51.45%20AM.PNG
+user-experience/resolution-independence/Screen shot 2009-10-14 at 8.47.17 AM.png
+user-experience/resolution-independence/Screen shot 2010-02-02 at 10.51.45 AM.PNG
 user-experience/Chrome.png
 user-experience/bookmarks/bookmarks_bar.png
 user-experience/bookmarks/bookmark_add.png
@@ -590,15 +590,15 @@ user-experience/history/history_browse.png
 user-experience/history/history_results.png
 user-experience/feed-subscriptions/rss_preview.png
 user-experience/feed-subscriptions/default.png
-user-experience/multi-profiles/Screen%20shot%202011-11-01%20at%2011.21.45%20AM.png
+user-experience/multi-profiles/Screen shot 2011-11-01 at 11.21.45 AM.png
 user-experience/multi-profiles/profile_menu3.png
 user-experience/multi-profiles/signin_1.png
 user-experience/multi-profiles/cupcake_2.png
 user-experience/multi-profiles/09_options_not_signed_in.png
 user-experience/multi-profiles/05_signed_in.png
-user-experience/multi-profiles/Screen%20shot%202010-11-18%20at%202.59.56%20PM.png
+user-experience/multi-profiles/Screen shot 2010-11-18 at 2.59.56 PM.png
 user-experience/find-in-page/find_bar.png
-user-experience/touch-access/playing_around%20(2).png
+user-experience/touch-access/playing_around (2).png
 user-experience/touch-access/chromeos_touch_accessibility_user_flow.png
 user-experience/infobars/yellow-gradient.png
 user-experience/infobars/dialog.png
@@ -621,33 +621,33 @@ user-experience/downloads/Moodstats_1.22.zip
 user-experience/downloads/download_shelf.png
 user-experience/notifications/Notifications.png
 nativeclient/pnacl/stability-of-the-pnacl-bitcode-abi/StabilityofthePNaClbitcodeABI.pdf
-nativeclient/pnacl/aligned-bundling-support-in-llvm/Fragment%20padding.png.1355408184699.png
+nativeclient/pnacl/aligned-bundling-support-in-llvm/Fragment padding.png.1355408184699.png
 nativeclient/getting-started/getting-started-background-and-basics/nacl_diagram.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20debug%20configuration%20main.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20source%20location.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20build%20behaviour%20tab.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20project%20view.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20new%20debug%20configuration%20icon.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20debug%20icon.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20new%20project.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20consoles.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20debug%20configuration%20glibc%20Debugger%20Main.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20last%20debug%20configurations.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20new%20build%20variable.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20select%20preferred%20launcher.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20build.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20debug%20configuration%20Debugger%20Gdbserver%20Settings.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20build%20variables.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20with%20indexer%20enabled.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20add%20directory%20path%202.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20add%20directory%20path%201.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20hit%20breakpoint.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20debug%20configuration%20glibc%20main.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20debug%20configuration%20Debugger%20Main.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20glibc%20hit%20breakpoint.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20hammer%20icon.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20output%20location.png
-nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse%20gdb_init%20file.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse debug configuration main.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse source location.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse build behaviour tab.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse project view.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse new debug configuration icon.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse debug icon.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse new project.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse consoles.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse debug configuration glibc Debugger Main.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse last debug configurations.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse new build variable.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse select preferred launcher.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse build.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse debug configuration Debugger Gdbserver Settings.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse build variables.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse with indexer enabled.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse add directory path 2.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse add directory path 1.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse hit breakpoint.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse debug configuration glibc main.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse debug configuration Debugger Main.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse glibc hit breakpoint.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse hammer icon.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse output location.png
+nativeclient/how-tos/debugging-documentation/debugging-with-debug-stub-recommended/debugging-nacl-apps-in-eclipse-cdt/eclipse gdb_init file.png
 nativeclient/reference/research-papers/pnacl.pdf
 nativeclient/reference/anatomy-of-a-sys/NaClSyscallFlowchart2.png
 nativeclient/reference/anatomy-of-a-sys/NaClSyscallFlowchart.png
@@ -655,41 +655,41 @@ chromium-projects/chrome-64.png
 chromium-projects/logo_chrome_color_1x_web_32dp.png
 chromium-projects/chrome-32.png
 chromium-projects/chrome-24.png
-flash-roadmap/flash-usage-trends/Flash%20Impact.png
-flash-roadmap/flash-usage-trends/Flash%20Volume%20-%20Update%20July%206.png
-flash-roadmap/flash-usage-trends/Daily%20Actives%20-%20Update%20July%209.png
-flash-roadmap/flash-usage-trends/Flash%20Daily%20Actives%20-%20Oct%2013,%202017.png
-flash-roadmap/flash-usage-trends/Flash%20Volume%20-%20Update%20Apr%2015.png
-flash-roadmap/flash-usage-trends/Daily%20Actives%20-%20Update%20Apr%2027.png
-flash-roadmap/flash-usage-trends/Daily%20Actives%20-%20Update%20May%2024.png
-flash-roadmap/flash-usage-trends/Daily%20Actives%20-%20Update%20Aug%2010.png
-flash-roadmap/flash-usage-trends/Flash%20Usage%20Trend%20-%20Jan%2025th,%202017.png
-flash-roadmap/flash-usage-trends/Flash%20Impressions%20-%20Oct%2013,%202017.png
-flash-roadmap/flash-usage-trends/PPS%20Tiny%20-%200x0%20after.jpg
-flash-roadmap/flash-usage-trends/Flash%20Impact%20-%20Usage.png
-flash-roadmap/flash-usage-trends/PPS%20Tiny%20-%200x0%20before.png
-flash-roadmap/flash-usage-trends/Daily%20Actives%20-%20Update%20Apr%2015.png
-flash-roadmap/flash-usage-trends/Flash%20Volume%20-%20Update%20Apr%2027.png
-flash-roadmap/flash-usage-trends/Flash%20Volume%20-%20Update%20May%2024.png
-flash-roadmap/flash-usage-trends/PPS%20Tiny%20-%200x0%20after%20(Updated).png
-flash-roadmap/flash-usage-trends/Flash%20Volume%20-%20Update%20Aug%2010.png
-flash-roadmap/flash-usage-trends/Flash%20Volume%20-%20Update%20July%209.png
-flash-roadmap/flash-usage-trends/Daily%20Actives%20-%20Update%20July%206.png
-issue-tracking/issue-tracking-lifecycle/State%20Diagram.jpg
-issue-tracking/issue-tracking-lifecycle/Conceptual%20Model.png
-issue-tracking/editing-components/Development%20Process.png
-issue-tracking/editing-components/Component%20Edit%20View.png
+flash-roadmap/flash-usage-trends/Flash Impact.png
+flash-roadmap/flash-usage-trends/Flash Volume - Update July 6.png
+flash-roadmap/flash-usage-trends/Daily Actives - Update July 9.png
+flash-roadmap/flash-usage-trends/Flash Daily Actives - Oct 13, 2017.png
+flash-roadmap/flash-usage-trends/Flash Volume - Update Apr 15.png
+flash-roadmap/flash-usage-trends/Daily Actives - Update Apr 27.png
+flash-roadmap/flash-usage-trends/Daily Actives - Update May 24.png
+flash-roadmap/flash-usage-trends/Daily Actives - Update Aug 10.png
+flash-roadmap/flash-usage-trends/Flash Usage Trend - Jan 25th, 2017.png
+flash-roadmap/flash-usage-trends/Flash Impressions - Oct 13, 2017.png
+flash-roadmap/flash-usage-trends/PPS Tiny - 0x0 after.jpg
+flash-roadmap/flash-usage-trends/Flash Impact - Usage.png
+flash-roadmap/flash-usage-trends/PPS Tiny - 0x0 before.png
+flash-roadmap/flash-usage-trends/Daily Actives - Update Apr 15.png
+flash-roadmap/flash-usage-trends/Flash Volume - Update Apr 27.png
+flash-roadmap/flash-usage-trends/Flash Volume - Update May 24.png
+flash-roadmap/flash-usage-trends/PPS Tiny - 0x0 after (Updated).png
+flash-roadmap/flash-usage-trends/Flash Volume - Update Aug 10.png
+flash-roadmap/flash-usage-trends/Flash Volume - Update July 9.png
+flash-roadmap/flash-usage-trends/Daily Actives - Update July 6.png
+issue-tracking/issue-tracking-lifecycle/State Diagram.jpg
+issue-tracking/issue-tracking-lifecycle/Conceptual Model.png
+issue-tracking/editing-components/Development Process.png
+issue-tracking/editing-components/Component Edit View.png
 issue-tracking/editing-components/Components.png
-issue-tracking/editing-components/Component%20List.png
-issue-tracking/migrating-issue-components/Development%20Process.png
-issue-tracking/migrating-issue-components/Bulk%20Edit.png
+issue-tracking/editing-components/Component List.png
+issue-tracking/migrating-issue-components/Development Process.png
+issue-tracking/migrating-issue-components/Bulk Edit.png
 issue-tracking/migrating-issue-components/Components.png
-issue-tracking/migrating-issue-components/Component%20List.png
-issue-tracking/migrating-issue-components/Bulk%20Edit%20-%20Confirm.png
-issue-tracking/migrating-issue-components/Depercate%20Component.png
-issue-tracking/how-to-bulk-edit/Bulk%20Edit.png
-issue-tracking/how-to-bulk-edit/Bulk%20Edit%20-%20Worked.png
-issue-tracking/how-to-bulk-edit/Bulk%20Edit%20-%20Confirm.png
+issue-tracking/migrating-issue-components/Component List.png
+issue-tracking/migrating-issue-components/Bulk Edit - Confirm.png
+issue-tracking/migrating-issue-components/Depercate Component.png
+issue-tracking/how-to-bulk-edit/Bulk Edit.png
+issue-tracking/how-to-bulk-edit/Bulk Edit - Worked.png
+issue-tracking/how-to-bulk-edit/Bulk Edit - Confirm.png
 dev-sentence-diagram.jpg
 administrators/diagnostic-mode/diagmode_wiki.png
 administrators/err_eset_anti_virus_ssl_interception/2.png
@@ -708,25 +708,25 @@ developers/profiling-flame-graphs/flamegraph.png
 developers/memory-usage-backgrounder/chrometaskmanager.jpg
 developers/memory-usage-backgrounder/aboutmemory.jpg
 developers/memory-usage-backgrounder/taskmanager.jpg
-developers/calendar/Chrome%20Release%20Cycle%206.png
-developers/calendar/Chrome%20RC.png
-developers/calendar/Chrome%20RCX.png
+developers/calendar/Chrome Release Cycle 6.png
+developers/calendar/Chrome RC.png
+developers/calendar/Chrome RCX.png
 developers/rtl-in-webkit/WebKit_For_Web_Developers_2.pdf
 developers/rtl-in-webkit/WebKit_For_Web_Developers_1.pdf
 developers/creating-v8-profiling-timeline-plots/1-plot-internal.png
 developers/creating-v8-profiling-timeline-plots/2-distorted.png
-developers/creating-v8-profiling-timeline-plots/Screen%20Shot%202014-09-14%20at%201.27.21%20PM.png
-developers/creating-v8-profiling-timeline-plots/Screen%20Shot%202013-10-06%20at%207.33.59%20PM.png
-developers/creating-v8-profiling-timeline-plots/Screen%20Shot%202014-09-14%20at%201.20.48%20PM.png
+developers/creating-v8-profiling-timeline-plots/Screen Shot 2014-09-14 at 1.27.21 PM.png
+developers/creating-v8-profiling-timeline-plots/Screen Shot 2013-10-06 at 7.33.59 PM.png
+developers/creating-v8-profiling-timeline-plots/Screen Shot 2014-09-14 at 1.20.48 PM.png
 developers/creating-v8-profiling-timeline-plots/3-undistorted.png
 developers/creating-v8-profiling-timeline-plots/4-autoscale.png
 developers/creating-v8-profiling-timeline-plots/0-prof-only.png
-developers/npapi-deprecation/Plugin-blocked%20yellow%20slide%20and%20bubble.png
-developers/npapi-deprecation/Screen%20Shot%202013-12-03%20at%2010.10.16%20AM.png
-developers/npapi-deprecation/Plugin-blocked%20bubble.png
+developers/npapi-deprecation/Plugin-blocked yellow slide and bubble.png
+developers/npapi-deprecation/Screen Shot 2013-12-03 at 10.10.16 AM.png
+developers/npapi-deprecation/Plugin-blocked bubble.png
 developers/npapi-deprecation/npapimock.png
 developers/npapi-deprecation/Plugin-blocked-yellow-slide.png
-developers/npapi-deprecation/Screen%20Shot%202013-12-03%20at%2010.09.10%20AM.png
+developers/npapi-deprecation/Screen Shot 2013-12-03 at 10.09.10 AM.png
 developers/using-requestautocomplete/1m438-F2ObI9EqH66C94s_A6pzh5nN7Komyde.png
 developers/using-requestautocomplete/order-summary.png
 developers/using-requestautocomplete/1LjbbxAJEBfpWRufhVtrUxNAB_WgavjqvfgpL.png
@@ -738,7 +738,7 @@ developers/Web-page-views/WebContents.png
 developers/Web-page-views/WebContents.graffle
 developers/sublime-text/SublimeExample.png
 developers/whistling.jpg
-developers/tech-talk-videos/release-process/release%20process%20version%202.png
+developers/tech-talk-videos/release-process/release process version 2.png
 developers/tech-talk-videos/release-process/death_metal_rooster3.png
 developers/tech-talk-videos/release-process/chromium-24.png
 developers/tech-talk-videos/release-process/starwars-disturbance2.jpg
@@ -754,7 +754,7 @@ developers/testing/flakiness-dashboard/newFailingTest.jpg
 developers/testing/flakiness-dashboard/seeResults.jpg
 developers/testing/flakiness-dashboard/seeResults2.jpg
 developers/testing/flakiness-dashboard/missingorextra.jpg
-developers/testing/adding-performance-tests/Screen%20Shot%202013-12-20%20at%209.03.31%20AM.png
+developers/testing/adding-performance-tests/Screen Shot 2013-12-20 at 9.03.31 AM.png
 developers/rendering-performance-case-study-1/19-populated.png
 developers/rendering-performance-case-study-1/07-hypothetsis.png
 developers/rendering-performance-case-study-1/06-invalidation.png
@@ -786,11 +786,11 @@ developers/diagnostics/gcf_troubleshooting/image1.png
 developers/diagnostics/gcf_troubleshooting/image0.png
 developers/diagnostics/gcf_troubleshooting/image2.png
 developers/diagnostics/gcf_troubleshooting/image3.png
-developers/f-script-anywhere/Screen%20shot%202011-04-01%20at%204.27.30%20PM.png
-developers/f-script-anywhere/Screen%20shot%202011-04-01%20at%2011.57.03%20AM.png
-developers/f-script-anywhere/Screen%20shot%202011-04-01%20at%2011.52.02%20AM.png
-developers/f-script-anywhere/Screen%20shot%202011-04-01%20at%2011.59.21%20AM.png
-developers/f-script-anywhere/Screen%20shot%202011-04-01%20at%2011.59.12%20AM.png
+developers/f-script-anywhere/Screen shot 2011-04-01 at 4.27.30 PM.png
+developers/f-script-anywhere/Screen shot 2011-04-01 at 11.57.03 AM.png
+developers/f-script-anywhere/Screen shot 2011-04-01 at 11.52.02 AM.png
+developers/f-script-anywhere/Screen shot 2011-04-01 at 11.59.21 AM.png
+developers/f-script-anywhere/Screen shot 2011-04-01 at 11.59.12 AM.png
 developers/common-terms--techno-babble/corruption.png
 developers/slack/blob_cheer.png
 developers/slack/blob_think.png
@@ -799,52 +799,52 @@ developers/slack/blob_stop.png
 developers/slack/blob_peek.png
 developers/tree-sheriffs/sheriff-details-chromium/tree_status.png
 developers/tree-sheriffs/sheriff-details-chromium/Waterfall.png
-developers/tree-sheriffs/sheriff-details-chromium-os/Test%20Orchestrator.png
+developers/tree-sheriffs/sheriff-details-chromium-os/Test Orchestrator.png
 developers/tree-sheriffs/sheriff-details-chromium-os/Screenshot.png
 developers/tree-sheriffs/sheriff-details-chromium-os/cloud-storage.png
 developers/tree-sheriffs/sheriff-details-chromium-os/crash-example.png
-developers/tree-sheriffs/sheriff-details-chromium-os/ChromeOS%20Parallel%20CQ%20-%20Linear%20view%20of%20CLs.png
+developers/tree-sheriffs/sheriff-details-chromium-os/ChromeOS Parallel CQ - Linear view of CLs.png
 developers/tree-sheriffs/sheriff-details-chromium-os/Builders.png
 developers/tree-sheriffs/perf-sheriffs/SheriffBadge2.jpg
-developers/tree-sheriffs/perf-sheriffs/Screen%20Shot%202013-10-27%20at%2010.50.40%20AM.png
-developers/tree-sheriffs/perf-sheriffs/Screen%20Shot%202013-04-23%20at%208.04.15%20AM.png
-developers/tree-sheriffs/perf-sheriffs/Screen%20Shot%202013-10-27%20at%2010.29.17%20AM.png
-developers/tree-sheriffs/perf-sheriffs/Screen%20Shot%202013-10-27%20at%2010.39.38%20AM.png
-developers/tree-sheriffs/perf-sheriffs/Screen%20Shot%202013-10-27%20at%2010.23.35%20AM.png
-developers/tree-sheriffs/perf-sheriffs/Screen%20Shot%202013-10-27%20at%2010.33.54%20AM.png
+developers/tree-sheriffs/perf-sheriffs/Screen Shot 2013-10-27 at 10.50.40 AM.png
+developers/tree-sheriffs/perf-sheriffs/Screen Shot 2013-04-23 at 8.04.15 AM.png
+developers/tree-sheriffs/perf-sheriffs/Screen Shot 2013-10-27 at 10.29.17 AM.png
+developers/tree-sheriffs/perf-sheriffs/Screen Shot 2013-10-27 at 10.39.38 AM.png
+developers/tree-sheriffs/perf-sheriffs/Screen Shot 2013-10-27 at 10.23.35 AM.png
+developers/tree-sheriffs/perf-sheriffs/Screen Shot 2013-10-27 at 10.33.54 AM.png
 developers/how-tos/chrome-frame-getting-started/screenshot-chromeframe.jpeg
-developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202019-11-27%2023-09-36.png
+developers/how-tos/submitting-a-performance-bug/Screenshot from 2019-11-27 23-09-36.png
 developers/how-tos/drover/2.png
 developers/how-tos/drover/1.png
 developers/how-tos/debugging-on-windows/gflags.png
 developers/how-tos/debugging-on-windows/StepIntoSpecific.png
 developers/how-tos/debugging-on-windows/graphics-debugging-in-visual-studio-2013/graphicsdebugger.png
-developers/how-tos/trace-event-profiling-tool/frame-viewer/Screen%20Shot%202013-05-14%20at%209.10.55%20PM.png
+developers/how-tos/trace-event-profiling-tool/frame-viewer/Screen Shot 2013-05-14 at 9.10.55 PM.png
 developers/how-tos/trace-event-profiling-tool/frame-viewer/frameviewer.png
 developers/how-tos/trace-event-profiling-tool/trace3.png
-developers/how-tos/trace-event-profiling-tool/recording-tracing-runs/Screen%20Shot%202015-06-04%20at%201.37.00%20PM.png
+developers/how-tos/trace-event-profiling-tool/recording-tracing-runs/Screen Shot 2015-06-04 at 1.37.00 PM.png
 developers/how-tos/trace-event-profiling-tool/recording-tracing-runs/tracing-systrace.png
-developers/how-tos/trace-event-profiling-tool/recording-tracing-runs/Screen%20Shot%202015-06-04%20at%2012.47.34%20PM.png
+developers/how-tos/trace-event-profiling-tool/recording-tracing-runs/Screen Shot 2015-06-04 at 12.47.34 PM.png
 developers/how-tos/trace-event-profiling-tool/recording-tracing-runs/s4.png
 developers/how-tos/trace-event-profiling-tool/recording-tracing-runs/s3.png
 developers/how-tos/trace-event-profiling-tool/recording-tracing-runs/sunburst.png
 developers/how-tos/trace-event-profiling-tool/recording-tracing-runs/s2.png
 developers/how-tos/trace-event-profiling-tool/recording-tracing-runs/tracing-frame-viewer.png
 developers/how-tos/trace-event-profiling-tool/recording-tracing-runs/tracing-flow.png
-developers/how-tos/trace-event-profiling-tool/recording-tracing-runs/Screenshot%20from%202014-10-14%2010-18-44.png
-developers/how-tos/trace-event-profiling-tool/recording-tracing-runs/Screenshot%20from%202014-10-14%2010-19-11.png
-developers/how-tos/trace-event-profiling-tool/recording-tracing-runs/Screen%20Shot%202015-06-04%20at%2012.46.58%20PM.png
+developers/how-tos/trace-event-profiling-tool/recording-tracing-runs/Screenshot from 2014-10-14 10-18-44.png
+developers/how-tos/trace-event-profiling-tool/recording-tracing-runs/Screenshot from 2014-10-14 10-19-11.png
+developers/how-tos/trace-event-profiling-tool/recording-tracing-runs/Screen Shot 2015-06-04 at 12.46.58 PM.png
 developers/how-tos/trace-event-profiling-tool/recording-tracing-runs/tracing-scheduler.png
 developers/how-tos/trace-event-profiling-tool/recording-tracing-runs/s.png
-developers/how-tos/trace-event-profiling-tool/recording-tracing-runs/Screenshot%20from%202014-10-14%2010-18-30.png
-developers/how-tos/trace-event-profiling-tool/memory/2.%20MemoryInfra-%20From%20trace%20JSON%20to%20Tracks.png
+developers/how-tos/trace-event-profiling-tool/recording-tracing-runs/Screenshot from 2014-10-14 10-18-30.png
+developers/how-tos/trace-event-profiling-tool/memory/2. MemoryInfra- From trace JSON to Tracks.png
 developers/how-tos/trace-event-profiling-tool/memory/dump.png
 developers/how-tos/trace-event-profiling-tool/memory/gpu-memory/sXTqTORl7xn0ijvmBV3etcA.png
-developers/how-tos/trace-event-profiling-tool/memory/gpu-memory/sXTqTORl7xn0ijvmBV3etcA%20(1).png
-developers/how-tos/trace-event-profiling-tool/memory/gpu-memory/Screen%20Shot%202015-09-24%20at%208.38.32%20PM.png
-developers/how-tos/trace-event-profiling-tool/memory/gpu-memory/Screen%20Shot%202015-09-24%20at%208.34.32%20PM.png
-developers/how-tos/trace-event-profiling-tool/memory/Screen%20Shot%202015-06-12%20at%207.42.47%20PM.png
-developers/how-tos/trace-event-profiling-tool/memory/Screen%20Shot%202015-06-12%20at%205.30.33%20PM.png
+developers/how-tos/trace-event-profiling-tool/memory/gpu-memory/sXTqTORl7xn0ijvmBV3etcA (1).png
+developers/how-tos/trace-event-profiling-tool/memory/gpu-memory/Screen Shot 2015-09-24 at 8.38.32 PM.png
+developers/how-tos/trace-event-profiling-tool/memory/gpu-memory/Screen Shot 2015-09-24 at 8.34.32 PM.png
+developers/how-tos/trace-event-profiling-tool/memory/Screen Shot 2015-06-12 at 7.42.47 PM.png
+developers/how-tos/trace-event-profiling-tool/memory/Screen Shot 2015-06-12 at 5.30.33 PM.png
 developers/how-tos/trace-event-profiling-tool/memory/heap-profiling-with-memory-infra/detailed_dump.png
 developers/how-tos/trace-event-profiling-tool/memory/heap-profiling-with-memory-infra/new.png
 developers/how-tos/trace-event-profiling-tool/memory/heap-profiling-with-memory-infra/heap.png
@@ -852,25 +852,25 @@ developers/how-tos/trace-event-profiling-tool/memory/memory_infra_logo.png
 developers/how-tos/trace-event-profiling-tool/abouttracing2.png
 developers/how-tos/trace-event-profiling-tool/trace-event-reading/sixth-before-import.png
 developers/how-tos/trace-event-profiling-tool/trace-event-reading/Selection.png
-developers/how-tos/trace-event-profiling-tool/trace-event-reading/Screen%20Shot%202015-09-02%20at%208.39.51%20PM.png
+developers/how-tos/trace-event-profiling-tool/trace-event-reading/Screen Shot 2015-09-02 at 8.39.51 PM.png
 developers/how-tos/trace-event-profiling-tool/trace-event-reading/second.png
 developers/how-tos/trace-event-profiling-tool/trace-event-reading/synchanell.png
 developers/how-tos/trace-event-profiling-tool/trace-event-reading/fourth.png
 developers/how-tos/trace-event-profiling-tool/trace-event-reading/third.png
 developers/how-tos/trace-event-profiling-tool/trace-event-reading/fifth.png
-developers/how-tos/trace-event-profiling-tool/trace-event-reading/Screen%20Shot%202015-09-02%20at%208.46.48%20PM.png
+developers/how-tos/trace-event-profiling-tool/trace-event-reading/Screen Shot 2015-09-02 at 8.46.48 PM.png
 developers/how-tos/trace-event-profiling-tool/trace-event-reading/first.png
 developers/how-tos/trace-event-profiling-tool/trace.png
 developers/how-tos/trace-event-profiling-tool/3dtracing2.png
 developers/how-tos/trace-event-profiling-tool/using-frameviewer/output_optimized_frame.gif
-developers/how-tos/trace-event-profiling-tool/using-frameviewer/03-individual%20trace.png
+developers/how-tos/trace-event-profiling-tool/using-frameviewer/03-individual trace.png
 developers/how-tos/trace-event-profiling-tool/using-frameviewer/8.png
 developers/how-tos/trace-event-profiling-tool/using-frameviewer/01-followalong.png
 developers/how-tos/trace-event-profiling-tool/using-frameviewer/9.png
 developers/how-tos/trace-event-profiling-tool/using-frameviewer/14.png
 developers/how-tos/trace-event-profiling-tool/using-frameviewer/15.png
 developers/how-tos/trace-event-profiling-tool/using-frameviewer/17.png
-developers/how-tos/trace-event-profiling-tool/using-frameviewer/04-information%20is.png
+developers/how-tos/trace-event-profiling-tool/using-frameviewer/04-information is.png
 developers/how-tos/trace-event-profiling-tool/using-frameviewer/02-lefttoright.png
 developers/how-tos/trace-event-profiling-tool/using-frameviewer/16.png
 developers/how-tos/trace-event-profiling-tool/using-frameviewer/12.png
@@ -917,13 +917,13 @@ developers/how-tos/gpu-wrangling/Step1.png
 developers/how-tos/gpu-wrangling/wrangler.png
 developers/telemetry/benchmark-organization-diagram.png
 developers/telemetry/record_a_page_set/WebPageReplayDiagram.png
-developers/telemetry/diagnosing-test-failures/Screen%20Shot%202014-12-10%20at%209.42.17%20AM.png
-developers/telemetry/performance-try-bots/Screen%20Shot%202014-08-26%20at%2010.49.51%20AM.png
-developers/telemetry/performance-try-bots/Screen%20Shot%202014-08-26%20at%2010.49.28%20AM.png
+developers/telemetry/diagnosing-test-failures/Screen Shot 2014-12-10 at 9.42.17 AM.png
+developers/telemetry/performance-try-bots/Screen Shot 2014-08-26 at 10.49.51 AM.png
+developers/telemetry/performance-try-bots/Screen Shot 2014-08-26 at 10.49.28 AM.png
 developers/cluster-telemetry/LW5ZqMVpXdw.png
 developers/cluster-telemetry/6bAxkmCFOA8.png
-developers/design-documents/profile-chooser-menu/Avatar%20Menu%20Classes.png
-developers/design-documents/aura-desktop-window-manager/Chrome%20Graphics%20Infrastructure.png
+developers/design-documents/profile-chooser-menu/Avatar Menu Classes.png
+developers/design-documents/aura-desktop-window-manager/Chrome Graphics Infrastructure.png
 developers/design-documents/video-capture/VideoCaptureBrowserClasses.jpg
 developers/design-documents/video/video_stack_arch.graffle
 developers/design-documents/video/video_stack_arch.png
@@ -938,13 +938,13 @@ developers/design-documents/wrench-menu-mac/WrenchMenuTaskDispatch.png
 developers/design-documents/multi-process-resource-loading/resource_loader.png
 developers/design-documents/multi-process-resource-loading/Resource-loading.png
 developers/design-documents/multi-process-resource-loading/Resourceloading2.ai
-developers/design-documents/web-midi/Web%20MIDI%20design%20overview.png
-developers/design-documents/web-midi/Web%20MIDI%20design%20overview%20(1).png
+developers/design-documents/web-midi/Web MIDI design overview.png
+developers/design-documents/web-midi/Web MIDI design overview (1).png
 developers/design-documents/bluetooth-design-docs/web-bluetooth-through-bluetooth-android-class-diagram/WebBluetoothThroughBluetoothAndroid.svg
 developers/design-documents/bluetooth-design-docs/web-bluetooth-through-bluetooth-android-class-diagram/WebBluetoothThroughBluetoothAndroid.dia
 developers/design-documents/chromium-graphics/graphics.png
-developers/design-documents/chromium-graphics/mac-delegated-rendering/aura%20ubercomp.png
-developers/design-documents/chromium-graphics/mac-delegated-rendering/mac%20ubercomp.png
+developers/design-documents/chromium-graphics/mac-delegated-rendering/aura ubercomp.png
+developers/design-documents/chromium-graphics/mac-delegated-rendering/mac ubercomp.png
 developers/design-documents/chromium-graphics/how-to-get-gpu-rasterization/gpuraster.png
 developers/design-documents/native-controls/NativeControlHistoric2.png
 developers/design-documents/native-controls/NativeControl.png
@@ -959,13 +959,13 @@ developers/design-documents/ui-mirroring-infrastructure/explorer_window_en_us.jp
 developers/design-documents/ui-mirroring-infrastructure/tabs_layout_bug.jpg
 developers/design-documents/ui-mirroring-infrastructure/tabs_fixed.jpg
 developers/design-documents/ui-mirroring-infrastructure/chrome_toolbar.jpg
-developers/design-documents/media-router/Chrome%20Media%20Router%20Architecture.png
-developers/design-documents/media-router/Chrome%20Media%20Router%20-%20Chrome%20architecture.png
+developers/design-documents/media-router/Chrome Media Router Architecture.png
+developers/design-documents/media-router/Chrome Media Router - Chrome architecture.png
 developers/design-documents/media-router/media_router_overflow.jpg
 developers/design-documents/media-router/media_router_universal_remote.jpg
 developers/design-documents/media-router/media_router_screen_selector.jpg
-developers/design-documents/media-router/Chrome%20Media%20Router%20-%20Chrome%20architecture%20(1).png
-developers/design-documents/media-router/Chrome%20Media%20Router%20Architecture%20(1).png
+developers/design-documents/media-router/Chrome Media Router - Chrome architecture (1).png
+developers/design-documents/media-router/Chrome Media Router Architecture (1).png
 developers/design-documents/media-router/media_router_ui_diagram.jpg
 developers/design-documents/tab-strip-mac/dragWithin.png
 developers/design-documents/tab-strip-mac/dragWithin2.png
@@ -976,13 +976,13 @@ developers/design-documents/rendering-architecture-diagrams/chromium-composited-
 developers/design-documents/rendering-architecture-diagrams/chromium-non-composited-sw-rendering.png
 developers/design-documents/omnibox-ime-coordination/imeomni.png
 developers/design-documents/cookbook/layercake.png
-developers/design-documents/cookbook/Life%20of%20a%20Browser%20Component.pdf
+developers/design-documents/cookbook/Life of a Browser Component.pdf
 developers/design-documents/xss-auditor/XSSAuditorViewSource.png
 developers/design-documents/generic-theme-for-test-shell/test_shell_generic_theme.png
 developers/design-documents/extensions/proposed-changes/apis-under-development/offscreen-tabs/book_screenshot.png
 developers/design-documents/extensions/proposed-changes/apis-under-development/offscreen-tabs/screenshot.png
 developers/design-documents/extensions/proposed-changes/apis-under-development/offscreen-tabs/coverflow_screenshot.png
-developers/design-documents/extensions/proposed-changes/apis-under-development/panels/Screen%20shot%202011-10-06%20at%203.47.53%20PM.png
+developers/design-documents/extensions/proposed-changes/apis-under-development/panels/Screen shot 2011-10-06 at 3.47.53 PM.png
 developers/design-documents/extensions/proposed-changes/apis-under-development/webrtc-tab-content-capture/TabCaptureStates.png
 developers/design-documents/extensions/proposed-changes/apis-under-development/context-menu-api/context_menu_api_3.png
 developers/design-documents/extensions/proposed-changes/apis-under-development/context-menu-api/context_menu_api_2.png
@@ -1020,9 +1020,9 @@ developers/design-documents/safebrowsing/download_protection.png
 developers/design-documents/safebrowsing/browse.svg
 developers/design-documents/safebrowsing/chrome_safe_browsing_wo_legend_wo_download.png
 developers/design-documents/safebrowsing/csdservice.svg
-developers/design-documents/embedding-flash-fullscreen-in-the-browser-window/Design%20Doc-%20Flash%20Fullscreen%20in%20Browser%20(1).png.1379119292169.png
-developers/design-documents/embedding-flash-fullscreen-in-the-browser-window/Design%20Doc-%20Flash%20Fullscreen%20in%20Browser%20(2).png.1379119349348.png
-developers/design-documents/embedding-flash-fullscreen-in-the-browser-window/Design%20Doc-%20Flash%20Fullscreen%20in%20Browser.png.1379119228467.png
+developers/design-documents/embedding-flash-fullscreen-in-the-browser-window/Design Doc- Flash Fullscreen in Browser (1).png.1379119292169.png
+developers/design-documents/embedding-flash-fullscreen-in-the-browser-window/Design Doc- Flash Fullscreen in Browser (2).png.1379119349348.png
+developers/design-documents/embedding-flash-fullscreen-in-the-browser-window/Design Doc- Flash Fullscreen in Browser.png.1379119228467.png
 developers/design-documents/info-bars/InfoBars.png
 developers/design-documents/info-bars/InfoBars.graffle
 developers/design-documents/info-bars/2infobars.png
@@ -1045,17 +1045,17 @@ developers/design-documents/find-bar/FindBar.graffle
 developers/design-documents/prerender/CroppedPrerenderingDiagram.png
 developers/design-documents/prerender/Prerenderingdiagram.png
 developers/design-documents/prerender/Wickedflowchart.gif
-developers/design-documents/oop-iframes/Cross%20Process%20Tabs%20(for%20posting).png
-developers/design-documents/oop-iframes/Frame%20DOMWindow%20Document%202015%20(for%20posting).png
-developers/design-documents/oop-iframes/oop-iframes-rendering/rendering%20design%20-%20rendering%20trees.png
-developers/design-documents/oop-iframes/oop-iframes-rendering/rendering%20design%20-%20ogres%20are%20like%20onions.png
-developers/design-documents/oop-iframes/oop-iframes-rendering/rendering%20design%20-%20texture%20routing.png
-developers/design-documents/oop-iframes/oop-iframes-rendering/Design%20Doc-%20Rendering%20and%20compositing%20out-of-process%20iframes.png
-developers/design-documents/oop-iframes/oop-iframes-rendering/rendering%20design%20-%20compositor%20frame%20routing.png
-developers/design-documents/oop-iframes/Frame%20Trees%202015%20(for%20posting).png
-developers/design-documents/oop-iframes/Local%20vs%20Remote%20Frame%20diagram.png
-developers/design-documents/oop-iframes/Frame%20Trees%20(for%20posting).png
-developers/design-documents/oop-iframes/Frame%20DOMWindow%20Document%20(1).png
+developers/design-documents/oop-iframes/Cross Process Tabs (for posting).png
+developers/design-documents/oop-iframes/Frame DOMWindow Document 2015 (for posting).png
+developers/design-documents/oop-iframes/oop-iframes-rendering/rendering design - rendering trees.png
+developers/design-documents/oop-iframes/oop-iframes-rendering/rendering design - ogres are like onions.png
+developers/design-documents/oop-iframes/oop-iframes-rendering/rendering design - texture routing.png
+developers/design-documents/oop-iframes/oop-iframes-rendering/Design Doc- Rendering and compositing out-of-process iframes.png
+developers/design-documents/oop-iframes/oop-iframes-rendering/rendering design - compositor frame routing.png
+developers/design-documents/oop-iframes/Frame Trees 2015 (for posting).png
+developers/design-documents/oop-iframes/Local vs Remote Frame diagram.png
+developers/design-documents/oop-iframes/Frame Trees (for posting).png
+developers/design-documents/oop-iframes/Frame DOMWindow Document (1).png
 developers/design-documents/aura/event-handling/arch4.png
 developers/design-documents/aura/graphics-architecture/ChromeGraphicsArchitecture.graffle
 developers/design-documents/aura/graphics-architecture/ChromeGraphicsArchitecture.png
@@ -1066,7 +1066,7 @@ developers/design-documents/aura/aura-overview/Aura.png
 developers/design-documents/aura/layout-managers/LayoutManager.png
 developers/design-documents/aura/layout-managers/LayoutManager.graffle
 developers/design-documents/aura/ash-color-chooser/col.png
-developers/design-documents/aura/ash-color-chooser/Screenshot%202012-05-23%205-48-07%20PM.png
+developers/design-documents/aura/ash-color-chooser/Screenshot 2012-05-23 5-48-07 PM.png
 developers/design-documents/aura/gesture-recognizer/output.png.1379091770284.png
 developers/design-documents/aura/client-api/ClientAPI.png
 developers/design-documents/aura/client-api/ClientAPI.graffle
@@ -1080,7 +1080,7 @@ developers/design-documents/sync/unified-sync-and-storage-overview/sSbkKodQc5-Rb
 developers/design-documents/sync/unified-sync-and-storage-overview/sK5QS5Ee9i0OE2L4RIHredA.png
 developers/design-documents/sync/syncable-service-api/SyncAPI.pdf
 developers/design-documents/pepper-plugin-implementation/pepper_design.png
-developers/design-documents/pepper-plugin-implementation/Pepper%20design.ai
+developers/design-documents/pepper-plugin-implementation/Pepper design.ai
 developers/design-documents/accessibility/properties.png
 developers/design-documents/accessibility/create_shortcut.png
 developers/design-documents/accessibility/tracker/CSUN_Improving_Access_To_Web_Platforms_Content_andApplications.pdf
@@ -1096,12 +1096,12 @@ developers/design-documents/accessibility/custom_colors.png
 developers/design-documents/cookie-split-loading/objects.pdf
 developers/design-documents/cookie-split-loading/objects.svg
 developers/design-documents/displaying-a-web-page-in-chrome/layers.png
-developers/design-documents/displaying-a-web-page-in-chrome/Renderingintherenderer%20v2.ai
+developers/design-documents/displaying-a-web-page-in-chrome/Renderingintherenderer v2.ai
 developers/design-documents/displaying-a-web-page-in-chrome/Renderingintherenderer-v2.png
-developers/design-documents/displaying-a-web-page-in-chrome/rendering%20renderer2.png
+developers/design-documents/displaying-a-web-page-in-chrome/rendering renderer2.png
 developers/design-documents/displaying-a-web-page-in-chrome/Renderingintherenderer.ai
-developers/design-documents/displaying-a-web-page-in-chrome/rendering%20browser.png
-developers/design-documents/displaying-a-web-page-in-chrome/rendering%20renderer.png
+developers/design-documents/displaying-a-web-page-in-chrome/rendering browser.png
+developers/design-documents/displaying-a-web-page-in-chrome/rendering renderer.png
 developers/design-documents/gpu-accelerated-compositing-in-chrome/the_compositing_forest.png
 developers/design-documents/gpu-accelerated-compositing-in-chrome/CompositingwiththeGPUProcess.png
 developers/design-documents/gpu-accelerated-compositing-in-chrome/software_rendering_architecture.png
@@ -1119,7 +1119,7 @@ developers/design-documents/plugin-architecture/pluginsinprocess.png
 developers/design-documents/blink-coordinate-spaces/BlinkCoordinates.png
 developers/design-documents/blink-coordinate-spaces/menu.png
 developers/design-documents/confirm-to-quit-experiment/Content.png
-developers/design-documents/directwrite-font-proxy/Removing%20DWrite%20font%20cache%20(1).png
+developers/design-documents/directwrite-font-proxy/Removing DWrite font cache (1).png
 developers/design-documents/site-isolation/ChromeSiteIsolationProject-siteinstances.png
 developers/design-documents/site-isolation/ChromeSiteIsolationProject-arch.png
 developers/design-documents/chaps-technical-design/ChapsStack.png
@@ -1146,33 +1146,33 @@ developers/design-documents/network-stack/disk-cache/files2.PNG
 developers/design-documents/network-stack/disk-cache/files3.PNG
 developers/design-documents/network-stack/disk-cache/files4.PNG
 developers/design-documents/network-stack/netlog/NetLog1.png
-developers/design-documents/network-stack/Chromium%20HTTP%20Network%20Request%20Diagram.svg
+developers/design-documents/network-stack/Chromium HTTP Network Request Diagram.svg
 developers/design-documents/network-stack/http-cache/t.png
-developers/design-documents/network-stack/Chromium%20Network%20Stack.svg
-developers/web-intents-in-chrome/Screen%20shot%202012-05-09%20at%207.43.31%20PM.png
+developers/design-documents/network-stack/Chromium Network Stack.svg
+developers/web-intents-in-chrome/Screen shot 2012-05-09 at 7.43.31 PM.png
 developers/web-intents-in-chrome/noinstalls.PNG
-developers/web-intents-in-chrome/Screen%20shot%202012-05-10%20at%2011.59.08%20PM.png
+developers/web-intents-in-chrome/Screen shot 2012-05-10 at 11.59.08 PM.png
 developers/web-intents-in-chrome/with.PNG
-developers/web-intents-in-chrome/Screen%20shot%202012-05-11%20at%2012.00.09%20AM.png
-developers/web-intents-in-chrome/Screen%20shot%202012-05-10%20at%2012.40.51%20AM.png
-developers/web-intents-in-chrome/Screen%20shot%202012-05-14%20at%204.56.03%20PM.png
-developers/web-intents-in-chrome/Screen%20shot%202012-05-11%20at%2012.02.41%20AM.png
-developers/web-intents-in-chrome/Screen%20shot%202012-05-14%20at%204.48.28%20PM.png
+developers/web-intents-in-chrome/Screen shot 2012-05-11 at 12.00.09 AM.png
+developers/web-intents-in-chrome/Screen shot 2012-05-10 at 12.40.51 AM.png
+developers/web-intents-in-chrome/Screen shot 2012-05-14 at 4.56.03 PM.png
+developers/web-intents-in-chrome/Screen shot 2012-05-11 at 12.02.41 AM.png
+developers/web-intents-in-chrome/Screen shot 2012-05-14 at 4.48.28 PM.png
 developers/gyp-environment-variables/menu_check.png
 chromium-os/how-tos-and-troubleshooting/boot-mainline-kernel-on-veyron-jaq/.config
 _assets/customLogo.png
-chromium-os/how-tos-and-troubleshooting/visualizing-the-rootfs/Screenshot%20from%202013-04-08%2013%3A46%3A48.png
-chromium-os/testing/chamelium-audio-streaming/Screenshot%20from%202017-03-07%2017%3A51%3A43.png
-chromium-os/testing/chamelium-audio-streaming/Screenshot%20from%202017-03-07%2017%3A53%3A38.png
-developers/design-documents/aura/ash-color-chooser/Screenshot%202012-06-20%206%3A31%3A36%20PM.png
-developers/design-documents/aura/ash-color-chooser/Screenshot%202012-06-26%203%3A50%3A42%20PM.png
-developers/how-tos/inspecting-ash/Screenshot%20from%202017-08-28%2014%3A28%3A36.png
-developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-10%2014%3A52%3A09.png
-developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-10%2014%3A52%3A29.png
-developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-10%2014%3A54%3A06.png
-developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-10%2014%3A55%3A28.png
-developers/how-tos/submitting-a-performance-bug/Screenshot%20from%202015-03-24%2011%3A16%3A39.png
+chromium-os/how-tos-and-troubleshooting/visualizing-the-rootfs/Screenshot from 2013-04-08 13%3A46%3A48.png
+chromium-os/testing/chamelium-audio-streaming/Screenshot from 2017-03-07 17%3A51%3A43.png
+chromium-os/testing/chamelium-audio-streaming/Screenshot from 2017-03-07 17%3A53%3A38.png
+developers/design-documents/aura/ash-color-chooser/Screenshot 2012-06-20 6%3A31%3A36 PM.png
+developers/design-documents/aura/ash-color-chooser/Screenshot 2012-06-26 3%3A50%3A42 PM.png
+developers/how-tos/inspecting-ash/Screenshot from 2017-08-28 14%3A28%3A36.png
+developers/how-tos/submitting-a-performance-bug/Screenshot from 2015-03-10 14%3A52%3A09.png
+developers/how-tos/submitting-a-performance-bug/Screenshot from 2015-03-10 14%3A52%3A29.png
+developers/how-tos/submitting-a-performance-bug/Screenshot from 2015-03-10 14%3A54%3A06.png
+developers/how-tos/submitting-a-performance-bug/Screenshot from 2015-03-10 14%3A55%3A28.png
+developers/how-tos/submitting-a-performance-bug/Screenshot from 2015-03-24 11%3A16%3A39.png
 developers/how-tos/trace-event-profiling-tool/Screenshot-about%3Agpu.png
-developers/tree-sheriffs/perf-sheriffs/bisecting-performance-regressions/Screenshot%20from%202013-08-20%2009%3A14%3A59.png
-developers/tree-sheriffs/perf-sheriffs/bisecting-performance-regressions/Screen%20Shot%202013-05-28%20at%206.18.39%20PM.png
+developers/tree-sheriffs/perf-sheriffs/bisecting-performance-regressions/Screenshot from 2013-08-20 09%3A14%3A59.png
+developers/tree-sheriffs/perf-sheriffs/bisecting-performance-regressions/Screen Shot 2013-05-28 at 6.18.39 PM.png
 #end_lob_ignore
