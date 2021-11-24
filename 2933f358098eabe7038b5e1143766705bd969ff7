@@ -16,6 +16,23 @@
       "message": "Dirk - somehow you weren\u0027t added automatically. Adding you manually. ",
       "revId": "2933f358098eabe7038b5e1143766705bd969ff7",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b6c54e09_22b5e697",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-11-24T01:49:39Z",
+      "side": 1,
+      "message": "I\u0027m guessing this was fixed already (based on the reported merge conflict), but if it wasn\u0027t, lgtm ...",
+      "revId": "2933f358098eabe7038b5e1143766705bd969ff7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
