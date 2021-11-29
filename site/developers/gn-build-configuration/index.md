@@ -103,6 +103,12 @@ enable_nacl = false
 
 blink_symbol_level=0
 
+### Remove v8 symbols
+
+v8 is often the second-largest source of debugging symbols. If you're not debugging v8, you can set the v8 symbol level to 0 or 1:
+
+v8_symbol_level=0
+
 ### Overriding the CPU architecture
 
 By default, the GN build will match that of the host OS and CPU architecture. To
