@@ -16,6 +16,23 @@
       "message": "This fixes some serious formatting problems. The original page was here:\nhttps://www.chromium.org/developers/windows-binary-sizes/\n\nThe preview of the fixes can be seen here:\nhttps://chromium-website--cl3307183-ps2-ijlqj9ub.web.app/developers/windows-binary-sizes/\n",
       "revId": "cbf543535094db1d77d4383a458a49bf28427a76",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67930fa7_06acf438",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2021-11-29T20:56:57Z",
+      "side": 1,
+      "message": "LGTM, nice cleanup",
+      "revId": "cbf543535094db1d77d4383a458a49bf28427a76",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
