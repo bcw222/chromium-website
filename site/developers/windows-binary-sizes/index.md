@@ -80,35 +80,23 @@ used to find duplicated or large global variables that may be unnecessary.
 Typical (shortened for this document) results look like this - the first set of
 entries are duplicated globals, the second set of entries are large globals:
 
-> #Dups DupSize Size Section Symbol-name
-
-> 805 805 std::piecewise_construct
-
-> 3 204 rgb_red
-
-> 3 204 rgb_green
-
-> 3 204 rgb_blue
-
-> 187 187 WTF::in_place
-
-> 4 160 extensions::api::g_factory
-
-> ...
-
-> 122784 2 kBrotliDictionary
-
-> 65536 2 jpeg_nbits_table
-
-> 57080 2 propsVectorsTrie_index
-
-> 53064 3 unigram_table
-
-> 50364 2 kNetworkingPrivate
-
-> 47152 3 device::UsbIds::vendors_
-
-> ...
+```
+#Dups  DupSize  Size   Section  Symbol-name
+ 805      805                    std::piecewise_construct
+ 3        204                    rgb_red
+ 3        204                    rgb_green
+ 3        204                    rgb_blue
+ 187      187                    WTF::in_place
+ 4        160                    extensions::api::g_factory
+ ...
+                 122784    2     kBrotliDictionary
+                 65536     2     jpeg_nbits_table
+                 57080     2     propsVectorsTrie_index
+                 53064     3     unigram_table
+                 50364     2     kNetworkingPrivate
+                 47152     3     device::UsbIds::vendors_
+ ...
+```
 
 The actual output is tab separated and can be most easily visualized by pasting
 into a spreadsheet to ensure that the columns line up.
@@ -166,31 +154,25 @@ In order to get verbose linker output you need to modify the appropriate
 BUILD.gn file to add the /verbose linker flag. For chrome.dll I make the
 following modification:
 
-> diff --git a/chrome/BUILD.gn b/chrome/BUILD.gn
-
-> index 58586fc..c15d463 100644
-
-> --- a/chrome/BUILD.gn
-
-> +++ b/chrome/BUILD.gn
-
-> @@ -354,6 +354,7 @@ if (is_win) {
-
-> "/DELAYLOAD:winspool.drv",
-
-> "/DELAYLOAD:ws2_32.dll",
-
-> "/DELAYLOAD:wsock32.dll",
-
-> + "/verbose",
-
-> \]
-
-> if (!is_component_build) {
+```
+diff --git a/chrome/BUILD.gn b/chrome/BUILD.gn
+index 58586fc..c15d463 100644
+--- a/chrome/BUILD.gn
++++ b/chrome/BUILD.gn
+@@ -354,6 +354,7 @@ if (is_win) {
+"/DELAYLOAD:winspool.drv",
+"/DELAYLOAD:ws2_32.dll",
+"/DELAYLOAD:wsock32.dll",
++ "/verbose",
+\]
+if (!is_component_build) {
+```
 
 Then build chrome.dll, redirecting the verbose output to a text file:
 
-> &gt; ninja -C out\\release chrome.dll &gt;verbose.txt
+```
+> ninja -C out\release chrome.dll >verbose.txt
+```
 
 Alternately you can use the techniques discussed in the [The Chromium Chronicle:
 Preprocessing
@@ -201,39 +183,38 @@ appended, redirecting to a text file.
 Then linker_verbose_tracking.py is used to find why a particular object file is
 being pulled in, in this case mime_util.obj:
 
-> &gt; python linker_verbose_tracking.py verbose.txt mime_util.obj
+```
+> python linker_verbose_tracking.py verbose.txt mime_util.obj
+```
 
 Because there are multiple object files called mime_util.obj the script will be
 searching for for all of them, as shown in the first line of output:
 
-> &gt;python linker_verbose_tracking.py verbose.txt mime_util.obj
-
-> Searching for \[u'net.lib(mime_util.obj)', u'base.lib(mime_util.obj)'\]
+```
+> python linker_verbose_tracking.py verbose.txt mime_util.obj
+ Searching for \[u'net.lib(mime_util.obj)', u'base.lib(mime_util.obj)'\]
+```
 
 You can specify which version you want to search for by including the .lib name
 in your command-line search parameter, which is just used for sub-string
 matching:
 
-> &gt;python linker_verbose_tracking.py verbose.txt base.lib(mime_util.obj)
+```
+> python linker_verbose_tracking.py verbose.txt base.lib(mime_util.obj)
+```
 
 Typical output looks like this:
 
-> &gt;python tools\\win\\linker_verbose_tracking.py verbose08.txt drop_data.obj
+```
+> python tools\win\linker_verbose_tracking.py verbose08.txt drop_data.obj
+ Database loaded - 3844 xrefs found
+ Searching for common_sources.lib(drop_data.obj)
+ common_sources.lib(drop_data.obj).obj pulled in for symbol Metadata::Metadata...
+     common.lib(content_message_generator.obj)
 
-> Database loaded - 3844 xrefs found
-
-> Searching for common_sources.lib(drop_data.obj)
-
-> common_sources.lib(drop_data.obj).obj pulled in for symbol
-> Metadata::Metadata...
-
-> common.lib(content_message_generator.obj)
-
-> common.lib(content_message_generator.obj).obj pulled in for symbol ...
-
-> Command-line obj file: url_loader.mojom.obj
-
-> """
+ common.lib(content_message_generator.obj).obj pulled in for symbol ...
+     Command-line obj file: url_loader.mojom.obj
+```
 
 In this case this tells us that drop_data.obj is being pulled in indirectly
 through a chain of references that starts with url_loader.mojom.obj.
@@ -266,69 +247,40 @@ See crrev.com/2556603002 for an example of using this technique. In this case it
 was sufficient to change a single source_set to a static_library. The size
 savings of 900 KB was verified using:
 
-> &gt; python pe_summarize.py out\\release\\chrome.dll
-> size_reduction\\chrome.dll
+```
+> python pe_summarize.py out\release\chrome.dll
+Size of out\release\chrome.dll is 42.127872 MB
+      name:   mem size  ,  disk size
+     .text: 33.900375 MB
+    .rdata:  6.325718 MB
+     .data:  0.718696 MB,  0.274944 MB
+      .tls:  0.000025 MB
+  CPADinfo:  0.000036 MB
+   .rodata:  0.003216 MB
+  .crthunk:  0.000064 MB
+    .gfids:  0.001052 MB
+    _RDATA:  0.000288 MB
+     .rsrc:  0.175088 MB
+    .reloc:  1.443124 MB
 
-> Size of out\\release\\chrome.dll is 42.127872 MB
+Size of size_reduction\chrome.dll is 41.211392 MB
+      name:   mem size  ,  disk size
+     .text: 33.188599 MB
+    .rdata:  6.164966 MB
+     .data:  0.707848 MB,  0.264704 MB
+      .tls:  0.000025 MB
+  CPADinfo:  0.000036 MB
+   .rodata:  0.003216 MB
+  .crthunk:  0.000064 MB
+    .gfids:  0.001052 MB
+    _RDATA:  0.000288 MB
+     .rsrc:  0.175088 MB
+    .reloc:  1.409388 MB
 
-> name: mem size , disk size
-
-> .text: 33.900375 MB
-
-> .rdata: 6.325718 MB
-
-> .data: 0.718696 MB, 0.274944 MB
-
-> .tls: 0.000025 MB
-
-> CPADinfo: 0.000036 MB
-
-> .rodata: 0.003216 MB
-
-> .crthunk: 0.000064 MB
-
-> .gfids: 0.001052 MB
-
-> _RDATA: 0.000288 MB
-
-> .rsrc: 0.175088 MB
-
-> .reloc: 1.443124 MB
-
-> Size of size_reduction\\chrome.dll is 41.211392 MB
-
-> name: mem size , disk size
-
-> .text: 33.188599 MB
-
-> .rdata: 6.164966 MB
-
-> .data: 0.707848 MB, 0.264704 MB
-
-> .tls: 0.000025 MB
-
-> CPADinfo: 0.000036 MB
-
-> .rodata: 0.003216 MB
-
-> .crthunk: 0.000064 MB
-
-> .gfids: 0.001052 MB
-
-> _RDATA: 0.000288 MB
-
-> .rsrc: 0.175088 MB
-
-> .reloc: 1.409388 MB
-
-> Change from out\\release\\chrome.dll to size_reduction\\chrome.dll
-
-> .text: -711776 bytes change
-
-> .rdata: -160752 bytes change
-
-> .data: -10848 bytes change
-
-> .reloc: -33736 bytes change
-
-> Total change: -917112 bytes
+Change from out\release\chrome.dll to size_reduction\chrome.dll
+     .text: -711776 bytes change
+    .rdata: -160752 bytes change
+     .data: -10848 bytes change
+    .reloc: -33736 bytes change
+Total change: -917112 bytes
+```
