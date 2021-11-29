@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36a36e18_628205e6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2021-11-29T21:41:04Z",
+      "side": 1,
+      "message": "Okay, last one. Same file as for some of the v8 changes, but these are cleanup changes.\n\nOriginal:\nhttps://www.chromium.org/developers/gn-build-configuration/\n\nBroken:\nhttps://new.chromium.org/developers/gn-build-configuration/\n\nFixed:\nhttps://chromium-website--cl3307188-ps1-de9f5utt.web.app/developers/gn-build-configuration/",
+      "revId": "5d488a7a3bcef84c1e81bf162869ca9710be2233",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
