@@ -111,6 +111,14 @@ module.exports = config => {
     config.addPassthroughCopy('site/**/*' + ext);
   }
 
+  // Copy over Algolia files.
+  // config.addPassthroughCopy({
+  //   'node_modules/@docsearch/js/dist/umd':
+  //     '_scripts/@docsearch',
+  //   'node_modules/@docsearch/css/dist':
+  //     '_stylesheets/@docsearch',
+  // })
+
   return {
     dir: {
       input: 'site',

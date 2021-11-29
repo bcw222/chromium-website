@@ -23,6 +23,7 @@ href="{{ url }}"
   <title>{{ title }}</title>
   {%- endif %}
   <link rel="stylesheet" href="/_stylesheets/default.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@alpha">
 </head>
 
 <header>
@@ -30,6 +31,7 @@ href="{{ url }}"
     <img alt="the Chromium logo" src="/_assets/customLogo.png">
     <h2>The Chromium Projects</h2>
   </a>
+  <div id="search">Algolia search box goes here :)</div>
 </header>
 
 <div id="main-wrapper">
@@ -74,4 +76,13 @@ href="{{ url }}"
   {{content | safe}}
   </main>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/@docsearch/js@alpha"></script>
+<script>
+docsearch({
+  container: 'search',
+  appId: 'RZDQYCCABX',
+  apiKey: '98b0eabafeb13fe3e1af693d5713d8b4',
+  indexName: 'chromium'
+});
+</script>
 {%- endif %}
