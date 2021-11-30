@@ -111,6 +111,61 @@ module.exports = config => {
     config.addPassthroughCopy('site/**/*' + ext);
   }
 
+  // Set up the CSP hash filter. Note that this only works for a single
+  // <script> tag that loads everything else dynamically. If we need to
+  // support multiple script tags, we need to maintain a list or set of
+  // scripts like web.dev does.
+  const crypto = require('crypto');
+  const fs = require('fs');
+
+  let script_src_hash = "'none'";
+  function cspHash(raw) {
+    // Disable hashing to test CSP.
+    return raw;
+
+    const c = crypto.createHash('sha256');
+    c.update(raw);
+    let digest = c.digest('base64');
+    script_src_hash = `'sha256-${digest}' 'strict-dynamic'`;
+    return raw;
+  }
+
+  config.addFilter('cspHash', cspHash);
+
+  // Write out the firebase.json config file once we know which CSP
+  // headers to set.
+  config.on('afterBuild', () => {
+    fs.writeFileSync('firebase.json',
+      JSON.stringify({
+        'hosting': {
+          'public': 'build',
+          'ignore': [
+            'firebase.json',
+            '**/.*',
+            '**/node_modules/**',
+          ],
+        },
+        'headers': [{
+          'source': '**/*',
+          'headers': [{
+            'key': 'Content-Security-Policy',
+            'value':
+              "script-src " + script_src_hash +
+              "; object-src 'none'; base-uri 'none'; " +
+              "report-uri https://csp.withgoogle.com/csp/chromium-website/",
+            }],
+        }],
+      }, null, 2) + '\n');
+  });
+
+  // Copy over Algolia files.
+  // config.addPassthroughCopy({
+  //   'node_modules/@docsearch/js/dist/umd':
+  //     '_scripts/@docsearch',
+  //   'node_modules/@docsearch/css/dist':
+  //     '_stylesheets/@docsearch',
+  // })
+
   return {
     dir: {
       input: 'site',
