@@ -58,6 +58,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a659a7e9_8f70e04e",
+        "filename": "site/developers/gn-build-configuration/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2021-11-30T00:46:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d835a804_623928a0",
+      "range": {
+        "startLine": 108,
+        "startChar": 0,
+        "endLine": 108,
+        "endChar": 145
+      },
+      "revId": "5d488a7a3bcef84c1e81bf162869ca9710be2233",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "76e3f183_dad4f55f",
@@ -81,6 +105,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c617dde_e99798cc",
+        "filename": "site/developers/gn-build-configuration/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2021-11-30T00:46:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "76e3f183_dad4f55f",
+      "range": {
+        "startLine": 112,
+        "startChar": 0,
+        "endLine": 112,
+        "endChar": 114
+      },
+      "revId": "5d488a7a3bcef84c1e81bf162869ca9710be2233",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f0ad1ecf_a1bcb0ec",
@@ -94,6 +142,30 @@
       "writtenOn": "2021-11-29T23:53:37Z",
       "side": 1,
       "message": "Please make 80 characters here too",
+      "range": {
+        "startLine": 120,
+        "startChar": 0,
+        "endLine": 120,
+        "endChar": 167
+      },
+      "revId": "5d488a7a3bcef84c1e81bf162869ca9710be2233",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "587159c1_fa0d63ae",
+        "filename": "site/developers/gn-build-configuration/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2021-11-30T00:46:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f0ad1ecf_a1bcb0ec",
       "range": {
         "startLine": 120,
         "startChar": 0,
@@ -150,6 +222,54 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe7cf113_5b824239",
+        "filename": "site/developers/gn-build-configuration/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2021-11-30T00:46:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8dae9af3_0b5ae377",
+      "range": {
+        "startLine": 163,
+        "startChar": 0,
+        "endLine": 163,
+        "endChar": 121
+      },
+      "revId": "5d488a7a3bcef84c1e81bf162869ca9710be2233",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "822dfeb6_354e0022",
+        "filename": "site/developers/gn-build-configuration/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2021-11-30T00:46:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "12760030_6658c99f",
+      "range": {
+        "startLine": 163,
+        "startChar": 46,
+        "endLine": 163,
+        "endChar": 54
+      },
+      "revId": "5d488a7a3bcef84c1e81bf162869ca9710be2233",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "be62c45b_48087e8e",
@@ -163,6 +283,30 @@
       "writtenOn": "2021-11-29T23:53:37Z",
       "side": 1,
       "message": "nit: please remove trailing space",
+      "range": {
+        "startLine": 195,
+        "startChar": 9,
+        "endLine": 195,
+        "endChar": 10
+      },
+      "revId": "5d488a7a3bcef84c1e81bf162869ca9710be2233",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8583caee_a626c792",
+        "filename": "site/developers/gn-build-configuration/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2021-11-30T00:46:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "be62c45b_48087e8e",
       "range": {
         "startLine": 195,
         "startChar": 9,
@@ -214,6 +358,54 @@
         "startChar": 11,
         "endLine": 211,
         "endChar": 19
+      },
+      "revId": "5d488a7a3bcef84c1e81bf162869ca9710be2233",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9cfcb2b9_e08d4934",
+        "filename": "site/developers/gn-build-configuration/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2021-11-30T00:46:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c395f504_8661c7da",
+      "range": {
+        "startLine": 211,
+        "startChar": 11,
+        "endLine": 211,
+        "endChar": 19
+      },
+      "revId": "5d488a7a3bcef84c1e81bf162869ca9710be2233",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e9590c9_9345674e",
+        "filename": "site/developers/gn-build-configuration/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2021-11-30T00:46:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a54e7b35_35be4acb",
+      "range": {
+        "startLine": 211,
+        "startChar": 30,
+        "endLine": 211,
+        "endChar": 35
       },
       "revId": "5d488a7a3bcef84c1e81bf162869ca9710be2233",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
