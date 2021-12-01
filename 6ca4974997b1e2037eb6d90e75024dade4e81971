@@ -16,6 +16,24 @@
       "message": "Why did you delete all the text? It\u0027s fine if this is intentional, just curious.",
       "revId": "6ca4974997b1e2037eb6d90e75024dade4e81971",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "67d7cbb0_d02ca01f",
+        "filename": "site/issue-tracking/issue-tracking-lifecycle/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1180206
+      },
+      "writtenOn": "2021-12-01T21:54:29Z",
+      "side": 0,
+      "message": "Intentional since the previous comment noted more than what was specified.",
+      "parentUuid": "8e4cc539_2b1eab3b",
+      "revId": "6ca4974997b1e2037eb6d90e75024dade4e81971",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
