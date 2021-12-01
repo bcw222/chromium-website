@@ -111,6 +111,58 @@ module.exports = config => {
     config.addPassthroughCopy('site/**/*' + ext);
   }
 
+  // Set up the Content-Security-Policy (CSP) hash filter. Every <script>
+  // tag must be run through this filter so that the hash of its contents
+  // will be in the list of approved scripts in the CSP HTTP header.
+  const crypto = require('crypto');
+  const fs = require('fs');
+
+  let script_hashes = new Set();
+  function cspHash(raw) {
+    const c = crypto.createHash('sha256');
+    c.update(raw);
+    let digest = c.digest('base64');
+    script_hashes.add(`'sha256-${digest}'`);
+    return raw;
+  }
+
+  config.addFilter('cspHash', cspHash);
+
+  // Write out the firebase.json config file once we know which CSP
+  // headers to set.
+  config.on('afterBuild', () => {
+    let script_src = " 'none'";
+    if (script_hashes.size > 0) {
+      script_src = '';
+      for (const script_hash of script_hashes.values()) {
+        script_src += ' ' + script_hash;
+      }
+      script_src += " 'unsafe-inline' 'strict-dynamic'";
+    }
+
+    fs.writeFileSync('firebase.json',
+      JSON.stringify({
+        'hosting': {
+          'public': 'build',
+          'ignore': [
+            'firebase.json',
+            '**/.*',
+            '**/node_modules/**',
+          ],
+          'headers': [{
+            'source': '**/*',
+            'headers': [{
+              'key': 'Content-Security-Policy',
+              'value':
+                "script-src" + script_src +
+                "; object-src 'none'; base-uri 'none'; " +
+                "report-uri https://csp.withgoogle.com/csp/chromium-website/",
+              }],
+          }],
+        },
+      }, null, 2) + '\n');
+  });
+
   return {
     dir: {
       input: 'site',
