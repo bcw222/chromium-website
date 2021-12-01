@@ -16,6 +16,23 @@
       "message": "Mind reviewing this as well? I expect you\u0027re no Algolia expert, but none of the other likely reviewers would be either :).",
       "revId": "38ca724f6747f24b85bd1aaa6dbfafdd070de9c9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3721f870_3d129000",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1211509
+      },
+      "writtenOn": "2021-12-01T07:31:13Z",
+      "side": 1,
+      "message": "LGTM, with the (large) caveat that I didn\u0027t go through the (many!) dependencies added via this change. The template changes look reasonable, and the preview site does what it\u0027s supposed to, though!",
+      "revId": "38ca724f6747f24b85bd1aaa6dbfafdd070de9c9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
