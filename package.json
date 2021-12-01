@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
+    "@docsearch/js": "^3.0.0-alpha.41",
     "firebase-tools": "^9.18.0",
     "markdown-it-anchor": "^8.4.1",
     "markdown-it-attrs": "^4.1.0",
