@@ -84,17 +84,28 @@ pre {
 }
 
 header {
-  margin: 5px 0px 5px 10px;
+  display: flex;
+  margin: 5px 5px 5px 10px;
+  justify-content: space-between;
 
   a {
+    align-items: center;
     color: $link-color-heading;
     display: flex;
     text-decoration: none;
+
+    h2 {
+      width: 100%;
+    }
   }
 
   img {
     display: block;
     margin-right: 10px;
+  }
+
+  > div#search {
+    margin: 20px 0 20px 0;
   }
 }
 
