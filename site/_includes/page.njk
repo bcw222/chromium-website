@@ -10,6 +10,11 @@ href="{{ url }}"
 {%- endif -%}
 {%- endmacro -%}
 
+{%- set script_tag %}
+// empty placeholder tag for now. Later this'll hold the scripts
+// for Algolia and Google Analytics.
+{%- endset -%}
+
 <!DOCTYPE html>
 {%- if redirect %}
 <head>
@@ -74,4 +79,5 @@ href="{{ url }}"
   {{content | safe}}
   </main>
 </div>
+<script>{{ script_tag | cspHash | safe }}</script>
 {%- endif %}
