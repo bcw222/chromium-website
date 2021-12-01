@@ -84,12 +84,20 @@ pre {
 }
 
 header {
-  margin: 5px 0px 5px 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 5px 5px 10px;
 
   a {
+    align-items: center;
     color: $link-color-heading;
     display: flex;
     text-decoration: none;
+
+    h2 {
+      width: 100%;
+    }
   }
 
   img {

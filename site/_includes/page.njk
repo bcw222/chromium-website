@@ -11,8 +11,18 @@ href="{{ url }}"
 {%- endmacro -%}
 
 {%- set script_tag %}
-// empty placeholder tag for now. Later this'll hold the scripts
-// for Algolia and Google Analytics.
+const s = document.createElement('script');
+s.src = '/_scripts/@docsearch/index.js';
+document.head.append(s);
+window.addEventListener('load', () => {
+  // Add the Algolia search widget.
+  docsearch({
+    container: '#search',
+    appId: 'RZDQYCCABX',
+    apiKey: '98b0eabafeb13fe3e1af693d5713d8b4',
+    indexName: 'chromium'
+  });
+});
 {%- endset -%}
 
 <!DOCTYPE html>
@@ -27,6 +37,7 @@ href="{{ url }}"
   {%- if title %}
   <title>{{ title }}</title>
   {%- endif %}
+  <link rel="stylesheet" href="/_stylesheets/@docsearch/style.css">
   <link rel="stylesheet" href="/_stylesheets/default.css">
 </head>
 
@@ -35,6 +46,7 @@ href="{{ url }}"
     <img alt="the Chromium logo" src="/_assets/customLogo.png">
     <h2>The Chromium Projects</h2>
   </a>
+  <div id="search">Algolia search box goes here :)</div>
 </header>
 
 <div id="main-wrapper">
