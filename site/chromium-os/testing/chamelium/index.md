@@ -138,7 +138,7 @@ Download
 [tio_v3.zip](https://drive.google.com/file/d/1_2JbvOBCadLSXUBggBPRHs71Hc7IEqAF/view?usp=sharing)
 and unzip it. dd tio_v3.img onto the micro-SD card from your Linux host.
 
-# sudo dd if=tio_v3_4G.img of=/dev/sdx bs=4M oflag=sync
+# sudo dd if=tio_v3.img of=/dev/sdx bs=4M oflag=sync
 
 (Replace the above /dev/sd**x** to a proper path, like /dev/sdc, by checking the
 SD device)
@@ -433,9 +433,9 @@ refer to the documentation below.
     *   [chameleond](https://chromium.googlesource.com/chromiumos/platform/chameleon/)
                 - daemon to drive the hardware and expose its control interfaces
     *   [test
-                harness](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/master/client/cros/multimedia/)
+                harness](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/client/cros/multimedia/)
                 - library in autotest harness to interact with chameleond
     *   [tests
-                cases](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/master/server/site_tests/)
+                cases](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/server/site_tests/)
                 - modular test cases that are meant to represent real-world,
                 end-user behavior
