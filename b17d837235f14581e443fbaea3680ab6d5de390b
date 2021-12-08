@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "499e82fb_937c2527",
+        "filename": "site/developers/webview-changes/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1002532
+      },
+      "writtenOn": "2021-12-08T06:02:01Z",
+      "side": 1,
+      "message": "Can we also add something about big changes, e.g.\n\n\"Similarly, big architectural changes risk changing unspecified timing of callbacks which apps might inadvertently be dependent on.\"",
+      "range": {
+        "startLine": 35,
+        "startChar": 33,
+        "endLine": 35,
+        "endChar": 34
+      },
+      "revId": "b17d837235f14581e443fbaea3680ab6d5de390b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
