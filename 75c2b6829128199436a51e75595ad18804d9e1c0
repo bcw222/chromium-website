@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9d72c9f_7e9ee22a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-12-08T02:43:49Z",
+      "side": 1,
+      "message": "Nice catches, Garrett!\n\nSince this landed already, I\u0027ll post a follow-up CL and cc the original author.",
+      "revId": "75c2b6829128199436a51e75595ad18804d9e1c0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
