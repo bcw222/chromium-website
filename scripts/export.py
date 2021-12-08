@@ -63,6 +63,7 @@ def main():
     parser.add_argument('-v', '--verbose', action='count')
     parser.add_argument('--max_results', type=int, default=5000)
     parser.add_argument('--start-index', type=int, default=1)
+    parser.add_argument('--paths-to-skip')
     parser.add_argument('--path-list')
     parser.add_argument('path', nargs='*')
     args = parser.parse_args()
@@ -77,6 +78,13 @@ def main():
         paths_to_export = common.read_paths(args.path_list)
     else:
         paths_to_export = []
+
+    if args.paths_to_skip:
+        paths_to_skip = set(common.read_paths(args.paths_to_skip))
+    else:
+        paths_to_skip = set(
+            common.read_paths(os.path.join(common.REPO_DIR,
+                                           'scripts', 'paths_to_skip.txt')))
 
     max_input_mtime = max(os.stat(__file__).st_mtime,
                           os.stat(common.__file__).st_mtime,
@@ -110,11 +118,16 @@ def main():
                              'announcementspage', 'filecabinet'):
             metadata = _metadata(entry, entries)
             path = _path(entry, entries)
-            exported_pages.add(path.rstrip('/') or '/')
+
+            if path in paths_to_skip:
+                continue
+            exported_pages.add(path)
         elif entry['kind'] == 'attachment':
             metadata = {}
             path = entry['url'].replace(
-                 'https://sites.google.com/a/chromium.org/dev/', '/')
+                 'https://sites.google.com/a/chromium.org/dev/', '/').rstrip('/')
+            if path in paths_to_skip:
+                continue
         else:
             continue
         if not paths_to_export or (path in paths_to_export):
@@ -128,10 +141,6 @@ def main():
         if did_update:
             updated += 1
 
-    if ret == 0:
-        common.write_text_file(
-            os.path.join(common.SITE_DIR, 'pages.json'),
-                         json.dumps(sorted(exported_pages), indent=2) + '\n')
     print('updated %d entries' % updated)
     return ret
 
@@ -197,6 +206,9 @@ def _handle_entry(task, obj):
                     md_sio.write('\n\n')
                     _write_listitems(md_sio, entry)
                 content = md_sio.getvalue()
+                content = content.replace(
+                    'chromium.googlesource.com/chromium/src/+/master/',
+                    'chromium.googlesource.com/chromium/src/+/HEAD/')
                 content = content.replace('    \b\b\b\b', '')
 
             did_update = common.write_if_changed(path, content, mode='w')
@@ -209,9 +221,10 @@ def _handle_entry(task, obj):
         # TODO: implement me.
         pass
     elif entry['kind'] == 'attachment':
-        if ':' in task:
-            task = _URLConverter().Translate(task)
         path = '%s%s' % (common.SITE_DIR, task)
+        path = path.replace(':', '_')
+        path = path.replace('%20', ' ')
+        path = path.replace('%2B', '+')
         if task in (
             '/developers/design-documents/network-stack/cookiemonster/CM-method-calls-new.png',
             '/developers/design-documents/cookie-split-loading/objects.png',
@@ -289,7 +302,8 @@ def _path(entry, entries):
         path = entries[parent_id]['page_name'] + '/' + path
         parent_id = entries[parent_id].get('parent_id')
 
-    return '/' + path
+    path = ('/' + path).rstrip('/') or '/'
+    return path
 
 
 def _metadata(entry, entries):
