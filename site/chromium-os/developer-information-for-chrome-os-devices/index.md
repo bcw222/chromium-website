@@ -3552,7 +3552,7 @@ These are your standard Chromebook/Chromebox/etc devices.
   <tr>
     <td>2021-06-16</td>
     <td>HP</td>
-    <td><a href="https://www.hp.com/us-en/shop/vwa/laptops/availability=In-Stock;brand=Chromebook">HP Chromebook 14a</a></td>
+    <td><a href="https://support.hp.com/ca-en/document/c07657289">HP Chromebook 14a</a></td>
     <td>Lantis</td>
     <td>Dedede</td>
     <td>Dedede</td>

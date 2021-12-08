@@ -221,9 +221,10 @@ def _handle_entry(task, obj):
         # TODO: implement me.
         pass
     elif entry['kind'] == 'attachment':
-        if ':' in task:
-            task = _URLConverter().Translate(task)
         path = '%s%s' % (common.SITE_DIR, task)
+        path = path.replace(':', '_')
+        path = path.replace('%20', ' ')
+        path = path.replace('%2B', '+')
         if task in (
             '/developers/design-documents/network-stack/cookiemonster/CM-method-calls-new.png',
             '/developers/design-documents/cookie-split-loading/objects.png',

@@ -17,8 +17,10 @@ functionality.
 Current switches may be found at
 <http://peter.sh/examples/?/chromium-switches.html>
 
-It is important to note that some switches are intended for temporary cases and
-may break in the future.
+It is important to note that some switches are intended for development and
+temporary cases. They may break, change, or be removed in the future without
+notice. IT admins looking to manage Chrome for their organization should
+instead use [enterprise policies](http://chromeenterprise.google/polices).
 
 Note that if you look at `chrome://flags` to see if the command line option is
 active, the state might not be accurately reflected. Check `chrome://version`
@@ -48,7 +50,7 @@ for the complete command line used in the current instance.
 
     ```none
     /Applications/Chromium.app/Contents/MacOS/Chromium --remote-debugging-port=9222
-    # For Google Chrome you'll need to escape spaces like so: 
+    # For Google Chrome you'll need to escape spaces like so:
     /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222
     ```
 

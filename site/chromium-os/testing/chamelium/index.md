@@ -135,17 +135,23 @@ The following equipment is optional:
 ### Image the SD card
 
 Download
-[tio_v2_4G.img.zip](https://drive.google.com/file/d/1ZITcjsjy8_5WyMRjx1cGMYj8PvlGK3um/view?usp=sharing)
-and unzip it. dd tio_v2_4G.img onto the micro-SD card from your Linux host.
+[tio_v3.zip](https://drive.google.com/file/d/1_2JbvOBCadLSXUBggBPRHs71Hc7IEqAF/view?usp=sharing)
+and unzip it. dd tio_v3.img onto the micro-SD card from your Linux host.
 
-# sudo dd if=tio_v2_4G.img of=/dev/sdx bs=4M oflag=sync
+# sudo dd if=tio_v3_4G.img of=/dev/sdx bs=4M oflag=sync
 
 (Replace the above /dev/sd**x** to a proper path, like /dev/sdc, by checking the
 SD device)
 
 Now insert the micro-SD card into the FPGA board.
 
-Updates on v2 image:
+v3 image:
+
+*   Migrated to python3.
+*   Only compatible with chameleon-bundles later than 0.0.2-r463.
+
+v2 image (old):
+[tio_v2_4G.img.zip](https://drive.google.com/file/d/1ZITcjsjy8_5WyMRjx1cGMYj8PvlGK3um/view?usp=sharing)
 
     Increased user space from 20M to 4G.
 
@@ -153,7 +159,7 @@ Updates on v2 image:
 
     Fixed broken pip.
 
-Old v1 image:
+v1 image (old):
 [tio.image.gz](https://drive.google.com/file/d/0B9Ff7PW3or-BeHVnQnhkZHBWM2c/view?usp=sharing)
 
 ### Configure the external display emulator board
@@ -427,9 +433,9 @@ refer to the documentation below.
     *   [chameleond](https://chromium.googlesource.com/chromiumos/platform/chameleon/)
                 - daemon to drive the hardware and expose its control interfaces
     *   [test
-                harness](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/client/cros/multimedia/)
+                harness](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/master/client/cros/multimedia/)
                 - library in autotest harness to interact with chameleond
     *   [tests
-                cases](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/server/site_tests/)
+                cases](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/master/server/site_tests/)
                 - modular test cases that are meant to represent real-world,
                 end-user behavior
