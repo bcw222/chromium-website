@@ -1,0 +1,79 @@
+body {
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+}
+.color {
+  background-color: rgba(var(--color), 0.6);
+  border-color: rgba(var(--color), 1.0);
+}
+.subtle {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+.slide {
+  height: 100%;
+  display: none;
+}
+.shown {
+  display: block;
+}
+.slide-1col {
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+}
+.slide-2col {
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-gap: 1rem;
+}
+.slide-2col-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+.slide-title {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.box {
+  padding: 0.5rem;
+  border-style: solid;
+  border-weight: 1px;
+  border-radius: 1rem;
+}
+h1 {
+  margin: 0px;
+}
+.nomargin {
+  margin: 0px;
+}
+.slide div {
+  font-size: xxx-large;
+  line-height: 2em;
+}
+em {
+  font-weight: bold;
+}
+pre {
+  line-height: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.center {
+  text-align: center;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.smalltext {
+  font-size: x-large;
+  line-height: 1.5em;
+}

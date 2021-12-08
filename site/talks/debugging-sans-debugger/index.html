@@ -1,0 +1,430 @@
+<html>
+  <head>
+    <style type="text/css">
+      :root {
+        /* Set this! */
+        --color: 255, 56, 83;
+      }
+    </style>
+    <link rel="stylesheet" href="deck.css" type="text/css">
+    <script type="text/javascript" src="deck.js"></script>
+  </head>
+  <body>
+    <div class="slide shown">
+      <div class="slide-title">
+        <div class="box color">
+          <h1>Debugging Sans Debugger</h1>
+          <h2>ellyjones@ / 2021-12-08</h2>
+          <a href="https://goto.google.com/ellyjones:debugging-sans-debugger">
+          go/ellyjones:debugging-sans-debugger</a>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-1col">
+        <h1 class="box color">What Is This?</h1>
+        <div class="box subtle">
+          <ul>
+            <li>Debugging tools & techniques</li>
+            <li>Not: how to use lldb</li>
+            <li>Not: how to use ETW</li>
+            <li>Not: how to debug your specific bug</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-1col">
+        <h1 class="box color">Some Polemic</h1>
+        <div class="box subtle">
+          <ul>
+            <li>Write code that can be debugged</li>
+            <li>Yes: pure functions, values, explicit deps</li>
+            <li>No: classes, methods, state, implicit deps</li>
+            <li>Extra no: threads, locks, 3P libraries</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-1col">
+        <h1 class="box color">The Three Schools</h1>
+        <div class="box subtle">
+          <ul>
+            <li>Informal Reasoning</li>
+            <li>Formal Reasoning</li>
+            <li>Testing</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-1col">
+        <h1 class="box color">Formal Reasoning!?</h1>
+        <div class="box subtle">
+          <ul>
+            <li>Describe system formally</li>
+            <li>Prove implementation matches formal spec</li>
+            <li>Clever theory with greek letters and stuff</li>
+            <li>Correctness proofs, static checking, ...</li>
+            <li>"Beware of bugs in the above code..." - Knuth</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-1col">
+        <h1 class="box color">Testing</h1>
+        <div class="box subtle">
+          <ul>
+            <li>Put system in some state & assert stuff</li>
+            <li>CQ tests, waterfalls, ...</li>
+            <li>"Program testing can be a very effective way to show the presence of bugs
+                 but is hopelessly inadequate for showing their absence." - Dijkstra</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-1col">
+        <h1 class="box color">Those Are Lies</h1>
+        <div class="box subtle">
+          <ul>
+            <li>Formal semantics are no match for reality</li>
+            <li>Testing is no match for state explosion</li>
+            <li>Neither of these are really useful debugging tools(*)</li>
+          </ul>
+        </div>
+        <div class="box subtle">
+          (*): testing can be
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-1col">
+        <h1 class="box color">Informal Reasoning</h1>
+        <div class="box subtle">
+          <ul>
+            <li>"x = 1 here... so f(x) is true here"</li>
+            <li>rapidly becomes very hard</li>
+            <li>7 &#x00b1; 2 values</li>
+            <li><em>always</em> your main tool</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-1col">
+        <h1 class="box color">Expected vs Actual</h1>
+        <div class="box subtle">
+          <ul>
+            <li>Primary informal reasoning tool</li>
+            <li>"I expected ... but actually ..."</li>
+            <li>"Why?"</li>
+            <li>(repeat)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-1col">
+        <h1 class="box color">Root vs Proximate Cause</h1>
+        <div class="box subtle">
+          <ul>
+            <li>Root cause: what originally went wrong</li>
+            <li>Proximate cause: where did it become obvious</li>
+            <li>Expected/actual connects these</li>
+            <li>So do most of the rest of these!</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-1col">
+        <h1 class="box color">printf() / LOG()</h1>
+        <div class="slide-2col-body">
+          <div class="box subtle">
+            <ul>
+              <li>You already use these</li>
+              <li>Tip: make them greppable</li>
+              <li>Inspect the system as it runs</li>
+              <li>"Control got here" markers</li>
+            </ul>
+          </div>
+          <div class="box subtle">
+            <p class="smalltext">
+              printf("bounds: %s\n", ...);
+            </p>
+            <hr>
+            <p class="smalltext">
+              LOG(ERROR) &lt;&lt; "X::Y() called";
+            </p>
+            <hr>
+            <p class="smalltext">
+              X::X() { printf("X[%p]::X()\n", this); }<br>
+              X::~X() { printf("X[%p]::~X()\n", this); }
+            </p>
+            <hr>
+            <p class="smalltext">
+              LOG(ERROR) << "If you see this please ping ellyjones@!";
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-2col">
+        <h1 class="box color">base::debug::StackTrace</h1>
+        <div class="slide-2col-body">
+          <div class="box subtle">
+            <ul>
+              <li>::Print()</li>
+              <li>Reified stack trace!</li>
+              <li>Also, TaskTrace</li>
+              <li>These cost a few KiB each</li>
+              <li>Use as a crash key</li>
+            </ul>
+          </div>
+          <div class="box subtle">
+            <p class="smalltext">
+              base::debug::StackTrace().Print();
+            </p>
+            <hr>
+            <p class="smalltext">
+              X::X() : created_at_(base::debug::StackTrace()) { ... };<br>
+              void X::OnUse() {<br>
+                  &nbsp;&nbsp;if (!AreThingsOkay()) {<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;created_at_.Print();<br>
+                  &nbsp;&nbsp;}<br>
+              }
+            </p>
+            <hr>
+            <p class="smalltext">
+              void X::OnControllerDestroyed() {<br>
+                &nbsp;&nbsp;if (pending_task_) {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;LOG(ERROR) << "Pending task outlived controller:";<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;pending_task_trace_.Print();<br>
+                &nbsp;&nbsp;}<br>
+              }
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-2col">
+        <h1 class="box color">CHECK() / DCHECK()</h1>
+        <div class="slide-2col-body">
+          <div class="box subtle">
+            <ul>
+              <li>Assert your invariants!</li>
+              <li>... also, documentation</li>
+              <li>Check arguments</li>
+              <li>Check results</li>
+              <li>Check intermediates</li>
+            </ul>
+          </div>
+          <div class="box subtle">
+            <p class="smalltext">
+              WebContents* c = controller-&gt;browser()<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;-&gt;tab_strip_model()<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;-&gt;GetActiveWebContents();<br>
+            </p>
+            <hr>
+            <p class="smalltext">
+              Browser* b = controller-&gt;browser();<br>
+              CHECK(b);<br>
+              TabStripModel* m = b-&gt;tab_strip_model();<br>
+              CHECK(m);<br>
+              WebContents* c = m-&gt;GetActiveWebContents();<br>
+              CHECK(c);<br>
+              ...
+            </p>
+            <hr>
+            <p class="smalltext">
+              void X::DoSomething() {<br>
+                  &nbsp;&nbsp;CHECK(AreThingsOkay());<br>
+                  &nbsp;&nbsp;...<br>
+              }
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-2col">
+        <h1 class="box color">AreThingsOkay()</h1>
+        <div class="slide-2col-body">
+          <div class="box subtle">
+            <ul>
+              <li>An invariant is a predicate</li>
+              <li>Make that a function...</li>
+              <li>... and call it all over</li>
+            </ul>
+          </div>
+          <div class="box subtle">
+            <p class="smalltext">
+              NoExpiredElementsInList();<br>
+              AtMostOneViewShowing();<br>
+              PeerSocketIsOpen();<br>
+              BoundsAreNonEmpty();<br>
+              ControllerIsStillAlive();<br>
+            </p>
+            <hr>
+            <p class="smalltext">
+              // and then...:<br>
+              TEST(YourClass, ExpiredElementsRemovedFromList)<br>
+              TEST(YourClass, SwitchingTabsHidesOldView)<br>
+            </p>
+            <hr>
+            <p class="smalltext">
+              // and maybe...:<br>
+              TEST(YourClassDeathTest, PeerSocketClosedEarly)<br>
+              TEST(YourClassDeathTest, EmptyBoundsAtConstruction)<br>
+              TEST(YourClassDeathTest, ControllerDestroyedPrematurely)<br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-1col">
+        <h1 class="box color">base::SequenceChecker</h1>
+        <div class="box subtle">
+          <ul>
+            <li>Rarely useful...</li>
+            <li>... but sometimes crucial</li>
+            <li>Init in your constructor</li>
+            <li>DCHECK_CALLED_ON_VALID_SEQUENCE</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-1col">
+        <h1 class="box color">*SAN</h1>
+        <div class="box subtle">
+          <ul>
+            <li>asan: UAF, read/write from/to unallocated memory</li>
+            <li>msan: read from uninitialized memory</li>
+            <li>tsan: data races of various kinds</li>
+            <li>lsan: memory leaks</li>
+            <li>ubsan: undefined behavior of various kinds</li>
+            <li>often a good <em>first</em> resort</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-1col">
+        <h1 class="box color">gfx::kPlaceholderColor</h1>
+        <div class="slide-2col-body">
+          <div class="box subtle">
+            <ul>
+              <li>Make it stick out</li>
+              <li>Paint it red!</li>
+              <li>Great for: "what's drawing over this?"</li>
+              <li>Or: "how often is this repainting?"</li>
+            </ul>
+          </div>
+          <div class="box subtle">
+            <p class="smalltext">
+              void YourView::OnPaint(gfx::Canvas* canvas) {<br>
+                &nbsp;&nbsp;canvas-&gt;DrawColor(SK_ColorRED);<br>
+                &nbsp;&nbsp;...<br>
+              }
+            </p>
+            <hr>
+            <p class="smalltext">
+              dialog-&gt;GetContentsView()-&gt;SetBackground(<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;CreateSolidBackground(SK_ColorRED));
+            </p>
+            <hr>
+            <p class="smalltext">
+              ImageSkia GetIcon() {<br>
+              &nbsp;&nbsp;...<br>
+              &nbsp;&nbsp;default:<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;NOTREACHED();<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;return CreateVectorIcon(QUESTION_MARK, SK_ColorRED);<br>
+              }
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-1col">
+        <h1 class="box color">--draw-view-bounds-rects</h1>
+        <div class="box subtle">
+          <ul>
+            <li>Hairline boxes around every View</li>
+            <li>Great for layout problems</li>
+            <li>... and for overpainting problems</li>
+            <li>... and for animations</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-1col">
+        <h1 class="box color">Crash keys</h1>
+        <div class="box subtle">
+          <ul>
+            <li>Attach data to crashes</li>
+            <li>Last focused view, last executed command...</li>
+            <li>Last call stack trace!?</li>
+            <li>Be PII-careful with these</li>
+            <li>Great for field bugs with no repro</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-1col">
+        <h1 class="box color">chrome://tracing</h1>
+        <div class="box subtle">
+          <ul>
+            <li>Check out lots of kinds of perf</li>
+            <li>Add your own: TRACE_EVENT(...)</li>
+            <li>Great for: "where is the time going?"</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-1col">
+        <h1 class="box color">tools/bisect-builds.py</h1>
+        <div class="box subtle">
+          <ul>
+            <li>Binary search for first bad revision</li>
+            <li>Can take a script to test against</li>
+            <li>Great for finding a regression range</li>
+            <li>Then: <a href="https://omahaproxy.appspot.com/">omahaproxy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-1col">
+        <h1 class="box color">crash/</h1>
+        <div class="box subtle">
+          <ul>
+            <li>Find prevalence & common factors</li>
+            <li>What were other threads doing?</li>
+            <li>Great for: field crashes, 3P causes, ...</li>
+            <li>Also: seeing your crash keys!</li>
+            <li>See also: crsym/</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="slide-title">
+        <div class="box color">
+          <h1>Add yours here!</h1>
+          (by mailing ellyjones@)
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
