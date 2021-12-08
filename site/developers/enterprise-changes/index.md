@@ -103,10 +103,16 @@ of changes that need to be reverted from the stable channel.
                     changes on default, so enterprises can opt-in to test it
                     before the default behavior changes.
 
-        Roll out the change using Finch, following the standard launch process
-        (e.g. [process for blink](/blink/launching-features)). Any enterprise
-        that's set the policy will not see any change, since the policy
-        overrides the Finch config.
+        *   Roll out the change using Finch, following the standard launch process
+            (e.g. [process for blink](/blink/launching-features)). Any enterprise
+            that's set the policy will not see any change, since the policy
+            overrides the Finch config.
 
-        If the policy was only intended as a temporary escape hatch, remove it
-        in the milestone communicated.
+        * If the policy was only intended as a temporary escape hatch, remove it
+          in the milestone communicated.
+
+### Need more help?
+
+Feel free to email
+[chromium-enterprise@chromium.org](mailto:chromium-enterprise@chromium.org)
+with any questions.

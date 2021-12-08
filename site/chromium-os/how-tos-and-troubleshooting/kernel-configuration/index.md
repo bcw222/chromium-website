@@ -50,7 +50,7 @@ directory. A partial listing is shown below:
 
 ```none
 $ ls chromeos/scripts/
-kernelconfig  prepareconfig  splitconfig
+kernelconfig  prepareconfig
 ```
 
 ### kernelconfig
@@ -90,19 +90,6 @@ make
 
 This script is used in the emerge. An example resulting string is 'Ubuntu
 2.6.32-0.1-chromeos-tegra2'.
-
-### splitconfig
-
-This takes all config.\* files in the currect directory and works out the common
-options in each. It writes these to config.common, then generates new config.\*
-files (overwriting the original ones) with these common options removed. As a
-side effect, all config options will be in sorted order.
-
-This script is used by kernelconfig to extract the common options for an
-architecture, then again on a second level to extract the common options for
-Chromium OS.
-
-This script isn't really meant to be run on its own, it's a helper function.
 
 ## Using the kernelconfig script
 
