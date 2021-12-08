@@ -22,6 +22,30 @@
       },
       "revId": "b17d837235f14581e443fbaea3680ab6d5de390b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "08bf5c37_7b4060de",
+        "filename": "site/developers/webview-changes/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2021-12-08T16:18:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "499e82fb_937c2527",
+      "range": {
+        "startLine": 35,
+        "startChar": 33,
+        "endLine": 35,
+        "endChar": 34
+      },
+      "revId": "b17d837235f14581e443fbaea3680ab6d5de390b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
