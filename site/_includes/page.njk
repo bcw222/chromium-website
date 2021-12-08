@@ -11,9 +11,11 @@ href="{{ url }}"
 {%- endmacro -%}
 
 {%- set script_tag %}
-const s = document.createElement('script');
+// Configure Algolia search.
+let s = document.createElement('script');
 s.src = '/_scripts/@docsearch/index.js';
 document.head.append(s);
+
 window.addEventListener('load', () => {
   // Add the Algolia search widget.
   docsearch({
@@ -23,6 +25,24 @@ window.addEventListener('load', () => {
     indexName: 'chromium'
   });
 });
+
+// Configure Google Analytics.
+s = document.createElement('script');
+s.src = 'https://www.googletagmanager.com/gtag/js?id=UA-5484340-1'
+s.async = true;
+document.head.append(s)
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-5484340-1');
+
+// Configure consent bar.
+s = document.createElement('script');
+s.src = 'https://www.gstatic.com/brandstudio/kato/cookie_choice_component/cookie_consent_bar.v3.js'
+s.dataset.autoloadCookieConsentBar = true;
+s.dataset.autoloadCookieContentBarIntlCode = '';
+document.head.append(s);
 {%- endset -%}
 
 <!DOCTYPE html>
@@ -74,6 +94,9 @@ window.addEventListener('load', () => {
       <a href="https://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 license</a>,
       and examples are licensed under the
       <a href="https://chromium.googlesource.com/chromium/src/+/HEAD/LICENSE">BSD License</a>.
+    </section>
+    <section id="privacy" role="complementary">
+      <a href="https://policies.google.com/privacy">Privacy</a>
     </section>
     <a id="edit-this-page" href="https://edit.chromium.org/edit?repo=chromium/website/main&amp;file=site{{page.url}}index.md">Edit this page</a>
   </nav>
