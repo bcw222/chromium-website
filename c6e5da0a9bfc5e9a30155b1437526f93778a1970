@@ -33,6 +33,23 @@
       "message": "I\u0027ll just land this for now, feel free to make any edits you like after (which are easier to make directly on the site than adding a page).",
       "revId": "c6e5da0a9bfc5e9a30155b1437526f93778a1970",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cdf718ea_69451573",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002532
+      },
+      "writtenOn": "2021-12-08T01:29:37Z",
+      "side": 1,
+      "message": "Should we ask on here to use Finch for non-trivial changes?",
+      "revId": "c6e5da0a9bfc5e9a30155b1437526f93778a1970",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
