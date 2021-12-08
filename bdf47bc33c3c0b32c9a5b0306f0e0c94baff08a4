@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "24dd1c06_6f26641f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1109505
+      },
+      "writtenOn": "2021-12-08T18:38:55Z",
+      "side": 1,
+      "message": "We have https://chromium.googlesource.com/chromium/src/+/HEAD/android_webview/docs/web-platform-compatibility.md which describes a lot of the risks around WebView when making web platform changes; much of the advice there also applies to other kinds of changes.",
+      "revId": "bdf47bc33c3c0b32c9a5b0306f0e0c94baff08a4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
