@@ -16,6 +16,40 @@
       "message": "dpranke: please have a look :D",
       "revId": "795669b788d1dcf8ab770f99b23809754edbbfbd",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e82a8831_28971b9d",
+        "filename": "site/talks/debugging-sans-debugger/index.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-12-09T01:58:20Z",
+      "side": 1,
+      "message": "Do you need this style command, or can you move this into the stylesheet?",
+      "revId": "795669b788d1dcf8ab770f99b23809754edbbfbd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8dac808d_cb846e0c",
+        "filename": "site/talks/debugging-sans-debugger/index.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2021-12-09T01:58:20Z",
+      "side": 1,
+      "message": "This isn\u0027t going to work :(.\n\nThe site runs with \"Strict CSP\" enabled, so if you try to preview this @\n\nhttps://chromium-website--cl3324405-ps1-u3ogr7ab.web.app/talks/debugging-sans-debugger/index.html\n\nYou\u0027ll get this message in the JS console:\n\nRefused to load the script \u0027https://chromium-website--cl3324405-ps1-u3ogr7ab.web.app/talks/debugging-sans-debugger/deck.js\u0027 because it violates the following Content Security Policy directive: \"script-src \u0027sha256-u6XshovSaVb33r+c+stoEKCEjeKQdLWgPflfvAha/Do\u003d\u0027 \u0027unsafe-inline\u0027 \u0027strict-dynamic\u0027\". Note that \u0027script-src-elem\u0027 was not explicitly set, so \u0027script-src\u0027 is used as a fallback.\n\nWhat this means is that Chrome will only let you run script blocks that match that specified hash or are loaded from a script block that matches that specified hash (that\u0027s what the \u0027strict-dynamic\u0027 part does).\n\nFirst, you have to dynamically add the script to the document instead of just referring to it via a script tag, e.g.\n\n  \u003cscript\u003e\n  let el \u003d document.createElement(\u0027script\u0027);\n  el.src \u003d \u0027deck.js\u0027;\n  document.head.append(el);\n  \u003c/script\u003e\n\nIn order to get it to be an inline script block. This is really annoying but is a limitation of how CSP works today according to mkwst@.\n\nThe bigger problem is that *something* has to know to compute the hash of the script block. For stuff that shows up in a markdown page that is processed during the build, we have hooks to compute it. But, for files that are copied over, we don\u0027t.\n\nSo, I\u0027m going to have to look at what we need to change in the build to make that possible.\n\nOne possible option might be to dump all of this html into a markdown document (since you can embed raw html in our environment): that might just work.\n\nBut, that\u0027s kinda clunky, and there are probably better alternatives (like having eleventy process the .html files rather than just copy them).\n\nI\u0027ll try to look into this in the next day or two, it shouldn\u0027t be too hard to do something. \n\nIf you wanted to do some hacking on the eleventy config to try it yourself, you\u0027re also certainly welcome to do so.",
+      "revId": "795669b788d1dcf8ab770f99b23809754edbbfbd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
