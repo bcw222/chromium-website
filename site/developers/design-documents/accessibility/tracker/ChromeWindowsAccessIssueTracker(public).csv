@@ -80,10 +80,10 @@ Implement accessibilityController in test shell,Bug,crbug.com/10322,dglazkov,,In
 
 Area: Documentation
 
-Add documentation for keyboard navigation of bookmarks bar and Alt+E/Alt+F to the Chrome design document,Doc,,klink,,"Done - live at: http://sites.google.com/a/chromium.org/dev/developers/design-documents/accessibility, and also listed in the general Chrome Keyboard Shortcuts document: http://www.google.com/support/chrome/bin/answer.py?answer=95743"
+Add documentation for keyboard navigation of bookmarks bar and Alt+E/Alt+F to the Chrome design document,Doc,,klink,,"Done - live at: http://www.chromium.org/developers/design-documents/accessibility, and also listed in the general Chrome Keyboard Shortcuts document: http://www.google.com/support/chrome/bin/answer.py?answer=95743"
 File bugs on WAI-ARIA states and properties,Doc,,klink
 File bugs on live region support,Doc,,klink
-Move issue tracker to public place,Doc,,klink,,Done - live at: http://sites.google.com/a/chromium.org/dev/developers/design-documents/accessibility/tracker
-Compose Accessibility User Guidelines for Google Chrome,Doc,,klink,,Done - live at: http://sites.google.com/a/chromium.org/dev/developers/design-documents/accessibility
-Create changelog page,Doc,,klink,,Done - live at: http://sites.google.com/a/chromium.org/dev/developers/design-documents/accessibility/tracker
-Add all outstanding bugs to this spreadsheet,Doc,,klink,,Done - live at: http://sites.google.com/a/chromium.org/dev/developers/design-documents/accessibility/tracker
+Move issue tracker to public place,Doc,,klink,,Done - live at: http://www.chromium.org/developers/design-documents/accessibility/tracker
+Compose Accessibility User Guidelines for Google Chrome,Doc,,klink,,Done - live at: http://www.chromium.org/developers/design-documents/accessibility
+Create changelog page,Doc,,klink,,Done - live at: http://www.chromium.org/developers/design-documents/accessibility/tracker
+Add all outstanding bugs to this spreadsheet,Doc,,klink,,Done - live at: http://www.chromium.org/developers/design-documents/accessibility/tracker

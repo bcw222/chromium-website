@@ -44,7 +44,7 @@ Debugging tools:
     <https://chrome.google.com/extensions/detail/ognampngfcbddbfemdapefohjiobgbdl>
 *   Chromium page benchmarker
     The page benchmarker can test HTTP and SPDY urls through chrome.
-    <https://sites.google.com/a/chromium.org/dev/chrome-benchmarking-extension>
+    <https://www.chromium.org/chrome-benchmarking-extension>
 *   Flip-in-mem-edsm-server
     The flip server is a fully implemented SPDY server or SPDY-to-HTTP gateway.
     Full source is available in the chromium tree at net/tools/flip_server. You
