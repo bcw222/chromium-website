@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "414615f3_b7dfd372",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1212214
+      },
+      "writtenOn": "2021-12-20T17:46:40Z",
+      "side": 1,
+      "message": "There are still some image SHAs in  site/developers/using-requestautocomplete, I\u0027m not quite sure what those are or if I should just delete them.",
+      "revId": "27ac83e364b886ef33d970db55e42b36f10fcf25",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
