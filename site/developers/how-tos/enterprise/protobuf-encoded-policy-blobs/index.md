@@ -44,7 +44,7 @@ protobufs. The layers are as follows:
             <https://chromium.googlesource.com/chromium/src/+/HEAD/components/policy/resources/policy_templates.json>
 4.  Chromium OS device policy is handled by ChromeDeviceSettingsProto
             defined in
-            <https://chromium.googlesource.com/chromium/src/chrome/browser/chromeos/policy/proto/+/HEAD/chrome_device_policy.proto>
+            <https://chromium.googlesource.com/chromium/src/+/HEAD/components/policy/proto/chrome_device_policy.proto>
             and is applicable if the policy type is google/chromeos/device.
 
 ## Manipulating binary blobs
