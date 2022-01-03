@@ -22,6 +22,30 @@
       },
       "revId": "45d73068366fd685bdc05881efc69467d74dee65",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c4d489de_ad872a2f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1400492
+      },
+      "writtenOn": "2022-01-03T16:05:56Z",
+      "side": 1,
+      "message": "I doubt that was the problem, this command just never finished:\n```\nprotoc --decode\u003denterprise_management.PolicyFetchResponse \\\n  -I \"$PROTO_DIR\" \\\n  \"$PROTO_DIR/device_management_backend.proto\" \\\n \"policy_response.txt\"\n```\n(Setting $PROTO_DIR to where device_management_backend.proto lives in chroot)\n\nUnless you see what\u0027s wrong, I\u0027m not sure how much effort we want to put into figuring out why...",
+      "parentUuid": "1afca834_eaa70c1d",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 123
+      },
+      "revId": "45d73068366fd685bdc05881efc69467d74dee65",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
