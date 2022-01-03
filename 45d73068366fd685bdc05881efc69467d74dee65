@@ -46,6 +46,30 @@
       },
       "revId": "45d73068366fd685bdc05881efc69467d74dee65",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e49dfe2_42f75da6",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1175129
+      },
+      "writtenOn": "2022-01-03T23:11:35Z",
+      "side": 1,
+      "message": "My point was:\nprotoc --decode will likely try to read from stdin; if nothing comes into stdin it will wait forever :-)\n\nThat\u0027s why the invocation is interesting/relevant.\n\nIf you run \n\n```\ndecode_policy_blob.sh\n```\n\nIt would probably be WAI that it hangs (essentially for you to type the serialized proto payload using your keyboard :D ).\n\nIf you run \n```\ndecode_policy_blob.sh \u003csome_file\n```\n\nWhere some_file is the policy blob, and *then* it hangs, then something is weird.",
+      "parentUuid": "c4d489de_ad872a2f",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 123
+      },
+      "revId": "45d73068366fd685bdc05881efc69467d74dee65",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
