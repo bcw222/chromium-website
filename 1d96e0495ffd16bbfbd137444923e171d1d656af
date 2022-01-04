@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d5696f0_269b332a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2022-01-04T23:22:39Z",
+      "side": 1,
+      "message": "I was going to say that we shouldn\u0027t use long lines like this, but it turns out the public Google style guide doesn\u0027t actually prohibit them.\n\nSo, that\u0027s probably a discussion to have, separate from this particular CL, and I\u0027ll approve this for now.",
+      "revId": "1d96e0495ffd16bbfbd137444923e171d1d656af",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
