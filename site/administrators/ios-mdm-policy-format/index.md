@@ -121,7 +121,7 @@ configuration for Chrome:
 ` <true/>`
 ` <key>TranslateEnabled</key>`
 ` <true/>`
-` <key>URLBlacklist</key>`
+` <key>URLBlocklist</key>`
 ` <array>`
 ` <string>example.com</string>`
 ` <string>https://ssl.server.com</string>`
@@ -129,7 +129,7 @@ configuration for Chrome:
 ` <string>http://server:8080/path</string>`
 ` <string>.exact.hostname.com</string>`
 ` </array>`
-` <key>URLWhitelist</key>`
+` <key>URLAllowlist</key>`
 ` <array>`
 ` <string>example.com</string>`
 ` <string>https://ssl.server.com</string>`
