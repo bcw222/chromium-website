@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b685a576_b4fb7aa4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2022-01-04T20:42:59Z",
+      "side": 1,
+      "message": "lgtm % question",
+      "revId": "1511850599ef209d4a869531ab326bbd11480253",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "599b1eb1_970d0dd5",
+        "filename": "site/administrators/complex-policies-on-windows/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2022-01-04T20:42:59Z",
+      "side": 1,
+      "message": "is the old /administrators/policy-list-3 link wrong? if so, we should fix it above too",
+      "range": {
+        "startLine": 24,
+        "startChar": 25,
+        "endLine": 24,
+        "endChar": 65
+      },
+      "revId": "1511850599ef209d4a869531ab326bbd11480253",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
