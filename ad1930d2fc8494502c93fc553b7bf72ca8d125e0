@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b32a858_11ea843d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2022-01-04T14:18:43Z",
+      "side": 1,
+      "message": "LGTM w/ nits",
+      "revId": "ad1930d2fc8494502c93fc553b7bf72ca8d125e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "72e63e27_2f08fd83",
+        "filename": "site/developers/webview-changes/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2022-01-04T14:18:43Z",
+      "side": 1,
+      "message": "nit: s/Theh/The/ and double space after or.",
+      "revId": "ad1930d2fc8494502c93fc553b7bf72ca8d125e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
