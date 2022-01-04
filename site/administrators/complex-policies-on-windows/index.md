@@ -21,7 +21,7 @@ Chrome policies were of simple types:
             [ProxyPacUrl](/administrators/policy-list-3#ProxyPacUrl))
 
 Additionally, Chrome has supported some policies as **Lists of Strings**
-(example: [URLBlacklist](/administrators/policy-list-3#URLBlacklist)).
+(example: [URLBlocklist](https://chromeenterprise.google/policies/#URLBlocklist)).
 
 These policy types match what GPO can represent natively on Windows using
 Administrative Template files (ADM or ADMX).
