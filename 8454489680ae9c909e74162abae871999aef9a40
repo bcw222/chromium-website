@@ -16,6 +16,24 @@
       "message": "Hi vincent!\n\nThis appears to be an empty change?",
       "revId": "8454489680ae9c909e74162abae871999aef9a40",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "53ef34c9_ce92af7f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1107759
+      },
+      "writtenOn": "2022-01-08T00:34:58Z",
+      "side": 1,
+      "message": "I\u0027ve published a second patchset.  This was created (for my first time) via edit.chromium.org.  I saw a URL change in the diff for the first patchset as well, but it seemed to still be in \u0027edit\u0027 mode and refused to allow publishing again until I changed it further.  Hopefully now it\u0027s functional for others.",
+      "parentUuid": "be935bcb_54eda893",
+      "revId": "8454489680ae9c909e74162abae871999aef9a40",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
