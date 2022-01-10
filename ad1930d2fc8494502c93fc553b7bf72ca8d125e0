@@ -33,6 +33,24 @@
       "message": "nit: s/Theh/The/ and double space after or.",
       "revId": "ad1930d2fc8494502c93fc553b7bf72ca8d125e0",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ed09ae9_64c6c42e",
+        "filename": "site/developers/webview-changes/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2022-01-10T21:23:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "72e63e27_2f08fd83",
+      "revId": "ad1930d2fc8494502c93fc553b7bf72ca8d125e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
