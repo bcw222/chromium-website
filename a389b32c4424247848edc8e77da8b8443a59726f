@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "87dfb03b_4058c5f3",
+        "filename": "site/developers/how-tos/enterprise/protobuf-encoded-policy-blobs/decode_policy_blob.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1400492
+      },
+      "writtenOn": "2022-01-10T15:50:57Z",
+      "side": 0,
+      "message": "I\u0027m really struggling to make this work with python3. \n\npython -c \"import sys; sys.stdout.write(sys.stdin.read().encode(\u0027latin-1\u0027).decode(\u0027unicode-escape\u0027))\" | \\\n\nLooks right, but somehow doesn\u0027t work.",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 86
+      },
+      "revId": "a389b32c4424247848edc8e77da8b8443a59726f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
