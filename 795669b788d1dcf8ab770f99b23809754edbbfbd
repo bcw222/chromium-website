@@ -53,6 +53,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "98c19a44_3f7ab26e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2022-01-10T16:56:23Z",
+      "side": 1,
+      "message": "Okay, I\u0027ll keep it in mind from my side because it is something I think we want to (and should be able to) support.",
+      "parentUuid": "4d7be638_dadaa841",
+      "revId": "795669b788d1dcf8ab770f99b23809754edbbfbd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e82a8831_28971b9d",
