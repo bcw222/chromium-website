@@ -22,6 +22,30 @@
       },
       "revId": "a389b32c4424247848edc8e77da8b8443a59726f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9c6c35d0_909764c4",
+        "filename": "site/developers/how-tos/enterprise/protobuf-encoded-policy-blobs/decode_policy_blob.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1400492
+      },
+      "writtenOn": "2022-01-10T16:29:22Z",
+      "side": 0,
+      "message": "I think I know what\u0027s going on here: python3 decode function doesn\u0027t correctly deal with text that has escaped and not escaped characters. At least that fits together with running diff on python3 and python2 output - it\u0027s just different on the special characters.\n\nApparently, the only proper solution is to write a bit of python code to fix this manually.",
+      "parentUuid": "87dfb03b_4058c5f3",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 86
+      },
+      "revId": "a389b32c4424247848edc8e77da8b8443a59726f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
