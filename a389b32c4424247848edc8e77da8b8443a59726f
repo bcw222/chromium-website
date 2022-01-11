@@ -94,6 +94,30 @@
       },
       "revId": "a389b32c4424247848edc8e77da8b8443a59726f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "98f10d74_0c987b1c",
+        "filename": "site/developers/how-tos/enterprise/protobuf-encoded-policy-blobs/decode_policy_blob.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1175129
+      },
+      "writtenOn": "2022-01-11T13:37:26Z",
+      "side": 0,
+      "message": "Do python2 things still work? How long? 😄\nAlternative would be replacing the first bullet point with \"I\u0027ll remove this for now and add a TODO to the documentation that these tools will exist again at some point\" :-) or something similar\n\nor at this point we can just remove them, no one was asking for them for a while..",
+      "parentUuid": "9338d091_2bbcc7fe",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 86
+      },
+      "revId": "a389b32c4424247848edc8e77da8b8443a59726f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
