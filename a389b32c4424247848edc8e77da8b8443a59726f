@@ -46,6 +46,30 @@
       },
       "revId": "a389b32c4424247848edc8e77da8b8443a59726f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a4d1c1a0_14704de8",
+        "filename": "site/developers/how-tos/enterprise/protobuf-encoded-policy-blobs/decode_policy_blob.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1175129
+      },
+      "writtenOn": "2022-01-11T12:53:42Z",
+      "side": 0,
+      "message": "Hmmm yeah and at that point we can replace this whole file with a python script at some point which would not need to do awk magic to extract proto field values :-)",
+      "parentUuid": "9c6c35d0_909764c4",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 86
+      },
+      "revId": "a389b32c4424247848edc8e77da8b8443a59726f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
