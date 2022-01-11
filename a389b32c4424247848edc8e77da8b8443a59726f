@@ -118,6 +118,30 @@
       },
       "revId": "a389b32c4424247848edc8e77da8b8443a59726f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "29724dfb_85a78e29",
+        "filename": "site/developers/how-tos/enterprise/protobuf-encoded-policy-blobs/decode_policy_blob.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1400492
+      },
+      "writtenOn": "2022-01-11T13:49:02Z",
+      "side": 0,
+      "message": "For this script python2 can work forever as you can run it anywhere that has python2 and protoc installed.\nBut I\u0027ll gladly remove it as I agree that there\u0027s probably nobody using it. 😊\n\nIn that case, this CL is ready again.",
+      "parentUuid": "98f10d74_0c987b1c",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 86
+      },
+      "revId": "a389b32c4424247848edc8e77da8b8443a59726f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
