@@ -70,6 +70,30 @@
       },
       "revId": "a389b32c4424247848edc8e77da8b8443a59726f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9338d091_2bbcc7fe",
+        "filename": "site/developers/how-tos/enterprise/protobuf-encoded-policy-blobs/decode_policy_blob.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1400492
+      },
+      "writtenOn": "2022-01-11T13:03:24Z",
+      "side": 0,
+      "message": "How about this:\n- I\u0027ll make this explicitly python2 now\n- and open a bug bash bug some python enthusiast can pick up to migrate it to python 3?",
+      "parentUuid": "a4d1c1a0_14704de8",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 86
+      },
+      "revId": "a389b32c4424247848edc8e77da8b8443a59726f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
