@@ -16,6 +16,23 @@
       "message": "Thanks!",
       "revId": "f29f5c3257a1b38c667127815646f3ceca6cefc5",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f840511a_7e2d1e6f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2022-01-20T15:08:16Z",
+      "side": 1,
+      "message": "Hm, I noticed that our docs are also referenced here: https://source.chromium.org/chromium/chromium/src/+/main:docs/README.md;drc\u003dac2b2876f9cfbb9b33b4edb996451f6921c4ec8f;l\u003d147\n\n...and now I\u0027m pretty confused about the overall state of our documentation, and what the \"canonical\" place for it is. Do you know of any official guidance on where things are supposed to go? It all seems to be a bit of a mess...",
+      "revId": "f29f5c3257a1b38c667127815646f3ceca6cefc5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
