@@ -68,6 +68,24 @@
       "message": "Hi Dirk, please see the open thread below",
       "revId": "f29f5c3257a1b38c667127815646f3ceca6cefc5",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9eb48857_5a728a47",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2022-01-20T22:26:15Z",
+      "side": 1,
+      "message": "So, pre-new-chromium.org launch, the guidance would\u0027ve been somewhere between \"if the documentation needs to stay in sync w/ the code, it should live in src/\" and \"just put it in src/ if you can\" (because the website has kinda fallen into disrepair.\n\nWith the new site, the advantages of keeping stuff in src/ are somewhat diminished, but it does still have the advantage that you can update docs and code in a single CL, which seems ideal.\n\nI have vague plans to have the website repo DEPS in directories from other repos (e.g., chromium/src, depot_tools, chromiumos repos, etc.) as I think that\u0027ll ultimately be the best combination of things, but I need to launch the new site first and then design this out and get feedback. Even then, it\u0027ll largely depend on how you edit pages and how we can make that work to see what works best.\n\nSo, it\u0027s up to y\u0027all if you want the docs in one place or another (or both) in the meantime, I don\u0027t have a single recommendation any more than I did before.\n\nDoes that all make sense?",
+      "parentUuid": "d466754a_084ebaa9",
+      "revId": "f29f5c3257a1b38c667127815646f3ceca6cefc5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
