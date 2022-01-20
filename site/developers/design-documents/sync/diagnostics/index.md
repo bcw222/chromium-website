@@ -2,8 +2,12 @@
 breadcrumbs:
 - - /developers
   - For Developers
+- - /developers/design-documents
+  - Design Documents
+- - /developers/design-documents/sync
+  - Sync
 page_name: sync-diagnostics
-title: Sync diagnostics
+title: Sync diagnostics (Needs update)
 ---
 
 ### <http://go/aboutsync>
