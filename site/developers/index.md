@@ -145,7 +145,7 @@ See also: All [How-tos](/developers/how-tos).
             documentation](https://chromium.googlesource.com/infra/infra/+/HEAD/doc/index.md)
 *   [Contacting a
             Trooper](https://chromium.googlesource.com/infra/infra/+/HEAD/doc/users/contacting_troopers.md)
-            
+
 
 ### Performance
 
@@ -175,10 +175,7 @@ See also: All [How-tos](/developers/how-tos).
 
 ### Sync
 
-*   [Sync overview](/developers/design-documents/sync)
-*   [Sync diagnostics](/developers/sync-diagnostics)
-*   [Syncable Service
-            API](/developers/design-documents/sync/syncable-service-api)
+*   [Sync](/developers/design-documents/sync)
 
 ### **Diagnostics**
 
