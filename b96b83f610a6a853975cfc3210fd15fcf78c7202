@@ -1,0 +1,45 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0082e792_12d13226",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1339017
+      },
+      "writtenOn": "2022-01-20T13:08:51Z",
+      "side": 1,
+      "message": "\u003e Preview this change at https://chromium-website--cl3401841-ps8-2h8o8o4d.web.app\n\nIn case you want to see what the page looks like, this is useful. Pls use the comment for patchset 9 though.",
+      "parentUuid": "558cc516_c5ca945a",
+      "revId": "b96b83f610a6a853975cfc3210fd15fcf78c7202",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8df24566_0b78e5a3",
+        "filename": "site/developers/design-documents/sync/diagnostics/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1339017
+      },
+      "writtenOn": "2022-01-20T13:08:51Z",
+      "side": 1,
+      "message": "This isn\u0027t a *design* document strictly speaking, but I\u0027d much rather have all sync documentation linked from the same page than spread all over.",
+      "range": {
+        "startLine": 6,
+        "startChar": 4,
+        "endLine": 6,
+        "endChar": 20
+      },
+      "revId": "b96b83f610a6a853975cfc3210fd15fcf78c7202",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
