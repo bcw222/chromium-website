@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aabcb967_ce9a506a",
+        "filename": "site/developers/design-documents/sync/unified-sync-and-storage-overview/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2022-01-20T08:04:34Z",
+      "side": 0,
+      "message": "Have you skimmed over this doc to see whether there\u0027s still any relevant information here? All the \"benefits of USS over the old architecture\" stuff is obsolete, but it does look like some things here might still be relevant.",
+      "revId": "ea4df8bc39091983ec4f0beb57c5fdf4e8b5f970",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
