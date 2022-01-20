@@ -33,6 +33,41 @@
       "message": "Hm, I noticed that our docs are also referenced here: https://source.chromium.org/chromium/chromium/src/+/main:docs/README.md;drc\u003dac2b2876f9cfbb9b33b4edb996451f6921c4ec8f;l\u003d147\n\n...and now I\u0027m pretty confused about the overall state of our documentation, and what the \"canonical\" place for it is. Do you know of any official guidance on where things are supposed to go? It all seems to be a bit of a mess...",
       "revId": "f29f5c3257a1b38c667127815646f3ceca6cefc5",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d466754a_084ebaa9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1339017
+      },
+      "writtenOn": "2022-01-20T15:29:46Z",
+      "side": 1,
+      "message": "+dpranke@ who will have to review this CL anyway as an owner\n\nThe way I historically thought of this was\n- chromium.org: outdated and most people don\u0027t even know how to update it\n- docs/: can be easily updated by writing CLs, so people used it as an alternative\n\nWith the new chromium.org setup, I think theoretically we could move all the content of docs/ to docs/website/ so it\u0027s also rendered in chromium.org. I don\u0027t know how much effort that would involve and how much value it would bring. Dirk, is that on your roadmap? Otherwise, do you have any guidance on what should be in docs/ vs docs/website/?\n\n\u003e Hm, I noticed that our docs are also referenced here: \nGood catch, we should delete the reference in crrev.com/c/3404277 if we go ahead with the move",
+      "parentUuid": "f840511a_7e2d1e6f",
+      "revId": "f29f5c3257a1b38c667127815646f3ceca6cefc5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "51917819_686ccfd7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1339017
+      },
+      "writtenOn": "2022-01-20T15:29:46Z",
+      "side": 1,
+      "message": "Hi Dirk, please see the open thread below",
+      "revId": "f29f5c3257a1b38c667127815646f3ceca6cefc5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
