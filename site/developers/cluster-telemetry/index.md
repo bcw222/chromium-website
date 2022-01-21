@@ -21,7 +21,7 @@ Developers can use the framework to:
 
 *   Measure the performance of multi-repo patches against the top subset
             of the internet on Android devices, bare-metal linux machines, and
-            windows GCE instances using the [perf
+            GCE instances using the [perf
             page](https://ct.skia.org/chromium_perf/).
 *   Gather metrics for analysis or for reports against 100k web pages on
             CT's VM farm (linux and windows) using the [analysis
@@ -58,7 +58,7 @@ CT has been used to gather perf data for the following projects:
 **Which telemetry benchmarks does CT support?**
 
 CT supports all benchmarks listed in
-[tools/perf/contrib/cluster_telemetry](https://source.chromium.org/chromium/chromium/src/+/HEAD:tools/perf/contrib/cluster_telemetry/;l=1?q=contrib%2Fcluster&sq=&ss=chromium&originalUrl=https:%2F%2Fcs.chromium.org%2F).
+[tools/perf/contrib/cluster_telemetry](https://source.chromium.org/chromium/chromium/src/+/master:tools/perf/contrib/cluster_telemetry/;l=1?q=contrib%2Fcluster&sq=&ss=chromium&originalUrl=https:%2F%2Fcs.chromium.org%2F).
 Many of these benchmarks exist outside of CT, but these are the corresponding CT
 compatible versions.
 
