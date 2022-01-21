@@ -10,6 +10,40 @@ page_name: releasenotes
 title: MobLab Release Notes
 ---
 
+**The latest recovery images for Moblab:**
+
+*   [Wukong (fizz) OS Recovery
+            Image](https://storage.googleapis.com/moblab-recovery-images/chromeos_14150.88.0_fizz-moblab_recovery_stable-channel_mp.bin.zip)
+*   [Wyvern (puff) OS Recovery
+            Image](https://storage.googleapis.com/moblab-recovery-images/chromeos_13904.81.0_puff-moblab_recovery_stable-channel_mp-v3.bin.zip)
+
+**Dec 13th 2021: Moblab Update**
+\*\*\*You should reboot your Moblab when next not running tests to get this
+latest version of the software.\*\*\***
+
+**You should reboot your Moblab to get the latest version of the software. Make
+sure no tests are running or scheduled. This update only includes an update to
+the Moblab software; after the update you will be running Moblab version
+R-2.14.0.**
+**Highlights**
+Added new tab for running PVS test-suites
+
+**UI - DUT Detail**
+
+*   Made the IP Address field visible on DUT detail page
+
+**UI - Run Suite**
+
+*   Added new tab for PVS test-suites
+
+**UI - Job Detail**
+
+*   Make the ID field visible
+
+**Other**
+
+*   lucifer: update dockerfile to use go modules
+
 Nov 4th 2021: Moblab Update
 
 **\*\*\*You should reboot your Moblab when next not running tests to get this
@@ -43,6 +77,8 @@ latest version of the software.\*\*\***
 **This update includes an update to the underlying moblab ChromeOS version;
 after the update you will be running Chrome OS version R93-14092.55.0 and Moblab
 version R-2.12.3.**
+
+## [OS Recovery Image](https://storage.googleapis.com/moblab-recovery-images/chromeos_14150.88.0_fizz-moblab_recovery_stable-channel_mp.bin.zip), in the case you need to recover your Moblab.
 
 # Highlights
 
