@@ -125,15 +125,18 @@ luci.binding(
     groups = "flex-ci-led-users",
 )
 
+luci.recipe(
+    name = RECIPE_NAME,
+    cipd_package = RECIPE_CIPD_PACKAGE,
+    cipd_version = "refs/heads/main",
+    use_bbagent = True,
+    use_python3 = True,
+)
+
 luci.builder(
     name = "chromium-website-ci-builder",
     bucket = "ci",
-    executable = luci.recipe(
-        name = RECIPE_NAME,
-        cipd_package = RECIPE_CIPD_PACKAGE,
-        cipd_version = "refs/heads/main",
-        use_bbagent = True,
-    ),
+    executable = RECIPE_NAME,
     service_account = "chromium-website-ci-builder@chops-service-accounts.iam.gserviceaccount.com",
     execution_timeout = 1 * time.hour,
     dimensions = {"cpu": "x86-64", "os": _LINUX_OS, "pool": "luci.flex.ci"},
@@ -204,12 +207,7 @@ luci.binding(
 luci.builder(
     name = "chromium-website-try-builder",
     bucket = "try",
-    executable = luci.recipe(
-        name = RECIPE_NAME,
-        cipd_package = RECIPE_CIPD_PACKAGE,
-        cipd_version = "refs/heads/main",
-        use_bbagent = True,
-    ),
+    executable = RECIPE_NAME,
     service_account = "chromium-website-try-builder@chops-service-accounts.iam.gserviceaccount.com",
     execution_timeout = 1 * time.hour,
     dimensions = {"cpu": "x86-64", "os": _LINUX_OS, "pool": "luci.flex.try"},
