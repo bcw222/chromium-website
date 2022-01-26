@@ -388,9 +388,6 @@ chromium-os/developer-guide/chromium-os-sandboxing/mount_event_propagation.png
 chromium-os/developer-guide/TrackerName.png
 chromium-os/chromiumos-design-docs/keyboard-controlled-reset-circuit/KbdReset.png
 chromium-os/chromiumos-design-docs/filesystem-autoupdate/ChromeOSFilesystemAutoupdate.png
-chromium-os/chromiumos-design-docs/disk-format/kernel2.png
-chromium-os/chromiumos-design-docs/disk-format/layout.png
-chromium-os/chromiumos-design-docs/disk-format/flow.png
 chromium-os/chromiumos-design-docs/ec-3po/EC-3PO- The EC console interpreter (1).png
 chromium-os/chromiumos-design-docs/ec-3po/EC-3PO- The EC console interpreter.png
 chromium-os/chromiumos-design-docs/boot-design/boot_design_diagram.png
