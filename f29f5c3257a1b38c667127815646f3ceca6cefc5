@@ -103,6 +103,24 @@
       "message": "actual change lgtm from an owners point of view, but I\u0027m not reviewing the actual accuracy of the content. Up to you if you want to land it right now (or wait) given what I wrote previously :).",
       "revId": "f29f5c3257a1b38c667127815646f3ceca6cefc5",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eb3f13af_c4491562",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2022-01-26T14:43:01Z",
+      "side": 1,
+      "message": "Thanks Dirk - yes, this all makes sense to me!\n\nRe updating code and docs in the same CL: I definitely see the advantage in principle, but in practice it\u0027s pretty rare. Our docs are somewhat higher level, so any individual CL only rarely requires a docs update.\n\nIt sounds like long term, the best solution will be to have the docs close to the code (where they are now), and DEPSed into the website repo, but that\u0027s still a while out.\nIn the meantime, the website is probably the slightly better place, so I\u0027m okay going ahead with this move.\n\n(Also: Sorry for the long silence here! Somehow I missed that this was on my plate again.)",
+      "parentUuid": "9eb48857_5a728a47",
+      "revId": "f29f5c3257a1b38c667127815646f3ceca6cefc5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
