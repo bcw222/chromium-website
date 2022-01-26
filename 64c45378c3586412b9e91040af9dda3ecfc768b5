@@ -16,6 +16,24 @@
       "message": "I only have +1 rights, so that\u0027s all I can give.\n\nThanks for fixing these so quickly!",
       "revId": "64c45378c3586412b9e91040af9dda3ecfc768b5",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e36f271e_c60cc81c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2022-01-26T17:48:16Z",
+      "side": 1,
+      "message": "+1 is all I need! Thanks for reporting the problem, I\u0027m not sure how we missed this before :(.",
+      "parentUuid": "bfed31f7_c3bb762a",
+      "revId": "64c45378c3586412b9e91040af9dda3ecfc768b5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
