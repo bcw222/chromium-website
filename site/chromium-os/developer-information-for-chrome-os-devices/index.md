@@ -3821,4 +3821,21 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>Yes</td>
   </tr>
+  <tr>
+    <td>2021-12-31</td>
+    <td>Acer</td>
+    <td><a href="https://www.acer.com/ac/en/US/content/series/acerchromebook311">Acer Chromebook Spin 311</a></td>
+    <td>Pico</td>
+    <td>Jacuzzi</td>
+    <td>Jacuzzi</td>
+    <td>arm</td>
+    <td>4.19</td>
+    <td>arm</td>
+    <td>MT8183</td>
+    <td>Chromebook</td>
+    <td>M96</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
 </table>
