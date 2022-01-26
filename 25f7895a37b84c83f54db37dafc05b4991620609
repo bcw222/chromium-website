@@ -16,6 +16,23 @@
       "message": "Would you mind reviewing a small doc update?",
       "revId": "25f7895a37b84c83f54db37dafc05b4991620609",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f8235422_24a4451a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-01-26T23:46:49Z",
+      "side": 1,
+      "message": "Thank you!",
+      "revId": "25f7895a37b84c83f54db37dafc05b4991620609",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
