@@ -8,10 +8,25 @@ title: USI Capable Devices
 
 *List is currently being updated and more devices will be added in the coming days*
 
-*Last update: 18 January 2022*
+*Last update: 27 January 2022*
 
 <table>
 <tr>
+<td>Acer Chromebook Spin 314 (CP314-1HN)</td>
+
+</tr>
+<tr>
+
+<td>Acer Chromebook spin 511 (R753TN)</td>
+
+</tr>
+<tr>
+
+<td>Acer Chromebook spin 512 (R853TNA)</td>
+
+</tr>
+<tr>
+
 <td>Acer Chromebook Spin 513 (CP513-1H、CP513-1HL、R841T、R841LT)</td>
 
 </tr>
