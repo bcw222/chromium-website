@@ -8,7 +8,7 @@ title: USI Capable Devices
 
 *List is currently being updated and more devices will be added in the coming days*
 
-*Last update: 18 January 2022*
+*Last update: 27 January 2022*
 
 <table>
 <tr>
