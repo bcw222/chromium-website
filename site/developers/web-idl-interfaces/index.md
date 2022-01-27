@@ -42,6 +42,12 @@ file should require minimal work (ideally just copy-and-paste the spec),
 assuming nothing unusual is being done, and the build can be forgotten about
 once you've set it up. Details follow.
 
+If you do not intend to expose the IDL to mobile platforms i.e. android you 
+can exclude the source files and the idl files with checking for the `target_os` buildflag like here in
+[idl_in_modules.gni](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/bindings/idl_in_modules.gni;drc=105716ef02f9e386c61848f649664d2d0f59ad52;l=1171).
+
+You also need to add the IDL in [not-webview-exposed.txt](https://source.chromium.org/chromium/chromium/src/+/main:android_webview/tools/system_webview_shell/test/data/webexposed/not-webview-exposed.txt) if you want to exclude it on android.
+
 ## Web IDL
 
 *   Find spec
