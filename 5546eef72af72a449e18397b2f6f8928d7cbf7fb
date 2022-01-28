@@ -52,6 +52,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3d8a12f0_ac556914",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1405696
+      },
+      "writtenOn": "2022-01-28T19:41:09Z",
+      "side": 1,
+      "message": "Thanks!",
+      "parentUuid": "514ee52d_256b8936",
+      "revId": "5546eef72af72a449e18397b2f6f8928d7cbf7fb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2fe90b3f_6a58e283",
@@ -65,6 +83,30 @@
       "writtenOn": "2022-01-28T15:12:21Z",
       "side": 1,
       "message": "Nit: wrap \"i.e. android\" in commas. Also, minor nit that this should be \"e.g.\" (i.e. is \"that is\", e.g. is \"for example\"), so\n\n... expose the IDL to mobile platforms, e.g. android, you can ...\n\n(Also there\u0027s a trailing space here)",
+      "range": {
+        "startLine": 45,
+        "startChar": 59,
+        "endLine": 45,
+        "endChar": 71
+      },
+      "revId": "5546eef72af72a449e18397b2f6f8928d7cbf7fb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fbfe1084_f33baf77",
+        "filename": "site/developers/web-idl-interfaces/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1405696
+      },
+      "writtenOn": "2022-01-28T19:41:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2fe90b3f_6a58e283",
       "range": {
         "startLine": 45,
         "startChar": 59,
@@ -121,6 +163,54 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "15a66235_e6f6e7e8",
+        "filename": "site/developers/web-idl-interfaces/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1405696
+      },
+      "writtenOn": "2022-01-28T19:41:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b2361685_9305c767",
+      "range": {
+        "startLine": 46,
+        "startChar": 90,
+        "endLine": 46,
+        "endChar": 103
+      },
+      "revId": "5546eef72af72a449e18397b2f6f8928d7cbf7fb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "83cb87e0_5ed94669",
+        "filename": "site/developers/web-idl-interfaces/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1405696
+      },
+      "writtenOn": "2022-01-28T19:41:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4ae6b57d_7f530142",
+      "range": {
+        "startLine": 46,
+        "startChar": 47,
+        "endLine": 46,
+        "endChar": 51
+      },
+      "revId": "5546eef72af72a449e18397b2f6f8928d7cbf7fb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "04444ce1_953b95e1",
@@ -134,6 +224,30 @@
       "writtenOn": "2022-01-28T15:12:21Z",
       "side": 1,
       "message": "Nit: `If excluding Android, also update [not-webview-exposed.txt](...) with the excluded IDLs.`",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 31
+      },
+      "revId": "5546eef72af72a449e18397b2f6f8928d7cbf7fb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aadc8340_256c64a7",
+        "filename": "site/developers/web-idl-interfaces/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1405696
+      },
+      "writtenOn": "2022-01-28T19:41:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "04444ce1_953b95e1",
       "range": {
         "startLine": 49,
         "startChar": 0,
