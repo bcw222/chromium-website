@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "61f6ae18_ceb50ba4",
+        "filename": "site/_includes/page.njk",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2022-01-28T18:10:04Z",
+      "side": 1,
+      "message": "can you also add a label to this so it\u0027s clear to screenreader users that it is a search box? eg:\n\n  aria-label\u003d\"Search with Algolia\"\n  \nor just:\n\n  aria-label\u003d\"Search\"",
+      "range": {
+        "startLine": 69,
+        "startChar": 18,
+        "endLine": 69,
+        "endChar": 19
+      },
+      "revId": "c79a42ba33d37c44bfe7c6431274b44161699b15",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
