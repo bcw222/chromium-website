@@ -16,6 +16,23 @@
       "message": "Let me know if you want this in a different format, I tried to imitate the AUTHORS file in Chromium by separating the list into two sections.",
       "revId": "9d555a3714de8cdd119d829dfdee3c3040bd7a13",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "29686750_59103cd9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2022-01-31T16:43:27Z",
+      "side": 1,
+      "message": "Perfect, thanks!",
+      "revId": "9d555a3714de8cdd119d829dfdee3c3040bd7a13",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
