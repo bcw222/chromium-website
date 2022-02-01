@@ -1,0 +1,84 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d50acacb_68dec3b8",
+        "filename": "site/chromium-os/usi-enabled-devices/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1394748
+      },
+      "writtenOn": "2022-02-01T23:53:41Z",
+      "side": 1,
+      "message": "Expected: CP514-1H, CP514-1HH, CP514-1W, CP514-2H",
+      "range": {
+        "startLine": 33,
+        "startChar": 30,
+        "endLine": 33,
+        "endChar": 84
+      },
+      "revId": "7777e60fdd5579019232f2d4b269def3821a7ecf",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6fa45dae_e2b83e76",
+        "filename": "site/chromium-os/usi-enabled-devices/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1394748
+      },
+      "writtenOn": "2022-02-01T23:53:41Z",
+      "side": 1,
+      "message": "Expected entries for:\n  ASUS Chromebook Flip CM3200FVA\n  ASUS Chromebook Flip CM3200FM1A",
+      "revId": "7777e60fdd5579019232f2d4b269def3821a7ecf",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "103e066f_6f1c7134",
+        "filename": "site/chromium-os/usi-enabled-devices/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1394748
+      },
+      "writtenOn": "2022-02-01T23:53:41Z",
+      "side": 1,
+      "message": "Expected: HP Chromebook x2 11",
+      "range": {
+        "startLine": 103,
+        "startChar": 0,
+        "endLine": 103,
+        "endChar": 29
+      },
+      "revId": "7777e60fdd5579019232f2d4b269def3821a7ecf",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0fd60bf1_42c87ad6",
+        "filename": "site/chromium-os/usi-enabled-devices/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1394748
+      },
+      "writtenOn": "2022-02-01T23:53:41Z",
+      "side": 1,
+      "message": "Duplicate entry.",
+      "revId": "7777e60fdd5579019232f2d4b269def3821a7ecf",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
