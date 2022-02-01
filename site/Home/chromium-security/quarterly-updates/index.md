@@ -2081,7 +2081,7 @@ Andrew, on behalf of the Chrome Security Team
 For more thrilling security updates and feisty rants,[ subscribe to
 security-dev@chromium.org](https://groups.google.com/a/chromium.org/forum/#!forum/security-dev).
 You can find older updates at[
-https://dev.chromium.org/Home/chromium-security/quarterly-updates](/Home/chromium-security/quarterly-updates).
+https://www.chromium.org/Home/chromium-security/quarterly-updates](/Home/chromium-security/quarterly-updates).
 
 ## Q4 2016
 
@@ -2220,7 +2220,7 @@ Andrew, on behalf of the Chrome Security Team
 For more thrilling security updates and feisty rants,[ subscribe to
 security-dev@chromium.org](https://groups.google.com/a/chromium.org/forum/#!forum/security-dev).
 You can find older updates at[
-https://dev.chromium.org/Home/chromium-security/quarterly-updates](/Home/chromium-security/quarterly-updates).
+https://www.chromium.org/Home/chromium-security/quarterly-updates](/Home/chromium-security/quarterly-updates).
 
 ## Q3 2016
 
@@ -2499,7 +2499,7 @@ worlds ;)
 For more thrilling security updates and feisty rants, [subscribe to
 security-dev@chromium.org](https://groups.google.com/a/chromium.org/forum/#!forum/security-dev).
 You can find older updates at
-<https://dev.chromium.org/Home/chromium-security/quarterly-updates>.
+<https://www.chromium.org/Home/chromium-security/quarterly-updates>.
 
 Happy Hacking,
 
@@ -2651,7 +2651,7 @@ a simpler and more standards-compliant stack.
 For more thrilling security updates and feisty rants, subscribe to
 [security-dev@chromium.org](mailto:security-dev@chromium.org). You can find
 older updates at
-<https://dev.chromium.org/Home/chromium-security/quarterly-updates>.
+<https://www.chromium.org/Home/chromium-security/quarterly-updates>.
 
 Happy Hacking,
 
@@ -2795,7 +2795,7 @@ diagnostics in the coming months.
 For more thrilling security updates and feisty rants, subscribe to
 [security-dev@chromium.org](mailto:security-dev@chromium.org). You can find
 older updates at
-<https://dev.chromium.org/Home/chromium-security/quarterly-updates>.
+<https://www.chromium.org/Home/chromium-security/quarterly-updates>.
 
 Happy Hacking,
 
