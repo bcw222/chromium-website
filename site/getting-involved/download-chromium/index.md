@@ -55,7 +55,9 @@ Here's how you find it:
 3.  In this case it returns a base position of "330231". This is the
             commit of where the 44 release was branched, back in May 2015.\*
 4.  Open the [continuous builds
-            archive](https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html)
+            archive](https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html).
+            For builds before early 2016, use [this 
+            archive](https://commondatastorage.googleapis.com/chromium-browser-continuous/index.html).
 5.  Click through on your platform (Linux/Mac/Win)
 6.  Paste "330231" into the filter field at the top and wait for all the
             results to XHR in.
