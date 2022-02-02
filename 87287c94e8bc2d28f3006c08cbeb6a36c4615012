@@ -16,6 +16,24 @@
       "message": "I\u0027ve never seen these changes in PRESUBMIT.cfg before; do you know if they\u0027ll affect anyone using `git-cl upload` instead of `repo upload`? I\u0027m guessing they won\u0027t, but haven\u0027t checked.",
       "revId": "87287c94e8bc2d28f3006c08cbeb6a36c4615012",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d09e9d8_cf940854",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-02-02T16:45:07Z",
+      "side": 1,
+      "message": "PRESUBMIT.cfg is ignored by `git cl`.  it\u0027s only known to `repo upload`.",
+      "parentUuid": "c86b2e9f_b3232c80",
+      "revId": "87287c94e8bc2d28f3006c08cbeb6a36c4615012",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
