@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "259bf3f3_64f880c6",
+        "filename": "site/updates/chips/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1395755
+      },
+      "writtenOn": "2022-02-02T21:59:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4fb457e1_3c0bb9cd",
+      "revId": "9619db63b0eacab95ff98945f06b49ae99041853",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6becf9f4_ae860d82",
@@ -31,6 +49,24 @@
       "writtenOn": "2022-02-02T21:44:20Z",
       "side": 1,
       "message": "These should probably be all \u0027-\u0027 or all \u0027*\u0027, not a mix. I think the mix causes the formatting to be a bit weird.",
+      "revId": "9619db63b0eacab95ff98945f06b49ae99041853",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d107b44_d2161551",
+        "filename": "site/updates/chips/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1395755
+      },
+      "writtenOn": "2022-02-02T21:59:35Z",
+      "side": 1,
+      "message": "Oh wow didn\u0027t even notice I did that, good catch, fixed!",
+      "parentUuid": "6becf9f4_ae860d82",
       "revId": "9619db63b0eacab95ff98945f06b49ae99041853",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
