@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0110529c_f755dc53",
+        "filename": "scripts/fetch_lobs.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2022-02-02T21:49:19Z",
+      "side": 1,
+      "message": "This is to handle the case where the file we fetched didn\u0027t match what we expected (lines 102-103 below): in that case, the file isn\u0027t updated.",
+      "parentUuid": "da943b8b_379934a9",
+      "revId": "0fe4d696ce34a86b71ce70bb1845ab7c27ef5586",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "79a067e7_7fc8aa4c",
         "filename": "scripts/fetch_lobs.py",
         "patchSetId": 1
@@ -31,6 +49,24 @@
       "writtenOn": "2022-02-02T18:18:04Z",
       "side": 1,
       "message": "Is this line necessary? pass is like a no-op right?",
+      "revId": "0fe4d696ce34a86b71ce70bb1845ab7c27ef5586",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "434b9edb_72d45696",
+        "filename": "scripts/fetch_lobs.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2022-02-02T21:49:19Z",
+      "side": 1,
+      "message": "You\u0027re right. Will delete.",
+      "parentUuid": "79a067e7_7fc8aa4c",
       "revId": "0fe4d696ce34a86b71ce70bb1845ab7c27ef5586",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
