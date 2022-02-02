@@ -24,6 +24,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b06c209a_e1487fcb",
+        "filename": "site/developers/how-tos/get-the-code/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1107759
+      },
+      "writtenOn": "2022-02-02T05:40:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5f870899_2d36e430",
+      "range": {
+        "startLine": 13,
+        "startChar": 26,
+        "endLine": 13,
+        "endChar": 34
+      },
+      "revId": "b4493706c17a55eb815027feaaaa58c6e423bcb0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "960659d5_20e07cda",
@@ -37,6 +61,30 @@
       "writtenOn": "2022-02-02T04:54:52Z",
       "side": 1,
       "message": "Similarly, \"the Chromium\" here and below in \"Checkout Chromium Code\"",
+      "range": {
+        "startLine": 28,
+        "startChar": 28,
+        "endLine": 28,
+        "endChar": 36
+      },
+      "revId": "b4493706c17a55eb815027feaaaa58c6e423bcb0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5fc7912b_b78c8854",
+        "filename": "site/developers/how-tos/getting-around-the-chrome-source-code/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1107759
+      },
+      "writtenOn": "2022-02-02T05:40:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "960659d5_20e07cda",
       "range": {
         "startLine": 28,
         "startChar": 28,
