@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "129ad32c_b83083ce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1394748
+      },
+      "writtenOn": "2022-02-02T00:02:48Z",
+      "side": 1,
+      "message": "There\u0027s something generally odd about the commas in this page; could you replace \"、\" with \",\"? Unless there\u0027s some specific reason for them.",
+      "revId": "7777e60fdd5579019232f2d4b269def3821a7ecf",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d50acacb_68dec3b8",
