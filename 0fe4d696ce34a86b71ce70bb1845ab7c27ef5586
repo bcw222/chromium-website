@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "da943b8b_379934a9",
+        "filename": "scripts/fetch_lobs.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2022-02-02T18:18:04Z",
+      "side": 1,
+      "message": "Would !did_update be a bug since we checked the sha\u0027s earlier? Or is this for the forced path",
+      "revId": "0fe4d696ce34a86b71ce70bb1845ab7c27ef5586",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "79a067e7_7fc8aa4c",
+        "filename": "scripts/fetch_lobs.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2022-02-02T18:18:04Z",
+      "side": 1,
+      "message": "Is this line necessary? pass is like a no-op right?",
+      "revId": "0fe4d696ce34a86b71ce70bb1845ab7c27ef5586",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
