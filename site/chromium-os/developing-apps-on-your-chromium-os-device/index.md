@@ -16,7 +16,7 @@ Apps, in JavaScript or Dart. CDE also supports Git and Polymer development.
 
 Secure Shell - Terminal emulator and SSH client
 
-<https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo>
+<https://chrome.google.com/webstore/detail/iodihamcpbpeioajjeobimgagajmlibd>
 
 Chrome Remote Desktop - Access other computers or allow another user to access
 your computer securely over the Internet
