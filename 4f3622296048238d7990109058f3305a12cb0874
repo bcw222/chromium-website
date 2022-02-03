@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "193c61c4_03a7ffb4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1449997
+      },
+      "writtenOn": "2022-02-03T17:21:08Z",
+      "side": 1,
+      "message": "Ross looks like you are one of the owners for chromium-os directory. Assigning to you just for rubber stamping.",
+      "revId": "4f3622296048238d7990109058f3305a12cb0874",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
