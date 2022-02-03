@@ -24,6 +24,26 @@ Note: these instructions will only work with a Chromium instance M99 or above.
 
 1. Restart Chromium by clicking the "Relaunch" button in the bottom-right corner, or by navigating to chrome://restart.
 
+## Example Usage
+
+Third parties which want to opt into receiving partitioned cross-site cookies should include the `Partitioned` attribute in their `Set-Cookie` header:
+
+`Set-Cookie: __Host-name=value; Secure; Path=/; SameSite=None; `**`Partitioned`**
+
+You can also set a partitioned cookie in JavaScript:
+
+```javascript
+cookieStore.set({
+  name: '__Host-name',
+  value: 'value',
+  secure: true,
+  path: '/',
+  sameSite: 'none',
+  // Set a partitioned cookie using the attribute below.
+  partitioned: true,
+});
+```
+
 ## Demo
 
 One you have followed the instructions in the [End-to-End Testing](#end-to-end-testing) section, you can use the following instructions to see a demonstration of the Partitioned attribute.
