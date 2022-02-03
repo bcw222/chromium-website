@@ -43,13 +43,12 @@ RECIPE_NAME = 'chromium_website'
 # See the note above for more.
 #
 
-lucicfg.check_version("1.23.3", "Please update depot_tools")
+lucicfg.check_version("1.30.9", "Please update depot_tools")
 
 _LINUX_OS = "Ubuntu-18.04"
 
-# Enable LUCI Realms support and launch all builds in realms-aware mode.
-lucicfg.enable_experiment("crbug.com/1085650")
-luci.builder.defaults.experiments.set({"luci.use_realms": 100})
+# Use LUCI Scheduler BBv2 names and add Scheduler realms configs.
+lucicfg.enable_experiment("crbug.com/1182002")
 
 lucicfg.config(
     config_dir = "generated",
