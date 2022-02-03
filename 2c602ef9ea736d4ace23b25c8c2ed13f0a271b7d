@@ -70,6 +70,24 @@
       "parentUuid": "4026d8b2_08a3027a",
       "revId": "2c602ef9ea736d4ace23b25c8c2ed13f0a271b7d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a57e5e53_906eab9a",
+        "filename": "site/updates/first-party-sets/OWNERS",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2022-02-03T22:54:56Z",
+      "side": 1,
+      "message": "Ah, chrome-metrics-team@google.com is actually a special account set up using an internal google system that\u0027ll pick an individual and them the review (basically a rotation for reviews). \n\nGerrit does not, however, know this and thinks that that\u0027s an individual.\n\nIt would be a good question to see if that actually works for owners approval somehow.\n\nGeneric mailing lists do not work, in the sense of how file:// works (that Gerrit can read the list from file and treat all the individuals as owners).",
+      "parentUuid": "2d3fe3fa_54c64026",
+      "revId": "2c602ef9ea736d4ace23b25c8c2ed13f0a271b7d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
