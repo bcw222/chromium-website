@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d17d8cdc_db7e2a6b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2022-02-03T16:52:04Z",
+      "side": 1,
+      "message": "This is definitely better. Looks like we\u0027re still missing at least one image and the two-column layout, but we can address that in a follow-up CL.\n\n(see https://sites.google.com/a/chromium.org/dev/user-experience).",
+      "revId": "f0c594bbc892ae8dd84f68f08dcd85df859ec380",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
