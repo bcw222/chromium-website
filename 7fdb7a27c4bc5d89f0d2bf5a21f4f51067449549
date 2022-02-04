@@ -58,6 +58,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9727da6_789fed28",
+        "filename": "site/developers/how-tos/debugging-on-windows/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2022-02-04T00:47:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4a965929_2c6f9fbe",
+      "range": {
+        "startLine": 275,
+        "startChar": 59,
+        "endLine": 276,
+        "endChar": 7
+      },
+      "revId": "7fdb7a27c4bc5d89f0d2bf5a21f4f51067449549",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d612d0a5_4ec2c759",
@@ -71,6 +95,30 @@
       "writtenOn": "2022-02-04T00:24:01Z",
       "side": 1,
       "message": "I think this should be: \u003c.*\u003e\n\nSource: https://www.chromium.org/developers/how-tos/debugging-on-windows/#dont-step-into-trivial-functions",
+      "range": {
+        "startLine": 329,
+        "startChar": 26,
+        "endLine": 329,
+        "endChar": 36
+      },
+      "revId": "7fdb7a27c4bc5d89f0d2bf5a21f4f51067449549",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3eac7407_0c802bc2",
+        "filename": "site/developers/how-tos/debugging-on-windows/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 329,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2022-02-04T00:47:26Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "d612d0a5_4ec2c759",
       "range": {
         "startLine": 329,
         "startChar": 26,
