@@ -16,6 +16,97 @@
       "message": "The code blocks got a bit mangled in the import I think. Fixing it up.",
       "revId": "7674454c7fcc8659ee797a737052b873ad3e3904",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b3dc9c9_f815990f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000045
+      },
+      "writtenOn": "2022-02-04T17:28:55Z",
+      "side": 1,
+      "message": "LGTM with nits. Thanks for fixing this!",
+      "revId": "7674454c7fcc8659ee797a737052b873ad3e3904",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e8d62b5f_c2a024f4",
+        "filename": "site/developers/how-tos/get-the-code/working-with-release-branches/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000045
+      },
+      "writtenOn": "2022-02-04T17:28:55Z",
+      "side": 1,
+      "message": "nit: wrap to 80 columns, here and throughout",
+      "revId": "7674454c7fcc8659ee797a737052b873ad3e3904",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9abd9cee_d506143d",
+        "filename": "site/developers/how-tos/get-the-code/working-with-release-branches/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000045
+      },
+      "writtenOn": "2022-02-04T17:28:55Z",
+      "side": 1,
+      "message": "needs a space",
+      "range": {
+        "startLine": 29,
+        "startChar": 12,
+        "endLine": 29,
+        "endChar": 13
+      },
+      "revId": "7674454c7fcc8659ee797a737052b873ad3e3904",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "abcbb709_877e167f",
+        "filename": "site/developers/how-tos/get-the-code/working-with-release-branches/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1000045
+      },
+      "writtenOn": "2022-02-04T17:28:55Z",
+      "side": 1,
+      "message": "This is out of date. We now have a branch CQ. This should probably say something like \"Use the CQ normally to land the patch.\"",
+      "revId": "7674454c7fcc8659ee797a737052b873ad3e3904",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1b3a1663_d0dcfe90",
+        "filename": "site/developers/how-tos/get-the-code/working-with-release-branches/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1000045
+      },
+      "writtenOn": "2022-02-04T17:28:55Z",
+      "side": 1,
+      "message": "nit: master -\u003e origin/main",
+      "revId": "7674454c7fcc8659ee797a737052b873ad3e3904",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
