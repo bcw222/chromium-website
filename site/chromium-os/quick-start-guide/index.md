@@ -19,7 +19,7 @@ Guide](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_guide.
 You should have
 
 *   [Ubuntu](http://www.ubuntu.com/) Linux (version == 16.04 - Xenial)
-    *   This is the only officially support distro, but building
+    *   This is the only officially supported distro, but building
                 Chromium OS should work fine on any x86_64 Linux distro running
                 a 2.6.16+ kernel
 
