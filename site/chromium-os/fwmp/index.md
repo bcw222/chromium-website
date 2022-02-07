@@ -27,7 +27,6 @@ The flags are as follows:
 <tr>
 <td> 0x01</td>
 <td> FWMP_DEV_DISABLE_BOOT</td>
-<td>Disable developer mode. If this flag is set, booting the device in developer mode will take you straight to the TONORM screen, which asks you to confirm turning developer mode off.</td>
 </tr>
 <tr>
 <td> 0x02</td>
@@ -105,3 +104,4 @@ If you've enabled developer mode, and you're getting this warning at boot time:
 
 that's because FWMP_DEV_DISABLE_BOOT is set. See the previous section on
 removing the FWMP.
+5
