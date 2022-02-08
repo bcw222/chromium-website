@@ -52,6 +52,24 @@
       "parentUuid": "48cdee5c_7ac2a977",
       "revId": "2b8a9f27932505be3b5a5c2f0c58f1e49203956e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ffeb161f_fe94175a",
+        "filename": "site/Home/chromium-security/OWNERS",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1159459
+      },
+      "writtenOn": "2022-02-08T21:42:02Z",
+      "side": 1,
+      "message": "Ack, thanks. I\u0027ll submit this and then ask if anybody wants to swap out with chromium.org.",
+      "parentUuid": "30a58459_40e0b1f7",
+      "revId": "2b8a9f27932505be3b5a5c2f0c58f1e49203956e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
