@@ -15,6 +15,47 @@ It's an open list, so
 if you're interested in updates, discussion, or feisty rants related to Chromium
 security.
 
+## Q3 2021
+
+Greetings,
+
+Here's what the Chrome Security team has been up to in Q3 of this year,
+
+**Chrome is hiring, including for security positions! See [g.co/chrome/hiring](https://g.co/chrome/hiring)**. In particular we're looking for a **[lead security product manager](https://careers.google.com/jobs/results/118648881425588934-lead-product-manager-chrome-security/)** to work with the teams doing all the great things in this update, and more across the Chrome Trust and Safety organisation.
+
+Through a series of in-product integrations and promotions on the new tab page on Desktop and Android, we saw a growth of almost 70% in the number of users who chose to opt-in to [Enhanced Safe Browsing](https://security.googleblog.com/2021/06/new-protections-for-enhanced-safe.html) in Chrome.
+
+We deployed two new machine learning models on Android to detect and block phishing pages: one operates on the contents of the DOM, the other is a TfLite model that operates on the overall appearance of the page. Both models led to a 30+% drop in password reuse on phishing pages and also helped us identify new, previously-unknown phishing pages. Following up from that, in Q4, we’ll try to launch the TfLite model on Desktop platforms also.
+
+We landed protections that disabled installations of Chrome extensions that had been found to be violating Chrome Web Store policies previously but were still enabled on users’ machines.
+
+We ran an experiment to understand whether users respond to a cookie-theft specific warning at the time of download any differently than our regular malware warning, and initial results suggest no change in the warning bypass rate.
+
+To close a loophole currently being abused by a large cookie-theft campaign, we landed changes in [Chrome 96](https://chromiumdash.appspot.com/schedule) to stop circumvention of Chrome’s tracking of referrers.
+
+This quarter we also launched an [experiment](https://blog.chromium.org/2021/07/increasing-https-adoption.html) to remove the padlock icon, a long-misunderstood component of browser security UI. This change will roll out to a small percentage of users gradually in Chrome 94+. We also launched HTTPS-First Mode, a setting that will cause Chrome to load all pages over HTTPS by default.
+
+Chrome is now distributing [Certificate Transparency](https://certificate.transparency.dev/) log lists outside the binary update cycle, allowing faster and more reliable updates. This change will allow us to begin exploring Certificate Transparency on Chrome for Android as well as removing the requirement for all certificates to be logged to Google logs.
+
+Our long-term goal has been to use Chrome’s own certificate verifier and root store on all Chrome platforms. This quarter we began rolling out our certificate verifier and transitional root store on Windows, with a metrics-only trial currently running in Chrome 95. We are also continuing to experiment and investigate compatibility issues on Mac.
+
+To help people understand the domain names to which they’ve connected, we began experimenting with a new heuristic to identify typosquatting domain names such as “googel[.]com”. We also built a new [workflow](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/security/lookalikes/lookalike-domains.md#Automated-warning-removal) for developers of co-owned domains to opt out of warnings for lookalike domain names.
+
+The Platform Security team has started experimenting with Rust in the Chromium tree as part of the memory safety effort. Also in the name of memory safety, we are experimenting with using [WasmBoxC](https://docs.google.com/document/d/1sthYFVXlSQfjLVGNOj0Y1y0H5GedDWS7cPJYodwQd9E/edit?disco=AAAARTZJZlc&usp_dm=true) to create in-process sandboxes. The team is also making progress on sandboxing the network service on Windows, Android, and Linux. And we deprecated and removed an [unsafe IPC pattern](https://bugs.chromium.org/p/chromium/issues/detail?id=1213679). Finally, we are keeping busy by helping review all the new features being launched in Chrome.
+
+The Security Architecture team was excited to launch Site Isolation for additional sites on Android (including those using OAuth or COOP headers) as well as Strict Extension Isolation on desktop; see the [Google Online Security blog](https://security.googleblog.com/2021/07/protecting-more-with-site-isolation.html) and the [Keyword blog](https://blog.google/products/chrome/privacy-and-performance-working-together-chrome/). We are now experimenting with full Site Isolation on Android devices with sufficient RAM. Our work continues on adding more enforcements for extensions, protecting data with [ORB](https://github.com/annevk/orb), isolating sandboxed iframes, and improving [Origin Agent Cluster](https://web.dev/origin-agent-cluster/). On the [memory safety front](https://security.googleblog.com/2021/09/an-update-on-memory-safety-in-chrome.html), we have started local experiments with Rust in the tree, while also investigating approaches for improving C++ memory safety.
+
+To make it easier to deploy [cross-origin isolation](https://web.dev/coop-coep/) deployment easier, we launched [COEP credentialless](https://github.com/WICG/credentiallessness/blob/main/explainer.md) in Chrome 96. We’ve also made good progress on the [COOP same-origin-allow-popups-plus-coep](https://github.com/camillelamy/explainers/blob/main/coi-with-popups.md) spec and started implementation.
+
+We launched the first part of [Private Network Access](https://wicg.github.io/private-network-access/) checks in Chrome 94, which prevents non-secure websites on the public internet from pivoting through users' privileged network positions to make requests to private network resources. We’re planning to extend these protections in the Chrome 98 timeframe to include [a preflight requirement](https://www.chromestatus.com/feature/5737414355058688) ensuring that the private network resource opts-into communication with the public internet. We'll start with devtools warnings and outreach to give websites time to update their devices to respond to the preflights, and hopefully can roll things out more broadly in 2022.
+
+Beyond isolation, we're working with our friends at Mozilla to finalize our implementation of a new [Sanitizer API](https://wicg.github.io/sanitizer-api/), that we hope can be an important tool for developers' mitigation of injection attacks. You can play with both Chrome and Firefox's implementations by flipping the relevant flag, and hopping over to the [https://sanitizer-api.dev/](https://sanitizer-api.dev/) playground.
+
+Cheers,
+
+Andrew
+
+
 ## Q1 and Q2 2021
 
 Greetings,
