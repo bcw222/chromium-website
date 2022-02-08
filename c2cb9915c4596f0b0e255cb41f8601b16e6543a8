@@ -33,6 +33,23 @@
       "message": "lgtm!",
       "revId": "c2cb9915c4596f0b0e255cb41f8601b16e6543a8",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "298f854b_46506859",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 17
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2022-02-08T21:29:37Z",
+      "side": 1,
+      "message": "Argh. I had tweaked this page before [1] as the export did mangle things, but then a script stomped on my changes and re-added the mangled version [2].\n\nI\u0027m not wild about this CL, because there\u0027s too much raw HTML with custom styling. \n\nCan you take a look at [1] and see if re-landing that (i.e. reverting the changes in [2] for that one file) would be acceptable instead?\n\n[1] https://chromium-review.googlesource.com/c/website/+/3278104\n[2] https://chromium-review.googlesource.com/c/website/+/3286726\n\n",
+      "revId": "c2cb9915c4596f0b0e255cb41f8601b16e6543a8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
