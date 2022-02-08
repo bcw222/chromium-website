@@ -85,6 +85,23 @@
       "parentUuid": "192e89a0_d76d08ae",
       "revId": "14f304f0a1391082cfd253076c3a7e57f8d363c5",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3d374b81_55a37bda",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2022-02-08T23:27:40Z",
+      "side": 1,
+      "message": "LGTM(s)\n\n(sometimes 3 LGTMs will be required)",
+      "revId": "14f304f0a1391082cfd253076c3a7e57f8d363c5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
