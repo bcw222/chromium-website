@@ -34,6 +34,24 @@
       "parentUuid": "23033fc0_59d48181",
       "revId": "2b8a9f27932505be3b5a5c2f0c58f1e49203956e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "30a58459_40e0b1f7",
+        "filename": "site/Home/chromium-security/OWNERS",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2022-02-08T21:31:24Z",
+      "side": 1,
+      "message": "There is no general policy for preferring @google.com over @chromium.org (or vice versa) - people are free to use whatever address they want.\n\nWe did discuss this at one point a couple years ago and I had proposed that we should shift to google.com addresses where possible, but that was never adopted and the reasons for that proposal at the time are no longer so relevant.",
+      "parentUuid": "48cdee5c_7ac2a977",
+      "revId": "2b8a9f27932505be3b5a5c2f0c58f1e49203956e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
