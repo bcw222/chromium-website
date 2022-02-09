@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a709b0d2_fc92fa80",
+        "filename": "site/user-experience/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2022-02-09T18:18:02Z",
+      "side": 1,
+      "message": "these do not look right syntax-wise",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 50,
+        "endChar": 45
+      },
+      "revId": "ae8941c8d4c7be0e353007f5fefde014d672e548",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "393c467a_3f0c48d9",
+        "filename": "site/user-experience/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2022-02-09T18:18:02Z",
+      "side": 1,
+      "message": "this is not our current thinking - not sure if you want to fix it in this CL",
+      "range": {
+        "startLine": 67,
+        "startChar": 0,
+        "endLine": 67,
+        "endChar": 22
+      },
+      "revId": "ae8941c8d4c7be0e353007f5fefde014d672e548",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
