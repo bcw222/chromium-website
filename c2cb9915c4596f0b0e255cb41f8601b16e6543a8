@@ -50,6 +50,24 @@
       "message": "Argh. I had tweaked this page before [1] as the export did mangle things, but then a script stomped on my changes and re-added the mangled version [2].\n\nI\u0027m not wild about this CL, because there\u0027s too much raw HTML with custom styling. \n\nCan you take a look at [1] and see if re-landing that (i.e. reverting the changes in [2] for that one file) would be acceptable instead?\n\n[1] https://chromium-review.googlesource.com/c/website/+/3278104\n[2] https://chromium-review.googlesource.com/c/website/+/3286726\n\n",
       "revId": "c2cb9915c4596f0b0e255cb41f8601b16e6543a8",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b2ae323_0620be57",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 17
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1521939
+      },
+      "writtenOn": "2022-02-09T17:27:22Z",
+      "side": 1,
+      "message": "I looked into [1] and agree that it addresses this in a more preferable way. I\u0027ve created a reland CL for that (Change-Id: Ia470174289f924eb8a51deb12b18edb9647c13fb) and will abandon this CL.",
+      "parentUuid": "298f854b_46506859",
+      "revId": "c2cb9915c4596f0b0e255cb41f8601b16e6543a8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
