@@ -1,7 +1,7 @@
 ---
 breadcrumbs: []
 page_name: chromium-os
-title: Chromium OS
+title: Chromium OS Documenation
 ---
 
 <div class="two-column-container">
