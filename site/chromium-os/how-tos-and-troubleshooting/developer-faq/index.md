@@ -36,9 +36,9 @@ and greatest at all times.
 The verified boot procedure relies on custom firmware and hardware modifications
 and hence will work only for Google Chrome OS.
 
-### ---
+---
 
-### ## What are the minimum hardware requirements?
+## What are the minimum hardware requirements?
 
 The open-source nature of Chromium OS allows it to be ported to an expanding
 range of hardware; however, some base requirements are likely to remain fixed.
