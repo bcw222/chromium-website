@@ -72,9 +72,8 @@ channel.
 *   #slack-help - the one mandatory channel, a place to ask questions
             about using slack
 *   #sheriffing - what is going on? Is anyone on it?
-*   #mojo you're also confused? Join and ask/learn
-*   #jumbo - about the awesome unity build system
-*   #cxx a place to ~~rant about~~ discuss C++
+*   #mojo - you're also confused? Join and ask/learn
+*   #cxx - a place to ~~rant about~~ discuss C++
 
 Any Slack member can create channels when they need one. There are many.
 
