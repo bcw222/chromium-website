@@ -11,7 +11,7 @@ title: Chrome Release Channels
 Chrome supports a number of different release channels. We use these channels to
 slowly roll out updates to users, starting with our close to daily Canary
 channel builds, all the way up to our Stable channel releases that happen every
-6 weeks roughly.
+4 weeks roughly.
 
 ### Channels
 
@@ -21,13 +21,13 @@ All channels may be run in parallel -- they install into distinct directories
 and use dedicated User Data directories.
 
 *   [Stable channel for Windows
-            (64-bit)](https://www.google.com/chrome/browser/?platform=win64)
+            (64-bit)](https://www.google.com/chrome/?platform=win64)
 *   [Beta channel for Windows
-            (64-bit)](https://www.google.com/chrome/browser/beta.html?platform=win64)
+            (64-bit)](https://www.google.com/chrome/beta/?platform=win64)
 *   [Dev channel for Windows
-            (64-bit)](https://www.google.com/chrome/browser/index.html?extra=devchannel&platform=win64)
+            (64-bit)](https://www.google.com/chrome/dev/?platform=win64)
 *   [Canary build for Windows
-            (64-bit)](https://www.google.com/chrome/browser/canary.html?platform=win64)
+            (64-bit)](https://www.google.com/chrome/canary/?platform=win64)
 
 #### Windows 32-bit
 
@@ -35,13 +35,13 @@ All channels may be run in parallel -- they install into distinct directories
 and use dedicated User Data directories.
 
 *   [Stable channel for Windows
-            (32-bit)](https://www.google.com/chrome/browser/?platform=win)
+            (32-bit)](https://www.google.com/chrome/?platform=win)
 *   [Beta channel for Windows
-            (32-bit)](https://www.google.com/chrome/browser/beta.html?platform=win)
+            (32-bit)](https://www.google.com/chrome/beta/?platform=win)
 *   [Dev channel for Windows
-            (32-bit)](https://www.google.com/chrome/browser/index.html?extra=devchannel&platform=win)
+            (32-bit)](https://www.google.com/chrome/dev/?&platform=win)
 *   [Canary build for Windows
-            (32-bit)](https://www.google.com/chrome/browser/canary.html?platform=win)
+            (32-bit)](https://www.google.com/chrome/canary/?platform=win)
 
 #### Mac
 
@@ -49,13 +49,13 @@ All channels may be run in parallel -- they install into distinct directories
 and use dedicated User Data directories.
 
 *   [Stable channel for
-            Mac](https://www.google.com/chrome/browser/?platform=mac)
+            Mac](https://www.google.com/chrome/?platform=mac)
 *   [Beta channel for
-            Mac](https://www.google.com/chrome/browser/beta.html?platform=mac&extra=betachannel)
+            Mac](https://www.google.com/chrome/beta/?platform=mac)
 *   [Dev channel for
-            Mac](https://www.google.com/chrome/browser/?platform=mac&extra=devchannel)
+            Mac](https://www.google.com/chrome/dev/?platform=mac)
 *   [Canary build for
-            Mac](https://www.google.com/chrome/browser/canary.html?platform=mac)
+            Mac](https://www.google.com/chrome/canary/?platform=mac)
 
 #### Android
 
@@ -77,11 +77,11 @@ and use dedicated User Data directories.
 #### Linux
 
 *   [Stable
-            channel](https://www.google.com/chrome/browser/?platform=linux)
+            channel](https://www.google.com/chrome/?platform=linux)
 *   [Beta
-            channel](https://www.google.com/chrome/browser/beta.html?platform=linux)
+            channel](https://www.google.com/chrome/beta/?platform=linux)
 *   [Dev
-            channel](https://www.google.com/chrome/browser/?platform=linux&extra=devchannel)
+            channel](https://www.google.com/chrome/dev/?platform=linux)
 
 ### How do I choose which channel to use?
 
@@ -112,10 +112,10 @@ tested version of Chrome around.
             working (and that's a very loose definition of working) build from
             [download-chromium.appspot.com](https://download-chromium.appspot.com/).
             You can also look for a more specific recent build by going to [the
-            Chromium continuous build waterfall](http://build.chromium.org),
+            Chromium continuous build waterfall](https://build.chromium.org),
             looking at the number near the top under "LKGR", and then going to
             [this Google Storage
-            bucket](http://commondatastorage.googleapis.com/chromium-browser-continuous/index.html)
+            bucket](https://commondatastorage.googleapis.com/chromium-browser-continuous/index.html)
             and downloading the corresponding build.
 
 **Note**: Early access releases (Canary builds and Dev and Beta channels) will
@@ -142,7 +142,7 @@ system:
 > *   Canary builds: \\Documents and Settings\\%USERNAME%\\Local
               Settings\\Application Data\\Google\\Chrome SxS\\User Data\\Default
 
-> Windows Vista, 7, 8 or 10:
+> Windows Vista, 7, 8, 10 or 11:
 
 > *   Stable channel:
               \\Users\\%USERNAME%\\AppData\\Local\\Google\\Chrome\\User
