@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b8f5f8ae_9a10e136",
+        "filename": "site/updates/ua-reduction/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2022-02-18T18:47:00Z",
+      "side": 1,
+      "message": "Can we just say \"Chrome on Android\" instead of tablet vs mobile?\n\nnit: trailing whitespace",
+      "revId": "59e8cb6bf803fc144070c71367a4bd2deb4e1289",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8acfdd84_4e6d3db1",
+        "filename": "site/updates/ua-reduction/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2022-02-18T18:47:00Z",
+      "side": 1,
+      "message": "It might be added one day, so can we say: \"We don\u0027t have current plans for UA Reduction on iOS and Android WebView at this time.\" (or something like that)",
+      "revId": "59e8cb6bf803fc144070c71367a4bd2deb4e1289",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f784e68_ce0fc5ac",
+        "filename": "site/updates/ua-reduction/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 362,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2022-02-18T18:47:00Z",
+      "side": 1,
+      "message": "(Weird, I wonder why it was `\u003csamp\u003e` before... `\u003ccode\u003e` makes more sense.\n\nhttps://html.spec.whatwg.org/#the-samp-element vs https://html.spec.whatwg.org/#the-code-element)",
+      "revId": "59e8cb6bf803fc144070c71367a4bd2deb4e1289",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
