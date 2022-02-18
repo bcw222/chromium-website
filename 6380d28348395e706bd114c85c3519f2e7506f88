@@ -33,6 +33,24 @@
       "message": "(i still see stray whitespace here, if you want to clean that up before landing)",
       "revId": "6380d28348395e706bd114c85c3519f2e7506f88",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b1c252c_60dbb50e",
+        "filename": "site/updates/ua-reduction/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1509519
+      },
+      "writtenOn": "2022-02-18T19:34:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a95d393e_dec433bd",
+      "revId": "6380d28348395e706bd114c85c3519f2e7506f88",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
