@@ -373,8 +373,7 @@ same plan for <code>navigator.userAgent</code>.
 All of the information that was contained in the User-Agent string prior to
 reduction is available through the high entropy client hints, which are available
 by request through the [User-Agent Client Hints](https://github.com/WICG/ua-client-hints)
-request headers, as well as the [navigator.userAgentData.getHighEntropyValues]
-(https://developer.mozilla.org/en-US/docs/Web/API/NavigatorUAData/getHighEntropyValues)
+request headers, as well as the [navigator.userAgentData.getHighEntropyValues](https://developer.mozilla.org/en-US/docs/Web/API/NavigatorUAData/getHighEntropyValues)
 Javascript API.
 
 ## Resources
