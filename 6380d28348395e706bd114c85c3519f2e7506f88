@@ -16,6 +16,23 @@
       "message": "thanks!",
       "revId": "6380d28348395e706bd114c85c3519f2e7506f88",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a95d393e_dec433bd",
+        "filename": "site/updates/ua-reduction/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2022-02-18T19:15:22Z",
+      "side": 1,
+      "message": "(i still see stray whitespace here, if you want to clean that up before landing)",
+      "revId": "6380d28348395e706bd114c85c3519f2e7506f88",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
