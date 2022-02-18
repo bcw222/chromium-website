@@ -10,6 +10,9 @@ title: User-Agent Reduction
 
 ## Updates
 
+February 18, 2022: Added information on the platforms for which User-Agent
+reduction is applicable, as well as links to resources.
+
 October 12, 2021: Information on using the Origin Trial with third-party embeds
 was add to the [blog
 post](https://developer.chrome.com/blog/user-agent-reduction-origin-trial/).
@@ -57,6 +60,12 @@ reduced UA string and related JS APIs.
 ## Reduced User Agent String Reference
 
 This reduced format will be available for testing via chrome://flags/#reduce-user-agent in Chrome 93.
+
+### Applicable platforms
+
+User-Agent reduction will be applied to the following platforms: Windows, macOS,
+Linux, Chrome OS, Android Tablet, and Android Mobile.  It will <strong>not</strong> 
+be applied to iOS and Android WebView.
 
 ### Unified Format
 
@@ -350,13 +359,27 @@ change the <samp>&lt;androidVersion&gt;</samp> token to a static “10” string
 
 ## Reduced navigator.appVersion values
 
-navigator.appVersion is effectively an alias of navigator.userAgent (it’s
+<samp>navigator.appVersion</samp> is effectively an alias of <samp>navigator.userAgent</samp> (it’s
 [everything after
 “Mozilla/”](https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/renderer/core/frame/navigator_id.cc;l=56?q=appVersion&ss=chromium)).
-=======
-<samp>navigator.appVersion</samp> is effectively an alias of
-<samp>navigator.userAgent</samp> (it’s [everything after
-“Mozilla/”](https://source.chromium.org/chromium/chromium/src/+/HEAD:third_party/blink/renderer/core/frame/navigator_id.cc;l=56)).
+
+## Reduced navigator.userAgent values
 
 To avoid confusion and reduce implementation complexity, we aim to follow the
 same plan for <samp>navigator.userAgent</samp>.
+
+## Alternative: high entropy client hints
+
+All of the information that was contained in the User-Agent string prior to 
+reduction is available through the high entropy client hints, which are available 
+by request through the [User-Agent Client Hints](https://github.com/WICG/ua-client-hints)
+request headers, as well as the [navigator.userAgentData.getHighEntropyValues()]
+(https://developer.mozilla.org/en-US/docs/Web/API/NavigatorUAData/getHighEntropyValues) 
+Javascript API.
+
+## Resources
+
+The following sites show snippets and allow developers to preview what the 
+reduced User-Agent string will look like on different platforms:
+- [User-Agent Reduction Snippets](https://developer.chrome.com/docs/privacy-sandbox/user-agent/snippets/)
+- [User-Agent Reduction Interactive Demo](https://reduced-ua.glitch.me/)
