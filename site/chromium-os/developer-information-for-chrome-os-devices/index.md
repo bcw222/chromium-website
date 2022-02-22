@@ -146,7 +146,7 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Cometlake-U</td>
     <td>Convertible</td>
     <td>R81</td>
-    <td></td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366)">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -163,7 +163,7 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Pollock</td>
     <td>Chromebook</td>
     <td>M91</td>
-    <td></td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366)">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -180,7 +180,7 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Amberlake-Y</td>
     <td>Chromebook</td>
     <td>M75</td>
-    <td>June 2026</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366)">AUE Schedule</a></td>
     <td>Yes</td>
     <td>Yes</td>
   </tr>
@@ -197,7 +197,7 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>MT8183</td>
     <td>Convertible</td>
     <td>R87</td>
-    <td></td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366)">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -214,7 +214,7 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>TigerLake-UP3</td>
     <td>Chromebook</td>
     <td>R90</td>
-    <td>June 2029</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366)">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -231,7 +231,7 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Gemini Lake</td>
     <td>Convertible</td>
     <td></td>
-    <td>06/2026</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366)">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -248,7 +248,7 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>MT8183</td>
     <td>Chromeblet</td>
     <td>R88</td>
-    <td></td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366)">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -265,7 +265,7 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Cometlake-U</td>
     <td>Chromebook</td>
     <td>R79</td>
-    <td></td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366)">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -282,7 +282,7 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Pollock</td>
     <td>Chromebook</td>
     <td>R91</td>
-    <td></td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366)">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -299,7 +299,7 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>MT8192</td>
     <td>Chromebook</td>
     <td>M91</td>
-    <td>June 2029</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366)">AUE Schedule</a></td>
     <td>Yes</td>
   </tr>
   <tr>
