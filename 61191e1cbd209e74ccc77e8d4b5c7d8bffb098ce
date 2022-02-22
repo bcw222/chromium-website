@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6da52765_e89bfb3f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000107
+      },
+      "writtenOn": "2022-02-22T22:26:04Z",
+      "side": 1,
+      "message": "All I can give is a +1. Seems fine to me. I didn\u0027t double-check your work to make sure you got all the future ones / left all the past ones. Did you need someone to do that?",
+      "revId": "61191e1cbd209e74ccc77e8d4b5c7d8bffb098ce",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
