@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "780656ad_c507c3cf",
+        "filename": "site/developers/how-tos/inspecting-ash/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2022-02-23T16:24:15Z",
+      "side": 1,
+      "message": "if it\u0027s obsolete, why not delete it? this is all stored in git now so we can get the old version back if we want it",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 151
+      },
+      "revId": "d6f56ae6c3af9d14a6b1aac94bf1736927b4c90f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
