@@ -8,6 +8,8 @@ page_name: inspecting-ash
 title: Inspecting Chrome Native UI with Chrome UI DevTools
 ---
 
+*This page is obsolete. Please see [UI DevTools Overview](https://chromium.googlesource.com/chromium/src/+/main/docs/ui/ui_devtools/index.md) instead.*
+
 Aura/Views UI can now be 'inspected' just like a webpage inspect-able using
 Chrome DevTools. This is accomplished by re-using the existing frontend DevTools
 inspector and creating a backend in Chrome and Components which interact with
