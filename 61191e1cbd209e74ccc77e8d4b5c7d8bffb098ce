@@ -33,6 +33,23 @@
       "message": "a bunch of these devices are EOL already and should have real milestones filled in :p\n\nbut we prob need to rethink how we manage this data now that we don\u0027t have a WYSIWYG editor.  maybe move to a YAML and add some scripts to help populate it.",
       "revId": "61191e1cbd209e74ccc77e8d4b5c7d8bffb098ce",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "458ff8e5_93750922",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000868
+      },
+      "writtenOn": "2022-02-24T16:27:33Z",
+      "side": 1,
+      "message": "Agreed,it is tedious to try to edit the table directly so YAML would make sense, and that there are more milestones we can set, both of these would need more bandwidth than I have at the moment though, thanks for reviewing. ",
+      "revId": "61191e1cbd209e74ccc77e8d4b5c7d8bffb098ce",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
