@@ -2,7 +2,7 @@
 breadcrumbs: []
 page_name: chromium-projects
 title: Home
-use_title_as_h1: false
+use_title_as_h1: TRUE
 ---
 
 The Chromium projects include Chromium and Chromium OS, the open-source projects
