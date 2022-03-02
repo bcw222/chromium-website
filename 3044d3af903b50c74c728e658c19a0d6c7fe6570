@@ -20,6 +20,74 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4ed2b774_f8b01114",
+        "filename": "site/updates/chips/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1509519
+      },
+      "writtenOn": "2022-03-02T14:48:27Z",
+      "side": 1,
+      "message": "Have you considered also creating a blog post for developers.chrome.com?  We did that for the UA OTs, e.g.:\n\nhttps://developer.chrome.com/blog/user-agent-reduction-origin-trial/",
+      "revId": "3044d3af903b50c74c728e658c19a0d6c7fe6570",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "828f3d7f_f9de9686",
+        "filename": "site/updates/chips/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1509519
+      },
+      "writtenOn": "2022-03-02T14:48:27Z",
+      "side": 1,
+      "message": "maybe you can add a link to the CHIPS OT registration page here?\n\nalso: the OT team stated to me before that the preference is to lower case origin trial.",
+      "revId": "3044d3af903b50c74c728e658c19a0d6c7fe6570",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "61602cd5_6621b7e7",
+        "filename": "site/updates/chips/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1509519
+      },
+      "writtenOn": "2022-03-02T14:48:27Z",
+      "side": 1,
+      "message": "lower case origin trial, here and the occurrences below",
+      "revId": "3044d3af903b50c74c728e658c19a0d6c7fe6570",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "02b33144_c4e25786",
+        "filename": "site/updates/chips/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1509519
+      },
+      "writtenOn": "2022-03-02T14:48:27Z",
+      "side": 1,
+      "message": "s/that//",
+      "revId": "3044d3af903b50c74c728e658c19a0d6c7fe6570",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "89629aed_c0e8caa7",
         "filename": "site/updates/chips/index.md",
         "patchSetId": 3
@@ -37,6 +105,23 @@
         "endLine": 36,
         "endChar": 53
       },
+      "revId": "3044d3af903b50c74c728e658c19a0d6c7fe6570",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea46197e_f628ee2a",
+        "filename": "site/updates/chips/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1509519
+      },
+      "writtenOn": "2022-03-02T14:48:27Z",
+      "side": 1,
+      "message": "you may also want to mention that if the site wants to receive partitioned cookies even after the current session has ended, they can set Critical-CH: Sec-CH-Partitioned-Cookies in the response header.  The browser will resend the request (at the expense of an extra round trip) to the server with Sec-CH-Partitioned-Cookies: ?1 (and the partitioned cookies sent too).",
       "revId": "3044d3af903b50c74c728e658c19a0d6c7fe6570",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
