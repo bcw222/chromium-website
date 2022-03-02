@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ef200c4b_26a806b4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2022-03-02T03:57:03Z",
+      "side": 1,
+      "message": "LGTM but please wait for +abeyad to sign off too, since I\u0027m not a domain expert.",
+      "revId": "3044d3af903b50c74c728e658c19a0d6c7fe6570",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "89629aed_c0e8caa7",
+        "filename": "site/updates/chips/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2022-03-02T03:57:03Z",
+      "side": 1,
+      "message": "Optional nit: maybe a comma after \"trial\"",
+      "range": {
+        "startLine": 36,
+        "startChar": 48,
+        "endLine": 36,
+        "endChar": 53
+      },
+      "revId": "3044d3af903b50c74c728e658c19a0d6c7fe6570",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
