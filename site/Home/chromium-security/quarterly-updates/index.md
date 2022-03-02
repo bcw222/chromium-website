@@ -21,7 +21,7 @@ Greetings,
 
 As we enter the last month of the first quarter of 2022, here's a look back to what Chrome Security was doing in the last quarter of 2021.
 
-**Chrome is for security positions! See [g.co/chrome/hiring](https://g.co/chrome/hiring)** **for more details.**
+**Chrome is hiring for security positions! See [g.co/chrome/hiring](https://g.co/chrome/hiring)** **for more details.**
 
 For extension security, we are working on a telemetry framework that monitors suspicious extension activity and transmits associated signals to Safe Browsing, for users opt-ed into sharing these data. The signals are analyzed server-side (both manual and automated analysis) to detect and mitigate extension abuse patterns.
 
