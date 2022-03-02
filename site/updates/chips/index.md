@@ -14,6 +14,77 @@ In order to increase privacy on the web, browser vendors are either planning or 
 
 Although third-party cookies can enable third-party sites to track user behavior across different top-level sites, there are some cookie use cases on the web today where cross-domain subresources require some notion of session or persistent state that is scoped to a user's activity on a single top-level site.
 
+## Origin Trial
+
+If you are interested in participating in the CHIPS origin trial, then you need to include the `Origin-Trial` header in each HTTP response with a valid token.
+You must also send the `Accept-CH: Sec-CH-Partitioned-Cookies` header in each HTTP response as well.
+
+If you have successfully opted into the origin trial, subsequent requests from the Chrome client will include the `Sec-CH-Partitioned-Cookies: ?1` request header until the current session is ended.
+If you store persistent partitioned cookies then you will receive the `Sec-CH-Partitioned-Cookies: ?0` request header for the first request to the cookies' origin.
+If you do not respond with a valid token in the `Origin-Trial` header and `Accept-CH: Partitioned-Cookies`, then the partitioned cookies on the machine will be converted to unpartitioned cookies.
+
+<!-- TODO(crbug.com/1296161): Add a link to the registration page. -->
+
+### Example usage
+
+When a site wishes to participate in the origin trial, they should include the following headers in their response:
+
+```text
+Origin-Trial: *valid Origin Trial token*
+Accept-CH: Sec-CH-Partitioned-Cookies
+Set-Cookie: __Host-name=value; Secure; Path=/; SameSite=None; Partitioned;
+```
+
+Remember, in order to keep participating in the trial, you must include these headers in each HTTP response.
+
+If the opt in is successful, Chrome will include the following headers in future requests:
+
+```text
+Sec-CH-Partitioned-Cookies: ?1
+Cookie: __Host-name=value
+```
+
+If the site sets persistent partitioned cookies (e.g. a max age of 1 day):
+
+```text
+Origin-Trial: *valid Origin Trial token*
+Accept-CH: Sec-CH-Partitioned-Cookies
+Set-Cookie: __Host-name=value; Secure; Path=/; SameSite=None; Partitioned; Max-Age=86400;
+```
+
+if the user visits the site after the current session has ended, the first request to the site will include the following request headers:
+
+```text
+Sec-CH-Partitioned-Cookies: ?0
+Cookie: __Host-name=value
+```
+
+If the site responds with the `Accept-CH` and `Origin-Trial` headers, Chrome will continue to send partitioned cookies and the `Sec-CH-Partitioned-Cookies: ?1` request header.
+
+If the site does not opt back into the trial, the `__Host-name` cookie will be converted into an unpartitioned cookie.
+This will allow the site to roll back its usage of partitioned cookies in case it causes server breakage.
+
+You can also persist your participation in the origin trial between sessions using the `Critical-CH: Sec-CH-Partitioned-Cookies` response header:
+
+```text
+Origin-Trial: *valid Origin Trial token*
+Accept-CH: Sec-CH-Partitioned-Cookies
+Critical-CH: Sec-CH-Partitioned-Cookies
+```
+
+This will cause Chrome to restart the request and send the `Sec-CH-Partitioned-Cookies: ?1` request header.
+
+### JavaScript
+
+Frames that [opt into the Origin Trial](http://googlechrome.github.io/OriginTrials/developer-guide.html) will have access to reading and writing partitioned cookies via JavaScript APIs such as document.cookie and the CookieStore API.
+Frames that are not in the trial's scripts will neither be able to read nor write partitioned cookies.
+
+The CHIPS Origin Trial will not be supported in service workers.
+
+### Design doc
+
+You can view the more detailed design document of the CHIPS Origin Trial [here](https://docs.google.com/document/d/1EPHnfHpZHpV09vITXu8cEEIMt1DYiRN_pZfeBal8UQw).
+
 ## End-to-End Testing
 
 These instructions describe how a web developer can perform end-to-end testing of Partitioned cookies in Chromium.
