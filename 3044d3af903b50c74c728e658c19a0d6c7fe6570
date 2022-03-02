@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f8d1b518_cdec6432",
+        "filename": "site/updates/chips/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1395755
+      },
+      "writtenOn": "2022-03-02T20:04:37Z",
+      "side": 1,
+      "message": "We have created a blog post for CHIPS, https://developer.chrome.com/docs/privacy-sandbox/chips/, I will check with DevRel if there will be another for the OT specifically.",
+      "parentUuid": "4ed2b774_f8b01114",
+      "revId": "3044d3af903b50c74c728e658c19a0d6c7fe6570",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "828f3d7f_f9de9686",
@@ -48,6 +66,24 @@
       "writtenOn": "2022-03-02T14:48:27Z",
       "side": 1,
       "message": "maybe you can add a link to the CHIPS OT registration page here?\n\nalso: the OT team stated to me before that the preference is to lower case origin trial.",
+      "revId": "3044d3af903b50c74c728e658c19a0d6c7fe6570",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9230945e_e6b41ddf",
+        "filename": "site/updates/chips/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1395755
+      },
+      "writtenOn": "2022-03-02T20:04:37Z",
+      "side": 1,
+      "message": "I will when it exists :)",
+      "parentUuid": "828f3d7f_f9de9686",
       "revId": "3044d3af903b50c74c728e658c19a0d6c7fe6570",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -69,6 +105,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6af07ce_6fbc5701",
+        "filename": "site/updates/chips/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1395755
+      },
+      "writtenOn": "2022-03-02T20:04:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "61602cd5_6621b7e7",
+      "revId": "3044d3af903b50c74c728e658c19a0d6c7fe6570",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "02b33144_c4e25786",
@@ -82,6 +136,24 @@
       "writtenOn": "2022-03-02T14:48:27Z",
       "side": 1,
       "message": "s/that//",
+      "revId": "3044d3af903b50c74c728e658c19a0d6c7fe6570",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aac6e07d_de99c4ba",
+        "filename": "site/updates/chips/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1395755
+      },
+      "writtenOn": "2022-03-02T20:04:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "02b33144_c4e25786",
       "revId": "3044d3af903b50c74c728e658c19a0d6c7fe6570",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -109,6 +181,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "244ed0ee_4d581945",
+        "filename": "site/updates/chips/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1395755
+      },
+      "writtenOn": "2022-03-02T20:04:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "89629aed_c0e8caa7",
+      "range": {
+        "startLine": 36,
+        "startChar": 48,
+        "endLine": 36,
+        "endChar": 53
+      },
+      "revId": "3044d3af903b50c74c728e658c19a0d6c7fe6570",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ea46197e_f628ee2a",
@@ -122,6 +218,24 @@
       "writtenOn": "2022-03-02T14:48:27Z",
       "side": 1,
       "message": "you may also want to mention that if the site wants to receive partitioned cookies even after the current session has ended, they can set Critical-CH: Sec-CH-Partitioned-Cookies in the response header.  The browser will resend the request (at the expense of an extra round trip) to the server with Sec-CH-Partitioned-Cookies: ?1 (and the partitioned cookies sent too).",
+      "revId": "3044d3af903b50c74c728e658c19a0d6c7fe6570",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc427633_2d43c31a",
+        "filename": "site/updates/chips/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1395755
+      },
+      "writtenOn": "2022-03-02T20:04:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ea46197e_f628ee2a",
       "revId": "3044d3af903b50c74c728e658c19a0d6c7fe6570",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
