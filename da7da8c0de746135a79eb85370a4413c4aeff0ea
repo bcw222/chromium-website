@@ -16,6 +16,24 @@
       "message": "This line needs to change to include the family?",
       "revId": "da7da8c0de746135a79eb85370a4413c4aeff0ea",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db437270_3f7f4fc7",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/kernel-configuration/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 268,
+      "author": {
+        "id": 1530452
+      },
+      "writtenOn": "2022-03-03T19:30:13Z",
+      "side": 0,
+      "message": "Thanks for catching this. I have one more thorough pass and included family in all the places where config is mentioned",
+      "parentUuid": "50ca98ab_191a3a1b",
+      "revId": "da7da8c0de746135a79eb85370a4413c4aeff0ea",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }

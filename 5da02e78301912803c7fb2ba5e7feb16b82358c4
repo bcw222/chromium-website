@@ -22,6 +22,30 @@
       },
       "revId": "5da02e78301912803c7fb2ba5e7feb16b82358c4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "93c558bd_51c9128e",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/kernel-configuration/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1530452
+      },
+      "writtenOn": "2022-03-03T19:30:13Z",
+      "side": 1,
+      "message": "Oops sorry that was a typo. Fixed!",
+      "parentUuid": "3e0f79d7_1143a3e2",
+      "range": {
+        "startLine": 94,
+        "startChar": 9,
+        "endLine": 94,
+        "endChar": 10
+      },
+      "revId": "5da02e78301912803c7fb2ba5e7feb16b82358c4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
