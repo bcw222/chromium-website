@@ -10,6 +10,9 @@ title: User-Agent Reduction
 
 ## Updates
 
+March 3, 2022: Added frozen Chrome OS platform version to
+<code>&ltunifiedPlatform&gt;<code> value
+
 February 18, 2022: Added information on the platforms for which User-Agent
 reduction is applicable, as well as links to resources.
 
@@ -152,7 +155,7 @@ Chrome/<strong>&lt;majorVersion&gt;</strong>.0.0.0 <strong>&lt;deviceCompat&gt;<
         <li><samp>Windows NT 10.0; Win64; x64</samp>
         <li><samp>Macintosh; Intel Mac OS X 10_15_7</samp>
         <li><samp>X11; Linux x86_64</samp>
-        <li><samp>X11; CrOS x86_64</samp>
+        <li><samp>X11; CrOS x86_64 14541.0.0</samp>
       </ul>
       <p>The possible mobile values* are:
       <ul>
