@@ -11,7 +11,7 @@ title: User-Agent Reduction
 ## Updates
 
 March 3, 2022: Added frozen Chrome OS platform version to
-<code>&ltunifiedPlatform&gt;<code> value
+<code>&lt;unifiedPlatform&gt;</code> value
 
 February 18, 2022: Added information on the platforms for which User-Agent
 reduction is applicable, as well as links to resources.
