@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "184365e2_af2cf2dc",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/kernel-configuration/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 1000107
+      },
+      "writtenOn": "2022-03-03T15:40:27Z",
+      "side": 1,
+      "message": "Here too?",
+      "range": {
+        "startLine": 220,
+        "startChar": 0,
+        "endLine": 220,
+        "endChar": 48
+      },
+      "revId": "bb19b4ef4ada12d84b6f533163d21b4f18d969b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cbfca097_e3c15870",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/kernel-configuration/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 274,
+      "author": {
+        "id": 1000107
+      },
+      "writtenOn": "2022-03-03T15:40:27Z",
+      "side": 1,
+      "message": "Here too?",
+      "range": {
+        "startLine": 274,
+        "startChar": 0,
+        "endLine": 274,
+        "endChar": 40
+      },
+      "revId": "bb19b4ef4ada12d84b6f533163d21b4f18d969b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
