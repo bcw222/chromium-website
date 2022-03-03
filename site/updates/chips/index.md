@@ -14,6 +14,17 @@ In order to increase privacy on the web, browser vendors are either planning or 
 
 Although third-party cookies can enable third-party sites to track user behavior across different top-level sites, there are some cookie use cases on the web today where cross-domain subresources require some notion of session or persistent state that is scoped to a user's activity on a single top-level site.
 
+## The `Partitioned` Attribute
+
+Partitioned cookies are cross-site cookies which are only available on the top-level site they were created.
+
+Third parties which want to opt into receiving partitioned cookies should include the `Partitioned` attribute in their `Set-Cookie` header:
+
+`Set-Cookie: __Host-name=value; Secure; Path=/; SameSite=None; `**`Partitioned`**
+
+Partitioned cookies must include the [`__Host-` prefix](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie#cookie_prefixes) and cannot have the [`SameParty` attribute](https://developer.chrome.com/blog/first-party-sets-sameparty/).
+Chrome will enforce these rules for cookies set with the `Partitioned` attribute even when cookie partitioning is disabled, but if the feature is disabled the resulting cookie will still be sent to requests to its host on different top-level sites than where it was set.
+
 ## Origin Trial
 
 If you are interested in participating in the CHIPS origin trial, then you need to include the `Origin-Trial` header in each HTTP response with a valid token.
@@ -23,7 +34,7 @@ If you have successfully opted into the origin trial, subsequent requests from t
 If you store persistent partitioned cookies then you will receive the `Sec-CH-Partitioned-Cookies: ?0` request header for the first request to the cookies' origin.
 If you do not respond with a valid token in the `Origin-Trial` header and `Accept-CH: Partitioned-Cookies`, then the partitioned cookies on the machine will be converted to unpartitioned cookies.
 
-<!-- TODO(crbug.com/1296161): Add a link to the registration page. -->
+<!-- TODO(crbug.com/1296161): Add a link to the registration page and mention 3P origin trial. -->
 
 ### Example usage
 
@@ -43,6 +54,8 @@ If the opt in is successful, Chrome will include the following headers in future
 Sec-CH-Partitioned-Cookies: ?1
 Cookie: __Host-name=value
 ```
+
+If your site receives the cookie without this client hint, then this means your site did not opt into the origin trial correctly and the cookie you are receiving is not partitioned.
 
 If the site sets persistent partitioned cookies (e.g. a max age of 1 day):
 
@@ -97,9 +110,11 @@ Note: these instructions will only work with a Chromium instance M99 or above.
 
 ## Example Usage
 
-Third parties which want to opt into receiving partitioned cross-site cookies should include the `Partitioned` attribute in their `Set-Cookie` header:
+Embeds which want to opt into using partitioned cookies should include the `Partitioned` attribute in their `Set-Cookie` header:
 
 `Set-Cookie: __Host-name=value; Secure; Path=/; SameSite=None; `**`Partitioned`**
+
+Note that the cookie has the `__Host-` prefix and does not include the `SameParty` attribute.
 
 You can also set a partitioned cookie in JavaScript:
 
