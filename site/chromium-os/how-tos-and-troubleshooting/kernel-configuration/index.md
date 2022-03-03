@@ -80,13 +80,18 @@ default config for the flavour. This is useful when starting development on a
 board and you want to build in-tree:
 
 ```none
-./chromeos/scripts/prepareconfig chromeos-tegra2
+CHROMEOS_KERNEL_FAMILY=chromeos ./chromeos/scripts/prepareconfig chromeos-tegra2
 export ARCH=arm
 export CROSS_COMPILE=armv7a-cros-linux-gnueabi-
 make olddefconfig    #(to pick up new options, if any)
 make
 ...
 ```
+
+prepareconfig requires an environment variable `CHROMEOS_KERNEL_FAMILY` to
+correctly determine the split config. Above example uses `chromeos` as the
+kernel family. Each supported kernel family's split config is maintained in 
+`chromeos\config\<family>` directory.
 
 This script is used in the emerge. An example resulting string is 'Ubuntu
 2.6.32-0.1-chromeos-tegra2'.
@@ -213,7 +218,7 @@ local source install of the official source. Then set up the config:
 
 ```none
 # set up the .config file
-./chromeos/scripts/prepareconfig chromeos-tegra2
+CHROMEOS_KERNEL_FAMILY=<kernel-family>  ./chromeos/scripts/prepareconfig chromeos-tegra2
 make olddefconfig
 # edit config
 make menuconfig
@@ -267,7 +272,7 @@ find chromeos/config -name \*.flavour.config
 cd ~/trunk/src/third_party/kernel/v$VER
 cp <single config> chromeos/config/<arch>/<flavour>.flavour.config
 chromeos/scripts/kernelconfig olddefconfig
-chromeos/scripts/prepareconfig <flavour>
+CHROMEOS_KERNEL_FAMILY=<kernel-family>  chromeos/scripts/prepareconfig <flavour>
 make ARCH=${ARCH} oldconfig
 diff .config <single config>
 ```
