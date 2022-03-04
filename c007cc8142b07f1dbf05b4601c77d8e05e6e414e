@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8731a19f_0bbf472f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2022-03-04T08:16:45Z",
+      "side": 1,
+      "message": "I suggest adding an OWNERS file for the chips directory, as I\u0027d only be performing grammar / proofreading duties anyway.",
+      "revId": "c007cc8142b07f1dbf05b4601c77d8e05e6e414e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
