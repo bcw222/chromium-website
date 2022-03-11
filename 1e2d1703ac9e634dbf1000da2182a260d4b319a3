@@ -16,6 +16,24 @@
       "message": "LGTM, I agree this content seems out of date.",
       "revId": "1e2d1703ac9e634dbf1000da2182a260d4b319a3",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "42fafc33_97f4a5a0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1179424
+      },
+      "writtenOn": "2022-03-11T12:04:21Z",
+      "side": 1,
+      "message": "Thanks for your review.",
+      "parentUuid": "9363eb73_42dd77c1",
+      "revId": "1e2d1703ac9e634dbf1000da2182a260d4b319a3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
