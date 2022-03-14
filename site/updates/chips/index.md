@@ -34,7 +34,7 @@ If you have successfully opted into the origin trial, subsequent requests from t
 If you store persistent partitioned cookies then you will receive the `Sec-CH-Partitioned-Cookies: ?0` request header for the first request to the cookies' origin.
 If you do not respond with a valid token in the `Origin-Trial` header and `Accept-CH: Partitioned-Cookies`, then the partitioned cookies on the machine will be converted to unpartitioned cookies.
 
-<!-- TODO(crbug.com/1296161): Add a link to the registration page and mention 3P origin trial. -->
+You can register your site for the origin trial [here](https://developer.chrome.com/origintrials/#/view_trial/1239615797433729025).
 
 ### Example usage
 
