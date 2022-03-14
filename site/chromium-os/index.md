@@ -43,7 +43,8 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 
 *   [User experience: Chromium/OS](/user-experience)
 
-### For developers
+### Fo
+r developers
 
 *   [Optimize Android Apps for Chrome OS
             device](/chromium-os/android-apps)
