@@ -22,6 +22,11 @@ binaries in Cloud Storage. This includes:
 
 Many benchmarks require these files to run, and will fail without them.
 
+When recording performance tests, we generally don't call this script directly.
+Instead, we us a wrapper script. The instructions for this script can be found
+[here](https://source.chromium.org/chromium/chromium/src/+/main:tools/perf/recording_benchmarks.md).
+
+
 ## Set Up Cloud Storage
 
 ### Install depot_tools
