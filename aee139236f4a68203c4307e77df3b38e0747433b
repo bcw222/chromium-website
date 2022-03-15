@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec080eca_f448b955",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1451876
+      },
+      "writtenOn": "2022-03-15T22:35:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cc7a4148_4a4c1207",
+      "revId": "aee139236f4a68203c4307e77df3b38e0747433b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c08c7c0f_8ce73604",
@@ -31,6 +49,24 @@
       "writtenOn": "2022-03-14T22:25:24Z",
       "side": 1,
       "message": "Isn\u0027t it the tool that automates the following steps? Maybe say The [update_wpr tool]",
+      "revId": "aee139236f4a68203c4307e77df3b38e0747433b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9252e36_7daa59d3",
+        "filename": "site/blink/serviceworker/testing/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1451876
+      },
+      "writtenOn": "2022-03-15T22:35:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c08c7c0f_8ce73604",
       "revId": "aee139236f4a68203c4307e77df3b38e0747433b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -52,6 +88,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd626253_f9c77bcf",
+        "filename": "site/developers/telemetry/record_a_page_set/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1451876
+      },
+      "writtenOn": "2022-03-15T22:35:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7bb316ac_94b20489",
+      "revId": "aee139236f4a68203c4307e77df3b38e0747433b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6c666935_2228f2df",
@@ -65,6 +119,24 @@
       "writtenOn": "2022-03-14T22:25:24Z",
       "side": 1,
       "message": "again, consider mentioning the name of the wrapper script.",
+      "revId": "aee139236f4a68203c4307e77df3b38e0747433b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49f921de_2c52b0d4",
+        "filename": "site/developers/telemetry/upload_to_cloud_storage/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1451876
+      },
+      "writtenOn": "2022-03-15T22:35:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6c666935_2228f2df",
       "revId": "aee139236f4a68203c4307e77df3b38e0747433b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
