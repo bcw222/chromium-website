@@ -20,11 +20,11 @@ title: MobLab Release Notes
 # Mar 14th 2022: Moblab Update
 **You should reboot your Moblab when next not running tests to get this latest version of the software.**
 
-**You should reboot your Moblab to get the latest version of the software. Make
+You should reboot your Moblab to get the latest version of the software. Make
 sure no tests are running or scheduled. This update includes an update to
-the Moblab software and an update to the underlying moblab ChromeOS version
+the Moblab software and an update to the underlying ChromeOS version
 (ChromeOS version update will roll out gradually starting the week of March 14th);
-after the update you will be running Moblab version R-2.15.0.**
+after the update you will be running Moblab version R-2.15.0.
 
 **Highlights**
 
@@ -34,7 +34,7 @@ after the update you will be running Moblab version R-2.15.0.**
 
 *   Other bug fixes and improvements
 
-** UI - Manage DUTs**
+**UI - Manage DUTs**
 
 *   Now trimming leading/trailing spaces from the key, value, pool, and label inputs
 
