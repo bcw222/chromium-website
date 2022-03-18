@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f85c3a22_b225b3ef",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000991
+      },
+      "writtenOn": "2022-03-18T15:40:20Z",
+      "side": 1,
+      "message": "Replace October highlight, and add ...\n\nAlso worth explicitly calling out that we are now linking Google Docs directly with Alphabet access rather than using markdown. This way, if there is a permission problem (e.g. must have Chromium access) it\u0027ll be caught in the initial review.\n\nAdd a comment why we are moving away from markdown for the monthly highlights.",
+      "range": {
+        "startLine": 7,
+        "startChar": 4,
+        "endLine": 7,
+        "endChar": 11
+      },
+      "revId": "df9897714753f30ff47879f837d08765f2af1ba5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
