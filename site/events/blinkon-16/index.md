@@ -3,15 +3,16 @@ breadcrumbs:
 - - /events
   - Chromium project related events
 page_name: blinkon-16
-title: blinkon-16
+title: BlinkOn 16
 ---
 
 **Welcome to BlinkOn 16!**
 
 ## **Logistics**
 
-*   Dates: \[TBD\]
-*   Location: \[TBD\]
+*   Dates: May 18-19, 2022 PDT
+*   Time: 7-11 AM PDT
+*   Location: Virtual
 *   [download the hopin mobile
             app](https://hopin.zendesk.com/hc/en-us/sections/360012637371--Mobile-App)
             on your device
