@@ -1,6 +1,6 @@
 # Steam on Chrome OS Alpha
 
-Beginning with **Chrome OS 14574.0.0**, the Dev channel will include an early,
+Beginning with **Chrome OS 14583.0.0**, the Dev channel will include an early,
 alpha-quality version of Steam on Chrome OS for a small set of recent
 Chromebooks. If you have one of these Chromebooks (listed below) and decide to
 give it a try, please send your feedback - we are in active development and want
@@ -8,7 +8,7 @@ to incorporate as much user input as possible.
 
 ## What do we mean by alpha?
 
-Alpha means anything can break. Due to the inherent instability of the Dev
+Alpha means **anything can break**. Due to the inherent instability of the Dev
 channel and the in-progress nature of this feature, we don’t recommend trying
 this on a Chromebook that you rely on for work, school, or other daily
 activities. You will encounter crashes, performance regressions, and
@@ -33,10 +33,12 @@ Note: Configurations of these devices with an i3 CPU or 4GB of RAM are **not**
 supported.
 
 Additionally, there are two known issues that affect particular device
-configurations: * Devices with 8GB of RAM may encounter issues in games that
-require 6GB of RAM or more. * Devices with display resolutions greater than
-1080p may encounter performance and scaling issues. We are actively
-investigating ways to improve these issues.
+configurations: 
+*  Devices with 8GB of RAM may encounter issues in games that require 6GB of
+RAM or more.
+*  Devices with display resolutions greater than 1080p may encounter
+performance and scaling issues. We are actively investigating ways to improve
+these issues.
 
 This list will be updated as new models and configurations are enabled.
 
@@ -194,32 +196,28 @@ To enable Steam Play for all relevant titles:
 
 Q: When will Steam come to Beta or Stable channel?
 
-```
 A: We don’t have a specific date to commit to. We’ll expand availability
 when we feel the product is ready.
-```
+
 
 Q: When will Steam be available on my Chromebook?
 
-```
 A: Some Chromebooks lack the necessary hardware to provide a quality
 experience for Steam games, and thus are unlikely to be supported. As new,
 compatible devices come out, we will update the supported device list.
-```
+
 
 Q: Can I play my favorite game on a Chromebook now?
 
-```
 A: If your game is on the list above, it’s likely to run based on our
 testing. Otherwise, the only way to find out is to give it a try! Please
 send feedback about what you find.
-```
+
 
 Q: Can I play games from other game stores?
 
-```
 A: No, only Steam is supported.
-```
+
 
 ## Game Developers
 
