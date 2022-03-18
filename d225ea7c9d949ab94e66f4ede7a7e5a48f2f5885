@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c4d8ff6c_532f99df",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1519227
+      },
+      "writtenOn": "2022-03-18T15:45:14Z",
+      "side": 1,
+      "message": "Would you ptal this ELly.",
+      "revId": "d225ea7c9d949ab94e66f4ede7a7e5a48f2f5885",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
