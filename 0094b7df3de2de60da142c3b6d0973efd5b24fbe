@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "789ffe89_ac40de52",
+        "filename": "site/chromium-os/steam-on-chromeos/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1515643
+      },
+      "writtenOn": "2022-03-19T00:12:31Z",
+      "side": 1,
+      "message": "nit?",
+      "revId": "0094b7df3de2de60da142c3b6d0973efd5b24fbe",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab40f466_0e149555",
+        "filename": "site/chromium-os/steam-on-chromeos/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1515643
+      },
+      "writtenOn": "2022-03-19T00:12:31Z",
+      "side": 1,
+      "message": "Perhaps \"Set quality to Medium or Low. i7 recommended\" is good enough",
+      "revId": "0094b7df3de2de60da142c3b6d0973efd5b24fbe",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "070df202_236d9384",
+        "filename": "site/chromium-os/steam-on-chromeos/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1515643
+      },
+      "writtenOn": "2022-03-19T00:12:31Z",
+      "side": 1,
+      "message": "Perhaps \"Graphics \u0026 Postprocessing Med or Low. i7 required\"",
+      "revId": "0094b7df3de2de60da142c3b6d0973efd5b24fbe",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e21504af_dd19eb35",
+        "filename": "site/chromium-os/steam-on-chromeos/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 209,
+      "author": {
+        "id": 1515643
+      },
+      "writtenOn": "2022-03-19T00:12:31Z",
+      "side": 1,
+      "message": "Perhaps we can add \"---\" wrapped in empty lines to add some separators",
+      "revId": "0094b7df3de2de60da142c3b6d0973efd5b24fbe",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
