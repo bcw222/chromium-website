@@ -62,6 +62,24 @@
       "message": "nit: space after /",
       "revId": "c1699d5fa8c5acaf616c05e4c34b30d9fecd90a2",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4270988d_cff32a01",
+        "filename": "site/chromium-os/steam-on-chromeos/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 1537170
+      },
+      "writtenOn": "2022-03-21T21:54:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0add7d8e_d963f602",
+      "revId": "c1699d5fa8c5acaf616c05e4c34b30d9fecd90a2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
