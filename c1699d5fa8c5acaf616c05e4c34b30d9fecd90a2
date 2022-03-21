@@ -24,6 +24,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9ff6c2e_3d682b50",
+        "filename": "site/chromium-os/steam-on-chromeos/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1537170
+      },
+      "writtenOn": "2022-03-21T22:32:38Z",
+      "side": 1,
+      "message": "Yeah, the intent is to keep it in the dev channel.",
+      "parentUuid": "77ba1c3f_e932d474",
+      "range": {
+        "startLine": 3,
+        "startChar": 16,
+        "endLine": 3,
+        "endChar": 37
+      },
+      "revId": "c1699d5fa8c5acaf616c05e4c34b30d9fecd90a2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5509dceb_6be43aa1",
@@ -37,6 +61,30 @@
       "writtenOn": "2022-03-21T17:26:07Z",
       "side": 1,
       "message": "nit. whitespace",
+      "range": {
+        "startLine": 40,
+        "startChar": 31,
+        "endLine": 40,
+        "endChar": 32
+      },
+      "revId": "c1699d5fa8c5acaf616c05e4c34b30d9fecd90a2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bec0a01f_b34e72bc",
+        "filename": "site/chromium-os/steam-on-chromeos/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1537170
+      },
+      "writtenOn": "2022-03-21T22:32:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5509dceb_6be43aa1",
       "range": {
         "startLine": 40,
         "startChar": 31,
