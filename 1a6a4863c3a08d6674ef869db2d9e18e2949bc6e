@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e92e7f63_1be6e2af",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2022-03-21T16:03:29Z",
+      "side": 1,
+      "message": "lgtm :) although you no longer need my approval since you are an OWNER of this directory now",
+      "revId": "1a6a4863c3a08d6674ef869db2d9e18e2949bc6e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
