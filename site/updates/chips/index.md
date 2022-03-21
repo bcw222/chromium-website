@@ -160,6 +160,14 @@ One you have followed the instructions in the [End-to-End Testing](#end-to-end-t
 1. Open DevTools to the "Network" tab and refresh the page. Click on the request to "thirdparty.html" and click on the "Cookies" tab.
   You should see that the unpartitioned cookie was blocked in a third-party context, but the partitioned cookie was allowed.
 
+1. Go back to the tab which has chrome://settings/cookies open. Change the setting back to "Allow all cookies" or "Block third-party cookies in Incognito".
+
+1. Open the tab which has https://lying-river-tablecloth.glitch.me open. You should see that both the "unpartitioned" and "__Host-3P_partitioned" cookies are available again.
+
+1. Click the "Clear cookies" button. This will cause cr2.kungfoo.net to send the `Clear-Site-Data: "cookies"` header. You should see that both the "unpartitioned" and "__Host-3P_partitioned" cookies were removed.
+
+1. Navigate the tab back to https://cr2.kungfoo.net/cookies/. You should see that the "__Host-1P_partitioned" cookie was not removed after cr2.kungfoo.net sent the `Clear-Site-Data` header on a different top-level site.
+
 ## Resources
 - [CHIPS explainer](https://github.com/WICG/CHIPS)
 - [CHIPS Chromestatus Page](https://chromestatus.com/feature/5179189105786880)
