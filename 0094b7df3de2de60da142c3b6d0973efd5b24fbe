@@ -20,6 +20,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7650ae70_30c74568",
+        "filename": "site/chromium-os/steam-on-chromeos/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1242640
+      },
+      "writtenOn": "2022-03-21T01:43:06Z",
+      "side": 1,
+      "message": "This should be on a new line, not part of the bullet point.",
+      "range": {
+        "startLine": 40,
+        "startChar": 32,
+        "endLine": 41,
+        "endChar": 13
+      },
+      "revId": "0094b7df3de2de60da142c3b6d0973efd5b24fbe",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ab40f466_0e149555",
         "filename": "site/chromium-os/steam-on-chromeos/index.md",
         "patchSetId": 1
@@ -65,6 +88,24 @@
       "writtenOn": "2022-03-19T00:12:31Z",
       "side": 1,
       "message": "Perhaps we can add \"---\" wrapped in empty lines to add some separators",
+      "revId": "0094b7df3de2de60da142c3b6d0973efd5b24fbe",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea16f7df_ff29d5a8",
+        "filename": "site/chromium-os/steam-on-chromeos/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 209,
+      "author": {
+        "id": 1242640
+      },
+      "writtenOn": "2022-03-21T01:43:06Z",
+      "side": 1,
+      "message": "+1 to having separation between question/answer pairs.",
+      "parentUuid": "e21504af_dd19eb35",
       "revId": "0094b7df3de2de60da142c3b6d0973efd5b24fbe",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
