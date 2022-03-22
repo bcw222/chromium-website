@@ -86,16 +86,16 @@ FAQ items covering general development questions
 
 ## What should I read first/Where do I start?
 
-<https://chromium.googlesource.com/chromiumos/docs/+/master/developer_guide.md>
+<https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_guide.md>
 
 ## How can I make changes depend on each other with Cq-Depend?
 
-<https://sites.google.com/a/chromium.org/dev/developers/tree-sheriffs/sheriff-details-chromium-os/commit-queue-overview#TOC-How-do-I-specify-the-dependencies-of-a-change->
+<https://chromium.googlesource.com/chromiumos/docs/+/HEAD/contributing.md#cq-depend>
 
 ## How do I create a new bucket in gsutil?
 
 [gsutil
-FAQ](https://chromium.googlesource.com/chromiumos/docs/+/master/gsutil.md#FAQ)
+FAQ](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/gsutil.md#FAQ)
 
 ## How do I port a new board to Chromium OS?
 
@@ -103,9 +103,8 @@ FAQ](https://chromium.googlesource.com/chromiumos/docs/+/master/gsutil.md#FAQ)
 
 ## Making changes to the Chromium browser on ChromiumOS (AKA Simple Chrome)
 
-[
-https://chromium.googlesource.com/chromiumos/docs/+/master/simple_chrome_workflow.md](https://chromium.googlesource.com/chromiumos/docs/+/master/simple_chrome_workflow.md)
+<https://chromium.googlesource.com/chromiumos/docs/+/HEAD/simple_chrome_workflow.md>
 
 ## How to install an image on a DUT via cros flash?
 
-<http://www.chromium.org/chromium-os/build/cros-flash>
+<https://chromium.googlesource.com/chromiumos/docs/+/HEAD/cros_flash.md>
