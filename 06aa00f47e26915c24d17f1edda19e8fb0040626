@@ -22,6 +22,30 @@
       },
       "revId": "06aa00f47e26915c24d17f1edda19e8fb0040626",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d751f03d_265f3817",
+        "filename": "site/chromium-os/build/faq/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1289508
+      },
+      "writtenOn": "2022-03-22T19:00:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5e199c46_14a3c57b",
+      "range": {
+        "startLine": 93,
+        "startChar": 53,
+        "endLine": 93,
+        "endChar": 68
+      },
+      "revId": "06aa00f47e26915c24d17f1edda19e8fb0040626",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
