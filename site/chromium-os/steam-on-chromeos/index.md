@@ -211,7 +211,8 @@ send feedback about what you find.
 -------------------------------------------------------------------------------
 Q: Can I play games from other game stores?
 
-A: No, only Steam is supported.
+A: Chrome OS also supports Android Games from the Play Store. Outside Steam,
+other PC game stores are not supported.
 
 -------------------------------------------------------------------------------
 
