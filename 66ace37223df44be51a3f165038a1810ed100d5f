@@ -35,6 +35,23 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d0cb3db5_d0e82e38",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1237531
+      },
+      "writtenOn": "2022-03-23T02:46:23Z",
+      "side": 1,
+      "message": "LGTM if this is an emergency doc fix for a recent launch.\n\nPlease address vapier\u0027s comment, though.",
+      "revId": "66ace37223df44be51a3f165038a1810ed100d5f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9d98a0f1_5814498f",
