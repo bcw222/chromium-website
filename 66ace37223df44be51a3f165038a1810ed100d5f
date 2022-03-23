@@ -52,6 +52,42 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b243e5b_b70bffd4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1409117
+      },
+      "writtenOn": "2022-03-23T03:03:01Z",
+      "side": 1,
+      "message": "Thanks! It is indeed, we\u0027re getting users having poor experiences because pointer lock isn\u0027t on.",
+      "parentUuid": "d0cb3db5_d0e82e38",
+      "revId": "66ace37223df44be51a3f165038a1810ed100d5f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f87014d_06ca77a8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1409117
+      },
+      "writtenOn": "2022-03-23T03:03:01Z",
+      "side": 1,
+      "message": "Not on volteer boards. http://b/203622329 has some context.",
+      "parentUuid": "a9fe78a4_274485d8",
+      "revId": "66ace37223df44be51a3f165038a1810ed100d5f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9d98a0f1_5814498f",
@@ -65,6 +101,24 @@
       "writtenOn": "2022-03-23T01:32:48Z",
       "side": 1,
       "message": "line is too long.  markdown files stick to 80 cols.",
+      "revId": "66ace37223df44be51a3f165038a1810ed100d5f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "57675ee3_f183f9b5",
+        "filename": "site/chromium-os/steam-on-chromeos/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1409117
+      },
+      "writtenOn": "2022-03-23T03:03:01Z",
+      "side": 1,
+      "message": "Will address in a follow-up CL as this is time-sensitive.",
+      "parentUuid": "9d98a0f1_5814498f",
       "revId": "66ace37223df44be51a3f165038a1810ed100d5f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
