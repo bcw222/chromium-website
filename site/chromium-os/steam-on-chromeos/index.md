@@ -51,8 +51,7 @@ you switch channels, backup your data.
 
 1.  On your supported Chromebook,
     [switch to Dev channel.](https://www.google.com/support/chromeos/bin/answer.py?answer=1086915)
-2.  After updating, navigate to chrome://flags#borealis-enabled and set the
-    value to Enabled.
+2.  After updating, navigate to chrome://flags. Set both #borealis-enabled and #exo-pointer-lock to Enabled.
 3.  After restarting, open a crosh terminal with ctrl+alt+t.
 4.  Type “insert_coin volteer-JOlkth573FBLGa” and hit enter.
 5.  Follow the setup flow to install Steam.
