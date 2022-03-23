@@ -71,12 +71,8 @@ page](http://goto.google.com/cros-build).
             up](/developers/testing/chromium-build-infrastructure/getting-the-buildbot-source/configuring-your-buildbot)
             (Chrome Infra guide)
 *   [Commit Queue overview](/system/errors/NodeNotFound)
-*   [CBuildbot](http://www.chromium.org/chromium-os/build/cbuildbot-overview)
-    *   [Commit Queue](/system/errors/NodeNotFound)
-    *   [Local
-                Trybot](http://www.chromium.org/chromium-os/build/local-trybot-documentation)
-    *   [Remote
-                trybot](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/remote_trybots.md)
+*   [Local Trybot](http://www.chromium.org/chromium-os/build/local-trybot-documentation)
+*   [Remote trybot](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/remote_trybots.md)
 
 #### Build labels
 
