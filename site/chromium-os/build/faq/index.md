@@ -16,10 +16,6 @@ title: Build FAQ
 
 <https://www.chromium.org/chromium-os/build/using-remote-trybots>
 
-## How to add metadata to cbuildbot
-
-<https://sites.google.com/a/chromium.org/dev/cbuildbot-metadata-json-tutorial>
-
 ## How to run processes in parallel (chromite.lib.parallel)
 
 ##
