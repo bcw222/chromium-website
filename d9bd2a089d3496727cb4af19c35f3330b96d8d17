@@ -16,6 +16,24 @@
       "message": "Sad to see autoupdater bumped down :(",
       "revId": "d9bd2a089d3496727cb4af19c35f3330b96d8d17",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f5107cf7_7f9e66d2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-03-24T21:26:19Z",
+      "side": 1,
+      "message": "tbh, i\u0027m hard pressed to think of any long running services that should be `never` other than dbus",
+      "parentUuid": "e04c8a26_5a7516b5",
+      "revId": "d9bd2a089d3496727cb4af19c35f3330b96d8d17",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
