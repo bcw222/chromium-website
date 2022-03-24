@@ -157,7 +157,8 @@ processes as follows:
 | ----- | ----------- |
 | -1000 | Processes are never killed (Upstart uses `oom score never`) |
 | -1000 | Linux daemons and other processes |
-| -1000 | CrOS daemons that are critical to the system (updater, dbus) |
+| -1000 | CrOS daemons that are critical to the system (dbus) |
+|  -900 | CrOS daemons that are needed to auto-update, but can restart |
 |  -100 | CrOS daemons that can recover (shill, system metrics) |
 |  -100 | Android system processes |
 |     0 | Chrome browser and zygote |
