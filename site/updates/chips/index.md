@@ -132,7 +132,7 @@ cookieStore.set({
 
 ## Demo
 
-One you have followed the instructions in the [End-to-End Testing](#end-to-end-testing) section, you can use the following instructions to see a demonstration of the Partitioned attribute.
+Once you have followed the instructions in the [End-to-End Testing](#end-to-end-testing) section, you can use the following instructions to see a demonstration of the Partitioned attribute.
 
 1. Go to chrome://settings/cookies and make sure that the radio button is set to "Allow all cookies" or "Block third-party cookies in Incognito".
 
