@@ -22,6 +22,30 @@
       },
       "revId": "d4b549284c3e9e3efd3826cc575bce700d8c51f4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "76298b34_746e896e",
+        "filename": "site/chromium-os/chromiumos-design-docs/out-of-memory-handling/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-03-24T05:01:49Z",
+      "side": 1,
+      "message": "i put it as a clue for upstart syntax.  i can spell it out more.",
+      "parentUuid": "8506236e_af260edb",
+      "range": {
+        "startLine": 158,
+        "startChar": 2,
+        "endLine": 158,
+        "endChar": 7
+      },
+      "revId": "d4b549284c3e9e3efd3826cc575bce700d8c51f4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
