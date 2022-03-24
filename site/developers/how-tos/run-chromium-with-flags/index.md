@@ -20,7 +20,7 @@ Current switches may be found at
 It is important to note that some switches are intended for development and
 temporary cases. They may break, change, or be removed in the future without
 notice. IT admins looking to manage Chrome for their organization should
-instead use [enterprise policies](http://chromeenterprise.google/polices).
+instead use [enterprise policies](http://chromeenterprise.google/policies).
 
 Note that if you look at `chrome://flags` to see if the command line option is
 active, the state might not be accurately reflected. Check `chrome://version`
