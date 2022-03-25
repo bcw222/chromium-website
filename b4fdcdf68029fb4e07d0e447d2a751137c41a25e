@@ -16,6 +16,23 @@
       "message": "Preview: https://chromium-website--cl3546636-ps2-745s98te.web.app/blink/getting-started-with-blink-debugging/",
       "revId": "b4fdcdf68029fb4e07d0e447d2a751137c41a25e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3654f4d3_ab6dd817",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2022-03-25T16:13:39Z",
+      "side": 1,
+      "message": "lgtm!",
+      "revId": "b4fdcdf68029fb4e07d0e447d2a751137c41a25e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
