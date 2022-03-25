@@ -36,6 +36,8 @@ If you do not respond with a valid token in the `Origin-Trial` header and `Accep
 
 You can register your site for the origin trial [here](https://developer.chrome.com/origintrials/#/view_trial/1239615797433729025).
 
+**The origin trial is only available in Chrome versions 100-102.**
+
 ### Example usage
 
 When a site wishes to participate in the origin trial, they should include the following headers in their response:
@@ -98,6 +100,10 @@ The CHIPS Origin Trial will not be supported in service workers.
 
 You can view the more detailed design document of the CHIPS Origin Trial [here](https://docs.google.com/document/d/1EPHnfHpZHpV09vITXu8cEEIMt1DYiRN_pZfeBal8UQw).
 
+### Local testing
+
+If you want to test your changes locally on your machine, you can enable the CHIPS origin trial bypass feature (chrome://flags/#partitioned-cookies-bypass-origin-trial) on your local device to use partitioned cookies on any site without them needing to opt into the trial.
+
 ## End-to-End Testing
 
 These instructions describe how a web developer can perform end-to-end testing of Partitioned cookies in Chromium.
@@ -136,7 +142,7 @@ One you have followed the instructions in the [End-to-End Testing](#end-to-end-t
 
 1. Go to chrome://settings/cookies and make sure that the radio button is set to "Allow all cookies" or "Block third-party cookies in Incognito".
 
-1. Open a new tab and navigate to https://cr2.kungfoo.net/cookies.
+1. Open a new tab and navigate to https://cr2.kungfoo.net/cookies/index.php.
 
 1. Click "Set cookie (SameSite=None)" to set an **unpartitioned** SameSite=None cookie named "unpartitioned".
 
@@ -166,7 +172,7 @@ One you have followed the instructions in the [End-to-End Testing](#end-to-end-t
 
 1. Click the "Clear cookies" button. This will cause cr2.kungfoo.net to send the `Clear-Site-Data: "cookies"` header. You should see that both the "unpartitioned" and "__Host-3P_partitioned" cookies were removed.
 
-1. Navigate the tab back to https://cr2.kungfoo.net/cookies/. You should see that the "__Host-1P_partitioned" cookie was not removed after cr2.kungfoo.net sent the `Clear-Site-Data` header on a different top-level site.
+1. Navigate the tab back to https://cr2.kungfoo.net/cookies/index.php. You should see that the "__Host-1P_partitioned" cookie was not removed after cr2.kungfoo.net sent the `Clear-Site-Data` header on a different top-level site.
 
 ## Resources
 - [CHIPS explainer](https://github.com/WICG/CHIPS)
