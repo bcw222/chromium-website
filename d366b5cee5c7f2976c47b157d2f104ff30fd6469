@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f478fb9f_838d045c",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1520128
+      },
+      "writtenOn": "2022-03-25T14:09:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "83919568_0ffee1ca",
+      "revId": "d366b5cee5c7f2976c47b157d2f104ff30fd6469",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b747211a_79ac6250",
@@ -35,6 +53,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b8ba4012_24788b62",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1520128
+      },
+      "writtenOn": "2022-03-25T14:09:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b747211a_79ac6250",
+      "revId": "d366b5cee5c7f2976c47b157d2f104ff30fd6469",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a999b770_04833113",
@@ -48,6 +84,30 @@
       "writtenOn": "2022-03-25T04:29:08Z",
       "side": 1,
       "message": "i think we tend to use parenthetical asides instead\n\n (referred to as the \"SDK builder\")\n\nor\n\n (a.k.a. the \"SDK builder\")",
+      "range": {
+        "startLine": 56,
+        "startChar": 33,
+        "endLine": 56,
+        "endChar": 69
+      },
+      "revId": "d366b5cee5c7f2976c47b157d2f104ff30fd6469",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "92785add_ed6a0b2b",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1520128
+      },
+      "writtenOn": "2022-03-25T14:09:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a999b770_04833113",
       "range": {
         "startLine": 56,
         "startChar": 33,
@@ -81,6 +141,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ccec42eb_fbfa0363",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1520128
+      },
+      "writtenOn": "2022-03-25T14:09:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b2026c5a_810fd06d",
+      "range": {
+        "startLine": 61,
+        "startChar": 25,
+        "endLine": 61,
+        "endChar": 33
+      },
+      "revId": "d366b5cee5c7f2976c47b157d2f104ff30fd6469",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d2a0c20f_94df551a",
@@ -100,6 +184,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "aff20f54_80076dc4",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1520128
+      },
+      "writtenOn": "2022-03-25T14:09:47Z",
+      "side": 1,
+      "message": "Unless I\u0027m misreading, we do actually upload it before testing.\nhttps://source.chromium.org/chromiumos/chromiumos/codesearch/+/HEAD:chromite/cbuildbot/stages/sdk_stages.py;l\u003d150",
+      "parentUuid": "d2a0c20f_94df551a",
+      "revId": "d366b5cee5c7f2976c47b157d2f104ff30fd6469",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "adac0a50_8962673a",
         "filename": "site/chromium-os/build/sdk-creation/index.md",
         "patchSetId": 11
@@ -111,6 +213,24 @@
       "writtenOn": "2022-03-25T04:29:08Z",
       "side": 1,
       "message": "the \"binary packages\" in the old text was referring specifically to binpkgs for people to use when updating the SDK.  this generalization loses that, and the \"to make available\" makes it sound like an incomplete sentence.",
+      "revId": "d366b5cee5c7f2976c47b157d2f104ff30fd6469",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ef4f1dc_9e5c36b4",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1520128
+      },
+      "writtenOn": "2022-03-25T14:09:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "adac0a50_8962673a",
       "revId": "d366b5cee5c7f2976c47b157d2f104ff30fd6469",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
