@@ -200,7 +200,6 @@
   "/chromium-os/build/cros-deploy",
   "/chromium-os/build/cros-flash",
   "/chromium-os/build/faq",
-  "/chromium-os/build/improving-build-times",
   "/chromium-os/build/local-trybot-documentation",
   "/chromium-os/build/sdk-creation",
   "/chromium-os/build/tour-of-the-chromiumos-buildbot",
