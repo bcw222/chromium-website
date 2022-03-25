@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c800eae0_11213531",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-03-25T04:29:08Z",
+      "side": 0,
+      "message": "should delete this block now.  it was in response to a specific article a while back, and i doubt anyone is still coming here via that.",
+      "revId": "872854403d3537297771621476222fd5f67ef6b3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "55097dc5_8ee4770c",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-03-25T04:29:08Z",
+      "side": 0,
+      "message": "the use of `none` is an artifact of the automated conversion.  i would strip it out from most places.  you could prob leave it when it\u0027s showing the config snippets above if you wanted.",
+      "revId": "872854403d3537297771621476222fd5f67ef6b3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}

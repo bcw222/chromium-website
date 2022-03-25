@@ -1,0 +1,118 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "83919568_0ffee1ca",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-03-25T04:29:08Z",
+      "side": 1,
+      "message": "this should be plain `cros_sdk` now",
+      "revId": "d366b5cee5c7f2976c47b157d2f104ff30fd6469",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b747211a_79ac6250",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-03-25T04:29:08Z",
+      "side": 1,
+      "message": "use `HEAD` instead of `main` or `refs/heads/main` in gitiles URIs",
+      "revId": "d366b5cee5c7f2976c47b157d2f104ff30fd6469",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a999b770_04833113",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-03-25T04:29:08Z",
+      "side": 1,
+      "message": "i think we tend to use parenthetical asides instead\n\n (referred to as the \"SDK builder\")\n\nor\n\n (a.k.a. the \"SDK builder\")",
+      "range": {
+        "startLine": 56,
+        "startChar": 33,
+        "endLine": 56,
+        "endChar": 69
+      },
+      "revId": "d366b5cee5c7f2976c47b157d2f104ff30fd6469",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b2026c5a_810fd06d",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-03-25T04:29:08Z",
+      "side": 1,
+      "message": "prob should have a comma here -- \"point, to\"",
+      "range": {
+        "startLine": 61,
+        "startChar": 25,
+        "endLine": 61,
+        "endChar": 33
+      },
+      "revId": "d366b5cee5c7f2976c47b157d2f104ff30fd6469",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d2a0c20f_94df551a",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-03-25T04:29:08Z",
+      "side": 1,
+      "message": "do we upload it at this point ?  or do we wait for the tests to pass before it finishes ?",
+      "revId": "d366b5cee5c7f2976c47b157d2f104ff30fd6469",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "adac0a50_8962673a",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-03-25T04:29:08Z",
+      "side": 1,
+      "message": "the \"binary packages\" in the old text was referring specifically to binpkgs for people to use when updating the SDK.  this generalization loses that, and the \"to make available\" makes it sound like an incomplete sentence.",
+      "revId": "d366b5cee5c7f2976c47b157d2f104ff30fd6469",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
