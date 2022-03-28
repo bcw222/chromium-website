@@ -39,6 +39,30 @@
       },
       "revId": "4d77d15af0fb54e48ca82a31d8019647bb6738cc",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b7b54de_edd0a3c1",
+        "filename": "site/chromium-os/build/sdk-config-management/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1520128
+      },
+      "writtenOn": "2022-03-28T19:05:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3ad537c7_25d6267b",
+      "range": {
+        "startLine": 18,
+        "startChar": 157,
+        "endLine": 18,
+        "endChar": 161
+      },
+      "revId": "4d77d15af0fb54e48ca82a31d8019647bb6738cc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
