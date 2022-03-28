@@ -52,6 +52,60 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c7163043_19d22cb9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1520128
+      },
+      "writtenOn": "2022-03-28T20:23:05Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "5aab3689_f320bc10",
+      "revId": "4bd0f2d5bf12eee74c90a50e0e2170c429617695",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "68453baf_8ff23cca",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1520128
+      },
+      "writtenOn": "2022-03-28T20:23:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "12232341_eaa595fe",
+      "revId": "4bd0f2d5bf12eee74c90a50e0e2170c429617695",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3adaa1fd_274f0c9b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1520128
+      },
+      "writtenOn": "2022-03-28T20:23:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0c12e636_7f682d75",
+      "revId": "4bd0f2d5bf12eee74c90a50e0e2170c429617695",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "de3034c2_e180d698",
@@ -65,6 +119,24 @@
       "writtenOn": "2022-03-28T13:42:16Z",
       "side": 1,
       "message": "should this doc link to sdk-creation for background info somewhere ?",
+      "revId": "4bd0f2d5bf12eee74c90a50e0e2170c429617695",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "47c0dd2a_3496d2a4",
+        "filename": "site/chromium-os/build/add-sdk-package/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1520128
+      },
+      "writtenOn": "2022-03-28T20:23:05Z",
+      "side": 1,
+      "message": "Added to the \"Test with SDK Builder\" section.",
+      "parentUuid": "de3034c2_e180d698",
       "revId": "4bd0f2d5bf12eee74c90a50e0e2170c429617695",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -92,6 +164,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "17cdb09e_abc9004e",
+        "filename": "site/chromium-os/build/add-sdk-package/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1520128
+      },
+      "writtenOn": "2022-03-28T20:23:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "94e908e4_d08b53d3",
+      "range": {
+        "startLine": 18,
+        "startChar": 108,
+        "endLine": 18,
+        "endChar": 123
+      },
+      "revId": "4bd0f2d5bf12eee74c90a50e0e2170c429617695",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "419c1cac_f3259791",
@@ -105,6 +201,24 @@
       "writtenOn": "2022-03-28T13:42:16Z",
       "side": 1,
       "message": "we should document expectations here -- for cros-workon packages, the tests will automatically run in the CQ, so they need to pass.  for 3rd party packages, devs can run the tests to get some feedback locally, but they aren\u0027t run in the CQ, and they aren\u0027t required to pass.  we expect that upstream releases had their tests run already which is why we don\u0027t run them ourselves.",
+      "revId": "4bd0f2d5bf12eee74c90a50e0e2170c429617695",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7161f07e_57795cae",
+        "filename": "site/chromium-os/build/add-sdk-package/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1520128
+      },
+      "writtenOn": "2022-03-28T20:23:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "419c1cac_f3259791",
       "revId": "4bd0f2d5bf12eee74c90a50e0e2170c429617695",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -132,6 +246,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9eae2f3_e3f70f5f",
+        "filename": "site/chromium-os/build/add-sdk-package/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1520128
+      },
+      "writtenOn": "2022-03-28T20:23:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6c90e3bc_490d07b4",
+      "range": {
+        "startLine": 58,
+        "startChar": 54,
+        "endLine": 58,
+        "endChar": 57
+      },
+      "revId": "4bd0f2d5bf12eee74c90a50e0e2170c429617695",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1a28adcc_d814a862",
@@ -145,6 +283,30 @@
       "writtenOn": "2022-03-28T13:42:16Z",
       "side": 1,
       "message": "run-\u003elaunch",
+      "range": {
+        "startLine": 59,
+        "startChar": 17,
+        "endLine": 59,
+        "endChar": 20
+      },
+      "revId": "4bd0f2d5bf12eee74c90a50e0e2170c429617695",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f2550bcc_7fc03404",
+        "filename": "site/chromium-os/build/add-sdk-package/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1520128
+      },
+      "writtenOn": "2022-03-28T20:23:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a28adcc_d814a862",
       "range": {
         "startLine": 59,
         "startChar": 17,
