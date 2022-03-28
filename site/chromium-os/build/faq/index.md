@@ -10,41 +10,6 @@ title: Build FAQ
 
 [TOC]
 
-# cbuildbot
-
-## Overview of cbuildbot
-
-<https://www.chromium.org/chromium-os/build/using-remote-trybots>
-
-## How to run processes in parallel (chromite.lib.parallel)
-
-##
-<https://sites.google.com/a/chromium.org/dev/chromium-os/build/chromite-parallel>
-
-## Why is the HWTest phase stage 'orange'?
-
-The hardware test phase is 'orange' when it fails with a warning. These warnings
-occur when a test passed with warnings or after retries. They can also occur
-with the tests are aborted (see below).
-
-## How do I test that my change does not break an incremental build?
-
-To test whether your change breaks an incremental build, you will need to do two
-builds in a row in the same sandbox. You can do this with local tryjobs like the
-following:
-
-```none
-cros tryjob --local -g 1234 chell-incremental
-cros tryjob --local -g 1234 chell-incremental
-```
-
-## In cbuildbot_config.py, what does important=False mean?
-
-From the documentation in cbuildbot_config.py: If important=False then this bot
-cannot cause the tree to turn red. Set this to False if you are setting up a new
-bot. Once the bot is on the waterfall and is consistently green, mark the
-builder as important=True.
-
 # Google Storage
 
 ## What bucket can I use for testing?
