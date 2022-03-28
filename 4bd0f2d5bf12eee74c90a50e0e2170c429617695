@@ -20,6 +20,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5aab3689_f320bc10",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-03-28T14:10:13Z",
+      "side": 1,
+      "message": "also, might want to update this FAQ:\nhttps://chromium.googlesource.com/chromiumos/docs/+/HEAD/portage/ebuild_faq.md#how-does-the-cross-compiling-setup-work\n\nit\u0027s kind of a bad FAQ, but the current content semi-overlaps with this.",
+      "revId": "4bd0f2d5bf12eee74c90a50e0e2170c429617695",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "de3034c2_e180d698",
         "filename": "site/chromium-os/build/add-sdk-package/index.md",
         "patchSetId": 1
