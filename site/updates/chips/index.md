@@ -108,7 +108,7 @@ If you want to test your changes locally on your machine, you can enable the CHI
 
 These instructions describe how a web developer can perform end-to-end testing of Partitioned cookies in Chromium.
 
-Note: these instructions will only work with a Chromium instance M99 or above.
+Note: these instructions will only work with a Chromium instance M100 or above.
 
 1. Go to chrome://flags/#partitioned-cookies and change the setting to "Enabled".
 
