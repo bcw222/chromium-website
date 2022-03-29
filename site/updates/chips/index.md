@@ -32,6 +32,10 @@ You must also send the `Accept-CH: Sec-CH-Partitioned-Cookies` header in each HT
 
 If you have successfully opted into the origin trial, subsequent requests from the Chrome client will include the `Sec-CH-Partitioned-Cookies: ?1` request header until the current session is ended.
 If you store persistent partitioned cookies then you will receive the `Sec-CH-Partitioned-Cookies: ?0` request header for the first request to the cookies' origin.
+
+**Not all Chrome clients using versions 100-102 will be in the trial.**
+**If the client does not send the Sec-CH-Partitioned-Cookies header, then partitioned cookies are not enabled.**
+
 If you do not respond with a valid token in the `Origin-Trial` header and `Accept-CH: Partitioned-Cookies`, then the partitioned cookies on the machine will be converted to unpartitioned cookies.
 
 You can register your site for the origin trial [here](https://developer.chrome.com/origintrials/#/view_trial/1239615797433729025).
