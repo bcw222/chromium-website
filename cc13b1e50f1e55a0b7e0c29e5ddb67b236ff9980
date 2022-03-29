@@ -16,6 +16,86 @@
       "message": "droger@, PTAL for content",
       "revId": "cc13b1e50f1e55a0b7e0c29e5ddb67b236ff9980",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "779d399d_4ea36040",
+        "filename": "site/developers/shutdown/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1001438
+      },
+      "writtenOn": "2022-03-29T10:45:13Z",
+      "side": 1,
+      "message": "Optional: Is there already a section (or should we add one?) about the destruction of the UI relative to the profile? I always assumed that the UI would be destroyed before the Profile, but have we\u0027ve seen this is not true (at least on Mac).",
+      "revId": "cc13b1e50f1e55a0b7e0c29e5ddb67b236ff9980",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f328cf0a_346acacb",
+        "filename": "site/developers/shutdown/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1001438
+      },
+      "writtenOn": "2022-03-29T10:45:13Z",
+      "side": 1,
+      "message": "is it ScopedProfileKeepAlive?",
+      "range": {
+        "startLine": 19,
+        "startChar": 39,
+        "endLine": 19,
+        "endChar": 54
+      },
+      "revId": "cc13b1e50f1e55a0b7e0c29e5ddb67b236ff9980",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ae247e4e_0f844b9e",
+        "filename": "site/developers/shutdown/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1001438
+      },
+      "writtenOn": "2022-03-29T10:45:13Z",
+      "side": 1,
+      "message": "Maybe not worth calling out here, but some keyed services are refcounted, and may outlive this phase (RefcountedKeyedService)\n\nOptional: delete this line if it\u0027s inaccurate.",
+      "revId": "cc13b1e50f1e55a0b7e0c29e5ddb67b236ff9980",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e8105e20_ef163a64",
+        "filename": "site/developers/shutdown/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1001438
+      },
+      "writtenOn": "2022-03-29T10:45:13Z",
+      "side": 1,
+      "message": "FYI: I plan to build a chrome://profiles-internal page which would display this information, and maybe even a log of the recent keepalive changes. Hopefully we can start on this soon.",
+      "range": {
+        "startLine": 35,
+        "startChar": 12,
+        "endLine": 35,
+        "endChar": 37
+      },
+      "revId": "cc13b1e50f1e55a0b7e0c29e5ddb67b236ff9980",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
