@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "44d5b807_90219648",
+        "filename": "site/updates/chips/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1467227
+      },
+      "writtenOn": "2022-03-29T16:10:22Z",
+      "side": 1,
+      "message": "Is this controlled by a Finch flag?",
+      "range": {
+        "startLine": 37,
+        "startChar": 75,
+        "endLine": 37,
+        "endChar": 110
+      },
+      "revId": "a0cd9083cf244bf2cc297d7d965c3219b904a9dc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
