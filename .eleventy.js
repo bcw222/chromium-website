@@ -1,4 +1,4 @@
-module.exports = config => {
+export default config => []
   config.addWatchTarget('./site/_stylesheets/');
 
   // `markdown-it` is Eleventy's default Markdown rendering engine.
