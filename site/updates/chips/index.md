@@ -108,6 +108,11 @@ You can view the more detailed design document of the CHIPS Origin Trial [here](
 
 If you want to test your changes locally on your machine, you can enable the CHIPS origin trial bypass feature (chrome://flags/#partitioned-cookies-bypass-origin-trial) on your local device to use partitioned cookies on any site without them needing to opt into the trial.
 
+### A/B testing
+
+Sites can use the origin trial for [A/B testing](https://en.wikipedia.org/wiki/A/B_testing) by sending the `Origin-Trial` and `Accept-CH: Sec-CH-Partitioned-Cookies` headers to users in the experiment group and not send those headers to users in the control group.
+However, determining which users should belong to which group is the responsibility of the origin trial participant's servers.
+
 ## End-to-End Testing
 
 These instructions describe how a web developer can perform end-to-end testing of Partitioned cookies in Chromium.
