@@ -41,6 +41,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9713a2d_d5c3eb8a",
+        "filename": "site/chromium-os/build/local-trybot-documentation/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1516592
+      },
+      "writtenOn": "2022-04-01T17:51:19Z",
+      "side": 1,
+      "message": "I removed it altogether.",
+      "parentUuid": "5add3bc8_06ca581d",
+      "range": {
+        "startLine": 117,
+        "startChar": 0,
+        "endLine": 117,
+        "endChar": 10
+      },
+      "revId": "c1a587d4516bc3a1e018db2843168c2682b1dc97",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "96c83998_813fc2a1",
@@ -54,6 +78,30 @@
       "writtenOn": "2022-04-01T14:54:43Z",
       "side": 1,
       "message": "\"for rcui:\" (remove)?",
+      "range": {
+        "startLine": 125,
+        "startChar": 15,
+        "endLine": 125,
+        "endChar": 24
+      },
+      "revId": "c1a587d4516bc3a1e018db2843168c2682b1dc97",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "538c5185_f9959288",
+        "filename": "site/chromium-os/build/local-trybot-documentation/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1516592
+      },
+      "writtenOn": "2022-04-01T17:51:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "96c83998_813fc2a1",
       "range": {
         "startLine": 125,
         "startChar": 15,
