@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e56a21c0_7c89594d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2022-04-06T23:12:44Z",
+      "side": 1,
+      "message": "LGTM",
+      "revId": "8a48962c627222eb564f2deb41e9109c8ea3b45d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e06e602a_4a582d16",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 363,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2022-04-06T23:12:44Z",
+      "side": 1,
+      "message": "Nit: a vague request to wrap at 80 characters, in keeping consistency with the surrounding lines.",
+      "revId": "8a48962c627222eb564f2deb41e9109c8ea3b45d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
