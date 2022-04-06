@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c768c324_285c44f4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2022-04-06T15:19:26Z",
+      "side": 1,
+      "message": "how strange! lgtm \u0026 cq :)",
+      "revId": "bd2c4196c4fed211db993939a8af649f07143e17",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
