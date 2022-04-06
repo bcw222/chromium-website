@@ -56,6 +56,30 @@
       },
       "revId": "bb034a4640afc9c0f77aff92897b9e51eb45c3e2",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "471e6c1e_2049ec21",
+        "filename": "site/developers/design-documents/sync/model-api/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 292,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2022-04-06T14:14:37Z",
+      "side": 1,
+      "message": "That makes a lot of sense, thanks! Done.\n(I also moved the point about proto_value_conversions above this, since it should really happen together with the proto changes.)",
+      "parentUuid": "be741888_115f0ee2",
+      "range": {
+        "startLine": 292,
+        "startChar": 0,
+        "endLine": 292,
+        "endChar": 63
+      },
+      "revId": "bb034a4640afc9c0f77aff92897b9e51eb45c3e2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
