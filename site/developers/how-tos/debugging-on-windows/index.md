@@ -402,13 +402,19 @@ python tools\mb\mb.py zip out/Release base_unittests base_unittests.zip
 
 ## Finding all memory allocations
 
-It is possible to use Heap Snapshots (requires recent versions of Windows 10?)
-to get call stacks on all outstanding allocations. This works particularly well
-if heap snapshots are started as soon as the Chrome browser process is created,
-but before it starts running. Details can be found in [this batch
-file](https://github.com/google/UIforETW/blob/master/bin/etwheapsnapshot.bat).
+It is possible to use Heap Snapshots to get call stacks on all outstanding
+allocations that use the OS heap. This works particularly well if heap snapshots
+are started as soon as the Chrome browser process is created, but before it
+starts running. Details can be found in
+[this batch file](https://github.com/google/UIforETW/blob/master/bin/etwheapsnapshot.bat).
+However with PartitionAlloc Everywhere most Chromium allocations no longer use
+the Windows heap so this will only find a subset of allocations, mostly from OS
+DLLs
 
 ## Find memory leaks
+
+Note: as with Heap Snapshots the utility of UMDH is greatly reduced now because
+PartitionAlloc Everywhere has mostly replaced the Windows heap.
 
 The Windows heap manager has a really useful debug flag, where it can be asked
 to capture and store a stack trace with every allocation. The tool to scrape
@@ -452,10 +458,11 @@ which can then typically be "trivially" analyzed to find the culprit.
 
 ## Miscellaneous
 
-Note that until [crbug.com/1004989](http://crbug.com/1004989) is fixed you may
-need to add --disable-features=RendererCodeIntegrity to avoid sandbox crashes in
-renderer processes when using Application Verifier. See also [this
-page](/developers/testing/page-heap-for-chrome).
+Note that by default Application Verifier only works with non-official builds of
+Chromium. To use Application Verifier on official builds you need to add
+--disable-features=RendererCodeIntegrity to avoid sandbox crashes in renderer
+processes. See [crbug.com/1004989](http://crbug.com/1004989) for details. See
+also [this page](/developers/testing/page-heap-for-chrome).
 
 * [Application
                 Verifier](https://randomascii.wordpress.com/2011/12/07/increased-reliability-through-more-crashes/)
@@ -470,18 +477,13 @@ page](/developers/testing/page-heap-for-chrome).
                 with *Handles* and *Locks* checks enabled. When bugs are found
                 Chrome will trigger a breakpoint so running all Chrome processes
                 under a debugger is recommended. Chrome will run much more slowly
-                because Application Verifier puts every allocation on a separate
-                page.
+                because Application Verifier puts every heap allocation on a
+                separate page. Note that with PartitionAlloc Everywhere most
+                Chromium allocations don't actually go through the Windows heap
+                and are therefore unaffected by Application Verifier.
 * You can check the undocumented 'Cuzz' checkbox in Application
                 Verifier to get the Windows thread scheduler to add some extra
                 randomness in order to help expose race conditions in your code.
-* Putting every allocation on a separate page will *dramatically*
-                affect performance so you may want to only do this for some
-                applications. If you right-click on the Heaps checkbox and select
-                Properties you can edit things like the size range for what
-                allocations go into PageHeap (the page-per-allocation system) and
-                you can set a RandRate percentage to randomly put allocations in
-                PageHeap.
 
 * To put a breakpoint on CreateFile(), add this break point:
 {,,kernel32.dll}_CreateFileW@28
