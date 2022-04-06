@@ -16,8 +16,8 @@ implementing their own local storage and responding to remote changes. This
 guide is for developers interested in syncing data for their model type to the
 cloud using Chrome Sync. It describes the newest version of the API, known as
 Unified Sync and Storage (USS). There is also the deprecated [SyncableService
-API] (aka Directory), which as of mid-2019 is still used by several legacy model
-types, but "wrapped into" USS (see [SyncableServiceBasedBridge]).
+API] (aka Directory), which as of early 2022 is still used by several legacy
+model types, but "wrapped into" USS (see [SyncableServiceBasedBridge]).
 
 [SyncableService API]: https://www.chromium.org/developers/design-documents/sync/syncable-service-api
 [SyncableServiceBasedBridge]: https://cs.chromium.org/chromium/src/components/sync/model/syncable_service_based_bridge.h
@@ -265,6 +265,9 @@ the next client restart.
 
 ## Sync Integration Checklist
 
+Before starting any integration work, please reach out to us at
+chrome-sync-dev@google.com and share your plans / design doc!
+
 *   Define your specifics proto in [`//components/sync/protocol/`][protocol].
 *   Add a field for it to [`EntitySpecifics`][EntitySpecifics].
 *   Add it to the [`ModelType`][ModelType] enum and
@@ -285,6 +288,10 @@ the next client restart.
     [GetUserSelectableTypeInfo].
 *   Add to the `SyncModelTypes` enum in [`enums.xml`][enums] and to the
     `SyncModelType` suffix in [`histograms.xml`][histograms].
+
+After you have completed the first two points of the checklist (i.e. the proto
+changes), there are also some server-side integration steps to be done. Reach
+out to chrome-sync-dev@google.com for details about that.
 
 [protocol]: https://cs.chromium.org/chromium/src/components/sync/protocol/
 [ModelType]: https://cs.chromium.org/chromium/src/components/sync/base/model_type.h
