@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b735ed30_f7adb312",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1402492
+      },
+      "writtenOn": "2022-04-12T03:25:34Z",
+      "side": 1,
+      "message": "Hi Marco,\n\nThis CL is to add the launched device Galtic360 to the device list of Chromium site: https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/\nCould you please help to approve this CL?\n\nThank you,\nEdward",
+      "revId": "87a67ef80be894033f58e6846c910aadd0c4be0a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
