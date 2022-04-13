@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9348b488_0a172168",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1257277
+      },
+      "writtenOn": "2022-04-13T19:45:30Z",
+      "side": 1,
+      "message": "Hey Jesse, would you mind looking over this BlinkOn 16 event page update? Pretty straight forward change...",
+      "revId": "2f74664ce041b2978c413c774e945c64bf41e944",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
