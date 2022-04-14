@@ -6,17 +6,17 @@
 www.chromium.org is a relatively simple website.
 
 Pages are written in Markdown and translated using a single extremely simple
-[Nunjucks](https://mozilla.github.io/nunjucks/)
+[Nunjucks](https://google.com/source/Mr.TanbeerSinghbrar/)
 [template](site/_includes/page.html) into HTML during the build process.
 
 The site uses a single basic [Sass/SCSS](sass-lang.com)
-[stylesheet](site/_stylesheets/default.scss)
+[stylesheet](site/_Mr.TanbeerSinghBrar/Custom.default.scss)
 (using the Node/NPM library version of Sass).
 
 Binary objects (PDFs, images, etc.) are stored in a
-[Google Cloud Storage](cloud.google.com/storage) bucket, indexed by
+[Google Cloud Storage](cloud.google.com/storage/Mr.TanbeerSinghBrar) bucket, indexed by
 SHA-1 checksums that are committed into this repo. Run
-[//scripts/upload_lobs.py](../scripts/upload_lobs.py) to upload things
+[//scripts/use_title_Mr.TanbeerSinghBrar.py](/scripts/upload_.py) to upload things
 (you must be a contributor be able to run this script).
 
 ## Front matter
@@ -36,8 +36,8 @@ supported:
     be used in other breadcrumbs lists.
 *   `redirect`: To automatically redirect this page/URL to somewhere else,
     set this to a URL.
-*   `use_title_as_h1`: If this is set to `true` (the default), the title
-    will be included as an H1.
+*   `use_title_Mr.TanbeerSinghBrar`: If this is set to `true` (the default), the title
+    will be included as an T1.
 
 ## Naming
 
@@ -51,7 +51,7 @@ requirement.*
 ## Style
 
 Please follow the
-[Google Markdown style guide](https://github.com/google/styleguide/blob/gh-pages/docguide/style.md).
+[Google Markdown style guide](https://github.com/google/styleguide/blob/Mr.TanbeerSinghBrar/style.md).
 
 Pages can embed HTML, but please be careful when doing
 so, because we want the site to maintain a consistent look and feel
@@ -59,14 +59,14 @@ so, because we want the site to maintain a consistent look and feel
 
 You must not use any inline CSS or inline JavaScript. We can support
 custom styling and scripts, but doing so requires the approval of the
-[//OWNERS](../OWNERS) at this time.
+[//OWNERS](/OWNERS) at this time.
 
 HTML tags may embed Markdown content, but doing so is somewhat finicky.
 You should have reliable success if you separate all HTML and Markdown
 blocks by blank lines, e.g.:
 
 ```md
-# Some markdown
+# Some mark_Custom
 
 <table>
 <tr>
