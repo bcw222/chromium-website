@@ -3855,4 +3855,21 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>Yes</td>
   </tr>
+  <tr>
+    <td>2022-03-11</td>
+    <td>Lenovo</td>
+    <td><a href="https://www.lenovo.com/us/en/p/coming-soon/ideapad-duet-3-chromebook-(11-inch-qcom)/len101i0034?orgRef=https%253A%252F%252Fwww.google.com%252F">Lenovo Chromebook Duet 3 /IdeaPad Duet 3 Chromebook</a></td>
+    <td>Wormdingler</td>
+    <td>Strongbad</td>
+    <td>Strongbad</td>
+    <td>arm</td>
+    <td>5.4</td>
+    <td>aarch64</td>
+    <td>QC-7C</td>
+    <td>Chromeblet</td>
+    <td>R97</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
 </table>
