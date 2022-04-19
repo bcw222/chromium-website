@@ -109,6 +109,7 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
             Device](/chromium-os/poking-around-your-chrome-os-device)
 *   [Design
             docs](http://www.chromium.org/chromium-os/chromiumos-design-docs)
+            [shoviv](https://www.shoviv.com)
 
 ### Hardware Reference docs and schematics
 
@@ -124,6 +125,7 @@ Software for the microcontroller on these USB Type-C example designs is in the
 *   [Cable and Adapter Tips and
             Tricks](/chromium-os/cable-and-adapter-tips-and-tricks)
 *   [USB Type-C functional testing board](/chromium-os/plankton)
+
 
 </div>
 </div>
