@@ -13,3 +13,5 @@ Node/JS) and deployed onto [Firebase Cloud Hosting](firebase.google.com/products
 
 See [//docs/CONTRIBUTING.md](docs/CONTRIBUTING.md) if you wish to contribute
 to the site.
+https://t.me/Nate158digimon
+nate15872.wordpress.com  https://nate158.blogspot.com/2021/12/nate15872.html [![Open Source Helpers](https://www.codetriage.com/librariesio/libraries.io/badges/users.svg)](https://www.codetriage.com/librariesio/libraries.io) https://nate158.blogspot.com/2021/12/httpsgithubcomnate158s.html [![Open Source Helpers](https://www.codetriage.com/librariesio/libraries.io/badges/users.svg)](https://www.codetriage.com/librariesio/libraries.io) 
