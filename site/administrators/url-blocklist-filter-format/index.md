@@ -138,3 +138,11 @@ Example: block all access to youtube, except for selected videos.
 *   Block "youtube.com"
 *   Allow "youtube.com/watch?v=V1"
 *   Allow "youtube.com/watch?v=V2"
+Software\Policies\Google\Chrome\URLBlocklist\1 = baidu.com
+Software\Policies\Google\Chrome\URLBlocklist\2 = https://ssl.server.com
+Software\Policies\Google\Chrome\URLBlocklist\3 = hosting.com/bad_path
+Software\Policies\Google\Chrome\URLBlocklist\4 = https://server:8080/path
+Software\Policies\Google\Chrome\URLBlocklist\5 = .exact.hostname.com
+Software\Policies\Google\Chrome\URLBlocklist\6 = file://*
+Software\Policies\Google\Chrome\URLBlocklist\7 = custom_scheme:*
+Software\Policies\Google\Chrome\URLBlocklist\8 = *
