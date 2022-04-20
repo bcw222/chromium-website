@@ -275,21 +275,22 @@ chrome-sync-dev@google.com and share your plans / design doc!
     Reach out to chrome-sync-dev@google.com for details.
 *   Add it to the [`ModelType`][ModelType] enum and
     [`kModelTypeInfoMap`][info_map].
-*   Register a [`ModelTypeController`][ModelTypeController] for your type in
-    [`SyncApiComponentFactoryImpl::CreateCommonDataTypeControllers`][CreateCommonDataTypeControllers] or platform-specific equivalent in
-    [`ChromeSyncClient::CreateDataTypeControllers`][CreateDataTypeControllers].
-*   Add your KeyedService dependency to
-    [`SyncServiceFactory`][SyncServiceFactory].
+*   Add to the `SyncModelTypes` enum in [`enums.xml`][enums] and to the
+    `SyncModelType` suffix in [`histograms.xml`][histograms].
 *   Add an field for encrypted data to [`NigoriSpecifics`][NigoriSpecifics].
 *   If your type should have its own toggle in sync settings, add an entry to
     the [`UserSelectableType`][UserSelectableType] enum, add a
     [preference][pref_names] for tracking whether your type is enabled, and
     map your type to the pref in [`GetPrefNameForType`][GetPrefName].
 *   Otherwise, if your type should be included in an existing toggle in sync
-    settings, add it in [`GetUserSelectableTypeInfo`]
-    [GetUserSelectableTypeInfo].
-*   Add to the `SyncModelTypes` enum in [`enums.xml`][enums] and to the
-    `SyncModelType` suffix in [`histograms.xml`][histograms].
+    settings, add it in
+    [`GetUserSelectableTypeInfo`][GetUserSelectableTypeInfo].
+*   Register a [`ModelTypeController`][ModelTypeController] for your type in
+    [`SyncApiComponentFactoryImpl::CreateCommonDataTypeControllers`][CreateCommonDataTypeControllers]
+    or platform-specific equivalent in
+    [`ChromeSyncClient::CreateDataTypeControllers`][CreateDataTypeControllers].
+*   Add your KeyedService dependency to
+    [`SyncServiceFactory`][SyncServiceFactory].
 
 [protocol]: https://cs.chromium.org/chromium/src/components/sync/protocol/
 [ModelType]: https://cs.chromium.org/chromium/src/components/sync/base/model_type.h
