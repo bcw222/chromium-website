@@ -3,7 +3,7 @@ breadcrumbs:
 - - /administrators
   - Documentation for Administrators
 page_name: ios-mdm-policy-format
-title: iOS MDM Policy Format
+title: iOS MDM Policy Format (deprecated)
 ---
 
 Policy Support on Chrome on iOS is being removed in Chrome 48 as part of
