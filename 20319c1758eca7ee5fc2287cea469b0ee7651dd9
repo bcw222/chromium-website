@@ -16,6 +16,52 @@
       "message": "Preview appears to add the line to the table as expected.",
       "revId": "20319c1758eca7ee5fc2287cea469b0ee7651dd9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "126b273a_d03e323a",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 3842,
+      "author": {
+        "id": 1000107
+      },
+      "writtenOn": "2022-04-21T18:42:54Z",
+      "side": 1,
+      "message": "It looks as if these are sorted by Release date, but yours is out of order. Can you re-order it?",
+      "range": {
+        "startLine": 3842,
+        "startChar": 8,
+        "endLine": 3842,
+        "endChar": 18
+      },
+      "revId": "20319c1758eca7ee5fc2287cea469b0ee7651dd9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dd59e561_c5da4c85",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 3861,
+      "author": {
+        "id": 1000107
+      },
+      "writtenOn": "2022-04-21T18:42:54Z",
+      "side": 1,
+      "message": "Any chance there\u0027s a more permanent URL that doesn\u0027t have coming-soon?",
+      "range": {
+        "startLine": 3861,
+        "startChar": 48,
+        "endLine": 3861,
+        "endChar": 59
+      },
+      "revId": "20319c1758eca7ee5fc2287cea469b0ee7651dd9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
