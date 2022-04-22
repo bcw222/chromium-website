@@ -33,6 +33,24 @@
       "message": "I suggest keeping the title \"How To Measure Usage and Notify Developers\" and then using \"See ...\" as the text content of this section. I think it will format a bit more nicely (the gitiles preview on gerrit doesn\u0027t properly handle TOC, but even with that, it looks a bit funny atm)",
       "revId": "247cf2c6ed688a6146cfd1d43d142b3eedb4878a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d9db8b1_bf093cfd",
+        "filename": "site/blink/deprecating-features/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1512447
+      },
+      "writtenOn": "2022-04-22T12:33:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1b0107e1_7c1951b6",
+      "revId": "247cf2c6ed688a6146cfd1d43d142b3eedb4878a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
