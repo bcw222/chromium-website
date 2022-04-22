@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec39794e_581269f3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2022-04-22T08:19:13Z",
+      "side": 1,
+      "message": "LGTM w/nit",
+      "revId": "247cf2c6ed688a6146cfd1d43d142b3eedb4878a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1b0107e1_7c1951b6",
+        "filename": "site/blink/deprecating-features/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2022-04-22T08:19:13Z",
+      "side": 1,
+      "message": "I suggest keeping the title \"How To Measure Usage and Notify Developers\" and then using \"See ...\" as the text content of this section. I think it will format a bit more nicely (the gitiles preview on gerrit doesn\u0027t properly handle TOC, but even with that, it looks a bit funny atm)",
+      "revId": "247cf2c6ed688a6146cfd1d43d142b3eedb4878a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
