@@ -106,13 +106,13 @@ python third_party/blink/tools/run_web_tests.py --no-show-results --no-retry-fa
 To run just one test:
 
 ```none
-out/Release/content_shell --run-layout-test third_party/blink/web_tests/accessibility/test_name.html
+out/Release/content_shell --run-web-tests third_party/blink/web_tests/accessibility/test_name.html
 ```
 
 To run just one test, on Mac OS X:
 
 ```none
-out/Release/Content\ Shell.app/Contents/MacOS/Content\ Shell --run-layout-test third_party/blink/web_tests/accessibility/test_name.html
+out/Release/Content\ Shell.app/Contents/MacOS/Content\ Shell --run-web-tests third_party/blink/web_tests/accessibility/test_name.html
 ```
 
 ## Audit testing
