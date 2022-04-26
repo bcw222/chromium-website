@@ -15,7 +15,7 @@ in order to enable particular features or modify otherwise default
 functionality.
 
 Current switches may be found at
-<http://peter.sh/examples/?/chromium-switches.html>
+<http://peter.sh/examples/?/chromium-switches.html>.
 
 It is important to note that some switches are intended for development and
 temporary cases. They may break, change, or be removed in the future without
