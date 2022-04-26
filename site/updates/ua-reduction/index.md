@@ -22,8 +22,7 @@ October 12, 2021: Information on using the Origin Trial with third-party embeds
 was add to the [blog
 post](https://developer.chrome.com/blog/user-agent-reduction-origin-trial/).
 
-September 16, 2021: Chrome milestones were added to reflect
-<https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html>.
+
 
 May 24, 2021: The chrome://flags#freeze-user-agent flag was renamed to
 chrome://flags/#reduce-user-agent in Chrome 93 and the values were updated to
