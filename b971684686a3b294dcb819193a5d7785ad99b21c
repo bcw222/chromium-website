@@ -34,6 +34,24 @@
       "parentUuid": "f15227cd_3a77a9fe",
       "revId": "b971684686a3b294dcb819193a5d7785ad99b21c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "85f08d11_f0c111eb",
+        "filename": "site/developers/bisect-builds-py/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-04-27T18:29:26Z",
+      "side": 0,
+      "message": "python3 is a hard requirement.  python2 needs to die.  we should be removing references to python2 that aren\u0027t needed anymore.\n\nyou can specify `python3` below instead of `python`.",
+      "parentUuid": "d759fb7d_2bb7ab61",
+      "revId": "b971684686a3b294dcb819193a5d7785ad99b21c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
