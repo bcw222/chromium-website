@@ -34,8 +34,8 @@ that is often more useful to developers.
 
 ## Routers
 
-These WiFi routers are marketed as [OnHub](https://on.google.com/hub/), [Google
-Wifi](https://store.google.com/us/product/google_wifi), and [Nest
+These WiFi routers are marketed as [Google
+Wifi](https://store.google.com/us/product/google_wifi), and [N
 Wifi](https://store.google.com/us/product/nest_wifi).
 
 <table>
