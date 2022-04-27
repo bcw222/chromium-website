@@ -52,6 +52,24 @@
       "parentUuid": "d759fb7d_2bb7ab61",
       "revId": "b971684686a3b294dcb819193a5d7785ad99b21c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "657b1a16_fd63d0ab",
+        "filename": "site/developers/bisect-builds-py/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1340678
+      },
+      "writtenOn": "2022-04-27T18:31:50Z",
+      "side": 0,
+      "message": "Ack.  I don\u0027t work with Python regularly, so I was worried about breaking fellow Chromies inadvertently.\n\nI can put together another update to drop the python2 blurb.",
+      "parentUuid": "85f08d11_f0c111eb",
+      "revId": "b971684686a3b294dcb819193a5d7785ad99b21c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
