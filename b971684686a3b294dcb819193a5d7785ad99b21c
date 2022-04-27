@@ -16,6 +16,24 @@
       "message": "we should delete all python2 logic at this point",
       "revId": "b971684686a3b294dcb819193a5d7785ad99b21c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d759fb7d_2bb7ab61",
+        "filename": "site/developers/bisect-builds-py/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1340678
+      },
+      "writtenOn": "2022-04-27T18:10:23Z",
+      "side": 0,
+      "message": "I stumbled upon this when an end user that was helping with a bisection had to download Python prior to bisecting, and of course got Python3 for that.\n\nThe pre-existing instructions for Python2 work for Chromies, since our default python is still Python2.\n\nI should probably clarify that:  at least on _my_ Windows workstation the path setup I have still has python.exe resolving to Python2, and that works for everything else.  I have to use `python3` or `vpython` to explicitly get Python3.\n\nMaybe me (and others?) might need their `PATH` environment variable updated if as an org we are at the point where everything is fully switched to Python3?",
+      "parentUuid": "f15227cd_3a77a9fe",
+      "revId": "b971684686a3b294dcb819193a5d7785ad99b21c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
