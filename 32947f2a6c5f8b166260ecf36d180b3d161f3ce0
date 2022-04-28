@@ -16,6 +16,115 @@
       "message": "Hi Jesse, would you mind looking over this additional content update for the BlinkOn 16 event page? Thanks!",
       "revId": "32947f2a6c5f8b166260ecf36d180b3d161f3ce0",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2bbb3af7_69552459",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-04-28T21:52:31Z",
+      "side": 1,
+      "message": "Just a few nits - the joys of markdown formatting : )",
+      "revId": "32947f2a6c5f8b166260ecf36d180b3d161f3ce0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1ae6e477_3d22d62c",
+        "filename": "site/events/blinkon-16/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-04-28T21:52:31Z",
+      "side": 1,
+      "message": "I think this space is breaking the bold formatting (per the preview: https://chromium-website--cl3615073-ps1-833r1isd.web.app/events/blinkon-16/) - I\u0027d try removing it and checking the preview again",
+      "range": {
+        "startLine": 40,
+        "startChar": 211,
+        "endLine": 40,
+        "endChar": 212
+      },
+      "revId": "32947f2a6c5f8b166260ecf36d180b3d161f3ce0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2b0f4eb2_32107d5f",
+        "filename": "site/events/blinkon-16/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-04-28T21:52:31Z",
+      "side": 1,
+      "message": "nit: I think this should be \"and\"",
+      "range": {
+        "startLine": 40,
+        "startChar": 10,
+        "endLine": 40,
+        "endChar": 14
+      },
+      "revId": "32947f2a6c5f8b166260ecf36d180b3d161f3ce0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "31e3457f_3f3885b2",
+        "filename": "site/events/blinkon-16/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-04-28T21:52:31Z",
+      "side": 1,
+      "message": "I get Access Denied when trying to view this. I\u0027m not sure if BlinkOn attendees have access, but just FYI.",
+      "range": {
+        "startLine": 51,
+        "startChar": 46,
+        "endLine": 51,
+        "endChar": 59
+      },
+      "revId": "32947f2a6c5f8b166260ecf36d180b3d161f3ce0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f912f48f_267375d9",
+        "filename": "site/events/blinkon-16/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-04-28T21:52:31Z",
+      "side": 1,
+      "message": "This bullet isn\u0027t being indented on the preview. I think starting the numbering at 1 here should fix it, but I\u0027d double-check the preview after making that change to be sure.",
+      "range": {
+        "startLine": 65,
+        "startChar": 4,
+        "endLine": 65,
+        "endChar": 6
+      },
+      "revId": "32947f2a6c5f8b166260ecf36d180b3d161f3ce0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
