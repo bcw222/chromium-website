@@ -10,7 +10,7 @@ title: Important Abstractions and Data Structures
 
 [TOC]
 
-## [TaskRunner](https://code.google.com/p/chromium/codesearch#chromium/src/base/task_runner.h&q=TaskRunner&sq=package:chromium&type=cs) & [SequencedTaskRunner](https://code.google.com/p/chromium/codesearch#chromium/src/base/sequenced_task_runner.h&q=SequencedTaskRunner&sq=package:chromium&type=cs) & [SingleThreadTaskRunner](https://code.google.com/p/chromium/codesearch#chromium/src/base/single_thread_task_runner.h&q=SingleThreadTaskRunner&sq=package:chromium&type=cs)
+## [TaskRunner](https://source.chromium.org/chromium/chromium/src/+/main:base/task/task_runner.h) & [SequencedTaskRunner](https://source.chromium.org/chromium/chromium/src/+/main:base/task/sequenced_task_runner.h) & [SingleThreadTaskRunner](https://source.chromium.org/chromium/chromium/src/+/main:base/task/single_thread_task_runner.h)
 
 Interfaces for posting base::Callbacks "tasks" to be run by the TaskRunner.
 TaskRunner makes no guarantees about execution (order, concurrency, or if it's
@@ -27,7 +27,7 @@ run.
 which will post a task to a target TaskRunner and on completion post a "reply"
 task to the origin TaskRunner.
 
-## [MessageLoop](https://code.google.com/p/chromium/codesearch#chromium/src/base/message_loop/message_loop.h&q=MessageLoop&sq=package:chromium&type=cs&l=46) & [MessageLoopProxy](https://code.google.com/p/chromium/codesearch#chromium/src/base/message_loop/message_loop_proxy.h&q=MessageLoopProxy&sq=package:chromium&type=cs&l=17) & [BrowserThread](https://code.google.com/p/chromium/codesearch#chromium/src/content/public/browser/browser_thread.h&q=BrowserThread&sq=package:chromium&type=cs) & [RunLoop](https://code.google.com/p/chromium/codesearch#chromium/src/base/run_loop.h&q=run_loop.h&sq=package:chromium&type=cs&l=31)
+## [MessageLoop](https://source.chromium.org/chromium/chromium/src/+/main:ppapi/cpp/message_loop.h) & [MessageLoopProxy](https://source.chromium.org/chromium/chromium/src/+/main:ppapi/proxy/ppb_message_loop_proxy.h) & [BrowserThread](https://source.chromium.org/chromium/chromium/src/+/main:content/public/browser/browser_thread.h) & [RunLoop](https://source.chromium.org/chromium/chromium/src/+/main:base/run_loop.h)
 
 These are various APIs for posting a task. MessageLoop is a concrete object used
 by MessageLoopProxy (the most widely used task runner in Chromium code). You
