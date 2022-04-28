@@ -39,6 +39,30 @@
       },
       "revId": "b2539516ab6953269b952a272b6fdf5223501792",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7475d3df_f9ee08f3",
+        "filename": "site/administrators/policy-list-3/cookie-legacy-samesite-policies/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1316595
+      },
+      "writtenOn": "2022-04-28T18:43:45Z",
+      "side": 1,
+      "message": "I agree it can be a bit confusing but I would rather keep the full name to make it easier to copy/paste and search for it if that\u0027s alright by you.",
+      "parentUuid": "1e085b05_de6d6813",
+      "range": {
+        "startLine": 13,
+        "startChar": 17,
+        "endLine": 13,
+        "endChar": 65
+      },
+      "revId": "b2539516ab6953269b952a272b6fdf5223501792",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
