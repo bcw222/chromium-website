@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bac4fb1b_a7c07167",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2022-04-28T18:37:29Z",
+      "side": 1,
+      "message": "lgtm % nit",
+      "revId": "b2539516ab6953269b952a272b6fdf5223501792",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1e085b05_de6d6813",
+        "filename": "site/administrators/policy-list-3/cookie-legacy-samesite-policies/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2022-04-28T18:37:29Z",
+      "side": 1,
+      "message": "nit: this paragraph confused me at first, probably because \"LegacySameSiteCookieBehaviorEnabledForDomainList\" and \"LegacySameSiteCookieBehaviorEnabled\" look similar enough that they misled me into thinking they were the same. I would rephrase this to avoid that, as:\n\n\"The ForDomainList variant of this policy will be available until ...\"",
+      "range": {
+        "startLine": 13,
+        "startChar": 17,
+        "endLine": 13,
+        "endChar": 65
+      },
+      "revId": "b2539516ab6953269b952a272b6fdf5223501792",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
