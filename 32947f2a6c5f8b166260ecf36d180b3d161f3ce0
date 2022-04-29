@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1a476f4c_d99ca0c2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1257277
+      },
+      "writtenOn": "2022-04-29T17:07:22Z",
+      "side": 1,
+      "message": "Thanks for taking such a careful look! I\u0027ve corrected all these issues (yay markdown conversion tools, and the broken link that you caught) in the followup cl here. Please let me know if all looks good with that!",
+      "parentUuid": "2bbb3af7_69552459",
+      "revId": "32947f2a6c5f8b166260ecf36d180b3d161f3ce0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1ae6e477_3d22d62c",
@@ -81,6 +99,54 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "73037b4d_fdd90a46",
+        "filename": "site/events/blinkon-16/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1257277
+      },
+      "writtenOn": "2022-04-29T17:07:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1ae6e477_3d22d62c",
+      "range": {
+        "startLine": 40,
+        "startChar": 211,
+        "endLine": 40,
+        "endChar": 212
+      },
+      "revId": "32947f2a6c5f8b166260ecf36d180b3d161f3ce0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fc5e5fff_b6f7c518",
+        "filename": "site/events/blinkon-16/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1257277
+      },
+      "writtenOn": "2022-04-29T17:07:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2b0f4eb2_32107d5f",
+      "range": {
+        "startLine": 40,
+        "startChar": 10,
+        "endLine": 40,
+        "endChar": 14
+      },
+      "revId": "32947f2a6c5f8b166260ecf36d180b3d161f3ce0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "31e3457f_3f3885b2",
@@ -104,6 +170,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ef6429f_60554df7",
+        "filename": "site/events/blinkon-16/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1257277
+      },
+      "writtenOn": "2022-04-29T17:07:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "31e3457f_3f3885b2",
+      "range": {
+        "startLine": 51,
+        "startChar": 46,
+        "endLine": 51,
+        "endChar": 59
+      },
+      "revId": "32947f2a6c5f8b166260ecf36d180b3d161f3ce0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f912f48f_267375d9",
@@ -117,6 +207,30 @@
       "writtenOn": "2022-04-28T21:52:31Z",
       "side": 1,
       "message": "This bullet isn\u0027t being indented on the preview. I think starting the numbering at 1 here should fix it, but I\u0027d double-check the preview after making that change to be sure.",
+      "range": {
+        "startLine": 65,
+        "startChar": 4,
+        "endLine": 65,
+        "endChar": 6
+      },
+      "revId": "32947f2a6c5f8b166260ecf36d180b3d161f3ce0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ea1530e_05f3a511",
+        "filename": "site/events/blinkon-16/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1257277
+      },
+      "writtenOn": "2022-04-29T17:07:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f912f48f_267375d9",
       "range": {
         "startLine": 65,
         "startChar": 4,
