@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "275d2766_3f38e7f5",
+        "filename": "site/developers/design-documents/sync/model-api/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 269,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2022-05-03T09:00:16Z",
+      "side": 1,
+      "message": "nit: Put this sentence *after* the \"Before starting...\" one? Would read a bit more natural IMO, and arguably the reaching out is the more important part :)",
+      "range": {
+        "startLine": 268,
+        "startChar": 0,
+        "endLine": 269,
+        "endChar": 4
+      },
+      "revId": "4bba310e4cb17fe3d2c523c38f19eaf8cad2762f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e5561086_83eb949f",
+        "filename": "site/developers/design-documents/sync/model-api/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 312,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2022-05-03T09:00:16Z",
+      "side": 1,
+      "message": "WDYT about creating a go-link for this? Would be kind of nicer than using internal URLs like this.\n(Website example that does this: https://www.chromium.org/developers/how-tos/get-the-code/)",
+      "range": {
+        "startLine": 312,
+        "startChar": 29,
+        "endLine": 312,
+        "endChar": 135
+      },
+      "revId": "4bba310e4cb17fe3d2c523c38f19eaf8cad2762f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
