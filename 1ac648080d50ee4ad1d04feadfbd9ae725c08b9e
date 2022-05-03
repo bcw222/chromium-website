@@ -39,6 +39,30 @@
       },
       "revId": "1ac648080d50ee4ad1d04feadfbd9ae725c08b9e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5c688847_1b1c349e",
+        "filename": "site/developers/design-documents/sync/model-api/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 312,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2022-05-03T09:12:47Z",
+      "side": 1,
+      "message": "It doesn\u0027t work with go/; it does work if you spell it out like this: https://goto.corp.google.com/chrome-sync-add-new-data-type\nMight be better, just so that we don\u0027t have odd-looking http links around?",
+      "parentUuid": "ccd28bcb_f9a33504",
+      "range": {
+        "startLine": 312,
+        "startChar": 29,
+        "endLine": 312,
+        "endChar": 33
+      },
+      "revId": "1ac648080d50ee4ad1d04feadfbd9ae725c08b9e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
