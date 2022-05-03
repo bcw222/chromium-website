@@ -265,7 +265,8 @@ the next client restart.
 
 ## Sync Integration Checklist
 
-Before starting any integration work, please reach out to us at
+If you're a Googler, see the server-side [checklist][internal_integration_page]
+too.  Before starting any integration work, please reach out to us at
 chrome-sync-dev@google.com and share your plans / design doc!
 
 *   Define your specifics proto in [`//components/sync/protocol/`][protocol].
@@ -308,6 +309,7 @@ chrome-sync-dev@google.com and share your plans / design doc!
 [enums]: https://cs.chromium.org/chromium/src/tools/metrics/histograms/enums.xml
 [histograms]: https://cs.chromium.org/chromium/src/tools/metrics/histograms/histograms.xml
 [DataTypeHistogram]: https://cs.chromium.org/chromium/src/components/sync/base/data_type_histogram.h
+[internal_integration_page]: https://g3doc.corp.google.com/personalization/chrome/sync/g3doc/eng/sync_data_types/adding_new_datatype.md
 
 ## Testing
 
