@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8eed0a64_1c542660",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1226544
+      },
+      "writtenOn": "2022-05-04T21:22:39Z",
+      "side": 1,
+      "message": "No, sorry for the noise, I\u0027ll abandon this change.",
+      "parentUuid": "f63ef86a_1b389158",
+      "revId": "d6f56ae6c3af9d14a6b1aac94bf1736927b4c90f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "780656ad_c507c3cf",
@@ -31,6 +49,30 @@
       "writtenOn": "2022-02-23T16:24:15Z",
       "side": 1,
       "message": "if it\u0027s obsolete, why not delete it? this is all stored in git now so we can get the old version back if we want it",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 151
+      },
+      "revId": "d6f56ae6c3af9d14a6b1aac94bf1736927b4c90f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2acd93a3_65848c72",
+        "filename": "site/developers/how-tos/inspecting-ash/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1226544
+      },
+      "writtenOn": "2022-05-04T21:22:39Z",
+      "side": 1,
+      "message": "I don\u0027t use this functionality myself, and I am uncertain that the entirety of this document would be covered by the newer-looking overview. I just stumbled on these docs when trying to help someone and mostly wanted to point folks at the newer doc. I\u0027ll leave official updates to folks actively working in this space.",
+      "parentUuid": "780656ad_c507c3cf",
       "range": {
         "startLine": 11,
         "startChar": 0,
