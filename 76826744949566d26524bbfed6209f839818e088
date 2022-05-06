@@ -16,6 +16,24 @@
       "message": "Anyone could help with a CR+2? I cannot work CR+2 myself.. 😊",
       "revId": "76826744949566d26524bbfed6209f839818e088",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "44f17d7b_ab25eaa0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1346692
+      },
+      "writtenOn": "2022-05-06T06:44:34Z",
+      "side": 1,
+      "message": "Oh, it seems we don\u0027t need CR+2 here. Thanks!",
+      "parentUuid": "a8fbb607_6f6dbfa7",
+      "revId": "76826744949566d26524bbfed6209f839818e088",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ],
   "submitRequirementResults": [
