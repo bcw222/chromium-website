@@ -27,7 +27,7 @@ The current status:
 To build Chrome with control flow integrity for virtual calls, indirect calls,
 and bad casts (Linux x86_64 only):
 
-gn gen out/cfi '--args=is_debug=false is_cfi=true use_cfi_icall=true
+**gn gen out/cfi '--args=is_debug=false is_cfi=true use_cfi_icall=true
 use_cfi_cast=true use_thin_lto=true' --check**
 
 **ninja -C out/cfi chrome # Chrome will take 6 minutes or so to link.**
