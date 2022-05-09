@@ -156,14 +156,6 @@ both web developers and users. Your feature must satisfy the following:
                 page of your choice.
     *   Should include details about availability via origin trials.
 
-## What is the timeline for running a trial and collecting feedback?
-
-Please see our [overview of the timeline for running a trial and collecting
-feedback](https://docs.google.com/document/d/1ttgWkpQUtlJy0Q5HhXdaPKs2DHfITbNwLqtNRxqdKMI/edit).
-Contact
-[experimentation-dev@chromium.org](mailto:experimentation-dev@chromium.org) with
-any questions.
-
 ## What is the actual process to run an origin trial?
 
 First review the [Blink launch process](/blink/launching-features). Please
