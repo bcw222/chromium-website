@@ -16,6 +16,69 @@
       "message": "There was an extra backtick in the docs that was causing some confusion. ",
       "revId": "fd1698a65ac7ef8fe55debb2a24302e4e33d7692",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f467fba0_b643b554",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-05-09T16:35:14Z",
+      "side": 1,
+      "message": "LGTM with nits, thanks for the cleanup!",
+      "revId": "fd1698a65ac7ef8fe55debb2a24302e4e33d7692",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6492ff80_c8566c3f",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-05-09T16:35:14Z",
+      "side": 1,
+      "message": "nit: I think this space should also be removed",
+      "range": {
+        "startLine": 39,
+        "startChar": 55,
+        "endLine": 39,
+        "endChar": 56
+      },
+      "revId": "fd1698a65ac7ef8fe55debb2a24302e4e33d7692",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5e5243ba_afdf1c0e",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-05-09T16:35:14Z",
+      "side": 1,
+      "message": "Now that there\u0027s no backtick inside the inline code block, these double backticks can be changed to single backticks",
+      "range": {
+        "startLine": 39,
+        "startChar": 8,
+        "endLine": 39,
+        "endChar": 10
+      },
+      "revId": "fd1698a65ac7ef8fe55debb2a24302e4e33d7692",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
