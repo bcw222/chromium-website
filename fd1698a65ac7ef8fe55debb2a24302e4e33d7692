@@ -79,6 +79,54 @@
       },
       "revId": "fd1698a65ac7ef8fe55debb2a24302e4e33d7692",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "93e85669_5bea8157",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1529242
+      },
+      "writtenOn": "2022-05-10T20:48:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6492ff80_c8566c3f",
+      "range": {
+        "startLine": 39,
+        "startChar": 55,
+        "endLine": 39,
+        "endChar": 56
+      },
+      "revId": "fd1698a65ac7ef8fe55debb2a24302e4e33d7692",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c990229_e3c8f374",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1529242
+      },
+      "writtenOn": "2022-05-10T20:48:14Z",
+      "side": 1,
+      "message": "Good point, I don\u0027t know why I didn\u0027t catch that!",
+      "parentUuid": "5e5243ba_afdf1c0e",
+      "range": {
+        "startLine": 39,
+        "startChar": 8,
+        "endLine": 39,
+        "endChar": 10
+      },
+      "revId": "fd1698a65ac7ef8fe55debb2a24302e4e33d7692",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
