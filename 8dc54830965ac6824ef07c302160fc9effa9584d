@@ -33,6 +33,23 @@
       "message": "Hi Elly. Apparently I need a Code Owner for our teams info page.",
       "revId": "8dc54830965ac6824ef07c302160fc9effa9584d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "333065ab_1b8bed5b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2022-05-11T16:22:05Z",
+      "side": 1,
+      "message": "lgtm!\n\ndo you want to take ownership of //site/teams/rendering?",
+      "revId": "8dc54830965ac6824ef07c302160fc9effa9584d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
