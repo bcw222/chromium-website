@@ -16,6 +16,23 @@
       "message": "Adding one more owner to be safe.",
       "revId": "a9743531f6440d07f5b9a20bd491b10d3bd5d492",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "56482ba3_6c17eb14",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-05-11T18:16:01Z",
+      "side": 1,
+      "message": "My understanding is that the site is intended for open-source developers, so I agree with the direction of this CL, but WDYT of removing the page altogether?\n\nI see one or two Google-only links on chromium.org, but this would be the only page that\u0027s nothing but Google-only content. It doesn\u0027t seem like there\u0027s anything for non-Googlers to learn from what\u0027s left, and Googlers could find out about Cluster Telemetry through the internal search.\n\nIf there is reason to keep this information so, e.g., outside contributors know that this exists, I think at least keeping a brief description of it would be best, but that seems a bit unlikely based on my brief read of the docs.",
+      "revId": "a9743531f6440d07f5b9a20bd491b10d3bd5d492",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
