@@ -50,9 +50,8 @@ coordinating the native NSViews for a specific TabContents.
 
 The Objective-C controller, Mac specific, for managing the interaction between
 the TabStripModel and the Cocoa TabViews that comprise the user interface.
-Handles
 
-positioning and layout of the TabViews as well as the animations related to tab
+Handles positioning and layout of the TabViews as well as the animations related to tab
 drag and drop and tab opening/closing. The controller is responsible for
 switching the visible tab to the correct TabContents/TabContentsController based
 on changes either in the TabStripModel or in response to a user clicking in a
