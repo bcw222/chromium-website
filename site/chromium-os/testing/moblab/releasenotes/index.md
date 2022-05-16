@@ -17,6 +17,20 @@ title: MobLab Release Notes
 *   [Wyvern (puff) OS Recovery
             Image](https://storage.googleapis.com/moblab-recovery-images/chromeos_13904.81.0_puff-moblab_recovery_stable-channel_mp-v3.bin.zip)
 
+# May 10th 2022: Moblab Update
+**You should reboot your Moblab when next not running tests to get this latest version of the software.**
+
+You should reboot your Moblab to get the latest version of the software. Make
+sure no tests are running or scheduled. This update only includes an update to
+the Moblab software; after the update you will be running Moblab version
+R-2.16.4.
+
+
+**Highlights** 
+* Support for provisioning a locally built custom OS image on a Moblab DUT (instructions: [here](https://docs.google.com/document/u/3/d/e/2PACX-1vRxmVGH43FnQx_2lbyUssQZfmxjsRn6-X7RCvI-BYzNjE9-CcO0ZSLICRRGylzHyk2Cg-Vup2VNcv0p/pub?urp=gmail_link))
+* Storage Qual test improvements for pre-qualified components
+* Robustifying the moblab start up
+
 # Apr 22nd 2022: Moblab Update
 **You should reboot your Moblab when next not running tests to get this latest version of the software.**
 
