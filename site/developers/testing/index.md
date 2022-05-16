@@ -13,6 +13,7 @@ title: Testing and infrastructure
 *   [Running tests at home](/developers/testing/running-tests)
 *   [Chromium build
             infrastructure](/developers/testing/chromium-build-infrastructure)
+*   [Fixing Flaky Tests](/developers/testing/fixing-flaky-tests)
 *   [Blink Web Tests](/developers/testing/webkit-layout-tests)
 *   [Try Server usage](/developers/testing/try-server-usage)
 *   [Commit Queue](/developers/testing/commit-queue)
