@@ -22,6 +22,30 @@
       },
       "revId": "6b944dfd11d97966dfd0c675b30a1df38f2c0ea2",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b830a59f_cd7689d5",
+        "filename": "site/chromium-os/developer-guide/go-in-chromium-os/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 417,
+      "author": {
+        "id": 1459152
+      },
+      "writtenOn": "2022-05-17T13:39:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4140d337_2348b2dc",
+      "range": {
+        "startLine": 417,
+        "startChar": 16,
+        "endLine": 417,
+        "endChar": 17
+      },
+      "revId": "6b944dfd11d97966dfd0c675b30a1df38f2c0ea2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
