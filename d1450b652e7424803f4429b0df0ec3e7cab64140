@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5100dd46_67bd1db4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1257277
+      },
+      "writtenOn": "2022-05-17T17:22:53Z",
+      "side": 1,
+      "message": "Hi Jesse, mind looking over this set of last minute changes for the BlinkOn 16 page (event starts tomorrow). This also removes some resources from a .gitignore file that the pre-commit hooks were complaining about (missing). Cheers!",
+      "revId": "d1450b652e7424803f4429b0df0ec3e7cab64140",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
