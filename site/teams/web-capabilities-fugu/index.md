@@ -16,7 +16,7 @@ APIs that Project Fugu is delivering enable new experiences on the web while
 preserving the web's core benefits of security, low-friction, and cross-platform
 delivery. All Project Fugu API proposals are made in the open and on the
 standards track.
-Fugu is organized as Chromium project, open to all Chromium contributors and
+Fugu is organized as a Chromium project, open to all Chromium contributors and
 organizations. Today, that includes Microsoft, Intel, Samsung, and Google (among
 others). Fugu Leads triage incoming requests from partners, determine demand,
 prioritize them, find champions, track development, and help organize the
