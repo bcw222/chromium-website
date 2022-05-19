@@ -21,7 +21,7 @@ Greetings,
 
 As we enter the last month of the first quarter of 2022, here's a look back to what Chrome Security was doing in the last quarter of 2021.
 
-**Chrome is hiring for security positions! See [g.co/chrome/hiring](https://g.co/chrome/hiring)** **for more details.**
+**Chrome is hiring for security positions! See [goo.gl/chrome/hiring](https://goo.gl/chrome/hiring)** **for more details.**
 
 For extension security, we are working on a telemetry framework that monitors suspicious extension activity and transmits associated signals to Safe Browsing, for users opt-ed into sharing these data. The signals are analyzed server-side (both manual and automated analysis) to detect and mitigate extension abuse patterns.
 
@@ -51,7 +51,7 @@ Greetings,
 
 Here's what the Chrome Security team has been up to in Q3 of this year,
 
-**Chrome is hiring, including for security positions! See [g.co/chrome/hiring](https://g.co/chrome/hiring)**. In particular we're looking for a **[lead security product manager](https://careers.google.com/jobs/results/118648881425588934-lead-product-manager-chrome-security/)** to work with the teams doing all the great things in this update, and more across the Chrome Trust and Safety organisation.
+**Chrome is hiring, including for security positions! See [goo.gl/chrome/hiring](https://goo.gl/chrome/hiring)**. In particular we're looking for a **[lead security product manager](https://careers.google.com/jobs/results/118648881425588934-lead-product-manager-chrome-security/)** to work with the teams doing all the great things in this update, and more across the Chrome Trust and Safety organisation.
 
 Through a series of in-product integrations and promotions on the new tab page on Desktop and Android, we saw a growth of almost 70% in the number of users who chose to opt-in to [Enhanced Safe Browsing](https://security.googleblog.com/2021/06/new-protections-for-enhanced-safe.html) in Chrome.
 
@@ -95,7 +95,7 @@ is a look back at what the Chrome Security teams have been up to in the first
 half of 2021.
 
 Chrome is hiring, including for security positions! See
-[g.co/chrome/hiring](https://g.co/chrome/hiring). In particular we're looking
+[goo.gl/chrome/hiring](https://goo.gl/chrome/hiring). In particular we're looking
 for a [lead security product
 manager](https://careers.google.com/jobs/results/118648881425588934-lead-product-manager-chrome-security/)
 to work with the teams doing all the great things in this update, and more
@@ -371,7 +371,7 @@ Greetings,
 
 Even as 2021 is well underway, here's a look back at what Chrome Security was up to in the last quarter of 2020.
 
-Interested in helping to protect users of Chrome, Chromium, and the entire web? We're hiring! Take a look at [g.co/chrome/hiring](https://g.co/chrome/hiring), with several of the roles in Washington, DC: [g.co/chrome/securityprivacydc](https://g.co/chrome/securityprivacydc).
+Interested in helping to protect users of Chrome, Chromium, and the entire web? We're hiring! Take a look at [goo.gl/chrome/hiring](https://goo.gl/chrome/hiring), with several of the roles in Washington, DC: [g.co/chrome/securityprivacydc](https://g.co/chrome/securityprivacydc).
 
 The Usable Security team fully launched a new warning for [lookalike domain names](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/lookalikes/lookalike-domains.md): low-quality or suspicious domains that make it hard for people to understand which website they’re actually visiting. We continued to place some final nails in the coffin of [mixed content](https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html) (insecure subresources on secure pages). Secure pages are no longer allowed to initiate any [insecure downloads](https://blog.chromium.org/2020/02/protecting-users-from-insecure.html) as of Chrome 88. We uncovered some issues with our new [warning on mixed form submissions](https://blog.chromium.org/2020/08/protecting-google-chrome-users-from.html) due to redirects, and this warning will be re-launching in Chrome 88 as well.
 
