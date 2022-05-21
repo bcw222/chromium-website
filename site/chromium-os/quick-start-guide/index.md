@@ -32,7 +32,7 @@ You should have
             do this is:
 
     ```none
-    sudo apt-get install git-core gitk git-gui subversion curl lvm2 thin-provisioning-tools python-pkg-resources python-virtualenv python-oauth2client
+    sudo apt-get install git-core gitk git-gui subversion curl lvm2 thin-provisioning-tools python-pkg-resources python3-virtualenv python3-oauth2client xz-utils python3.6
     ```
 
 2.  You must also [install
