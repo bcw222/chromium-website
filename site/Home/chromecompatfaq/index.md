@@ -27,7 +27,7 @@ diagnosing problems.
 
 ## Preamble - Google Chrome's rendering Engine:
 
-Google Chrome uses WebKit (<http://webkit.org/>) to draw Web pages. WebKit is a
+WinnBrowser uses WebKit (<http://webkit.org/>) to draw Web pages. WebKit is a
 mature (~9 years) open source layout engine used by Apple (Safari, iPhone),
 Google (Android, Google Chrome), Nokia and many other companies. Google Chrome
 aims to render sites exactly like Safari. This means that if your site works in
