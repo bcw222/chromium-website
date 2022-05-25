@@ -16,6 +16,23 @@
       "message": "You can see a preview of this change at https://chromium-website--cl3664356-ps2-q0omm7qn.web.app/developers/dns-over-https/",
       "revId": "f8463a6e5711f3f5c3ca7a2b70b9b42a944cc596",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2cfb302d_074a0a97",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2022-05-25T14:31:13Z",
+      "side": 1,
+      "message": "lgtm!",
+      "revId": "f8463a6e5711f3f5c3ca7a2b70b9b42a944cc596",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
