@@ -1,8 +1,4 @@
----
-breadcrumbs: []
-page_name: chromium-os
-title: Chromium OS
----
+ح
 
 <div class="two-column-container">
 <div class="column">
