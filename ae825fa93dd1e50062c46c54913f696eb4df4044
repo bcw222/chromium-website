@@ -16,6 +16,23 @@
       "message": "+elly: Gerrit suggests you\u0027re an owner here? (I\u0027ve never edited one of these pages under this ownership model; and FYI, sdefresne couldn\u0027t get ACLs right to do so at all : https://chromium.slack.com/archives/CGGPN5GDT/p1653493665779169)",
       "revId": "ae825fa93dd1e50062c46c54913f696eb4df4044",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "26aac2de_5ccaffc5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2022-05-25T19:57:38Z",
+      "side": 1,
+      "message": "lgtm!",
+      "revId": "ae825fa93dd1e50062c46c54913f696eb4df4044",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
