@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "29558679_e3b7826d",
+        "filename": "site/developers/design-documents/conventions-and-patterns-for-multi-platform-development/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-05-26T11:03:04Z",
+      "side": 1,
+      "message": "err, this link is wrong.  master is dead.  ignoring that, you should usually just use HEAD so it goes to the right branch automatically.",
+      "revId": "1a1f050775e20020551b7b119082bca29a8dc645",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
