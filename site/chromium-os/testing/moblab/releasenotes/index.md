@@ -10,12 +10,12 @@ page_name: releasenotes
 title: MobLab Release Notes
 ---
 
-# The latest recovery images for Moblab:**
+# The latest recovery images for Moblab:
 
 *   [Wukong (fizz) OS Recovery
-            Image](https://storage.googleapis.com/moblab-recovery-images/chromeos_14150.88.0_fizz-moblab_recovery_stable-channel_mp.bin.zip)
+            Image](https://storage.googleapis.com/moblab-recovery-images/chromeos_14526.55.0_fizz-moblab_recovery_stable-channel_mp.bin.zip)
 *   [Wyvern (puff) OS Recovery
-            Image](https://storage.googleapis.com/moblab-recovery-images/chromeos_13904.81.0_puff-moblab_recovery_stable-channel_mp-v3.bin.zip)
+            Image](https://storage.googleapis.com/moblab-recovery-images/chromeos_14526.55.0_puff-moblab_recovery_stable-channel_mp-v3.bin.zip)
 
 # May 10th 2022: Moblab Update
 **You should reboot your Moblab when next not running tests to get this latest version of the software.**
