@@ -16,6 +16,24 @@
       "message": "err, this link is wrong.  master is dead.  ignoring that, you should usually just use HEAD so it goes to the right branch automatically.",
       "revId": "1a1f050775e20020551b7b119082bca29a8dc645",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a35e4310_058ef761",
+        "filename": "site/developers/design-documents/conventions-and-patterns-for-multi-platform-development/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1001534
+      },
+      "writtenOn": "2022-05-26T19:11:56Z",
+      "side": 1,
+      "message": "Indeed, not sure how I landed on that link...\nFixed: https://chromium-review.googlesource.com/c/website/+/3671295/",
+      "parentUuid": "29558679_e3b7826d",
+      "revId": "1a1f050775e20020551b7b119082bca29a8dc645",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
