@@ -34,7 +34,7 @@ should be used:
 
 Platform-specific suffixes are encoded using conditionals in their respective
 BUILD.gn files:
-https://chromium.googlesource.com/chromium/src/+/master/docs/no_sources_assignment_filter.md
+https://chromium.googlesource.com/chromium/src/+/HEAD/docs/no_sources_assignment_filter.md
 
 The separate front-ends of the browser are contained in their own directories:
 
