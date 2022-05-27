@@ -1,10 +1,5 @@
 # Contributing to www.chromium.org
-
-In order to contribute to this repo you must have signed the
-[Google Contributor License Agreement](https://cla.developers.google.com/clas)
-and have an active account on
-[Chromium's Gerrit Host](https://chromium-review.googlesource.com).
-
+jerardoaguinigacervantes62@gmail.com
 ## Making edits to pages via the web
 
 The site contains a fairly rudimentary in-page editor. To edit a page,
