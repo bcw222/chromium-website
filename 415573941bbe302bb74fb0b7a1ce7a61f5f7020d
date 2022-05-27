@@ -16,6 +16,23 @@
       "message": "Elly PTaL, as spotted by Mike @ https://chromium-review.googlesource.com/c/website/+/3666519/comment/29558679_e3b7826d/",
       "revId": "415573941bbe302bb74fb0b7a1ce7a61f5f7020d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "68e31cbb_2ece7b58",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2022-05-27T15:27:12Z",
+      "side": 1,
+      "message": "lgtm!",
+      "revId": "415573941bbe302bb74fb0b7a1ce7a61f5f7020d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
