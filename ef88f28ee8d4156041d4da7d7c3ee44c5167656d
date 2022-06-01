@@ -37,6 +37,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "559c1f25_5fc9583a",
+        "filename": "site/updates/chips/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1395755
+      },
+      "writtenOn": "2022-06-01T14:10:24Z",
+      "side": 1,
+      "message": "\u003e Did you mean to keep this?\nNope.",
+      "parentUuid": "5491f364_0e7e4508",
+      "revId": "ef88f28ee8d4156041d4da7d7c3ee44c5167656d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "4f7d25a5_c2218328",
         "filename": "site/updates/chips/index.md",
         "patchSetId": 2
