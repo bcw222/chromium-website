@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f445f599_fc94982d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1395755
+      },
+      "writtenOn": "2022-06-01T13:38:42Z",
+      "side": 1,
+      "message": "cfredric@ do you mind taking a look? Since you haven\u0027t been involved in the new CHIPS OT design so far, I am hoping to gauge how well you can understand it based on the new docs :)",
+      "revId": "ef88f28ee8d4156041d4da7d7c3ee44c5167656d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
