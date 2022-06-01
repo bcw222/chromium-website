@@ -29,20 +29,22 @@ Chrome will enforce these rules for cookies set with the `Partitioned` attribute
 
 ## Origin Trial
 
-If you are interested in participating in the CHIPS origin trial, then you need to include the `Origin-Trial` header in each HTTP response with a valid token.
-You must also send the `Accept-CH: Sec-CH-Partitioned-Cookies` header in each HTTP response as well.
+**The following only applies to Chrome version 103 or later.**
 
-If you have successfully opted into the origin trial, subsequent requests from the Chrome client will include the `Sec-CH-Partitioned-Cookies: ?1` request header until the current session is ended.
-If you store persistent partitioned cookies then you will receive the `Sec-CH-Partitioned-Cookies: ?0` request header for the first request to the cookies' origin.
+If you are interested in participating in the CHIPS origin trial, then you need to include the `Origin-Trial` header with a valid token in any HTTP response that also includes a `Set-Cookie` header with the `Partitioned` attribute.
 
-**Not all Chrome clients using versions 100-102 will be in the trial.**
+The `Set-Cookie` header does NOT have to result in a valid cookie.
+
+If you have successfully opted into the origin trial AND have set a partitioned cookie, then subsequent requests from the Chrome client will include the `Sec-CH-Partitioned-Cookies: ?0` whenever the partitioned cookie is included in the `Cookie` header.
+
+Responses which do not include a `Set-Cookie` header with `Partitioned` will not impact a site's origin trial participation status.
+
+**Not all Chrome clients will be in the trial.**
 **If the client does not send the Sec-CH-Partitioned-Cookies header, then partitioned cookies are not enabled.**
-
-If you do not respond with a valid token in the `Origin-Trial` header and `Accept-CH: Partitioned-Cookies`, then the partitioned cookies on the machine will be converted to unpartitioned cookies.
 
 You can register your site for the origin trial [here](https://developer.chrome.com/origintrials/#/view_trial/1239615797433729025).
 
-**The origin trial is only available in Chrome versions 100-102.**
+**The origin trial is only available in Chrome versions 103-105.**
 
 ### Example usage
 
@@ -50,7 +52,6 @@ When a site wishes to participate in the origin trial, they should include the f
 
 ```text
 Origin-Trial: *valid Origin Trial token*
-Accept-CH: Sec-CH-Partitioned-Cookies
 Set-Cookie: __Host-name=value; Secure; Path=/; SameSite=None; Partitioned;
 ```
 
@@ -59,41 +60,9 @@ Remember, in order to keep participating in the trial, you must include these he
 If the opt in is successful, Chrome will include the following headers in future requests:
 
 ```text
-Sec-CH-Partitioned-Cookies: ?1
-Cookie: __Host-name=value
-```
-
-If your site receives the cookie without this client hint, then this means your site did not opt into the origin trial correctly and the cookie you are receiving is not partitioned.
-
-If the site sets persistent partitioned cookies (e.g. a max age of 1 day):
-
-```text
-Origin-Trial: *valid Origin Trial token*
-Accept-CH: Sec-CH-Partitioned-Cookies
-Set-Cookie: __Host-name=value; Secure; Path=/; SameSite=None; Partitioned; Max-Age=86400;
-```
-
-if the user visits the site after the current session has ended, the first request to the site will include the following request headers:
-
-```text
 Sec-CH-Partitioned-Cookies: ?0
 Cookie: __Host-name=value
 ```
-
-If the site responds with the `Accept-CH` and `Origin-Trial` headers, Chrome will continue to send partitioned cookies and the `Sec-CH-Partitioned-Cookies: ?1` request header.
-
-If the site does not opt back into the trial, the `__Host-name` cookie will be converted into an unpartitioned cookie.
-This will allow the site to roll back its usage of partitioned cookies in case it causes server breakage.
-
-You can also persist your participation in the origin trial between sessions using the `Critical-CH: Sec-CH-Partitioned-Cookies` response header:
-
-```text
-Origin-Trial: *valid Origin Trial token*
-Accept-CH: Sec-CH-Partitioned-Cookies
-Critical-CH: Sec-CH-Partitioned-Cookies
-```
-
-This will cause Chrome to restart the request and send the `Sec-CH-Partitioned-Cookies: ?1` request header.
 
 ### JavaScript
 
