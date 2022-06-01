@@ -16,6 +16,46 @@
       "message": "cfredric@ do you mind taking a look? Since you haven\u0027t been involved in the new CHIPS OT design so far, I am hoping to gauge how well you can understand it based on the new docs :)",
       "revId": "ef88f28ee8d4156041d4da7d7c3ee44c5167656d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5491f364_0e7e4508",
+        "filename": "site/updates/chips/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1467227
+      },
+      "writtenOn": "2022-06-01T13:45:56Z",
+      "side": 1,
+      "message": "Did you mean to keep this? Should this be formatted like a heading?",
+      "revId": "ef88f28ee8d4156041d4da7d7c3ee44c5167656d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f7d25a5_c2218328",
+        "filename": "site/updates/chips/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1467227
+      },
+      "writtenOn": "2022-06-01T13:45:56Z",
+      "side": 1,
+      "message": "Maybe show an example of what this looks like?",
+      "range": {
+        "startLine": 36,
+        "startChar": 84,
+        "endLine": 36,
+        "endChar": 135
+      },
+      "revId": "ef88f28ee8d4156041d4da7d7c3ee44c5167656d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
