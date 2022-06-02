@@ -146,8 +146,7 @@ process of reformatting that often needs to occur when doing refactorings.
 
 *   ## Abstract all //content dependencies through the embedder and have
             the component not depend on //content at all.
-*   ## Make the component into a [layered
-            component](http://www.chromium.org/developers/design-documents/layered-components-design),
+*   ## Make the component into a [layered component](http://www.chromium.org/developers/design-documents/layered-components-design),
             wherein it has a "core/" directory containing code that is shared by
             iOS and cannot depend on //content, and a "content/" directory that
             drives the core code via interactions with //content.
