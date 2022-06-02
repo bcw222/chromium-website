@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e7a92cc_0c513d97",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1528057
+      },
+      "writtenOn": "2022-06-02T19:39:00Z",
+      "side": 1,
+      "message": "This CL updates the Chrome Root Program Policy in advance of next week\u0027s CA/Browser Forum Face-to-Face.\n\nPreview: https://chromium-website--cl3688349-ps1-ndtsrb2l.web.app/Home/chromium-security/root-ca-policy/\n\n[a separate CL adds an OWNERS file within the root-ca-policy directory to hopefully make this easier in the future - https://chromium-review.googlesource.com/c/website/+/3661641]",
+      "revId": "f34152661ce4cbc2450e8bf3be7f9573c2db3d5c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
