@@ -33,6 +33,24 @@
       "message": "LGTM! Reviewed for typos, formatting, checking the links work, etc. since I assume the content is the same as the internal doc. Gerrit inline commenting seems to not be working for some reason, so I\u0027ll note one tiny tiny nit here: most places you don\u0027t linkify \"Baseline Requirements\" after initially introducing it, but you do link it in Section 6 -- consider removing that link for consistency, or linkifying it elsewhere.",
       "revId": "f34152661ce4cbc2450e8bf3be7f9573c2db3d5c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b7da0b11_1dee008f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1528057
+      },
+      "writtenOn": "2022-06-03T13:31:31Z",
+      "side": 1,
+      "message": "Removed the link in Section 6 (both from this version, and the Docs version!). Thanks for catching.\n\nConfirming content is the same as the internal version (checked by diffing).",
+      "parentUuid": "47cebc3d_3c002cbd",
+      "revId": "f34152661ce4cbc2450e8bf3be7f9573c2db3d5c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
