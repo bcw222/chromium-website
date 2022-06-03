@@ -58,17 +58,15 @@ the world.
 
 In the previous design, services were fetched through an accessor on Profile:
 
-> class ProfileImpl {
+```
+class ProfileImpl {
+ public:
+  virtual FooService* GetFooService();
 
-> public:
-
-> virtual FooService\* GetFooService();
-
-> private:
-
-> scoped_ptr&lt;FooService&gt; foo_service_;
-
-> };
+ private:
+  scoped_ptr<FooService&> foo_service_;
+};
+```
 
 In the previous system, Profile was an interface with mostly pure virtual
 accessors. There were separate versions of Profile for Normal, Incognito and
@@ -85,18 +83,21 @@ without modifying the Profile interface.
 Instead of having the Profile own FooService, we have a dedicated singleton
 FooServiceFactory, like this minimal one:
 
-> class FooServiceFactory : public BrowserContextKeyedServiceFactory {
-> public:
-> static FooService\* GetForProfile(Profile\* profile);
-> static FooServiceFactory\* GetInstance();
-> private:
-> friend struct DefaultSingletonTraits&lt;FooServiceFactory&gt;;
-> FooServiceFactory();
-> virtual ~FooServiceFactory();
-> // BrowserContextKeyedServiceFactory:
-> virtual BrowserContextKeyedService\* BuildServiceInstanceFor(
-> content::BrowserContext\* context) const OVERRIDE;
-> };
+```
+class FooServiceFactory : public BrowserContextKeyedServiceFactory {
+ public:
+  static FooService* GetForProfile(Profile* profile);
+  static FooServiceFactory* GetInstance();
+
+ private:
+  friend struct DefaultSingletonTraits<FooServiceFactory>;
+  FooServiceFactory();
+  virtual ~FooServiceFactory();
+  // BrowserContextKeyedServiceFactory:
+  virtual BrowserContextKeyedService* BuildServiceInstanceFor(
+      content::BrowserContext* context) const override;
+};
+```
 
 We have a generalized BrowserContextKeyedServiceFactory which performs most of
 the work of associating a profile with an object provided by your
@@ -175,20 +176,23 @@ sure that individual services are created and destroyed in a safe ordering.
 
 Consider the case of these three service factories:
 
-> AlphaServiceFactory::AlphaServiceFactory()
-> : BrowserContextKeyedServiceFactory(ProfileDependencyManager::GetInstance()) {
-> }
-> BetaServiceFactory::BetaServiceFactory()
-> : BrowserContextKeyedServiceFactory(ProfileDependencyManager::GetInstance()) {
-> DependsOn(AlphaServiceFactory::GetInstance());
+```
+AlphaServiceFactory::AlphaServiceFactory()
+    : BrowserContextKeyedServiceFactory(
+          ProfileDependencyManager::GetInstance()) {}
 
+BetaServiceFactory::BetaServiceFactory()
+    : BrowserContextKeyedServiceFactory(
+          ProfileDependencyManager::GetInstance()) {
+  DependsOn(AlphaServiceFactory::GetInstance());
 }
 
-> GammaServiceFactory::GammaServiceFactory()
-> : BrowserContextKeyedServiceFactory(ProfileDependencyManager::GetInstance()) {
-> DependsOn(BetaServiceFactory::GetInstance());
-
+GammaServiceFactory::GammaServiceFactory()
+    : BrowserContextKeyedServiceFactory(
+          ProfileDependencyManager::GetInstance()) {
+  DependsOn(BetaServiceFactory::GetInstance());
 }
+```
 
 The explicitly stated dependencies in this simplified graph mean that the only
 valid creation order for services is \[Alpha, Beta, Gamma\] and the destruction
