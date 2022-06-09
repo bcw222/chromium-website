@@ -32,6 +32,16 @@ attempting to communicate with:
     *   Generic tool that allows you to scan, advertise and explore your
                 Bluetooth low energy (BLE) devices and communicate with them.
 
+## Manual Bluetooth Tests
+
+https://github.com/WebBluetoothCG/manual-tests contains a suite of tests that
+use the Web Bluetooth API. These tests differ from those already utilized by
+browsers in that they rely on actual Bluetooth hardware, and are manually driven.
+
+Reproducing an error by forking and modifying one of these tests will enable
+other developers to reproduce the same error more rapidly because they will
+not need to acquire another specific or possibly proprietary device.
+
 ## Bluetooth Devices to Test With
 
 These devices are some that can be used to act as peripheral devices.
