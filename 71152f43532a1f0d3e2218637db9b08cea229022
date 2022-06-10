@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "116bd5e4_0e326dde",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1374169
+      },
+      "writtenOn": "2022-06-10T05:41:30Z",
+      "side": 1,
+      "message": "Gary PTAL",
+      "revId": "71152f43532a1f0d3e2218637db9b08cea229022",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
