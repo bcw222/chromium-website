@@ -3277,6 +3277,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>Yes</td>
   </tr>
+   <tr>
+    <td>2022-06-10</td>
+    <td>HP</td>
+    <td><a href="https://press.hp.com/us/en/blogs/2022/new-hp-chromebooks-cloud-first-computing.html">HP Elite c645 G2 Chromebook Enterprise</a></td>
+    <td>nipperkin</td>
+    <td>guybrush</td>
+    <td>guybrush</td>
+    <td>x86_64</td>
+    <td>5.10</td>
+    <td>x86_64</td>
+    <td>Cezanne/Barcelo</td>
+    <td>Chromebook</td>
+    <td>M100</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
   <tr>
     <td>2021-01-07</td>
     <td>Samsung</td>
