@@ -3263,7 +3263,7 @@ These are your standard Chromebook/Chromebox/etc devices.
   <tr>
     <td>2020-12-29</td>
     <td>HP</td>
-    <td><a href="https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA7-9044ENUC">HP Pro c645 Chromebook Enterprise</a></td>
+    <td><a href="https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=4AA7-9044ENUC">HP Pro c645 Chromebook Enterprise / HP Chromebook 14b</a></td>
     <td>berknip</td>
     <td>zork</td>
     <td>zork</td>
