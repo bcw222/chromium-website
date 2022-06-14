@@ -10,6 +10,12 @@ title: User-Agent Reduction
 
 ## Updates
 
+June 13th, 2022: the Phase 4 rollout is enabled for 100% of clients on M101 and
+above via Finch.
+
+June 10th, 2022: [Enabled the "ReduceUserAgentMinorVersion" feature by default](https://chromiumdash.appspot.com/commit/3fea2402264010af295c8dd87400368680100228)
+in the M105 branch.
+
 May 31, 2022: Phase 4 rollout was increased to an even larger percentage of the
 Chrome 101 population while we evaluate stability.
 
