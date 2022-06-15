@@ -20,6 +20,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "11299bd8_ac5db419",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1118209
+      },
+      "writtenOn": "2022-06-15T23:36:06Z",
+      "side": 1,
+      "message": "other processes?",
+      "range": {
+        "startLine": 37,
+        "startChar": 45,
+        "endLine": 37,
+        "endChar": 51
+      },
+      "revId": "7883bc6b8d6eb9fa69f1d2b3426125a153c8f3ba",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c7c1b5ef_38441e10",
         "filename": "site/developers/design-documents/multi-process-architecture/index.md",
         "patchSetId": 5
@@ -31,6 +54,98 @@
       "writtenOn": "2022-06-15T23:02:11Z",
       "side": 1,
       "message": "Daniel: While we\u0027re here, does this seem like a reasonable way to phrase Mojo without going into too much low level detail?  I was looking for a small edit that wasn\u0027t too inaccurate.  :)",
+      "revId": "7883bc6b8d6eb9fa69f1d2b3426125a153c8f3ba",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f7f8a7ec_ee66a271",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1118209
+      },
+      "writtenOn": "2022-06-15T23:36:06Z",
+      "side": 1,
+      "message": "This is probably outside the scope of this CL, but this doesn\u0027t mention the new and increasingly common interfaces that connect RFH directly to blink, like LocalFrame(Host) or LocalMainFrame(Host)...",
+      "range": {
+        "startLine": 81,
+        "startChar": 65,
+        "endLine": 82,
+        "endChar": 27
+      },
+      "revId": "7883bc6b8d6eb9fa69f1d2b3426125a153c8f3ba",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "18e94d68_2dcd4182",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1118209
+      },
+      "writtenOn": "2022-06-15T23:36:06Z",
+      "side": 1,
+      "message": "Is it possible to avoid using \"remote\" here, to avoid confusion with remote frames and proxies?  I think this just means \"RenderFrame in the renderer process\"?",
+      "range": {
+        "startLine": 92,
+        "startChar": 12,
+        "endLine": 92,
+        "endChar": 32
+      },
+      "revId": "7883bc6b8d6eb9fa69f1d2b3426125a153c8f3ba",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "906df98c_17499baf",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1118209
+      },
+      "writtenOn": "2022-06-15T23:36:06Z",
+      "side": 1,
+      "message": "nit: \"affected tabs\"?",
+      "range": {
+        "startLine": 117,
+        "startChar": 69,
+        "endLine": 117,
+        "endChar": 73
+      },
+      "revId": "7883bc6b8d6eb9fa69f1d2b3426125a153c8f3ba",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2d8453c3_de08e799",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1118209
+      },
+      "writtenOn": "2022-06-15T23:36:06Z",
+      "side": 1,
+      "message": "That seems out of date with the network service :) but perhaps also outside the scope of this CL.",
+      "range": {
+        "startLine": 129,
+        "startChar": 0,
+        "endLine": 129,
+        "endChar": 30
+      },
       "revId": "7883bc6b8d6eb9fa69f1d2b3426125a153c8f3ba",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }

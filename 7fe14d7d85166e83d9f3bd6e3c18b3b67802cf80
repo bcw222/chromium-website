@@ -409,6 +409,30 @@
       },
       "revId": "7fe14d7d85166e83d9f3bd6e3c18b3b67802cf80",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0d3d39d8_46c31e1a",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1118209
+      },
+      "writtenOn": "2022-06-15T23:36:06Z",
+      "side": 1,
+      "message": "Yeah, this probably changed with unseasoned PDF (which launched back in February 2022, according to https://crbug.com/702993#c79)\n\nDo we still have NaCl plug-in processes, though?",
+      "parentUuid": "1ea694a0_0fa32f8a",
+      "range": {
+        "startLine": 166,
+        "startChar": 39,
+        "endLine": 166,
+        "endChar": 54
+      },
+      "revId": "7fe14d7d85166e83d9f3bd6e3c18b3b67802cf80",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
