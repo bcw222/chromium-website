@@ -38,26 +38,26 @@ git checkout -  # back to previous branch!
 ### Suggested branching workflow
 
 We normally do our feature work in branches to keep changes isolated from each
-other. The recommended workflow is to make local branches off the server master,
-referred to as the origin/master branch. The `git-new-branch` command (in
+other. The recommended workflow is to make local branches off the server main,
+referred to as the origin/main branch. The `git-new-branch` command (in
 depot_tools) will do this:
 
     git new-branch branch_name
 
 Note that this is equivalent to the following:
 
-    git checkout -b new_branch origin/master
+    git checkout -b new_branch origin/main
 
 ### Branch off a branch
 
 If you have dependent changes, a very productive workflow is to have a branch
-off a branch. Notably, this means that your patch sets (in Rietveld) will show
+off a branch. Notably, this means that your patch sets (in Gerrit) will show
 the separate changes, and be easy to review, rather than showing the merged
 changes (including irrelevant changes), and means you can commit downstream CLs
 without having to rebase them after the upstream has landed. Do this as follows:
 
 ```none
-git checkout master
+git checkout main
 git checkout branch1
 # some edits, commit
 git checkout -b branch2
@@ -82,7 +82,7 @@ pieces. Given a local branch `big`, you'd like to split it up into `branch1` and
 `branch2`.
 
 One way to do this is to split off `branch1`, have that reviewed and committed,
-update local repo (`gclient sync`), and then rebase `big` to `master`. This is
+update local repo (`gclient sync`), and then rebase `big` to `main`. This is
 ok, but adds latency, and you can get the same result locally, so the second
 part of the CL can be uploaded and reviewed even before the first part is
 committed.
@@ -101,7 +101,7 @@ second part to be dependent on the first part, removing the common changes);
 
 ```none
 # first split off branch1
-git checkout origin/master
+git checkout origin/main
 git new-branch branch1
 git cherry-pick -n ..big  # apply and stage all ancestors of big that are not ancestors of HEAD, do not commit
 git add -i  # interactively choose which files or hunks to stage
@@ -124,7 +124,7 @@ resolving conflicts during rebasing.
 ### Deleting an obsolete branch
 
 You generally want to delete local branches after the changes have been
-committed to master. It is safest to check that your work has, in fact, been
+committed to main. It is safest to check that your work has, in fact, been
 committed before deleting it.
 
 Remember that you can always apply a CL that has been posted via:
@@ -138,13 +138,13 @@ URL of raw patch for older patch sets
 ...so as long as your CL has been posted, you can easily recover your work.
 Otherwise, you'll need to dig through the git repository, so be careful.
 
-Simply, if master (remote or local) is up-to-date and your branch has been
+Simply, if main (remote or local) is up-to-date and your branch has been
 rebased, git branch -d will delete the branch. If not, it will refuse; to force
-deletion, use git branch -D. So make sure master is up-to-date, rebase branch,
+deletion, use git branch -D. So make sure main is up-to-date, rebase branch,
 and then try deleting (optionally check manually before).
 
 Beware that if your local branch has many revisions (instead of always amending
-a single revision), rebasing to master may fail, since it will try to apply the
+a single revision), rebasing to main may fail, since it will try to apply the
 patches incrementally. You can avoid this by squashing your local revisions into
 a single revision (see [6.4 Git Tools - Rewriting
 History](http://git-scm.com/book/en/Git-Tools-Rewriting-History), or more simply
@@ -155,12 +155,12 @@ This may be more trouble than it's worth, but it's the safest way.
 To check that the branch has been committed upstream:
 
 git checkout mywork
-git rebase origin/master
-git diff --stat origin/master # optional check
+git rebase origin/main
+git diff --stat origin/main # optional check
 
 If there are no differences, delete the branch:
 
-git checkout origin/master
+git checkout origin/main
 git branch -d mywork # will only work if has been merged
 
 **NOTE:** If you haven't waited long enough after your commit, it is possible
@@ -182,22 +182,22 @@ If you forget the hash, you can find it via git reflog. (Reference: [Can I
 recover branch after the deletion in
 git?](http://stackoverflow.com/questions/3640764/can-i-recover-branch-after-the-deletion-in-git))
 
-### Prevent commits to master
+### Prevent commits to main
 
-If you commit to master, updating will be messy. (This is a good reason to
-simply delete master entirely, as noted near the top of this document. You only
+If you commit to main, updating will be messy. (This is a good reason to
+simply delete main entirely, as noted near the top of this document. You only
 need to read the remainder of this section if you don't do this.)
 
-You can prevent this by adding a pre-commit hook that checks if you're in master
+You can prevent this by adding a pre-commit hook that checks if you're in main
 and stops you from doing this. Create a file named
 chromium/src/.git/hooks/pre-commit and add the below to it, then mark
 executable. (Blink developers: add in blink directory as well.)
 
 #!/bin/bash
-# Prevent commits against the 'master' branch
-if \[\[ \`git rev-parse --abbrev-ref HEAD\` == 'master' \]\]
+# Prevent commits against the 'main' branch
+if \[\[ \`git rev-parse --abbrev-ref HEAD\` == 'main' \]\]
 then
-echo 'You cannot commit to the master branch!'
+echo 'You cannot commit to the main branch!'
 echo 'Stash your changes and apply them to another branch, using:'
 echo 'git stash'
 echo 'git checkout &lt;branch&gt;'
@@ -205,14 +205,14 @@ echo 'git stash apply'
 exit 1
 fi
 
-If you've accidentally uploaded a change list from master, you can clear the
-association of an issue number with master via:
+If you've accidentally uploaded a change list from main, you can clear the
+association of an issue number with main via:
 
 git cl issue 0
 
-If you've accidentally committed to master, then, after copying your work to a
+If you've accidentally committed to main, then, after copying your work to a
 new branch (e.g., make patch and then apply to new branch), you can clean up
-master by deleting your accidental commit as per [this
+main by deleting your accidental commit as per [this
 answer](http://stackoverflow.com/a/6866485) to [How to undo the last Git
 commit?](http://stackoverflow.com/questions/927358/how-to-undo-the-last-git-commit)
 -- see more details there.
