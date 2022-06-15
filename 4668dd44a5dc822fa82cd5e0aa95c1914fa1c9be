@@ -1,6 +1,29 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "2bfb269f_dd8bdb9c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000101
+      },
+      "writtenOn": "2022-06-15T16:44:26Z",
+      "side": 1,
+      "message": "super nit: `submit` -\u003e `Add` ?\n\nSubmit feels a bit strange in the context.",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 6
+      },
+      "revId": "4668dd44a5dc822fa82cd5e0aa95c1914fa1c9be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "48f1c945_15e86862",
@@ -14,6 +37,23 @@
       "writtenOn": "2022-06-15T00:58:23Z",
       "side": 1,
       "message": "LGTM. But do you want m102?",
+      "revId": "4668dd44a5dc822fa82cd5e0aa95c1914fa1c9be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "31a0a501_575bec77",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000101
+      },
+      "writtenOn": "2022-06-15T16:44:26Z",
+      "side": 1,
+      "message": "rs lgtm",
       "revId": "4668dd44a5dc822fa82cd5e0aa95c1914fa1c9be",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
