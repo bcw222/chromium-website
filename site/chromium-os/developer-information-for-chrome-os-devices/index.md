@@ -3856,6 +3856,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Yes</td>
   </tr>
    <tr>
+    <td>2022-04-14</td>
+    <td>Asus</td>
+    <td><a href="https://www.cdw.com/product/lenovo-100e-chromebook-gen-3-11.6-celeron-n4500-4-gb-ram-32-gb-emm/6951647">Lenovo 100e Chromebook Gen 3 (Intel)</a></td>
+    <td>Bookem</td>
+    <td>Dedede</td>
+    <td>Dedede</td>
+    <td>x86_64</td>
+    <td>5.4</td>
+    <td>x86_64</td>
+    <td>Jasper Lake</td>
+    <td>Clamshell</td>
+    <td>R100</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
+   <tr>
     <td>2022-04-29</td>
     <td>Asus</td>
     <td><a href="https://www.asus.com/Laptops/For-Home/Chromebook/ASUS-Chromebook-Flip-CX1-CX1500FKA/">ASUS Chromebook Flip CX1500</a></td>
