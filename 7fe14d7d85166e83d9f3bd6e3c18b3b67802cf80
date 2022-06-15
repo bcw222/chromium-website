@@ -43,6 +43,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "50be243a_185d10fd",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1001216
+      },
+      "writtenOn": "2022-06-15T23:00:15Z",
+      "side": 1,
+      "message": "I think that\u0027s probably too low-level for this doc, especially given the state of transition we\u0027re in.  :)  Once RenderDocument work is in place, we should be able to make this and the Process Models page a bit more precise about it.",
+      "parentUuid": "53a68aaa_3373f89e",
+      "range": {
+        "startLine": 65,
+        "startChar": 55,
+        "endLine": 65,
+        "endChar": 63
+      },
+      "revId": "7fe14d7d85166e83d9f3bd6e3c18b3b67802cf80",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "d1075648_fb1f8888",
         "filename": "site/developers/design-documents/multi-process-architecture/index.md",
         "patchSetId": 4
@@ -87,6 +111,54 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ac68fe97_a20ca33b",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1001216
+      },
+      "writtenOn": "2022-06-15T23:00:15Z",
+      "side": 1,
+      "message": "Yes, that sounds better.",
+      "parentUuid": "d1075648_fb1f8888",
+      "range": {
+        "startLine": 104,
+        "startChar": 53,
+        "endLine": 104,
+        "endChar": 61
+      },
+      "revId": "7fe14d7d85166e83d9f3bd6e3c18b3b67802cf80",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "79dbc70f_5e041bd6",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1001216
+      },
+      "writtenOn": "2022-06-15T23:00:15Z",
+      "side": 1,
+      "message": "Oops, thanks.",
+      "parentUuid": "4a2d5fe2_ff2ed148",
+      "range": {
+        "startLine": 104,
+        "startChar": 16,
+        "endLine": 104,
+        "endChar": 19
+      },
+      "revId": "7fe14d7d85166e83d9f3bd6e3c18b3b67802cf80",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fd7583b5_7542fee1",
@@ -100,6 +172,30 @@
       "writtenOn": "2022-06-15T22:45:57Z",
       "side": 1,
       "message": "I think this is less about \"synchronous communication\" and more about \"same-origin access to the DOM\". I don\u0027t have a great proposed wording here though.\n\nMaybe:\n\n\u003e A web application can use window.open() to create a new browsing context. Per the standard, the initial empty document in this new browsing context is same-origin to the creator and the creator should have same-origin access to its DOM.",
+      "range": {
+        "startLine": 107,
+        "startChar": 17,
+        "endLine": 109,
+        "endChar": 11
+      },
+      "revId": "7fe14d7d85166e83d9f3bd6e3c18b3b67802cf80",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b73e29dc_e7669105",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 1001216
+      },
+      "writtenOn": "2022-06-15T23:00:15Z",
+      "side": 1,
+      "message": "Good call.  I rephrased it to be a bit less specific and rely more on the link to the Process Models page, which goes into more detail about it.  (Also, the initial empty document is probably too low level for here, since it also applies to the more-easily-understood same-origin URL case.)",
+      "parentUuid": "fd7583b5_7542fee1",
       "range": {
         "startLine": 107,
         "startChar": 17,
