@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e93209be_dbd576b3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001216
+      },
+      "writtenOn": "2022-06-15T23:27:27Z",
+      "side": 1,
+      "message": "Thanks!  New edits posted in PS7.  (Ignore PS6, which accidentally undid my changes from PS4-\u003ePS5.)",
+      "revId": "b3034a306677a5252ec69b84b96f59cff6f8a36c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}

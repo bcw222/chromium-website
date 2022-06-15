@@ -22,6 +22,30 @@
       },
       "revId": "3ca335426ec281423c99e0fad5be37053d2de865",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "06c4074d_b1f334a8",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1001216
+      },
+      "writtenOn": "2022-06-15T23:27:27Z",
+      "side": 0,
+      "message": "Yep. :)  This felt like a low level enough detail that it should be left to that doc.\n\nSide question: Neither the MSDN URL here nor where it redirects (https://docs.microsoft.com/en-us/windows/win32/winstation/desktops) actually are actually in that sandbox.md doc, even though that doc does still talk about desktop objects in https://chromium.googlesource.com/chromium/src/+/HEAD/docs/design/sandbox.md#the-alternate-desktop.  Maybe that\u0027s worth adding to sandbox.md in a separate CL?",
+      "parentUuid": "25cc5c6b_6eb1c4fb",
+      "range": {
+        "startLine": 129,
+        "startChar": 0,
+        "endLine": 134,
+        "endChar": 44
+      },
+      "revId": "3ca335426ec281423c99e0fad5be37053d2de865",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }

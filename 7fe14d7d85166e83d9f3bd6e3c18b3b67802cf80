@@ -58,6 +58,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "32ddff10_b3700769",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1001216
+      },
+      "writtenOn": "2022-06-15T23:27:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a10889da_42efb26c",
+      "range": {
+        "startLine": 41,
+        "startChar": 71,
+        "endLine": 41,
+        "endChar": 77
+      },
+      "revId": "7fe14d7d85166e83d9f3bd6e3c18b3b67802cf80",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "53a68aaa_3373f89e",
@@ -118,6 +142,30 @@
       "writtenOn": "2022-06-15T23:00:26Z",
       "side": 1,
       "message": "nit: \"legacy IPC\", since Mojo is still an IPC mechanism :)",
+      "range": {
+        "startLine": 71,
+        "startChar": 57,
+        "endLine": 71,
+        "endChar": 60
+      },
+      "revId": "7fe14d7d85166e83d9f3bd6e3c18b3b67802cf80",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cdae29d8_fb6940c0",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1001216
+      },
+      "writtenOn": "2022-06-15T23:27:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "578a98bb_dd9f0bc5",
       "range": {
         "startLine": 71,
         "startChar": 57,
@@ -245,6 +293,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "19ff3429_32a44650",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1001216
+      },
+      "writtenOn": "2022-06-15T23:27:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6bf1fde5_39c26072",
+      "range": {
+        "startLine": 104,
+        "startChar": 11,
+        "endLine": 104,
+        "endChar": 27
+      },
+      "revId": "7fe14d7d85166e83d9f3bd6e3c18b3b67802cf80",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fd7583b5_7542fee1",
@@ -305,6 +377,30 @@
       "writtenOn": "2022-06-15T23:00:26Z",
       "side": 1,
       "message": "Is it a plugin process? I don\u0027t see plugin type processes if I load a PDF.",
+      "range": {
+        "startLine": 166,
+        "startChar": 39,
+        "endLine": 166,
+        "endChar": 54
+      },
+      "revId": "7fe14d7d85166e83d9f3bd6e3c18b3b67802cf80",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "673a6ef8_e5dcb7d9",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1001216
+      },
+      "writtenOn": "2022-06-15T23:27:27Z",
+      "side": 1,
+      "message": "That\u0027s a good point.  Unseasoned PDF is actually just Pdfium in a normal renderer process, separated from web pages (IIUC).  There may be a few corner case plugin processes still around, but maybe they aren\u0027t worth covering here.  And the NPAPI link is basically just historical, so it probably doesn\u0027t need a link here.\n\nSince extensions are already covered in the Process Model doc, I think I\u0027ll just cut this section entirely, in favor of the \"Additional Process Types\" section below for GPU/network/utility/etc.",
+      "parentUuid": "1ea694a0_0fa32f8a",
       "range": {
         "startLine": 166,
         "startChar": 39,
