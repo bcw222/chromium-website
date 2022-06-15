@@ -16,6 +16,23 @@
       "message": "Thanks!",
       "revId": "7883bc6b8d6eb9fa69f1d2b3426125a153c8f3ba",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7c1b5ef_38441e10",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1001216
+      },
+      "writtenOn": "2022-06-15T23:02:11Z",
+      "side": 1,
+      "message": "Daniel: While we\u0027re here, does this seem like a reasonable way to phrase Mojo without going into too much low level detail?  I was looking for a small edit that wasn\u0027t too inaccurate.  :)",
+      "revId": "7883bc6b8d6eb9fa69f1d2b3426125a153c8f3ba",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
