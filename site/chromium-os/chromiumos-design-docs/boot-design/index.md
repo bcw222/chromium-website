@@ -56,7 +56,7 @@ Upstart Event(s) Phase Description </tr>
 
 <td>startup</td>
 
-<td><a href="#h.zhrd95efyszv">Basic Services</a></td>
+<td><a href="#basic-services-startup">Basic Services</a></td>
 
 <td>Initialization of basic services needed by the rest of the system.</td>
 
@@ -65,7 +65,7 @@ Upstart Event(s) Phase Description </tr>
 
 <td>started boot-services</td>
 
-<td><a href="#h.lpny9tz0qmud">System Application</a></td>
+<td><a href="#system-application-startup">System Application</a></td>
 
 <td>Initialization of the system application and other services critical to the product’s UX</td>
 
@@ -74,11 +74,18 @@ Upstart Event(s) Phase Description </tr>
 
 <td>started system-services</td>
 
+<td><a href="#system-services-startup">System Services</a></td>
+
+<td>Initialization of all other services.</td>
+
+</tr>
+<tr>
+
 <td>started failsafe</td>
 
-<td><a href="#h.nm45bjel265c">System Services</a></td>
+<td><a href="#failsafe-service">Failsafe Service</a></td>
 
-<td>Initialization of all other services. The failsafe job is guaranteed to start even if the system application fails.</td>
+<td>The failsafe job is guaranteed to start even if the system application fails.</td>
 
 </tr>
 </table>
