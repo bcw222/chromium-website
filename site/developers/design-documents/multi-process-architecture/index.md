@@ -8,7 +8,8 @@ page_name: multi-process-architecture
 title: Multi-process Architecture
 ---
 
-This document describes Chromium's high-level architecture.
+This document describes Chromium's high-level architecture and how it is divided
+among multiple process types.
 
 ## Problem
 
@@ -19,123 +20,121 @@ secure.
 In some ways, the state of web browsers around 2006 was like that of the
 single-user, co-operatively multi-tasked operating systems of the past. As a
 misbehaving application in such an operating system could take down the entire
-system, so could a misbehaving web page in a web browser. All it took is one
-browser or plug-in bug to bring down the entire browser and all of the currently
-running tabs.
+system, so could a misbehaving web page in a web browser. All it took was one
+rendering engine or plug-in bug to bring down the entire browser and all of the
+currently running tabs.
 
 Modern operating systems are more robust because they put applications into
 separate processes that are walled off from one another. A crash in one
 application generally does not impair other applications or the integrity of the
 operating system, and each user's access to other users' data is restricted.
+Chromium's architecture aims for this more robust design.
 
 ## Architectural overview
 
-We use separate processes for browser tabs to protect the overall application
-from bugs and glitches in the rendering engine. We also restrict access from
-each rendering engine process to others and to the rest of the system. In some
-ways, this brings to web browsing the benefits that memory protection and access
-control brought to operating systems.
+Chromium uses multiple processes to protect the overall application from bugs
+and glitches in the rendering engine or other components. It also restricts
+access from each rendering engine process to other processes and to the rest
+of the system. In some ways, this brings to web browsing the benefits that
+memory protection and access control brought to operating systems.
 
-We refer to the main process that runs the UI and manages tab and plugin
-processes as the "browser process" or "browser." Likewise, the tab-specific
-processes are called "render processes" or "renderers." The renderers use the
-[Blink](/blink) open-source layout engine for interpreting and laying out HTML.
+We refer to the main process that runs the UI and manages renderer and other
+processes as the "**browser process**" or "browser." Likewise, the processes
+that handle web content are called "**renderer processes**" or "renderers."
+The renderers use the [Blink](/blink) open-source layout engine for interpreting
+and laying out HTML.
 
 [<img alt="image"
 src="/developers/design-documents/multi-process-architecture/arch.png">](/developers/design-documents/multi-process-architecture/arch.png)
 
-### Managing render processes
+### Managing renderer processes
 
-Each render process has a global `RenderProcess` object that manages
+Each renderer process has a global `RenderProcess` object that manages
 communication with the parent browser process and maintains global state. The
-browser maintains a corresponding `RenderProcessHost` for each render process,
-which manages browser state and communication for the renderer. The browser and
-the renderers communicate using [Chromium's IPC
+browser maintains a corresponding `RenderProcessHost` for each renderer
+process, which manages browser state and communication for the renderer. The
+browser and the renderers communicate using
+[Mojo](https://chromium.googlesource.com/chromium/src/+/HEAD/mojo/README.md) or
+[Chromium's legacy IPC
 system](/developers/design-documents/inter-process-communication).
 
-### Managing views
+### Managing frames and documents
 
-Each render process has one or more `RenderView` objects, managed by the
-`RenderProcess`, which correspond to tabs of content. The corresponding
-`RenderProcessHost` maintains a `RenderViewHost` corresponding to each view in
-the renderer. Each view is given a view ID that is used to differentiate
-multiple views in the same renderer. These IDs are unique inside one renderer
-but not within the browser, so identifying a view requires a `RenderProcessHost`
-and a view ID. Communication from the browser to a specific tab of content is
-done through these `RenderViewHost` objects, which know how to send messages
-through their `RenderProcessHost` to the `RenderProcess` and on to the
-`RenderView`.
+Each renderer process has one or more `RenderFrame` objects, which correspond to
+frames with documents containing content. The corresponding `RenderFrameHost` in
+the browser process manages state associated with that document. Each
+`RenderFrame` is given a routing ID that is used to differentiate multiple
+documents or frames in the same renderer. These IDs are unique inside one
+renderer but not within the browser, so identifying a frame requires both a
+`RenderProcessHost` and a routing ID. Communication from the browser to a
+specific document in the renderer is done through these `RenderFrameHost`
+objects, which know how to send messages through Mojo or legacy IPC.
 
 ## Components and interfaces
 
-In the render process:
+In the renderer process:
 
-*   The `RenderProcess` handles IPC with the corresponding
+*   The `RenderProcess` handles Mojo setup and legacy IPC with the corresponding
             `RenderProcessHost` in the browser. There is exactly one
-            `RenderProcess` object per render process. This is how all browser ↔
-            renderer communication happens.
-*   The `RenderView` object communicates with its corresponding
-            `RenderViewHost` in the browser process (via the RenderProcess), and
-            our WebKit embedding layer. This object represents the contents of
-            one web page in a tab or popup window
+            `RenderProcess` object per renderer process.
+*   The `RenderFrame` object communicates with its corresponding
+            `RenderFrameHost` in the browser process (via Mojo), and
+            the Blink layer. This object represents the contents of
+            one web document in a tab or subframe.
 
 In the browser process:
 
 *   The `Browser` object represents a top-level browser window.
 *   The `RenderProcessHost` object represents the browser side of a
             single browser ↔ renderer IPC connection. There is one
-            `RenderProcessHost` in the browser process for each render process.
-*   The `RenderViewHost` object encapsulates communication with the
-            remote `RenderView`, and RenderWidgetHost handles the input and
-            painting for RenderWidget in the browser.
+            `RenderProcessHost` in the browser process for each renderer process.
+*   The `RenderFrameHost` object encapsulates communication with the
+            `RenderFrame`, and `RenderWidgetHost` handles the input and
+            painting for `RenderWidget` in the browser.
 
 For more detailed information on how this embedding works, see the [How Chromium
 displays web
 pages](/developers/design-documents/displaying-a-web-page-in-chrome) design
 document.
 
-## Sharing the render process
+## Sharing the renderer process
 
 In general, each new window or tab opens in a new process. The browser will
-spawn a new process and instruct it to create a single `RenderView`.
+spawn a new process and instruct it to create a single `RenderFrame`, which
+may create more iframes in the page (possibly in different processes).
 
-Sometimes it is necessary or desirable to share the render process between tabs
-or windows. A web application opens a new window that it expects to communicate
-with synchronously, for example, using window.open in JavaScript. In this case,
-when we create a new window or tab, we need to reuse the process that the window
-was opened with. We also have strategies to assign new tabs to existing
-processes if the total number of processes is too large, or if the user already
-has a process open navigated to that domain. These strategies are described in
-[Process Models](/developers/design-documents/process-models).
+Sometimes it is necessary or desirable to share the renderer process between
+tabs or windows. For example, a web application can use `window.open` to
+create another window, and the new document must share the same process if
+it belongs to the same origin. Chromium also has strategies to assign new
+tabs to existing processes if the total number of processes is too large.
+These considerations and strategies are described in [Process
+Models](https://chromium.googlesource.com/chromium/src/+/main/docs/process_model_and_site_isolation.md).
 
 ## Detecting crashed or misbehaving renderers
 
-Each IPC connection to a browser process watches the process handles. If these
-handles are signaled, the render process has crashed and the tabs are notified
-of the crash. For now, we show a "sad tab" screen that notifies the user that
-the renderer has crashed. The page can be reloaded by pressing the reload button
-or by starting a new navigation. When this happens, we notice that there is no
-process and create a new one.
+Each Mojo or IPC connection to a browser process watches the process handles. If
+these handles are signaled, the renderer process has crashed and the affected
+tabs and frames are notified of the crash. Chromium shows a "sad tab" or "sad
+frame" image that notifies the user that the renderer has crashed. The page can
+be reloaded by pressing the reload button or by starting a new navigation. When
+this happens, Chromium notices that there is no renderer process and creates a
+new one.
 
 ## Sandboxing the renderer
 
 Given the renderer is running in a separate process, we have the opportunity to
 restrict its access to system resources via
-[sandboxing](/developers/design-documents/sandbox). For example, we can ensure
-that the renderer's only access to the network is via its parent browser
-process. Likewise, we can restrict its access to the filesystem using the host
-operating system's built-in permissions.
-
-In addition to restricting the renderer's access to the filesystem and network,
-we can also place limitations on its access to the user's display and related
-objects. We run each render process on a separate Windows
-"[Desktop](https://msdn.microsoft.com/en-us/library/windows/desktop/ms682573(v=vs.85).aspx)"
-which is not visible to the user. This prevents a compromised renderer from
-opening new windows or capturing keystrokes.
+[sandboxing](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/design/sandbox.md).
+For example, we can ensure that the renderer's only access to the network is
+via Chromium's network service. Likewise, we can restrict its access to the
+filesystem using the host operating system's built-in permissions, or its access
+to the user's display and input. These restrictions significantly limit what a
+compromised renderer process is able to accomplish.
 
 ## Giving back memory
 
-Given renderers running in separate processes, it becomes straightforward to
+With renderers running in separate processes, it becomes straightforward to
 treat hidden tabs as lower priority. Normally, minimized processes on Windows
 have their memory automatically put into a pool of "available memory." In
 low-memory situations, Windows will swap this memory to disk before it swaps out
@@ -158,13 +157,11 @@ single-process browser will have all tabs' data randomly distributed in its
 memory, and it is impossible to separate the used and unused data so cleanly,
 wasting both memory and performance.
 
-## Plug-ins and Extensions
+## Additional Process Types
 
-Firefox-style NPAPI plug-ins ran in their own process, separate from renderers.
-This is described in detail in [Plugin
-Architecture](/developers/design-documents/plugin-architecture).
-
-The [Site Isolation](/developers/design-documents/site-isolation) project aims
-to provide more isolation between renderers, an early deliverable for this
-project includes running Chrome's HTML/JavaScript content extensions in isolated
-processes.
+Chromium has split out a number of other components into separate processes as
+well, sometimes in platform-specific ways. For example, it now has a separate
+GPU process, network service, and storage service. Sandboxed utility processes
+can also be used for small or risky tasks, as one way to satisfy the [Rule of
+Two](https://chromium.googlesource.com/chromium/src/+/master/docs/security/rule-of-2.md)
+for security.
