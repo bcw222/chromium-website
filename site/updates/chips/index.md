@@ -122,7 +122,7 @@ One you have followed the instructions in the [End-to-End Testing](#end-to-end-t
 
 1. Go to chrome://settings/cookies and make sure that the radio button is set to "Allow all cookies" or "Block third-party cookies in Incognito".
 
-1. Open a new tab and navigate to https://cr2.kungfoo.net/cookies/v2.
+1. Open a new tab and navigate to [https://cr2.kungfoo.net/cookies/v2](https://cr2.kungfoo.net/cookies/v2).
 
 1. Click "Set cookie (SameSite=None)" to set an **unpartitioned** SameSite=None cookie named "unpartitioned".
 
@@ -131,7 +131,7 @@ One you have followed the instructions in the [End-to-End Testing](#end-to-end-t
 1. Open DevTools to Application > Cookies > https://cr2.kungfoo.net and you should see both the UI display both cookies.
   Note that the partitioned cookie has a "Partition Key", https://kungfoo.net, whereas the unpartitioned cookie does not.
 
-1. Navigate to https://wobbly-violet-heaven.glitch.me to see a site which embeds a cross-site iframe whose origin is https://cr2.kungfoo.net.
+1. Navigate to [https://wobbly-violet-heaven.glitch.me](https://wobbly-violet-heaven.glitch.me) to see a site which embeds a cross-site iframe whose origin is https://cr2.kungfoo.net.
   As you can see, the unpartitioned SameSite=None cookie is available, but the partitioned cookie is not since we are now on a different top-level site.
 
 1. Click "Set partitioned cookie (SameSite=None; Partitioned)" to set a partitioned cookie, "__Host-3P_partitioned", in a third-party context.
@@ -152,7 +152,7 @@ One you have followed the instructions in the [End-to-End Testing](#end-to-end-t
 
 1. Click the "Clear cookies" button. This will cause cr2.kungfoo.net to send the `Clear-Site-Data: "cookies"` header. You should see that both the "unpartitioned" and "__Host-3P_partitioned" cookies were removed.
 
-1. Navigate the tab back to https://cr2.kungfoo.net/cookies/v2. You should see that the "__Host-1P_partitioned" cookie was not removed after cr2.kungfoo.net sent the `Clear-Site-Data` header on a different top-level site.
+1. Navigate the tab back to [https://cr2.kungfoo.net/cookies/v2](https://cr2.kungfoo.net/cookies/v2). You should see that the "__Host-1P_partitioned" cookie was not removed after cr2.kungfoo.net sent the `Clear-Site-Data` header on a different top-level site.
 
 1. For Chrome versions 103 and 104, you can also click the "Opt-out of partitioned cookies" button to revert the partitioned cookie back to unpartitoned behavior.
   This option is only available to HTTP cookies during the CHIPS origin trial, which ends in 105, and is meant to demonstrate Chrome's behavior when a site opts out of the OT.
