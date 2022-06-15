@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "32e7da41_dfd7abd6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001216
+      },
+      "writtenOn": "2022-06-15T19:53:53Z",
+      "side": 1,
+      "message": "Alex / Łukasz / Daniel: Can you take a look?  This is a quick attempt to use more modern terminology on the existing Multi-Process Architecture page, without doing a full overhaul.  Some is about RenderFrame, and Mojo, and additional process types, etc.  This will keep it useful as a separate topic from the Process Models doc, which is more about which pages go in which renderers.  Thanks!",
+      "revId": "c8ab950d4bfa3ac39b2415de8e0daed1a659801e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
