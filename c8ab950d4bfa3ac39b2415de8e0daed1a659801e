@@ -16,6 +16,69 @@
       "message": "Alex / Łukasz / Daniel: Can you take a look?  This is a quick attempt to use more modern terminology on the existing Multi-Process Architecture page, without doing a full overhaul.  Some is about RenderFrame, and Mojo, and additional process types, etc.  This will keep it useful as a separate topic from the Process Models doc, which is more about which pages go in which renderers.  Thanks!",
       "revId": "c8ab950d4bfa3ac39b2415de8e0daed1a659801e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aadce5d9_e5e1d60c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1130134
+      },
+      "writtenOn": "2022-06-15T20:14:09Z",
+      "side": 1,
+      "message": "Thanks Charlie!  LGTM (with some optional nits/comments below).",
+      "revId": "c8ab950d4bfa3ac39b2415de8e0daed1a659801e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7c55b664_aa8590ed",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1130134
+      },
+      "writtenOn": "2022-06-15T20:14:09Z",
+      "side": 1,
+      "message": "inconsistency: This says \"RenderFrame\", but \"RenderProcess*Host*\".  Maybe let\u0027s reword to just talk about the frame (just like the old version just talked about \"view\")?\n\nSo:\n\n    [...], so identifying a frame requires [...]",
+      "range": {
+        "startLine": 68,
+        "startChar": 54,
+        "endLine": 68,
+        "endChar": 68
+      },
+      "revId": "c8ab950d4bfa3ac39b2415de8e0daed1a659801e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d9fff6bc_05e4d715",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1130134
+      },
+      "writtenOn": "2022-06-15T20:14:09Z",
+      "side": 1,
+      "message": "nit: Let\u0027s use backticks when quoting code?",
+      "range": {
+        "startLine": 108,
+        "startChar": 51,
+        "endLine": 108,
+        "endChar": 62
+      },
+      "revId": "c8ab950d4bfa3ac39b2415de8e0daed1a659801e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
