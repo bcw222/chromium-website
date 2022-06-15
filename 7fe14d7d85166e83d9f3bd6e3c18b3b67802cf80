@@ -18,6 +18,46 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "60d2f620_0d9e9bd4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001500
+      },
+      "writtenOn": "2022-06-15T23:00:26Z",
+      "side": 1,
+      "message": "Some minor comments.",
+      "revId": "7fe14d7d85166e83d9f3bd6e3c18b3b67802cf80",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a10889da_42efb26c",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1001500
+      },
+      "writtenOn": "2022-06-15T23:00:26Z",
+      "side": 1,
+      "message": "We don\u0027t have plugins these days much, so we can drop talking about plugins in most place IMHO.",
+      "range": {
+        "startLine": 41,
+        "startChar": 71,
+        "endLine": 41,
+        "endChar": 77
+      },
+      "revId": "7fe14d7d85166e83d9f3bd6e3c18b3b67802cf80",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "53a68aaa_3373f89e",
@@ -60,6 +100,29 @@
         "startChar": 55,
         "endLine": 65,
         "endChar": 63
+      },
+      "revId": "7fe14d7d85166e83d9f3bd6e3c18b3b67802cf80",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "578a98bb_dd9f0bc5",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1001500
+      },
+      "writtenOn": "2022-06-15T23:00:26Z",
+      "side": 1,
+      "message": "nit: \"legacy IPC\", since Mojo is still an IPC mechanism :)",
+      "range": {
+        "startLine": 71,
+        "startChar": 57,
+        "endLine": 71,
+        "endChar": 60
       },
       "revId": "7fe14d7d85166e83d9f3bd6e3c18b3b67802cf80",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
@@ -161,6 +224,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "6bf1fde5_39c26072",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1001500
+      },
+      "writtenOn": "2022-06-15T23:00:26Z",
+      "side": 1,
+      "message": "nit: This reads strange. Maybe drop the \"any\" part?",
+      "range": {
+        "startLine": 104,
+        "startChar": 11,
+        "endLine": 104,
+        "endChar": 27
+      },
+      "revId": "7fe14d7d85166e83d9f3bd6e3c18b3b67802cf80",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "fd7583b5_7542fee1",
         "filename": "site/developers/design-documents/multi-process-architecture/index.md",
         "patchSetId": 4
@@ -201,6 +287,29 @@
         "startChar": 17,
         "endLine": 109,
         "endChar": 11
+      },
+      "revId": "7fe14d7d85166e83d9f3bd6e3c18b3b67802cf80",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1ea694a0_0fa32f8a",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1001500
+      },
+      "writtenOn": "2022-06-15T23:00:26Z",
+      "side": 1,
+      "message": "Is it a plugin process? I don\u0027t see plugin type processes if I load a PDF.",
+      "range": {
+        "startLine": 166,
+        "startChar": 39,
+        "endLine": 166,
+        "endChar": 54
       },
       "revId": "7fe14d7d85166e83d9f3bd6e3c18b3b67802cf80",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"

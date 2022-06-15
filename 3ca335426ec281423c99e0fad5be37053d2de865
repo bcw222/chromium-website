@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "25cc5c6b_6eb1c4fb",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1001500
+      },
+      "writtenOn": "2022-06-15T23:00:26Z",
+      "side": 0,
+      "message": "This is covered nicely in the sandboxing doc, so we aren\u0027t losing bits of information!",
+      "range": {
+        "startLine": 129,
+        "startChar": 0,
+        "endLine": 134,
+        "endChar": 44
+      },
+      "revId": "3ca335426ec281423c99e0fad5be37053d2de865",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
