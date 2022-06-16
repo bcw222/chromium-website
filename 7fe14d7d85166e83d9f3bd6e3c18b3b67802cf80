@@ -433,6 +433,30 @@
       },
       "revId": "7fe14d7d85166e83d9f3bd6e3c18b3b67802cf80",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fda54aae_92f5c69d",
+        "filename": "site/developers/design-documents/multi-process-architecture/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1001216
+      },
+      "writtenOn": "2022-06-16T16:52:04Z",
+      "side": 1,
+      "message": "Yes, but Nasko I and were thinking NaCl processes are more of a corner case at this point, so we may not need to emphasize them.  Plugins were definitely more common when this doc was written.\n\n(If we want to do a larger overhaul later that includes a more exhaustive list of process types, it could make sense to include them.)",
+      "parentUuid": "0d3d39d8_46c31e1a",
+      "range": {
+        "startLine": 166,
+        "startChar": 39,
+        "endLine": 166,
+        "endChar": 54
+      },
+      "revId": "7fe14d7d85166e83d9f3bd6e3c18b3b67802cf80",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }

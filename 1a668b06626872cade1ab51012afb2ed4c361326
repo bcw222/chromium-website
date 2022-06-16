@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2280a8b4_00d467bc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001216
+      },
+      "writtenOn": "2022-06-16T16:52:04Z",
+      "side": 1,
+      "message": "Thanks all!  I\u0027ll proceed with landing this, and we can think about additional improvements to make (e.g., diagram, more about Mojo and Onion Soup, etc) separately.",
+      "revId": "1a668b06626872cade1ab51012afb2ed4c361326",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
