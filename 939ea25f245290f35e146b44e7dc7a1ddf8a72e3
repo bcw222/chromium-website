@@ -24,6 +24,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ceab26cd_24ec42b2",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1512301
+      },
+      "writtenOn": "2022-06-16T00:42:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4be7c309_84c5357a",
+      "range": {
+        "startLine": 9,
+        "startChar": 72,
+        "endLine": 9,
+        "endChar": 77
+      },
+      "revId": "939ea25f245290f35e146b44e7dc7a1ddf8a72e3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "49a8cfa3_05796acf",
@@ -37,6 +61,30 @@
       "writtenOn": "2022-06-15T06:47:23Z",
       "side": 1,
       "message": "Ideally we would want a BUG line and a TEST line as well.",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 10
+      },
+      "revId": "939ea25f245290f35e146b44e7dc7a1ddf8a72e3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cef84408_12b926a8",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1512301
+      },
+      "writtenOn": "2022-06-16T00:42:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "49a8cfa3_05796acf",
       "range": {
         "startLine": 12,
         "startChar": 0,
