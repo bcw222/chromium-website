@@ -109,7 +109,9 @@ Note that the server's certificate must be trusted by a default CA for
 Chrome/Chromium to accept it for QUIC. If you are using a self-signed
 certificate or a certificate that is signed by a custom CA, you need to use the
 `--ignore-certificate-errors-spki-list` command line flag to trust an individual
-certificate based on its spki.
+certificate based on its SPKI. It is not possible to trust a custom CA using this
+flag. If you wish to deploy a MITM proxy that intercepts traffic, you need to
+block QUIC entirely and intercept TLS instead.
 
 ### **Troubleshooting**
 
