@@ -3872,6 +3872,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>Yes</td>
   </tr>
+     <tr>
+    <td>2022-04-15</td>
+    <td>Samsung</td>
+    <td><a href="https://www.samsungmobilepress.com/media-assets/galaxy-chromebook-2-360/?tab=specs">Galaxy Chromebook 2 360</a></td>
+    <td>bugzzy</td>
+    <td>bugzzy</td>
+    <td>dedede</td>
+    <td>x86_64</td>
+    <td>5.4</td>
+    <td>x86_64</td>
+    <td>Jasper Lake</td>
+    <td>Convertible</td>
+    <td>R97</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr> 
    <tr>
     <td>2022-04-29</td>
     <td>Asus</td>
@@ -3885,6 +3902,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Jasper Lake</td>
     <td>Convertible</td>
     <td>R97</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
+     <tr>
+    <td>2022-06-15</td>
+    <td>Lenovo</td>
+    <td><a href="https://www.asus.com/Laptops/For-Home/Chromebook/ASUS-Chromebook-Flip-CX1-CX1500FKA/">ASUS Chromebook Flip CX1500</a></td>
+    <td>primus</td>
+    <td>brya</td>
+    <td>brya</td>
+    <td>x86_64</td>
+    <td>5.10</td>
+    <td>x86_64</td>
+    <td>Alder Lake-P</td>
+    <td>Chromebook</td>
+    <td>R102</td>
     <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
