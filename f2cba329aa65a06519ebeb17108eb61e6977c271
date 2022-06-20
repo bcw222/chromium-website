@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6ff68c6d_e6d6b6f6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1166720
+      },
+      "writtenOn": "2022-06-20T11:52:20Z",
+      "side": 1,
+      "message": "I defer to another reviewer who can verify the content of the change.\nAlso, do we have a document or a link where we can see the source of the device information?",
+      "revId": "f2cba329aa65a06519ebeb17108eb61e6977c271",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "14cd7ad8_d3c17c35",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 3875,
+      "author": {
+        "id": 1166720
+      },
+      "writtenOn": "2022-06-20T11:52:20Z",
+      "side": 1,
+      "message": "fix indent",
+      "revId": "f2cba329aa65a06519ebeb17108eb61e6977c271",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b1a25f2f_dd3b25d1",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 3891,
+      "author": {
+        "id": 1166720
+      },
+      "writtenOn": "2022-06-20T11:52:20Z",
+      "side": 1,
+      "message": "remove trailing space",
+      "revId": "f2cba329aa65a06519ebeb17108eb61e6977c271",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "000ddcc7_69809bbe",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 3909,
+      "author": {
+        "id": 1166720
+      },
+      "writtenOn": "2022-06-20T11:52:20Z",
+      "side": 1,
+      "message": "fix indent",
+      "revId": "f2cba329aa65a06519ebeb17108eb61e6977c271",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
