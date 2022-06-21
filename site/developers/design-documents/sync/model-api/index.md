@@ -265,15 +265,14 @@ the next client restart.
 
 ## Sync Integration Checklist
 
-Before starting any integration work, please reach out to us at
-chrome-sync-dev@google.com and share your plans / design doc! If you're a
-Googler, see the server-side [checklist][internal_integration_page] too.
-
+*   Before starting any integration work, please reach out to us at 
+    chrome-sync-dev@google.com and share your plans / design doc! If you're a
+    Googler, please file a bug via go/create-new-sync-data-type-bug.
 *   Define your specifics proto in [`//components/sync/protocol/`][protocol].
 *   Add it to the [proto value conversions][conversions] files.
 *   Add a field for it to [`EntitySpecifics`][EntitySpecifics].
 *   At this point, there are also some server-side integration steps to be done.
-    Reach out to chrome-sync-dev@google.com for details.
+    They should be discussed in the thread or bug created above.
 *   Add it to the [`ModelType`][ModelType] enum and
     [`kModelTypeInfoMap`][info_map].
 *   Add to the `SyncModelTypes` enum in [`enums.xml`][enums] and to the
@@ -309,7 +308,6 @@ Googler, see the server-side [checklist][internal_integration_page] too.
 [enums]: https://cs.chromium.org/chromium/src/tools/metrics/histograms/enums.xml
 [histograms]: https://cs.chromium.org/chromium/src/tools/metrics/histograms/histograms.xml
 [DataTypeHistogram]: https://cs.chromium.org/chromium/src/components/sync/base/data_type_histogram.h
-[internal_integration_page]: https://goto.corp.google.com/chrome-sync-add-new-data-type
 
 ## Testing
 
