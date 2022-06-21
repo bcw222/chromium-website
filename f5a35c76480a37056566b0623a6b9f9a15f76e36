@@ -16,6 +16,40 @@
       "message": "could you have a look please? Thank you!",
       "revId": "f5a35c76480a37056566b0623a6b9f9a15f76e36",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9375e8e4_5268f9c7",
+        "filename": "site/developers/design-documents/sync/model-api/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2022-06-21T14:13:43Z",
+      "side": 1,
+      "message": "nitty nit: \u003e 80 columns; break one word earlier",
+      "revId": "f5a35c76480a37056566b0623a6b9f9a15f76e36",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ef4e1ea5_b1b533b4",
+        "filename": "site/developers/design-documents/sync/model-api/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2022-06-21T14:13:43Z",
+      "side": 1,
+      "message": "optional: WDYT about moving the bug-filing up into the paragraph before the bullets? Probably the earlier they file the bug, the better - we wouldn\u0027t want them to start thinking about it only after they\u0027ve landed the proto changes in the client?",
+      "revId": "f5a35c76480a37056566b0623a6b9f9a15f76e36",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
