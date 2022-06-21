@@ -50,6 +50,42 @@
       "message": "optional: WDYT about moving the bug-filing up into the paragraph before the bullets? Probably the earlier they file the bug, the better - we wouldn\u0027t want them to start thinking about it only after they\u0027ve landed the proto changes in the client?",
       "revId": "f5a35c76480a37056566b0623a6b9f9a15f76e36",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c59ec492_3436b257",
+        "filename": "site/developers/design-documents/sync/model-api/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 1163944
+      },
+      "writtenOn": "2022-06-21T14:28:57Z",
+      "side": 1,
+      "message": "done\n\n(didn\u0027t publish the edit originally)",
+      "parentUuid": "9375e8e4_5268f9c7",
+      "revId": "f5a35c76480a37056566b0623a6b9f9a15f76e36",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cdb0338b_bbc146c5",
+        "filename": "site/developers/design-documents/sync/model-api/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 1163944
+      },
+      "writtenOn": "2022-06-21T14:28:57Z",
+      "side": 1,
+      "message": "done.\n\nI actually made the intro a bullet too. \n\nOtherwise it is easy to miss it. \nE.g. it already included the server side checklist, which I missed :)",
+      "parentUuid": "ef4e1ea5_b1b533b4",
+      "revId": "f5a35c76480a37056566b0623a6b9f9a15f76e36",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
