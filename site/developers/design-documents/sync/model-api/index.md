@@ -273,7 +273,8 @@ Googler, see the server-side [checklist][internal_integration_page] too.
 *   Add it to the [proto value conversions][conversions] files.
 *   Add a field for it to [`EntitySpecifics`][EntitySpecifics].
 *   At this point, there are also some server-side integration steps to be done.
-    Reach out to chrome-sync-dev@google.com for details.
+    Googlers: please follow go/create-new-sync-data-type-bug. Otherwise reach
+    out to chrome-sync-dev@google.com for details.
 *   Add it to the [`ModelType`][ModelType] enum and
     [`kModelTypeInfoMap`][info_map].
 *   Add to the `SyncModelTypes` enum in [`enums.xml`][enums] and to the
