@@ -265,9 +265,12 @@ the next client restart.
 
 ## Sync Integration Checklist
 
-*   Before starting any integration work, please reach out to us at 
-    chrome-sync-dev@google.com and share your plans / design doc! If you're a
-    Googler, please file a bug via go/create-new-sync-data-type-bug.
+*   Before starting any integration work, please reach out to us at
+    chrome-sync-dev@google.com and share your plans / design doc! The Chrome
+    Sync team will assign you a "champion" (primary contact person) to review
+    your designs and code.
+*   If you're a Googler, please also file a bug via
+    go/create-new-sync-data-type-bug.
 *   Define your specifics proto in [`//components/sync/protocol/`][protocol].
 *   Add it to the [proto value conversions][conversions] files.
 *   Add a field for it to [`EntitySpecifics`][EntitySpecifics].
