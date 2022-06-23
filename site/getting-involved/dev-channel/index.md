@@ -94,7 +94,7 @@ tested version of Chrome around.
 *   **Stable channel:** This channel has gotten the full testing and
             blessing of the Chrome test team, and is the best bet to avoid
             crashes and other issues. It's updated roughly every two-three weeks
-            for minor releases, and every 6 weeks for major releases.
+            for minor releases, and every 4 weeks for major releases.
 *   **Beta channel:** If you are interested in seeing what's next, with
             minimal risk, Beta channel is the place to be. It's updated every
             week roughly, with major updates coming every six weeks, more than a
