@@ -1,0 +1,22 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fc84b41f_52ecb797",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2022-06-24T14:52:41Z",
+      "side": 1,
+      "message": "For convenience: https://chromium-website--cl3720744-ps1-m3qn35ea.web.app/developers/design-documents/sync/model-api/",
+      "parentUuid": "57f0ffc9_c36bda1f",
+      "revId": "e44351852e2dd791b666ca03cd5f03c05b7ea378",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
