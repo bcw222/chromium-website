@@ -125,8 +125,8 @@ into an existing `WriteBatch` and another caches them in memory until a
 The store interface abstracts away the type and will handle setting up tables
 for the type’s data, so multiple `ModelTypeStore` objects for different types
 can share the same LevelDB backend just by specifying the same path and task
-runner. Sync already has a backend it uses for DeviceInfo that can be shared by
-other types via the [`ModelTypeStoreService`][StoreService].
+runner. Sync provides a backend that can be shared by all types via the
+[`ModelTypeStoreService`][StoreService].
 
 [Store]: https://cs.chromium.org/chromium/src/components/sync/model/model_type_store.h
 [LevelDB]: https://github.com/google/leveldb/blob/master/doc/index.md
@@ -134,6 +134,21 @@ other types via the [`ModelTypeStoreService`][StoreService].
 [StoreService]: https://cs.chromium.org/chromium/src/components/sync/model/model_type_store_service.h
 
 ## Implementing ModelTypeSyncBridge
+
+The responsibility of the bridge is to accept incoming changes from Sync and
+apply them to the local model (via `MergeSyncData` and `ApplySyncChanges`), as
+well as watch for local changes and send them to Sync (via the passed-in
+`ModelTypeChangeProcessor`'s `Put` and `Delete` methods).
+
+### Threading
+
+The bridge should live on the "model thread", i.e. the thread on which the local
+model itself lives. This can either be a background/database thread (typically
+for types which have a pre-existing persistence layer, e.g. `TypedURLSyncBridge`
+or `PasswordSyncBridge`), or it can be the UI thread (e.g. `SendTabToSelfBridge`
+or `ReadingListStore`). Either way, the bridge must be able to *synchronously*
+handle updates from Sync. If the bridge lives on the UI thread, then the actual
+persistence (e.g. to `ModelTypeStore`) will be asynchronous.
 
 ### Initialization
 
@@ -145,18 +160,17 @@ with the server if the processor is never informed that the model is ready.
 
 Since the tracking of changes and updating of metadata is completely
 independent, there is no need to wait for the sync engine to start before
-changes can be made. This prevents the need for an expensive association step in
-the initialization.
+changes can be made.
 
 [ModelReadyToSync]: https://cs.chromium.org/search/?q=ModelReadyToSync+file:/model_type_change_processor.h
 
 ### MergeSyncData
 
-This method is called only once, when a type is first enabled. Sync will
-download all the data it has for the type from the server and provide it to the
-bridge using this method. Sync filters out any tombstones for this call, so
-`EntityData::is_deleted()` will never be true for the provided entities. The
-bridge must then examine the sync data and the local data and merge them
+This method is called only once, when a type is first enabled. Sync downloads
+all the data it has for the type from the server and provides it to the bridge
+using this method. Sync filters out any tombstones for this call, so
+`EntityChange::type()` will never be `ACTION_DELETE` for the provided entities.
+The bridge must then examine the sync data and the local data and merge them
 together:
 
 *   Any remote entities that don’t exist locally must be be written to local
@@ -185,10 +199,8 @@ the meantime.
 
 ### ApplySyncChanges
 
-While `MergeSyncData` provides the state of sync data using `EntityData`
-objects, `ApplySyncChanges` provides changes to the state using
-[`EntityChange`][EntityChange] objects. These changes must be applied to the
-local state.
+This method is called whenever new changes have been downloaded from the server.
+These changes must be applied to the local model.
 
 Here’s an example implementation of a type using `ModelTypeStore`:
 
