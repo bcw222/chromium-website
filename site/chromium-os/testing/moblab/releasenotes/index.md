@@ -17,6 +17,18 @@ title: MobLab Release Notes
 *   [Wyvern (puff) OS Recovery
             Image](https://storage.googleapis.com/moblab-recovery-images/chromeos_14526.55.0_puff-moblab_recovery_stable-channel_mp-v3.bin.zip)
 
+
+# June 24th 2022: Moblab Update
+**You should reboot your Moblab when next not running tests to get this latest version of the software.**
+
+After the update you will be running Moblab version R-2.17.2
+
+**Highlights**
+This release mainly focussed on UI improvements: 
+- Fix column sorting on Manage DUTs page
+- Display "Moblab Uptime" on top-right corner for quick access to this data
+- Add "Moblab Start Time" and some Useful links to the About page
+
 # May 10th 2022: Moblab Update
 **You should reboot your Moblab when next not running tests to get this latest version of the software.**
 
