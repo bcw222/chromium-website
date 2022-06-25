@@ -19,8 +19,7 @@ to help you learn to build and work with the Chromium source code.
 * [Get the Code: Checkout, Build, &
   Run](/developers/how-tos/get-the-code)
 * [Contributing code](/developers/contributing-code)
-* Debug on [Windows](/developers/how-tos/debugging-on-windows), [OS
-  X](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/mac/debugging.md),
+* Debug on [Windows](/developers/how-tos/debugging-on-windows), [macOS](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/mac/debugging.md),
   [Linux](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/linux/debugging.md)
   or
   [Android](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/android_debugging_instructions.md).
