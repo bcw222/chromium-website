@@ -141,22 +141,15 @@ If a test is flaky or randomly crashes, the test should **not** run on the build
 bots.
 The guidelines for handling flaky and crashing tests are as follows:
 
-*   If a test is flaky but doesn’t crash, it should be marked flaky
-            using the FlakyTest annotation.
-*   If a test is crashing, it should be disabled using the DisabledTest
-            annotation.
-*   To mark a test flaky or disabled, do the following
+*   To mark a test disabled, do the following
     *   create a bug for the test/area owner to fix the test.
-    *   don't mark a test flaky or disabled without creating a bug!!
-    *   add the @FlakyTest or @DisabledTest annotation to the test
-                depending on whether the test is flaky or crashing.
+    *   don't mark a test disabled without creating a bug!!
+    *   add the @DisabledTest annotation to the test.
     *   add the relevant package import in the file header, import
-                org.chromium.base.test.util.FlakyTest; or import
                 org.chromium.base.test.util.DisabledTest;
     *   add the bug number in a comment to the test.
     *   please follow this example:
-        @FlakyTest(message = "crbug.com/XXXXXX")
-        Replace @FlakyTest with @DisabledTest if disabling a test.
+        @DisabledTest(message = "crbug.com/XXXXXX").
     *   if the test has any other annotations, do NOT remove these!
     *   if a test fails only on a subset of devices, consider disabling
                 it conditionally, like:

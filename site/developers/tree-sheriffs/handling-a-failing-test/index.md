@@ -94,5 +94,4 @@ test...](/Home/domui-testing/webui-browser_tests#TOC-Conditionally-run-a-test-us
 
 **Disabling Java Tests:**
 
-Add @DisabledTest or @FlakyTest as explained in [Android
-Tests](/developers/testing/android-tests).
+Add @DisabledTest as explained in [Android Tests](/developers/testing/android-tests).
