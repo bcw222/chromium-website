@@ -4,8 +4,8 @@ page_name: chromium-os
 title: Chromium OS
 ---
 
-<div class="two-column-container">
-<div class="column">
+<div class="two--container">
+<div class="">
 
 Chromium OS is an open-source project that aims to build an operating system
 that provides a fast, simple, and more secure computing experience for people
@@ -64,7 +64,7 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 *   [Steam on Chrome OS](/chromium-os/steam-on-chromeos)
 
 </div>
-<div class="column">
+<div class="">
 
 ### ![](/chromium-os/comp2_200x146.jpg)
 
