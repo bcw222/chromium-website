@@ -29,9 +29,9 @@ If you have questions/suggestions related to the Chrome origin trial or implemen
 
 **Launch Timeline**
 
-Last updated January 4, 2022.
+Last updated June 27, 2022.
 
-The Trust Token API has been running in Origin Trial since Chrome 84, running at 50% on Dev/Canary/Beta and 10% on Stable. It is currently running through to Chrome 101.
+The Trust Token API had been running in Origin Trial from Chrome 84 to Chrome 102, running at 50% on Dev/Canary/Beta and 10% on Stable. It is currently running through to Chrome 101.
 
 Chrome 84-88 supports [TrustTokenV1](https://github.com/WICG/trust-token-api/tree/36da1948de580fa4efb61a3ec324a608edca8c68) which includes verification of the Redemption Record.
 
