@@ -3855,7 +3855,24 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td></td>
   </tr>
-   <tr>
+  <tr>
+    <td>2022-03-11</td>
+    <td>Lenovo</td>
+    <td><a href="https://www.lenovo.com/us/en/p/laptops/lenovo/lenovo-edu-chromebooks/ideapad-duet-3-chromebook-(11-inch-qcom)/len101i0034">Lenovo Chromebook Duet 3 /IdeaPad Duet 3 Chromebook</a></td>
+    <td>Wormdingler</td>
+    <td>Strongbad</td>
+    <td>Strongbad</td>
+    <td>arm</td>
+    <td>5.4</td>
+    <td>aarch64</td>
+    <td>QC-7C</td>
+    <td>Chromeblet</td>
+    <td>R97</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
+  <tr>
     <td>2022-04-08</td>
     <td>Asus</td>
     <td><a href="https://www.asus.com/Laptops/For-Home/Chromebook/ASUS-Chromebook-Flip-CX1-CX1400/">ASUS Chromebook Flip CX1400</a></td>
@@ -3872,7 +3889,7 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>Yes</td>
   </tr>
-   <tr>
+  <tr>
     <td>2022-04-29</td>
     <td>Asus</td>
     <td><a href="https://www.asus.com/Laptops/For-Home/Chromebook/ASUS-Chromebook-Flip-CX1-CX1500FKA/">ASUS Chromebook Flip CX1500</a></td>
