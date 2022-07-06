@@ -14,7 +14,7 @@ title: Presubmit Scripts
 
 ### Overview
 
-`gcl` and `git-cl` will check for and run presubmit scripts before you upload
+`git cl` and `git-cl` will check for and run presubmit scripts before you upload
 and/or commit your changes. Presubmit scripts are a way of applying automatic
 verification to your changes before they are reviewed and/or before they are
 committed.
@@ -22,7 +22,7 @@ committed.
 Presubmit scripts can perform automated checks on the files in your change and
 the description of your change, and either fail your attempt to upload or
 commit, show a warning that you must acknowledge before uploading/committing, or
-simply show an informational message as part of the output of `gcl`.
+simply show an informational message as part of the output of `git cl`.
 
 Examples of things presubmit scripts may be useful for include:
 
@@ -68,20 +68,20 @@ for how to contribute.
 
 ### Design
 
-When you run `gcl upload` or `gcl commit`, `gcl` will look for all files named
-`PRESUBMIT.py` in folders enclosing the files in your change, up to the
-repository root.
+When you run `git cl upload` or `git cl commit`, `git cl` will look for all
+files named `PRESUBMIT.py` in folders enclosing the files in your change, up to
+the repository root.
 
 For each such file, it will load the file into the Python interpreter and then
 call either the `CheckChangeOnUpload` or `CheckChangeOnCommit` function
-depending on whether you are calling \[gcl upload\] or \[gcl commit\].
+depending on whether you are calling \[git cl upload\] or \[git cl commit\].
 
 The same applies to `git-cl upload`, `git-cl dcommit` and `git-cl push`.
 
 Please note that presubmit scripts are a best-effort kind of thing; they do not
 prevent users from submitting without running the scripts, since one can always
 dcommit, and in fact there is a --bypass-hooks (formerly `--no_presubmit`) flag
-to gcl that skips presubmit checks. Further, since they use the local copy of
+to git cl that skips presubmit checks. Further, since they use the local copy of
 the `PRESUBMIT.py` files, users must sync their repos before the latest
 presubmit checks will run when they upload or submit.
 
@@ -96,12 +96,25 @@ change 1 adding a new test, and change 2 changing existing tests. After they
 both land, there is a new test in the old style (from change 1), which is out of
 sync with the new tests (from change 2).
 
+Another very common way that presubmit failures can land is when a PRESUBMIT or
+associated settings are changed. Because presubmits generally only check the
+files in the change and because presubmits and their settings affect many other
+files, a disconnect can easily occur. For instance, the `.eslintrc.js` files
+control what warnings are enabled in .js and .ts files. However, the presubmits
+only check .js and .ts files when they are modified, so a change that enables a
+warning in `.eslintrc.js` can pass presubmits even if hundreds of files will
+trigger the warning. Ideally, developers will run `git cl presubmit --files "*.js;*.ts"`
+to check these, but this is not enforced. In general, modifying presubmits is
+the most common way to introduce latent presubmit failures. Occasionally running
+`git cl presubmit --all` and looking for errors is the only reliable way to find
+these.
+
 ### Writing tests
 
 To create a new test, either create a new PRESUBMIT.py script or edit an
 existing one, adding a new function for your test.
 
-To check your changes, first commit locally (else `git-cl` will complain about
+To check your changes, first commit locally (else `git cl` will complain about
 the dirty tree), then:
 
 To test the upload checks (i.e., to run `CheckChangeOnUpload`):
@@ -123,9 +136,9 @@ function:
 
 ```none
 def CheckChangeOnUpload(input_api, output_api):
-    pass
+    CommonChecks(input_api, output_api)
 def CheckChangeOnCommit(input_api, output_api):
-    pass
+    CommonChecks(input_api, output_api)
 ```
 
 The `input_api` parameter is an object through which you can get information
@@ -156,9 +169,9 @@ parameters. `CheckXXX` functions that end in `Upload` will only be executed on
 upload and `CheckXXX` functions that end in `Commit` will only be executed on
 commit. `CheckXXX` functions that do not end in either suffix will be executed
 at both upload and commit. The format of return values of `CheckChangeOnXXX`
-functions is the same as for `CheckChangeOnUpload/CheckChangeOnCommit. This
+functions is the same as for `CheckChangeOnUpload/CheckChangeOnCommit`. This
 makes existing presubmit scripts backwards compatible with presubmit version 2
-provided there are no functions in the global scope of the script` that begin
+provided there are no functions in the global scope of the script that begin
 with `Check`.
 
 #### InputApi
@@ -186,7 +199,7 @@ to import this yourself.
 
 Files in the API are represented by an `AffectedFile` object through which you
 can query the `LocalPath()`, `ServerPath()`, and the `Action()` being performed
-('A', 'M' or 'D').
+('A', 'M' or 'D' for Add, Modify or Delete).
 
 The `input_api.is_committing` attribute indicates whether the CL is being
 committed or just uploaded. This is particularly useful if you wish the same
@@ -242,6 +255,11 @@ def CheckChangeOnCommit(input_api, output_api):
     return CheckChange(input_api, output_api)
 ```
 
+However many of the canned checks, such as `ChecksCommon` and `CheckLongLines`,
+are called from the root-level `PRESUBMIT.py` (either directly or through
+`PanProjectChecks`) and therefore needn't be called from other Chromium
+presubmit scripts.
+
 A simple example of a custom command (call from `CheckChangeOnUpload` or
 `CheckChangeOnCommit`) is:
 
@@ -249,11 +267,7 @@ A simple example of a custom command (call from `CheckChangeOnUpload` or
 def MyTest(input_api, output_api):
   test_path = input_api.os_path.join(input_api.PresubmitLocalPath(), 'my_test.py')
   cmd_name = 'my_test'
-  if input_api.platform == 'win32':
-    # Windows needs some help.
-    cmd = [input_api.python_executable, test_path]
-  else:
-    cmd = [test_path]
+  cmd = [input_api.python3_executable, test_path]
   test_cmd = input_api.Command(
     name=cmd_name,
     cmd=cmd,
@@ -263,6 +277,10 @@ def MyTest(input_api, output_api):
     print('Running ' + cmd_name)
   return input_api.RunTests([test_cmd])
 ```
+
+Alternatively, you can set `cmd = [test_path]` and then pass `python3=True` to
+run the script under Python 3. `input_api.python_executable` (runs Python 2) is
+deprecated and should not be used in new presubmits.
 
 You can look at existing scripts for examples ([search:
 PRESUBMIT.py](https://code.google.com/p/chromium/codesearch#search/&q=file:PRESUBMIT.py&sq=package:chromium&type=cs)).
