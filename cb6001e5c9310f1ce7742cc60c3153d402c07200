@@ -16,6 +16,207 @@
       "message": "I\u0027ve been sitting on this update for weeks - I think it\u0027s time to get it landed. PTAL.",
       "revId": "cb6001e5c9310f1ce7742cc60c3153d402c07200",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c697404_181b1a96",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-07-06T20:43:36Z",
+      "side": 1,
+      "message": "Nice cleanups : ) LGTM with nits",
+      "revId": "cb6001e5c9310f1ce7742cc60c3153d402c07200",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b6de9823_b2b41519",
+        "filename": "site/developers/how-tos/depottools/presubmit-scripts/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-07-06T20:43:36Z",
+      "side": 1,
+      "message": "nit: please wrap this line to 80 characters",
+      "range": {
+        "startLine": 71,
+        "startChar": 0,
+        "endLine": 71,
+        "endChar": 87
+      },
+      "revId": "cb6001e5c9310f1ce7742cc60c3153d402c07200",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f94b82b4_77820617",
+        "filename": "site/developers/how-tos/depottools/presubmit-scripts/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-07-06T20:43:36Z",
+      "side": 1,
+      "message": "I think this would be more readable as:\n\n```\n`.eslintrc.js`\n```\n\n(i.e., remove the leading `./` and add backticks to differentiate it from the other text). Feel free to disagree if there\u0027s a particular reason to write it like this, though!",
+      "range": {
+        "startLine": 102,
+        "startChar": 52,
+        "endLine": 102,
+        "endChar": 66
+      },
+      "revId": "cb6001e5c9310f1ce7742cc60c3153d402c07200",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7c55032e_10ca0b8b",
+        "filename": "site/developers/how-tos/depottools/presubmit-scripts/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-07-06T20:43:36Z",
+      "side": 1,
+      "message": "nit: add a comma: `However, `",
+      "range": {
+        "startLine": 103,
+        "startChar": 43,
+        "endLine": 103,
+        "endChar": 51
+      },
+      "revId": "cb6001e5c9310f1ce7742cc60c3153d402c07200",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c3a4c539_b637d383",
+        "filename": "site/developers/how-tos/depottools/presubmit-scripts/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-07-06T20:43:36Z",
+      "side": 1,
+      "message": "Same comment as above:\n```\n`.eslintrc.js`\n```",
+      "range": {
+        "startLine": 105,
+        "startChar": 0,
+        "endLine": 105,
+        "endChar": 14
+      },
+      "revId": "cb6001e5c9310f1ce7742cc60c3153d402c07200",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "90b6df67_16eac052",
+        "filename": "site/developers/how-tos/depottools/presubmit-scripts/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-07-06T20:43:36Z",
+      "side": 1,
+      "message": "nit: add a comma: `Ideally, `",
+      "range": {
+        "startLine": 106,
+        "startChar": 9,
+        "endLine": 106,
+        "endChar": 17
+      },
+      "revId": "cb6001e5c9310f1ce7742cc60c3153d402c07200",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "157c0329_e3b77c25",
+        "filename": "site/developers/how-tos/depottools/presubmit-scripts/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 258,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-07-06T20:43:36Z",
+      "side": 1,
+      "message": "nit: enclose in backticks to match the style of other \"Checks*\" in this section.",
+      "range": {
+        "startLine": 258,
+        "startChar": 43,
+        "endLine": 258,
+        "endChar": 55
+      },
+      "revId": "cb6001e5c9310f1ce7742cc60c3153d402c07200",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "27fe03a1_8878c2e8",
+        "filename": "site/developers/how-tos/depottools/presubmit-scripts/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 258,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-07-06T20:43:36Z",
+      "side": 1,
+      "message": "nit: enclose in backticks here too",
+      "range": {
+        "startLine": 258,
+        "startChar": 60,
+        "endLine": 258,
+        "endChar": 74
+      },
+      "revId": "cb6001e5c9310f1ce7742cc60c3153d402c07200",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "edbc41be_63ed67a0",
+        "filename": "site/developers/how-tos/depottools/presubmit-scripts/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 281,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-07-06T20:43:36Z",
+      "side": 1,
+      "message": "nit: `Alternatively,` - I think this is a slightly more appropriate word choice here, and I\u0027d add a comma for readability",
+      "range": {
+        "startLine": 281,
+        "startChar": 0,
+        "endLine": 281,
+        "endChar": 12
+      },
+      "revId": "cb6001e5c9310f1ce7742cc60c3153d402c07200",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
