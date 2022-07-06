@@ -33,6 +33,23 @@
       "message": "+brucedawson@ for OWNERS review.",
       "revId": "9034f65df7b4aa72bbe0705815006861367d220b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3afdb8c4_586bbcc8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2022-07-06T19:43:22Z",
+      "side": 1,
+      "message": "rs lgtm",
+      "revId": "9034f65df7b4aa72bbe0705815006861367d220b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
