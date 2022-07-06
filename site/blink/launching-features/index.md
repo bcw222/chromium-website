@@ -7,12 +7,9 @@ title: Launching Features
 ---
 
 If you have concerns about your feature not fitting into this process, or any
-other questions, general concerns or discussion of this process, please e-mail
+other questions, general concerns or discussion on this page or the process it
+describes, please e-mail
 [blink-api-owners-discuss@chromium.org](mailto:blink-api-owners-discuss@chromium.org).
-If you'd like to provide feedback on this page or the process it describes,
-leave feedback on the [Google Doc
-draft](https://docs.google.com/document/d/1R_2V5_rukVM8S5Hg2XKxiEOVRxvB7NqZOI2lfni2YwE/edit?usp=sharing)
-of this page.
 
 ## Exempt features
 
