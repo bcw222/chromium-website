@@ -6,7 +6,7 @@ page_name: spdy-protocol
 title: SPDY Protocol
 ---
 
-*   [Draft 4](http://mbelshe.github.com/SPDY-Specification/)
+*   [Draft 4](https://mbelshe.github.io/SPDY-Specification)
     *   This is a placeholder. Not spec'd or implemented yet. Expected
                 changes:
         *   Server push of DNS records & certificates for better
