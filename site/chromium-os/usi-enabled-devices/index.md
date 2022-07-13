@@ -25,17 +25,27 @@ title: USI Capable Devices
 </tr>
 <tr>
 
-<td>Acer Chromebook Spin 513 (CP513-1H, CP513-1HL, R841T, R841LT)</td>
+<td>Acer Chromebook Spin 513 (CP513-1H, CP513-1HL, R841T, R841LT, CP513-2H)</td>
 
 </tr>
 <tr>
 
-<td>Acer Chromebook Spin 514 (CP514-1H, CP514-1HH, CP514-1W, CP514-2H)</td>
+<td>Acer Chromebook Spin 514 (CP514-1H, CP514-1HH, CP514-1W, CP514-1WH, CP514-2H, CP514-3H, CP514-3HH, CP514-3WH)</td>
 
 </tr>
 <tr>
 
 <td>Acer Chromebook Spin 713 (CP713-2W, CP713-3W)</td>
+
+</tr>
+<tr>
+
+<td>Acer Chromebook Spin 714 (CP714-1WN)</td>
+
+</tr>
+<tr>
+
+<td>Acer Chromebook Tab 510 (D652N, D652NL)</td>
 
 </tr>
 <tr>
