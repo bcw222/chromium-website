@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b342afec_71e8909c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1394748
+      },
+      "writtenOn": "2022-07-15T21:15:17Z",
+      "side": 1,
+      "message": "Note that I\u0027ll take a couple of business days to review this; I will be checking the DLM and hwid data to double-check these entries.",
+      "revId": "064d84b2c484e6ed1445446c0d91451edbd85f90",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
