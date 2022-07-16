@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a244350_558e18b8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1548979
+      },
+      "writtenOn": "2022-07-16T09:49:30Z",
+      "side": 1,
+      "message": "Hi, The spec address is not accessible",
+      "revId": "8dd32e3ad0aaaa8efab3c42a0373640afb7dfa1f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
