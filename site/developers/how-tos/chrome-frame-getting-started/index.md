@@ -10,12 +10,8 @@ title: Chrome Frame
 
 ## Google Chrome Frame was an open source plug-in that seamlessly brought Google Chrome's open web technologies and speedy JavaScript engine to Internet Explorer.
 
-*   ## If you have Chrome Frame installed, please uninstall it. It is no
-            longer supported or updated.
-*   ## You should continue to encourage your users to install and run
-            [evergreen
-            browsers](http://tomdale.net/2013/05/evergreen-browsers/), that is,
-            browsers that auto-update their users to the latest and greatest.
+*   ## If you have Chrome Frame installed, please uninstall it. It is no longer supported or updated.
+*   ## You should continue to encourage your users to install and run [evergreen browsers](http://tomdale.net/2013/05/evergreen-browsers/), that is, browsers that auto-update their users to the latest and greatest.
 
 ## Google Chrome Frame is no longer supported and retired as of February 25, 2014.
 
