@@ -50,7 +50,7 @@ The flags are as follows:
 <td> 0x10</td>
 <td> FWMP_DEV_ENABLE_OFFICIAL_ONLY</td>
 <td>Only accept developer images signed with the official Chrome OS key.</td>
-<td>Same effect as 'crossystem dev_boot_signed_only=1'</td>
+<td>Same effect as 'crossystem dev_boot_signe>
 </tr>
 <tr>
 <td> 0x20</td>
@@ -99,9 +99,5 @@ If your Chrome OS device is enterprise-enrolled, see your system administrator.
 
 If you've enabled developer mode, and you're getting this warning at boot time:
 
-> Developer mode is disabled on this device by system policy.
+> Developer
 
-> For more information, see http://www.chromium.org/chromium-os/fwmp
-
-that's because FWMP_DEV_DISABLE_BOOT is set. See the previous section on
-removing the FWMP.
