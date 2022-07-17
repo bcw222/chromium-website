@@ -2,8 +2,7 @@
 breadcrumbs:
 - - /chromium-os
   - Chromium OS
-page_name: fwmp
-title: Firmware Management Parameters
+page_nameFirmware Management Parameters
 ---
 
 [TOC]
@@ -83,25 +82,4 @@ the owner password:
 System administrators can automatically set the FWMP on enterprise-enrolled
 devices during the initial device enrollment.
 
-## Removing the FWMP
-
-If you have somehow locked yourself out of your system - say, by setting
-FWMP_DEV_DISABLE_BOOT, or by setting FWMP_DEV_USE_KEY_HASH but specifying the
-wrong hash, all is not lost.
-
-If your Chrome OS device is NOT enterprise-enrolled, disable developer mode,
-recovery your system to a fresh state, then log in. That will automatically
-remove the FWMP. And whatever else was on your system.
-
-If your Chrome OS device is enterprise-enrolled, see your system administrator.
-
-## I Can't Get Into Developer Mode
-
-If you've enabled developer mode, and you're getting this warning at boot time:
-
-> Developer mode is disabled on this device by system policy.
-
-> For more information, see http://www.chromium.org/chromium-os/fwmp
-
-that's because FWMP_DEV_DISABLE_BOOT is set. See the previous section on
-removing the FWMP.
+## Removing the
