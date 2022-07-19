@@ -174,6 +174,7 @@ Chrome/<strong>&lt;majorVersion&gt;</strong>.0.0.0 <strong>&lt;deviceCompat&gt;<
         <li><samp>Macintosh; Intel Mac OS X 10_15_7</samp>
         <li><samp>X11; Linux x86_64</samp>
         <li><samp>X11; CrOS x86_64 14541.0.0</samp>
+        <li><samp>Fuchsia</samp>
       </ul>
       <p>The possible mobile values* are:
       <ul>
