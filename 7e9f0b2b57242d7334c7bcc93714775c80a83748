@@ -16,6 +16,46 @@
       "message": "Hi Daniel, PTAL.",
       "revId": "7e9f0b2b57242d7334c7bcc93714775c80a83748",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c61279b_ff430c65",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2022-07-19T06:30:23Z",
+      "side": 1,
+      "message": "LGTM",
+      "revId": "7e9f0b2b57242d7334c7bcc93714775c80a83748",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "94e1a165_0ceeacad",
+        "filename": "site/developers/how-tos/file-web-hid-bugs/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2022-07-19T06:30:23Z",
+      "side": 1,
+      "message": "Nit: maybe use a comma here.",
+      "range": {
+        "startLine": 50,
+        "startChar": 12,
+        "endLine": 50,
+        "endChar": 13
+      },
+      "revId": "7e9f0b2b57242d7334c7bcc93714775c80a83748",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
