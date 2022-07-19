@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7147499c_787fe321",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000158
+      },
+      "writtenOn": "2022-07-19T16:15:28Z",
+      "side": 1,
+      "message": "Oh, here too. I can\u0027t edit this message for some reason.",
+      "range": {
+        "startLine": 7,
+        "startChar": 4,
+        "endLine": 7,
+        "endChar": 11
+      },
+      "revId": "929bf2ee8775ec6a97496f2fbc62f5a7c76386d8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
