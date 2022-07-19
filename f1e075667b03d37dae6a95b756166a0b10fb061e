@@ -56,6 +56,30 @@
       },
       "revId": "f1e075667b03d37dae6a95b756166a0b10fb061e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc2d20c4_fe5c0347",
+        "filename": "site/updates/ua-reduction/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2022-07-19T16:05:33Z",
+      "side": 1,
+      "message": "lol, that\u0027s embarrasing",
+      "parentUuid": "3b1044ba_7492cff2",
+      "range": {
+        "startLine": 177,
+        "startChar": 18,
+        "endLine": 177,
+        "endChar": 25
+      },
+      "revId": "f1e075667b03d37dae6a95b756166a0b10fb061e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
