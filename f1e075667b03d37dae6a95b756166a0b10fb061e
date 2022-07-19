@@ -16,6 +16,46 @@
       "message": "ptal, thanks!",
       "revId": "f1e075667b03d37dae6a95b756166a0b10fb061e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3377428d_8ec0d2e5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000158
+      },
+      "writtenOn": "2022-07-19T14:53:59Z",
+      "side": 1,
+      "message": "LGTM with comment. Thanks for adding!",
+      "revId": "f1e075667b03d37dae6a95b756166a0b10fb061e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3b1044ba_7492cff2",
+        "filename": "site/updates/ua-reduction/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 1000158
+      },
+      "writtenOn": "2022-07-19T14:53:59Z",
+      "side": 1,
+      "message": "It\u0027s a hard to spell word. 😊\n`Fuchsia`",
+      "range": {
+        "startLine": 177,
+        "startChar": 18,
+        "endLine": 177,
+        "endChar": 25
+      },
+      "revId": "f1e075667b03d37dae6a95b756166a0b10fb061e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
