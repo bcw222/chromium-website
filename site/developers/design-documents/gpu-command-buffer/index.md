@@ -5,15 +5,16 @@ breadcrumbs:
 - - /developers/design-documents
   - Design Documents
 page_name: gpu-command-buffer
-title: GPU Command Buffer
+title: OpenGL GPU Command Buffer
 ---
 
-This are mostly just notes on the GPU command buffer
+This are mostly just notes on the OpenGL GPU command buffer
 
-The GPU Command Buffer system is the way in which Chrome talks to the GPU either
-OpenGL or OpenGL ES (or OpenGL ES emulated through ANGLE). It is designed to
-have an API that emulates the OpenGL ES 2.0 API enforcing the restrictions of
-that API and working around incompatibilities in drivers and platforms.
+The OpenGL GPU Command Buffer system is the way in which Chrome talks to the 
+GPU either OpenGL or OpenGL ES (or OpenGL ES emulated through ANGLE). It is 
+designed to have an API that emulates the OpenGL ES 2.0 API enforcing the 
+restrictions of that API and working around incompatibilities in drivers and
+platforms.
 
 ## Goals:
 
