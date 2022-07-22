@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "d5701af3_22ec4948",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1001438
+      },
+      "writtenOn": "2022-07-22T12:17:25Z",
+      "side": 1,
+      "message": "we also have bug 1341215.\n\nPlease add it as well, or we could consider duping them.",
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "3496e73c_b77f9b2c",
@@ -14,6 +31,69 @@
       "writtenOn": "2022-07-22T10:28:59Z",
       "side": 1,
       "message": "This looks great! Thank you so much for updating the documentation! This task has been in our backlog for a loooong time.\n\n+David and +Ryan, It\u0027d be nice to update this documentation page when we complete the transition to ProfileKeyedServiceFactory. We should explain that all factories in /chrome should use PKSF instead of BrowserContextKeyedServiceFactory.",
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1eaf57c8_2d6e2595",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001438
+      },
+      "writtenOn": "2022-07-22T12:17:25Z",
+      "side": 1,
+      "message": "Thank you! This is very useful and something we wanted to do!\n\nI left a bunch of minor comments.\n\nWe\u0027ll make another pass as we\u0027re changing some of this code now, but most of what you wrote here will still be valid.",
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f7ce550f_19214394",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1001438
+      },
+      "writtenOn": "2022-07-22T12:17:25Z",
+      "side": 1,
+      "message": "In general I would not recommend passing the profile in the constructor.\nIf a service depends on profile, it basically depends on all of the code, as the profile is almost a singleton. As the result the code is not encapsulated at all.\n\nI don\u0027t know if we could change that example, e.g:\n\n```\nclass FooService : public KeyedService {\n public:\n  FooService(PrefService* profile_prefs, BarService* bar_service);\n  virtual ~FooService() \u003d default;\n\n  FooService(const FooService\u0026) \u003d delete;\n  FooService\u0026 operator\u003d(const FooService\u0026) \u003d delete;\n\n private:\n  PrefService* profile_prefs_;\n  BarService* bar_service_;\n};\n```",
+      "range": {
+        "startLine": 73,
+        "startChar": 22,
+        "endLine": 73,
+        "endChar": 38
+      },
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "61e599a6_e1d01d32",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1001438
+      },
+      "writtenOn": "2022-07-22T12:17:25Z",
+      "side": 1,
+      "message": "some examples uses GetForProfile(), others use GetForBrowserContext(). Should we be consistent and use GetForProfile() everywhere?",
+      "range": {
+        "startLine": 97,
+        "startChar": 21,
+        "endLine": 97,
+        "endChar": 41
+      },
       "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -43,6 +123,98 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "516e36dc_b77b385e",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1001438
+      },
+      "writtenOn": "2022-07-22T12:17:25Z",
+      "side": 1,
+      "message": "Random note: this is currently not enforced, and many implementations of BuildServiceInstanceFor() return nullptr in some conditions.\n\nWe\u0027re planning to fix the offending factories and enforce that condition, but it may be difficult, so I don\u0027t know if we\u0027ll succeed.",
+      "range": {
+        "startLine": 128,
+        "startChar": 30,
+        "endLine": 128,
+        "endChar": 77
+      },
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e3c60e9_d52e165e",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1001438
+      },
+      "writtenOn": "2022-07-22T12:17:25Z",
+      "side": 1,
+      "message": "Suprisingly this method is still called RegisterProfilePrefs(), even though it\u0027s in component. This documentation is correct, but the code should ideally be changed to RegisterBrowserContextPrefs().",
+      "range": {
+        "startLine": 133,
+        "startChar": 5,
+        "endLine": 133,
+        "endChar": 27
+      },
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6a8f2d23_0613860a",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 1001438
+      },
+      "writtenOn": "2022-07-22T12:17:25Z",
+      "side": 1,
+      "message": "nullptr",
+      "range": {
+        "startLine": 135,
+        "startChar": 29,
+        "endLine": 135,
+        "endChar": 33
+      },
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "12e7a6be_37325c63",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1001438
+      },
+      "writtenOn": "2022-07-22T12:17:25Z",
+      "side": 1,
+      "message": "This function no longer exists as a virtual method.\nInstead, override GetBrowserContextToUse() to return `GetBrowserContextOwnInstanceInIncognito()` defined in chrome/browser/profiles/incognito_helpers.h\n\nNote that we\u0027re going to change this again anyway (we\u0027re creating a ProfileKeyedService class in //chrome with a better API to deal with system and guest profiles), so we\u0027ll do another pass once Ryan\u0027s work as made more progress.",
+      "range": {
+        "startLine": 139,
+        "startChar": 24,
+        "endLine": 139,
+        "endChar": 67
+      },
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "be241a7a_368cbdd6",
         "filename": "site/developers/design-documents/profile-architecture/index.md",
         "patchSetId": 5
@@ -59,6 +231,92 @@
         "startChar": 13,
         "endLine": 152,
         "endChar": 21
+      },
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b397a876_6c0ac3a1",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 217,
+      "author": {
+        "id": 1001438
+      },
+      "writtenOn": "2022-07-22T12:17:25Z",
+      "side": 1,
+      "message": "ProfileDependencyManager this class does not exist, here and everywhere in this file.\nIt should be BrowserContextDependencyManager",
+      "range": {
+        "startLine": 217,
+        "startChar": 20,
+        "endLine": 217,
+        "endChar": 27
+      },
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "33b847a3_372a31b6",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 1001438
+      },
+      "writtenOn": "2022-07-22T12:17:25Z",
+      "side": 1,
+      "message": "same, this no longer exists",
+      "range": {
+        "startLine": 218,
+        "startChar": 58,
+        "endLine": 218,
+        "endChar": 65
+      },
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fcd81445_c8dcf439",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 1001438
+      },
+      "writtenOn": "2022-07-22T12:17:25Z",
+      "side": 1,
+      "message": "same",
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a8994d0c_fb3c9e07",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 234,
+      "author": {
+        "id": 1001438
+      },
+      "writtenOn": "2022-07-22T12:17:25Z",
+      "side": 1,
+      "message": "These also seem to be obsolete function names.",
+      "range": {
+        "startLine": 233,
+        "startChar": 35,
+        "endLine": 234,
+        "endChar": 50
       },
       "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"

@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "89b52e4e_9259a890",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 263,
+      "author": {
+        "id": 1001438
+      },
+      "writtenOn": "2022-07-22T12:17:25Z",
+      "side": 0,
+      "message": "Ryan printed the dependency graph recently, so this still works. I agree that this may not belong to this file, but maybe we should keep this somewhere (maybe near the code?).\n\nRyan WDYT?",
+      "revId": "bdf8ad25b6f2c22a09a4ffbbb28093fa5fe97bcf",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
