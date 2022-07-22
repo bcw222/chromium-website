@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3496e73c_b77f9b2c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1194993
+      },
+      "writtenOn": "2022-07-22T10:28:59Z",
+      "side": 1,
+      "message": "This looks great! Thank you so much for updating the documentation! This task has been in our backlog for a loooong time.\n\n+David and +Ryan, It\u0027d be nice to update this documentation page when we complete the transition to ProfileKeyedServiceFactory. We should explain that all factories in /chrome should use PKSF instead of BrowserContextKeyedServiceFactory.",
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "126b275d_22d60305",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1194993
+      },
+      "writtenOn": "2022-07-22T10:28:59Z",
+      "side": 1,
+      "message": "Could you please remove this line?\n\nbase::Singleton\u003cT\u003e is no longer recommended to use. Instead, we should generally use a function-local static of type base::NoDestructor\u003cT\u003e that doesn\u0027t require friending DefaultSingletonTraits\u003cT\u003e.",
+      "range": {
+        "startLine": 101,
+        "startChar": 2,
+        "endLine": 101,
+        "endChar": 58
+      },
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "be241a7a_368cbdd6",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1194993
+      },
+      "writtenOn": "2022-07-22T10:28:59Z",
+      "side": 1,
+      "message": "s/accessed// - this word looks redundant",
+      "range": {
+        "startLine": 152,
+        "startChar": 13,
+        "endLine": 152,
+        "endChar": 21
+      },
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
