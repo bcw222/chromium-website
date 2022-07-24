@@ -1,7 +1,6 @@
----
 breadcrumbs: []
 page_name: chromium-projects
-title: Home
+title: HomePhanBaDe
 use_title_as_h1: false
 ---
 
@@ -44,6 +43,5 @@ file bugs.
 Looking for Google Chrome OS devices?
 
 [Visit the Google ChromeOS site](https://www.google.com/chromeos)
-
 </div>
 </div>
