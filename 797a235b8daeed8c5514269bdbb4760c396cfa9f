@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1339eb95_6cf50d83",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1447863
+      },
+      "writtenOn": "2022-07-27T14:46:36Z",
+      "side": 1,
+      "message": "Hi everybody,\n\nCan you have a look at this change about our c++ style with regards to move semantics? It\u0027s about situations such as this one:\n\n```\nstruct A{};\nstruct B : A {};\nstd::unique_ptr\u003cA\u003e foo() {\n  auto result \u003d std::make_unique\u003cB\u003e();\n  // Implicitly convert rvalue of unique_ptr\u003cB\u003e to unique_ptr\u003cA\u003e.\n  return std::move(result);\n}\n```\n\nAs far as I know, compilers must treat a variable as rvalue when it is returned if it is local or a function parameter.  Thus the `std::move` here is superfluous. Indeed, both clang and gcc compile the above snippet without the `std::move`.\n",
+      "revId": "797a235b8daeed8c5514269bdbb4760c396cfa9f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
