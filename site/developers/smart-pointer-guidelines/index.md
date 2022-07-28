@@ -124,9 +124,7 @@ illustrated below.
     ```
 
 *   If a function **returns** a `std::unique_ptr<>`, that means the
-            caller takes ownership of the returned object. Usage of
-            `std::move()` while returning an object is only needed if the return
-            type of the function differs from the type of the local variable.
+            caller takes ownership of the returned object.
     ```cpp
     class Base { ... };
     class Derived : public Base { ... };
@@ -141,12 +139,11 @@ illustrated below.
 
       // Note that on these next codepaths, |base| is deleted on exit.
       if (cond2) {
-        return std::unique_ptr<Base>(new Base()));  // No std::move() necessary on temporaries.
+        return std::make_unique<Base>();  // No std::move() necessary on temporaries.
       }
       std::unique_ptr<Derived> derived(new Derived());
-      return std::move(derived);               // Note that std::move() is necessary because
-                                               // type of |derived| is different from the return
-                                               // type of the function.
+      return derived;               // No need to use std::move() when
+                                    // returning local variables.
     }
     ```
 
