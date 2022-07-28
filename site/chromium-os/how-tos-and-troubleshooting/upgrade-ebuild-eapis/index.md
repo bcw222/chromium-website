@@ -39,7 +39,7 @@ defaults to the oldest version of 0. If it does contain a setting, then you
 should make sure it is 5.
 
 ```none
-# Copyright 2014 The Chromium OS Authors. All rights reserved.
+# Copyright <year> The ChromiumOS Authors.
 # Distributed under the terms of the GNU General Public License v2
 EAPI="4"
 ```
