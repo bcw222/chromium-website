@@ -456,23 +456,6 @@ interferes with the compiler doing RVO (Return Value Optimization). You can read
 a previous chromium-dev thread about this in the context of scoped_ptr:
 [link](https://groups.google.com/a/chromium.org/d/msg/chromium-dev/ICA3hiR4Z3A/Bi_ec46cAQAJ).
 
-However, if the types of the variable and the return type do not match exactly,
-then you will have to use std::move() in order to convert without creating an
-extra temporary.
-
-std::unique_ptr&lt;MyType&gt; MakeMyType()
-
-{
-
-std::unique_ptr&lt;ChildClassOfMyType&gt; ptr;
-
-// This call to std::move() is needed to convert from a pointer-to-the
-
-// child class to a pointer-to-the parent.
-
-return std::move(ptr);
-}
-
 Similarly do not use move() on the return value from calling a function. You
 already have an rvalue, so casting it there adds no value, only noise.
 
