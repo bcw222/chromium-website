@@ -16,6 +16,24 @@
       "message": "I think the point here was that the function return ChildClassOfMyType from a function returning MyType.\n\nBefore C++14 (?), this did need the explicit move, and I think this is a remnant from then. It\u0027s true that this is now no longer needed.",
       "revId": "b3680ebb42f1119c4fde82fcf8667019cccce05f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bfa065f2_492db5bd",
+        "filename": "site/rvalue-references/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 467,
+      "author": {
+        "id": 1447863
+      },
+      "writtenOn": "2022-07-28T09:35:41Z",
+      "side": 0,
+      "message": "Ack",
+      "parentUuid": "b684add0_6da94550",
+      "revId": "b3680ebb42f1119c4fde82fcf8667019cccce05f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
