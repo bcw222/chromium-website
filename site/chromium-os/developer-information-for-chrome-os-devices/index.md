@@ -3894,6 +3894,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Asus</td>
     <td><a href="https://www.asus.com/Laptops/For-Home/Chromebook/ASUS-Chromebook-Flip-CX1-CX1500FKA/">ASUS Chromebook Flip CX1500</a></td>
     <td>Galith360</td>
+    <td>Guybrush</td>
+    <td>Guybrush</td>
+    <td>x86_64</td>
+    <td>5.10</td>
+    <td>x86_64</td>
+    <td>Monkeyisland</td>
+    <td>Convertible</td>
+    <td>R103</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>2022-07-28</td>
+    <td>Asus</td>
+    <td><a href="https://www.acer.com/ac/en/US/content/series/acerchromebookspin514cp5143h/">Acer Chromebook Spin 514</a></td>
+    <td>DeWatt</td>
     <td>Dedede</td>
     <td>Dedede</td>
     <td>x86_64</td>
