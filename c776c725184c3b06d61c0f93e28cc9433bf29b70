@@ -69,6 +69,24 @@
       "parentUuid": "455fa7ae_771e1997",
       "revId": "c776c725184c3b06d61c0f93e28cc9433bf29b70",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9538c9f9_5eaf9fb5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1342819
+      },
+      "writtenOn": "2022-07-28T19:58:27Z",
+      "side": 1,
+      "message": "Agreed; it seems like more could be done here, but the change is fine as-is.",
+      "parentUuid": "d37467f3_05cd7617",
+      "revId": "c776c725184c3b06d61c0f93e28cc9433bf29b70",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
