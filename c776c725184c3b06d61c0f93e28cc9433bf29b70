@@ -16,6 +16,23 @@
       "message": "lgtm!",
       "revId": "c776c725184c3b06d61c0f93e28cc9433bf29b70",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d8410177_1b0862df",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1342819
+      },
+      "writtenOn": "2022-07-28T15:48:24Z",
+      "side": 1,
+      "message": "It\u0027s subtle, and I had to double-check this, but we need to distinguish between three cases here:\n\n1. Does \"return\" perform a move? Since C++11, this is automatic for both local variables _and_ parameters:\nhttps://en.cppreference.com/w/cpp/language/return#Automatic_move_from_local_variables_and_parameters\n\n2. Is a copy/move from a temporary optimized out? Since C++17, this \"Return Value Optimization\" is mandatory, as opposed to optional:\nhttps://en.cppreference.com/w/cpp/language/copy_elision#Mandatory_elision_of_copy.2Fmove_operations\n\n3. Is a copy/move from an automatic variable optimized out? This is \"Named RVO\", and is _not_ mandatory (but a common optimization):\nhttps://en.cppreference.com/w/cpp/language/copy_elision#Non-mandatory_elision_of_copy.2Fmove_.28since_C.2B.2B11.29_operations\n\nAs far as whether or not you need to use std::move(), that only involves (1), and is true for parameters as well. The only thing that changes in C++17 is whether (2) always eliminates the copy/move. (3) doesn\u0027t change, although it\u0027s generally safe to assume it will be eliminated in optimized builds (but it\u0027s not portable to assume side effects are always eliminated).\n\nIt\u0027s probably worthwhile to discuss these topics in at least some detail.",
+      "revId": "c776c725184c3b06d61c0f93e28cc9433bf29b70",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
