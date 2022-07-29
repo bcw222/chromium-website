@@ -524,7 +524,7 @@ In harry.py you will want something like the following:
 
 ```none
 #!/usr/bin/python
-# Copyright 2018 The Chromium OS Authors.
+# Copyright 2018 The ChromiumOS Authors.
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 import os
@@ -570,7 +570,7 @@ Finally for reasons that we won't go into you should create the file common.py
 in your directory, like this:
 
 ```none
-# Copyright 2018 The Chromium OS Authors.
+# Copyright 2018 The ChromiumOS Authors.
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 import os, sys
@@ -586,7 +586,7 @@ setup_modules.setup(base_path=client_dir,
 and you need a file called 'control' too:
 
 ```none
-# Copyright 2018 The Chromium OS Authors.
+# Copyright 2018 The ChromiumOS Authors.
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 job.setup_dep(['fio'])
@@ -658,7 +658,7 @@ since you asked). This file is very simple:
 
 ```none
 #!/usr/bin/python
-# Copyright 2018 The Chromium OS Authors.
+# Copyright 2018 The ChromiumOS Authors.
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 import common, commands, logging, os
