@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8060dcfe_32954070",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1126309
+      },
+      "writtenOn": "2022-07-29T20:15:01Z",
+      "side": 1,
+      "message": "LGTM, but I think this page is obsolete and superseded by https://chromeenterprise.google/policies/ anyway",
+      "revId": "895d7f3932d0e1fd01018c7351808306ab9515f4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
