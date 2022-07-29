@@ -226,7 +226,7 @@ source](https://chromium.googlesource.com/aosp/platform/external/minijail/+/HEAD
 Abridged policy for [`mtpd` on amd64
 platforms](https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/mtpd/mtpd-seccomp-amd64.policy):
 
-# Copyright (c) 2012 The Chromium OS Authors. All rights reserved. # Use of this
+# Copyright (c) 2012 The Chromium OS Authors. # Use of this
 source code is governed by a BSD-style license that can be # found in the
 LICENSE file. read: 1 ioctl: 1 write: 1 timerfd_settime: 1 open: 1 poll: 1
 close: 1 mmap: 1 mremap: 1 munmap: 1 mprotect: 1 lseek: 1 # Allow

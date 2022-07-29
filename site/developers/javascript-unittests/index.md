@@ -48,7 +48,7 @@ The key components are:
 > 1. Create a new file under *src/remoting/unittests*, the filed should be named
 > as test_&lt;module_name&gt;.js, here is an example for *test_math.js*
 
-> `// Copyright 2014 The Chromium Authors. All rights reserved.`
+> `// Copyright 2014 The Chromium Authors.`
 > `// Use of this source code is governed by a BSD-style license that can be`
 > `// found in the LICENSE file.`
 > `(function() {`
