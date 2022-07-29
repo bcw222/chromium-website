@@ -8,6 +8,8 @@ page_name: atomic_groups
 title: Atomic Policy Groups
 ---
 
+## *This page is obsolete. Please see [Chrome Enterprise policy list](https://chromeenterprise.google/policies/) instead.*
+
 Both Chromium and Google Chrome have some groups of policies that depend on each
 other to provide control over a feature. These sets are represented by the
 following policy groups. Given that policies can have multiple sources, only
@@ -458,7 +460,7 @@ priority is defined in <https://support.google.com/chrome/a/?p=policy_order>.
 </tr>
 <tr>
 <td><a href="/administrators/policy-list-3#NetworkFileSharesAllowed">NetworkFileSharesAllowed</a></td>
-<td>Contorls Network File Shares for ChromeOS availability</td>
+<td>Controls Network File Shares for ChromeOS availability</td>
 </tr>
 <tr>
 <td><a href="/administrators/policy-list-3#NetBiosShareDiscoveryEnabled">NetBiosShareDiscoveryEnabled</a></td>
@@ -719,10 +721,6 @@ priority is defined in <https://support.google.com/chrome/a/?p=policy_order>.
 <tr>
 <td><a href="/administrators/policy-list-3#SAML">SAML</a></td>
 <td>SAML</td>
-</tr>
-<tr>
-<td><a href="/administrators/policy-list-3#DeviceSamlLoginAuthenticationType">DeviceSamlLoginAuthenticationType</a></td>
-<td>SAML login authentication type</td>
 </tr>
 <tr>
 <td><a href="/administrators/policy-list-3#DeviceTransferSAMLCookies">DeviceTransferSAMLCookies</a></td>
