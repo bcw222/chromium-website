@@ -5,4 +5,3 @@ breadcrumbs:
 page_name: layout-test-contest-leaderboard
 title: layout-test-contest-leaderboard
 ---
-
