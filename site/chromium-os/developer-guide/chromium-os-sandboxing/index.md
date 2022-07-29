@@ -111,10 +111,18 @@ in `/etc/init`):
 
 [`permission_broker.conf`](https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/permission_broker/permission_broker.conf)
 
-env PERMISSION_BROKER_GRANT_GROUP=devbroker-access start on starting
-system-services stop on stopping system-services respawn # Run as 'devbroker'
-user. exec minijail0 -u devbroker -c 'cap_chown,cap_fowner+eip' -- \\
-/usr/bin/permission_broker --access_group=${PERMISSION_BROKER_GRANT_GROUP}
+```
+start on starting system-services
+stop on stopping system-services
+
+respawn
+
+env PERMISSION_BROKER_GRANT_GROUP=devbroker-access
+
+# Run as 'devbroker' user.
+exec minijail0 -u devbroker -c 'cap_chown,cap_fowner+eip' -- \
+  /usr/bin/permission_broker --access_group=${PERMISSION_BROKER_GRANT_GROUP}
+```
 
 Minijail's `-u` argument forces the target program (in this case
 `permission_broker`) to be executed as the devbroker user, instead of the root
@@ -159,11 +167,19 @@ device nodes.
 
 [`permission_broker.conf`](https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/permission_broker/permission_broker.conf)
 
-env PERMISSION_BROKER_GRANT_GROUP=devbroker-access start on starting
-system-services stop on stopping system-services respawn # Run as
-&lt;devbroker&gt; user. # Grant CAP_CHOWN and CAP_FOWNER. exec minijail0 -u
-devbroker -c 'cap_chown,cap_fowner+eip' -- \\ /usr/bin/permission_broker
---access_group=${PERMISSION_BROKER_GRANT_GROUP}
+```
+start on starting system-services
+stop on stopping system-services
+
+respawn
+
+env PERMISSION_BROKER_GRANT_GROUP=devbroker-access
+
+# Run as <devbroker> user.
+# Grant CAP_CHOWN and CAP_FOWNER.
+exec minijail0 -u devbroker -c 'cap_chown,cap_fowner+eip' -- \
+  /usr/bin/permission_broker --access_group=${PERMISSION_BROKER_GRANT_GROUP}
+```
 
 Capabilities are expressed using the format that
 [cap_from_text(3)](http://man7.org/linux/man-pages/man3/cap_from_text.3.html)
@@ -226,19 +242,36 @@ source](https://chromium.googlesource.com/aosp/platform/external/minijail/+/HEAD
 Abridged policy for [`mtpd` on amd64
 platforms](https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/mtpd/mtpd-seccomp-amd64.policy):
 
-# Copyright (c) 2012 The ChromiumOS Authors. # Use of this
-source code is governed by a BSD-style license that can be # found in the
-LICENSE file. read: 1 ioctl: 1 write: 1 timerfd_settime: 1 open: 1 poll: 1
-close: 1 mmap: 1 mremap: 1 munmap: 1 mprotect: 1 lseek: 1 # Allow
-socket(domain==PF_LOCAL) or socket(domain==PF_NETLINK) socket: arg0 == 0x1 ||
-arg0 == 0x10 # Allow PR_SET_NAME from libchrome's
-base::PlatformThread::SetName() prctl: arg0 == 0xf
+```
+# Copyright 2022 The ChromiumOS Authors.
+# Use of this source code is governed by a BSD-style license that can be
+# found in the LICENSE file.
+read: 1
+ioctl: 1
+write: 1
+timerfd_settime: 1
+open: 1
+poll: 1
+close: 1
+mmap: 1
+mremap: 1
+munmap: 1
+mprotect: 1
+lseek: 1
+# Allow socket(domain==PF_LOCAL) or socket(domain==PF_NETLINK).
+socket: arg0 == 0x1 || arg0 == 0x10
+# Allow PR_SET_NAME from libchrome's base::PlatformThread::SetName().
+prctl: arg0 == 0xf
+```
 
 Any syscall not explicitly mentioned, when called, results in the process being
 killed. The policy file can also tell the kernel to fail the system call
 (returning -1 and setting `errno`) without killing the process:
 
-# execve: return EPERM execve: return 1
+```
+# execve: return EPERM
+execve: return 1
+```
 
 To write a policy file, run the target program under `strace` and use that to
 come up with the list of syscalls that need to be allowed during normal
@@ -256,35 +289,40 @@ ebuild file:
 
 [`mtpd-9999.ebuild`](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/chromeos-base/mtpd/mtpd-9999.ebuild)
 
-# Install seccomp policy file. insinto /usr/share/policy use seccomp && newins
-"mtpd-seccomp-${ARCH}.policy" mtpd-seccomp.policy
+```
+# Install seccomp policy file.
+insinto /usr/share/policy
+use seccomp && newins "mtpd-seccomp-${ARCH}.policy" mtpd-seccomp.policy
+```
 
 And finally, the policy file has to be passed to Minijail, using the `-S`
 option:
 
 [`mtpd.conf`](https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/mtpd/mtpd.conf)
 
-# use minijail (drop root, set no_new_privs, set seccomp filter). # Mount /proc,
-/sys, /dev, /run/udev so that USB devices can be # discovered. Also mount
-/run/dbus to communicate with D-Bus. exec minijail0 -i -I -p -l -r -v -t -u mtp
--g mtp -G \\ -P /var/empty -b / -b /proc -b /sys -b /dev \\ -k
-tmpfs,/run,tmpfs,0xe -b /run/dbus -b /run/udev \\ -n -S
-/usr/share/policy/mtpd-seccomp.policy -- \\ /usr/sbin/mtpd
--minloglevel="${MTPD_MINLOGLEVEL}"
+```
+# use minijail (drop root, set no_new_privs, set seccomp filter).
+# Mount /proc, /sys, /dev, /run/udev so that USB devices can be
+# discovered. Also mount /run/dbus to communicate with D-Bus.
+exec minijail0 -i -I -p -l -r -v -t -u mtp -g mtp -G \
+  -P /var/empty -b / -b /proc -b /sys -b /dev \
+  -k tmpfs,/run,tmpfs,0xe -b /run/dbus -b /run/udev \
+  -n -S /usr/share/policy/mtpd-seccomp.policy -- \
+  /usr/sbin/mtpd -minloglevel="${MTPD_MINLOGLEVEL}"
+```
 
 ### Detailed instructions for generating a seccomp policy
 
 *   Generate the syscall log: `strace -f -o strace.log <cmd>`
 *   Cut off everything before the following for a smaller filter that
             can be used with `LD_PRELOAD`:
-
-rt_sigaction(SIGRTMIN, {&lt;sa_handler&gt;, \[\], SA_RESTORER|SA_SIGINFO,
-&lt;sa_restorer&gt;}, NULL, 8) = 0 rt_sigaction(SIGRT_1, {&lt;sa_handler&gt;,
-\[\], SA_RESTORER|SA_RESTART|SA_SIGINFO, &lt;sa_restorer&gt;}, NULL, 8) = 0
-rt_sigprocmask(SIG_UNBLOCK, \[RTMIN RT_1\], NULL, 8) = 0 getrlimit(RLIMIT_STACK,
-{rlim_cur=8192\*1024, rlim_max=RLIM64_INFINITY}) = 0 brk(NULL) = 0x7f8a0656e000
-brk(&lt;addr&gt;) = &lt;addr&gt;
-
+```
+rt_sigaction(SIGRTMIN, {<sa_handler>, [], SA_RESTORER|SA_SIGINFO, <sa_restorer>}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {<sa_handler>, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, <sa_restorer>}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0 getrlimit(RLIMIT_STACK, {rlim_cur=8192\*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(NULL) = 0x7f8a0656e000
+brk(<addr>) = <addr>
+```
 *   Run the policy generation script:
     *   `~/chromiumos/src/aosp/external/minijail/tools/generate_seccomp_policy.py
                 strace.log > seccomp.policy`
@@ -294,11 +332,11 @@ brk(&lt;addr&gt;) = &lt;addr&gt;
 *   To find a failing syscall without having seccomp logs available
             (i.e., when minijail0 was run without the `-L` option):
     *   `dmesg | grep "syscall="` to find something similar to:
-
-NOTICE kernel: \[ 586.706239\] audit: type=1326 audit(1484586246.124:6): ...
-comm="&lt;executable&gt;" exe="/path/to/executable" sig=31 syscall=130 compat=0
+```
+NOTICE kernel: [ 586.706239] audit: type=1326 audit(1484586246.124:6): ...
+comm="<executable>" exe="/path/to/executable" sig=31 syscall=130 compat=0
 ip=0x7f4f214881d6 code=0x0
-
+```
 *   Then do:
     *   `minijail0 -H | grep <nr>`, where `<nr>` is the `syscall=`
                 number above, to find the name of the failing syscall.
@@ -326,9 +364,12 @@ To set up a cryptohome daemon store folder that propagates into your daemon‘s
 mount namespace, add this code to the src_install section of your daemon’s
 ebuild:
 
-local daemon_store="/etc/daemon-store/&lt;daemon_name&gt;" dodir
-"${daemon_store}" fperms 0700 "${daemon_store}" fowners
-&lt;daemon_user&gt;:&lt;daemon_group&gt; "${daemon_store}"
+```
+local daemon_store="/etc/daemon-store/<daemon_name>"
+dodir "${daemon_store}"
+fperms 0700 "${daemon_store}"
+fowners <daemon_user>:<daemon_group> "${daemon_store}"
+```
 
 This directory is never used directly. It merely serves as a secure template for
 the chromeos_startup script, which picks it up and creates
@@ -337,8 +378,12 @@ the chromeos_startup script, which picks it up and creates
 In your daemon's init script, mount that folder as slave in your mount
 namespace. Be sure not to mount all of `/run` if possible.
 
-minijail0 -Kslave \\ -k 'tmpfs,/run,tmpfs,MS_NOSUID|MS_NODEV|MS_NOEXEC' \\ -b
-/run/daemon-store/&lt;daemon_name&gt; \\ ...
+```
+minijail0 -Kslave \
+  -k 'tmpfs,/run,tmpfs,MS_NOSUID|MS_NODEV|MS_NOEXEC' \
+  -b /run/daemon-store/<daemon_name> \
+  ...
+```
 
 During sign-in, when the user's cryptohome is mounted, Cryptohome creates
 `/home/.shadow/<user_hash>/mount/root/<daemon_name>`, bind-mounts it to
