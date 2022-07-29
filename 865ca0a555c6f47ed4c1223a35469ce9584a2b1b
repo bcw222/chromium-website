@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "65aa36db_8cee52f8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1540919
+      },
+      "writtenOn": "2022-07-29T19:32:34Z",
+      "side": 1,
+      "message": "Hi Elly, \n\nThis change is just proposing some formatting fixes for the code samples at https://www.chromium.org/developers/design-documents/views-windowing/\n\nI didn\u0027t review the *code* itself, just applied linting and put markdown code fences around it.\n\nThank you for the review!",
+      "revId": "865ca0a555c6f47ed4c1223a35469ce9584a2b1b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
