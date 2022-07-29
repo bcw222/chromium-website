@@ -18,107 +18,66 @@ about windowing events.
 
 To create a simple window:
 
+```c++
 #include "base/basictypes.h"
-
 #include "base/compiler_specific.h"
-
 #include "base/utf_string_conversions.h"
-
 #include "ui/gfx/canvas.h"
-
 #include "ui/views/controls/label.h"
-
 #include "ui/views/view.h"
-
 #include "ui/views/widget/widget.h"
-
 #include "ui/views/widget/widget_delegate.h"
 
 class WindowView : public views::WidgetDelegateView {
+ public:
+  WindowView() : label_(NULL) { Init(); }
 
-public:
+  virtual ~WindowView() {}
 
-WindowView() : label_(NULL) {
+ private:
+  // Overridden from views::View:
+  virtual void OnPaint(gfx::Canvas* canvas) OVERRIDE {
+    canvas->FillRect(GetLocalBounds(), SK_ColorWHITE);
+  }
 
-Init();
+  virtual void Layout() OVERRIDE {
+    gfx::Size ps = label_->GetPreferredSize();
+    label_->SetBounds((width() - ps.width()) / 2, (height() - ps.height()) / 2,
+                      ps.width(), ps.height());
+  }
 
-}
+  virtual gfx::Size GetPreferredSize() OVERRIDE {
+    gfx::Size ps = label_->GetPreferredSize();
+    ps.set_width(ps.width() + 200);
+    ps.set_height(ps.height() + 200);
+    return ps;
+  }
 
-virtual ~WindowView() {}
+  // Overridden from views::WidgetDelegate:
+  virtual string16 GetWindowTitle() const OVERRIDE {
+    return ASCIIToUTF16("Hello World Window");
+  }
 
-private:
+  virtual bool CanResize() const OVERRIDE { return true; }
 
-// Overridden from views::View:
+  virtual bool CanMaximize() const OVERRIDE { return true; }
 
-virtual void OnPaint(gfx::Canvas\* canvas) OVERRIDE {
-canvas-&gt;FillRect(GetLocalBounds(), SK_ColorWHITE);
+  virtual views::View* GetContentsView() OVERRIDE { return this; }
 
-}
+  void Init() {
+    label_ = new views::Label(ASCIIToUTF16("Hello, World!"));
+    AddChildView(label_);
+  }
 
-virtual void Layout() OVERRIDE {
+  views::Label* label_;
 
-gfx::Size ps = label_-&gt;GetPreferredSize();
-
-label_-&gt;SetBounds((width() - ps.width()) / 2, (height() - ps.height()) / 2,
-ps.width(), ps.height());
-
-}
-
-virtual gfx::Size GetPreferredSize() OVERRIDE {
-
-gfx::Size ps = label_-&gt;GetPreferredSize();
-
-ps.set_width(ps.width() + 200);
-
-ps.set_height(ps.height() + 200);
-
-return ps;
-
-}
-
-// Overridden from views::WidgetDelegate:
-
-virtual string16 GetWindowTitle() const OVERRIDE{
-
-return ASCIIToUTF16("Hello World Window");
-
-}
-
-virtual bool CanResize() const OVERRIDE {
-
-return true;
-
-}
-
-virtual bool CanMaximize() const OVERRIDE {
-
-return true;
-
-}
-
-virtual views::View\* GetContentsView() OVERRIDE {
-
-return this;
-
-}
-
-void Init() {
-
-label_ = new views::Label(ASCIIToUTF16("Hello, World!"));
-
-AddChildView(label_);
-
-}
-
-views::Label\* label_;
-
-DISALLOW_COPY_AND_ASSIGN(WindowView);
-
+  DISALLOW_COPY_AND_ASSIGN(WindowView);
 };
 
 ...
 
-views::Widget::CreateWindow(new WindowView)-&gt;Show();
+views::Widget::CreateWindow(new WindowView)->Show();
+```
 
 The window will delete itself when the user closes it, which will cause the
 RootView within it to be destroyed, including the WindowView.
@@ -191,8 +150,7 @@ side-effects.
 Some simple code to create a window using the WindowView defined in the example
 above:
 
-views::Widget\* window = views::Widget::CreateWindow(new WindowView);
-
-window-&gt;Show();
-
-..
+```c++
+  views::Widget* window = views::Widget::CreateWindow(new WindowView);
+  window->Show();
+```
