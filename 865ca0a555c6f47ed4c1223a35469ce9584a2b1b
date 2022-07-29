@@ -16,6 +16,46 @@
       "message": "Hi Elly, \n\nThis change is just proposing some formatting fixes for the code samples at https://www.chromium.org/developers/design-documents/views-windowing/\n\nI didn\u0027t review the *code* itself, just applied linting and put markdown code fences around it.\n\nThank you for the review!",
       "revId": "865ca0a555c6f47ed4c1223a35469ce9584a2b1b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4ee3cd81_78b6d941",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2022-07-29T20:13:32Z",
+      "side": 1,
+      "message": "lgtm % question",
+      "revId": "865ca0a555c6f47ed4c1223a35469ce9584a2b1b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "76b157ab_22a2cb6a",
+        "filename": "site/developers/design-documents/views-windowing/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2022-07-29T20:13:32Z",
+      "side": 1,
+      "message": "is it desirable to indent all of these paragraphs?",
+      "range": {
+        "startLine": 87,
+        "startChar": 0,
+        "endLine": 87,
+        "endChar": 82
+      },
+      "revId": "865ca0a555c6f47ed4c1223a35469ce9584a2b1b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
