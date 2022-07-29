@@ -3906,4 +3906,21 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>Yes</td>
   </tr>
+  <tr>
+    <td>2022-07-29</td>
+    <td>Asus</td>
+    <td><a href="https://www.asus.com/Laptops/For-Home/Chromebook/ASUS-Chromebook-CX1-CX1400/">ASUS Chromebook CX1 CX1400</a></td>
+    <td>Galtic</td>
+    <td>Dedede</td>
+    <td>Dedede</td>
+    <td>x86_64</td>
+    <td>5.4</td>
+    <td>x86_64</td>
+    <td>Jasper Lake</td>
+    <td>Clamshell</td>
+    <td>R97</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
 </table>
