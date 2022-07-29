@@ -5,4 +5,3 @@ breadcrumbs:
 page_name: schemeful-same-site
 title: Schemeful Same-Site
 ---
-

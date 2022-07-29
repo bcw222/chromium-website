@@ -7,4 +7,3 @@ breadcrumbs:
 page_name: userland-boot
 title: Userland Boot in Chrome OS
 ---
-

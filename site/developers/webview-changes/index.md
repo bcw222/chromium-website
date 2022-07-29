@@ -39,4 +39,3 @@ A change to Android WebView is likely not *potentially high risk* if one of the 
 * The change is to ship a new API
 * The possible app impact of the change is cosmetic or non-fatal (e.g. a CSS property changing behavior)
 * Data analysis shows that affected apps are very rare
-

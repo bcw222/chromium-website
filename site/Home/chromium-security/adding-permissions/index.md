@@ -7,4 +7,3 @@ breadcrumbs:
 page_name: adding-permissions
 title: So you want to add a new permission?
 ---
-

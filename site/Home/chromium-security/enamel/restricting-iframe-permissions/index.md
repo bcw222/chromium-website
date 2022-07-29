@@ -9,4 +9,3 @@ breadcrumbs:
 page_name: restricting-iframe-permissions
 title: Restricting IFrame Permissions
 ---
-
