@@ -49,6 +49,13 @@ However, if you do choose to link them, you will be prompted to log in using
 **only** your @google.com account, and that means you have to follow all of the
 normal security restrictions for such accounts.
 
+**Please note** that linking your accounts does NOT change ownership of CLs
+you've already uploaded and you will **lose edit access** to any CLs owned by
+your secondary (@google.com) account. i.e CLs you uploaded with your @google.com
+account, before the link, will not show up in your @chromium.org dashboard. Any
+in-flight changes will have to be re-uploaded, so if you have significant
+in-flight changes we don't recommend linking accounts.
+
 **To link them:**
 
 ==If you have two email accounts== (@chromium.org and @google.com) but only have
@@ -88,15 +95,6 @@ Once your accounts are linked, you'll be able to use both @chromium.org and
 @google.com emails in git commits. It is particularly useful if you have your
 @chromium.org email in global git config, and you try to trigger chrome-internal
 trybots (that otherwise require @google.com email).
-
-**Please note** that linking your accounts does NOT change ownership of CLs
-you've already uploaded and you will **lose edit access** to any CLs owned by
-your secondary (@google.com) account. i.e CLs you uploaded with your @google.com
-account, before the link, will not show up in your @chromium.org dashboard. You
-will have to re-upload in-flight changes and, for old closed changes, you can
-set the assignee to your @chromium.org to make them visible in your linked
-account dashboard. We don't recommend linking accounts when you significant
-in-flight changes.
 
 If you have linked accounts, and want to unlink them:
 
