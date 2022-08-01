@@ -34,6 +34,58 @@
       "parentUuid": "8060dcfe_32954070",
       "revId": "895d7f3932d0e1fd01018c7351808306ab9515f4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "05697465_6b8e7a7a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-08-01T18:26:10Z",
+      "side": 1,
+      "message": "I think it\u0027s still worth submitting since it\u0027s a clear improvement, but while we\u0027re here we could add a note about the page being obsolete for double the improvement. : )",
+      "parentUuid": "3e61624c_61504b3d",
+      "revId": "895d7f3932d0e1fd01018c7351808306ab9515f4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b9cf536_4b25df2b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-08-01T18:26:10Z",
+      "side": 1,
+      "message": "LGTM with suggestion",
+      "revId": "895d7f3932d0e1fd01018c7351808306ab9515f4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "55c67be6_df748385",
+        "filename": "site/administrators/policy-list-3/atomic_groups/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-08-01T18:26:10Z",
+      "side": 1,
+      "message": "How about adding something like this to the top of the page?\n\n`## *This page is obsolete. Please see [Chrome Enterprise policy list](https://chromeenterprise.google/policies/) instead.*`",
+      "revId": "895d7f3932d0e1fd01018c7351808306ab9515f4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
