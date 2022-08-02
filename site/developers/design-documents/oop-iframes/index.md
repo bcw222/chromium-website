@@ -53,38 +53,29 @@ component
 
 ### Project Resources
 
-    [Task Dependency Diagram](http://csreis.github.io/oop-iframe-dependencies/)
-    - A visualization of the bugs and tasks that need to be completed for each
+- [Task Dependency Diagram](http://csreis.github.io/oop-iframe-dependencies/)
+  - A visualization of the bugs and tasks that need to be completed for each
     upcoming milestone. (Out of date.)
 
-    [Internals&gt;Sandbox&gt;SiteIsolation](https://bugs.chromium.org/p/chromium/issues/list?q=component:Internals%3ESandbox%3ESiteIsolation)
-    - All known bugs with OOPIFs and Site Isolation in general. The overall
+- [Internals&gt;Sandbox&gt;SiteIsolation](https://bugs.chromium.org/p/chromium/issues/list?q=component:Internals%3ESandbox%3ESiteIsolation)
+  - All known bugs with OOPIFs and Site Isolation in general. The overall
     tracking bug for OOPIFs is <https://crbug.com/99379>, and the launch is
     tracked at <https://crbug.com/545200>.
 
-    Bots using --site-per-process: [FYI
-    Linux](http://build.chromium.org/p/chromium.fyi/builders/Site%20Isolation%20Linux),
-    [FYI
-    Windows](http://build.chromium.org/p/chromium.fyi/builders/Site%20Isolation%20Win),
-    [linux_site_isolation](http://build.chromium.org/p/tryserver.chromium.linux/builders/linux_site_isolation)
-    try bot
-
-    [Feature Update
-    FAQ](https://docs.google.com/document/d/1Iqe_CzFVA6hyxe7h2bUKusxsjB6frXfdAYLerM3JjPo/edit?usp=sharing)
-    - General information for how to update Chromium features to be compatible
+- [Feature Update FAQ](https://docs.google.com/document/d/1Iqe_CzFVA6hyxe7h2bUKusxsjB6frXfdAYLerM3JjPo/edit?usp=sharing)
+  - General information for how to update Chromium features to be compatible
     with OOPIFs.
 
-    [Affected Feature
-    List](https://docs.google.com/document/d/1dCR2aEoBJj_Yqcs6GuM7lUPr0gag77L5OSgDa8bebsI/edit?usp=sharing)
-    - The set of Chromium features we know are affected by OOPIFs.
+- [Affected Feature List](https://docs.google.com/document/d/1dCR2aEoBJj_Yqcs6GuM7lUPr0gag77L5OSgDa8bebsI/edit?usp=sharing)
+  - The set of Chromium features we know are affected by OOPIFs.
 
-    [Site Isolation Summit
+- [Site Isolation Summit
     talks](http://www.chromium.org/developers/design-documents/site-isolation#TOC-2015-Site-Isolation-Summit-Talks)
-    - A set of slides and videos covering the changes to Chromium's architecture
+  - A set of slides and videos covering the changes to Chromium's architecture
     and how features can be updated.
 
-    Mailing list:
-    [site-isolation-dev@chromium.org](https://groups.google.com/a/chromium.org/forum/#!forum/site-isolation-dev)
+- Mailing list:
+[site-isolation-dev@chromium.org](https://groups.google.com/a/chromium.org/forum/#!forum/site-isolation-dev)
 
 ## Architecture Overview
 
@@ -140,7 +131,7 @@ document, widget, or full V8 context for them.
 Frame-specific logic in the content module's RenderView and RenderViewHost
 classes has moved into routable RenderFrame and RenderFrameHost classes. We have
 one full RenderFrame (in some process) for every frame in a page, and we have a
-corresponding but slimmed down RenderFrameProxy as a placeholder in the other
+corresponding but slimmed down blink::RemoteFrame as a placeholder in the other
 processes that can reference it. These proxies are shown with dashed lines in
 the diagram below, which depicts one BrowsingInstance (i.e., group of related
 windows) with two tabs, containing two subframes each.
@@ -162,7 +153,7 @@ LocalFrame and RemoteFrame inherit from the Frame interface. While downcasts
 from Frame to LocalFrame are possible, this will likely cause bugs with OOPIFs
 unless extra care is taken. LocalFrame corresponds to WebLocalFrame (in the
 public API) and content::RenderFrame, while RemoteFrame corresponds to
-WebRemoteFrame and content::RenderFrameProxy.
+WebRemoteFrame.
 
 Blink has the ability to swap any frame between the local and remote versions.
 (This replaces the old "swapped out RenderViewHost" implementation that Chromium
