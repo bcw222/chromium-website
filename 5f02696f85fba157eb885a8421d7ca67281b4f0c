@@ -16,6 +16,24 @@
       "message": "Thanks for the additional formatting cleanups as well. I do not understand how the png sha1 bits work, but I checked the preview, and it looks correct to me!.",
       "revId": "5f02696f85fba157eb885a8421d7ca67281b4f0c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe066b4d_efb107a5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1123071
+      },
+      "writtenOn": "2022-08-02T21:24:52Z",
+      "side": 1,
+      "message": "I already uploaded the new images to the cloud storage bucket, the sha1s point at the new files in the bucket.",
+      "parentUuid": "c481368e_b3ca77c1",
+      "revId": "5f02696f85fba157eb885a8421d7ca67281b4f0c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
