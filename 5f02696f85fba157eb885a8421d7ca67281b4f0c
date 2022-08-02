@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c481368e_b3ca77c1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2022-08-02T21:16:32Z",
+      "side": 1,
+      "message": "Thanks for the additional formatting cleanups as well. I do not understand how the png sha1 bits work, but I checked the preview, and it looks correct to me!.",
+      "revId": "5f02696f85fba157eb885a8421d7ca67281b4f0c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
