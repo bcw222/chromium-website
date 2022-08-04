@@ -33,6 +33,24 @@
       "message": "I assume you did this automatically so blanket lgtm :)",
       "revId": "01fba9f63e548b1ab4ff840b665612463ce0c4a7",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "048a6a23_2acdf30f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-08-04T18:36:12Z",
+      "side": 1,
+      "message": "basically ran `find -name \u0027*.md\u0027 | while read f; do sed -i \u0027${/^$/d}\u0027 $f; done` and commit/amended the changes until there were none left.",
+      "parentUuid": "87ab4d7a_cdb17ffe",
+      "revId": "01fba9f63e548b1ab4ff840b665612463ce0c4a7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
