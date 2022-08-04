@@ -16,6 +16,23 @@
       "message": "/chromium-security/ pages LGTM",
       "revId": "01fba9f63e548b1ab4ff840b665612463ce0c4a7",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "87ab4d7a_cdb17ffe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2022-08-04T17:59:50Z",
+      "side": 1,
+      "message": "I assume you did this automatically so blanket lgtm :)",
+      "revId": "01fba9f63e548b1ab4ff840b665612463ce0c4a7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
