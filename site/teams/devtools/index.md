@@ -6,24 +6,31 @@ page_name: devtools
 title: DevTools
 ---
 
-The DevTools team mission is to
+The DevTools team is an engineering team that maintains the
+[Chrome DevTools](https://developer.chrome.com/docs/devtools/) -
+the debugging tools and capabilities offered by Chromium.
 
-> Make Chrome DevTools the web development tool of choice,
+Debugging is a critical part of the (Web) Developer's day-to-day
+workflows, and we firmly believe that a great debugging experience
+contributes significantly to the overall developer satisfaction
+and success on the Web.
 
-> and help web developers adopt web platform’s best
+## What We believe
 
-> features and practices in support of their success.
+> Our mission is to deliver a **reliable**, **relevant**, and
+> **delightful** debugging experience - universally available
+> with **Chrome** - empowering developers to create helpful Web
+> experiences.
 
-Please also see our concrete [Chrome DevTools team
-OKRs](https://easyokrs.googleplex.com/view/chrome-devtools) (Google-internal
-only).
+See [go/chrome-devtools/strategy](http://go/chrome-devtools/strategy)
+(Googlers-only) for more information.
 
-**Design Documents**
+## Design Documents
 
 For proposing contributions, please refer to our [design
 guidelines](https://chromium.googlesource.com/devtools/devtools-frontend/+/HEAD/docs/design_guidelines.md).
 
-**Contact**
+## Contact
 
 The team uses a public mailing list for technical discussions, questions, and
 announcements.
@@ -33,33 +40,27 @@ Email address: [devtools-dev@chromium.org](mailto:devtools-dev@chromium.org)
 Web archives:
 [devtools-dev](https://groups.google.com/a/chromium.org/forum/#!forum/devtools-dev)
 
-**Bug Triage**
+## Bug Triage
 
 The DevTools team is responsible for bugs filed for the
 [Platform&gt;DevTools](https://bugs.chromium.org/p/chromium/issues/list?q=component%3APlatform%3EDevTools)
 component.
 
-**Members**
+## Members
 
-*   yangguo@chromium.org (EngM)
-*   hablich@chromium.org (TPM)
-*   bmeurer@chromium.org (TL)
-*   sawallner@chromium.org (PM)
-*   petermueller@chromium.org (UX)
+*   bmeurer@chromium.org (TLM)
+*   hablich@chromium.org (PM)
+*   meysarabadani@chromium.org (TPM)
+*   petermueller@chromium.org (UXD)
+*   vaatika@google.com (UXD)
 *   jec@chromium.org (DevRel)
-*   aerotwist@chromium.org
-*   alexrudenko@chromium.org
-*   andoli@chromium.org
+*   bramus@chromium.org (DevRel)
 *   changhaohan@chromium.org
-*   jacktfranklin@chromium.org
-*   janscheffler@chromium.org
+*   dsv@chromium.org
+*   ergunsh@chromium.org
+*   jarin@chromium.org
 *   kimanh@chromium.org
+*   kprokopenko@chromium.org
 *   leese@chromium.org
-*   mathias@chromium.org
-*   petermarshall@chromium.org
 *   pfaffe@chromium.org
-*   sadym@chromium.org
-*   sigurds@chromium.org
-*   szuend@chromium.org
-*   tvanderlippe@chromium.org
 *   wolfi@chromium.org
