@@ -8,5 +8,4 @@ title: Breaking changes
 
 ## This page has been deprecated, refer to
 
-*   ## Deprecating Features in [Launching
-            Features](/blink/launching-features#TOC-Feature-deprecations)
+*   ## Deprecating Features in [Launching Features](/blink/launching-features#feature-deprecations)
