@@ -15,7 +15,7 @@ title: Testing Home
 
 We run unit tests using the Portage test FEATURE. For instructions on how to run
 and add your own unit tests, follow these
-[instructions](/chromium-os/testing/adding-unit-tests-to-the-build).
+[instructions](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/testing/running_unit_tests.md).
 
 ### Testing Workflows
 
