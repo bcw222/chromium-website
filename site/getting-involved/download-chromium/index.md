@@ -28,7 +28,7 @@ instructions to find builds:
 ### Not-as-easy steps:
 
 1.  Head to
-            <https://commondatastorage.googleapis.com/chromium-browser-snapshots/>
+            <https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html>
 2.  Choose your platform: Mac, Win, Linux, ChromiumOS
 3.  Pick the Chromium build number you'd like to use
     1.  The latest one is mentioned in the `LAST_CHANGE` file
