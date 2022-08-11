@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a49fb93e_87d1ea5a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-08-11T17:42:01Z",
+      "side": 1,
+      "message": "nit: please add one-line summary at the top that\u0027s 50 characters or less, and wrap the body of the commit message to 72 characters or less [1].\n\n[1] https://chromium.googlesource.com/chromium/src/+/master/docs/contributing.md#uploading-a-change-for-review",
+      "revId": "92dc9cf6431aeb71a8ab0f20c41ed79f2af8fff2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b820c2f_e36490f5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-08-11T17:42:01Z",
+      "side": 1,
+      "message": "LGTM with nit, thanks!",
+      "revId": "92dc9cf6431aeb71a8ab0f20c41ed79f2af8fff2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
