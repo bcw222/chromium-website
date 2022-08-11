@@ -108,10 +108,8 @@ MobLab is a self-contained automated test environment running on a Chromebox.
 
 ## Servo
 
-Servo is a debug board for Chromium OS test and development. It can connect to
+[Servo](https://chromium.googlesource.com/chromiumos/third_party/hdctools/+/HEAD/docs/servo.md) is a debug board for Chromium OS test and development. It can connect to
 most Chrome devices through a debug header on the mainboard.
-
-*   [Servo v2](/chromium-os/servo)
 
 ## Chamelium
 
