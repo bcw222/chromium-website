@@ -191,7 +191,7 @@ browser_tests
 For example, on linux use the following:
 
 ```bash
-xvfb-run -s "-screen 0 1024x768x24" ./out/out/browser_tests
+xvfb-run -s "-screen 0 1024x768x24" ./out/Default/browser_tests
 --test-launcher-bot-mode
 ```
 
