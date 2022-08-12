@@ -28,8 +28,9 @@ origins](http://build.chromium.org/p/chromium.lkgr/builders/MSAN%20Release%20(ch
 (see below for explanation). V8 deployment is ongoing.
 
 Trybots:
-[linux_chromium_msan_rel_ng](http://build.chromium.org/p/tryserver.chromium.linux/builders/linux_chromium_msan_rel_ng/),
-[linux_chromium_chromeos_msan_rel_ng](http://build.chromium.org/p/tryserver.chromium.linux/builders/linux_chromium_chromeos_msan_rel_ng/).
+[linux_chromium_msan_rel_ng](https://ci.chromium.org/p/chromium/builders/try/linux_chromium_msan_rel_ng),
+[linux_chromium_chromeos_msan_rel_ng](https://ci.chromium.org/p/chromium/builders/try/linux_chromium_chromeos_msan_rel_ng).
+
 
 [TOC]
 
