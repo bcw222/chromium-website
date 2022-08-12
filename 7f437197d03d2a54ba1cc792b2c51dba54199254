@@ -16,6 +16,23 @@
       "message": "Hi Andrew, Gene, and Joe. This is YJ, a noogler joining last week. Just wanna update the documentation and You\u0027re the top recommended owners/reviewers. Please take a look when you have time 😊",
       "revId": "7f437197d03d2a54ba1cc792b2c51dba54199254",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e39e03d_b3299630",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1115641
+      },
+      "writtenOn": "2022-08-12T02:53:45Z",
+      "side": 1,
+      "message": "Thanks, YJ!",
+      "revId": "7f437197d03d2a54ba1cc792b2c51dba54199254",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
