@@ -170,7 +170,7 @@ provided in reports. This is controlled by the GN/GYP flag `msan_track_origins`:
 MSan does not support suppressions. This is an intentional design choice.
 
 We have a [blocklist
-file](https://code.google.com/p/chromium/codesearch/#chromium/src/tools/msan/blacklist.txt)
+file](https://source.chromium.org/chromium/chromium/src/+/main:tools/msan/ignorelist.txt)
 which is applied at compile time, and is used mainly to compensate for tool
 issues. Blocklist rules do not work the way suppression rules do - rather than
 suppressing reports with matching stack traces, they change the way MSan
