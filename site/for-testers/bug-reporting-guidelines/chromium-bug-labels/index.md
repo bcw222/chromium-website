@@ -14,12 +14,12 @@ Label 	 Allowed values 	 Description </tr>
 <tr>
 <td>Type-*value*</td>
 
-*   <td>`Bug`</td>
-*   <td>`Bug-Regression`</td>
-*   <td>`Bug-Security`</td>
-*   <td>`Compat`</td>
-*   <td>`Feature`</td>
-*   <td>`Launch`</td>
+   <td>`Bug`</td>
+   <td>`Bug-Regression`</td>
+   <td>`Bug-Security`</td>
+   <td>`Compat`</td>
+   <td>`Feature`</td>
+   <td>`Launch`</td>
 
 <td>The issue type. An issue can only have one type.</td>
 </tr>
@@ -27,25 +27,25 @@ Label 	 Allowed values 	 Description </tr>
 
 <td>Pri-*value*</td>
 
-*   <td>`0 to 3`</td>
+   <td>`0 to 3`</td>
 
 <td>The priority. An issue can only have one priority value. `0` is most urgent; `3` is least urgent. </td>
 </tr>
 <tr>
 <td>OS-*value*</td>
 
-*   <td>`All`</td>
-*   <td>`Chrome`</td>
-*   <td>`Linux`</td>
-*   <td>`Mac`</td>
-*   <td>`Windows`</td>
+   <td>`All`</td>
+   <td>`Chrome`</td>
+   <td>`Linux`</td>
+   <td>`Mac`</td>
+   <td>`Windows`</td>
 
 <td>The operating system(s) on which the bug occurs. </td>
 </tr>
 <tr>
 <td>M-*value*</td>
 
-*   <td>`27, 28, 29`</td>
+   <td>`27, 28, 29`</td>
 
 <td>A release milestone before which we want to resolve the issue. An issue can only be assigned to one milestone† . `Mstone-X` is 'no milestone' (doesn't apply or not blocking any milestone).</td>
 <td>† Except for security bugs. For those, the additional milestones denote branches that the bug should be merged to once fixed. See the <a href="/developers/severity-guidelines">severity guidelines</a>.</td>
@@ -53,14 +53,14 @@ Label 	 Allowed values 	 Description </tr>
 <tr>
 <td>Cr-*value*</td>
 
-*   <td>Blink</td>
-*   <td>Internals</td>
-*   <td>Platform</td>
-*   <td>UI-Shell</td>
-*   <td>UI-Browser == Browser</td>
-*   <td>Cr-OS-Hardware</td>
-*   <td>Cr-OS-Kernel</td>
-*   <td>Cr-OS-Systems</td>
+   <td>Blink</td>
+   <td>Internals</td>
+   <td>Platform</td>
+   <td>UI-Shell</td>
+   <td>UI-Browser == Browser</td>
+   <td>Cr-OS-Hardware</td>
+   <td>Cr-OS-Kernel</td>
+   <td>Cr-OS-Systems</td>
 
 <td>The product category to which an issue belongs. A bug can belong to multiple categories. </td>
 <td> <table></td>
