@@ -12,55 +12,55 @@ title: Chromium Bug Labels
 <tr>
 Label 	 Allowed values 	 Description </tr>
 <tr>
-<td>Type-*value*</td>
+<td>Type-<em>value</em></td>
 
-*   <td>`Bug`</td>
-*   <td>`Bug-Regression`</td>
-*   <td>`Bug-Security`</td>
-*   <td>`Compat`</td>
-*   <td>`Feature`</td>
-*   <td>`Launch`</td>
+   <td><code>Bug</code></td>
+   <td><code>Bug-Regression</code></td>
+   <td><code>Bug-Security</code></td>
+   <td><code>Compat</code></td>
+   <td><code>Feature</code></td>
+   <td><code>Launch</code></td>
 
 <td>The issue type. An issue can only have one type.</td>
 </tr>
 <tr>
 
-<td>Pri-*value*</td>
+<td>Pri-<em>value</em></td>
 
-*   <td>`0 to 3`</td>
+   <td><code>0 to 3</code></td>
 
-<td>The priority. An issue can only have one priority value. `0` is most urgent; `3` is least urgent. </td>
+<td>The priority. An issue can only have one priority value. <code>0</code>  is most urgent; <code>3</code> is least urgent. </td>
 </tr>
 <tr>
-<td>OS-*value*</td>
+<td>OS-<em>value</em></td>
 
-*   <td>`All`</td>
-*   <td>`Chrome`</td>
-*   <td>`Linux`</td>
-*   <td>`Mac`</td>
-*   <td>`Windows`</td>
+   <td><code>All</code></td>
+   <td><code>Chrome</code></td>
+   <td><code>Linux</code></td>
+   <td><code>Mac</code></td>
+   <td><code>Windows</code></td>
 
 <td>The operating system(s) on which the bug occurs. </td>
 </tr>
 <tr>
-<td>M-*value*</td>
+<td>M-<em>value</em></td>
 
-*   <td>`27, 28, 29`</td>
+   <td><code>27, 28, 29</code></td>
 
-<td>A release milestone before which we want to resolve the issue. An issue can only be assigned to one milestone† . `Mstone-X` is 'no milestone' (doesn't apply or not blocking any milestone).</td>
+<td>A release milestone before which we want to resolve the issue. An issue can only be assigned to one milestone† . <code>Mstone-X</code> is 'no milestone' (doesn't apply or not blocking any milestone).</td>
 <td>† Except for security bugs. For those, the additional milestones denote branches that the bug should be merged to once fixed. See the <a href="/developers/severity-guidelines">severity guidelines</a>.</td>
 </tr>
 <tr>
-<td>Cr-*value*</td>
+<td>Cr-<em>value</em></td>
 
-*   <td>Blink</td>
-*   <td>Internals</td>
-*   <td>Platform</td>
-*   <td>UI-Shell</td>
-*   <td>UI-Browser == Browser</td>
-*   <td>Cr-OS-Hardware</td>
-*   <td>Cr-OS-Kernel</td>
-*   <td>Cr-OS-Systems</td>
+   <td>Blink</td>
+   <td>Internals</td>
+   <td>Platform</td>
+   <td>UI-Shell</td>
+   <td>UI-Browser == Browser</td>
+   <td>Cr-OS-Hardware</td>
+   <td>Cr-OS-Kernel</td>
+   <td>Cr-OS-Systems</td>
 
 <td>The product category to which an issue belongs. A bug can belong to multiple categories. </td>
 <td> <table></td>
