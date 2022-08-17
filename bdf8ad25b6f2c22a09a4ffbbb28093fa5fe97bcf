@@ -16,6 +16,24 @@
       "message": "Ryan printed the dependency graph recently, so this still works. I agree that this may not belong to this file, but maybe we should keep this somewhere (maybe near the code?).\n\nRyan WDYT?",
       "revId": "bdf8ad25b6f2c22a09a4ffbbb28093fa5fe97bcf",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ac622404_fde3d698",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 263,
+      "author": {
+        "id": 1290219
+      },
+      "writtenOn": "2022-08-17T19:38:38Z",
+      "side": 0,
+      "message": "I was going off of the (apparently incorrect) assumption that this dependency graph wasn\u0027t useful. When I tried to generate one recently, it was so huge as to be useless in my view. But if your team is using it, then it\u0027s gotta be useful.\n\nLet\u0027s keep the old text here for now.",
+      "parentUuid": "89b52e4e_9259a890",
+      "revId": "bdf8ad25b6f2c22a09a4ffbbb28093fa5fe97bcf",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }

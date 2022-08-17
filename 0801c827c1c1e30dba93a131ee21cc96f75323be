@@ -20,6 +20,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "4d116f48_d71e5415",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1290219
+      },
+      "writtenOn": "2022-08-17T19:38:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d5701af3_22ec4948",
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "3496e73c_b77f9b2c",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 5
@@ -75,6 +93,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "80878427_7967110d",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1290219
+      },
+      "writtenOn": "2022-08-17T19:38:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f7ce550f_19214394",
+      "range": {
+        "startLine": 73,
+        "startChar": 22,
+        "endLine": 73,
+        "endChar": 38
+      },
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "61e599a6_e1d01d32",
@@ -88,6 +130,30 @@
       "writtenOn": "2022-07-22T12:17:25Z",
       "side": 1,
       "message": "some examples uses GetForProfile(), others use GetForBrowserContext(). Should we be consistent and use GetForProfile() everywhere?",
+      "range": {
+        "startLine": 97,
+        "startChar": 21,
+        "endLine": 97,
+        "endChar": 41
+      },
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e9a67d9_a0e4a3c3",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1290219
+      },
+      "writtenOn": "2022-08-17T19:38:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "61e599a6_e1d01d32",
       "range": {
         "startLine": 97,
         "startChar": 21,
@@ -121,6 +187,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1bd10687_fed1e819",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1290219
+      },
+      "writtenOn": "2022-08-17T19:38:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "126b275d_22d60305",
+      "range": {
+        "startLine": 101,
+        "startChar": 2,
+        "endLine": 101,
+        "endChar": 58
+      },
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "516e36dc_b77b385e",
@@ -134,6 +224,30 @@
       "writtenOn": "2022-07-22T12:17:25Z",
       "side": 1,
       "message": "Random note: this is currently not enforced, and many implementations of BuildServiceInstanceFor() return nullptr in some conditions.\n\nWe\u0027re planning to fix the offending factories and enforce that condition, but it may be difficult, so I don\u0027t know if we\u0027ll succeed.",
+      "range": {
+        "startLine": 128,
+        "startChar": 30,
+        "endLine": 128,
+        "endChar": 77
+      },
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d99b2d21_4352a297",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1290219
+      },
+      "writtenOn": "2022-08-17T19:38:38Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "516e36dc_b77b385e",
       "range": {
         "startLine": 128,
         "startChar": 30,
@@ -167,6 +281,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "18a55f95_4ff994ad",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1290219
+      },
+      "writtenOn": "2022-08-17T19:38:38Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "2e3c60e9_d52e165e",
+      "range": {
+        "startLine": 133,
+        "startChar": 5,
+        "endLine": 133,
+        "endChar": 27
+      },
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6a8f2d23_0613860a",
@@ -180,6 +318,30 @@
       "writtenOn": "2022-07-22T12:17:25Z",
       "side": 1,
       "message": "nullptr",
+      "range": {
+        "startLine": 135,
+        "startChar": 29,
+        "endLine": 135,
+        "endChar": 33
+      },
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14d49561_41f71d99",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 135,
+      "author": {
+        "id": 1290219
+      },
+      "writtenOn": "2022-08-17T19:38:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6a8f2d23_0613860a",
       "range": {
         "startLine": 135,
         "startChar": 29,
@@ -213,6 +375,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0320bcd9_aaded659",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1290219
+      },
+      "writtenOn": "2022-08-17T19:38:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "12e7a6be_37325c63",
+      "range": {
+        "startLine": 139,
+        "startChar": 24,
+        "endLine": 139,
+        "endChar": 67
+      },
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "be241a7a_368cbdd6",
@@ -226,6 +412,30 @@
       "writtenOn": "2022-07-22T10:28:59Z",
       "side": 1,
       "message": "s/accessed// - this word looks redundant",
+      "range": {
+        "startLine": 152,
+        "startChar": 13,
+        "endLine": 152,
+        "endChar": 21
+      },
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2948752c_c20d29eb",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1290219
+      },
+      "writtenOn": "2022-08-17T19:38:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "be241a7a_368cbdd6",
       "range": {
         "startLine": 152,
         "startChar": 13,
@@ -259,6 +469,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "33316c7e_1ee1ba57",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 217,
+      "author": {
+        "id": 1290219
+      },
+      "writtenOn": "2022-08-17T19:38:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b397a876_6c0ac3a1",
+      "range": {
+        "startLine": 217,
+        "startChar": 20,
+        "endLine": 217,
+        "endChar": 27
+      },
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "33b847a3_372a31b6",
@@ -272,6 +506,30 @@
       "writtenOn": "2022-07-22T12:17:25Z",
       "side": 1,
       "message": "same, this no longer exists",
+      "range": {
+        "startLine": 218,
+        "startChar": 58,
+        "endLine": 218,
+        "endChar": 65
+      },
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b5b49d1a_116d8146",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 1290219
+      },
+      "writtenOn": "2022-08-17T19:38:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "33b847a3_372a31b6",
       "range": {
         "startLine": 218,
         "startChar": 58,
@@ -299,6 +557,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f40cd4fe_457aeb03",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 1290219
+      },
+      "writtenOn": "2022-08-17T19:38:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fcd81445_c8dcf439",
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a8994d0c_fb3c9e07",
@@ -312,6 +588,30 @@
       "writtenOn": "2022-07-22T12:17:25Z",
       "side": 1,
       "message": "These also seem to be obsolete function names.",
+      "range": {
+        "startLine": 233,
+        "startChar": 35,
+        "endLine": 234,
+        "endChar": 50
+      },
+      "revId": "0801c827c1c1e30dba93a131ee21cc96f75323be",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f894d02_bc5fd250",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 234,
+      "author": {
+        "id": 1290219
+      },
+      "writtenOn": "2022-08-17T19:38:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a8994d0c_fb3c9e07",
       "range": {
         "startLine": 233,
         "startChar": 35,
