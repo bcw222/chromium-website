@@ -58,6 +58,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "79b65e9f_d458eeb7",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1290219
+      },
+      "writtenOn": "2022-08-18T15:17:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bc918e54_1810db18",
+      "range": {
+        "startLine": 38,
+        "startChar": 41,
+        "endLine": 38,
+        "endChar": 53
+      },
+      "revId": "f824bd72148cdbc2692563eb8e63015ff0f97439",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2aaf85af_043387da",
@@ -71,6 +95,30 @@
       "writtenOn": "2022-08-17T21:09:56Z",
       "side": 1,
       "message": "nit: \"over\" seems redundant - I\u0027d go for either \"hundreds of services\" or \"over a thousand services\", whichever it is.",
+      "range": {
+        "startLine": 43,
+        "startChar": 30,
+        "endLine": 43,
+        "endChar": 34
+      },
+      "revId": "f824bd72148cdbc2692563eb8e63015ff0f97439",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ef734c3_6580a79c",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1290219
+      },
+      "writtenOn": "2022-08-18T15:17:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2aaf85af_043387da",
       "range": {
         "startLine": 43,
         "startChar": 30,
@@ -104,6 +152,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "48b50077_4718a780",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1290219
+      },
+      "writtenOn": "2022-08-18T15:17:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5c55d20b_401f9d16",
+      "range": {
+        "startLine": 46,
+        "startChar": 30,
+        "endLine": 46,
+        "endChar": 31
+      },
+      "revId": "f824bd72148cdbc2692563eb8e63015ff0f97439",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4e94d39b_454ba9b7",
@@ -117,6 +189,30 @@
       "writtenOn": "2022-08-17T21:09:56Z",
       "side": 1,
       "message": "This bullet point seems a little incomplete - what happens if you override it? Should this be \"You can override...\"?",
+      "range": {
+        "startLine": 138,
+        "startChar": 8,
+        "endLine": 140,
+        "endChar": 67
+      },
+      "revId": "f824bd72148cdbc2692563eb8e63015ff0f97439",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "907dad2e_ae170d34",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 1290219
+      },
+      "writtenOn": "2022-08-18T15:17:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4e94d39b_454ba9b7",
       "range": {
         "startLine": 138,
         "startChar": 8,
@@ -150,6 +246,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "84244f22_4a3f7e3f",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1290219
+      },
+      "writtenOn": "2022-08-18T15:17:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "30dcb205_2926c5a2",
+      "range": {
+        "startLine": 166,
+        "startChar": 69,
+        "endLine": 166,
+        "endChar": 78
+      },
+      "revId": "f824bd72148cdbc2692563eb8e63015ff0f97439",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a77060ff_4c053a50",
@@ -163,6 +283,30 @@
       "writtenOn": "2022-08-17T21:09:56Z",
       "side": 1,
       "message": "accommodate",
+      "range": {
+        "startLine": 178,
+        "startChar": 16,
+        "endLine": 178,
+        "endChar": 27
+      },
+      "revId": "f824bd72148cdbc2692563eb8e63015ff0f97439",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd4cba11_14f3c102",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 178,
+      "author": {
+        "id": 1290219
+      },
+      "writtenOn": "2022-08-18T15:17:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a77060ff_4c053a50",
       "range": {
         "startLine": 178,
         "startChar": 16,
