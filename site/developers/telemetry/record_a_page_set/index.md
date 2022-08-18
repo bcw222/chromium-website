@@ -48,7 +48,9 @@ Google wants to avoid legal issues with distributing third-party content, so to
 be safe, **most recordings of websites on the public web go in
 `PARTNER_BUCKET`**, which is accessible by Googlers and certain Google partners.
 Recordings of Google-properties on the public web can go in `PUBLIC_BUCKET`, and
-recordings of unreleased or internal Google websites go in `INTERNAL_BUCKET`.
+recordings of unreleased or internal Google websites go in `INTERNAL_BUCKET`. 
+
+If you require access to the `PARTNER_BUCKET`, submit a ticket [`here`](https://bugs.chromium.org/p/chromium/issues/entry?template=Chromium+Perf+Test+Data%2C+Resource+or+Access+Request).
 
 ## Recording and Uploading
 
