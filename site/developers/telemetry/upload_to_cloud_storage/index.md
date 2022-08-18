@@ -37,7 +37,9 @@ depot_tools.
 
 Many of the page set archives are in the `chrome-partner-telemetry` bucket,
 which is not accessible publicly. Google partners can request access by emailing
-`telemetry@chromium.org`.
+`telemetry@chromium.org` or submitting a ticket [`here`](https://bugs.chromium.org/p/chromium/issues/entry?template=Chromium+Perf+Test+Data%2C+Resource+or+Access+Request).
+
+
 
 ### Authenticate into Cloud Storage
 
