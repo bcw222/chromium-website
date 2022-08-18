@@ -15,6 +15,50 @@ It's an open list, so
 if you're interested in updates, discussion, or feisty rants related to Chromium
 security.
 
+## Q2 2022
+
+Greetings,
+
+We're well over half way through 2022, so it's time to look back at what Chrome Security got up to in the 2nd quarter of the year.
+
+The Chrome Counter-Abuse team launched redesigned downloads UX to 1% of Stable in Chrome 102. The new UX is more modern and usable, and provides surface area for experimentation. We’ll continue to collect metrics and feedback from this rollout to improve the design and identify future improvements.
+
+We drove a 13% quarter-over-quarter growth in the number of Chrome users who opted in to Enhanced Protection!
+
+Separately, we also landed changes to resolve some performance regressions on mobile with the use of TFLite models for reducing phishing false negatives, and will roll these out later in the year.
+
+Our new extension telemetry signals have proven useful by helping the Chrome Web Store to catch and quickly take down a malware campaign.
+
+In Trusty Transport news, at the June [CA/Browser Forum](https://cabforum.org/) meeting, we announced a significant update to the Chrome Root Store [policy](https://g.co/chrome/root-policy). This update introduces improved security requirements for new Certificate Authority applicants to our program, and details some of our future [priorities](https://www.chromium.org/Home/chromium-security/root-ca-policy/#moving-forward-together) for the web public key infrastructure. We also announced that we’ll be beginning to process applications – the official launch of our root program – in September. We implemented a cross-platform certificate viewer UI (currently in Canary) and mechanism for dynamically updating Chrome’s root store (launched to Stable) in preparation for this launch.
+
+We built a mechanism for dynamically updating the static [key pinning](https://www.rfc-editor.org/rfc/rfc7469#section-2.7) list, and are using that capability to launch key pinning support on Chrome for Android (currently in a stable experiment).
+
+We [revised](https://groups.google.com/a/chromium.org/g/ct-policy/c/QKSayLJkrZc/m/akb4g_-0AwAJ) the timeline for retiring several old Certificate Transparency logs after investigating unexpected breakage. We also [shortened](https://groups.google.com/a/chromium.org/g/ct-policy/c/QKSayLJkrZc/m/akb4g_-0AwAJ) the timeline for compliance monitoring for bringing new logs online.
+
+HTTPS-First mode, available on desktop and Android platforms, is now in beta on iOS.
+
+In Q2, the Security Architecture team started experimental trials of Site Isolation for [<webview> tags](https://crbug.com/1267977) and for [sandboxed iframes](https://crbug.com/510122), and launched stricter enforcements for extensions. We also enabled [ORB v0.1](https://groups.google.com/a/chromium.org/g/blink-dev/c/ScjhKz3Z6U4/m/5i_0V7ogAwAJ) in Chrome 105 to protect additional types of data with Site Isolation and to prepare for a more ambitious fail-closed approach. We wrote new [Process Model and Site Isolation documentation](https://chromium.googlesource.com/chromium/src/+/main/docs/process_model_and_site_isolation.md) to help others learn about Chrome's implementation, and we continued to make progress on core navigation and process model projects like [SiteInstanceGroups](https://crbug.com/1195535), [RenderDocument](https://crbug.com/936696), and [InitialNavigationEntry](https://docs.google.com/document/d/1H81oAG13f21fUf-IGHH8AnjNVJFtaThowl5Ki9hWw5E/edit).
+
+The Platform Security team continues to make good progress on our top priority for the year: sandboxing the network service across [Windows](https://bugs.chromium.org/p/chromium/issues/detail?id=841001), [Android](https://bugs.chromium.org/p/chromium/issues/detail?id=1262395), and [Linux/Chrome OS](https://bugs.chromium.org/p/chromium/issues/detail?id=1079808). Initial support for brokering socket creation, needed on Windows and Android, has landed, and a long standing issue launching sandboxed processes on Windows was [diagnosed](https://bugs.chromium.org/p/chromium/issues/detail?id=1314491)! We’ve also created designs for brokering various network subsystems on Linux/Chrome OS. In addition, we added the ability to specify sandboxing requirements directly to .mojom files, to ease readability and reviewability. And on Windows, work is progressing on the [app-bound encryption service](https://bugs.chromium.org/p/chromium/issues/detail?id=1333461), to help protect against cookie theft.
+
+The new Offensive Security team audited a portion of Chrome’s forthcoming WebGPU features, which led to the discovery of several security bugs ([1348733](https://crbug.com/1348733), [1346041](https://crbug.com/1346041), [1340654](https://crbug.com/1340654), [1336014](https://crbug.com/1336014), [1334865](https://crbug.com/1334864) — not currently visible, as they'll be restricted until 14 weeks after they've been marked as fixed, [per usual](https://chromium.googlesource.com/chromium/src/+/master/docs/security/faq.md#can-you-please-un_hide-old-security-bugs)). Separately, the team [hardened](https://crrev.com/c/3794525) a V8 feature abused by multiple previous exploits. 
+
+On the Web Platform APIs front, to protect private networks, we’re starting to deploy preflight checks when accessing private resources from secure HTTP pages as part of the [Private Network Access spec](https://wicg.github.io/private-network-access/) implementation. We will start with warnings in Chrome 104, and will follow with enforcement in Chrome 107. Unsecure public pages will still not be allowed to access private resources. To help existing services migrate to HTTPS, we will be implementing a [permission](https://github.com/WICG/private-network-access/issues/23#issuecomment-1126195439) for a secure page to access unsecure content on the private network, effectively allowing the user to relax mixed content restrictions for a private IP.
+
+We will be releasing an MVP of the [Sanitizer API](https://wicg.github.io/sanitizer-api/) in Chrome 105.
+
+In web-based isolation news, we are preparing for an Origin Trial of [Anonymous Iframes](https://wicg.github.io/anonymous-iframe/) in Chrome 106. We are also converging on a solution to have crossOriginIsolation and cross-origin popups called [COOP: restrict-properties](https://github.com/whatwg/html/issues/6364).
+
+In Q2 we rolled out the minimal version of the [V8 sandbox](https://docs.google.com/document/d/1FM4fQmIhEqPG8uGp5o9A-mnPB5BOeScZYpkHjo0KKA8/edit) to Desktop in Chrome 103 and Android (targeting Chrome 105). It currently only prevents attackers from abusing ArrayBuffers in an exploit, and is still easy to bypass, but we will gradually make it stronger until it can become a security boundary by itself.
+
+Besides that, we developed a [CFI strategy for V8](https://docs.google.com/document/d/1O2jwK4dxI3nRcOJuPYkonhTkNQfbmwdvxQMyXgeaRHo/edit) that can deal with the additional challenges to CFI introduced by JIT compilation. This requires per-thread memory protections which likely needs special hardware support.
+
+Until next time,
+
+Andrew
+
+On behalf of Chrome Security
+
 ## Q1 2022
 
 Greetings,
