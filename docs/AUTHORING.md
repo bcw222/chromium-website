@@ -1,3 +1,4 @@
+## phanwiki@gmail.com
 # Authoring guidelines
 
 *This page talks about how to write individual pages for the site. See
