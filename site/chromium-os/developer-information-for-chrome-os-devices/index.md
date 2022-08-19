@@ -3923,4 +3923,38 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>Yes</td>
   </tr>
+  <tr>
+    <td>2022-08-12</td>
+    <td>Asus</td>
+    <td>ASUS Chromebook CX1 CX1102</td>
+    <td>Galnat</td>
+    <td>Dedede</td>
+    <td>Dedede</td>
+    <td>x86_64</td>
+    <td>5.4</td>
+    <td>x86_64</td>
+    <td>Jasper Lake</td>
+    <td>Clamshell</td>
+    <td>R103</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>2022-08-12</td>
+    <td>Asus</td>
+    <td>ASUS Chromebook Flip CX1 CX1102</td>
+    <td>Galnat360</td>
+    <td>Dedede</td>
+    <td>Dedede</td>
+    <td>x86_64</td>
+    <td>5.4</td>
+    <td>x86_64</td>
+    <td>Jasper Lake</td>
+    <td>Convertible</td>
+    <td>R103</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
 </table>
