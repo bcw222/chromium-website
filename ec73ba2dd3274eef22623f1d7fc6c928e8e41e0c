@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7915e159_cf8a6c8c",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 3959,
+      "author": {
+        "id": 1346692
+      },
+      "writtenOn": "2022-08-19T06:40:56Z",
+      "side": 1,
+      "message": "nit: remove the redundant space here? Thanks.",
+      "range": {
+        "startLine": 3959,
+        "startChar": 7,
+        "endLine": 3959,
+        "endChar": 9
+      },
+      "revId": "ec73ba2dd3274eef22623f1d7fc6c928e8e41e0c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
