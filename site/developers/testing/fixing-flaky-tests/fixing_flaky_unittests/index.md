@@ -25,13 +25,10 @@ determine what that set of tests is, do the following:
 * Open the task page.
 * Search for the failing test in the raw output.
 
-Up to 9 of the previous tests listed in the output run in the same process as the
-failing test. There’s currently no indication of which tests are in the same
-process in the log. However, if a test crashes, then the remaining tests in the
-batch of 10 are skipped, and retried singly, each in their own process. In this
-case, it's easy to see what the previous tests in the batch are, by counting how
-many tests were skipped, e.g., if 5 tests are skipped, the 4 tests before the
-crashing test were run in the same process.
+Up to 9 of the previous tests listed in the output run in the same process as
+the failing test. Since unit tests run in batches of 10, each batch starts with
+a test number ending in 1, and ends with a test number ending in 0, e.g., tests
+numbered 3541 through 3550 are run in the same process.
 
 To run the tests locally, use --test-launcher-filter-file=`<file with names
 of up to 10 tests>`, or gtest_filter=`<test1>:<test2>:<test3>`... If you get a
@@ -184,6 +181,15 @@ issues, tests should use ui::TestClipboard instead of the system clipboard.
 Example CLs: [2986782](https://crrev.com/c/2986782), [1625942](https://crrev.com/c/1625942)
 
 [Please feel free to add other types of issues and sample CLs here]
+
+### Focus issues
+Unit tests that need to have focus can be flaky if other tests running on the
+bot open windows and take focus. Typically, when a unit test sets focus, as long
+as it does things synchronously, it doesn't have to worry about losing focus.
+However, on Windows, the key event handler does a ::PeekMessage, which can cause
+a loss of focus. So if the test generates key events, that can trigger loss of
+focus. See [bug 1330440](https://crbug.com/1330440). One option is to make
+the test an interactive ui test.
 
 ## Techniques for reproducing flakes
 
