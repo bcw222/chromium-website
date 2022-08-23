@@ -5,13 +5,13 @@ breadcrumbs:
 - - /developers/design-documents
   - Design Documents
 page_name: omnibox-prefetch-for-default-search-engines
-title: Omnibox Prefetch for Default Search Engines
+title: Omnibox Prefetch and Prerender for Default Search Engines
 ---
 
 This doc provides a quick guideline and example of how to adapt an existing
-Chrome Default Search Engine (DSE) to prefetch likely suggestions. This doc also
-provides some key details for understanding how Chrome treats instructions to
-prefetch.
+Chrome Default Search Engine (DSE) to prefetch and prerender likely suggestions.
+This doc also provides some key details for understanding how Chrome treats
+instructions to prefetch.
 
 # How to recommend prefetches
 
@@ -93,6 +93,16 @@ parameter to the search URL (i.e., the URL adds
 This query parameter is sent by chromium and used by Google Search’s server to
 treat the request as a prefetch from the omnibox.
 
+# How to recommend prerenders
+
+Similar to Prefetch, Prerender also utilizes the same format to indicate prerender indexes,
+with the key of "pre":
+
+    "google:clientdata": {
+        "pre": <prerender index>;
+    }
+
+
 # Things to note about the implementation
 
 There are various reasons that Search prefetches might not be triggered by
@@ -114,11 +124,15 @@ Chrome or might not be served to the user:
 
 * The prefetch did not finish (see a 2XX response code) by the time the user navigated
 
-* The user changed language, changed DSE, cleared history, etc. before the user navigates to the prefetch
+* The user changed language, changed DSE, cleared history, etc. before the user navigates to the
+  prefetch
 
 * The prefetch became stale (60 seconds is the current configuration)
 
 * The request failed (received a non 2XX error, timed out, network error)
+
+* Each prerender starts after the corresponding prefetch succeeds. So, if the prefetch fails,
+  prerender will not be triggered.
 
 Additionally, if the DSE adds a prefetch parameter, and the prefetch is served,
 the address bar will show the URL the user would have otherwise navigated to
