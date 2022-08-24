@@ -77,6 +77,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2516c0f7_fa8df5f5",
+        "filename": "site/developers/design-documents/omnibox-prefetch-for-default-search-engines/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1166490
+      },
+      "writtenOn": "2022-08-24T21:12:13Z",
+      "side": 1,
+      "message": "I don\u0027t know how explicit you have to make this anyway. If the prefetch fails, the prerender has to fail. The internal mechanics may not be super interesting beyond that fact.",
+      "parentUuid": "c0eab4e4_2397f444",
+      "range": {
+        "startLine": 134,
+        "startChar": 2,
+        "endLine": 134,
+        "endChar": 65
+      },
+      "revId": "01950e576c8bc85cc25c522bd48abf8968a68e3a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "8dc2d30b_3dcd9121",
         "filename": "site/developers/design-documents/omnibox-prefetch-for-default-search-engines/index.md",
         "patchSetId": 5
