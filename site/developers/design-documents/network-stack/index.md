@@ -263,36 +263,8 @@ also contains a `HostCache` which caches up to 1000 hostnames.
 
 #### SSL/TLS
 
-SSL sockets require performing SSL connection setup as well as certificate
-verification. Except on iOS, Chromium uses
-[BoringSSL](https://boringssl.googlesource.com/boringssl/) to handle the SSL
-connection logic. However, we use platform specific APIs for certificate
-verification. We are moving towards using a certificate verification cache as
-well, which will consolidate multiple requests for certificate verification of
-the same certificate into a single certificate verification job and cache the
-results for a period of time.
-
-*Danger: Outdated*
-
-`SSLClientSocketNSS` roughly follows this sequence of events (ignoring advanced
-features like [Snap
-Start](http://tools.ietf.org/html/draft-agl-tls-snapstart-00) or
-[DNSSEC](http://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)
-based certificate verification):
-
-*   Connect() is called. We set up NSS's SSL options based on
-            `SSLConfig` specified configuration or preprocessor macros. Then we
-            kickoff the handshake.
-*   Handshake completes. Assuming we didn't hit any errors, we proceed
-            to verify the server's certificate using `CertVerifier`. Certificate
-            verification may take some amount of time, so `CertVerifier` uses
-            the `WorkerPool` to actually call `X509Certificate::Verify()`, which
-            is implemented using platform specific APIs.
-
-Note that Chromium has its own NSS patches which support some advanced features
-which aren't necessarily in the system's NSS installation, such as support for
-[NPN](http://tools.ietf.org/html/draft-agl-tls-nextprotoneg-00), [False
-Start](http://tools.ietf.org/search/draft-bmoeller-tls-falsestart-00), Snap
-Start , [OCSP stapling](http://en.wikipedia.org/wiki/OCSP_Stapling), etc.
+The network stack uses [BoringSSL](https://boringssl.googlesource.com/boringssl/)
+to handle the TLS connection logic. The bridge between the `StreamSocket` class
+and BoringSSL can be found in `SSLClientSocketImpl`.
 
 TODO: talk about network change notifications
