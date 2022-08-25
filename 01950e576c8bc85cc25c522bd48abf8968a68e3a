@@ -165,6 +165,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bee8e03b_a36beae0",
+        "filename": "site/developers/design-documents/omnibox-prefetch-for-default-search-engines/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1413245
+      },
+      "writtenOn": "2022-08-25T08:59:15Z",
+      "side": 1,
+      "message": "Thanks! So then, I\u0027ll revise it if we receive some feedback from readers! 😄",
+      "parentUuid": "d4e10fd7_3d643806",
+      "range": {
+        "startLine": 134,
+        "startChar": 2,
+        "endLine": 134,
+        "endChar": 65
+      },
+      "revId": "01950e576c8bc85cc25c522bd48abf8968a68e3a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8dc2d30b_3dcd9121",
