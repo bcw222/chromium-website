@@ -66,6 +66,8 @@ other concerns, please email us at
 ## **Organizer Contact Information**
 
 * _Planning committee:_ (e) [blinkon@chromium.org](mailto:blinkon@chromium.org)
+* _Michael Hablich:_ (Slack) [hablich@chromium.org](mailto:hablich@chromium.org) (e) [hablich@chromium.org](mailto:hablich@chromium.org)
+* _Victor Padron:_ (Slack) [vpadron@chromium.org](mailto:vpadron@chromium.org) (e) [vpadron@google.com](mailto:vpadron@google.com)
 * _Johnny Stenback:_ (Slack) [jstenback@chromium.org](mailto:jstenback@chromium.org) (e) [jstenback@google.com](mailto:jstenback@google.com)
-* _Lutz Vahl:_ (Slack) [vahl@chromium.org](mailto:vahl@chromium.org) (e) [vahl@google.com](mailto:vahl@google.com)
 * _Mike Taylor:_ (Slack) [miketaylr@chromium.org](mailto:miketaylr@chromium.org) (e) [miketaylr@chromium.org](mailto:miketaylr@chromium.org)
+* _Lutz Vahl:_ (Slack) [vahl@chromium.org](mailto:vahl@chromium.org) (e) [vahl@google.com](mailto:vahl@google.com)
