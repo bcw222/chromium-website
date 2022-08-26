@@ -50,6 +50,23 @@
       "message": "+sshrimp@,\nHi Struan, Could you help review this change? Thanks 😊",
       "revId": "ccf3a9a7f3c9d95906522d390b364592a4bcaec8",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "803c03dd_8fe04956",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1413245
+      },
+      "writtenOn": "2022-08-26T01:31:23Z",
+      "side": 1,
+      "message": "Thanks! I\u0027ll submit this CL for now and please let me know if you have any other concerns! :D",
+      "revId": "ccf3a9a7f3c9d95906522d390b364592a4bcaec8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
