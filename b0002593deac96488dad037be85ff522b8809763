@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f2cab29_1a8e4cf0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1528057
+      },
+      "writtenOn": "2022-08-29T19:41:43Z",
+      "side": 1,
+      "message": "Updated Chrome Root Program Policy (and new complementary sub-pages) ready for review and LGTM. Hoping to publish on 9/1 (submitting on 8/31). Please let me know if there are any questions.\n\n",
+      "revId": "b0002593deac96488dad037be85ff522b8809763",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
