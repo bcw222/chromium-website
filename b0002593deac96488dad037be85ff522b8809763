@@ -16,6 +16,23 @@
       "message": "Updated Chrome Root Program Policy (and new complementary sub-pages) ready for review and LGTM. Hoping to publish on 9/1 (submitting on 8/31). Please let me know if there are any questions.\n\n",
       "revId": "b0002593deac96488dad037be85ff522b8809763",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "09be9d2c_cecdffec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1528057
+      },
+      "writtenOn": "2022-08-29T21:41:12Z",
+      "side": 1,
+      "message": "Should have included it earlier:\n\n\"Live Preview\" Page URLs: \n- Policy: https://chromium-website--cl3859680-ps6-okhya0jg.web.app/Home/chromium-security/root-ca-policy/\n- MFT: https://chromium-website--cl3859680-ps6-okhya0jg.web.app/Home/chromium-security/root-ca-policy/moving-forward-together/\n- Apply: https://chromium-website--cl3859680-ps6-okhya0jg.web.app/Home/chromium-security/root-ca-policy/apply-for-inclusion/",
+      "revId": "b0002593deac96488dad037be85ff522b8809763",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
