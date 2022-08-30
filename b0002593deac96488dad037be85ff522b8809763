@@ -51,6 +51,40 @@
       "parentUuid": "09be9d2c_cecdffec",
       "revId": "b0002593deac96488dad037be85ff522b8809763",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5e435c4_843f5cc8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1126726
+      },
+      "writtenOn": "2022-08-30T04:01:28Z",
+      "side": 1,
+      "message": "LGTM with one comment, thanks!",
+      "revId": "b0002593deac96488dad037be85ff522b8809763",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3583996d_d62460be",
+        "filename": "site/Home/chromium-security/root-ca-policy/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1126726
+      },
+      "writtenOn": "2022-08-30T04:01:28Z",
+      "side": 1,
+      "message": "What would you think of adding a footnote to this column that reiterates that these EKU descriptions apply to existing CAs, not new applicants? I got momentarily confused because the sentence above says \"Both applicant CAs and those with certificates already included...\" and yet this column doesn\u0027t describe applicant CAs.",
+      "revId": "b0002593deac96488dad037be85ff522b8809763",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
