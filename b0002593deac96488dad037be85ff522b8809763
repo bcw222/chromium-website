@@ -85,6 +85,24 @@
       "message": "What would you think of adding a footnote to this column that reiterates that these EKU descriptions apply to existing CAs, not new applicants? I got momentarily confused because the sentence above says \"Both applicant CAs and those with certificates already included...\" and yet this column doesn\u0027t describe applicant CAs.",
       "revId": "b0002593deac96488dad037be85ff522b8809763",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a07d8d7c_44c27154",
+        "filename": "site/Home/chromium-security/root-ca-policy/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1528057
+      },
+      "writtenOn": "2022-08-30T04:19:16Z",
+      "side": 1,
+      "message": "The audit requirements listed here are applicable for both applicants and roots.\n\nThat is to say, if a CA is technically capable of issuing functioning TLS certificates (OR its capable of issuing CA certificates that can issue functioning TLS certificates), it must be audited by an approved third-party scheme (WT or ETSI). If the CA is otherwise constrained to issuing non-TLS certificates, it\u0027s outside the scope of the CRP and self-audits are expected (per the BRs).\n\nThe Web PKI community has, for better or worse, defined \"functional\" or \"TLS capable\" dependent upon EKU chaining. (see: https://bugzilla.mozilla.org/show_bug.cgi?id\u003d725351#c9)\n\nThe CA type column was designed to align with the updated profile draft available at https://github.com/cabforum/servercert/blob/profiles/docs/BR.md.\n\nDoes that make sense?",
+      "parentUuid": "3583996d_d62460be",
+      "revId": "b0002593deac96488dad037be85ff522b8809763",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
