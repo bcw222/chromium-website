@@ -124,7 +124,7 @@ working directory named src.
 fetch --nohooks chromium # 'chromium' may alternatively be one of blink,
 android, ios, see below. # or alternatively fetch --nohooks --no-history
 chromium # get a shallow checkout (saves disk space and fetch time at the cost
-of no git history) cd src git checkout master # if you are building for Linux
+of no git history) cd src git checkout main # if you are building for Linux
 only: build/install-build-deps.sh # if you are building for Android:
 build/install-build-deps-android.sh # if you are building for iOS: echo "{
 'GYP_DEFINES': 'OS=ios', 'GYP_GENERATOR_FLAGS': 'xcode_project_version=3.2', }"
@@ -151,11 +151,11 @@ working on Chromium, while fetching blink will instead get the latest Blink
 
 In other words, fetch X if you want to work on X.
 
-Note that, by default, fetch creates a local branch called "master". This can be
-confusing if you mistake it for the upstream "origin/master". Unless you know
+Note that, by default, fetch creates a local branch called "main". This can be
+confusing if you mistake it for the upstream "origin/main". Unless you know
 what you're doing, you should simply delete this branch as follows:
 
-git checkout origin/master git branch -D master
+git checkout origin/main git branch -D main
 
 Note that if e.g. you're developing Blink, you'll want to do this in you Blink
 directory (likely third_party/WebKit) as well.
@@ -180,7 +180,7 @@ If you're building Chrome for:
 ## Using the last known good/compilable revision (LKGR/LKCR)
 
 If you'd like to only sync to the last known good revision (lkgr), you can
-checkout **origin/lkgr** instead of **origin/master**. Similarly, the lkcr is
+checkout **origin/lkgr** instead of **origin/main**. Similarly, the lkcr is
 available at **origin/lkcr**.
 
 ## Updating the code
@@ -243,9 +243,9 @@ Branches](/developers/how-tos/get-the-code/working-with-branches).
 
 ## If gclient sync fails
 
-*   Make sure you checked out master: run git branch
+*   Make sure you checked out main: run git branch
 *   Run git status to make sure you don't have any uncommitted changes
-*   Try running git rebase origin/master directly to get more specific
+*   Try running git rebase origin/main directly to get more specific
             errors that gclient sync might not show
 *   Do the same in each subdirectory that belongs to a separate
             repository that you might have worked in - for example, if you
@@ -253,7 +253,7 @@ Branches](/developers/how-tos/get-the-code/working-with-branches).
             WebKit[?](https://code.google.com/p/chromium/w/edit/WebKit) code, cd
             to
             third_party/WebKit[?](https://code.google.com/p/chromium/w/edit/WebKit)/Source
-            and run git status there to make sure you're on the master branch
+            and run git status there to make sure you're on the main branch
             and don't have uncommitted changes.
 
 Sometimes you'll get the message "You have unstaged changes." when you
