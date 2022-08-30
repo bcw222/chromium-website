@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f42fed20_d7b71cf9",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1357878
+      },
+      "writtenOn": "2022-08-30T23:37:46Z",
+      "side": 1,
+      "message": "nit: we lost an E in the name change",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 9
+      },
+      "revId": "01a77627dd3effb774182862adc21b29f67dfe77",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d8f8b971_e87e6b07",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1357878
+      },
+      "writtenOn": "2022-08-30T23:37:46Z",
+      "side": 1,
+      "message": "LGTM, just the one nit.",
+      "revId": "01a77627dd3effb774182862adc21b29f67dfe77",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
