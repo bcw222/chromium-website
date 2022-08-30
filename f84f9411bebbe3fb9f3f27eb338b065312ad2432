@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed12ae45_957c446b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1434245
+      },
+      "writtenOn": "2022-08-30T23:43:59Z",
+      "side": 1,
+      "message": "Thanks. Adding a file owner to take a look. Can you?",
+      "revId": "f84f9411bebbe3fb9f3f27eb338b065312ad2432",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
