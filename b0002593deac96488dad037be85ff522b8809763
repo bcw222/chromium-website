@@ -103,6 +103,24 @@
       "parentUuid": "3583996d_d62460be",
       "revId": "b0002593deac96488dad037be85ff522b8809763",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d936bf7b_9616ec68",
+        "filename": "site/Home/chromium-security/root-ca-policy/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1126726
+      },
+      "writtenOn": "2022-08-30T04:52:09Z",
+      "side": 1,
+      "message": "I meant that the \"EKU characteristics\" column specifically (not the whole table) applies to existing roots -- that\u0027s true, isn\u0027t it? e.g. a new applicant can\u0027t have an EKU of anyExtendedKeyUsage on a subordinate CA. So I was imagining a footnote anchored on the \"EKU characteristics\" column header that says something like \"Existing CAs in CRS may have EKU characteristics as described in this table, but as noted in Section 4, new applicants will have more constrained EKUs.\" I guess I found it confusing because, in the case of a new applicant CA, the \"EKU characteristics\" column doesn\u0027t give any information, because the applicant\u0027s subordinate EKUs are dictated by the policy. Due to the fact that this is preceded by the section describing EKU requirements for new applicants, I was in a \"new applicant\" mindset when I read this table and found myself thinking, \"What\u0027s the point of this column when the EKU has to be present and include id-kp-serverAuth?\", forgetting that this column applied to existing CAs too.\n\nAnyway, all that said, I don\u0027t think it\u0027s a big deal either way; it\u0027s technically correct as written, so up to you if you want to add a footnote or not. However, please do let me know if I\u0027ve wildly misunderstood everything. 😅",
+      "parentUuid": "a07d8d7c_44c27154",
+      "revId": "b0002593deac96488dad037be85ff522b8809763",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
