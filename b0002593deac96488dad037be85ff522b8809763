@@ -121,6 +121,24 @@
       "parentUuid": "a07d8d7c_44c27154",
       "revId": "b0002593deac96488dad037be85ff522b8809763",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "62717fca_46391fea",
+        "filename": "site/Home/chromium-security/root-ca-policy/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1528057
+      },
+      "writtenOn": "2022-08-30T11:58:57Z",
+      "side": 1,
+      "message": "Sorry, I misunderstood your comment. Thank you for clarifying. I added a footnote to make this more clear.",
+      "parentUuid": "d936bf7b_9616ec68",
+      "revId": "b0002593deac96488dad037be85ff522b8809763",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
