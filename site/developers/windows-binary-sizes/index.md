@@ -22,8 +22,8 @@ EXEs. The tools are:
             https://www.microsoft.com/en-us/p/sizebench/9ndf4n1wg7d6" to
             download the files, and then run the SizeBench .appx file to install
             SizeBench. Note that SizeBench is incompatible with lld-link so you
-            have to build chrome with "use_lld = false", and so far has not
-            worked at all.
+            have to build chrome with "use_lld = false". SizeBench is open
+            source and [the repo is here](https://github.com/microsoft/SizeBench).
 *   [tools\\win\\ShowGlobals](https://source.chromium.org/chromium/chromium/src/+/main:tools/win/ShowGlobals/)
             - this executable (must be built from a VS solution) uses DIA2 (and
             is based off of the dia2dump sample whose source comes with Visual
