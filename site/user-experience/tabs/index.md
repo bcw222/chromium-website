@@ -6,8 +6,7 @@ page_name: tabs
 title: Tabs
 ---
 
-#### [<img alt="image"
-src="/user-experience/tabs/tab.png">](/user-experience/tabs/tab.png)
+#### [<img alt="image" src="/user-experience/tabs/tab.png">](/user-experience/tabs/tab.png)
 
 Tabs are the title bar-like representation of a webpage - like title bars, they
 can be moved independently, but can also be grouped together to form a single
