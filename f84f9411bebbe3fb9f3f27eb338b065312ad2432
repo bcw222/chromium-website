@@ -20,6 +20,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "5773ee1e_0d1d9a20",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1434245
+      },
+      "writtenOn": "2022-08-31T05:56:56Z",
+      "side": 1,
+      "message": "Done. \u003corigin\u003e/developers/design-documents/extensions/proposed-changes/creating-new-apis/ added to the commit message. That will allow motivated readers to combine the latest Tricium comment with that path. The doc might have been visible to anyone with the link, but it was removed and replaced with the aforementioned url.",
+      "parentUuid": "056b704c_135707a1",
+      "revId": "f84f9411bebbe3fb9f3f27eb338b065312ad2432",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "ed12ae45_957c446b",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 6
@@ -65,6 +83,24 @@
       "writtenOn": "2022-08-31T05:17:55Z",
       "side": 1,
       "message": "This shouldn\u0027t be on a separate line. Reformat this comment block as needed while you\u0027re fixing this please.",
+      "revId": "f84f9411bebbe3fb9f3f27eb338b065312ad2432",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d61eade9_bb08b326",
+        "filename": "site/developers/design-documents/extensions/proposed-changes/creating-new-apis/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 1434245
+      },
+      "writtenOn": "2022-08-31T05:56:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e73e8951_a25c126c",
       "revId": "f84f9411bebbe3fb9f3f27eb338b065312ad2432",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
