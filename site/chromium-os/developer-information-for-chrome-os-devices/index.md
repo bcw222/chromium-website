@@ -3957,4 +3957,21 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>Yes</td>
   </tr>
+  <tr>
+    <td>2022-08-31</td>
+    <td>Acer</td>
+    <td>Acer Chromebook Spin 514 </td>
+    <td>DeWatt</td>
+    <td>Monkeyisland</td>
+    <td>Monkeyisland</td>
+    <td>x86_64</td>
+    <td>5.10</td>
+    <td>x86_64</td>
+    <td>Barcelo</td>
+    <td>Convertible</td>
+    <td>R103</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
 </table>
