@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "056b704c_135707a1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2022-08-31T05:17:55Z",
+      "side": 1,
+      "message": "The Google doc link doesn\u0027t work very well because it has limited visibility, and the side-by-side bitmaps are difficult to read. It would be better to have a link to the actual page. Motivated readers can use that to see the current version, and use the wayback machine to see previous versions.",
+      "revId": "f84f9411bebbe3fb9f3f27eb338b065312ad2432",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "ed12ae45_957c446b",
@@ -14,6 +31,40 @@
       "writtenOn": "2022-08-30T23:43:59Z",
       "side": 1,
       "message": "Thanks. Adding a file owner to take a look. Can you?",
+      "revId": "f84f9411bebbe3fb9f3f27eb338b065312ad2432",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c3860bff_d686f5ea",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2022-08-31T05:17:55Z",
+      "side": 1,
+      "message": "That\u0027s a huge improvement! Just a couple of comments.",
+      "revId": "f84f9411bebbe3fb9f3f27eb338b065312ad2432",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e73e8951_a25c126c",
+        "filename": "site/developers/design-documents/extensions/proposed-changes/creating-new-apis/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2022-08-31T05:17:55Z",
+      "side": 1,
+      "message": "This shouldn\u0027t be on a separate line. Reformat this comment block as needed while you\u0027re fixing this please.",
       "revId": "f84f9411bebbe3fb9f3f27eb338b065312ad2432",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
