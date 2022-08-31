@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "84e3b89e_e2cc18ec",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 11
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2022-08-31T06:10:30Z",
+      "side": 1,
+      "message": "I wonder if https://www.chromium.org/developers/design-documents/extensions/proposed-changes/creating-new-apis/ would be better for the commit message? The preview link is certainly great for reviewing, but once the commit lands the actual link seems better.",
+      "revId": "e6083fd06780e382ae97f4eec6025a4a9b1a6c27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cae34044_42063020",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2022-08-31T06:10:30Z",
+      "side": 1,
+      "message": "The preview link let me find some glitches.",
+      "revId": "e6083fd06780e382ae97f4eec6025a4a9b1a6c27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "73f3290e_3268fc89",
+        "filename": "site/developers/design-documents/extensions/proposed-changes/creating-new-apis/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2022-08-31T06:10:30Z",
+      "side": 1,
+      "message": "These \\ characters should be removed. They are now making it through to the result (they weren\u0027t before).",
+      "revId": "e6083fd06780e382ae97f4eec6025a4a9b1a6c27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "624fde81_b566f092",
+        "filename": "site/developers/design-documents/extensions/proposed-changes/creating-new-apis/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2022-08-31T06:10:30Z",
+      "side": 1,
+      "message": "Delete \\",
+      "revId": "e6083fd06780e382ae97f4eec6025a4a9b1a6c27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e6df8cdb_c12375c0",
+        "filename": "site/developers/design-documents/extensions/proposed-changes/creating-new-apis/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 225,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2022-08-31T06:10:30Z",
+      "side": 1,
+      "message": "\u0026gt; should be \u003e",
+      "revId": "e6083fd06780e382ae97f4eec6025a4a9b1a6c27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b7c15d52_4ec0ee3d",
+        "filename": "site/developers/design-documents/extensions/proposed-changes/creating-new-apis/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2022-08-31T06:10:30Z",
+      "side": 1,
+      "message": "Same",
+      "revId": "e6083fd06780e382ae97f4eec6025a4a9b1a6c27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
