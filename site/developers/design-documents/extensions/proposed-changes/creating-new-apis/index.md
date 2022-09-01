@@ -28,40 +28,33 @@ So you want to add the Widgets API. Let's call it **widgets**.
 Typically this will be either via a **permission string** or **manifest entry**.
 There is no need for both. By convention it should be called "widgets".
 
-*   Use a **manifest entry** for declarative style APIs, or when you
+* Use a **manifest entry** for declarative style APIs, or when you
             need to express some sort of rich structure. For example,
             [commands](http://developer.chrome.com/extensions/commands.html).
 
-> > {
+```
+{
+  "name": "Demo widget extension",
+  "widgets": {
+    "foo": "bar",
+    "baz": "qux"
+  }
+  ...
+}
+```
 
-> > "name": "Demo widget extension",
-
-> > "widgets": {
-
-> > "foo": "bar",
-
-> > "baz": "qux"
-
-> > }
-
-> > ...
-
-> > }
-
-*   Use a **permission string** for procedural APIs, typically those
+* Use a **permission string** for procedural APIs, typically those
             which are just a collection of functions. Most APIs are of this
             form. For example,
             [storage](http://developer.chrome.com/extensions/storage.html).
 
-> > {
-
-> > "name": "Demo widget extension",
-
-> > "permissions": \[..., "widgets", ...\]
-
-> > ...
-
-> > }
+```
+{
+  "name": "Demo widget extension",
+  "permissions": [..., "widgets", ...]
+  ...
+}
+```
 
 There are exceptions:
 
@@ -178,89 +171,68 @@ a code-generated file that lives under e.g.
 out/Debug/gen/chrome/common/extensions/api. Let's say we have the following IDL
 (or equivalent JSON schema):
 
+```
 // High-level description of your API. This will appear in various places in the
-docs.
+// docs.
+namespace myapi {
+  dictionary BazOptions {
+    // Describes what the id argument means.
+    long id;
 
-**namespace** myapi {
+    // Describes what the s argument means.
+    DOMString s;
+  };
 
-**dictionary** BazOptions {
-// Describes what the id argument means.
-**long** id;
-// Describes what the s argument means.
-**DOMString** s;
+  dictionary BazResult {
+    long x;
+    long y;
+  };
+
+  callback BazCallback = void (BazResult result);
+
+  interface Functions {
+    // An interesting comment describing what the baz operation is.
+    // Note that this function can take multiple input arguments, including
+    // things like long and DOMString, but they have been elided for simplicity.
+    static void doBaz(BazOptions options, BazCallback callback);
+  };
 };
-**dictionary** BazResult {
-**long** x;
-
-**long** y;
-};
-**callback** BazCallback = **void** (BazResult result);
-**interface** Functions {
-
-// An interesting comment describing what the baz operation is.
-
-// Note that this function can take multiple input arguments, including things
-like
-
-// long and DOMString, but they have been elided for simplicity.
-**static void** doBaz(BazOptions options, BazCallback callback);
-};
-};
+```
 
 A simple C++ implementation might look like this:
-
+```
 namespace extensions {
 
 // You must follow a naming convention which is ApiNameFunctionNameFunction,
-
 // in this case MyapiDoBazFunction. This is so that the generated code
-
 // can find your implementation.
+class MyapiDoBazFunction : public AsyncExtensionFunction {
+ public:
+  virtual ~MyapiDoBazFunction () {}
 
-**class** MyapiDoBazFunction : **public** AsyncExtensionFunction {
+ private:
+  // The MYAPI_DOBAZ entry is an enum you add right before ENUM_BOUNDARY
+  // in chrome/browser/extensions/extension_function_histogram_value.h
+  DECLARE_EXTENSION_FUNCTION("myapi.doBaz", MYAPI_DOBAZ);
 
-**public**:
+  virtual ResponseAction Run() OVERRIDE {
+    // Args are passed in via the args_ member as a base::ListValue.
+    // Use the convenience member of the glue class to easily parse it.
+    std::unique_ptr<api::myapi::DoBaz::Params> params(
+      api::myapi::DoBaz::Params::Create(*args_));
+    EXTENSION_FUNCTION_VALIDATE(params.get());
+    api::myapi::BazResult result;
+    result.x = params->options.id;
+    base::StringToInt(params->options.s, &result.y);
 
-virtual ~MyapiDoBazFunction () {}
-
-**private**:
-
-// The MYAPI_DOBAZ entry is an enum you add right before ENUM_BOUNDARY
-
-// in chrome/browser/extensions/extension_function_histogram_value.h
-
-DECLARE_EXTENSION_FUNCTION("myapi.doBaz", MYAPI_DOBAZ);
-
-**virtual** ResponseAction Run() OVERRIDE {
-
-// Args are passed in via the args_ member as a base::ListValue.
-
-// Use the convenience member of the glue class to easily parse it.
-
-std::unique_ptr&lt;api::myapi::DoBaz::Params&gt; params(
-
-api::myapi::DoBaz::Params::Create(\*args_));
-
-EXTENSION_FUNCTION_VALIDATE(params.get());
-
-api::myapi::BazResult result;
-
-result.x = params-&gt;options.id;
-
-base::StringToInt(params-&gt;options.s, &result.y);
-
-// Responds to the caller right, but see comments on
-
-// ExtensionFunction::Run() for other ways to respond to messages.
-
-**return** RespondNow(ArgumentList(result.ToValue()));
-
-}
-
+    // Responds to the caller right, but see comments on
+    // ExtensionFunction::Run() for other ways to respond to messages.
+    return RespondNow(ArgumentList(result.ToValue()));
+  }
 };
 
 } // namespace extensions
-
+```
 ExtensionFunction is refcounted and instantiated once per call to that extension
 function, so use base::Bind(this) to ensure it's kept alive (or use
 AddRef...Release if that's not possible for some reason).
@@ -277,50 +249,36 @@ chrome/browser/extensions/event_names.h.
 As with extension functions, it generates some C++ glue classes. Let's say we
 have the following IDL (or equivalent JSON Schema):
 
-**namespace** myapi {
+```
+namespace myapi {
+  dictionary Foo {
+    // This comment should describe what the id parameter is for.
+    long id;
 
-**dictionary** Foo {
+    // This comment should describe what the bar parameter is for.
+    DOMString bar;
+  };
 
-// This comment should describe what the id parameter is for.
-
-**long** id;
-
-// This comment should describe what the bar parameter is for.
-
-**DOMString** bar;
-
+  interface Events {
+    // Fired when something interesting has happened.
+    // `foo`: The details of the interesting event.
+    static void onInterestingEvent(Foo foo);
+  };
 };
-
-**interface** Events {
-
-// Fired when something interesting has happened.
-
-// |foo|: The details of the interesting event.
-
-**static void** onInterestingEvent(Foo foo);
-
-};
-
-};
-
+```
 To use the generated glue in C++:
-
+```
 DCHECK(BrowserThread::CurrentlyOn(BrowserThread::UI));
-
 api::myapi::Foo foo;
-
 foo.id = 5;
-
 foo.bar = "hello world";
-
-ExtensionSystem::Get(profile)-&gt;event_router()-&gt;DispatchEventToExtension(
-extension_id,
-
-**api::myapi::OnInterestingEvent::kEventName**,
-
-**\*api::myapi::OnInterestingEvent::Create(foo)**,
-profile,
-GURL());
+ExtensionSystem::Get(profile)->event_router()->DispatchEventToExtension(
+  extension_id,
+  api::myapi::OnInterestingEvent::kEventName,
+  api::myapi::OnInterestingEvent::Create(foo),
+  profile,
+  GURL());
+```
 
 **Permissions**
 
