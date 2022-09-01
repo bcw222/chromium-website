@@ -112,7 +112,7 @@ design docs in the coming months.**
             fullscreen](/developers/design-documents/immersive-fullscreen)
 *   [Volume
             keys](/chromium-os/chromiumos-design-docs/chrome-os-volume-keys)
-*   [system
+*   [System
             notifications](/chromium-os/chromiumos-design-docs/system-notifications)
 
 </div>
