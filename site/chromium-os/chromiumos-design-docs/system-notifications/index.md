@@ -5,7 +5,7 @@ breadcrumbs:
 - - /chromium-os/chromiumos-design-docs
   - Design Documents
 page_name: system-notifications
-title: system notifications
+title: System notifications
 ---
 
 ## Summary
@@ -48,7 +48,7 @@ design doc.
 
 <table>
 <tr>
-<td>message center?</td>
+<td>Message center?</td>
 <td>Component</td>
 <td>Source</td>
 <td>Message</td>
@@ -56,7 +56,7 @@ design doc.
 <td>Timeout</td>
 <td>Secure? (Show on Lock Screen)</td>
 <td>Customize?</td>
-<td>(can be disabled)</td>
+<td>(Can be disabled)</td>
 <td>Click Action</td>
 <td>Button</td>
 <td>Triggers</td>
