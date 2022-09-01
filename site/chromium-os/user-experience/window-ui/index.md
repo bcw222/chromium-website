@@ -37,12 +37,11 @@ Weaknesses
 
 ---
 
-### **#### ****<img alt="image"
-src="/chromium-os/user-experience/window-ui/compact_navpng">******
+#### **<img alt="image"src="/chromium-os/user-experience/window-ui/compact_navpng">**
 
 ### **#### **Compact navigation****
 
-### If we take the address bar out of the tab, it can be used as both a launcher
+If we take the address bar out of the tab, it can be used as both a launcher
 and switcher; the user doesn't have to worry about replacing their active tab.
 The current url shows while a site is loading, and can be edited or changed by
 clicking on the tab.
@@ -69,7 +68,7 @@ Weaknesses
 
 ### #### Sidetab navigation
 
-### By moving the tab-strip to the side, we gain a huge amount of real estate
+By moving the tab-strip to the side, we gain a huge amount of real estate
 for tabs. The vertical alignment also allows for date ordering and grouping of
 tabs. By moving the address bar out of the tab and above the strip, it can be
 used both for navigation as well as search.
@@ -93,7 +92,7 @@ Weaknesses
 
 ### #### Touchscreen navigation
 
-### For touch screens, we provide much larger tab and toolbar targets than on
+For touch screens, we provide much larger tab and toolbar targets than on
 standard chrome. This UI takes up more screen space, but is ideal for portrait
 devices, and can be autohidden to have full-screen content. This treatment could
 be used on any edge of the screen, and it may be preferable to use the bottom
