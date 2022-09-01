@@ -20,6 +20,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "ff689938_16a5e5e0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 11
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1434245
+      },
+      "writtenOn": "2022-09-01T06:36:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "84e3b89e_e2cc18ec",
+      "revId": "e6083fd06780e382ae97f4eec6025a4a9b1a6c27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "cae34044_42063020",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 11
@@ -52,6 +70,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "73e01e80_2ae2b38f",
+        "filename": "site/developers/design-documents/extensions/proposed-changes/creating-new-apis/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1434245
+      },
+      "writtenOn": "2022-09-01T06:36:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "73f3290e_3268fc89",
+      "revId": "e6083fd06780e382ae97f4eec6025a4a9b1a6c27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "624fde81_b566f092",
@@ -65,6 +101,24 @@
       "writtenOn": "2022-08-31T06:10:30Z",
       "side": 1,
       "message": "Delete \\",
+      "revId": "e6083fd06780e382ae97f4eec6025a4a9b1a6c27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aa60e698_3d8305b0",
+        "filename": "site/developers/design-documents/extensions/proposed-changes/creating-new-apis/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 1434245
+      },
+      "writtenOn": "2022-09-01T06:36:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "624fde81_b566f092",
       "revId": "e6083fd06780e382ae97f4eec6025a4a9b1a6c27",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -86,6 +140,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "68730be3_b7e6bba2",
+        "filename": "site/developers/design-documents/extensions/proposed-changes/creating-new-apis/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 225,
+      "author": {
+        "id": 1434245
+      },
+      "writtenOn": "2022-09-01T06:36:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e6df8cdb_c12375c0",
+      "revId": "e6083fd06780e382ae97f4eec6025a4a9b1a6c27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b7c15d52_4ec0ee3d",
@@ -99,6 +171,24 @@
       "writtenOn": "2022-08-31T06:10:30Z",
       "side": 1,
       "message": "Same",
+      "revId": "e6083fd06780e382ae97f4eec6025a4a9b1a6c27",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "075c7aac_740091b0",
+        "filename": "site/developers/design-documents/extensions/proposed-changes/creating-new-apis/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 1434245
+      },
+      "writtenOn": "2022-09-01T06:36:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b7c15d52_4ec0ee3d",
       "revId": "e6083fd06780e382ae97f4eec6025a4a9b1a6c27",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
