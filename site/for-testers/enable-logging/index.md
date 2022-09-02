@@ -45,8 +45,10 @@ to a log file
                     user's encrypted home directory, which resides under
                     `/home/chronos`.
 *   Logs are overwritten each time you restart chrome.
-*   To enable logging from the render processes on Windows you also need
-            the `--no-sandbox `command line flag.
+*   To enable logging from the render processes on Windows you need to
+            output the log to a file specified by absolute path. e.g.
+            `--log-file=c:\src\log.txt` as well also specifying the
+            `--enable-logging` command line.
 
 *   To see WTF_LOG, use `--blink-platform-log-channels`
 
