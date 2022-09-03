@@ -140,6 +140,11 @@ title: USI Capable Devices
 </tr>
 <tr>
 
+<td>HP Elite Dragonfly Chromebook</td>
+
+</tr>
+<tr>
+
 <td>Lenovo 10e Chromebook Tablet</td>
 
 </tr>
