@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "30846add_55cb3100",
+        "filename": "site/developers/how-tos/run-chromium-with-flags/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1263815
+      },
+      "writtenOn": "2022-09-08T17:12:03Z",
+      "side": 0,
+      "message": "I think the URL should be updated to \"switches\" instead of \"flags\" as well, but this might break a lot of links.",
+      "revId": "94e1032e702d6e135d1236b8c63fa467488dcff1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}

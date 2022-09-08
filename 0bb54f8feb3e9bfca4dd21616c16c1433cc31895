@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "099c4b53_f9487bb1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1263815
+      },
+      "writtenOn": "2022-09-08T17:12:03Z",
+      "side": 1,
+      "message": "The current docs page refers to switches as \"flags\". This is quite confusing as chrome://flags are already a thing.\n\nAlso updated some formatting (broken links, typos, https).",
+      "revId": "0bb54f8feb3e9bfca4dd21616c16c1433cc31895",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
