@@ -16,6 +16,138 @@
       "message": "The current docs page refers to switches as \"flags\". This is quite confusing as chrome://flags are already a thing.\n\nAlso updated some formatting (broken links, typos, https).",
       "revId": "0bb54f8feb3e9bfca4dd21616c16c1433cc31895",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a0a180a_ef97d4d4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-09-08T18:04:42Z",
+      "side": 1,
+      "message": "Thanks for the cleanup! I think this makes sense overall, but have a few small suggestions to make it clearer.\n\nJust FYI: there\u0027s no need to add every owner to a code review; just picking one will do. I\u0027m happy to review this change, so please remove the other reviewers to spare them the email traffic. : )",
+      "revId": "0bb54f8feb3e9bfca4dd21616c16c1433cc31895",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fc8afe1f_39d51ab7",
+        "filename": "site/developers/how-tos/run-chromium-with-flags/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-09-08T18:04:42Z",
+      "side": 1,
+      "message": "grammar nit: command-line switches (add hyphen, here and elsewhere)",
+      "range": {
+        "startLine": 8,
+        "startChar": 25,
+        "endLine": 8,
+        "endChar": 46
+      },
+      "revId": "0bb54f8feb3e9bfca4dd21616c16c1433cc31895",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c2205759_baab29fd",
+        "filename": "site/developers/how-tos/run-chromium-with-flags/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-09-08T18:04:42Z",
+      "side": 1,
+      "message": "nit: add comma: `e.g.,`",
+      "range": {
+        "startLine": 20,
+        "startChar": 1,
+        "endLine": 20,
+        "endChar": 5
+      },
+      "revId": "0bb54f8feb3e9bfca4dd21616c16c1433cc31895",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "01f470b5_f19c0f5a",
+        "filename": "site/developers/how-tos/run-chromium-with-flags/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-09-08T18:04:42Z",
+      "side": 1,
+      "message": "nit: add comma here too",
+      "range": {
+        "startLine": 22,
+        "startChar": 1,
+        "endLine": 22,
+        "endChar": 5
+      },
+      "revId": "0bb54f8feb3e9bfca4dd21616c16c1433cc31895",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9c338c21_ccb60ec5",
+        "filename": "site/developers/how-tos/run-chromium-with-flags/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-09-08T18:04:42Z",
+      "side": 1,
+      "message": "features",
+      "range": {
+        "startLine": 23,
+        "startChar": 5,
+        "endLine": 23,
+        "endChar": 13
+      },
+      "revId": "0bb54f8feb3e9bfca4dd21616c16c1433cc31895",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "daf0a0d0_e7c087df",
+        "filename": "site/developers/how-tos/run-chromium-with-flags/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-09-08T18:04:42Z",
+      "side": 1,
+      "message": "I think other references to \"flags\" in the rest of the doc should be updated to \"switches\" to make it more clear, especially since we\u0027re adding a note that differentiates switches and flags (line 19).",
+      "range": {
+        "startLine": 39,
+        "startChar": 59,
+        "endLine": 39,
+        "endChar": 64
+      },
+      "revId": "0bb54f8feb3e9bfca4dd21616c16c1433cc31895",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
