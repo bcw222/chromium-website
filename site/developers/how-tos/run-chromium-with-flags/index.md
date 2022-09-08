@@ -5,22 +5,27 @@ breadcrumbs:
 - - /developers/how-tos
   - How-Tos
 page_name: run-chromium-with-flags
-title: Run Chromium with flags
+title: Run Chromium with command line switches
 ---
 
 [TOC]
 
-There are command line flags (or "switches") that Chromium (and Chrome) accept
-in order to enable particular features or modify otherwise default
-functionality.
+There are command line switches that Chromium (and Chrome) accept in order
+to enable particular features or modify otherwise default functionality.
 
-Current switches may be found at
-<http://peter.sh/examples/?/chromium-switches.html>
+There is no list of all switches, but most of the existing switches
+can be found at <https://peter.sh/examples/?/chromium-switches.html>.
+
+**Note**: [Chrome switches](https://chromium.googlesource.com/chromium/src/+/main/docs/configuration.md#switches)
+(e.g. `--incognito`)
+and [Chrome flags](https://chromium.googlesource.com/chromium/src/+/main/docs/configuration.md#flags)
+(e.g. `chrome://flags/#ignore-gpu-blocklist`) are separate configurations.
+Some featues can be enabled by a command line switch, flag or both.
 
 It is important to note that some switches are intended for development and
 temporary cases. They may break, change, or be removed in the future without
 notice. IT admins looking to manage Chrome for their organization should
-instead use [enterprise policies](http://chromeenterprise.google/polices).
+instead use [enterprise policies](https://chromeenterprise.google/policies/).
 
 Note that if you look at `chrome://flags` to see if the command line option is
 active, the state might not be accurately reflected. Check `chrome://version`
@@ -95,11 +100,11 @@ To get a listing of all possible V8 flags:
 chrome.exe --js-flags="--help"
 ```
 
-Browse [the V8 wiki](http://code.google.com/p/v8/w/list) for more flags for V8.
+Browse [the V8 docs](https://v8.dev/docs) for more flags for V8.
 
 ## Android
 
-Visit '`about:version`' to review the flags that are effective in the app.
+Visit `about:version` to review the flags that are effective in the app.
 
 If you are running on a rooted device or using a debug build of Chromium, then
 you can set flags like so:
