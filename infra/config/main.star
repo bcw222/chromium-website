@@ -34,7 +34,7 @@ PROJECT_REPO = "https://chromium.googlesource.com/website"
 PROJECT_LOGO = "https://storage.googleapis.com/chrome-infra-public/logo/chromium.svg"
 
 RECIPE_CIPD_PACKAGE = "infra/recipe_bundles/chromium.googlesource.com/chromium/tools/build"
-RECIPE_NAME = 'chromium_website'
+RECIPE_NAME = "chromium_website"
 
 #
 # Everything below this comment should be almost completely generic; however,
@@ -87,7 +87,6 @@ luci.project(
         acl.entry([acl.LOGDOG_WRITER], groups = ["luci-logdog-chromium-website-writers"]),
     ],
 )
-
 
 luci.logdog(
     gs_bucket = "chromium-luci-logdog",
