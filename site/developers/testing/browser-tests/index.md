@@ -156,7 +156,7 @@ IN_PROC_BROWSER_TEST_F(InProcessBrowserTest, PRE_Foo) {
 IN_PROC_BROWSER_TEST_F(InProcessBrowserTest, Foo) {
   // Verify something was done.
 }
-``
+```
 
 Each test above was run in a separate browser process, but the data directory of
 the profile was the same.
