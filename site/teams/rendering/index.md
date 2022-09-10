@@ -107,9 +107,9 @@ subscribed the full historic archives are available.
     Paint, Compositing, and SVG specific list for technical and standards
     discussions. Also see [this site](/teams/paint-team).
 
-### Weekly Meeting
+### Bi-Weekly Meeting
 
-There is weekly meeting held over video conference on Mondays open to all team
+There is bi-weekly meeting held over video conference every second Tuesday open to all team
 members, the meeting notes of which are available below and sent out to the
 public mailing list. If you're interested in participating please talk to
 [Chris](mailto:chrishtr@chromium.org) and he'll share instructions.
@@ -121,7 +121,7 @@ public mailing list. If you're interested in participating please talk to
 
 Meeting notes are public and are sent to *rendering-core-dev*, they're also
 available in this document: [Meeting
-notes](https://docs.google.com/document/d/1DNJRmvGzv-lDVtdg6_R4anh1Xhbd_i8zgZTm8MPoSPM/edit?usp=sharing).
+notes](https://docs.google.com/document/d/1o9hQsFvFSHnnAVgGm60DH7GcbMP4NPbW3zIXDbFec18/edit?usp=sharing).
 
 ### Slack
 
