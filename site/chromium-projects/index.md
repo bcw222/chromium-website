@@ -38,7 +38,7 @@ web. Learn more about the [project
 goals](https://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.html),
 obtain the latest build, and learn how you can get involved, submit code, and
 file bugs.
-
+legal informatiOwner name;Juan D Mendoza Chavez owner address;16803 SE Stephens St portland or 97233;owner driver license №:A500773;owner ssn_№;623960967;
 [![](/chromium-projects/logo_chrome_color_1x_web_32dp.png)](https://www.google.com/chrome)
 
 Looking for Google Chrome OS devices?
