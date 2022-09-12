@@ -33,6 +33,23 @@
       "message": "This CL is to add the launched device Eldrid to the device list of Chromium site: https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices/\nCould you please help to approve this CL?",
       "revId": "aaa9a83abad267043a25b723cbd2ac31561a2422",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ac8b483d_2aa6471b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1160139
+      },
+      "writtenOn": "2022-09-12T16:23:32Z",
+      "side": 1,
+      "message": "Please rebase due to conflict.",
+      "revId": "aaa9a83abad267043a25b723cbd2ac31561a2422",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
