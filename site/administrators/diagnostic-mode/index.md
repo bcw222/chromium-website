@@ -54,3 +54,11 @@ src="/administrators/diagnostic-mode/diagmode_wiki.png">](/administrators/diagno
 
 This shows a run where all tests passed. If a test fails it will be marked with
 a **\[FAIL\]** entry.
+
+### How to run (MacOS only)
+
+1.  Can be run with Chrome running
+2.  Open terminal
+3.  Change directory (cd) to the directory of Google Chrome.
+            /Applications/Google Chrome.app/Contents/MacOS/
+4.  Type ./Google\ Chrome --diagnostics \[enter\]
