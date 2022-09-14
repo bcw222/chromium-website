@@ -22,7 +22,7 @@ import common
 def main(argv):
     parser = argparse.ArgumentParser()
     parser.add_argument('-j', '--jobs', type=int,
-                        default=common.cpu_count(),
+                        default=os.cpu_count(),
                         help='Number of URLs to fetch in parallel '
                              '(default %(default)s)')
     parser.add_argument('-l', '--limit', type=int, metavar='N',

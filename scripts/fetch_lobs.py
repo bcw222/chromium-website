@@ -31,7 +31,7 @@ http_session = None
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-f', '--force', action='store_true')
-    parser.add_argument('-j', '--jobs', type=int, default=common.cpu_count())
+    parser.add_argument('-j', '--jobs', type=int, default=os.cpu_count())
     parser.add_argument('-m', '--multiprocess', action='store_true',
                         default=False)
     args = parser.parse_args()

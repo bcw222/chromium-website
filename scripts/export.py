@@ -57,7 +57,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--force', action='store_true',
                         help='ignore updated timestamps in local cache')
-    parser.add_argument('-j', '--jobs', type=int, default=common.cpu_count())
+    parser.add_argument('-j', '--jobs', type=int, default=os.cpu_count())
     parser.add_argument('-t', '--test', action='store_true')
     parser.add_argument('-r', '--raw', action='store_true')
     parser.add_argument('-v', '--verbose', action='count')
