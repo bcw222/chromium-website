@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "77f92d6a_89048fc5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1546867
+      },
+      "writtenOn": "2022-09-14T19:31:25Z",
+      "side": 1,
+      "message": "PTAL...",
+      "revId": "201c8e2a3ca66659ebdad655692bb3999517926d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f69a083a_652a9f60",
+        "filename": "site/chromium-os/usi-enabled-devices/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 1546867
+      },
+      "writtenOn": "2022-09-14T19:31:25Z",
+      "side": 1,
+      "message": "The right Marketing name confirmed is \u0027HP Elite Dragonfly 13.5 inch Chromebook\u0027 and the Inputs team (Kenneth) is helping us by adding it as part of the full CL which includes a bunch of other USI stylus supported Chromebooks.",
+      "range": {
+        "startLine": 143,
+        "startChar": 0,
+        "endLine": 143,
+        "endChar": 38
+      },
+      "revId": "201c8e2a3ca66659ebdad655692bb3999517926d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
