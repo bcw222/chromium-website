@@ -41,10 +41,6 @@ alternates = [
 ]
 
 
-def cpu_count():
-    return multiprocessing.cpu_count()
-
-
 def read_text_file(path):
     return read_binary_file(path).decode('utf-8')
 
