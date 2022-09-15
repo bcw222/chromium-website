@@ -66,6 +66,10 @@ than simply bypassing it. See [depot_tools: sending
 patches](http://www.chromium.org/developers/how-tos/depottools#TOC-Sending-patches)
 for how to contribute.
 
+If you're not sure which presubmit check is generating results you can request
+double-verbose mode with `git cl presubmit -v -v`. This will trigger noisy
+diagnostics which include a call stack appended to each presubmit result.
+
 ### Design
 
 When you run `git cl upload` or `git cl commit`, `git cl` will look for all
@@ -239,6 +243,12 @@ are good examples of what you can do with the presubmit API.
 An example simple file might be as follows:
 
 ```none
+# Optional but recommended
+PRESUBMIT_VERSION = '2.0.0'
+
+# Mandatory: run under Python 3
+USE_PYTHON3 = True
+
 def CheckChange(input_api, output_api):
     results = []
     results += input_api.canned_checks.CheckDoNotSubmit(input_api, output_api)
@@ -249,10 +259,6 @@ def CheckChange(input_api, output_api):
         results += [output_api.PresubmitError(
             'Must provide a BUG= line and a HOW_TO_TEST line.')]
     return results
-def CheckChangeOnUpload(input_api, output_api):
-    return CheckChange(input_api, output_api)
-def CheckChangeOnCommit(input_api, output_api):
-    return CheckChange(input_api, output_api)
 ```
 
 However many of the canned checks, such as `ChecksCommon` and `CheckLongLines`,
@@ -260,11 +266,10 @@ are called from the root-level `PRESUBMIT.py` (either directly or through
 `PanProjectChecks`) and therefore needn't be called from other Chromium
 presubmit scripts.
 
-A simple example of a custom command (call from `CheckChangeOnUpload` or
-`CheckChangeOnCommit`) is:
+A simple example of a custom command is:
 
 ```none
-def MyTest(input_api, output_api):
+def CheckMyTest(input_api, output_api):
   test_path = input_api.os_path.join(input_api.PresubmitLocalPath(), 'my_test.py')
   cmd_name = 'my_test'
   cmd = [input_api.python3_executable, test_path]
