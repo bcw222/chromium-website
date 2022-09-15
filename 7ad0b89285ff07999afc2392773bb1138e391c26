@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "46e5a10c_7574c4de",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2022-09-15T21:32:53Z",
+      "side": 1,
+      "message": "PTAL. The old version is here:\nhttps://www.chromium.org/developers/how-tos/depottools/presubmit-scripts/\nThe new version is here:\nhttps://chromium-website--cl3900802-ps1-bsyj4l0x.web.app/developers/how-tos/depottools/presubmit-scripts/",
+      "revId": "7ad0b89285ff07999afc2392773bb1138e391c26",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
