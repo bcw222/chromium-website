@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "24850850_5b3f1445",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1546867
+      },
+      "writtenOn": "2022-09-15T01:09:49Z",
+      "side": 1,
+      "message": "Thanks Kenneth for the changes. \n\nLenovo Chromebook Duet 5 / IdeaPad Duet 5 Chromebook (13”, 6) is missing from the list.",
+      "revId": "6d92ebaf6127c0e1c3abda59cd8f7b1d0b6f70b5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "608b7fa5_d0e6418b",
+        "filename": "site/chromium-os/usi-enabled-devices/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 238,
+      "author": {
+        "id": 1546867
+      },
+      "writtenOn": "2022-09-15T01:09:49Z",
+      "side": 1,
+      "message": "\u0027Lenovo Chromebook Duet 5 / IdeaPad Duet 5 Chromebook (13”, 6)\u0027 is missing in this list.",
+      "range": {
+        "startLine": 238,
+        "startChar": 2,
+        "endLine": 238,
+        "endChar": 4
+      },
+      "revId": "6d92ebaf6127c0e1c3abda59cd8f7b1d0b6f70b5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
