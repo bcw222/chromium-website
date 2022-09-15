@@ -16,6 +16,69 @@
       "message": "PTAL. The old version is here:\nhttps://www.chromium.org/developers/how-tos/depottools/presubmit-scripts/\nThe new version is here:\nhttps://chromium-website--cl3900802-ps1-bsyj4l0x.web.app/developers/how-tos/depottools/presubmit-scripts/",
       "revId": "7ad0b89285ff07999afc2392773bb1138e391c26",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "50644649_73db908f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-09-15T21:49:04Z",
+      "side": 1,
+      "message": "LGTM with nits\n\nI wouldn\u0027t block this CL since this is already a clear improvement, but I do think this doc reads slightly backwards if we want to recommend the version 2 approach.\n\nSections \"Design\" and \"Writing tests\" both mention CheckChangeOnUpload, and the latter recommends creating that function. The next section \"Version 2\" then says CheckChangeOnUpload isn\u0027t required if you use version 2. Finally, \"Details and Example\" gives an example that recommends not using CheckChangeOnUpload. It feels like a slow transition from \"write X\" to \"X is actually optional\" to \"don\u0027t write X\".\n\nI think a good future update for this would be to update the rest of the sections to use the version 2 approach, and put the old approach (e.g., CheckChangeOnUpload) in some kind of \"legacy method\" section. Just a thought.",
+      "revId": "7ad0b89285ff07999afc2392773bb1138e391c26",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9a45d510_80d24703",
+        "filename": "site/developers/how-tos/depottools/presubmit-scripts/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-09-15T21:49:04Z",
+      "side": 1,
+      "message": "how about \"append a call stack\"?",
+      "range": {
+        "startLine": 71,
+        "startChar": 18,
+        "endLine": 71,
+        "endChar": 47
+      },
+      "revId": "7ad0b89285ff07999afc2392773bb1138e391c26",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c079e758_0d7675ef",
+        "filename": "site/developers/how-tos/depottools/presubmit-scripts/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-09-15T21:49:04Z",
+      "side": 1,
+      "message": "nit: add comma before \"which\"",
+      "range": {
+        "startLine": 71,
+        "startChar": 11,
+        "endLine": 71,
+        "endChar": 12
+      },
+      "revId": "7ad0b89285ff07999afc2392773bb1138e391c26",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
