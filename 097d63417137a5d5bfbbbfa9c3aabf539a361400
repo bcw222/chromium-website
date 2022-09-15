@@ -16,6 +16,23 @@
       "message": "Thanks as always for the careful review. I think the message is less confused now (although I shied away from the \"legacy\" method idea for being too much editing and perhaps not representative of the reality on the ground)",
       "revId": "097d63417137a5d5bfbbbfa9c3aabf539a361400",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "52211ee0_64f5e1ef",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2022-09-15T23:13:19Z",
+      "side": 1,
+      "message": "Old/new links are:\nhttps://www.chromium.org/developers/how-tos/depottools/presubmit-scripts/\nhttps://chromium-website--cl3900802-ps3-0rhb0f1x.web.app/developers/how-tos/depottools/presubmit-scripts/\n",
+      "revId": "097d63417137a5d5bfbbbfa9c3aabf539a361400",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
