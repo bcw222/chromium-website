@@ -2,11 +2,11 @@
 breadcrumbs:
 - - /administrators
   - Documentation for Administrators
-page_name: url-blocklist-filter-format
-title: URL Blocklist filter format
+page_name: url-allowlist-filter-format
+title: URL allowlist filter format
 ---
 
-The format of filters for the URLBlocklist and URLAllowlist policies, as of
+The format of filters for the URLAllowlist policies, as of
 Chrome 52, is:
 
 \[scheme://\]\[.\]host\[:port\]\[/path\]\[@query\]
@@ -46,12 +46,12 @@ The filter selected for a URL is the most specific match found:
             selected;
 5.  If no valid filter is left at step 3, the host is reduced by
             removing the left-most subdomain, and trying again from step 1;
-6.  If a filter is available at step 3, its decision (block or allow) is
+6.  If a filter is available at step 3, its decision (allow) is not
             enforced. If no filter ever matches, the default is to allow the
             request.
 
 The special '\*' host will be the last searched, and matches all hosts. When
-both a blocklist and allowlist filter apply at step 4 (with the same path length
+both a allowlist and allowlist filter apply at step 4 (with the same path length
 and number of query tokens), the allowlist filter takes precedence. If a filter
 has a '.' (dot) prefixing the host, only exact host matches will be filtered:
 
@@ -94,26 +94,26 @@ Example of searching for a match for "http://mail.example.com/mail/inbox":
 
 Some examples:
 
-*   "example.com" blocks all requests to that domain and any subdomain;
-*   "http://example.com" blocks all HTTP requests to that domain and any
+*   "example.com" allows all requests to that domain and any subdomain;
+*   "http://example.com" allows all HTTP requests to that domain and any
             subdomain; Requests with other schemes (such as https, ftp, etc.)
             are still allowed;
-*   "https://\*" blocks all HTTPS requests to any domain;
-*   "mail.example.com" blocks this domain but not "www.example.com" nor
+*   "https://\*" allows all HTTPS requests to any domain;
+*   "mail.example.com" allows this domain but not "www.example.com" nor
             "example.com";
-*   ".example.com" blocks exactly "example.com", and won't block
+*   ".example.com" allows exactly "example.com", and won't block
             subdomains;
-*   "\*" blocks all requests; only allowlisted URLs will be allowed;
-*   "\*:8080" blocks all requests to port 8080;
-*   "example.com/stuff" blocks all requests to any subdomain of
+*   "\*" allows all requests; only allowlisted URLs will be allowed;
+*   "\*:8080" allows all requests to port 8080;
+*   "example.com/stuff" allows all requests to any subdomain of
             "example.com" that have "/stuff" as a prefix of the path;
-*   "192.168.1.2" blocks requests to this exact IP address;
+*   "192.168.1.2" allows requests to this exact IP address;
 *   Any request with the query "?video=100" is blocked by "\*?v\*",
             "\*?video\*", "\*?video=\*" and "\*?video=100\*";
-*   "\*?a=1&b=2" blocks any request with the query "?b=2&a=1",
+*   "\*?a=1&b=2" allows any request with the query "?b=2&a=1",
             "?a=1&b=2", "?a=1&c=3&b=2", ...;
-*   For a blocklist any occurrence of the key-value pair is sufficient,
-            i.e., blocklisting "youtube.com/watch?v=xyz" would block
+*   For a allowlist any occurrence of the key-value pair is sufficient,
+            i.e., blocklisting "youtube.com/watch?v=xyz" would allow
             "youtube.com/watch?v=123&v=xyz".
 *   For an allowlist every occurrence of the key should have a matching
             value, i.e., allowlisting "youtube.com/watch?v=V2" does not allow
@@ -122,19 +122,19 @@ Some examples:
 
 Example: allowing only a small set of sites:
 
-*   Block "\*"
+*   Allow "\*"
 *   Allow selected sites: "mail.example.com", "wikipedia.org",
             "google.com"
 
-Example: block all access to a domain, except to the mail server using HTTPS and
+Example: allow all access to a domain, except to the mail server using HTTPS and
 to the main page:
 
-*   Block "example.com"
+*   Allow "example.com"
 *   Allow "https://mail.example.com"
 *   Allow ".example.com", and maybe ".www.example.com"
 
 Example: block all access to youtube, except for selected videos.
 
-*   Block "youtube.com"
+*   Allow "youtube.com"
 *   Allow "youtube.com/watch?v=V1"
 *   Allow "youtube.com/watch?v=V2"
