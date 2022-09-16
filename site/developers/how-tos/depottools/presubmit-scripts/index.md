@@ -66,15 +66,19 @@ than simply bypassing it. See [depot_tools: sending
 patches](http://www.chromium.org/developers/how-tos/depottools#TOC-Sending-patches)
 for how to contribute.
 
+If you're not sure which presubmit check is generating results you can request
+double-verbose mode with `git cl presubmit -v -v`. This will trigger noisy
+diagnostics, which append a call stack to each presubmit result.
+
 ### Design
 
 When you run `git cl upload` or `git cl commit`, `git cl` will look for all
 files named `PRESUBMIT.py` in folders enclosing the files in your change, up to
 the repository root.
 
-For each such file, it will load the file into the Python interpreter and then
-call either the `CheckChangeOnUpload` or `CheckChangeOnCommit` function
-depending on whether you are calling \[git cl upload\] or \[git cl commit\].
+For each such file, it will load the file into the Python interpreter and call
+the appropriate Check functions, depending on what presubmit version you have
+selected (details below) and whether you are committing or uploading.
 
 The same applies to `git-cl upload`, `git-cl dcommit` and `git-cl push`.
 
@@ -117,22 +121,24 @@ existing one, adding a new function for your test.
 To check your changes, first commit locally (else `git cl` will complain about
 the dirty tree), then:
 
-To test the upload checks (i.e., to run `CheckChangeOnUpload`):
+To test the upload checks:
 
 ```none
 git cl presubmit --upload
 ```
 
-To test the submit checks (i.e., to run `CheckChangeOnCommit`):
+To test the submit checks:
 
 ```none
 git cl presubmit
 ```
 
-The functions must match these method signatures. You do not need to define both
-functions if you're only interested in one type of event, and if you want to run
-the same tests in both events, just have them both call a single underlying
-function:
+#### **Version 1**
+
+In the original presubmit system the functions must match these method
+signatures. You do not need to define both functions if you're only interested
+in one type of event, and if you want to run the same tests in both events, just
+have them both call a single underlying function:
 
 ```none
 def CheckChangeOnUpload(input_api, output_api):
@@ -172,7 +178,16 @@ at both upload and commit. The format of return values of `CheckChangeOnXXX`
 functions is the same as for `CheckChangeOnUpload/CheckChangeOnCommit`. This
 makes existing presubmit scripts backwards compatible with presubmit version 2
 provided there are no functions in the global scope of the script that begin
-with `Check`.
+with `Check`. Sample functions might look like this:
+
+```none
+def CheckSomeInvariant(input_api, output_api)
+    DoSomething()
+def CheckSomeInvariantUpload(input_api, output_api)
+    DoSomething()
+def CheckSomeInvariantCommit(input_api, output_api)
+    DoSomething()
+```
 
 #### InputApi
 
@@ -239,6 +254,12 @@ are good examples of what you can do with the presubmit API.
 An example simple file might be as follows:
 
 ```none
+# Optional but recommended
+PRESUBMIT_VERSION = '2.0.0'
+
+# Mandatory: run under Python 3
+USE_PYTHON3 = True
+
 def CheckChange(input_api, output_api):
     results = []
     results += input_api.canned_checks.CheckDoNotSubmit(input_api, output_api)
@@ -249,10 +270,6 @@ def CheckChange(input_api, output_api):
         results += [output_api.PresubmitError(
             'Must provide a BUG= line and a HOW_TO_TEST line.')]
     return results
-def CheckChangeOnUpload(input_api, output_api):
-    return CheckChange(input_api, output_api)
-def CheckChangeOnCommit(input_api, output_api):
-    return CheckChange(input_api, output_api)
 ```
 
 However many of the canned checks, such as `ChecksCommon` and `CheckLongLines`,
@@ -260,11 +277,10 @@ are called from the root-level `PRESUBMIT.py` (either directly or through
 `PanProjectChecks`) and therefore needn't be called from other Chromium
 presubmit scripts.
 
-A simple example of a custom command (call from `CheckChangeOnUpload` or
-`CheckChangeOnCommit`) is:
+A simple example of a custom command is:
 
 ```none
-def MyTest(input_api, output_api):
+def CheckMyTest(input_api, output_api):
   test_path = input_api.os_path.join(input_api.PresubmitLocalPath(), 'my_test.py')
   cmd_name = 'my_test'
   cmd = [input_api.python3_executable, test_path]
