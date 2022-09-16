@@ -44,7 +44,7 @@ wheel <
 >
 
 # Used by //scripts/fetch_lobs to fetch stuff over HTTPS using connection pools.
-wheel <
-  name: "infra/python/wheels/urllib3-py2_py3"
-  version: "version:1.26.6"
+wheel: <
+  name: "infra/python/wheels/requests-py2_py3"
+  version: "version:2.13.0"
 >

@@ -21,12 +21,12 @@ import io
 import os
 import sys
 import time
-import urllib3
-from urllib.error import HTTPError, URLError
+
+import requests
 
 import common
 
-http = None
+http_session = None
 
 def main():
     parser = argparse.ArgumentParser()
@@ -87,31 +87,30 @@ def _url(expected_sha1):
 
 def _handle(path, obj):
     args, expected_sha1 = obj
-    global http
-    if http is None:
-        http = urllib3.PoolManager()
+    global http_session
+    if http_session is None:
+        http_session = requests.Session()
     url = _url(expected_sha1)
     total_bytes = 0
     for i in range(4):
       try:
-        resp = http.request('GET', url)
+        resp = http_session.get(url)
         s = hashlib.sha1()
-        s.update(resp.data)
+        s.update(resp.content)
         actual_sha1 = s.hexdigest()
         if actual_sha1 != expected_sha1:
             return ('sha1 mismatch: expected %s, got %s' % (
-                expected_sha1, actual_sha1), (False, len(resp.data)))
+                expected_sha1, actual_sha1), (False, len(resp.content)))
         common.write_binary_file(os.path.join(common.SITE_DIR, path),
-                                 resp.data)
-      except (HTTPError, URLError, TimeoutError) as e:
+                                 resp.content)
+      except (requests.HTTPError, requests.ConnectionError, requests.Timeout) as e:
           if i < 4:
             time.sleep(1)
           else:
             return str(e), (False, 0)
       except Exception as e:
           return str(e), (False, 0)
-    return '', (True, len(resp.data))
+    return '', (True, len(resp.content))
 
 if __name__ == '__main__':
     sys.exit(main())
-
