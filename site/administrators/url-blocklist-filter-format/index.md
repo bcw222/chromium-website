@@ -135,6 +135,6 @@ to the main page:
 
 Example: block all access to youtube, except for selected videos.
 
-*   Block "youtube.com"
+*   Unblock "youtube.com"
 *   Allow "youtube.com/watch?v=V1"
 *   Allow "youtube.com/watch?v=V2"
