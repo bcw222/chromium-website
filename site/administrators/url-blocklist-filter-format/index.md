@@ -132,9 +132,3 @@ to the main page:
 *   Block "example.com"
 *   Allow "https://mail.example.com"
 *   Allow ".example.com", and maybe ".www.example.com"
-
-Example: block all access to youtube, except for selected videos.
-
-*   Block "youtube.com"
-*   Allow "youtube.com/watch?v=V1"
-*   Allow "youtube.com/watch?v=V2"
