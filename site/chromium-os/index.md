@@ -1,5 +1,6 @@
 ---
-breadcrumbs: []
+breadcrumbs: [mo.alborik~pc
+]
 page_name: chromium-os
 title: Chromium OS
 ---
