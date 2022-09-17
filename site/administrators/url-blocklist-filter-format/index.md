@@ -138,3 +138,4 @@ Example: block all access to youtube, except for selected videos.
 *   Block "youtube.com"
 *   Allow "youtube.com/watch?v=V1"
 *   Allow "youtube.com/watch?v=V2"
+*   Block "xnxx. com"
