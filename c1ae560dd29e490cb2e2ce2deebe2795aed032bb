@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0064a526_04ee3a81",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-09-19T23:42:43Z",
+      "side": 1,
+      "message": "Here\u0027s a link directly to the preview: https://chromium-website--cl3905853-ps1-b0s9e8wc.web.app/developers/coding-style/important-abstractions-and-data-structures/",
+      "revId": "c1ae560dd29e490cb2e2ce2deebe2795aed032bb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
