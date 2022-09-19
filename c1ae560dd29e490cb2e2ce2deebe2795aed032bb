@@ -16,6 +16,40 @@
       "message": "Here\u0027s a link directly to the preview: https://chromium-website--cl3905853-ps1-b0s9e8wc.web.app/developers/coding-style/important-abstractions-and-data-structures/",
       "revId": "c1ae560dd29e490cb2e2ce2deebe2795aed032bb",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "abf0b6ba_6d9e0350",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2022-09-19T23:44:51Z",
+      "side": 1,
+      "message": "LGTM w/nit\n\nOrthogonal, I feel like we should probably also add a thing about \"consider if the static really needs to be static. If it\u0027s rarely used, constructing on-demand probably makes more sense\"\n\nBut that\u0027s probably best left for a different CL.",
+      "revId": "c1ae560dd29e490cb2e2ce2deebe2795aed032bb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9a3703f3_9fd1df15",
+        "filename": "site/developers/coding-style/important-abstractions-and-data-structures/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2022-09-19T23:44:51Z",
+      "side": 1,
+      "message": "I know we haven\u0027t been very consistent about doing it, but it would be nice to use `` around the various things that are C++ types.",
+      "revId": "c1ae560dd29e490cb2e2ce2deebe2795aed032bb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
