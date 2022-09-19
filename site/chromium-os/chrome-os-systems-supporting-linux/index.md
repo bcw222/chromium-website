@@ -16,15 +16,18 @@ Linux (Beta) are listed below. Unless otherwise specified, all devices launched
 in 2019 will support Linux (Beta).
 
 To learn how to set up Linux (Beta) on supported Chromebooks, [click
-here](https://support.google.com/chromebook/answer/9145439?hl=en).
+here](https://chromeos.dev/en/linux/setup).
 
 For in-depth technical documentation, [click
 here](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/containers_and_vms.md).
 
 <table>
+<thead>
 <tr>
 <th>Manufacturer
 <th>Device
+</thead>
+<tbody>
 <tr>
 <td>Acer
 <td>
@@ -153,4 +156,5 @@ Chromebook Plus (V2)
 <td>Viglen
 <td>Chromebook 360
 </tr>
+</tbody>
 </table>
