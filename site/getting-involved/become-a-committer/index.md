@@ -131,7 +131,7 @@ some people do not.
 ### Try job access
 
 If you are contributing patches but not (yet) a committer, you may wish to be
-able to run jobs on the [try servers](/developers/testing/try-server-usage)
+able to run jobs on the [try servers](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/infra/trybot_usage.md)
 directly rather than asking a committer or reviewer to do so for you. There are
 two potential scenarios:
 
