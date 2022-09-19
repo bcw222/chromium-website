@@ -39,6 +39,30 @@
       },
       "revId": "6d92ebaf6127c0e1c3abda59cd8f7b1d0b6f70b5",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f64740c0_7a089496",
+        "filename": "site/chromium-os/usi-enabled-devices/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 238,
+      "author": {
+        "id": 1394748
+      },
+      "writtenOn": "2022-09-19T16:08:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "608b7fa5_d0e6418b",
+      "range": {
+        "startLine": 238,
+        "startChar": 2,
+        "endLine": 238,
+        "endChar": 4
+      },
+      "revId": "6d92ebaf6127c0e1c3abda59cd8f7b1d0b6f70b5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
