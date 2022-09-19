@@ -6,8 +6,6 @@ page_name: usi-enabled-devices
 title: USI Capable Devices
 ---
 
-*Last update: 1 February 2022*
-
 <table>
 <tr>
 <td>Acer Chromebook Spin 314 (CP314-1HN)</td>
@@ -25,12 +23,22 @@ title: USI Capable Devices
 </tr>
 <tr>
 
-<td>Acer Chromebook Spin 513 (CP513-1H, CP513-1HL, R841T, R841LT)</td>
+<td>Acer Chromebook Spin 513 (CP513-1H, CP513-1HL, CP513-2H)</td>
 
 </tr>
 <tr>
 
-<td>Acer Chromebook Spin 514 (CP514-1H, CP514-1HH, CP514-1W, CP514-2H)</td>
+<td>Acer Chromebook Enterprise Spin 513 (R841T, R841LT)</td>
+
+</tr>
+<tr>
+
+<td>Acer Chromebook Spin 514 (CP514-1HH, CP514-3HH, CP514-1W, CP514-1WH, CP514-3WH)</td>
+
+</tr>
+<tr>
+
+<td>Acer Chromebook Enterprise Spin 514 (CP514-1H, CP514-2H, CP514-3H)</td>
 
 </tr>
 <tr>
@@ -40,7 +48,37 @@ title: USI Capable Devices
 </tr>
 <tr>
 
+<td>Acer Chromebook Enterprise Spin 713 (CP713-3W)</td>
+
+</tr>
+<tr>
+
+<td>Acer Chromebook Spin 714 (CP714-1WN)</td>
+
+</tr>
+<tr>
+
+<td>Acer Chromebook Enterprise Spin 714 (CP714-1WN)</td>
+
+</tr>
+<tr>
+
+<td>Acer Chromebook Tab 510 (D652N, D652NL)</td>
+
+</tr>
+<tr>
+
+<td>Acer Chromebook Enterprise Tab 510 (D652N, D652NL)</td>
+
+</tr>
+<tr>
+
 <td>ASUS Chromebook CX9 (CX9400) (some models, including North American models ending with T)</td>
+
+</tr>
+<tr>
+
+<td>ASUS Chromebook Enterprise CX9 (CX9400)</td>
 
 </tr>
 <tr>
@@ -50,52 +88,77 @@ title: USI Capable Devices
 </tr>
 <tr>
 
+<td>ASUS Chromebook Enterprise Detachable CM3</td>
+
+</tr>
+<tr>
+
 <td>ASUS Chromebook Detachable CZ1</td>
 
 </tr>
 <tr>
 
-<td>ASUS Chromebook Flip C436FA</td>
+<td>ASUS Chromebook Enterprise Detachable CZ1</td>
 
 </tr>
 <tr>
 
-<td>ASUS Chromebook Flip CM3200FM1A</td>
+<td>ASUS Chromebook Flip C436</td>
 
 </tr>
 <tr>
 
-<td>ASUS Chromebook Flip CM3200FVA</td>
+<td>ASUS Chromebook Flip CM3 (CM3200FM1A, CM3200FVA)</td>
 
 </tr>
 <tr>
 
-<td>ASUS Chromebook Flip CR1100FKA</td>
+<td>ASUS Chromebook Flip CR1 (CR1100)</td>
 
 </tr>
 <tr>
 
-<td>ASUS Chromebook Flip CX3</td>
+<td>ASUS Chromebook Flip CX3 (CX3400)</td>
 
 </tr>
 <tr>
 
-<td>ASUS Chromebook Flip CX5 (CX5400)</td>
+<td>ASUS Chromebook Enterprise Flip CX3 (CB3400, CX3400)</td>
 
 </tr>
 <tr>
 
-<td>ASUS Chromebook Flip CX5 (CX5500)</td>
+<td>ASUS Chromebook Flip CX5 (CX5400, CX5500, CX5601)</td>
 
 </tr>
 <tr>
 
-<td>Asus Flip C536</td>
+<td>ASUS Chromebook Enterprise Flip CX5 (CB5400, CB5500, CB5601FBA, CX5400, CX5500, CX5601FBA)</td>
 
 </tr>
 <tr>
 
-<td>Asus Flip CM5</td>
+<td>ASUS Chromebook Flip C536 </td>
+
+</tr>
+<tr>
+
+<td>ASUS Chromebook Flip CM5 (CM5500)</td>
+
+</tr>
+<tr>
+
+<td>ASUS Chromebook Enterprise Flip CM5 (CL5500, CM5500)</td>
+
+</tr>
+<tr>
+
+<td>CTL Chromebook NL72T</td>
+
+</tr>
+<tr>
+
+<td>Dell Chromebook 3110 2-in-1</td>
 
 </tr>
 <tr>
@@ -110,17 +173,12 @@ title: USI Capable Devices
 </tr>
 <tr>
 
-<td>HP Chromebook X360 11 G4 Education Edition</td>
+<td>HP Chromebook X360 11 G4 EE</td>
 
 </tr>
 <tr>
 
 <td>HP Chromebook x360 12b</td>
-
-</tr>
-<tr>
-
-<td>HP Chromebook x360 13c</td>
 
 </tr>
 <tr>
@@ -140,6 +198,21 @@ title: USI Capable Devices
 </tr>
 <tr>
 
+<td>HP Elite c1030 Chromebook Enterprise</td>
+
+</tr>
+<tr>
+
+<td>HP Elite Dragonfly 13.5 inch Chromebook</td>
+
+</tr>
+<tr>
+
+<td>HP Elite Dragonfly 13.5 inch Chromebook Enterprise</td>
+
+</tr>
+<tr>
+
 <td>Lenovo 10e Chromebook Tablet</td>
 
 </tr>
@@ -155,32 +228,37 @@ title: USI Capable Devices
 </tr>
 <tr>
 
-<td>Lenovo Chromebook Duet</td>
+<td>Lenovo Chromebook Duet / Lenovo IdeaPad Duet Chromebook</td>
 
 </tr>
 <tr>
 
-<td>Lenovo Chromebook Duet 5</td>
+<td>Lenovo Chromebook Duet 3† / IdeaPad Duet 3 Chromebook (11", 7)†</td>
 
 </tr>
 <tr>
 
-<td>Lenovo IdeaPad Duet 5 Chromebook</td>
+<td>Lenovo Chromebook Duet 5 / IdeaPad Duet 5 Chromebook (13”, 6)</td>
 
 </tr>
 <tr>
 
-<td>Lenovo IdeaPad Flex 5i Chromebook (13", 5)</td>
+<td>Lenovo Flex 5i-13 Chromebook / IdeaPad Flex 5i Chromebook (13", 5)</td>
 
 </tr>
 <tr>
 
-<td>Lenovo IdeaPad Flex 5i Chromebook (13", 6)</td>
+<td>Lenovo Flex 5i-13 Chromebook / IdeaPad Flex 5i Chromebook (13”, 6)</td>
 
 </tr>
 <tr>
 
-<td>Lenovo ThinkPad C13 Yoga Gen 1</td>
+<td>Lenovo ThinkPad C13 Yoga Chromebook</td>
+
+</tr>
+<tr>
+
+<td>Lenovo ThinkPad C13 Yoga Chromebook Enterprise</td>
 
 </tr>
 <tr>
@@ -189,8 +267,12 @@ title: USI Capable Devices
 
 </tr>
 <tr>
-
 <td>NEC Chromebook Y3</td>
+
+</tr>
+<tr>
+
+<td>Poin2 Chromebook 11E</td>
 
 </tr>
 <tr>
@@ -198,4 +280,10 @@ title: USI Capable Devices
 <td>Samsung Galaxy Chromebook 2</td>
 
 </tr>
+
 </table>
+
+Footnotes:
+<p>† Product requires USI 2 Stylus for stylus functionality
+
+Last updated as of: 26 August 2022
