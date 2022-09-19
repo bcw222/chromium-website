@@ -9,7 +9,7 @@ title: Linux Quick Start
 This page describes the steps to get a managed instance of Google Chrome or
 Chromium up and running on Linux.
 
-**Download / Build the Browser**
+## Download / Build the Browser
 
 Depending on your network's requirements, you may either want to deploy Chromium
 or Google Chrome. The differences are described
@@ -29,10 +29,17 @@ There are several different ways to get the browser:
 
 At the end of this process, you should have Google Chrome or Chromium installed.
 
-**Set Up Policies**
+## Set Up Policies
 
-Policy configuration files live under **/etc/chromium** for Chromium, and under
-**/etc/opt/chrome** for Google Chrome (note the lack of **opt** for Chromium).
+The location of the policy configuration files depends on whether you are
+running Google Chrome or Chromium:
+
+* Google Chrome looks for policies installed in **/etc/opt/chrome/policies**
+* Chromium looks for policies installed in **/etc/chromium/policies** by default
+  * **Note:** if you use a Chromium package from a Linux distribution, please
+    make sure you check its documentation. Ubuntu's package checks for policies
+    in **/etc/chromium-browser/policies** instead, for example.
+
 There are two sets of policies kept in these directories: one set that is
 required and mandated by an administrator, and one set that is recommended for
 users but not required. For Google Chrome, these two sets live at (remember
@@ -88,7 +95,7 @@ prevails.
 anyone! Google Chrome / Chromium gives these files higher priority, so they
 should only be writable by an administrator or root!**
 
-**Push out the Policies and Browser**
+## Push out the Policies and Browser
 
 Using whatever mechanism you use to push files to clients, whether it be a
 utility or just a script file, push the "test_policy.json" file out to the
