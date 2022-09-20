@@ -135,9 +135,8 @@ be sure the file or some parent directory is included in
 
 ### Running the tests
 
-### Just [build and run like any other
-browser_tests](/developers/testing/browser-tests). You may filter tests by class
-or test name (the arguments to TEST_F) via gtest_filter.
+### Just [build and run like any other browser_tests](/developers/testing/browser-tests)
+You may filter tests by class or test name (the arguments to TEST_F) via gtest_filter.
 
 ### `ninja -C out/Release browser_tests`
 
