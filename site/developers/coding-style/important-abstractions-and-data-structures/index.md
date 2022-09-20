@@ -128,27 +128,27 @@ isn't thinking carefully about ownership. Use it when ownership is truly shared
 (for example, multiple tabs sharing the same renderer process), **not** for when
 lifetime management is difficult to reason about.
 
-## [Singleton](https://source.chromium.org/chromium/chromium/src/+/main:base/memory/singleton.h) & [base::LazyInstance](https://source.chromium.org/chromium/chromium/src/+/main:base/lazy_instance.h)
+## [Singleton](https://source.chromium.org/chromium/chromium/src/+/main:base/memory/singleton.h)
 
-They're globals, so you generally should [avoid using
+Singletons are globals, so you generally should [avoid using
 them](http://www.object-oriented-security.org/lets-argue/singletons), as per the
 [style
-guide](http://google-styleguide.googlecode.com/svn/trunk/cppguide.xml?showone=Static_and_Global_Variables#Static_and_Global_Variables).
-That said, when you use globals in Chromium code, it's often good to use one of
-these, and in general, prefer base::LazyInstance over Singleton. The reason to
-use these classes is construction is lazy (thereby preventing startup slowdown
-due to static initializers) and destruction order is well-defined. They are all
-destroyed in opposite order as construction when the AtExitManager is destroyed.
-In the Chromium browser process, the AtExitManager is instantiated early on in
-the main thread (the UI thread), so all of these objects will be destroyed on
-the main thread, even if constructed on a different thread. The reason to prefer
-base::LazyInstance over base::Singleton is base::LazyInstance reduces heap
-fragmentation by reserving space in the data segment and using placement new to
-construct the object in that memory location. **NOTE:** Both Singleton and
-base::LazyInstance provide "leaky" traits to leak the global on shutdown. This
-is often advisable (except potentially in library code where the code may be
-dynamically loaded into another process's address space or when data needs to be
-flushed on process shutdown) in order to not to slow down shutdown. There are
+guide](https://google.github.io/styleguide/cppguide.html#Static_and_Global_Variables).
+That said, when you use globals in Chromium code, prefer a function-local static
+of type `base::NoDestructor<T>` over `base::Singleton`. These are preferred over
+pure globals because construction is lazy (thereby preventing startup slowdown
+due to static initializers) and destruction order is well defined.
+
+`base::Singleton`s (and the deprecated `base::LazyInstance`) are all destroyed
+in opposite order of construction when the `AtExitManager` is destroyed. In the
+Chromium browser process, the `AtExitManager` is instantiated early on in the
+main thread (the UI thread), so all of these objects will be destroyed on the
+main thread, even if constructed on a different thread.
+
+**NOTE:** `Singleton` provides "leaky" traits to leak the global on shutdown.
+This is often advisable (except potentially in library code where the code may
+be dynamically loaded into another process's address space or when data needs to
+be flushed on process shutdown) in order to not to slow down shutdown. There are
 valgrind suppressions for these "leaky" traits.
 
 ## [base::Thread](https://source.chromium.org/chromium/chromium/src/+/main:base/threading/thread.h) & [base::PlatformThread](https://source.chromium.org/chromium/chromium/src/+/main:base/threading/platform_thread.h)
