@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a72d1bba_0f7e23a6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-09-20T19:47:06Z",
+      "side": 1,
+      "message": "Ack, makes sense",
+      "parentUuid": "abf0b6ba_6d9e0350",
+      "revId": "c1ae560dd29e490cb2e2ce2deebe2795aed032bb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9a3703f3_9fd1df15",
@@ -48,6 +66,24 @@
       "writtenOn": "2022-09-19T23:44:51Z",
       "side": 1,
       "message": "I know we haven\u0027t been very consistent about doing it, but it would be nice to use `` around the various things that are C++ types.",
+      "revId": "c1ae560dd29e490cb2e2ce2deebe2795aed032bb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "65fb8753_864c1381",
+        "filename": "site/developers/coding-style/important-abstractions-and-data-structures/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2022-09-20T19:47:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a3703f3_9fd1df15",
       "revId": "c1ae560dd29e490cb2e2ce2deebe2795aed032bb",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
