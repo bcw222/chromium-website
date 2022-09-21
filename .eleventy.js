@@ -39,6 +39,14 @@ module.exports = config => {
 
   config.setLibrary('md', mdlib);
 
+  config.addCollection('allSortedByLowerCasedUrl', function(collectionApi) {
+    return collectionApi.getAll().sort(function(a, b) {
+      let x = a.url.toLowerCase();
+      let y = b.url.toLowerCase()
+      return (x > y) ? 1 : ((x < y) ? -1 : 0);
+    });
+  });
+
   // TODO(crbug.com/1271672): Figure out how to make this syntax and API
   // less clunky.
   const subpages = require('./scripts/subpages.js')
@@ -179,5 +187,6 @@ module.exports = config => {
     markdownTemplateEngine: 'njk',
     templateFormats: ['md', 'njk'],
     htmlTemplateEngine: 'njk',
+    xmlTemplateEngine: 'njk',
   };
 };
