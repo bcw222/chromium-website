@@ -3974,4 +3974,21 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>Yes</td>
   </tr>
+  <tr>
+    <td>2022-08-31</td>
+    <td>Acer</td>
+    <td><a href="https://www.acer.com/ac/en/US/content/series/acerchromebookvero514/">Acer Chromebook Vero 514</a></td>
+    <td>Volmar</td>
+    <td>Brya</td>
+    <td>Brya</td>
+    <td>x86_64</td>
+    <td>5.10</td>
+    <td>x86_64</td>
+    <td>Alder Lake</td>
+    <td>Clamshell</td>
+    <td>R104</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
 </table>
