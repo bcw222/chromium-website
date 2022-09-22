@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "9ab7b852_1272aa59",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2022-09-22T21:16:10Z",
+      "side": 1,
+      "message": "I\u0027m not picturing what you have in mind. How would I update them with real timestamps going forward? Just querying git, but only doing it to the pages that are being modified in the CL?",
+      "parentUuid": "ca4c5b7b_0cacb429",
+      "revId": "2c0be3d5bf11ac6d4b1d4b452855d574f8ea2fa7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "409beb99_bf71e0f1",
