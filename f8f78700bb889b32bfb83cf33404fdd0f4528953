@@ -16,6 +16,52 @@
       "message": "The blockquote unfortunately doesn\u0027t look very distinct from regular text. Though personally I don\u0027t mind.",
       "revId": "f8f78700bb889b32bfb83cf33404fdd0f4528953",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "47af6bcb_9b9ffecc",
+        "filename": "site/chromium-os/chrome-os-systems-supporting-linux/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1544012
+      },
+      "writtenOn": "2022-09-22T04:22:28Z",
+      "side": 1,
+      "message": "for consistency, should we point to the chromeos.dev page here too? https://chromeos.dev/en/linux/setup\n\nit links to the support.google page at the bottom (in the troubleshooting section)",
+      "range": {
+        "startLine": 20,
+        "startChar": 6,
+        "endLine": 20,
+        "endChar": 64
+      },
+      "revId": "f8f78700bb889b32bfb83cf33404fdd0f4528953",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b323145e_9b1d63ec",
+        "filename": "site/chromium-os/chrome-os-systems-supporting-linux/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1544012
+      },
+      "writtenOn": "2022-09-22T04:22:28Z",
+      "side": 1,
+      "message": "nit: semantically this should be wrapped in a thead and the rest in a tbody. Be better for the page accessibility if we could fix this too\n\n```\n\u003ctable\u003e\n  \u003cthead\u003e\n    \u003ctr\u003e\n      \u003cth\u003eManufacturer\u003c/th\u003e\n      \u003cth\u003eDevice\u003c/th\u003e\n    \u003c/tr\u003e\n  \u003c/thead\u003e\n  \u003ctbody\u003e\n    .. rest of table\n  \u003c/tbody\u003e\n\u003ctable\u003e\n```",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 4
+      },
+      "revId": "f8f78700bb889b32bfb83cf33404fdd0f4528953",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
