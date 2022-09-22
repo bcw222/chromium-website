@@ -271,6 +271,21 @@ TEST_P(ExtensionServiceFlakyTest, InstallTheme) {
 
 Upload CL and run on trybots.
 
+### Add VLOGs and enable them only in relevant tests
+
+VLOGging can be enabled and disabled per file on the fly with `logging::ScopedVmoduleSwitches`.
+This means you can add more detailed logging in your code and only enable it inside
+your tests (or just the flaky test) without causing log-spam for everyone else.
+
+See [here](https://crrev.com/c/3648806/34/content/browser/back_forward_cache_browsertest.cc)
+for an example that enables the vlogging from [`back_forward_cache_impl.cc`](https://source.chromium.org/chromium/chromium/src/+/main:content/browser/renderer_host/back_forward_cache_impl.cc;drc=86a29a03b4b3b39964885d101e0db3e0c935e532)
+only in `BackForwardCacheBrowserTest`. This means that failures on bots for all those tests
+will include logs from that file.
+
+Since your test may be the only time these VLOGs are used, be especially careful not to include
+any side-effects in the logging that could cause a difference between a test run and
+production.
+
 ### Windows App Verifier (AppVerif.exe)
 This app can catch a lot of different kinds of errors, including Windows handle
 issues and AddressSanitizer (ASan)-like things like memory use after free (as
