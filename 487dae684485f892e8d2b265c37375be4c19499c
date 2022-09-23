@@ -70,6 +70,23 @@
       "parentUuid": "3779fd77_a2dc5632",
       "revId": "487dae684485f892e8d2b265c37375be4c19499c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f3490d4a_92ad9664",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2022-09-23T23:02:10Z",
+      "side": 1,
+      "message": "Will defer my LGTM to dpranke who has already commented. At this point, it seems mostly about styling questions, and I don\u0027t really want to make it harder to pick a bikeshed color.",
+      "revId": "487dae684485f892e8d2b265c37375be4c19499c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
