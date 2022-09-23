@@ -17,6 +17,15 @@ title: MobLab Release Notes
 *   [Wyvern (puff) OS Recovery
             Image](https://storage.googleapis.com/moblab-recovery-images/chromeos_14526.55.0_puff-moblab_recovery_stable-channel_mp-v3.bin.zip)
 
+# September 2nd 2022: Moblab Release
+**You should reboot your Moblab when next not running tests to get this latest version of the software.**
+
+After the update you will be running Moblab version R-2.18.5. 
+
+**Highlights**
+- Removing legacy Storage Qual from the Run Suite tab
+- Adding functionality to run FAFT test (instructions)
+
 # July 21st 2022: Moblab Patch Release
 **You should reboot your Moblab when next not running tests to get this latest version of the software.**
 
