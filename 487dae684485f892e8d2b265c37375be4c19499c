@@ -52,6 +52,24 @@
       "parentUuid": "d11f16da_dcadf099",
       "revId": "487dae684485f892e8d2b265c37375be4c19499c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f88939c3_9f517d70",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2022-09-23T20:09:37Z",
+      "side": 1,
+      "message": "First, to clarify, I am not in any way suggesting that the current behavior is correct. I\u0027m happy to change it to something better.\n\nSecond, thanks for digging up the example links, that saved me a bunch of time. I was wondering where your styling choices were comming from.\n\nFrom looking at the examples, it looks like GitHub and Commonmark will indent the block and set a left border. g3docs and Gerrit/Gitiles will set a background color and a light border around the whole block. Personally, I like the former better but am not totally opposed to the latter. \n\nI could also (of course) debate the choices of background color, margin, and padding. How wedded are you to your choices?",
+      "parentUuid": "3779fd77_a2dc5632",
+      "revId": "487dae684485f892e8d2b265c37375be4c19499c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
