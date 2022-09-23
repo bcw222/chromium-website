@@ -17,6 +17,23 @@
       "parentUuid": "90085d60_8a146165",
       "revId": "487dae684485f892e8d2b265c37375be4c19499c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d11f16da_dcadf099",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2022-09-23T16:42:54Z",
+      "side": 1,
+      "message": "Why do you say \"supposed to be rendered\"? According to who (or what)?\n\nI\u0027m not necessarily opposed to this change, but I\u0027m trying to understand the thinking a bit better.\n\nFWIW, Classic Sites italicized the quotes and indented them:\n\nhttps://sites.google.com/a/chromium.org/dev/Home/chromium-security/education/tls/#cipher-suites\n\nLooks like I missed the indentation in the migration, so I\u0027m definitely fine with that change. I also agree that the blockquotes aren\u0027t really called out enough on the current pages.",
+      "revId": "487dae684485f892e8d2b265c37375be4c19499c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
