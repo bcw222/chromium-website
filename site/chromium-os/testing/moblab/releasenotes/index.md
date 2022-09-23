@@ -17,6 +17,17 @@ title: MobLab Release Notes
 *   [Wyvern (puff) OS Recovery
             Image](https://storage.googleapis.com/moblab-recovery-images/chromeos_14526.55.0_puff-moblab_recovery_stable-channel_mp-v3.bin.zip)
 
+
+# September 23rd 2022: Moblab Release
+**You should reboot your Moblab when next not running tests to get this latest version of the software.**
+
+After the update you will be running Moblab version R-2.19.0. 
+
+**Highlights**
+- Added a CUJ tab to the Run Suite tab
+- Added back removable storage qual suite
+- Allow Moblab to check and save valid OS Override versions
+
 # September 2nd 2022: Moblab Release
 **You should reboot your Moblab when next not running tests to get this latest version of the software.**
 
