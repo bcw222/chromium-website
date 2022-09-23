@@ -16,6 +16,24 @@
       "message": "missing link:\n`(instructions: [here](https://docs.google.com/document/d/12lDXE37Txdp5mRPuEhgEbAHmJfBba5zOQkvxUKO2vKc/view?resourcekey\u003d0-aP0FiQ8HvcVlO2sM7St9Rg))`\n\nI don\u0027t know why I cannot edit this patch. I would have otherwise...",
       "revId": "d17eaad35e82a02fab496c0b3959546d13cf291a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4707c865_bc27ecac",
+        "filename": "site/chromium-os/testing/moblab/releasenotes/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1525454
+      },
+      "writtenOn": "2022-09-23T07:18:12Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "e02e81e6_1ae7dd54",
+      "revId": "d17eaad35e82a02fab496c0b3959546d13cf291a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
