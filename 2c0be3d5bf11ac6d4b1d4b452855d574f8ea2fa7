@@ -36,6 +36,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "386913f6_05def96a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2022-09-23T20:19:47Z",
+      "side": 1,
+      "message": "I\u0027m wondering if we just hard code a timestamp of \u003c\u003d today then crawlers would probably trigger a refresh and we wouldn\u0027t have to query git then enable query git for all changes going forward. I might be off on my understanding of where the 1400 look ups is coming from though",
+      "parentUuid": "9ab7b852_1272aa59",
+      "revId": "2c0be3d5bf11ac6d4b1d4b452855d574f8ea2fa7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "409beb99_bf71e0f1",
