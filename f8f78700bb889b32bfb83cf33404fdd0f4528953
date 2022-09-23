@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2e8618d8_67279c18",
+        "filename": "site/chromium-os/chrome-os-systems-supporting-linux/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-09-23T12:52:50Z",
+      "side": 1,
+      "message": "i don\u0027t think we need the bold text ... put it at the top before even the first paragraph and it should suffice\n\nmaybe part of the issue is that `\u003e` blockquote styling seems to be broken ... while `\u003cblockquote\u003e` is in the generated html output, they visually have no difference.  looks like a bug in our site generator, so filed https://crbug.com/1367278 to track.",
+      "parentUuid": "a6cf1e6c_023c118e",
+      "revId": "f8f78700bb889b32bfb83cf33404fdd0f4528953",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "47af6bcb_9b9ffecc",
         "filename": "site/chromium-os/chrome-os-systems-supporting-linux/index.md",
         "patchSetId": 3
