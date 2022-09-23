@@ -34,6 +34,24 @@
       "message": "Why do you say \"supposed to be rendered\"? According to who (or what)?\n\nI\u0027m not necessarily opposed to this change, but I\u0027m trying to understand the thinking a bit better.\n\nFWIW, Classic Sites italicized the quotes and indented them:\n\nhttps://sites.google.com/a/chromium.org/dev/Home/chromium-security/education/tls/#cipher-suites\n\nLooks like I missed the indentation in the migration, so I\u0027m definitely fine with that change. I also agree that the blockquotes aren\u0027t really called out enough on the current pages.",
       "revId": "487dae684485f892e8d2b265c37375be4c19499c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3779fd77_a2dc5632",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-09-23T17:30:50Z",
+      "side": 1,
+      "message": "not sure if you\u0027d rather have the discussion on the bug ...\n\nevery markdown renderer i\u0027m aware of does this.\n\n* github: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-text\n* commonmark: https://spec.commonmark.org/0.30/#block-quotes\n* gitiles: https://gerrit.googlesource.com/gitiles/+/HEAD/Documentation/markdown.md#notification_aside_promotion-blocks\n* g3docs: http://go/g3doc-markdown#blockquotes\n* Gerrit: (don\u0027t have a link; see below)\n\n\u003e Gerrit blockquote\n\nso to flip this around, what common markdown renderers are you aware of that don\u0027t do this ?   i\u0027m not sure i\u0027d include sites since it isn\u0027t a markdown renderer, it\u0027s an HTML WYSIWYG editor, although i\u0027ll note that other Google properties that support blockquotes (e.g. gmail) don\u0027t simply indent.\n\nimo we should be following the leads of other critical masses and not forking/deviating -- we\u0027re effectively a \"nobody\" in this pond, and developers are expecting \"standard\" behavior.  if GH, g3docs, and commonmark do it this way, we should too.",
+      "parentUuid": "d11f16da_dcadf099",
+      "revId": "487dae684485f892e8d2b265c37375be4c19499c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
