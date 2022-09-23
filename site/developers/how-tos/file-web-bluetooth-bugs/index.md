@@ -10,10 +10,18 @@ title: How to file Web Bluetooth bugs
 
 [TOC]
 
-When [filing a Web Bluetooth
+[Stack Overflow #web-bluetooth](https://stackoverflow.com/questions/tagged/web-bluetooth?tab=Active)
+is a great community for diagnosing issues.  It is helpful to form
+[well-asked questions](https://stackoverflow.com/help/how-to-ask).
+The tools on this page can help you diagnose issues.
+
+If you find an implementation bug, please [file a Web Bluetooth
 bug](https://bugs.chromium.org/p/chromium/issues/entry?components=Blink%3EBluetooth&source=chromium.org),
-please attach some Bluetooth logs (both Chrome and platform logs) so we can
+and attach Bluetooth logs (both Chrome and platform logs) to help
 debug the issue.
+
+[Specification bugs are on GitHub](https://github.com/WebBluetoothCG/web-bluetooth/issues).
+
 
 ## General Bluetooth Inspection Tools
 
