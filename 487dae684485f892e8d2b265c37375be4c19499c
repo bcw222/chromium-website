@@ -87,6 +87,24 @@
       "message": "Will defer my LGTM to dpranke who has already commented. At this point, it seems mostly about styling questions, and I don\u0027t really want to make it harder to pick a bikeshed color.",
       "revId": "487dae684485f892e8d2b265c37375be4c19499c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a2232418_f9ad9427",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2022-09-23T23:45:16Z",
+      "side": 1,
+      "message": "I don\u0027t really want to block things either, but I do want to spend at least a little time talking about what we\u0027d want blockquotes to look like. I\u0027m happy to approve this for now just to get *something* landed and then we can continue discussing styling afterwards if so inclined.",
+      "parentUuid": "f3490d4a_92ad9664",
+      "revId": "487dae684485f892e8d2b265c37375be4c19499c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
