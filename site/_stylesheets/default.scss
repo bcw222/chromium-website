@@ -7,6 +7,10 @@ $monospace-fonts: monospace;
 
 /* colors */
 
+$blockquote-border-color: rgb(250, 183, 0);
+$blockquote-bg-color: rgb(255, 253, 231);
+$blockquote-color: rgb(0, 0, 0);
+
 $body-bg-color: rgb(247, 247, 247);
 $body-color: rgb(0, 0, 0);
 
@@ -195,8 +199,11 @@ main {
   }
 
   blockquote {
-    margin-bottom: 13.33px;
-    margin-top: -12px;
+    background-color: $blockquote-bg-color;
+    border-left: 0.2em solid $blockquote-border-color;
+    color: $blockquote-color;
+    margin-bottom: 1em;
+    padding: 0.2em 1em;
   }
 
   del {
