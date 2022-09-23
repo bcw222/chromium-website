@@ -54,6 +54,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "b4285f69_61cc7b37",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2022-09-23T20:46:55Z",
+      "side": 1,
+      "message": "Because each build potentially runs in a new checkout on a new machine, there\u0027s no way to track state between builds. We\u0027d have no way to know which files to mark as the hard-coded timestamp and which to pull from git.\n\nWe could try to pull \"all files modified since X\" and maybe that\u0027d be enough faster to be worth it.\n\nThat said, the site is small enough that I doubt this matters much.",
+      "parentUuid": "386913f6_05def96a",
+      "revId": "2c0be3d5bf11ac6d4b1d4b452855d574f8ea2fa7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "409beb99_bf71e0f1",
