@@ -49,10 +49,6 @@ Codec formats (Decode Only)
 *   AAC \[Main, LC, HE profiles only, xHE-AAC on Android P+\] \[Google
             Chrome only\]
 
-*   AMR-NB \[Google Chrome OS only\]
-*   AMR-WB \[Google Chrome OS only\]
-*   GSM \[Google Chrome OS Only\]
-
 ==Video==
 
 *   VP8
@@ -63,8 +59,7 @@ Codec formats (Decode Only)
 *   Theora \[Except on Android variants\]
 
 *   H.264 \[Google Chrome only\]
-*   H.265 \[Google Chrome OS on Intel Gen 11-based Chromebooks for
-            protected content playback only\]
+*   H.265 \[Google Chrome only and only where supported by the underlying OS\]
 
 *   MPEG-4 \[Google Chrome OS only\]
 
