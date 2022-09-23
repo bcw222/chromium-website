@@ -1,0 +1,22 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6de8f567_ab205d2e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-09-23T13:27:54Z",
+      "side": 1,
+      "message": "you can see the difference in this doc under \"Cipher Suites\":\n* (before) https://www.chromium.org/Home/chromium-security/education/tls/#cipher-suites\n* (after) https://chromium-website--cl3916185-ps1-hpq0ymly.web.app/Home/chromium-security/education/tls/#cipher-suites",
+      "parentUuid": "90085d60_8a146165",
+      "revId": "487dae684485f892e8d2b265c37375be4c19499c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
