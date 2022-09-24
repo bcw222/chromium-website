@@ -105,6 +105,24 @@
       "parentUuid": "f3490d4a_92ad9664",
       "revId": "487dae684485f892e8d2b265c37375be4c19499c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "223b00f5_af5918d4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-09-24T03:20:14Z",
+      "side": 1,
+      "message": "the color choice i took from gitiles. I\u0027m not tied to them specifically. but i think the color should be distinct from the rest of the text and not just have a left side bar. GH doesn\u0027t change the background color, but it changes the foreground text color. personally i find the background color change easier to read, and the lower contrast ratio with GH a little harder. i haven\u0027t run it through the accessibility contrast ratio check to get solid data though ...\n\ni know gitiles and g3docs have multiple block styles which leads to needing different background colors, but I\u0027m hoping to avoid that in the website tree.  as i think devs waste time bike shedding which one they should use for a particular message, and it makes the document a little busy when they\u0027re all used/mixed.",
+      "parentUuid": "f88939c3_9f517d70",
+      "revId": "487dae684485f892e8d2b265c37375be4c19499c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
