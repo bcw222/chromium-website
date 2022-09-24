@@ -105,8 +105,7 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
             Development](https://chromium.googlesource.com/chromiumos/platform/ec/+/HEAD/README.md)
 *   [All How Tos and
             Troubleshooting](/chromium-os/how-tos-and-troubleshooting)
-*   [Poking around Your Chrome OS
-            Device](/chromium-os/poking-around-your-chrome-os-device)
+*   [Developer Mode](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_mode.md "Exploring Chrome OS Device")
 *   [Design
             docs](http://www.chromium.org/chromium-os/chromiumos-design-docs)
 
