@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b926ab7c_6a36d158",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-09-25T15:57:25Z",
+      "side": 1,
+      "message": "your commit doesn\u0027t actually change any files",
+      "revId": "8d145d3699cde32789f41163b6ffcd82e9b223b6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fb18ac11_92a9f4fa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-09-25T15:57:25Z",
+      "side": 1,
+      "message": "your commit doesn\u0027t actually change any files",
+      "revId": "8d145d3699cde32789f41163b6ffcd82e9b223b6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
