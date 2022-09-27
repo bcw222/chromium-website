@@ -123,6 +123,40 @@
       "parentUuid": "f88939c3_9f517d70",
       "revId": "487dae684485f892e8d2b265c37375be4c19499c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "70f8b3f9_7951bf2e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2022-09-27T20:38:01Z",
+      "side": 1,
+      "message": "LGTM w/ one comment ...",
+      "revId": "487dae684485f892e8d2b265c37375be4c19499c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "68fa5764_7e09e00a",
+        "filename": "site/_stylesheets/default.scss",
+        "patchSetId": 1
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2022-09-27T20:38:01Z",
+      "side": 1,
+      "message": "Can you remove the margin-top here? I think things would be more consistent if this had the same top/bottom whitespace that paragraphs have. \n\n(Or feel free to implement this a different way to achieve the same effect).\n\nIf you don\u0027t like this suggestion, feel free to ignore it, too.",
+      "revId": "487dae684485f892e8d2b265c37375be4c19499c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
