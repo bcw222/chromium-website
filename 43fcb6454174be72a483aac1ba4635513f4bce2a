@@ -16,6 +16,23 @@
       "message": "Doc Preview:\nhttps://chromium.googlesource.com/website/+/43fcb6454174be72a483aac1ba4635513f4bce2a/site/developers/how-tos/file-web-bluetooth-bugs/index.md",
       "revId": "43fcb6454174be72a483aac1ba4635513f4bce2a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "69f24aad_5b7ec212",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1107759
+      },
+      "writtenOn": "2022-09-27T00:01:29Z",
+      "side": 1,
+      "message": "OWNERS review (load balancing to jessemckenna instead of dcheng)",
+      "revId": "43fcb6454174be72a483aac1ba4635513f4bce2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
