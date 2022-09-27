@@ -26,6 +26,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "18b383d8_85ef3c8d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1107759
+      },
+      "writtenOn": "2022-09-27T02:01:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "66d6be14_2ad159ee",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 81
+      },
+      "revId": "43fcb6454174be72a483aac1ba4635513f4bce2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "5adf8ab2_816420cc",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 2
@@ -98,6 +122,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c460f7d5_4644ded9",
+        "filename": "site/developers/how-tos/file-web-bluetooth-bugs/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1107759
+      },
+      "writtenOn": "2022-09-27T02:01:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5d61fb94_fa6a71d2",
+      "range": {
+        "startLine": 15,
+        "startChar": 1,
+        "endLine": 15,
+        "endChar": 11
+      },
+      "revId": "43fcb6454174be72a483aac1ba4635513f4bce2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cd4d68fb_af372d23",
@@ -134,6 +182,48 @@
       "writtenOn": "2022-09-27T00:30:43Z",
       "side": 1,
       "message": "nit: add period at the end of this sentence",
+      "revId": "43fcb6454174be72a483aac1ba4635513f4bce2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aac17fd0_75920135",
+        "filename": "site/developers/how-tos/file-web-bluetooth-bugs/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1107759
+      },
+      "writtenOn": "2022-09-27T02:01:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f9caa96_11219fe4",
+      "revId": "43fcb6454174be72a483aac1ba4635513f4bce2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee485be5_1af3fd4e",
+        "filename": "site/developers/how-tos/file-web-bluetooth-bugs/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1107759
+      },
+      "writtenOn": "2022-09-27T02:01:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cd4d68fb_af372d23",
+      "range": {
+        "startLine": 23,
+        "startChar": 27,
+        "endLine": 23,
+        "endChar": 33
+      },
       "revId": "43fcb6454174be72a483aac1ba4635513f4bce2a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
