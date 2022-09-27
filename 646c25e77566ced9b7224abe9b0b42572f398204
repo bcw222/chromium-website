@@ -16,6 +16,23 @@
       "message": "ptal",
       "revId": "646c25e77566ced9b7224abe9b0b42572f398204",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d75a879c_bc754899",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1315835
+      },
+      "writtenOn": "2022-09-27T23:59:30Z",
+      "side": 1,
+      "message": "@Joel ptal for owners stamp",
+      "revId": "646c25e77566ced9b7224abe9b0b42572f398204",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
