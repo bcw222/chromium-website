@@ -101,6 +101,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "015bb223_9be59fd4",
+        "filename": "site/developers/how-tos/file-web-bluetooth-bugs/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1551127
+      },
+      "writtenOn": "2022-09-27T17:56:07Z",
+      "side": 1,
+      "message": "nit: stack overflow",
+      "range": {
+        "startLine": 13,
+        "startChar": 1,
+        "endLine": 13,
+        "endChar": 15
+      },
+      "revId": "43fcb6454174be72a483aac1ba4635513f4bce2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "5d61fb94_fa6a71d2",
         "filename": "site/developers/how-tos/file-web-bluetooth-bugs/index.md",
         "patchSetId": 2
