@@ -52,6 +52,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "84c456af_e663e00b",
+        "filename": "site/chromium-os/steam-on-chromeos/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 1315835
+      },
+      "writtenOn": "2022-09-28T02:40:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f4729eba_f087ec03",
+      "revId": "646c25e77566ced9b7224abe9b0b42572f398204",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "34b8cebe_3dc83276",
@@ -75,6 +93,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "648daef3_d6913c4f",
+        "filename": "site/chromium-os/steam-on-chromeos/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 1315835
+      },
+      "writtenOn": "2022-09-28T02:40:56Z",
+      "side": 1,
+      "message": "Good spot, it\u0027s shared. fixed",
+      "parentUuid": "34b8cebe_3dc83276",
+      "range": {
+        "startLine": 202,
+        "startChar": 52,
+        "endLine": 202,
+        "endChar": 58
+      },
+      "revId": "646c25e77566ced9b7224abe9b0b42572f398204",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "11015978_9e11e788",
@@ -88,6 +130,24 @@
       "writtenOn": "2022-09-28T00:12:49Z",
       "side": 1,
       "message": "line too long",
+      "revId": "646c25e77566ced9b7224abe9b0b42572f398204",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5dc57275_3e8ee02f",
+        "filename": "site/chromium-os/steam-on-chromeos/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1315835
+      },
+      "writtenOn": "2022-09-28T02:40:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "11015978_9e11e788",
       "revId": "646c25e77566ced9b7224abe9b0b42572f398204",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
