@@ -16,6 +16,46 @@
       "message": "sshrimp@: Please check the structure, \"front matter\" and MD style.\ndcheng@: PTAL check over the contents.",
       "revId": "637d3b291dbed69e9bc76cf4c1674295ff8db703",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "619b7c67_d282db4e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2022-09-28T03:40:41Z",
+      "side": 1,
+      "message": "LGTM",
+      "revId": "637d3b291dbed69e9bc76cf4c1674295ff8db703",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c977b18e_f57d51a6",
+        "filename": "site/developers/base-newsletters/2022q3/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 170,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2022-09-28T03:40:41Z",
+      "side": 1,
+      "message": "Suggestion:\n```\n* `base::DictAdapterForMigration` is a non-owning wrapper around `base::DictionaryValue` or `base::Value::Dict`. It exposes the `base::Value::Dict` API and allows callers of a function that takes this adapter type to be incrementally migrated.\n* TBD: Implement a corresponding adapter type for `base::Value::List`.\n```",
+      "range": {
+        "startLine": 167,
+        "startChar": 0,
+        "endLine": 170,
+        "endChar": 53
+      },
+      "revId": "637d3b291dbed69e9bc76cf4c1674295ff8db703",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
