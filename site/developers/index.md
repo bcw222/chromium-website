@@ -77,6 +77,7 @@ title: For Developers
                 Structures](/developers/coding-style/important-abstractions-and-data-structures)
     *   [Smart Pointer Guidelines](/developers/smart-pointer-guidelines)
     *   [String usage](/developers/chromium-string-usage)
+*   [//base Newsletters](/developers/base-newsletters)
 *   [Android WebView](/developers/androidwebview)
 *   [GitHub Collaboration](/developers/github-collaboration)
 
