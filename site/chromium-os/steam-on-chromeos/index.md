@@ -189,8 +189,8 @@ To enable Steam Play for all relevant titles:
 
 ## Export data
 
-If there are files that you want to export from your Steam installation, you can
-follow these steps:
+If there are files that you want to export from your Steam installation, you
+can follow these steps:
 1. Start Steam
 2. Open a Crosh terminal (ctrl+alt+t)
 
@@ -199,18 +199,20 @@ In the Crosh terminal:
 3. Run `vmc share borealis Downloads`
 4. Run `vsh borealis`
 5. Navigate to the files you want to export and copy them to
-`/mnt/share/MyFiles/Downloads`
-    * e.g `cp ~/.local/share/Terraria/Players/ /mnt/shared/MyFiles/Downloads -r`
+`/mnt/shared/MyFiles/Downloads`
+    * e.g
+`cp ~/.local/share/Terraria/Players/ /mnt/shared/MyFiles/Downloads -r`
 6. You should now be able to see your exported files in your Downloads folder
 
 note: if you're looking to copy game installations (not saves) you may want to
 make use of [Steam's Backup feature.](https://help.steampowered.com/en/faqs/view/4593-5cb7-dc3c-64f0)
 Make sure to select `/mnt/shared/MyFiles/Downloads` as the folder to use and
-be careful managing the available disk space, as it may not be reported accurately.
+be careful managing the available disk space, as it may not be reported
+accurately.
 
-note: if you'd like to import files, you can follow a similar process, but, instead
-of copying files to `/mnt/shared/MyFiles/Downloads`, you can instead copy them from
-that directory.
+note: if you'd like to import files, you can follow a similar process, but,
+instead of copying files to `/mnt/shared/MyFiles/Downloads`, you can instead
+copy them from that directory.
 
 
 ## FAQ
