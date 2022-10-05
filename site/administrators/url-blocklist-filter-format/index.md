@@ -113,8 +113,7 @@ Some examples:
 *   "\*?a=1&b=2" blocks any request with the query "?b=2&a=1",
             "?a=1&b=2", "?a=1&c=3&b=2", ...;
 *   For a blocklist any occurrence of the key-value pair is sufficient,
-            i.e., blocklisting "youtube.com/watch?v=xyz" would block
-            "youtube.com/watch?v=123&v=xyz".
+        
 *   For an allowlist every occurrence of the key should have a matching
             value, i.e., allowlisting "youtube.com/watch?v=V2" does not allow
             "youtube.com/watch?v=V1&v=V2", it allows
