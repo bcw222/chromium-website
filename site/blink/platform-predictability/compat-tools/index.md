@@ -56,9 +56,7 @@ of cases, compat tradeoffs are made entirely based on public UseCounter data.
 
 Often it's useful to find examples of specific coding patterns in order to
 understand the likely failure modes and formulate migration guidance. Use
-technical web search engines like [nerdydata.com](https://nerdydata.com), or for
-problems in specific libraries, ranking sites like
-[libscore.com](https://libscore.com).
+technical web search engines like [nerdydata.com](https://nerdydata.com).
 
 **Pros:**
 
