@@ -16,6 +16,29 @@
       "message": "ptal :)",
       "revId": "e00b608831a8bdbe30ddc63addda57fc36d33fae",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b8a470bd_b85175b0",
+        "filename": "site/chromium-os/steam-on-chromeos/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1324920
+      },
+      "writtenOn": "2022-10-09T22:34:36Z",
+      "side": 1,
+      "message": "noting that this will need to change (in a future cl)",
+      "range": {
+        "startLine": 48,
+        "startChar": 6,
+        "endLine": 48,
+        "endChar": 9
+      },
+      "revId": "e00b608831a8bdbe30ddc63addda57fc36d33fae",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
