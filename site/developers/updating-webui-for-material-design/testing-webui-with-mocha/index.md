@@ -31,11 +31,11 @@ in Chromium.
 
 ### Adding the BrowserTest
 
-Polymer tests should use `PolymerTest` from polymer_browser_test_base.js as
+Polymer tests should use `PolymerTest` from `polymer_browser_test_base.js` as
 their prototype. The following test will set the command-line args
---my-switch=my-value and navigate to chrome://my-webui/.
+`--my-switch=my-value` and navigate to `chrome://my-webui/`.
 
-```none
+```js
 // Polymer BrowserTest fixture.
 GEN_INCLUDE(['//chrome/test/data/webui/polymer_browser_test_base.js']);
 /**
@@ -47,7 +47,8 @@ function FooBarBrowserTest() {}
 FooBarBrowserTest.prototype = {
   __proto__: PolymerTest.prototype,
   /**
-   * Override browsePreload like this if you need to navigate to a particular WebUI.
+   * Override browsePreload like this if you need to navigate to a particular
+   * WebUI.
    * @override
    */
   browsePreload: 'chrome://my-webui',
@@ -61,10 +62,12 @@ FooBarBrowserTest.prototype = {
   /**
    * Override extraLibraries to include extra files when the test runs.
    * @override
-   */ 
+   */
   extraLibraries: PolymerTest.getLibraries(ROOT_PATH).concat([
-    'some_file.js',  // Loads ./some_file.js (relative to source root).
-    '//ui/webui/resources/js/some_file.js',  // Path must be included in browser_tests.isolate.
+    // Loads ./some_file.js (relative to source root).
+    'some_file.js',
+    // Path must be included in browser_tests.isolate.
+    '//ui/webui/resources/js/some_file.js',  
   ]);
 };
 ```
@@ -72,7 +75,7 @@ FooBarBrowserTest.prototype = {
 Then, create one or more `TEST_F` functions. Each should register some number of
 tests with mocha:
 
-```none
+```js
 TEST_F('FooBarBrowserTest', 'FooBarTest', function() {
   suite('FooBar', function() {
     var fooBar;
@@ -84,7 +87,8 @@ TEST_F('FooBarBrowserTest', 'FooBarTest', function() {
     // Create and initialize a FooBar before each test.
     setup(function() {
       PolymerTest.clearBody();
-      fooBar = document.createElement('foo-bar');  // Immediately calls created() and ready().
+      // Immediately calls created() and ready().
+      fooBar = document.createElement('foo-bar');
       document.body.appendChild(fooBar);  // Immediately calls attached().
     });
     test('is a FooBar', function() {
@@ -100,9 +104,9 @@ TEST_F('FooBarBrowserTest', 'FooBarTest', function() {
 ```
 
 Should you write a large number of tests (woohoo!), it may help to break tests
-into separate files. For example, if you have foo_bar_tests.js:
+into separate files. For example, if you have `foo_bar_tests.js`:
 
-```none
+```js
 cr.define('foo_bar', function() {
   function registerTests() {
     suite('FooBar', function() { /* ... */ });
@@ -111,40 +115,50 @@ cr.define('foo_bar', function() {
 });
 ```
 
-You can then include these tests in your main foo_bar_browsertest.js by adding
+You can then include these tests in your main `foo_bar_browsertest.js` by adding
 the file to `FooBarBrowserTest.prototype.extraLibraries`. Then, in your
 `TEST_F`, simply call `foo_bar.registerTests()` before the `mocha.run()` call.
 
-<table>
-<tr>
+### Including JS files in tests
 
-<td>#### <b>Including JS files in tests</b></td>
-
-<td>Files imported via extraLibraries are read when the test runs. In isolated
+Files imported via `extraLibraries` are read when the test runs. In isolated
 testing, only certain files are copied to the bots. Files in chrome/test/data
-are always copied over, but <b>if your test requires files in other directories,
-be sure the file or some parent directory is included in
-</b><b>chrome/browser_tests.isolate</b><b>.</b></td>
+are always copied over, but **if your test requires files in other directories,
+make sure the file or some parent directory is included in
+`chrome/browser_tests.isolate`**.
 
-<td> Explanation: js2gtest allows #include-style imports of JavaScript using `GEN_INCLUDE` and the `extraLibraries` property of the test fixture prototype. These should be relative to the file defining your test fixture.</td>
-<td> Use `GEN_INCLUDE` when the file needs to be included before the rest of the script is run. This will also result in the code being eval'd during the js2gtest step.</td>
-<td> Use the `extraLibraries` property of your test fixture's prototype when the file is only needed within your tests. The content of these files, along with any `GEN_INCLUDE`d files, are added to each GTest body before each test is run.</td>
-<td> Because these files are read at runtime, they must be present when running the browser_tests binary. This is only a concern in <a href="/developers/testing/isolated-testing/for-swes">isolated testing</a>, and placing included files in chrome/test/data should always work.</td>
-</tr>
-</table>
+Explanation: js2gtest allows `#include`-style imports of JavaScript using
+`GEN_INCLUDE` and the `extraLibraries` property of the test fixture prototype.
+These should be relative to the file defining your test fixture.
+
+Use `GEN_INCLUDE` when the file needs to be included before the rest of the
+script is run. This will also result in the code being eval'd during the
+js2gtest step.
+
+Use the `extraLibraries` property of your test fixture's prototype when the file
+is only needed within your tests. The content of these files, along with any
+`GEN_INCLUDE`d files, are added to each GTest body before each test is run.
+
+Because these files are read at runtime, they must be present when running the
+browser_tests binary. This is only a concern in
+[isolated testing](/developers/testing/isolated-testing/for-swes), and placing
+included files in `chrome/test/data` should always work.
 
 ### Running the tests
 
-### Just [build and run like any other browser_tests](/developers/testing/browser-tests)
-You may filter tests by class or test name (the arguments to TEST_F) via gtest_filter.
+Just
+[build and run like any other browser_tests](/developers/testing/browser-tests)
+You may filter tests by class or test name (the arguments to TEST_F) via
+`--gtest_filter`:
 
-### `ninja -C out/Release browser_tests`
-
-### `./out/Release/browser_tests --gtest_filter=FooBarBrowserTest.Foo*`
+```sh
+ninja -C out/Release browser_tests
+./out/Release/browser_tests --gtest_filter="FooBarBrowserTest.Foo*"
+```
 
 ### Tests and suites
 
-### With mocha, we can define any number of **suites**; each suite can consist
+With mocha, we can define any number of **suites**; each suite can consist
 of any number of **tests**. Top-level tests are in the global suite, but it is
 recommended to always create an outer suite for your tests. Each **suite** and
 **test** call takes a name and a function.
@@ -162,7 +176,7 @@ calls can take a `done` callback as a parameter, causing mocha to wait until the
 callback must be called with an `Error` on failure, or no arguments on
 success.**
 
-```none
+```js
 suite('Outer suite', function() {
   suiteSetup(function() {
     // Function to run at the beginning of this suite.
@@ -184,7 +198,8 @@ suite('Outer suite', function() {
     // Function to run at the very end of this suite.
   });
   suite('Inner suite', function() {
-    // Another suite. We can define separate suiteSetup and setup functions here that only run within this suite.
+    // Another suite. We can define separate suiteSetup and setup functions
+    // here that only run within this suite.
   });
 });
 ```
@@ -193,7 +208,7 @@ suite('Outer suite', function() {
 a `Promise`.** The test succeeds or fails once the promise is resolved or
 rejected.
 
-```none
+```js
 // Notice no done callback is taken.
 suiteSetup(function() {
   return new Promise(function(resolve, reject) {
