@@ -130,10 +130,10 @@ access. Follow the directions to name your feature and give a short summary, and
 select the appropriate feature type.
 
 For Chrome, some launches will require a formal[ Chrome launch
-review](https://bugs.chromium.org/p/chromium/issues/entry?template=Chrome+Launch+Feature)
-(especially if your feature has security, privacy, legal, or UI implications).
-This is the point where you should file a launch bug if this applies to you. We
-are working on making this process more open and transparent outside Google.
+review](http://go/launch) (especially if your feature has security, privacy,
+legal, or UI implications). You can work with a Google counterpart to get all
+launch approvals. We are working on making this process more open and transparent
+outside Google.
 
 From this point on, the process changes a little depending on the type of
 feature you’re adding.
