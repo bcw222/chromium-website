@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b8dd2b5_1629b6c2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1396747
+      },
+      "writtenOn": "2022-10-12T14:45:10Z",
+      "side": 1,
+      "message": "Thanks for the draft!",
+      "revId": "f277ca5505c5abe65c8b0fe3d0dfdce29d046691",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d524fb75_1df06612",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1396747
+      },
+      "writtenOn": "2022-10-12T14:45:10Z",
+      "side": 1,
+      "message": "IMO we should not point to go/launch as this is an external facing site, hence most folks are not able to access go/launch. WDYT?",
+      "revId": "f277ca5505c5abe65c8b0fe3d0dfdce29d046691",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
