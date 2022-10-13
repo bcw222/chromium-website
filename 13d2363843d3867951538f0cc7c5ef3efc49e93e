@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "df02c6f6_6e5bd619",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2022-10-13T19:02:02Z",
+      "side": 1,
+      "message": "Typo: explanation :)",
+      "range": {
+        "startLine": 7,
+        "startChar": 27,
+        "endLine": 7,
+        "endChar": 39
+      },
+      "revId": "13d2363843d3867951538f0cc7c5ef3efc49e93e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "af8db39b_416c436f",
+        "filename": "AUTHORS",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2022-10-13T19:02:02Z",
+      "side": 1,
+      "message": "From what I can tell, there\u0027s a corporate CLA, I don\u0027t think the additional individual line is needed.\n\n(Though from the internal tool, I\u0027m not actually sure how to map from the name of the corporate entity to the associated email domain. Maybe something we should improve...)",
+      "revId": "13d2363843d3867951538f0cc7c5ef3efc49e93e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
