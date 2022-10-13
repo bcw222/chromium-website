@@ -33,6 +33,24 @@
       "message": "IMO we should not point to go/launch as this is an external facing site, hence most folks are not able to access go/launch. WDYT?",
       "revId": "f277ca5505c5abe65c8b0fe3d0dfdce29d046691",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ad573802_66ab9208",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1396536
+      },
+      "writtenOn": "2022-10-13T11:40:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d524fb75_1df06612",
+      "revId": "f277ca5505c5abe65c8b0fe3d0dfdce29d046691",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
