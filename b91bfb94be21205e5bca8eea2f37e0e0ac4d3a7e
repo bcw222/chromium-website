@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "df93bde7_9dca43bb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1558343
+      },
+      "writtenOn": "2022-10-13T18:51:21Z",
+      "side": 1,
+      "message": "Adding myself and The Browser Company to the AUTHORS file so that this change can be landed.",
+      "revId": "b91bfb94be21205e5bca8eea2f37e0e0ac4d3a7e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
