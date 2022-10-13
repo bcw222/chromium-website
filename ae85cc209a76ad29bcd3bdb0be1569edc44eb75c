@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4313ab21_9233e491",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1558343
+      },
+      "writtenOn": "2022-10-13T18:22:34Z",
+      "side": 1,
+      "message": "Hello! You both were the first two folks suggested as potential reviewers of this file. I was reading through the instructions on the web and saw this small typo and just wanted to quickly change it.",
+      "revId": "ae85cc209a76ad29bcd3bdb0be1569edc44eb75c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
