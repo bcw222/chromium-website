@@ -61,7 +61,7 @@ from being collected. A common practice is to use the chromium module in which
 the code lies, so for example, code in content/renderer gets the "renderer"
 category.****
 
-**TRACE_EVENT1 and 2 allows you to capture 1 and 2 pieces of data long with the
+**TRACE_EVENT1 and 2 allow you to capture 1 and 2 pieces of data along with the
 event. So, for example, this records the paint dimensions number along with the
 paint:**
 
