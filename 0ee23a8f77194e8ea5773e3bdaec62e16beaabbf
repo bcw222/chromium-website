@@ -39,6 +39,30 @@
       },
       "revId": "0ee23a8f77194e8ea5773e3bdaec62e16beaabbf",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cfd110d6_8730f901",
+        "filename": "site/developers/how-tos/trace-event-profiling-tool/tracing-event-instrumentation/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1558343
+      },
+      "writtenOn": "2022-10-17T21:06:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "76fa6484_dc159f79",
+      "range": {
+        "startLine": 64,
+        "startChar": 21,
+        "endLine": 64,
+        "endChar": 27
+      },
+      "revId": "0ee23a8f77194e8ea5773e3bdaec62e16beaabbf",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
