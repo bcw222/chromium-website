@@ -17,6 +17,40 @@
       "parentUuid": "7c63d88b_9f129d9a",
       "revId": "ca8965a2fdd53eda01fed06f226cafebe9737185",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d9940cc1_6a8aad8f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000101
+      },
+      "writtenOn": "2022-10-18T23:00:42Z",
+      "side": 1,
+      "message": "nit: Add one-line subject and wrap the text.\ne.g.\n```\nUpdate video link\n\nVideo in old link is marked private. Based on my discovery of a\nKorean subtitled version of the video (https://www.youtube.com/watch?v\u003d8cUGHLrrGO0), researching the\nstudio credited in the final seconds of the video, the video\nbehind this link is equivalent to the original.\n```",
+      "revId": "ca8965a2fdd53eda01fed06f226cafebe9737185",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ddb7986b_05400884",
+        "filename": "site/chromium-os/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000101
+      },
+      "writtenOn": "2022-10-18T23:00:42Z",
+      "side": 1,
+      "message": "Do we have a google official video somewhere? I am not sure whether it is okay to use a video from external owners.",
+      "revId": "ca8965a2fdd53eda01fed06f226cafebe9737185",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
