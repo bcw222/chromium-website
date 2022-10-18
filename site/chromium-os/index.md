@@ -18,7 +18,7 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 ### Videos
 
 *   [What is Google Chrome
-            OS?](http://www.youtube.com/watch?v=0QRO3gKj3qw)
+            OS?](https://www.youtube.com/watch?v=LwVX42Amcak)
 *   [Chromium OS Security](http://www.youtube.com/watch?v=A9WVmNfgjtQ)
 *   [Chromium OS & Open
             Source](http://www.youtube.com/watch?v=KA5RQv9mBoY)
