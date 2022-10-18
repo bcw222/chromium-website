@@ -39,10 +39,12 @@ Preferences/&lt;username&gt;/com.google.Chrome.plist while recommended policy is
 stored in /Library/Preferences/com.google.Chrome.plist. The plutil command can
 be used from a terminal to convert it to XML format:
 
-*   # sudo -s
-*   # cd /Library/Managed Preferences/&lt;username&gt;
-*   # plutil -convert xml1 com.google.Chrome.plist
-*   # cat com.google.Chrome.plist
+```
+# sudo -s
+# cd /Library/Managed Preferences/<username>;
+# plutil -convert xml1 com.google.Chrome.plist
+# cat com.google.Chrome.plist
+```
 
 For debugging, this file is in a place where it can be edited manually. Chrome
 will pick up the updated preferences automatically. Note that this is not
