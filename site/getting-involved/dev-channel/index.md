@@ -35,40 +35,36 @@ All channels may be run in parallel -- they install into distinct directories
 and use dedicated User Data directories.
 
 *   [Stable channel for Windows
-            (32-bit)](https://www.google.com/chrome/browser/?platform=win)
-*   [Beta channel for Windows
-            (32-bit)](https://www.google.com/chrome/browser/beta.html?platform=win)
+            .com/chrome/browser/?platform=win)
+
+)
 *   [Dev channel for Windows
-            (32-bit)](https://www.google.com/chrome/browser/index.html?extra=devchannel&platform=win)
-*   [Canary build for Windows
-            (32-bit)](https://www.google.com/chrome/browser/canary.html?platform=win)
+er/index.html?extra=devchannel&platform=win)
+*   [Canary build 
+tform=win)
 
-#### Mac
 
-All channels may be run in parallel -- they install into distinct directories
-and use dedicated User Data directories.
 
-*   [Stable channel for
-            Mac](https://www.google.com/chrome/browser/?platform=mac)
+All channels may be run in parallel -- hey install into distinct directories
+
+*   or
+w.google.com/chome/browser/?platform=mac)
 *   [Beta channel for
-            Mac](https://www.google.com/chrome/browser/beta.html?platform=mac&extra=betachannel)
+channel)
 *   [Dev channel for
-            Mac](https://www.google.com/chrome/browser/?platform=mac&extra=devchannel)
-*   [Canary build for
-            Mac](https://www.google.com/chrome/browser/canary.html?platform=mac)
+ww.google.com/chrome/browser/?platform=mac&extra=devchannel)
+*   [Canary or
+=mac)
 
-#### Android
 
-*   [Stable channel for
-            Android](https://play.google.com/store/apps/details?id=com.android.chrome)
-*   [Beta channel for
-            Android](https://play.google.com/store/apps/details?id=com.chrome.beta)
-*   [Dev channel for
-            Android](https://play.google.com/store/apps/details?id=com.chrome.dev)
-*   [Canary channel for
-            Android](https://play.google.com/store/apps/details?id=com.chrome.canary)
 
-#### iOS
+
+            id](https://play.google.com/store/apps/details?id=com.chrome.beta)
+*   [
+
+d=com.chrome.canary)
+
+
 
 *   [Stable channel for
             iOS](https://itunes.apple.com/us/app/chrome-web-browser-by-google/id535886823?mt=8)
