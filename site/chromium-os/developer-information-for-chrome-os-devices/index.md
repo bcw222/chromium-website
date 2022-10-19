@@ -3991,4 +3991,21 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>Yes</td>
   </tr>
+    <tr>
+    <td>2022-09-27</td>
+    <td>HP</td>
+    <td><a href="https://www.hp.com/us-en/shop/pdp/hp-chromebook-x360-133-laptop-13b-ca000-73x68av-1">HP Chromebook x360 13.3" Laptop - 13b-ca000</a></td>
+    <td>Dojo</td>
+    <td>Cherry</td>
+    <td>Cherry</td>
+    <td>arm</td>
+    <td>5.10</td>
+    <td>arm</td>
+    <td>MT8195/MT8195T</td>
+    <td>Convertible</td>
+    <td>R104</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
 </table>
