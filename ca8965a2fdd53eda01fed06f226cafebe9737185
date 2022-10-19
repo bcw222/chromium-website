@@ -36,6 +36,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "60da8227_59a3196b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1172480
+      },
+      "writtenOn": "2022-10-19T20:49:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d9940cc1_6a8aad8f",
+      "revId": "ca8965a2fdd53eda01fed06f226cafebe9737185",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ddb7986b_05400884",
@@ -49,6 +67,24 @@
       "writtenOn": "2022-10-18T23:00:42Z",
       "side": 1,
       "message": "Do we have a google official video somewhere? I am not sure whether it is okay to use a video from external owners.",
+      "revId": "ca8965a2fdd53eda01fed06f226cafebe9737185",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4cd4abc_c1998806",
+        "filename": "site/chromium-os/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1172480
+      },
+      "writtenOn": "2022-10-19T20:49:49Z",
+      "side": 1,
+      "message": "Per the producer\u0027s web site, they have produced videos for over 3000 clients.  So it\u0027s likely that Google had them make it.  Also, as far as I am able to determine, the replacement video is exactly the same as the original, and the title matches the link text.",
+      "parentUuid": "ddb7986b_05400884",
       "revId": "ca8965a2fdd53eda01fed06f226cafebe9737185",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
