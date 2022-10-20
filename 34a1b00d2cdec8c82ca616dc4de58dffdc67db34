@@ -16,6 +16,24 @@
       "message": "Hi Steven\n\nIs there supposed to have some kind of format like below ?\nBUG\u003d\nTEST\u003d\nOr the page modification don\u0027t need such stuff.",
       "revId": "34a1b00d2cdec8c82ca616dc4de58dffdc67db34",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c16b7ac8_387dd522",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1537074
+      },
+      "writtenOn": "2022-10-20T02:08:21Z",
+      "side": 1,
+      "message": "Hi Knox, This CL is generated automatically while editing chrome os devices page.  Take other recent projects for reference (crrev/c/3911756, crrev/c/3867868), I suppose it doesn\u0027t requrie the information template.",
+      "parentUuid": "c054d95c_86b77246",
+      "revId": "34a1b00d2cdec8c82ca616dc4de58dffdc67db34",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
