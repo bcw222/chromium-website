@@ -87,6 +87,24 @@
       "parentUuid": "ddb7986b_05400884",
       "revId": "ca8965a2fdd53eda01fed06f226cafebe9737185",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14539c20_62a2ffae",
+        "filename": "site/chromium-os/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000985
+      },
+      "writtenOn": "2022-10-20T23:35:33Z",
+      "side": 1,
+      "message": "Do we know why the original video was made private? We happen to own YouTube.",
+      "parentUuid": "e4cd4abc_c1998806",
+      "revId": "ca8965a2fdd53eda01fed06f226cafebe9737185",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
