@@ -33,6 +33,24 @@
       "message": "This is the change where the link to the now-private video was first introduced.\n\nhttps://chromium-review.googlesource.com/c/website/+/3286726\n\nDirk, can you shed any light on why that video was selected, why it\u0027s not viewable now, and whether the new link is an acceptable replacement?",
       "revId": "f7bcac08c965e19ca8d39ad8e8383bd70339615d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c206799_bbd73795",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2022-10-21T20:48:59Z",
+      "side": 1,
+      "message": "\u003e This is the change where the link to the now-private video was first introduced.\n\u003e \n\u003e https://chromium-review.googlesource.com/c/website/+/3286726\n\u003e \n\u003e Dirk, can you shed any light on why that video was selected, \n\u003e why it\u0027s not viewable now, and whether the new link is an \n\u003e acceptable replacement?\n\nThat change is just the first change that added that particular file to the repo. The content of this page was imported over from the Google Classic Sites version\nof the website. I have no insight into what the now-private video was, but I\nagree that this looks like a plausible candidate.\n\nThat said, the URL you\u0027re adding to the page is not the one you cite in your\nCL description (unless I\u0027m mistaken somehow). Assuming I\u0027m correct, I\u0027m \nguessing they just got accidentally out of sync, so if you could fix that,\nthat\u0027d be good.\n\nHopefully the Epipheo folks are okay with us linking to it.",
+      "parentUuid": "5c59ac41_1a303c7c",
+      "revId": "f7bcac08c965e19ca8d39ad8e8383bd70339615d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
