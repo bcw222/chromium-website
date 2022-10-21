@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5e86c5dc_88febcaf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1178919
+      },
+      "writtenOn": "2022-10-21T17:12:16Z",
+      "side": 1,
+      "message": "Jonik Grigoyran",
+      "revId": "3e4327a7801d12bc67283d8b83b03a5ac616b84d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
