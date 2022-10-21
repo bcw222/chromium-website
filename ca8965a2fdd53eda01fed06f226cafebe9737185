@@ -105,6 +105,24 @@
       "parentUuid": "e4cd4abc_c1998806",
       "revId": "ca8965a2fdd53eda01fed06f226cafebe9737185",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8da4aea5_db5acad4",
+        "filename": "site/chromium-os/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1172480
+      },
+      "writtenOn": "2022-10-21T16:46:57Z",
+      "side": 1,
+      "message": "More to the point, do we know who commissioned the video in the first place?",
+      "parentUuid": "14539c20_62a2ffae",
+      "revId": "ca8965a2fdd53eda01fed06f226cafebe9737185",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
