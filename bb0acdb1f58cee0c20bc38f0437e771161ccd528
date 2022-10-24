@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "024a4a00_415cbac8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2022-10-24T06:41:58Z",
+      "side": 1,
+      "message": "Oh sorry. I thought dpranke\u0027s review counted here.",
+      "revId": "bb0acdb1f58cee0c20bc38f0437e771161ccd528",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
