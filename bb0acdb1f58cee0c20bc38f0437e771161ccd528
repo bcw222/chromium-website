@@ -16,6 +16,24 @@
       "message": "Oh sorry. I thought dpranke\u0027s review counted here.",
       "revId": "bb0acdb1f58cee0c20bc38f0437e771161ccd528",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0c53e9ce_aa739b6c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2022-10-24T17:34:58Z",
+      "side": 1,
+      "message": "\u003e Oh sorry. I thought dpranke\u0027s review counted here.\n\nYeah, I kinda thought it would too. I must\u0027ve removed myself from the OWNERS\nfile when I went on leave. I suppose I should re-add myself now.",
+      "parentUuid": "024a4a00_415cbac8",
+      "revId": "bb0acdb1f58cee0c20bc38f0437e771161ccd528",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ],
   "submitRequirementResults": [
