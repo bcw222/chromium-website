@@ -1,7 +1,7 @@
 ---
 breadcrumbs: []
 page_name: Home
-title: Chromium
+title: Project Chromium
 ---
 
 <div class="two-column-container">
