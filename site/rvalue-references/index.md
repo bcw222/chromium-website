@@ -235,6 +235,9 @@ after calling std::move() on a variable are:
 
 - Assign to it (ie. replace its contents)
 
+- Call a `reset()` method or similar if it is annotated with
+`REINITIALIZES_AFTER_MOVE` to put the object back into a well-defined state
+
 This applies to member variables too, don't leave your class in an undefined
 state when leaving a method.
 
