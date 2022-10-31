@@ -3,28 +3,32 @@ breadcrumbs:
 - - /chromium-os
   - Chromium OS
 page_name: chrome-os-systems-supporting-linux
-title: Chrome OS Systems Supporting Linux (Beta)
+title: ChromeOS Systems Supporting Linux on ChromeOS
 ---
 
-Linux (Beta), also known as Crostini, is a feature that lets you develop
+Linux on ChromeOS, also known as Crostini, is a feature that lets you develop
 software using your Chromebook. You can install Linux command line tools, code
 editors, and IDEs on your Chromebook. These can be used to write code, create
-apps, and more. Learn more on [The
-Keyword](https://blog.google/products/chromebooks/linux-on-chromebooks/).
+apps, and more. Learn more on [chromeos.dev](https://chromeos.dev/en/linux).
 The Chromebooks, Chromeboxes, and Chromebases launched before 2019 that support
-Linux (Beta) are listed below. Unless otherwise specified, all devices launched
-in 2019 will support Linux (Beta).
+Linux on ChromeOS are listed below.
 
-To learn how to set up Linux (Beta) on supported Chromebooks, [click
-here](https://support.google.com/chromebook/answer/9145439?hl=en).
+> Unless otherwise specified, all devices launched in 2019 and later support
+> Linux on ChromeOS.
+
+To learn how to set up Linux on ChromeOS on supported Chromebooks, [click
+here](https://chromeos.dev/en/linux/setup).
 
 For in-depth technical documentation, [click
 here](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/containers_and_vms.md).
 
 <table>
+<thead>
 <tr>
 <th>Manufacturer
 <th>Device
+</thead>
+<tbody>
 <tr>
 <td>Acer
 <td>
@@ -153,4 +157,5 @@ Chromebook Plus (V2)
 <td>Viglen
 <td>Chromebook 360
 </tr>
+</tbody>
 </table>
