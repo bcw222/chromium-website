@@ -10,6 +10,9 @@ title: User-Agent Reduction
 
 ## Updates
 
+Nov 3rd, 2022: the Phase 5 rollout is enabled for 1% of clients on M107 and
+above via Finch.
+
 June 13th, 2022: the Phase 4 rollout is enabled for 100% of clients on M101 and
 above via Finch.
 
