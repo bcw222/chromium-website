@@ -1,63 +1,64 @@
-# Steam on Chrome OS Alpha
+# Steam on ChromeOS Beta
 
-Beginning with **Chrome OS 14583.0.0**, the Dev channel will include an early,
-alpha-quality version of Steam on Chrome OS for a small set of recent
-Chromebooks. If you have one of these Chromebooks (listed below) and decide to
-give it a try, please send your feedback - we are in active development and want
-to incorporate as much user input as possible.
+Beginning with **Chrome OS 108.0.5359.24**, the Beta channel will include an early, 
+beta-quality version of Steam on ChromeOS for a set of [recent Chromebooks](#supported-devices). 
+If you have one of these Chromebooks and decide to give it a try, please send your feedback, 
+we are in active development and want to incorporate as much user input as possible.
 
-## What do we mean by alpha?
+**Note: DLC for Beta channel is in process of rolling out. You may see errors installing
+Steam on Chromebook until the rollout is complete, even on 108.0.5359.24.**
 
-Alpha means **anything can break**. Due to the inherent instability of the Dev
-channel and the in-progress nature of this feature, we don’t recommend trying
-this on a Chromebook that you rely on for work, school, or other daily
-activities. You will encounter crashes, performance regressions, and
-never-before-seen bugs - that’s part of the fun!
+## What do we mean by beta?
+
+Major issues affecting the whole system should be uncommon, 
+and hundreds of Steam games are now playable on a wider variety of Chromebooks. 
+However, many other games do not run or run poorly, 
+parts of the user experience are not release-quality, 
+and some OS-level features are still in development (see [Known Issues](#known-issues)).
 
 ## Supported Devices
 
 Because many games have high performance demands, we’ve focused our efforts thus
-far on a set of devices where more games can run well. Currently, Steam can be
-enabled in the Dev channel on configurations of these Chromebooks with Intel
-Iris Xe Graphics, 11th Gen Core i5 or i7 processors, and at least 8GB of RAM:
+far on a set of devices where more games can run well. 
+Currently, Steam can be enabled in the beta channel on configurations of these Chromebooks 
+with Core i3/Ryzen 3 or higher CPUs and at least 8GB of RAM:
 
 *   [Acer Chromebook 514 (CB514-1W)](https://www.acer.com/ac/en/US/content/series/acerchromebook514cb5141w)
 *   [Acer Chromebook 515 (CB515-1W)](https://www.acer.com/ac/en/US/content/series/acerchromebook515cb5151w)
+*   [Acer Chromebook 516 GE](https://www.acer.com/us-en/chromebooks/acer-chromebook-516-ge-cbg516-1h)
+*   [Acer Chromebook Spin 514 (CP514-3H, CP514-3HH, CP514-3WH)](https://www.acer.com/us-en/chromebooks/acer-chromebook-spin-514-cp514-3h-cp514-3hh-cp514-3wh)
 *   [Acer Chromebook Spin 713 (CP713-3W)](https://www.acer.com/ac/en/US/content/series/acerchromebookspin713cp7133w)
-*   [ASUS Chromebook Flip CX5 (CX5500)](https://www.asus.com/us/Laptops/For-Home/Chromebook/ASUS-Chromebook-Flip-CX5-CX5500/)
+*   [Acer Chromebook Spin 714 (CP714-1WN)](https://www.acer.com/us-en/chromebooks/acer-chromebook-enterprise-spin-714-cp714-1wn)
+*   [Acer Chromebook Vero 514](https://www.acer.com/us-en/chromebooks/acer_chromebook_vero_514_cbv514-1h_cbv514-1ht/index.html)
 *   [ASUS Chromebook CX9 (CX9400)](https://www.asus.com/us/Laptops/For-Work/Chromebook/ASUS-Chromebook-CX9-CX9400-11th-Gen-Intel/)
+*   [ASUS Chromebook Flip CX5 (CX5500)](https://www.asus.com/us/Laptops/For-Home/Chromebook/ASUS-Chromebook-Flip-CX5-CX5500/)
+*   [ASUS Chromebook Flip CX5 (CX5601)](https://www.asus.com/us/Laptops/For-Home/Chromebook/ASUS-Chromebook-Flip-CX5-CX5601-12th-Gen-Intel/)
+*   [ASUS Chromebook Vibe CX55 Flip](https://www.asus.com/Laptops/For-Home/Chromebook/ASUS-Chromebook-Vibe-CX55-Flip-CX5501-11th-Gen-Intel/)
+*   [Framework Laptop Chromebook Edition](https://frame.work/products/laptop-chromebook-12-gen-intel)
+*   [HP Elite c640 14 inch G3 Chromebook](https://www.hp.com/us-en/shop/pdp/hp-elite-c640-14-g3-chromebook-customizable-5z8l4av-mb)
+*   [HP Elite c645 G2 Chromebook](https://www.hp.com/us-en/shop/pdp/hp-elite-c645-14-g2-chromebook-customizable-5z9h1av-mb)
+*   [HP Elite Dragonfly Chromebook](https://www.hp.com/us-en/shop/pdp/hp-elite-dragonfly-135-chromebook-enterprise-pc-customizable-5b955av-mb)
 *   [HP Pro c640 G2 Chromebook](https://www.hp.com/us-en/cloud-computing/chrome-enterprise/hp-pro-c640-chromebook.html)
-*   [Lenovo 5i-14 Chromebook](https://www.lenovo.com/us/en/p/laptops/lenovo/lenovo-edu-chromebooks/5i-chromebook-gen-6-\(14-intel\)/wmd00000481)
-
-Note: Configurations of these devices with an i3 CPU or 4GB of RAM are **not**
-supported.
-
-Additionally, there are two known issues that affect particular device
-configurations:
-*  Devices with 8GB of RAM may encounter issues in games that require 6GB of
-RAM or more.
-*  Devices with display resolutions greater than 1080p may encounter
-performance and scaling issues.
-
-We are actively investigating ways to improve these issues.
+*   [IdeaPad Gaming Chromebook 16](https://www.google.com/chromebook/discover/pdp-ideapad-gaming-chromebook-16/sku-ideapad-gaming-chromebook-16-8gb-128gb/)
+*   [Lenovo 5i-14 Chromebook](https://www.lenovo.com/us/en/p/laptops/lenovo/lenovo-edu-chromebooks/5i-chromebook-gen-6-%2814-intel%29/wmd00000481)
+*   [Lenovo Flex 5i Chromebook 14](https://www.lenovo.com/us/en/p/laptops/ideapad/ideapad-flex-series/ideapad-flex-5i-chromebook-gen-7-%2814-inch-intel%29/len101i0035)
+*   [Lenovo ThinkPad C14](https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadc/thinkpad-c14-chromebook-enterprise-%2814-inch-intel%29/len101t0022)
 
 This list will be updated as new models and configurations are enabled.
 
 ## Instructions
 
-Note: Dev channel is inherently less stable. We don’t recommend trying this on a
-Chromebook that you rely on for work, school, or other daily activities. Before
-you switch channels, backup your data.
-
 1.  On your supported Chromebook,
-    [switch to Dev channel.](https://www.google.com/support/chromeos/bin/answer.py?answer=1086915)
+    [switch to Beta channel.](https://www.google.com/support/chromeos/bin/answer.py?answer=1086915)
 2.  After updating, navigate to chrome://flags. Set #borealis-enabled to Enabled.
-3.  After restarting, open a crosh terminal with ctrl+alt+t.
-4.  Type “insert_coin volteer-JOlkth573FBLGa” and hit enter.
-5.  Follow the setup flow to install Steam.
-6.  Log in with your Steam account and start playing!
+3.  After restarting, open the ChromeOS launcher, search for Steam, and select the top result.
+4.  Follow the setup flow to install Steam.
+5.  Log in with your Steam account and start playing!
 
-We recommend trying games from the list below, as not all games currently work
+If for whatever reason searching for Steam in the launcher doesn't work, 
+you can open a crosh terminal with ctrl+alt+t and enter `insert_coin`.
+
+We recommend trying games from the [list below](#game-list), as not all games currently work
 well. Rest assured we are actively working to support as many titles as
 possible.
 
@@ -69,33 +70,25 @@ description of your issue and “#steam” so we can triage it quickly.
 
 These are some issues you may encounter when using Steam on Chrome OS:
 
-|Category      | Known Issue|
-|------------- | -----------|
-|Compatibility | |
-| | [Easy Anti-Cheat and BattlEye do not yet work with Proton on Chrome OS](https://issuetracker.google.com/issues/225082536)|
-| | [Proton titles using DX12 fail to start](https://issuetracker.google.com/issues/224849878)|
-| | [Some Proton games have incorrect window placement, including offscreen](https://issuetracker.google.com/issues/224834525)|
-| | [Some titles have occasional rendering artifacts and glitches](https://issuetracker.google.com/issues/224850235)|
-|Performance   | |
-| | [First few minutes of gameplay have poor performance for some titles](https://issuetracker.google.com/issues/224858407)|
-| | ["Processing Vulkan shaders" occurs frequently and can take a long time](https://issuetracker.google.com/issues/224848059)|
-| | [Some games work with 16GB RAM but not 8GB RAM](https://issuetracker.google.com/issues/225082848)|
-| Display     | |
-| | [External monitors are not supported and have unexpected behavior](https://issuetracker.google.com/issues/224859456)|
-| | [4K and 2K displays have issues with performance and scaling](https://issuetracker.google.com/issues/224848902)|
-| UI | |
-| | [Some languages (Chinese, Japanese, Korean, and Thai) are missing fonts](https://issuetracker.google.com/issues/224859554)|
-| | [Timezone for Steam and games is different from device](https://issuetracker.google.com/issues/224859460)|
-| Input       | |
-| | [Launcher key & keyboard shortcuts don't work when Steam/a game is focused](https://issuetracker.google.com/issues/224859546)|
-| | [Plugging in a controller during gameplay may not be recognized](https://issuetracker.google.com/issues/224851350)|
-| | [Gamepads that are not designated WWCB may not work correctly](https://issuetracker.google.com/issues/225083178)|
-| Audio      | |
-| | [Audio quality in Steam voice chat is poor](https://issuetracker.google.com/issues/224851318)|
-| Storage     | |
-| | [Games may fail to install citing a disk error](https://issuetracker.google.com/issues/225083197)|
-| | [External storage is not yet supported](https://issuetracker.google.com/issues/225083207)|
-| Power       | |
+|Category      | Known Issue| Workaround |
+|------------- | -----------|  -----------|
+|Compatibility | | |
+| | [Easy Anti-Cheat and BattlEye do not yet work with Proton on Chrome OS](https://issuetracker.google.com/issues/225082536)| |
+| | [Some Proton games have incorrect window placement, including offscreen](https://issuetracker.google.com/issues/224834525)| Try pressing fullscreen key |
+|Performance   | | |
+| | [First few minutes of gameplay have poor performance for some titles](https://issuetracker.google.com/issues/224858407)| |
+| | ["Processing Vulkan shaders" occurs frequently and can take a long time](https://issuetracker.google.com/issues/224848059)| Enable “Allow background processing of Vulkan shaders” in Steam settings. Will impact battery life. |
+| | [Some games work with 16GB RAM but not 8GB RAM](https://issuetracker.google.com/issues/225082848)| |
+| Display     | | |
+| | [External monitors are not supported and have unexpected behavior](https://issuetracker.google.com/issues/224859456)| |
+| | [Client UI scaling is not ideal on high DPI displays](https://issuetracker.google.com/issues/257077318) | Enable #borealis-force-double-scale in chrome://flags |
+| Input       | | |
+| | [Gamepads that are not designated WWCB may not work correctly](https://issuetracker.google.com/issues/225083178)| |
+| Audio      | | |
+| | [Audio quality in Steam voice chat is poor](https://issuetracker.google.com/issues/224851318)| |
+| Storage     | | |
+| | [External storage is not yet supported](https://issuetracker.google.com/issues/225083207)| |
+| Power       | | |
 | | [Device will not sleep when Steam or a game is focused](https://issuetracker.google.com/issues/225083268)|
 | | [Steam and games sometimes freeze when device is asleep](https://issuetracker.google.com/issues/224848735)|
 
@@ -105,61 +98,111 @@ Please report any other issues you see via the Send Feedback dialog with tag
 ## Game List
 
 These are some games that we’ve tried ourselves and think you might enjoy. Some
-will require enabling Steam Play in order to install (see below), others may
+will require enabling Steam Play in order to install ([see below](#steam-play)), others may
 work better on models with higher specs (like 16GB RAM).
 
-| Game                           | Tips and Known Issues                       |
-| ------------------------------ | ------------------------------------------- |
-| [Portal 2]                     |                                             |
-| [Hades]                        | Select Vulkan version at launch             |
-| [Age of Empires II: Definitive Edition]| |
-| [World of Tanks Blitz]         |                                             |
-| [The Elder Scrolls V: SSE]  | Set quality to medium or low. i7 recommended|
-| [Vampire Survivors]            |                                          |
-| [Team Fortress 2] | Disable multicore rendering (Options>Graphics>Advanced)|
-| [Euro Truck Simulator 2]       |                                             |
-| [Dead Cells]                   |                                             |
-|[The Witcher 3: Wild Hunt]|Graphics & postprocessing to med/low. i7 required|
-| [Celeste]                      |                                             |
-| [Unturned]                     |                                             |
-| [Half-Life 2]                  |                                             |
-| [Stardew Valley]               |                                             |
-| [PAYDAY 2]                     |                                             |
-| [Terraria]                     |                                             |
-| [Sid Meier's Civilization V]   |                                             |
-| [Project Zomboid]              |                                             |
-| [RimWorld]                     |                                             |
-| [Left 4 Dead 2]                |                                             |
-| [Stellaris]                    |                                             |
-| [Bloons TD 6]                  |                                             |
-| [Factorio]                     |                                             |
-| [Divinity: Original Sin 2] | Set Graphics Quality Preset to Medium or lower|
-| [Geometry Dash]                |                                             |
-| [Human: Fall Flat]             | Set Advanced Video to Medium or lower       |
-| [Overcooked! 2]                |                                             |
-| [Hollow Knight]                |                                             |
-| [Tabletop Simulator]           |                                             |
-| [Killer Queen Black]           |                                             |
-| [Slay the Spire]               |                                             |
-| [Cuphead]                      |                                             |
-| [TEKKEN 7]                     |                                             |
-| [Loop Hero]                    |                                             |
-| [Kerbal Space Program]         |                                             |
-| [Grim Dawn]                    |                                             |
-| [RISK: Global Domination]      |                                             |
-| [Northgard]                    |                                             |
-| [Fishing Planet]               |                                             |
-| [Don't Starve Together]        |                                             |
-| [Farm Together]                |                                             |
-| [Darkest Dungeon®]             |                                             |
-| [The Jackbox Party Pack 8]     | Other party packs work well too!            |
-| [Baba Is You]                  |                                             |
-| [A Short Hike]                 |                                             |
-| [Fallout 4]       | Set graphics quality to medium or lower. i7 recommended|
-| [Return of the Obra Dinn]      |                                             |
-| [Disco Elysium]                | Long load time on initial launch            |
-| [Escape Simulator]             |                                             |
-| [Untitled Goose Game]          |                                             |
+| Game                                                                                      | Tips and Known Issues                                       |
+| ----------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| [A Short Hike](https://store.steampowered.com/app/1055540)                                |                                                             |
+| [Age of Empires II: Definitive Edition](https://store.steampowered.com/app/813780)        |                                                             |
+| [Age of Mythology: Extended Edition](https://store.steampowered.com/app/266840)           |                                                             |
+| [ASTRONEER](https://store.steampowered.com/app/361420)                                    |                                                             |
+| [Baba Is You](https://store.steampowered.com/app/736260)                                  |                                                             |
+| [Besiege](https://store.steampowered.com/app/346010)                                      |                                                             |
+| [Bloons TD 6](https://store.steampowered.com/app/960090)                                  |                                                             |
+| [Bloons TD Battles 2](https://store.steampowered.com/app/1276390)                         |                                                             |
+| [CARRION](https://store.steampowered.com/app/953490)                                      |                                                             |
+| [Celeste](https://store.steampowered.com/app/504230)                                      |                                                             |
+| [Core Keeper](https://store.steampowered.com/app/1621690)                                 |                                                             |
+| [Cult of the Lamb](https://store.steampowered.com/app/1313140)                            |                                                             |
+| [Cultist Simulator](https://store.steampowered.com/app/718670)                            |                                                             |
+| [Cuphead](https://store.steampowered.com/app/268910)                                      |                                                             |
+| [DARK SOULS™: REMASTERED](https://store.steampowered.com/app/570940)                      |                                                             |
+| [Darkest Dungeon®](https://store.steampowered.com/app/262060)                             |                                                             |
+| [Dead Cells](https://store.steampowered.com/app/588650)                                   |                                                             |
+| [Deus Ex: Human Revolution - Director's Cut](https://store.steampowered.com/app/238010)   |                                                             |
+| [Dicey Dungeons](https://store.steampowered.com/app/861540)                               |                                                             |
+| [Disco Elysium](https://store.steampowered.com/app/632470)                                | Long load time on initial launch                            |
+| [Dishonored](https://store.steampowered.com/app/205100)                                   |                                                             |
+| [Disney Dreamlight Valley](https://store.steampowered.com/app/1401590)                    |                                                             |
+| [Divinity: Original Sin 2](https://store.steampowered.com/app/435150)                     | Set Graphics Quality Preset to Medium or lower              |
+| [Dome Keeper](https://store.steampowered.com/app/1637320)                                 |                                                             |
+| [Don't Starve Together](https://store.steampowered.com/app/322330)                        |                                                             |
+| [DOOM](https://store.steampowered.com/app/379720)                                         |                                                             |
+| [Dorfromantik](https://store.steampowered.com/app/1455840)                                |                                                             |
+| [Enter the Gungeon](https://store.steampowered.com/app/311690)                            |                                                             |
+| [Escape Simulator](https://store.steampowered.com/app/1435790)                            |                                                             |
+| [Euro Truck Simulator 2](https://store.steampowered.com/app/227300)                       |                                                             |
+| [Factorio](https://store.steampowered.com/app/427520)                                     |                                                             |
+| [Fallout 4](https://store.steampowered.com/app/377160)                                    | Set graphics quality to medium or lower. 16GB recommended   |
+| [Farm Together](https://store.steampowered.com/app/673950)                                |                                                             |
+| [Fishing Planet](https://store.steampowered.com/app/380600)                               |                                                             |
+| [Football Manager 2022](https://store.steampowered.com/app/1569040)                       |                                                             |
+| [For The King](https://store.steampowered.com/app/527230)                                 |                                                             |
+| [Gang Beasts](https://store.steampowered.com/app/285900)                                  |                                                             |
+| [Geometry Dash](https://store.steampowered.com/app/322170)                                |                                                             |
+| [Grim Dawn](https://store.steampowered.com/app/219990)                                    |                                                             |
+| [Gunfire Reborn](https://store.steampowered.com/app/1217060)                              |                                                             |
+| [Hades](https://store.steampowered.com/app/1145360)                                       | Select default version at launch                            |
+| [Half-Life 2](https://store.steampowered.com/app/220)                                     |                                                             |
+| [Hearts of Iron IV](https://store.steampowered.com/app/394360)                            |                                                             |
+| [Hollow Knight](https://store.steampowered.com/app/367520)                                |                                                             |
+| [Human: Fall Flat](https://store.steampowered.com/app/477160)                             | Set Advanced Video to Medium or lower                       |
+| [Inscryption](https://store.steampowered.com/app/1092790)                                 |                                                             |
+| [Into the Breach](https://store.steampowered.com/app/590380)                              |                                                             |
+| [Katamari Damacy REROLL](https://store.steampowered.com/app/848350)                       |                                                             |
+| [Kerbal Space Program](https://store.steampowered.com/app/220200)                         |                                                             |
+| [Killer Queen Black](https://store.steampowered.com/app/663670)                           |                                                             |
+| [Left 4 Dead 2](https://store.steampowered.com/app/550)                                   |                                                             |
+| [Loop Hero](https://store.steampowered.com/app/1282730)                                   |                                                             |
+| [Mini Metro](https://store.steampowered.com/app/287980)                                   |                                                             |
+| [Mirror's Edge](https://store.steampowered.com/app/17410)                                 |                                                             |
+| [Monster Train](https://store.steampowered.com/app/1102190)                               |                                                             |
+| [Muck](https://store.steampowered.com/app/1625450)                                        |                                                             |
+| [Northgard](https://store.steampowered.com/app/466560)                                    |                                                             |
+| [OCTOPATH TRAVELER](https://store.steampowered.com/app/921570)                            |                                                             |
+| [Ori and the Blind Forest: Definitive Edition](https://store.steampowered.com/app/387290) |                                                             |
+| [Overcooked! 2](https://store.steampowered.com/app/728880)                                |                                                             |
+| [Oxygen Not Included](https://store.steampowered.com/app/457140)                          |                                                             |
+| [Papers, Please](https://store.steampowered.com/app/239030)                               |                                                             |
+| [PAYDAY 2](https://store.steampowered.com/app/218620)                                     |                                                             |
+| [Portal 2](https://store.steampowered.com/app/620)                                        |                                                             |
+| [Prey](https://store.steampowered.com/app/480490)                                         |                                                             |
+| [Project Zomboid](https://store.steampowered.com/app/108600)                              |                                                             |
+| [Return of the Obra Dinn](https://store.steampowered.com/app/653530)                      |                                                             |
+| [RimWorld](https://store.steampowered.com/app/294100)                                     |                                                             |
+| [RISK: Global Domination](https://store.steampowered.com/app/1128810)                     |                                                             |
+| [Shatter Remastered Deluxe](https://store.steampowered.com/app/1937230)                   |                                                             |
+| [Shop Titans](https://store.steampowered.com/app/1258080)                                 |                                                             |
+| [Sid Meier's Civilization V](https://store.steampowered.com/app/8930)                     |                                                             |
+| [Slay the Spire](https://store.steampowered.com/app/646570)                               |                                                             |
+| [Slime Rancher](https://store.steampowered.com/app/433340)                                |                                                             |
+| [STAR WARS™: The Old Republic™](https://store.steampowered.com/app/1286830)               |                                                             |
+| [Stardew Valley](https://store.steampowered.com/app/413150)                               |                                                             |
+| [Stellaris](https://store.steampowered.com/app/281990)                                    |                                                             |
+| [Stormworks: Build and Rescue](https://store.steampowered.com/app/573090)                 |                                                             |
+| [Stumble Guys](https://store.steampowered.com/app/1677740)                                |                                                             |
+| [Subnautica](https://store.steampowered.com/app/264710)                                   |                                                             |
+| [SUPERHOT](https://store.steampowered.com/app/322500)                                     |                                                             |
+| [Tabletop Simulator](https://store.steampowered.com/app/286160)                           |                                                             |
+| [Team Fortress 2](https://store.steampowered.com/app/440)                                 | Disable multicore rendering (Options > Graphics > Advanced) |
+| [Terraria](https://store.steampowered.com/app/105600)                                     |                                                             |
+| [Tetris® Effect: Connected](https://store.steampowered.com/app/1003590)                   |                                                             |
+| [The Battle of Polytopia](https://store.steampowered.com/app/874390)                      |                                                             |
+| [The Elder Scrolls V: Skyrim Special Edition](https://store.steampowered.com/app/489830)  | Set graphics quality to medium or lower. 16GB recommended.  |
+| [The Jackbox Party Pack 8](https://store.steampowered.com/app/1552350)                    | Other party packs work well too!                            |
+| [The Witcher 3: Wild Hunt](https://store.steampowered.com/app/292030)                     | Set graphics and postprocessing to low. 16GB required.      |
+| [Tomb Raider](https://store.steampowered.com/app/203160)                                  | Use Proton 7.0-4                                            |
+| [Totally Accurate Battle Simulator](https://store.steampowered.com/app/508440)            |                                                             |
+| [TUNIC](https://store.steampowered.com/app/553420)                                        |                                                             |
+| [Two Point Hospital](https://store.steampowered.com/app/535930)                           |                                                             |
+| [Untitled Goose Game](https://store.steampowered.com/app/837470)                          |                                                             |
+| [Unturned](https://store.steampowered.com/app/304930)                                     |                                                             |
+| [Vampire Survivors](https://store.steampowered.com/app/1794680)                           | May need to use public beta.                                |
+| [Wingspan](https://store.steampowered.com/app/1054490)                                    |                                                             |
+| [Wolfenstein: The New Order](https://store.steampowered.com/app/201810)                   |                                                             |
+| [World of Tanks Blitz](https://store.steampowered.com/app/444200)                         |                                                             |
+| [Yu-Gi-Oh! Master Duel](https://store.steampowered.com/app/1449850)                       |                                                             |
 
 Regardless of what games you play, please send feedback about how well it worked
 and any issues you encountered during gameplay using the post-game survey.
@@ -185,6 +228,22 @@ To enable Steam Play for all relevant titles:
 *   Select “Steam Play”
 *   Check “Enable Steam Play for all other titles”
 *   Select a version. We recommend Proton Experimental
+
+## Optimizing Performance
+
+Many games will attempt to automatically adjust their performance-related settings based on your device’s specs. 
+However, you may want to manually adjust in-game settings to optimize performance further. 
+Here are some common steps we recommend trying:
+
+*   Reduce game resolution. This is particularly true on devices with very high resolution displays, like cloud gaming Chromebooks.
+*   Close other windows. Other apps and websites may be using resources in the background. 
+Try closing them to free up those resources for the game.
+*   Disable v-sync. Users have reported that some games benefit significantly from disabling v-sync when running on Chromebooks. 
+We’re looking into this, but in the meantime try disabling it if you’re having performance issues. 
+Re-enable if graphics artifacts occur.
+*   Reduce graphics presets. “Medium” or “Low” is generally a good setting to try.
+
+In all cases, please note in your gameplay report what you tried and what the impact is to help us investigate.
 
 ## Export data
 
@@ -216,7 +275,7 @@ copy them from that directory.
 
 ## FAQ
 
-Q: When will Steam come to Beta or Stable channel?
+Q: When will Steam come to Stable channel?
 
 A: We don’t have a specific date to commit to. We’ll expand availability
 when we feel the product is ready.
@@ -251,57 +310,3 @@ game is already on Steam and runs on Linux (with or without Proton), you can try
 it using the instructions above. If you encounter Chrome OS specific bugs with
 your game, have particular workflows you’d like supported, or are otherwise
 interested in working with us, please reach out to borealis-game-dev@google.com.
-
-[Portal 2]:https://store.steampowered.com/app/620
-[Hades]:https://store.steampowered.com/app/1145360
-[Age of Empires II: Definitive Edition]:
-https://store.steampowered.com/app/813780
-[World of Tanks Blitz]:https://store.steampowered.com/app/444200
-[The Elder Scrolls V: SSE]:https://store.steampowered.com/app/489830
-[Vampire Survivors]:https://store.steampowered.com/app/1794680
-[Team Fortress 2]:https://store.steampowered.com/app/440
-[Euro Truck Simulator 2]:https://store.steampowered.com/app/227300
-[Dead Cells]:https://store.steampowered.com/app/588650
-[The Witcher 3: Wild Hunt]:
-https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/
-[Celeste]:https://store.steampowered.com/app/504230
-[Unturned]:https://store.steampowered.com/app/304930
-[Half-Life 2]:https://store.steampowered.com/app/220
-[Stardew Valley]:https://store.steampowered.com/app/413150
-[PAYDAY 2]:https://store.steampowered.com/app/218620
-[Terraria]:https://store.steampowered.com/app/105600
-[Sid Meier's Civilization V]:https://store.steampowered.com/app/8930
-[Project Zomboid]:https://store.steampowered.com/app/108600
-[RimWorld]:https://store.steampowered.com/app/294100
-[Left 4 Dead 2]:https://store.steampowered.com/app/550
-[Stellaris]:https://store.steampowered.com/app/281990
-[Bloons TD 6]:https://store.steampowered.com/app/960090
-[Factorio]:https://store.steampowered.com/app/427520
-[Divinity: Original Sin 2]:https://store.steampowered.com/app/435150
-[Geometry Dash]:https://store.steampowered.com/app/322170
-[Human: Fall Flat]:https://store.steampowered.com/app/477160
-[Overcooked! 2]:https://store.steampowered.com/app/728880
-[Hollow Knight]:https://store.steampowered.com/app/367520
-[Tabletop Simulator]:https://store.steampowered.com/app/286160
-[Killer Queen Black]:
-https://store.steampowered.com/app/663670/Killer_Queen_Black/
-[Slay the Spire]:https://store.steampowered.com/app/646570
-[Cuphead]:https://store.steampowered.com/app/268910
-[TEKKEN 7]:https://store.steampowered.com/app/389730
-[Loop Hero]:https://store.steampowered.com/app/1282730
-[Kerbal Space Program]:https://store.steampowered.com/app/220200
-[Grim Dawn]:https://store.steampowered.com/app/219990
-[RISK: Global Domination]:https://store.steampowered.com/app/1128810
-[Northgard]:https://store.steampowered.com/app/466560
-[Fishing Planet]:https://store.steampowered.com/app/380600
-[Don't Starve Together]:https://store.steampowered.com/app/322330
-[Farm Together]:https://store.steampowered.com/app/673950
-[Darkest Dungeon®]:https://store.steampowered.com/app/262060
-[The Jackbox Party Pack 8]:https://store.steampowered.com/app/1552350
-[Baba Is You]:https://store.steampowered.com/app/736260
-[A Short Hike]:https://store.steampowered.com/app/1055540
-[Fallout 4]:https://store.steampowered.com/app/377160/Fallout_4/
-[Return of the Obra Dinn]:https://store.steampowered.com/app/653530
-[Disco Elysium]:https://store.steampowered.com/app/632470
-[Escape Simulator]:https://store.steampowered.com/app/1435790/Escape_Simulator/
-[Untitled Goose Game]:https://store.steampowered.com/app/837470
