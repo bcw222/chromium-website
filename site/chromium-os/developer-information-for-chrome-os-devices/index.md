@@ -3838,6 +3838,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>Yes</td>
   </tr>
+    <tr>
+    <td>2021-11-30</td>
+    <td>Fujitsu</td>
+    <td><a href="https://www.fmworld.net/fmv/cb/">FMV Chromebook 14F, FMV Chromebook WM1/F3</a></td>
+    <td>Chronicler</td>
+    <td>volteer</td>
+    <td>volteer</td>
+    <td>x86_64</td>
+    <td>5.4</td>
+    <td>x86_64</td>
+    <td>TigerLake-UP3</td>
+    <td>Clamshell</td>
+    <td>M93</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
   <tr>
     <td>2021-12-31</td>
     <td>Acer</td>
