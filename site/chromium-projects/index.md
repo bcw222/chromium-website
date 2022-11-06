@@ -35,7 +35,8 @@ Looking for Google Chrome?
 Chromium OS is an open-source project that aims to provide a fast, simple, and
 more secure computing experience for people who spend most of their time on the
 web. Learn more about the [project
-goals](https://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.html),
+goals](https://googleblog.blogspot.com/2007
+/11/releasing-chromium-os-open-source.html),
 obtain the latest build, and learn how you can get involved, submit code, and
 file bugs.
 
