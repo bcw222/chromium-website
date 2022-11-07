@@ -4060,6 +4060,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Yes</td>
   </tr>
   <tr>
+    <td>2022-08-31</td>
+    <td>Acer</td>
+    <td><a href="https://www.acer.com/us-en/chromebooks/acer-chromebook-516-ge-cbg516-1h">Acer Chromebook 516 GE (CBG516-1H)</a></td>
+    <td>Osiris</td>
+    <td>Brya</td>
+    <td>Brya</td>
+    <td>x86_64</td>
+    <td>5.10</td>
+    <td>x86_64</td>
+    <td>Alder Lake</td>
+    <td>Clamshell</td>
+    <td>R105</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
+  <tr>
     <td>2022-11-28</td>
     <td>Framework</td>
     <td><a href="https://frame.work/laptop-chromebook-12-gen-intel/">Framework Laptop Chromebook Edition</a></td>
