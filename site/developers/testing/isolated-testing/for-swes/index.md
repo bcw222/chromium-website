@@ -105,8 +105,7 @@ By login first, you have access tokens so that the following commands do not
 have to constantly prompt for your identity. You only need to do this once:
 
 ```none
-python tools/swarming_client/auth.py login --service=https://isolateserver.appspot.com 
-python tools/swarming_client/auth.py login --service=https://chromium-swarm.appspot.com 
+luci-auth login
 ```
 
 If you are running through a text only session on a remote machine, append
@@ -119,9 +118,9 @@ Swarming bot. It is generated via GN "data" and "data_deps" statements, and is
 processed by mb.py:
 
 ```none
-ninja -C out/Release base_unittests
+ninja -C out/Release base_unittests.exe
 echo gn > out/Release/mb_type  # Must be done once to avoid mb.py from performing a clobber
-python tools/mb/mb.py isolate //out/Release base_unittests # Creates out/Release/base_unittests.isolate
+python3 tools\mb\mb.py isolate //out/Release base_unittests # Creates out/Release/base_unittests.isolate
 ```
 
 #### 3. Compute .isolated file and upload it
@@ -133,10 +132,11 @@ Depending on your connection speed and the size of the executable, it may take
 up to a minute:
 
 ```none
-python tools/swarming_client/isolate.py archive \
-    -I https://isolateserver.appspot.com \
-    -i out/Debug/base_unittests.isolate \
-    -s out/Debug/base_unittests.isolated
+tools\luci-go\isolate archive \
+  -i out\Release\base_unittests.isolate \
+  -cas-instance chromium-swarm
+
+
 ```
 
 #### 4. Trigger the task
@@ -145,13 +145,12 @@ That's where a task is requested, specifying the isolated (tree of SHA-1 of
 files to map in):
 
 ```none
-python tools/swarming_client/swarming.py trigger \
-    -S chromium-swarm.appspot.com \
-    -I isolateserver.appspot.com \
-    -d os Android \
-    -d pool Chrome \
-    -d gpu none \
-    -s <hash printed at step 3>
+tools\luci-go\swarming trigger \
+ -digest <hash from step3> \
+  -server chromium-swarm.appspot.com \
+  -d os=Windows-10-19042 \
+  -d pool=chromium.tests \
+  -d cpu=x86-64 -- out\Release\base_unittests.exe
 ```
 
 Wait for results. OS currently available:
@@ -161,7 +160,7 @@ Wait for results. OS currently available:
 *   Windows-2008ServerR2-SP1 (64 bits)
 *   Windows-10-15063 (64 bits)
 *   Ubuntu-14.04 and Ubuntu-16.04 (64 bits)
-*   Mac-10.9 to Mac-10.13
+*   Mac-10.13 to Mac-13
 
 For other available --dimension values, look at Swarming bots e.g.:
 <https://chromium-swarm.appspot.com/botlist>.
