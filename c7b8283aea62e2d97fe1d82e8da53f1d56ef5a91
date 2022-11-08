@@ -147,6 +147,54 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c61b027d_0c0323f2",
+        "filename": "site/developers/testing/isolated-testing/for-swes/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2022-11-08T23:43:01Z",
+      "side": 1,
+      "message": "Cool, thanks. I got sidetracked trying to download an existing trybot build to see what it was doing, which is why I downloaded cas, and then found I could login using it.",
+      "parentUuid": "2a5805cd_8fb6da35",
+      "range": {
+        "startLine": 110,
+        "startChar": 0,
+        "endLine": 112,
+        "endChar": 13
+      },
+      "revId": "c7b8283aea62e2d97fe1d82e8da53f1d56ef5a91",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1fa891ca_60aa132d",
+        "filename": "site/developers/testing/isolated-testing/for-swes/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2022-11-08T23:43:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "67495aa9_794dcbef",
+      "range": {
+        "startLine": 110,
+        "startChar": 0,
+        "endLine": 112,
+        "endChar": 13
+      },
+      "revId": "c7b8283aea62e2d97fe1d82e8da53f1d56ef5a91",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8528a354_746ade4f",
@@ -164,6 +212,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "455c834c_fb6b98c6",
+        "filename": "site/developers/testing/isolated-testing/for-swes/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2022-11-08T23:43:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8528a354_746ade4f",
+      "revId": "c7b8283aea62e2d97fe1d82e8da53f1d56ef5a91",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d0aa50c0_f4559baa",
@@ -177,6 +243,24 @@
       "writtenOn": "2022-11-08T22:26:28Z",
       "side": 1,
       "message": "This looks approximately correct, so I\u0027m fine with landing this.\n\nHowever, you can replace steps 2 - 5 with `mb run --swarmed`, so we might want to just do that in a different CL, one that focuses on that.",
+      "revId": "c7b8283aea62e2d97fe1d82e8da53f1d56ef5a91",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9751bbe0_e3b9c583",
+        "filename": "site/developers/testing/isolated-testing/for-swes/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 160,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2022-11-08T23:43:01Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "d0aa50c0_f4559baa",
       "revId": "c7b8283aea62e2d97fe1d82e8da53f1d56ef5a91",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
