@@ -16,6 +16,23 @@
       "message": "PTAL",
       "revId": "f098169269d7faaa9762c0560a6bd2d2928b84c4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f717fa43_8c90bd83",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001907
+      },
+      "writtenOn": "2022-11-09T00:30:53Z",
+      "side": 1,
+      "message": "(fwiw, lgtm, but I\u0027ll let Dirk give final stamp)",
+      "revId": "f098169269d7faaa9762c0560a6bd2d2928b84c4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
