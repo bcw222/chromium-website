@@ -16,6 +16,24 @@
       "message": "were you going to change this to luci-auth ?",
       "revId": "1aabf8f65c2b0b7c565fc6cbbf0fa891f8301062",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e1c8cf5_810233dd",
+        "filename": "site/developers/testing/isolated-testing/for-swes/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2022-11-09T00:00:20Z",
+      "side": 1,
+      "message": "yes, gerrit edit keeps losing my edits.",
+      "parentUuid": "74d62628_ccbebe41",
+      "revId": "1aabf8f65c2b0b7c565fc6cbbf0fa891f8301062",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
