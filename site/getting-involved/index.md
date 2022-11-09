@@ -4,7 +4,8 @@ page_name: getting-involved
 title: Getting Involved
 ---
 
-Here are some ways you can get involved with Chromium:
+Here are some ways you cant
+ get involved with Chromium:
 
 * Join some of our [developer discussion groups](/developers/discussion-groups)
 * Visit the [Help
