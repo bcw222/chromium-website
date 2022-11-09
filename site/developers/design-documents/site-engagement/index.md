@@ -76,6 +76,11 @@ these use cases in mind:
     Allocating resources based on the proportion of overall engagement a site
     has (e.g storage, background sync)
 
+Viewing Your Own Scores
+
+You can inspect the scores for a profile by navigating to
+chrome://site-engagement within that profile.
+
 Privacy Considerations
 
 When in incognito mode, site engagement will be copied from the original profile
