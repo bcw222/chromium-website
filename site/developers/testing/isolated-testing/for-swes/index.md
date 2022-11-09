@@ -111,7 +111,35 @@ luci-auth login
 If you are running through a text only session on a remote machine, append
 argument `--auth-no-local-webserver`
 
-#### 2. Build & Generate .isolate file
+#### 2. One step build & run
+
+```none
+python3 tools/mb/mb.py run --swarmed out/Release \
+base_unittests \
+ -- --gtest_filter=<test filter>
+```
+
+This will perform the steps below, picking defaults based on your local
+setup. If it fails, you can re-run the last command run by mb.py to see
+the cause of the failure. You may need to login again.
+
+If you want to pick different defaults, e.g., run tests on Windows-11 from
+a Windows 10 machine, you need to use --no-default-dimensions and explicitly
+specify some dimensions, e.g.,
+
+none
+```
+python3 tools/mb/mb.py run \
+  --swarmed out/Release \
+  -d os Windows-11 \
+  -d pool chromium.tests \
+  --no-default-dimensions base_unittests \
+  -- --gtest_filter=<test filter>
+```
+
+Or, you can run the individual steps below manually.
+
+#### 3. Build & Generate .isolate file
 
 The isolate file describes what are the files that needs to be mapped on the
 Swarming bot. It is generated via GN "data" and "data_deps" statements, and is
@@ -123,7 +151,7 @@ echo gn > out/Release/mb_type  # Must be done once to avoid mb.py from performi
 python3 tools\mb\mb.py isolate //out/Release base_unittests # Creates out/Release/base_unittests.isolate
 ```
 
-#### 3. Compute .isolated file and upload it
+#### 4. Compute .isolated file and upload it
 
 The isolated file contains the SHA-1 of each input files. It is archives along
 all the inputs to the Isolate server. Since the isolate server is a
@@ -135,18 +163,17 @@ up to a minute:
 tools\luci-go\isolate archive \
   -i out\Release\base_unittests.isolate \
   -cas-instance chromium-swarm
-
-
 ```
+This will output a digest string that you use in step 5.
 
-#### 4. Trigger the task
+#### 5. Trigger the task
 
 That's where a task is requested, specifying the isolated (tree of SHA-1 of
 files to map in):
 
 ```none
 tools\luci-go\swarming trigger \
- -digest <hash from step3> \
+  -digest <digest from step 4> \
   -server chromium-swarm.appspot.com \
   -d os=Windows-10-19042 \
   -d pool=chromium.tests \
