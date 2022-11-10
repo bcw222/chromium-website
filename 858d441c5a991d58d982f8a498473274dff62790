@@ -16,6 +16,23 @@
       "message": "Elly, it appears you won the OWNER approval lottery for this minor doc update.\n\ncheers,\nmark\n\nP.S.  I\u0027m surprised that the docs/ files are so locked down that changes can\u0027t be directly approved by content experts.",
       "revId": "858d441c5a991d58d982f8a498473274dff62790",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "10e1c663_b27545b2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2022-11-10T18:45:23Z",
+      "side": 1,
+      "message": "lgtm!",
+      "revId": "858d441c5a991d58d982f8a498473274dff62790",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
