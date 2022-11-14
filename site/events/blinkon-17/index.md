@@ -28,8 +28,8 @@ sure to share travel tips for the area in a follow-up email.
 
 ## **Logistics**
 
-* When: November 15-17, 2022, tentatively 9am to 5pm PST (details TBD)
-* Where: Sunnyvale, CA, USA + Virtually
+* When: November 15-17, 2022, 9am to ~4pm PST. See the [schedule](https://docs.google.com/spreadsheets/d/1xtqACFzmdgJZD0RYxiLNJNcUQzf2D-WGWO8b-up-FJM/edit#gid=0) for details.
+* Where: Sunnyvale, CA, USA + Virtually on [slack](https://chromium.slack.com) (#blinkon)
 * What: Combination of live and recorded sessions, including keynotes, lightning talks, breakout talks, and social events
 
 
