@@ -33,6 +33,24 @@
       "message": "lgtm but looks like I\u0027m not an OWNER for this dir (https://crsrc.org/c/docs/website/site/Home/chromium-security/root-ca-policy/OWNERS)",
       "revId": "8fc0f25581bd141f7b060bc459d36e24f365c6d2",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f3b245ab_da71e545",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002844
+      },
+      "writtenOn": "2022-11-15T23:16:32Z",
+      "side": 1,
+      "message": "I guess you are though, but since the CL was created with the @chromium.org account instead of google.com it didn\u0027t get the self-owners approval from that.",
+      "parentUuid": "c557b370_c931443a",
+      "revId": "8fc0f25581bd141f7b060bc459d36e24f365c6d2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
