@@ -37,6 +37,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "cf089973_6808860b",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2022-11-16T22:09:33Z",
+      "side": 1,
+      "message": "This is very tentative. 😊 \"we recommend (but don\u0027t require) that you request an Early Design Review\"? Or \"consider requesting an Early Design Review\"?",
+      "parentUuid": "ee8e377b_2af2e44a",
+      "revId": "c7f594b586c65706a71fe0bc55d1a9baaad08d8f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "68f331fd_6bb2e000",
         "filename": "site/blink/launching-features/index.md",
         "patchSetId": 1
