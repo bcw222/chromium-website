@@ -19,7 +19,24 @@ To use it with Chromium:
     *   To enable gpu rasterization, include the command line arguments:
                 --force-gpu-rasterization --enable-impl-side-painting
     *   You might need following hack or something
-    diff --git a/content/app/content_main_runner.cc b/content/app/content_main_runner.cc index 05e45bd..46db961 100644 --- a/content/app/content_main_runner.cc +++ b/content/app/content_main_runner.cc @@ -401,6 +401,11 @@ int RunNamedProcessTypeMain( { switches::kGpuProcess, GpuMain }, #endif // !CHROME_MULTIPLE_DLL_BROWSER }; + base::CommandLine& command_line = + \*base::CommandLine::ForCurrentProcess(); + command_line.AppendSwitch(switches::kInProcessGPU); + command_line.AppendSwitch(switches::kNoSandbox);
+        ```diff
+diff --git a/content/app/content_main_runner_impl.cc b/content/app/content_main_runner_impl.cc
+index 6d02d4e..435642c 100644
+--- a/content/app/content_main_runner_impl.cc
++++ b/content/app/content_main_runner_impl.cc
+@@ -713,6 +713,11 @@
+     {switches::kGpuProcess, GpuMain},
+   };
+
++  base::CommandLine& command_line =
++    *base::CommandLine::ForCurrentProcess();
++  command_line.AppendSwitch(switches::kInProcessGPU);
++  command_line.AppendSwitch(switches::kNoSandbox);
++
+   // The hang watcher needs to be started once the feature list is available
+   // but before the IO thread is started.
+   base::ScopedClosureRunner unregister_thread_closure;
+```
 *   Within Visual Studio, show the Graphics toolbar
 *   Click File&gt;Open&gt;Project/Solution, and then click your
             chrome.exe FYI, release build chrome.exe/content_shell.exe works
