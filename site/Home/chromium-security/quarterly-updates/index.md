@@ -15,6 +15,66 @@ It's an open list, so
 if you're interested in updates, discussion, or feisty rants related to Chromium
 security.
 
+## Q3 2022
+
+Greetings,
+
+**Chrome Security is hiring!** We're looking for a software engineer to join the team as a macOS/iOS platform security expert ([posting](https://careers.google.com/jobs/results/73662438446113478-senior-software-engineer-chrome-macos-security/)). More Chrome open positions at https://goo.gl/chrome/hiring
+
+It's been a busy quarter for Chrome Security, and we're pleased to share this summary of what we've been up to.
+
+On Chrome’s Counter-Abuse team, we expanded phishing protection on Android by enabling support for our client-side visual TFlite model. On Desktop and Android we made improvements for users with the Enhanced Protection mode of Safe Browsing enabled, effectively doubling the model’s ability to flag previously-undetected phishing sites by using higher fidelity visual features.
+
+Our client-side telemetry framework for Chrome extensions is fully launched now and has helped flag a few more malware campaigns that were cloaking from our server-side scans. We have more signals lined up that we’ll be launching Q4.
+
+We continued to land improvements to our new downloads UX, while keeping it enabled for 1% of Stable users to collect metrics and feedback. We did observe regressions in some key metrics, but some of them turned out to be red herrings because of the way the metrics were being logged.
+
+We drove a 16% quarter-over-quarter growth in the number of Chrome users who opted in to Enhanced Protection!
+
+The Trusty Transport team officially launched the [Chrome Root Program](https://blog.chromium.org/2022/09/announcing-launch-of-chrome-root-program.html)! We are now maintaining our own list of trusted Certification Authorities (CAs), and open for processing inclusion applications from CAs. We investigated various metrics issues in the ongoing rollout of our own certificate verifier and root store on Windows and Mac, and began the slow rollout towards 100% Stable. We also began prefactoring work towards extracting Chromium’s certificate verifier to BoringSSL so that it can be used by other Google (and non-Google) customers.
+
+[Encrypted Client Hello](https://datatracker.ietf.org/doc/draft-ietf-tls-esni/) (ECH), which encrypts the server name in the TLS handshake, launched to 50% on Canary and Dev with a server-side partner. While there is still additional work to do to gather more data and increase coverage, eventually this feature will give users better privacy as to what websites they are visiting.
+
+To help decrease HTTP navigations, we published an [explainer](https://github.com/dadrian/https-upgrade/blob/main/explainer.md) for opportunistically upgrading all navigations to HTTPS. We also brought some of our existing HTTPS upgrading features to iOS, including HTTPS-First Mode.
+
+The Open Web Platform Security team shipped an MVP of the [Sanitizer API](https://chromestatus.com/feature/5786893650231296) in Chrome 105. The Sanitizer API offers an easy to use and safe by default HTML Sanitizer API, which web developers can use to remove content that may execute script from arbitrary, user-supplied HTML content.
+
+In Chrome 106 to 108 we ran an Origin Trial for [Anonymous iframes](https://chromestatus.com/feature/5729461725036544). Following positive feedback, we are looking to ship Anonymous iframes (renamed Credentialless iframes) in Chrome 110. This will allow websites that embed arbitrary 3rd party iframes to deploy COEP and enable crossOriginIsolation.
+
+We started sending [preflights for access to private resources](https://docs.google.com/document/d/1FYPIeP90MQ_pQ6UAo0mCB3g2Z_AynfPWHbDnHIST6VI/edit#heading=h.7nki9mck5t64) from public pages as part of the Private Network Access project. Currently, they only trigger a warning. We are looking at launching enforcement when we better understand metrics.
+
+We plan to launch [Origin-Agent-Cluster by default](https://chromestatus.com/feature/5428079583297536) at 50% in Beta in Chrome 109, followed by a full launch on Stable in Chrome 110. This will restrict access to document.domain by default, and allow Chrome to more easily experiment with origin based process isolation.
+
+The Security Architecture team ran a stable channel trial of Site Isolation for [<webview> tags](https://crbug.com/1267977) to prepare for launch. We paused the trial of Site Isolation for [sandboxed iframes](https://crbug.com/510122) to work on some changes to [base URL inheritance](https://chromestatus.com/feature/5161101671530496) which were unexpectedly necessary. [ORB v0.1](https://groups.google.com/a/chromium.org/g/blink-dev/c/ScjhKz3Z6U4/m/5i_0V7ogAwAJ) was also briefly disabled to fix a compatibility issue. Meanwhile, we optimized the [Origin-Agent-Cluster](https://web.dev/origin-agent-cluster/) logic to make it safe to [enable by default](https://chromestatus.com/feature/5428079583297536). We also improved navigation logic by introducing a [DocumentToken](https://crbug.com/1362938) abstraction and by making progress on [RenderDocument](https://crbug.com/936696) (running a brief trial and designing a speculative RenderViewHost), [SiteInstanceGroup](https://crbug.com/1195535), and computing the origin in the browser process.
+
+The Platform Security team landed several components of the ongoing work to sandbox the network service: TCP socket brokering on Android, making the proxy resolver asynchronous on POSIX systems, and socket handle transmission over Mojo on Windows. In other sandboxing news, we audited all Chromium’s service and sandbox types to identify places where we could lock things down more. We then moved several services to tighter sandboxes! We also performed an initial analysis of using virtualization for sandboxing, and we have identified several areas of further research for the future.
+
+PDFium was upgraded to the latest version of [PartitionAlloc](https://chromium.googlesource.com/chromium/src/+/main/base/allocator/partition_allocator/PartitionAlloc.md). We added IPC types to enforce passing read-only file handles between privileged processes.
+
+We made progress on building the foundations needed for stronger protection of client secrets on Windows. This required a re-design of os\_crypt to support [asynchronous operations](https://docs.google.com/document/d/1JqJnaUv1eMsnDdm0WcVxXsksbjsYcKu-r1Qx8Ohr7lk/edit#). Meanwhile, progress has also been made on wiring this new code into application bound [data encryption](https://bugs.chromium.org/p/chromium/issues/detail?id=1333461).
+
+We implemented a dangling pointer detector and fixed ~150 dangling pointers in the codebase.
+
+Chrome's new Offensive Security team reported a bug in Blink's V8 bindings and then created an [exploit](http://crbug.com/1352549#c46) (bug currently restricted) for it, which was notable because it establishes new techniques to achieve code execution in the renderer sandbox. Separately in V8 land, we [delivered](https://crrev.com/c/3794525) a domain specific mitigation for a historically exploitable bug class. 
+
+We also continued our WebGPU audit that [began in Q2](https://bugs.chromium.org/u/bookholt@google.com/hotlists/ChromeOffensiveSecurity22Q2?can=1) and will extend into 2023. In addition to [reporting more security bugs](https://bugs.chromium.org/u/bookholt@google.com/hotlists/ChromeOffensiveSecurity22Q3?can=1) in Q3, we're developing multiple fuzzers and staying engaged with the WebGPU team. Google Summer of Code gave us an opportunity to host Rares Moiseanu, a talented student who helped us add new Mojo IPC fuzzers and advanced our prototype Chrome snapshot fuzzer based on Nyx. We're planning to apply snapshot fuzzing widely across Chrome, including to WebGPU. 
+
+Finally, variant analysis remains a priority for us and we conduct variant analysis on select bug reports as time permits. We're always on the lookout for ways to make variant analysis more scalable. 
+
+The V8 security team launched the “2nd pillar” of the V8 Sandbox: the [External Pointer Table](https://docs.google.com/document/d/1V3sxltuFjjhp_6grGHgfqZNK57qfzGzme0QTk0IXDHk/edit?usp=sharing). We implemented many new features for Fuzzilli, our JavaScript engine fuzzer, and released [version 0.9.2](https://github.com/googleprojectzero/fuzzilli/releases/tag/v0.9.2). 
+
+We continued our work on the [CFI proposal](https://docs.google.com/document/d/1O2jwK4dxI3nRcOJuPYkonhTkNQfbmwdvxQMyXgeaRHo/edit?usp=sharing) for V8 and started implementing the necessary building blocks, such as PKEY support in PartitionAlloc
+
+The Chrome Vulnerability Rewards Program conducted an overhaul of [reward amounts and policies](https://g.co/chrome/vrp), increasing reward amounts for more impactful and exploitable bug reports and updating bonuses and policies with the goal of incentivizing better quality bug reporting. So far this has resulted in a 25% increase of bisections included in reports and a small increase in the number of reports with functional exploits.
+
+We've also stood up automated CVE filing, taking advantage of the new MITRE CVE Services API, so that downstream users can get an immediate feed of what bugs are fixed in a given release.
+
+Until next time,
+
+Andrew
+
+On behalf of Chrome Security
+
 ## Q2 2022
 
 Greetings,
