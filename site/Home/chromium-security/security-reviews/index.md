@@ -25,8 +25,7 @@ and faster for everyone. If you have further questions, ping adetaylor@.
 
 ## How does the security review process work?
 
-The full story is here: [New Chrome Security Review
-Plan](https://docs.google.com/document/d/11bnI_H0_Hg_o1mILjjH28PHB98bpSC4STh_OXLwv1gA/edit).
+The full story is here: [go/chrome-security-review-plan](go/chrome-security-review-plan) (Google-internal, sorry).
 
 TL;DR: File a launch bug, and the security team will see it on their dashboard.
 Make sure to link to a design document in the launch bug. The security
