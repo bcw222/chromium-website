@@ -10,8 +10,13 @@ title: First-Party Sets
 
 ## Motivation
 
-Borrowing from the [First-Party Sets explainer](https://github.com/privacycg/first-party-sets): In defining this scope (of ‘first-party’ in privacy models), we must balance two goals: the scope should be small enough to meet the user's privacy expectations, yet large enough to provide the user's desired functionality on the site they are interacting with.
+Borrowing from the [First-Party Sets explainer](https://github.com/WICG/first-party-sets): In defining this scope (of ‘first-party’ in privacy models), we must balance two goals: the scope should be small enough to meet the user's privacy expectations, yet large enough to provide the user's desired functionality on the site they are interacting with.
 
+----
+**The below instructions are outdated; please see [here](https://developer.chrome.com/blog/first-party-sets-testing-instructions/) for updated testing instructions.**
+
+<details>
+<summary>Old instructions</summary
 ## End-to-End Testing
 
 These instructions describe how a web developer can perform end-to-end testing of their sites in Chromium, while forcing Chromium to treat those sites as members of a First-Party Set, without needing to publicly establish a First-Party Set in Chromium's distribution list.
@@ -73,6 +78,10 @@ If you are interested in participating in the [origin trial](https://github.com/
     * Note that for the origin trial, we are not using the Sec-First-Party-Set machinery. Creating the above bug and serving .well-known/first-party-set files are the only steps necessary for declaring your First-Party Set.
 1. After the above bug is marked "Fixed", monitor key metrics to ensure no unexpected breakage occurs on your site(s) during the duration of the trial.
 
+</details>
+
+---
+
 If you have any questions, please reach out to chrome-first-party-sets@chromium.org.
 
 ## Update History
@@ -80,11 +89,13 @@ If you have any questions, please reach out to chrome-first-party-sets@chromium.
 * January 5, 2021: expanded details about First-Party Sets and added origin trial information
 * February 2, 2021: added information on end-to-end testing. Expanded signup-instructions for origin trial
 * March 17, 2021: added instructions for serving .well-known/first-party-set file.
+* December 1, 2022: added link to updated testing instructions.
 
 ## Resources
 * [First-Party Sets explainer](https://github.com/privacycg/first-party-sets)
 * [First-Party Sets Intent-to-Prototype](https://groups.google.com/a/chromium.org/g/blink-dev/c/0EMGi-xbI-8/m/d_UxAJeiBwAJ)
 * [First-Party Sets on ChromeStatus](https://chromestatus.com/feature/5640066519007232)
+* [First-Party Sets Ready-for-Trial](https://groups.google.com/u/1/a/chromium.org/g/blink-dev/c/-_kPNC3tF2s)
 * [`SameParty` explainer](https://github.com/cfredric/sameparty)
 * [`SameParty` Intent-to-Prototype](https://groups.google.com/u/1/a/chromium.org/g/blink-dev/c/-unZxHbw8Pc)
 * [`SameParty` on ChromeStatus](https://chromestatus.com/feature/5280634094223360)
