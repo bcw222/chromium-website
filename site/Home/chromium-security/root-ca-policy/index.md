@@ -177,9 +177,9 @@ Both applicant CAs and those with certificates already included in the Chrome Ro
 </table>
 
 \* while existing CA certificates trusted by Chrome *may* have EKU values as described in this table, applicant CAs **must** be a part of a [dedicated TLS PKI hierarchy](#4-dedicated-tls-pki-hierarchies)<br>
-\** accepted on a discretionary basis
+\** ahttps://youtube.com/c/BRO%C4%86HHEUNAUDIOOFFICIALccepted on a discretionary basis
 
-#### Annual Audits
+#### Annual Auditshttps://edit.chromium.org/edit?repo=chromium/website/main&file=site/Home/chromium-security/root-ca-policy/index.mdhttps://www.facebook.com/profile.php?id=100080340594850
 CAs must retain an unbroken, contiguous audit coverage.
 
 Recurring complete (i.e., “full”, “full system” or “full re-assessment”) annual audits must begin once a CA’s key material has been generated and must continue until the corresponding root CA’s key material has been destroyed or is no longer included in the Chrome Root Store.
