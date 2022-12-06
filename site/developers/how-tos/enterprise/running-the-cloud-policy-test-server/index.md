@@ -19,54 +19,41 @@ implementation. This page explains how to run it:
 
 1.  You need a Linux Chromium checkout that's in good shape for building
             the browser. See [Get the Code](/developers/how-tos/get-the-code)
-2.  Make sure you have the protocol buffer source compiled (add the
-            `device_policy_proto` to the line below if you're building for
-            Chrome OS):
+2.  Make sure you have the fake_dmserver built:
 
     ```none
-    ninja -C out/Debug py_proto components/policy/core/common full_runtime_code_generate
+    autoninja -C out/Default components/policy/test_support:fake_dmserver
     ```
 
-3.  Start the test server. You can start testserver.py directly from the
+3.  Start the test server. You can start ./out/Default/fake_dmserver directly from the
             src/ directory of your Chrome source tree:
 
     ```none
-    OUT_DIR=out/Debug \
-    PYTHONPATH=third_party/tlslite:third_party/pywebsocket3/src:$OUT_DIR/pyproto:net/tools/testserver:third_party/protobuf/python:$OUT_DIR/pyproto/components/policy/proto:$OUT_DIR/pyproto/third_party/shell-encryption/src:$OUT_DIR/pyproto/third_party/private_membership/src \
-    python components/policy/test_support/policy_testserver.py --data-dir ~/tmp/ --host 127.0.0.1 --port 8889
+    ./out/Default/fake_dmserver --policy-blob-path="policy.json" --client-state-path="state.json" --log-path="log.txt"
     ```
 
     Note: replace out/Debug with out/Release if appropriate, depending on your
     build configuration.
-    If this fails with a Python error, try running inside an isolated Python
-    environment via [virtualenv](https://virtualenv.pypa.io/en/stable/).
     If you want logging, add these flags:
 
     ```none
-    --log-level DEBUG --log-to-console
+    --min-log-level=0 --log-to-console
     ```
 
     Notes on parameters:
-    *   `--data-dir` specifies the directory from which the server will
-                read the policy file (see below). Up to you where to place it.
-    *   `--port` specifies the port the server should listen on, you can
-                pick a port of your liking.
-    *   `--host` The IP address the server should bind to. Note that if
-                you want to test a Chromium OS image running on a Chromebook or
-                in a Virtual Machine against the server, you need to specify the
-                host name or IP address of the public interface in your machine.
-                Note that the server only accepts connections from that IP. To
-                work around these restrictions you can use a port forwarding
-                (ssh is your friend) or local proxy server.
-    *   --client-state specifies a file in which to persist current
+    *   `--policy-blob-path` specifies a file from which the server will
+                read the policy blob data (see below). Up to you where to place it.
+    *   `--client-state-path` specifies a file in which to persist current
                 server state. This is useful if you want the server to remember
-                registered clients and such across server restarts, for example
-                when your tinkering with the python code in policy_testserver.py
-                to create specific error conditions etc.
-    *   --config-file specifies a file that contains server
-                configuration. If not specified, the server will default to the
-                device_management file in the data directory.
-    *   --policy-key a PEM-encoded file containing a private RSA key
+                registered clients and such across server restarts.
+    *   `--log-path` specifies a file in which to log server data.
+    *   `--startup-pipe` specifies a pipe in which the server will communicate the
+                host and the port where the server is running. It will be in the
+                format `{"host": "127.0.0.1", "port": 34051}`.
+    *   `--min-log-level` specifies the minimum logging level {0, 1, 2, 3}
+                corresponding to {INFO, WARNING, ERROR, FATAL}.
+    *   `--log-to-console` specifies whether to output the logs to the console.
+    *   `--policy-key` a PEM-encoded file containing a private RSA key
                 used to sign policy blobs. More information on the policy blob
                 format and signatures is
                 [here](/developers/how-tos/enterprise/protobuf-encoded-policy-blobs).
@@ -88,24 +75,59 @@ implementation. This page explains how to run it:
             "Policy server is up."
 5.  Ready to roll!
 
-## Setting up a configuration file
+## Setting up the policy blob file
 
-The configuration file is a JSON file containing server-global parameters.
+The policy blob file is a JSON file containing server-global parameters.
 Here's an example:
 
 ```none
 {
-  "managed_users": [ "*" ],
-  "policy_user": "madmax@managedchrome.com",
-  "current_key_index": 0,
-  "service_account_identity": "",
-  "robot_api_auth_code": "",
-  "invalidation_source": 0,
-  "invalidation_name": "",
-  "device_state": {
-    "management_domain": "managedchrome.com",
-    "restore_mode": 2
-  }
+  "policies" : [
+    {
+      "policy_type" : "google/chromeos/user",
+      "value" : "base64 encoded proto message",
+    },
+    {
+      "policy_type" : "google/chromeos/device",
+      "value" : "base64 encoded proto message",
+    },
+    {
+      "policy_type" : "google/chromeos/publicaccount",
+      "entity_id" : "accountid@managedchrome.com",
+      "value" : "base64 encoded proto message",
+    }
+  ],
+  "external_policies" : [
+    {
+      "policy_type" : "google/chrome/extension",
+      "entity_id" : "extension_id",
+      "value" : "base64 encoded raw json value",
+    }
+  ],
+  "managed_users" : [
+    "secret123456"
+  ],
+  "policy_user" : "tast-user@managedchrome.com",
+  "current_key_index": 0,
+  "robot_api_auth_code": "code",
+  "directory_api_id": "id",
+  "request_errors": {
+    "register": 500,
+  }
+  "device_affiliation_ids" : [
+    "device_id"
+  ],
+  "user_affiliation_ids" : [
+    "user_id"
+  ],
+  "allow_set_device_attributes" : false,
+  "initial_enrollment_state": {
+    "TEST_serial": {
+      "initial_enrollment_mode": 2,
+      "management_domain": "test-domain.com"
+    }
+  },
+  "use_universal_signing_keys": true
 }
 ```
 
@@ -120,84 +142,66 @@ Notes on parameters:
 *   `policy_user` is the user ID to put in policy responses to identify
             the target of the policy settings. This needs to match the user on
             the Chrome side or Chrome will reject the policy.
+*   `policies` is a list that contains all the policies to be set. Each policy has 3 fields:
+      * `"policy_type"` is the type or scope of the policy (user, device or publicaccount).
+      * `"entity_id"` is the account id used for public account policies.
+      * `"value"` is the seralized proto message of the policies value encoded in base64.
+*   `external_policies` is a list that contains all the external policies to be set. Each policy has 3 fields:
+      * `"policy_type"` is the type of the external policy `"google/chrome/extension"`.
+      * `"entity_id"` is the extension id.
+      * `"value"` is the base64 encoded raw json value.
 *   `current_key_index` is the index of the signing key to use when
             generating policy blob signatures.
-*   `service_account_identity` is the email address of the service
-            account. This is the account used on Chrome OS to enable Google
-            cloud services that require authentication. Note that the test
-            server can't create service accounts, so this parameter is likely
-            only useful for testing (i.e. you have a way to create a service
-            account separately and want to inject the proper service account
-            name).
 *   `robot_api_auth_code` specifies the authentication code the server
             should return when a Chrome OS client asks for one during enterprise
             enrollment. Since the server doesn't have the ability to create
             robot accounts, it can't satisfy these request. Leave this parameter
             empty unless you are testing robot auth setup and have a way to
             create robot accounts and obtain auth codes separately.
-*   `invalidation_source` and invalidation_name are used in policy
-            change push notifications. Change notifications are not supported by
-            the test server. This parameter merely exists to facilitate testing
-            using a source identifier obtained elsewhere.
-*   `device_state` provides device state parameters requested by Chrome
-            OS clients that have gone through a hardware reset and are
-            performing a handshake with the server to discover their previous
-            state. This is part of the forced re-enrollment and device disabling
-            features. You should generally only need these parameters if you're
-            specifically testing the aforementioned features.
+*   `use_universal_signing_keys` specifies a flag to use a universal signing keys to sign any domain.
+            For example a unicorn @gmail account which is not managed account.
+*   `request_errors` specifies a map that sets the error responses for each request type.
 
-## Setting up a policy file
-
-The test server reads policy to supply to clients from the data directory
-specified with the `--data-dir`. The directory contains text files containing
-protobuf messages that supply the payload to return to the client when it asks
-for policy. The files are named according to the type of policy requested and
-the entity the policy is intended for.
-
-### User policy
-
-The file names are:
-
-*   policy_google_android_user.txt
-*   policy_google_chromeos_publicaccount_$PUBLICACCOUNTID.txt
-*   policy_google_chromeos_user.txt
-*   policy_google_chrome_user.txt
-*   policy_google_ios_user.txt
+### User policies
 
 The payload protocol buffer message is CloudPolicySettings. This is generated
 from
-[policy_templates.json](https://code.google.com/p/chromium/codesearch#search/&q=policy_templates.json&sq=package:chromium&type=cs)
-and there is a message field with the name matching the policy name for each
-supported policy. The value field within the nested message contains the policy
-value. Here is an example with a few policy settings defined:
+[policy_templates.json](https://code.google.com/p/chromium/codesearch#search/&q=policy_templates.json&sq=package:chromium&type=cs).
+All the user policies can be set as a proto message encoded to base64.
+The policy type must be "google/chromeos/user".
 
 ```none
-HomepageLocation {
-  value: "http://www.chromium.org"
-}
-ShowHomeButton {
-  value: true
+{
+  "policy_type" : "google/chromeos/user",
+  "value" : "base64 encoded proto message",
 }
 ```
 
-### Device policy
+### Device policies
 
-The file name is policy_google_chromeos_device.txt and the payload protocol
-buffer is ChromeDeviceSettingsProto. Example contents:
+The payload protocol buffer is ChromeDeviceSettingsProto.
+All the device policies can be set as a proto message encoded to base64.
+The policy type must be "google/chromeos/device".
 
 ```none
-device_policy_refresh_rate {
-  device_policy_refresh_rate: 60
+{
+  "policy_type" : "google/chromeos/device",
+  "value" : "base64 encoded proto message",
 }
-user_allowlist {
-  user_allowlist: "*@managedchrome.com"
-  user_allowlist: "*@gmail.com"
-}
-device_local_accounts {
-  account {
-    account_id: "publicsession@managedchrome.com"
-    type: ACCOUNT_TYPE_PUBLIC_SESSION
-  }
+```
+
+### Public Account policies
+
+The payload protocol buffer is CloudPolicySettings.
+All the public account policies can be set as a proto message encoded to base64.
+The policy type must be "google/chromeos/publicaccount".
+The entity id is set to the id of each account, however the account id must be a managed account.
+
+```none
+{
+  "policy_type" : "google/chromeos/publicaccount",
+  "entity_id" : "accountid@managedchrome.com",
+  "value" : "base64 encoded proto message",
 }
 ```
 
