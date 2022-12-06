@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e9cd72a6_cab552eb",
+        "filename": "site/developers/how-tos/enterprise/running-the-cloud-policy-test-server/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1368736
+      },
+      "writtenOn": "2022-12-06T08:56:27Z",
+      "side": 1,
+      "message": "nit: does this need to be set by everyone even if they are not testing enrollment?",
+      "range": {
+        "startLine": 32,
+        "startChar": 65,
+        "endLine": 32,
+        "endChar": 97
+      },
+      "revId": "561a381c756fb1255fae9778a8da7499238e8e07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ef6f7f9_209e32fb",
+        "filename": "site/developers/how-tos/enterprise/running-the-cloud-policy-test-server/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1368736
+      },
+      "writtenOn": "2022-12-06T08:56:27Z",
+      "side": 1,
+      "message": "This needs to be documented separately. Your recent CL is also logging by default. The parameter description below should be enough to drop the entire logging section.",
+      "range": {
+        "startLine": 40,
+        "startChar": 4,
+        "endLine": 40,
+        "endChar": 21
+      },
+      "revId": "561a381c756fb1255fae9778a8da7499238e8e07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5d00c795_23ef43ef",
+        "filename": "site/developers/how-tos/enterprise/running-the-cloud-policy-test-server/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1368736
+      },
+      "writtenOn": "2022-12-06T08:56:27Z",
+      "side": 1,
+      "message": "pipe that was passed to the process. \n\nnit: maybe mention that this is used by tast?",
+      "range": {
+        "startLine": 50,
+        "startChar": 37,
+        "endLine": 50,
+        "endChar": 41
+      },
+      "revId": "561a381c756fb1255fae9778a8da7499238e8e07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5fa183b8_9a9ed29d",
+        "filename": "site/developers/how-tos/enterprise/running-the-cloud-policy-test-server/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1368736
+      },
+      "writtenOn": "2022-12-06T08:56:27Z",
+      "side": 1,
+      "message": "Is this supported?",
+      "range": {
+        "startLine": 56,
+        "startChar": 8,
+        "endLine": 56,
+        "endChar": 22
+      },
+      "revId": "561a381c756fb1255fae9778a8da7499238e8e07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab4a6682_ed0658e4",
+        "filename": "site/developers/how-tos/enterprise/running-the-cloud-policy-test-server/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1368736
+      },
+      "writtenOn": "2022-12-06T08:56:27Z",
+      "side": 1,
+      "message": "Maybe we need to mention how to create these values by hand. If it\u0027s not possible, the server is not really usable for humans.",
+      "range": {
+        "startLine": 88,
+        "startChar": 17,
+        "endLine": 88,
+        "endChar": 45
+      },
+      "revId": "561a381c756fb1255fae9778a8da7499238e8e07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3ea7e75e_b5091491",
+        "filename": "site/developers/how-tos/enterprise/running-the-cloud-policy-test-server/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 1368736
+      },
+      "writtenOn": "2022-12-06T08:56:27Z",
+      "side": 1,
+      "message": "This no longer exists, link to the folder with the yaml files instead.",
+      "range": {
+        "startLine": 169,
+        "startChar": 1,
+        "endLine": 169,
+        "endChar": 22
+      },
+      "revId": "561a381c756fb1255fae9778a8da7499238e8e07",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
