@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a98cab1a_c3fca429",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2022-12-07T22:04:17Z",
+      "side": 1,
+      "message": "LGTM w/nit",
+      "revId": "0ddae3a91a3c841b6268610b447213ab4e57a21e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "330a1c66_a0cdcc32",
+        "filename": "site/contact/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2022-12-07T22:04:17Z",
+      "side": 1,
+      "message": "very minor: lower case \"see\" for consistency with parenthetical on line 11",
+      "range": {
+        "startLine": 15,
+        "startChar": 56,
+        "endLine": 15,
+        "endChar": 59
+      },
+      "revId": "0ddae3a91a3c841b6268610b447213ab4e57a21e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
