@@ -39,11 +39,4 @@ goals](https://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source
 obtain the latest build, and learn how you can get involved, submit code, and
 file bugs.
 
-[![](/chromium-projects/logo_chrome_color_1x_web_32dp.png)](https://www.google.com/chrome)
-
-Looking for Google Chrome OS devices?
-
-[Visit the Google ChromeOS site](https://www.google.com/chromeos)
-
-</div>
-</div>
+[![](/chromium-projects/logo_chrome_color_1x_web_32dp.png)](https://www.google.com/ch
