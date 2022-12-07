@@ -5,16 +5,16 @@ title: Contact
 ---
 
 *   [Blog](http://blog.chromium.org)
-*   [Report a bug](http://code.google.com/p/chromium/issues/entry)
+*   [Report a bug](https://bugs.chromium.org/p/chromium/issues/entry)
 *   [Report a security
-            bug](http://code.google.com/p/chromium/issues/entry?template=Security%20Bug)
+            bug](https://bugs.chromium.org/p/chromium/issues/entry?template=Security+Bug)
             (see
             [here](https://www.google.com/about/appsecurity/chrome-rewards/) for
             more info)
 *   [Discussion groups](/developers/discussion-groups)
-*   IRC for developers: irc.freenode.net #chromium (try the
-            [web-based-client](https://webchat.freenode.net/?channels=%23chromium)
-            in your browser)
-    *   IRC is for developer technical discussions only; for user
+*   Slack for developers: [https://chromium.slack.com/](https://chromium.slack.com/)  (see the 
+            [dedicated page](https://www.chromium.org/developers/slack/)
+            for more info)
+    *   Slack is for developer technical discussions only; for user
                 support please [go
-                here](http://www.google.com/support/forum/p/Chrome).
+                here](https://support.google.com/chrome/community?hl=en).
