@@ -25,9 +25,9 @@ title: Bug Life Cycle and Reporting Guidelines
 ### Chromium OS (the operating system)
 
 *   Report bugs at
-            <https://code.google.com/p/chromium/issues/entry?template=Defect%20on%20Chrome%20OS>
+            <https://bugs.chromium.org/p/chromium/issues/entry?template=Defect+on+Chrome+OS>
 *   View existing bugs at [Chromium OS
-            issues](https://code.google.com/p/chromium/issues/list?can=2&q=os%3Dchrome)
+            issues](https://bugs.chromium.org/p/chromium/issues/list?can=2&q=os=chrome)
 
 You need a [Google Account](https://www.google.com/accounts/NewAccount)
 associated with your email address in order to use the bug system.
@@ -164,7 +164,7 @@ Status value 		 Description 	</tr>
 Usually, Chromium-related bugs should be filed under one of the following
 projects:
 
-*   [chromium](http://code.google.com/p/chromium/issues/entry)
+*   [chromium](https://bugs.chromium.org/p/chromium/issues/entry)
 *   [blink](http://crbug.com/) and add component "Blink"
 
 ## Helping with bug triage
@@ -177,4 +177,4 @@ Infrastructure and build tools
 If you find an issue with our infrastructure or build tools, please file the
 ticket using the Build Infrastructure template:
 
-*   <https://code.google.com/p/chromium/issues/entry?template=Build%20Infrastructure>
+*   <https://bugs.chromium.org/p/chromium/issues/entry?template=Build+Infrastructure>
