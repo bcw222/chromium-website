@@ -80,6 +80,7 @@ luci.project(
                 acl.LOGDOG_READER,
                 acl.PROJECT_CONFIGS_READER,
                 acl.SCHEDULER_READER,
+                acl.CQ_NEW_PATCHSET_RUN_TRIGGERER,
             ],
             groups = ["all"],
         ),
@@ -180,7 +181,7 @@ luci.cq_group(
         luci.cq_tryjob_verifier(
             builder = "chromium-website-try-builder",
             mode_allowlist = [
-                cq.MODE_ANALYZER_RUN,
+                cq.MODE_NEW_PATCHSET_RUN,
                 cq.MODE_DRY_RUN,
                 cq.MODE_FULL_RUN,
             ],
