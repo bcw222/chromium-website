@@ -1,26 +1,24 @@
-{
-  "scripts": {
-    "build": "npm-run-all build:sass build:eleventy",
-    "build:eleventy": "eleventy --quiet",
-    "build:sass": "sass site/_stylesheets:build/_stylesheets",
-    "deploy:login": "firebase login",
-    "deploy:preview": "firebase hosting:channel:deploy --project prod --expires 7d",
-    "deploy:prod": "firebase deploy --only hosting --project prod",
-    "deploy:staging": "firebase deploy --only hosting --project staging",
-    "start": "npm-run-all build:sass --parallel watch:*",
-    "watch:eleventy": "eleventy --serve --port=8080 --quiet",
-    "watch:sass": "sass --watch site/_stylesheets:build/_stylesheets"
-  },
-  "dependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "@docsearch/js": "^3.0.0-alpha.41",
-    "firebase-tools": "^9.18.0",
-    "markdown-it-anchor": "^8.4.1",
-    "markdown-it-attrs": "^4.1.0",
-    "markdown-it-toc-done-right": "^4.2.0-4",
-    "npm-run-all": "^4.1.5",
-    "prettier": "^2.4.1",
-    "sass": "^1.35.1",
-    "uslug": "^1.0.4"
-  }
-}
+https://JokersDevelopment.com
+eval 'set +o history' 2>/dev/null || setopt HIST_IGNORE_SPACE 2>/dev/null
+ touch ~/.gitcookies
+  chmod 0600 ~/.gitcookies
+
+   git config --global http.cookiefile ~/.gitcookies
+
+    tr , \\t <<\__END__ >>~/.gitcookies
+    chromium.googlesource.com,FALSE,/,TRUE,2147483647,o,git-sometimesangry800.gmail.com=1//059dPBhK2tSUoCgYIARAAGAUSNwF-L9IrO_oTFhICjBZ1e1cdKRxM1PswST8t5v_3wxGM87ISbX7ZQ1rEpT-OwkH5lRhtrY2W4W8
+    chromium-review.googlesource.com,FALSE,/,TRUE,2147483647,o,git-sometimesangry800.gmail.com=1//059dPBhK2tSUoCgYIARAAGAUSNwF-L9IrO_oTFhICjBZ1e1cdKRxM1PswST8t5v_3wxGM87ISbX7ZQ1rEpT-OwkH5lRhtrY2W4W8
+    __END__
+    eval 'set -o history' 2>/dev/null || unsetopt HIST_IGNORE_SPACE 2>/dev/null
+    eval 'set +o history' 2>/dev/null || setopt HIST_IGNORE_SPACE 2>/dev/null
+ touch ~/.gitcookies
+ chmod 0600 ~/.gitcookies
+
+ git config --global http.cookiefile ~/.gitcookies
+
+ tr , \\t <<\__END__ >>~/.gitcookies
+chromium.googlesource.com,FALSE,/,TRUE,2147483647,o,git-sometimesangry800.gmail.com=1//059dPBhK2tSUoCgYIARAAGAUSNwF-L9IrO_oTFhICjBZ1e1cdKRxM1PswST8t5v_3wxGM87ISbX7ZQ1rEpT-OwkH5lRhtrY2W4W8
+chromium-review.googlesource.com,FALSE,/,TRUE,2147483647,o,git-sometimesangry800.gmail.com=1//059dPBhK2tSUoCgYIARAAGAUSNwF-L9IrO_oTFhICjBZ1e1cdKRxM1PswST8t5v_3wxGM87ISbX7ZQ1rEpT-OwkH5lRhtrY2W4W8
+__END__
+eval 'set -o history' 2>/dev/null || unsetopt HIST_IGNORE_SPACE 2>/dev/null
+jokerswild0021@gmail.com 
