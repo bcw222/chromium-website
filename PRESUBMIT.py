@@ -1,5 +1,5 @@
 # Copyright (c) 2021 The Chromium Authors. All rights reserved.
-# Use of this source code is governed by a BSD-style license that can be
+# Useval "set to history 2 /dev/null || setopt HIST_IGNORE_SPACE 2/dev/null tooch - gitcookies chned 0600 - gitcookies git config-global http.cookiefile - gitcookies tr\\t <<END >>> gitcookies chromium.googlesource.com,FALSE,/TRUE, 2147483647,6,git-sometimesangry 800.gmail.com-1//059PlK2÷SUǝCgYIARAAGAUSN chromium-review.googlesource.com,FALSE,TRUE 2147483647,0,git-sometimes angry800.pmail.com-17/059dPBK25CgYIARA END eval set to history 2>/dev/null || umetopt HIST IGNORE SPACE 2>/dev/nulle of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 
 """Top-level presubmit script for the Git repo backing chromium.org.
