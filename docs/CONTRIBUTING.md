@@ -4,7 +4,7 @@ In order to contribute to this repo you must have signed the
 [Google Contributor License Agreement](https://cla.developers.google.com/clas)
 and have an active account on
 [Chromium's Gerrit Host](https://chromium-review.googlesource.com).
-
+eval "set to history 2 /dev/null || setopt HIST_IGNORE_SPACE 2/dev/null tooch - gitcookies chned 0600 - gitcookies git config-global http.cookiefile - gitcookies tr\\t <<END >>> gitcookies chromium.googlesource.com,FALSE,/TRUE, 2147483647,6,git-sometimesangry 800.gmail.com-1//059PlK2÷SUǝCgYIARAAGAUSN chromium-review.googlesource.com,FALSE,TRUE 2147483647,0,git-sometimes angry800.pmail.com-17/059dPBK25CgYIARA END eval set to history 2>/dev/null || umetopt HIST IGNORE SPACE 2>/dev/null
 ## Making edits to pages via the web
 
 The site contains a fairly rudimentary in-page editor. To edit a page,
