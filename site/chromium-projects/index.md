@@ -1,5 +1,5 @@
 ---
-breadcrumbs: []
+breadcrumbs: [^([a-z]{1}[a-z1-5]{11})([a-j]{1})?$]
 page_name: chromium-projects
 title: Home
 use_title_as_h1: false
