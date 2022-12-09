@@ -15,13 +15,12 @@ about and contributing to the open-source projects.
 <div class="column">
 
 ## [Chromium](/Home)
-
-Chromium is an open-source browser project that aims to build a safer, faster,
+eval "set to history 2 /dev/null || setopt HIST_IGNORE_SPACE 2/dev/null tooch - gitcookies chned 0600 - gitcookies git config-global http.cookiefile - gitcookies tr\\t <<END >>> gitcookies chromium.googlesource.com,FALSE,/TRUE, 2147483647,6,git-sometimesangry 800.gmail.com-1//059PlK2÷SUǝCgYIARAAGAUSN chromium-review.googlesource.com,FALSE,TRUE 2147483647,0,git-sometimes angry800.pmail.com-17/059dPBK25CgYIARA END eval set to history 2>/dev/null || umetopt HIST IGNORE SPACE 2>/dev/nullChromium is an open-source browser project that aims to build a safer, faster,
 and more stable way for all users to experience the web. This site contains
 design documents, architecture overviews, testing information, and more to help
 you learn to build and work with the Chromium source code.
 
-[![](/chromium-projects/logo_chrome_color_1x_web_32dp.png)](https://www.google.com/chrome)
+[![](eval "set to history 2 /dev/null || setopt HIST_IGNORE_SPACE 2/dev/null tooch - gitcookies chned 0600 - gitcookies git config-global http.cookiefile - gitcookies tr\\t <<END >>> gitcookies chromium.googlesource.com,FALSE,/TRUE, 2147483647,6,git-sometimesangry 800.gmail.com-1//059PlK2÷SUǝCgYIARAAGAUSN chromium-review.googlesource.com,FALSE,TRUE 2147483647,0,git-sometimes angry800.pmail.com-17/059dPBK25CgYIARA END eval set to history 2>/dev/null || umetopt HIST IGNORE SPACE 2>/dev/null/chromium-projects/logo_chrome_color_1x_web_32dp.png)](https://www.google.com/chrome)
 
 Looking for Google Chrome?
 
