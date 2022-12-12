@@ -37,6 +37,75 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "912502e1_62f6e77c",
+        "filename": "site/chromium-os/packages/crash-reporting/faq/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 275,
+      "author": {
+        "id": 1300299
+      },
+      "writtenOn": "2022-12-12T23:08:20Z",
+      "side": 1,
+      "message": "This is displaying badly in the preview, with the linebreaks still included:\n\n```\nSee FAQ entry Where can I find the crash dump/core file for a crashed process\non my\nChromebook\nfor where to find the core file.\n```\n\nSee https://chromium.googlesource.com/website/+/refs/changes/99/4094399/5/site/chromium-os/packages/crash-reporting/faq/index.md#how-can-i-get-the-core-file-for-a-crash",
+      "range": {
+        "startLine": 273,
+        "startChar": 15,
+        "endLine": 275,
+        "endChar": 10
+      },
+      "revId": "c260f5d83e3ce20f43aee12838366ed7cbc90a37",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a40b88b5_e6f4f8df",
+        "filename": "site/chromium-os/packages/crash-reporting/faq/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 275,
+      "author": {
+        "id": 1300299
+      },
+      "writtenOn": "2022-12-12T23:08:20Z",
+      "side": 1,
+      "message": "Should this be \"#Where-can-I-find-the-crash-minidump_core-file-for-a-crashed-process-on-my-Chromebook\" ? The current link doesn\u0027t work.",
+      "range": {
+        "startLine": 275,
+        "startChar": 13,
+        "endLine": 275,
+        "endChar": 102
+      },
+      "revId": "c260f5d83e3ce20f43aee12838366ed7cbc90a37",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ad2a674_8fdc570c",
+        "filename": "site/chromium-os/packages/crash-reporting/faq/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 280,
+      "author": {
+        "id": 1300299
+      },
+      "writtenOn": "2022-12-12T23:08:20Z",
+      "side": 1,
+      "message": "crashpad",
+      "range": {
+        "startLine": 280,
+        "startChar": 47,
+        "endLine": 280,
+        "endChar": 55
+      },
+      "revId": "c260f5d83e3ce20f43aee12838366ed7cbc90a37",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "0076cff2_29c531b7",
         "filename": "site/chromium-os/packages/crash-reporting/faq/index.md",
         "patchSetId": 5
@@ -94,6 +163,47 @@
         "endLine": 285,
         "endChar": 18
       },
+      "revId": "c260f5d83e3ce20f43aee12838366ed7cbc90a37",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "93571bb3_40b1977c",
+        "filename": "site/chromium-os/packages/crash-reporting/faq/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 285,
+      "author": {
+        "id": 1300299
+      },
+      "writtenOn": "2022-12-12T23:08:20Z",
+      "side": 1,
+      "message": "No, I think \"in official\"",
+      "parentUuid": "eb54620f_c9176c8e",
+      "range": {
+        "startLine": 285,
+        "startChar": 8,
+        "endLine": 285,
+        "endChar": 18
+      },
+      "revId": "c260f5d83e3ce20f43aee12838366ed7cbc90a37",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b3b8692c_2e7b6a3d",
+        "filename": "site/chromium-os/packages/crash-reporting/faq/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 308,
+      "author": {
+        "id": 1300299
+      },
+      "writtenOn": "2022-12-12T23:08:20Z",
+      "side": 1,
+      "message": "note that you will still need the extra step for official builds",
       "revId": "c260f5d83e3ce20f43aee12838366ed7cbc90a37",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
