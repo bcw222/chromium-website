@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6cdad270_47396b42",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1119597
+      },
+      "writtenOn": "2022-12-12T11:13:59Z",
+      "side": 1,
+      "message": "BTW, I think this FAQ should be updated to talk about Crashpad instead of Breakpad.",
+      "revId": "c260f5d83e3ce20f43aee12838366ed7cbc90a37",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
