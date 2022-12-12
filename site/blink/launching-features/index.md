@@ -203,14 +203,14 @@ next step.
 #### Step 3: Feature Complete behind a feature flag: iteration on design
 
 Once you have a functional and reasonably complete feature implementation
-available as a runtime enabled feature, request a
-[TAG](https://github.com/w3ctag/design-reviews/issues) review of your design and
-proceed to the “Dev Trials” stage in ChromeStatus. This will generate a “Ready
-for Trial” email that you should send to
-[blink-dev](mailto:blink-dev@chromium.org) to notify the community they can try
-out the feature. At this point, you should consider ask other browser vendors
-and the web developer community for [signals on their opinion of the
-API](https://docs.google.com/document/d/1xkHRXnFS8GDqZi7E0SSbR3a7CZsGScdxPUWBsNgo-oo/edit#heading=h.tgzhprxcmw4u).
+available as a runtime enabled feature, we recommend (but don't require) that
+you request an [Early Design Review](https://github.com/w3ctag/design-reviews/issues/new?assignees=&labels=Progress%3A+untriaged%2C+Review+type%3A+early+review&template=005-early-design-review.md&title=)
+from the [TAG](https://www.w3.org/2001/tag/) and proceed to
+the “Dev Trials” stage in ChromeStatus. This will generate a “Ready for Trial”
+email that you should send to [blink-dev](mailto:blink-dev@chromium.org) to
+notify the community they can try out the feature. At this point, you should
+consider asking other browser vendors and the web developer community for
+[signals on their opinion of the API](https://docs.google.com/document/d/1xkHRXnFS8GDqZi7E0SSbR3a7CZsGScdxPUWBsNgo-oo/edit#heading=h.tgzhprxcmw4u).
 
 This is the main iterating stage of feature development and helps you assess
 product-market-fit early on before you corner yourself (does your API address a
@@ -246,6 +246,10 @@ completes. But be careful: writing a good spec can be a lot of work, and
 producing a good enough spec to meet the shipping bar can take longer than the
 ~12-16 weeks of an Origin Trial, so starting the spec-writing process too late
 might delay your feature launch.
+
+Once you have a complete specification, request a [Specification Review](https://github.com/w3ctag/design-reviews/issues/new?assignees=&labels=Progress%3A+untriaged&template=010-specification-review.md)
+from the TAG. You should submit this at least a month ahead of sending an
+Intent to Ship, to give the TAG sufficient time for meaningful feedback.
 
 #### Step 5 (Optional): Origin Trial
 
@@ -309,11 +313,12 @@ trial will continue to be able to use the feature on Chromium milestone N up to
 
 At this point, if you are a Googler you should get a final spec review from your
 standards mentor, and discuss options for moving your spec to a final
-standardization venue. You should have TAG sign-off on your API design by now,
-or have ongoing discussions on the TAG review without any outstanding major
-concerns. You should update ChromeStatus with a target milestone for shipping
-(and remember to keep this updated, if things change). You should get final
-signoff from Documentation, and update for any changes in vendor signals.
+standardization venue. You should have TAG sign-off on your API design and
+specification by now, or have ongoing discussions on the TAG review without any
+known and unresolved major concerns. You should update ChromeStatus with a target
+milestone for shipping (and remember to keep this updated, if things change).
+You should get final signoff from Documentation, and update for any changes in
+vendor signals.
 
 Proceed to the “Prepare to Ship” stage in ChromeStatus; this will generate an
 [Intent to
@@ -360,10 +365,10 @@ feature ready for developers to try out under a flag, proceed to the next step.
 #### Step 2: Feature Complete behind a flag and implementation refinement
 
 If the TAG has not already reviewed the consensus specification, request a
-[TAG](https://github.com/w3ctag/design-reviews/issues) review and proceed to the
-“Dev Trials” stage in ChromeStatus. This will generate a “Ready for Trial” email
-that you should send to [blink-dev](mailto:blink-dev@chromium.org) to notify the
-community they can try out the feature.
+[Specification Review](https://github.com/w3ctag/design-reviews/issues/new?assignees=&labels=Progress%3A+untriaged&template=010-specification-review.md)
+and proceed to the “Dev Trials” stage in ChromeStatus. This will generate a
+“Ready for Trial” email that you should send to [blink-dev](mailto:blink-dev@chromium.org)
+to notify the community they can try out the feature.
 
 After you have addressed any issues that the community finds, you should proceed
 to the “Evaluating readiness to ship” stage in ChromeStatus. You should also
@@ -380,8 +385,9 @@ incubations applies here as well.
 #### Step 4: Prepare to Ship
 
 You should update ChromeStatus with a target milestone for shipping (and
-remember to keep this updated, if things change). You should get final signoff
-from Documentation, and update for any changes in vendor signals.
+remember to keep this updated, if things change). If you are working with DevRel
+on documentation, this is the time to finish that work and update for any
+changes in vendor signals.
 
 Proceed to the “Prepare to Ship” stage in ChromeStatus; this will generate an
 [Intent to
