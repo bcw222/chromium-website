@@ -73,6 +73,29 @@
       },
       "revId": "c260f5d83e3ce20f43aee12838366ed7cbc90a37",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eb54620f_c9176c8e",
+        "filename": "site/chromium-os/packages/crash-reporting/faq/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 285,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-12-12T18:25:50Z",
+      "side": 1,
+      "message": "\"unofficial\"",
+      "range": {
+        "startLine": 285,
+        "startChar": 8,
+        "endLine": 285,
+        "endChar": 18
+      },
+      "revId": "c260f5d83e3ce20f43aee12838366ed7cbc90a37",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
