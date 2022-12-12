@@ -106,6 +106,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "74c8c639_c59cdf68",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2022-12-12T19:51:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "61c6b1c3_bfaa73b3",
+      "revId": "c7f594b586c65706a71fe0bc55d1a9baaad08d8f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "68f331fd_6bb2e000",
@@ -141,6 +159,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "51b821cd_9497ce2a",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2022-12-12T19:51:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5e0de5f3_982d4a8a",
+      "revId": "c7f594b586c65706a71fe0bc55d1a9baaad08d8f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f8725355_69c5fac6",
@@ -154,6 +190,24 @@
       "writtenOn": "2022-11-16T21:25:37Z",
       "side": 1,
       "message": "s/outstanding/known and unresolved/\n\nSuggesting this to make it clearer that \"no response yet\" is not an \"outstanding major concern\".",
+      "revId": "c7f594b586c65706a71fe0bc55d1a9baaad08d8f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4adb9ca8_af0e3f5b",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 318,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2022-12-12T19:51:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f8725355_69c5fac6",
       "revId": "c7f594b586c65706a71fe0bc55d1a9baaad08d8f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -175,6 +229,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6728dc60_a63809b2",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 320,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2022-12-12T19:51:43Z",
+      "side": 1,
+      "message": "Earlier we say \"You should also work with the documentation team to ensure your feature will be documented when shipped\" - which is good. I\u0027ll try to re-word to something less confusing here.",
+      "parentUuid": "9119f17e_a678f37d",
+      "revId": "c7f594b586c65706a71fe0bc55d1a9baaad08d8f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fe25df93_daddfbf8",
@@ -188,6 +260,24 @@
       "writtenOn": "2022-11-16T21:25:37Z",
       "side": 1,
       "message": "Link to somewhere where we enumerate cases that can be skipped for TAG review?",
+      "revId": "c7f594b586c65706a71fe0bc55d1a9baaad08d8f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "37e77a45_04475e8e",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 368,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2022-12-12T19:51:43Z",
+      "side": 1,
+      "message": "Hm... _do_ we have exception criteria documented somewhere (I\u0027m not finding anything)? If not, maybe a good follow up CL?",
+      "parentUuid": "fe25df93_daddfbf8",
       "revId": "c7f594b586c65706a71fe0bc55d1a9baaad08d8f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
