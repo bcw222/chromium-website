@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3d6596a2_1191bc2b",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/debugging-tips/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-12-12T18:23:37Z",
+      "side": 1,
+      "message": "this doc exists in this repo, so use file paths and never https:// URIs",
+      "revId": "4b2af85ace3124719a347835480e375557380c54",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
