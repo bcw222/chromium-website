@@ -176,6 +176,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f976547f_836f5338",
+        "filename": "site/chromium-os/packages/crash-reporting/faq/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 280,
+      "author": {
+        "id": 1300299
+      },
+      "writtenOn": "2022-12-13T00:39:18Z",
+      "side": 1,
+      "message": "Fair. There\u0027s a lot of issues with this FAQ, and I don\u0027t want to ask you to fix all of them.",
+      "parentUuid": "579ccccb_fafcd21c",
+      "range": {
+        "startLine": 280,
+        "startChar": 47,
+        "endLine": 280,
+        "endChar": 55
+      },
+      "revId": "c260f5d83e3ce20f43aee12838366ed7cbc90a37",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0076cff2_29c531b7",
