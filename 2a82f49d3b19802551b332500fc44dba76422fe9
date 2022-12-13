@@ -16,6 +16,40 @@
       "message": "The preview LGTM.",
       "revId": "2a82f49d3b19802551b332500fc44dba76422fe9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c19f6e7c_af489157",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000101
+      },
+      "writtenOn": "2022-12-13T19:13:37Z",
+      "side": 1,
+      "message": "lgtm % one nit",
+      "revId": "2a82f49d3b19802551b332500fc44dba76422fe9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5831d3b7_09056631",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 4028,
+      "author": {
+        "id": 1000101
+      },
+      "writtenOn": "2022-12-13T19:13:37Z",
+      "side": 1,
+      "message": "nit: Fix indent here and L4011 above.",
+      "revId": "2a82f49d3b19802551b332500fc44dba76422fe9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
