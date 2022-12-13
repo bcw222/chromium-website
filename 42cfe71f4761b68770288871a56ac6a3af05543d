@@ -70,6 +70,30 @@
       },
       "revId": "42cfe71f4761b68770288871a56ac6a3af05543d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1192c30_100a2a67",
+        "filename": "site/chromium-os/packages/crash-reporting/faq/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 275,
+      "author": {
+        "id": 1119597
+      },
+      "writtenOn": "2022-12-13T02:03:51Z",
+      "side": 1,
+      "message": "I see, I was using the preview from the Tricium message above. Let me land the change and patch it up afterwards if it turns out the Tricium preview was wrong.",
+      "parentUuid": "3f27d034_866b3a39",
+      "range": {
+        "startLine": 275,
+        "startChar": 13,
+        "endLine": 275,
+        "endChar": 96
+      },
+      "revId": "42cfe71f4761b68770288871a56ac6a3af05543d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
