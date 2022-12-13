@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7032300e_3a284c7e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1427954
+      },
+      "writtenOn": "2022-12-13T15:59:41Z",
+      "side": 1,
+      "message": "The preview LGTM.",
+      "revId": "2a82f49d3b19802551b332500fc44dba76422fe9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
