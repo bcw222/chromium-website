@@ -34,6 +34,24 @@
       "parentUuid": "3d6596a2_1191bc2b",
       "revId": "4b2af85ace3124719a347835480e375557380c54",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "06844a76_b67dcd8d",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/debugging-tips/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-12-13T15:25:40Z",
+      "side": 1,
+      "message": "it\u0027s shorter, and the site is hosted in more places than just www.chromium.org.  like the sandbox link the bots post for you.",
+      "parentUuid": "7cba9878_014a1dcc",
+      "revId": "4b2af85ace3124719a347835480e375557380c54",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
