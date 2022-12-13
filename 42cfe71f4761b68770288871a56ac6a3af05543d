@@ -22,6 +22,30 @@
       },
       "revId": "42cfe71f4761b68770288871a56ac6a3af05543d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e11745e4_d523dbef",
+        "filename": "site/chromium-os/packages/crash-reporting/faq/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 275,
+      "author": {
+        "id": 1119597
+      },
+      "writtenOn": "2022-12-13T00:44:25Z",
+      "side": 1,
+      "message": "That\u0027s strange. In the preview, the corresponding link in the table of contents is https://chromium-website--cl4094399-ps6-adumcqv3.web.app/chromium-os/packages/crash-reporting/faq/#where-can-i-find-the-crash-minidumpcore-file-for-a-crashed-process-on-my-chromebook. That\u0027s the same as what I use above, and both links bring me to the correct question.",
+      "parentUuid": "ec933f68_c081f72f",
+      "range": {
+        "startLine": 275,
+        "startChar": 13,
+        "endLine": 275,
+        "endChar": 96
+      },
+      "revId": "42cfe71f4761b68770288871a56ac6a3af05543d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
