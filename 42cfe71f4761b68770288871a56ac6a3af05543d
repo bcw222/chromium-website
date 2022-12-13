@@ -94,6 +94,30 @@
       },
       "revId": "42cfe71f4761b68770288871a56ac6a3af05543d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11dd9d49_5ba30146",
+        "filename": "site/chromium-os/packages/crash-reporting/faq/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 275,
+      "author": {
+        "id": 1119597
+      },
+      "writtenOn": "2022-12-13T02:11:09Z",
+      "side": 1,
+      "message": "It\u0027s live and works: https://www.chromium.org/chromium-os/packages/crash-reporting/faq/#where-can-i-find-the-crash-minidumpcore-file-when-chrome-crashes-immediately-after-login-and-logs-me-out",
+      "parentUuid": "f1192c30_100a2a67",
+      "range": {
+        "startLine": 275,
+        "startChar": 13,
+        "endLine": 275,
+        "endChar": 96
+      },
+      "revId": "42cfe71f4761b68770288871a56ac6a3af05543d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ],
   "submitRequirementResults": [
