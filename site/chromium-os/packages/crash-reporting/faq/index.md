@@ -265,36 +265,33 @@ something smarter than a SIGKILL. A simpler solution would be to have something
 monitor the system logs, and simply report the OOM killing (at least with an UMA
 metric).
 
----
-
-## Core File Questions
-
-### Does crash_reporter save the core file for a crash?
-
-Yes, but only for developer images. When a crash occurs, the kernel sends the
-core file to `crash_reporter`. The core file is saved to disk by
-`crash_reporter` and then converted to a minidump. If the `/root/.leave_core`
-file exists (i.e. it's a developer image), the core file will be left on disk.
-See FAQ entry [Where can I find the crash dump/core file for a crashed process
-on my
-Chromebook](#TOC-Where-can-I-find-the-crash-minidump-core-file-for-a-crashed-process-on-my-Chromebook-)
-for where to find the core file. Note that by default Chrome crashes are not
-handled by `crash_reporter` (see FAQ entry [Why would chrome crashes not
-generate a core file on dev
-builds](#TOC-Why-would-Chrome-crashes-not-generate-a-core-file-on-dev-builds-)).
-
 ### How can I get the core file for a crash?
 
-For non-Chrome crashes when running a developer image, see FAQ entry [Does
-crash_reporter save the core file for a
-crash](#TOC-Does-crash_reporter-save-the-core-file-for-a-crash-). For Chrome
-crashes on a developer image, see FAQ entry [Why would chrome crashes not
-generate a core file on dev
-builds](#TOC-Why-would-Chrome-crashes-not-generate-a-core-file-on-dev-builds-).
+When a crash occurs, the kernel sends the core file to `crash_reporter`, which
+then saves it to disk and converts it to a minidump. If the `/root/.leave_core`
+file exists (e.g. it's a developer image), the core file will be left on disk.
+See FAQ entry [Where can I find the crash dump/core file for a crashed process
+on my
+Chromebook](#where-can-i-find-the-crash-minidumpcore-file-for-a-crashed-process-on-my-chromebook)
+for where to find the core file. If you're not running a developer image, you
+need to create `/root/.leave_core` first.
 
-If you're not running a developer image, the easiest way to get core files is
-probably to touch the `/root/.leave_core` and
-/mnt/stateful_partition/etc/collect_chrome_crashes files.
+For Chrome crashes, the story is more complicated. First, Chrome crashes are by
+default not handled by `crash_reporter` but by Breakpad, which does not generate
+core files. In order to have `crash_reporter` not ignore Chrome crashes, you
+need to touch the `/mnt/stateful_partition/etc/collect_chrome_crashes` file.
+
+Second, unofficial Chrome builds (gn arg `is_official_build = false`) have
+in-process stack dumping enabled in order to log a call stack upon crashing
+(these messages end up in `/var/log/ui`). For historical reasons, the process is
+then terminated without propagating the crash signal, meaning that the kernel
+will never invoke `crash_reporter`. To avoid this, you can either use an
+official build or run Chrome with the `--disable-in-process-stack-traces`
+switch.
+
+See also the next question for another way to obtain the core file.
+
+### How can I bypass crash_reporter entirely?
 
 If you don't want to involve crash_reporter at all, for whatever reason, you can
 manually change the setting such that the kernel creates a core file instead of
@@ -308,17 +305,8 @@ about:
 
 > `prlimit --core=unlimited --pid <pid>`
 
-### Why would Chrome crashes not generate a core file on dev builds?
-
-By default, all but Chrome crashes are handled by `crash_reporter`. Chrome
-handles its own crashes by linking in Breakpad, which does not generate core
-files. In order to have `crash_reporter` not ignore Chrome crashes, though, you
-can touch the `/mnt/stateful_partition/etc/collect_chrome_crashes` file. This
-file is normally used by the autotests in order for Chrome crashes to still be
-handled. See also FAQ entry [Does crash_reporter save the core file for a
-crash](#TOC-Does-crash_reporter-save-the-core-file-for-a-crash-).
-
-Reference: <https://crbug.com/201089>
+You also either need an official Chrome build or use the
+`--disable-in-process-stack-traces` switch (see the previous question).
 
 ---
 
