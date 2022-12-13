@@ -16,6 +16,24 @@
       "message": "this doc exists in this repo, so use file paths and never https:// URIs",
       "revId": "4b2af85ace3124719a347835480e375557380c54",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7cba9878_014a1dcc",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/debugging-tips/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1119597
+      },
+      "writtenOn": "2022-12-13T00:38:44Z",
+      "side": 1,
+      "message": "Done. Out of curiosity: what\u0027s the advantage?",
+      "parentUuid": "3d6596a2_1191bc2b",
+      "revId": "4b2af85ace3124719a347835480e375557380c54",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
