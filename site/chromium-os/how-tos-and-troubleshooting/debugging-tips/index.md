@@ -124,21 +124,9 @@ Chrome, and messages that it logs before it initializes its log file, appear in
 
 ## **Enabling core dumps**
 
-Core dumps are disabled by default. To turn it on:
-
-sudo touch /root/.leave_core
-
-sudo touch /mnt/stateful_partition/etc/collect_chrome_crashes
-
-sudo restart ui
-
-Core files will be generated in the directory
-
-/var/spool/crash
-
-or
-
-/home/chronos/user/crash
+See the [Crash Reporting
+FAQ](../../packages/crash-reporting/faq/#how-can-i-get-the-core-file-for-a-crash)
+for how to get core files.
 
 Once you have a core file, you can load it to gdb.
 
