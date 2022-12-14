@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c495e90f_b9f35e86",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000101
+      },
+      "writtenOn": "2022-12-14T17:01:36Z",
+      "side": 1,
+      "message": "lgtm % one nit",
+      "revId": "aee28071edbc924751dfc2a835b081676827c05e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "87a2ec14_fb6de276",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 4029,
+      "author": {
+        "id": 1000101
+      },
+      "writtenOn": "2022-12-14T17:01:36Z",
+      "side": 1,
+      "message": "nit: Missed previously. The indent is wrong here and in L4011 above.",
+      "revId": "aee28071edbc924751dfc2a835b081676827c05e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
