@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a230a008_7502de10",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2022-12-14T18:03:04Z",
+      "side": 1,
+      "message": "LGTM w/ nits",
+      "revId": "72785113428860e6391c7cda09a628b85a27c9ce",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e096f97b_32454514",
+        "filename": "site/blink/guidelines/api-owners/process-exceptions/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2022-12-14T18:03:04Z",
+      "side": 1,
+      "message": "TAG specification review?",
+      "revId": "72785113428860e6391c7cda09a628b85a27c9ce",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3f310a34_27c59572",
+        "filename": "site/blink/guidelines/api-owners/process-exceptions/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2022-12-14T18:03:04Z",
+      "side": 1,
+      "message": "s/commuincation/communication/",
+      "revId": "72785113428860e6391c7cda09a628b85a27c9ce",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
