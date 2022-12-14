@@ -33,6 +33,24 @@
       "message": "nit: Strip trailing white space.",
       "revId": "469d67bf17d1dc3e9f49b4c0f40a7a5e234aa1af",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d256d8fd_d3fe723b",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 4028,
+      "author": {
+        "id": 1138669
+      },
+      "writtenOn": "2022-12-14T10:59:56Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "48420ce5_3d68aeaa",
+      "revId": "469d67bf17d1dc3e9f49b4c0f40a7a5e234aa1af",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
