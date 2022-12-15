@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7a214322_f6d2e2bf",
+        "filename": "site/blink/guidelines/api-owners/process-exceptions/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2022-12-15T00:34:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e096f97b_32454514",
+      "revId": "72785113428860e6391c7cda09a628b85a27c9ce",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3f310a34_27c59572",
@@ -48,6 +66,24 @@
       "writtenOn": "2022-12-14T18:03:04Z",
       "side": 1,
       "message": "s/commuincation/communication/",
+      "revId": "72785113428860e6391c7cda09a628b85a27c9ce",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ecbd786a_98301489",
+        "filename": "site/blink/guidelines/api-owners/process-exceptions/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2022-12-15T00:34:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3f310a34_27c59572",
       "revId": "72785113428860e6391c7cda09a628b85a27c9ce",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
