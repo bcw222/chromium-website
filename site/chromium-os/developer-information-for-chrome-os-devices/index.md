@@ -235,6 +235,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td></td>
   </tr>
+    <tr>
+    <td></td>
+    <td>HP</td>
+    <td><a href="">HP Chromebook x360 12b</a></td>
+    <td>Bloog</td>
+    <td>octopus</td>
+    <td>octopus</td>
+    <td>x86_64</td>
+    <td>4.14</td>
+    <td>x86_64</td>
+    <td>Gemini Lake</td>
+    <td>Convertible</td>
+    <td></td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td></td>
+  </tr>
   <tr>
     <td></td>
     <td>Asus</td>
