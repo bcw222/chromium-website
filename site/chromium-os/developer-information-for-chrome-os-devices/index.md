@@ -2359,6 +2359,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>Right Port</td>
   </tr>
+    <tr>
+    <td>2019</td>
+    <td>HP</td>
+    <td><a href="https://www.dell.com/en-us/shop/dell-laptops/chromebook-3100-laptop/spd/chromebook-11-3100-laptop">Dell Chromebook 3100</a></td>
+    <td>Fleex</td>
+    <td>octopus</td>
+    <td>octopus</td>
+    <td>x86_64</td>
+    <td>4.14</td>
+    <td>x86_64</td>
+    <td>Gemini Lake</td>
+    <td>Chromebook</td>
+    <td></td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td></td>
+  </tr>
   <tr>
     <td>2019-02-27</td>
     <td>Lenovo</td>
