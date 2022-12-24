@@ -1,5 +1,6 @@
 ---
-breadcrumbs: []
+breadcrumbs: [https://chrome.google.com/webstore/category/for_your_domain
+developers
 page_name: chromium-projects
 title: Home
 use_title_as_h1: false
