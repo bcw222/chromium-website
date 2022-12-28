@@ -165,11 +165,12 @@ Yes.
 
 `crash_reporter` will stop creating crash reports if there are 32 of them
 already on disk. There's a separate limit per collection directory, so
-`/var/spool/crash` and `/home/chronos/user/crash` can each contain up to 32
-crash reports. That limit is defined in **crash-reporter/crash_collector.cc**'s
-variable **CrashCollector::kMaxCrashDirectorySize**. With respect to uploading
-crash reports, `crash_sender` has a per day limit. More specifically, if at
-least 32 crash reports have been sent within the past 24 hours, and the combined
+`/var/spool/crash` and `/run/daemon-store/crash/<user-hash>` can each contain
+up to 32 crash reports. That limit is defined in
+**crash-reporter/crash_collector.cc**'s variable
+`CrashCollector::kMaxCrashDirectorySize`. With respect to uploading crash
+reports, `crash_sender` has a per day limit. More specifically, if at least
+32 crash reports have been sent within the past 24 hours, and the combined
 compressed size of those reports is above 24 MB, it will delay and try sending
 the crash report later. These limits are defined by **kMaxCrashRate**
 andkMaxCrashBytes** in **crash-reporter/crash_sender_util.h**.
@@ -178,30 +179,32 @@ andkMaxCrashBytes** in **crash-reporter/crash_sender_util.h**.
 
 #### Official builds:
 
-For processes run as user "chronos", `crash_reporter` puts its files (\*.dmp and
-\*.meta) in `/home/chronos/user/crash/` if the user is logged in,
-`/home/chronos/crash` if not. For other processes, `crash_reporter` puts them in
+When a user is logged in, `crash_reporter` puts its files (\*.dmp and \*.meta)
+in `/run/daemon-store/crash/<user-hash>`. Otherwise, `crash_reporter` places
+files from processes running as user `chronos` (most commonly, Chrome crashes)
+in `/home/chronos/crash` and places files from other crashes in
 `/var/spool/crash/`.
 
 #### Developer builds:
 
-For processes run as user "chronos", `crash_reporter` puts its files (\*.dmp,
-\*.meta, and \*.core) in `/home/chronos/crash/`. For other processes,
+For processes running as user `chronos`, `crash_reporter` puts its files
+(\*.dmp, \*.meta, and \*.core) in `/home/chronos/crash/`. For other processes,
 `crash_reporter` puts them in `/var/spool/crash/`. If you are running a
 developer image, the `/root/.leave_core` file should exist, so `crash_reporter`
 will not delete the core file.
 
 ### Where can I find the crash minidump/core file when chrome crashes immediately after login and logs me out?
 
-For official builds, minidumps are written to \`/home/user/\*/crash\`
-directories, which are only mounted when the corresponding user(s) are logged
-in. cryptohome unmounts the home directory if chrome crashes immediately after
-login and leaves crash dump. <http://crbug.com/857317>. You can use the
-cryptohome command to mount and decrypt home directories:
+For official builds, minidumps are written to
+`/run/daemon-store/crash/<user-hash>` directories, which are only mounted when
+the corresponding user is logged in. cryptohome unmounts the home directory if
+chrome crashes immediately after login and leaves crash dump.
+<http://crbug.com/857317>. You can use the cryptohome command to mount and
+decrypt home directories:
 
 ```none
 DUT$ cryptohome --action=mount_ex --user=user@gmail.com
-DUT$ ls -l /home/user/*/crash/
+DUT$ ls -l /run/daemon-store/crash/*
 ```
 
 ### Why are my crash dumps disappearing sometimes?
