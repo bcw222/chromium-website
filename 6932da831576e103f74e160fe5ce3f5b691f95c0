@@ -22,6 +22,30 @@
       },
       "revId": "6932da831576e103f74e160fe5ce3f5b691f95c0",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee499c84_d7f73298",
+        "filename": "site/chromium-os/packages/crash-reporting/faq/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 1300299
+      },
+      "writtenOn": "2022-12-28T22:23:56Z",
+      "side": 1,
+      "message": "In the immortal words of Homer Simpson: \"It was like that when I got here\"\n\nDone",
+      "parentUuid": "040c5a2e_d734f039",
+      "range": {
+        "startLine": 171,
+        "startChar": 0,
+        "endLine": 171,
+        "endChar": 1
+      },
+      "revId": "6932da831576e103f74e160fe5ce3f5b691f95c0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
