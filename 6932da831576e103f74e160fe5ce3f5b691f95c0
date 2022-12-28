@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "040c5a2e_d734f039",
+        "filename": "site/chromium-os/packages/crash-reporting/faq/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 1305461
+      },
+      "writtenOn": "2022-12-28T19:02:09Z",
+      "side": 1,
+      "message": "Why is this bolded? Should it be inside of backticks too?",
+      "range": {
+        "startLine": 171,
+        "startChar": 0,
+        "endLine": 171,
+        "endChar": 1
+      },
+      "revId": "6932da831576e103f74e160fe5ce3f5b691f95c0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
