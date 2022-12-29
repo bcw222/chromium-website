@@ -18,14 +18,18 @@ Chromium OS repositories, see the information
 
 Enumerate your local branches:
 
+```none
 cd src
 git branch
+```
 
 Switching from one branch to another: Example: Switching from branch 'branch1'
 to branch 'branch2'.
 
+```none
 cd src
 git checkout branch2
+```
 
 Note that `-` can be used to refer to the previous branch, which is useful when
 switching between two branches.
@@ -42,11 +46,15 @@ other. The recommended workflow is to make local branches off the server main,
 referred to as the origin/main branch. The `git-new-branch` command (in
 depot_tools) will do this:
 
-    git new-branch branch_name
+```none
+git new-branch branch_name
+```
 
 Note that this is equivalent to the following:
 
-    git checkout -b new_branch origin/main
+```none
+git checkout -b new_branch origin/main
+```
 
 ### Branch off a branch
 
@@ -129,11 +137,13 @@ committed before deleting it.
 
 Remember that you can always apply a CL that has been posted via:
 
+```none
 git checkout -b myworkfrompatch
-git cl patch 12345 # Using CL issue number, not bug number, applies latest patch
-set
-git cl patch https://codereview.chromium.org/download/issue12345_1.diff # Use
-URL of raw patch for older patch sets
+git cl patch 12345 # Using CL issue number, not bug number, applies
+                   # latest patch set
+git cl patch https://codereview.chromium.org/download/issue12345_1.diff
+                   # Use URL of raw patch for older patch sets
+```
 
 ...so as long as your CL has been posted, you can easily recover your work.
 Otherwise, you'll need to dig through the git repository, so be careful.
@@ -154,14 +164,18 @@ This may be more trouble than it's worth, but it's the safest way.
 
 To check that the branch has been committed upstream:
 
+```none
 git checkout mywork
 git rebase origin/main
 git diff --stat origin/main # optional check
+```
 
 If there are no differences, delete the branch:
 
+```none
 git checkout origin/main
 git branch -d mywork # will only work if has been merged
+```
 
 **NOTE:** If you haven't waited long enough after your commit, it is possible
 that 'git fetch' did not get your commit and git will continue to believe that
@@ -172,11 +186,15 @@ also instruct git to force-delete your branch.
 Note that when you delete your branch, it will give you the SHA-1 hash for its
 tip:
 
+```none
 Deleted branch mywork (was 123abc0).
+```
 
 You can then recover the branch via:
 
+```none
 git checkout -b mywork 123abc0
+```
 
 If you forget the hash, you can find it via git reflog. (Reference: [Can I
 recover branch after the deletion in
@@ -193,6 +211,7 @@ and stops you from doing this. Create a file named
 chromium/src/.git/hooks/pre-commit and add the below to it, then mark
 executable. (Blink developers: add in blink directory as well.)
 
+```shell
 #!/bin/bash
 # Prevent commits against the 'main' branch
 if \[\[ \`git rev-parse --abbrev-ref HEAD\` == 'main' \]\]
@@ -204,11 +223,14 @@ echo 'git checkout &lt;branch&gt;'
 echo 'git stash apply'
 exit 1
 fi
+```
 
 If you've accidentally uploaded a change list from main, you can clear the
 association of an issue number with main via:
 
+```
 git cl issue 0
+```
 
 If you've accidentally committed to main, then, after copying your work to a
 new branch (e.g., make patch and then apply to new branch), you can clean up
@@ -217,4 +239,6 @@ answer](http://stackoverflow.com/a/6866485) to [How to undo the last Git
 commit?](http://stackoverflow.com/questions/927358/how-to-undo-the-last-git-commit)
 -- see more details there.
 
+```
 git reset --hard HEAD~1
+```
