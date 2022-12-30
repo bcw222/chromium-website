@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "43bb0c83_e9c58433",
+        "filename": "site/developers/how-tos/get-the-code/working-with-branches/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2022-12-30T03:17:44Z",
+      "side": 1,
+      "message": "what value is there in specifying `none` when that\u0027s the default ?\n\nif you\u0027re going to put a syntax on it, might as well use a real value like `shell` since these are all shell snippets",
+      "revId": "f471c770b7639eb63b755d6411a2683ce45893dc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
