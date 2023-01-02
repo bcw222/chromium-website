@@ -121,7 +121,7 @@ public mailing list. If you're interested in participating please talk to
 
 Meeting notes are public and are sent to *rendering-core-dev*, they're also
 available in this document: [Meeting
-notes](https://docs.google.com/document/d/1o9hQsFvFSHnnAVgGm60DH7GcbMP4NPbW3zIXDbFec18/edit?usp=sharing).
+notes](https://docs.google.com/document/d/1AK_PzaiMpSHrJRvMhcnK-FFYXc64Qx_sidx3umsHDRY/edit?usp=sharing).
 
 ### Slack
 
