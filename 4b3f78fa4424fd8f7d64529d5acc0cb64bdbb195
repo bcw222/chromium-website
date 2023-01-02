@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8495188_641f5041",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1210854
+      },
+      "writtenOn": "2023-01-02T17:53:19Z",
+      "side": 1,
+      "message": "Moving to a new weekly meeting notes doc, as I do every 4 months to keep the doc size manageable.",
+      "revId": "4b3f78fa4424fd8f7d64529d5acc0cb64bdbb195",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
