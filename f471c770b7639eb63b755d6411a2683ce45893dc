@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "59932bbd_186e6055",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2023-01-03T15:51:00Z",
+      "side": 1,
+      "message": "lgtm % none -\u003e shell",
+      "revId": "f471c770b7639eb63b755d6411a2683ce45893dc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "43bb0c83_e9c58433",
@@ -14,6 +31,24 @@
       "writtenOn": "2022-12-30T03:17:44Z",
       "side": 1,
       "message": "what value is there in specifying `none` when that\u0027s the default ?\n\nif you\u0027re going to put a syntax on it, might as well use a real value like `shell` since these are all shell snippets",
+      "revId": "f471c770b7639eb63b755d6411a2683ce45893dc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "26a70ac8_afb9a453",
+        "filename": "site/developers/how-tos/get-the-code/working-with-branches/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2023-01-03T15:51:00Z",
+      "side": 1,
+      "message": "+1 for shell",
+      "parentUuid": "43bb0c83_e9c58433",
       "revId": "f471c770b7639eb63b755d6411a2683ce45893dc",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
