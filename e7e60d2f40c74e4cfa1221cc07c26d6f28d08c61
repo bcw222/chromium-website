@@ -16,6 +16,23 @@
       "message": "The preview LGTM.",
       "revId": "e7e60d2f40c74e4cfa1221cc07c26d6f28d08c61",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "35115256_9fe4c525",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000101
+      },
+      "writtenOn": "2023-01-05T16:56:45Z",
+      "side": 1,
+      "message": "lgtm",
+      "revId": "e7e60d2f40c74e4cfa1221cc07c26d6f28d08c61",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
