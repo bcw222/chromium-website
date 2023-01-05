@@ -35,6 +35,23 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6dacc883_6605865b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1364981
+      },
+      "writtenOn": "2023-01-05T06:40:38Z",
+      "side": 1,
+      "message": "I can only submit changes through `Git Source Editor`. I fixed the conflict and submitted a new CL: https://chromium-review.googlesource.com/c/website/+/4137633\n\nPlease review the CL, thanks!",
+      "revId": "2a82f49d3b19802551b332500fc44dba76422fe9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5831d3b7_09056631",
