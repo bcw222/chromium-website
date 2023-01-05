@@ -4008,7 +4008,7 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>Yes</td>
   </tr>
-    <tr>
+  <tr>
     <td>2022-09-27</td>
     <td>HP</td>
     <td><a href="https://www.hp.com/us-en/shop/pdp/hp-chromebook-x360-133-laptop-13b-ca000-73x68av-1">HP Chromebook x360 13.3" Laptop - 13b-ca000</a></td>
@@ -4025,7 +4025,7 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>Yes</td>
   </tr>
-    <tr>
+  <tr>
     <td>2022-11-28</td>
     <td>Framework</td>
     <td><a href="https://frame.work/laptop-chromebook-12-gen-intel/">Framework Laptop Chromebook Edition</a></td>
@@ -4037,6 +4037,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Alder Lake</td>
     <td>Clamshell</td>
+    <td>R106</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>2022-12-07</td>
+    <td>Lenovo</td>
+    <td>Lenovo ThinkCentre M60q Chromebox</td>
+    <td>Kinox</td>
+    <td>Brask</td>
+    <td>Brask</td>
+    <td>x86_64</td>
+    <td>5.10</td>
+    <td>x86_64</td>
+    <td>Alder Lake</td>
+    <td>Chromebox</td>
     <td>R106</td>
     <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
