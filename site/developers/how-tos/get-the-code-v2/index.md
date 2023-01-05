@@ -125,8 +125,7 @@ fetch --nohooks chromium # 'chromium' may alternatively be one of blink,
 android, ios, see below. # or alternatively fetch --nohooks --no-history
 chromium # get a shallow checkout (saves disk space and fetch time at the cost
 of no git history) cd src git checkout main # if you are building for Linux
-only: build/install-build-deps.sh # if you are building for Android:
-build/install-build-deps-android.sh # if you are building for iOS: echo "{
+and Android: build/install-build-deps.sh # if you are building for iOS: echo "{
 'GYP_DEFINES': 'OS=ios', 'GYP_GENERATOR_FLAGS': 'xcode_project_version=3.2', }"
 &gt; chromium.gyp_env
 
