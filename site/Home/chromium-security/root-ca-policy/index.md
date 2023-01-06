@@ -5,7 +5,7 @@ breadcrumbs:
 - - /Home/chromium-security
   - Chromium Security
 page_name: root-ca-policy
-title: Chrome Root Program Policy, Version 1.2
+title: Chrome Root Program Policy, Version 1.3
 ---
 
 ## Last updated: 2022-09-01
