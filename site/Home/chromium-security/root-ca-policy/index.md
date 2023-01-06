@@ -5,10 +5,10 @@ breadcrumbs:
 - - /Home/chromium-security
   - Chromium Security
 page_name: root-ca-policy
-title: Chrome Root Program Policy, Version 1.2
+title: Chrome Root Program Policy, Version 1.3
 ---
 
-## Last updated: 2022-09-01
+## Last updated: 2023-01-06
 
 Bookmark this page as <https://g.co/chrome/root-policy>
 
@@ -73,6 +73,12 @@ Though uncommon, websites can also use certificates to identify clients (e.g., u
 			<li>removal of pre-launch discussion</li>
 			<li>clarifications resulting from the June 2022 Chrome CCADB survey</li>
 			<li>minor reorganization of normative and non-normative requirements</li>
+			</td>
+		</tr>
+		<tr>
+			<td class="tg-center">1.3</td>
+			<td class="tg-center">2023-01-06</td>
+			<td class="tg-left">Updated to include the CCADB Self-Assessment
 			</td>
 	</tbody>
 </table>
@@ -193,7 +199,7 @@ When deemed necessary, the Chrome Root Program may require CAs undergo additiona
 Reports for both [annual](#annual-audits) and [ad-hoc](#ad-hoc-audits) audits must satisfy the requirements in Section 8.6 of the Baseline Requirements and be uploaded to the CCADB within 90 days from the ending date specified in the audit letter. See CCADB instructions for [formatting](https://www.ccadb.org/policy#51-audit-statement-content) and [uploading](https://ccadb.org/cas/updates) audit reports.
 
 ### 6. Annual Self-Assessments
-Beginning in 2023, on an annual basis, CA owners with certificates included in the Chrome Root Store must complete and submit to the CCADB a [self-assessment](https://docs.google.com/spreadsheets/d/1UrACV9GkWU_toygYOBiWaHpNZ8ClsrA9IcKALGg-obI/edit#gid=0) evaluating the conformance of their policies and practices against this policy and the Baseline Requirements for:
+Beginning in 2023, on an annual basis, CA owners with certificates included in the Chrome Root Store must complete and submit to the CCADB a [self-assessment](https://www.ccadb.org/cas/self-assessment) evaluating the conformance of their policies and practices against this policy and the Baseline Requirements for:
 - each root CA certificate included in the Chrome Root Store.
 - any corresponding subordinate CA certificate technically capable of issuing TLS certificates (i.e., explicitly contains an extendedKeyUsage value of id-kp-serverAuth or the functional equivalent, for example, due to the absence of any extendedKeyUsage values).
 
