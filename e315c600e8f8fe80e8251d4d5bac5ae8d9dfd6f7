@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "185906dc_5d577068",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1528057
+      },
+      "writtenOn": "2023-01-06T18:51:01Z",
+      "side": 1,
+      "message": "Built locally using npwm, LGTM.",
+      "revId": "e315c600e8f8fe80e8251d4d5bac5ae8d9dfd6f7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
