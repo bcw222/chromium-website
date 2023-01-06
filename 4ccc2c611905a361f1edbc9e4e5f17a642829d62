@@ -51,6 +51,29 @@
       "parentUuid": "b0119c67_f1d8393e",
       "revId": "4ccc2c611905a361f1edbc9e4e5f17a642829d62",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8b8a1676_23df421f",
+        "filename": "site/developers/how-tos/get-the-code-v2/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1166470
+      },
+      "writtenOn": "2023-01-06T17:15:43Z",
+      "side": 1,
+      "message": "Android will require the --android flag, so please specify that like so: `Linux: build/install-build-deps.sh` and `Android: build/install-build-deps.sh --android`",
+      "range": {
+        "startLine": 127,
+        "startChar": 70,
+        "endLine": 128,
+        "endChar": 40
+      },
+      "revId": "4ccc2c611905a361f1edbc9e4e5f17a642829d62",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
