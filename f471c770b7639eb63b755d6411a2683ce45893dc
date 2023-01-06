@@ -51,6 +51,24 @@
       "parentUuid": "43bb0c83_e9c58433",
       "revId": "f471c770b7639eb63b755d6411a2683ce45893dc",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ca8f7f7c_5739fdba",
+        "filename": "site/developers/how-tos/get-the-code/working-with-branches/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1563797
+      },
+      "writtenOn": "2023-01-06T17:46:35Z",
+      "side": 1,
+      "message": "Thanks!  I was copying something that appeared elsewhere here, but you\u0027re right that `shell` makes more sense.",
+      "parentUuid": "26a70ac8_afb9a453",
+      "revId": "f471c770b7639eb63b755d6411a2683ce45893dc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
