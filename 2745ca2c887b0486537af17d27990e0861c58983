@@ -50,6 +50,24 @@
       "message": "Sorry for the delay.\n\nThis CL seems to be modifying a deprecated page (see the \"this page is obsolete\" header in the preview [1]). It links to a new version at [2], which does instruct the reader to use `build/install-build-deps.sh --android` (which if I understand correctly is the purpose of this change).\n\nIs there any reason to modify the obsolete page? It seems to me like the new page covers things, but please feel free to let me know if I\u0027m misunderstanding. Thanks.\n\n[1] https://chromium-website--cl4135617-ps4-sirwula4.web.app/developers/how-tos/get-the-code-v2/\n[2] https://chromium.googlesource.com/chromium/src/+/main/docs/android_build_instructions.md#install-additional-build-dependencies",
       "revId": "2745ca2c887b0486537af17d27990e0861c58983",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c18fd596_0a091053",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1543262
+      },
+      "writtenOn": "2023-01-09T19:50:55Z",
+      "side": 1,
+      "message": "This CL was initiated by order of Thomas Anderson and is a continuation of the first CL.\n\nI\u0027ve noticed pages marked as deprecated before this, and now I\u0027m wondering, should we remove these deprecated pages altogether?",
+      "parentUuid": "4edccff5_e326d776",
+      "revId": "2745ca2c887b0486537af17d27990e0861c58983",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
