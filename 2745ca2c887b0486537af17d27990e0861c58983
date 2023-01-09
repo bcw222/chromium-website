@@ -33,6 +33,23 @@
       "message": "looks like brucedawson@ needs to approve.  fyi this doc needs to be updated because of https://chromium-review.googlesource.com/c/chromium/src/+/4133941",
       "revId": "2745ca2c887b0486537af17d27990e0861c58983",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4edccff5_e326d776",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-01-09T19:22:48Z",
+      "side": 1,
+      "message": "Sorry for the delay.\n\nThis CL seems to be modifying a deprecated page (see the \"this page is obsolete\" header in the preview [1]). It links to a new version at [2], which does instruct the reader to use `build/install-build-deps.sh --android` (which if I understand correctly is the purpose of this change).\n\nIs there any reason to modify the obsolete page? It seems to me like the new page covers things, but please feel free to let me know if I\u0027m misunderstanding. Thanks.\n\n[1] https://chromium-website--cl4135617-ps4-sirwula4.web.app/developers/how-tos/get-the-code-v2/\n[2] https://chromium.googlesource.com/chromium/src/+/main/docs/android_build_instructions.md#install-additional-build-dependencies",
+      "revId": "2745ca2c887b0486537af17d27990e0861c58983",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
