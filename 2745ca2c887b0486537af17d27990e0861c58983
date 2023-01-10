@@ -68,6 +68,24 @@
       "parentUuid": "4edccff5_e326d776",
       "revId": "2745ca2c887b0486537af17d27990e0861c58983",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "763cde57_a6fe1fa6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-01-10T18:39:15Z",
+      "side": 1,
+      "message": "Hmm, that\u0027s a good question - the page says:\n\n\"Not all the information here has been migrated to the depot_tools docs yet, so this page will stay around for a while as a resource, but where there are discrepancies, the depot_tools pages should be considered authoritative.\"\n\nIt\u0027s not really clear when that migration will be done (or if it is already), but it\u0027s probably best to err on the side of caution and keep this page for the time being.\n\nIn light of that, I\u0027m fine with this CL as it doesn\u0027t seem like the motivation for keeping this is as a historical record of what the old commands were.\n\nLGTM, thanks for your patience!",
+      "parentUuid": "c18fd596_0a091053",
+      "revId": "2745ca2c887b0486537af17d27990e0861c58983",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
