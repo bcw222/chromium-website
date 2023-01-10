@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "897a8d9f_c0c8dee5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1118499
+      },
+      "writtenOn": "2023-01-10T23:30:49Z",
+      "side": 1,
+      "message": "Got a request for this from Chrome Marketing who heard from Chrome UX. 😊\n\nI dropped the old logo from gitignore, but i\u0027m happy to reinstate it if that works better.\n\nptal",
+      "revId": "3cb02ce31eb8805457e645ae3f30157c56086a1e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
