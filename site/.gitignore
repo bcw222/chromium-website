@@ -1149,7 +1149,6 @@ developers/web-intents-in-chrome/Screen shot 2012-05-11 at 12.02.41 AM.png
 developers/web-intents-in-chrome/Screen shot 2012-05-14 at 4.48.28 PM.png
 developers/gyp-environment-variables/menu_check.png
 chromium-os/how-tos-and-troubleshooting/boot-mainline-kernel-on-veyron-jaq/.config
-_assets/customLogo.png
 chromium-os/how-tos-and-troubleshooting/visualizing-the-rootfs/Screenshot from 2013-04-08 13_46_48.png
 chromium-os/testing/chamelium-audio-streaming/Screenshot from 2017-03-07 17_51_43.png
 chromium-os/testing/chamelium-audio-streaming/Screenshot from 2017-03-07 17_53_38.png
@@ -1164,4 +1163,5 @@ developers/how-tos/submitting-a-performance-bug/Screenshot from 2015-03-24 11_16
 developers/how-tos/trace-event-profiling-tool/Screenshot-about_gpu.png
 developers/tree-sheriffs/perf-sheriffs/bisecting-performance-regressions/Screenshot from 2013-08-20 09_14_59.png
 developers/tree-sheriffs/perf-sheriffs/bisecting-performance-regressions/Screen Shot 2013-05-28 at 6.18.39 PM.png
+_assets/icon-chromium-96.png
 #end_lob_ignore
