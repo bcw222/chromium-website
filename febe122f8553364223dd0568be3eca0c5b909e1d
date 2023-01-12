@@ -1,0 +1,174 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43dcac6a_53ad5c94",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2023-01-12T08:35:14Z",
+      "side": 1,
+      "message": "Thanks a lot for putting this doc together!\n\nCC treib@, please add him as reviewer too once I LGTM.",
+      "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c3051ee2_a60663cc",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2023-01-12T08:35:14Z",
+      "side": 1,
+      "message": "Optional: I haven\u0027t seen the preview of this doc but I suggest you could add here a concise summary of what is needed, namely which bridge function needs to be overriden or modified, something like:\nOverride function Foo, see this section.\n[Optional] Add DCHECKs to Bar, see this section.\n\nThe result of this is that:\nLocal updates will carry over unsupported fields received previously from the Server, see this section.\nInitial sync will be triggered if upgrading the client to a more modern version causes an supported field to be newly supported, see this section.\n\nSomething like that, WDYT?",
+      "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f1ac62ea_8ddad475",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2023-01-12T08:35:14Z",
+      "side": 1,
+      "message": "I would suggest rewording this part since this is also the first paragraph and the reader may not have a lot of context. It\u0027s a bit sudden to jump directly into how trimming work without explaining why trimming is needed.\n\nHere are some ideas: One key aspect is that, to avoid data loss, it is necessary to keep a copy of the server-provided proto, including unknown fields and partially-supported fields (e.g. partially-implemented functionality or functionality guarded behind a feature toggle). Storing a fully copy of a proto may have performance impact (memory, disk), the Sync infrastructure allows and encourages features to trim proto fields that do not need an additional copy, if the field is already well supported by the client.",
+      "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7d08943_0adb7a5e",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2023-01-12T08:35:14Z",
+      "side": 1,
+      "message": "Please add some examples here, see my previous comment for inspiration.",
+      "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1c82d542_d0549764",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2023-01-12T08:35:14Z",
+      "side": 1,
+      "message": "Please emphasize more \"all\" here or add an additional sentence to links to the related section.\n\nBeyond the scope of this patch, I\u0027m thinking we should rename this function to reflect this strict requirement: would you mind preparing a follow-up patch?\n\nMaybe something like TrimAllSupportedFieldsFromRemoteSpecifics[ForCarching]. Then document that it must trim all supported fields at least, optionally more.",
+      "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dd81a4f7_51f71ff7",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2023-01-12T08:35:14Z",
+      "side": 1,
+      "message": "This seems inaccurate: the default trims them all and hence is prone to data loss. I\u0027m thinking we should file a bug and add TODOs to reconsider this default (e.g. we could at least keep the unknown fields).",
+      "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e583e3e1_839c913a",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2023-01-12T08:35:14Z",
+      "side": 1,
+      "message": "I\u0027m a bit hesitant to add detailed code snippets in the docs, as they will become outdated overtime, specially considering you\u0027re literally using a real feature (PasswordSyncBridge). Can we link to the source code instead and/or simplify these snippets by referring to a hypothetical feature?",
+      "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "08405afb_db784bf3",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 182,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2023-01-12T08:35:14Z",
+      "side": 1,
+      "message": "You can leave this here but can you consider filing a bug and adding a TODO  (here and in the actual bridge code) to look into moving this code to the processor?",
+      "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a43b6573_a7eaec9f",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2023-01-12T08:35:14Z",
+      "side": 1,
+      "message": "Sync support horizon",
+      "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f8d06f2c_14c261f5",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2023-01-12T08:35:14Z",
+      "side": 1,
+      "message": "Nit, please add \"multiple years\".",
+      "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
