@@ -223,7 +223,7 @@ review and address any issues raised during this stage, and should address any
 issues raised by other horizontal reviews (accessibility, privacy,
 internationalization, etc.).
 
-#### Step 4: Evaluate readiness to ship
+#### Step 4: Widen review
 
 Once you believe you have addressed all major open issues, you should proceed to
 the “Evaluating readiness to ship” stage in ChromeStatus. If you haven't already
@@ -239,15 +239,13 @@ target shipping.
 You should also decide if an Origin Trial would help gather significant data for
 your feature.
 
-By this stage, you need to have a complete specification available that matches
-what you have implemented. The only exception is if you plan to do an Origin
-Trial, and expect that trial feedback could change the shape of the API
-significantly or result in it being scrapped altogether. In that case it might
-be OK to delay writing a specification until the Origin Trial is underway or
-completes. But be careful: writing a good spec can be a lot of work, and
-producing a good enough spec to meet the shipping bar can take longer than the
-~12-16 weeks of an Origin Trial, so starting the spec-writing process too late
-might delay your feature launch.
+Now that you think your overall design is relatively settled (or just after
+starting your Origin Trial), if you haven't already, start writing your
+specification. Talk to your [spec mentor](/blink/spec-mentors) about how long
+you should expect this to take. As a very rough guess, estimate at least a month
+of full-time work, but that can take more calendar time than the 12-16 weeks of
+an Origin Trial. Starting the spec-writing process too late might delay your
+feature launch.
 
 Once you have a complete specification, request a [Specification Review](https://github.com/w3ctag/design-reviews/issues/new?assignees=&labels=Progress%3A+untriaged&template=010-specification-review.md)
 from the TAG (except in the cases noted
@@ -314,8 +312,10 @@ trial will continue to be able to use the feature on Chromium milestone N up to
 
 #### Step 6: Prepare to Ship
 
-At this point, if you are a Googler you should get a final spec review from your
-standards mentor, and discuss options for moving your spec to a final
+By this stage, you need to have a complete specification available that matches
+what you have implemented. If you are a Googler you should get a final spec
+review from your [spec mentor](/blink/spec-mentors), and discuss options for
+moving your spec to a final
 standardization venue. You should have TAG sign-off on your API design and
 specification by now, or have ongoing discussions on the TAG review without any
 known and unresolved major concerns. You should update ChromeStatus with a target
