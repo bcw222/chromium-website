@@ -156,8 +156,7 @@ not required to.
 
 You can then put a link to your public explainer in the feature entry. You will
 then need to publish this explainer, and kick off "standards incubation" by
-proposing this to a relevant standards venue (frequently, this means you should
-[make a WICG proposal](https://github.com/WICG/admin#contributing-new-proposals)
+proposing this to a relevant <a href="#incubation-venue">incubation venue</a>
 and start socializing the problem with other vendors and developers. Enter a
 reference to the public proposal in “Initial Public Proposal” field; if there is
 interest in the WICG proposal and it can be moved into the WICG at this point,
@@ -177,11 +176,11 @@ Proceed to the “Start Prototyping” stage in ChromeStatus - this will generat
 to Chromium under a runtime flag. You should do your detailed API design in the
 open, in your public repository, and response to feedback filed there. You
 should continue pushing for public engagement (from other vendors and web
-developers), and to move into WICG, or other incubation venues, if you haven’t
-already. During this stage, you should expand on the explainer with a full
-design doc (this may also have implementation-specific details), and consider
-creating a specification (or writing up a pull request with changes to an
-existing spec).
+developers), and to move into an <a href="#incubation-venue">incubation
+venue</a> if you haven’t already. During this stage, you should expand on the
+explainer with a full design doc (this may also have implementation-specific
+details), and consider creating a specification (or writing up a pull request
+with changes to an existing spec).
 
 Note that any CLs landing at this stage should be [behind a feature
 flag](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/platform/RuntimeEnabledFeatures.md).
@@ -226,8 +225,19 @@ internationalization, etc.).
 #### Step 4: Widen review
 
 Once you believe you have addressed all major open issues, you should proceed to
-the “Evaluating readiness to ship” stage in ChromeStatus. If you haven't already
-received [signals on their opinion of the
+the “Evaluating readiness to ship” stage in ChromeStatus.
+
+<a id="incubation-venue"></a>By this point, your explainer and other public
+specification work need to be hosted in an incubation venue (or a full working
+group), in order to assure contributors that IP concerns are being handled
+appropriately. Any [W3C community group](https://www.w3.org/community/groups/)
+is acceptable, as is publication as an [IETF internet
+draft](https://www.ietf.org/how/ids/). For web features, the
+[WICG](https://github.com/WICG/admin#contributing-new-proposals) is a good
+default, but ask your [spec mentor](/blink/spec-mentors) if you need help
+picking a venue.
+
+If you haven't already received [signals on their opinion of the
 API](https://docs.google.com/document/d/1xkHRXnFS8GDqZi7E0SSbR3a7CZsGScdxPUWBsNgo-oo/edit#heading=h.tgzhprxcmw4u)
 from other browser vendors and the web developer community, now is the time to
 pursue getting those signals.
