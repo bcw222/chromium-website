@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "464c3a42_47e6b933",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-01-12T21:45:20Z",
+      "side": 1,
+      "message": "I think this more accurately reflects what we actually do, but we could validate that either by looking at when chromestatus features get their spec link filled in, or by polling some TLs. Let me know if you think it needs more validation.\n\nPreview at https://chromium-website--cl4162680-ps1-5sfi6fdx.web.app/blink/launching-features/#step-4-widen-review",
+      "revId": "e5174d5b66a1bd6de698337853ff4cecd0df609f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
