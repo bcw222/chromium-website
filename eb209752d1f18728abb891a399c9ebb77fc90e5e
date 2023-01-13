@@ -16,6 +16,24 @@
       "message": "Chris, is the [\"widen review\" stage](https://chromium-website--cl4162682-ps1-f2e3rmgn.web.app/blink/launching-features/#step-4-widen-review) the right time to insist that features have gotten into an incubation venue? I think that\u0027s the latest reasonable stage, since we need the incubation venue to ask Safari\u0027s position, but I was tempted to put it one stage earlier, since that\u0027s the first place we suggest asking for browser vendor feedback.\n\nPreview at https://chromium-website--cl4162682-ps1-f2e3rmgn.web.app/blink/launching-features/.",
       "revId": "eb209752d1f18728abb891a399c9ebb77fc90e5e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "45d84e81_e6cad573",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2023-01-13T00:45:28Z",
+      "side": 1,
+      "message": "The existing text, and text with your PR, asks them to do it at steps 1 and 2 already. I think that makes sense to leave as is.",
+      "parentUuid": "f49d1960_48d6c296",
+      "revId": "eb209752d1f18728abb891a399c9ebb77fc90e5e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
