@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "77e360f1_5ab54930",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1358270
+      },
+      "writtenOn": "2023-01-16T19:31:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9e4671ab_3348a7d2",
+      "revId": "27e28cc7c24c17e46647978aba12dd2d95cc3911",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7e66bf57_9171946a",
@@ -48,6 +66,24 @@
       "writtenOn": "2023-01-16T13:50:14Z",
       "side": 1,
       "message": "Optional: similar nit, this part could IMO be a bit more elaborated, specially if the term \"unknown\" hasn\u0027t been used before.\n\nTo prevent the described data loss scenario, it is necessary for the old client (client `O` above) to keep a copy of the server-provided proto, including **unknown** fields (i.e. fields not even defined in the .proto file at the time the binary was built) and **partially-supported** fields (e.g. functionality guarded behind a feature\ntoggle).",
+      "revId": "27e28cc7c24c17e46647978aba12dd2d95cc3911",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "68f93105_46978b15",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1358270
+      },
+      "writtenOn": "2023-01-16T19:31:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7e66bf57_9171946a",
       "revId": "27e28cc7c24c17e46647978aba12dd2d95cc3911",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -69,6 +105,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "caf8c9df_8ff49671",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1358270
+      },
+      "writtenOn": "2023-01-16T19:31:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dcafdc17_73534f66",
+      "revId": "27e28cc7c24c17e46647978aba12dd2d95cc3911",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "73d9c5cf_2d8ce145",
@@ -86,6 +140,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "29cc5e53_82b3a1a1",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1358270
+      },
+      "writtenOn": "2023-01-16T19:31:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "73d9c5cf_2d8ce145",
+      "revId": "27e28cc7c24c17e46647978aba12dd2d95cc3911",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "860bc43f_154904d6",
@@ -99,6 +171,24 @@
       "writtenOn": "2023-01-16T13:50:14Z",
       "side": 1,
       "message": "This is relevant for datatype PASSWORDS only, right? Please call out. Also, please link to appropriate bugs (possibly in scope of http://go/cl-c/416560).",
+      "revId": "27e28cc7c24c17e46647978aba12dd2d95cc3911",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a14fa439_91386140",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 1358270
+      },
+      "writtenOn": "2023-01-16T19:31:52Z",
+      "side": 1,
+      "message": "Right, this is relevant for PASSWORDS only, which is not necessary for the general guideline. Removed it and merged what\u0027s necessary with the \"sync horizon\" paragraph.",
+      "parentUuid": "860bc43f_154904d6",
       "revId": "27e28cc7c24c17e46647978aba12dd2d95cc3911",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
