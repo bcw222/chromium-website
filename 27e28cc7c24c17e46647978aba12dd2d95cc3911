@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c1dbb50a_3a27b58f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2023-01-16T13:50:14Z",
+      "side": 1,
+      "message": "LGTM with optional suggestions, thanks a lot for writing down this nice documentation! It also reads much better now than in the previous revision.",
+      "revId": "27e28cc7c24c17e46647978aba12dd2d95cc3911",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9e4671ab_3348a7d2",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2023-01-16T13:50:14Z",
+      "side": 1,
+      "message": "Optional nit: it took some mental overhead to understand what the bullet points are about, since \"the following\" is a bit too far and there\u0027s also \"necessary steps\" in the same paragraph. How about something like:\n\nThis document outlines the necessary steps to prevent data loss scenarios with [Sync\u0027s Model API][SyncModelApi] for **multi-client** Sync users. A typical problematic scenario is as follows:",
+      "revId": "27e28cc7c24c17e46647978aba12dd2d95cc3911",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7e66bf57_9171946a",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2023-01-16T13:50:14Z",
+      "side": 1,
+      "message": "Optional: similar nit, this part could IMO be a bit more elaborated, specially if the term \"unknown\" hasn\u0027t been used before.\n\nTo prevent the described data loss scenario, it is necessary for the old client (client `O` above) to keep a copy of the server-provided proto, including **unknown** fields (i.e. fields not even defined in the .proto file at the time the binary was built) and **partially-supported** fields (e.g. functionality guarded behind a feature\ntoggle).",
+      "revId": "27e28cc7c24c17e46647978aba12dd2d95cc3911",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dcafdc17_73534f66",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2023-01-16T13:50:14Z",
+      "side": 1,
+      "message": "Optional, here and elsewhere: I\u0027m not sure what the preferred term is, but in doubt, I would recommend using \"upgrade\" instead of \"update\" when it comes to browser versions. \"Update\" would then be used primarily/only for sync updates.",
+      "revId": "27e28cc7c24c17e46647978aba12dd2d95cc3911",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "73d9c5cf_2d8ce145",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2023-01-16T13:50:14Z",
+      "side": 1,
+      "message": "Here and below: for links to this very same file, isn\u0027t it possible to simply use [BrowserUpdateSection]: #browser-update-flow without having to enter the entire URL?",
+      "revId": "27e28cc7c24c17e46647978aba12dd2d95cc3911",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "860bc43f_154904d6",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2023-01-16T13:50:14Z",
+      "side": 1,
+      "message": "This is relevant for datatype PASSWORDS only, right? Please call out. Also, please link to appropriate bugs (possibly in scope of http://go/cl-c/416560).",
+      "revId": "27e28cc7c24c17e46647978aba12dd2d95cc3911",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
