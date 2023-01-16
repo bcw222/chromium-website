@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "67673a85_5a68df4c",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1358270
+      },
+      "writtenOn": "2023-01-16T10:08:59Z",
+      "side": 1,
+      "message": "I refactored the intial chapters a bit, so that they have:\n- problem\n- high-level solution\n- impl checklist",
+      "parentUuid": "c3051ee2_a60663cc",
+      "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f1ac62ea_8ddad475",
@@ -48,6 +66,24 @@
       "writtenOn": "2023-01-12T08:35:14Z",
       "side": 1,
       "message": "I would suggest rewording this part since this is also the first paragraph and the reader may not have a lot of context. It\u0027s a bit sudden to jump directly into how trimming work without explaining why trimming is needed.\n\nHere are some ideas: One key aspect is that, to avoid data loss, it is necessary to keep a copy of the server-provided proto, including unknown fields and partially-supported fields (e.g. partially-implemented functionality or functionality guarded behind a feature toggle). Storing a fully copy of a proto may have performance impact (memory, disk), the Sync infrastructure allows and encourages features to trim proto fields that do not need an additional copy, if the field is already well supported by the client.",
+      "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "967437e4_1bc55328",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1358270
+      },
+      "writtenOn": "2023-01-16T10:08:59Z",
+      "side": 1,
+      "message": "I added the part about performance impact and with the refactor from another comment the part why it\u0027s necessary to keep a copy is in the Overview section now, PTAL.",
+      "parentUuid": "f1ac62ea_8ddad475",
       "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -69,6 +105,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d332133_1b8c7721",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1358270
+      },
+      "writtenOn": "2023-01-16T10:08:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c7d08943_0adb7a5e",
+      "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1c82d542_d0549764",
@@ -82,6 +136,24 @@
       "writtenOn": "2023-01-12T08:35:14Z",
       "side": 1,
       "message": "Please emphasize more \"all\" here or add an additional sentence to links to the related section.\n\nBeyond the scope of this patch, I\u0027m thinking we should rename this function to reflect this strict requirement: would you mind preparing a follow-up patch?\n\nMaybe something like TrimAllSupportedFieldsFromRemoteSpecifics[ForCarching]. Then document that it must trim all supported fields at least, optionally more.",
+      "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ad4f8e2e_7de8ef5b",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1358270
+      },
+      "writtenOn": "2023-01-16T10:08:59Z",
+      "side": 1,
+      "message": "Reworded the section, added more details to \"all\".\nFollow-up rename: http://go/cl-c/4165607",
+      "parentUuid": "1c82d542_d0549764",
       "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -103,6 +175,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "67e8aa33_562797af",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1358270
+      },
+      "writtenOn": "2023-01-16T10:08:59Z",
+      "side": 1,
+      "message": "Will add a TODO (and bug) as part of http://go/cl-c/4165607.",
+      "parentUuid": "dd81a4f7_51f71ff7",
+      "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e583e3e1_839c913a",
@@ -116,6 +206,24 @@
       "writtenOn": "2023-01-12T08:35:14Z",
       "side": 1,
       "message": "I\u0027m a bit hesitant to add detailed code snippets in the docs, as they will become outdated overtime, specially considering you\u0027re literally using a real feature (PasswordSyncBridge). Can we link to the source code instead and/or simplify these snippets by referring to a hypothetical feature?",
+      "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4fcaafa8_10e7ea12",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1358270
+      },
+      "writtenOn": "2023-01-16T10:08:59Z",
+      "side": 1,
+      "message": "Linked to the source code.",
+      "parentUuid": "e583e3e1_839c913a",
       "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -137,6 +245,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c5e03ebb_b823e84f",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 182,
+      "author": {
+        "id": 1358270
+      },
+      "writtenOn": "2023-01-16T10:08:59Z",
+      "side": 1,
+      "message": "Will add a TODO as a follow-up",
+      "parentUuid": "08405afb_db784bf3",
+      "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a43b6573_a7eaec9f",
@@ -154,6 +280,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec2a3576_5c4734cf",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 1358270
+      },
+      "writtenOn": "2023-01-16T10:08:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a43b6573_a7eaec9f",
+      "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f8d06f2c_14c261f5",
@@ -167,6 +311,24 @@
       "writtenOn": "2023-01-12T08:35:14Z",
       "side": 1,
       "message": "Nit, please add \"multiple years\".",
+      "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e253d9bd_748549c7",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 220,
+      "author": {
+        "id": 1358270
+      },
+      "writtenOn": "2023-01-16T10:08:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f8d06f2c_14c261f5",
       "revId": "febe122f8553364223dd0568be3eca0c5b909e1d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
