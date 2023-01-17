@@ -33,6 +33,86 @@
       "message": "Hi Marc! Adding you to reviewers following Mikel\u0027s suggestion. Could you PTAL?",
       "revId": "8c84f5f006d66c133444876a27d3f946494e4b92",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9712862d_2c2a717a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2023-01-17T10:46:17Z",
+      "side": 1,
+      "message": "Thanks, looks great!",
+      "revId": "8c84f5f006d66c133444876a27d3f946494e4b92",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eee68f19_bb1b7f97",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2023-01-17T10:46:17Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 128,
+        "startChar": 20,
+        "endLine": 128,
+        "endChar": 28
+      },
+      "revId": "8c84f5f006d66c133444876a27d3f946494e4b92",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9dd7e3b4_571383e4",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2023-01-17T10:46:17Z",
+      "side": 1,
+      "message": "nit: the",
+      "range": {
+        "startLine": 161,
+        "startChar": 70,
+        "endLine": 161,
+        "endChar": 71
+      },
+      "revId": "8c84f5f006d66c133444876a27d3f946494e4b92",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "98c37613_80a4d440",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2023-01-17T10:46:17Z",
+      "side": 1,
+      "message": "Huh, this is interesting. It means that deprecated fields can never actually be removed from the proto definition. Maybe point that out explicitly?\nWe should also add a note about it to our proto guidelines https://source.chromium.org/chromium/chromium/src/+/main:components/sync/protocol/README.md - I can do that.\n\nCould we also run into issues with any pre-existing, already-removed fields, which might still be populated in the actual server-side data? I guess those would just get cached forever?",
+      "revId": "8c84f5f006d66c133444876a27d3f946494e4b92",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
