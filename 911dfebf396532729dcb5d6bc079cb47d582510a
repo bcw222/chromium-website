@@ -69,6 +69,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b6c9cb6_0657ceab",
+        "filename": "site/developers/design-documents/network-stack/netlog/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1563797
+      },
+      "writtenOn": "2023-01-17T20:57:16Z",
+      "side": 1,
+      "message": "Heh, I have a preference for one-paragraph-per-line, and had to restrain myself from reformatting this document.  The goal here was to get this to render decently at https://www.chromium.org/developers/design-documents/network-stack/netlog/, rather than to make it a super-nice Markdown source file.",
+      "parentUuid": "d2fe0494_06b6a24f",
+      "revId": "911dfebf396532729dcb5d6bc079cb47d582510a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4d81a1e2_fb4afecc",
@@ -82,6 +100,24 @@
       "writtenOn": "2023-01-17T18:45:48Z",
       "side": 1,
       "message": "Don\u0027t use \"image\" as the alt tag for images. Either set alt to empty (\"\") if the image is just for background styling, or provide a real description.",
+      "revId": "911dfebf396532729dcb5d6bc079cb47d582510a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95cdfefa_379fcc60",
+        "filename": "site/developers/design-documents/network-stack/netlog/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1563797
+      },
+      "writtenOn": "2023-01-17T20:57:16Z",
+      "side": 1,
+      "message": "\u003e Don\u0027t use \"image\" as the alt tag for images. Either set alt to empty (\"\") if the image is just for background styling, or provide a real description.\n\nHuh, that wasn\u0027t me, but yeah, that\u0027s bad!  I\u0027ll add an alt-text.",
+      "parentUuid": "4d81a1e2_fb4afecc",
       "revId": "911dfebf396532729dcb5d6bc079cb47d582510a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }

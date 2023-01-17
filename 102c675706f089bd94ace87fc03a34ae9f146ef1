@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d581c2e7_afde9a45",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1563797
+      },
+      "writtenOn": "2023-01-17T20:57:16Z",
+      "side": 1,
+      "message": "Dirk: is that updated alt-text OK?",
+      "revId": "102c675706f089bd94ace87fc03a34ae9f146ef1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
