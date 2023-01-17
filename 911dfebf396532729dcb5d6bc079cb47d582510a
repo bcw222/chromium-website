@@ -33,6 +33,57 @@
       "message": "Oh, wow...That does look completely hideous as-is.  This used to be on dev.chromium.org as an edited who-knows-what file, so yea, this is probably the result of a bad automatic translation.\n\nLGTM.  Skimmed the file, and didn\u0027t notice anything obviously wrong, but I\u0027m not all that familiar with the intricacies of Markdown.\n\nThanks for fixing this!",
       "revId": "911dfebf396532729dcb5d6bc079cb47d582510a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f527585a_dcea31a4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-01-17T18:45:48Z",
+      "side": 1,
+      "message": "Thanks for cleaning this up. Looks like this was one of the pages that the migration to markdown didn\u0027t do a good job on.",
+      "revId": "911dfebf396532729dcb5d6bc079cb47d582510a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d2fe0494_06b6a24f",
+        "filename": "site/developers/design-documents/network-stack/netlog/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-01-17T18:45:48Z",
+      "side": 1,
+      "message": "I generally prefer lines to be hard-wrapped at 80 cols. I know this is something of a religious issue, and we don\u0027t have a style guide rule about this (and we probably should, one way or the other), so this comment is just FYI for now.",
+      "revId": "911dfebf396532729dcb5d6bc079cb47d582510a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4d81a1e2_fb4afecc",
+        "filename": "site/developers/design-documents/network-stack/netlog/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-01-17T18:45:48Z",
+      "side": 1,
+      "message": "Don\u0027t use \"image\" as the alt tag for images. Either set alt to empty (\"\") if the image is just for background styling, or provide a real description.",
+      "revId": "911dfebf396532729dcb5d6bc079cb47d582510a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
