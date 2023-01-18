@@ -323,15 +323,22 @@ trial will continue to be able to use the feature on Chromium milestone N up to
 #### Step 6: Prepare to Ship
 
 By this stage, you need to have a complete specification available that matches
-what you have implemented. If you are a Googler you should get a final spec
+what you have implemented, and you should have given the TAG at least a month to
+comment on that specification. If you are a Googler you should get a final spec
 review from your [spec mentor](/blink/spec-mentors), and discuss options for
-moving your spec to a final
-standardization venue. You should have TAG sign-off on your API design and
-specification by now, or have ongoing discussions on the TAG review without any
-known and unresolved major concerns. You should update ChromeStatus with a target
-milestone for shipping (and remember to keep this updated, if things change).
-You should get final signoff from Documentation, and update for any changes in
-vendor signals.
+moving your spec to a final standardization venue. You should get final signoff
+from Documentation.
+
+If the TAG has commented on your review, and the state of the review is anything
+other than [`Resolution:
+satisfied`](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+label%3A%22Resolution%3A+satisfied%22),
+the API Owners should be able to see evidence that you've seriously and
+comprehensively engaged with their comments, and tried to resolve any concerns.
+
+Update ChromeStatus with:
+* a target milestone for shipping (and remember to keep this updated, if things
+  change) and
+* any changes in vendor signals.
 
 Proceed to the “Prepare to Ship” stage in ChromeStatus; this will generate an
 [Intent to
