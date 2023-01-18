@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c398947_381cceb4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-01-18T23:56:27Z",
+      "side": 1,
+      "message": "At least, I hope this is simpler. 😊\n\nPreview at https://chromium-website--cl4179317-ps1-1ui15wtl.web.app/blink/launching-features/#step-1-incubating-write-up-use-cases-and-scenarios-in-an-explainer.",
+      "revId": "aec493c96440be2ea60ae0b853662185db9c89d1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
