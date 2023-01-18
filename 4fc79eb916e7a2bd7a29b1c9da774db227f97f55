@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dacab7f8_493be18f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-01-18T22:32:13Z",
+      "side": 1,
+      "message": "I tried to reflect the Chat conversation from today. How does this look?",
+      "revId": "4fc79eb916e7a2bd7a29b1c9da774db227f97f55",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "df9afa0f_59c9281b",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 330,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-01-18T22:32:13Z",
+      "side": 1,
+      "message": "I don\u0027t know what this means, but it was in the old text.",
+      "range": {
+        "startLine": 329,
+        "startChar": 51,
+        "endLine": 330,
+        "endChar": 19
+      },
+      "revId": "43e736d42dd7a1bae334abfa7e5418b08969a154",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
