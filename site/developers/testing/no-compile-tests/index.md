@@ -9,7 +9,7 @@ title: No-compile Tests
 ---
 
 No Compile Tests are used to verify that certain coding constructs will fail to
-compile. These were developed to test the base/callback.h and base/bind.h
+compile. These were developed to test the base/functional/callback.h and base/bind.h
 constructs which need to ban certain types of assignments in order to preserve
 type safety. The tests however can be used to enforce any sort of compile-time
 check, such as static_assert.

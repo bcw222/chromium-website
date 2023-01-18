@@ -66,7 +66,7 @@ joined. It's generally unadvisable to use base::WorkerPool since tasks may have
 dependencies on other objects that may be in the process of being destroyed
 during browser shutdown.
 
-## [base::Callback](https://source.chromium.org/chromium/chromium/src/+/main:base/callback.h) and [base::Bind()](https://source.chromium.org/chromium/chromium/src/+/main:base/bind.h)
+## [base::Callback](https://source.chromium.org/chromium/chromium/src/+/main:base/functional/callback.h) and [base::Bind()](https://source.chromium.org/chromium/chromium/src/+/main:base/bind.h)
 
 base::Callback is a set of internally refcounted templated callback classes with
 different arities and return values (including void). Note that these callbacks
