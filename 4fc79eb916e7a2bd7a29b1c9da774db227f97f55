@@ -33,6 +33,23 @@
       "message": "Preview at https://chromium-website--cl4179313-ps1-u2w6u4y8.web.app/blink/launching-features/#step-6-prepare-to-ship.",
       "revId": "4fc79eb916e7a2bd7a29b1c9da774db227f97f55",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f685ba7_dec98f43",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2023-01-18T23:19:04Z",
+      "side": 1,
+      "message": "I like the proposed text here, so +1 from me (but deferring to Chris).",
+      "revId": "4fc79eb916e7a2bd7a29b1c9da774db227f97f55",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
