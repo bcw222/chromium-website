@@ -50,6 +50,23 @@
       "message": "I like the proposed text here, so +1 from me (but deferring to Chris).",
       "revId": "4fc79eb916e7a2bd7a29b1c9da774db227f97f55",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "25c3657b_61380dc8",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 330,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2023-01-18T23:20:40Z",
+      "side": 1,
+      "message": "nit: I don\u0027t really know what it means to get signoff from Documentation - is this part of the process that people currently follow, or an older artifact?\n\n(realizing this is extant text - I can chase this in follow-up discussions)",
+      "revId": "4fc79eb916e7a2bd7a29b1c9da774db227f97f55",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
