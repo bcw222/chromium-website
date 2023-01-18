@@ -67,6 +67,24 @@
       "message": "nit: I don\u0027t really know what it means to get signoff from Documentation - is this part of the process that people currently follow, or an older artifact?\n\n(realizing this is extant text - I can chase this in follow-up discussions)",
       "revId": "4fc79eb916e7a2bd7a29b1c9da774db227f97f55",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a4a695a8_6ac479d9",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 330,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-01-18T23:53:40Z",
+      "side": 1,
+      "message": "Yeah, I suspect it\u0027s a Google-internal piece of the process, but we should really have a link or something to explain it. There\u0027s also a mention of \"work with the documentation team\" in Step 4 that this probably goes with, but there\u0027s also no mention there of how to find that documentation team.\n\n+1 for clarifying this in a subsequent PR. +100 if Mike does it instead of me. 😇",
+      "parentUuid": "25c3657b_61380dc8",
+      "revId": "4fc79eb916e7a2bd7a29b1c9da774db227f97f55",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
