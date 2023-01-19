@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "377379cd_6e5242a8",
+        "filename": "site/.gitignore",
+        "patchSetId": 4
+      },
+      "lineNbr": 1152,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2023-01-19T16:51:45Z",
+      "side": 0,
+      "message": "you deleted this but left the .sha1 behind, so the file is still fetched",
+      "revId": "2dbe8f2580d39a915540bd86e79a645a1b523d48",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
