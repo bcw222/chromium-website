@@ -85,6 +85,24 @@
       "parentUuid": "25c3657b_61380dc8",
       "revId": "4fc79eb916e7a2bd7a29b1c9da774db227f97f55",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a2492ab_4d8ac859",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 330,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2023-01-19T00:05:06Z",
+      "side": 1,
+      "message": "Agree, we should clarify or remove in another CL.",
+      "parentUuid": "a4a695a8_6ac479d9",
+      "revId": "4fc79eb916e7a2bd7a29b1c9da774db227f97f55",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
