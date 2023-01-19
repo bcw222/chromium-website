@@ -142,10 +142,13 @@ feature you’re adding.
 
 #### Step 1: Incubating: Write up use cases and scenarios in an explainer
 
-Press the "Start" button next to "Start Incubating", fill out the “Motivation”
-section with a brief summary, and then write up the use cases and scenarios in
-an explainer for the feature (typically hosted in a public personal Github repo
-in Markdown form) and hit "Submit".
+Proceed to the "Start Incubating" stage in Chrome Status.
+
+Write up the use cases and scenarios for the feature in an
+[explainer](https://tag.w3.org/explainers/), which is typically written in
+[Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Then host your explainer at a public URL, typically in a public personal Github
+repo, and put a link to your public explainer in the feature entry.
 
 We have a [program for to provide mentorship for specification
 writing](/blink/spec-mentors); If you are a Googler you must file a
@@ -154,19 +157,20 @@ for a spec mentor, and ask them to review this early explainer before
 proceeding. If you are not a Googler, you are welcome to make use of this but
 not required to.
 
-You can then put a link to your public explainer in the feature entry. You will
-then need to publish this explainer, and kick off "standards incubation" by
-proposing this to a relevant <a href="#incubation-venue">incubation venue</a>
-and start socializing the problem with other vendors and developers. Enter a
-reference to the public proposal in “Initial Public Proposal” field; if there is
-interest in the WICG proposal and it can be moved into the WICG at this point,
-do so. The WICG co-chairs can help you.) It’s also a good idea to discuss your
-idea with the team/team lead (TL) or area expert in the feature area, prior to
-checking in code in the area.
+Then kick off "standards incubation" by proposing your explainer to a relevant
+<a href="#incubation-venue">incubation venue</a> and socializing the problem
+with other vendors and developers. For web features, the
+[WICG](https://github.com/WICG/admin#contributing-new-proposals) is a good
+default, but ask your [spec mentor](/blink/spec-mentors) if you need help
+picking a venue. Enter a reference to the public proposal in “Initial Public
+Proposal” field. It’s also a good idea to discuss your idea with the team/team
+lead (TL) or area expert in the feature area, prior to checking in code in the
+area.
 
-Start sketching out a proposed solution in your (public) explainer, detailing
-API design (IDL) in your incubation. If you are a Googler, you may wish to
-review this with your specification mentor before proceeding.
+After some discussion with the community, start sketching out a proposed
+solution in your (public) explainer, including sample code for using your API
+design. You may wish to review this with your specification mentor before
+proceeding to prototyping.
 
 #### Step 2: Prototyping
 
