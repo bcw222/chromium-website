@@ -14,6 +14,7 @@ title: Sync
 
 [ClientTagBasedModelTypeProcessor](/developers/design-documents/sync/client-tag-based-model-type-processor)
 
+[Protection against data override by legacy clients](/developers/design-documents/sync/old-sync-clients-data-override-protection)
 
 [Sync diagnostics](/developers/design-documents/sync/diagnostics) (Needs update)
 
