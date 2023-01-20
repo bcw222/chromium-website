@@ -5,9 +5,6 @@ beta-quality version of Steam on ChromeOS for a set of [recent Chromebooks](#sup
 If you have one of these Chromebooks and decide to give it a try, please send your feedback, 
 we are in active development and want to incorporate as much user input as possible.
 
-**Note: DLC for Beta channel is in process of rolling out. You may see errors installing
-Steam on Chromebook until the rollout is complete, even on 108.0.5359.24.**
-
 ## What do we mean by beta?
 
 Major issues affecting the whole system should be uncommon, 
