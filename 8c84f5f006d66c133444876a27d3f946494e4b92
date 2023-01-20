@@ -75,6 +75,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa6a3b2b_2d1747a5",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1358270
+      },
+      "writtenOn": "2023-01-20T15:49:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eee68f19_bb1b7f97",
+      "range": {
+        "startLine": 128,
+        "startChar": 20,
+        "endLine": 128,
+        "endChar": 28
+      },
+      "revId": "8c84f5f006d66c133444876a27d3f946494e4b92",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9dd7e3b4_571383e4",
@@ -98,6 +122,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "371d72f7_2b3267df",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 1358270
+      },
+      "writtenOn": "2023-01-20T15:49:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9dd7e3b4_571383e4",
+      "range": {
+        "startLine": 161,
+        "startChar": 70,
+        "endLine": 161,
+        "endChar": 71
+      },
+      "revId": "8c84f5f006d66c133444876a27d3f946494e4b92",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "98c37613_80a4d440",
@@ -111,6 +159,24 @@
       "writtenOn": "2023-01-17T10:46:17Z",
       "side": 1,
       "message": "Huh, this is interesting. It means that deprecated fields can never actually be removed from the proto definition. Maybe point that out explicitly?\nWe should also add a note about it to our proto guidelines https://source.chromium.org/chromium/chromium/src/+/main:components/sync/protocol/README.md - I can do that.\n\nCould we also run into issues with any pre-existing, already-removed fields, which might still be populated in the actual server-side data? I guess those would just get cached forever?",
+      "revId": "8c84f5f006d66c133444876a27d3f946494e4b92",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "586f8267_69547f1e",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 1358270
+      },
+      "writtenOn": "2023-01-20T15:49:31Z",
+      "side": 1,
+      "message": "I think we can still remove the deprecated fields from the proto definition - after we increase the Sync horizon to the point where all the supported versions have this field deprecated.\nIt\u0027s just that for clients in between deprecating an old field and actually removing it, it still doesn\u0027t make sense to cache it as the info will just land in the new field of the local model.\n\nAs for the second question - I didn\u0027t know that might be the case (and I don\u0027t know how often it can happen), but I guess yeah, those would get cached forever.",
+      "parentUuid": "98c37613_80a4d440",
       "revId": "8c84f5f006d66c133444876a27d3f946494e4b92",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
