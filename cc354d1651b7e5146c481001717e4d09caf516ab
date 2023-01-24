@@ -22,6 +22,30 @@
       },
       "revId": "cc354d1651b7e5146c481001717e4d09caf516ab",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2efca77c_87b05a02",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-01-24T21:23:05Z",
+      "side": 1,
+      "message": "Whoops, you\u0027re right, I forgot about that amendment. Take a look at what I have in the latest patchset?",
+      "parentUuid": "6981ef60_2a4fe4ef",
+      "range": {
+        "startLine": 95,
+        "startChar": 43,
+        "endLine": 95,
+        "endChar": 45
+      },
+      "revId": "cc354d1651b7e5146c481001717e4d09caf516ab",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
