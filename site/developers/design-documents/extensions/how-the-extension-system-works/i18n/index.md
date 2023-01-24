@@ -12,7 +12,7 @@ page_name: i18n
 title: i18n for extensions
 ---
 
-**[TOC]**
+[TOC]
 
 ## Introduction
 

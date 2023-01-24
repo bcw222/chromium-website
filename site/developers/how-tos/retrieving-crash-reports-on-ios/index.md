@@ -8,7 +8,7 @@ page_name: retrieving-crash-reports-on-ios
 title: Retrieving Crash Reports on iOS
 ---
 
-## [TOC]
+[TOC]
 
 There are multiple ways to retrieve crash reports from an iOS device. They are
 listed below from (roughly) easiest to hardest. Please use whichever method

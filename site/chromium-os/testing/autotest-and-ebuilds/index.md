@@ -8,7 +8,7 @@ page_name: autotest-and-ebuilds
 title: Autotest and Ebuilds
 ---
 
-## [TOC]
+[TOC]
 
 ## Useful documents
 

@@ -10,7 +10,7 @@ page_name: preconnect
 title: Preconnect
 ---
 
-## **[TOC]**
+[TOC]
 
 ## **Overview**
 

@@ -12,7 +12,7 @@ page_name: disk-cache-v3
 title: Disk Cache 3.0
 ---
 
-## [TOC]
+[TOC]
 
 ## Introduction
 

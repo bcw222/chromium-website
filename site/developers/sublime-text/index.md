@@ -11,7 +11,7 @@ title: Using Sublime Text as your IDE
 ## New instructions:
 <https://chromium.googlesource.com/chromium/src/+/HEAD/docs/sublime_ide.md>
 
-## [TOC]
+[TOC]
 
 ## [<img alt="image" src="/developers/sublime-text/SublimeExample.png">](/developers/sublime-text/SublimeExample.png)
 

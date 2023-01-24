@@ -6,7 +6,7 @@ page_name: become-a-committer
 title: Become a Committer
 ---
 
-## [TOC]
+[TOC]
 
 ## What is a committer?
 

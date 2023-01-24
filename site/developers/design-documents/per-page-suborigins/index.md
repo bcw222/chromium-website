@@ -8,7 +8,7 @@ page_name: per-page-suborigins
 title: Per-page Suborigins
 ---
 
-# [TOC]
+[TOC]
 
 # The following is deprecated and left for historical purposes. Please see the
 editor's draft of the spec for the most up to date design:

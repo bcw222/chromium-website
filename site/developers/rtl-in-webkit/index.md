@@ -6,7 +6,7 @@ page_name: rtl-in-webkit
 title: BiDi support in WebKit
 ---
 
-## [TOC]
+[TOC]
 
 ## ## RTL Task Force
 

@@ -8,7 +8,7 @@ page_name: debugging-tips
 title: Chromium on Chromium OS Debugging Tips
 ---
 
-## [TOC]
+[TOC]
 
 These instructions will help you debug programs, including the chromium browser
 on your chromium os netbook.

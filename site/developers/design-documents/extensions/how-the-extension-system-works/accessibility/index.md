@@ -12,7 +12,7 @@ page_name: accessibility
 title: Accessibility
 ---
 
-**[TOC]**
+[TOC]
 
 **### Keyboard navigation**
 

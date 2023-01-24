@@ -8,7 +8,7 @@ page_name: stack-size-analyzer
 title: Stack size Analyzer
 ---
 
-## [TOC]
+[TOC]
 
 ## Objective
 

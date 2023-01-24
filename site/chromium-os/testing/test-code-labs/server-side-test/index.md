@@ -10,7 +10,7 @@ page_name: server-side-test
 title: Server Side Test for Chromium OS Autotest Codelab
 ---
 
-********[TOC]********
+[TOC]
 
 ****## References****
 

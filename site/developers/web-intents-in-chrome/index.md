@@ -6,7 +6,7 @@ page_name: web-intents-in-chrome
 title: Web Intents in Chrome
 ---
 
-**# [TOC]**
+[TOC]
 
 **# Introduction to Web Intents**
 

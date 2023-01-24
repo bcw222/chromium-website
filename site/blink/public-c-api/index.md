@@ -6,7 +6,7 @@ page_name: public-c-api
 title: Public C++ API
 ---
 
-## [TOC]
+[TOC]
 
 ## Overview
 
