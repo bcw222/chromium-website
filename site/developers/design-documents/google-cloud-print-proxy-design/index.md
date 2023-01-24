@@ -8,7 +8,7 @@ page_name: google-cloud-print-proxy-design
 title: Chromium Print Proxy
 ---
 
-## **[TOC]**
+[TOC]
 
 ## **Abstract**
 

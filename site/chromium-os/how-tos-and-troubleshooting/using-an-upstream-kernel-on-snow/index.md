@@ -8,7 +8,7 @@ page_name: using-an-upstream-kernel-on-snow
 title: Using an Upstream Kernel on Chrome OS
 ---
 
-## **[TOC]**
+[TOC]
 
 ## **Introduction**
 

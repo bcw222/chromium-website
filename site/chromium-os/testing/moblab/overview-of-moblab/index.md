@@ -14,7 +14,7 @@ title: Overview of MobLab
 https://www.chromium.org/chromium-os/testing/moblab \*\*\*
 (20170714)
 
-## [TOC]
+[TOC]
 
 ## Introduction
 

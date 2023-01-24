@@ -8,7 +8,7 @@ page_name: security-release-management
 title: Security Release Management
 ---
 
-## **[TOC]**
+[TOC]
 
 ## **Merging Fixes**
 

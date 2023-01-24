@@ -15,7 +15,7 @@ title: Service Worker Security FAQ
 #### The [canonical version of the FAQ is now in the Chromium source
 tree](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/service-worker-security-faq.md).
 
-#### [TOC]
+[TOC]
 
 This FAQ is specifically about service workers. Also see the general [security
 FAQ](/Home/chromium-security/security-faq).

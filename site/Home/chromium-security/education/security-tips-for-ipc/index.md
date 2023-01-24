@@ -25,7 +25,7 @@ consequences](http://blog.chromium.org/2012/05/tale-of-two-pwnies-part-1.html),
 but sticking to these tips should help you avoid most pitfalls. Questions,
 feedback, or suggestions to security@chromium.org.
 
-**[TOC]**
+[TOC]
 
 ## Trust only the browser process.
 

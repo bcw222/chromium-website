@@ -8,7 +8,7 @@ page_name: infrastructure-faq
 title: Infrastructure FAQ
 ---
 
-**[TOC]**
+[TOC]
 
 ### **Why do some DEPS / .gclient URLs use http://, https://, svn:// ?**
 

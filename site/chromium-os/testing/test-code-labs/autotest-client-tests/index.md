@@ -10,7 +10,7 @@ page_name: autotest-client-tests
 title: Autotest Client Tests
 ---
 
-# [TOC]
+[TOC]
 
 # References
 

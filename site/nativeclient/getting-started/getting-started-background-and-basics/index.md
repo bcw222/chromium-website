@@ -14,7 +14,7 @@ intended for anybody who wants to learn about the background and concepts behind
 Native Client, from browser technology fans, to pontential project contributors,
 to NaCl module developers.
 
-### [TOC]
+[TOC]
 
 ### Chrome
 

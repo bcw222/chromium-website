@@ -8,7 +8,7 @@ page_name: test-dependencies-in-dynamic-suites
 title: Test Dependencies in Dynamic Suites
 ---
 
-****[TOC]****
+[TOC]
 
 ****Not all tests can be run on all machines. Currently, the dynamic suite infrastructure has no way to deal with this issue. Our intent is to use the existing autotest control file DEPENDENCIES field to express what a test needs in order to be able to run. Any label in use in the autotest lab is valid in a test’s DEPENDENCIES list.****
 

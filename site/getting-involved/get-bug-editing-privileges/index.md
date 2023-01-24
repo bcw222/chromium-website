@@ -6,7 +6,7 @@ page_name: get-bug-editing-privileges
 title: Get Bug-Editing Privileges
 ---
 
-#### [TOC]
+[TOC]
 
 ## What are bug-editing privileges?
 

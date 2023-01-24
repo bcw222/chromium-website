@@ -6,7 +6,7 @@ page_name: touch-firmware-tests
 title: Touch Firmware Tests
 ---
 
-[[TOC]](/for-testers/touch-firmware-tests/TouchFWTests.png)
+[TOC]
 
 [ <img alt="image" src="/for-testers/touch-firmware-tests/TouchFWTests.png"
 height=94 width=400>](/for-testers/touch-firmware-tests/TouchFWTests.png)

@@ -12,7 +12,7 @@ title: Understanding about:tracing results
 
 *Getting down with performance in web apps: not for the faint of heart.*
 
-**[TOC]**
+[TOC]
 
 ### Intro
 

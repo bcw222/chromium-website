@@ -8,7 +8,7 @@ page_name: triage-best-practices
 title: Triage Best Practices
 ---
 
-## [TOC]
+[TOC]
 
 ## **What is Triage?**
 

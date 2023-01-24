@@ -8,7 +8,7 @@ page_name: building-and-running-tests
 title: Building and Running Tests
 ---
 
-## [TOC]
+[TOC]
 
 ## Building tests
 

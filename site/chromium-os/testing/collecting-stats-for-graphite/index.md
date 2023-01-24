@@ -8,7 +8,7 @@ page_name: collecting-stats-for-graphite
 title: Collecting Stats for Graphite
 ---
 
-# [TOC]
+[TOC]
 
 ## Background
 

@@ -13,7 +13,7 @@ using a BrowserProxy for your JS/C++ interactions. The
 [BrowserProxy](https://docs.google.com/document/d/1c20VYdwpUPyBRQeAS0CMr6ahwWnb0s26gByomOwqDjk/edit)
 document covers some testing practices for that case.***
 
-~~[TOC]~~
+[TOC]
 
 ~~### Problem~~
 
