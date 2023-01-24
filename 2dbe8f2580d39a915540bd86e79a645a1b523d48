@@ -16,6 +16,24 @@
       "message": "you deleted this but left the .sha1 behind, so the file is still fetched",
       "revId": "2dbe8f2580d39a915540bd86e79a645a1b523d48",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9bad974d_53cdf822",
+        "filename": "site/.gitignore",
+        "patchSetId": 4
+      },
+      "lineNbr": 1152,
+      "author": {
+        "id": 1118499
+      },
+      "writtenOn": "2023-01-24T18:53:04Z",
+      "side": 0,
+      "message": "Ah thanks for the catch. \nhttps://chromium-review.googlesource.com/c/website/+/4192052",
+      "parentUuid": "377379cd_6e5242a8",
+      "revId": "2dbe8f2580d39a915540bd86e79a645a1b523d48",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
