@@ -12,6 +12,10 @@ title: Become a Committer
 
 Technically, a committer is someone who has write access to the Chromium src Git
 repository. A committer can submit their own patches or patches from others.
+A committer can also review patches from others, though all patches need
+to either be authored by or reviewed by an
+[OWNER](https://chromium.googlesource.com/chromium/src/+/main/docs/code_reviews.md#owners-files)
+as well.
 
 This privilege is granted with some expectation of responsibility: committers
 are people who care about the Chromium projects and want to help them meet their
@@ -28,8 +32,9 @@ What is written below applies to the main Chromium source repos; see the note at
 the bottom for ChromiumOS, which has different policies. For some other Chromium
 repos (e.g., the infra repos), we follow the same policies as the main Chromium
 repos, but have different lists of actual committers. Certain other repos may
-have different policies altogether. When in doubt, ask one of the OWNERS of the
-repo in question.
+have different policies altogether. When in doubt, ask one of the
+[OWNERS](https://chromium.googlesource.com/chromium/src/+/main/docs/code_reviews.md#owners-files)
+of the repo in question.
 
 ## Becoming a committer
 
@@ -43,8 +48,8 @@ you). Then ask someone to nominate you. You're basically demonstrating your
 *   ability to collaborate with the team,
 *   understanding of how the team works (policies, processes for testing
             and code review,
-            [OWNERS](http://www.chromium.org/developers/owners-files) files,
-            etc),
+            [OWNERS](https://chromium.googlesource.com/chromium/src/+/main/docs/code_reviews.md#owners-files)
+            files, etc),
 *   understanding of the projects' code base and coding style, and
 *   ability to write good code (last but certainly not least)
 
