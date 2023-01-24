@@ -89,6 +89,13 @@ committers to only submit or approve changes that they are qualified to review.
 Failure to do so may result in your committership being revoked (also see below
 for other reasons that you might get your committership revoked).
 
+Being a committer is something that a person is, not something an email
+address or account is. This means that you can be a committer under multiple
+email addresses, and you can change your address, without needing each
+address to be re-nominated. To do so, send an email to committers@ with
+the changes you want and get at least one person to vouch for you by
+confirming those changes in a reply to that email.
+
 ## Other statuses
 
 If you just want to edit bugs, see: [Get Bug-Editing
