@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6fb17f1a_45345913",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1552347
+      },
+      "writtenOn": "2023-01-25T17:42:54Z",
+      "side": 1,
+      "message": "Content added in patch set 2. Updated Rejecting Inclusion header in patch set 3.",
+      "revId": "fcf6dbf764df731fcbeace945df9cfb54027e57d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
