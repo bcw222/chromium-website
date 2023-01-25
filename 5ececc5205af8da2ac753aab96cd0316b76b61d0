@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43024b45_ba5d327d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000387
+      },
+      "writtenOn": "2023-01-25T20:52:54Z",
+      "side": 1,
+      "message": "Duplicated CL.\n\nRef: https://chromium-review.googlesource.com/c/website/+/4195215",
+      "revId": "5ececc5205af8da2ac753aab96cd0316b76b61d0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
