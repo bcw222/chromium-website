@@ -4059,4 +4059,21 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>Yes</td>
   </tr>
+    <tr>
+    <td>2022-12-23</td>
+    <td>Acer</td>
+    <td>Acer Chromebox CXI5 / Enterprise CXI5</td>
+    <td>Moli</td>
+    <td>Brask</td>
+    <td>Brask</td>
+    <td>x86_64</td>
+    <td>5.10</td>
+    <td>x86_64</td>
+    <td>Alder Lake</td>
+    <td>Chromebox</td>
+    <td>R107</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
 </table>
