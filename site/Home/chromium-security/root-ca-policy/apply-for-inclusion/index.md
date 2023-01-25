@@ -10,7 +10,7 @@ page_name: apply-for-inclusion
 title: Apply for Inclusion
 ---
 
-## Last updated: 2022-11-15
+## Last updated: 2023-1-25
 
 The Chrome Root Program policy defines the [minimum requirements](/Home/chromium-security/root-ca-policy/) that must be met by CA owners for both initial and continued inclusion in the Chrome Root Store. Note that Google includes or removes CA certificates within its Root Store as it deems appropriate for user safety. The selection and ongoing inclusion of CA certificates is done to enhance the security of Chrome and promote interoperability; CA certificates that do not provide a broad service to all browser users will not be added to the Chrome Root Store.
 
