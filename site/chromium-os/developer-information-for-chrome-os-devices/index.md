@@ -19,9 +19,7 @@ Chromium OS development.
 **Caution: Modifications you make to the system are not supported by Google, may
 cause hardware, software or security issues and may void warranty.**
 
-> Remember: Chrome OS devices are **not** general-purpose PCs. We believe you
-> should be able to hack on your own property, but if you do it's not our fault
-> if something breaks.
+
 
 Googlers not finding what they're looking for may want to look at
 [go/cros-names](http://goto.google.com/cros-names).
