@@ -111,8 +111,6 @@ See also: All [How-tos](/developers/how-tos).
 *   [Baseline computation and some line layout
             docs](https://docs.google.com/a/chromium.org/document/d/1OP49xbB-D7A0qKNAwFTOfbDL-1dYxu74Jp38ZKAS6kk/edit)
 *   [Fast Text Autosizer](http://tinyurl.com/fasttextautosizer)
-*   [Debugging with
-            ScopedLogger](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/WebKit/Source/wtf/ScopedLogger.md)
 
 ### Testing and Infrastructure
 
