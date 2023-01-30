@@ -33,6 +33,23 @@
       "message": "lgtm",
       "revId": "290486c4c522c7a3f19e4e7a9110c182e7215bfd",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "063cba72_41568d45",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1525237
+      },
+      "writtenOn": "2023-01-30T23:23:18Z",
+      "side": 1,
+      "message": "CR+1, please change the commit message as Xiyuan mentioned,",
+      "revId": "290486c4c522c7a3f19e4e7a9110c182e7215bfd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
