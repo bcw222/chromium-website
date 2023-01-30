@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "9b2cea31_e2b9c459",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000101
+      },
+      "writtenOn": "2023-01-30T20:35:30Z",
+      "side": 1,
+      "message": "nit: You might want to list bugs here.\ne.g.\n```\nBUG\u003db:xxx, b:xxx\n```",
+      "revId": "290486c4c522c7a3f19e4e7a9110c182e7215bfd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "4dedeb68_e5ad3059",
