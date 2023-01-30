@@ -4059,4 +4059,55 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>Yes</td>
   </tr>
+  <tr>
+    <td>2023-01-18</td>
+    <td>Lenovo</td>
+    <td>Lenovo 100e Chromebook Gen 4</td>
+    <td>Rusty</td>
+    <td>Corsola</td>
+    <td>Corsola</td>
+    <td>arm</td>
+    <td>5.15</td>
+    <td>arm</td>
+    <td>MT8186</td>
+    <td>Clamshell</td>
+    <td>R108</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>2023-01-18</td>
+    <td>Lenovo</td>
+    <td>Lenovo 300e Yoga Chromebook Gen 4</td>
+    <td>Steelix</td>
+    <td>Corsola</td>
+    <td>Corsola</td>
+    <td>arm</td>
+    <td>5.15</td>
+    <td>arm</td>
+    <td>MT8186</td>
+    <td>Convertible</td>
+    <td>R108</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>2023-01-18</td>
+    <td>Lenovo</td>
+    <td>Lenovo Slim 3 Chromebook 14</td>
+    <td>Magneton</td>
+    <td>Corsola</td>
+    <td>Corsola</td>
+    <td>arm</td>
+    <td>5.15</td>
+    <td>arm</td>
+    <td>MT8186</td>
+    <td>Convertible</td>
+    <td>R108</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
 </table>
