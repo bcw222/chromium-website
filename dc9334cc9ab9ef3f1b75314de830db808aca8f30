@@ -16,6 +16,23 @@
       "message": "@ellyjones@chromium.org: PTAL. The mentioned tooling (i.e. third_party/instrumented_libraries/docker/Dockerfile) was removed on https://crrev.com/c/3198803, so this part of the documentation doesn\u0027t make much sense any more.",
       "revId": "dc9334cc9ab9ef3f1b75314de830db808aca8f30",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49d526c1_4075b964",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2023-01-31T16:42:18Z",
+      "side": 1,
+      "message": "lgtm!",
+      "revId": "dc9334cc9ab9ef3f1b75314de830db808aca8f30",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
