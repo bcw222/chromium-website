@@ -339,6 +339,13 @@ satisfied`](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+label%3
 the API Owners should be able to see evidence that you've seriously and
 comprehensively engaged with their comments, and tried to resolve any concerns.
 
+If your specification is still in an [incubation venue](#incubation-venue) and
+not a working group, propose that the feature migrate to a working group.
+There's no requirement that a working group adopt the feature before Chromium
+ships it, but if we're ready to ship it, we need to declare publicly that we
+think incubation is finished. Ask your [spec mentor](/blink/spec-mentors) for
+help with this.
+
 Update ChromeStatus with:
 * a target milestone for shipping (and remember to keep this updated, if things
   change) and
