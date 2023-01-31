@@ -64,7 +64,7 @@ feature. An email to
 is the best way; if a public-facing email is not possible, please email the [API
 owners](/blink/guidelines/api-owners) directly.
 
-## The Feature Types
+## The Feature Types {:#feature-types}
 
 The first thing you will need to do is identify what type of feature you are
 building:
@@ -80,7 +80,7 @@ defining a new value and behavior for an existing standard feature). This
 type of feature has the most associated process steps, as it is charting new
 territory.
 
-### Implementation of existing standard
+### Implementation of existing standard {:#implementation-of-standard}
 
 This type of feature has a
 lighter-weight “fast track” process, but this process can only be used when
@@ -93,7 +93,7 @@ implemented in another engine.
 
 Removal of already-shipped features.
 
-### Web developer facing change to existing code
+### Web developer facing change to existing code {:#change-to-existing-code}
 
 This is generally a public
 service announcement- “This is a web-developer-facing change to existing
@@ -117,9 +117,9 @@ consider all the steps listed below; this will maximize your chance of success
 on an intent-to-ship and reduce the risk of having to redo parts of your design
 or implementation.
 
-## The Chromium process to launch a new feature
+## The Chromium process to launch a new feature {:#launch-process}
 
-### Step 0: Create a ChromeStatus entry, and choose your feature type.
+### Step 0: Create a ChromeStatus entry, and choose your feature type. {:#create-chrome-status}
 
 For all types of features, the first step is to create a ChromeStatus entry. Go
 to <https://www.chromestatus.com/features>, ensure you are logged in (see the
@@ -138,9 +138,9 @@ outside Google (new tooling is in progress).
 From this point on, the process changes a little depending on the type of
 feature you’re adding.
 
-### For New Feature Incubations
+### For New Feature Incubations {:#new-feature-process}
 
-#### Step 1: Incubating: Write up use cases and scenarios in an explainer
+#### Step 1: Incubating: Write up use cases and scenarios in an explainer {:#start-incubating}
 
 Proceed to the "Start Incubating" stage in Chrome Status.
 
@@ -172,7 +172,7 @@ solution in your (public) explainer, including sample code for using your API
 design. You may wish to review this with your specification mentor before
 proceeding to prototyping.
 
-#### Step 2: Prototyping
+#### Step 2: Prototyping {:#prototyping}
 
 Proceed to the “Start Prototyping” stage in ChromeStatus - this will generate an
 “Intent to Prototype” mail for you. Send that email to
@@ -203,7 +203,7 @@ As soon as you have a functional and reasonably complete implementation of your
 initial design ready for developers to try out behind a flag, proceed to the
 next step.
 
-#### Step 3: Feature Complete behind a feature flag: iteration on design
+#### Step 3: Feature Complete behind a feature flag: iteration on design {:#dev-trials}
 
 Once you have a functional and reasonably complete feature implementation
 available as a runtime enabled feature, we recommend (but don't require) that
@@ -226,7 +226,7 @@ review and address any issues raised during this stage, and should address any
 issues raised by other horizontal reviews (accessibility, privacy,
 internationalization, etc.).
 
-#### Step 4: Widen review
+#### Step 4: Widen review {:#widen-review}
 
 Once you believe you have addressed all major open issues, you should proceed to
 the “Evaluating readiness to ship” stage in ChromeStatus.
@@ -266,7 +266,7 @@ from the TAG (except in the cases noted
 [here](/blink/guidelines/api-owners/process-exceptions/)). You should submit this at least a month ahead of sending an
 Intent to Ship, to give the TAG sufficient time for meaningful feedback.
 
-#### Step 5 (Optional): Origin Trial
+#### Step 5 (Optional): Origin Trial {:#origin-trials}
 
 If you want to gather data on the usability of your feature that an [Origin
 Trial](/blink/origin-trials/running-an-origin-trial) can help collect, proceed
@@ -324,7 +324,7 @@ N, and the feature is shipped in milestone N+1, sites opting into the origin
 trial will continue to be able to use the feature on Chromium milestone N up to
 (and even after, for those users who have not upgraded) N+1 ships.
 
-#### Step 6: Prepare to Ship
+#### Step 6: Prepare to Ship {:#new-feature-prepare-to-ship}
 
 By this stage, you need to have a complete specification available that matches
 what you have implemented, and you should have given the TAG at least a month to
@@ -364,9 +364,9 @@ Once you have shipped your feature, proceed to the "Ship" stage in ChromeStatus.
 The approval status of various stages of the intent process is tracked by the
 API owners in [this spreadsheet](https://bit.ly/blinkintents).
 
-### Implementations of already-defined consensus-based standards
+### Implementations of already-defined consensus-based standards {:#process-existing-standard}
 
-#### Step 1: Write up use cases and scenarios, start coding
+#### Step 1: Write up use cases and scenarios, start coding {:#existing-standard-use-cases}
 
 Fill out the “Motivation” section with a brief summary, and then write up the
 use cases and scenarios. If this is a large feature, or a combination of
@@ -386,7 +386,7 @@ specification, or even on MDN), and at least a basic sample.
 As soon as you have a functional and reasonably complete implementation of the
 feature ready for developers to try out under a flag, proceed to the next step.
 
-#### Step 2: Feature Complete behind a flag and implementation refinement
+#### Step 2: Feature Complete behind a flag and implementation refinement {:#existing-standard-dev-trials}
 
 If the TAG has not already reviewed the consensus specification, request a
 [Specification Review](https://github.com/w3ctag/design-reviews/issues/new?assignees=&labels=Progress%3A+untriaged&template=010-specification-review.md)
@@ -401,12 +401,12 @@ shipped, and estimate when (in what milestone) you would like to target
 shipping. You should also decide if an Origin Trial would help gather
 significant data for your feature.
 
-#### Step 3 (Optional): Origin Trial
+#### Step 3 (Optional): Origin Trial {:#existing-standard-origin-trials}
 
 The [Origin Trial guidelines](#step-5-optional-origin-trial) for new feature
 incubations applies here as well.
 
-#### Step 4: Prepare to Ship
+#### Step 4: Prepare to Ship {:#existing-standard-prepare-to-ship}
 
 You should update ChromeStatus with a target milestone for shipping (and
 remember to keep this updated, if things change). If you are working with DevRel
@@ -433,7 +433,7 @@ Once you have shipped your feature, proceed to the "Ship" stage in ChromeStatus.
 
 ### Feature deprecations
 
-#### Lessons from the first years of deprecations and removals ([thread](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/1wWhVoKWztY))
+#### Lessons from the first years of deprecations and removals ([thread](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/1wWhVoKWztY)) {:#deprecation-lessons}
 
 We should weigh the benefits of removing an API more against the cost it
 has. Percent of page views by itself is not the only metric we care about.
@@ -466,7 +466,7 @@ High-usage APIs may require much more work to land successfully. See
 for a good example of how this worked in practice with the deprecation and
 removal of the Web Components v0 APIs.
 
-#### Step 1: Write up motivation
+#### Step 1: Write up motivation {:#deprecation-motivation}
 
 Deprecations and removals must have strong reasons, explicitly balanced against
 the cost of removal. Deprecations should be clear and actionable for developers.
@@ -488,7 +488,7 @@ alternatives to the feature being deprecated. As soon as you have a functional
 removal of the feature ready for developers to try out under a flag, proceed to
 the next step.
 
-#### Step 2: Dev trial of deprecation
+#### Step 2: Dev trial of deprecation {:#deprecation-dev-trials}
 
 Proceed to the “Dev Trials” stage in ChromeStatus. This will generate a “Ready
 for Trial” email that you should send to
@@ -510,7 +510,7 @@ like to target shipping. You should also decide (possibly based on data from the
 dev trial) if a deprecation trial is going to be necessary to help smooth the
 removal of this feature from the web platform.
 
-#### Step 3 (Optional): Deprecation Trial
+#### Step 3 (Optional): Deprecation Trial {:#deprecation-trial}
 
 If you are concerned that there are going to be web developers who need
 additional time to fix up their implementations, and will want to delay your
@@ -532,7 +532,7 @@ Googlers can request a trial for their feature at
 [go/new-origin-trial](http://goto.google.com/new-origin-trial). Once your
 Deprecation Trial is in place, proceed to the next step.
 
-#### Step 4: Prepare to Ship
+#### Step 4: Prepare to Ship {:#deprecation-prepare-to-ship}
 
 You should update ChromeStatus with a target milestone for deprecating the
 feature (and remember to keep this updated, if things change). You should get
@@ -546,12 +546,12 @@ will spark a conversation with the API owners; address any feedback from them,
 and once you get [3 LGT](/blink/guidelines/api-owners/procedures)Ms from the API
 owners, you may proceed.
 
-#### Step 5: Disable the feature
+#### Step 5: Disable the feature {:#disable-feature}
 
 Disable the feature by default. Update ChromeStatus to either “Disabled” or
 “Disabled with Deprecation Trial”.
 
-#### Step 6: Remove Code
+#### Step 6: Remove Code {:#remove-code}
 
 If you are running a Deprecation Trial, wait until the Deprecation Trial period
 has ended. (If you need to extend the Deprecation Trial, notify
@@ -578,14 +578,14 @@ is time pressure you may be able to get permission to merge UseCounter changes
 into an existing dev/beta branch, and make provisional decisions based on data
 from beta channel.
 
-### Web-developer-facing change to existing code (PSA)
+### Web-developer-facing change to existing code (PSA) {:#psa-process}
 
-#### Step 1: Write up motivation and implement code
+#### Step 1: Write up motivation and implement code {:#psa-motivation}
 
 Fill out the “Motivation” section with a brief summary, and proceed to the
 “Implementing” stage in ChromeStatus.
 
-#### Step 2: (Optional) Dev trial
+#### Step 2: (Optional) Dev trial {:#psa-dev-trial}
 
 If you want to try out this change before shipping it, put your code in Chromium
 as [runtime enabled features](/blink/runtime-enabled-features), and set the
@@ -593,7 +593,7 @@ status to “Dev Trial” in ChromeStatus. This will generate a “Ready for Tri
 email that you should send to [blink-dev](mailto:blink-dev@chromium.org) to
 notify the community they can try out code change.
 
-#### Step 3: Prepare to Ship
+#### Step 3: Prepare to Ship {:#psa-prepare-to-ship}
 
 You should update ChromeStatus with a target milestone for shipping (and
 remember to keep this updated, if things change). Proceed to the “Prepare to
@@ -601,12 +601,12 @@ Ship” stage in ChromeStatus; this will generate a “Web-Facing Change PSA” 
 for you. Send that email to [blink-dev](mailto:blink-dev@chromium.org) with the
 summary of the code change and the expected milestone.
 
-#### Step 4: (Optional) Finch trial
+#### Step 4: (Optional) Finch trial {:#psa-finch-trial}
 
 You may wish to use [Finch](http://go/finch) to increase confidence in the new
 code as you deploy it.
 
-#### Step 5: Ship
+#### Step 5: Ship {:#psa-ship}
 
 Ship it, and set the status to “Shipped”.
 
