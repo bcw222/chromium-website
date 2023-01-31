@@ -11,6 +11,8 @@ other questions, general concerns or discussion on this page or the process it
 describes, please e-mail
 [blink-api-owners-discuss@chromium.org](mailto:blink-api-owners-discuss@chromium.org).
 
+[tos]
+
 ## Exempt features
 
 You do not need to use this process if your change does not [affect web API
