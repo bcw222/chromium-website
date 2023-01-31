@@ -94,39 +94,6 @@ Run the resulting binaries as usual. Pipe both stderr and stdout through
 ./out/msan/browser_tests |& tools/valgrind/asan/asan_symbolize.py
 ```
 
-### **Running on other distros using Docker**
-
-If you're a Googler, you can install Docker by following the instructions at
-go/installdocker.
-
-A Trusty docker image for running MSan instrumented binaries can be built:
-
-```none
-docker build -t trusty-chromium third_party/instrumented_libraries/docker
-third_party/instrumented_libraries/scripts/run_docker.sh out/msan/browser_tests |& tools/valgrind/asan/asan_symbolize.py
-```
-
-If you need to run a binary against some test input, you need to place the input
-somewhere in your chromium src directory (as it's mounted into the docker
-container by run_docker.sh).
-
-e.g. you can place the input in chromium/src/testcases/testcase.html and run:
-
-```none
-third_party/instrumented_libraries/scripts/run_docker.sh out/msan/chrome --use-gl=angle --use-angle=swiftshader testcases/testcase.html
-```
-
-The CWD in the docker container is your chromium src directory, so you can pass
-paths relative to that.
-
-Note that this image may have to be rebuilt from time to time if new
-dependencies are added to install-build-deps.sh. To do a rebuild, pass
---no-cache to the docker build command:
-
-```none
-docker build --no-cache -t trusty-chromium third_party/instrumented_libraries/docker
-```
-
 ### **Disable OpenGL**
 
 Chrome must not use hardware OpenGL when running under MSan. This is because
