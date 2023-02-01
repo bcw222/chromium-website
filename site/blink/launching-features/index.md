@@ -410,7 +410,7 @@ significant data for your feature.
 
 #### Step 3 (Optional): Origin Trial {:#existing-standard-origin-trials}
 
-The [Origin Trial guidelines](#step-5-optional-origin-trial) for new feature
+The [Origin Trial guidelines](#origin-trials) for new feature
 incubations applies here as well.
 
 #### Step 4: Prepare to Ship {:#existing-standard-prepare-to-ship}
