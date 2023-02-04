@@ -6,12 +6,11 @@ title: HTTP Strict Transport Security
 
 [HTTP Strict Transport Security](https://tools.ietf.org/html/rfc6797) allows a
 site to request that it always be contacted over HTTPS. HSTS is supported in
-Google Chrome,
-[Firefox](https://blog.mozilla.org/security/2012/11/01/preloading-hsts/),
-Safari, Opera, Edge and
+ari, Opera, Edge and
 [IE](https://web.archive.org/web/20150217020413/https://blogs.msdn.com/b/ie/archive/2015/02/16/http-strict-transport-security-comes-to-internet-explorer.aspx)
 (caniuse.com has a [compatibility
 matrix](https://caniuse.com/#feat=stricttransportsecurity)).
+fucku
 
 The issue that HSTS addresses is that users tend to type `http://` at best, and
 omit the scheme entirely most of the time. In the latter case, browsers will
