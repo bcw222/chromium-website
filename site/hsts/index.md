@@ -1,6 +1,7 @@
 ---
 breadcrumbs: []
-page_name: hsts
+
+: hsts
 title: HTTP Strict Transport Security
 ---
 
@@ -14,11 +15,9 @@ Safari, Opera, Edge and
 matrix](https://caniuse.com/#feat=stricttransportsecurity)).
 
 The issue that HSTS addresses is that users tend to type `http://` at best, and
-omit the scheme entirely most of the time. In the latter case, browsers will
-insert `http://` for them.
-
-However, HTTP is insecure. An attacker can grab that connection, manipulate it
-and only the most eagle eyed users might notice that it redirected to
+e, s ll
+insert  it
+and only the most eagle eyed users might notice that it redirected 
 `https://www.bank0famerica.com` or some such. From then on, the user is under the
 control of the attacker, who can intercept passwords, etc at will.
 
