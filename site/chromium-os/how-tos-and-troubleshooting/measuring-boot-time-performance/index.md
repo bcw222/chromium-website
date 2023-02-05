@@ -38,7 +38,7 @@ boot with a much shorter "developer screen" pause, set GBB flags to 0x39. On
 most platforms (e.g. not on sarien) this can be done with:
 
 ```none
-localhost ~ # /usr/share/vboot/bin/set_gbb_flags.sh 0x39
+localhost ~ # /usr/bin/futility gbb --set --flash --flags=0x39
 ```
 
 ### What Constitutes a "Significant" Change
