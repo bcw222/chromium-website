@@ -16,6 +16,24 @@
       "message": "Can we add another level of heiarchy? What if people want to add more schematics later...\n\nMaybe `chromium-os/schematics/dragonclaw/index.html`",
       "revId": "80a14679f9b7112465b09dad2743971bdd413f85",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a81c3f2e_e8ecdfdd",
+        "filename": "site/chromium-os/dragonclaw/dragonclaw_v0.2.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1478788
+      },
+      "writtenOn": "2023-02-08T15:15:26Z",
+      "side": 1,
+      "message": "It\u0027s an option, but the chromium-os directory already contains directories for other tools, so I\u0027m thinking rather than having a directory for `chromium-os/schematics/\u003cproject\u003e` we may as well keep `chromium-os/project/\u003cbunch of files for the project including schematics\u003e`, and then we can dump other project specific stuff in there (images, firmwares, board views, boms...). But I\u0027m happy either way, let me know if you feel strongly about it.",
+      "parentUuid": "d7fc2b4e_caf00212",
+      "revId": "80a14679f9b7112465b09dad2743971bdd413f85",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
