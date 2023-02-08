@@ -34,6 +34,24 @@
       "parentUuid": "d7fc2b4e_caf00212",
       "revId": "80a14679f9b7112465b09dad2743971bdd413f85",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "193773cd_7202a76a",
+        "filename": "site/chromium-os/dragonclaw/dragonclaw_v0.2.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1330845
+      },
+      "writtenOn": "2023-02-08T15:16:29Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "a81c3f2e_e8ecdfdd",
+      "revId": "80a14679f9b7112465b09dad2743971bdd413f85",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
