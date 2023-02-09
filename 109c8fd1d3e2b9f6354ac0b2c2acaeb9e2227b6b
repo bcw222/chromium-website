@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b40bcec_18a7a59a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-02-09T18:50:10Z",
+      "side": 1,
+      "message": "Yep, I\u0027ll wait for Domenic next week, and then I\u0027ll add an OWNER to review.",
+      "parentUuid": "f014e4ab_39d01249",
+      "revId": "109c8fd1d3e2b9f6354ac0b2c2acaeb9e2227b6b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1fdef925_643adc82",
@@ -48,6 +66,24 @@
       "writtenOn": "2023-02-09T02:45:00Z",
       "side": 1,
       "message": "I\u0027m guessing you didn\u0027t mean localhost here..",
+      "revId": "109c8fd1d3e2b9f6354ac0b2c2acaeb9e2227b6b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f78bab2_c25c3b6c",
+        "filename": "site/blink/spec-mentors/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-02-09T18:50:10Z",
+      "side": 1,
+      "message": "Oops, indeed. Fixed.",
+      "parentUuid": "1fdef925_643adc82",
       "revId": "109c8fd1d3e2b9f6354ac0b2c2acaeb9e2227b6b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
