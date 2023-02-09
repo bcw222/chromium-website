@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b7bc971e_73b1a250",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-02-09T01:16:12Z",
+      "side": 1,
+      "message": "I\u0027m trying to improve our explanation of what spec mentors are supposed to do. What do y\u0027all think?",
+      "revId": "109c8fd1d3e2b9f6354ac0b2c2acaeb9e2227b6b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
