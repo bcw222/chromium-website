@@ -10,6 +10,10 @@ title: Cookie Legacy SameSite Policies
 
 **NOTE: These policies are available as of Chrome 79.**
 
+**(Feb 9, 2023) LegacySameSiteCookieBehaviorEnabledForDomainList will be
+available until at least Jun 25, 2024. We will be monitoring feedback and will
+provide updates on its lifetime as appropriate.
+
 **(Apr 27, 2022) LegacySameSiteCookieBehaviorEnabledForDomainList will be
 available until at least Jun 27, 2023. We will be monitoring feedback and will
 provide updates on its lifetime as appropriate. LegacySameSiteCookieBehaviorEnabled was
