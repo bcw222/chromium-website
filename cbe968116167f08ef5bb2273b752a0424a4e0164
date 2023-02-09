@@ -24,6 +24,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f10101de_79eb02c3",
+        "filename": "site/blink/spec-mentors/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-02-09T19:30:09Z",
+      "side": 1,
+      "message": "Sure. I also tried \"writing a specification for a feature that will eventually land in Chromium\", but I think your text\u0027s implication is right that we want to aim spec mentorship at things with active development, and not at folks outside the project who also want help convincing us to implement.",
+      "parentUuid": "bb65aad2_68f5a0b9",
+      "range": {
+        "startLine": 129,
+        "startChar": 21,
+        "endLine": 129,
+        "endChar": 72
+      },
+      "revId": "cbe968116167f08ef5bb2273b752a0424a4e0164",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "aa71d7ad_8afbfe57",
@@ -37,6 +61,30 @@
       "writtenOn": "2023-02-09T19:06:23Z",
       "side": 1,
       "message": "I\u0027m not sure this or the brackets are necessary. If we use GitHub MD rules then I think they are not: https://gist.github.com/domfarolino/c218bead31869de41bdc446070e795ba (view \"Raw\" form of that MD file).",
+      "range": {
+        "startLine": 137,
+        "startChar": 27,
+        "endLine": 137,
+        "endChar": 54
+      },
+      "revId": "cbe968116167f08ef5bb2273b752a0424a4e0164",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14d456d5_e5ece277",
+        "filename": "site/blink/spec-mentors/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-02-09T19:30:09Z",
+      "side": 1,
+      "message": "The 11ty configuration we\u0027re using here doesn\u0027t auto-link email addresses. I checked. :) I think we could add a markdown-it plugin to https://source.chromium.org/chromium/chromium/src/+/main:docs/website/.eleventy.js to make it do so, but I didn\u0027t want to get distracted finding the right one.",
+      "parentUuid": "aa71d7ad_8afbfe57",
       "range": {
         "startLine": 137,
         "startChar": 27,
