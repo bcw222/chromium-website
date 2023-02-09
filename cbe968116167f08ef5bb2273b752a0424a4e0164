@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bb65aad2_68f5a0b9",
+        "filename": "site/blink/spec-mentors/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1175237
+      },
+      "writtenOn": "2023-02-09T19:06:23Z",
+      "side": 1,
+      "message": "The spec doesn\u0027t really land in Chromium, right? What about \"writing a specification for a feature being developed in Chromium\"? This also captures the idea that features are usually in development by the time specification writing comes around.",
+      "range": {
+        "startLine": 129,
+        "startChar": 21,
+        "endLine": 129,
+        "endChar": 72
+      },
+      "revId": "cbe968116167f08ef5bb2273b752a0424a4e0164",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa71d7ad_8afbfe57",
+        "filename": "site/blink/spec-mentors/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1175237
+      },
+      "writtenOn": "2023-02-09T19:06:23Z",
+      "side": 1,
+      "message": "I\u0027m not sure this or the brackets are necessary. If we use GitHub MD rules then I think they are not: https://gist.github.com/domfarolino/c218bead31869de41bdc446070e795ba (view \"Raw\" form of that MD file).",
+      "range": {
+        "startLine": 137,
+        "startChar": 27,
+        "endLine": 137,
+        "endChar": 54
+      },
+      "revId": "cbe968116167f08ef5bb2273b752a0424a4e0164",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
