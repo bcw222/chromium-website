@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "79f3ef54_f3c2ac40",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1270486
+      },
+      "writtenOn": "2023-02-10T18:33:46Z",
+      "side": 1,
+      "message": "4235939: Update LegacySameSiteCookieBehaviorEnabledForDomainList\u0027s deadline | https://chromium-review.googlesource.com/c/website/+/4235939",
+      "revId": "57c236099c87cc2a98f04593ac0837e724b03653",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
