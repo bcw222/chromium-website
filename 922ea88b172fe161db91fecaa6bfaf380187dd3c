@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "04f21031_46935530",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1197619
+      },
+      "writtenOn": "2023-02-13T01:44:06Z",
+      "side": 1,
+      "message": "Thanks for doing this!\n\nLGTM with nits, and perhaps a substantive discussion about how solution-focused explainers should be.",
+      "revId": "922ea88b172fe161db91fecaa6bfaf380187dd3c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f8248246_67f2a438",
+        "filename": "site/blink/spec-mentors/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1197619
+      },
+      "writtenOn": "2023-02-13T01:44:06Z",
+      "side": 1,
+      "message": "\"For spec mentors\" (lowercase)",
+      "revId": "922ea88b172fe161db91fecaa6bfaf380187dd3c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "34bf549b_92f23517",
+        "filename": "site/blink/spec-mentors/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1197619
+      },
+      "writtenOn": "2023-02-13T01:44:06Z",
+      "side": 1,
+      "message": "mailto: in the URL, or use https://groups.google.com/a/chromium.org/g/spec-mentors instead",
+      "revId": "922ea88b172fe161db91fecaa6bfaf380187dd3c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "40302cad_2f4171a8",
+        "filename": "site/blink/spec-mentors/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1197619
+      },
+      "writtenOn": "2023-02-13T01:44:06Z",
+      "side": 1,
+      "message": "I\u0027m unsure about this last sentence. In practice, that doesn\u0027t seem to be how we work.\n\nMaybe soften it to something like \"Especially in the initial stages, an explainer should remain open about the possibility of alternative solutions, e.g., by documenting alternatives considered or calling out areas where better ideas are appreciated.\"",
+      "revId": "922ea88b172fe161db91fecaa6bfaf380187dd3c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
