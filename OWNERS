@@ -3,3 +3,6 @@ dpranke@google.com
 ewag@google.com
 gatong@chromium.org
 sshrimp@google.com
+
+# This file is only used by CrOS.
+per-file PRESUBMIT.cfg = file://site/chromium-os/build/OWNERS
