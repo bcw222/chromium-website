@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3dcb4e91_dedf7462",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2023-02-14T19:32:14Z",
+      "side": 1,
+      "message": "yes, we use `repo upload`, and it works.  and it runs the same presubmits as `git cl` so we don\u0027t diverge.",
+      "parentUuid": "6525bc0a_0e955aa6",
+      "revId": "849f02c58999e05e32c0ba720f92a0856f5d9b3a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8d4dd7df_f064f80b",
@@ -31,6 +49,24 @@
       "writtenOn": "2023-02-14T19:29:55Z",
       "side": 1,
       "message": "Are these lines still being used by something?",
+      "revId": "849f02c58999e05e32c0ba720f92a0856f5d9b3a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "16140e47_de71b168",
+        "filename": "PRESUBMIT.cfg",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2023-02-14T19:32:14Z",
+      "side": 1,
+      "message": "repo upload uses these to know to not require TEST\u003d \u0026 BUG\u003d lines",
+      "parentUuid": "8d4dd7df_f064f80b",
       "revId": "849f02c58999e05e32c0ba720f92a0856f5d9b3a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
