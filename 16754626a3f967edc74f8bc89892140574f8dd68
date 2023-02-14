@@ -39,6 +39,30 @@
       },
       "revId": "16754626a3f967edc74f8bc89892140574f8dd68",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "670fa102_3b2e4af1",
+        "filename": "site/teams/web-capabilities-fugu/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1551532
+      },
+      "writtenOn": "2023-02-14T17:59:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "589e2c38_c709d4ec",
+      "range": {
+        "startLine": 9,
+        "startChar": 2,
+        "endLine": 9,
+        "endChar": 25
+      },
+      "revId": "16754626a3f967edc74f8bc89892140574f8dd68",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
