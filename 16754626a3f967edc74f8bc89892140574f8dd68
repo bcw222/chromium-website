@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be6fbc15_c1a62727",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1107759
+      },
+      "writtenOn": "2023-02-14T17:46:53Z",
+      "side": 1,
+      "message": "Thanks for adding.  Small suggestion.",
+      "revId": "16754626a3f967edc74f8bc89892140574f8dd68",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "589e2c38_c709d4ec",
+        "filename": "site/teams/web-capabilities-fugu/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1107759
+      },
+      "writtenOn": "2023-02-14T17:46:53Z",
+      "side": 1,
+      "message": "I suggest writing in the positive frame:  \"Web Developers, check out the ...\".",
+      "range": {
+        "startLine": 9,
+        "startChar": 2,
+        "endLine": 9,
+        "endChar": 25
+      },
+      "revId": "16754626a3f967edc74f8bc89892140574f8dd68",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
