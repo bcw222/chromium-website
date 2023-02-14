@@ -6,6 +6,8 @@ page_name: web-capabilities-fugu
 title: "Web Capabilities (Project Fugu \U0001F421)"
 ---
 
+**Web developers, check out the [developer-facing Project Fugu 🐡 homepage](https://developer.chrome.com/capabilities/)!**
+
 **Overview**
 
 Project Fugu 🐡 is an effort to close gaps in the web's capabilities enabling new
