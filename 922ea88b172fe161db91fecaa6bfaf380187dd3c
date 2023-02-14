@@ -18,6 +18,23 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a4c0357_ab92b165",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-02-14T01:04:30Z",
+      "side": 1,
+      "message": "Thanks for the review!",
+      "revId": "922ea88b172fe161db91fecaa6bfaf380187dd3c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f8248246_67f2a438",
@@ -31,6 +48,24 @@
       "writtenOn": "2023-02-13T01:44:06Z",
       "side": 1,
       "message": "\"For spec mentors\" (lowercase)",
+      "revId": "922ea88b172fe161db91fecaa6bfaf380187dd3c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "673334ba_e1fdf255",
+        "filename": "site/blink/spec-mentors/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-02-14T01:04:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f8248246_67f2a438",
       "revId": "922ea88b172fe161db91fecaa6bfaf380187dd3c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -52,6 +87,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5cad2003_82a825a8",
+        "filename": "site/blink/spec-mentors/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-02-14T01:04:30Z",
+      "side": 1,
+      "message": "URLs: how do they work?\nThanks!",
+      "parentUuid": "34bf549b_92f23517",
+      "revId": "922ea88b172fe161db91fecaa6bfaf380187dd3c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "40302cad_2f4171a8",
@@ -65,6 +118,24 @@
       "writtenOn": "2023-02-13T01:44:06Z",
       "side": 1,
       "message": "I\u0027m unsure about this last sentence. In practice, that doesn\u0027t seem to be how we work.\n\nMaybe soften it to something like \"Especially in the initial stages, an explainer should remain open about the possibility of alternative solutions, e.g., by documenting alternatives considered or calling out areas where better ideas are appreciated.\"",
+      "revId": "922ea88b172fe161db91fecaa6bfaf380187dd3c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "025cc565_54065c40",
+        "filename": "site/blink/spec-mentors/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-02-14T01:04:30Z",
+      "side": 1,
+      "message": "My text would be a change to how we usually do things, although it would put us more in line with https://whatwg.org/faq#adding-new-features and with what Mozilla wishes we\u0027d do.\n\nI\u0027ve adopted a variation of your text so that we can merge the rest of the change, but we should keep thinking about how we want to guide our teams.",
+      "parentUuid": "40302cad_2f4171a8",
       "revId": "922ea88b172fe161db91fecaa6bfaf380187dd3c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
