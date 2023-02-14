@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6525bc0a_0e955aa6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-02-14T19:29:55Z",
+      "side": 1,
+      "message": "I was not aware of this file. Are you using repo to upload changes in this repository? I never expected that to be doable (though I\u0027m fine with it if\nit works).",
+      "revId": "849f02c58999e05e32c0ba720f92a0856f5d9b3a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8d4dd7df_f064f80b",
+        "filename": "PRESUBMIT.cfg",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-02-14T19:29:55Z",
+      "side": 1,
+      "message": "Are these lines still being used by something?",
+      "revId": "849f02c58999e05e32c0ba720f92a0856f5d9b3a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
