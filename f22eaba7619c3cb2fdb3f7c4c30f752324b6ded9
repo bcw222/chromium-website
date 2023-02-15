@@ -16,6 +16,23 @@
       "message": "https://chromium-website--cl4252885-ps1-7f171od1.web.app/blink/launching-features/#widen-review did already say that a working group was acceptable, but this CL modifies the earlier mentions of incubation venues to match.",
       "revId": "f22eaba7619c3cb2fdb3f7c4c30f752324b6ded9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a2aa6ec8_5bafe546",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1484892
+      },
+      "writtenOn": "2023-02-15T14:20:35Z",
+      "side": 1,
+      "message": "lgtm",
+      "revId": "f22eaba7619c3cb2fdb3f7c4c30f752324b6ded9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
