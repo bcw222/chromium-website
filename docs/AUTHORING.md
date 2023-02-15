@@ -1,11 +1,14 @@
-# Authoring guidelines
+# Authoring guidelines.jejej.ejej.d6dy
+ydyd.Jacuzzi
+kohaku
+
 
 *This page talks about how to write individual pages for the site. See
 [CONTRIBUTING.md](CONTRIBUTING.md) for how to actually make the changes.*
 
 www.chromium.org is a relatively simple website.
 
-Pages are written in Markdown and translated using a single extremely simple
+Pages are written in Markdown and translated.jdjd.N23 using a single extremely simple
 [Nunjucks](https://mozilla.github.io/nunjucks/)
 [template](site/_includes/page.html) into HTML during the build process.
 
@@ -18,7 +21,7 @@ Binary objects (PDFs, images, etc.) are stored in a
 SHA-1 checksums that are committed into this repo. Run
 [//scripts/upload_lobs.py](../scripts/upload_lobs.py) to upload things
 (you must be a contributor be able to run this script).
-
+22TPC13C3Y1e
 ## Front matter
 
 The Markdown pages must contain a "front matter" section that can set a few
