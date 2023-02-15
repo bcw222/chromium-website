@@ -158,8 +158,8 @@ proceeding. If you are not a Googler, you are welcome to make use of this but
 not required to.
 
 Then kick off "standards incubation" by proposing your explainer to a relevant
-<a href="#incubation-venue">incubation venue</a> and socializing the problem
-with other vendors and developers. For web features, the
+<a href="#incubation-venue">incubation venue</a> or working group and
+socializing the problem with other vendors and developers. For web features, the
 [WICG](https://github.com/WICG/admin#contributing-new-proposals) is a good
 default, but ask your [spec mentor](/blink/spec-mentors) if you need help
 picking a venue. Enter a reference to the public proposal in “Initial Public
@@ -181,10 +181,10 @@ to Chromium under a runtime flag. You should do your detailed API design in the
 open, in your public repository, and response to feedback filed there. You
 should continue pushing for public engagement (from other vendors and web
 developers), and to move into an <a href="#incubation-venue">incubation
-venue</a> if you haven’t already. During this stage, you should expand on the
-explainer with a full design doc (this may also have implementation-specific
-details), and consider creating a specification (or writing up a pull request
-with changes to an existing spec).
+venue</a> or working group if you haven’t already. During this stage, you should
+expand on the explainer with a full design doc (this may also have
+implementation-specific details), and consider creating a specification (or
+writing up a pull request with changes to an existing spec).
 
 Note that any CLs landing at this stage should be [behind a feature
 flag](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/platform/RuntimeEnabledFeatures.md).
