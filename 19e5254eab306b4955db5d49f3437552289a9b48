@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f0f7b24d_d0fbbdf4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-02-15T17:30:31Z",
+      "side": 1,
+      "message": "Hey Elly, could I get an OWNERS review? (Do you think it\u0027s time to put our own OWNERS file in /blink/spec-mentors/?)",
+      "revId": "19e5254eab306b4955db5d49f3437552289a9b48",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
