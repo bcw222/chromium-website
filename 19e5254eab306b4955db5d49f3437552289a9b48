@@ -16,6 +16,115 @@
       "message": "Hey Elly, could I get an OWNERS review? (Do you think it\u0027s time to put our own OWNERS file in /blink/spec-mentors/?)",
       "revId": "19e5254eab306b4955db5d49f3437552289a9b48",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7320d980_485a03e8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2023-02-16T16:58:33Z",
+      "side": 1,
+      "message": "lgtm as-is, but I have a couple of questions/comments",
+      "revId": "19e5254eab306b4955db5d49f3437552289a9b48",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8dd4f738_d9db0ae0",
+        "filename": "site/blink/spec-mentors/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2023-02-16T16:58:33Z",
+      "side": 1,
+      "message": "also the feature team actually *should be* open to that - it seems good for the spec mentor to coach the author towards having an open mind to alternative approaches, which I suspect is not always the case",
+      "range": {
+        "startLine": 152,
+        "startChar": 13,
+        "endLine": 152,
+        "endChar": 33
+      },
+      "revId": "19e5254eab306b4955db5d49f3437552289a9b48",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "09971b65_4884e5dd",
+        "filename": "site/blink/spec-mentors/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2023-02-16T16:58:33Z",
+      "side": 1,
+      "message": "what does this mean?",
+      "range": {
+        "startLine": 172,
+        "startChar": 2,
+        "endLine": 172,
+        "endChar": 23
+      },
+      "revId": "19e5254eab306b4955db5d49f3437552289a9b48",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a1ff9787_844e1bb8",
+        "filename": "site/blink/spec-mentors/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2023-02-16T16:58:33Z",
+      "side": 1,
+      "message": "is there no repository for chromium internet-drafts?",
+      "range": {
+        "startLine": 174,
+        "startChar": 12,
+        "endLine": 174,
+        "endChar": 33
+      },
+      "revId": "19e5254eab306b4955db5d49f3437552289a9b48",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5a633f6d_eb33696b",
+        "filename": "site/blink/spec-mentors/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2023-02-16T16:58:33Z",
+      "side": 1,
+      "message": "Perhaps also: \"Review the specification for good technical writing. It should be clear enough that someone not familiar with any specific implementation of the feature could write a working new one from the specification.\" or something?",
+      "range": {
+        "startLine": 180,
+        "startChar": 5,
+        "endLine": 180,
+        "endChar": 32
+      },
+      "revId": "19e5254eab306b4955db5d49f3437552289a9b48",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
