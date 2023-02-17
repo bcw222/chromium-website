@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "57b9feb9_d87d5dc9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1528057
+      },
+      "writtenOn": "2023-02-17T20:54:25Z",
+      "side": 1,
+      "message": "Whenever time permits, please review this CL that updates the Chrome Root Program Policy to Version 1.4 and the \"Moving Forward, Together\" page as LGTM\u0027d in docs.\n\nPrior to sending for review I...:\n- built in npmw\n- doc diff\n- clicked on all the links\n\nLinks:\n- [Policy](https://docs.google.com/document/d/1GvP2btzfDxb2lP8gZamSgy6s8vFM_1Ah6dgRX2xvNaU/edit#)\n- [MFT](https://docs.google.com/document/d/18G9IGUU5ehzOEFDKHZvA8KA1_YjBsRe2RkIDgsRYakc/edit?resourcekey\u003d0-4h4Ew7v1BIDRFl7Wqo9XhQ#)\n\n\n\nSeparately, I\u0027ll create another CL that adds estark\u0027s chromium address, cclements, and dadrian to the owners file.",
+      "revId": "e48af368f39c4cbd22d3afcfc8dc59340255d653",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
