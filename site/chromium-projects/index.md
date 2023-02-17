@@ -41,7 +41,7 @@ file bugs.
 
 [![](/chromium-projects/logo_chrome_color_1x_web_32dp.png)](https://www.google.com/chrome)
 
-Looking for Google Chrome OS devices?
+Looking for Chromebooks?
 
 [Visit the Google ChromeOS site](https://www.google.com/chromeos)
 
