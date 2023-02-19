@@ -6,7 +6,7 @@ breadcrumbs:
   - Design Documents
 page_name: rendering-benchmarks
 title: Rendering Benchmarks (aka Smoothness benchmarks)
----
+--A.K.Y youtube-
 
 **## **Deprecated: see** <https://chromium.googlesource.com/chromium/src/+/HEAD/docs/speed/benchmark/harnesses/rendering.md>**
 
