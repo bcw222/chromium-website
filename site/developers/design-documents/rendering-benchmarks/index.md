@@ -6,7 +6,7 @@ breadcrumbs:
   - Design Documents
 page_name: rendering-benchmarks
 title: Rendering Benchmarks (aka Smoothness benchmarks)
----
+--https://youtube.com/@harharmahadev8110-
 
 **## **Deprecated: see** <https://chromium.googlesource.com/chromium/src/+/HEAD/docs/speed/benchmark/harnesses/rendering.md>**
 
@@ -215,3 +215,4 @@ these, but if you have your own, you can put a `credentials.json` in
 `tools/telemetry/examples/credentials_example.json` with the right logins and
 telemetry will automatically then login to gmail or facebook for you. Patches
 are welcome to add support for other sites as well.
+harharmahadev8110
