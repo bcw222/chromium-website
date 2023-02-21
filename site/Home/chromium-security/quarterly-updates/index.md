@@ -15,6 +15,58 @@ It's an open list, so
 if you're interested in updates, discussion, or feisty rants related to Chromium
 security.
 
+## Q4 2022
+
+Greetings,
+
+With 2023 well underway, here's a look back at what the Chrome Security team got up to in the last quarter of last year.
+
+After multiple years of laying policy and engineering groundwork, Chrome’s built-in certificate verifier and root store launched on Chrome for Windows and Mac – bringing both security and performance benefits. Chrome’s recently launched [root program](https://www.chromium.org/Home/chromium-security/root-ca-policy/) governs the certificates that are included in the root store, and this quarter we continued to refine Chrome’s root program policies and improve workflows for CA applicants, particularly through [Common CA Database](https://ccadb.org) integration. To help keep users safe and ensure the integrity of certificates accepted by Chrome, we [announced](https://security.googleblog.com/2023/01/sustaining-digital-certificate-security_13.html) that Chrome will no longer trust the TrustCor CA as of Chrome 111.
+
+Want more HTTPS in your life? On Canary and Dev, you can now enable the #https-upgrades and #https-first-mode-v2 at chrome://flags to tell Chrome to automatically [attempt all your navigations over HTTPS](https://github.com/dadrian/https-upgrade/blob/main/explainer.md). You can also enable #block-insecure-downloads to protect yourself from any download delivered over an insecure connection.
+
+We’ve been working to bring Chrome for iOS users the same transport security features as Chrome has on other platforms, with [HTTPS-First Mode](https://blog.chromium.org/2021/07/increasing-https-adoption.html), [omnibox HTTPS upgrading](https://blog.chromium.org/2021/03/a-safer-default-for-navigation-https.html), and [mixed content autoupgrading](https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html) all in various stages of launch on Chrome for iOS.
+
+We shipped [iframe credentialless](https://developer.chrome.com/blog/iframe-credentialless/) in Chrome 110, allowing developers to easily embed iframe in [COEP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy) environments, even if they don’t deploy COEP themselves.
+
+We started applying [Private Network Access checks to web workers](https://chromestatus.com/feature/5742979561029632). Currently, they only trigger warnings, except for fetches within dedicated workers in insecure contexts. We are looking at launching enforcement when we better understand metrics.
+
+The [deprecation of document.domain](https://developer.chrome.com/blog/immutable-document-domain/) — enabling origin-based Agent Clustering by default — is still on track. We are receiving a low-frequency stream of issues around the deprecation, as site owners notice document.domain is going away. We're working through these, and so far nothing appears to be blocking. With a bit of luck we will be able to finish this on [the current schedule](https://groups.google.com/a/chromium.org/g/blink-dev/c/nrLl0IxSxSI/m/oHuvwntDAAAJ), in Chrome 112 or 113.
+
+The first step of moving from [CORB](https://www.chromium.org/Home/chromium-security/corb-for-developers/) to [ORB](https://chromestatus.com/feature/4933785622675456) — ORB "v0.1" — is now enabled on 50% of stable, with no reported issues. We'd previously landed a fix for SVG images, and the last known origin mismatches between the browser and renderer processes. This makes us confident that we can launch "v0.2" next, which will change error handling to be conforming to the ORB proposal.
+
+The Chrome Security Architecture team wrapped up 2022 by shipping Site Isolation for [<webview> tags](https://crbug.com/1267977), one of the few remaining places on desktop platforms that didn't have locked renderer processes. We also locked third party New Tab Page processes as we got closer to fully enabling ["citadel-style" enforcements](https://crbug.com/764958) everywhere, so that unlocked processes won't have any access to protected sites. Finally, we made steady progress on other necessary architecture work, including [base URL inheritance](https://chromestatus.com/feature/5161101671530496), [RenderDocument](https://crbug.com/936696), and [SiteInstanceGroup](https://crbug.com/1195535), including support for local frame swaps and speculative RenderViewHosts.
+
+The Platform Security team continues to work on sandboxing the Network Service across several platforms. On Linux-based OSes, we made [proxy resolution asynchronous](https://bugs.chromium.org/p/chromium/issues/detail?id=1312224); and we are doing [the same](https://bugs.chromium.org/p/chromium/issues/detail?id=1295460) for UDP connection initiation, which is needed for brokering those sockets from the browser process. On Windows, we added a mitigation to restrict sending [writable file handles](https://bugs.chromium.org/p/chromium/issues/detail?id=1335974) to executable files to low-privileged processes and filtered potentially-sensitive [environment variables](https://bugs.chromium.org/p/chromium/issues/detail?id=1316641) from such processes, as well as blocking [some more pipes](https://chromium-review.googlesource.com/c/chromium/src/+/3978940) from being accessible, as well as continued work on making the sandbox process startup [faster](https://bugs.chromium.org/p/chromium/issues/detail?id=549319). We also worked to integrate the V8 memory cage improvements into PDFium and worked with the [BackupRefPtr](https://chromium.googlesource.com/chromium/src/+/ddc017f9569973a731a574be4199d8400616f5a5/base/memory/raw_ptr.md) team on additional improvements to pointer safety. And finally on Mac, we started rolling out [performance improvements](https://bugs.chromium.org/p/chromium/issues/detail?id=1315988) to sandbox initialization.
+
+In memory safety news, we have announced a new policy for using [Rust in Chromium](https://groups.google.com/a/chromium.org/g/chromium-dev/c/0z-6VJ9ZpVU/m/BvIrbwnTAQAJ), which has been getting [some good press](https://www.theregister.com/2023/01/12/google_chromium_rust/). We’re working on productionizing the Rust toolchain, which means making the compiler available on all of our development platforms (Linux, Windows, Mac), and the ability to cross-compile for Android/iOS/etc. And we have been working with partners to bring our first uses of Rust into Chromium.
+
+We’ve continued building toward [automated C++ bindings](https://github.com/google/crubit) to Rust libraries, building out the design of the tool, implementing function calls, and addressing some difficult safety design topics.
+
+C++ reference members are now protected by [BackupRefPtr](https://chromium.googlesource.com/chromium/src/+/ddc017f9569973a731a574be4199d8400616f5a5/base/memory/raw_ptr.md): We created, and executed a clang plugin to rewrite them as `raw_ref&lt;T>`. 
+
+We ran an experiment banning callbacks invoked with dangling pointers. It reached canary and dev. [Discovered violations](https://docs.google.com/document/d/164SnySRX6MZgFkX8qLLLClTnZ0S8s5wLiNFWNyQ8f4E/edit) were listed and fixed in part by the code health rotation. The plan is to enable it by default after reaching stable.
+
+We identified every pre-existing dangling raw\_ptr in tests. It will allow us to start enforcing the DanglingPointerDetector on the CQ in 2023Q1.
+
+A new clang GC plugin is now banning some problematic unsafe patterns of GC objects owning non-GC objects. 
+
+The V8 Security team landed many improvements to [Fuzzilli](https://github.com/googleprojectzero/fuzzilli), our JavaScript engine fuzzer, such as new mutators and support for more language features. We shipped the [External Pointer Table](https://docs.google.com/document/d/1V3sxltuFjjhp_6grGHgfqZNK57qfzGzme0QTk0IXDHk/edit?usp=sharing) for the V8 Sandbox in Chrome 107 and started working on code pointer sandboxing - further design and prototype work around CFI for V8.
+
+The Chrome Offensive Security team continued our deep dive into Chromium graphics acceleration with an emphasis on inter-process communication (IPC) channels, namely the [Dawn ](https://dawn.googlesource.com/dawn)Wire protocol introduced by WebGPU and the enduring [Command Buffer](https://www.chromium.org/developers/design-documents/gpu-command-buffer/) protocol. We filed two high severity [security](https://crbug.com/1393177) [bugs](https://crbug.com/1373314), both found through manual analysis. Beyond IPC, we started an audit of [Tint](https://dawn.googlesource.com/tint), the WebGPU shader compiler. We also made good progress writing two new fuzzers, one for Dawn Wire and the other for the Command Buffer, which will land separately in 2023Q1. We're excited to integrate them for cross-protocol fuzzing. 
+
+The Chrome Vulnerability Reward Program updated our [policies and rewards](https://g.co/chrome/vrp). One of the changes was the introduction of a [Bisect Bonus](https://bughunters.google.com/about/rules/5745167867576320/chrome-vulnerability-reward-program-rules#bisect-bonus), following which we've seen an increase in the reporting of bisections provided by reporters. We are now receiving bisects as part of VRP reports in up to 40% of reports some weeks, but at a general average of 27%. This has reduced the amount of manual reproductions required by Security Sheriffs during bug triage to determine how far back bugs reproduce in active release channels. 
+
+The Chrome VRP also wrapped up another unparalleled year with a total of $4 million awarded to VRP researchers in 2022. $3.5 million was awarded to researchers for 363 reports of security bugs in Chrome Browser and $500,000 for 110 reports of security bugs in ChromeOS. To help show our appreciation for helping keep Chrome more secure in 2022, in collaboration with Google VRP, we sent end of year gifts to our top 22 Chrome VRP Researchers for 2022, and [publicly celebrated](https://twitter.com/GoogleVRP/status/1605244152718819328) their achievements.
+
+Meanwhile, the Smithy team — working on security tooling — automated CVE information submission so that enterprises can get a reliable feed of security bugs we’ve fixed.
+
+Until next time,
+
+Andrew
+
+On behalf of Chrome Security
+
 ## Q3 2022
 
 Greetings,
