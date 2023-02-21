@@ -36,7 +36,7 @@ have to make sure that you can serve them all!).
 
 For more details, see the [specification](https://tools.ietf.org/html/rfc6797).
 
-Preloaded HSTS sites
+## Preloaded HSTS sites
 
 There is still a window where a user who has a fresh install, or who wipes out
 their local state, is vulnerable. Because of that, Chrome maintains an "HSTS
@@ -46,7 +46,7 @@ These domains will be configured with HSTS out of the box.
 If you own a site that you would like to see included in the preloaded HSTS list
 you can submit it at <https://hstspreload.org>.
 
-Examining the HSTS list within the browser
+## Examining the HSTS list within the browser
 
 You can see the current HSTS Rules -- both dynamic (set by a response header)
 and static (preloaded) using a tool on the `about://net-internals#hsts` page.
