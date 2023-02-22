@@ -56,20 +56,7 @@ When the user hits Open in a New Tab, the `side_image_search_param` query param 
 
 # How can I customize the label that we show in the image search context menu and combo box dropdown?
 
-Side panel image search combo box label is derived from DSE's configuration as specified in [prepopulated_engines.json](https://source.chromium.org/chromium/chromium/src/+/main:components/search_engines/prepopulated_engines.json). A DSE looking to customize the label in the side panel combobox should add `image_search_branding_label` to the file. This value will be used in the image search context menu string and the image search label in the combo box dropdown.
-
-## Example - Google
-
-Google for example, brands its image search as Google Lens so we [set that value](https://source.chromium.org/chromium/chromium/src/+/main:components/search_engines/prepopulated_engines.json;l=126) for `image_search_branding_label` key:
-
-    "google": {
-        "name": "Google",
-        ...,
-        "image_search_branding_label": "Google Lens",
-        "id": 1
-    },
-
-With this value, the right-click context menu string will read: `Search Images with Google Lens` and the combo box dropdown will have the `Google Lens` label instead of the search engine name.
+Side panel image search combo box label is derived from DSE's configuration as specified in [prepopulated_engines.json](https://source.chromium.org/chromium/chromium/src/+/main:components/search_engines/prepopulated_engines.json). A DSE looking to customize the label in the side panel combobox should add `image_search_branding_label` to the file. This value will be displayed as the image search label in the combo box dropdown, while the image search context menu string will read `Search Images with {image_search_branding_label}`.
 
 # What icon do you show in the side panel combobox drop down?
 
