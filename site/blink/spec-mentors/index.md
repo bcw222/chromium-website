@@ -9,6 +9,8 @@ title: Chromium Specification Mentors
 *Quick link:* [mentor request
 form](https://docs.google.com/forms/d/e/1FAIpQLSfCYE4U13GkZ11rAWBUjOb3Lza-u4m2k3TklQHXe7Zfn3Qo1g/viewform)
 
+[toc]
+
 ## Introduction
 
 Introducing a new feature to the web platform requires writing a specification,
@@ -28,7 +30,7 @@ thus uphold the Chromium project's commitment to an open, interoperable, and
 well-designed web platform. It should also make the process of launching a new
 feature more predictable and less painful for Chromium engineers.
 
-## How we work
+## For feature owners
 
 ### Pairing up with your mentor
 
@@ -96,7 +98,8 @@ of the most-often-problematic parts of the Intent to Ship, such as the the
 Interoperability & Compatibility risks section, and thus smooth the path toward
 API OWNER approval.
 
-## Can I join?
+## For spec mentors
+### Can I join?
 
 Yes, please do! Becoming proficient in design reviews is a core engineering
 skill, and one of the best ways to do that is to help other Chromium project
@@ -119,3 +122,80 @@ subscribe to our mailing list, at
 When new features come in, feel free to reply that you'd be willing to help;
 otherwise, [domenic@chromium.org](mailto:domenic@chromium.org) will assign
 features to mentors according to his best judgment.
+
+### How do I mentor?
+
+Your job as a spec mentor is to teach a new person how to get through the
+process of writing a specification for a feature being developed in Chromium, or
+to improve their knowledge if they've already done it a couple times. You
+shouldn't write their specification for them. You don't need to help them
+navigate the parts of the launch process that don't intersect with the standards
+process. You should try to be aware of their schedule and point out things
+they're doing too late.
+
+If you ever don't know the answer to a question, mail the other spec mentors at
+[spec-mentors@chromium.org](mailto:spec-mentors@chromium.org).
+
+Here's what to do at some key phases of the spec development process:
+
+#### Starting out
+
+Make sure your feature owner has [created a Chrome Status
+entry](https://chromestatus.com/guide/new) and assigned you as their mentor.
+Being listed as their mentor will allow you to edit their entry.
+
+#### Reviewing the explainer
+
+Check that the feature's explainer follows the [W3C TAG's guidance for writing
+good explainers](https://tag.w3.org/explainers/), especially by focusing on what
+problems the feature will solve for end users. Especially in the initial stages,
+the feature team should be open to adopting alternative solutions, and the
+explainer should make that clear, e.g., by documenting alternatives considered
+or calling out areas where better ideas are appreciated. If the feature team
+seems too attached to their initial design, you should help coach them to be
+more flexible.
+
+#### Picking an incubation venue
+
+Migrating to an incubation venue gives potential external contributors assurance
+about how their suggestions will be treated and what protection they have for
+using the intellectual property (IP) in the feature's definition. To pick an
+incubation venue, think about which standards body the feature is eventually
+likely to migrate to. You don't have to be certain at this stage; things can
+move around. Each standards body has their own way of doing incubation:
+
+* W3C: See if any existing [community
+  group](https://www.w3.org/community/groups/) looks like a good fit. If none
+  do, have your feature owner [start off in the
+  WICG](https://github.com/WICG/proposals). If they find out later that it would
+  help to have a dedicated group, it's easy to ask the [WICG
+  chairs](https://wicg.github.io/admin/charter.html#chairs) to migrate an
+  incubation.
+* WHATWG: The WHATWG doesn't have an incubation process. Use the W3C's
+  incubation process.
+* IETF: The IETF doesn't have specific venues set up for incubation, but you get
+  similar IP protection by [publishing an idea as an Internet Draft to the
+  datatracker](https://datatracker.ietf.org/submit/). You can host this draft
+  either in a personal repository or in the WICG. You invite people to comment
+  on your proposal by emailing a relevant [working
+  group](https://datatracker.ietf.org/wg/)'s list.
+* TC39: TC39's [stage 0](https://tc39.es/process-document/) is their incubation
+  stage.
+
+#### Reviewing the specification
+
+Review the specification for good technical writing. It should be clear enough
+that someone not familiar with any specific implementation of the feature could
+write a working new one from the specification.
+
+Ensure the specification defines all the new terms it introduces and links to
+all the terms it uses. If the specification proposes a change to another web
+standard, ensure it calls that out as a monkeypatch, and as the feature moves
+toward [Intent to Ship](/blink/launching-features/#new-feature-prepare-to-ship),
+ensure the feature owner has filed an issue on the modified spec proposing to
+merge the change.
+
+Some web standards are especially hard to integrate with.
+[Fetch](https://fetch.spec.whatwg.org/) has a section on [using it from other
+standards](https://fetch.spec.whatwg.org/#fetch-elsewhere), but you should still
+ask one of its editors for help.
