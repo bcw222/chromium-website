@@ -60,6 +60,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f7e4d5a3_4583e266",
+        "filename": "site/blink/spec-mentors/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-02-23T01:29:37Z",
+      "side": 1,
+      "message": "Good point. I\u0027ve rearranged the sentence and adding a bit about coaching for more flexibility.",
+      "parentUuid": "8dd4f738_d9db0ae0",
+      "range": {
+        "startLine": 152,
+        "startChar": 13,
+        "endLine": 152,
+        "endChar": 33
+      },
+      "revId": "19e5254eab306b4955db5d49f3437552289a9b48",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "09971b65_4884e5dd",
         "filename": "site/blink/spec-mentors/index.md",
         "patchSetId": 4
@@ -71,6 +95,30 @@
       "writtenOn": "2023-02-16T16:58:33Z",
       "side": 1,
       "message": "what does this mean?",
+      "range": {
+        "startLine": 172,
+        "startChar": 2,
+        "endLine": 172,
+        "endChar": 23
+      },
+      "revId": "19e5254eab306b4955db5d49f3437552289a9b48",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d503442a_7aacffca",
+        "filename": "site/blink/spec-mentors/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-02-23T01:29:37Z",
+      "side": 1,
+      "message": "I added a sentence at the start of this section about why we put proposals in incubation venues in the first place. That introduces the notion of IP protection, which I hope makes this mention clearer?",
+      "parentUuid": "09971b65_4884e5dd",
       "range": {
         "startLine": 172,
         "startChar": 2,
@@ -104,6 +152,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0458badb_51766072",
+        "filename": "site/blink/spec-mentors/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-02-23T01:29:37Z",
+      "side": 1,
+      "message": "Nope. We\u0027d want a whole organization so that I-Ds can be transferred to their eventual WGs, and I\u0027m not sure there\u0027s enough of a problem with using personal repos to justify setting up a central place. We have gotten some complaints from other browsers about using personal repos for explainers, but we\u0027re trying to handle those by pushing explainers into CGs earlier.",
+      "parentUuid": "a1ff9787_844e1bb8",
+      "range": {
+        "startLine": 174,
+        "startChar": 12,
+        "endLine": 174,
+        "endChar": 33
+      },
+      "revId": "19e5254eab306b4955db5d49f3437552289a9b48",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5a633f6d_eb33696b",
@@ -117,6 +189,30 @@
       "writtenOn": "2023-02-16T16:58:33Z",
       "side": 1,
       "message": "Perhaps also: \"Review the specification for good technical writing. It should be clear enough that someone not familiar with any specific implementation of the feature could write a working new one from the specification.\" or something?",
+      "range": {
+        "startLine": 180,
+        "startChar": 5,
+        "endLine": 180,
+        "endChar": 32
+      },
+      "revId": "19e5254eab306b4955db5d49f3437552289a9b48",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7d9bbb93_d8cc5c81",
+        "filename": "site/blink/spec-mentors/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-02-23T01:29:37Z",
+      "side": 1,
+      "message": "LGTM; I\u0027ve added that.\n\nThere\u0027s a bunch of other guidance we should probably add here, but I wanted to get a framework in place so we can improve it incrementally.",
+      "parentUuid": "5a633f6d_eb33696b",
       "range": {
         "startLine": 180,
         "startChar": 5,
