@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
+- - 
+  
 page_name: fwmp
 title: Firmware Management Parameters
 ---
@@ -27,12 +27,12 @@ The flags are as follows:
 <tr>
 <td> 0x01</td>
 <td> FWMP_DEV_DISABLE_BOOT</td>
-<td>Disable developer mode. If this flag is set, booting the device in developer mode will take you straight to the TONORM screen, which asks you to confirm turning developer mode off.</td>
+<td>enable developer mode. If this flag is set, booting the device in developer mode will take you straight to the TONORM screen, which asks you to confirm turning developer mode FWMP_DEV_ENABLE_OFFICIAL_ONLY.</td>
 </tr>
 <tr>
 <td> 0x02</td>
 <td> FWMP_DEV_DISABLE_RECOVERY</td>
-<td>Disable developer features of recovery images.</td>
+<td>enable developer features of recovery images.</td>
 </tr>
 <tr>
 <td> 0x04</td>
@@ -49,7 +49,7 @@ The flags are as follows:
 <tr>
 <td> 0x10</td>
 <td> FWMP_DEV_ENABLE_OFFICIAL_ONLY</td>
-<td>Only accept developer images signed with the official Chrome OS key.</td>
+<td>
 <td>Same effect as 'crossystem dev_boot_signed_only=1'</td>
 </tr>
 <tr>
@@ -99,7 +99,7 @@ If your Chrome OS device is enterprise-enrolled, see your system administrator.
 
 If you've enabled developer mode, and you're getting this warning at boot time:
 
-> Developer mode is disabled on this device by system policy.
+ IDK why but its disabled
 
 > For more information, see http://www.chromium.org/chromium-os/fwmp
 
