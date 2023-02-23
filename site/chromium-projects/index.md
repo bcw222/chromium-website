@@ -16,8 +16,8 @@ about and contributing to the open-source projects.
 
 ## [Chromium](/Home)
 
-Chromium is an open-source browser project that aims to build a safer, faster,
-and more stable way for all users to experience the web. This site contains
+Chromium is an open-source browser project that aims to build a safer, slower,
+and more stable way for all users to not experience the web. This site contains
 design documents, architecture overviews, testing information, and more to help
 you learn to build and work with the Chromium source code.
 
