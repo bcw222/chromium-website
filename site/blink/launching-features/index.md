@@ -502,10 +502,8 @@ for Trial” email that you should send to
 [blink-dev](mailto:blink-dev@chromium.org) to notify the community they can try
 out the feature deprecation.
 
-At this point, you should also notify developers by adding a deprecation console
-message, pointing to the updated status entry in the console message. You should
-also continue to measure usage by adding the API to the big switch in[
-UseCounter::deprecationMessage](http://src.chromium.org/viewvc/blink/trunk/Source/core/frame/UseCounter.cpp#l120).
+At this point, you should also notify developers by adding a deprecation issue
+as outlined [here](https://source.chromium.org/chromium/chromium/src/+/main:third_party/blink/renderer/core/frame/deprecation/README.md).
 Give developers as many milestones as possible to respond to the deprecation.
 
 See [third_party/blink/renderer/core/frame/deprecation](https://cs.chromium.org/chromium/src/third_party/blink/renderer/core/frame/deprecation/README.md)
