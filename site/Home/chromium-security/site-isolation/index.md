@@ -374,4 +374,4 @@ how to handle a request.
 See also [Site Isolation for web
 developers](https://developers.google.com/web/updates/2018/07/site-isolation)
 for more discussion of how Site Isolation can protect web page content and in
-which cases it might affect page behavior.
+which cases it might affect page behavior.Bug: 1068856 Test: manual - build for dev channel, click option, play store opens Test: manual - on emulator (no play store), observe browser opens Change-Id: I46824935f53b6d8364dadbade472dda91b67d050 Reviewed-on: https://chromium-review.googlesource.com/c/chromium/src/+/2151339 Reviewed-by: Hazem Ashmawy <hazems@chromium.org> Commit-Queue: Nate Fischer <ntfschr@chromium.org> Cr-Commit-Position: refs/heads/master@{#759496}
