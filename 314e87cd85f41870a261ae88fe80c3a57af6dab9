@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d138467_4de0729a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1528057
+      },
+      "writtenOn": "2023-02-27T16:12:40Z",
+      "side": 1,
+      "message": "Addressed hchao\u0027s comment. Final alignment with CCADB Policy V1.2 on incident reporting timelines (to avoid unnecessary conflict with CRP Policy and others).",
+      "revId": "314e87cd85f41870a261ae88fe80c3a57af6dab9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
