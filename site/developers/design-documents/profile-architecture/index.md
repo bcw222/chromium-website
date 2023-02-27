@@ -82,10 +82,18 @@ class FooService : public KeyedService {
 };
 ```
 
-### BrowserContextKeyedServiceFactory
+### BrowserContextKeyedServiceFactory and ProfileKeyedServiceFactory
 
 Now that we have implemented `FooService`, we need to derive
-`BrowserContextKeyedServiceFactory` (BCKSF).
+`BrowserContextKeyedServiceFactory` (BCKSF) or `ProfileKeyedServiceFactory`
+(PKSF).
+
+Note: `ProfileKeyedServiceFactory` is an intermediate interface that derives
+itself from `BrowserContextKeyedBaseFactory` adding functionalities on profile
+selection and control on creating services per profile type more easily.
+It is preferable to use PKSF, instead of BCKSF, when creating services/factories
+under chrome/ because PKSF provides a better control on the creation of services
+for irregular Profiles.
 
 Instead of having the `Profile` own `FooService`, we have a dedicated singleton
 `FooServiceFactory`. This class takes care of creating and destroying
@@ -144,6 +152,41 @@ In addition, BCKSF provides these other knobs for controlling behavior:
             See the header for more details.
 *   BCKSF gives you a way to augment and tweak the shutdown and
             deallocation behavior.
+
+In addition to BCKSF, PKSF provides more control over the creation of services
+for different profile types:
+
+*   Using PKSF, you cannot override `GetBrowserContextToUse()` but instead
+        manipulate the structure `ProfileSelections`.
+*   By default, PKSF will return nullptr for all non-Regular Profiles;
+        e.g Incognito profile, Guest profile and System profile. Note: Ash
+        internal profiles are of type Regular and will behave the same by
+        default. You can change that behavior in the `ProfileSelections`
+        constructor.
+*   PKSF allows you to control which Profile type the service will be
+        constructed for via the structure `ProfileSelections` passed to the
+        constructor, providing a value of `ProfileSelections` will change the
+        default behavior
+*   The correct `BrowserContextDependencyManager` will be passed in the
+        interface constructor, no need to pass it in your factory constructor.
+
+Examples of PKSF factory initialisation:
+
+```
+// Initialization of a PKSF factory with default Profile selection behavior.
+ChromeDefaultKeyedServiceFactory()
+    : ProfileKeyedServiceFactory("DefaultKeyedService") {}
+
+// Initialization of a PKSF factor with customized Profile selection behavior
+// for different profile types with different behaviors per type.
+ChromeCustomizedKeyedServiceFactory()
+    : ProfileKeyedServiceFactory("CustomizedKeyedService",
+        ProfileSelections::Builder()
+          .WithRegular(ProfileSelection::kOwnInstance))
+          .WithGuest(ProfileSelection::kOffTheRecordOnly)
+          .WithAshInternals(ProfileSelection::kNone)
+          .Build()) {}
+```
 
 ### Use the Service
 
