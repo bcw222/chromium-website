@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d9f244d_b425a6a4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1528057
+      },
+      "writtenOn": "2023-02-27T15:05:50Z",
+      "side": 1,
+      "message": "Minor updates to align dates with intended publication date (Friday). Closing issue re: table locations given no feedback from CRP space - and given current location\u0027s alignment with the BRs.",
+      "revId": "df022679ed2338a2adaaa7c52787ff11f141cda5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}

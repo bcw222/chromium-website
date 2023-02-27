@@ -48,6 +48,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "580321df_840bd071",
+        "filename": "site/Home/chromium-security/root-ca-policy/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1528057
+      },
+      "writtenOn": "2023-02-27T15:05:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "acce15f3_838e323e",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 6
+      },
+      "revId": "4550ed599c4f45247193557cf118a6b3f62f192b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0b245514_c65e62a2",
@@ -85,6 +109,30 @@
       "side": 1,
       "message": "Will move to the top. It felt awkward in almost every position, but if the top is most intuitive, that\u0027s where it shall go!",
       "parentUuid": "0b245514_c65e62a2",
+      "range": {
+        "startLine": 121,
+        "startChar": 0,
+        "endLine": 136,
+        "endChar": 91
+      },
+      "revId": "4550ed599c4f45247193557cf118a6b3f62f192b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f3f2f73d_d465acb6",
+        "filename": "site/Home/chromium-security/root-ca-policy/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 1528057
+      },
+      "writtenOn": "2023-02-27T15:05:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "598fb6d7_02bd857c",
       "range": {
         "startLine": 121,
         "startChar": 0,
