@@ -57,7 +57,8 @@ teardown issues, we use a `DependencyManager` and a two-phase shutdown model.
 A `KeyedService` is basically a plain object, with the following differences:
 
 * It has a virtual destructor.
-* Its lifetime is managed by a `BrowserContextKeyedServiceFactory` singleton.
+* Its lifetime is managed by a `ProfileKeyedServiceFactory` or a
+  `BrowserContextKeyedServiceFactory` singleton.
 * It has an overridable `Shutdown()` method, which is always called before the
   destructor. This allows two-phase shutdown; see below.
 
@@ -82,17 +83,23 @@ class FooService : public KeyedService {
 };
 ```
 
-### BrowserContextKeyedServiceFactory
+### ProfileKeyedServiceFactory
 
-Now that we have implemented `FooService`, we need to derive
-`BrowserContextKeyedServiceFactory` (BCKSF).
+Now that we have implemented `FooService`, we need to derive from
+`ProfileKeyedServiceFactory` (PKSF).
+
+`ProfileKeyedServiceFactory` derives from `BrowserContextKeyedServiceFactory`
+(BCKSF) where most of the following is implemented. PKSF adds the service
+selection logic per profile type. In the rest of the document, we will refer to
+PKSF as it is the main type of factory to be constructed. Differences will be
+noted in the `BrowserContextKeyedServiceFactory` section below.
 
 Instead of having the `Profile` own `FooService`, we have a dedicated singleton
 `FooServiceFactory`. This class takes care of creating and destroying
-`FooService`. Here is a minimal example:
+`FooService` per `Profile`. Here is a minimal example:
 
 ```
-class FooServiceFactory : public BrowserContextKeyedServiceFactory {
+class FooServiceFactory : public ProfileKeyedServiceFactory {
  public:
   static FooService* GetForProfile(Profile* profile);
   static FooServiceFactory* GetInstance();
@@ -118,32 +125,96 @@ An absolutely minimal factory will supply the following methods:
 
 *   A static `GetInstance()` method that refers to the factory as a
             singleton.
-*   A constructor that associates the factory with the
-            `BrowserContextDependencyManager` singleton, and makes `DependsOn()`
-            declarations.
-*   A `GetForProfile()` method that wraps BCKSF, casting the result back to
+*   A `GetForProfile()` method that wraps PKSF, casting the result back to
             whatever type we need to return.
 *   A `BuildServiceInstanceFor()` method which is called once by the framework
             for each profile. It must initialize and return a proper instance of
             our service.
 
-In addition, BCKSF provides these other knobs for controlling behavior:
+In addition, PKSF provides these other knobs for controlling behavior:
 
+*   PKSF provides control over the creation of services for different profile
+            types via the constructor.
+    *   Using PKSF, you can construct the structure `ProfileSelections` to
+            control which profile type the service will be created for.
+    *   By default, PKSF will return nullptr (no service constructed) for all
+            non-Regular Profiles, e.g Incognito profile, Guest profile and
+            System profile. Note: Ash internal profiles are of type Regular and
+            will behave the same by default. You can change that behavior in the
+            `ProfileSelections` constructor.
+    *   PKSF allows you to control which Profile type the service will be
+            constructed for via the structure `ProfileSelections` passed to the
+            constructor, providing a value of `ProfileSelections` will change the
+            default behavior.
+    *   More information on `ProfileSelections` can be found [here](https://source.chromium.org/chromium/chromium/src/+/main:chrome/browser/profiles/profile_keyed_service_factory.md;l=72)
 *   `RegisterProfilePrefs()` is called once per profile during initialization
             and is where you can place any user pref registration.
-*   By default, BCKSF return nullptr when given an Incognito profile.
-    *   You can change this behavior by overriding `GetBrowserContextToUse()`.
-    *   Use the `GetBrowserContextRedirectedInIncognito()` helper to return the
-                associated normal Profile's service.
-    *   Use the `GetBrowserContextOwnInstanceInIncognito()` helper to return a
-                separate instance in Incognito.
-*   By default, BCKSF will lazily create your service. If you override
+*   By default, PKSF will lazily create your service. If you override
             `ServiceIsCreatedWithBrowserContext()` to return true, your service
             will be created alongside the profile.
-*   BCKSF gives you multiple ways to control behavior during unit tests.
+*   PKSF gives you multiple ways to control behavior during unit tests.
             See the header for more details.
-*   BCKSF gives you a way to augment and tweak the shutdown and
-            deallocation behavior.
+*   PKSF gives you a way to augment and tweak the shutdown and deallocation
+            behavior.
+
+
+Examples of PKSF factory initialization (constructor definition):
+
+```
+// Initialization of a PKSF factory with default Profile selection behavior.
+ChromeDefaultKeyedServiceFactory()
+    : ProfileKeyedServiceFactory("DefaultKeyedService") {}
+
+// Initialization of a PKSF factor with customized Profile selection behavior
+// for different profile types with different behaviors per type.
+ChromeCustomizedKeyedServiceFactory()
+    : ProfileKeyedServiceFactory("CustomizedKeyedService",
+        ProfileSelections::Builder()
+          .WithRegular(ProfileSelection::kOwnInstance))
+          .WithGuest(ProfileSelection::kOffTheRecordOnly)
+          .WithAshInternals(ProfileSelection::kNone)
+          .Build()) {}
+```
+
+### BrowserContextKeyedServiceFactory
+
+In some cases, creating a PKSF is not possible, PKSF can only be created under
+chrome/ directory. Other factories/services will have to derive from BCKSF,
+e.g implementing a factory under components/, weblayer/ or extensions/
+(extensions mainly use a templated version `BrowserContextKeyedAPIFactory<T>`).
+There are some differences to note when using a BCKSF:
+*  The derived constructor should associate the factory with the
+            `BrowserContextDependencyManager` singleton to make the
+            `DependsOn()` declarations, in PKSF this is directly done in the
+            PKSF parent constructor.
+*   By default, BCKSF return nullptr when given an Incognito profile.
+    *   You can change this behavior by overriding `GetBrowserContextToUse()`,
+                based on the input `BrowserContext`.
+    *   In PKSF, this behavior is controlled by the `ProfileSelections` which
+                provides a better API and default behavior.
+
+WARNING: handling all profile types correctly in BCKSF is very difficult as
+there are a lot of edge cases (OTR and non-OTR system and guest profiles,
+Ash-internal profiles, ...). It is recommended to use PKSF instead if possible
+to handle this complexity.
+
+```
+// Initialization of a BKCSF factory.
+NonChromeDefaultKeyedServiceFactory::
+NonChromeDefaultKeyedServiceFactory()
+      : BrowserContextKeyedServiceFactory(
+            "DefaultBrowserContextKeyedServiceFactory",
+            BrowserContextDependencyManager::GetInstance()) {}
+
+// Overriding which `context` the service will be constructed for.
+content::BrowserContext*
+    NonChromeDefaultKeyedServiceFactory::GetBrowserContextToUse(
+        content::BrowserContext* context) const override {
+          // Create the service for all profiles (contexts), including off the
+          // record profiles.
+      return context;
+}
+```
 
 ### Use the Service
 
@@ -154,20 +225,22 @@ Instead of doing `profile.GetFooService()` (the old way), you should access
 
 Not all objects have the same lifecycle and memory management. The previous
 paragraph was a major simplification; there is a base class
-`BrowserContextKeyedBaseFactory` that defines the most general dependency stuff
-while `BrowserContextKeyedServiceFactory` is a specialization that deals with
-normal objects. There is a second `RefcountedBrowserContextKeyedServiceFactory`
-that gives slightly different semantics and storage for `RefCountedThreadSafe`
-objects.
+`KeyedServiceBaseFactory` that defines the most general dependency stuff
+while `BrowserContextKeyedServiceFactory` is a specialization for the content
+layer. `ProfileKeyedServiceFactory` is another specialization that takes care
+of the Profile selection for the services. There is a second
+`RefcountedProfileKeyedServiceFactory` that gives slightly different semantics
+and storage for `RefCountedThreadSafe` objects. Equivalent
+`RefcountedBrowserContextKeyedServiceFactory` exists.
 
 ## Two-phase Shutdown
 
 Shutdown behavior is a bit subtle. For historical reasons, we have a two-phase
 deletion process:
 
-1.  Every BCKSF will first have its `Shutdown()` method called. Use this method
+1.  Every PKSF will first have its `Shutdown()` method called. Use this method
     to drop weak references to the `Profile` or other service objects.
-2.  Every BCKSF is deleted and its destructor is run. Minimal work should be
+2.  Every PKSF is deleted and its destructor is run. Minimal work should be
     done here. Attempts to call any `*ServiceFactory::GetForProfile()` will
     cause an assertion in debug mode.
 
@@ -180,30 +253,24 @@ shutdown cannot accommodate these cases.
 
 With that in mind, let's look at how dependency management works. There is a
 single `BrowserContextDependencyManager` singleton, which is what is alerted to
-`Profile` creation and destruction. A BCKSF will register and unregister itself
-with the BrowserContextDependencyManager. The job of the
-`BrowserContextDependencyManager` is to make sure that individual services are
-created and destroyed in a safe ordering.
+`Profile` creation and destruction. All constructors of PKSF register and
+unregister themselves with the `BrowserContextDependencyManager` automatically.
+The job of the `BrowserContextDependencyManager` is to make sure that individual
+services are created and destroyed in a safe ordering.
 
 Consider the case of these three service factories:
 
 ```
 AlphaServiceFactory::AlphaServiceFactory()
-    : BrowserContextKeyedServiceFactory(
-          "AlphaService",
-          BrowserContextDependencyManager::GetInstance()) {}
+    : ProfileKeyedServiceFactory("AlphaService") {}
 
 BetaServiceFactory::BetaServiceFactory()
-    : BrowserContextKeyedServiceFactory(
-          "BetaService",
-          BrowserContextDependencyManager::GetInstance()) {
+    : ProfileKeyedServiceFactory("BetaService") {
   DependsOn(AlphaServiceFactory::GetInstance());
 }
 
 GammaServiceFactory::GammaServiceFactory()
-    : BrowserContextKeyedServiceFactory(
-          "GammaService",
-          BrowserContextDependencyManager::GetInstance()) {
+    : ProfileKeyedServiceFactory("GammaService") {
   DependsOn(BetaServiceFactory::GetInstance());
 }
 ```
