@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "36ca610a_f4729df9",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 1001438
+      },
+      "writtenOn": "2023-02-28T09:04:27Z",
+      "side": 1,
+      "message": "nit: remove trailing space",
+      "range": {
+        "startLine": 91,
+        "startChar": 75,
+        "endLine": 91,
+        "endChar": 76
+      },
+      "revId": "57e654caec00494de3025488e18d23f03a6b12fa",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "36a87dd1_96258b81",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1001438
+      },
+      "writtenOn": "2023-02-28T09:04:27Z",
+      "side": 1,
+      "message": "Do you think it\u0027s useful to keep the documentation about BCKSF? I wonder if we should just remove all of that and only talk about PKSF.\n\nWe could just briefly mention BCKSF if there is a valid use case for them, but at this point I don\u0027t even know what is could be.",
+      "revId": "57e654caec00494de3025488e18d23f03a6b12fa",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
