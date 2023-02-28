@@ -1,0 +1,205 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "90b92908_fa11a930",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-02-28T23:24:37Z",
+      "side": 1,
+      "message": "LGTM with nits",
+      "revId": "d135642ac5421ea3710b54b34759206f43824017",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "efc000a5_0f943fd0",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-02-28T23:24:37Z",
+      "side": 1,
+      "message": "nit: I think this is a run-on sentence, so I\u0027d end it here and start a new sentence, i.e., `...factory to be constructed. Differences will...`",
+      "range": {
+        "startLine": 94,
+        "startChar": 56,
+        "endLine": 94,
+        "endChar": 58
+      },
+      "revId": "d135642ac5421ea3710b54b34759206f43824017",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "273c8c83_76a18364",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-02-28T23:24:37Z",
+      "side": 1,
+      "message": "WDYT of \"in the `BrowserContextKeyedServiceFactory` section below\", to be clear that this is talking about a section in the doc?",
+      "range": {
+        "startLine": 95,
+        "startChar": 9,
+        "endLine": 95,
+        "endChar": 54
+      },
+      "revId": "d135642ac5421ea3710b54b34759206f43824017",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2fe53a53_3723cc04",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-02-28T23:24:37Z",
+      "side": 1,
+      "message": "punctuation nit: `Profiles, e.g., [...]`",
+      "range": {
+        "startLine": 141,
+        "startChar": 24,
+        "endLine": 141,
+        "endChar": 38
+      },
+      "revId": "d135642ac5421ea3710b54b34759206f43824017",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "221fd660_5af67223",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-02-28T23:24:37Z",
+      "side": 1,
+      "message": "Can this part of the URL be omitted?",
+      "range": {
+        "startLine": 149,
+        "startChar": 184,
+        "endLine": 149,
+        "endChar": 212
+      },
+      "revId": "d135642ac5421ea3710b54b34759206f43824017",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "10185739_fd0d2d55",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-02-28T23:24:37Z",
+      "side": 1,
+      "message": "nit: I\u0027d either lowercase this to match other instances of \"Profile selection\" in this doc, or make it `ProfileSelections` to match the previous bullet point.",
+      "range": {
+        "startLine": 149,
+        "startChar": 36,
+        "endLine": 149,
+        "endChar": 46
+      },
+      "revId": "d135642ac5421ea3710b54b34759206f43824017",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0edf6224_29f5d6c8",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-02-28T23:24:37Z",
+      "side": 1,
+      "message": "nit: `initialization` (since the rest of the doc uses the US spelling for this word)",
+      "range": {
+        "startLine": 161,
+        "startChar": 25,
+        "endLine": 161,
+        "endChar": 40
+      },
+      "revId": "d135642ac5421ea3710b54b34759206f43824017",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c28b8c55_64f08c08",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 183,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-02-28T23:24:37Z",
+      "side": 1,
+      "message": "same punctuation nit: `BCKSF, e.g., implementing...`",
+      "range": {
+        "startLine": 182,
+        "startChar": 74,
+        "endLine": 183,
+        "endChar": 4
+      },
+      "revId": "d135642ac5421ea3710b54b34759206f43824017",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a4af08d3_9f283c4b",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 257,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-02-28T23:24:37Z",
+      "side": 1,
+      "message": "`register and unregister`, since the subject of this sentence is plural",
+      "range": {
+        "startLine": 256,
+        "startChar": 61,
+        "endLine": 257,
+        "endChar": 11
+      },
+      "revId": "d135642ac5421ea3710b54b34759206f43824017",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
