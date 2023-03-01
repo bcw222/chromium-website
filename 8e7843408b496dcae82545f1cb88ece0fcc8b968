@@ -33,6 +33,24 @@
       "message": "WATCHLISTS is a bit of an anachronism nowadays.  it only works if you use `git cl`.  any reason to not use builtin Gerrit functionality ?\nhttps://gerrit-review.googlesource.com/Documentation/user-notify.html",
       "revId": "8e7843408b496dcae82545f1cb88ece0fcc8b968",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5fa8dc55_6d296699",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2023-03-01T02:38:04Z",
+      "side": 1,
+      "message": "No reason other than not knowing about it. 😎",
+      "parentUuid": "629b5c73_c8ac03d3",
+      "revId": "8e7843408b496dcae82545f1cb88ece0fcc8b968",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
