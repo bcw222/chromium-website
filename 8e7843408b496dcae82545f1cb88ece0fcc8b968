@@ -69,6 +69,24 @@
       "parentUuid": "5fa8dc55_6d296699",
       "revId": "8e7843408b496dcae82545f1cb88ece0fcc8b968",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "75984c4c_b1795152",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2023-03-01T22:55:54Z",
+      "side": 1,
+      "message": "Nah, let me figure out the better way - I think it\u0027s pretty likely people use the web editor to make changes (in addition to `git cl`).",
+      "parentUuid": "592f8fb7_25e7e5ca",
+      "revId": "8e7843408b496dcae82545f1cb88ece0fcc8b968",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
