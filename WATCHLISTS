@@ -1,0 +1,20 @@
+# Copyright 2023 The Chromium Authors
+# Use of this source code is governed by a BSD-style license that can be
+# found in the LICENSE file.
+
+# Watchlist Rules
+# Refer: https://chromium.googlesource.com/chromium/src/+/main/docs/infra/watchlists.md
+
+# IMPORTANT: The regular expression filepath is tested against each path using
+# re.search, so it is not usually necessary to add .* at the end of the pattern.
+
+{
+  'WATCHLIST_DEFINITIONS': {
+    'blink_api_owners': {
+      'filepath': 'site/blink/launching-features/'
+    },
+  },
+  'WATCHLISTS': {
+    'blink_api_owners': ['blink-api-owners-discuss@chromium.org'],
+  },
+}
