@@ -4110,4 +4110,38 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>Yes</td>
   </tr>
+  <tr>
+    <td>2023-03-01</td>
+    <td>Asus</td>
+    <td>ASUS Chromebook CM14 Flip (CM1402F)</td>
+    <td>Tentacruel</td>
+    <td>Corsola</td>
+    <td>Corsola</td>
+    <td>arm</td>
+    <td>5.15</td>
+    <td>arm</td>
+    <td>MT8186</td>
+    <td>Convertible</td>
+    <td>R109</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>2023-03-01</td>
+    <td>Asus</td>
+    <td>ASUS Chromebook CM14 (CM1402C)</td>
+    <td>Tentacool</td>
+    <td>Corsola</td>
+    <td>Corsola</td>
+    <td>arm</td>
+    <td>5.15</td>
+    <td>arm</td>
+    <td>MT8186</td>
+    <td>Clamshell</td>
+    <td>R109</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
 </table>
