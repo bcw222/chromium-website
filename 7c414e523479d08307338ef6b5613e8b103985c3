@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0847f090_9d370135",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-03-02T17:59:39Z",
+      "side": 1,
+      "message": "LGTM; not triggering autosubmit in case you also wanted uekawa@ to review first",
+      "revId": "7c414e523479d08307338ef6b5613e8b103985c3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
