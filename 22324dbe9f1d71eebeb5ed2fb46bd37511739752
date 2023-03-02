@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "659bbee3_acb91499",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000101
+      },
+      "writtenOn": "2023-03-02T01:38:46Z",
+      "side": 1,
+      "message": "Please list relevant bugs here.\n\nAlso see https://chromium.googlesource.com/chromiumos/docs/+/HEAD/contributing.md#Commit-messages for commit message format.\n\nMaybe something like:\n```\nsite: Added Asus Tentacruel/Tentacool data.\n\nBUG\u003db:xxx, b:xxx\nChange-Id: I87b33d685055cb5222dba42b8766068ec19f81f4\n```",
+      "revId": "22324dbe9f1d71eebeb5ed2fb46bd37511739752",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9a91cd6_b191fa4f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000101
+      },
+      "writtenOn": "2023-03-02T01:38:46Z",
+      "side": 1,
+      "message": "lgtm % one nit",
+      "revId": "22324dbe9f1d71eebeb5ed2fb46bd37511739752",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
