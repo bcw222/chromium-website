@@ -16,6 +16,23 @@
       "message": "This CL is based on the comments in https://groups.google.com/a/chromium.org/g/blink-api-owners-discuss/c/hQx0QG94mpg/m/_o6wGhinAQAJ.",
       "revId": "d1afaaac553939e42cb60bafa31d6750ba2b3cad",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "24d983e4_ce54aef4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1312815
+      },
+      "writtenOn": "2023-03-02T08:21:31Z",
+      "side": 1,
+      "message": "LGTM",
+      "revId": "d1afaaac553939e42cb60bafa31d6750ba2b3cad",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
