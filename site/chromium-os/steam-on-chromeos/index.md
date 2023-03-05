@@ -186,7 +186,7 @@ work better on models with higher specs (like 16GB RAM).
 | [Terraria](https://store.steampowered.com/app/105600)                                     |                                                             |
 | [Tetris® Effect: Connected](https://store.steampowered.com/app/1003590)                   |                                                             |
 | [The Battle of Polytopia](https://store.steampowered.com/app/874390)                      |                                                             |
-| [The Elder Scrolls V: Skyrim Special Edition](https://store.steampowered.com/app/489830)  | Set graphics quality to medium or lower. 16GB recommended.  |
+| [The Elder Scrolls V: Skyrim Special Edition](https://store.steampowered.com/app/489830)  | 16GB recommended.                                           |
 | [The Jackbox Party Pack 8](https://store.steampowered.com/app/1552350)                    | Other party packs work well too!                            |
 | [The Witcher 3: Wild Hunt](https://store.steampowered.com/app/292030)                     | Set graphics and postprocessing to low. 16GB required.      |
 | [Tomb Raider](https://store.steampowered.com/app/203160)                                  | Use Proton 7.0-4                                            |
