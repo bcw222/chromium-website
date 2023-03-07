@@ -1,6 +1,6 @@
 ---
 breadcrumbs: []
-page_name: chromium-projects
+page_name: Proyecto de Chromium SO
 title: Home
 use_title_as_h1: false
 ---
