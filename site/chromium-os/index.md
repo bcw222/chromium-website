@@ -106,14 +106,14 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 *   [All How Tos and
             Troubleshooting](/chromium-os/how-tos-and-troubleshooting)
 *   [Poking around Your Chrome OS
-            Device](/chromium-os/poking-around-your-chrome-os-device)
+            Device](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_mode.md)
 *   [Design
             docs](http://www.chromium.org/chromium-os/chromiumos-design-docs)
 
 ### Hardware Reference docs and schematics
 
 Software for the microcontroller on these USB Type-C example designs is in the
-[EC source code](/chromium-os/ec-development)
+[EC source code](https://chromium.googlesource.com/chromiumos/platform/ec/+/HEAD/README.md)
 
 *   [USB Type-C debug dongle and sniffer for USB-PD
             communications](/chromium-os/twinkie)
