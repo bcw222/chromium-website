@@ -2872,7 +2872,7 @@ These are your standard Chromebook/Chromebox/etc devices.
   <tr>
     <td>2019-10-07</td>
     <td>Samsung</td>
-    <td><a href="https://www.samsung.com/us/computing/chromebooks/under-12/chromebook-4-11-6-32gb-storage-4gb-ram-xe310xba-k01us/">Samsung Chromebook 4</a></td>
+    <td><a href="https://www.samsung.com/us/business/computing/chromebooks/under-12/chromebook-4-11-6-32gb-storage-4gb-ram-xe310xba-k01us/">Samsung Chromebook 4</a></td>
     <td>Bluebird</td>
     <td>octopus</td>
     <td>octopus</td>
@@ -2880,7 +2880,7 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>4.14</td>
     <td>x86_64</td>
     <td>Gemini Lake</td>
-    <td>Chromebox</td>
+    <td>Chromebook</td>
     <td>R76</td>
     <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
