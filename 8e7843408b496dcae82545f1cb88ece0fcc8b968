@@ -123,6 +123,24 @@
       "parentUuid": "2c3aa133_947ad665",
       "revId": "8e7843408b496dcae82545f1cb88ece0fcc8b968",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e15d2bb9_f414a3d2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-03-13T21:01:37Z",
+      "side": 1,
+      "message": "I\u0027m not surprised that you\u0027re hitting auth problems on refs/meta/config. I think that branch is normally locked down to just the Git admins.\n\n[ Which means it would be a poor choice for managing watchlists, I guess. ]\n\nCan you file a bug using the Infra-Git template? Then we can bug them to get a recommendation.",
+      "parentUuid": "a589e21d_9f4bf4f5",
+      "revId": "8e7843408b496dcae82545f1cb88ece0fcc8b968",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ],
   "submitRequirementResults": [
