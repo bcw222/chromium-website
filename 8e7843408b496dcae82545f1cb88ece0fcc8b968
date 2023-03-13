@@ -105,6 +105,24 @@
       "parentUuid": "75984c4c_b1795152",
       "revId": "8e7843408b496dcae82545f1cb88ece0fcc8b968",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a589e21d_9f4bf4f5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2023-03-13T01:24:32Z",
+      "side": 1,
+      "message": "Doesn\u0027t look like I have sufficient rights to edit the repo config to create a CL: \n\nhttps://screenshot.googleplex.com/BnVGP4chXqWxsvW\n\nAnd edit.chromium.org similarly fails: \n\nhttps://screenshot.googleplex.com/6HB5P6HUBRFWNGp\n\nMy various attempts to do this from the commandline and upload via `git cl upload` similarly failed.\n\nAny other suggestions, Dirk or Mike?",
+      "parentUuid": "2c3aa133_947ad665",
+      "revId": "8e7843408b496dcae82545f1cb88ece0fcc8b968",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ],
   "submitRequirementResults": [
