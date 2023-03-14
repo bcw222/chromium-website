@@ -34,6 +34,24 @@
       "parentUuid": "6f26f421_9e8d60a7",
       "revId": "913ed6582078bbe5d3a781f7121351d71330d1a6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5dc878ca_3a41fd6f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-03-14T18:32:09Z",
+      "side": 1,
+      "message": "It\u0027s not a silly question, and you guessed at the right answer: modify\n//AUTHORS as part of this CL.",
+      "parentUuid": "7c8e8dff_ff4a879a",
+      "revId": "913ed6582078bbe5d3a781f7121351d71330d1a6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
