@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8e13765a_979cbda5",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2023-03-14T16:59:44Z",
+      "side": 1,
+      "message": "nit: typo in Reduction",
+      "revId": "4108431c82376a9c817c9dfebf8adb9cda447653",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b3bac67_c1e555cd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2023-03-14T16:59:44Z",
+      "side": 1,
+      "message": "Hm, it looks like the changes didn\u0027t actually make it into the CL. 😭",
+      "revId": "4108431c82376a9c817c9dfebf8adb9cda447653",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
