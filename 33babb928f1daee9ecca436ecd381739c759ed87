@@ -26,6 +26,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "b3fd16fc_ac618434",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1574432
+      },
+      "writtenOn": "2023-03-14T17:28:39Z",
+      "side": 1,
+      "message": "Thank you. I wasn\u0027t sure whether to prioritize brevity or a more descriptive change summary, but I agree my initial commit message was too vague.",
+      "parentUuid": "31950b5d_cd232c18",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 12
+      },
+      "revId": "33babb928f1daee9ecca436ecd381739c759ed87",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "402772de_83c2a95f",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 2
@@ -37,6 +61,24 @@
       "writtenOn": "2023-03-14T08:48:40Z",
       "side": 1,
       "message": "Hello, thanks for your contributions. Have you signed the CLA here?\nhttps://cla.developers.google.com/about/google-individual\n(Assuming you\u0027re an individual contributor not working for a company)\n\nAdded dpranke@google.com for OWNER approval.",
+      "revId": "33babb928f1daee9ecca436ecd381739c759ed87",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ca230a71_2af11e4a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1574432
+      },
+      "writtenOn": "2023-03-14T17:28:39Z",
+      "side": 1,
+      "message": "Yes I have",
+      "parentUuid": "402772de_83c2a95f",
       "revId": "33babb928f1daee9ecca436ecd381739c759ed87",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
