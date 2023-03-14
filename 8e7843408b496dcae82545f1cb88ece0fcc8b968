@@ -141,6 +141,24 @@
       "parentUuid": "a589e21d_9f4bf4f5",
       "revId": "8e7843408b496dcae82545f1cb88ece0fcc8b968",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cd081f1f_a70e35b8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2023-03-14T14:59:54Z",
+      "side": 1,
+      "message": "Thanks, filed https://bugs.chromium.org/p/chromium/issues/detail?id\u003d1424405",
+      "parentUuid": "e15d2bb9_f414a3d2",
+      "revId": "8e7843408b496dcae82545f1cb88ece0fcc8b968",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ],
   "submitRequirementResults": [
