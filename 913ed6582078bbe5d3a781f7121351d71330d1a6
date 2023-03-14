@@ -16,6 +16,24 @@
       "message": "Hi Xenador77,\n\nThanks for the patch. Can you add your name to the //AUTHORS file so we can properly credit you?",
       "revId": "913ed6582078bbe5d3a781f7121351d71330d1a6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c8e8dff_ff4a879a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1574432
+      },
+      "writtenOn": "2023-03-14T17:34:20Z",
+      "side": 1,
+      "message": "I feel silly for asking, but what\u0027s the best way to do that?\n(preferably without creating a new commit) \nI\u0027m still trying to familiarize myself with Gerrit",
+      "parentUuid": "6f26f421_9e8d60a7",
+      "revId": "913ed6582078bbe5d3a781f7121351d71330d1a6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
