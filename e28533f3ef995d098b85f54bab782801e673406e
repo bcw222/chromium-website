@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "65bdb65c_622e6851",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1273086
+      },
+      "writtenOn": "2023-03-15T18:05:31Z",
+      "side": 1,
+      "message": "One nit to be fixed and one question.",
+      "revId": "e28533f3ef995d098b85f54bab782801e673406e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "42977497_8be629a8",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 4096,
+      "author": {
+        "id": 1273086
+      },
+      "writtenOn": "2023-03-15T18:05:31Z",
+      "side": 1,
+      "message": "This line should be at the same indent position as the one above it.",
+      "range": {
+        "startLine": 4096,
+        "startChar": 0,
+        "endLine": 4096,
+        "endChar": 8
+      },
+      "revId": "e28533f3ef995d098b85f54bab782801e673406e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7d7062bd_0f16887b",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 4108,
+      "author": {
+        "id": 1273086
+      },
+      "writtenOn": "2023-03-15T18:05:31Z",
+      "side": 1,
+      "message": "If this is the FSI version for Zavala, I see two approvals.  R108-15183.69.0 and R110-15278.64.0.  Not sure which way this field should be.",
+      "range": {
+        "startLine": 4108,
+        "startChar": 8,
+        "endLine": 4108,
+        "endChar": 12
+      },
+      "revId": "e28533f3ef995d098b85f54bab782801e673406e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
