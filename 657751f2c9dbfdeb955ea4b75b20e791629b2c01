@@ -16,6 +16,23 @@
       "message": "Resources section update. Please take a look.",
       "revId": "657751f2c9dbfdeb955ea4b75b20e791629b2c01",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff4929f8_ba73d55a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2023-03-15T17:15:54Z",
+      "side": 1,
+      "message": "thanks!",
+      "revId": "657751f2c9dbfdeb955ea4b75b20e791629b2c01",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
