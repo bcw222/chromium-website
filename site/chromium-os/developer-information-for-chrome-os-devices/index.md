@@ -4094,6 +4094,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Yes</td>
   </tr>
   <tr>
+    <td>2023-01-19</td>
+    <td>Acer</td>
+    <td><a href="https://www.acer.com/us-en/chromebooks/acer-chromebook-vero-712-cv872-cv872t">Acer Chromebook Vero 712 (CV872/CV872T)</a></td>
+    <td>Zavala</td>
+    <td>Brya</td>
+    <td>Brya</td>
+    <td>x86_64</td>
+    <td>5.10</td>
+    <td>x86_64</td>
+    <td>Alder Lake</td>
+    <td>Clamshell</td>
+    <td>R108</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
+  <tr>
     <td>2023-01-18</td>
     <td>Lenovo</td>
     <td>Lenovo Slim 3 Chromebook 14</td>
