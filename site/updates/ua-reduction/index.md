@@ -523,7 +523,40 @@ Javascript API.
 
 ## Resources
 
-The following sites show snippets and allow developers to preview what the
-reduced User-Agent string will look like on different platforms:
-- [User-Agent Reduction Snippets](https://developer.chrome.com/docs/privacy-sandbox/user-agent/snippets/)
-- [User-Agent Reduction Interactive Demo](https://reduced-ua.glitch.me/)
+### Education
+- What is the [Privacy Sandbox](https://privacysandbox.com/)?
+- What are [User Agent Client Hints](https://web.dev/user-agent-client-hints/)?
+- What happens to the [User Agent string](https://web.dev/user-agent-client-hints/#what-happens-to-the-user-agent-string)?
+- Public GitHub: [UA-CH Explainer](https://github.com/WICG/ua-client-hints)
+- Public feedback: [Open issues](https://github.com/WICG/ua-client-hints/issues)
+- Public support: [Sandbox-Dev-Support-Repo](https://github.com/GoogleChromeLabs/privacy-sandbox-dev-support/discussions)
+
+### Proposed Timeline
+- Full [UA-Reduction proposed rollout plan](https://www.chromium.org/updates/ua-reduction/)
+- Key Dates (As of Mar 15th, 2023) ([schedule](https://chromiumdash.appspot.com/schedule))
+  - Chrome 100 release (Mar 29th, 2022) (**Deployed**)
+    - User Agent Reduction Deprecation Trial launches for instances where a site may need more migration time.
+  - Chrome 101 release (Apr 26th, 2022) (**Deployed**)
+    - Minor build version is frozen to 0.0.0 and applies to all page loads on desktop or mobile that are not part of the Reverse Origin Trial.
+  - Chrome 107 release (Oct 25th, 2022) (**Deployed**)
+    - Desktop based UA string is fully reduced for all page loads that are not part of the Reverse Origin Trial.
+  - Chrome 110 release (Feb 7th, 2023) (**Deployed**)
+    - Android Mobile and Tablet based UA string is fully reduced for all page loads that are not part of the Reduction Deprecation Trial.
+- If additional time is needed for migration you may register for the [Reduction Deprecation Trial](https://developer.chrome.com/blog/user-agent-reduction-deprecation-trial/) which will provide access to the full UA string until late May, 2023.
+
+
+
+### Migration
+- [Migrating to User Agent Client Hints](https://web.dev/migrate-to-ua-ch/) (Full guide)
+- [Strategy](https://web.dev/migrate-to-ua-ch/#strategy-on-demand-client-side-javascript-api) for navigator.userAgent users (JS API)
+- [Strategy](https://web.dev/migrate-to-ua-ch/#strategy-static-server-side-header) for Static server-side headers
+- [Delegating access](https://web.dev/migrate-to-ua-ch/#strategy:-delegating-hints-to-cross-origin-requests) of your high entropy hints to 3P resources
+- Handling critical [first request](https://web.dev/migrate-to-ua-ch/#strategy:-server-side-hints-required-on-first-request) client hints beyond the default set
+  - The default set of hints includes the browser name with major version, platform, and mobile indicator.
+
+### Testing
+- Chrome Browser - Please use chrome://flags/#reduce-user-agent
+- Chrome Webdriver (Selenium testing, regression testing)
+--enable-features=ReduceUserAgent
+- [User-Agent reduction code snippets](https://developer.chrome.com/docs/privacy-sandbox/user-agent/snippets/)
+- [Headers &amp; JS API interactive demo](https://web.dev/user-agent-client-hints/#demo)
