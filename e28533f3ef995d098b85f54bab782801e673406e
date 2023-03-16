@@ -62,6 +62,30 @@
       },
       "revId": "e28533f3ef995d098b85f54bab782801e673406e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "22d90253_f2331f37",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 4108,
+      "author": {
+        "id": 1528512
+      },
+      "writtenOn": "2023-03-16T02:16:07Z",
+      "side": 1,
+      "message": "The FSI is M108 and FAU to M110, I followed FSI record as below.\n\nhttps://chromeos.google.com/partner/dlm/device/545/fsis/approvals/226",
+      "parentUuid": "7d7062bd_0f16887b",
+      "range": {
+        "startLine": 4108,
+        "startChar": 8,
+        "endLine": 4108,
+        "endChar": 12
+      },
+      "revId": "e28533f3ef995d098b85f54bab782801e673406e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
