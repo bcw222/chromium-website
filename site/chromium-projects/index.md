@@ -43,7 +43,7 @@ file bugs.
 
 Looking for Google Chrome OS devices?
 
-[Visit the Google ChromeOS site](https://www.google.com/chromeos)
+[Visit the Google ChromeOS site:](https://www.google.com/chromeos)
 
 </div>
 </div>
