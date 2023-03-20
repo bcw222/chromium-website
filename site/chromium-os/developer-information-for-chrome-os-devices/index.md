@@ -4144,4 +4144,40 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>Yes</td>
   </tr>
+<tr>
+   <td>2023-03-09</td>
+   <td>Asus</td>
+   <td>ASUS Chromebook CR11 (CR1102C)</td>
+   <td>Xivu</td>
+   <td>Xivu</td>
+   <td>Nissa</td>
+   <td>x86_64</td>
+   <td>5.15</td>
+   <td>x86_64</td>
+   <td>Alderlake-N</td>
+   <td>Clamshell</td>
+   <td>M110</td>
+   <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+   <td></td>
+   <td>Yes</td>
+ </tr>
+ <tr>
+   <td>2023-03-09</td>
+   <td>Asus</td>
+   <td>ASUS Chromebook CR11 (CR1102F)</td>
+   <td>Xivu360</td>
+   <td>Xivu360</td>
+   <td>Nissa</td>
+   <td>x86_64</td>
+   <td>5.15</td>
+   <td>x86_64</td>
+   <td>Alderlake-N</td>
+   <td>Convertible</td>
+   <td>M105</td>
+   <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+   <td></td>
+   <td>Yes</td>
+ </tr>
+
+
 </table>
