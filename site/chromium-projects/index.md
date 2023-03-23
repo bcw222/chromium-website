@@ -1,4 +1,4 @@
----
+-sudo apt-get install git-core gitk git-gui subversion curl lvm2 thin-provisioning-tools python-pkg-resources python-virtualenv python-oauth2client--
 breadcrumbs: []
 page_name: chromium-projects
 title: Home
