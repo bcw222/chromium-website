@@ -306,24 +306,6 @@ these areas:
 Each subsequent request to extend an origin trial must provide substantial
 *additional*  progress on top of the previous extension request.
 
-[Note: the required breaking period was removed in April 2022. This removal will run
-for 12 months, after which the API owners will consider making the change permanent.]
-~~If an Origin Trial happens, then there is a [required breaking
-period](https://docs.google.com/document/d/1oSlxRwsc8vTUGDGAPU6CaJ8dXRdvCdxvZJGxDp9IC3M/edit#heading=h.r5cdr0aazfpm)
-before shipping in step 4. If you wish to skip the breaking period, meaning that
-sites participating in the Origin Trial will not see an interruption in support
-for the feature between Origin Trial and launch (\*), you may request an
-exception. The process to do so is to include this request in your Intent to
-Ship email. In the request, you must show clear evidence that developers engaged
-with the Origin Trial and that their concerns were taken into account in the
-final API design and implementation. LGTMs for the Intent to Ship imply approval
-of the request.~~
-
-(\*) "Not see an interruption" means that if the origin trial ends at milestone
-N, and the feature is shipped in milestone N+1, sites opting into the origin
-trial will continue to be able to use the feature on Chromium milestone N up to
-(and even after, for those users who have not upgraded) N+1 ships.
-
 #### Step 6: Prepare to Ship {:#new-feature-prepare-to-ship}
 
 By this stage, you need to have a complete specification available that matches
