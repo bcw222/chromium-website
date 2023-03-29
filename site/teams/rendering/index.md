@@ -15,8 +15,6 @@ and SVG.
 The team is made up of contributors from many different companies and see
 regular contributions from many more as well as from individual contributors.
 
-Last updated: Thu Oct 29, 2019 by [Chris](mailto:chrishr@chromium.org)
-
 ## Team Charter
 
 The rendering core team is focused on the architectural principles of
@@ -129,10 +127,6 @@ There is also a set of dedicated slack channels for the team. For logistical
 reasons these are limited to team members and collaborators. Please talk to one
 of the team members and they'll get you added as needed.
 
-### IRC
-
-Many of the team members may also be found in the #chromium channel on freenode.
-
 ## Team Members
 
 **Adenilson Cavalcanti** adenilson.cavalcanti - ARM San Jose - Performance
@@ -181,15 +175,11 @@ Stefan Zager szager - Google San Francisco - Paint
 
 Steinar H. Gunderson sesse - Google Oslo - Style
 
-Stephen Chenney schenney - Google Atlanta - Paint
-
 Vladimir Levin vmpstr - Google Waterloo - Async
 
 Xianzhu Wang wangxianzhu - Google Mountain View - Paint
 
 Xiaocheng Hu xiaochengh - Google Mountain View - Style
-
-Yoshifumi Inoue yosin - Google Tokyo - Layout
 
 ## Contributing
 
