@@ -8,7 +8,6 @@ page_name: api-keys
 title: API Keys
 ---
 
-## What is this doc?
 
 1.  If there are features which use Google APIs that you need for a
             custom build, fork, or integration of stock Chromium.
