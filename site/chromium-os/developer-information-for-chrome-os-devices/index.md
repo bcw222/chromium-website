@@ -133,6 +133,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <th>USB Gadget</th>
     <th>Closed Case Debugging</th>
   </tr>
+   <tr>
+    <td></td>
+    <td>HP</td>
+    <td><a href="https://www.hp.com/us-en/shop/pdp/hp-elite-dragonfly-135-inch-chromebook">HP Elite Dragonfly 13.5 Chromebook</a></td>
+    <td>Redrix</td>
+    <td>Brya</td>
+    <td>Brya </td>
+    <td>x86_64</td>
+    <td>4.19</td>
+    <td>x86_64</td>
+    <td>AlderLake-U</td>
+    <td>Convertible</td>
+    <td>R100</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
   <tr>
     <td></td>
     <td>Lenovo</td>
