@@ -11,6 +11,8 @@ Chrome OS, respectively. This site houses the documentation and code related to
 the Chromium projects and is intended for developers interested in learning
 about and contributing to the open-source projects.
 
+<h3 style="text-align:center;"><a href="https://download-chromium.appspot.com/">Download Chromium</a></h3>
+
 <div class="two-column-container">
 <div class="column">
 
