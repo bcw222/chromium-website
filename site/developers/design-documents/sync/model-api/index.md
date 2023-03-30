@@ -306,6 +306,9 @@ the next client restart.
     [`ChromeSyncClient::CreateDataTypeControllers`][CreateDataTypeControllers].
 *   Add your KeyedService dependency to
     [`SyncServiceFactory`][SyncServiceFactory].
+*   Implement the actual data type logic. This will mostly be an implementation
+    of the [`ModelTypeSyncBridge`][Bridge] interface.
+*   Write some `sync_integration_tests` (see next section).
 
 [protocol]: https://cs.chromium.org/chromium/src/components/sync/protocol/
 [ModelType]: https://cs.chromium.org/chromium/src/components/sync/base/model_type.h
@@ -326,8 +329,20 @@ the next client restart.
 
 ## Testing
 
-The [`TwoClientTypedUrlsSyncTest`][UssTest] suite is probably a good place to start
-for integration testing. Especially note the use of a `StatusChangeChecker` to
-wait for events to happen.
+In addition to the usual unit tests, sync data types should be covered by
+integration tests based on [`SyncTest`][SyncTest]. These are similar to
+`browser_tests`, but live in a separate binary (`sync_integration_tests`)
+and run against a fake sync server built into Chrome (and optionally also
+against the real server, see macro `E2E_ENABLED`).
 
-[UssTest]: https://cs.chromium.org/chromium/src/chrome/browser/sync/test/integration/two_client_typed_urls_sync_test.cc
+They come in two variants, single-client or two-client tests. Single-client
+tests run a single syncing client against the fake sync server. Two-client
+tests run two clients, syncing to the same account, against the fake server.
+
+In many cases, single-client tests are sufficient to cover all relevant
+scenarios, but sometimes two-client tests are required to cover some tricky
+cases. There are [plenty of examples][integration_test_examples] for both in
+the code base.
+
+[SyncTest]: https://source.chromium.org/chromium/chromium/src/+/main:chrome/browser/sync/test/integration/sync_test.h
+[integration_test_examples]: https://source.chromium.org/chromium/chromium/src/+/main:chrome/browser/sync/test/integration/
