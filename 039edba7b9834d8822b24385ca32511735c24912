@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "d805b42e_c9e78df8",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1001216
+      },
+      "writtenOn": "2023-03-30T18:10:56Z",
+      "side": 1,
+      "message": "Let\u0027s link to Bug: 1267977 here.",
+      "revId": "039edba7b9834d8822b24385ca32511735c24912",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "08cfcc10_b7a469a8",
@@ -14,6 +31,24 @@
       "writtenOn": "2023-03-30T18:02:34Z",
       "side": 1,
       "message": "Charlie, does this update to https://www.chromium.org/Home/chromium-security/site-isolation/ make sense?  (Hopefully this is the right way to update it - I just clicked on \"Edit this page\")",
+      "revId": "039edba7b9834d8822b24385ca32511735c24912",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2152bffe_89fe5bf0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001216
+      },
+      "writtenOn": "2023-03-30T18:10:56Z",
+      "side": 1,
+      "message": "\u003e Charlie, does this update to https://www.chromium.org/Home/chromium-security/site-isolation/ make sense?\n\nYep, LGTM!\n\n\u003e  (Hopefully this is the right way to update it - I just clicked on \"Edit this page\")\n\nThat works fine.  I think you can also edit it in your local checkout at docs/website/site/Home/chromium-security/site-isolation/, if you want to use your usual editor.",
+      "parentUuid": "08cfcc10_b7a469a8",
       "revId": "039edba7b9834d8822b24385ca32511735c24912",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
