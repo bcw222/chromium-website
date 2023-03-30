@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f28e11d_2ef7e086",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2023-03-30T12:03:48Z",
+      "side": 1,
+      "message": "Specific preview link for convenience:\nhttps://chromium-website--cl4384753-ps4-jagg40pb.web.app/developers/design-documents/sync/model-api/#sync-integration-checklist",
+      "revId": "2e78d351467f4f9da12a33b7dba34a311f8cd0e3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
