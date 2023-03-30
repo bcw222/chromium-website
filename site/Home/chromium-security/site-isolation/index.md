@@ -132,7 +132,9 @@ a process, such as [speculative side-channel attack
 techniques](https://security.googleblog.com/2018/01/todays-cpu-vulnerability-what-you-need.html)
 like Spectre/Meltdown. As of Chrome 77, Site Isolation also now defends against
 fully compromised renderer processes and UXSS bugs on desktop platforms. In M92,
-Site Isolation expanded to isolate all extensions from each other as well.
+Site Isolation expanded to isolate all extensions from each other as well.  In
+M110, Site Isolation support was added for [&lt;webview&gt;
+tags](https://developer.chrome.com/docs/extensions/reference/webviewTag/).
 
 #### Android
 
@@ -179,8 +181,7 @@ adopt Cross-Origin-Opener-Policy headers.
   files labeled as HTML).
 * **Unavailable in some settings**: Site Isolation is not yet
   supported in Android WebView, or on Chrome for Android devices with
-  less than 2GB of RAM, or in the &lt;webview&gt; tags used in Chrome
-  Apps.
+  less than 2GB of RAM.
 
 ## Tradeoffs
 
