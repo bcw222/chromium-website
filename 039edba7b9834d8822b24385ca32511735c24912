@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "08cfcc10_b7a469a8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1118209
+      },
+      "writtenOn": "2023-03-30T18:02:34Z",
+      "side": 1,
+      "message": "Charlie, does this update to https://www.chromium.org/Home/chromium-security/site-isolation/ make sense?  (Hopefully this is the right way to update it - I just clicked on \"Edit this page\")",
+      "revId": "039edba7b9834d8822b24385ca32511735c24912",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
