@@ -50,6 +50,24 @@
       "message": "...and optionally against the real server (see macro E2E_ENABLED).",
       "revId": "2e78d351467f4f9da12a33b7dba34a311f8cd0e3",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db75aaab_a4188356",
+        "filename": "site/developers/design-documents/sync/model-api/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 339,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2023-03-30T14:28:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3317c049_6df9e7e1",
+      "revId": "2e78d351467f4f9da12a33b7dba34a311f8cd0e3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
