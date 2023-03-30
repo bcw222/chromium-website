@@ -87,6 +87,24 @@
       "parentUuid": "2152bffe_89fe5bf0",
       "revId": "039edba7b9834d8822b24385ca32511735c24912",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cecfbcb9_f69fe481",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001216
+      },
+      "writtenOn": "2023-03-30T18:43:24Z",
+      "side": 1,
+      "message": "Huh.  I now see there\u0027s documentation about it at https://source.chromium.org/chromium/chromium/src/+/main:docs/website/docs/CONTRIBUTING.md, but it\u0027s a bit vague on upload behavior.  (It says to check out the repo separately, but it also says \"If you have an existing Chromium or ChromiumOS checkout, you will hopefully soon have this repo DEPS\u0027ed in in automatically,\" without clarifying the CL should be uploaded from within that repo.)  Maybe there\u0027s room to mention it there at some point, now that it is pulled in via DEPS.",
+      "parentUuid": "0f7b0e9c_9fba9cf4",
+      "revId": "039edba7b9834d8822b24385ca32511735c24912",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
