@@ -4195,4 +4195,72 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>Yes</td>
   </tr>
+  <tr>
+    <td>2023-03-31</td>
+    <td>Lenovo</td>
+    <td>Lenovo 500e Yoga Chromebook Gen 4</td>
+    <td>Pujjo</td>
+    <td>Nissa</td>
+    <td>Nissa</td>
+    <td>x86_64</td>
+    <td>5.15</td>
+    <td>x86_64</td>
+    <td>AlderLake-N</td>
+    <td>Convertible</td>
+    <td>R110</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td>Yes</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>2023-03-31</td>
+    <td>Lenovo</td>
+    <td>Lenovo IdeaPad Flex 3i Chromebook</td>
+    <td>Pujjoflex</td>
+    <td>Nissa</td>
+    <td>Nissa</td>
+    <td>x86_64</td>
+    <td>5.15</td>
+    <td>x86_64</td>
+    <td>AlderLake-N</td>
+    <td>Convertible</td>
+    <td>R110</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td>Yes</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>2023-03-31</td>
+    <td>Lenovo</td>
+    <td>Lenovo 14e Chromebook Gen 3</td>
+    <td>Pujjoteen</td>
+    <td>Nissa</td>
+    <td>Nissa</td>
+    <td>x86_64</td>
+    <td>5.15</td>
+    <td>x86_64</td>
+    <td>AlderLake-N</td>
+    <td>Chromebook</td>
+    <td>R110</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td>Yes</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
+    <td>2023-03-31</td>
+    <td>Lenovo</td>
+    <td>Lenovo IdeaPad Slim 3 Chromebook</td>
+    <td>Pujjoteen15W</td>
+    <td>Nissa</td>
+    <td>Nissa</td>
+    <td>x86_64</td>
+    <td>5.15</td>
+    <td>x86_64</td>
+    <td>AlderLake-N</td>
+    <td>Chromebook</td>
+    <td>R110</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td>Yes</td>
+    <td>Yes</td>
+  </tr>
 </table>
