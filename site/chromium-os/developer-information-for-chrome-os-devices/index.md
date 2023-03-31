@@ -4178,4 +4178,21 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>Yes</td>
   </tr>
+    <tr>
+    <td>2023-03-01</td>
+    <td>Samsung</td>
+    <td><a href="https://www.samsung.com/us/computing/galaxy-chromebook-go/">Galaxy Chromebook Go</a></td>
+    <td>sasukette</td>
+    <td>sasukette</td>
+    <td>dedede</td>
+    <td>x86_64</td>
+    <td>5.4</td>
+    <td>x86_64</td>
+    <td>Jasper Lake</td>
+    <td>Chromebook</td>
+    <td>R97</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
 </table>
