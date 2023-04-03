@@ -137,11 +137,11 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>HP</td>
     <td><a href="https://www.hp.com/us-en/shop/pdp/hp-elite-dragonfly-135-inch-chromebook">HP Elite Dragonfly 13.5 Chromebook</a></td>
-    <td>Redrix</td>
+    <td>redrix</td>
     <td>Brya</td>
     <td>Brya </td>
     <td>x86_64</td>
-    <td>4.19</td>
+    <td>5.10</td>
     <td>x86_64</td>
     <td>AlderLake-U</td>
     <td>Convertible</td>
@@ -183,6 +183,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>HP</td>
+    <td><a href="https://support.hp.com/sg-en/document/c06719265">HP Elite c1030 Chromebook</a></td>
+    <td>jinlon</td>
+    <td>Hatch</td>
+    <td>Hatch</td>
+    <td>x86_64</td>
+    <td>4.19</td>
+    <td>x86_64</td>
+    <td>Comet Lake-U</td>
+    <td>Convertible</td>
+    <td>R84</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
   </tr>
   <tr>
     <td></td>
