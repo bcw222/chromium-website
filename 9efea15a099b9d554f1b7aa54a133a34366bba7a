@@ -16,6 +16,23 @@
       "message": "LGTM but as I don\u0027t know the details of pujjo devices I\u0027d like to defer this to Shou-Chieh.",
       "revId": "9efea15a099b9d554f1b7aa54a133a34366bba7a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "121dd872_ef638d10",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 4212,
+      "author": {
+        "id": 1477752
+      },
+      "writtenOn": "2023-04-07T09:32:22Z",
+      "side": 1,
+      "message": "Not sure what\u0027s `USB Gadget`, do we support this?",
+      "revId": "9efea15a099b9d554f1b7aa54a133a34366bba7a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
