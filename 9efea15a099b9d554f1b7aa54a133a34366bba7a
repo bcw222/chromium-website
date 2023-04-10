@@ -52,6 +52,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "613ec314_092c3c19",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1477752
+      },
+      "writtenOn": "2023-04-10T03:18:04Z",
+      "side": 1,
+      "message": "Sure, will +1 after my open comment is resolved, thanks.",
+      "parentUuid": "a63ff122_a84ab16a",
+      "revId": "9efea15a099b9d554f1b7aa54a133a34366bba7a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "121dd872_ef638d10",
