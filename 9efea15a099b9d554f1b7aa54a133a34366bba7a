@@ -85,6 +85,24 @@
       "message": "Not sure what\u0027s `USB Gadget`, do we support this?",
       "revId": "9efea15a099b9d554f1b7aa54a133a34366bba7a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b4689e36_b38319b1",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 4212,
+      "author": {
+        "id": 1532392
+      },
+      "writtenOn": "2023-04-10T17:09:56Z",
+      "side": 1,
+      "message": "Yes we do support it. All devices on the page should have it as a yes.\nThe USB gadget is related to the HID devices and gadget modes\nhttps://chromium.googlesource.com/chromium/src/+/refs/heads/main/tools/usb_gadget",
+      "parentUuid": "121dd872_ef638d10",
+      "revId": "9efea15a099b9d554f1b7aa54a133a34366bba7a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
