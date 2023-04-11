@@ -47,13 +47,13 @@ referred to as the origin/main branch. The `git-new-branch` command (in
 depot_tools) will do this:
 
 ```shell
-git new-branch branch_name
+git new-branch a_new_branch_name
 ```
 
 Note that this is equivalent to the following:
 
 ```shell
-git checkout -b new_branch origin/main
+git checkout -b a_new_branch_name origin/main
 ```
 
 ### Branch off a branch
