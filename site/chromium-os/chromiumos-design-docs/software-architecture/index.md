@@ -10,7 +10,8 @@ title: Software Architecture
 
 [TOC]
 
-## Abstract
+## A- - /chromium-os/chromiumos-design-docs
+bstract
 
 Chromium OS consists of three major components:
 
