@@ -21,7 +21,8 @@ and/or trackpad are unresponsive), try the following steps:
 *   Recovery Steps
     *   Press **Alt+VolumeUp+X**. If you're using a Chromebox, use F10
                 instead of VolumeUp. These three keys need to be pressed in that
-                order.
+                order. The VolumeUp key here is the key on the keyboard and not the
+                side button.
         *   This should cause the Chrome browser to restart, and it may
                     take a few seconds. If the system becomes responsive, go to
                     last step.
