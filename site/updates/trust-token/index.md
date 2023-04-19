@@ -2,26 +2,25 @@
 breadcrumbs:
 - - /updates
   - updates
-page_name: trust-token
-title: Trust Token API
+page_name: private-state-token
+title: Private State Token API
 ---
 
-*   [Getting Started with Trust Tokens](https://web.dev/trust-tokens/) - Developer focused explanation of Trust Token.
+*   [Getting Started with Private State Tokens](https://web.dev/trust-tokens/) - Developer focused explanation of Private State Tokens (formerly known as Trust Tokens).
 *   **[API Explainer](https://github.com/WICG/trust-token-api/blob/master/README.md)** - high-level description of the problem and initial sketch of the interface.
 *   [Chrome Trust Token Design Doc](https://docs.google.com/document/d/1TNnya6B8pyomDK2F1R9CL3dY10OAmqWlnCxsWyOBDVQ/edit) - currently the normative source for the HTTP API.
-*   [Using the prototype Trust Token API](https://docs.google.com/document/u/1/d/1qUjtKgA7nMv9YGMhi0xWKEojkSITKzGLdIcZgoz6ZkI/edit) - describes the interface as implemented, with examples and error conditions.
-*   [Prototype Issuer Library](https://github.com/google/libtrusttoken) - C library for Trust Token (TrustTokenV2+).
+*   [Using the prototype Private State Tokens API](https://docs.google.com/document/u/1/d/1qUjtKgA7nMv9YGMhi0xWKEojkSITKzGLdIcZgoz6ZkI/edit) - describes the interface as implemented, with examples and error conditions.
+*   [Prototype Issuer Library](https://github.com/google/libtrusttoken) - C library for Private State Tokens (PrivateTokenV2+).
 
 **Experimenting**
 
-You can manually enable this feature on your build of Chrome by using the `--enable-features=TrustTokens` command line flag (or setting chrome://flags/#trust-tokens to enabled).
-In order to execute Trust Tokens operations, you'll need an origin trial token present *or* to have provided the additional command-line flag `--enable-blink-features=TrustTokens,TrustTokensAlwaysAllowIssuance`.
-If you are experimenting with a new issuer, you can manually provide the Trust Token key commitments via the `--additional-trust-token-key-commitments='{ "<issuer
+In order to execute Private State Token operations, you'll need an origin trial token present *or* to have provided the additional command-line flag `--enable-blink-features=PrivateStateTokens,PrivateStateTokensAlwaysAllowIssuance`.
+If you are experimenting with a new issuer, you can manually provide the Private State Token key commitments via the `--additional-private-state-token-key-commitments='{ "<issuer
 origin>": <key commitment response> }'` flag.
 
 Process for registering as an issuer: <https://docs.google.com/document/d/1cvUdAmcstH6khLL7OrLde4TnaPaMF1qPp3i-2XR46kU/>
 
-If you are trying to register as a developer to use the Trust Token APIs to issue/redeem, please follow the standard Origin Trial registration process: <https://github.com/GoogleChrome/OriginTrials/blob/gh-pages/developer-guide.md>
+If you are trying to register as a developer to use the Private State Token APIs to issue/redeem, please follow the standard Origin Trial registration process: <https://github.com/GoogleChrome/OriginTrials/blob/gh-pages/developer-guide.md>
 
 If you have questions/suggestions related to the web API or protocol that needs clarification, please file an issue at: <https://github.com/WICG/trust-token-api/issues/>
 
@@ -31,7 +30,7 @@ If you have questions/suggestions related to the Chrome origin trial or implemen
 
 Last updated January 4, 2022.
 
-The Trust Token API has been running in Origin Trial since Chrome 84, running at 50% on Dev/Canary/Beta and 10% on Stable. It is currently running through to Chrome 101.
+The Private State Token API has been running in Origin Trial since Chrome 84, running at 50% on Dev/Canary/Beta and 10% on Stable. It is currently running through to Chrome 101.
 
 Chrome 84-88 supports [TrustTokenV1](https://github.com/WICG/trust-token-api/tree/36da1948de580fa4efb61a3ec324a608edca8c68) which includes verification of the Redemption Record.
 
