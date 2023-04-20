@@ -33,8 +33,8 @@ a stopgap. This is not ideal, just what we’re doing for now.
 
 Once all the licenses have been gathered, the script factors out the licenses
 used by multiple packages by listing them at the end and creating pointers to
-them, and then generates an HTML file that will be located under
-/opt/google/chrome/resources/about_os_credits.html on the generated image.
+them, and then generates a compressed HTML file that will be located under
+/opt/google/chrome/resources/about_os_credits.html.gz on the generated image.
 
 ## Howto
 
@@ -93,7 +93,8 @@ But we only really want a subset of this (without --all-packages):
 After that, we compare with the last generated file in chrome:
 
 ```none
-~/chromiumos/chromite/licensing$ cp /usr/local/google2/chromeos/about_os_credits.html .
+~/chromiumos/chromite/licensing$ cp /usr/local/google2/chromeos/about_os_credits.html.gz .
+~/chromiumos/chromite/licensing$ gunzip about_os_credits.html.gz
 (cr) ~/trunk/chromite/licensing $ ../bin/diff_license_html about_os_credits.html out.html | tee diff
 <lots of output, review that>
 ```
@@ -193,9 +194,6 @@ being scraped currently).""",
             added the end of an image build and to pre-CQ. DONE: Document for
             end users is here:
             <https://docs.google.com/a/google.com/document/d/1-p5Sg1m66pLPFYye4d7jiPkcJQVbfcwlBiExqc6tTpc/edit#>
-*   The end goal is to have the chrome browser read the license file
-            from a location in the Chrome OS tree. <http://crbug.com/271832>
-            says it’ll be /opt/google/chrome/resources/about_os_credits.html
 *   Obviously running licensing x86-alex and shipping that output for
             all boards is incorrect, but that’s the best we can do before the
             above points are fixed. Once chrome knows to read the license file

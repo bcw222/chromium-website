@@ -31,6 +31,6 @@ There is no single license file that is correct for all devices and all
 versions, so please go to settings/help (or type chrome://help) and click on
 "open source software" (or type chrome://credits and chrome://os-credits).
 
-If you would like an online version, a necessarily not up to date version of the
+If you would like an online version, an older version of the
 OS credits can be found here:
 <https://chromium.googlesource.com/chromium/src/+/91e5715acfa6cac439f98438f1bedade3d863b9a/chrome/browser/resources/chromeos/about_os_credits.html>
