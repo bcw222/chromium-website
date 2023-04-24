@@ -1,0 +1,39 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b11d9e2b_0cf60f66",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1138669
+      },
+      "writtenOn": "2023-04-24T01:32:50Z",
+      "side": 1,
+      "message": "\u003e Preview this change at https://chromium-website--cl4005091-ps8-zxi29c7z.web.app\n\nPlease fix.",
+      "parentUuid": "8a5b73eb_261e8d2d",
+      "revId": "c53210377061d16ab9fb07db88bdf18b2bf2134b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "73bc022b_8f11223b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1138669
+      },
+      "writtenOn": "2023-04-24T01:32:50Z",
+      "side": 1,
+      "message": "Preview looks good to me and merge conflict is resolved.",
+      "revId": "c53210377061d16ab9fb07db88bdf18b2bf2134b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
