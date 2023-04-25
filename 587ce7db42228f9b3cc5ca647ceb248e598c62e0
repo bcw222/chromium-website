@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "51218ebe_02cf80a3",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1255370
+      },
+      "writtenOn": "2023-04-25T19:01:32Z",
+      "side": 1,
+      "message": "yes, would prefer using MrChromebox as I\u0027ve spent a decade building the brand ;-)",
+      "parentUuid": "074e45c1_79516507",
+      "range": {
+        "startLine": 9,
+        "startChar": 60,
+        "endLine": 10,
+        "endChar": 10
+      },
+      "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "af3513df_3681f358",
         "filename": "/COMMIT_MSG",
         "patchSetId": 1
@@ -42,6 +66,145 @@
         "startChar": 18,
         "endLine": 12,
         "endChar": 38
+      },
+      "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "40fc6353_9086f39a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1255370
+      },
+      "writtenOn": "2023-04-25T19:01:32Z",
+      "side": 1,
+      "message": "also, users can clone my repo and build an image for their device extremely easily as my repo includes all required blobs and a build script",
+      "parentUuid": "af3513df_3681f358",
+      "range": {
+        "startLine": 12,
+        "startChar": 18,
+        "endLine": 12,
+        "endChar": 38
+      },
+      "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "68104a2d_5f54b6cb",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/custom-firmware/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1255370
+      },
+      "writtenOn": "2023-04-25T19:01:32Z",
+      "side": 1,
+      "message": "what is a ChromiumOS device? I don\u0027t think I\u0027ve heard the term used before now, always a ChromeOS device.",
+      "range": {
+        "startLine": 11,
+        "startChar": 11,
+        "endLine": 11,
+        "endChar": 29
+      },
+      "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6b6e3fd6_f7e0c821",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/custom-firmware/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1255370
+      },
+      "writtenOn": "2023-04-25T19:01:32Z",
+      "side": 1,
+      "message": "all references to coreboot should be lower case",
+      "range": {
+        "startLine": 11,
+        "startChar": 51,
+        "endLine": 11,
+        "endChar": 59
+      },
+      "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d7ea8266_932ffb78",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/custom-firmware/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1255370
+      },
+      "writtenOn": "2023-04-25T19:01:32Z",
+      "side": 1,
+      "message": "I\u0027d avoid using BIOS as a term for system firmware, in order to not muddy things. ChromeOS firmware is neither BIOS nor UEFI, a point that is often unclear.",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 4
+      },
+      "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dd31a43f_6f0385e7",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/custom-firmware/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1255370
+      },
+      "writtenOn": "2023-04-25T19:01:32Z",
+      "side": 1,
+      "message": "perhaps add, and have or are ok purchasing/building the required tools to unbrick if needed",
+      "range": {
+        "startLine": 16,
+        "startChar": 15,
+        "endLine": 16,
+        "endChar": 68
+      },
+      "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5bfc8d45_c0b0d2bf",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/custom-firmware/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1255370
+      },
+      "writtenOn": "2023-04-25T19:01:32Z",
+      "side": 1,
+      "message": "proprietary, closed-source UEFI firmware",
+      "range": {
+        "startLine": 20,
+        "startChar": 19,
+        "endLine": 20,
+        "endChar": 36
       },
       "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
@@ -72,6 +235,75 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d89c277b_25f7b68b",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/custom-firmware/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1255370
+      },
+      "writtenOn": "2023-04-25T19:01:32Z",
+      "side": 1,
+      "message": "I think this part should go later, after the firmware architecture, along with other alternate boot methods like AltFw",
+      "range": {
+        "startLine": 24,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 48
+      },
+      "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cd6cbbb8_84c90c4d",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/custom-firmware/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1255370
+      },
+      "writtenOn": "2023-04-25T19:01:32Z",
+      "side": 1,
+      "message": "probably wouldn\u0027t hurt to describe the general coreboot model with the separation of functions between coreboot and the payload",
+      "range": {
+        "startLine": 38,
+        "startChar": 20,
+        "endLine": 38,
+        "endChar": 27
+      },
+      "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0e94788b_45bfb7d4",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/custom-firmware/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1255370
+      },
+      "writtenOn": "2023-04-25T19:01:32Z",
+      "side": 1,
+      "message": "firmware write protection (as opposed to filesystem - you\u0027d be surprised how many ppl are confused)",
+      "range": {
+        "startLine": 59,
+        "startChar": 57,
+        "endLine": 60,
+        "endChar": 7
+      },
+      "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c50b37a5_3e43a736",
         "filename": "site/chromium-os/how-tos-and-troubleshooting/custom-firmware/index.md",
         "patchSetId": 1
@@ -95,6 +327,122 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a232c601_1fa04804",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/custom-firmware/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1255370
+      },
+      "writtenOn": "2023-04-25T19:01:32Z",
+      "side": 1,
+      "message": "I feel like backing up internally is sufficient here. The parts which can\u0027t be read also can\u0027t be written, so when recovering from a failed flash the user only needs to flash the BIOS region anyway",
+      "parentUuid": "c50b37a5_3e43a736",
+      "range": {
+        "startLine": 75,
+        "startChar": 2,
+        "endLine": 75,
+        "endChar": 54
+      },
+      "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3053763b_7b996f82",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/custom-firmware/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1255370
+      },
+      "writtenOn": "2023-04-25T19:01:32Z",
+      "side": 1,
+      "message": "the coreboot repo also has scripts which will download a recovery image and extract the firmware image, as well as extract all blobs from any firmware image.",
+      "range": {
+        "startLine": 104,
+        "startChar": 0,
+        "endLine": 104,
+        "endChar": 28
+      },
+      "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6f726481_533aef93",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/custom-firmware/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 1255370
+      },
+      "writtenOn": "2023-04-25T19:01:32Z",
+      "side": 1,
+      "message": "firmware",
+      "range": {
+        "startLine": 112,
+        "startChar": 51,
+        "endLine": 112,
+        "endChar": 59
+      },
+      "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6f4099bc_5c43861d",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/custom-firmware/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1255370
+      },
+      "writtenOn": "2023-04-25T19:01:32Z",
+      "side": 1,
+      "message": "easier to use the extract_blobs script from coreboot repo, and will get all required blobs",
+      "range": {
+        "startLine": 122,
+        "startChar": 0,
+        "endLine": 122,
+        "endChar": 65
+      },
+      "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4b33de08_e6562790",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/custom-firmware/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 1255370
+      },
+      "writtenOn": "2023-04-25T19:01:32Z",
+      "side": 1,
+      "message": "many boards now use firmware images that contain multiple VBTs, with the correct one being selected at runtime based on CBI or SKU ID.",
+      "range": {
+        "startLine": 133,
+        "startChar": 47,
+        "endLine": 138,
+        "endChar": 3
+      },
+      "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "9d5a6327_ffe75020",
         "filename": "site/chromium-os/how-tos-and-troubleshooting/custom-firmware/index.md",
         "patchSetId": 1
@@ -111,6 +459,52 @@
         "startChar": 48,
         "endLine": 142,
         "endChar": 63
+      },
+      "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b29af5ac_29cad809",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/custom-firmware/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 1255370
+      },
+      "writtenOn": "2023-04-25T19:01:32Z",
+      "side": 1,
+      "message": "it\u0027s just called \u0027edk2\u0027 in menuconfig",
+      "range": {
+        "startLine": 155,
+        "startChar": 1,
+        "endLine": 155,
+        "endChar": 28
+      },
+      "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6a47ff4a_46f8cccc",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/custom-firmware/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 1255370
+      },
+      "writtenOn": "2023-04-25T19:01:32Z",
+      "side": 1,
+      "message": "don\u0027t forget to build the toolchain",
+      "range": {
+        "startLine": 160,
+        "startChar": 0,
+        "endLine": 161,
+        "endChar": 33
       },
       "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
