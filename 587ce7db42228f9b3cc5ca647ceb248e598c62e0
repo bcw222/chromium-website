@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "074e45c1_79516507",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1113904
+      },
+      "writtenOn": "2023-04-25T03:58:03Z",
+      "side": 1,
+      "message": "It really shouldn\u0027t hurt to use the proper \"MrChromebox\" name.",
+      "range": {
+        "startLine": 9,
+        "startChar": 60,
+        "endLine": 10,
+        "endChar": 10
+      },
+      "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "af3513df_3681f358",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1113904
+      },
+      "writtenOn": "2023-04-25T03:58:03Z",
+      "side": 1,
+      "message": "Maybe rephrase.\n\nIt\u0027s not \"some guy\" anymore given that everyone uses the project and we all trust him.",
+      "range": {
+        "startLine": 12,
+        "startChar": 18,
+        "endLine": 12,
+        "endChar": 38
+      },
+      "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5984111e_96ee398a",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/custom-firmware/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1113904
+      },
+      "writtenOn": "2023-04-25T03:58:03Z",
+      "side": 1,
+      "message": "It wouldn\u0027t hurt to point at the actual example of https://github.com/archlinuxarm/PKGBUILDs/blob/master/core/linux-aarch64/PKGBUILD#L191 (despite it not using hooks) instead of a hypothetical.",
+      "range": {
+        "startLine": 27,
+        "startChar": 7,
+        "endLine": 27,
+        "endChar": 47
+      },
+      "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c50b37a5_3e43a736",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/custom-firmware/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 1113904
+      },
+      "writtenOn": "2023-04-25T03:58:03Z",
+      "side": 1,
+      "message": "These days this is no enough on a lot of boards as there\u0027s per board stuff (like on brya to tell the EC to fiddle with some voltage rails). We\u0027re essentially forcing everyone to use futility or the previous incantation of \"cros flash\" (which had even more annoying dependencies like chromite).\n\nCould we link to something more official instead? I don\u0027t want to oversimplify this to the point where it doesn\u0027t work a lot of the time.",
+      "range": {
+        "startLine": 75,
+        "startChar": 2,
+        "endLine": 75,
+        "endChar": 54
+      },
+      "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9d5a6327_ffe75020",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/custom-firmware/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1113904
+      },
+      "writtenOn": "2023-04-25T03:58:03Z",
+      "side": 1,
+      "message": "I do like this documented, but i do have a little bit of a nit on the application of it: what is the purpose of this document beyond Intel uses?\n\nSure, if I have an Intel device, I might want to do the UEFI route to boot normal PC distros. But at that point I\u0027m not getting much beyond what mrchromebox offers beyond warm fuzzies that it\u0027s built by myself.\n\nBut if it\u0027s ARM, what custom bootloaders are really available? You\u0027re far better off just repackaging your kernel as paragraph starting at line 24 says.",
+      "range": {
+        "startLine": 142,
+        "startChar": 48,
+        "endLine": 142,
+        "endChar": 63
+      },
+      "revId": "587ce7db42228f9b3cc5ca647ceb248e598c62e0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
