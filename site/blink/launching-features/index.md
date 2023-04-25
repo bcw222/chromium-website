@@ -261,10 +261,16 @@ of full-time work, but that can take more calendar time than the 12-16 weeks of
 an Origin Trial. Starting the spec-writing process too late might delay your
 feature launch.
 
-Once you have a complete specification, request a [Specification Review](https://github.com/w3ctag/design-reviews/issues/new?assignees=&labels=Progress%3A+untriaged&template=010-specification-review.md)
-from the TAG (except in the cases noted
-[here](/blink/guidelines/api-owners/process-exceptions/)). You should submit this at least a month ahead of sending an
-Intent to Ship, to give the TAG sufficient time for meaningful feedback.
+Once you have a complete specification:
+
+1. Ask your spec mentor to [review the
+   specification](/blink/spec-mentors/#reviewing-the-specification).
+2. Request a [Specification
+   Review](https://github.com/w3ctag/design-reviews/issues/new?assignees=&labels=Progress%3A+untriaged&template=010-specification-review.md)
+   from the TAG (except in the cases noted
+   [here](/blink/guidelines/api-owners/process-exceptions/)). You should submit
+   this at least a month ahead of sending an Intent to Ship, to give the TAG
+   sufficient time for meaningful feedback.
 
 #### Step 5 (Optional): Origin Trial {:#origin-trials}
 
@@ -336,7 +342,10 @@ Update ChromeStatus with:
 Proceed to the “Prepare to Ship” stage in ChromeStatus; this will generate an
 [Intent to
 Ship](https://docs.google.com/document/d/1vlTlsQKThwaX0-lj_iZbVTzyqY7LioqERU8DK3u3XjI/edit#bookmark=id.w8j30a6lypz0)
-mail that you should send to [blink-dev](mailto:blink-dev@chromium.org). This
+mail that you should send to [blink-dev](mailto:blink-dev@chromium.org). If your
+specification isn't a modification of an existing specification, include a
+one-line spec maturity summary from someone outside your team (like your [spec
+mentor](/blink/spec-mentors)) who has done a review. This
 will spark a conversation with the API owners; address any feedback from them,
 and once you get [3 LGTMs from the API
 owners](/blink/guidelines/api-owners/procedures), you may enable the feature by
