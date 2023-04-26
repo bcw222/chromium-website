@@ -19,16 +19,17 @@ and/or trackpad are unresponsive), try the following steps:
     *   Note USB response. Does touching an gnubby blink. Does charging
                 a phone via a USB port work?
 *   Recovery Steps
-    *   Press **Alt+VolumeUp+X**. If you're using a Chromebox, use F10
+    *   Press **Alt+VolumeUp+x**. If you're using a Chromebox, use F10
                 instead of VolumeUp. These three keys need to be pressed in that
-                order.
+                order. The VolumeUp key here is the key on the keyboard and not the
+                side button.
         *   This should cause the Chrome browser to restart, and it may
                     take a few seconds. If the system becomes responsive, go to
                     last step.
-    *   Press **Alt+VolumeUp+X** a second time.
+    *   Press **Alt+VolumeUp+x** a second time within 20 seconds from first time.
         *   This should cause the kernel to panic-reboot. If the system
                     becomes responsive, go to last step.
-    *   Press **Alt+VolumeUp+R** which should cause a warm reset &
+    *   Press **Alt+VolumeUp+r** which should cause a warm reset &
                 reboot. If so, go to last step. (This may not work on older
                 hardware.)
     *   Press and hold the **power button** for 8+ seconds and the
