@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fa7e1712_cbc6dd75",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/debugging-hangs/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1150214
+      },
+      "writtenOn": "2023-04-26T20:46:23Z",
+      "side": 1,
+      "message": "While we are doing this, lets change the case of the keys from \"X\" to \"x\". Ditto for \"R\" to \"r\". The reason is that the user may try to think he needs to use capitol case, and use the shift key in addition.",
+      "range": {
+        "startLine": 22,
+        "startChar": 29,
+        "endLine": 22,
+        "endChar": 30
+      },
+      "revId": "7f179e510e916abab3a46793318f243705ab9da1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
