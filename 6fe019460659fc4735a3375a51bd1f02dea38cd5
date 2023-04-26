@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fc47ce85_e6c575bc",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 234,
+      "author": {
+        "id": 1312815
+      },
+      "writtenOn": "2023-04-26T08:43:27Z",
+      "side": 1,
+      "message": "Maybe \"your explainer and other public specification work should have migrated\", and add a sentence like \"If migrating the work to a CG is not appropriate for your case (e.g. you\u0027re running an experiment you\u0027re not intending to ship as is), you can ask for an exception from the API owners\" at the end of this paragraph?",
+      "revId": "6fe019460659fc4735a3375a51bd1f02dea38cd5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
