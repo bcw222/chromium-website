@@ -25,7 +25,7 @@ and/or trackpad are unresponsive), try the following steps:
         *   This should cause the Chrome browser to restart, and it may
                     take a few seconds. If the system becomes responsive, go to
                     last step.
-    *   Press **Alt+VolumeUp+X** a second time.
+    *   Press **Alt+VolumeUp+X** a second time within 20 seconds from first time.
         *   This should cause the kernel to panic-reboot. If the system
                     becomes responsive, go to last step.
     *   Press **Alt+VolumeUp+R** which should cause a warm reset &
