@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d422af71_6a8fc1c4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-04-27T23:00:36Z",
+      "side": 1,
+      "message": "lgtm with one comment",
+      "revId": "4c0846e6522774c840f8155f49c42d68cf3e2aa2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2c83ad9e_b413c835",
+        "filename": "site/Home/chromium-privacy/privacy-sandbox/third-party-cookie-phaseout/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-04-27T23:00:36Z",
+      "side": 1,
+      "message": "If you\u0027re going to specify an alt, you should try to make it a real description of the photo.",
+      "revId": "4c0846e6522774c840f8155f49c42d68cf3e2aa2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
