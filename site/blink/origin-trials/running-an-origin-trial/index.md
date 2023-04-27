@@ -263,17 +263,14 @@ There two general cases where experimentation may continue beyond the planned
 end date:
 
 1.  Unexpected delays in releasing
-    *   With the 6 week Chrome release cycle, code may not land in the
+    *   With the 4 week Chrome release cycle, code may not land in the
                 intended release, meaning it is not shipped until the subsequent
                 release. Alternatively, the code may land in the release, but
                 the Chrome stable rollout is delayed, meaning it not
                 available/installed until much later than expected. When a trial
-                typically runs for 18 weeks (3 Chrome releases), such delays can
+                typically runs for 12-16 weeks, such delays can
                 significantly impact the availability of the experimental
-                feature and the ability to collect sufficient data. For features
-                that transition from origin trial to shipping in consecutive
-                releases, the unavailability of the feature might extend well
-                beyond the intended 1 week gap.
+                feature and the ability to collect sufficient data.
 2.  Feature changes or new areas experimentation
     *   As the origin trial progress, you may determine that a feature
                 is not ready to be shipped, but do want to continuing
