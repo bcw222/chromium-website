@@ -40,7 +40,12 @@ details.
 
 ### List of supported path variables
 
-#### All platforms
+#### ChromeOS only
+
+**${google_drive}** - The root directory of Google Drive. \
+(example resolution: "johndoe")
+
+#### All platforms besides ChromeOS
 
 **${user_name}** - The user that is running Chrome (respects suids). \
 (example resolution: "johndoe")
