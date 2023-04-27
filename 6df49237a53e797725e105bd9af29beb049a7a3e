@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4fabeafd_bd4d4d43",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1413494
+      },
+      "writtenOn": "2023-04-27T19:05:43Z",
+      "side": 1,
+      "message": "I would refer to this change more as an alignment with the documentation in https://chromium.googlesource.com/chromium/src/+/master/docs/process/release_cycle.md",
+      "range": {
+        "startLine": 7,
+        "startChar": 7,
+        "endLine": 7,
+        "endChar": 20
+      },
+      "revId": "6df49237a53e797725e105bd9af29beb049a7a3e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6780d208_5dfae686",
+        "filename": "site/blink/origin-trials/running-an-origin-trial/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 271,
+      "author": {
+        "id": 1413494
+      },
+      "writtenOn": "2023-04-27T19:05:43Z",
+      "side": 1,
+      "message": "I don\u0027t feel strongly about this, but maybe it would be less confusing for readers if we used the same phrasing as https://www.chromium.org/blink/launching-features/#:~:text\u003dthe%2012%2D16%20weeks%20of%20an%20Origin%20Trial ?",
+      "range": {
+        "startLine": 271,
+        "startChar": 35,
+        "endLine": 271,
+        "endChar": 37
+      },
+      "revId": "6df49237a53e797725e105bd9af29beb049a7a3e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
