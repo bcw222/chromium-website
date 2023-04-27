@@ -48,6 +48,15 @@ cookies that may be affected.
 1. Identify third-party cookie users: see which domains are setting or receiving the cookies by
 looking into the “Headers” tab.
 
+The following examples show blocked third-party cookies in the DevTools.
+
+Third-party blocked for the request:
+<img alt="image" src="/Home/chromium-privacy/privacy-sandbox/third-party-cookie-phaseout/3p-cookie-blocked-request.png" height=220 width=610>
+
+Third-party blocked for the response:
+
+<img alt="image" src="/Home/chromium-privacy/privacy-sandbox/third-party-cookie-phaseout/3p-cookie-blocked-response.png" height=220 width=610>
+
 Unfortunately, Chrome can only tell you when there are cookies that will behave differently under
 the third-party cookie blocking behavior, but it can’t tell you which cookies might be responsible
 for site breakage.
