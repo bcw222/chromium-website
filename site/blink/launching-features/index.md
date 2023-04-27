@@ -232,14 +232,19 @@ Once you believe you have addressed all major open issues, you should proceed to
 the “Evaluating readiness to ship” stage in ChromeStatus.
 
 <a id="incubation-venue"></a>By this point, your explainer and other public
-specification work need to be hosted in an incubation venue (or a full working
-group), in order to assure contributors that IP concerns are being handled
-appropriately. Any [W3C community group](https://www.w3.org/community/groups/)
-is acceptable, as is publication as an [IETF internet
-draft](https://www.ietf.org/how/ids/). For web features, the
+specification work should have migrated to an incubation venue (or a full
+working group), in order to assure contributors that IP concerns are being
+handled appropriately, and so that all browser vendors are able to provide
+structured feedback in a known place.
+Any [W3C community group](https://www.w3.org/community/groups/) is acceptable,
+as is publication as an [IETF internet draft](https://www.ietf.org/how/ids/).
+For web features, the
 [WICG](https://github.com/WICG/admin#contributing-new-proposals) is a good
 default, but ask your [spec mentor](/blink/spec-mentors) if you need help
 picking a venue.
+If migrating the work to a CG is not appropriate for your case (e.g. you're
+running an experiment you're not intending to ship as is), you can ask for an
+exception from the API owners.
 
 If you haven't already received [signals on their opinion of the
 API](https://docs.google.com/document/d/1xkHRXnFS8GDqZi7E0SSbR3a7CZsGScdxPUWBsNgo-oo/edit#heading=h.tgzhprxcmw4u)
