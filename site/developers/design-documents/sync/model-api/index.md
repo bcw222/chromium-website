@@ -329,6 +329,18 @@ the next client restart.
 
 ## Testing
 
+### Manual testing / debugging
+
+The `chrome://sync-internals` debugging page contains lots of information about
+Sync's inner workings, and is often useful while developing. Of particular
+interest is the "Sync Protocol Log" aka "Traffic Log", which shows all the
+messages being sent between Chrome and the Sync server. If you tick the
+"Capture Specifics" checkbox, or run Chrome with the `--sync-include-specifics`
+command line param, then you can inspect the full protos being sent back and
+forth.
+
+### Automated testing
+
 In addition to the usual unit tests, sync data types should be covered by
 integration tests based on [`SyncTest`][SyncTest]. These are similar to
 `browser_tests`, but live in a separate binary (`sync_integration_tests`)
