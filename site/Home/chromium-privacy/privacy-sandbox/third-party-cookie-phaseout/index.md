@@ -48,6 +48,16 @@ cookies that may be affected.
 1. Identify third-party cookie users: see which domains are setting or receiving the cookies by
 looking into the “Headers” tab.
 
+The following examples show blocked third-party cookies in the DevTools.
+
+Third-party cookie blocked for a request:
+
+<img alt="Third-party cookie blocked for a request" src="/Home/chromium-privacy/privacy-sandbox/third-party-cookie-phaseout/3p-cookie-blocked-request.png" height=220 width=610>
+
+Third-party cookie blocked for a response:
+
+<img alt="Third-party cookie blocked for a response" src="/Home/chromium-privacy/privacy-sandbox/third-party-cookie-phaseout/3p-cookie-blocked-response.png" height=220 width=610>
+
 Unfortunately, Chrome can only tell you when there are cookies that will behave differently under
 the third-party cookie blocking behavior, but it can’t tell you which cookies might be responsible
 for site breakage.
@@ -57,6 +67,5 @@ for site breakage.
 The NetLog only covers cookies accessed over the network via HTTP(S) and does not include other
 methods of cookie access such as document.cookie (JavaScript) or chrome.cookies (extensions).
 
-The [instructions to use NetLog](https://www.chromium.org/updates/same-site/test-debug/#using-a-netlog-dump)
-to debug cookie issues caused by SameSite attribute is applicable to third-party cookie deprecation,
+The [instructions to use NetLog to debug cookie issues caused by SameSite attribute](https://www.chromium.org/updates/same-site/test-debug/#using-a-netlog-dump) is applicable to third-party cookie deprecation,
 with some tweeks needed: make sure to look for cookies marked with “EXCLUDE_USER_PREFERENCES”.
