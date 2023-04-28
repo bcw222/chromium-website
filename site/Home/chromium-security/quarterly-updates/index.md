@@ -15,6 +15,64 @@ It's an open list, so
 if you're interested in updates, discussion, or feisty rants related to Chromium
 security.
 
+## Q1 2023
+
+Greetings,
+
+It's been a busy start to the year, and I'm delighted to share some of what the Chrome Security team has been up to.
+
+We announced the turndown of the Chrome Cleanup Tool due to several factors including improvements in the platform ecosystem and changing trends in the malware space – learn more by reading our blog post: [Thank you and goodbye to the Chrome Cleanup Tool](https://security.googleblog.com/2023/03/thank-you-and-goodbye-to-chrome-cleanup.html).
+
+At IETF 116 in Yokohama, the Trusty Transport team proposed[ Merkle Tree Certificates](https://www.ietf.org/id/draft-davidben-tls-merkle-tree-certs-00.html), an optional new “PKI 2.0” for the post-quantum future. The draft is still in the incredibly early stages, but it was well received, and builds off of ideas popularized by [Certificate Transparency](https://certificate.transparency.dev/).
+
+In collaboration with ChromeOS and Chrome Memory Safety teams, we’re beginning a purpose-built Rust interface for BoringSSL that can be used by other Rust code at Google that needs access to cryptographic primitives, especially code within ChromeOS, Android, and Chromium.
+
+HTTPS Upgrades are now available on Beta. This feature automatically attempts all plaintext HTTP navigations over HTTPS, and silently falls back to plaintext HTTP if the upgrade fails. You can think of it as an “warning-free” version of HTTPS-First Mode (the _Always Use Secure Connections_ setting). The next steps are to run trials on stable and go through the W3C process for spec changes. We also improved enterprise support for HTTPS-First Mode: this setting can now be[ force enabled via enterprise policy](https://chromeenterprise.google/policies/#HttpsOnlyMode), and enterprises can specify an optional[ allowlist](https://chromeenterprise.google/policies/#HttpAllowlist) of known HTTP-only sites. HTTPS-First Mode is now also automatically enabled for users in the Advanced Protection Program.
+
+Also in the HTTPS space, we’re launching[ mixed content autoupgrading](https://docs.google.com/document/d/1dp-kuN25wnEbMPNWBxM8LvOjyeydWpXPklNnGcsWK1o/edit) for iOS in Chrome 112, bringing Chrome for iOS to parity with other Chrome platforms.
+
+Following our[ announcement](https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/oxX69KFvsm4/m/PKpJf5W6AQAJ) in December that we planned to distrust the Trustcor certification authority, we posted a[ blog](https://security.googleblog.com/2023/01/sustaining-digital-certificate-security_13.html) about our plan and removed Trustcor from Chrome 111.
+
+The Chrome Root Program continues to operate effectively and look to the future. We updated our public-facing, non-normative, forward-looking[ “Moving Forward, Together”](https://www.chromium.org/Home/chromium-security/root-ca-policy/moving-forward-together/) document about future directions for the Chrome Root Program and the Web PKI. We included our intent to eventually reduce the maximum intermediate CA validity to 3 years, reduce the max leaf certificate validity and domain validation reuse period to 90 days, require[ ACME/ARI](https://letsencrypt.org/2023/03/23/improving-resliiency-and-reliability-with-ari.html), and require[ multi-perspective domain validation](https://letsencrypt.org/2020/02/19/multi-perspective-validation.html). The CA/Browser Forum[ passed a ballot](https://cabforum.org/2023/03/17/ballot-sc62v2-certificate-profiles-update/) defining a certificate profile for Web PKI certificates, which reduces the set of X.509 features that can be included in trusted certificates to those relevant to authenticating TLS connections. This furthers our goal of agility, helping to ensure that as the Web PKI can safely evolve without impacting other uses of X.509 certificates. 
+
+The Web Platform Security team made progress on implementing [COOP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy): restrict-properties and are targeting an Origin Trial in Chrome 115. COOP: restrict-properties will allow crossOriginIsolated websites to exchange with cross-origin popups and is an important step in making crossOriginIsolation more deployable.
+
+We’re going back to the drawing board with the Sanitizer API following internal and external discussions. We aim to find a compromise that supports Declarative Shadow DOM and updates to the HTML parser while being always sanitized, which can be checked by static analysis.
+
+We’ve relaunched [ORB](https://chromestatus.com/feature/4933785622675456) v0.1 and have a design for a simple JavaScript/JSON distinguisher to be written in Rust.
+
+We’ve launched Origin-Agent-Cluster by default (aka document.domain deprecation) on Beta, and are looking to move the deprecation to Stable.
+
+The Chrome Security Architecture team finished support for ["citadel-style" enforcements](https://crbug.com/764958) for unlocked processes, contingent on a separate [refactor of blob URL support](https://crbug.com/1261328). We also finished the implementation of new [base URL inheritance rules](https://chromestatus.com/feature/5161101671530496) and have started trials, in order to unblock Site Isolation for [sandboxed iframes](https://crbug.com/510122). We continued to make progress on [RenderDocument](https://crbug.com/936696) and [SiteInstanceGroup](https://crbug.com/1195535), including support for navigation queueing so that pending navigation commits cannot be canceled. Finally, we continued [cleanup and simplifications](https://crbug.com/1394513) in the code for navigation and the process model, while fixing several invariants that were found not to hold in the wild.
+
+The Chrome Offensive Security team wrapped up our first audit of WebGPU and started the lengthy process of documenting what we learned. We created and updated four fuzzers targeting graphics features - including Blink APIs for WebGPU and WebGL, the new Tint shader compiler, and the GPU Command Buffer - so far finding two high-severity vulnerabilities and various stability bugs. We also experimented with [Centipede](https://github.com/google/centipede) and were impressed by its ergonomics compared to libfuzzer. Our Q1 vulnerability reports [[1](https://crbug.com/1406115),[2](https://crbug.com/1420130),[3](https://crbug.com/1421170),[4](https://crbug.com/1430221)] include details of our findings, although be warned the reports are not yet publicly accessible at the time of publication. Last but not least, in partnership with Project Zero, we delivered a presentation on Variant Analysis concepts using examples from Chrome. 
+
+Chrome Platform Security continues to work on sandboxing the network service across all operating systems, with significant progress made on Linux/ChromeOS in Q1. We also added restrictions on transferring writable file handles from high-privilege to low-privilege processes, to help mitigate sandbox escapes. On Mac and Windows, we removed support for old OS versions in the sandbox policies. And we started Project Sandbake, to improve C++ memory safety by removing dangerous code paths and patterns.
+
+We ran an experiment to collect performance data on MiraclePtr (BackUpRefPtr) on Linux, macOS, and ChromeOS. We are analyzing the data and hope to have MiraclePtr enabled on those platforms soon. We also started enabling a clang plugin that enforces MiraclePtr (i.e. raw\_ptr&lt;T>) usage.
+
+In an effort to make use-after-free bug reports more actionable, we started implementation of a Lightweight Use-after-Free Detector.
+
+We are running an experiment that enforces Dangling Pointer Detection on Commit Queue. The experiment prevents developers from submitting code that has a dangling pointer (identified through the test suites currently running Dangling Pointer Detection) and outputs helpful information for the developer to debug the issue.
+
+We have written a vector&lt;T\*> rewriter, and will evaluate the performance impact of rewriting vector&lt;T\*> to vector&lt;raw\_ptr&lt;T>> (backed by BackUpRefPtr).
+
+We made progress toward providing production-quality Rust toolchains for most platforms targeted by Chrome. We added the very first lines of Rust that will ship in Chrome later this year – a [new crash handler](https://chromium-review.googlesource.com/c/chromium/src/+/4140299) that we will use to test downstream handling of crash reports from Rust code.
+
+The V8 Security team spent most of our time in Q1 improving our fuzzers and have implemented and open-sourced many improvements to Fuzzilli. Noteworthy examples include the new [JavaScript-to-FuzzIL compiler](https://github.com/googleprojectzero/fuzzilli/commit/807625f0112df22bfe293aa4d36d67c31c4fb243) which makes it possible to import existing JavaScript code into Fuzzilli, improvements to the HybridEngine (combined generative and mutation-based fuzzing), a new [static-corpus fuzzing mode](https://github.com/googleprojectzero/fuzzilli/commit/34d7bd47bd6ea0062f570dbdc2d5d77cbef45781), and better coverage of JavaScript language features, [such as loops](https://github.com/googleprojectzero/fuzzilli/commit/c76ea0edfb5a59e0e762a2c1a01351f4604b3935). A full changelog of all Fuzzilli changes can be found [here](https://github.com/googleprojectzero/fuzzilli/commits/main). We’ve also improved our fuzzing automation around Fuzzilli through which we have [found and filed many bugs](https://bugs.chromium.org/p/chromium/issues/list?q=fuzzilli&can=1). Finally, we’ve worked on refactoring how V8 represents code and code metadata to prepare for future CFI changes.
+
+We’re taking steps to make Chrome fuzzing a bit more reliable, starting with a program to monitor reliability issues with the Chrome builders which make fuzz builds. We also want to make ClusterFuzz more readily usable by Chrome Security Sheriffs, so we’ve put in place a simpler (internal) upload UI for test cases. We have also added support in Chrome for the new [centipede fuzzing framework](https://github.com/google/centipede), which is currently similar in role to libfuzzer, but may in future allow us to fuzz more complex noisy binaries to find deeper bugs.
+
+The Chrome Vulnerability Rewards Program (VRP) updated the program scope to combat the churn from the growing increase of reports of bugs in newly landed code in Trunk and Canary builds. Bugs on newly landed code in the last 48 hours are no longer eligible for VRP rewards and bugs introduced in the seven days are only eligible for VRP on a case-by-case basis. This has already reduced the number of VRP report collisions with issues discovered by ClusterFuzz or other internal means and reduced the churn on security sheriffs and engineers to chase down duplicates and ensure they are merging in the appropriate direction. 
+
+Additionally, the Chrome VRP has put together plans for bonus reward opportunities for 2023, which should begin rolling out in Q2 2023. Please keep an eye out for forthcoming announcements in the very near future! 
+
+Until next time,
+
+Andrew
+
+On behalf of Chrome Security
+
 ## Q4 2022
 
 Greetings,
