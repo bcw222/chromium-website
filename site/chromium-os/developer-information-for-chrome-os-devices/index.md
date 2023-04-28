@@ -4147,7 +4147,7 @@ These are your standard Chromebook/Chromebox/etc devices.
   <tr>
     <td>2023-01-18</td>
     <td>Lenovo</td>
-    <td>Lenovo Slim 3 Chromebook 14</td>
+    <td>Lenovo IdeaPad Slim 3 Chromebook (14M868)</td>
     <td>Magneton</td>
     <td>Corsola</td>
     <td>Corsola</td>
@@ -4249,7 +4249,7 @@ These are your standard Chromebook/Chromebox/etc devices.
   <tr>
     <td>2023-03-31</td>
     <td>Lenovo</td>
-    <td>Lenovo IdeaPad Slim 3 Chromebook</td>
+    <td>Lenovo IdeaPad Slim 3i Chromebook</td>
     <td>Pujjoteen15W</td>
     <td>Nissa</td>
     <td>Nissa</td>
