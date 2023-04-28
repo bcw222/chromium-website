@@ -45,6 +45,47 @@
       },
       "revId": "6df49237a53e797725e105bd9af29beb049a7a3e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6acb6830_ee5d21c4",
+        "filename": "site/blink/origin-trials/running-an-origin-trial/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 271,
+      "author": {
+        "id": 1153414
+      },
+      "writtenOn": "2023-04-28T00:21:26Z",
+      "side": 1,
+      "message": "Agreed to using the same phrasing.",
+      "parentUuid": "6780d208_5dfae686",
+      "range": {
+        "startLine": 271,
+        "startChar": 35,
+        "endLine": 271,
+        "endChar": 37
+      },
+      "revId": "6df49237a53e797725e105bd9af29beb049a7a3e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b9355655_b055d49a",
+        "filename": "site/blink/origin-trials/running-an-origin-trial/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 276,
+      "author": {
+        "id": 1153414
+      },
+      "writtenOn": "2023-04-28T00:21:26Z",
+      "side": 1,
+      "message": "Remove this last sentence since the 1 week gap no longer applies. Since we\u0027re making edits anyways...",
+      "revId": "6df49237a53e797725e105bd9af29beb049a7a3e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
