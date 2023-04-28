@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "a662f2fa_0a1022b0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1551272
+      },
+      "writtenOn": "2023-04-28T19:46:06Z",
+      "side": 1,
+      "message": "Your commit message should look like this:\n\nwesbsite: add and update device names\n\nBUG\u003db:###### (or none)\nTEST\u003dnone\nBRANCH\u003dnone\nSigned-off-by: Talal Sadak \u003ctsadak@google.com\u003e",
+      "revId": "57a681ee20a3e0585ae7b2e06a75e63301fa277a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "de47c655_1304bdfc",
