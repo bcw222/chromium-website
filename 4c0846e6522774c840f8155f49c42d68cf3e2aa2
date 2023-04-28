@@ -33,6 +33,24 @@
       "message": "If you\u0027re going to specify an alt, you should try to make it a real description of the photo.",
       "revId": "4c0846e6522774c840f8155f49c42d68cf3e2aa2",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e29ba282_9896d9d9",
+        "filename": "site/Home/chromium-privacy/privacy-sandbox/third-party-cookie-phaseout/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1434270
+      },
+      "writtenOn": "2023-04-28T17:52:02Z",
+      "side": 1,
+      "message": "Done. Thanks!",
+      "parentUuid": "2c83ad9e_b413c835",
+      "revId": "4c0846e6522774c840f8155f49c42d68cf3e2aa2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
