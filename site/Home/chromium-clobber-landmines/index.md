@@ -14,10 +14,10 @@ Clobber landmines are an easy way to send a targeted clobber to a class of
 builder machines (i.e. bot machines on build.chromium.org). This can be useful
 in the following circumstances:
 
-*   A build breakage is discovered and requires all the bots for a given
-            operating system to clobber
-*   You know you're making a change which will introduce binary
-            incompatibility
+* A build breakage is discovered and requires all the bots for a given
+  operating system to clobber
+* You know you're making a change which will introduce binary
+  incompatibility
 
 Landmines have the property that if a bot 'rolls over' the revision containing
 them (either forwards or backwards), it will trigger a clobber. This is quite
