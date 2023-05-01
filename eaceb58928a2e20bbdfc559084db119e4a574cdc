@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "948d215f_009aee65",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-05-01T23:20:01Z",
+      "side": 1,
+      "message": "Hi sshrimp@, can you stamp this for me please? I landed the first change to test some Gerrit configuration in the repo, and we don\u0027t need that change now, so I\u0027d like to back it out.",
+      "revId": "eaceb58928a2e20bbdfc559084db119e4a574cdc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
