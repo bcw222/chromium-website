@@ -61,7 +61,7 @@ To learn more:
 One of the quickest ways to get involved is finding and [reporting security
 bugs](/Home/chromium-security/reporting-security-bugs). It will get prompt
 attention from a [security
-sheriff](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/sheriff.md),
+shepherd](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/shepherd.md),
 be kept private until we coordinate disclosure, and possibly qualify for a cash
 reward through our [Vulnerability Rewards
 Program](/Home/chromium-security/vulnerability-rewards-program). We occasionally
