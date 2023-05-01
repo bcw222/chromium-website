@@ -125,21 +125,21 @@ For a given build:
 1.  Check out some version of the code
 2.  landmines.py runs with the current GYP environment
     1.  This calls get_landmines() for each POSSIBLE target (not just
-                the one that's going to be built).
+        the one that's going to be built).
     2.  If &lt;build_dir&gt;/&lt;target&gt;/.landmines doesn't exist,
-                it's written with the result of get_landmines(&lt;target&gt;)
+        it's written with the result of get_landmines(&lt;target&gt;)
     3.  Else
         1.  If the result of get_landmines(&lt;target&gt;) differs from
-                    the content of the .landmines file, the diff is written out
-                    to &lt;build_dir&gt;/&lt;target&gt;/.landmines_triggered .
+            the content of the .landmines file, the diff is written out
+            to &lt;build_dir&gt;/&lt;target&gt;/.landmines_triggered .
         2.  Else &lt;build_dir&gt;/&lt;target&gt;/.landmines_triggered
-                    is deleted
+            is deleted
 3.  compile.py runs with a --target passed to it
     1.  if &lt;build_dir&gt;/&lt;target&gt;/.landmines_triggered exists,
-                compile.py prints the contents of the file and behaves as if
-                --clobber was specified on the command line.
+        compile.py prints the contents of the file and behaves as if
+        --clobber was specified on the command line.
         1.  clobbering includes removing both .landmines and
-                    .landmines_triggered
+            .landmines_triggered
 
 ## Use cases
 
@@ -158,5 +158,5 @@ landmine has been added. I.e., the steps are:
 
 1.  Submit Blink CL moving generated files.
 2.  Roll Blink to Chromium, including landmine (or include in separate
-            followup CL).
+    followup CL).
 3.  Submit Blink CL changing generated files.
