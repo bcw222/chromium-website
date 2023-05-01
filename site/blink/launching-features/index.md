@@ -384,9 +384,12 @@ feature ready for developers to try out under a flag, proceed to the next step.
 
 If the TAG has not already reviewed the consensus specification, request a
 [Specification Review](https://github.com/w3ctag/design-reviews/issues/new?assignees=&labels=Progress%3A+untriaged&template=010-specification-review.md)
+(except in the cases noted
+[here](/blink/guidelines/api-owners/process-exceptions/))
 and proceed to the “Dev Trials” stage in ChromeStatus. This will generate a
-“Ready for Trial” email that you should send to [blink-dev](mailto:blink-dev@chromium.org)
-to notify the community they can try out the feature.
+“Ready for Trial” email that you should send to
+[blink-dev](mailto:blink-dev@chromium.org) to notify the community they can
+try out the feature.
 
 After you have addressed any issues that the community finds, you should proceed
 to the “Evaluating readiness to ship” stage in ChromeStatus. You should also
