@@ -16,6 +16,23 @@
       "message": "Jeffrey: I also added you and me as owners of blink/",
       "revId": "78bb6cbb7f66ac9062123638a8e8a1427b2a1f3c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "92218701_8b674e88",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2023-05-02T17:00:47Z",
+      "side": 1,
+      "message": "lgtm!",
+      "revId": "78bb6cbb7f66ac9062123638a8e8a1427b2a1f3c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
