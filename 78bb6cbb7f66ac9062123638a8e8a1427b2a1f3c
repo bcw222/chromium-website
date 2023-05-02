@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f4aef7c0_1f5f4872",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2023-05-02T16:57:49Z",
+      "side": 1,
+      "message": "Jeffrey: I also added you and me as owners of blink/",
+      "revId": "78bb6cbb7f66ac9062123638a8e8a1427b2a1f3c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
