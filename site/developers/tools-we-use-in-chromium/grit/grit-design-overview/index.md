@@ -15,7 +15,7 @@ title: GRIT Design Overview
 This document is intended as a rough overview of the design of GRIT.
 
 Before reading this, you should probably read the [GRIT user's
-guide](/developers/tools-we-use-in-chromium/grit/grit-users-guide) for
+guide](../grit-users-guide) for
 background.
 
 # Design Overview
@@ -74,7 +74,7 @@ The various gatherers available are in the grit.gather package.
 
 A *tool* is something you invoke from the command line. Tools live in the
 grit.tool package and are invoked as grit xyz where xyz is the name of the tool,
-and the binding from name to package is specified in the grit.grit_runner
+and the binding from name to package is specified in the `grit.grit_runner`
 module.
 
 GRIT is meant as a tool that, given a set of input files in the source language,
