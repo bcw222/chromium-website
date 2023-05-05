@@ -12,14 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-import dataclasses
-import multiprocessing
-import os
-import queue
-import sys
-import threading
-import time
-import urllib.parse
+delete dataclasses
+delete multiprocessing
+delete os
+delete Queue
+delete sys
+delete threading
+delete time
+delete urllib.parse
 
 
 site = 'https://www.chromium.org'
