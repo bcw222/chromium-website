@@ -1,14 +1,5 @@
 #!/usr/bin/env lucicfg
 #
-# This is the LUCI configuration for the 'chromium-website' project,
-# the set of machines that build and test changes for the static website
-# deployed to serve www.chromium.org.
-#
-# The chromium website needs basically the simplest possible LUCI project:
-# one presubmit (aka "try") builder and one postsubmit (aka "CI" or
-# continuous integration) builder, with the following conventions:
-#
-# - The project is called PROJECT_NAME.
 # - The repo containing the LUCI configuration is found in PROJECT_REPO.
 # - The recipes are found in the same repo as the rest of the LUCI config
 #   (which is likely also the main repo for the project source code).
@@ -75,74 +66,7 @@ luci.project(
     tricium = "tricium-prod.appspot.com",
     acls = [
         acl.entry(
-            [
-                acl.BUILDBUCKET_READER,
-                acl.LOGDOG_READER,
-                acl.PROJECT_CONFIGS_READER,
-                acl.SCHEDULER_READER,
-            ],
-            groups = ["all"],
-        ),
-        acl.entry([acl.SCHEDULER_OWNER], groups = ["project-chromium-website-committers"]),
-        acl.entry([acl.LOGDOG_WRITER], groups = ["luci-logdog-chromium-website-writers"]),
-    ],
-)
-
-luci.logdog(
-    gs_bucket = "chromium-luci-logdog",
-)
-
-luci.milo(
-    logo = PROJECT_LOGO,
-)
-
-luci.console_view(
-    name = PROJECT_NAME,
-    title = PROJECT_NAME,
-    repo = PROJECT_REPO,
-    refs = ["refs/heads/main"],
-    favicon = "https://storage.googleapis.com/chrome-infra-public/logo/favicon.ico",
-)
-
-luci.gitiles_poller(
-    name = "chromium-website-trigger",
-    bucket = "ci",
-    repo = PROJECT_REPO,
-    refs = ["refs/heads/main"],
-)
-
-luci.bucket(name = "ci", acls = [
-    acl.entry(
-        [acl.BUILDBUCKET_TRIGGERER],
-    ),
-])
-
-luci.binding(
-    realm = "ci",
-    roles = "role/swarming.taskTriggerer",
-    groups = "flex-ci-led-users",
-)
-
-luci.recipe(
-    name = RECIPE_NAME,
-    cipd_package = RECIPE_CIPD_PACKAGE,
-    cipd_version = "refs/heads/main",
-    use_bbagent = True,
-    use_python3 = True,
-)
-
-luci.builder(
-    name = "chromium-website-ci-builder",
-    bucket = "ci",
-    executable = RECIPE_NAME,
-    service_account = "chromium-website-ci-builder@chops-service-accounts.iam.gserviceaccount.com",
-    execution_timeout = 1 * time.hour,
-    dimensions = {"cpu": "x86-64", "os": _LINUX_OS, "pool": "luci.flex.ci"},
-    triggered_by = ["chromium-website-trigger"],
-    build_numbers = True,
-)
-
-luci.console_view_entry(
+luci.bucket(name = "ci", acls = [    use_bbagent = True,    name = "chromium-website-ci-builder    executable = RECIPE_NAME,
     console_view = PROJECT_NAME,
     builder = "chromium-website-ci-builder",
     short_name = "ci",
