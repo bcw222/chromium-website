@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "18481904_bf139cc8",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 271,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-05-09T00:08:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "06636d60_526dee76",
+      "revId": "9673846f22a1f858824ddda66527c3331ab1018f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3bf79d07_621cd46d",
@@ -48,6 +66,24 @@
       "writtenOn": "2023-05-08T21:00:21Z",
       "side": 1,
       "message": "Link to definition of \"maturity summary\"",
+      "revId": "9673846f22a1f858824ddda66527c3331ab1018f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b23b4a5_0bf798e2",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 352,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-05-09T00:08:10Z",
+      "side": 1,
+      "message": "I used the description of how to review a specification that I\u0027m adding in this CL. I don\u0027t think we have anything more precise.",
+      "parentUuid": "3bf79d07_621cd46d",
       "revId": "9673846f22a1f858824ddda66527c3331ab1018f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -69,6 +105,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dfc63559_a79d377d",
+        "filename": "site/blink/spec-mentors/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-05-09T00:08:10Z",
+      "side": 1,
+      "message": "I\u0027ve linked to https://www.w3.org/TR/design-principles/#cant-avoid-monkey-patching, and sent https://github.com/w3ctag/design-principles/pull/441 to update it with better advice.",
+      "parentUuid": "84b69209_220a8531",
+      "revId": "9673846f22a1f858824ddda66527c3331ab1018f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ee4ce4f7_d44501f7",
@@ -86,6 +140,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7a34139c_e0689488",
+        "filename": "site/blink/spec-mentors/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 225,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-05-09T00:08:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ee4ce4f7_d44501f7",
+      "revId": "9673846f22a1f858824ddda66527c3331ab1018f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "747a9a25_c4b99057",
@@ -99,6 +171,24 @@
       "writtenOn": "2023-05-08T21:00:21Z",
       "side": 1,
       "message": "Remove the first sentence as not actionable?",
+      "revId": "9673846f22a1f858824ddda66527c3331ab1018f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c56b22c2_12ebf6da",
+        "filename": "site/blink/spec-mentors/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 230,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-05-09T00:08:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "747a9a25_c4b99057",
       "revId": "9673846f22a1f858824ddda66527c3331ab1018f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
