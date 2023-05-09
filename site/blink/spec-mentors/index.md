@@ -184,18 +184,59 @@ move around. Each standards body has their own way of doing incubation:
 
 #### Reviewing the specification
 
-Review the specification for good technical writing. It should be clear enough
-that someone not familiar with any specific implementation of the feature could
-write a working new one from the specification.
+You should do a complete review of the specification between the ["dev trials"
+stage](/blink/launching-features/#dev-trials) and when the team plans to send
+their [Intent to Ship
+email](/blink/launching-features/#new-feature-prepare-to-ship), help the team
+fix any problems you find, and be ready to summarize the specification's quality
+in the I2S thread or privately to the API owners. The API owners will use your
+summary in order to inform their decisions about any tradeoffs between schedule
+pressure and spec quality, but you aren't responsible for making those
+decisions.
 
-Ensure the specification defines all the new terms it introduces and links to
-all the terms it uses. If the specification proposes a change to another web
-standard, ensure it calls that out as a monkeypatch, and as the feature moves
-toward [Intent to Ship](/blink/launching-features/#new-feature-prepare-to-ship),
-ensure the feature owner has filed an issue on the modified spec proposing to
-merge the change.
+If you're unsure about any of this review, email for help on the
+[spec-mentors@chromium.org](mailto:spec-mentors@chromium.org) list, and another
+mentor will be happy to help you.
 
-Some web standards are especially hard to integrate with.
-[Fetch](https://fetch.spec.whatwg.org/) has a section on [using it from other
-standards](https://fetch.spec.whatwg.org/#fetch-elsewhere), but you should still
-ask one of its editors for help.
+Look for the following things, in addition to using your general good judgement
+and experience with writing specifications:
+
+* The specification should be clear enough that someone not familiar with any
+  specific implementation of the feature could write a compatible new
+  implementation from the specification.
+
+* The specification and API design should follow the guidance in:
+  * [Infra](https://infra.spec.whatwg.org/)
+  * The [Web Platform Design Principles](https://w3ctag.github.io/design-principles/)
+  * Our [informal document of collected API
+    guidance](https://docs.google.com/document/d/1xOzSO7CqD9AkGHAM9a_vViaY6oT7ApnwoZodYI0DNP0/edit#).
+    Feel free to add useful tips to this document as you notice them.
+
+* The specification should define all the new terms it introduces and link to
+  all the terms it uses.
+
+* The behavior should be specified using algorithms that are approximately as
+  rigorous as existing features of the web platform. External references from
+  W3C and WHATWG specifications should follow the [W3C's normative references
+  guidelines](https://www.w3.org/2013/09/normative-references).
+
+* If the specification proposes a change to another web standard, it should
+  [label that change as a monkeypatch and organize it so that it will be easy to
+  merge into the upstream specification in the
+  future](https://www.w3.org/TR/design-principles/#cant-avoid-monkey-patching).
+  * By the time of the [Intent to Ship
+  email](/blink/launching-features/#new-feature-prepare-to-ship), there should be
+  an issue on the upstream spec proposing to merge the change.
+
+* If the specification you're reviewing calls into
+  [Fetch](https://fetch.spec.whatwg.org/), check that it follows the guidance in
+  the [Fetch section on using it from other
+  standards](https://fetch.spec.whatwg.org/#fetch-elsewhere), and if there's
+  anything you're not sure of, ask one of the Fetch editors for help.
+
+You're not expected to discover ergonomic issues or aspects of the proposed
+feature that could make it "bad for the Web", but if you do notice such
+problems, you should discuss them with the feature team and consider escalating
+to the [API owners](/blink/guidelines/api-owners). It's also not your
+responsibility to decide whether a feature should ship despite spec quality
+issues; just to ensure the decision-makers are aware of any problems.
