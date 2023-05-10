@@ -123,93 +123,22 @@ of preferences, most of which you won't really care about.
 Here is a sample master_preferences list that may be of interest (this is a
 fully-functional master_preferences file):
 
+```
 {
-
-"homepage": "http://www.google.com",
-
-"homepage_is_newtabpage": false,
-
-"browser": {
-
-"show_home_button": true
-
-},
-
-"session": {
-
-"restore_on_startup": 4,
-
-"startup_urls": \[
-
-"http://www.google.com/ig"
-
-\]
-
-},
-
-"bookmark_bar": {
-
-"show_on_all_tabs": true
-
-},
-
-"sync_promo": {
-
-"show_on_first_run_allowed": false
-
-},
-
-"distribution": {
-
-"import_bookmarks_from_file": "bookmarks.html",
-
-"import_bookmarks": true,
-
-"import_history": true,
-
-"import_home_page": true,
-
-"import_search_engine": true,
-
-"ping_delay": 60,
-
-"do_not_create_desktop_shortcut": true,
-
-"do_not_create_quick_launch_shortcut": true,
-
-"do_not_create_taskbar_shortcut": true,
-
-"do_not_launch_chrome": true,
-
-"do_not_register_for_update_launch": true,
-
-"make_chrome_default": true,
-
-"make_chrome_default_for_user": true,
-
-"system_level": true,
-
-"verbose_logging": true,
-
-"browser": {
-
-"confirm_to_quit": true,
-
+  "distribution": {
+    "import_bookmarks_from_file": "bookmarks.html",
+    "do_not_create_desktop_shortcut": true,
+    "do_not_create_quick_launch_shortcut": true,
+    "system_level": true,
+    "verbose_logging": true
+  },
+  "first_run_tabs": [
+    "http://www.example.com",
+    "http://welcome_page",
+    "http://new_tab_page"
+  ]
 }
-
-},
-
-"first_run_tabs": \[
-
-"http://www.example.com",
-
-"http://welcome_page",
-
-"http://new_tab_page"
-
-\]
-
-}
+```
 
 Most of these settings should be self-explanatory. The most interesting settings
 are:
