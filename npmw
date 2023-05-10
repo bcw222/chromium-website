@@ -36,7 +36,7 @@ shift
 if [ "$1" = "install" ]
 then
   $node_dir/bin/node $node_dir/lib/node_modules/npm \
-    --scripts-prepend-node-path=true \
+    --scripts-prepend-node-path=false  \
     $script "$@"
 else
   $node_dir/bin/node $node_dir/lib/node_modules/npm \
