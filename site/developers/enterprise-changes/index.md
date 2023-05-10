@@ -101,6 +101,38 @@ policy will not see any change, since the policy overrides the Finch config.
 - If the policy was only intended as a temporary escape hatch, remove it in the
 milestone communicated.
 
+#### Can enterprise users set features directly?
+
+We do not encourage enterprise users to use features or flags. Here are some
+reasons why:
+
+1) Features are mostly designed for experimental purposes. They can be
+added, modified, or removed easily. Policies, on the other hand, are more stable
+ configurations. They require documentation for administrators and backward
+ compatibility support.
+2) Features always apply to the whole browser instance and need to be
+relaunched for any update. However, we encourage all policies to support
+`dynamic_refresh: true` and `per_profile: true` whenever possible. This allows
+policies to be updated without restarting the browser, and it also allows
+policies to be applied to individual profiles instead of the entire browser
+instance.
+3) Features may be controlled by chrome://flags or a command-line switch.
+However, these methods are difficult for administrators who control thousands of
+devices. Most administrators prefer to use a dedicated management tool, such as
+Group Policy Editor or admin.google.com, to manage Chrome. These tools can set
+enterprise policies easily, but they cannot set feature flags.
+
+A typical way to check a policy value together with a feature flag is to create
+a utility function that checks both. If the policy value conflicts with the
+feature flag setting, the policy value should always take precedence.
+
+```
+bool IsMyFeatureEnabled(Profile* profile) {
+  return profile->GetPrefs()->GetBoolean(prefs::kMyFeature)
+    && base::FeatureList::IsEnabled(features::kMyFeature);
+}
+```
+
 ### Need more help?
 
 Feel free to email
