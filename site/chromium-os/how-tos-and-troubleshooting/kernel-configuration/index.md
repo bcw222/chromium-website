@@ -13,9 +13,10 @@ title: Kernel Configuration
 ## Overview
 
 Kernel configuration is a little complicated in Chromium OS. There are a number
-of different kernels based on architecture (x86_64, arm64) variants (generic,
+of different kernels based on family (chromeos, manatee, termina),
+architecture (x86_64, arm64), variants (generic,
 rockchip) and platforms (Seaboard, Mario). We want to split the config into a
-sort of hierarchy so that the common options are shared between the variants
+sort of hierarchy so that the common options are shared within each family
 (click to enlarge):
 
 [<img alt="image"
@@ -55,22 +56,22 @@ kernelconfig  prepareconfig
 
 ### kernelconfig
 
-This script deals with each separate flavour in turn, performing the selected
-operations. It starts by building the config for each flavour, does the
-operations, and afterwards it splits the flavour configs back into the proper
-hierarchy. It supports four operations
+This script operates on all flavours at once.
+It builds the config for each flavour, performs the requested
+operations, and splits the configs back into the proper
+hierarchy. It supports four operations.
 
-*   oldconfig - does a 'make oldconfig' on each config
+*   oldconfig - runs a 'make oldconfig' on each config
 *   olddefconfig - like 'oldconfig', but it accepts the default
             selections automatically
-*   editconfig - does a 'make menuconfig' on each config
+*   editconfig - runs a 'make menuconfig' on each config
 *   genconfig - like oldconfig, but it leaves the generated full config
             files lying around afterwards in the CONFIGS directory
 
 There is a bit of a problem with kernelconfig. If you want to change a kernel
 option which is common to all flavours, for example, then you must change it
 once for each flavour using 'kernelconfig editconfig'. At the moment this is ~10
-times! If you miss one, then the result may be no change which can be very
+times! If you miss one, then the result may be no change, which can be very
 confusing. See below for another approach.
 
 ### prepareconfig
@@ -89,7 +90,7 @@ make
 ```
 
 prepareconfig requires an environment variable `CHROMEOS_KERNEL_FAMILY` to
-correctly determine the split config. Above example uses `chromeos` as the
+correctly determine the split config. The above example uses `chromeos` as the
 kernel family. Each supported kernel family's split config is maintained in
 `chromeos/config/<family>/` directory.
 
@@ -102,7 +103,7 @@ The kernel config is split into several config files - generic, chrome-specific,
 architecture-specific and board specific. Automatic tools split and combine
 these configs.
 
-If you want to edit the configuration for a particular board etc. then you need
+If you want to edit the configuration for a particular board, then you need
 to do something like:
 
 ```none
@@ -110,61 +111,47 @@ $ cd .../src/third_party/kernel/v$VER/
 $ ./chromeos/scripts/kernelconfig editconfig
 ```
 
-The exact value for $VER depends on your board as each one is different. You can
-find that out by seeing what version by running `` `emerge-$BOARD -pv
+The value for $VER depends on the board. You can
+find what kernel version a board uses by running `` `emerge-$BOARD -pv
 virtual/linux-sources` ``.
 
-This will run 'make menuconfig' for each part of the config.
-
-You need to figure out which part your config options appear in, and then make
-the changes when that config comes up. When it says 'press a key', you have to
-press &lt;enter&gt;.
-
-## Make a change to the config
-
-Run editconfig to modify each config appropriately using menuconfig and then
-regenerate the splitconfigs. The editconfig script will run "make menuconfig" on
-each flavor config. Please make appropriate changes for each menuconfig run and
-the script will generate the correct splitconfig.
-
-```none
-cd /path/to/kernel
-chromeos/scripts/kernelconfig editconfig # regenerate splitconfig
-```
+The `editconfig` command runs `make menuconfig` for all existing
+kernel configurations.  You need to figure out which part your config options
+appear in, make the changes, save the file, and exit.
 
 ## Alternative Method to Edit Config
 
-This is a little faster if you know what you're doing:
+This is faster, if you know what you're doing:
 
-*   Look for the kernel config option you want to edit.
+*   Search the split configs for the kernel config option you want to edit.
 
-```none
-$ grep -rs CONFIG_IO_URING  chromeos/config/
-chromeos/config/manatee/base.config:# CONFIG_IO_URING is not set
-chromeos/config/chromeos/base.config:# CONFIG_IO_URING is not set
+    ```none
+    $ grep -rs CONFIG_LEGACY_PTYS  chromeos/config/
+    chromeos/config/chromeos/base.config:# CONFIG_LEGACY_PTYS is not set
+    chromeos/config/termina/base.config:# CONFIG_LEGACY_PTYS is not set
 ```
 
 *   Now assuming that we are working with chromeos kernel family, edit the file
-       `chromeos/config/chromeos/base.config` to change the config like this:
+    `chromeos/config/chromeos/base.config` to change the config like this:
 
 <pre><code>
-# CONFIG_NETPOLL_TRAP is not set
-<s># CONFIG_NETWORK_FILESYSTEMS is not set</s>
-CONFIG_NETWORK_FILESYSTEMS=y
-CONFIG_NETWORK_SECMARK=y
-# CONFIG_NET_9P is not set
+CONFIG_LEDS_CLASS=y
+<s># CONFIG_LEGACY_PTYS is not set</s>
+CONFIG_LEGACY_PTYS=y
+CONFIG_LKDTM=y
 </code></pre>
 
-*   Now run this to recreate all the configs based on your changes
+*   Now run this to recreate all the configs based on your changes:
 
 ```none
 $ chromeos/scripts/kernelconfig olddefconfig
 ```
 
 *   This will accept the default choices for any new or otherwise
-            unspecified options. If needed you can change them by editing the
-            file on your next run around this method.
-*   Rinse and repeat
+    unspecified options.
+
+*   Use `git diff` to ensure that the result is as expected.  You may
+    repeat editing the files and executing `kernelconfig` as needed.
 
 If you find that during that last step, your configs are disappearing, then
 you've likely enabled a config without enabling all of its dependencies. You'll
@@ -177,7 +164,8 @@ This might not be useful, but:
 
 ```none
 # get full flavour config sorted, without leading #
-FLAVOUR=chromeos-tegra2 cat chromeos/config/*/base.config \
+$ FLAVOUR=chromeos-tegra2
+$ cat chromeos/config/*/base.config \
    chromeos/config/*/armel/common.config \
    chromeos/config/*/armel/$FLAVOUR.flavour.config | \
    grep CONFIG_ | sed "s/.*CONFIG/CONFIG/" | sort -u >1.emerge
