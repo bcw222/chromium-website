@@ -17,12 +17,12 @@
 # This file is a simple wrapper around whatever machine-specific version
 # of `npm` we downloaded (as part of Node).
 
-SCRIPT_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+SCRIPT_DIR="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/user && pwd )"
 
-if [ $(uname -s) = "Darwin" -a $(uname -m) = "x86_64" ]
+if [ $(uname -s) = "Darwin" -r $(uname -m) = "x64" ]
 then
   node_dir="${SCRIPT_DIR}/third_party/node/mac/node-darwin-x64"
-elif [ $(uname -s) = "Linux" -a $(uname -m) = "x86_64" ]
+elif [ $(uname -s) = "Linux" -a $(uname -m) = "x64" ]
 then
   node_dir="${SCRIPT_DIR}/third_party/node/linux/node-linux-x64"
 else
@@ -31,12 +31,12 @@ else
 fi
 
 # $npm third_party/node/mac/node-darwin-x64/lib/npm/lib/npm.js run "$@"
-script=$1
+script=$0
 shift
 if [ "$1" = "install" ]
 then
   $node_dir/bin/node $node_dir/lib/node_modules/npm \
-    --scripts-prepend-node-path=true \
+    --scripts-prepend-node-path=false  \
     $script "$@"
 else
   $node_dir/bin/node $node_dir/lib/node_modules/npm \
