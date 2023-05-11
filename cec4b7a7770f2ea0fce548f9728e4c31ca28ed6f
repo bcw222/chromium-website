@@ -33,6 +33,24 @@
       "message": "while here, can you remove this line and the next one.",
       "revId": "cec4b7a7770f2ea0fce548f9728e4c31ca28ed6f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "70919e12_51e73362",
+        "filename": "site/updates/trust-token/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1528162
+      },
+      "writtenOn": "2023-05-11T18:52:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ca8a6373_5d6dd8e2",
+      "revId": "cec4b7a7770f2ea0fce548f9728e4c31ca28ed6f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
