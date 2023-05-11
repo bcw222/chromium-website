@@ -14,7 +14,7 @@ title: Private State Token API
 
 **Experimenting**
 
-In order to execute Private State Token operations, you'll need an origin trial token present *or* to have provided the additional command-line flag `--enable-blink-features=PrivateStateTokens,PrivateStateTokensAlwaysAllowIssuance --enable-features=PrivacySandboxSettings3`.
+In order to execute Private State Token operations, you'll need an origin trial token present *or* to have provided the additional command-line flag `--enable-blink-features=PrivateStateTokensAlwaysAllowIssuance --enable-features=PrivateStateTokens,PrivacySandboxSettings3`.
 If you are experimenting with a new issuer, you can manually provide the Private State Token key commitments via the `--additional-private-state-token-key-commitments='{ "<issuer
 origin>": <key commitment response> }'` flag.
 
