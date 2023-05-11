@@ -69,6 +69,23 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e27bdf37_7778afc4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000028
+      },
+      "writtenOn": "2023-05-11T17:30:07Z",
+      "side": 1,
+      "message": "Thank you!  Please take another QUICK look.",
+      "revId": "91ad628f9888dd303c0217ad8f2e382e21df7b0e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e46e22ca_2b45d05f",
@@ -92,6 +109,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f9a1a7e_11efc085",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/kernel-configuration/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000028
+      },
+      "writtenOn": "2023-05-11T17:30:07Z",
+      "side": 1,
+      "message": "Yes, thanks, that wasn\u0027t clear.",
+      "parentUuid": "e46e22ca_2b45d05f",
+      "range": {
+        "startLine": 19,
+        "startChar": 56,
+        "endLine": 19,
+        "endChar": 74
+      },
+      "revId": "91ad628f9888dd303c0217ad8f2e382e21df7b0e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6333e9d5_c8434bb0",
@@ -105,6 +146,30 @@
       "writtenOn": "2023-05-11T16:48:05Z",
       "side": 1,
       "message": "Colon?",
+      "range": {
+        "startLine": 62,
+        "startChar": 38,
+        "endLine": 62,
+        "endChar": 39
+      },
+      "revId": "91ad628f9888dd303c0217ad8f2e382e21df7b0e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4317c4f_7b5073df",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/kernel-configuration/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1000028
+      },
+      "writtenOn": "2023-05-11T17:30:07Z",
+      "side": 1,
+      "message": "Sure.  I actually like the period, oddly.",
+      "parentUuid": "6333e9d5_c8434bb0",
       "range": {
         "startLine": 62,
         "startChar": 38,
