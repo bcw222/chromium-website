@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dfe539e4_8fe5c506",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-05-11T16:45:15Z",
+      "side": 1,
+      "message": "Looks good! Just one readability nit",
+      "revId": "eeaa334601a28b4236c23dde99ffc62cddc5e474",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e36b833a_c7265c44",
+        "filename": "site/developers/enterprise-changes/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-05-11T16:45:15Z",
+      "side": 1,
+      "message": "nit: how about \"Can enterprise users set features directly?\"\n\n- lowercase \"enterprise\" to match rest of doc\n- \"enterprise users\", since that\u0027s what this section discusses\n- \"features\" since this section generally uses the plural",
+      "range": {
+        "startLine": 104,
+        "startChar": 9,
+        "endLine": 104,
+        "endChar": 20
+      },
+      "revId": "eeaa334601a28b4236c23dde99ffc62cddc5e474",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
