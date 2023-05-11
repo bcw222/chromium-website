@@ -39,6 +39,30 @@
       },
       "revId": "b40d613fc25a2258b1e209963172439b08e26021",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b1ebefd0_d665c054",
+        "filename": "site/developers/enterprise-changes/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 1142256
+      },
+      "writtenOn": "2023-05-11T14:58:20Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "e84ea51d_a75e2da8",
+      "range": {
+        "startLine": 126,
+        "startChar": 24,
+        "endLine": 126,
+        "endChar": 29
+      },
+      "revId": "b40d613fc25a2258b1e209963172439b08e26021",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
