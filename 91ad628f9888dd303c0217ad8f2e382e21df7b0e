@@ -50,6 +50,69 @@
       "message": "Sorry to impose again Doug.  Feel free to also suggest someone else.\n\nBTW, I am not trying to fix everything in this doc.  Only the things that annoyed me above a certain threshold.",
       "revId": "91ad628f9888dd303c0217ad8f2e382e21df7b0e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "26a98c46_0970d36e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000107
+      },
+      "writtenOn": "2023-05-11T16:48:05Z",
+      "side": 1,
+      "message": "Seems fine. Two small nits.",
+      "revId": "91ad628f9888dd303c0217ad8f2e382e21df7b0e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e46e22ca_2b45d05f",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/kernel-configuration/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000107
+      },
+      "writtenOn": "2023-05-11T16:48:05Z",
+      "side": 1,
+      "message": "I might use a different terminology here since you just used the word \"family\" above to only refer to the top level. Maybe something like \"... so that the common options bubble up to common files\" or something like that?",
+      "range": {
+        "startLine": 19,
+        "startChar": 56,
+        "endLine": 19,
+        "endChar": 74
+      },
+      "revId": "91ad628f9888dd303c0217ad8f2e382e21df7b0e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6333e9d5_c8434bb0",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/kernel-configuration/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1000107
+      },
+      "writtenOn": "2023-05-11T16:48:05Z",
+      "side": 1,
+      "message": "Colon?",
+      "range": {
+        "startLine": 62,
+        "startChar": 38,
+        "endLine": 62,
+        "endChar": 39
+      },
+      "revId": "91ad628f9888dd303c0217ad8f2e382e21df7b0e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
