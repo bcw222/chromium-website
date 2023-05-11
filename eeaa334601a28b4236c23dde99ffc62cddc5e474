@@ -39,6 +39,30 @@
       },
       "revId": "eeaa334601a28b4236c23dde99ffc62cddc5e474",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1dd67d61_a56511ac",
+        "filename": "site/developers/enterprise-changes/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 1142256
+      },
+      "writtenOn": "2023-05-11T17:47:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e36b833a_c7265c44",
+      "range": {
+        "startLine": 104,
+        "startChar": 9,
+        "endLine": 104,
+        "endChar": 20
+      },
+      "revId": "eeaa334601a28b4236c23dde99ffc62cddc5e474",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
