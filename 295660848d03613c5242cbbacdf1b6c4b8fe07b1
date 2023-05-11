@@ -16,6 +16,23 @@
       "message": "(I\u0027ll wait a bit, then commit it if I don\u0027t hear back.)",
       "revId": "295660848d03613c5242cbbacdf1b6c4b8fe07b1",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce6e1234_c15271cc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000107
+      },
+      "writtenOn": "2023-05-11T19:33:28Z",
+      "side": 1,
+      "message": "LGTM",
+      "revId": "295660848d03613c5242cbbacdf1b6c4b8fe07b1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
