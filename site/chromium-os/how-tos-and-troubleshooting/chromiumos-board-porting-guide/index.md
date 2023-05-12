@@ -97,6 +97,16 @@ OS code base.
 
 Settled on a name? Hopefully it's nifty.
 
+## Creating a Board Overlay Repository
+
+Once you have a name, in most cases you will need to set up a new repository for
+the board in `src/overlays` (or `src/private-overlays` for a private board).
+Googlers can follow these [instructions for creating a new
+repository](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/source_layout.md#server-new-repo)
+and [updating the
+manifest](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/source_layout.md#how-do-i-add-a-repo-to-the-manifest),
+with the [additional workflow for board overlays](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/new_board_overlay.md).
+
 ## Bare Framework
 
 Let's start by laying the ground work for the board. We won't worry about the
