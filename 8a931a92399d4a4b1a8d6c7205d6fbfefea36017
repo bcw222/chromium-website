@@ -16,6 +16,23 @@
       "message": "I found the edited page in the preview link at this URL:\n\nhttps://chromium-website--cl4526815-ps2-r4zrlgzd.web.app/developers/how-tos/run-chromium-with-flags/\n\nhowever the link still doesn\u0027t work.",
       "revId": "8a931a92399d4a4b1a8d6c7205d6fbfefea36017",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "44a7eb64_4daeafbf",
+        "filename": "site/developers/how-tos/run-chromium-with-flags/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2023-05-12T17:44:54Z",
+      "side": 1,
+      "message": "I think this link probably needs to be absolute (https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_mode.md); it is generally access through https://www.chromium.org/developers/how-tos/run-chromium-with-flags/#v8-flags",
+      "revId": "8a931a92399d4a4b1a8d6c7205d6fbfefea36017",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
