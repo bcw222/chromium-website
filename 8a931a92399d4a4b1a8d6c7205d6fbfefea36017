@@ -33,6 +33,24 @@
       "message": "I think this link probably needs to be absolute (https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_mode.md); it is generally access through https://www.chromium.org/developers/how-tos/run-chromium-with-flags/#v8-flags",
       "revId": "8a931a92399d4a4b1a8d6c7205d6fbfefea36017",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9b579a1b_deb8f0e6",
+        "filename": "site/developers/how-tos/run-chromium-with-flags/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1581217
+      },
+      "writtenOn": "2023-05-13T06:42:17Z",
+      "side": 1,
+      "message": "Change done accordingly. Thanks for pointing this out",
+      "parentUuid": "44a7eb64_4daeafbf",
+      "revId": "8a931a92399d4a4b1a8d6c7205d6fbfefea36017",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
