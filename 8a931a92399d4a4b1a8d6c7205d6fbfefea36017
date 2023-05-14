@@ -51,6 +51,24 @@
       "parentUuid": "44a7eb64_4daeafbf",
       "revId": "8a931a92399d4a4b1a8d6c7205d6fbfefea36017",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "875189bf_35b50560",
+        "filename": "site/developers/how-tos/run-chromium-with-flags/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2023-05-14T15:47:04Z",
+      "side": 1,
+      "message": "The new link just takes the user to where they already are. Clicking on the broken link suggests that the correct target is here:\n\nhttps://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_mode.md\n\nThe content on that page looks plausible, but I\u0027m not sure.",
+      "parentUuid": "9b579a1b_deb8f0e6",
+      "revId": "8a931a92399d4a4b1a8d6c7205d6fbfefea36017",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
