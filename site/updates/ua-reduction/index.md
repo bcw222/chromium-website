@@ -10,6 +10,9 @@ title: User-Agent Reduction
 
 ## Updates
 
+May 11th, 2023: the Phase 6 rollout is enabled for 100% of Android clients on M110 and
+above via Finch.
+
 April 25th, 2023: the Phase 6 rollout is enabled for 50% of Android clients on M110 and
 above via Finch.
 
