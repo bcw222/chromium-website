@@ -834,7 +834,7 @@ to cancel or modify the request:
 
 > > Modified request line.
 
-> ***reqeustHeaders (optional string)***
+> ***requestHeaders (optional string)***
 
 > > Modified request headers.
 
