@@ -64,6 +64,12 @@ feature. An email to
 is the best way; if a public-facing email is not possible, please email the [API
 owners](/blink/guidelines/api-owners) directly.
 
+**Q**: *Do I need tooling support for my new feature?**
+
+Shipping new Web Platform features in Chromium requires tooling support. Follow [the
+DevTools support checklist](https://goo.gle/devtools-checklist) to figure out the
+appropriate steps to take for your feature.
+
 ## The Feature Types {:#feature-types}
 
 The first thing you will need to do is identify what type of feature you are
