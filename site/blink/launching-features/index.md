@@ -70,6 +70,14 @@ Shipping new Web Platform features in Chromium requires tooling support. Follow 
 DevTools support checklist](https://goo.gle/devtools-checklist) to figure out the
 appropriate steps to take for your feature.
 
+**Q**: *What if another browser or the [W3C TAG](https://tag.w3.org/) objects to
+my new feature? Can I ship it anyway?*
+
+**A**: Blink and Chromium do sometimes ship features over the objections of
+other browsers or the TAG. See the [Blink Values in
+Practice](/blink/guidelines/web-platform-changes-guidelines/) for how we make
+this tradeoff.
+
 ## The Feature Types {:#feature-types}
 
 The first thing you will need to do is identify what type of feature you are
