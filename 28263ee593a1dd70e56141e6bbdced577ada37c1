@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3d55fa3f_062786f7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-05-17T22:20:34Z",
+      "side": 1,
+      "message": "I think this is minor enough to not send to blink-api-owners-discuss (which wasn\u0027t added by default), but please forward it if you disagree.",
+      "revId": "28263ee593a1dd70e56141e6bbdced577ada37c1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
