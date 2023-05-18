@@ -39,6 +39,30 @@
       },
       "revId": "d9ebe0a41b3edc5e313492be8029af72cd93bf3a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ee2252e6_6e111f9e",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1558930
+      },
+      "writtenOn": "2023-05-18T00:14:00Z",
+      "side": 1,
+      "message": "Yeah, it felt awkward but I didn\u0027t want to borrow trouble :-D.\n\nI\u0027m not sure if we want to say that one committer can ask to have another committer\u0027s email address updated. I think those requests are out of the ordinary, and accounts@ would need to validate the request. I lean toward simplifying the text to say:\n\"To do so, send an email to accounts@chromium.org.\"\n\nWDYT?",
+      "parentUuid": "8ab0642c_9e8bb332",
+      "range": {
+        "startLine": 103,
+        "startChar": 33,
+        "endLine": 103,
+        "endChar": 57
+      },
+      "revId": "d9ebe0a41b3edc5e313492be8029af72cd93bf3a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
