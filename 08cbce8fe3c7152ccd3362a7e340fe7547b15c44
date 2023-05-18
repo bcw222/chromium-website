@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "61402f08_81a55e05",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-05-18T21:30:38Z",
+      "side": 1,
+      "message": "I\u0027m trying to update /blink/guidelines/web-platform-changes-guideline to be a bit simpler to find things in and to more clearly spell out how the API owners expect to react to various kinds feedback on I2S threads. I\u0027m splitting up the changes by section, and this is my suggestion for the Specifications section. Our current text claimed to set a higher bar for spec quality than I think we actually enforce.\n\nPreview at https://chromium-website--cl4548082-ps1-1mcj0cmq.web.app/blink/guidelines/web-platform-changes-guidelines/#specifications, at least until I upload a new version.",
+      "revId": "08cbce8fe3c7152ccd3362a7e340fe7547b15c44",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
