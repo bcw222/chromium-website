@@ -87,6 +87,30 @@
       },
       "revId": "d9ebe0a41b3edc5e313492be8029af72cd93bf3a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8723f682_c5d3102f",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1558930
+      },
+      "writtenOn": "2023-05-18T00:50:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ed7101f0_40ab9349",
+      "range": {
+        "startLine": 103,
+        "startChar": 33,
+        "endLine": 103,
+        "endChar": 57
+      },
+      "revId": "d9ebe0a41b3edc5e313492be8029af72cd93bf3a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
