@@ -16,6 +16,23 @@
       "message": "I\u0027m trying to update /blink/guidelines/web-platform-changes-guidelines to be a bit simpler to find things in and to more clearly spell out how the API owners expect to react to various kinds feedback on I2S threads. I\u0027m splitting up the changes by section, and this is my suggestion for the introduction. The intro had a little redundancy, and it assumed that all changes were controversial, which isn\u0027t the case. I also gave \"Interoperability risk\" and \"Compatibility risk\" IDs, although I didn\u0027t do anything else to make those IDs easier to copy.\n\nPreview at https://chromium-website--cl4546659-ps1-z81jdbww.web.app/blink/guidelines/web-platform-changes-guidelines/#introduction, at least until I upload a new version.",
       "revId": "bd0d958e87c167f4be02c70648e202dc8aca9397",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "478bbb6f_25517eef",
+        "filename": "site/blink/guidelines/web-platform-changes-guidelines/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2023-05-18T23:03:15Z",
+      "side": 1,
+      "message": "\"try their best to work with\"",
+      "revId": "bd0d958e87c167f4be02c70648e202dc8aca9397",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
