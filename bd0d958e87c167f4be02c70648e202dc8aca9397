@@ -33,6 +33,24 @@
       "message": "\"try their best to work with\"",
       "revId": "bd0d958e87c167f4be02c70648e202dc8aca9397",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f49d350_21113901",
+        "filename": "site/blink/guidelines/web-platform-changes-guidelines/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-05-19T03:07:34Z",
+      "side": 1,
+      "message": "Done, also with s/For some changes//.",
+      "parentUuid": "478bbb6f_25517eef",
+      "revId": "bd0d958e87c167f4be02c70648e202dc8aca9397",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
