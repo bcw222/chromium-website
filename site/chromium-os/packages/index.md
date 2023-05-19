@@ -61,8 +61,6 @@ number which are specific to our project. Here you can dive down into them.
             (text files which describe hardware layouts) compiler
 *   [flashmap](http://flashmap.googlecode.com): utility for manipulating
             firmware images
-*   [flashrom](/chromium-os/packages/cros-flashrom): utility for
-            reading/writing flash chips on devices (which store firmware/etc...)
 *   vboot_reference: tools for working with verified boot
 *   vboot_reference-firmware: firmware for supporting verified boot
 
