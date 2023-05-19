@@ -8,32 +8,37 @@ page_name: web-platform-changes-guidelines
 title: Blink Values in Practice
 ---
 
+[TOC]
+
 ## Introduction
 
 The Blink project's [core values](/blink/guidelines/values) are to promote a
 useful and thriving web, while being a good user agent and safeguarding the
-openness of the web. We do this by shipping features that bring user benefit.
+openness of the web. Our primary lever for doing this is in deciding what
+features to ship or unship to our users, which benefits our users directly.
 
-Unlike many other platforms, the web has multiple implementations. The Blink
-project's primary lever for improving the experience of web users is by
-improving Chromium, and thus shipping (or unshipping) features to our users
-directly. But we strive to do so in a way that also helps other implementations.
-This increases the interoperable surface area of the web, which improves the
-experience of those users we do not directly serve, and helps safeguard the
-web's open nature.
+Unlike many other platforms, the web has multiple implementations, which is
+useful for maintaining its openness. Blink developers try their best to work
+with those other implementations to ship a consensus feature all at
+approximately the same time. When we can do this, the web platform moves forward
+smoothly.
 
+Other times, the priorities and values of the various implementations don't
+align so quickly.
 The Chromium project has been blessed with a large ecosystem of active
 contributors. As such, we can take on the responsibility of proving out features
 in our engine first, trialing them with users of Blink-based browsers ahead of
-general deployment across all engines and to more web users. While we do so, it
-is imperative that we deliver the feature in a way that invites broad feedback,
-and makes it easy for other engines to implement if they decide the proposal is
-valuable for their users.
+general deployment across all engines and to more web users. If other engines do
+then deploy the new features, this increases the interoperable surface area of
+the web, which improves the experience of those users we do not directly serve.
 
-This document outlines how the Blink project thinks about moving the web
-forward, and the reasoning behind the various processes and requirements we
-place on members of the Chromium community as part of the [launch
-process](/blink/launching-features) that puts our values into practice.
+For this to work, we have to ship each feature in a way that incorporates broad
+feedback and makes it easy for other engines to implement if and when they
+decide the feature is valuable for their users.
+
+This document describes how the Blink project uses and evaluates the
+requirements in our [launch process](/blink/launching-features) to ensure that
+new features put our values into practice.
 
 ## Finding balance
 
@@ -45,7 +50,12 @@ interoperability. And by definition, when any browser ships a new feature, the
 API change is not yet interoperable. So we need to balance some key risks while
 we improve the web platform.
 
-Interoperability risk is the risk that browsers will not eventually converge on
+<style>
+  dfn { font-weight: bold; font-style: normal; }
+</style>
+
+<dfn id="interoperability-risk">Interoperability risk</dfn> is the risk that
+browsers will not eventually converge on
 an interoperable implementation of the proposed feature. Interoperability cannot
 be determined only at a given point in time; since browsers ship features at
 different times, there is always a degree of non-interoperability on the web.
@@ -56,7 +66,8 @@ principles of
 interoperability](https://docs.google.com/document/d/1romO1kHzpcwTwPsCzrkNWlh0bBXBwHfUsCt98-CNzkY/edit)
 for a more in-depth discussion.
 
-Compatibility risk is the likelihood that a change will break existing web
+<dfn id="compatibility-risk">Compatibility risk</dfn> is the likelihood that a
+change will break existing web
 content loaded in Chromium. Compatibility risk is especially common with API
 removal, but it is also a factor when adding new features: before shipping, we
 need to be as sure as we reasonably can that the feature will not change or
