@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c3dc498_31ff846f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-05-19T05:24:57Z",
+      "side": 1,
+      "message": "With this change to /blink/guidelines/web-platform-changes-guidelines, I\u0027m hoping to set Mozilla\u0027s and Safari\u0027s expectations about how we\u0027re likely to react to different kinds of feedback. It\u0027s much more speculative than the other two sections, and I\u0027d appreciate your help refining it. Preview at https://chromium-website--cl4548841-ps2-3pchtz2i.web.app/blink/guidelines/web-platform-changes-guidelines/#browser-engine-reviews\n\nWhat categories of feedback have I missed or mis-described?\n\nHave I correctly captured how y\u0027all want to react to each kind of feedback?\n\nOne particular thing to check is how I\u0027ve described the difference between feedback before vs after Chromium has shipped a feature. In particular, I claimed that implementability feedback matters just as much after shipping as before, while ergonomics feedback usually needs to include evidence from people who tried to take advantage of the fact that we shipped. Is that right?\n\nThanks!",
+      "revId": "51d3324a397bca20484d9fdfdb45e8844d8102b9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
