@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4a19f215_0e2a1625",
+        "filename": "site/blink/guidelines/web-platform-changes-guidelines/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2023-05-22T23:28:14Z",
+      "side": 1,
+      "message": "```suggestion\n issues will sometimes come up after the spec\u0027s quality is improved.\n```",
+      "revId": "095889d8d2fc43c6b0adc06c1bd11ded60644493",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "97e48598_311e8a06",
+        "filename": "site/blink/guidelines/web-platform-changes-guidelines/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 290,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2023-05-22T23:28:14Z",
+      "side": 1,
+      "message": "```suggestion\n  trial](/blink/origin-trials) process is designed to catch this class of\n```",
+      "revId": "095889d8d2fc43c6b0adc06c1bd11ded60644493",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4880f8c4_ce91d849",
+        "filename": "site/blink/guidelines/web-platform-changes-guidelines/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 297,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2023-05-22T23:28:14Z",
+      "side": 1,
+      "message": "```suggestion\n* *Values disagreements*: Sometimes other implementers make different\n```",
+      "revId": "095889d8d2fc43c6b0adc06c1bd11ded60644493",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "60eccfd6_9ae84b5a",
+        "filename": "site/blink/guidelines/web-platform-changes-guidelines/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 299,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2023-05-22T23:28:14Z",
+      "side": 1,
+      "message": "```suggestion\n  to work to fully explore the disagreement and try to find a compromise\n```",
+      "revId": "095889d8d2fc43c6b0adc06c1bd11ded60644493",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8cfee9dd_a8be641c",
+        "filename": "site/blink/guidelines/web-platform-changes-guidelines/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2023-05-22T23:28:14Z",
+      "side": 1,
+      "message": "```suggestion\n  compromise is found, and the feature significantly advances the Web even\n```",
+      "revId": "095889d8d2fc43c6b0adc06c1bd11ded60644493",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
