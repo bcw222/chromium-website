@@ -265,6 +265,43 @@ step in the process before shipping. The goal is to present a body of evidence
 that makes it easy for other engines to evaluate whether they would like to
 bring the proposal to their implementation, or not.
 
+### Browser engine reviews
+
+The Blink process requires most features to ask for [vendor
+signals](https://bit.ly/blink-signals) because they can give us some of the most
+direct indications of [interoperability risk](#interoperability-risk) and
+[specification](#specifications) quality. The feedback we get from the other
+vendors comes in several categories, which get different sorts of attention from
+the API owners.
+
+* *Spec quality*: When other implementers point out parts of the
+  [specification](#specifications) that are ambiguous or under-specified, the
+  feature team needs to work to fix those problems promptly. Fortunately, while
+  this type of issue takes developer time to fix, it doesn't in itself require
+  changes to the implementation and so usually doesn't delay shipping. These
+  problems can block the other implementer from doing a complete review, so more
+  issues will sometimes come up after the spec's quality is improved.
+* *Unimplementable designs*: Other implementers might also tell us that our
+  current design is either unimplementable on some operating systems or
+  incompatible with some browser architecture choices. These are serious
+  problems that can justify rethinking an API even after it's shipped.
+* *Ergonomic concerns*: Any reviewer, including other implementers, can notice
+  that an API might not work well enough for developers. Our [origin
+  trial](/blink/origin-trials) process is designed to catch this class of
+  problems before we get to the I2S stage, but it doesn't always. We have to
+  evaluate this feedback against any evidence we have, and try to find consensus
+  around one of the options. If this feedback comes up *after Chromium has
+  shipped* a feature, unless the feedback is obviously correct we can expect it
+  to include evidence from the developers who have been able to try the feature
+  with live traffic.
+* *Values disagreements*: Sometimes other implementers make different
+  tradeoffs about which Web features are worth adding. In these cases, we need
+  to work to fully explore the disagreement and try to find a compromise
+  that could enable all browsers to satisfy the use case. However, if no
+  compromise is found, and the feature significantly advances the Web even
+  without interoperability, the API owners will often approve it despite the
+  other browser engines' opposition.
+
 ### Wide review
 
 There are specific groups, usually in the specification ecosystem, which are
@@ -287,9 +324,6 @@ Other groups to consider are:
 * Chromium cross-functional review groups, such as the
   [security](/Home/chromium-security), privacy, permissions, and anti-tracking
   teams.
-
-* Directly reaching out to other browser engine implementers or standards
-  engineers for their [signals](https://docs.google.com/document/d/1xkHRXnFS8GDqZi7E0SSbR3a7CZsGScdxPUWBsNgo-oo/edit).
 
 None of these groups are obligated to respond; many are busy with other reviews
 or with their own work. But we always attempt to reach out, and respond to any
