@@ -3,6 +3,40 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c72e753f_4a27b6e5",
+        "filename": "site/blink/guidelines/web-platform-changes-guidelines/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 271,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2023-05-22T17:30:43Z",
+      "side": 1,
+      "message": "```suggestion\nsignals](https://bit.ly/blink-signals) because they can give us some of the most direct\n```",
+      "revId": "9f57982da0147d913542a539e894d701258a9d35",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f6b1155b_3e16e433",
+        "filename": "site/blink/guidelines/web-platform-changes-guidelines/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 289,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2023-05-22T17:30:43Z",
+      "side": 1,
+      "message": "```suggestion\n  that an API might not work well enough for developers. Our [origin\n```",
+      "revId": "9f57982da0147d913542a539e894d701258a9d35",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "fc22087a_794ab844",
         "filename": "site/blink/guidelines/web-platform-changes-guidelines/index.md",
         "patchSetId": 2
@@ -14,6 +48,23 @@
       "writtenOn": "2023-05-22T03:21:09Z",
       "side": 1,
       "message": "s/problem/problems/",
+      "revId": "9f57982da0147d913542a539e894d701258a9d35",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "169e390a_69cd8e66",
+        "filename": "site/blink/guidelines/web-platform-changes-guidelines/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 303,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2023-05-22T17:30:43Z",
+      "side": 1,
+      "message": "```suggestion\n  other browser engines\u0027 opposition.\n```",
       "revId": "9f57982da0147d913542a539e894d701258a9d35",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
