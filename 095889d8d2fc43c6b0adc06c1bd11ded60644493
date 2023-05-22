@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0c0c42a7_5aea40d6",
+        "filename": "site/blink/guidelines/web-platform-changes-guidelines/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 283,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-05-22T23:42:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4a19f215_0e2a1625",
+      "revId": "095889d8d2fc43c6b0adc06c1bd11ded60644493",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "97e48598_311e8a06",
@@ -31,6 +49,24 @@
       "writtenOn": "2023-05-22T23:28:14Z",
       "side": 1,
       "message": "```suggestion\n  trial](/blink/origin-trials) process is designed to catch this class of\n```",
+      "revId": "095889d8d2fc43c6b0adc06c1bd11ded60644493",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c337845_fb4ec961",
+        "filename": "site/blink/guidelines/web-platform-changes-guidelines/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 290,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-05-22T23:42:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "97e48598_311e8a06",
       "revId": "095889d8d2fc43c6b0adc06c1bd11ded60644493",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -52,6 +88,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8531c796_b009b450",
+        "filename": "site/blink/guidelines/web-platform-changes-guidelines/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 297,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-05-22T23:42:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4880f8c4_ce91d849",
+      "revId": "095889d8d2fc43c6b0adc06c1bd11ded60644493",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "60eccfd6_9ae84b5a",
@@ -69,6 +123,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "400423c9_c38aba13",
+        "filename": "site/blink/guidelines/web-platform-changes-guidelines/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 299,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-05-22T23:42:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "60eccfd6_9ae84b5a",
+      "revId": "095889d8d2fc43c6b0adc06c1bd11ded60644493",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8cfee9dd_a8be641c",
@@ -82,6 +154,24 @@
       "writtenOn": "2023-05-22T23:28:14Z",
       "side": 1,
       "message": "```suggestion\n  compromise is found, and the feature significantly advances the Web even\n```",
+      "revId": "095889d8d2fc43c6b0adc06c1bd11ded60644493",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2b9e2803_1ed024db",
+        "filename": "site/blink/guidelines/web-platform-changes-guidelines/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-05-22T23:42:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8cfee9dd_a8be641c",
       "revId": "095889d8d2fc43c6b0adc06c1bd11ded60644493",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
