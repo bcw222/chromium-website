@@ -422,7 +422,7 @@ to DEBUG in the console and see some debug output.
 
 ### Format selection (or area around cursor) using clang-format
 
-Copy buildtools/clang_format/scripts/clang-format-sublime.py to
+Copy third_party/clang_format/scripts/clang-format-sublime.py to
 ~/.config/sublime-text-3/Packages/User/ (or -2 if still on ST2) and add
 something like this to Preferences-&gt;Key Bindings - User:
 
