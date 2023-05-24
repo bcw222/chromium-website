@@ -39,6 +39,12 @@ of cases, compat tradeoffs are made entirely based on public UseCounter data.
 *   Reflects real Chrome usage - should be the primary source of all
             compat discussions in blink
 *   Has huge coverage - reflects a wide fraction of all usage of Chrome
+*   Can automatically generate some sample URLs on
+    [chromestatus.com](https://www.chromestatus.com/metrics/feature/popularity) when hit
+    during an [HTTP Archive](http://httparchive.org/) crawl.
+*   If needed, can be [opted](https://source.chromium.org/chromium/chromium/src/+/main:components/page_load_metrics/browser/observers/use_counter/ukm_features.cc?q=UKM%20USeCounter&ss=chromium)
+    into [UKM](https://chromium.googlesource.com/chromium/src/+/master/services/metrics/ukm_api.md)
+    to collect some URLs from the wild (though raw data is available to Googlers only).
 
 **Cons:**
 
@@ -46,11 +52,6 @@ of cases, compat tradeoffs are made entirely based on public UseCounter data.
             months to roll out to stable)
 *   Biased against scenarios where UMA tends to be disabled more often
             (eg. enterprises)
-*   Can't be publicly used to get specific URLs. However, Googler's are
-            starting to be able to do this internally with
-            [CrUX](https://developers.google.com/web/tools/chrome-user-experience-report/)
-            data ("UKM"). While limited for privacy reasons, it's already
-            proving quite useful.
 
 ## Simple web search
 
@@ -92,13 +93,6 @@ for details on using it for compat analysis.
 *   Only captures behavior triggered during page load
 *   Only reflects the home page of the top 500k sites
 *   Analysis is more involved
-
-## Microsoft's CSS Usage Data
-
-[CSS usage on the web
-platform](https://developer.microsoft.com/en-us/microsoft-edge/platform/data/)
-is "from a Bing-powered scan" of lots of pages, and measures both CSS properties
-and values. (Chrome use counters generally don't exist for values.)
 
 ## GitHub and stackoverflow deprecation warning search
 
@@ -161,3 +155,4 @@ for details.
 *   Complicated and brittle. Relies on some changes to telemetry that
             cannot currently be landed. Generally found not to be worth the
             effort compared to the alternatives above.
+
