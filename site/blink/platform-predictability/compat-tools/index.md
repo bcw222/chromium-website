@@ -39,6 +39,9 @@ of cases, compat tradeoffs are made entirely based on public UseCounter data.
 *   Reflects real Chrome usage - should be the primary source of all
             compat discussions in blink
 *   Has huge coverage - reflects a wide fraction of all usage of Chrome
+*   Can automatically generate some sample URLs on
+    [chromestatus.com](https://www.chromestatus.com/metrics/feature/popularity) when hit
+    during an [HTTP Archive](http://httparchive.org/) crawl.
 
 **Cons:**
 
@@ -92,13 +95,6 @@ for details on using it for compat analysis.
 *   Only captures behavior triggered during page load
 *   Only reflects the home page of the top 500k sites
 *   Analysis is more involved
-
-## Microsoft's CSS Usage Data
-
-[CSS usage on the web
-platform](https://developer.microsoft.com/en-us/microsoft-edge/platform/data/)
-is "from a Bing-powered scan" of lots of pages, and measures both CSS properties
-and values. (Chrome use counters generally don't exist for values.)
 
 ## GitHub and stackoverflow deprecation warning search
 
@@ -161,3 +157,4 @@ for details.
 *   Complicated and brittle. Relies on some changes to telemetry that
             cannot currently be landed. Generally found not to be worth the
             effort compared to the alternatives above.
+
