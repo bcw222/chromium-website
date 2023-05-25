@@ -31,7 +31,7 @@ new tests or debug test failures, see:
 
 *   [Accessibility Testing](/developers/accessibility/testing)
 
-## Goals
+## Goal
 
 **Chrome should be accessible to all users, including those with special access
 needs. While there are a number of different challenges, we believe the
