@@ -4263,4 +4263,21 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Yes</td>
     <td>Yes</td>
   </tr>
+  <tr>
+    <td>2023-05-12</td>
+    <td>Asus</td>
+    <td><a href="https://www.asus.com/laptops/for-home/chromebook/asus-chromebook-cm34-flip-cm3401/">ASUS Chromebook CM34 Flip</a></td>
+    <td>Frostflow</td>
+    <td>Skyrim</td>
+    <td>Skyrim</td>
+    <td>x86_64</td>
+    <td>5.15</td>
+    <td>x86_64</td>
+    <td>Mendocino</td>
+    <td>Convertible</td>
+    <td>R112</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td>Yes</td>
+    <td>Yes</td>
+  </tr>
 </table>
