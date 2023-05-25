@@ -184,39 +184,30 @@ benefits:
 
 * Specifications provide a mechanism for IPR coverage. The amount of coverage
   varies depending on specification venue, but most venues at the very least
-  guarantee that the specification writers' organization grants a patent
-  license to implement the specification.
-
-***Note:** the venue for a specification, and whether it is a "specification"
-(individual unofficial draft, W3C CG draft, TC39 stage 2...) or a "standard"
-(W3C Recommendation, WHATWG Living Standard, Ecma Standard, ...), only impacts
-the last of these bullet points. As such, it's most important that we write a
-good specification. The venue and formal status are helpful for gathering IPR
-coverage, but otherwise should not be a focus.*
+  guarantee that the specification writers' organizations grant a patent license
+  to implement the specification. Before shipping, we have to host the
+  specification somewhere with at least that minimal guarantee (e.g. a W3C CG,
+  TC39, an IETF Individual-Draft, etc.), and we have to offer to migrate it to a
+  standards track (e.g. W3C Recommendation, WHATWG Living Standard, Ecma
+  Standard, etc.), which would gather more IPR coverage. Beyond that, the choice
+  of venue doesn't affect our process.
 
 As such, Chromium developers must ensure that any feature they intend to ship is
-backed by a complete and thorough specification. This specification must be at
-the level of detail that the feature can be interoperably implemented in a
-second engine, should that engine want to bring the feature in question to their
-users.
+backed by a specification (and [tests](#tests)) that is complete and thorough
+enough that a second engine can get a good start on implementing the feature
+interoperably.
 
-Getting this right can be difficult. Generally, a prototype implementation comes
-before a specification, since it is easier to iterate on the prototype and
-gather real-world feedback that way. If such prototyping drastically changes the
-shape of the feature, or results in scrapping the feature altogether, this can
-save a lot of specification-writing time!
+The goal of a web _standard_ is to be clear enough to develop a new
+interoperable implementation based just on the standard, but it's impossible to
+be this thorough for features that haven't yet been implemented multiple times.
+We always expect the second implementers to find mistakes and areas of the
+specification that assume the context of the first implementation.
 
-But this ordering does have one disadvantage. Since there was never a point at
-which the Chromium engineer implemented the feature from scratch, following the
-specification, we never get a formal check that the specification is complete
-and detailed enough. This can lead to problems where, when a second
-implementation *does* try to implement from scratch, they find the specification
-incomplete, or find that the specification relies on Chromium-specific
-assumptions.
-
-To help address this, we have the [Chromium Specification
-Mentors](/blink/spec-mentors) program, which pairs Chromium developers with a
-trusted mentor to get a second set of eyes.
+Instead, we require that an experienced spec author be able to read the
+specification without finding aspects that would confuse a second implementer.
+To help get your specification to this level and check if it's there, we have
+the [Chromium Specification Mentors](/blink/spec-mentors) program, which pairs
+Chromium developers with a trusted mentor to get a second set of eyes.
 
 Finally, the most important part of specification writing is to keep up active
 maintenance of the specification even after Chromium ships the feature. This is
