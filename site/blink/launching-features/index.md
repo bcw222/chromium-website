@@ -13,15 +13,23 @@ describes, please e-mail
 
 ## Exempt features
 
-You do not need to use this process if your change does not [affect web API
-behavior to the point that developers need to be aware of
-it](/blink/guidelines/web-exposed). (e.g. no significant behavioral changes, and
-no web-facing API changes.) The rest of this document doesn’t apply to this type
-of change, although such features might still have to go through a different
-launch process. Large projects should have public design docs that are also
-shared on blink-dev@chromium.org (or chromium-dev@, for projects that have
-significant parts outside of Blink) for feedback (this is also a good way to get
-the attention of other relevant leads).
+You do not need to use this process if your change is not exposed to web developers.
+This means:
+
+- Your change does not [affect web API
+  behavior to the point that developers need to be aware of
+  it](/blink/guidelines/web-exposed), e.g. no significant behavioral changes, and
+  no web-facing API changes.
+- Your change does not affect WebDriver API behavior. Although WebDriver changes
+  are not observable by web pages, they are exposed to web developers running
+  browser automation scripts. Thus, similar compatibility and interoperability
+  concerns apply as for web-exposed features.
+
+The rest of this document doesn’t apply to these types of changes, although such
+features might still have to go through a different launch process. Large projects
+should have public design docs that are also shared on blink-dev@chromium.org (or
+chromium-dev@, for projects that have significant parts outside of Blink) for feedback
+(this is also a good way to get the attention of other relevant leads).
 
 ## Frequently asked questions
 
