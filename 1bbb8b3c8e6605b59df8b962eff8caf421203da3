@@ -16,6 +16,23 @@
       "message": "Plz review it, thnaks.",
       "revId": "1bbb8b3c8e6605b59df8b962eff8caf421203da3",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1ae34fe3_2cd72e1c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1126876
+      },
+      "writtenOn": "2023-05-29T10:35:41Z",
+      "side": 1,
+      "message": "LGTM",
+      "revId": "1bbb8b3c8e6605b59df8b962eff8caf421203da3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
