@@ -33,6 +33,57 @@
       "message": "LGTM",
       "revId": "1bbb8b3c8e6605b59df8b962eff8caf421203da3",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5fc1a440_dd411183",
+        "filename": "site/developers/design-documents/form-styles-that-chromium-understands/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1421792
+      },
+      "writtenOn": "2023-05-29T10:48:47Z",
+      "side": 1,
+      "message": "I don\u0027t think we\u0027d advocate for using `autocomplete\u003d\"off\"`. Do you know the current  status dutton@?",
+      "revId": "1bbb8b3c8e6605b59df8b962eff8caf421203da3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "35c072ff_2ac42322",
+        "filename": "site/developers/design-documents/form-styles-that-chromium-understands/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 1421792
+      },
+      "writtenOn": "2023-05-29T10:48:47Z",
+      "side": 1,
+      "message": "Did you mean `signup`?",
+      "revId": "1bbb8b3c8e6605b59df8b962eff8caf421203da3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4dd7f1fe_90518ce1",
+        "filename": "site/developers/design-documents/form-styles-that-chromium-understands/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 1421792
+      },
+      "writtenOn": "2023-05-29T10:48:47Z",
+      "side": 1,
+      "message": "```suggestion\nThere are also useful [autocomplete attribute values for annotating address forms](https://web.dev/learn/forms/autofill/) and [Sign-in form best practice](https://web.dev/sign-in-form-best-practices/)\n```",
+      "revId": "1bbb8b3c8e6605b59df8b962eff8caf421203da3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
