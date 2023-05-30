@@ -35,6 +35,23 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e83c1218_fc6cf99e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1214214
+      },
+      "writtenOn": "2023-05-30T11:20:32Z",
+      "side": 1,
+      "message": "Thanks everyone!",
+      "revId": "761f3d80da6bd48a405c964001a6d40bb9485117",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6ccdd210_650f99f0",
@@ -48,6 +65,24 @@
       "writtenOn": "2023-05-26T15:05:01Z",
       "side": 1,
       "message": "```suggestion\nThe rest of this document doesn’t apply to changes that meet the above two conditions (and are therefore are not \"exposed to web developers\"), although such\n```",
+      "revId": "761f3d80da6bd48a405c964001a6d40bb9485117",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cae7b8e5_e83a0524",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1214214
+      },
+      "writtenOn": "2023-05-30T11:20:32Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "6ccdd210_650f99f0",
       "revId": "761f3d80da6bd48a405c964001a6d40bb9485117",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
