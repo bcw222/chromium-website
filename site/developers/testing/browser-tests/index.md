@@ -129,7 +129,7 @@ In case you are debugging JavaScript browser tests (e.g. tests defined in
 [cr_settings_browsertest.js](https://source.chromium.org/chromium/chromium/src/+/HEAD:chrome/test/data/webui/settings/cr_settings_browsertest.js)),
 it can be helpful to add debugger; statements and to pass
 `--auto-open-devtools-for-tabs`. This way the browser test will automatically halt
-when the debugger; statement is hit, allowing you to inspect the execution state
+when the `debugger;` statement is hit, allowing you to inspect the execution state
 via DevTools.
 
 ## Customizing The Test Harness
