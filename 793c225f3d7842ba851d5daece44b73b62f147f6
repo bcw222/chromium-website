@@ -1,0 +1,174 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1cee4a19_39f1906c",
+        "filename": "site/Home/chromium-security/security-reviews/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1348395
+      },
+      "writtenOn": "2023-06-01T20:00:14Z",
+      "side": 1,
+      "message": "blank line",
+      "revId": "793c225f3d7842ba851d5daece44b73b62f147f6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ea233d2_48cd14c1",
+        "filename": "site/Home/chromium-security/security-reviews/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1348395
+      },
+      "writtenOn": "2023-06-01T20:00:14Z",
+      "side": 1,
+      "message": "wrap para to (80?) columns\n\ns/it\u0027s best to/please/",
+      "revId": "793c225f3d7842ba851d5daece44b73b62f147f6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f465ba02_35a4251d",
+        "filename": "site/Home/chromium-security/security-reviews/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1348395
+      },
+      "writtenOn": "2023-06-01T20:00:14Z",
+      "side": 1,
+      "message": "s/confidential/internal/",
+      "revId": "793c225f3d7842ba851d5daece44b73b62f147f6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "38be71d7_86d7eb0a",
+        "filename": "site/Home/chromium-security/security-reviews/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1348395
+      },
+      "writtenOn": "2023-06-01T20:00:14Z",
+      "side": 1,
+      "message": "add a line",
+      "revId": "793c225f3d7842ba851d5daece44b73b62f147f6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "954236f0_b0c01f5e",
+        "filename": "site/Home/chromium-security/security-reviews/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1348395
+      },
+      "writtenOn": "2023-06-01T20:00:14Z",
+      "side": 1,
+      "message": "rouge linefeed at end? (you might need to setup some git prefs?)",
+      "revId": "793c225f3d7842ba851d5daece44b73b62f147f6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7d6a35eb_df15f3a1",
+        "filename": "site/Home/chromium-security/security-reviews/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1348395
+      },
+      "writtenOn": "2023-06-01T20:00:14Z",
+      "side": 1,
+      "message": "add a line after heading",
+      "revId": "793c225f3d7842ba851d5daece44b73b62f147f6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "94be8244_31f90973",
+        "filename": "site/Home/chromium-security/security-reviews/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1348395
+      },
+      "writtenOn": "2023-06-01T20:00:14Z",
+      "side": 1,
+      "message": "wrap.",
+      "revId": "793c225f3d7842ba851d5daece44b73b62f147f6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "40f1389c_e95d068f",
+        "filename": "site/Home/chromium-security/security-reviews/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1348395
+      },
+      "writtenOn": "2023-06-01T20:00:14Z",
+      "side": 1,
+      "message": "add line",
+      "revId": "793c225f3d7842ba851d5daece44b73b62f147f6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b52767bc_9b7c59f0",
+        "filename": "site/Home/chromium-security/security-reviews/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1348395
+      },
+      "writtenOn": "2023-06-01T20:00:14Z",
+      "side": 1,
+      "message": "maybe swap the order of these as OWP happens before ISE. Note that ISE is a google internal thing so that open source people don\u0027t have to think about it.\n\nplus - have these in distinct paragraphs.",
+      "revId": "793c225f3d7842ba851d5daece44b73b62f147f6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9fad9076_7464cbf1",
+        "filename": "site/Home/chromium-security/security-reviews/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1348395
+      },
+      "writtenOn": "2023-06-01T20:00:14Z",
+      "side": 1,
+      "message": "is there a link to the blink intents process that could go here?",
+      "revId": "793c225f3d7842ba851d5daece44b73b62f147f6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
