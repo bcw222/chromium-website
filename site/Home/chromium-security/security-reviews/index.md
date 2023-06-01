@@ -10,31 +10,39 @@ title: Chrome Security Reviews
 
 All launches and major changes to Chrome undergo a security review.
 
-Please note that filing a launch bug requires an @google.com account. For
-non-Google/open source contributors, find a Google PM who can help you with your
-launch. (If you don't know whom to ask, ask on chromium-dev@chromium.org).
-
-The Chrome Security Team used to ask engineers and PMs to provide the same
-information over and over again for incremental launches. We also had a hard
-time keeping on top of incremental changes and we weren't really using the
-cumulative review data to give us insight into the ongoing engineering practices
-across Chrome.
-
-This process aims to address these issues and make the review process simpler
-and faster for everyone. If you have further questions, ping adetaylor@.
+This page aims to provide guidance for those seeking a review.
 
 ## How does the security review process work?
 
-The full story is here: [go/chrome-security-review-plan](go/chrome-security-review-plan) (Google-internal, sorry).
+#### Informal pre-review:
 
-TL;DR: File a launch bug, and the security team will see it on their dashboard.
-Make sure to link to a design document in the launch bug. The security
-reviewer(s) will look to the design doc first, and will probably comment and ask
-questions in the document.
+If your project is especially tricky or large, please reach out to security@chromium.org
+(for public stuff; preferable) or chrome-security@google.com (for Google internal stuff)
+well ahead of time for an early design review or feedback on your design doc.
 
-If your project is especially tricky or large, it's best to reach out to
-security@chromium.org (for public stuff; preferable) or
-chrome-security@google.com (for Google confidential stuff) well ahead of time.
+This doesn't mean you will be assigned a reviewer/POC but reviewers will drive by with
+feedback. If we provide no feedback via this channel (likely by unfortunate email physics),
+please reach out and we will give the doc the attention it deserves!
+
+#### Formal review:
+
+The full story is here: [go/chrome-security-review-plan](go/chrome-security-review-plan)
+(Google-internal, sorry).
+
+TL;DR: File a launch bug, with a design document in the launch bug and provide comment access.
+The security reviewer(s) (automatically assigned) will look at the design doc first, and will
+probably comment and ask questions in the document.
+
+####  Similar but not quite Chrome Security reviews:
+
+OWP security review Intent flow [go/chrome-sp-owp-review-queue](go/chrome-sp-owp-review-queue)
+(Google-internal, sorry)
+
+[Blink Intent Process](https://chromium.googlesource.com/website/+/HEAD/site/blink/launching-features/index.md)
+
+ISE review (google internal): The approval from the formal review (via Launch) does not cover
+internal Google services.
+
 
 ## FAQ
 
@@ -70,11 +78,19 @@ security. Your team is still accountable and responsible for ensuring that your
 code is free of security bugs. Security reviews won’t catch all bugs, but they
 certainly do help to make sure your security practices are sound.
 
+The Chrome Security review does not cover ISE/OWP areas.
+
 #### Q: Are Chrome and Chrome OS using the same security review process?
 
 Yes, but with one important difference: for Chrome OS, kerrnel@ is the main
 point of contact. To file a Chrome OS feature survey, please follow the steps at
 go/cros-security-review.
+
+#### Q: Do I need to work at Google for the review process?
+
+Filing a launch bug requires an @google.com account. For
+non-Google/open source contributors, find a Google PM who can help you with your
+launch. (If you don't know whom to ask, ask on chromium-dev@chromium.org).
 
 #### Q: I have other questions. How can I get in contact?
 
