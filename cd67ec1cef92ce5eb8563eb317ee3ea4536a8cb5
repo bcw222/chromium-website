@@ -54,6 +54,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "cbd13099_3e24d44e",
+        "filename": "site/Home/chromium-security/security-reviews/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1348395
+      },
+      "writtenOn": "2023-06-02T21:02:42Z",
+      "side": 1,
+      "message": "True - it might be better to talk about \u0027security reviews for any backend components are not included in Chrome\u0027s security review\u0027",
+      "parentUuid": "b922b1b2_6121893e",
+      "revId": "cd67ec1cef92ce5eb8563eb317ee3ea4536a8cb5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1ace6a49_158cdb8c",
         "filename": "site/Home/chromium-security/security-reviews/index.md",
         "patchSetId": 8
