@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6bca007c_f616f0d4",
+        "filename": "site/Home/chromium-security/security-reviews/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1553592
+      },
+      "writtenOn": "2023-06-02T23:55:39Z",
+      "side": 1,
+      "message": "sigh yeah, I think this info would be good to add",
+      "parentUuid": "74238793_62de396f",
+      "revId": "cd67ec1cef92ce5eb8563eb317ee3ea4536a8cb5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b922b1b2_6121893e",
@@ -70,6 +88,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e210b429_c09d5a81",
+        "filename": "site/Home/chromium-security/security-reviews/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1553592
+      },
+      "writtenOn": "2023-06-02T23:55:39Z",
+      "side": 1,
+      "message": "IS IT the same?? my gosh. updated!",
+      "parentUuid": "b922b1b2_6121893e",
+      "revId": "cd67ec1cef92ce5eb8563eb317ee3ea4536a8cb5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1ace6a49_158cdb8c",
@@ -83,6 +119,24 @@
       "writtenOn": "2023-06-02T19:03:15Z",
       "side": 1,
       "message": "Nit-ish: I don\u0027t know if \"ISE review\" is its proper name, and I don\u0027t know that you\u0027re allowed to refer to an internal thing like ISE on a public page?",
+      "revId": "cd67ec1cef92ce5eb8563eb317ee3ea4536a8cb5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6043c653_78f945dc",
+        "filename": "site/Home/chromium-security/security-reviews/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1553592
+      },
+      "writtenOn": "2023-06-02T23:55:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1ace6a49_158cdb8c",
       "revId": "cd67ec1cef92ce5eb8563eb317ee3ea4536a8cb5",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
