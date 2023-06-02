@@ -16,6 +16,57 @@
       "message": "lgtm",
       "revId": "cd67ec1cef92ce5eb8563eb317ee3ea4536a8cb5",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "74238793_62de396f",
+        "filename": "site/Home/chromium-security/security-reviews/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1340064
+      },
+      "writtenOn": "2023-06-02T19:03:15Z",
+      "side": 1,
+      "message": "I think your edits here lack a key bit of information which PMs might want, and that\u0027s \"what security processes will I get to enjoy/endure?\"\n\nI might add a section here something like:\n\n\"Depending on the nature of your change, you might need to go through up to three security review processes, run by different teams.\n\nThe processes are:\n\n- For changes to web APIs, the Blink intents process\n- For changes to backend Google services, Google\u0027s internal security review process\n- For changes to Chrome application features, or any other non-trivial[0] changes to Chrome, the Chrome launch process review.\n\nThese reviews consider different things so don\u0027t usually overlap. But nevertheless, for maximal review speed, please cross-link the reviews so each reviewer can consult with each other (which will also ensure you get consistent and cohesive answers.)\n\"\n\nOr something like that?\n\n[0] link to go/chrome-launch#criteria",
+      "revId": "cd67ec1cef92ce5eb8563eb317ee3ea4536a8cb5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b922b1b2_6121893e",
+        "filename": "site/Home/chromium-security/security-reviews/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1340064
+      },
+      "writtenOn": "2023-06-02T19:03:15Z",
+      "side": 1,
+      "message": "The OWP security review is the same as the Blink intent process, right?",
+      "revId": "cd67ec1cef92ce5eb8563eb317ee3ea4536a8cb5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1ace6a49_158cdb8c",
+        "filename": "site/Home/chromium-security/security-reviews/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1340064
+      },
+      "writtenOn": "2023-06-02T19:03:15Z",
+      "side": 1,
+      "message": "Nit-ish: I don\u0027t know if \"ISE review\" is its proper name, and I don\u0027t know that you\u0027re allowed to refer to an internal thing like ISE on a public page?",
+      "revId": "cd67ec1cef92ce5eb8563eb317ee3ea4536a8cb5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
