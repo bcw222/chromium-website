@@ -36,7 +36,7 @@ included on the platforms where they're actually used.
 2.  \[BlackCloudOfMagic\] Translators are provided with the new strings.
 3.  &lt;Googler-only link&gt; Further internal detail about the
     translation process
-    [here](https://sites.google.com/a/google.com/chrome-pmo/tasks/l13n).
+    [here](https://g3doc.corp.google.com/chrome/language/g3doc/localization.md).
     &lt;/Googler-only link&gt;
 4.  \[BlackCloudOfMagic\] Translations are created and stored in .xtb
     files
