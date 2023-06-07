@@ -1,3 +1,3 @@
 ---
-redirect: /chromium-projects
+redirect: www.google.com
 ---
