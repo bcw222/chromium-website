@@ -16,6 +16,156 @@
       "message": "Full URL to the update is here:\n\nhttps://chromium-website--cl4598274-ps2-i1s32id3.web.app/developers/how-tos/debugging-on-windows/windbg-help/",
       "revId": "4e5891b7803270507493dda7f6f34224ee08a93f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b759de16_c5012642",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-06-07T21:32:18Z",
+      "side": 1,
+      "message": "Thanks!",
+      "parentUuid": "7eaef72d_d590c570",
+      "revId": "4e5891b7803270507493dda7f6f34224ee08a93f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "08661095_5609bf3f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-06-07T21:32:18Z",
+      "side": 1,
+      "message": "LGTM with nits",
+      "revId": "4e5891b7803270507493dda7f6f34224ee08a93f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "38bb4b0e_a018287f",
+        "filename": "site/developers/how-tos/debugging-on-windows/windbg-help/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-06-07T21:32:18Z",
+      "side": 1,
+      "message": "I think it\u0027d be good to start referring to it as WinDBG Preview in this paragraph, since we refer to it by name later (e.g., line 47).\n\nHow about something like \"You can also install WinDBG Preview, the new/preview version of WinDBG, from the Microsoft Store\"?",
+      "range": {
+        "startLine": 23,
+        "startChar": 25,
+        "endLine": 23,
+        "endChar": 54
+      },
+      "revId": "4e5891b7803270507493dda7f6f34224ee08a93f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5c5829b9_dd292606",
+        "filename": "site/developers/how-tos/debugging-on-windows/windbg-help/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-06-07T21:32:18Z",
+      "side": 1,
+      "message": "nit: capitalize Store",
+      "range": {
+        "startLine": 23,
+        "startChar": 74,
+        "endLine": 23,
+        "endChar": 79
+      },
+      "revId": "4e5891b7803270507493dda7f6f34224ee08a93f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "85e149d5_b9014666",
+        "filename": "site/developers/how-tos/debugging-on-windows/windbg-help/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-06-07T21:32:18Z",
+      "side": 1,
+      "message": "How about \"WinDBG Preview\" to be more concise?",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 23
+      },
+      "revId": "4e5891b7803270507493dda7f6f34224ee08a93f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3d8f1f5d_7f53f07f",
+        "filename": "site/developers/how-tos/debugging-on-windows/windbg-help/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-06-07T21:32:18Z",
+      "side": 1,
+      "message": "How about \"WinDBG Preview\u0027s executable name\" (or at least, use \"preview version\" here rather than \"previous version\")",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 55
+      },
+      "revId": "4e5891b7803270507493dda7f6f34224ee08a93f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a6a7724c_15a24d57",
+        "filename": "site/developers/how-tos/debugging-on-windows/windbg-help/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-06-07T21:32:18Z",
+      "side": 1,
+      "message": "I think this sentence could be interpreted as \"you should configure Crashpad\", I don\u0027t think is intended.\n\nWhat about something like \"Crashpad always tries to record the code bytes near the crashing instruction, so source code near the crash is usually from the crash dump, while source code e.g., higher in the call stack is more likely to be from the symbol server\"? Feel free to reword however makes sense to you - I\u0027d just mostly avoid the \"Crashpad should be configured\" opening.",
+      "range": {
+        "startLine": 179,
+        "startChar": 45,
+        "endLine": 181,
+        "endChar": 25
+      },
+      "revId": "4e5891b7803270507493dda7f6f34224ee08a93f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
