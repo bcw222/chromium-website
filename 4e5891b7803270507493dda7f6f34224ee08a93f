@@ -166,6 +166,30 @@
       },
       "revId": "4e5891b7803270507493dda7f6f34224ee08a93f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5e8ee667_72b31c21",
+        "filename": "site/developers/how-tos/debugging-on-windows/windbg-help/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2023-06-07T23:00:49Z",
+      "side": 1,
+      "message": "Unfortunately crashpad isn\u0027t always configured to record the code bytes. My use of \"should\" was (intentionally) ambiguous there.",
+      "parentUuid": "a6a7724c_15a24d57",
+      "range": {
+        "startLine": 179,
+        "startChar": 45,
+        "endLine": 181,
+        "endChar": 25
+      },
+      "revId": "4e5891b7803270507493dda7f6f34224ee08a93f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
