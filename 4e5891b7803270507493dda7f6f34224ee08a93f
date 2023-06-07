@@ -190,6 +190,30 @@
       },
       "revId": "4e5891b7803270507493dda7f6f34224ee08a93f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dfb72cd1_fa6b49bf",
+        "filename": "site/developers/how-tos/debugging-on-windows/windbg-help/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-06-07T23:21:53Z",
+      "side": 1,
+      "message": "I see, maybe something like \"Crashpad is usually configured to record the code bytes\" - that would be closer to the intended meaning while avoiding \"should\".",
+      "parentUuid": "5e8ee667_72b31c21",
+      "range": {
+        "startLine": 179,
+        "startChar": 45,
+        "endLine": 181,
+        "endChar": 25
+      },
+      "revId": "4e5891b7803270507493dda7f6f34224ee08a93f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
