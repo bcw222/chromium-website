@@ -99,6 +99,54 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "38d9a33c_acef9645",
+        "filename": "site/developers/how-tos/debugging-on-windows/windbg-help/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2023-06-10T00:20:16Z",
+      "side": 1,
+      "message": "Okay. I just checked in its About menu and the official name indeed still \"WinDbg Preview\", so I\u0027ll use that. I also standardized on WinDbg (instead of WinDBG) for the old version because that is consistent with the preview version and with how Microsoft spells it.",
+      "parentUuid": "38bb4b0e_a018287f",
+      "range": {
+        "startLine": 23,
+        "startChar": 25,
+        "endLine": 23,
+        "endChar": 54
+      },
+      "revId": "4e5891b7803270507493dda7f6f34224ee08a93f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b99a352c_4048793e",
+        "filename": "site/developers/how-tos/debugging-on-windows/windbg-help/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2023-06-10T00:20:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5c5829b9_dd292606",
+      "range": {
+        "startLine": 23,
+        "startChar": 74,
+        "endLine": 23,
+        "endChar": 79
+      },
+      "revId": "4e5891b7803270507493dda7f6f34224ee08a93f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "85e149d5_b9014666",
@@ -122,6 +170,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e3c49166_bb401b91",
+        "filename": "site/developers/how-tos/debugging-on-windows/windbg-help/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2023-06-10T00:20:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "85e149d5_b9014666",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 23
+      },
+      "revId": "4e5891b7803270507493dda7f6f34224ee08a93f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3d8f1f5d_7f53f07f",
@@ -135,6 +207,30 @@
       "writtenOn": "2023-06-07T21:32:18Z",
       "side": 1,
       "message": "How about \"WinDBG Preview\u0027s executable name\" (or at least, use \"preview version\" here rather than \"previous version\")",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 55
+      },
+      "revId": "4e5891b7803270507493dda7f6f34224ee08a93f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ddf4ce84_140a3a8f",
+        "filename": "site/developers/how-tos/debugging-on-windows/windbg-help/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2023-06-10T00:20:16Z",
+      "side": 1,
+      "message": "Whoops! Yep, that made no sense.",
+      "parentUuid": "3d8f1f5d_7f53f07f",
       "range": {
         "startLine": 28,
         "startChar": 0,
@@ -212,6 +308,47 @@
         "endLine": 181,
         "endChar": 25
       },
+      "revId": "4e5891b7803270507493dda7f6f34224ee08a93f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8af5d255_102da7b6",
+        "filename": "site/developers/how-tos/debugging-on-windows/windbg-help/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 181,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2023-06-10T00:20:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dfb72cd1_fa6b49bf",
+      "range": {
+        "startLine": 179,
+        "startChar": 45,
+        "endLine": 181,
+        "endChar": 25
+      },
+      "revId": "4e5891b7803270507493dda7f6f34224ee08a93f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "264fb1a2_9c156aee",
+        "filename": "site/developers/how-tos/debugging-on-windows/windbg-help/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 183,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2023-06-10T00:20:16Z",
+      "side": 1,
+      "message": "Whoops! I accidentally deleted a hyphen. Fixed.",
       "revId": "4e5891b7803270507493dda7f6f34224ee08a93f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
