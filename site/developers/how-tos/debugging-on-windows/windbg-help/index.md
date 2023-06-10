@@ -7,18 +7,27 @@ breadcrumbs:
 - - /developers/how-tos/debugging-on-windows
   - Debugging Chromium on Windows
 page_name: windbg-help
-title: WinDBG help
+title: WinDbg help
 ---
 
-[WinDBG](http://www.microsoft.com/whdc/DevTools/Debugging/default.mspx) is a
+[WinDbg](http://www.microsoft.com/whdc/DevTools/Debugging/default.mspx) is a
 great, free tool. It is more powerful than Visual Studio's built-in debugger,
 but is harder to use (kind of like gdb on Linux). You can retrieve the [latest
-version](http://msdn.microsoft.com/en-us/windows/hardware/hh852365) from
+SDK version](http://msdn.microsoft.com/en-us/windows/hardware/hh852365) from
 Microsoft's web site. You should end up with two versions of the tool: the
 32-bit debugger and the 64-bit debugger. If you already have it installed or if
 you are using the packaged Chromium toolchain (which includes windbg) then you
 can launch it using tools\\win\\windbg32.bat or tools\\win\\windbg64.bat. These
 batch files find and run the appropriate version, wherever it is.
+
+You can also install WinDbg Preview, the new/preview version of WinDbg, from the
+Microsoft Store or [this link](https://aka.ms/windbg/download). Discussion of
+various issues around getting this version can be found [here](https://github.com/microsoftfeedback/WinDbg-Feedback/issues/19#issuecomment-1512275411).
+WinDbg Preview is being more actively developed and has a friendlier
+out-of-box experience so it is probably the best choice for new WinDbg users.
+The executable name for WinDbg Preview is WinDbgX.exe so substitute that for
+windbg in examples below. WinDbgX.exe should automatically be in your path once
+you install it.
 
 ### Initial setup
 
@@ -35,7 +44,7 @@ editor.
 2.  Configure WinDbg to use a sensible window layout by navigating
             explorer to "**C:\\Program Files (x86)\\Windows
             Kits\\10\\Debuggers\\x64\\themes**" and double-clicking on
-            **standard.reg**.
+            **standard.reg** (not needed with WinDbg Preview).
 3.  Launch **windbg.exe** and:
     1.  In the menu *File,* *Source File Path...*, set the path to
                 **srv\***.
@@ -145,7 +154,7 @@ SRV\*c:\\code\\symbols\*https://msdl.microsoft.com/download/symbols;SRV\*c:\\cod
 *   **F5, Ctrl-Shift-F5, F9, F10, F11**
     *   Run, restart, toggle breakpoint, step over, step into.
 
-One of the major benefits of WinDBG for debugging Chromium is its ability to
+One of the major benefits of WinDbg for debugging Chromium is its ability to
 automatically debug child processes. This allows you to skip all the complicated
 instructions above. The easiest way to enable this is to check "*Debug child
 processes also*" in the "*Open Executable*" dialog box when you start debugging
@@ -159,22 +168,47 @@ process (**.detach**)
 
 ### **Common commands when working with a crash**
 
+*   **!address address**
+    *   Displays information about the specified address. This can be used as
+                !address @eip or !address @rip to get information about the
+                instruction that crashed. "Content source: 1 (target)" means the
+                memory came from the target machine - from the crash dump.
+                "Content source: 2 (mapped)" means the memory came from an image
+                file, presumably from the symbol server. !chkimg is only
+                meaningful if (target) bytes are available to compare. See
+                .dumpdebug for more details. If crashpad is properly configured
+                then it will record code bytes from the crash location.
+                Note that sometimes running !address will undo .ecxr and you
+                will need to run that command again.
+
 *   **!analyze -v**
     *   Displays a basic crash analysis report.
+
+*   **!chkimg**
+    *   Checks for memory corruption by comparing code bytes from the symbol
+                server with code bytes from the minidump. See !address for how
+                to see whether these results are meaningful.
 
 *   **.ecxr**
     *   Switch the context to the exception record.
 
+*   **.exr -1**
+    *   Display details about the exception (address dereferenced, for instance)
+
 *   **dds address**
     *   Displays symbols following address (as in a stack or vtable)
+
+*   **.dumpdebug**
+    *   Dumps a detailed record of what data (handles, modules, memory ranges)
+                was recorded in the crash dump.
 
 *   **k = address address address**
     *   Rebuilds a call stack assuming that address is a valid stack
                 frame.
 
-*   **lm vmchr\***
+*   **lm vm chr\***
     *   Lists verbose information about all modules with a name that
-                starts with ch
+                starts with chr
 
 *   **ln address**
     *   Lists all symbols that match a given address (dedups a symbol).
@@ -215,7 +249,7 @@ windbg, as in:
 **windbg -g -G -o chrome.exe**
 
 To automatically attach to processes you want to run over and over with complex
-command lines, just attach WinDBG to your command prompt and then **.childdbg
+command lines, just attach WinDbg to your command prompt and then **.childdbg
 1** the command prompt - any processes launched from there will automatically be
 debugged. H/T pennymac@
 
