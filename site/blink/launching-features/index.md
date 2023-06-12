@@ -233,7 +233,7 @@ you request an [Early Design Review](https://github.com/w3ctag/design-reviews/is
 from the [TAG](https://www.w3.org/2001/tag/) and proceed to
 the “Dev Trials” stage in ChromeStatus (note also exceptions enumerated
 [here](/blink/guidelines/api-owners/process-exceptions/)). This will generate
-a “Ready for Trial” email that you should send to
+a “Ready for Developer Testing” email that you should send to
 [blink-dev](mailto:blink-dev@chromium.org) to notify the community they can
 try out the feature. At this point, you should consider asking other browser
 vendors and the web developer community for
@@ -242,7 +242,8 @@ vendors and the web developer community for
 This is the main iterating stage of feature development and helps you assess
 product-market-fit early on before you corner yourself (does your API address a
 problem with meaningful demand? did we get the ergonomics right?). You may wish
-to send more than one Ready for Trial emails, if you make substantial changes to
+to send more than one Ready for Developer Testing emails, if you make
+substantial changes to
 the API shape while iterating. You should work with the TAG to complete their
 review and address any issues raised during this stage, and should address any
 issues raised by other horizontal reviews (accessibility, privacy,
@@ -419,7 +420,7 @@ If the TAG has not already reviewed the consensus specification, request a
 (except in the cases noted
 [here](/blink/guidelines/api-owners/process-exceptions/))
 and proceed to the “Dev Trials” stage in ChromeStatus. This will generate a
-“Ready for Trial” email that you should send to
+“Ready for Developer Testing” email that you should send to
 [blink-dev](mailto:blink-dev@chromium.org) to notify the community they can
 try out the feature.
 
@@ -520,7 +521,7 @@ the next step.
 #### Step 2: Dev trial of deprecation {:#deprecation-dev-trials}
 
 Proceed to the “Dev Trials” stage in ChromeStatus. This will generate a “Ready
-for Trial” email that you should send to
+for Developer Testing” email that you should send to
 [blink-dev](mailto:blink-dev@chromium.org) to notify the community they can try
 out the feature deprecation.
 
@@ -613,7 +614,8 @@ Fill out the “Motivation” section with a brief summary, and proceed to the
 
 If you want to try out this change before shipping it, put your code in Chromium
 as [runtime enabled features](/blink/runtime-enabled-features), and set the
-status to “Dev Trial” in ChromeStatus. This will generate a “Ready for Trial”
+status to “Dev Trial” in ChromeStatus. This will generate a “Ready for
+Developer Testing”
 email that you should send to [blink-dev](mailto:blink-dev@chromium.org) to
 notify the community they can try out code change.
 
