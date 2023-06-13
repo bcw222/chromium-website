@@ -33,6 +33,92 @@
       "message": "I now wonder if the website is actually the best place for this, or if we should just put it into components/sync_preferences/README.md instead. Let me know if you have a preference.",
       "revId": "1ecad253c1eea43450545b381a0f3d3886f41f9d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ef1a17f3_504dc2cc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1383114
+      },
+      "writtenOn": "2023-06-13T16:00:35Z",
+      "side": 1,
+      "message": "Thx! Left some quick suggestions",
+      "revId": "1ecad253c1eea43450545b381a0f3d3886f41f9d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f80c7cae_15bfb8ef",
+        "filename": "site/developers/design-documents/sync/syncable-preferences/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1383114
+      },
+      "writtenOn": "2023-06-13T16:00:35Z",
+      "side": 1,
+      "message": "Suggestion: underline more strongly that the privacy impact also comes from the upload into the Google account, e.g. by \"[...] will be uploaded to the Google account and propagate [...]\".",
+      "range": {
+        "startLine": 17,
+        "startChar": 5,
+        "endLine": 17,
+        "endChar": 19
+      },
+      "revId": "1ecad253c1eea43450545b381a0f3d3886f41f9d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "457b133f_61b51421",
+        "filename": "site/developers/design-documents/sync/syncable-preferences/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1383114
+      },
+      "writtenOn": "2023-06-13T16:00:35Z",
+      "side": 1,
+      "message": "Can be left out (or are there exceptions to it?)",
+      "range": {
+        "startLine": 28,
+        "startChar": 4,
+        "endLine": 28,
+        "endChar": 19
+      },
+      "revId": "1ecad253c1eea43450545b381a0f3d3886f41f9d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "efc1f857_06e5c67a",
+        "filename": "site/developers/design-documents/sync/syncable-preferences/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1383114
+      },
+      "writtenOn": "2023-06-13T16:00:35Z",
+      "side": 1,
+      "message": "Could this make it a bit clearer that the reviewer is responsible for ensuring that the privacy impact of the change to syncable prefs is acceptable, and if that\u0027s unclear/questionable, that the right path forward is to reach out to privacy?",
+      "range": {
+        "startLine": 31,
+        "startChar": 4,
+        "endLine": 31,
+        "endChar": 55
+      },
+      "revId": "1ecad253c1eea43450545b381a0f3d3886f41f9d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
