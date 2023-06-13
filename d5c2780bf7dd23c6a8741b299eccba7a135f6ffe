@@ -50,6 +50,23 @@
       "message": "WANT_LGTM\u003dall",
       "revId": "d5c2780bf7dd23c6a8741b299eccba7a135f6ffe",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9c87cb1_278f5692",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1115944
+      },
+      "writtenOn": "2023-06-13T18:39:29Z",
+      "side": 1,
+      "message": "Woo!",
+      "revId": "d5c2780bf7dd23c6a8741b299eccba7a135f6ffe",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
