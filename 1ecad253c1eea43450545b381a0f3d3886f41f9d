@@ -52,6 +52,42 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e4a8373_36137f96",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1383114
+      },
+      "writtenOn": "2023-06-13T16:02:35Z",
+      "side": 1,
+      "message": "Thx! Left comments.",
+      "parentUuid": "b83f15ac_a7f20eed",
+      "revId": "1ecad253c1eea43450545b381a0f3d3886f41f9d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "813852fe_02416fa9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1383114
+      },
+      "writtenOn": "2023-06-13T16:02:35Z",
+      "side": 1,
+      "message": "I care about reviewers spotting this and following it :) So form my side: whatever makes this easier for reviewers. No opinion beyond this from my side.",
+      "parentUuid": "0e45b975_b1960b35",
+      "revId": "1ecad253c1eea43450545b381a0f3d3886f41f9d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f80c7cae_15bfb8ef",
