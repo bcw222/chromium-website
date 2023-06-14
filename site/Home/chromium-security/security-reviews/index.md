@@ -8,6 +8,8 @@ page_name: security-reviews
 title: Chrome Security Reviews
 ---
 
+# How to request Chrome Browser security reviews
+
 All launches and major changes to Chrome undergo a security review.
 
 This page aims to provide guidance for those seeking a review.
