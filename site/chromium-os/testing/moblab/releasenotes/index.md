@@ -17,6 +17,41 @@ title: MobLab Release Notes
 *   [Wyvern (puff) OS Recovery
             Image](https://storage.googleapis.com/moblab-recovery-images/chromeos_14526.55.0_puff-moblab_recovery_stable-channel_mp-v3.bin.zip)
 
+# June 15th 2023: Moblab Release
+
+**You should reboot Moblab when tests are not running to get this latest version of the software.**
+After the update you will be running Moblab version R-2.23.3 
+
+**Highlights**
+- Surface the ChromeOS builds recommended by the SPERA team for Performance_CUJ test suite
+
+# March 15th 2023: Moblab Release
+
+**You should reboot Moblab when tests are not running to get this latest version of the software.**
+After the update you will be running Moblab version R-2.22.3 
+
+**Highlights**
+- Moblab is ready for the upcoming change in the RSA key for ChromeOS builds. ChromeOS builds will be switching to using a new private RSA key that is accessible to only Google and Partners. (Only ChromiumOS builds will have the public RSA key).
+- New FWUPD test suite introduced in the experimental section. This test suite would be used by peripheral OEMs for testing peripheral firmware upgrade process.
+
+# January 28th 2023: Moblab Release
+
+**You should reboot Moblab when tests are not running to get this latest version of the software.**
+After the update you will be running Moblab version R-2.21.1
+
+**Highlights**
+1. New sub-tabs in the "View Jobs" section to filter the jobs based on job status
+2. Better display of any authentication issues encountered while accessing a DUT
+3. Removing unused test suites (PVS)
+
+# November 28th 2022: Moblab Release
+**You should reboot Moblab when tests are not running to get this latest version of the software.**
+After the update you will be running Moblab version R-2.20.2
+
+**Highlights**
+- Fix to run suite on model specified instead of just the board specified. 
+- Improvements to usability of DUT management page
+
 # November 15th 2022: Moblab Patch Release
 **You should reboot your Moblab when next not running tests to get this latest version of the software.**
 
