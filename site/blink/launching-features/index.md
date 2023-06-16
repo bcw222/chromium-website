@@ -603,21 +603,51 @@ is time pressure you may be able to get permission to merge UseCounter changes
 into an existing dev/beta branch, and make provisional decisions based on data
 from beta channel.
 
-### Web-developer-facing change to existing code (PSA) {:#psa-process}
+### Web-developer-facing change to existing behavior {:#behavior-changes}
 
-#### Step 1: Write up motivation and implement code {:#psa-motivation}
+#### Step 1: Write up motivation {:#behavior-change-motivation}
 
-Fill out the “Motivation” section with a brief summary, and proceed to the
-“Implementing” stage in ChromeStatus.
+Fill out the “Motivation” section in ChromeStatus with a brief summary of the
+reasons we want to modify the current behavior.
 
-#### Step 2: (Optional) Dev trial {:#psa-dev-trial}
+#### Step 2: Assess backwards compatibility {:#behavior-change-compat}
 
-If you want to try out this change before shipping it, put your code in Chromium
-as [runtime enabled features](/blink/runtime-enabled-features), and set the
+At this step, you should determine if the behavior change you're trying to
+make can be considered a low-risk bug fix, or it has non-negligible 
+likelihood to result in site breakage.
+
+The following criteria are worthwhile considering:
+* Can the change cause breakage? 
+  - Is it possible that existing code relies on the current behavior?
+  - What would that coding pattern look like? How likely it is that this 
+  coding pattern is used in the wild?
+* What are other browser engines doing? 
+  - Would this change align Chromium's behaviour with other vendors? Or 
+  would Chromium be the first to roll-out this behavior change?
+* How used is the feature being changed?
+* How likely is breakage in sites that only support Chromium browsers? 
+(enterprise environments, kiosks, etc)
+
+If the result of this consideration is that the change is not unlikely 
+to cause breakage, then sending an Intent to Ship would be more 
+appropriate for this change. Otherwise, you may continue with a PSA.
+
+Another reason for a PSA could be a large-scale refactoring that 
+doesn't *intend* to result in behavior changes, but may do so in practice.
+
+The purpose of a PSA is to notify the broader Chromium community about
+the change, and enables folks to test against it and potentially
+re-examine the risk assessment regarding potential breakage.
+
+#### Step 3: (Optional) Dev trial {:#psa-dev-trial}
+
+If you want developers to try out this change before shipping it (e.g.,
+to assess potential breakage), put the relevant code behind a [runtime 
+enabled feature](/blink/runtime-enabled-features), and set the
 status to “Dev Trial” in ChromeStatus. This will generate a “Ready for
-Developer Testing”
-email that you should send to [blink-dev](mailto:blink-dev@chromium.org) to
-notify the community they can try out code change.
+Developer Testing” email that you should send to 
+[blink-dev](mailto:blink-dev@chromium.org) to notify the community they
+can try out this change.
 
 #### Step 3: Prepare to Ship {:#psa-prepare-to-ship}
 
