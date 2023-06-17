@@ -222,8 +222,8 @@ these steps:
 
 3.  Build everything
 
-    ```none
-    $ build_packages --board daisy
+    ```bash
+    $ cros build-packages --board daisy
     ```
 
     ```none

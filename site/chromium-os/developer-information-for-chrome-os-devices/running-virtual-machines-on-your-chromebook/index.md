@@ -68,8 +68,9 @@ To start, you're going to need an image that has the KVM modules. You should
 update your sources, then build an image with (at minimum) the USE=kvm option,
 viz:
 
-```none
-USE=kvm ./build_image --board=lumpy --noenable_rootfs_verification --boot_args 'disablevmx=off lsm.module_locking=0'
+```bash
+USE=kvm cros build-image --board=lumpy --no-enable-rootfs-verification \
+    --boot-args 'disablevmx=off lsm.module_locking=0'
 ```
 
 Googlers: I have USB sticks that you can use for this install. Come see me if

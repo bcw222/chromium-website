@@ -47,7 +47,8 @@ them, and then generates a compressed HTML file that will be located under
 
     ```none
     $ board=x86-alex
-    $ ./build_packages --board=$board --nowithautotest --nowithtest --nowithdev --nowithfactory
+    $ cros build-packages --board=$board --no-withautotest --no-withtest \
+         --no-withdev --no-withfactory
     ```
 
 *   read the comments at the top of licenses.py for more instructions

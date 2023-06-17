@@ -96,20 +96,20 @@ export BOARD="kevin|scarlet"# Only run once./setup_board --board=$BOARDcros_work
 
 For scarlet:
 
-```none
-VIDEO_CARDS="llvmpipe rockchip" USE="llvm llvm_targets_ARM gpu_sandbox_failures_not_fatal -gpu_sandbox_start_early -tpm2 mocktpm $USE" ./build_packages --board=$BOARD
+```bash
+VIDEO_CARDS="llvmpipe rockchip" USE="llvm llvm_targets_ARM gpu_sandbox_failures_not_fatal -gpu_sandbox_start_early -tpm2 mocktpm $USE" cros build-packages --board=$BOARD
 ```
 
 For kevin:
 
-```none
-VIDEO_CARDS="llvmpipe rockchip" USE="llvm llvm_targets_ARM gpu_sandbox_failures_not_fatal -gpu_sandbox_start_early $USE" ./build_packages --board=$BOARD
+```bash
+VIDEO_CARDS="llvmpipe rockchip" USE="llvm llvm_targets_ARM gpu_sandbox_failures_not_fatal -gpu_sandbox_start_early $USE" cros build-packages --board=$BOARD
 ```
 
 Build a test image:
 
-```none
-./build_image --boot_args="noinitrd kgdboc=ttyS2 slub_debug=FZPUA" --enable_serial=ttyS2 --board=${BOARD} --noenable_rootfs_verification test
+```bash
+cros build-image --boot-args="noinitrd kgdboc=ttyS2 slub_debug=FZPUA" --enable-serial=ttyS2 --board=${BOARD} --no-enable-rootfs-verification test
 ```
 
 Now follow the instructions from the [Chromium OS Developer

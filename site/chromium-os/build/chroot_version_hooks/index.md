@@ -26,9 +26,9 @@ The version hooks all exist under
 [src/scripts/chroot_version_hooks.d](https://chromium.googlesource.com/chromiumos/platform/crosutils/+/HEAD/chroot_version_hooks.d/).
 Each hook script has a name that begins with "&lt;num&gt;_", where &lt;num&gt;
 is an integer that represents the version number of a chroot. Whenever a new
-chroot is entered (via "cros_sdk") or "build_packages" is run all upgrade hooks
-with versions newer than the chroot version are run (in sequential order) to
-upgrade the chroot to the latest version.
+chroot is entered (via `cros_sdk`) or `cros build-packages` is run all upgrade
+hooks with versions newer than the chroot version are run (in sequential order)
+to upgrade the chroot to the latest version.
 
 Upgrade scripts can be arbitrary bash scripts. The best way to write a new
 script is to look for existing examples in chroot_version_hooks.d. With that

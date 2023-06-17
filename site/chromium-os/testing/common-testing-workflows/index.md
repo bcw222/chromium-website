@@ -15,7 +15,7 @@ document details those.
 
 ## Workflow 1
 
-### *Developer already has a built system using build instructions. Developer wants to create a copy of their image for testing and build Chromium OS tests without re-running build_packages.*
+### Developer already has a built system using build instructions. Developer wants to create a copy of their image for testing and build Chromium OS tests without re-running `cros build-packages`.
 
 ### cros_sdk and run mod_image_for_test on the chromiumos_image.bin (if you get complaints of unmount errors, sudo umount /media/\* outside the chroot).
 
@@ -164,17 +164,16 @@ RDEPEND=”>foo-0.0.1-r100”
 1. Choose which board you want to build for (we'll refer to this as ${BOARD},
 which is for example "x86-generic").
 
-2. Set up a proper portage build chroot setup. Go through the normal process of
-setup_board if you haven't already.
+2. Set up a proper portage build chroot setup.
 
-```none
-$ ./build_packages --board=${BOARD}
+```bash
+$ cros build-packages --board=${BOARD}
 ```
 
 3. Build test image.
 
-```none
-$ ./build_image --board=${BOARD} test
+```bash
+$ cros build-image --board=${BOARD} test
 ```
 
 4. Install the Chromium OS testing image to your target machine. This is through

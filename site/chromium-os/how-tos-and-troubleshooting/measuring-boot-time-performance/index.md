@@ -20,11 +20,11 @@ Requirements for bootperf
 
 ### Verified boot and performance
 
-A word of warning about verified boot: If `build_image` is invoked with the
-`--noenable_rootfs_verification` option, this will substantially impact measured
-boot time: The option measurably speeds up boot. To do a fair, apples-to-apples
-comparison of two images, *one must build both images with the same setting of
-the option*.
+A word of warning about verified boot: If `cros build-image` is invoked with the
+`--no-enable-rootfs-verification` option, this will substantially impact
+measured boot time: The option measurably speeds up boot.  To do a fair,
+apples-to-apples comparison of two images, *one must build both images with the
+same setting of the option*.
 
 Also, the performance results observed with verification off are not comparable
 to when verification is on, and vice-versa. The Chromium/Chrome OS boot time

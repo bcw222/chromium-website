@@ -14,34 +14,8 @@ title: Boot mainline kernel on veyron-jaq
 
 #### Setup
 
-Follow the instructions in the [Chromium OS Developer
-Guide](/chromium-os/developer-guide), the tl;dr version being:
-
-```none
-mkdir ~/s/chromium
-```
-
-```none
-cd ~/s/chromium
-```
-
-```none
-repo init -u https://chromium.googlesource.com/chromiumos/manifest.git --repo-url https://chromium.googlesource.com/external/repo.git
-```
-
-```none
-repo sync -j50
-```
-
-#### Build
-
-```none
-cros_sdk # to enter chroot
-BOARD=veyron_jaq
-./setup_board --board=$BOARD
-./build_packages --board=$BOARD
-./build_image --board=$BOARD --noenable_rootfs_verification --enable_serial=ttyS2 test
-```
+Follow the instructions in the
+[Developer Guide](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_guide.md).
 
 ## Firmware
 

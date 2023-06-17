@@ -113,10 +113,7 @@ script and is accomplished by just running:
 ./build_sdk_board --board amd64-host
 ```
 
-If you're used to the normal Chromium OS flow, be aware that this step is like
-running setup_board and build_packages in one go.
-
-This means it'll take quite a long time for this to finish (as it has to build a
+It'll take quite a long time for this to finish (as it has to build a
 few hundred packages from source). Everything will be written to
 `/board/amd64-host`.
 
@@ -160,7 +157,7 @@ verifies the normal developer workflow of creating a new chroot from this SDK.
 
 Inside of the new chroot, we do a normal build flow for a couple of boards. At
 the moment, that means one for each major architecture (i.e. amd64-generic,
-arm-generic). We only run setup_board+build_packages though; no unittests or
+arm-generic). We only run `cros build-packages` though; no unittests or
 anything else (as current history as shown it to not be necessary).
 
 ### Upload the binary packages

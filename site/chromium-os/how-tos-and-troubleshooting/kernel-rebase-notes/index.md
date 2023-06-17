@@ -474,7 +474,9 @@ Since dm-verity isn't entirely upstream, first is to build and install an image
 with --noenable_rootfs_verification. This will allow us to update the kernel for
 testing chromeos-base-3.2:
 
-`./build_image --board=$B --test --noenable_rootfs_verification`
+``` bash
+cros build-image --board=$B test --no-enable-rootfs-verification
+```
 
 Once we merge in chromes-verity-v3.2 topic branch, then we can rebuild normally.
 
@@ -491,7 +493,7 @@ One can modify the parameters in two places depending on which tools are used to
 push kernels:
 
 1.  update_kernel.sh : vi ~/trunk/src/build/images/$B/latest/config.txt
-2.  build_image.sh : vi ~/trunk/src/scripts/build_kernel_image.sh and
+2.  `cros build-image` : vi ~/trunk/src/scripts/build_kernel_image.sh and
             modify where this script writes out parameters to config.txt. Then
             (re)run build_image as shown above.
 

@@ -179,11 +179,11 @@ inside the `setup() method of your python code.` A couple of simple examples:
 platforms as it will cause a build break if it does not.*
 
 The setup method of all python scripts are built as part of build_autotest.sh
-(which is called when you build_packages --withautotest). This script calls all
-the setup functions of every python test and runs them. These setup steps are
-compiled on the host for execution on the target. The cross-compiler flags are
-already set so make sure if you have your own Makefile to take in the CC,
-CFLAGS, etc from the environment rather than hardcode them.
+(which is called when you `cros build-packages --withautotest`).  This script
+calls all the setup functions of every python test and runs them.  These setup
+steps are compiled on the host for execution on the target.  The cross-compiler
+flags are already set so make sure if you have your own Makefile to take in the
+`CC`, `CFLAGS`, etc. from the environment rather than hardcode them.
 
 *Note that if you have a* `*setup()* `*method, it should create a* `*src*`
 *directory, even if empty, to avoid running the setup method on the target

@@ -284,13 +284,14 @@ will break the test.
 
 *Setup*
 
-This method is the only one called when you build_packages --withautotest, while
-other methods are called during testing. The method is triggered when version
-attribute’s value is changed or the test package is built the first time to
-produce expected binaries. If the test is scheduled to run in a DUT in which the
-test has already been installed, Autotest will check the version attribute’s
-value of the test class. If the value is changed, the test will be reinstalled.
-One sample usage of this method can be found
+This method is the only one called when you
+`cros build-packages --withautotest`, while other methods are called during
+testing.  The method is triggered when version attribute's value is changed or
+the test package is built the first time to produce expected binaries.  If the
+test is scheduled to run in a DUT in which the test has already been installed,
+Autotest will check the version attribute's value of the test class.  If the
+value is changed, the test will be reinstalled.  One sample usage of this method
+can be found
 [here](http://www.chromium.org/chromium-os/testing/autotest-developer-faq#TOC-Adding-binaries-for-your-tests-to-call-as-part-of-the-test).
 
 *run_once*

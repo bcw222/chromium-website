@@ -12,11 +12,11 @@ title: NFS-quickstart
 
 ## Build a suitable kernel and rootfs
 
-**Option 1:** **With ./build_packages**
+**Option 1:** With `cros build-packages`
 
-```none
-./set_shared_user_password.sh                              #Needed only the first time in your chroot so you can login to the rootfs
-USE=nfs ./build_packages --board=${BOARD} --nowithfactory  #nowithfactory is important. If you miss it you will boot into factory installer mode
+```bash
+./set_shared_user_password.sh # Needed only the first time in your chroot so you can login to the rootfs
+USE=nfs cros build-packages --board=${BOARD} --no-withfactory # no-withfactory is important. If you miss it you will boot into factory installer mode
 ```
 
 With this option you can do your regular cros_workon + emerge commands (and any

@@ -156,10 +156,11 @@ symbols, you may skip it.
 If you are planning to use gmerge to build and copy a debug chrome image with
 symbols, you will need to create an image with a larger rootfs size, e.g.:
 
-(chroot) ./build_image --adjust_part='ROOT-A:+1G' --noenable_rootfs_verification
-test
+``` bash
+cros build-image --adjust-part='ROOT-A:+1G' --no-enable-rootfs-verification test
+```
 
-(Run ./build_image --help for default values)
+(Run `cros build-image --help` for default values)
 
 If you are using a pre-built test image (ex, from builder artifacts), download
 the "debug" archive file (which should contain files like debug/\*.debug),
