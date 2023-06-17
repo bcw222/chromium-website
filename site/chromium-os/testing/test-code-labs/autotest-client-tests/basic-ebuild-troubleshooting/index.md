@@ -14,11 +14,11 @@ title: Basic Ebuild Troubleshooting
 
 ### This is a brief explanation of how one might trouble shoot local emerge/ebuild failures. It is in no way comprehensive, and is only meant as an introduction to the topic:
 
-**Emerge errors during build_image**
+#### Emerge errors during cros build-image
 
 When following the [Chromium OS Developer Guide](/chromium-os/developer-guide)
 emerge errors can be encountered for missing ebuild. A error that can be
-encountered when running build_image is:
+encountered when running `cros build-image` is:
 
 > emerge: there are no ebuilds to satisfy XYZ
 
@@ -28,9 +28,11 @@ This can be resolved by running:
 
 > emerge-$BOARD XYZ
 
-Then recalling build_image:
+Then recalling `cros build-image`:
 
-> ./build_image --board=${BOARD} --noenable_rootfs_verification dev
+```bash
+cros build-image --board=${BOARD} --no-enable-rootfs-verification dev
+```
 
 <table>
 <tr>

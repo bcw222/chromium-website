@@ -58,13 +58,13 @@ no output. This leads to a cleaner/speedier boot, but is not helpful when you
 need to see failure messages. Thus you'll need change some kernel command-line
 parameters to get meaningful output.
 
-When you create the image with build_image, simply use the --enable_serial flag
-to select the console for logging output. The value it takes is exactly the same
-as what the kernel expects for **console=** (see the next section for more
-details).
+When you create the image with `cros build-image` simply use the
+`--enable-serial` flag to select the console for logging output.  The value it
+takes is exactly the same as what the kernel expects for `console=` (see the
+next section for more details).
 
-```none
-$ ./build_image --enable_serial ttyS0
+```bash
+$ cros build-image --enable-serial ttyS0
 ```
 
 Note that every board will have a a different bus layout resulting in
@@ -112,10 +112,10 @@ document](/chromium-os/developer-guide/using-serial-tty) for all the details.
 
 ## Build Chromium OS image using your custom kernel config
 
-Set the pcserial USE flag when calling build_packages:
+Set the `pcserial` `USE` flag when calling `cros build-packages`:
 
-```none
-USE=pcserial ./build_packages
+```bash
+USE=pcserial cros build-packages
 ```
 
 ## Appendix

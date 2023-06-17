@@ -72,12 +72,12 @@ configuration steps vary according to the type of DUT you are testing.
 1.  Install a Chrome OS test image on the DUT. A test image is required
             (versus a normal Chrome OS image) to allow the firmware test to use
             ssh, evtest, and other testing utilities not included in release
-            images. To get a test image, from within your chroot run the
-            following:
+            images. To get a test image, run the following:
 
-> `cd ~/trunk/scripts ./build_packages --board=$BOARD ./buildimage --board=$BOARD --noenable_rootfs_verification test `
-> where `BOARD` is the board name used in the Chrome device (also the name of
-> the private overlay). Install the resulting image on the DUT.
+    ```bash
+    cros build-packages --board=$BOARD
+    cros build-image --board=$BOARD --no-enable-rootfs-verification test
+    ```
 
 1.  Connect the DUT to a network the testing host can access. A
             USB-Ethernet adapter connected to a LAN is recommended, to minimize

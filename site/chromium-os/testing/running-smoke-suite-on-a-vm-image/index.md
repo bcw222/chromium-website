@@ -80,25 +80,27 @@ Next, build the testable VM image. The following steps assume that:
 
 1.  depot_tools/repo have been installed and configured.
 2.  Chromium OS source code has been checked out.
-3.  A chroot has been created with make_chroot.
+3.  A chroot has been created with `cros_sdk --create`.
 
-<pre><code>
-<b>$</b> cros_sdk    # To enter the chroot
-<i># Setup the build environment for the target board.  ${BOARD} could should usually be 'betty' or 'amd64-generic'.</i>
-<b>(chroot)$</b> ./setup_board --board=${BOARD}
-<i># Build all the source packages, including those required for running autotests</i>
-<i># Optional: "--oldchromebinary" may make your build faster, but will have old Chrome/libcros</i>
-<i># NOTE: At the moment, "--withautotest" is the default, so don't worry if you built without it.</i>
-<b>(chroot)$</b> ./build_packages --board=${BOARD}
-<b><b><i># Build a bootable image</i></b></b>
-<b><b><i># Optional: Include "--noenable_rootfs_verification" if you think you might need to modify your rootfs.</i></b></b>
-<b>(chroot)$</b> ./build_image --board=${BOARD} test
-<i># Clone this image, modify it for test, and make image for use in qemu-kvm Virtual Machine</i>
-<i># Note: because we use "--test_image", an explicit "modify_image_for_test" is not required.</i>
-<b>(chroot)$</b> ./image_to_vm.sh --board=${BOARD} --test_image
-<i># Exit chroot</i>
-<b>(chroot)$</b> exit
-</code></pre>
+``` bash
+# Build all the source packages, including those required for running autotests
+# Optional: "--use-any-chrome" may make your build faster, but will have old
+# Chrome.
+# NOTE: At the moment, "--with-autotest" is the default, so don't worry if you
+# built without it.
+(outside) $ cros build-packages --board=${BOARD}
+
+# Build a bootable image
+# Optional: Include "--no-enable-rootfs-verification" if you think you might
+# need to modify your rootfs.
+(outside) $ cros build-image --board=${BOARD} test
+
+# Clone this image, modify it for test, and make image for use in qemu-kvm
+# Virtual Machine
+# Note: because we use "--test_image", an explicit "modify_image_for_test" is
+# not required.
+(chroot) $ ./image_to_vm.sh --board=${BOARD} --test_image
+```
 
 The newly created VM image should be in the following path (relative to
 src/scripts):

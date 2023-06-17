@@ -15,13 +15,6 @@ title: Working with your Overlay FAQ
 Basic [terms and
 concepts](https://docs.google.com/document/d/16PWfmUkv5ZRoeaJeggHqF8cNwgSPLeL2I_D7UKubV4w/pub)
 
-### I made changes to my board's bsp but build_packages/build_image didn't pick them up.
-
-After you make a change to the bsp, you need to either
-[uprev](http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/portage-build-faq#TOC-How-do-I-uprev-an-ebuild-)
-or re-emerge it for build_packages/build_image to pick up the changes. (We
-realize this isn't ideal: See <http://crbug.com/391962>)
-
 ### How do I push changes that I made to my app to my developer device?
 
 Use [cros deploy](/chromium-os/build/cros-deploy)

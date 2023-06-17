@@ -81,7 +81,7 @@ Common deps are:
 
 As mentioned, while working on a test, it is necessary to always propagate any
 source changes using the emerge step. This can be either a manual emerge
-(instant) or build_packages (longer, rebuilds all dependencies as well).
+(instant) or `cros build-packages` (longer, rebuilds all dependencies as well).
 For cros-workon ebuilds, this means first starting to work on all ebuilds that
 are affected. ([Which ebuilds are
 these?](/chromium-os/testing/building-and-running-tests#TOC-Q5:-I-m-working-on-some-test-sources-how-do-I-know-which-ebuilds-to-cros_workon-start-in-order-to-properly-propagate-)):

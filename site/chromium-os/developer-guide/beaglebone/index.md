@@ -13,16 +13,11 @@ adjustments to the options.
 
 #### Build options
 
-Run setup_board with the standard options:
+Run `cros build-packages` with these options:
 
-```none
-  ./setup_board --board=beaglebone
-```
-
-Run build_packages with these options:
-
-```none
-  ./build_packages --board=beaglebone --nowithtest --nowithautotest --nowithfactory
+```bash
+cros build-packages --board=beaglebone --no-withtest --no-withautotest \
+    --no-withfactory
 ```
 
 Assign a password to the 'chronos' account with the standard commands:
@@ -32,10 +27,10 @@ Assign a password to the 'chronos' account with the standard commands:
   ./set_shared_user_password.sh
 ```
 
-Run build_image with these options:
+Run `cros build-image` with these options:
 
-```none
-  ./build_image --board=beaglebone base
+```bash
+cros build-image --board=beaglebone base
 ```
 
 Put the image onto a micro-SD card with a command similar to this:

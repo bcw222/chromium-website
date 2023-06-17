@@ -245,9 +245,7 @@ to hex numbers of your choice):
 
 # export BOARD=\[name of your DUT’s board, viewable at chrome://version\]
 
-# ./setup_board --board $BOARD
-
-# ./build_packages --board=$BOARD
+# cros build-packages --board=$BOARD
 
     [Install Chromium OS onto your
     DUT](/chromium-os/developer-guide#TOC-Installing-Chromium-OS-on-your-Device)
@@ -256,7 +254,7 @@ to hex numbers of your choice):
 
         Build a test image
 
-# ./build_image --board=$BOARD test
+# cros build-image --board=$BOARD test
 
         Run the command displayed in the output in the terminal, under the
         section, “To copy the image to a USB key, use…”

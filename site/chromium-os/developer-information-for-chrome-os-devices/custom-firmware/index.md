@@ -197,7 +197,7 @@ back to your previous (working) ChromeOS kernel in partition 2.**
 Reboot and if all goes well, your code should run.
 
 An alternate here is to enable USB boot (`crossystem dev_boot_usb=1`) and then
-boot from an SD card / USB key that you built/burned with `build_image` /
+boot from an SD card / USB key that you built/burned with `cros build-image` /
 image_to_usb. In that case you can just put your `${KPART}` straight into
 partition 2 and boot it with Ctrl-U.
 

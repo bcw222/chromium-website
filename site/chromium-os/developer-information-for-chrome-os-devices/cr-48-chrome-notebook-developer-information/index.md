@@ -315,11 +315,11 @@ for the `${BOARD}` you built):
 ```
 
 **SIDE NOTE**: If you're interested in creating a test image (used for allowing
-Chromium OS to talk to autotest), you can run build_image test to create a test
-image that can be combined with the recovery image:
+Chromium OS to talk to autotest), you can run `cros build-image test` to create
+a test image that can be combined with the recovery image:
 
-```none
-./build_image --board=${BOARD} test
+```bash
+cros build-image --board=${BOARD} test
 ./mod_image_for_recovery.sh \
     --board=${BOARD} \
     --nominimize_image \

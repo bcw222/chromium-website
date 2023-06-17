@@ -286,8 +286,8 @@ $ ./setup_board --profile=kernel-next --board=lumpy --regen_configs
 
 ### scripts/ (advanced)
 
-This folder contains scripts used during build_image, to tweak the packages that
-are allowed on the final image. The scripts of interest here are
+This folder contains scripts used during `cros build-image` to tweak the
+packages that are allowed on the final image. The scripts of interest here are
 
 *   build_kernel_image.sh -- Sourced by the main build_kernel_image.sh
             script for board specific modifications.
@@ -298,26 +298,22 @@ are allowed on the final image. The scripts of interest here are
 
 ## Testing Initial Build
 
-Since your board should be all set up and ready to go, let's test it. All
-operations will be done inside the chroot (so run \`cros_sdk\` to get in first).
+Since your board should be all set up and ready to go, let's test it.
 
-```none
-$ ./setup_board --board=$BOARD
-<random build output>
-$ ./build_packages --board=$BOARD
-<lots of build output>
+```bash
+$ cros build-packages --board=$BOARD
 ```
 
 Those should both have worked and produced a generic build for that architecture
 (using your $BOARD name). Let's set about customizing the build now.
 
-Note: as you make changes below to your overlay, re-running `build_packages`
-again will rebuild packages that have changed based on your USE flags. But other
-changes (like compiler settings or kernel configs) will not trigger automatic
-rebuilds. Only new package builds will use the new settings. Once you're happy
-with all your settings though, you can re-run `setup_board` with the `--force`
-flag. Then running `build_packages` will build everything from scratch with the
-latest settings.
+Note: as you make changes below to your overlay, re-running
+`cros build-packages` again will rebuild packages that have changed based on
+your `USE` flags.  But other changes (like compiler settings or kernel configs)
+will not trigger automatic rebuilds.  Only new package builds will use the new
+settings.  Once you're happy with all your settings though, you can run
+`cros build-packages` with the `--cleanbuild` flag, which will build everything
+from scratch with the latest settings.
 
 ## make.defaults: Global Build Settings
 

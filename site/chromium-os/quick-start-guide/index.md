@@ -67,7 +67,7 @@ these commands.
 
 ```none
 export BOARD=amd64-generic
-cros_sdk -- ./build_packages --board=${BOARD}
+cros build-packages --board=${BOARD}
 ```
 
 This will take a long time the first time as it sets up your build environment.
@@ -77,7 +77,7 @@ Finally, with all the packages built, we are ready to build an image that can be
 installed on your device. To do so run:
 
 ```none
-cros_sdk -- ./build_image --board=${BOARD}
+cros build-image --board=${BOARD}
 ```
 
 Now copy this image onto a usb drive. Insert the usb stick you’d like to use and

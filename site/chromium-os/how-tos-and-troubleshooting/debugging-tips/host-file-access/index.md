@@ -17,9 +17,9 @@ useful. This page lists the ways that this is possible.
 
 ## USB stick (sneakernet)
 
-You can put files (typically a full Chromium OS image build with `build_image`)
-onto a USB stick, insert it into the target, mount the device and access the
-files from there.
+You can put files (typically a full ChromiumOS image build with
+`cros build-image`) onto a USB stick, insert it into the target, mount the
+device and access the files from there.
 
 ## Using sshfs
 

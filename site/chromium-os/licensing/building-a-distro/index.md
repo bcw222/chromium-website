@@ -108,6 +108,6 @@ ways:
 *   \`export ACCEPT_LICENSE="...some values..."\` in your shell -- note
             that you'll have to re-export this every time you enter the chroot
             via \`cros_sdk\`
-*   if you're running build_packages, use the --accept_licenses flag to
-            pass an explicit list -- note that this flag must be included every
-            time you run build_packages
+*   If you're running `cros build-packages`, use the `--accept-licenses` flag to
+    pass an explicit list.  Note that this flag must be included every
+    time you run `cros build-packages`.
