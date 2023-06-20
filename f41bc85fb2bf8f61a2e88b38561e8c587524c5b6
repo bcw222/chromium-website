@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "edd66611_c8ebad6e",
+        "filename": "site/chromium-os/licensing/licensing-for-chromiumos-developers/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1474888
+      },
+      "writtenOn": "2023-06-20T20:14:32Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "26210f02_a67c6d1c",
+      "revId": "f41bc85fb2bf8f61a2e88b38561e8c587524c5b6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d58eef2b_3ca156c7",
@@ -31,6 +49,24 @@
       "writtenOn": "2023-06-20T16:21:47Z",
       "side": 1,
       "message": "let\u0027s just delete this paragraph.  this was important when we were manually maintaining the file, but that isn\u0027t the case anymore.",
+      "revId": "f41bc85fb2bf8f61a2e88b38561e8c587524c5b6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0abd2392_3400ce96",
+        "filename": "site/chromium-os/licensing/licensing-for-chromiumos-developers/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1474888
+      },
+      "writtenOn": "2023-06-20T20:14:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d58eef2b_3ca156c7",
       "revId": "f41bc85fb2bf8f61a2e88b38561e8c587524c5b6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -52,6 +88,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "24fbda26_ac02a747",
+        "filename": "site/chromium-os/licensing/licensing-for-chromiumos-developers/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1474888
+      },
+      "writtenOn": "2023-06-20T20:14:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7d987931_3852f75a",
+      "revId": "f41bc85fb2bf8f61a2e88b38561e8c587524c5b6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "73aa95d6_99476ffc",
@@ -65,6 +119,24 @@
       "writtenOn": "2023-06-20T16:21:47Z",
       "side": 1,
       "message": "```suggestion\n(cr) ~/chromiumos/chromite/licensing $ ./licenses --debug --board $BOARD --generate-licenses --output outall.html\n```",
+      "revId": "f41bc85fb2bf8f61a2e88b38561e8c587524c5b6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "90a6ddbb_7e5b7efa",
+        "filename": "site/chromium-os/licensing/licensing-for-chromiumos-developers/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1474888
+      },
+      "writtenOn": "2023-06-20T20:14:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "73aa95d6_99476ffc",
       "revId": "f41bc85fb2bf8f61a2e88b38561e8c587524c5b6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -86,6 +158,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ccce00bb_1e89a033",
+        "filename": "site/chromium-os/licensing/licensing-for-chromiumos-developers/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1474888
+      },
+      "writtenOn": "2023-06-20T20:14:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3e7a44fd_02676bec",
+      "revId": "f41bc85fb2bf8f61a2e88b38561e8c587524c5b6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b8912342_ae0f7090",
@@ -99,6 +189,24 @@
       "writtenOn": "2023-06-20T16:21:47Z",
       "side": 1,
       "message": "we fixed \"Proprietary\" now",
+      "revId": "f41bc85fb2bf8f61a2e88b38561e8c587524c5b6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b36b5ed3_e4c7c395",
+        "filename": "site/chromium-os/licensing/licensing-for-chromiumos-developers/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1474888
+      },
+      "writtenOn": "2023-06-20T20:14:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b8912342_ae0f7090",
       "revId": "f41bc85fb2bf8f61a2e88b38561e8c587524c5b6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
