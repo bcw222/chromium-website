@@ -29,9 +29,40 @@ This page discusses how to debug a **ChromiumOS minidump**.
 *   For other thoughts on crash analysis see [Crash
             Reports](http://www.chromium.org/developers/crash-reports).
 
-## ==Use minidump_stackwalk to show a stack trace==
+## Use minidump_stackwalk to show a stack trace
 
-TODO(mkrebs): ...
+
+To see anything useful with minidump_stackwalk, you first have to get the symbols
+and arrange them in the correct directory structure:
+
+* Download `breakpad_info.zip` for the correct version from https://goto.google.com/chromesymbols
+  (Googlers only)
+* minidump_stackwalk expects a directory structure like `debugfile/BUILDID/debugfile.sym`. On Linux,
+  debugfile is just the name of the executable; on Windows, debugfile is that plus a PDB extension.
+
+  The buildid is in the first line of the breakpad info file:
+  ```none
+  $ head -1 chrome.breakpad.x64
+  MODULE Linux x86_64 0ACBB4D08FB145E1656ADD88DF70B1320 chrome.debug
+  ```
+
+  So for this specific example, you'd do:
+  ```sh
+  mkdir -p chrome/0ACBB4D08FB145E1656ADD88DF70B1320
+  mv chrome.breakpad.x64 chrome/0ACBB4D08FB145E1656ADD88DF70B1320
+  ```
+* Now you can run minidump_stackwalk:
+  ```none
+  $ minidump_stackwalk  5aeb7476-3200-41ed-8db8-b5d71bea28d3.dmp .
+  [...]
+  Thread 0 (crashed)
+    0  chrome!content::protocol::FedCmHandler::OnDialogShown() [vector : 1434 + 0x0]
+       rax = 0x00003b2401be0720   rdx = 0x000000000000002e
+  ```
+
+If you need to generate the .sym file from an existing binary with debug symbols,
+use dump_syms like `dump_syms chrome > chrome.sym`
+
 
 ## ==Use gdb to show a backtrace==
 
