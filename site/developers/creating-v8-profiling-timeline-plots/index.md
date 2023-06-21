@@ -26,8 +26,10 @@ and with `--no-sandbox` to enable writing into `v8.log`.
 
 For example:
 
+```
 $ ./chrome --no-sandbox --js-flags="--prof --log-timer-events" mail.google.com &
 sleep 10; kill $!
+```
 
 Given that Gmail is already logged into, this profiles the first 10 seconds
 after starting Chrome and loading Gmail, before Chrome is killed.
@@ -47,13 +49,13 @@ written by any user and instruct V8 to log it's output there.
 
 For example:
 
-$ adb shell mkdir /data/local/tmp/v8-logs/ $ adb shell chmod 777
-/data/local/tmp/v8-logs/ \[choose adb_content_shell_command_line or
-adb_chromium_testshell_command_line below depending upon your target\] $
-./build/android/adb_content_shell_command_line --no-sandbox --js-flags=\\"--prof
---log-timer-events --logfile=/data/local/tmp/v8-logs/v8.log\\"
+```
+$ adb shell mkdir /data/local/tmp/v8-logs/
+$ adb shell chmod 777 /data/local/tmp/v8-logs/ # [choose adb_content_shell_command_line or adb_chromium_testshell_command_line below depending upon your target]
+$ ./build/android/adb_content_shell_command_line --no-sandbox --js-flags=\\"--prof --log-timer-events --logfile=/data/local/tmp/v8-logs/v8.log\\"
+```
 
-## Now, after restarting the content shell / chromium test shell, the logs will be available in /data/local/tmp/v8-logs/v8.log and can be retrieved using adb pull.
+*Now, after restarting the content shell / chromium test shell, the logs will be available in /data/local/tmp/v8-logs/v8.log and can be retrieved using adb pull.*
 
 ## Profiling in d8
 
