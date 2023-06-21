@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "210818e7_d5c0c732",
+        "filename": "site/chromium-os/licensing/licensing-for-chromiumos-developers/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2023-06-21T15:13:34Z",
+      "side": 0,
+      "message": "we haven\u0027t fixed Proprietary-Binary \u0026 Google-TOS yet :).  but we also have tracker bugs for them, so prob don\u0027t really need to note that in this doc.",
+      "revId": "f79bff1e597618dddbce227aa0ac37e20a436e23",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff1909ac_464c8f80",
+        "filename": "site/chromium-os/licensing/licensing-for-chromiumos-developers/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2023-06-21T15:13:34Z",
+      "side": 0,
+      "message": "also not done, but also a KI in general",
+      "revId": "f79bff1e597618dddbce227aa0ac37e20a436e23",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
