@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "afbfc567_41499e83",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001629
+      },
+      "writtenOn": "2023-06-21T16:22:34Z",
+      "side": 1,
+      "message": "I don\u0027t know much about this repository, so deferring to others.\n\nGenerally, we tend to document this in src.git I think:\n* https://source.chromium.org/chromium/chromium/src/+/main:docs/testing/chromeos_debugging_tips.md;l\u003d67?q\u003dminidump_stackwalk%20file:%5C.md\u0026ss\u003dchromium\n\n* https://source.chromium.org/chromium/chromium/src/+/main:third_party/breakpad/breakpad/docs/linux_starter_guide.md;l\u003d97?q\u003dminidump_stackwalk%20file:%5C.md\u0026ss\u003dchromium\n\nMaybe we could link to there (first link)? But maybe having it here too is fine too.",
+      "revId": "0f0a2a1704e5c7da1d567784189142f3d657f7d8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
