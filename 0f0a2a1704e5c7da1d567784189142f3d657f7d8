@@ -34,6 +34,41 @@
       "parentUuid": "afbfc567_41499e83",
       "revId": "0f0a2a1704e5c7da1d567784189142f3d657f7d8",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "34a42102_3c1ccee9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2023-06-21T18:09:02Z",
+      "side": 1,
+      "message": "this particular doc is CrOS-specific about working on CrOS system programs.  it isn\u0027t really about browser behavior.  chromium/src is better for that.\n\nalong those lines, all the proposed content looks browser-specific, so prob isn\u0027t appropriate for this doc.  especially since it talks about non-Linux OS\u0027s which CrOS def does not care about.\n\nmight be nice if we could harmonize things, but as it stands, status quo is prob to keep browser stuff entirely under chromium/src/.",
+      "parentUuid": "e2e40398_265fa45b",
+      "revId": "0f0a2a1704e5c7da1d567784189142f3d657f7d8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4f7659ab_bacf6d98",
+        "filename": "site/chromium-os/packages/crash-reporting/debugging-a-minidump/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2023-06-21T18:09:02Z",
+      "side": 1,
+      "message": "this CL is not following the md style guide (e.g. go/cros-mdstyle)\n\n* stick to 80 cols\n* lists indent with 4 spaces",
+      "revId": "0f0a2a1704e5c7da1d567784189142f3d657f7d8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
