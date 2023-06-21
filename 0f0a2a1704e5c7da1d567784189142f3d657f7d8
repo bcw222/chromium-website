@@ -16,6 +16,24 @@
       "message": "I don\u0027t know much about this repository, so deferring to others.\n\nGenerally, we tend to document this in src.git I think:\n* https://source.chromium.org/chromium/chromium/src/+/main:docs/testing/chromeos_debugging_tips.md;l\u003d67?q\u003dminidump_stackwalk%20file:%5C.md\u0026ss\u003dchromium\n\n* https://source.chromium.org/chromium/chromium/src/+/main:third_party/breakpad/breakpad/docs/linux_starter_guide.md;l\u003d97?q\u003dminidump_stackwalk%20file:%5C.md\u0026ss\u003dchromium\n\nMaybe we could link to there (first link)? But maybe having it here too is fine too.",
       "revId": "0f0a2a1704e5c7da1d567784189142f3d657f7d8",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e2e40398_265fa45b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002487
+      },
+      "writtenOn": "2023-06-21T16:26:53Z",
+      "side": 1,
+      "message": "So I came here from https://chromium.googlesource.com/chromium/src.git/+/HEAD/docs/linux/minidump_to_core.md (bottom links here). I was not aware of the former, though the specific instructions seem fairly specific to crashes on builders. I was actually mostly interested in Linux, but for some reason the minidump info seems more documented for chromeos even though it\u0027s largely generically applicable.",
+      "parentUuid": "afbfc567_41499e83",
+      "revId": "0f0a2a1704e5c7da1d567784189142f3d657f7d8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
