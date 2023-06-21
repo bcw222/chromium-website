@@ -33,6 +33,24 @@
       "message": "also not done, but also a KI in general",
       "revId": "f79bff1e597618dddbce227aa0ac37e20a436e23",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74ed706e_1fcd5363",
+        "filename": "site/chromium-os/licensing/licensing-for-chromiumos-developers/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 214,
+      "author": {
+        "id": 1474888
+      },
+      "writtenOn": "2023-06-21T22:03:27Z",
+      "side": 0,
+      "message": "it doesn\u0027t really belong here.",
+      "parentUuid": "ff1909ac_464c8f80",
+      "revId": "f79bff1e597618dddbce227aa0ac37e20a436e23",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
