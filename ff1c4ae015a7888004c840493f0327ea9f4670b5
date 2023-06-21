@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "156bdc11_cefbe5d7",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2023-06-21T16:47:15Z",
+      "side": 1,
+      "message": "Can you put a one to two word summary of what markdown formatting you are improving? Something so that \"git log --oneline\" is not useless.\n\nNote that a period in the subject line is not needed.",
+      "revId": "ff1c4ae015a7888004c840493f0327ea9f4670b5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
