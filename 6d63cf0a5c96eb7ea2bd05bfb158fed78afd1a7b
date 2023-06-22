@@ -16,6 +16,40 @@
       "message": "Are we good to land this CL now then?",
       "revId": "6d63cf0a5c96eb7ea2bd05bfb158fed78afd1a7b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "150f98f5_2043d88c",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 625,
+      "author": {
+        "id": 1000112
+      },
+      "writtenOn": "2023-06-22T19:26:45Z",
+      "side": 1,
+      "message": "Maybe link to https://www.chromium.org/blink/platform-predictability/compat-tools/? In particular I sometimes find a github search to be better ROI than HTTPArchive for this sort of thing.",
+      "revId": "6d63cf0a5c96eb7ea2bd05bfb158fed78afd1a7b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cfc1e4bc_aad88ef2",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 647,
+      "author": {
+        "id": 1000112
+      },
+      "writtenOn": "2023-06-22T19:26:45Z",
+      "side": 1,
+      "message": "Can we make this more explicit and link to https://chromium.googlesource.com/chromium/src/+/main/docs/flag_guarding_guidelines.md which says changes any API addition/removal must have a flag?",
+      "revId": "6d63cf0a5c96eb7ea2bd05bfb158fed78afd1a7b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
