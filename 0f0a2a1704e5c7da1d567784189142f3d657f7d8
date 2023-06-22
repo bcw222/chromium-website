@@ -54,6 +54,23 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "35a1bf2d_407e5f90",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002487
+      },
+      "writtenOn": "2023-06-22T20:26:38Z",
+      "side": 1,
+      "message": "fyi I added it to the linux documentation in https://crrev.com/c/4636957 instead",
+      "revId": "0f0a2a1704e5c7da1d567784189142f3d657f7d8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4f7659ab_bacf6d98",
