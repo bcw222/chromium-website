@@ -22,66 +22,13 @@ import time
 import urllib.parse
 
 
-site = 'https://www.chromium.org'
-
 REPO_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 SITE_DIR = os.path.join(REPO_DIR, 'site')
-BUILD_DIR = os.path.join(REPO_DIR, 'build')
-DEFAULT_TEMPLATE = '/_includes/page.html'
-
-
-
-alternates = [
-    site,
-    'http://dev.chromium.org',
-    'https://dev.chromium.org',
-    'https://sites.google.com/a/chromium.org/dev',
-    'https://ssl.gstatic.com/sites/p/058338',
-    'http://www.gstatic.com/sites/p/058338',
-]
-
-
-def read_text_file(path):
-    return read_binary_file(path).decode('utf-8')
-
-
-def read_binary_file(path):
-    with open(path, 'rb') as fp:
-        return fp.read()
 
 
 def write_binary_file(path, content):
     with open(path, 'wb') as fp:
         return fp.write(content)
-
-def write_text_file(path, content):
-    with open(path, 'w') as fp:
-        return fp.write(content)
-
-def read_paths(path):
-    paths = set()
-    with open(path) as fp:
-        for line in fp.readlines():
-            idx = line.find('#')
-            if idx != -1:
-                line = line[:idx]
-            line = line.strip()
-            if line:
-                paths.add(line)
-    return paths
-
-
-def to_path(page, top=SITE_DIR, ext='.md'):
-    page = page.strip()
-    if page == '/':
-        page = ''
-    if os.path.isdir(top + page):
-        return page + '/index' + ext
-    if os.path.exists(top + page):
-        return page
-    if ext and os.path.exists(top + page + ext):
-        return page + ext
-    return page
 
 
 def walk(top, skip=None):
@@ -98,29 +45,6 @@ def walk(top, skip=None):
                 continue
             paths.add(rpath)
     return sorted(paths)
-
-
-def write_if_changed(path, content, mode='wb', encoding='utf-8'):
-    if mode == 'w':
-        content = content.encode(encoding)
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    if os.path.exists(path):
-        with open(path, 'rb') as fp:
-            old_content = fp.read()
-            if content == old_content:
-                return False
-    write_binary_file(path, content)
-    return True
-
-
-def should_update(dest_page, source_pages):
-    if not os.path.exists(dest_page):
-        return True
-
-    dest_pages = [dest_page]
-    max_source_mtime = max(os.stat(p).st_mtime for p in source_pages)
-    max_dest_mtime = max(os.stat(p).st_mtime for p in dest_pages)
-    return max_source_mtime > max_dest_mtime 
 
 
 class JobQueue:
