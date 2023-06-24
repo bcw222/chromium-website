@@ -26,11 +26,6 @@ REPO_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 SITE_DIR = os.path.join(REPO_DIR, 'site')
 
 
-def write_binary_file(path, content):
-    with open(path, 'wb') as fp:
-        return fp.write(content)
-
-
 def walk(top, skip=None):
     skip = skip or set()
     paths = set()

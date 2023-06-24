@@ -101,8 +101,8 @@ def _handle(path, obj):
         if actual_sha1 != expected_sha1:
             return ('sha1 mismatch: expected %s, got %s' % (
                 expected_sha1, actual_sha1), (False, len(resp.content)))
-        common.write_binary_file(os.path.join(common.SITE_DIR, path),
-                                 resp.content)
+        with open(os.path.join(common.SITE_DIR, path), 'wb') as fp:
+            fp.write(resp.content)
       except (requests.HTTPError, requests.ConnectionError, requests.Timeout) as e:
           if i < 4:
             time.sleep(1)
