@@ -11,7 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
+"""Generic collection of functions and objects used by different scripts."""
 import dataclasses
 import multiprocessing
 import os
@@ -21,12 +21,21 @@ import threading
 import time
 import urllib.parse
 
-
+# The absolute path to the top of the repo.
 REPO_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
+
+# The absolute path to the directory containing the content.
 SITE_DIR = os.path.join(REPO_DIR, 'site')
 
 
 def walk(top, skip=None):
+    """Returns a list of all the files found under the `top` directory
+
+    This routine is a simplified wrapper around `os.walk`. It walks the
+    top directory and all its subdirectories to gather the list of files.
+    If skip is non-None, it should be a list or a set of paths to skip
+    over during the walk.
+    """
     skip = skip or set()
     paths = set()
     for dirpath, dnames, fnames in os.walk(top):
@@ -43,7 +52,32 @@ def walk(top, skip=None):
 
 
 class JobQueue:
+    """Single-writer/multiple-reader job processor.
+
+    If `jobs` > 1 the queue will spawn off multiple processes to
+    handle the requests given it in parallel. The caller should
+    create the JobQueue(), enqueue all of the requests to make with `request()`,
+    and then repeatedly call `results` to retrieve the results of each job.
+
+    Each subprocess will retrieve a job, process it using the provided
+    `handler` routine, and return the result. If `jobs` > 1, the results
+    may be returned out of order.
+
+    If `jobs` == 1 or `multiprocess` is False, the queue uses threads
+    instead of subprocesses.
+    """
     def __init__(self, handler, jobs, multiprocess=None):
+        """Initialize the JobQueue.
+
+        `handler` specifies the routine to be invoked for each job.
+        The handler will be invoked with the task and obj that it was
+        handed in request().
+
+        `jobs` indicates the number of jobs to process in parallel.
+        If `jobs` == 1 or `multiprocess` is False, the jobs will be
+        processed in-process using threads instead of processes.
+        """
+
         self.handler = handler
         self.jobs = jobs
         self.pending = set()
@@ -65,13 +99,38 @@ class JobQueue:
         self._isatty = sys.stdout.isatty()
 
     def all_tasks(self):
+        """Returns a list of all tasks requested so far.
+
+        The list contains all of the `task` strings that were passed
+        to request(). All of the tasks are returned regardless of the
+        state they are in (not started, running, or completed)."""
         return self.pending | self.started | self.finished
 
     def request(self, task, obj):
+        """Sends a job request to the job processor.
+
+        `task` should consist of a human-readable string that will be
+        printed out while the processor is running, and `obj` should
+        be another arbitrary picklable object that can be passed to the
+        handler along with `task`.
+        """
         self.pending.add(task)
         self._request_q.put(('handle', task, obj))
 
     def results(self):
+        """Returns the results of one job.
+
+        `results` acts as a generator to return job results, returning
+        the results one at a time. The results may be not be in the
+        same order that the requests were.
+
+        The job-processor will print its progress in a simplified Ninja-like
+        format while the results are being returned. If the program is printing
+        to a tty-like object, you will get a single line of output with
+        task numbers and names. If the program is printing to a non-tty-like
+        object, it will print the results one line at a time.
+        """
+
         self._start_time = time.time()
         self._spawn()
 
@@ -141,6 +200,7 @@ class JobQueue:
 
 
 def _worker(request_q, response_q, handler):
+    'Routine invoked repeatedly in the subprocesses to process the jobs.'
     while True:
         message, task, obj = request_q.get()
         if message == 'exit':
