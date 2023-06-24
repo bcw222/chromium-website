@@ -30,7 +30,7 @@ PROJECT_NAME = "chromium-website"
 
 PROJECT_REPO = "https://chromium.googlesource.com/website"
 
-# TODO(dpranke): Update this when/if you get a custom logo.
+# TODO(crbug.com/1457690): Update this when/if you get a custom logo.
 PROJECT_LOGO = "https://storage.googleapis.com/chrome-infra-public/logo/chromium.svg"
 
 RECIPE_CIPD_PACKAGE = "infra/recipe_bundles/chromium.googlesource.com/chromium/tools/build"

@@ -20,8 +20,8 @@ USE_PYTHON3 = True
 
 # This list must be kept in sync with the lists in //.eleventy.js and
 # //scripts/upload_lobs.py.
-# TODO(dpranke): Figure out how to share these lists to eliminate the
-# duplication and need to keep them in sync.
+# TODO(crbug.com/1457683): Figure out how to share these lists to eliminate
+# the duplication and need to keep them in sync.
 
 LOB_EXTENSIONS = [
                   '.ai',
