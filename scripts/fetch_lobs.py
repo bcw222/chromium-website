@@ -41,12 +41,12 @@ def main():
              for path in common.walk(common.SITE_DIR)
              if path.endswith('.sha1')]
 
-    stdin = ''
     for path in paths:
         with open(os.path.join(common.SITE_DIR, path + '.sha1'), 'r') as fp:
             expected_sha1 = fp.read().strip()
 
-        if not args.force and os.path.exists(os.path.join(common.SITE_DIR, path)):
+        if not args.force and os.path.exists(
+                os.path.join(common.SITE_DIR, path)):
             with open(os.path.join(common.SITE_DIR, path), 'rb') as fp:
                 s = hashlib.sha1()
                 s.update(fp.read())
@@ -56,7 +56,7 @@ def main():
         else:
             q.request(path, expected_sha1)
 
-    if not len(q.all_tasks()):
+    if len(q.all_tasks()) == 0:
         return 0
 
     start = time.time()
@@ -100,7 +100,6 @@ def _download(path, expected_sha1):
         http_session = requests.Session()
 
     url = _url(expected_sha1)
-    total_bytes = 0
     for i in range(4):
       try:
         resp = http_session.get(url)
@@ -112,7 +111,8 @@ def _download(path, expected_sha1):
                 expected_sha1, actual_sha1), (False, len(resp.content)))
         with open(os.path.join(common.SITE_DIR, path), 'wb') as fp:
             fp.write(resp.content)
-      except (requests.HTTPError, requests.ConnectionError, requests.Timeout) as e:
+      except (requests.HTTPError, requests.ConnectionError,
+              requests.Timeout) as e:
           if i < 4:
             time.sleep(1)
           else:
