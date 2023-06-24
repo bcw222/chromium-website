@@ -27,7 +27,7 @@ import common
 
 # This list must be kept in sync with the lists in //.eleventy.js and
 # //PRESUBMIT.py.
-# TODO(dpranke): Figure out how to share these lists to eliminate the
+# TODO(crbug.com/1457683): Figure out how to share these lists to eliminate the
 # duplication and need to keep them in sync.
 
 LOB_EXTENSIONS = [

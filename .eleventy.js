@@ -60,8 +60,8 @@ module.exports = config => {
 
   // This list must be kept in sync with the lists in //.eleventy.js and
   // //scripts/upload_lobs.py.
-  // TODO(dpranke): Figure out how to share these lists to eliminate the
-  // duplication and need to keep them in sync.
+  // TODO(crbug.com/1457683): Figure out how to share these lists to eliminate
+  // the duplication and need to keep them in sync.
   let lob_extensions = [
     '.ai',
     '.bin',
@@ -97,7 +97,7 @@ module.exports = config => {
 
   // This should basically pick up everything that isn't a .md file
   // or a .sha1.
-  // TODO(dpranke): Figure out how to actually enforce this and get
+  // TODO(crbug.com/1457688): Figure out how to actually enforce this and get
   // rid of the "basically". There has to be a better approach. :).
   let extensions = lob_extensions.concat([
     '.cpp',
