@@ -182,11 +182,14 @@ def _worker(request_q, response_q, handler):
     'Routine invoked repeatedly in the subprocesses to process the jobs.'
     while True:
         message, task, obj = request_q.get()
+
+        assert message in ('exit', 'handle'), (
+            "Unknown message type '%s'" % message)
+
         if message == 'exit':
             break
-        elif message == 'handle':
-            response_q.put(('started', task, '', None))
-            res, resp = handler(task, obj)
-            response_q.put(('finished', task, res, resp))
-        else:
-            raise AssertionError
+
+        # message == 'handle':
+        response_q.put(('started', task, '', None))
+        res, resp = handler(task, obj)
+        response_q.put(('finished', task, res, resp))

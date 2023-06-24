@@ -86,6 +86,7 @@ def CheckForLobs(input_api, output_api):
 
 
 def CheckLobIgnores(input_api, output_api):
+  del input_api
   output_status = []
   with open("site/.gitignore", 'r') as ignore_file:
     ignored_lobs = list(line.rstrip() for line in ignore_file.readlines())
