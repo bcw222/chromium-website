@@ -28,24 +28,21 @@ REPO_DIR = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 SITE_DIR = os.path.join(REPO_DIR, 'site')
 
 
-def walk(top, skip=None):
+def walk(top):
     """Returns a list of all the files found under the `top` directory
 
     This routine is a simplified wrapper around `os.walk`. It walks the
     top directory and all its subdirectories to gather the list of files.
-    If skip is non-None, it should be a list or a set of paths to skip
-    over during the walk.
     """
-    skip = skip or set()
     paths = set()
     for dirpath, dnames, fnames in os.walk(top):
         for dname in dnames:
             rpath = os.path.relpath(os.path.join(dirpath, dname), top)
-            if rpath in skip or dname.startswith('.'):
+            if dname.startswith('.'):
                 dnames.remove(dname)
         for fname in fnames:
             rpath = os.path.relpath(os.path.join(dirpath, fname), top)
-            if rpath in skip or fname.startswith('.'):
+            if fname.startswith('.'):
                 continue
             paths.add(rpath)
     return sorted(paths)
