@@ -35,10 +35,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-f', '--force', action='store_true')
     parser.add_argument('-j', '--jobs', type=int, default=os.cpu_count())
-    parser.add_argument('-m', '--multiprocess', action='store_true',
-                        default=False)
     args = parser.parse_args()
-    q = common.JobQueue(_handler, args.jobs, args.multiprocess)
+    q = common.JobQueue(_download, args.jobs)
     paths = [path.replace('.sha1', '')
              for path in common.walk(common.SITE_DIR)
              if path.endswith('.sha1')]
@@ -54,9 +52,9 @@ def main():
                 s.update(fp.read())
                 actual_sha1 = s.hexdigest()
             if args.force or (actual_sha1 != expected_sha1):
-                q.request(path, (args, expected_sha1))
+                q.request(path, expected_sha1)
         else:
-            q.request(path, (args, expected_sha1))
+            q.request(path, expected_sha1)
 
     if not len(q.all_tasks()):
         return 0
@@ -88,19 +86,19 @@ def _url(expected_sha1):
         'chromium-website-lob-storage', expected_sha1)
 
 
-def _handler(path, obj):
+def _download(path, expected_sha1):
     """This routine downloads a given file if needed.
 
     If there is no file at `path`, or if the file's SHA-1 hash doesn't
     match the expected hash, we download it from the cloud storage bucket.
     """
-    args, expected_sha1 = obj
 
     # This is used to hold a global requests.Session object so that the
     # process can reuse a single connection across multiple requests.
     global http_session
     if http_session is None:
         http_session = requests.Session()
+
     url = _url(expected_sha1)
     total_bytes = 0
     for i in range(4):

@@ -17,7 +17,6 @@ import multiprocessing
 import os
 import queue
 import sys
-import threading
 import time
 import urllib.parse
 
@@ -51,7 +50,7 @@ def walk(top):
 class JobQueue:
     """Single-writer/multiple-reader job processor.
 
-    If `jobs` > 1 the queue will spawn off multiple processes to
+    The processor will spawn off multiple processes to
     handle the requests given it in parallel. The caller should
     create the JobQueue(), enqueue all of the requests to make with `request()`,
     and then repeatedly call `results` to retrieve the results of each job.
@@ -59,11 +58,9 @@ class JobQueue:
     Each subprocess will retrieve a job, process it using the provided
     `handler` routine, and return the result. If `jobs` > 1, the results
     may be returned out of order.
-
-    If `jobs` == 1 or `multiprocess` is False, the queue uses threads
-    instead of subprocesses.
     """
-    def __init__(self, handler, jobs, multiprocess=None):
+
+    def __init__(self, handler, jobs):
         """Initialize the JobQueue.
 
         `handler` specifies the routine to be invoked for each job.
@@ -71,8 +68,6 @@ class JobQueue:
         handed in request().
 
         `jobs` indicates the number of jobs to process in parallel.
-        If `jobs` == 1 or `multiprocess` is False, the jobs will be
-        processed in-process using threads instead of processes.
         """
 
         self.handler = handler
@@ -80,18 +75,10 @@ class JobQueue:
         self.pending = set()
         self.started = set()
         self.finished = set()
-        if multiprocess is None:
-            self.multiprocess = (jobs > 1)
-        else:
-            self.multiprocess = multiprocess
-        if self.multiprocess:
-            self._request_q = multiprocessing.Queue()
-            self._response_q = multiprocessing.Queue()
-        else:
-            self._request_q = queue.Queue()
-            self._response_q = queue.Queue()
+        self._request_q = multiprocessing.Queue()
+        self._response_q = multiprocessing.Queue()
         self._start_time = None
-        self._threads = []
+        self._procs = []
         self._last_msg = None
         self._isatty = sys.stdout.isatty()
 
@@ -142,26 +129,21 @@ class JobQueue:
             else:
                 raise AssertionError
 
-        for _ in self._threads:
+        for _ in self._procs:
             self._request_q.put(('exit', None, None))
-        for thread in self._threads:
-            thread.join()
+        for proc in self._procs:
+            proc.join()
         if self._isatty:
             print()
 
     def _spawn(self):
         args = (self._request_q, self._response_q, self.handler)
         for i in range(self.jobs):
-            if self.multiprocess:
-                thread = multiprocessing.Process(target=_worker,
-                                                 name='worker-%d' % i,
-                                                 args=args)
-            else:
-                thread = threading.Thread(target=_worker,
-                                          name='worker-%d' % i,
-                                          args=args)
-            self._threads.append(thread)
-            thread.start()
+            proc = multiprocessing.Process(target=_worker,
+                                           name='worker-%d' % i,
+                                           args=args)
+            self._procs.append(proc)
+            proc.start()
 
     def _mark_started(self, task):
         self.pending.remove(task)
