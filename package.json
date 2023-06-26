@@ -22,5 +22,16 @@
     "prettier": "^2.4.1",
     "sass": "^1.35.1",
     "uslug": "^1.0.4"
+  },
+  "overrideComments": [
+    "The packages below are not needed directly by the website, but",
+    "are present to override the normal package versions in order to",
+    "pick up security fixes."
+  ],
+  "overrides": {
+    "ejs": "^=3.1.7",
+    "json-schema": "^=0.4.0",
+    "shell-quote": "^=1.7.3",
+    "socket.io-parser": "^=3.4.3"
   }
 }
