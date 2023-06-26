@@ -26,7 +26,8 @@ window.addEventListener('load', () => {
   });
 });
 
-// Configure Google Analytics.
+// Configure Google Universal Analytics (the predecessor to GA4, we should
+// delete this when we don't need it any more).
 s = document.createElement('script');
 s.src = 'https://www.googletagmanager.com/gtag/js?id=UA-5484340-1'
 s.async = true;
@@ -60,6 +61,16 @@ document.head.append(s);
   <link rel="stylesheet" href="/_stylesheets/@docsearch/style.css">
   <link rel="stylesheet" href="/_stylesheets/default.css">
 </head>
+<!-- Configure Google Analytics v4 -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-24XP4PG02H"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-24XP4PG02H');
+</script>
 
 <header>
   <a href="/">
