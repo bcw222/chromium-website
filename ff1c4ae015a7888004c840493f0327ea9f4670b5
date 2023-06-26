@@ -20,6 +20,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "540290bc_8b2f46b3",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1550482
+      },
+      "writtenOn": "2023-06-26T07:01:07Z",
+      "side": 1,
+      "message": "Apologies, I noticed this comment only after submitting the change to CQ.\n\nI had assumed that most people would prefer to skip over this minor change when scanning the logs - hence the terse one-liner description.\n\nI\u0027ll keep the lack of the need for the period in the subject line in mind for future CLs.",
+      "parentUuid": "156bdc11_cefbe5d7",
+      "revId": "ff1c4ae015a7888004c840493f0327ea9f4670b5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "c411c368_7bcf8a61",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 2
