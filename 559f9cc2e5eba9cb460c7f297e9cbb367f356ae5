@@ -16,6 +16,23 @@
       "message": "Love it, thanks!",
       "revId": "559f9cc2e5eba9cb460c7f297e9cbb367f356ae5",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ddfe416b_6bce7c49",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 369,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2023-06-27T15:01:07Z",
+      "side": 1,
+      "message": "```suggestion\nconsider using `editorial`, `enhancement`, and `compatibility-risk`.\n```",
+      "revId": "559f9cc2e5eba9cb460c7f297e9cbb367f356ae5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
