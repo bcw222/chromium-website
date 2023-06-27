@@ -33,6 +33,24 @@
       "message": "```suggestion\nconsider using `editorial`, `enhancement`, and `compatibility-risk`.\n```",
       "revId": "559f9cc2e5eba9cb460c7f297e9cbb367f356ae5",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9cd499a4_80ff1882",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 369,
+      "author": {
+        "id": 1312815
+      },
+      "writtenOn": "2023-06-27T15:04:21Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "ddfe416b_6bce7c49",
+      "revId": "559f9cc2e5eba9cb460c7f297e9cbb367f356ae5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
