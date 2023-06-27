@@ -18,6 +18,23 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa834f59_bdd9f8a3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-06-27T16:08:04Z",
+      "side": 1,
+      "message": "Thanks!",
+      "revId": "559f9cc2e5eba9cb460c7f297e9cbb367f356ae5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ddfe416b_6bce7c49",
@@ -49,6 +66,23 @@
       "side": 1,
       "message": "Fix applied.",
       "parentUuid": "ddfe416b_6bce7c49",
+      "revId": "559f9cc2e5eba9cb460c7f297e9cbb367f356ae5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f5ab3cd8_eb977d9e",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 369,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-06-27T16:08:04Z",
+      "side": 1,
+      "message": "```suggestion\nconsider using `editorial`, `enhancement`, and `compatibility-risk`.\n```",
       "revId": "559f9cc2e5eba9cb460c7f297e9cbb367f356ae5",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
