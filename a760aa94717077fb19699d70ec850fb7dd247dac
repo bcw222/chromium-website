@@ -16,6 +16,24 @@
       "message": "i think this belongs further down in the guide.  maybe before \"Buildbot Configs\".",
       "revId": "a760aa94717077fb19699d70ec850fb7dd247dac",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4f46c556_29308ea0",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/chromiumos-board-porting-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1000028
+      },
+      "writtenOn": "2023-06-27T17:30:30Z",
+      "side": 1,
+      "message": "Thank you.  Also this is overall wrong, the instructions are specific for a board overlay repo, but it should be for any new repo.\n\nI\u0027ll send new CLs.",
+      "parentUuid": "c1fcd6b3_93b13f6c",
+      "revId": "a760aa94717077fb19699d70ec850fb7dd247dac",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
