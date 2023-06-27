@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c1fcd6b3_93b13f6c",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/chromiumos-board-porting-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2023-06-27T17:26:35Z",
+      "side": 1,
+      "message": "i think this belongs further down in the guide.  maybe before \"Buildbot Configs\".",
+      "revId": "a760aa94717077fb19699d70ec850fb7dd247dac",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
