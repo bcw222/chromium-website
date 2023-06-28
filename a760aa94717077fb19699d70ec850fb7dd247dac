@@ -34,6 +34,24 @@
       "parentUuid": "c1fcd6b3_93b13f6c",
       "revId": "a760aa94717077fb19699d70ec850fb7dd247dac",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1177b347_428ba022",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/chromiumos-board-porting-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2023-06-28T20:33:56Z",
+      "side": 1,
+      "message": "yeah the target of this doc originally was kind of like a pdf you can hand anyone and not Googler specific, so it was disconnected from the source repo to a degree",
+      "parentUuid": "4f46c556_29308ea0",
+      "revId": "a760aa94717077fb19699d70ec850fb7dd247dac",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
