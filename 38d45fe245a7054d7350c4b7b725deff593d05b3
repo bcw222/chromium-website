@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "53d0e31a_7cc880e3",
+        "filename": "scripts/fetch_node_modules.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2023-06-28T16:34:36Z",
+      "side": 1,
+      "message": "Is this the right bug?",
+      "revId": "38d45fe245a7054d7350c4b7b725deff593d05b3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
