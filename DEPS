@@ -58,9 +58,10 @@ hooks = [
     ],
   },
   {
-    # TODO: Node 16.0 will likely ship with an official universal node binary
-    # on macOS. Once node 16.0 is released, collapse this into the node_mac hook
-    # above again and use the universal binary on mac independent of host_cpu.
+    # TODO(crbug.com/1457689): Node 16.0 will likely ship with an official
+    # universal node binary on macOS. Once node 16.0 is released,
+    # collapse this into the node_mac hook above again and use the
+    # universal binary on mac independent of host_cpu.
     'name': 'node_mac_arm64',
     'pattern': '.',
     'condition': 'host_os == "mac" and host_cpu == "arm64"',
