@@ -16,6 +16,41 @@
       "message": "Is this the right bug?",
       "revId": "38d45fe245a7054d7350c4b7b725deff593d05b3",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba3087e2_8d3368be",
+        "filename": "scripts/fetch_node_modules.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-06-28T19:26:29Z",
+      "side": 1,
+      "message": "Good catch. No, this is supposed to be bug 1457681. Will fix.",
+      "parentUuid": "53d0e31a_7cc880e3",
+      "revId": "38d45fe245a7054d7350c4b7b725deff593d05b3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1655b066_8ada221f",
+        "filename": "scripts/fetch_node_modules.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-06-28T19:26:29Z",
+      "side": 1,
+      "message": "Same thing here.",
+      "revId": "38d45fe245a7054d7350c4b7b725deff593d05b3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
