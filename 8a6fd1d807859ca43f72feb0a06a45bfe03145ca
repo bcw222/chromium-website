@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36349a0a_cc0a1090",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-06-29T00:21:38Z",
+      "side": 1,
+      "message": "I think only 1 or 2 left ...",
+      "revId": "8a6fd1d807859ca43f72feb0a06a45bfe03145ca",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
