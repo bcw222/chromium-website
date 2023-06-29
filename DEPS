@@ -99,15 +99,4 @@ hooks = [
       'scripts/fetch_lobs.py',
     ],
   },
-  {
-    # TODO(crbug.com/1273181) - Delete this when we no longer support
-    # comparing against the old site and we can be sure that no one
-    # has anything in //build/originals.
-    'name': 'remove_originals',
-    'pattern': '.',
-    'action': [
-      'python3',
-      '-c', 'import shutil; shutil.rmtree("build/originals", ignore_errors=True)',
-    ],
-  },
 ]
