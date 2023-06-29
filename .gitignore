@@ -10,7 +10,6 @@ __pycache__
 /infra/.recipe_deps
 /node_modules
 /node_modules.tar.gz
-/originals.tar.gz
 /third_party/node/linux/node-linux-x64
 /third_party/node/linux/node-linux-x64.tar.gz
 /third_party/node/mac/node-darwin-x64
