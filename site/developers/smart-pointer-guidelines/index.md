@@ -57,7 +57,7 @@ The two common smart pointers in Chromium are `std::unique_ptr<>` and
 is used for reference-counted objects (though normally you should avoid these --
 see below). If you're familiar with C++11, `scoped_refptr<>` is similar in
 intent to `std::shared_ptr<>` (Note: the [latter is
-banned](https://chromium.googlesource.com/chromium/src/+/main/styleguide/c++/c++11.md)).
+banned](https://chromium.googlesource.com/chromium/src/+/main/styleguide/c++/c++-features.md#std_shared_ptr-banned)).
 
 [base/memory/](https://chromium.googlesource.com/chromium/src/+/HEAD/base/memory/)
 has a few other objects of interest:
