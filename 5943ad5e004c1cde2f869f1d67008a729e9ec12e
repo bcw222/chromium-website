@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "03fdc09b_dd32fca9",
+        "filename": "site/developers/smart-pointer-guidelines/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2023-07-07T02:21:39Z",
+      "side": 0,
+      "message": "Nit: add back this paren, otherwise the ( before \"Note:\" isn\u0027t balanced anymore.",
+      "range": {
+        "startLine": 60,
+        "startChar": 85,
+        "endLine": 60,
+        "endChar": 86
+      },
+      "revId": "5943ad5e004c1cde2f869f1d67008a729e9ec12e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
