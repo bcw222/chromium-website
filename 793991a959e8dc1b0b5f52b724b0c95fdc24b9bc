@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8dddd68c_47973fda",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 558,
+      "author": {
+        "id": 1153414
+      },
+      "writtenOn": "2023-07-10T18:28:27Z",
+      "side": 1,
+      "message": "This mailing list can only receive messages from Googlers (@google.com accounts). I tested with a personal Gmail account and my chromium.org account, and both bounced.\n\nI don\u0027t think we can/should make the mailing list available to non-Google accounts. That suggests either:\n1) Clarify they need help from a Googler\n2) Continue using the experimentation-dev@ mailing list\n\nI prefer option (1), as that is the reality for the OT process now.",
+      "range": {
+        "startLine": 558,
+        "startChar": 32,
+        "endLine": 558,
+        "endChar": 38
+      },
+      "revId": "793991a959e8dc1b0b5f52b724b0c95fdc24b9bc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
