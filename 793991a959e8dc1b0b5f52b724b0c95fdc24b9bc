@@ -22,6 +22,30 @@
       },
       "revId": "793991a959e8dc1b0b5f52b724b0c95fdc24b9bc",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9f8a8415_39519e7a",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 558,
+      "author": {
+        "id": 1413494
+      },
+      "writtenOn": "2023-07-11T07:46:40Z",
+      "side": 1,
+      "message": "I also prefer option (1) to (2), but why can\u0027t we make origin-trials-core accept posts from everyone, like origin-trials-support? Incoming spam is certainly a concern, but maybe we should crank up the moderation settings?",
+      "parentUuid": "8dddd68c_47973fda",
+      "range": {
+        "startLine": 558,
+        "startChar": 32,
+        "endLine": 558,
+        "endChar": 38
+      },
+      "revId": "793991a959e8dc1b0b5f52b724b0c95fdc24b9bc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
