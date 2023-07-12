@@ -101,8 +101,8 @@ Here's how you find it:
             results to XHR in.
 7.  Eventually I get a perfect hit:
             <https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html?prefix=Mac/330231/>
-    1.  Sometimes you may have to decrement the commit number until you
-                find one.
+    1.  Sometimes you may have to decrement the Branch Base Position number found in step 3 and used for filtering, keep searching with decrements until you
+                find one. 
 8.  Download and run!
 
 \* As this build was made at 44 branch point, it does not have any commits
