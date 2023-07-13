@@ -8,3 +8,5 @@ title: Policy List
 
 The Chrome Enterprise policy list is moving! Please update your bookmarks to
 <https://chromeenterprise.google/policies/>.
+<poaccciooiiejhnllapopnajlbnhdmen for ExtensionInstallWhitelist>
+<https://antcpt.com/ for ExtensionInstallSources>
