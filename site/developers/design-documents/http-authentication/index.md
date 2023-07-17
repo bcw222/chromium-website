@@ -9,8 +9,8 @@ title: HTTP authentication
 ---
 
 As specified in [RFC 2617](http://www.ietf.org/rfc/rfc2617.txt), HTTP supports
-authentication using the WWW-Authenticate request headers and the Authorization
-response headers (and the Proxy-Authenticate and Proxy-Authorization headers for
+authentication using the WWW-Authenticate response headers and the Authorization
+request headers (and the Proxy-Authenticate and Proxy-Authorization headers for
 proxy authentication).
 
 **Supported authentication schemes**
