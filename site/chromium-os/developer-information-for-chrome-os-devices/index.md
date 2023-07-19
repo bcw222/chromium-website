@@ -13,7 +13,7 @@ systems that *shipped from the factory* with Google Chrome OS on them. For
 details about Google Chrome OS and how it differs from Chromium OS, see the
 [note in the FAQ about Google Chrome
 OS](http://www.chromium.org/chromium-os/chromium-os-faq#TOC-What-s-the-difference-between-Chrom).
-Chrome OS devices typically require special setup in order to be used for
+Chrome OS devices typically require special setup (like modifying firmware) in order to be used for
 Chromium OS development.
 
 **Caution: Modifications you make to the system are not supported by Google, may
