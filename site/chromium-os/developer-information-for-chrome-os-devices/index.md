@@ -199,7 +199,7 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>R84</td>
     <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
-    <td>Yes</td>
+    <td>Right Port</td>
   </tr>
   <tr>
     <td></td>
