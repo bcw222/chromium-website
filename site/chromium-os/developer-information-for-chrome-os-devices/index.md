@@ -1881,7 +1881,7 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>R64</td>
     <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
-    <td>Yes</td>
+    <td>Left Port</td>
   </tr>
   <tr>
     <td>2018-03-01</td>
