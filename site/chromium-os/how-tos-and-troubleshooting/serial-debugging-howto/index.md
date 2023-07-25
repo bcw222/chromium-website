@@ -108,7 +108,7 @@ You probably want to use ttySAC3 for your console.
 ## Enabling Serial Console Login
 
 See the [Controlling Enabled Consoles
-document](/chromium-os/developer-guide/using-serial-tty) for all the details.
+document](/site/chromium-os/developer-guide/using-serial-tty/index.md) for all the details.
 
 ## Build Chromium OS image using your custom kernel config
 
