@@ -16,6 +16,24 @@
       "message": "I could see taking this in two directions:\n\n 1. Flat-out requiring flags for I2S\u0027s and then leaning on the flag guarding guidelines which allow some discretion [1] for PSAs. This is what this CL currently does\n 2. Requiring flags for I2S\u0027s, and specifically justifying this based on the flag guarding guidelines, and then also loosening that a tiny bit for PSAs where teams use some discretion.\n\nI\u0027m fine with either, though (2) makes me a little uncomfortable because I don\u0027t want it to seem like we\u0027re going out of our way to specifically override the flag guarding guidelines in allowing teams to provide *extra* discretion that those guidelines wouldn\u0027t otherwise call for.\n\n\n[1]: At least this is my reading, per https://chromium.googlesource.com/chromium/src/+/main/docs/flag_guarding_guidelines.md#:~:text\u003dIf%2C%20as%20a%20CL%20author%2C%20you%20are%20uncertain%20whether%20a%20flag%20can/should%20be%20used%2C%20talk%20to%20the%20relevant%20TL/Uber%2DTL%20and%20if%20still%20unsure%2C%20just%20use%20a%20flag",
       "revId": "61871d380cd42e0b1143440675c27ba9be2db796",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9f1815fd_1bd892b6",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 660,
+      "author": {
+        "id": 1000112
+      },
+      "writtenOn": "2023-07-27T18:31:23Z",
+      "side": 1,
+      "message": "I think it\u0027s fine the way you\u0027ve framed it. Thanks!",
+      "parentUuid": "3f3867f9_d83e66f5",
+      "revId": "61871d380cd42e0b1143440675c27ba9be2db796",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
