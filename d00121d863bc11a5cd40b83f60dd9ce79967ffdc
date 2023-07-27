@@ -34,6 +34,24 @@
       "parentUuid": "4e249300_71e0f229",
       "revId": "d00121d863bc11a5cd40b83f60dd9ce79967ffdc",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e7d1e522_0d7bfea3",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 659,
+      "author": {
+        "id": 1000112
+      },
+      "writtenOn": "2023-07-27T14:56:22Z",
+      "side": 1,
+      "message": "Yeah this isn\u0027t intended to be any stronger than what the flag guard guidelines say (\"Every deprecation/addition of web platform APIs\"). Perhaps it would be clearer to say that any I2S requires a flag, but PSAs are up to the individuals judgement? Every \"deprecation/addition to web platform APIs\" requires a flag, so I wouldn\u0027t want to imply that flags are only \"encouraged\" for every I2S. But PSAs tend to be trivial and there\u0027s a lot of judgement around whether to even send a PSA or not, so I don\u0027t personally see a need for a requirement tying flag guarding and PSAs.",
+      "parentUuid": "2b76ac2f_0c2620a6",
+      "revId": "d00121d863bc11a5cd40b83f60dd9ce79967ffdc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
