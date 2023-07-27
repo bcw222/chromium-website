@@ -52,6 +52,24 @@
       "parentUuid": "2b76ac2f_0c2620a6",
       "revId": "d00121d863bc11a5cd40b83f60dd9ce79967ffdc",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "88c33936_4fc3c611",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 659,
+      "author": {
+        "id": 1175237
+      },
+      "writtenOn": "2023-07-27T15:05:18Z",
+      "side": 1,
+      "message": "This sounds good to me. I\u0027ll get a CL up.",
+      "parentUuid": "e7d1e522_0d7bfea3",
+      "revId": "d00121d863bc11a5cd40b83f60dd9ce79967ffdc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
