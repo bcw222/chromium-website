@@ -16,6 +16,24 @@
       "message": "I just came across this CL and have a question about this part. The flag guarding guidelines at least leave some room for discretion to determine when/if a flag should be used for particularly minor changes like new parameters or very tiny adjustments. Is the intention of this paragraph really to supersede that entirely, for all changes no matter how trivial? Or is there still *some* flexibility.\n\nFor example, the fenced frames team is adding a new non-required dictionary member (bool) to a WebIDL dictionary. Its effect is quite small, and as a TL I\u0027d recommend sending a PSA and not guarding the code with a flag. Is this no longer an acceptable route?",
       "revId": "d00121d863bc11a5cd40b83f60dd9ce79967ffdc",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2b76ac2f_0c2620a6",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 659,
+      "author": {
+        "id": 1468617
+      },
+      "writtenOn": "2023-07-27T14:09:42Z",
+      "side": 1,
+      "message": "rbyers@ - thoughts?\n\nI think we can maybe relax the \"required\" to \"strongly recommended\" to exclude trivial cases..",
+      "parentUuid": "4e249300_71e0f229",
+      "revId": "d00121d863bc11a5cd40b83f60dd9ce79967ffdc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
