@@ -651,12 +651,13 @@ The purpose of a PSA is to notify the broader Chromium community about
 the change, and enables folks to test against it and potentially
 re-examine the risk assessment regarding potential breakage.
 
-For either a PSA or an intent-to-ship, you're
-[required](https://chromium.googlesource.com/chromium/src/+/main/docs/flag_guarding_guidelines.md)
-to place the code change behind a
-[flag](https://chromium.googlesource.com/chromium/src/+/main/third_party/blink/renderer/platform/RuntimeEnabledFeatures.md)
-to enable a quick roll-back of that change in case that our estimate
-regarding its breaking potential was overly optimistic.
+For an intent-to-ship, you're required to place the code change behind a
+[flag](https://chromium.googlesource.com/chromium/src/+/main/third_party/blink/renderer/platform/RuntimeEnabledFeatures.md),
+which enables a quick roll-back of that change in case that our estimate
+regarding its breaking potential was overly optimistic. For a PSA you're
+expected to follow the [flag guarding
+guidelines](https://chromium.googlesource.com/chromium/src/+/main/docs/flag_guarding_guidelines.md),
+which generally allow for some discretion for trivial changes.
 
 #### Step 3: (Optional) Dev trial {:#psa-dev-trial}
 
