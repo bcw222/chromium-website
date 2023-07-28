@@ -34,6 +34,24 @@
       "parentUuid": "3f3867f9_d83e66f5",
       "revId": "61871d380cd42e0b1143440675c27ba9be2db796",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ed3ef02_5983aad6",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 660,
+      "author": {
+        "id": 1175237
+      },
+      "writtenOn": "2023-07-28T19:26:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9f1815fd_1bd892b6",
+      "revId": "61871d380cd42e0b1143440675c27ba9be2db796",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
