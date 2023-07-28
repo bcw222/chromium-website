@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4df18f14_73dea08a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1175237
+      },
+      "writtenOn": "2023-07-28T14:29:38Z",
+      "side": 1,
+      "message": "Adding chrishtr@ since Yoav appears to be OOO through most of August.",
+      "revId": "69e5dbfe9b798bfdae310244592445acb15a14f5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
