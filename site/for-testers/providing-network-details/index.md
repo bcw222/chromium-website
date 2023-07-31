@@ -75,6 +75,13 @@ information" is needed, one of the following flags can be used:
 *   --net-log-capture-mode=IncludeSensitive
 *   --net-log-capture-mode=Everything
 
+You can limit the maximum size of the log file using `--net-log-max-size-mb`
+and specify the max size in megabytes. For example:
+
+*   --net-log-max-size-mb=100
+
+Will limit the max log size to 100 MB.
+
 For info about adding command line options, see
 [command-line-flags](/developers/how-tos/run-chromium-with-flags).
 
