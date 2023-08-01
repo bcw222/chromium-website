@@ -361,6 +361,45 @@ for other projects to import.
                 and `"golang.org/x/tools/go/gcexportdata"` required to build
                 `"dev-go/golint"` above.
 
+## **Upgrading ebuilds for third party Go projects**
+
+When we need to upgrade a newer version of an existing third party package,
+simply update the ebuild files and the Manifest.
+
+* If the upstream has a released version.
+  - Rename the ebuild files to track the
+newer version number. Here is an example:
+    ```shell
+    export OPV=0.3.7
+    export NPV=0.4.0
+    # Rename the ebuild file to track the new version
+    mv dev-go/text/text-${OPV}.ebuild dev-go/text-${NPV}.ebuild
+    # Create a symlinked ebuild file with revision number.
+    ln -sf dev-go/text-${NPV}.ebuild dev-go/text-${NPV}-r1.ebuild
+    # Delete any old ebuild with a revision number.
+    rm dev-go/text/text-${OPV}-r3.ebuild
+
+    ```
+  - Update the Manifest file through `ebuild` command.
+    ```shell
+    ebuild dev-go/text/text-${NPV}.ebuild manifest
+    ```
+    This will fail for the first time because there is no distfile ready to be
+    downloaded from the chromeos-localmirror. Run the suggested `wget`,
+    `gsutil` and `ebuild` commands.
+  - Emerge with the package and make sure it is successful.
+  - Commit the change and upload the cl.
+
+* If the upstream has no release vesion and the ebuild is set up to track
+  specific commit.
+
+  - Update `CROS_GO_SOURCE` in the ebuild file to track the desired commit hash.
+  - Bump the revision number.
+  - Update Manifest file through `ebuild` command. Upload the new distfile as
+    instructed by the first `ebuild` run.
+  - Emerge with the package and make sure it is successful.
+  - Commit the change and upload the cl.
+
 ## **Location of ebuilds and repositories**
 
 *   Ebuilds for third party Go packages and tools should go in
