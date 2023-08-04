@@ -33,6 +33,24 @@
       "message": "nit: Missed previously. The indent is wrong here and in L4011 above.",
       "revId": "aee28071edbc924751dfc2a835b081676827c05e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb551295_a289e2d8",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 4029,
+      "author": {
+        "id": 1138669
+      },
+      "writtenOn": "2023-08-04T07:31:07Z",
+      "side": 1,
+      "message": "This is resoloved in new patch set.",
+      "parentUuid": "87a2ec14_fb6de276",
+      "revId": "aee28071edbc924751dfc2a835b081676827c05e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }

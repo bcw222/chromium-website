@@ -74,6 +74,30 @@
       },
       "revId": "c53210377061d16ab9fb07db88bdf18b2bf2134b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fdea3b66_59a42db1",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 4062,
+      "author": {
+        "id": 1138669
+      },
+      "writtenOn": "2023-08-04T07:31:07Z",
+      "side": 1,
+      "message": "This is resoloved in new patch set. Thanks",
+      "parentUuid": "76ffa542_f1478922",
+      "range": {
+        "startLine": 4062,
+        "startChar": 1,
+        "endLine": 4062,
+        "endChar": 7
+      },
+      "revId": "c53210377061d16ab9fb07db88bdf18b2bf2134b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
