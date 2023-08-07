@@ -216,6 +216,13 @@ content::BrowserContext*
 }
 ```
 
+### Java keyed services
+
+On Android, C++ keyed services often have a corresponding Java object. In such
+cases, the C++ part should own the Java one. You can find more details
+[here](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/android_jni_ownership_best_practices.md).
+
+
 ### Use the Service
 
 Instead of doing `profile.GetFooService()` (the old way), you should access
