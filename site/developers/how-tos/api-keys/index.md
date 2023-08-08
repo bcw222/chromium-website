@@ -40,7 +40,10 @@ Chromium, or at runtime using environment variables.
             (you can just
             [subscribe](https://groups.google.com/a/chromium.org/forum/?fromgroups#!forum/chromium-dev)
             to chromium-dev and choose not to receive mail). *Note: the APIs
-            below are only visible to people subscribed to that group.*
+            below are only visible to people subscribed to that group. Also note
+            that you cannot use a partner domain (PD) account to join chromium-dev,
+            you can use a Google account associated with your corporate account or
+            another Google account.*
 2.  Make sure you are logged in with the Google account associated with
             the email address that you used to subscribe to chromium-dev.
 3.  Go to <https://cloud.google.com/console>
