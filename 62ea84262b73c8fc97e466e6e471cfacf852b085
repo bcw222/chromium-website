@@ -16,6 +16,24 @@
       "message": "This is a bit surprising. Why don\u0027t partner domains work? I would\u0027ve thought any GAIA account would be fine.\n\nAlso, I\u0027m not sure if I\u0027m following line 45, I don\u0027t think. I\u0027m not sure what \"your corporate account\" means in this situation. That\u0027s probably at least partially because I\u0027m not exactly sure what a partner domain is. This is basically what is described at https://developers.google.com/issue-tracker/guides/partner-access, right? Maybe we can link to that page?\n\nAnyway, if I am following it correctly, I might reword this as:\n\n`*Note: the APIs below are only visible to people subscribed to that group. If you are a [partner user](https://developers.google.com/issue-tracker/guides/partner-access), joining with the partner domain account will not work, and you must use your Google Workspace account, if you have one, or some other Google account instead*`.\n\nThat said, even that seems a little awkward. There\u0027s probably some better way to rephrase things.",
       "revId": "62ea84262b73c8fc97e466e6e471cfacf852b085",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "86f51aa4_12bc3d30",
+        "filename": "site/developers/how-tos/api-keys/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1115972
+      },
+      "writtenOn": "2023-08-09T08:31:41Z",
+      "side": 1,
+      "message": "The line below says: \"Make sure you are logged in with the Google account associated with the email address that you used to subscribe to chromium-dev.\"\n\nCan they sign in to Google account with a PD account?",
+      "parentUuid": "6bbcedfa_dfa1a352",
+      "revId": "62ea84262b73c8fc97e466e6e471cfacf852b085",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
