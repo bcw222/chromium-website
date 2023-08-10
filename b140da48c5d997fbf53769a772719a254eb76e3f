@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f8fd7d9_6862cfbb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1528727
+      },
+      "writtenOn": "2023-08-10T18:14:30Z",
+      "side": 1,
+      "message": "Hi - The file linked to has been moved to this new address (and I finally found it).",
+      "revId": "b140da48c5d997fbf53769a772719a254eb76e3f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
