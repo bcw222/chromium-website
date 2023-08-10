@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fc92f239_e4a1e993",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-08-10T19:26:12Z",
+      "side": 1,
+      "message": "Okay, I\u0027m not coming up with anything better than what I wrote before. Want to take another stab at this?",
+      "revId": "62ea84262b73c8fc97e466e6e471cfacf852b085",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6bbcedfa_dfa1a352",
@@ -32,6 +49,24 @@
       "side": 1,
       "message": "The line below says: \"Make sure you are logged in with the Google account associated with the email address that you used to subscribe to chromium-dev.\"\n\nCan they sign in to Google account with a PD account?",
       "parentUuid": "6bbcedfa_dfa1a352",
+      "revId": "62ea84262b73c8fc97e466e6e471cfacf852b085",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0e9f2ea1_e85b5760",
+        "filename": "site/developers/how-tos/api-keys/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-08-10T19:26:12Z",
+      "side": 1,
+      "message": "I think so? I\u0027m not actually sure.",
+      "parentUuid": "86f51aa4_12bc3d30",
       "revId": "62ea84262b73c8fc97e466e6e471cfacf852b085",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
