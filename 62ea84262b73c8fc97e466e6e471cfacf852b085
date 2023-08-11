@@ -69,6 +69,24 @@
       "parentUuid": "86f51aa4_12bc3d30",
       "revId": "62ea84262b73c8fc97e466e6e471cfacf852b085",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c43fa55a_41b22fd2",
+        "filename": "site/developers/how-tos/api-keys/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1115972
+      },
+      "writtenOn": "2023-08-11T07:55:34Z",
+      "side": 1,
+      "message": "I agree with Dirk - I would expect that all Google accounts to be able to join a group (see https://screenshot.googleplex.com/3nnwQxjediuciy5 for the group permissions which says anyone can join this group). We could clarify this if this the thing that is misunderstood.\n\nI would say then something like:\n```\nNote: chromium-dev is a Google group and you need a Google account to join it ([instructions](https://support.google.com/groups/answer/1067205) how to join a Google group).\n```\n\nIf PD accounts are not Google accounts, but can be used to create a Google account, we can have that mentioned:\n```\nNote: Note: chromium-dev is a Google group and you need a Google account to join it (partner domain accounts are not Google accounts - follow [instructions](https://support.google.com/groups/answer/1067205) to join a group with such an account).\n```",
+      "parentUuid": "0e9f2ea1_e85b5760",
+      "revId": "62ea84262b73c8fc97e466e6e471cfacf852b085",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
