@@ -125,83 +125,51 @@ can be implemented as:
 
 **Proposed JSON format**:
 
+```
 {
-
-"name": {
-
-"message": "message text - short sentence or even a paragraph with a optional
-placeholder(s)",
-
-"description": "Description of a message that should give context to a
-translator",
-
-"placeholders": {
-
-"ph_1": {
-
-"content": "Actual string that's placed within a message.",
-
-"example": "Example shown to a translator."
-
-},
-
-...
-
+  "name": {
+  "message": "message text - short sentence or even a paragraph with a optional placeholder(s)",
+  "description": "Description of a message that should give context to a translator",
+  "placeholders": {
+    "ph_1": {
+      "content": "Actual string that's placed within a message.",
+      "example": "Example shown to a translator."
+    },
+    ...
+  },
+  ...
+  }
 }
-
-},
-
-...
-
-}
+```
 
 **Example**:
-
+```
 {
-
-"hello": {
-
-"message": "Hello $YOUR_NAME$",
-
-"description": "Peer greeting",
-
-"placeholders": {
-
-"your_name": {
-
-"content": "$1",
-
-"example": "Cira"
-
-},
-
-"bye": {
-
-"message": "Bye from $CHROME$ to $YOUR_NAME$",
-
-"description": "Going away greeting",
-
-"placeholders": {
-
-"chrome": {
-
-"content": "Chrome",
-
-},
-
-"your_name": {
-
-"content": "$1",
-
-"example": "Cira"
-
+  "hello": {
+    "message": "Hello $YOUR_NAME$",
+    "description": "Peer greeting",
+    "placeholders": {
+      "your_name": {
+        "content": "$1",
+        "example": "Cira"
+      },
+      "bye": {
+        "message": "Bye from $CHROME$ to $YOUR_NAME$",
+        "description": "Going away greeting",
+        "placeholders": {
+          "chrome": {
+            "content": "Chrome",
+          },
+          "your_name": {
+            "content": "$1",
+            "example": "Cira"
+          }
+        }
+      }
+    }
+  }
 }
-
-}
-
-}
-
-}
+```
 
 *   *name* is the name of the message used in message substitution
             (__MSG_**name**__, or getMessage(**name**)). It's a key portion to
