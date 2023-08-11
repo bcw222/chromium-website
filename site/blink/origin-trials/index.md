@@ -43,4 +43,4 @@ Guide](https://github.com/GoogleChrome/OriginTrials/blob/gh-pages/developer-guid
 </div>
 
 Questions or comments? Contact us at
-[experimentation-dev@chromium.org](mailto:experimentation-dev@chromium.org).
+[origin-trials-support@google.com](mailto:origin-trials-support@google.com).

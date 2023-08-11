@@ -49,10 +49,7 @@ doc](https://docs.google.com/document/d/1oSlxRwsc8vTUGDGAPU6CaJ8dXRdvCdxvZJGxDp9
 *If you're planning to run an origin trial please contact the origin trials team
 (OT team) to quickly talk over your feature and the reason for running the
 trial.* You can email
-[experimentation-dev@chromium.org](mailto:experimentation-dev@chromium.org) or
-[chasej@chromium.org](mailto:chasej@chromium.org). Google employees can
-alternatively contact
-[origin-trials-core@google.com](mailto:origin-trials-core@google.com).
+[origin-trials-support@google.com](mailto:origin-trials-support@google.com).
 
 ## How do origin trials work in Chrome?
 
@@ -159,8 +156,7 @@ both web developers and users. Your feature must satisfy the following:
 ## What is the actual process to run an origin trial?
 
 First review the [Blink launch process](/blink/launching-features). Please
-contact
-[experimentation-dev@chromium.org](https://groups.google.com/a/chromium.org/forum/#!forum/experimentation-dev)
+contact [origin-trials-support@google.com](mailto:origin-trials-support@google.com)
 with any questions about these steps. If you don't have access to any of the
 links below, the mailing list can help find someone to guide you.
 Running an origin trial requires the following:
@@ -168,9 +164,6 @@ Running an origin trial requires the following:
 *   Make sure your feature is ready to run an origin trial experiment
             ([see
             above](/blink/origin-trials/running-an-origin-trial#is-feature-ready)).
-*   Email
-            [experimentation-dev@chromium.org](https://groups.google.com/a/chromium.org/forum/#!forum/experimentation-dev)
-            letting them know you plan to run an origin trial.
 *   Review
             [go/ChromeLaunchProcess](https://goto.google.com/ChromeLaunchProcess)
             and determine what launch approvals you require.
@@ -296,10 +289,8 @@ for more details.
 The process is as follows:
 
 *   If desired, email
-            [experimentation-dev@chromium.org](https://groups.google.com/a/chromium.org/forum/#!forum/experimentation-dev)
-            to consult on the appropriate approach. If there are sensitive
-            details, Googlers can contact
-            [origin-trials-core@google.com](mailto:origin-trials-core@google.com).
+            [origin-trials-support@google.com](mailto:origin-trials-support@google.com)
+            to consult on the appropriate approach.
 *   Send an Intent to Extend Origin Trial, via the [ChromeStatus entry
             for your feature](https://chromestatus.com).
 *   Wait for 1 LGTM from at least one API owner (similar to the original

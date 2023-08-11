@@ -100,7 +100,7 @@ title: Technical Discussion Groups
 *   [experimentation-dev](https://groups.google.com/a/chromium.org/forum/#!forum/experimentation-dev)
     *   Discussion forum for experimenting with web platform features,
                 specifically [Origin
-                Trials](https://github.com/jpchase/OriginTrials/).
+                Trials](https://github.com/GoogleChrome/OriginTrials).
 *   [feature-control](https://groups.google.com/a/chromium.org/forum/#!forum/feature-control)
     *   Discussion relating to the infrastructure and APIs in chromium
                 that control the exposure of APIs to the web and reports on when

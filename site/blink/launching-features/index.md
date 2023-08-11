@@ -555,7 +555,7 @@ purposes, and then select “Draft Request for Deprecation Trial email” in
 ChromeStatus, and send the resulting “Request for Deprecation Trial” email to
 [blink-dev](mailto:blink-dev@chromium.org). After receiving at least [one
 LGTM](/blink/guidelines/api-owners/procedures) from the API owners, email
-[experimentation-dev@chromium.org](https://groups.google.com/a/chromium.org/forum/#!forum/experimentation-dev)
+[origin-trials-support@google.com](mailto:origin-trials-support@google.com)
 letting them know you plan to run a deprecation trial, ensure your removal is
 integrated with the origin trials framework ([see
 details](/blink/origin-trials/running-an-origin-trial#integrate-feature)), and
@@ -586,7 +586,7 @@ Disable the feature by default. Update ChromeStatus to either “Disabled” or
 
 If you are running a Deprecation Trial, wait until the Deprecation Trial period
 has ended. (If you need to extend the Deprecation Trial, notify
-[experimentation-dev@chromium.org](mailto:experimentation-dev@chromium.org) and
+[origin-trials-support@google.com](mailto:origin-trials-support@google.com) and
 click “Generate an Intent to Extend Deprecation Trial” in ChromeStatus and send
 the resulting notification to blink-dev.)
 
