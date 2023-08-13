@@ -69,7 +69,7 @@ disable copy and assignment for this class.
 
 
 ```
-class FooService : public KeyedService {
+class FooService : public KeyedService<web::BrowserState>{
  public:
   explicit FooService(PrefService* profile_prefs, BarService* bar_service);
   virtual ~FooService() = default;
