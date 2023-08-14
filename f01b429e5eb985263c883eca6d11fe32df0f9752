@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6c87034_a88d8aec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2023-08-14T18:21:21Z",
+      "side": 1,
+      "message": "stamping based on chasej\u0027s review",
+      "revId": "f01b429e5eb985263c883eca6d11fe32df0f9752",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
