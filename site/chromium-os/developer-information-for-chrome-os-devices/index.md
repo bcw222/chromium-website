@@ -4297,4 +4297,21 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Yes</td>
     <td>Yes</td>
   </tr>
+  <tr>
+    <td>2023-08-30</td>
+    <td>AOpen</td>
+    <td>AOpen Chromebox Commercial 3</a></td>
+    <td>Aurash</td>
+    <td>Brask</td>
+    <td>Brask</td>
+    <td>x86_64</td>
+    <td>5.15</td>
+    <td>x86_64</td>
+    <td>AlderLake</td>
+    <td>Chromebox</td>
+    <td>R114</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
 </table>
