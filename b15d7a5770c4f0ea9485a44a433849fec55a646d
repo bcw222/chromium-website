@@ -16,6 +16,23 @@
       "message": "The cookbook is specific to JavaScript unit tests for Chrome Remote Desktop. However, no Chrome Remote Desktop JavaScript is shipped in Chromium, so this doc is no longer relevant.",
       "revId": "b15d7a5770c4f0ea9485a44a433849fec55a646d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0218e741_25a4c605",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2023-08-16T16:11:18Z",
+      "side": 1,
+      "message": "lgtm!",
+      "revId": "b15d7a5770c4f0ea9485a44a433849fec55a646d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
