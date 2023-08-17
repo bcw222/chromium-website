@@ -63,8 +63,9 @@ The three range specifications above are equivalent. Note that in all cases the
 bisect is being done from trunk builds so merges to a release branch will not be
 bisected.
 
-Valid archive types (the -a parameter) are `mac, mac64, win, win64, linux (not
-supported for builds after March 2016), linux64, linux-arm, and chromeos`.
+Valid archive types (the -a parameter) are `mac, mac64, mac-arm, win, win64,
+linux (not supported for builds after March 2016), linux64, linux-arm, and
+chromeos`.
 
 You can also use the `-p` option to specify a profile. If no `-p` or
 `--user-data-dir` option is specified, a new profile will be created in a
