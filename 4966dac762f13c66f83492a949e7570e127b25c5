@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "e51c753f_b6841411",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1450442
+      },
+      "writtenOn": "2023-08-17T12:30:29Z",
+      "side": 1,
+      "message": "Oops, sorry about that. Should be fixed now.",
+      "parentUuid": "5fabba76_66bce90c",
+      "revId": "4966dac762f13c66f83492a949e7570e127b25c5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "c52efdde_806d35ed",
