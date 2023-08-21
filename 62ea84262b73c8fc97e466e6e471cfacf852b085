@@ -87,6 +87,24 @@
       "parentUuid": "0e9f2ea1_e85b5760",
       "revId": "62ea84262b73c8fc97e466e6e471cfacf852b085",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dd977d32_b240a5f5",
+        "filename": "site/developers/how-tos/api-keys/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1529142
+      },
+      "writtenOn": "2023-08-21T23:09:12Z",
+      "side": 1,
+      "message": "Updated wording from Dirk\u0027s suggestion. Please take a look.",
+      "parentUuid": "c43fa55a_41b22fd2",
+      "revId": "62ea84262b73c8fc97e466e6e471cfacf852b085",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
