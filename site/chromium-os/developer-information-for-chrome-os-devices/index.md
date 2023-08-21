@@ -4013,8 +4013,8 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Acer</td>
     <td>Acer Chromebook Spin 514 </td>
     <td>DeWatt</td>
-    <td>Monkeyisland</td>
-    <td>Monkeyisland</td>
+    <td>guybrush</td>
+    <td>guybrush</td>
     <td>x86_64</td>
     <td>5.10</td>
     <td>x86_64</td>
