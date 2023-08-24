@@ -83,6 +83,9 @@ git checkout branch2
 git pull
 ```
 
+When the first branch is merged, "git rebase-update" will automatically reparent
+"branch2" onto "origin/main" for you.
+
 **Splitting up a CL**
 
 A common variant of "branch off a branch" is splitting up a large CL into
