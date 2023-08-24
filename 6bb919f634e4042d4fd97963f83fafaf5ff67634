@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9dd210f0_e0a11939",
+        "filename": "site/chromium-os/developer-library/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1001529
+      },
+      "writtenOn": "2023-08-24T23:51:31Z",
+      "side": 1,
+      "message": "nit: Perhaps \"The Reference section contains\"? Alternatively, you may want to rename this section to \"References\" to match \"Guides\" below.",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 18
+      },
+      "revId": "6bb919f634e4042d4fd97963f83fafaf5ff67634",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
