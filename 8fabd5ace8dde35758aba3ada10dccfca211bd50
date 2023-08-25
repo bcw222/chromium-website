@@ -16,6 +16,23 @@
       "message": "Updated the doc per our discussion in b/287263475.",
       "revId": "8fabd5ace8dde35758aba3ada10dccfca211bd50",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "786b7762_e7353aeb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1312815
+      },
+      "writtenOn": "2023-08-25T04:21:13Z",
+      "side": 1,
+      "message": "LGTM",
+      "revId": "8fabd5ace8dde35758aba3ada10dccfca211bd50",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
