@@ -110,6 +110,15 @@ rather than after downloading and checking O(log n) builds, pass the
 **--verify-range** option to bisect-builds.py. This will check the first and
 last builds in the range before starting the bisect.
 
+
+### Field trials
+
+The bisect script uses non-Chrome branded builds and therefore uses the [field
+trial testing config]
+(https://chromium.googlesource.com/chromium/src/+/main/testing/variations/README.md).
+Consider using the `disable-field-trial-config` command line switch if this
+matters to you.
+
 ### If Pepper Flash is required to repro
 
 You will have to locate a Flash binary from an official build. If you suspect a
