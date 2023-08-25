@@ -340,6 +340,18 @@ these areas:
 Each subsequent request to extend an origin trial must provide substantial
 *additional*  progress on top of the previous extension request.
 
+*Technical note:* Origin Trials are nowadays "gapless", which means they are
+configured to end after the version of Chrome with the feature enabled by default
+is available to most users. The current convention for that is that the trial ends
+when the Chrome milestone after the one where the feature is enabled by default
+ships. This technicality will only be relevant to you if you intend to pause the
+experiment after the trial is over and restart it later, e.g. for very early stage
+experiments where there is certainty that they will be revised before shipping. In
+such cases you can enforce a break in the trial to demonstrate lack of usage before
+restarting the experiment. Email
+[origin-trials-support@google.com](mailto:origin-trials-support@google.com) to
+discuss this option.
+
 #### Step 6: Prepare to Ship {:#new-feature-prepare-to-ship}
 
 By this stage, you need to have a complete specification available that matches
