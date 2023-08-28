@@ -51,6 +51,11 @@ will pick up the updated preferences automatically. Note that this is not
 recommended for making persistent changes to policy, since macOS will rewrite
 the file with settings configured through Workgroup Manager.
 
+Recent versions of macOS may cache values from these files and so you may need
+to run `defaults read "/Library/Managed Preferences/`... before changes will
+be noticed. This can also apply if a plist file is deleted, in which case
+that same command is needed for macOS to notice the deletion.
+
 Chrome on macOS does not show unknown policies on the chrome://policy page. If
 you don't find a policy you have set there check if the name is spelled
 correctly and if the policy is actually supported on the macOS platform.
