@@ -33,6 +33,24 @@
       "message": "Nit: wrap at 80 columns",
       "revId": "c40f97b2822305b959e0bf4664602fb74aaae634",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "92407506_0465811e",
+        "filename": "site/developers/how-tos/get-the-code/working-with-branches/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1002823
+      },
+      "writtenOn": "2023-08-28T06:36:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "56d83579_b7731ade",
+      "revId": "c40f97b2822305b959e0bf4664602fb74aaae634",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
