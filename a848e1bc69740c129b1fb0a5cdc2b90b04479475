@@ -16,6 +16,57 @@
       "message": "This implements the proposal at https://groups.google.com/a/chromium.org/g/blink-api-owners-discuss/c/r7csYE-tBzw/m/UuNnp96TAQAJ. Let me know what you think.\n\nThere\u0027s still a need to merge the Removal Guidelines into the \"Lessons from the first years of deprecations and removals\", but that should be a separate change.",
       "revId": "a848e1bc69740c129b1fb0a5cdc2b90b04479475",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "62d7aa5e_63d09c51",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 530,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2023-08-29T23:13:56Z",
+      "side": 1,
+      "message": "Why this long?",
+      "revId": "a848e1bc69740c129b1fb0a5cdc2b90b04479475",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6be179f7_3d91dcaa",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 539,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2023-08-29T23:13:56Z",
+      "side": 1,
+      "message": "This is a very old thread...do you need to link to it?",
+      "revId": "a848e1bc69740c129b1fb0a5cdc2b90b04479475",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7e014118_6d7f559c",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 584,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2023-08-29T23:13:56Z",
+      "side": 1,
+      "message": "3 LGTMs, since this is to be strongly discouraged. That may need a process change, which we can run through the API owners mailing list.\n\nAlternatively you could just remove this option from the documented process.",
+      "revId": "a848e1bc69740c129b1fb0a5cdc2b90b04479475",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
