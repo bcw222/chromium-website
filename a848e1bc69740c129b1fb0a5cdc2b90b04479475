@@ -37,6 +37,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5d64bb9f_32fb8388",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 530,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-08-29T23:20:57Z",
+      "side": 1,
+      "message": "This is the current text, but yeah, I think it\u0027s wrong. What\u0027s the right value? 5-9 weeks looks plausible from https://chromiumdash.appspot.com/schedule.",
+      "parentUuid": "62d7aa5e_63d09c51",
+      "revId": "a848e1bc69740c129b1fb0a5cdc2b90b04479475",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6be179f7_3d91dcaa",
         "filename": "site/blink/launching-features/index.md",
         "patchSetId": 1
@@ -54,6 +72,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "776f7290_8d5b1ff2",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 539,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-08-29T23:20:57Z",
+      "side": 1,
+      "message": "I don\u0027t need to if you don\u0027t think it\u0027s useful.",
+      "parentUuid": "6be179f7_3d91dcaa",
+      "revId": "a848e1bc69740c129b1fb0a5cdc2b90b04479475",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7e014118_6d7f559c",
         "filename": "site/blink/launching-features/index.md",
         "patchSetId": 1
@@ -65,6 +101,24 @@
       "writtenOn": "2023-08-29T23:13:56Z",
       "side": 1,
       "message": "3 LGTMs, since this is to be strongly discouraged. That may need a process change, which we can run through the API owners mailing list.\n\nAlternatively you could just remove this option from the documented process.",
+      "revId": "a848e1bc69740c129b1fb0a5cdc2b90b04479475",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5c43a734_733abb40",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 584,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-08-29T23:20:57Z",
+      "side": 1,
+      "message": "How do you feel about leaving this text as-is for this change, since I\u0027m just moving it around within the document, and adding LGTMs or removing it in a separate change?",
+      "parentUuid": "7e014118_6d7f559c",
       "revId": "a848e1bc69740c129b1fb0a5cdc2b90b04479475",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
