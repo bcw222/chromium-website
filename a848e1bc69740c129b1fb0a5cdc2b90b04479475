@@ -71,6 +71,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b8cbae2_102114c3",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 530,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-08-29T23:32:20Z",
+      "side": 1,
+      "message": "I used \"It takes 5-9 weeks (based on 2023\u0027s typical 4-week release cycle) to hit Stable\"",
+      "parentUuid": "beaf0fe0_650787d5",
+      "revId": "a848e1bc69740c129b1fb0a5cdc2b90b04479475",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6be179f7_3d91dcaa",
@@ -124,6 +142,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b300f00f_b34317c4",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 539,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-08-29T23:32:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "adcb6d3f_9b7165ba",
+      "revId": "a848e1bc69740c129b1fb0a5cdc2b90b04479475",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7e014118_6d7f559c",
@@ -173,6 +209,24 @@
       "side": 1,
       "message": "ok",
       "parentUuid": "5c43a734_733abb40",
+      "revId": "a848e1bc69740c129b1fb0a5cdc2b90b04479475",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f03bf17a_45546ea9",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 584,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-08-29T23:32:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "880f19f9_375bd703",
       "revId": "a848e1bc69740c129b1fb0a5cdc2b90b04479475",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
