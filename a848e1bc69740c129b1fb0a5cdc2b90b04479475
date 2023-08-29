@@ -55,6 +55,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "beaf0fe0_650787d5",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 530,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2023-08-29T23:29:13Z",
+      "side": 1,
+      "message": "How about \"5-9 weeks, based on the current (as of 2023 typical 4-week release cycle)\"",
+      "parentUuid": "5d64bb9f_32fb8388",
+      "revId": "a848e1bc69740c129b1fb0a5cdc2b90b04479475",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6be179f7_3d91dcaa",
         "filename": "site/blink/launching-features/index.md",
         "patchSetId": 1
@@ -90,6 +108,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "adcb6d3f_9b7165ba",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 539,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2023-08-29T23:29:13Z",
+      "side": 1,
+      "message": "I\u0027d suggest removing it, since I think it might cause confusion.",
+      "parentUuid": "776f7290_8d5b1ff2",
+      "revId": "a848e1bc69740c129b1fb0a5cdc2b90b04479475",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7e014118_6d7f559c",
         "filename": "site/blink/launching-features/index.md",
         "patchSetId": 1
@@ -119,6 +155,24 @@
       "side": 1,
       "message": "How do you feel about leaving this text as-is for this change, since I\u0027m just moving it around within the document, and adding LGTMs or removing it in a separate change?",
       "parentUuid": "7e014118_6d7f559c",
+      "revId": "a848e1bc69740c129b1fb0a5cdc2b90b04479475",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "880f19f9_375bd703",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 584,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2023-08-29T23:29:13Z",
+      "side": 1,
+      "message": "ok",
+      "parentUuid": "5c43a734_733abb40",
       "revId": "a848e1bc69740c129b1fb0a5cdc2b90b04479475",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
