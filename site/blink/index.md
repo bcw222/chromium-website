@@ -108,7 +108,7 @@ follows the [Blink Coding Style Guidelines](/blink/coding-style).
 *   [How we think about making changes to the
             platform](/blink/guidelines/web-platform-changes-guidelines)
 *   [Launching a Web Platform Feature](/blink/launching-features)
-*   [Removing a Web Platform Feature](/blink/deprecating-features)
+*   [Removing a Web Platform Feature](/blink/launching-features#feature-deprecations)
 *   (Video) [Intent to Explain: Demystifying the Blink shipping
             process](https://www.youtube.com/watch?v=y3EZx_b-7tk)
 
