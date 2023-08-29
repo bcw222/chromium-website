@@ -151,7 +151,7 @@ sys-kernel/&lt;kernel_name&gt;/&lt;kernel_name&gt;-&lt;version&gt;-r1.ebuild
 > `CROS_WORKON_BLACKLIST="1"`
 > `CROS_WORKON_COMMIT="<git_commit_hash>"`
 > `# This must be inherited *after* EGIT/CROS_WORKON variables defined`
-> `inherit git-2 cros-kernel2 cros-workon`
+> `inherit git-2 cros-kernel cros-workon`
 > `DESCRIPTION="Chrome OS Kernel-<kernel_name>"`
 > `KEYWORDS="mips"`
 > `DEPEND="!sys-kernel/chromeos-kernel-next`
