@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bd319c2d_bcbb7c93",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-08-29T20:54:11Z",
+      "side": 1,
+      "message": "This implements the proposal at https://groups.google.com/a/chromium.org/g/blink-api-owners-discuss/c/r7csYE-tBzw/m/UuNnp96TAQAJ. Let me know what you think.\n\nThere\u0027s still a need to merge the Removal Guidelines into the \"Lessons from the first years of deprecations and removals\", but that should be a separate change.",
+      "revId": "a848e1bc69740c129b1fb0a5cdc2b90b04479475",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
