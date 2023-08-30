@@ -77,6 +77,9 @@ map to user-facing Chrome releases.
 
 ### Please [file bugs](https://crbug.com/new) as appropriate.
 
+If your Mac errors about "Chromium.app is damaged and can't be opened", run this to 
+remove the quarantine attribute:  `xattr -d com.apple.quarantine Chromium.app`
+
 ## Downloading old builds of Chrome / Chromium
 
 Let's say you want a build of Chrome 44 for debugging purposes. Google does not
