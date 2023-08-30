@@ -16,6 +16,40 @@
       "message": "Some troubleshooting guidance for mac users: https://github.com/beaufortfrancois/download-chromium/issues/92",
       "revId": "dff424915cefd7120e8df262bd46556574f8f01b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "79e262ed_271a5ba9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2023-08-30T23:54:33Z",
+      "side": 1,
+      "message": "I\u0027m not a Mac developer so I\u0027m not qualified to comment. Maybe Elly instead?",
+      "revId": "dff424915cefd7120e8df262bd46556574f8f01b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8f5d1258_d7c7ff44",
+        "filename": "site/getting-involved/download-chromium/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2023-08-30T23:54:33Z",
+      "side": 1,
+      "message": "Instead of errors should it be \"displays an error\" or something like that?",
+      "revId": "dff424915cefd7120e8df262bd46556574f8f01b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
