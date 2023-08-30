@@ -16,6 +16,24 @@
       "message": "Am I missing something or is this step \"4\" miscounting here?",
       "revId": "48002ca48ff7d2c636c773ccaa7e686a9ce9596b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "640004ca_fb13eefa",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 631,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-08-30T18:16:27Z",
+      "side": 1,
+      "message": "Yeah, I need to take some lessons from my kindergartener. Fixed!",
+      "parentUuid": "baeb38e1_4dd22d8e",
+      "revId": "48002ca48ff7d2c636c773ccaa7e686a9ce9596b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
