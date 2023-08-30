@@ -7,5 +7,5 @@ title: Guides
 ---
 
 > 🚧 The library is currently under construction. See
-> [go/cros-dev-library-proposal](https://go/cros-dev-library-proposal) for more
-> information.
+> [the CrOS Developer Library Proposal](/chromium-os/developer-library/proposal)
+> for more information.

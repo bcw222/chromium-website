@@ -10,7 +10,7 @@ The Chromium OS Developer Library is the authoritative collection of resources
 and materials that enable engineers to efficiently develop the platform.
 
 > 🚧 The library is currently under construction. See
-> [go/cros-dev-library-proposal](https://goto.corp.google.com/cros-dev-library-proposal)
+> [the CrOS Developer Library Proposal](/chromium-os/developer-library/proposal)
 > for more information.
 
 <div class="two-column-container">
