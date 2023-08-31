@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "eacfece6_29ab74a7",
+        "filename": "site/chromium-os/developer-library/proposal/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2023-08-31T00:12:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9f49bb33_aa15c837",
+      "revId": "3c5de1131f43251fc9456ee1c004c2d03fcb7eed",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c6c530c4_f603ef34",
@@ -31,6 +49,24 @@
       "writtenOn": "2023-08-31T00:05:02Z",
       "side": 1,
       "message": "Should this be landed in a public repository?",
+      "revId": "3c5de1131f43251fc9456ee1c004c2d03fcb7eed",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a1fd32b_c9282bb7",
+        "filename": "site/chromium-os/developer-library/proposal/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2023-08-31T00:12:42Z",
+      "side": 1,
+      "message": "I don\u0027t see it as being confidential, so yes.",
+      "parentUuid": "c6c530c4_f603ef34",
       "revId": "3c5de1131f43251fc9456ee1c004c2d03fcb7eed",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -52,6 +88,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "285f1971_afff7ba6",
+        "filename": "site/chromium-os/developer-library/proposal/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2023-08-31T00:12:42Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "23274db5_884dd51a",
+      "revId": "3c5de1131f43251fc9456ee1c004c2d03fcb7eed",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ff4bfa70_ced8902f",
@@ -69,6 +123,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "086cbc82_c8394a2a",
+        "filename": "site/chromium-os/developer-library/proposal/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2023-08-31T00:12:42Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "ff4bfa70_ced8902f",
+      "revId": "3c5de1131f43251fc9456ee1c004c2d03fcb7eed",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cf8518cf_aa5ddaec",
@@ -82,6 +154,30 @@
       "writtenOn": "2023-08-31T00:05:02Z",
       "side": 1,
       "message": "nit: Remove extra space.",
+      "range": {
+        "startLine": 93,
+        "startChar": 35,
+        "endLine": 93,
+        "endChar": 36
+      },
+      "revId": "3c5de1131f43251fc9456ee1c004c2d03fcb7eed",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e65f1b4_fdb730fd",
+        "filename": "site/chromium-os/developer-library/proposal/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2023-08-31T00:12:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cf8518cf_aa5ddaec",
       "range": {
         "startLine": 93,
         "startChar": 35,
