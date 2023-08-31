@@ -72,7 +72,7 @@ time; this is normal).
 
 [Include a policy](/developers/how-tos/enterprise/adding-new-policies) to
 control the new change, where possible. The specifics depend on the exact
-change, but here's a best practice that works for most disruptive changes
+change, but here's a best practice that works for most disruptive changes.
 
 Introduce a policy that can force the new behavior on or force the behavior
 off. If the policy is not set (i.e. for consumers), the behavior is defined
@@ -93,6 +93,14 @@ surprise to them. If the policy is temporary:
 - Consider introducing the policy a release before making any changes on
 default, so enterprises can opt-in to test it before the default behavior
 changes.
+- The policy must be added before the branch point of the milestone where it
+applies; it can't be merged in after branch point. This is because policies
+also must be added to management software that controls the browser, and the
+time between branch point and stable release makes this possible. As a
+Chromium developer, you don't need to take any action to add the policies to
+management software, you only need to create the Chromium policy in time.
+- Prefer simple policies like bools and enums, which can be ported to
+enterprise management software more easily.
 
 - Roll out the change using Finch, following the standard launch process (e.g.
 [process for blink](/blink/launching-features)). Any enterprise that's set the
