@@ -1,0 +1,95 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9f49bb33_aa15c837",
+        "filename": "site/chromium-os/developer-library/proposal/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1001529
+      },
+      "writtenOn": "2023-08-31T00:05:02Z",
+      "side": 1,
+      "message": "nit: \u003c\u003d80 characters per line throughout this file.",
+      "revId": "3c5de1131f43251fc9456ee1c004c2d03fcb7eed",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c6c530c4_f603ef34",
+        "filename": "site/chromium-os/developer-library/proposal/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1001529
+      },
+      "writtenOn": "2023-08-31T00:05:02Z",
+      "side": 1,
+      "message": "Should this be landed in a public repository?",
+      "revId": "3c5de1131f43251fc9456ee1c004c2d03fcb7eed",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "23274db5_884dd51a",
+        "filename": "site/chromium-os/developer-library/proposal/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1001529
+      },
+      "writtenOn": "2023-08-31T00:05:02Z",
+      "side": 1,
+      "message": "Same here.",
+      "revId": "3c5de1131f43251fc9456ee1c004c2d03fcb7eed",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ff4bfa70_ced8902f",
+        "filename": "site/chromium-os/developer-library/proposal/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1001529
+      },
+      "writtenOn": "2023-08-31T00:05:02Z",
+      "side": 1,
+      "message": "Same here.",
+      "revId": "3c5de1131f43251fc9456ee1c004c2d03fcb7eed",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf8518cf_aa5ddaec",
+        "filename": "site/chromium-os/developer-library/proposal/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1001529
+      },
+      "writtenOn": "2023-08-31T00:05:02Z",
+      "side": 1,
+      "message": "nit: Remove extra space.",
+      "range": {
+        "startLine": 93,
+        "startChar": 35,
+        "endLine": 93,
+        "endChar": 36
+      },
+      "revId": "3c5de1131f43251fc9456ee1c004c2d03fcb7eed",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
