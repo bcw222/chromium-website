@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7907c34d_4b43a022",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2023-08-31T17:24:34Z",
+      "side": 1,
+      "message": "lgtm w/ nit",
+      "revId": "1847effe6f2cb80f20114358b12460f696eca140",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4ecdc1d1_e6323568",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 565,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2023-08-31T17:24:34Z",
+      "side": 1,
+      "message": "nit: elsewhere in this doc we use \"ChromeStatus\"",
+      "revId": "1847effe6f2cb80f20114358b12460f696eca140",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
