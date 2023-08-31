@@ -164,7 +164,7 @@ feature you’re adding.
 
 #### Step 1: Incubating: Write up use cases and scenarios in an explainer {:#start-incubating}
 
-Proceed to the "Start Incubating" stage in Chrome Status.
+Proceed to the "Start Incubating" stage in ChromeStatus.
 
 Write up the use cases and scenarios for the feature in an
 [explainer](https://tag.w3.org/explainers/), which is typically written in
@@ -210,7 +210,7 @@ writing up a pull request with changes to an existing spec).
 
 Note that any CLs landing at this stage should be [behind a feature
 flag](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/platform/RuntimeEnabledFeatures.md).
-Consider adding a[ UseCounter](/blink/platform-predictability/compat-tools) to
+Consider adding a [UseCounter](/blink/platform-predictability/compat-tools) to
 track usage of your new feature in the wild, and be sure to write integration
 tests for your feature as[
 web-platform-tests](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/testing/web_platform_tests.md)
@@ -481,6 +481,11 @@ Once you have shipped your feature, proceed to the "Ship" stage in ChromeStatus.
 
 ### Feature deprecations
 
+Deprecations and removals must have strong reasons, explicitly balanced against
+the cost of removal. Deprecations should be clear and actionable for developers.
+First, read the [guidelines for deprecating a
+feature](https://docs.google.com/a/chromium.org/document/d/1LdqUfUILyzM5WEcOgeAWGupQILKrZHidEXrUxevyi_Y/edit?usp=sharing).
+
 #### Lessons from the first years of deprecations and removals ([thread](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/1wWhVoKWztY)) {:#deprecation-lessons}
 
 We should weigh the benefits of removing an API more against the cost it
@@ -506,7 +511,7 @@ on stable as we don't know the compat hit until the release has been on
 stable for a couple weeks.
 
 Enterprise users have additional difficulties reacting to breaking changes,
-but we also have additional tools to help them. See[ shipping changes that
+but we also have additional tools to help them. See [shipping changes that
 are enterprise-friendly](/developers/enterprise-changes) for best practices.
 
 High-usage APIs may require much more work to land successfully. See
@@ -514,32 +519,76 @@ High-usage APIs may require much more work to land successfully. See
 for a good example of how this worked in practice with the deprecation and
 removal of the Web Components v0 APIs.
 
-#### Step 1: Write up motivation {:#deprecation-motivation}
+#### Step 1: Measure usage {:#deprecation-measure}
 
-Deprecations and removals must have strong reasons, explicitly balanced against
-the cost of removal. Deprecations should be clear and actionable for developers.
-First, read the [guidelines for deprecating a
-feature](https://docs.google.com/a/chromium.org/document/d/1LdqUfUILyzM5WEcOgeAWGupQILKrZHidEXrUxevyi_Y/edit?usp=sharing).
-Measure feature usage in the wild. [ Various
+Measure feature usage in the wild. [Various
 tools](/blink/platform-predictability/compat-tools) are available, but typically
-this is accomplished by simply adding your feature to the[ UseCounter::Feature
+this is accomplished by adding your feature to the [`UseCounter::Feature`
 enum](https://code.google.com/p/chromium/codesearch#chromium/src/third_party/WebKit/Source/core/frame/UseCounter.h&sq=package:chromium&type=cs&q=file:UseCounter.h%20Feature)
-and adding MeasureAs=&lt;your enum value&gt; to the feature's IDL definition.
+and adding `MeasureAs=<your enum value>` to the feature's IDL definition.
 
-Fill out the “Motivation” section with a brief summary, and then write up the
-use cases and scenarios. Proceed to the “Write Up Motivation” stage in
-ChromeStatus - this will generate an “Intent to Deprecate and Remove” mail for
-you. Send that email to [blink-dev](mailto:blink-dev@chromium.org) and start
-checking in your code removing the feature to Chromium as a [runtime enabled
-feature](/blink/runtime-enabled-features). Make sure to provide suggested
-alternatives to the feature being deprecated. As soon as you have a functional
-removal of the feature ready for developers to try out under a flag, proceed to
-the next step.
+It takes 5-9 weeks (based on 2023's typical 4-week release cycle) to hit Stable
+once you enable instrumentation. If there is time pressure you may be able to
+get permission to merge UseCounter changes into an existing dev/beta branch, and
+make provisional decisions based on data from beta channel.
 
-#### Step 2: Dev trial of deprecation {:#deprecation-dev-trials}
+#### Step 2: Coordinate with other engines {:#deprecation-coordinate}
 
-Proceed to the “Dev Trials” stage in ChromeStatus. This will generate a “Ready
-for Developer Testing” email that you should send to
+If multiple browser engines support the feature, talk to decision-makers at the
+other engines and to spec editors in order to ensure that the feature is removed
+in a coordinated way. We usually don't want to try to remove a feature from
+Chromium if Gecko and WebKit are going to keep supporting it. Once you have a
+coordinated removal plan, [file standards position
+issues](https://bit.ly/blink-signals) to document the agreement.
+
+<a id="deprecation-motivation"></a>
+#### Step 3: Deprecate the feature {:#deprecate}
+
+Proceed to the “Write Up Motivation” stage in ChromeStatus.
+
+Fill out the “Motivation” section with an explanation of why you want to remove
+this feature and why you think you'll be able to remove it. Make sure to provide
+suggested alternatives to the feature being deprecated.
+
+Consider whether your feature is likely to need a [deprecation
+trial](#deprecation-trial), and if so, describe what you know about the
+deprecation trial. You'll be able to correct this later if you learn something
+new.
+
+Also describe the conditions under which you plan to proceed to removing the
+feature. For example, you might expect that just running [dev
+trials](#deprecation-dev-trials) for several milestones will be enough, or you
+might only want to remove if measured usage drops to a certain level. Again,
+you'll be able to change your mind later by sending another email and waiting
+for the API owners to agree to it.
+
+Have ChromeStatus generate an “Intent to Deprecate and Remove” mail for you,
+send it to [blink-dev](mailto:blink-dev@chromium.org), and wait for 3 LGTMs.
+
+Once [the API owners have given 3
+LGTMs](/blink/guidelines/api-owners/procedures/) for your removal plan, start
+checking in your code to add a [runtime enabled
+feature](https://chromium.googlesource.com/chromium/src/+/HEAD/third_party/blink/renderer/platform/RuntimeEnabledFeatures.md)
+that turns off the deprecated feature. As soon as you have a functional removal
+of the feature ready for developers to try out under a flag, proceed to the next
+step.
+
+##### Deprecating without removal
+
+If you are unsure of when a feature could be removed, or would like to
+discourage usage, you may deprecate a feature without a removal deadline. This
+is strongly discouraged and will require significant justification:
+
+* Email blink-dev using the ["Intent to Deprecate" template](https://docs.google.com/a/chromium.org/document/d/1Z7bbuD5ZMzvvLcUs9kAgYzd65ld80d5-p4Cl2a04bV0/edit).
+
+* [1 LGTM](/blink/guidelines/api-owners/procedures) necessary from the API owners
+
+* Must justify why there is no removal date
+
+#### Step 4: Dev trial of deprecation {:#deprecation-dev-trials}
+
+Proceed to the “Dev Trial of deprecation” stage in ChromeStatus. This will
+generate a “Ready for Developer Testing” email that you should send to
 [blink-dev](mailto:blink-dev@chromium.org) to notify the community they can try
 out the feature deprecation.
 
@@ -553,73 +602,69 @@ like to target shipping. You should also decide (possibly based on data from the
 dev trial) if a deprecation trial is going to be necessary to help smooth the
 removal of this feature from the web platform.
 
-#### Step 3 (Optional): Deprecation Trial {:#deprecation-trial}
+#### Step 5 (Optional): Deprecation Trial {:#deprecation-trial}
 
 If you are concerned that there are going to be web developers who need
 additional time to fix up their implementations, and will want to delay your
 feature deprecation, you can file for a [Deprecation
-Trial](https://groups.google.com/a/chromium.org/forum/#!msg/blink-api-owners-discuss/uNWSTCUzIcU/0jyBWgLlDgAJ).
+Trial](https://developer.chrome.com/docs/web-platform/origin-trials/#deprecation-trials).
 This will let you disable the feature by default, but let developers request an
 origin trial token to re-enable the feature, for a limited period of time after
 the feature deprecation. You will need to decide how long to keep the
 deprecation trial open and enter that milestone in the tool for planning
-purposes, and then select “Draft Request for Deprecation Trial email” in
+purposes.
+
+If the details are different from what you wrote in your “Intent to Deprecate
+and Remove” thread, select “Draft Request for Deprecation Trial email” in
 ChromeStatus, and send the resulting “Request for Deprecation Trial” email to
-[blink-dev](mailto:blink-dev@chromium.org). After receiving at least [one
+[blink-dev](mailto:blink-dev@chromium.org). If the original details were
+correct, the “Intent to Deprecate and Remove” thread is sufficient.
+
+After your deprecation trial plan has received at least [one
 LGTM](/blink/guidelines/api-owners/procedures) from the API owners, email
 [origin-trials-support@google.com](mailto:origin-trials-support@google.com)
-letting them know you plan to run a deprecation trial, ensure your removal is
+letting them know you plan to run a deprecation trial. Ensure your removal is
 integrated with the origin trials framework ([see
-details](/blink/origin-trials/running-an-origin-trial#integrate-feature)), and
+details](/blink/origin-trials/running-an-origin-trial#integrate-feature), or
 Googlers can request a trial for their feature at
-[go/new-origin-trial](http://goto.google.com/new-origin-trial). Once your
+[go/new-origin-trial](http://goto.google.com/new-origin-trial)). Once your
 Deprecation Trial is in place, proceed to the next step.
 
-#### Step 4: Prepare to Ship {:#deprecation-prepare-to-ship}
+#### Step 6: Prepare to Ship {:#deprecation-prepare-to-ship}
 
-You should update ChromeStatus with a target milestone for deprecating the
+You should update ChromeStatus with a target milestone for disabling the
 feature (and remember to keep this updated, if things change). You should get
 final signoff from the Documentation team.
 
-Proceed to the “Prepare to Ship” stage in ChromeStatus; this will generate an
-[Intent to
-Ship](https://docs.google.com/document/d/1vlTlsQKThwaX0-lj_iZbVTzyqY7LioqERU8DK3u3XjI/edit#bookmark=id.w8j30a6lypz0)
-mail that you should send to [blink-dev](mailto:blink-dev@chromium.org). This
-will spark a conversation with the API owners; address any feedback from them,
-and once you get [3 LGT](/blink/guidelines/api-owners/procedures)Ms from the API
-owners, you may proceed.
+Proceed to the “Prepare to Ship” stage in ChromeStatus. If any details have
+changed from what you described in your “Intent to Deprecate and Remove” thread,
+update that thread with the new details, and wait for 3 API owners to confirm
+that their LGTMs still apply. Otherwise, you can keep following your approved
+plan without new LGTMs.
 
-#### Step 5: Disable the feature {:#disable-feature}
+#### Step 7: Disable the feature {:#disable-feature}
 
 Disable the feature by default. Update ChromeStatus to either “Disabled” or
 “Disabled with Deprecation Trial”.
 
-#### Step 6: Remove Code {:#remove-code}
+#### Step 8: Wait for the removal to land {:#wait-for-landing}
 
 If you are running a Deprecation Trial, wait until the Deprecation Trial period
-has ended. (If you need to extend the Deprecation Trial, notify
-[origin-trials-support@google.com](mailto:origin-trials-support@google.com) and
-click “Generate an Intent to Extend Deprecation Trial” in ChromeStatus and send
-the resulting notification to blink-dev.)
+has ended.
 
-Once the feature is no longer available, remove the code (typically waiting a
-couple of milestone cycles to insure the code is no longer needed), and set the
-ChromeStatus to “Removed.”
+Monitor developer chatter and bug reports for at least a month or two after your
+removal has gotten to Stable and any Deprecation Trial has ended to make sure
+it's landing well.
 
-If you are unsure of when a feature could be removed, or would like to
-discourage usage, you may deprecate a feature without a removal deadline. This
-is strongly discouraged and will require significant justification:
+If you need to extend the Deprecation Trial, notify
+[origin-trials-support@google.com](mailto:origin-trials-support@google.com),
+click “Generate an Intent to Extend Deprecation Trial” in ChromeStatus, and send
+the resulting notification to blink-dev. Then repeat this step.
 
-* Email blink-dev using the ["Intent to Deprecate" template](https://docs.google.com/a/chromium.org/document/d/1Z7bbuD5ZMzvvLcUs9kAgYzd65ld80d5-p4Cl2a04bV0/edit).
+#### Step 9: Remove Code {:#remove-code}
 
-* [1 LGTM](/blink/guidelines/api-owners/procedures) necessary from the API owners
-
-* Must justify why there is no removal date
-
-\* It takes 12-18 weeks to hit Stable once you enable instrumentation. If there
-is time pressure you may be able to get permission to merge UseCounter changes
-into an existing dev/beta branch, and make provisional decisions based on data
-from beta channel.
+Once it's clear that developers are no longer relying on the disabled feature,
+remove the code, and set the ChromeStatus to “Removed.”
 
 ### Web-developer-facing change to existing behavior {:#behavior-changes}
 
@@ -636,15 +681,15 @@ likelihood to result in site breakage.
 
 The following criteria are worthwhile to consider:
 
-* Can the change cause user-visible or functional breakage? 
+* Can the change cause user-visible or functional breakage?
   - Is it possible that existing code relies on the current behavior?
   - What would that coding pattern look like? How likely it is that this
-  coding pattern is used in the wild? Our collection of 
+  coding pattern is used in the wild? Our collection of
   [compat tools](https://www.chromium.org/blink/platform-predictability/compat-tools/)
   can help with such an assessment.
   - Non-user-visible breakage (e.g. breakage in reporting or monetization) is
  still considered functional breakage.
-* What are other browser engines doing? 
+* What are other browser engines doing?
   - Would this change align Chromium's behaviour with other vendors? Or
   would Chromium be the first to roll-out this behavior change?
 * What is the usage of the feature being changed (typically measured with
