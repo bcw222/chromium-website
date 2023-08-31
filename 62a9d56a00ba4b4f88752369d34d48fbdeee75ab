@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7f964df7_8f96d0b5",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 539,
+      "author": {
+        "id": 1175237
+      },
+      "writtenOn": "2023-08-31T14:13:55Z",
+      "side": 1,
+      "message": "Should we specifically mention filing a standards position with the other browsers, to make this more formal? That\u0027s probably the most straightforward way of getting feedback, and I imagine it\u0027s needed anyways for the final intent / LGTMs, right?",
+      "revId": "62a9d56a00ba4b4f88752369d34d48fbdeee75ab",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4c001381_808d923e",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 567,
+      "author": {
+        "id": 1175237
+      },
+      "writtenOn": "2023-08-31T14:13:55Z",
+      "side": 1,
+      "message": "This link doesn\u0027t seem right. Can we make this relative?",
+      "revId": "62a9d56a00ba4b4f88752369d34d48fbdeee75ab",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
