@@ -45,7 +45,7 @@ If you are creating a package that does not exist in Gentoo, you are responsible
 for scanning the source code of that package and setting the LICENSE field in
 the ebuild to the correct value. Note that some open source software may require
 that you list more than one license, or may be dual or tripled licensed. Feel
-free to ask [chromeos-build@google.com](mailto:chromeos-build@google.com) for
+free to ask [chromeos-build-discuss@](http://g/chromeos-build-discuss) for
 guidance if you have questions.
 
 ## You need to check in a new license
