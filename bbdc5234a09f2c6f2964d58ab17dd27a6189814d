@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bbe7db37_92d2078d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000886
+      },
+      "writtenOn": "2023-09-06T20:04:15Z",
+      "side": 1,
+      "message": "There wasn\u0027t an owner suggested, but you two were the last to touch the file.",
+      "revId": "bbdc5234a09f2c6f2964d58ab17dd27a6189814d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
