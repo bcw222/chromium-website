@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e47315cb_09e4f8c3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2023-09-06T20:25:59Z",
+      "side": 1,
+      "message": "example banner:\nhttps://chromium.googlesource.com/website/+/bffc954d9f716eed29b5cbfa46f097ba0092536c/site/chromium-os/how-tos-and-troubleshooting/serial-debugging-howto/index.md",
+      "revId": "bffc954d9f716eed29b5cbfa46f097ba0092536c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
