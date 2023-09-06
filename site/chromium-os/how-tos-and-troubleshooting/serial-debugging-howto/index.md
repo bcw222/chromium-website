@@ -82,7 +82,7 @@ in the Linux kernel source tree.
 #### Virtual Machines (QEMU/KVM)
 
 If you boot the image in a VM, and you use the
-[cros_start_vm](/chromium-os/how-tos-and-troubleshooting/running-chromeos-image-under-virtual-machines)
+[cros_start_vm](/site/chromium-os/how-tos-and-troubleshooting/running-chromeos-image-under-virtual-machines)
 script to launch it, then serial output will be logged to a
 `/tmp/kvm.xxx.serial` file (exact name will be shown when starting the VM).
 
@@ -108,7 +108,7 @@ You probably want to use ttySAC3 for your console.
 ## Enabling Serial Console Login
 
 See the [Controlling Enabled Consoles
-document](/chromium-os/developer-guide/using-serial-tty) for all the details.
+document](/site/chromium-os/developer-guide/using-serial-tty) for all the details.
 
 ## Build Chromium OS image using your custom kernel config
 
