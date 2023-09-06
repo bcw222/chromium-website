@@ -68,6 +68,24 @@
       "parentUuid": "6f2b633e_357420d7",
       "revId": "bbdc5234a09f2c6f2964d58ab17dd27a6189814d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "24b83ddc_47b6995d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000886
+      },
+      "writtenOn": "2023-09-06T20:25:37Z",
+      "side": 1,
+      "message": "thanks for the context.  i did not realize that moma was causing the issue.  i\u0027ll make sure to redirect myself to the external resources.\n\nit\u0027s unfortunate that it\u0027s an internal tool of ours that is causing issues.  OTOH it\u0027s good to know that external devs are not impacted.",
+      "parentUuid": "608051ff_65f4a081",
+      "revId": "bbdc5234a09f2c6f2964d58ab17dd27a6189814d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ],
   "submitRequirementResults": [
