@@ -16,6 +16,23 @@
       "message": "There wasn\u0027t an owner suggested, but you two were the last to touch the file.",
       "revId": "bbdc5234a09f2c6f2964d58ab17dd27a6189814d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f2980c23_7ea7f22d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2023-09-06T20:07:09Z",
+      "side": 1,
+      "message": "the links are not broken.  make sure you\u0027re browsing the site via dev.chromium.org, not via gitiles or cs/.\n\nhttps://dev.chromium.org/chromium-os/how-tos-and-troubleshooting/serial-debugging-howto/#virtual-machines-qemukvm",
+      "revId": "bbdc5234a09f2c6f2964d58ab17dd27a6189814d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
