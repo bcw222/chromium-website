@@ -50,6 +50,24 @@
       "message": "I was just following a link returned from moma:\nhttps://moma.corp.google.com/search?q\u003dchrome%20os%20serial%20console\n\nhttps://chromium.googlesource.com/website/+/HEAD/site/chromium-os/how-tos-and-troubleshooting/serial-debugging-howto/index.md\n\nand the links are dead.",
       "revId": "bbdc5234a09f2c6f2964d58ab17dd27a6189814d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "608051ff_65f4a081",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2023-09-06T20:18:38Z",
+      "side": 1,
+      "message": "moma/ indexes the source in our tree, and it links to gitiles.  i don\u0027t think we have much control over it :(.\n\nthere was discussion about improving dev.chromium.org surfacing in moma/, but it looks like it hasn\u0027t gone anywhere.\n\ni wonder if we can add a comment tag to the markdown source at the top to point people to the respective dev.chromium.org page, and wouldn\u0027t be rendered in the site itself.",
+      "parentUuid": "6f2b633e_357420d7",
+      "revId": "bbdc5234a09f2c6f2964d58ab17dd27a6189814d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ],
   "submitRequirementResults": [
