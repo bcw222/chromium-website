@@ -34,6 +34,24 @@
       "parentUuid": "898af9ed_2e3afbbb",
       "revId": "010fbd94f24ab6f8d6202dec246f51e93a879616",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e36340a9_cb263ad4",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-09-07T19:30:28Z",
+      "side": 1,
+      "message": "Thank you! That project writeup looks good, but a fair amount of work. Good luck with it :).",
+      "parentUuid": "55d70a81_906e7ace",
+      "revId": "010fbd94f24ab6f8d6202dec246f51e93a879616",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
