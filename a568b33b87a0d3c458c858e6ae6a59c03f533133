@@ -16,6 +16,24 @@
       "message": "This is a larger icon (64x64 instead of 32x32). Is that change intentional?\n\nSee\n\n  https://chromium-website--cl4852257-ps2-ud600boz.web.app/chromium-projects/\n\nvs\n\n  https://www.chromium.org/chromium-projects/",
       "revId": "a568b33b87a0d3c458c858e6ae6a59c03f533133",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "03b16629_046ed73c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1598792
+      },
+      "writtenOn": "2023-09-07T22:43:12Z",
+      "side": 1,
+      "message": "Ah yes, see that. I\u0027ll probably change to 48x48, as I think the older versions were a bit too small to see on large displays.",
+      "parentUuid": "7cfd152e_58791c2c",
+      "revId": "a568b33b87a0d3c458c858e6ae6a59c03f533133",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
