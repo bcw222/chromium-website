@@ -16,6 +16,40 @@
       "message": "48x48 would\u0027ve been fine, too. I was just checking that there wasn\u0027t something weird going on.",
       "revId": "8d2f2e8401b43e6de8e7f8ad654dbfe5a25ea0e2",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dca84f21_c18b6ff7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2023-09-08T20:10:06Z",
+      "side": 1,
+      "message": "there\u0027s no point in you constantly hitting CQ+1/CQ+2.  the error message is pretty clear that it\u0027s not going to work for you.",
+      "revId": "8d2f2e8401b43e6de8e7f8ad654dbfe5a25ea0e2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "65a51935_a8d981dd",
+        "filename": "site/chromium-projects/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2023-09-08T20:10:06Z",
+      "side": 1,
+      "message": "do we really want to be using resources that live on google.com ?  we have no guarantee they\u0027ll exist at that path, and if things move, we\u0027ll have no idea until someone notices the images are broken.\n\nseems like we should be copying it to our infra like we do with the existing logos.",
+      "revId": "8d2f2e8401b43e6de8e7f8ad654dbfe5a25ea0e2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
