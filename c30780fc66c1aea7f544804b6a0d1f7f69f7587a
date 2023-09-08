@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d1c52de9_4e8a0566",
+        "filename": "site/chromium-os/developer-library/getting-started/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1001529
+      },
+      "writtenOn": "2023-09-08T23:07:12Z",
+      "side": 1,
+      "message": "We had a \"rebranding\" (last year, IIRC) where we no longer use a space here. Let\u0027s rename to ChromeOS and ChromiumOS here and below.",
+      "range": {
+        "startLine": 13,
+        "startChar": 11,
+        "endLine": 13,
+        "endChar": 22
+      },
+      "revId": "c30780fc66c1aea7f544804b6a0d1f7f69f7587a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
