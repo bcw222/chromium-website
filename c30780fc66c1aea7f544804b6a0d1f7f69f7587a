@@ -22,6 +22,30 @@
       },
       "revId": "c30780fc66c1aea7f544804b6a0d1f7f69f7587a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b51b5fcb_69e351dc",
+        "filename": "site/chromium-os/developer-library/getting-started/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2023-09-08T23:11:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d1c52de9_4e8a0566",
+      "range": {
+        "startLine": 13,
+        "startChar": 11,
+        "endLine": 13,
+        "endChar": 22
+      },
+      "revId": "c30780fc66c1aea7f544804b6a0d1f7f69f7587a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
