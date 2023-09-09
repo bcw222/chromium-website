@@ -481,38 +481,48 @@ Once you have shipped your feature, proceed to the "Ship" stage in ChromeStatus.
 
 ### Feature deprecations
 
+Deprecating/removing features creates a heavy burden for developers and users.
+Broken sites might hurt developers’ livelihood or prevent users from completing
+vital tasks. Ambiguous removal timelines confuse developers and make it hard for
+them to respond appropriately.
+
 Deprecations and removals must have strong reasons, explicitly balanced against
 the cost of removal. Deprecations should be clear and actionable for developers.
-First, read the [guidelines for deprecating a
-feature](https://docs.google.com/a/chromium.org/document/d/1LdqUfUILyzM5WEcOgeAWGupQILKrZHidEXrUxevyi_Y/edit?usp=sharing).
+When suggesting a deprecation/removal, be ready to answer these questions:
 
-#### Lessons from the first years of deprecations and removals ([thread](https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/1wWhVoKWztY)) {:#deprecation-lessons}
-
-We should weigh the benefits of removing an API more against the cost it
-has. Percent of page views by itself is not the only metric we care about.
-
-The cost of removing an API is not accurately reflected by the UseCounter
-for older, widely implemented APIs. It's more likely that there's a
-longer-tail of legacy content that we're breaking.
-
-We shouldn't remove APIs that have small value on the path towards a removal
-that has significant value. Getting rid of attribute nodes \*is\* valuable
-and would benefit the platform. Getting rid of half the attribute node
-methods is not. So we should evaluate the usage of all the APIs we need to
-remove together in order to get there. Also, if we remove them, we should
-remove them all in the same release. Breaking people once is better than
-breaking them repeatedly in small ways.
-
-We should be more hesitant to remove older, widely implemented APIs.
-
-For cases where we're particularly concerned about the compatibility hit, we
-should do the removal behind a flag so that we can easily re-enable the API
-on stable as we don't know the compat hit until the release has been on
-stable for a couple weeks.
-
-Enterprise users have additional difficulties reacting to breaking changes,
-but we also have additional tools to help them. See [shipping changes that
-are enterprise-friendly](/developers/enterprise-changes) for best practices.
+* Why are we removing this feature?
+  * Security
+  * Code health
+  * Interoperability
+  * Known bad practice that leads to unintuitive performance problems, bad user
+    experience, etc.
+  * We shouldn't remove APIs that have small value on the path towards a removal
+    that has significant value. For example, getting rid of attribute nodes
+    *is* valuable and would benefit the platform. Getting rid of half the
+    attribute node methods is not. So we should evaluate the usage of all the
+    APIs we need to remove together in order to get there.
+* What is the cost of removing this feature?
+  * Use counter data: Try to estimate how many users would be inconvenienced.
+    There is no threshold for which removal is necessarily safe.
+    * Compare with similar removals in the past.
+    * Will removal lead to a broken user experience?
+    * You can still remove a feature with higher usage if the need is great enough.
+    * For older, widely implemented APIs, the cost of removing an API is not
+      accurately reflected by the UseCounter. It's more likely that there's a
+      longer-tail of legacy content that we're breaking. We should be more
+      hesitant to remove older, widely implemented APIs.
+  * HTTP Archive: Find and analyze affected sites. What will the typical effect of removal be?
+    * If feature detection is almost always used, that makes removal less risky.
+* When will the feature be removed?
+  * Unless there is a specific, compelling reason for why a feature should be
+    removed immediately, it should be deprecated for at least 1 milestone before
+    removal.
+  * Depending on the degree of usage/breakage, more milestones may be warranted.
+  * If we remove a related collection of things, we should remove them all in
+    the same release. Breaking people once is better than breaking them
+    repeatedly in small ways.
+* What is the suggested alternative?
+  * There should be another way for developers to achieve the same functionality
 
 High-usage APIs may require much more work to land successfully. See
 [here](https://docs.google.com/document/d/1-_5MagztiYclsMccY4Z66XI465WaasT5I5y2dnhRvoE/edit#heading=h.n49iymp16hl6)
@@ -614,6 +624,10 @@ the feature deprecation. You will need to decide how long to keep the
 deprecation trial open and enter that milestone in the tool for planning
 purposes.
 
+Deprecation trials are especially useful to support enterprise users, who have
+additional difficulties reacting to breaking changes. See [shipping changes that
+are enterprise-friendly](/developers/enterprise-changes) for best practices.
+
 If the details are different from what you wrote in your “Intent to Deprecate
 and Remove” thread, select “Draft Request for Deprecation Trial email” in
 ChromeStatus, and send the resulting “Request for Deprecation Trial” email to
@@ -654,7 +668,9 @@ has ended.
 
 Monitor developer chatter and bug reports for at least a month or two after your
 removal has gotten to Stable and any Deprecation Trial has ended to make sure
-it's landing well.
+it's landing well. If the removal goes particularly badly, you may need to turn
+the feature back on using the runtime enabled feature you added
+[above](#deprecate).
 
 If you need to extend the Deprecation Trial, notify
 [origin-trials-support@google.com](mailto:origin-trials-support@google.com),
