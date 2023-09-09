@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f2517ab_dd38fea2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-09-09T21:04:41Z",
+      "side": 1,
+      "message": "The Deprecations section linked to a Google Doc for the main instructions, and then had a list of \"lessons from the first years\" modifying that. This change attempts to merge those into a single list of instructions. What do you think?",
+      "revId": "b8df478e37372ad6cea5a710c3d941d7beae239e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
