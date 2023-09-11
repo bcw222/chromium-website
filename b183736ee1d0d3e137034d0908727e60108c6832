@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49918ebf_8ee8304f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-09-11T17:56:01Z",
+      "side": 1,
+      "message": "Yay stale GYP reference :).\n\nLGTM, thanks for the fix.",
+      "revId": "b183736ee1d0d3e137034d0908727e60108c6832",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
