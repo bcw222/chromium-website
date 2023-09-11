@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9c38e42a_d9194d00",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-09-11T10:48:45Z",
+      "side": 1,
+      "message": "Thanks! I\u0027ve now asked the https://docs.google.com/document/d/1LdqUfUILyzM5WEcOgeAWGupQILKrZHidEXrUxevyi_Y/edit owners to replace its contents with a pointer here.",
+      "revId": "65e3bce16d0f9de5752dfdcb90f135e118817c1a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
