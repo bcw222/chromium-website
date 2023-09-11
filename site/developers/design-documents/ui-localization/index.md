@@ -121,12 +121,7 @@ grd(p) files in our source tree.
 *   If the resources will be referenced from C++ code, make sure to do
     the following actions. This doesn't impact the translation process,
     but your new grd file won't compile without them.
-    *   New grd files need to be added to `/src/tools/gritsettings/resource_ids`
-    *   New grd files need to have a rule added to
-        `/src/chrome/chrome_resources.gyp`. During `gclient sync`, these
-        grit rules are run, and your grd's `.h` file will be generated.
-        This file should be included by any `.cc` file that references
-        your strings.
+    *   New grd files need to be added to `/src/tools/gritsettings/resource_ids.spec`
 
 **Notes for translation:**
 
