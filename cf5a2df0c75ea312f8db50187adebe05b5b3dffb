@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "609ff746_b21d78c1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1524952
+      },
+      "writtenOn": "2023-09-11T01:59:38Z",
+      "side": 1,
+      "message": "Hi Pawan,\n\nI have no privilege to CR+2 this cl.",
+      "revId": "cf5a2df0c75ea312f8db50187adebe05b5b3dffb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
