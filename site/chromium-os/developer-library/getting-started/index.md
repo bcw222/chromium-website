@@ -52,14 +52,15 @@ Links to repositories:
 * `chromiumos`:
   [https://osscs.corp.google.com/chromiumos](https://osscs.corp.google.com/chromiumos)
 
-## Development environment
+## Hardware requirements
 
 Developing an operating system requires significant resources such as a powerful
 workstation to build and debug the system and a ChromiumOS device to flash and
 test changes.
 
-Head over to the TODO(Development environment) page to understand what hardware
-you need and how to configure it in order to develop ChromiumOS.
+Head over to the [hardware
+requirements](/chromium-os/developer-library/getting-started/hardware-requirements)
+page to understand what hardware you need in order to develop ChromiumOS.
 
-[Next: Development
-environment](/chromium-os/developer-library/getting-started/development-environment)
+[Next: Hardware
+Requirements](/chromium-os/developer-library/getting-started/hardware-requirements)
