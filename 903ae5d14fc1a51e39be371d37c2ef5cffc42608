@@ -24,6 +24,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "54986e57_bd29b15a",
+        "filename": "site/chromium-os/developer-library/getting-started/hardware-requirements/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2023-09-14T00:16:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "69151fef_21ddb203",
+      "range": {
+        "startLine": 33,
+        "startChar": 50,
+        "endLine": 33,
+        "endChar": 65
+      },
+      "revId": "903ae5d14fc1a51e39be371d37c2ef5cffc42608",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0c2be745_bad28557",
@@ -71,6 +95,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b666e77c_717412c5",
+        "filename": "site/chromium-os/developer-library/getting-started/hardware-requirements/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2023-09-14T00:16:00Z",
+      "side": 1,
+      "message": "Resolved offline.",
+      "parentUuid": "0c2be745_bad28557",
+      "range": {
+        "startLine": 38,
+        "startChar": 0,
+        "endLine": 47,
+        "endChar": 0
+      },
+      "revId": "903ae5d14fc1a51e39be371d37c2ef5cffc42608",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6bac014b_f68b253b",
@@ -84,6 +132,30 @@
       "writtenOn": "2023-09-14T00:12:00Z",
       "side": 1,
       "message": "Let\u0027s move this up above -- probably in the Workstation section. It doesn\u0027t really belong in the USB section.",
+      "range": {
+        "startLine": 71,
+        "startChar": 0,
+        "endLine": 74,
+        "endChar": 42
+      },
+      "revId": "903ae5d14fc1a51e39be371d37c2ef5cffc42608",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "31662255_ad447fff",
+        "filename": "site/chromium-os/developer-library/getting-started/hardware-requirements/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2023-09-14T00:16:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6bac014b_f68b253b",
       "range": {
         "startLine": 71,
         "startChar": 0,
