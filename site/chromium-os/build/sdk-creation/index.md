@@ -1,36 +1,36 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/build
-  - Chromium OS Build
+  - ChromiumOS Build
 page_name: sdk-creation
-title: Chromium OS SDK Creation
+title: ChromiumOS SDK Creation
 ---
 
 [TOC]
 
 ## Introduction
 
-The Chromium OS project has an SDK that provides a standalone environment for
+The ChromiumOS project has an SDK that provides a standalone environment for
 building the target system. When you boil it down, it's simply a Gentoo/Linux
 chroot with a lot of build scripts to simplify and automate the overall build
 process. We use a chroot as it ends up being much more portable -- we don't have
 to worry what distro you've decided to run and whether you've got all the right
 packages (and are generally up-to-date). Most things run inside of the chroot,
-and we fully control that environment, so Chromium OS developers have a lot less
+and we fully control that environment, so ChromiumOS developers have a lot less
 to worry about. It does mean that you need root on the system, but
 unfortunately, that cannot be avoided.
 
 This document will cover how the SDK is actually created. It assumes you have a
-full Chromium OS checkout already.
+full ChromiumOS checkout already.
 
 ## Prebuilt Flow
 
 When you run `cros_sdk` (found in
 [chromite/bin/](https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/scripts/cros_sdk.py))
 for the first time, it automatically downloads the last known good sdk version
-and unpacks it into the chroot/ directory (in the root of the Chromium OS source
+and unpacks it into the chroot/ directory (in the root of the ChromiumOS source
 checkout).
 
 That version information is stored in
@@ -49,31 +49,122 @@ bucket. So with the information above, we know to fetch the file:
 ## Bootstrap Flow
 
 The question might arise: How is the prebuilt SDK tarball created in the first
-place? The chromiumos-sdk builder (a.k.a. the “SDK builder”) builds each
-new version of the SDK tarball for developers and other builders to use. The SDK
-builder runs in a continuous loop to include any recent commits and takes ~24
-hours for a successful run.
+place? There is a pipeline of builders (a.k.a. the "SDK builders") that builds a
+new version of the SDK tarball, tests it, and updates the SDK version file so
+that developers and other builders will use the new tarball. The SDK builder
+pipeline runs twice per day and takes ~9 hours for a successful run.
 
 For a bootstrap starting point, to avoid the case where the SDK itself may have
 been broken by a commit, the builder uses a pinned known "good" version from
 which to build the next SDK version. This version is manually moved forward as
 needed.
 
-If the overall SDK generation fails, then the SDK is not refreshed and the
-released files stay stable for developers.
+The SDK builder pipeline also creates binpkgs (prebuilt versions of software
+packages) for all toolchain packages. These are uprevved simultaneously with the
+SDK: so toolchains binpkgs will be uprevved if and only if a new SDK is
+uprevved.
+
+If the overall SDK generation fails, or if the newly built SDK cannot build each
+target ChromeOS architecture, then the pinned SDK version is not updated.
 
 ### Overview
 
-The overall process looks like:
+SDKs are built, uprevved, and tested by a pipeline of builders. ("Builders" are
+automated jobs in the LUCI continuous integration framework.) The overall flow
+looks like:
 
-*   Download bootstrap version of the SDK and setup chroot environment
-*   Build the SDK (amd64-host) board
-*   Build and install the cross-compiler toolchains
-*   Generate standalone copies of the cross-compilers
-*   Package the freshly built SDK creating and uploading a tarball of it
-*   Verify the SDK by building/testing other boards with it
-*   Upload binpkgs
-*   Uprev the SDK to point to this latest version
+1.  The "SDK Builder" (`chromeos/infra/build-chromiumos-sdk`) creates a new SDK
+    tarball and toolchain binpkgs.
+1.  The "SDK Uprevver" (`chromeos/pupr/chromiumos-sdk-pupr-generator`) creates
+    CLs that will update the source-controlled SDK version file and binpkg files
+    to point to the new SDK. It sends those CLs into the commit queue for
+    testing.
+1.  The commit queue launches the "SDK Verifiers":
+    `chromeos/cq/chromiumos-sdk-uprev-*-cq`, where `*` is each target
+    architecture that the SDK needs to be able to build. These verifiers each
+    use the new SDK and binpkgs to build images from source on one of our target
+    architectures. If these tests pass, then the uprev CLs will be merged.
+1.  As soon as the uprev CLs are merged, the "Remote Latest File Syncer"
+    (`chromeos/infra/sync-remote-latest-sdk-file`) will copy the new SDK version
+    into the latest `cros-sdk-latest.conf` file on Google Storage.
+
+Read on for more information about the different builders.
+
+### SDK Builder
+
+The SDK builder does the following:
+
+*   Downloads the bootstrap version of the SDK and sets up the chroot
+    environment.
+*   Builds the SDK board (amd64-host) by entering the chroot and running
+    `./build_sdk_board`
+*   Builds and installs the cross-compiler toolchains, as well as standalone copies of the cross-compilers, by entering the chroot and running `./cros_setup_toolchains`
+*   Packages the freshly built SDK into a tarball, and uploads it to Google
+    Storage.
+*   Uploads amd64-host binpkgs and toolchain binpkgs to Google Storage.
+*   Launches the SDK Uprevver, which will create CLs so that the newly built
+    SDK and prebuilts will be used.
+
+The builder runs the `build_sdk` recipe, defined at
+[`infra/recipes/build_sdk.py`][build_sdk.py]. It is configured at
+[`infra/config/misc_builders/build_sdk.star`][build_sdk.star]. You can view
+the latest runs of that builder [on MILO][milo-build-chromiumos-sdk].
+
+In addition to the main SDK builder, there are also a few varieties of this
+builder:
+*   [build-chromiumos-sdk-llvm-next][milo-llvm-next] builds the SDK with the
+    `llvm-next` USE flag. This is purely informational; SDKs and binpkgs created
+    by this builder will never be uprevved.
+*   [staging-build-chromiumos-sdk][milo-staging-build-chromiumos-sdk] uses the
+    latest, unverified version of Recipes to run the build. This is useful for
+    checking on the builder's status. It uploads its artifacts to different
+    Google Storage buckets so that they are not accidentally confused with real
+    artifacts. It creates uprev CLs, but they are never merged.
+
+[build_sdk.py]: https://chromium.googlesource.com/chromiumos/infra/recipes/+/HEAD/recipes/build_sdk.py "Link to the SDK builder's source code."
+[build_sdk.star]: https://chrome-internal.googlesource.com/chromeos/infra/config/+/HEAD/misc_builders/build_sdk.star "Link to the SDK builder's configuration."
+[milo-build-chromiumos-sdk]: https://luci-milo.appspot.com/ui/p/chromeos/builders/infra/build-chromiumos-sdk "Link to the latest runs of build-chromiumos-sdk."
+[milo-llvm-next]: https://luci-milo.appspot.com/ui/p/chromeos/builders/infra/build-chromiumos-sdk-llvm-next "Link to the latest runs of build-chromiumos-sdk-llvm-next."
+[milo-staging-build-chromiumos-sdk]: https://luci-milo.appspot.com/ui/p/chromeos/builders/staging/staging-build-chromiumos-sdk "Link to the latest runs of staging-build-chromiumos-sdk."
+
+### SDK Uprevver
+
+The SDK uprevver uses the PUpr framework (**P**arallel **U**prevs). This
+tool was originally developed to uprev ebuilds in the ChromiumOS tree, but has
+been extended to create SDK uprev CLs.
+
+The builder writes CLs to uprev
+`chromiumos/overlays/chromiumos-overlay/chromeos/binhost/host/sdk_version.conf`,
+`chromiumos/overlays/chromiumos-overlay/chromeos/config/make.conf.amd64-host`,
+and
+`chromiumos/overlays/board-overlays/overlay-amd64-host/prebuilt.conf` so that
+they point to the newly built SDK and binhosts. It uploads those CLs to Gerrit,
+and it marks CQ+2.
+
+### SDK Verifiers
+
+When the uprevved files run through the CQ, a few builders are started:
+
+*   `chromeos/cq/chromiumos-sdk-uprev-amd64-generic-cq`
+*   `chromeos/cq/chromiumos-sdk-uprev-arm-generic-cq`
+*   `chromeos/cq/chromiumos-sdk-uprev-arm64-generic-cq`
+
+Each of these builders will cherry-pick in the uprev CLs, download the newly
+built SDK, and try to build a ChromeOS image from source.
+
+If all of the verifiers pass, then the uprev CLs will be merged.
+
+### Remote Latest File Syncer
+
+There is a
+[Gitiles poller](https://chromium.googlesource.com/infra/luci/luci-go/+/HEAD/lucicfg/doc/README.md#luci.gitiles-poller)
+that polls for changes to `sdk_version.conf` on `main`. Whenever that file is
+modified, the poller automatically triggers the builder
+`chromeos/infra/sync-remote-latest-sdk-file`.
+
+That file simply reads the new SDK version, and updates the Google Storage file
+`gs://chromiumos-sdk/cros-sdk-latest.conf`. Some workflows within Google3 read
+that file to figure out which SDK to download.
 
 ### SDK bootstrap version
 
@@ -86,7 +177,7 @@ stored in
 [sdk_version.conf](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/chromeos/binhost/host/sdk_version.conf):
 
 ```
-BOOTSTRAP_FROZEN_VERSION="2020.11.09.170314"
+BOOTSTRAP_FROZEN_VERSION="2020.11.09.170314
 ```
 
 This is used to look up the tarball in the chromiumos-sdk Google Storage bucket.
@@ -95,101 +186,24 @@ So with the information above, `cros_sdk` knows to fetch the file:
 <https://storage.googleapis.com/chromiumos-sdk/cros-sdk-2020.11.09.170314.tar.xz>
 
 `cros_sdk` continues its normal process of running
-[`update_chroot`](https://chromium.googlesource.com/chromiumos/platform/crosutils/+/HEAD/update_chroot)
+[`update_chroot.sh`](https://chromium.googlesource.com/chromiumos/platform/crosutils/+/HEAD/update_chroot.sh)
 and setting up the chroot SDK environment.
-
-### Build the SDK (amd64-host) board
-
-The first step of the creation of the new SDK is for the SDK builder to
-[build the special amd64-host board](https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/cbuildbot/stages/build_stages.py#554).
-To leverage existing build scripts and infrastructure we treat building the SDK
-as similar to a traditional board called "amd64-host."
-
-This step is performed by the
-[src/scripts/build_sdk_board](https://chromium.googlesource.com/chromiumos/platform/crosutils/+/HEAD/build_sdk_board)
-script and is accomplished by just running:
-
-```
-./build_sdk_board --board amd64-host
-```
-
-It'll take quite a long time for this to finish (as it has to build a
-few hundred packages from source). Everything will be written to
-`/board/amd64-host`.
-
-### Build and install the cross-compiler toolchains
-
-To
-[build and install the toolchains](https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/cbuildbot/stages/sdk_stages.py#75),
-the cbuildbot process will then run
-[`cros_setup_toolchains`](https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/scripts/cros_setup_toolchains.py)
-which generates all toolchains marked for inclusion in the SDK (see the
-toolchain.conf file for more details).
-
-### Generate and upload standalone cross-compilers
-
-Since our cross-compilers are pretty cool & useful, we want to be able to use
-them all by themselves. In other words, without the overhead of the full
-Chromium OS source checkout and the SDK. With a few tricks, we can accomplish
-exactly that. It copies all the host libraries the toolchain itself uses,
-generates wrapper scripts so that the local copies of libraries can be found,
-and then takes care of munging all the paths to make them standalone.
-
-The
-[cros_setup_toolchains](https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/scripts/cros_setup_toolchains.py)
-script has all the logic to create the packages which are then uploaded to a
-Google Storage bucket.
-
-### Package The SDK
-
-Now that the SDK is compiled and has everything we want, we
-[create then upload the SDK tarball](https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/cbuildbot/stages/sdk_stages.py#127)
-to a Google Storage bucket.
-
-### Test The SDK
-
-We want to be sure that the SDK we just built is actually sane. This helps us
-from releasing a toolchain update (like gcc) that is horribly broken (e.g. can't
-properly compile or link things).
-[To test this](https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/cbuildbot/stages/sdk_stages.py#309),
-we simply use the SDK tarball built earlier to create a new chroot. This also
-verifies the normal developer workflow of creating a new chroot from this SDK.
-
-Inside of the new chroot, we do a normal build flow for a couple of boards. At
-the moment, that means one for each major architecture (i.e. amd64-generic,
-arm-generic). We only run `cros build-packages` though; no unittests or
-anything else (as current history as shown it to not be necessary).
-
-### Upload the binary packages
-
-Once all the tests pass, we go ahead and
-[upload the binary packages](https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/cbuildbot/stages/artifact_stages.py#645)
-for the SDK itself.
-
-### Uprev the SDK
-
-Now that the new SDK version has been tested and the tarball and binary packages
-uploaded, the SDK is ready to be
-[upreved](https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/cbuildbot/stages/sdk_stages.py#379)
-to point to this latest version. This simply updates the `SDK_LATEST_VERSION` in
-the
-[sdk_version.conf](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/chromeos/binhost/host/sdk_version.conf)
-file mentioned earlier.
-
-The new SDK is now available for developers and builders to use.
 
 ## Running the SDK builder as a developer
 
 Suppose as a developer you have changes (e.g. in
 [chromite/lib](https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/lib/))
 that you wish to test with the SDK builder. To run the entire chromiumos-sdk
-builder process described above, run as a tryjob:
+builder process described above, use `cros try`:
 
 ```
-cros tryjob -g <cl 1> [-g …] chromiumos-sdk-tryjob
+cros try chromiumos_sdk -g <cl_1>,<cl_2>
 ```
 
-where `<cl 1> .. <cl n>` are CLs to be run against.
+where `<cl_1> .. <cl_n>` are CLs to be run against, formatted as
+`crrev.com/c/1234578`. This will run the staging builder, and thus will not
+actually merge an uprev, unless you use `--production`. It will work from the
+`main` branch unless you use `--branch`.
 
 It's likely that just building the SDK board locally would be sufficent for most
 cases. To do that, from `~/chromiumos/src/scripts` run:
