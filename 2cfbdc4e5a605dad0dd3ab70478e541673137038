@@ -1,0 +1,228 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e9b71469_de4fb8ff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1132414
+      },
+      "writtenOn": "2023-09-18T19:20:32Z",
+      "side": 1,
+      "message": "very nice, thanks!",
+      "revId": "2cfbdc4e5a605dad0dd3ab70478e541673137038",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e656fe3_a7252e64",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1132414
+      },
+      "writtenOn": "2023-09-18T19:20:32Z",
+      "side": 1,
+      "message": "missing a word? \"will be\" perhaps?",
+      "range": {
+        "startLine": 64,
+        "startChar": 26,
+        "endLine": 64,
+        "endChar": 29
+      },
+      "revId": "2cfbdc4e5a605dad0dd3ab70478e541673137038",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "16e9b505_6dbac69a",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1132414
+      },
+      "writtenOn": "2023-09-18T19:20:32Z",
+      "side": 1,
+      "message": "not a new problem really, but this is not really true depending on what \"SDK is not refreshed\" means. today, `update_chroot` will still try to pull in (whether via binpkg or via build-from-source) new SDK packages, so developers will get some SDK breakages regardless.\n\nI don\u0027t know if this is worth actually addressing in the text (hence, leaving this \"resolved\" for now), especially as we may be changing that as part of the SDK revamp efforts.",
+      "range": {
+        "startLine": 67,
+        "startChar": 30,
+        "endLine": 68,
+        "endChar": 32
+      },
+      "revId": "2cfbdc4e5a605dad0dd3ab70478e541673137038",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a448fd0e_77026ece",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1132414
+      },
+      "writtenOn": "2023-09-18T19:20:32Z",
+      "side": 1,
+      "message": "super-nit:\n\n```suggestion\n    `chromeos/cq/chromiumos-sdk-uprev-*-cq`, where `*` is each target architecture\n```",
+      "range": {
+        "startLine": 83,
+        "startChar": 51,
+        "endLine": 83,
+        "endChar": 52
+      },
+      "revId": "2cfbdc4e5a605dad0dd3ab70478e541673137038",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e0a33e1f_2cfeb3d8",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1132414
+      },
+      "writtenOn": "2023-09-18T19:20:32Z",
+      "side": 1,
+      "message": "```suggestion\n*   Downloads the bootstrap version of the SDK and sets up the chroot environment.\n```",
+      "range": {
+        "startLine": 97,
+        "startChar": 59,
+        "endLine": 97,
+        "endChar": 65
+      },
+      "revId": "2cfbdc4e5a605dad0dd3ab70478e541673137038",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "94fe3004_342d7b0a",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 1132414
+      },
+      "writtenOn": "2023-09-18T19:20:32Z",
+      "side": 1,
+      "message": "clarity / understanding question: are these binpkgs for the toolchains? if so, maybe \"binpkgs for the amd64-host and for the toolchains\"?\n\n\n```suggestion\n*   Uploads binpkgs for the amd64-host and for the toolchains to Google Storage.\n```\n\notherwise, maybe switching the order would help clarity on how the preposition \"for\" lines up.\n\n(example: \"Uploads the toolchain tarballs and binpkgs for the amd64-host to Google Storage.\")",
+      "range": {
+        "startLine": 103,
+        "startChar": 43,
+        "endLine": 103,
+        "endChar": 57
+      },
+      "revId": "2cfbdc4e5a605dad0dd3ab70478e541673137038",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4b5411b6_fe31b9af",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 1132414
+      },
+      "writtenOn": "2023-09-18T19:20:32Z",
+      "side": 1,
+      "message": "nit: just `HEAD`? and several below",
+      "range": {
+        "startLine": 123,
+        "startChar": 77,
+        "endLine": 123,
+        "endChar": 92
+      },
+      "revId": "2cfbdc4e5a605dad0dd3ab70478e541673137038",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bdc75ab0_7d64ed2a",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 1132414
+      },
+      "writtenOn": "2023-09-18T19:20:32Z",
+      "side": 1,
+      "message": "```suggestion\n[`update_chroot`](https://chromium.googlesource.com/chromiumos/platform/crosutils/+/HEAD/update_chroot.sh)\n```",
+      "range": {
+        "startLine": 188,
+        "startChar": 89,
+        "endLine": 188,
+        "endChar": 102
+      },
+      "revId": "2cfbdc4e5a605dad0dd3ab70478e541673137038",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "071b0171_84c504e1",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 196,
+      "author": {
+        "id": 1132414
+      },
+      "writtenOn": "2023-09-18T19:20:32Z",
+      "side": 1,
+      "message": "have we phased that term out, as it\u0027s associated with the dead `cros tryjob`? it hasn\u0027t been removed from all other docs, but those docs also tend to use the deprecated tooling too...\n\npossible suggestion: just drop the whole \"as a tryjob\" phrase, to dodge the terminology question.",
+      "range": {
+        "startLine": 196,
+        "startChar": 42,
+        "endLine": 196,
+        "endChar": 48
+      },
+      "revId": "2cfbdc4e5a605dad0dd3ab70478e541673137038",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bd430e58_21bd9683",
+        "filename": "site/chromium-os/build/sdk-creation/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 1132414
+      },
+      "writtenOn": "2023-09-18T19:20:32Z",
+      "side": 1,
+      "message": "```suggestion\ncros try chromiumos_sdk -g \u003ccl_1\u003e,\u003ccl_2\u003e\n```\n\n?",
+      "range": {
+        "startLine": 199,
+        "startChar": 0,
+        "endLine": 199,
+        "endChar": 47
+      },
+      "revId": "2cfbdc4e5a605dad0dd3ab70478e541673137038",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
