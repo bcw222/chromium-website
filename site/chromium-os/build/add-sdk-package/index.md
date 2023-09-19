@@ -66,11 +66,11 @@ upstream releases have already been tested.
 For more information on the SDK Builder, see
 [Chromium OS SDK Creation](/chromium-os/build/sdk-creation).
 
-To test building the SDK itself with the new package, by running the entire SDK
-builder process, launch an SDK builder tryjob:
+To test building the SDK itself with the new package, run the SDK builder via
+`cros try`:
 
 ```
-cros tryjob -g <cl 1> [-g ...] chromiumos-sdk-tryjob
+cros try chromiumos_sdk -g <cl_1,cl_2,...>
 ```
 
 Or, to just build the SDK board locally:
