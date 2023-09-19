@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5b49a1ad_1833d71a",
+        "filename": "site/chromium-os/build/add-sdk-package/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1132414
+      },
+      "writtenOn": "2023-09-19T20:15:00Z",
+      "side": 1,
+      "message": "browsing around, I also noticed this is out of date",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 73,
+        "endChar": 52
+      },
+      "revId": "ca1c5b7a5c17baf0bda343ab5bb4e18c30c87c01",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
