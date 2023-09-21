@@ -175,10 +175,13 @@ be running at the same time on a machine. Also, other tests suites can be
 running on the same machine. Tests can contend for things like the
 file system and the clipboard. For example, if two tests run in separate
 processes, but both modify the same file, flakiness can ensue. This can be fixed
-by overriding Chrome’s path to the file, using ScopedFilePath. For clipboard
-issues, tests should use ui::TestClipboard instead of the system clipboard.
+by overriding Chrome’s path to the file, using ScopedPathOverride. For clipboard
+issues, tests should use ui::TestClipboard instead of the system clipboard. On
+Windows, use RegistryOverrideManager::OverrideRegistry() to use a temporary
+registry hive instead of writing to regular Windows registry keys.
 
-Example CLs: [2986782](https://crrev.com/c/2986782), [1625942](https://crrev.com/c/1625942)
+Example CLs: [2986782](https://crrev.com/c/2986782), [1625942](https://crrev.com/c/1625942),
+[4880727](https://crrev.com/c/4880727)
 
 [Please feel free to add other types of issues and sample CLs here]
 
