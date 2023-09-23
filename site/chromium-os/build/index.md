@@ -19,9 +19,9 @@ page](http://goto.google.com/cros-build).
 *   [Developer
             guide](http://www.chromium.org/chromium-os/developer-guide)
 *   Imaging your device with [Cros
-            Flash](https://chromium.googlesource.com/chromiumos/docs/+/master/cros_flash.md)
+            Flash](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/cros_flash.md)
 *   Install packages to your device with [Cros
-            Deploy](https://chromium.googlesource.com/chromiumos/docs/+/master/cros_deploy.md)
+            Deploy](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/cros_deploy.md)
 *   [Bypassing tests on a per-project
             basis](/chromium-os/build/bypassing-tests-on-a-per-project-basis)
 *   [Adding a Package to the SDK](/chromium-os/build/add-sdk-package)
