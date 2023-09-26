@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c7827de5_b47eb606",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1553597
+      },
+      "writtenOn": "2023-09-26T20:05:50Z",
+      "side": 1,
+      "message": "ofc! i decided i needed a small win today lol",
+      "parentUuid": "47097fd3_b7cdadf8",
+      "revId": "e13623adfa816a8bfef9319682fcb0e6e8c7b869",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c289b614_ce98f448",
@@ -48,6 +66,30 @@
       "writtenOn": "2023-09-26T20:01:13Z",
       "side": 1,
       "message": "nit: less clunky to link directly from text [provides a good analysis of demonstrating probably exploitability.](https://crbug.com/1307610)",
+      "range": {
+        "startLine": 122,
+        "startChar": 38,
+        "endLine": 123,
+        "endChar": 123
+      },
+      "revId": "e13623adfa816a8bfef9319682fcb0e6e8c7b869",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2c42b1b4_9f63d71d",
+        "filename": "site/Home/chromium-security/reporting-security-bugs/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 1553597
+      },
+      "writtenOn": "2023-09-26T20:05:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c289b614_ce98f448",
       "range": {
         "startLine": 122,
         "startChar": 38,
