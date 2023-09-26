@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6200173f_c7ebee9a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1553597
+      },
+      "writtenOn": "2023-09-26T19:30:33Z",
+      "side": 1,
+      "message": "stole this bug while organizing the DEET tooling backlog!",
+      "revId": "e13623adfa816a8bfef9319682fcb0e6e8c7b869",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
