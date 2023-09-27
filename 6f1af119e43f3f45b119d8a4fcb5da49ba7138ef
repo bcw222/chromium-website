@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff5bed19_56e12f68",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1434270
+      },
+      "writtenOn": "2023-09-27T15:45:02Z",
+      "side": 1,
+      "message": "LGTM with nits but not blocking",
+      "revId": "6f1af119e43f3f45b119d8a4fcb5da49ba7138ef",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5e6d533f_bb9d5e94",
@@ -79,6 +96,24 @@
       "side": 1,
       "message": "Yeah, that\u0027s probably a better approach - done.",
       "parentUuid": "509b82dc_c6bb421b",
+      "revId": "6f1af119e43f3f45b119d8a4fcb5da49ba7138ef",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ad6ea62_7b0f4312",
+        "filename": "site/updates/first-party-sets/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1434270
+      },
+      "writtenOn": "2023-09-27T15:45:02Z",
+      "side": 1,
+      "message": "Thanks!",
+      "parentUuid": "bd135a07_69d0fb77",
       "revId": "6f1af119e43f3f45b119d8a4fcb5da49ba7138ef",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
