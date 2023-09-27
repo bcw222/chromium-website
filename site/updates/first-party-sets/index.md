@@ -2,15 +2,17 @@
 breadcrumbs:
 - - /updates
   - updates
-page_name: first-party-sets
-title: First-Party Sets
+page_name: related-website-sets
+title: Related Website Sets
 ---
 
-## First-Party Sets (aka FPS)
+## Related Website Sets (aka RWS)
+
+Note that RWS was previously known as First-Party Sets (aka FPS), but has [since been renamed](https://developer.chrome.com/blog/related-website-sets/).
 
 ## Motivation
 
-Borrowing from the [First-Party Sets explainer](https://github.com/WICG/first-party-sets): In defining this scope (of ‘first-party’ in privacy models), we must balance two goals: the scope should be small enough to meet the user's privacy expectations, yet large enough to provide the user's desired functionality on the site they are interacting with.
+Borrowing from the [Related Website Sets explainer](https://github.com/WICG/first-party-sets): In defining this scope (of ‘first-party’ in privacy models), we must balance two goals: the scope should be small enough to meet the user's privacy expectations, yet large enough to provide the user's desired functionality on the site they are interacting with.
 
 ----
 **The below instructions are outdated; please see [here](https://developer.chrome.com/blog/first-party-sets-testing-instructions/) for updated testing instructions.**
@@ -90,11 +92,12 @@ If you have any questions, please reach out to chrome-first-party-sets@chromium.
 * February 2, 2021: added information on end-to-end testing. Expanded signup-instructions for origin trial
 * March 17, 2021: added instructions for serving .well-known/first-party-set file.
 * December 1, 2022: added link to updated testing instructions.
+* September 27, 2023: renamed First-Party Sets -> Related Website Sets.
 
 ## Resources
-* [First-Party Sets explainer](https://github.com/privacycg/first-party-sets)
+* [Related Website Sets explainer](https://github.com/privacycg/first-party-sets)
 * [First-Party Sets Intent-to-Prototype](https://groups.google.com/a/chromium.org/g/blink-dev/c/0EMGi-xbI-8/m/d_UxAJeiBwAJ)
-* [First-Party Sets on ChromeStatus](https://chromestatus.com/feature/5640066519007232)
+* [Related Website Sets on ChromeStatus](https://chromestatus.com/feature/5640066519007232)
 * [First-Party Sets Ready-for-Trial](https://groups.google.com/u/1/a/chromium.org/g/blink-dev/c/-_kPNC3tF2s)
 * [`SameParty` explainer](https://github.com/cfredric/sameparty)
 * [`SameParty` Intent-to-Prototype](https://groups.google.com/u/1/a/chromium.org/g/blink-dev/c/-unZxHbw8Pc)
