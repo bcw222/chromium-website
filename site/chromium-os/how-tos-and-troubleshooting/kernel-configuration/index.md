@@ -13,7 +13,7 @@ title: Kernel Configuration
 ## Overview
 
 Kernel configuration is a little complicated in Chromium OS. There are a number
-of different kernels based on family (chromeos, manatee, termina),
+of different kernels based on family (chromeos, termina),
 architecture (x86_64, arm64), variants (generic,
 rockchip) and platforms (Seaboard, Mario). We want to split the config into a
 sort of hierarchy so that the common options are shared as shown in this figure
