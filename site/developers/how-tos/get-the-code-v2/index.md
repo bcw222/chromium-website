@@ -91,7 +91,7 @@ branch.autosetuprebase always
 If you plan to push commits directly to Git (bypassing Commit Queue, e.g. with
 'git cl land') you would need to setup netrc file with your git password:
 
-1.  Go to <https://chromium.googlesource.com/new-password>
+1.  Go to <https://www.googlesource.com/new-password>
 2.  Login with your **@chromium.org** account (e.g. your committer
             account, non-chromium.org ones work too).
 3.  Follow the instructions in the "Staying Authenticated" section. It

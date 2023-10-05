@@ -12,7 +12,7 @@ title: Gerrit Guide
 
 ### (EVERYONE) To get access to the Chromium Gerrit instance
 
-1.  Go to <https://chromium.googlesource.com/new-password>
+1.  Go to <https://www.googlesource.com/new-password>
 2.  Log in with the email you use for your git commits.
     *   **If you are a Googler, make sure you're using the account you
                 want to use (either @google.com or @chromium.org, depending on

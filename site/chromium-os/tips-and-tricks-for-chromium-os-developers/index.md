@@ -504,7 +504,7 @@ If you get the following message very often while trying to do a 'git push' or
 for you.
 
 ```none
-Username for 'https://chromium.googlesource.com': fooPassword for 'https://foo@chromium.googlesource.com': fatal: remote error: Invalid authentication credentials.Please generate a new identifier:  https://chromium.googlesource.com/new-password
+Username for 'https://chromium.googlesource.com': fooPassword for 'https://foo@chromium.googlesource.com': fatal: remote error: Invalid authentication credentials.Please generate a new identifier:  https://www.googlesource.com/new-password
 ```
 
 More details on this

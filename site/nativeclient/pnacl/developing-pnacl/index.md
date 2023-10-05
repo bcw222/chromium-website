@@ -384,7 +384,7 @@ git cl script in depot_tools.
 **If you are going to commit**, you will need to have a credential in your
 `~/.netrc` file:
 
-1.  Go to <https://chromium.googlesource.com/new-password>
+1.  Go to <https://www.googlesource.com/new-password>
 2.  Login with your @chromium.org account.
 3.  Follow the instructions in the "Staying Authenticated" section.
 
