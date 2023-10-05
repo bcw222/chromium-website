@@ -4297,4 +4297,21 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Yes</td>
     <td>Yes</td>
   </tr>
+  <tr>
+    <td>2023-10-02</td>
+    <td>Acer</td>
+    <td><a href="https://www.acer.com/us-en/chromebooks/acer-chromebook-plus-514-cb514-3h-cb514-3ht">Acer Chromebook Plus 514</a></td>
+    <td>Markarth</td>
+    <td>Skyrim</td>
+    <td>Skyrim</td>
+    <td>x86_64</td>
+    <td>5.15</td>
+    <td>x86_64</td>
+    <td>Mendocino</td>
+    <td>Clamshell</td>
+    <td>R115</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td>Yes</td>
+    <td>Yes</td>
+  </tr>
 </table>
