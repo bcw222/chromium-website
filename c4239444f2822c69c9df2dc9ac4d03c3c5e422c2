@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "72057b17_31363c59",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1413494
+      },
+      "writtenOn": "2023-10-10T22:43:15Z",
+      "side": 1,
+      "message": "This change updates the docs to use the new flow for kicking off the OT process that was deployed last week. It only removes the Google Form (go/new-origin-trial) step so far, further process automation will follow.",
+      "revId": "c4239444f2822c69c9df2dc9ac4d03c3c5e422c2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
