@@ -635,14 +635,12 @@ ChromeStatus, and send the resulting “Request for Deprecation Trial” email t
 correct, the “Intent to Deprecate and Remove” thread is sufficient.
 
 After your deprecation trial plan has received at least [one
-LGTM](/blink/guidelines/api-owners/procedures) from the API owners, email
-[origin-trials-support@google.com](mailto:origin-trials-support@google.com)
-letting them know you plan to run a deprecation trial. Ensure your removal is
-integrated with the origin trials framework ([see
-details](/blink/origin-trials/running-an-origin-trial#integrate-feature), or
-Googlers can request a trial for their feature at
-[go/new-origin-trial](http://goto.google.com/new-origin-trial)). Once your
-Deprecation Trial is in place, proceed to the next step.
+LGTM](/blink/guidelines/api-owners/procedures) from the API owners, request a
+new trial at ChromeStatus by clicking the "Request Trial Creation" button in
+the Origin Trial section. Ensure your removal is integrated with the origin
+trials framework ([see
+details](/blink/origin-trials/running-an-origin-trial#integrate-feature)).
+Once your Deprecation Trial is in place, proceed to the next step.
 
 #### Step 6: Prepare to Ship {:#deprecation-prepare-to-ship}
 

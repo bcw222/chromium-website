@@ -171,10 +171,9 @@ Running an origin trial requires the following:
             below](/blink/origin-trials/running-an-origin-trial#integrate-feature)).
 *   Send an [Intent to Experiment](/blink/launching-features), via the
             [ChromeStatus entry for your feature](https://chromestatus.com/).
-*   Request a trial for your feature at
-            [go/new-origin-trial](http://goto.google.com/new-origin-trial).
-    *   This will ensure your trial is tracked correctly in
-                [go/origin-trials-feature-pipeline](http://goto.google.com/origin-trials-feature-pipeline/).
+*   After the intent is approved, request a trial for your feature at
+            ChromeStatus by clicking the "Request Trial Creation" button in the
+            Origin Trial section.
 *   Land the feature in Chrome prior to beta.
 *   Engage with external partners or large-scale developers for early
             testing.
@@ -298,10 +297,9 @@ The process is as follows:
 *   If continuing to experiment via a new trial:
     *   This will officially be a new and separate trial, meaning a
                 separate entry in the list of trials, etc.
-    *   Request another trial at
-                [go/new-origin-trial](http://goto.google.com/new-origin-trial),
-                with the appropriate naming to distinguish the old and new
-                trial.
+    *   Request a new trial with the appropriate naming to distinguish the old
+                and new trial at ChromeStatus by clicking the "Request Trial
+                Creation" button in the Origin Trial section.
     *   Update the integration with the framework - the code must use a
                 different trial name in Chromium ([see integration
                 below](/blink/origin-trials/running-an-origin-trial#integrate-feature)).
