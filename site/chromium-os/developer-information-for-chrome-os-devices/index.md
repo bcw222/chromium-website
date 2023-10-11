@@ -4297,4 +4297,21 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Yes</td>
     <td>Yes</td>
   </tr>
+ <tr>
+    <td>2023-10-02</td>
+    <td>Acer</td>
+    <td><a href="https://www.acer.com/us-en/chromebooks/acer-chromebook-plus-515-cb515-2h-cb515-2ht/pdp/NX.KPBAA.001/">Acer Chromebook Plus 515 (CB515-2H, CB515-2HT)</a></td>
+    <td>Omnigul</td>
+    <td>Brya</td>
+    <td>Brya</td>
+    <td>x86_64</td>
+    <td>5.15</td>
+    <td>x86_64</td>
+    <td>Alderlake-U/P/Raptorlake-U/P</td>
+    <td>Clamshell</td>
+    <td>R115</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td>Yes</td>
+    <td>Yes</td>
+  </tr>
 </table>
