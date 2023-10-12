@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a2f7c16e_cd8c5196",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 4306,
+      "author": {
+        "id": 1528512
+      },
+      "writtenOn": "2023-10-12T06:01:26Z",
+      "side": 1,
+      "message": "update as Brya per our discussion",
+      "parentUuid": "31d44257_46cf7e48",
+      "revId": "fd588e753118ee0fa403a9799d5f9cb4b5be8567",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f28f55af_4e7cc266",
         "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
         "patchSetId": 2
@@ -31,6 +49,24 @@
       "writtenOn": "2023-10-11T11:30:06Z",
       "side": 1,
       "message": "List RPL-U to align the board/baseboard ?",
+      "revId": "fd588e753118ee0fa403a9799d5f9cb4b5be8567",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aebd4cf6_13039b24",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 4310,
+      "author": {
+        "id": 1528512
+      },
+      "writtenOn": "2023-10-12T06:01:26Z",
+      "side": 1,
+      "message": "I use the same platform name(Alderlake-U/P/Raptorlake-U/P) shown in the ref design list.\n\nhttps://chromeos.google.com/partner/dlm/referenceDesign/list",
+      "parentUuid": "f28f55af_4e7cc266",
       "revId": "fd588e753118ee0fa403a9799d5f9cb4b5be8567",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
