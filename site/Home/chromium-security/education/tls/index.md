@@ -288,6 +288,8 @@ So, [istlsfastyet.com](http://istlsfastyet.com/)? (Spoiler: Yes!) Check out
 [SSLs.com offers certificates for a very low price](https://www.ssls.com/), as
 low as $5.
 
+[SSL2BUY.com offers Free Customer Support to install an Certificate](https://www.ssl2buy.com).
+
 [SSLmate.com is cheap and easy to use](https://sslmate.com/) — you can buy
 certificates from the command line.
 
