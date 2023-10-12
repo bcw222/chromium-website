@@ -69,6 +69,24 @@
       "parentUuid": "f28f55af_4e7cc266",
       "revId": "fd588e753118ee0fa403a9799d5f9cb4b5be8567",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ca19bcc0_bb3e67b2",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 4310,
+      "author": {
+        "id": 1529538
+      },
+      "writtenOn": "2023-10-12T06:05:55Z",
+      "side": 1,
+      "message": "I think if the project does not use P (28W), we could list U only.",
+      "parentUuid": "aebd4cf6_13039b24",
+      "revId": "fd588e753118ee0fa403a9799d5f9cb4b5be8567",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
