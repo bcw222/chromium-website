@@ -314,7 +314,7 @@ the next client restart.
 [ModelType]: https://cs.chromium.org/chromium/src/components/sync/base/model_type.h
 [info_map]: https://cs.chromium.org/search/?q="kModelTypeInfoMap%5B%5D"+file:model_type.cc
 [conversions]: https://cs.chromium.org/chromium/src/components/sync/protocol/proto_value_conversions.h
-[ModelTypeController]: https://cs.chromium.org/chromium/src/components/sync/driver/model_type_controller.h
+[ModelTypeController]: https://cs.chromium.org/chromium/src/components/sync/service/model_type_controller.h
 [CreateCommonDataTypeControllers]: https://cs.chromium.org/search/?q="SyncApiComponentFactoryImpl::CreateCommonDataTypeControllers"
 [CreateDataTypeControllers]: https://cs.chromium.org/search/?q="ChromeSyncClient::CreateDataTypeControllers"
 [SyncServiceFactory]: https://cs.chromium.org/search/?q=:SyncServiceFactory%5C(%5C)
