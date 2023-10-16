@@ -15,6 +15,10 @@ title: Guides
 
 ## Bugs
 
+* [Reporting bugs](/chromium-os/developer-library/guides/bugs/reporting-bugs)
+* [Reporting Chrome OS bugs in the buganizer public tracker](/chromium-os/developer-library/guides/bugs/platform-public-tracker)
+* [Chrome OS Security Severity Guidelines](/chromium-os/developer-library/guides/bugs/security-severity-guidelines)
+
 ## Containers
 
 ## Development
