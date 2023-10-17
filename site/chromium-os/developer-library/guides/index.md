@@ -21,6 +21,10 @@ title: Guides
 
 ## Containers
 
+* [Containers and VMs](/chromium-os/developer-library/guides/containers/containers-and-vms)
+* [ChromeOS VM for Chromium developers](/chromium-os/developer-library/guides/containers/cros-vm)
+* [Crostini developer guide](/chromium-os/developer-library/guides/containers/crostini-developer-guide)
+
 ## Development
 
 ## Firmware
