@@ -40,6 +40,8 @@ title: Guides
 
 ## Code review
 
+* [Firmware code reviews](/chromium-os/developer-library/guides/code-review/firmware-code-reviews)
+
 ## Debugging
 
 ## Device
