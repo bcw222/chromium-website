@@ -27,6 +27,17 @@ title: Guides
 
 ## Development
 
+* [Life of a Chrome commit on ChromeOS](/chromium-os/developer-library/guides/development/chrome-commit-pipeline)
+* [ChromiumOS Contributing Guide](/chromium-os/developer-library/guides/development/contributing)
+* [ChromiumOS Developer Guide](/chromium-os/developer-library/guides/development/developer-guide)
+* [Kernel Development](/chromium-os/developer-library/guides/development/kernel-development)
+* [Getting started with platform2](/chromium-os/developer-library/guides/development/platform2-primer)
+* [Remote Trybots](/chromium-os/developer-library/guides/development/remote-trybots)
+* [Rust on ChromeOS](/chromium-os/developer-library/guides/development/rust-on-cros)
+* [Sandboxing ChromeOS system services](/chromium-os/developer-library/guides/development/sandboxing)
+* [ChromeOS security review HOWTO](/chromium-os/developer-library/guides/development/security-review-howto)
+* [ChromiumOS Guide to Working on Branches](/chromium-os/developer-library/guides/development/work-on-branch)
+
 ## Firmware
 
 ## Infrastructure
@@ -53,6 +64,8 @@ title: Guides
 * [How to get a stack trace at runtime](/chromium-os/developer-library/guides/debugging/stack-traces)
 
 ## Device
+
+* [Developer mode](/chromium-os/developer-library/guides/device/developer-mode)
 
 ## IDEs
 
