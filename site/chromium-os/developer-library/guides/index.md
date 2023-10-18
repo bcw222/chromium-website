@@ -57,6 +57,20 @@ title: Guides
 
 ## Testing
 
+* [Adding Builder Variants using Profiles](/chromium-os/developer-library/guides/testing/adding-builder-variants)
+* [Breakage and Flake Policy](/chromium-os/developer-library/guides/testing/breakages-and-flakes)
+* [Firmware test manual](/chromium-os/developer-library/guides/testing/firmware-test-manual)
+* [Fuzz testing in ChromeOS](/chromium-os/developer-library/guides/testing/fuzzing)
+* [Fuzz testing in ChromeOS (dupe)](/chromium-os/developer-library/guides/testing/fuzzing-main)
+* [Running IGT tests on ChromeOS](/chromium-os/developer-library/guides/testing/igt)
+* [Kernel fuzzing in ChromeOS](/chromium-os/developer-library/guides/testing/kernel-fuzzing)
+* [ChromeOS performance tests](/chromium-os/developer-library/guides/testing/performance)
+* [Python unittest mocking](/chromium-os/developer-library/guides/testing/python-mock)
+* [Running unittests via QEMU](/chromium-os/developer-library/guides/testing/qemu-unit-tests-design)
+* [ChromiumOS unit testing](/chromium-os/developer-library/guides/testing/running-unit-tests)
+* [Running a single binary with UBSAN](/chromium-os/developer-library/guides/testing/single-binary-ubsan)
+* [Best practices for writing ChromeOS unit tests](/chromium-os/developer-library/guides/testing/unit-tests)
+
 ## Who do I notify?
 
 </div>
