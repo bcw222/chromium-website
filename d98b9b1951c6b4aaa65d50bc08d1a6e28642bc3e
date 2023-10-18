@@ -22,6 +22,30 @@
       },
       "revId": "d98b9b1951c6b4aaa65d50bc08d1a6e28642bc3e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "96b6940c_f031274a",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2023-10-18T23:16:03Z",
+      "side": 1,
+      "message": "It\u0027s not the exact same content and I don\u0027t want to lose it in the copy phase. I will clean this up once everything is copied over.",
+      "parentUuid": "f08fad3e_7bc6ca27",
+      "range": {
+        "startLine": 63,
+        "startChar": 0,
+        "endLine": 64,
+        "endChar": 95
+      },
+      "revId": "d98b9b1951c6b4aaa65d50bc08d1a6e28642bc3e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
