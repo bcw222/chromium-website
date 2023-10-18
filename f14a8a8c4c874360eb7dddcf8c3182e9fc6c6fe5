@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "59fefd32_0d3590f8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2023-10-18T22:18:15Z",
+      "side": 1,
+      "message": "This looks great. lgtm with a few (optional) suggestions",
+      "revId": "f14a8a8c4c874360eb7dddcf8c3182e9fc6c6fe5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ebd166b4_a6640998",
+        "filename": "site/developers/how-tos/visualstudio-tricks/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2023-10-18T22:18:15Z",
+      "side": 1,
+      "message": "and avoids out-of-memory failures due to it being a 64-bit process.",
+      "revId": "f14a8a8c4c874360eb7dddcf8c3182e9fc6c6fe5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "42b6cb6e_6ff02b12",
+        "filename": "site/developers/how-tos/visualstudio-tricks/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2023-10-18T22:18:15Z",
+      "side": 1,
+      "message": "I had never heard of EditorConfig files. Maybe worth having a link to the doc page on this magic feature?\nhttps://learn.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options?view\u003dvs-2022",
+      "revId": "f14a8a8c4c874360eb7dddcf8c3182e9fc6c6fe5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fafa5d56_e86763dc",
+        "filename": "site/developers/how-tos/visualstudio-tricks/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2023-10-18T22:18:15Z",
+      "side": 1,
+      "message": "Italicize Smart?",
+      "revId": "f14a8a8c4c874360eb7dddcf8c3182e9fc6c6fe5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b28769e4_02825d5a",
+        "filename": "site/developers/how-tos/visualstudio-tricks/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2023-10-18T22:18:15Z",
+      "side": 1,
+      "message": "Italicize \"Tab size\" and \"Indent Size\", and lowercase \"size\" in \"Indent size\"",
+      "revId": "f14a8a8c4c874360eb7dddcf8c3182e9fc6c6fe5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ee2115f8_d79e29d6",
+        "filename": "site/developers/how-tos/visualstudio-tricks/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2023-10-18T22:18:15Z",
+      "side": 1,
+      "message": "Italicize \"Insert spaces\"",
+      "revId": "f14a8a8c4c874360eb7dddcf8c3182e9fc6c6fe5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
