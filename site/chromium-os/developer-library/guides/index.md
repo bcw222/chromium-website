@@ -40,7 +40,11 @@ title: Guides
 
 ## Firmware
 
+* [USB Type-C Power Delivery (PD) Firmware](/chromium-os/developer-library/guides/firmware/pd-firmware-update)
+
 ## Infrastructure
+
+* [libchrome](/chromium-os/developer-library/guides/infrastructure/libchrome)
 
 ## LSC
 
@@ -69,7 +73,12 @@ title: Guides
 
 ## IDEs
 
+* [Using clangd LSP server in the chroot](/chromium-os/developer-library/guides/ides/chroot-clangd-guide)
+
 ## IPC
+
+* [ChromeOS D-Bus Best Practices](/chromium-os/developer-library/guides/ipc/dbus-best-practices)
+* [ChromeOS D-Bus Usage in Chrome](/chromium-os/developer-library/guides/ipc/dbus-in-chrome)
 
 ## Portage
 
