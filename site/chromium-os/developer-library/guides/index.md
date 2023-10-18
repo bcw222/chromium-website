@@ -73,6 +73,8 @@ title: Guides
 
 ## Who do I notify?
 
+* [ChromiumOS contact](/chromium-os/developer-library/guides/who-do-i-notify/contact)
+
 </div>
 <div class="column">
 
@@ -115,6 +117,8 @@ title: Guides
 * [ChromeOS security vulnerability management](/chromium-os/developer-library/guides/security/vulnerability-management)
 
 ## Third Party
+
+* [Working with Coreboot upstream and Chromium](/chromium-os/developer-library/guides/third-party/coreboot-upstream)
 
 </div>
 </div>
