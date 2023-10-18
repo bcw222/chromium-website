@@ -37,6 +37,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f17ada04_6f28f296",
+        "filename": "site/developers/how-tos/visualstudio-tricks/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2023-10-18T22:34:05Z",
+      "side": 1,
+      "message": "Thanks for these fixes. The old layout looks pretty bad. A bad conversion I guess.",
+      "revId": "f14a8a8c4c874360eb7dddcf8c3182e9fc6c6fe5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ebd166b4_a6640998",
         "filename": "site/developers/how-tos/visualstudio-tricks/index.md",
         "patchSetId": 3
