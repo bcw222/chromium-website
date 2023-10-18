@@ -48,7 +48,12 @@ title: Guides
 
 ## LSC
 
+* [ChromeOS Platform Large Scale Changes (LSC)](/chromium-os/developer-library/guides/lsc/large-scale-changes)
+* [ChromeOS LSC Workflow](/chromium-os/developer-library/guides/lsc/large-scale-changes)
+
 ## Recipes
+
+* [Tips And Tricks for ChromiumOS Developers](/chromium-os/developer-library/guides/recipes/tips-and-tricks)
 
 ## Testing
 
@@ -89,6 +94,11 @@ title: Guides
 * [CrOS bashrc Override Framework](/chromium-os/developer-library/guides/portage/profile-bashrc)
 
 ## Security
+
+* [Shell scripts & noexec mounts](/chromium-os/developer-library/guides/security/noexec-shell-scripts)
+* [ChromeOS security review HOWTO](/chromium-os/developer-library/guides/security/security-review-howto)
+* [Owned Test Accounts (OTAs) for Manual Testing](/chromium-os/developer-library/guides/security/test-accounts)
+* [ChromeOS security vulnerability management](/chromium-os/developer-library/guides/security/vulnerability-management)
 
 ## Third Party
 
