@@ -77,10 +77,16 @@ title: Guides
 
 ## IPC
 
-* [ChromeOS D-Bus Best Practices](/chromium-os/developer-library/guides/ipc/dbus-best-practices)
-* [ChromeOS D-Bus Usage in Chrome](/chromium-os/developer-library/guides/ipc/dbus-in-chrome)
+* [ChromeOS D-Bus best practices](/chromium-os/developer-library/guides/ipc/dbus-best-practices)
+* [ChromeOS D-Bus usage in Chrome](/chromium-os/developer-library/guides/ipc/dbus-in-chrome)
 
 ## Portage
+
+* [Ebuild FAQ](/chromium-os/developer-library/guides/portage/ebuild-faq)
+* [How to patch an ebuild](/chromium-os/developer-library/guides/portage/how-to-patch-an-ebuild)
+* [Overlay FAQ](/chromium-os/developer-library/guides/portage/overlay-faq)
+* [New & Upgrade Package Process](/chromium-os/developer-library/guides/portage/package-upgrade-process)
+* [CrOS bashrc Override Framework](/chromium-os/developer-library/guides/portage/profile-bashrc)
 
 ## Security
 
