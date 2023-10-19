@@ -15,13 +15,25 @@ title: Reference
 
 ## Build
 
+* [CrOS user & group management](/chromium-os/developer-library/reference/build/account-management)
+* [Bazel remote caching](/chromium-os/developer-library/reference/build/bazel-remote-caching)
+* [GN in ChromeOS](/chromium-os/developer-library/reference/build/chromeos-gn)
+
 ## Device
+
+* [Disk format](/chromium-os/developer-library/reference/device/disk-format)
 
 ## Kernel
 
+* [Kernel scheduler in ChromeOS](/chromium-os/developer-library/reference/kernel/kernel-scheduler)
+
 ## Logging
 
+* [Logging on ChromeOS](/chromium-os/developer-library/reference/logging/logging)
+
 ## Release
+
+* [ChromeOS Releases](/chromium-os/developer-library/reference/release/releases)
 
 ## Style guides
 
