@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1db97527_dadf4b00",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2023-10-19T00:41:43Z",
+      "side": 1,
+      "message": "PTAL, since you did not stamp LGTM :D",
+      "parentUuid": "59fefd32_0d3590f8",
+      "revId": "f14a8a8c4c874360eb7dddcf8c3182e9fc6c6fe5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f17ada04_6f28f296",
@@ -48,6 +66,24 @@
       "writtenOn": "2023-10-18T22:34:05Z",
       "side": 1,
       "message": "Thanks for these fixes. The old layout looks pretty bad. A bad conversion I guess.",
+      "revId": "f14a8a8c4c874360eb7dddcf8c3182e9fc6c6fe5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f6aadf62_6786f5bb",
+        "filename": "site/developers/how-tos/visualstudio-tricks/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2023-10-19T00:41:43Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "f17ada04_6f28f296",
       "revId": "f14a8a8c4c874360eb7dddcf8c3182e9fc6c6fe5",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -69,6 +105,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "efce0f53_7b45d49c",
+        "filename": "site/developers/how-tos/visualstudio-tricks/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2023-10-19T00:41:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ebd166b4_a6640998",
+      "revId": "f14a8a8c4c874360eb7dddcf8c3182e9fc6c6fe5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "42b6cb6e_6ff02b12",
@@ -82,6 +136,24 @@
       "writtenOn": "2023-10-18T22:18:15Z",
       "side": 1,
       "message": "I had never heard of EditorConfig files. Maybe worth having a link to the doc page on this magic feature?\nhttps://learn.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options?view\u003dvs-2022",
+      "revId": "f14a8a8c4c874360eb7dddcf8c3182e9fc6c6fe5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "50d8ba86_561336f6",
+        "filename": "site/developers/how-tos/visualstudio-tricks/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2023-10-19T00:41:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "42b6cb6e_6ff02b12",
       "revId": "f14a8a8c4c874360eb7dddcf8c3182e9fc6c6fe5",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -103,6 +175,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "06accea1_3d52d010",
+        "filename": "site/developers/how-tos/visualstudio-tricks/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2023-10-19T00:41:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fafa5d56_e86763dc",
+      "revId": "f14a8a8c4c874360eb7dddcf8c3182e9fc6c6fe5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b28769e4_02825d5a",
@@ -120,6 +210,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f617bd52_b132e841",
+        "filename": "site/developers/how-tos/visualstudio-tricks/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2023-10-19T00:41:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b28769e4_02825d5a",
+      "revId": "f14a8a8c4c874360eb7dddcf8c3182e9fc6c6fe5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ee2115f8_d79e29d6",
@@ -133,6 +241,24 @@
       "writtenOn": "2023-10-18T22:18:15Z",
       "side": 1,
       "message": "Italicize \"Insert spaces\"",
+      "revId": "f14a8a8c4c874360eb7dddcf8c3182e9fc6c6fe5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bdecc97e_a23396a2",
+        "filename": "site/developers/how-tos/visualstudio-tricks/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2023-10-19T00:41:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ee2115f8_d79e29d6",
       "revId": "f14a8a8c4c874360eb7dddcf8c3182e9fc6c6fe5",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
