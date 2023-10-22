@@ -25,6 +25,7 @@ page](http://goto.google.com/cros-build).
 *   [Bypassing tests on a per-project
             basis](/chromium-os/build/bypassing-tests-on-a-per-project-basis)
 *   [Adding a Package to the SDK](/chromium-os/build/add-sdk-package)
+*   [SDK Subtools](/chromium-os/build/sdk-subtools)
 
 #### For Sheriffs
 
