@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3112944f_e62e3b80",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1115893
+      },
+      "writtenOn": "2023-10-23T19:24:40Z",
+      "side": 1,
+      "message": "Nit: Let\u0027s link this CL to [1], since it removes [2] which is related to [1].\n\n[1] https://crbug.com/1457360\n[2] site/developers/updating-webui-for-material-design/testing-webui-with-mocha/index.md",
+      "revId": "e8b7e65c0070c5792bb588922119475895dc4257",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e21c51f6_c66f9da9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1115893
+      },
+      "writtenOn": "2023-10-23T19:24:40Z",
+      "side": 1,
+      "message": "LGTM.",
+      "revId": "e8b7e65c0070c5792bb588922119475895dc4257",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
