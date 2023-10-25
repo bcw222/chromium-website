@@ -46,15 +46,14 @@ Codec formats (Decode Only)
 *   PCM μ-law
 *   Vorbis
 
-*   AAC \[Main, LC, HE profiles only, xHE-AAC on Android P+\] \[Google
+*   AAC \[Main, LC, HE profiles only, xHE-AAC on Android P+, macOS, Windows 11\] \[Google
             Chrome only\]
 
 ==Video==
 
+*   AV1
 *   VP8
 *   VP9
-
-*   AV1 \[Only Chrome OS, Linux, macOS, and Windows at present\]
 
 *   H.264 \[Google Chrome only\]
 *   H.265 \[Google Chrome only and only where supported by the underlying OS\]
