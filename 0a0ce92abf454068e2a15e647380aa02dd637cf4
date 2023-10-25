@@ -16,6 +16,23 @@
       "message": "Sorry, one more that I only just saw after submitting 😐",
       "revId": "0a0ce92abf454068e2a15e647380aa02dd637cf4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74c61a99_2cfcc680",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2023-10-25T23:42:54Z",
+      "side": 1,
+      "message": "lgtm!",
+      "revId": "0a0ce92abf454068e2a15e647380aa02dd637cf4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
