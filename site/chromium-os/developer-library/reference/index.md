@@ -39,14 +39,29 @@ title: Reference
 
 ## Tools
 
+* [cros deploy](/chromium-os/developer-library/reference/tools/cros-deploy)
+* [cros flash](/chromium-os/developer-library/reference/tools/cros-flash)
+* [CrOS Tools](/chromium-os/developer-library/reference/tools/cros-tools)
+* [gsutil](/chromium-os/developer-library/reference/tools/gsutil)
+* [repo](/chromium-os/developer-library/reference/tools/repo-tool)
+* [xBuddy for Devserver](/chromium-os/developer-library/reference/tools/xbuddy)
+
 </div>
 <div class="column">
 
 ## Development
 
+* [Life of a ChromeOS commit](//chromium-os/developer-library/reference/development/cros-commit-pipeline)
+* [Directory metadata](//chromium-os/developer-library/reference/development/dir-metadata)
+* [Local & Remote Source Tree Layouts](//chromium-os/developer-library/reference/development/source-layout)
+
 ## Infrastructure
 
 ## Linux constants
+
+* [Linux Error Number Table (errno)](/chromium-os/developer-library/reference/linux-constants/errnos)
+* [Linux Signal Table](/chromium-os/developer-library/reference/linux-constants/signals)
+* [Linux System Call Table](/chromium-os/developer-library/reference/linux-constants/syscalls)
 
 ## Policies
 
