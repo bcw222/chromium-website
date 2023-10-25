@@ -304,8 +304,8 @@ The process is as follows:
                 different trial name in Chromium ([see integration
                 below](/blink/origin-trials/running-an-origin-trial#integrate-feature)).
 *   If extending the end date of the existing trial:
-    *   Notify the OT team of the change at
-                [go/extend-origin-trial](http://goto.google.com/extend-origin-trial).
+    *   Notify the OT team of the change at ChromeStatus by clicking the "Request
+                Trial Extension" button in the Origin Trial section.
 *   Upon approval, the OT team will setup the extension or new trial as
             appropriate.
 
