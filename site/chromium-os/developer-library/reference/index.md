@@ -49,13 +49,22 @@ title: Reference
 </div>
 <div class="column">
 
+## Bugs
+
+* [Life of a ChromeOS Bug](/chromium-os/developer-library/reference/bugs/life-of-a-bug)
+
 ## Development
 
-* [Life of a ChromeOS commit](//chromium-os/developer-library/reference/development/cros-commit-pipeline)
-* [Directory metadata](//chromium-os/developer-library/reference/development/dir-metadata)
-* [Local & Remote Source Tree Layouts](//chromium-os/developer-library/reference/development/source-layout)
+* [Life of a ChromeOS commit](/chromium-os/developer-library/reference/development/cros-commit-pipeline)
+* [Directory metadata](/chromium-os/developer-library/reference/development/dir-metadata)
+* [Local & Remote Source Tree Layouts](/chromium-os/developer-library/reference/development/source-layout)
 
 ## Infrastructure
+
+* [Root CA Certificates on ChromiumOS](/chromium-os/developer-library/reference/infrastructure/ca-certs)
+* [ChromiumOS Input Stack](/chromium-os/developer-library/reference/infrastructure/input-stack)
+* [/etc/lsb-release File Format](/chromium-os/developer-library/reference/infrastructure/lsb-release)
+* [ChromiumOS Configuration](/chromium-os/developer-library/reference/infrastructure/os-config)
 
 ## Linux constants
 
@@ -65,9 +74,13 @@ title: Reference
 
 ## Policies
 
+* [End of Life (EOL) / Auto Update Expiration (AUE) Process](/chromium-os/developer-library/reference/policies/eol-aue-process)
+
 ## Security
 
 ## Third party
+
+* [ChromiumOS Archive Mirrors](/chromium-os/developer-library/reference/third-party/archive-mirrors)
 
 </div>
 </div>
