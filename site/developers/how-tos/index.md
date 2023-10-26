@@ -10,7 +10,7 @@ title: How-Tos
             [Windows](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/windows_build_instructions.md),
             [Mac OS
             X](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/mac_build_instructions.md),
-            [Linux](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/linux_build_instructions.md),
+            [Linux](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/linux/build_instructions.md),
             [ChromeOS](http://www.chromium.org/developers/how-tos/build-instructions-chromeos),
             [Android](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/android_build_instructions.md),
             and
