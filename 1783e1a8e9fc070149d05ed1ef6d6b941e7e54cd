@@ -16,6 +16,23 @@
       "message": "Thanks @dcheng : )",
       "revId": "1783e1a8e9fc070149d05ed1ef6d6b941e7e54cd",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6917476c_379fff78",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1566132
+      },
+      "writtenOn": "2023-10-26T05:54:53Z",
+      "side": 1,
+      "message": "@dcheng@chromium.org Can I have a +2 as well. Seems like I dont have committer access yet.",
+      "revId": "1783e1a8e9fc070149d05ed1ef6d6b941e7e54cd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
