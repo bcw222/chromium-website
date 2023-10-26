@@ -37,6 +37,9 @@ title: Reference
 
 ## Style guides
 
+* [Python Style Guidelines](/chromium-os/developer-library/reference/style-guides/python)
+* [Shell Style Guidelines](/chromium-os/developer-library/reference/style-guides/shell)
+
 ## Tools
 
 * [cros deploy](/chromium-os/developer-library/reference/tools/cros-deploy)
@@ -77,6 +80,19 @@ title: Reference
 * [End of Life (EOL) / Auto Update Expiration (AUE) Process](/chromium-os/developer-library/reference/policies/eol-aue-process)
 
 ## Security
+
+* [Security guidelines for closed-source components](/chromium-os/developer-library/reference/security/closed-source)
+* [Peripheral firmware security](/chromium-os/developer-library/reference/security/firmware-updating)
+* [Handling bugs found by fuzzers](/chromium-os/developer-library/reference/security/fuzzer-bugs)
+* [Prioritizing security hardening bugs](/chromium-os/developer-library/reference/security/hardening-proritizing-guidelines)
+* [Just-In-Time compilation in ChromeOS](/chromium-os/developer-library/reference/security/jit)
+* [Port forwarding and tunneling in ChromeOS](/chromium-os/developer-library/reference/security/port-forwarding)
+* [The ChromeOS security review process](/chromium-os/developer-library/reference/security/review-process)
+* [Security in ChromeOS](/chromium-os/developer-library/reference/security/security-whitepaper)
+* [SELinux in ChromeOS](/chromium-os/developer-library/reference/security/selinux)
+* [Security-sensitive ChromeOS packages](/chromium-os/developer-library/reference/security/sensitive-chromeos-packages)
+* [USB4 security](/chromium-os/developer-library/reference/security/usb4)
+* [Write protection](/chromium-os/developer-library/reference/security/write-protection)
 
 ## Third party
 
