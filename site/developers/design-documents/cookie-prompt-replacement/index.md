@@ -12,7 +12,7 @@ DRAFT: April 22, 2010
 
 Jochen Eisinger &lt;jochen@chromium.org&gt;
 
-## Objective
+## Objectives
 
 > Provide the functionality of the application modal cookie prompt with
 > something non-modal. <http://crbug.com/38199>
