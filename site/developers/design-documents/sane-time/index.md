@@ -45,14 +45,13 @@ establish a TLS connection. Hence, we will use a purpose-built time server.
 NTP is a protocol built expressly for time synchronization. But relying on it in
 Chrome has some disadvantages:
 
-    It requires maintaining NTP client code in Chrome, which is a higher burden
-    than the solution outlined here, both in code size and developer time.
-
-    Chrome may be unable to send UDP, as suggested by metrics from QUIC. Making
-    time available to the widest range of clients suggests we should prefer
-    HTTP.
-
-    There are [attacks on NTP](http://www.cs.bu.edu/~goldbe/NTPattack.html).
+> It requires maintaining NTP client code in Chrome, which is a higher burden
+> than the solution outlined here, both in code size and developer time.
+>
+> Chrome may be unable to send UDP, as suggested by metrics from QUIC. Making
+> time available to the widest range of clients suggests we should prefer HTTP.
+>
+> There are [attacks on NTP](https://www.cs.bu.edu/~goldbe/NTPattack.html).
 
 Another possibility is to rely on the local time if it's already running an NTP
 client. This is also problematic, as it involves writing code to detect running
@@ -98,9 +97,10 @@ This is fairly heavyweight, of course, but since we are still experimenting we�
 rather leverage existing code than design and support a lightweight protocol
 with a long lifetime. The responses look like this:
 
-> **)\]}'**
-
-> **{"protocol_version": 1, "current_time_millis": 1457471762000}**
+```
+)\]}'
+{"protocol_version": 1, "current_time_millis": 1457471762000}
+```
 
 To avoid excess queries, queries will be sent only when the time is insane or
 unavailable, but no more often than every (say) 60 minutes. We’ll make this
@@ -116,7 +116,7 @@ issued only in response to local events.
 
 For managed devices, we may need to supply a way to disable time queries.
 
-Use of sane time in SSL certificate validation
+#### Use of sane time in SSL certificate validation
 
 One day, it would be nice to use secure time for all certificate validation
 decisions, but it will take a while to get there.
@@ -125,7 +125,7 @@ As a first step, we’ll use sane time to validate certificate rejections: if th
 rejection was due to the wall clock being wrong, Chrome displays an interstitial
 asking the user to correct it, and records SHOW_BAD_CLOCK to UMA.
 
-Use of sane time in upgrades
+#### Use of sane time in upgrades
 
 Sane time is used in upgrade_detector_impl.cc to detect when Chrome needs to be
 updated.
@@ -133,39 +133,38 @@ updated.
 ## Code changes
 
 Addition of the NetworkTimeTracker class was done in bug
-[146090](http://crbug.com/146090). The SSL “bad clock” interstitial was done in
-bug [414843](http://crbug.com/414843). The bug for the changes below is
-[589700](http://crbug.com/589700).
+[146090](https://crbug.com/146090). The SSL “bad clock” interstitial was done in
+bug [414843](https://crbug.com/414843). The bug for the changes below is
+[589700](https://crbug.com/589700).
 
 Time is kept by the
-[NetworkTimeTracker](https://code.google.com/p/chromium/codesearch#chromium/src/components/network_time/network_time_tracker.h)
+[NetworkTimeTracker](https://source.chromium.org/chromium/chromium/src/+/main:components/network_time/network_time_tracker.h)
 class. The following changes will be needed to bring its implementation into
 line with this design:
 
-    Change the source of time updates. Once we’ve stood up the new time servers,
-    we’ll add code to periodically query them. The most natural way to do this
-    is to change NetworkTimeTracker to manage time updates on its own, rather
-    than than relying on external callers (currently just variations_service.cc)
-    to provide time. UpdateNetworkTime should become a private method.
-
-    For managed devices, implement a policy to disable time queries.
-
-    Add the notion of “sanity” to NetworkTimeTracker. This means recording the
-    value of the tick clock, as well as the value of the wall clock, so that
-    they can be compared. Most likely we’ll change received_network_time to
-    simply return false when the clock is insane.
-
-    The amount of skew allowed between the wall clock and the tick clock can be
-    generous (hours?), but we’ll still want to establish by some experimental
-    means that most clients can run for a long time without becoming insane.
+> Change the source of time updates. Once we've stood up the new time servers,
+> we'll add code to periodically query them. The most natural way to do this is
+> to change NetworkTimeTracker to manage time updates on its own, rather than
+> relying on external callers (currently just variations_service.cc) to provide
+> time. UpdateNetworkTime should become a private method.
+>
+> For managed devices, implement a policy to disable time queries.
+>
+> Add the notion of "sanity" to NetworkTimeTracker. This means recording the
+> value of the tick clock, as well as the value of the wall clock, so that they
+> can be compared. Most likely we'll change received_network_time to simply
+> return false when the clock is insane.
+>
+> The amount of skew allowed between the wall clock and the tick clock can be
+> generous (hours?), but we'll still want to establish by some experimental
+> means that most clients can run for a long time without becoming insane.
 
 And in addition, to benefit from these changes:
 
-1.  Change ssl_error_handler.cc to call
-            NetworkTimeTracker::GetNetworkTime to decide whether to display the
-            “please fix your clock” interstitial. If it is simple to extract the
-            validity period of the rejected certificate, we’ll ensure that sane
-            time falls within its validity period before showing the
-            interstitial. If that’s not easy to do, we’ll have to define a rule
-            of thumb, like “only display the interstitial if the wall clock is
-            more than 24 hours different from sane time.”
+*   Change ssl_error_handler.cc to call NetworkTimeTracker::GetNetworkTime to
+    decide whether to display the "please fix your clock" interstitial. If it
+    is simple to extract the validity period of the rejected certificate, we'll
+    ensure that sane time falls within its validity period before showing the
+    interstitial. If that's not easy to do, we'll have to define a rule of
+    thumb, like "only display the interstitial if the wall clock is more than
+    24 hours different from sane time".
