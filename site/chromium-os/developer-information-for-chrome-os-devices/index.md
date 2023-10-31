@@ -3532,6 +3532,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>Yes</td>
   </tr>
+     <tr>
+    <td>2021-05-28</td>
+    <td>HP</td>
+    <td><a href="https://www.hp.com/us-en/shop/">Chromebook x360 14c-cd0, 14"</a></td>
+    <td>Eldrid</td>
+    <td>Volteer</td>
+    <td>Volteer</td>
+    <td>x86_64</td>
+    <td>5.4</td>
+    <td>x86_64</td>
+    <td>Tigerlake-U</td>
+    <td>Convertible</td>
+    <td>R91</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td>Yes</td>
+    <td>Yes</td>
+  </tr>
   <tr>
     <td>2021-05-27</td>
     <td>Acer</td>
