@@ -16,6 +16,23 @@
       "message": "This is a make up change for eldrid project",
       "revId": "03fa7d9708dee81d68021a00c474f33c1e18f456",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6391048a_06543049",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1550722
+      },
+      "writtenOn": "2023-10-31T01:36:16Z",
+      "side": 1,
+      "message": "LGTM",
+      "revId": "03fa7d9708dee81d68021a00c474f33c1e18f456",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
