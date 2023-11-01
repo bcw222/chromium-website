@@ -50,6 +50,24 @@
       "message": "Please add a note saying that epoll_quic_server only works on Linux. Same for epoll_quic_client below.",
       "revId": "763c9a2c33fa9a960dfc0a5e0590c1649c0ac3ff",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f81db14_c67b8744",
+        "filename": "site/quic/playing-with-quic/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1563797
+      },
+      "writtenOn": "2023-11-01T22:19:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "92286eae_469ff226",
+      "revId": "763c9a2c33fa9a960dfc0a5e0590c1649c0ac3ff",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
