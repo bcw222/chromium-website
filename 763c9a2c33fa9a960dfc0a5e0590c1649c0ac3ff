@@ -16,6 +16,40 @@
       "message": "David, PTAL based on our conversations. I\u0027ll send to an OWNER when you\u0027re satisfied.",
       "revId": "763c9a2c33fa9a960dfc0a5e0590c1649c0ac3ff",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a41f8e15_6f9b2d2a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1503168
+      },
+      "writtenOn": "2023-11-01T21:58:02Z",
+      "side": 1,
+      "message": "Thank you so much, this is really helpful!",
+      "revId": "763c9a2c33fa9a960dfc0a5e0590c1649c0ac3ff",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "92286eae_469ff226",
+        "filename": "site/quic/playing-with-quic/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1503168
+      },
+      "writtenOn": "2023-11-01T21:58:02Z",
+      "side": 1,
+      "message": "Please add a note saying that epoll_quic_server only works on Linux. Same for epoll_quic_client below.",
+      "revId": "763c9a2c33fa9a960dfc0a5e0590c1649c0ac3ff",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
