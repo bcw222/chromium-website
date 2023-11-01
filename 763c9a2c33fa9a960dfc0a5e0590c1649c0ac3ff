@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74a8675c_d9603684",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1563797
+      },
+      "writtenOn": "2023-11-01T20:19:26Z",
+      "side": 1,
+      "message": "David, PTAL based on our conversations. I\u0027ll send to an OWNER when you\u0027re satisfied.",
+      "revId": "763c9a2c33fa9a960dfc0a5e0590c1649c0ac3ff",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
