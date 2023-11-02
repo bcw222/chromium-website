@@ -201,6 +201,40 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
     <td>Yes</td>
   </tr>
+   <tr>
+    <td></td>
+    <td>HP</td>
+    <td><a href="https://support.hp.com/sg-en/document/c06719265">HP chromebook x360 14c </a></td>
+    <td>dragonair</td>
+    <td>Hatch</td>
+    <td>Hatch</td>
+    <td>x86_64</td>
+    <td>4.19</td>
+    <td>x86_64</td>
+    <td>Comet Lake-U</td>
+    <td>Convertible</td>
+    <td>R84</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
+     <tr>
+    <td></td>
+    <td>HP</td>
+    <td><a href="https://support.hp.com/sg-en/document/c06719265">HP chromebook Clamshell 14b </a></td>
+    <td>dratini</td>
+    <td>Hatch</td>
+    <td>Hatch</td>
+    <td>x86_64</td>
+    <td>4.19</td>
+    <td>x86_64</td>
+    <td>Comet Lake-U</td>
+    <td>Clamshell</td>
+    <td>R84</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
   <tr>
     <td></td>
     <td>Google</td>
