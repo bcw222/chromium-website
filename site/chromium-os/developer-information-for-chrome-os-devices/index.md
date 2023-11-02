@@ -3907,6 +3907,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td></td>
   </tr>
   <tr>
+    <td>2021-12-31</td>
+    <td>HP</td>
+    <td><a href="https://www.hp.com/us-en/shop/vwa/business-solutions/brand=Chromebook,Chromebox">HP Chromebook x2 11-da0</a></td>
+    <td>Coachz</td>
+    <td>Strongbad</td>
+    <td>Strongbad</td>
+    <td>arm</td>
+    <td>4.19</td>
+    <td>arm</td>
+    <td>QC-7C</td>
+    <td>Chromebook</td>
+    <td>R89</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
     <td>2022-03-11</td>
     <td>Lenovo</td>
     <td><a href="https://www.lenovo.com/us/en/p/laptops/lenovo/lenovo-edu-chromebooks/ideapad-duet-3-chromebook-(11-inch-qcom)/len101i0034">Lenovo Chromebook Duet 3 /IdeaPad Duet 3 Chromebook</a></td>
