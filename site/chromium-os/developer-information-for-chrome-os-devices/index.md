@@ -4314,6 +4314,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Yes</td>
     <td>Yes</td>
   </tr>
+   <tr>
+    <td>2023-10-02</td>
+    <td>HP</td>
+    <td><a href="https://www.hp.com/us-en/shop/pdp/hp-dragonfly-pro-chromebook-16gb-wh">HP Dragonfly Pro Chromebook"</a></td>
+    <td>Vell</td>
+    <td>Brya</td>
+    <td>Brya</td>
+    <td>x86_64</td>
+    <td>5.15</td>
+    <td>x86_64</td>
+    <td>Alderlake-U/P</td>
+    <td>Chromebook</td>
+    <td>R115</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td>Yes</td>
+    <td>Yes</td>
+  </tr>
  <tr>
     <td>2023-10-02</td>
     <td>Acer</td>
