@@ -4230,6 +4230,23 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Yes</td>
   </tr>
   <tr>
+    <td>2023-03-30</td>
+    <td>Dell</td>
+    <td><a href="https://www.dell.com/en-us/shop/dell-laptops/latitude-5430-chromebook/spd/latitude-14-5430-chrome-laptop/s002lc5430usvp">Dell Latitude 5430 Chromebook</a></td>
+    <td>Crota</td>
+    <td>Brya</td>
+    <td>Brya</td>
+    <td>x86_64</td>
+    <td>5.15</td>
+    <td>x86_64</td>
+    <td>Alder Lake</td>
+    <td>Clamshell/Convertible</td>
+    <td>R107</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td>Yes</td>
+    <td>Yes</td>
+  </tr>
+  <tr>
     <td>2023-03-31</td>
     <td>Lenovo</td>
     <td>Lenovo 500e Yoga Chromebook Gen 4</td>
