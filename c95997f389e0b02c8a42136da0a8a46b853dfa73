@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "baf43851_617f4f9a",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 254,
+      "author": {
+        "id": 1107959
+      },
+      "writtenOn": "2023-11-10T02:00:23Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "fe3cc54e_28f28413",
+      "revId": "c95997f389e0b02c8a42136da0a8a46b853dfa73",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3971b169_d3fdc584",
@@ -48,6 +66,24 @@
       "writtenOn": "2023-11-10T01:43:56Z",
       "side": 1,
       "message": "```suggestion\nonly for changes deemed very unlikely to break sites, and that change APIs in at most a trivial way.\n```",
+      "revId": "c95997f389e0b02c8a42136da0a8a46b853dfa73",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "943e2d9a_b11fc2e5",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 715,
+      "author": {
+        "id": 1107959
+      },
+      "writtenOn": "2023-11-10T02:00:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3971b169_d3fdc584",
       "revId": "c95997f389e0b02c8a42136da0a8a46b853dfa73",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
