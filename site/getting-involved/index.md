@@ -35,4 +35,3 @@ Here are some ways you can get involved with Chromium:
     [accounts@chromium.org](mailto:accounts@chromium.org) (Note: you
     must already be approved as a committer) (if you're a Googler,
     click [here](https://docs.google.com/forms/d/e/1FAIpQLSfihgUcSmNz3g1iGIyHX-n9NWUi2oCuMh8JtKJGR2gPZiQnKw/viewform)
-    instead)
