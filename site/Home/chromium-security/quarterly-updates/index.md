@@ -41,7 +41,7 @@ In Q3, the Platform Security team focused our efforts on improving our sandboxes
 
 The main sandbox improvements from Q3 were in the network service sandbox, including designing (but not yet implementing) a solution for the Direct Sockets web API and brokering some other APIs. We also raised the Windows sandbox memory limit to enable more WASM features, and reduced the renderer's access to KsecDD and fonts on Windows.
 
-The main new OS security primitive work was implementing ad-hoc code signing of PWAs on Mac and adopting LPAC & NTFS ioctl mitigations on Windows after convincing Microsoft to add them. We also did a considerable amount of [research](https://chromium-review.googlesource.com/c/chromium/src/+/4814723) on the Windows VBS Enclave API and started prototyping for future use.
+The main new OS security primitive work was implementing ad-hoc code signing of PWAs on Mac and working closely with Microsoft to implement and ship [FSCTL](https://bugs.chromium.org/p/chromium/issues/detail?id=1414570) syscall filter for LPAC processes. We also did a considerable amount of [research](https://chromium-review.googlesource.com/c/chromium/src/+/4814723) on the Windows VBS Enclave API and started prototyping for future use.
 
 We also had a couple of lowlights this quarter: we had to stop work on the Android network service sandbox after it became clear the resource usage would be too high to justify having a network service process, and we didn't manage to get Kerberos brokering on ChromeOS done, which leaves a big sandbox hole on that platform.
 
