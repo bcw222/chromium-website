@@ -16,6 +16,40 @@
       "message": "There has been a repeated problem with feature owners choosing the \"web developer facing code change\" feature type for changes that actually need review.  Part of the problem is that this launching-features documentation had outdated information from back when ChromeStatus was not so central to the process.",
       "revId": "c95997f389e0b02c8a42136da0a8a46b853dfa73",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fe3cc54e_28f28413",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 254,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2023-11-10T01:43:56Z",
+      "side": 1,
+      "message": "```suggestion\nwhich enables a quick roll-back of that change in situations where we find our estimate\n```",
+      "revId": "c95997f389e0b02c8a42136da0a8a46b853dfa73",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3971b169_d3fdc584",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 715,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2023-11-10T01:43:56Z",
+      "side": 1,
+      "message": "```suggestion\nonly for changes deemed very unlikely to break sites, and that change APIs in at most a trivial way.\n```",
+      "revId": "c95997f389e0b02c8a42136da0a8a46b853dfa73",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
