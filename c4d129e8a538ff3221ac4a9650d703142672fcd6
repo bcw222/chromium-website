@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e32d5a88_859b1fd0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1477897
+      },
+      "writtenOn": "2023-11-14T22:05:48Z",
+      "side": 1,
+      "message": "Hello!\n\nThis document was added as a result of this patch: https://source.chromium.org/chromiumos/_/chromium/website/+/4d7339a38c5b9ae2809116c05ec9beb492c374fd\n\nI don\u0027t know who created this, but you have the earliest commit. I\u0027m not sure how to find /experimental/website so I can do the git blame there\n\nIt seems like this is multiple paragraphs about kernel contribution copied over from various articles, so maybe we should just have a doc with links to those docs?\n\nThe original version of this doc as you can see is very garbled. I did some preliminary clean up. Figuring out how to make a kernel patch already isn\u0027t straightforward, and having confusing documentation like this makes it harder.\n\nIf you can at the very least link the commit from the person who wrote this doc, that would be very helpful!\n\nThanks in advance!",
+      "revId": "c4d129e8a538ff3221ac4a9650d703142672fcd6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
