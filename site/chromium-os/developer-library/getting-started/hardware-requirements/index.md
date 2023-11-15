@@ -77,6 +77,5 @@ Up next you will configure your workstation [development
 environment](/chromium-os/developer-library/development-library) to meet the
 requirements of developing ChromiumOS.
 
+[Next: Development Environment](/chromium-os/developer-library/getting-started/development-environment)
 [Previous: Getting Started](/chromium-os/developer-library/getting-started)
-
-[Next: Development Environment](/chromium-os/developer-library/development-environment)
