@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "450ba599_35db2c70",
+        "filename": "site/chromium-os/chromiumos-design-docs/chromium-os-kernel/submitting-patches/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1477897
+      },
+      "writtenOn": "2023-11-15T18:38:16Z",
+      "side": 1,
+      "message": "where should Documentation/SubmitChecklist and Documentation/SubmittingDrivers link to?",
+      "revId": "a894195e2973445d8b1557197916330e646a78b8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
