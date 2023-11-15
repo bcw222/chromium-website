@@ -16,6 +16,108 @@
       "message": "Hello!\n\nThis document was added as a result of this patch: https://source.chromium.org/chromiumos/_/chromium/website/+/4d7339a38c5b9ae2809116c05ec9beb492c374fd\n\nI don\u0027t know who created this, but you have the earliest commit. I\u0027m not sure how to find /experimental/website so I can do the git blame there\n\nIt seems like this is multiple paragraphs about kernel contribution copied over from various articles, so maybe we should just have a doc with links to those docs?\n\nThe original version of this doc as you can see is very garbled. I did some preliminary clean up. Figuring out how to make a kernel patch already isn\u0027t straightforward, and having confusing documentation like this makes it harder.\n\nIf you can at the very least link the commit from the person who wrote this doc, that would be very helpful!\n\nThanks in advance!",
       "revId": "c4d129e8a538ff3221ac4a9650d703142672fcd6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f3c4c3c3_aa8ddc4e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-11-15T01:56:11Z",
+      "side": 1,
+      "message": "This is a big improvement! Thank you.\n\nThe last version of the pre-migration version of this can be found at https://sites.google.com/a/chromium.org/dev/chromium-os/chromiumos-design-docs/chromium-os-kernel/submitting-patches\n\nI can\u0027t tell who wrote this originally, but it ooks like vapier@ might\u0027ve made the  last set of edits to it in Sites, way back in 2014.\n\nSo, adding vapier@ as a reviewer as well.",
+      "revId": "c4d129e8a538ff3221ac4a9650d703142672fcd6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5f7dd331_b0d0201f",
+        "filename": "site/chromium-os/chromiumos-design-docs/chromium-os-kernel/submitting-patches/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 368,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-11-15T01:56:11Z",
+      "side": 1,
+      "message": "Nit: I think you probably don\u0027t want the backslashes on those three lines.",
+      "revId": "c4d129e8a538ff3221ac4a9650d703142672fcd6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6628256b_4bf62a8b",
+        "filename": "site/chromium-os/chromiumos-design-docs/chromium-os-kernel/submitting-patches/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 395,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-11-15T01:56:11Z",
+      "side": 1,
+      "message": "Nit: same thing, I\u0027d probably also put lines 394-395 on a single line.",
+      "revId": "c4d129e8a538ff3221ac4a9650d703142672fcd6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c3bab782_2a55c047",
+        "filename": "site/chromium-os/chromiumos-design-docs/chromium-os-kernel/submitting-patches/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 492,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-11-15T01:56:11Z",
+      "side": 1,
+      "message": "Nit: same thing about the backslashes.",
+      "revId": "c4d129e8a538ff3221ac4a9650d703142672fcd6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "204298c0_492b8001",
+        "filename": "site/chromium-os/chromiumos-design-docs/chromium-os-kernel/submitting-patches/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 551,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-11-15T01:56:11Z",
+      "side": 1,
+      "message": "Nit: same.",
+      "revId": "c4d129e8a538ff3221ac4a9650d703142672fcd6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c1a4802e_7e01951f",
+        "filename": "site/chromium-os/chromiumos-design-docs/chromium-os-kernel/submitting-patches/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 584,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2023-11-15T01:56:11Z",
+      "side": 1,
+      "message": "Nit: trailing whitespace.",
+      "revId": "c4d129e8a538ff3221ac4a9650d703142672fcd6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
