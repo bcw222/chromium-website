@@ -61,5 +61,9 @@ Head over to the [hardware
 requirements](/chromium-os/developer-library/getting-started/hardware-requirements)
 page to understand what hardware you need in order to develop ChromiumOS.
 
-[Next: Hardware
-Requirements](/chromium-os/developer-library/getting-started/hardware-requirements)
+<div style="text-align: center; margin: 3rem 0 1rem 0;">
+  <div style="margin: 0 1rem; display: inline-block;">
+    <a href="/chromium-os/developer-library/getting-started/hardware-requirements">Hardware Requirements</a>
+    <span style="margin-left: 0.5rem;">></span>
+  </div>
+</div>
