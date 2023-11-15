@@ -52,6 +52,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a532dff_8841bb77",
+        "filename": "site/chromium-os/chromiumos-design-docs/chromium-os-kernel/submitting-patches/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 368,
+      "author": {
+        "id": 1477897
+      },
+      "writtenOn": "2023-11-15T18:29:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5f7dd331_b0d0201f",
+      "revId": "c4d129e8a538ff3221ac4a9650d703142672fcd6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6628256b_4bf62a8b",
@@ -65,6 +83,24 @@
       "writtenOn": "2023-11-15T01:56:11Z",
       "side": 1,
       "message": "Nit: same thing, I\u0027d probably also put lines 394-395 on a single line.",
+      "revId": "c4d129e8a538ff3221ac4a9650d703142672fcd6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8e113e62_c0e4b31c",
+        "filename": "site/chromium-os/chromiumos-design-docs/chromium-os-kernel/submitting-patches/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 395,
+      "author": {
+        "id": 1477897
+      },
+      "writtenOn": "2023-11-15T18:29:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6628256b_4bf62a8b",
       "revId": "c4d129e8a538ff3221ac4a9650d703142672fcd6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -86,6 +122,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "99121fd8_25ca29c4",
+        "filename": "site/chromium-os/chromiumos-design-docs/chromium-os-kernel/submitting-patches/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 492,
+      "author": {
+        "id": 1477897
+      },
+      "writtenOn": "2023-11-15T18:29:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c3bab782_2a55c047",
+      "revId": "c4d129e8a538ff3221ac4a9650d703142672fcd6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "204298c0_492b8001",
@@ -103,6 +157,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "edb62337_fbcdf6f1",
+        "filename": "site/chromium-os/chromiumos-design-docs/chromium-os-kernel/submitting-patches/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 551,
+      "author": {
+        "id": 1477897
+      },
+      "writtenOn": "2023-11-15T18:29:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "204298c0_492b8001",
+      "revId": "c4d129e8a538ff3221ac4a9650d703142672fcd6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c1a4802e_7e01951f",
@@ -116,6 +188,24 @@
       "writtenOn": "2023-11-15T01:56:11Z",
       "side": 1,
       "message": "Nit: trailing whitespace.",
+      "revId": "c4d129e8a538ff3221ac4a9650d703142672fcd6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f9dcb2c9_a23dd975",
+        "filename": "site/chromium-os/chromiumos-design-docs/chromium-os-kernel/submitting-patches/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 584,
+      "author": {
+        "id": 1477897
+      },
+      "writtenOn": "2023-11-15T18:29:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c1a4802e_7e01951f",
       "revId": "c4d129e8a538ff3221ac4a9650d703142672fcd6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
