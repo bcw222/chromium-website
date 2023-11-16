@@ -16,6 +16,638 @@
       "message": "PTAL",
       "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a131dcf_6e3dc203",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "Sorry for the swarm of nits, LGTM overall",
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c9544be2_748b7a13",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "Please wrap all text to 80 characters",
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ffa3e7a5_98838c4c",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "Please capitalize \"Chrome-branded\", here and elsewhere",
+      "range": {
+        "startLine": 11,
+        "startChar": 64,
+        "endLine": 11,
+        "endChar": 70
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eca390dd_b18cd127",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "describes",
+      "range": {
+        "startLine": 11,
+        "startChar": 10,
+        "endLine": 11,
+        "endChar": 20
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3beaaba9_2cfe7e75",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "Please wrap in backticks. Also, the arg uses underscores, so this should be `is_chrome_branded`.",
+      "range": {
+        "startLine": 13,
+        "startChar": 48,
+        "endLine": 13,
+        "endChar": 65
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "92ffaddb_2832dc8c",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "nit: GN",
+      "range": {
+        "startLine": 13,
+        "startChar": 41,
+        "endLine": 13,
+        "endChar": 44
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2877308f_0b1a47dd",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "Please capitalize \"Chrome\"",
+      "range": {
+        "startLine": 14,
+        "startChar": 39,
+        "endLine": 14,
+        "endChar": 46
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e44597b3_4811c221",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "Hyphenate here and elsewhere: \"Chrome-branded\"",
+      "range": {
+        "startLine": 18,
+        "startChar": 17,
+        "endLine": 18,
+        "endChar": 31
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "95684514_bd7b4ebc",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "\"Chromium\" should be capitalized too",
+      "range": {
+        "startLine": 18,
+        "startChar": 59,
+        "endLine": 18,
+        "endChar": 68
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "53d30d58_21fbfc0d",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "nit: `, e.g., ` (\"e.g.\" should be followed by a comma and not be the start of a sentence) - here and in the next bullet point",
+      "range": {
+        "startLine": 20,
+        "startChar": 128,
+        "endLine": 20,
+        "endChar": 133
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "33424b6b_daee9345",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "Capitalize \"Stable\"",
+      "range": {
+        "startLine": 20,
+        "startChar": 55,
+        "endLine": 20,
+        "endChar": 61
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ecf155b5_93a24276",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "it\u0027s",
+      "range": {
+        "startLine": 21,
+        "startChar": 454,
+        "endLine": 21,
+        "endChar": 458
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c11302cd_29097f12",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "I don\u0027t quite understand this sentence so I think it might be worth elaborating on or rephrasing. I get that tests might expect the `GetChannel` string to be a specific channel, but how does that relate to an experiment or feature being enabled?",
+      "range": {
+        "startLine": 21,
+        "startChar": 269,
+        "endLine": 21,
+        "endChar": 489
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "74a5d6b0_e9d12a72",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "Extra colon in URL",
+      "range": {
+        "startLine": 21,
+        "startChar": 244,
+        "endLine": 21,
+        "endChar": 245
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3c835783_7aad4ddd",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "Backticks here too",
+      "range": {
+        "startLine": 21,
+        "startChar": 120,
+        "endLine": 21,
+        "endChar": 141
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5bccc7f1_dbdb12ae",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "Capitalize \"Canary\"",
+      "range": {
+        "startLine": 21,
+        "startChar": 189,
+        "endLine": 21,
+        "endChar": 195
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "35b9d61e_06242802",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "Enclose in backticks, and consider adding parentheses to make it clear this is a function call",
+      "range": {
+        "startLine": 21,
+        "startChar": 2,
+        "endLine": 21,
+        "endChar": 13
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5053e767_9d0e98d2",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "Enclose in backticks",
+      "range": {
+        "startLine": 22,
+        "startChar": 97,
+        "endLine": 22,
+        "endChar": 143
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "809c3815_1ef597f4",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "Enclose in backticks",
+      "range": {
+        "startLine": 22,
+        "startChar": 2,
+        "endLine": 22,
+        "endChar": 15
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4bcc5a32_d716ee3e",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "`EXPECT_DEATH` reads as singular to me, so I think this should be \"...doesn\u0027t work, so it...\". Alternatively, you could say something like \"Calls to `EXPECT_DEATH`...\" and keep this as-is.",
+      "range": {
+        "startLine": 22,
+        "startChar": 56,
+        "endLine": 22,
+        "endChar": 75
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "806cd1f9_1a0b5c8a",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "Is \"official build\" another way to say \"Chrome-branded\"? If so I think it might be helpful to say something like `...in Chrome-branded (\"official\") builds...` here, to stay consistent with the wording used so far.",
+      "range": {
+        "startLine": 22,
+        "startChar": 29,
+        "endLine": 22,
+        "endChar": 37
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ef2776c1_6de317fa",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "uber-nit: I think writing out \"with\" in full is more readable",
+      "range": {
+        "startLine": 22,
+        "startChar": 15,
+        "endLine": 22,
+        "endChar": 18
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f11d61e5_7894a65b",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "DCHECKs",
+      "range": {
+        "startLine": 22,
+        "startChar": 18,
+        "endLine": 22,
+        "endChar": 26
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4e6c8424_cf24a8af",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "WDYT of \"Chrome-branded builds for Windows\", to make it clear they\u0027re not Windows-branded?",
+      "range": {
+        "startLine": 23,
+        "startChar": 149,
+        "endLine": 23,
+        "endChar": 171
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c2a8f855_e1301d2f",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "nit: extra space",
+      "range": {
+        "startLine": 23,
+        "startChar": 144,
+        "endLine": 23,
+        "endChar": 145
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "34948b64_97db0e66",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "failure",
+      "range": {
+        "startLine": 23,
+        "startChar": 8,
+        "endLine": 23,
+        "endChar": 13
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "05ed467a_91f61e1a",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "Enclose in backticks",
+      "range": {
+        "startLine": 23,
+        "startChar": 16,
+        "endLine": 23,
+        "endChar": 58
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "48eb250d_d88c4ee8",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2023-11-16T23:47:48Z",
+      "side": 1,
+      "message": "This URL has an extra \"crbug.com/\"",
+      "range": {
+        "startLine": 23,
+        "startChar": 263,
+        "endLine": 23,
+        "endChar": 273
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
