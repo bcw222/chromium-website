@@ -98,6 +98,54 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd9d0d01_c67b0862",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ffa3e7a5_98838c4c",
+      "range": {
+        "startLine": 11,
+        "startChar": 64,
+        "endLine": 11,
+        "endChar": 70
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c11827d8_5ab4ebd9",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "eca390dd_b18cd127",
+      "range": {
+        "startLine": 11,
+        "startChar": 10,
+        "endLine": 11,
+        "endChar": 20
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3beaaba9_2cfe7e75",
@@ -144,6 +192,54 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "67a95996_7e558505",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3beaaba9_2cfe7e75",
+      "range": {
+        "startLine": 13,
+        "startChar": 48,
+        "endLine": 13,
+        "endChar": 65
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a10e5dd_6b0bd639",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "92ffaddb_2832dc8c",
+      "range": {
+        "startLine": 13,
+        "startChar": 41,
+        "endLine": 13,
+        "endChar": 44
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2877308f_0b1a47dd",
@@ -157,6 +253,30 @@
       "writtenOn": "2023-11-16T23:47:48Z",
       "side": 1,
       "message": "Please capitalize \"Chrome\"",
+      "range": {
+        "startLine": 14,
+        "startChar": 39,
+        "endLine": 14,
+        "endChar": 46
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "52b0a93e_a5d06139",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2877308f_0b1a47dd",
       "range": {
         "startLine": 14,
         "startChar": 39,
@@ -213,6 +333,54 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c48264bc_7d5c32bd",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e44597b3_4811c221",
+      "range": {
+        "startLine": 18,
+        "startChar": 17,
+        "endLine": 18,
+        "endChar": 31
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "06c16990_b6b0a34c",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "95684514_bd7b4ebc",
+      "range": {
+        "startLine": 18,
+        "startChar": 59,
+        "endLine": 18,
+        "endChar": 68
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "53d30d58_21fbfc0d",
@@ -254,6 +422,54 @@
         "startChar": 55,
         "endLine": 20,
         "endChar": 61
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c5ccbc8b_1baeb9db",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "33424b6b_daee9345",
+      "range": {
+        "startLine": 20,
+        "startChar": 55,
+        "endLine": 20,
+        "endChar": 61
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc2e2b28_ad387e4a",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "53d30d58_21fbfc0d",
+      "range": {
+        "startLine": 20,
+        "startChar": 128,
+        "endLine": 20,
+        "endChar": 133
       },
       "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
@@ -397,6 +613,126 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "82c06b84_a44f2dd5",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "35b9d61e_06242802",
+      "range": {
+        "startLine": 21,
+        "startChar": 2,
+        "endLine": 21,
+        "endChar": 13
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d492191c_c8f88f5a",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Added sentence about features/experiments being enabled for Canary before Stable to clarify.",
+      "parentUuid": "c11302cd_29097f12",
+      "range": {
+        "startLine": 21,
+        "startChar": 269,
+        "endLine": 21,
+        "endChar": 489
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aaf31c9b_a06db175",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5bccc7f1_dbdb12ae",
+      "range": {
+        "startLine": 21,
+        "startChar": 189,
+        "endLine": 21,
+        "endChar": 195
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c298be2_a92eb8e2",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "74a5d6b0_e9d12a72",
+      "range": {
+        "startLine": 21,
+        "startChar": 244,
+        "endLine": 21,
+        "endChar": 245
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "353200e0_5255ffef",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3c835783_7aad4ddd",
+      "range": {
+        "startLine": 21,
+        "startChar": 120,
+        "endLine": 21,
+        "endChar": 141
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5053e767_9d0e98d2",
@@ -535,6 +871,150 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8e0e28d3_f0bf1850",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ef2776c1_6de317fa",
+      "range": {
+        "startLine": 22,
+        "startChar": 15,
+        "endLine": 22,
+        "endChar": 18
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "076b5308_240d3967",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f11d61e5_7894a65b",
+      "range": {
+        "startLine": 22,
+        "startChar": 18,
+        "endLine": 22,
+        "endChar": 26
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "073902eb_61c5603e",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "809c3815_1ef597f4",
+      "range": {
+        "startLine": 22,
+        "startChar": 2,
+        "endLine": 22,
+        "endChar": 15
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43001372_9e1d55c1",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5053e767_9d0e98d2",
+      "range": {
+        "startLine": 22,
+        "startChar": 97,
+        "endLine": 22,
+        "endChar": 143
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7a9dc24c_867535f8",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4bcc5a32_d716ee3e",
+      "range": {
+        "startLine": 22,
+        "startChar": 56,
+        "endLine": 22,
+        "endChar": 75
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "29b06ebf_0d375b70",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Added explanation - bots that do branded builds also make them official builds.",
+      "parentUuid": "806cd1f9_1a0b5c8a",
+      "range": {
+        "startLine": 22,
+        "startChar": 29,
+        "endLine": 22,
+        "endChar": 37
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4e6c8424_cf24a8af",
@@ -645,6 +1125,126 @@
         "startChar": 263,
         "endLine": 23,
         "endChar": 273
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5dfb1a3e_8e570067",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4e6c8424_cf24a8af",
+      "range": {
+        "startLine": 23,
+        "startChar": 149,
+        "endLine": 23,
+        "endChar": 171
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "547a0895_ee3b2d59",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c2a8f855_e1301d2f",
+      "range": {
+        "startLine": 23,
+        "startChar": 144,
+        "endLine": 23,
+        "endChar": 145
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b1aac00_b131777f",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "05ed467a_91f61e1a",
+      "range": {
+        "startLine": 23,
+        "startChar": 16,
+        "endLine": 23,
+        "endChar": 58
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6ffaebc_5420c71d",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "48eb250d_d88c4ee8",
+      "range": {
+        "startLine": 23,
+        "startChar": 263,
+        "endLine": 23,
+        "endChar": 273
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4872c43a_18f19e71",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:02:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "34948b64_97db0e66",
+      "range": {
+        "startLine": 23,
+        "startChar": 8,
+        "endLine": 23,
+        "endChar": 13
       },
       "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
