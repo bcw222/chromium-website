@@ -52,6 +52,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f8da405_c2701046",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:04:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c9544be2_748b7a13",
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ffa3e7a5_98838c4c",
@@ -728,6 +746,30 @@
         "startChar": 120,
         "endLine": 21,
         "endChar": 141
+      },
+      "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8c453e3_78ad3342",
+        "filename": "site/developers/testing/fixing-branded-tests/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1268678
+      },
+      "writtenOn": "2023-11-17T17:04:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ecf155b5_93a24276",
+      "range": {
+        "startLine": 21,
+        "startChar": 454,
+        "endLine": 21,
+        "endChar": 458
       },
       "revId": "45f276d4060681f760196e47daa1074b6cc1e201",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
