@@ -10,7 +10,7 @@ Once you've acquired your
 [development hardware](/chromium-os/developer-library/getting-started/hardware-requirements),
 the next step is to ensure your development environment is capable of
 downloading and building the code. This includes ensuring runtime hardware
-needs, package management, and authentication.
+needs, package management, and Git configuration.
 
 ## Checking resource requirements
 
@@ -85,7 +85,7 @@ conflicts with other binaries of the same name in another location.
 ## Up next
 
 You're now ready to [download the
-code](/chromium-os/developer-library/getting-started/download-code) necessary to
+code](/chromium-os/developer-library/getting-started/checkout-chromium) necessary to
 build and deploy ChromiumOS.
 
 <div style="text-align: center; margin: 3rem 0 1rem 0;">
@@ -94,7 +94,7 @@ build and deploy ChromiumOS.
     <a href="/chromium-os/developer-library/getting-started/hardware-requirements">Hardware Requirements</a>
   </div>
   <div style="margin: 0 1rem; display: inline-block;">
-    <a href="/chromium-os/developer-library/getting-started/downloading-code">Downloading the Code</a>
+    <a href="/chromium-os/developer-library/getting-started/checkout-chromium">Checkout Chromium</a>
     <span style="margin-left: 0.5rem;">></span>
   </div>
 </div>
