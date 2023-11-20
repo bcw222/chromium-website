@@ -21,8 +21,7 @@ and more stable way for all users to experience the web. This site contains
 design documents, architecture overviews, testing information, and more to help
 you learn to build and work with the Chromium source code.
 
-[![](/chromium-projects/logo_chrome_color_1x_web_32dp.png)](https://www.google.com/chrome)
-
+2
 Looking for Google Chrome?
 
 [Download Google Chrome](https://www.google.com/chrome)
@@ -45,5 +44,6 @@ Looking for Google Chrome OS devices?
 
 [Visit the Google ChromeOS site](https://www.google.com/chromeos)
 
+</div>https://g.dev/AnT1nG<>website/site/chromium-projects/index.md
 </div>
-</div>
+
