@@ -175,7 +175,7 @@ out/Default/chrome \
     --user-data-dir=/tmp/chrome-profile \
     --host-resolver-rules='MAP www.example.org 127.0.0.1' \
     --proxy-server=quic://www.example.org:6121 \
-    --origin-to-force-quic-on=www.example.org:443 \
+    --origin-to-force-quic-on=www.example.org:6121 \
     --ignore-certificate-errors \
     --ignore-certificate-errors-spki-list="${SPKI}"
 ```
