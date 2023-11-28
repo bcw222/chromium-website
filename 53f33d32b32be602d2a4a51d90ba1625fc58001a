@@ -51,6 +51,24 @@
       "parentUuid": "783d376e_ee1cc479",
       "revId": "53f33d32b32be602d2a4a51d90ba1625fc58001a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3829cc0a_ddbced6c",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 1002513
+      },
+      "writtenOn": "2023-11-28T18:57:37Z",
+      "side": 1,
+      "message": "That sounds good to me. Thanks",
+      "parentUuid": "b8523709_6865c864",
+      "revId": "53f33d32b32be602d2a4a51d90ba1625fc58001a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
