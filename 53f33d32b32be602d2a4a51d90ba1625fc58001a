@@ -33,6 +33,24 @@
       "message": "I find it hard to judge where this wording fits on a scale of \"opportunity\" or \"recommendation\" or \"requirement\".\n\n\"If you\u0027re writing the explainer for Google, put your explainer here\" sounds like a requirement. Is that correct?",
       "revId": "53f33d32b32be602d2a4a51d90ba1625fc58001a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b8523709_6865c864",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-11-28T18:52:48Z",
+      "side": 1,
+      "message": "It\u0027s meant to be a \"should\" level recommendation rather than a hard requirement. I could reorder it to soften it some. E.g.\n\n```\nThen host your explainer at a public URL. Some organizations recommend\nspecific places:\n* Google: \u003chttps://github.com/explainers-by-googlers\u003e\n* Microsoft: \u003chttps://github.com/MicrosoftEdge/MSEdgeExplainers\u003e\n* If your organization has an area for explainers, [send us a\n  patch](https://source.chromium.org/chromium/chromium/src/+/main:docs/website/docs/CONTRIBUTING.md)\n  to describe it here.\n\nOtherwise, a public personal Github repo typically works well. Then put\na link to your public explainer in the feature entry.\n```",
+      "parentUuid": "783d376e_ee1cc479",
+      "revId": "53f33d32b32be602d2a4a51d90ba1625fc58001a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
