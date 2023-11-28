@@ -129,7 +129,7 @@ changes to the spec without changes to the API shape itself.
 
 It is possible to change types later in the process - for example, if you start
 out implementing an already existing standard, but discover you need to incubate
-a new API during the process, you can start over with a new ChromeStatus entry. 
+a new API during the process, you can start over with a new ChromeStatus entry.
 Note that there are few [strictly required gates to the Chromium
 process](/blink/guidelines/api-owners/procedures) (e.g., 3 LGTMs from API owners
 on an intent-to-ship) - particularly in the earlier stages we want to encourage
@@ -169,8 +169,16 @@ Proceed to the "Start Incubating" stage in ChromeStatus.
 Write up the use cases and scenarios for the feature in an
 [explainer](https://tag.w3.org/explainers/), which is typically written in
 [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-Then host your explainer at a public URL, typically in a public personal Github
-repo, and put a link to your public explainer in the feature entry.
+Then host your explainer at a public URL. Some organizations recommend specific
+places:
+* Google: <https://github.com/explainers-by-googlers>
+* Microsoft: <https://github.com/MicrosoftEdge/MSEdgeExplainers>
+* If your organization has an area for explainers, [send us a
+  patch](https://source.chromium.org/chromium/chromium/src/+/main:docs/website/docs/CONTRIBUTING.md)
+  to describe it here.
+
+Otherwise, a public personal Github repo typically works well. Then put a link
+to your public explainer in the feature entry.
 
 We have a [program for to provide mentorship for specification
 writing](/blink/spec-mentors); If you are a Googler you must file a
@@ -252,7 +260,7 @@ internationalization, etc.).
 [Flag guidelines](https://chromium.googlesource.com/chromium/src/+/main/docs/flag_guarding_guidelines.md) require you to place the code change behind a
 [flag](https://chromium.googlesource.com/chromium/src/+/main/third_party/blink/renderer/platform/RuntimeEnabledFeatures.md),
 which enables a quick roll-back of that change in situations where we find our estimate
-regarding its breaking potential was overly optimistic. 
+regarding its breaking potential was overly optimistic.
 
 #### Step 4: Widen review {:#widen-review}
 
