@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e33087e4_38e24323",
+        "filename": "site/chromium-os/chromiumos-design-docs/chromium-os-kernel/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2023-11-29T10:45:57Z",
+      "side": 1,
+      "message": "```suggestion\n(See [submitting-patches](https://docs.kernel.org/process/submitting-patches.html#describe-your-changes).)\n```",
+      "revId": "95f93d812608cc3395fb621afac9847f9d2539ca",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
