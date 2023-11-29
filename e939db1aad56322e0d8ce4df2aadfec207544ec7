@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a72e8ef_c92bed63",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1111977
+      },
+      "writtenOn": "2023-11-29T11:06:09Z",
+      "side": 1,
+      "message": "PTAL.\n\nApologies for choosing the google.com email address, I think there\u0027s some access rights issue with this repository and I can\u0027t choose either chrishtr@chromium.org or jyasskin@chromium.org in the Reviewers field.",
+      "revId": "e939db1aad56322e0d8ce4df2aadfec207544ec7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
