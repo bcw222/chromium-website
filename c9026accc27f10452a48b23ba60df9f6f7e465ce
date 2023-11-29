@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "822961a9_b59a1e93",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-11-29T19:07:29Z",
+      "side": 1,
+      "message": "Panos, is there anyone else who should be in this OWNERS file?\n\nElly, I\u0027m in blink/OWNERS, so I could just approve this myself, but I wanted to check if there are any principles I missed in thinking the OT team should own its own docs?\n\nThanks!",
+      "revId": "c9026accc27f10452a48b23ba60df9f6f7e465ce",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
