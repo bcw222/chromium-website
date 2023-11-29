@@ -16,6 +16,69 @@
       "message": "PTAL.\n\nApologies for choosing the google.com email address, I think there\u0027s some access rights issue with this repository and I can\u0027t choose either chrishtr@chromium.org or jyasskin@chromium.org in the Reviewers field.",
       "revId": "e939db1aad56322e0d8ce4df2aadfec207544ec7",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ce82fa0_2f643b38",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-11-29T19:40:24Z",
+      "side": 1,
+      "message": "I don\u0027t know a lot about this feature, so +Panos and some questions about how we can make this more helpful:",
+      "revId": "e939db1aad56322e0d8ce4df2aadfec207544ec7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49dc3fa3_dab53833",
+        "filename": "site/blink/origin-trials/running-an-origin-trial/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-11-29T19:40:24Z",
+      "side": 1,
+      "message": "Are there Google-only restrictions around this step too? If so, we should document those too.",
+      "range": {
+        "startLine": 172,
+        "startChar": 0,
+        "endLine": 173,
+        "endChar": 76
+      },
+      "revId": "e939db1aad56322e0d8ce4df2aadfec207544ec7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "43fe7151_1b2a7160",
+        "filename": "site/blink/origin-trials/running-an-origin-trial/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 309,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-11-29T19:40:24Z",
+      "side": 1,
+      "message": "It would be nice to give non-Google feature owners a hint about how to find a Googler to click this for them. What can we say?",
+      "range": {
+        "startLine": 308,
+        "startChar": 68,
+        "endLine": 309,
+        "endChar": 73
+      },
+      "revId": "e939db1aad56322e0d8ce4df2aadfec207544ec7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
