@@ -108,6 +108,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ab6dc222_37a253b2",
+        "filename": "site/blink/origin-trials/running-an-origin-trial/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 1413494
+      },
+      "writtenOn": "2023-12-05T16:57:03Z",
+      "side": 1,
+      "message": "We were referring to the Request Trial Creation button, which functions similarly to the Request Trial Extension one. This is separate from the Draft Intent to Experiment Email and comes after the intent to experiment is approved.",
+      "parentUuid": "8347c55b_1517da70",
+      "range": {
+        "startLine": 172,
+        "startChar": 0,
+        "endLine": 173,
+        "endChar": 76
+      },
+      "revId": "e939db1aad56322e0d8ce4df2aadfec207544ec7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "43fe7151_1b2a7160",
         "filename": "site/blink/origin-trials/running-an-origin-trial/index.md",
         "patchSetId": 1
