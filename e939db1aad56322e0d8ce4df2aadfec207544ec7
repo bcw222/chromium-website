@@ -84,6 +84,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8347c55b_1517da70",
+        "filename": "site/blink/origin-trials/running-an-origin-trial/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 1111977
+      },
+      "writtenOn": "2023-12-05T12:15:48Z",
+      "side": 1,
+      "message": "I\u0027m not a Googler and I can see the \"Draft Intent to Experiment email\" link in chromestatus.com. I think the original I2E for the feature that caused me to write this patch was also generated via chromestatus.com: https://groups.google.com/a/chromium.org/g/blink-dev/c/QfJ4pngu3gc/m/oLL5nhBeAgAJ",
+      "parentUuid": "a7f16398_ac650689",
+      "range": {
+        "startLine": 172,
+        "startChar": 0,
+        "endLine": 173,
+        "endChar": 76
+      },
+      "revId": "e939db1aad56322e0d8ce4df2aadfec207544ec7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "43fe7151_1b2a7160",
         "filename": "site/blink/origin-trials/running-an-origin-trial/index.md",
         "patchSetId": 1
@@ -95,6 +119,30 @@
       "writtenOn": "2023-11-29T19:40:24Z",
       "side": 1,
       "message": "It would be nice to give non-Google feature owners a hint about how to find a Googler to click this for them. What can we say?",
+      "range": {
+        "startLine": 308,
+        "startChar": 68,
+        "endLine": 309,
+        "endChar": 73
+      },
+      "revId": "e939db1aad56322e0d8ce4df2aadfec207544ec7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "63fe6ac7_9cbf2bfa",
+        "filename": "site/blink/origin-trials/running-an-origin-trial/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 309,
+      "author": {
+        "id": 1111977
+      },
+      "writtenOn": "2023-12-05T12:15:48Z",
+      "side": 1,
+      "message": "In my experience with Origin Trials so far, there\u0027s always a Googler involved in the OT who is responsible for the Developer Console side, reaching out internally if necessary and processing the usage numbers, so my assumption is that if people ever find themselves in this situation they already know who they need to contact.",
+      "parentUuid": "43fe7151_1b2a7160",
       "range": {
         "startLine": 308,
         "startChar": 68,
