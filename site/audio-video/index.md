@@ -85,8 +85,8 @@ video element implementation
 media/base/mime_util.cc - defines canPlayType() behaviour and file extension
 mapping
 
-media/blink/buffered_data_source.{cc,h} - Chromium's main implementation of
-DataSource for the media pipeline
+third_party/blink/renderer/platform/media/buffered_data_source_host_impl.{cc,h} -
+Chromium's main implementation of DataSource for the media pipeline
 
 media/blink/buffered_resource_loader.{cc,h} - Implements the sliding window
 buffering strategy (see below)
@@ -94,8 +94,8 @@ buffering strategy (see below)
 third_party/blink/public/platform/web_media_player.h - Blink's media player
 interface for providing HTML5 audio/video functionality
 
-media/blink/webmediaplayer_impl.{cc,h} - Chromium's main implementation of
-WebMediaPlayer
+third_party/blink/renderer/platform/media/webmediaplayer_impl.{cc,h} - Chromium's
+main implementation of WebMediaPlayer
 
 ### How does everything get instantiated?
 
