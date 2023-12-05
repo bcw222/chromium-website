@@ -132,6 +132,53 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "1a33e634_047532c2",
+        "filename": "site/blink/origin-trials/running-an-origin-trial/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-12-05T17:07:57Z",
+      "side": 1,
+      "message": "Panos, could you suggest text for that, or write a new CL and cc Raphael? Without having seen both sides of the experience, it\u0027s hard to know what to say. (And clearly I didn\u0027t even know it well enough to put this comment on the right line.)",
+      "parentUuid": "ab6dc222_37a253b2",
+      "range": {
+        "startLine": 172,
+        "startChar": 0,
+        "endLine": 173,
+        "endChar": 76
+      },
+      "revId": "e939db1aad56322e0d8ce4df2aadfec207544ec7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ce8fa168_394401d1",
+        "filename": "site/blink/origin-trials/running-an-origin-trial/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-12-05T17:07:57Z",
+      "side": 1,
+      "message": "Trying to suggest text to complete the discussion about the previous line. Panos, please check that this is right.\n\n```suggestion\n*   After the intent is approved, request a trial for your feature at\n            ChromeStatus by clicking the \"Request Trial Creation\" button in the\n            Origin Trial section (**note**: Only Googlers can click this button.\n            If you\u0027re not already working with a Googler, contact the [origin\n            trials team](mailto:origin-trials-support@google.com) to find one.).\n```",
+      "range": {
+        "startLine": 174,
+        "startChar": 0,
+        "endLine": 176,
+        "endChar": 33
+      },
+      "revId": "e939db1aad56322e0d8ce4df2aadfec207544ec7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "43fe7151_1b2a7160",
         "filename": "site/blink/origin-trials/running-an-origin-trial/index.md",
         "patchSetId": 1
@@ -167,6 +214,30 @@
       "side": 1,
       "message": "In my experience with Origin Trials so far, there\u0027s always a Googler involved in the OT who is responsible for the Developer Console side, reaching out internally if necessary and processing the usage numbers, so my assumption is that if people ever find themselves in this situation they already know who they need to contact.",
       "parentUuid": "43fe7151_1b2a7160",
+      "range": {
+        "startLine": 308,
+        "startChar": 68,
+        "endLine": 309,
+        "endChar": 73
+      },
+      "revId": "e939db1aad56322e0d8ce4df2aadfec207544ec7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e844a438_3fad5749",
+        "filename": "site/blink/origin-trials/running-an-origin-trial/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 309,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2023-12-05T17:07:57Z",
+      "side": 1,
+      "message": "Maybe \"**note**: Only Googlers can click this button. If you\u0027re not already working with a Googler, contact the [origin trials team](mailto:origin-trials-support@google.com).\"\n```suggestion\n                Trial Extension\" button in the Origin Trial section (**note**:\n                Only Googlers can click this button. If you\u0027re not already\n                working with a Googler, contact the [origin trials\n                team](mailto:origin-trials-support@google.com) to find one.).\n```\n\nPanos, does that make sense to you?",
+      "parentUuid": "63fe6ac7_9cbf2bfa",
       "range": {
         "startLine": 308,
         "startChar": 68,
