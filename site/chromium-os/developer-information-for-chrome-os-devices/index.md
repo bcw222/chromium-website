@@ -4365,4 +4365,21 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Yes</td>
     <td>Yes</td>
   </tr>
+    <tr>
+    <td>2023-12-04</td>
+    <td>Lenovo</td>
+    <td><a href="https://news.lenovo.com/pressroom/press-releases/chromebox-micro-for-digital-and-interactive-display-solutions/">Lenovo Chromebox Micro</a></td>
+    <td>Boxy</td>
+    <td>Dedede</td>
+    <td>Dedede</td>
+    <td>x86_64</td>
+    <td>5.4</td>
+    <td>x86_64</td>
+    <td>Jasper Lake</td>
+    <td>Chromebox</td>
+    <td>R118</td>
+    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+    <td>Yes</td>
+    <td>Yes</td>
+  </tr>
 </table>
