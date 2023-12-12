@@ -47,18 +47,18 @@ is unique to your filesystem.
 For example, here is part of what a `tsconfig.json` might look like. These
 `paths` tell the TypeScript compiler where the **generated file** can be found
 in your personal filesystem (e.g.
-`/usr/local/google/home/`**`{{USERNAME}}`**`/`).
+`/usr/local/google/home/YOUR_USERNAME/`).
 
 ```json
 "paths": {
   "chrome://resources/*": [
-    "/usr/local/google/home/{{USERNAME}}/chromium/src/out/Default/gen/ui/webui/resources/preprocessed/*"
+    "/usr/local/google/home/YOUR_USERNAME/chromium/src/out/Default/gen/ui/webui/resources/preprocessed/*"
   ],
   "//resources/*": [
-    "/usr/local/google/home/{{USERNAME}}/chromium/src/out/Default/gen/ui/webui/resources/preprocessed/*"
+    "/usr/local/google/home/YOUR_USERNAME/chromium/src/out/Default/gen/ui/webui/resources/preprocessed/*"
   ],
   "chrome://resources/polymer/v3_0/*": [
-    "/usr/local/google/home/{{USERNAME}}/chromium/src/third_party/polymer/v3_0/components-chromium/*"
+    "/usr/local/google/home/YOUR_USERNAME/chromium/src/third_party/polymer/v3_0/components-chromium/*"
   ],
   ...
 ```
