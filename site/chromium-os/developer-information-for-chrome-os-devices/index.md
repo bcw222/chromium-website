@@ -26,12 +26,6 @@ cause hardware, software or security issues and may void warranty.**
 Googlers not finding what they're looking for may want to look at
 [go/cros-names](http://goto.google.com/cros-names).
 
-### End of Life (EOL) / Auto Update Expiration (AUE)
-
-The [official Google policy](https://support.google.com/chrome/a/answer/6220366)
-includes projected dates. Here we focus on the corresponding release versions as
-that is often more useful to developers.
-
 ## Routers
 
 These WiFi routers are marketed as [OnHub](https://on.google.com/hub/), [Google
@@ -115,6 +109,12 @@ Wifi](https://store.google.com/us/product/nest_wifi).
 
 These are your standard Chromebook/Chromebox/etc devices.
 
+The 'View by Brand Name' option on the [serving builds page](https://chromiumdash.appspot.com/serving-builds?deviceCategory=ChromeOS)
+contains additional details and systems which may not appear in this table,
+such as the auto update until date, first release, and more.
+
+Note: this table may be deprecated for the serving builds page in the future.
+
 <table>
   <tr>
     <th>Release</th>
@@ -128,8 +128,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <th>Kernel ABI</th>
     <th>Platform</th>
     <th>Form Factor</th>
-    <th>First Release</th>
-    <th>EOL/AUE</th>
     <th>USB Gadget</th>
     <th>Closed Case Debugging</th>
   </tr>
@@ -145,8 +143,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>AlderLake-U</td>
     <td>Convertible</td>
-    <td>R100</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -162,8 +158,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Cometlake-U</td>
     <td>Convertible</td>
-    <td>R81</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -179,8 +173,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Pollock</td>
     <td>Chromebook</td>
-    <td>M91</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -196,8 +188,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Comet Lake-U</td>
     <td>Convertible</td>
-    <td>R84</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -213,8 +203,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Amberlake-Y</td>
     <td>Chromebook</td>
-    <td>M75</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td>Yes</td>
     <td>Yes</td>
   </tr>
@@ -230,8 +218,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>aarch64</td>
     <td>MT8183</td>
     <td>Convertible</td>
-    <td>R87</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -247,8 +233,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>TigerLake-UP3</td>
     <td>Chromebook</td>
-    <td>R90</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -265,8 +249,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Gemini Lake</td>
     <td>Convertible</td>
     <td></td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
-    <td></td>
     <td></td>
   </tr>
   <tr>
@@ -281,8 +263,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>aarch64</td>
     <td>MT8183</td>
     <td>Chromeblet</td>
-    <td>R88</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -298,8 +278,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Cometlake-U</td>
     <td>Chromebook</td>
-    <td>R79</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -315,8 +293,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Pollock</td>
     <td>Chromebook</td>
-    <td>R91</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -333,7 +309,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>MT8192</td>
     <td>Chromebook</td>
     <td>M91</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td>Yes</td>
   </tr>
   <tr>
@@ -348,8 +323,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86</td>
     <td>PineTrail</td>
     <td>Chromebook</td>
-    <td>~R8</td>
-    <td>R56</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -365,8 +338,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86</td>
     <td>PineTrail</td>
     <td>Chromebook</td>
-    <td>R11</td>
-    <td>R58</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -382,8 +353,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86</td>
     <td>PineTrail</td>
     <td>Chromebook</td>
-    <td>R12</td>
-    <td>R58</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -399,8 +368,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>SandyBridge</td>
     <td>Chromebook</td>
-    <td>R17</td>
-    <td>R65</td>
     <td></td>
     <td>No </td>
   </tr>
@@ -416,8 +383,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>SandyBridge</td>
     <td>Chromebox</td>
-    <td>R17</td>
-    <td>R65</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -433,8 +398,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>Exynos 5250</td>
     <td>Chromebook</td>
-    <td>R22</td>
-    <td>R75</td>
     <td></td>
     <td>No </td>
   </tr>
@@ -450,8 +413,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>IvyBridge</td>
     <td>Chromebook</td>
-    <td>R27</td>
-    <td>R69</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -467,8 +428,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>SandyBridge</td>
     <td>Chromebook</td>
-    <td>R21</td>
-    <td>R65</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -484,8 +443,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>IvyBridge</td>
     <td>Chromebook</td>
-    <td>R22</td>
-    <td>R69</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -501,8 +458,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>IvyBridge</td>
     <td>Chromebook</td>
-    <td>R22</td>
-    <td>R69</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -518,8 +473,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>SandyBridge</td>
     <td>Chromebook</td>
-    <td>R22</td>
-    <td>R65</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -535,8 +488,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Haswell</td>
     <td>Chromebook</td>
-    <td>R30</td>
-    <td>R76</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -552,8 +503,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>Exynos 5250</td>
     <td>Chromebook</td>
-    <td>R27</td>
-    <td>R72</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -569,8 +518,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Haswell</td>
     <td>Chromebook</td>
-    <td>R30</td>
-    <td>R76</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -586,8 +533,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Haswell</td>
     <td>Chromebook</td>
-    <td>R31</td>
-    <td>R76</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -603,8 +548,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Haswell</td>
     <td>Chromebook</td>
-    <td>R31</td>
-    <td>R76</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -620,8 +563,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Haswell</td>
     <td>Chromebox</td>
-    <td>R32</td>
-    <td>R76</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -637,8 +578,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>Exynos 5450</td>
     <td>Chromebook</td>
-    <td>R30</td>
-    <td>R75</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -654,8 +593,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Haswell</td>
     <td>Chromebase</td>
-    <td>R33</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>No</td>
   </tr>
@@ -671,8 +608,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>Exynos 5450</td>
     <td>Chromebook</td>
-    <td>R34</td>
-    <td>R75</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -688,8 +623,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>Exynos 5250</td>
     <td>Chromebook</td>
-    <td>R34</td>
-    <td>R75</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -705,8 +638,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>BayTrail</td>
     <td>Convertible</td>
-    <td>R34</td>
-    <td>R76</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -722,8 +653,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>BayTrail</td>
     <td>Chromebook</td>
-    <td>R34</td>
-    <td>R76</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -739,8 +668,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>BayTrail</td>
     <td>Convertible</td>
-    <td>R34</td>
-    <td>R76</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -756,8 +683,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>BayTrail</td>
     <td>Chromebook</td>
-    <td>R34</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>No</td>
   </tr>
@@ -773,8 +698,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>BayTrail</td>
     <td>Chromebook</td>
-    <td>R34</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>No</td>
   </tr>
@@ -790,8 +713,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Haswell</td>
     <td>Chromebox</td>
-    <td>R34</td>
-    <td>R76</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -807,8 +728,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Haswell</td>
     <td>Chromebox</td>
-    <td>R36</td>
-    <td>R76</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -824,8 +743,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>BayTrail</td>
     <td>Chromebook</td>
-    <td>R34</td>
-    <td>R76</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -841,8 +758,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>BayTrail</td>
     <td>Chromebook</td>
-    <td>R34</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>No</td>
   </tr>
@@ -858,8 +773,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>BayTrail</td>
     <td>Chromebook</td>
-    <td>R34</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>No</td>
   </tr>
@@ -875,8 +788,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>BayTrail</td>
     <td>Chromebook</td>
-    <td>R36</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>No</td>
   </tr>
@@ -892,8 +803,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>Tegra K1 T124</td>
     <td>Chromebook</td>
-    <td>R35</td>
-    <td>R77</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -909,8 +818,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Haswell</td>
     <td>Chromebox</td>
-    <td>R36</td>
-    <td>R76</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -926,8 +833,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>BayTrail</td>
     <td>Chromebook</td>
-    <td>R36</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>No</td>
   </tr>
@@ -943,8 +848,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>Tegra K1 T124</td>
     <td>Chromebook</td>
-    <td>R36</td>
-    <td>R77</td>
     <td></td>
     <td>No</td>
   </tr>
@@ -960,8 +863,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Broadwell</td>
     <td>Chromebook</td>
-    <td>R40</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -977,8 +878,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>BayTrail</td>
     <td>Chromebook</td>
-    <td>R39</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>No</td>
   </tr>
@@ -994,8 +893,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Broadwell</td>
     <td>Chromebook</td>
-    <td>R39</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1011,8 +908,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>BayTrail</td>
     <td>Chromebook</td>
-    <td>R42</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>No</td>
   </tr>
@@ -1028,8 +923,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>RK3288</td>
     <td>Chromebook</td>
-    <td>R41</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1045,8 +938,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>RK3288</td>
     <td>Chromebook</td>
-    <td>R41</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1062,8 +953,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Broadwell</td>
     <td>Chromebook</td>
-    <td>R40</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1079,8 +968,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>RK3288</td>
     <td>Chromebook</td>
-    <td>R41</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1096,8 +983,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Broadwell</td>
     <td>Chromebox</td>
-    <td>R42</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1113,8 +998,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>RK3288</td>
     <td>Chromebook</td>
-    <td>R41</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1130,8 +1013,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Broadwell</td>
     <td>Chromebox</td>
-    <td>R42</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1147,8 +1028,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>RK3288</td>
     <td>Convertible</td>
-    <td>R42</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1164,8 +1043,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>Tegra K1 T124</td>
     <td>Chromebase</td>
-    <td>R40</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>No</td>
   </tr>
@@ -1181,8 +1058,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Broadwell</td>
     <td>Chromebox</td>
-    <td>R41</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1198,8 +1073,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Broadwell</td>
     <td>Chromebook</td>
-    <td>R43</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1215,8 +1088,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>BayTrail</td>
     <td>Chromebox</td>
-    <td>R43</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>No</td>
   </tr>
@@ -1232,8 +1103,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>BayTrail</td>
     <td>Chromebase</td>
-    <td>R43</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>No</td>
   </tr>
@@ -1249,8 +1118,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>BayTrail</td>
     <td>Chromebook</td>
-    <td>R44</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>No</td>
   </tr>
@@ -1266,8 +1133,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Broadwell</td>
     <td>Chromebook</td>
-    <td>R44</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1283,8 +1148,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>RK3288</td>
     <td>Chromebit</td>
-    <td>R45</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1300,8 +1163,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>BayTrail</td>
     <td>Chromebook</td>
-    <td>R45</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>No</td>
   </tr>
@@ -1317,8 +1178,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Braswell</td>
     <td>Chromebook</td>
-    <td>R44</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1334,8 +1193,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Braswell</td>
     <td>Chromebook</td>
-    <td>R46</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1351,8 +1208,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Braswell</td>
     <td>Chromebook</td>
-    <td>R48</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1368,8 +1223,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Braswell</td>
     <td>Chromebook</td>
-    <td>R48</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1385,8 +1238,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Braswell</td>
     <td>Chromebook</td>
-    <td>R49</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1402,8 +1253,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Broadwell</td>
     <td>Chromebase</td>
-    <td>R48</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1419,8 +1268,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Skylake</td>
     <td>Chromebook</td>
-    <td>R49</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1436,8 +1283,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Skylake</td>
     <td>Chromebook</td>
-    <td>R50</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1453,8 +1298,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Skylake</td>
     <td>Chromebook</td>
-    <td>R49</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1470,8 +1313,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Braswell</td>
     <td>Chromebook</td>
-    <td>R51</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1487,8 +1328,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Braswell</td>
     <td>Chromebook</td>
-    <td>R48</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1504,8 +1343,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Braswell</td>
     <td>Chromebook</td>
-    <td>R52</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1521,8 +1358,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Braswell</td>
     <td>Convertible</td>
-    <td>R50</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1538,8 +1373,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Braswell</td>
     <td>Chromebook</td>
-    <td>R51</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1555,8 +1388,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>aarch64</td>
     <td>MT8173</td>
     <td>Convertible</td>
-    <td>R52</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1572,8 +1403,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Skylake</td>
     <td>Convertible</td>
-    <td>R53</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1589,8 +1418,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Skylake</td>
     <td>Chromebook</td>
-    <td>R55</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1606,8 +1433,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Braswell</td>
     <td>Chromebook</td>
-    <td>R54</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1623,8 +1448,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>aarch64</td>
     <td>RK3399</td>
     <td>Convertible</td>
-    <td>R53</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1640,8 +1463,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>RK3288</td>
     <td>Chromebox</td>
-    <td>R54</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1657,8 +1478,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>RK3288</td>
     <td>Chromebase</td>
-    <td>R54</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1674,8 +1493,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>aarch64</td>
     <td>MT8173</td>
     <td>Convertible</td>
-    <td>R56</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1691,8 +1508,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>ApolloLake</td>
     <td>Chromebook</td>
-    <td>R56</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -1708,8 +1523,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>ApolloLake</td>
     <td>Convertible</td>
-    <td>R56</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -1725,8 +1538,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Skylake</td>
     <td>Convertible</td>
-    <td>R56</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1742,8 +1553,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>ApolloLake</td>
     <td>Chromebook</td>
-    <td>R53</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -1759,8 +1568,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>aarch64</td>
     <td>MT8173</td>
     <td>Chromebook</td>
-    <td>R56</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1776,8 +1583,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>aarch64</td>
     <td>RK3399</td>
     <td>Convertible</td>
-    <td>R58</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Hinge Port</td>
   </tr>
@@ -1793,8 +1598,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>ApolloLake</td>
     <td>Chromebook</td>
-    <td>R59</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -1810,8 +1613,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Kabylake-Y</td>
     <td>Convertible</td>
-    <td>R61</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td>Left Port</td>
     <td>Left Port</td>
   </tr>
@@ -1827,8 +1628,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>aarch64</td>
     <td>MT8173</td>
     <td>Chromebook</td>
-    <td>R56</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1844,8 +1643,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>ApolloLake</td>
     <td>Chromebook</td>
-    <td>R64</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -1861,8 +1658,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>aarch64</td>
     <td>MT8173</td>
     <td>Convertible</td>
-    <td>R64</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -1878,8 +1673,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>ApolloLake</td>
     <td>Convertible</td>
-    <td>R64</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -1895,8 +1688,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>ApolloLake</td>
     <td>Chromebook</td>
-    <td>R64</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -1912,8 +1703,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>ApolloLake</td>
     <td>Chromebook</td>
-    <td>R64</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -1929,8 +1718,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>ApolloLake</td>
     <td>Convertible</td>
-    <td>R64</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -1947,8 +1734,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Kabylake-U/R</td>
     <td>Chromebox</td>
     <td></td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
-    <td></td>
     <td>Yes</td>
   </tr>
   <tr>
@@ -1964,8 +1749,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Kabylake-U/R</td>
     <td>Chromebox</td>
     <td></td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
-    <td></td>
     <td>Yes</td>
   </tr>
   <tr>
@@ -1980,8 +1763,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Kabylake-Y</td>
     <td>Chromeblet</td>
-    <td></td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td>Left Port</td>
     <td>Yes</td>
   </tr>
@@ -1998,8 +1779,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Kabylake-U/R</td>
     <td>Chromebox</td>
     <td></td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
-    <td></td>
     <td>Yes</td>
   </tr>
   <tr>
@@ -2014,8 +1793,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Kabylake-U/R</td>
     <td>Chromebox</td>
-    <td>R67</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -2032,8 +1809,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Kabylake-U/R</td>
     <td>Chromebox</td>
     <td></td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
-    <td></td>
     <td>Yes</td>
   </tr>
   <tr>
@@ -2048,8 +1823,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Kabylake-Y</td>
     <td>Convertible</td>
-    <td>R67</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -2065,8 +1838,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>ApolloLake</td>
     <td>Chromebook</td>
-    <td>R67</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -2082,8 +1853,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>ApolloLake</td>
     <td>Chromebook</td>
-    <td>R67</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -2099,8 +1868,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>ApolloLake</td>
     <td>Convertible</td>
-    <td>R67</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -2116,8 +1883,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>ApolloLake</td>
     <td>Chromebook</td>
-    <td>R67</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -2133,8 +1898,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>ApolloLake</td>
     <td>Chromebook</td>
-    <td>R67</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>yes</td>
   </tr>
@@ -2150,8 +1913,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>aarch64</td>
     <td>MT8173</td>
     <td>Convertible</td>
-    <td>R67</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -2167,8 +1928,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>ApolloLake</td>
     <td>Chromebook</td>
-    <td>R68</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>yes</td>
   </tr>
@@ -2185,7 +1944,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>MT8173</td>
     <td>Chromebook</td>
     <td>M67</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -2201,8 +1959,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>ApolloLake</td>
     <td>Chromebook</td>
-    <td>R69</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>yes</td>
   </tr>
@@ -2218,8 +1974,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>ApolloLake</td>
     <td>Chromebook</td>
-    <td>R69</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -2235,8 +1989,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Kabylake-U/R</td>
     <td>Convertible</td>
-    <td>R69</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -2252,8 +2004,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Kabylake-U/R</td>
     <td>Chromebook</td>
-    <td>R69</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -2269,8 +2019,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Kabylake-U/R</td>
     <td>Convertible</td>
-    <td>R69</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -2286,8 +2034,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Kabylake-Y</td>
     <td>Convertible</td>
-    <td>R69</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>yes</td>
   </tr>
@@ -2303,8 +2049,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Kabylake-Y</td>
     <td>Chromeblet</td>
-    <td>R71</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td>Left Port</td>
     <td>Left Port</td>
   </tr>
@@ -2320,8 +2064,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Stoney Ridge</td>
     <td>Chromebook</td>
-    <td>R70</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Right Port</td>
   </tr>
@@ -2337,8 +2079,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Stoney Ridge</td>
     <td>Chromebook</td>
-    <td>R71</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Left Port</td>
   </tr>
@@ -2354,8 +2094,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>ApolloLake</td>
     <td>Chromebook</td>
-    <td>R71</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>yes</td>
   </tr>
@@ -2371,8 +2109,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>ApolloLake</td>
     <td>Chromebook</td>
-    <td>R71</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>yes</td>
   </tr>
@@ -2388,8 +2124,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Stoney Ridge</td>
     <td>Chromebook</td>
-    <td>R71</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Right Port</td>
   </tr>
@@ -2405,8 +2139,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>aarch64</td>
     <td>MT8173</td>
     <td>Chromebook</td>
-    <td>R72</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -2422,8 +2154,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>aarch64</td>
     <td>MT8173</td>
     <td>Chromebook</td>
-    <td>R72</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -2439,8 +2169,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Chromebook</td>
-    <td>R72</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -2456,8 +2184,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Chromebook</td>
-    <td>R72</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -2473,8 +2199,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Convertible</td>
-    <td>R72</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -2490,8 +2214,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Chromebook</td>
-    <td>R72</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -2507,8 +2229,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Convertible</td>
-    <td>R72</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -2524,8 +2244,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Convertible</td>
-    <td>R72</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>yes</td>
   </tr>
@@ -2541,8 +2259,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Stoney Ridge</td>
     <td>Chromebook</td>
-    <td>R71</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Left Port</td>
   </tr>
@@ -2558,8 +2274,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Chromebook</td>
-    <td>R72</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>yes</td>
   </tr>
@@ -2575,8 +2289,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Amberlake-Y</td>
     <td>Convertible</td>
-    <td>R72</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>yes</td>
   </tr>
@@ -2592,8 +2304,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Stoney Ridge</td>
     <td>Chromebook</td>
-    <td>R72</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Left Port</td>
   </tr>
@@ -2609,8 +2319,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Stoney Ridge</td>
     <td>Chromebook</td>
-    <td>R72</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Left Port</td>
   </tr>
@@ -2626,8 +2334,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>aarch64</td>
     <td>RK3399</td>
     <td>Chromeblet</td>
-    <td>R73</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -2643,8 +2349,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>aarch64</td>
     <td>RK3399</td>
     <td>Chromeblet</td>
-    <td>R72</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -2660,8 +2364,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Convertible</td>
-    <td>R73</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>yes</td>
   </tr>
@@ -2677,8 +2379,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Chromebook</td>
-    <td>R73</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>yes</td>
   </tr>
@@ -2694,8 +2394,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Chromebook</td>
-    <td>R73</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -2711,8 +2409,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Chromebook</td>
-    <td>R73</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -2728,8 +2424,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Convertible</td>
-    <td>R74</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>yes</td>
   </tr>
@@ -2745,8 +2439,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Chromebook</td>
-    <td>R74</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>yes</td>
   </tr>
@@ -2763,7 +2455,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Kabylake-U/R</td>
     <td>Convertible</td>
     <td>M75</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -2780,7 +2471,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Amberlake-Y</td>
     <td>Chromebook</td>
     <td>M75</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -2796,8 +2486,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Whiskey Lake</td>
     <td>Chromebook</td>
-    <td>R75</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>No</td>
   </tr>
@@ -2813,8 +2501,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Whiskey Lake</td>
     <td>Chromebook</td>
-    <td>R75</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>No</td>
   </tr>
@@ -2831,7 +2517,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Amberlake-Y</td>
     <td>Convertible</td>
     <td>M75</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -2847,8 +2532,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Convertible</td>
-    <td>R76</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -2864,8 +2547,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Chromebook</td>
-    <td>R76</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -2881,8 +2562,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Chromebook</td>
-    <td>R76</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -2898,8 +2577,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Chromebook</td>
-    <td>R76</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -2915,8 +2592,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Chromebook</td>
-    <td>R76</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>yes</td>
   </tr>
@@ -2933,7 +2608,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Gemini Lake</td>
     <td>Chromebook</td>
     <td>M75</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>yes</td>
   </tr>
@@ -2950,7 +2624,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Amberlake-Y</td>
     <td>Chromebook</td>
     <td>October 2019</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td>Yes</td>
     <td>Yes</td>
   </tr>
@@ -2967,7 +2640,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>MT8173</td>
     <td>Chromebook</td>
     <td>M78</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -2983,8 +2655,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Cometlake-U</td>
     <td>Convertible</td>
-    <td>M79</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3000,8 +2670,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>aarch64</td>
     <td>MT8183</td>
     <td>Chromeblet</td>
-    <td>R79</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3018,7 +2686,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Cometlake-U</td>
     <td>Convertible</td>
     <td>M79</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3035,7 +2702,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>MT8183</td>
     <td>Chromeblet</td>
     <td>M80</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3051,8 +2717,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Chromebook</td>
-    <td>R78</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -3068,8 +2732,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Chromebook</td>
-    <td>R78</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -3085,8 +2747,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Chromebook</td>
-    <td>R78</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -3102,8 +2762,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Stoney Ridge</td>
     <td>Convertible</td>
-    <td>R80</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -3119,8 +2777,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Chromebook</td>
-    <td>R79</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -3136,8 +2792,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Stoney Ridge</td>
     <td>Chromebook</td>
-    <td>R80</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -3153,8 +2807,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Chromebook</td>
-    <td>R80</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3171,7 +2823,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>MT8183</td>
     <td>Chromebook</td>
     <td>M81</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3187,8 +2838,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Chromebook</td>
-    <td>R80</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -3204,8 +2853,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Cometlake-U</td>
     <td>Chromebook</td>
-    <td>R83</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3222,7 +2869,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Picasso/Dali</td>
     <td>Convertible</td>
     <td>M86</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3238,8 +2884,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Cometlake-U</td>
     <td>Chromebox</td>
-    <td>R85</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3255,8 +2899,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Cometlake-U</td>
     <td>Chromebox</td>
-    <td>R85</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3272,8 +2914,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Cometlake-U</td>
     <td>Chromebox</td>
-    <td>R85</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3289,8 +2929,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Cometlake-U</td>
     <td>Chromebox</td>
-    <td>R85</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3307,7 +2945,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Picasso/Dali</td>
     <td>Chromebook</td>
     <td>M86</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3324,7 +2961,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Cezanne/Barcelo</td>
     <td>Chromebook</td>
     <td>M100</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3341,8 +2977,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Cometlake-U</td>
     <td>Convertible</td>
     <td></td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
-    <td></td>
     <td>Yes</td>
   </tr>
   <tr>
@@ -3357,8 +2991,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Picasso/Dali</td>
     <td>Convertible</td>
-    <td>R86</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3374,8 +3006,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>aarch64</td>
     <td>QC-7C</td>
     <td>Convertible</td>
-    <td>R87</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3391,8 +3021,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>aarch64</td>
     <td>MT8183</td>
     <td>Chromebook</td>
-    <td>R87</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3408,8 +3036,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>aarch64</td>
     <td>MT8183</td>
     <td>Convertible</td>
-    <td>R87</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3425,8 +3051,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Jasper Lake</td>
     <td>Chromebook</td>
-    <td>R87</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3442,8 +3066,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Jasper Lake</td>
     <td>Chromebook</td>
-    <td>R87</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3459,8 +3081,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Jasper Lake</td>
     <td>Chromebook</td>
-    <td>R88</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3476,8 +3096,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Pollock</td>
     <td>Chromebook</td>
-    <td>R88</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3493,8 +3111,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Picasso/Dali</td>
     <td>Chromebook</td>
-    <td>R88</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3510,8 +3126,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Jasper Lake</td>
     <td>Convertible</td>
-    <td>R90</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3527,8 +3141,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>TigerLake-UP3</td>
     <td>Chromebook</td>
-    <td>R91</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3544,8 +3156,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Tigerlake-U</td>
     <td>Convertible</td>
-    <td>R91</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td>Yes</td>
     <td>Yes</td>
   </tr>
@@ -3561,8 +3171,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>TigerLake-UP3</td>
     <td>Convertible</td>
-    <td>R89</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3578,8 +3186,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Jasper Lake</td>
     <td>Chromebook</td>
-    <td>R90</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3595,8 +3201,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>TigerLake-UP3</td>
     <td>Convertible</td>
-    <td>R89</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3612,8 +3216,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>TigerLake-UP3</td>
     <td>Chromebook</td>
-    <td>R90</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3629,8 +3231,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Jasper Lake</td>
     <td>Chromebook</td>
-    <td>R90</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3646,8 +3246,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>TigerLake-UP4</td>
     <td>Chromebook</td>
-    <td>R90</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3663,8 +3261,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>aarch64</td>
     <td>QC-7C</td>
     <td>Chromebook</td>
-    <td>R90</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3680,8 +3276,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Pollock</td>
     <td>Chromebook</td>
-    <td>R89</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3697,8 +3291,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>TigerLake-UP3</td>
     <td>Chromebook</td>
-    <td>R90</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3714,8 +3306,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Jasper Lake</td>
     <td>Chromebook</td>
-    <td>R90</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3731,8 +3321,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Jasper Lake</td>
     <td>Chromebook</td>
-    <td>R90</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3748,8 +3336,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Gemini Lake</td>
     <td>Chromebook</td>
-    <td>R91</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3766,7 +3352,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Gemini Lake</td>
     <td>Chromebook</td>
     <td>M75</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -3782,8 +3367,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Pollock</td>
     <td>Chromebook</td>
-    <td>R92</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3799,8 +3382,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Jasper Lake</td>
     <td>Chromebook</td>
-    <td>R91</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3816,8 +3397,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>aarch64</td>
     <td>QC-7C</td>
     <td>Chromeblet</td>
-    <td>R92</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3833,8 +3412,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Jasper Lake</td>
     <td>Chromebook</td>
-    <td>R92</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3850,8 +3427,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Jasper Lake</td>
     <td>Convertible</td>
-    <td>R92</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3868,7 +3443,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>MT8183</td>
     <td>Chromebook</td>
     <td>M93</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -3885,7 +3459,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>TigerLake-UP3</td>
     <td>Chromebook</td>
     <td>M93</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3902,7 +3475,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>MT8183</td>
     <td>Chromebook</td>
     <td>M96</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td></td>
   </tr>
@@ -3918,8 +3490,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>aarch64</td>
     <td>QC-7C</td>
     <td>Chromeblet</td>
-    <td>R97</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3935,8 +3505,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Jasper Lake</td>
     <td>Convertible</td>
-    <td>R97</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3953,7 +3521,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>Jasper Lake</td>
     <td>Clamshell</td>
     <td>M99</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3969,8 +3536,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Jasper Lake</td>
     <td>Convertible</td>
-    <td>R97</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -3986,8 +3551,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Jasper Lake</td>
     <td>Clamshell</td>
-    <td>R97</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -4003,8 +3566,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Jasper Lake</td>
     <td>Clamshell</td>
-    <td>R103</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -4020,8 +3581,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Jasper Lake</td>
     <td>Convertible</td>
-    <td>R103</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -4037,8 +3596,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Barcelo</td>
     <td>Convertible</td>
-    <td>R103</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -4054,8 +3611,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Alder Lake</td>
     <td>Clamshell</td>
-    <td>R104</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -4071,8 +3626,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>MT8195/MT8195T</td>
     <td>Convertible</td>
-    <td>R104</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -4088,8 +3641,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Alder Lake</td>
     <td>Clamshell</td>
-    <td>R105</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -4105,8 +3656,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Alder Lake</td>
     <td>Clamshell</td>
-    <td>R106</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -4122,8 +3671,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Alder Lake</td>
     <td>Chromebox</td>
-    <td>R106</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -4139,8 +3686,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>MT8186</td>
     <td>Clamshell</td>
-    <td>R108</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -4156,8 +3701,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>MT8186</td>
     <td>Convertible</td>
-    <td>R108</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -4173,8 +3716,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Alder Lake</td>
     <td>Clamshell</td>
-    <td>R108</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -4190,8 +3731,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>MT8186</td>
     <td>Convertible</td>
-    <td>R108</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -4207,8 +3746,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>MT8186</td>
     <td>Convertible</td>
-    <td>R109</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -4224,8 +3761,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>arm</td>
     <td>MT8186</td>
     <td>Clamshell</td>
-    <td>R109</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td></td>
     <td>Yes</td>
   </tr>
@@ -4241,8 +3776,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Alder Lake</td>
     <td>Clamshell/Convertible</td>
-    <td>R107</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td>Yes</td>
     <td>Yes</td>
   </tr>
@@ -4258,8 +3791,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>AlderLake-N</td>
     <td>Convertible</td>
-    <td>R110</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td>Yes</td>
     <td>Yes</td>
   </tr>
@@ -4275,8 +3806,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>AlderLake-N</td>
     <td>Convertible</td>
-    <td>R110</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td>Yes</td>
     <td>Yes</td>
   </tr>
@@ -4292,8 +3821,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>AlderLake-N</td>
     <td>Chromebook</td>
-    <td>R110</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td>Yes</td>
     <td>Yes</td>
   </tr>
@@ -4309,8 +3836,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>AlderLake-N</td>
     <td>Chromebook</td>
-    <td>R110</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td>Yes</td>
     <td>Yes</td>
   </tr>
@@ -4326,8 +3851,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Mendocino</td>
     <td>Convertible</td>
-    <td>R112</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td>Yes</td>
     <td>Yes</td>
   </tr>
@@ -4343,8 +3866,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Alderlake-U/P/Raptorlake-U/P</td>
     <td>Clamshell</td>
-    <td>R115</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td>Yes</td>
     <td>Yes</td>
   </tr>
@@ -4360,8 +3881,6 @@ These are your standard Chromebook/Chromebox/etc devices.
     <td>x86_64</td>
     <td>Alderlake-U/P</td>
     <td>Convertible</td>
-    <td>R115</td>
-    <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
     <td>Yes</td>
     <td>Yes</td>
   </tr>
