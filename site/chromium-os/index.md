@@ -1,13 +1,13 @@
 ---
 breadcrumbs: []
 page_name: chromium-os
-title: Chromium OS
+title: ChromiumOS
 ---
 
 <div class="two-column-container">
 <div class="column">
 
-Chromium OS is an open-source project that aims to build an operating system
+ChromiumOS is an open-source project that aims to build an operating system
 that provides a fast, simple, and more secure computing experience for people
 who spend most of their time on the web. Here you can review the project's
 [design docs](http://www.chromium.org/chromium-os/chromiumos-design-docs),
@@ -19,10 +19,9 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 
 *   [What is Google Chrome
             OS?](https://www.youtube.com/watch?v=LwVX42Amcak)
-*   [Chromium OS Security](http://www.youtube.com/watch?v=A9WVmNfgjtQ)
-*   [Chromium OS & Open
-            Source](http://www.youtube.com/watch?v=KA5RQv9mBoY)
-*   [Chromium OS Fast Boot](http://www.youtube.com/watch?v=mTFfl7AjNfI)
+*   [ChromiumOS Security](http://www.youtube.com/watch?v=A9WVmNfgjtQ)
+*   [ChromiumOS & Open Source](http://www.youtube.com/watch?v=KA5RQv9mBoY)
+*   [ChromiumOS Fast Boot](http://www.youtube.com/watch?v=mTFfl7AjNfI)
 
 ### For contributors
 
@@ -49,13 +48,13 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
             device](/chromium-os/android-apps)
 *   [Sideload Android apps on your
             Chromebook](/chromium-os/sideload-android-apps-on-chromebook)
-*   [Developing apps on your Chromium OS
+*   [Developing apps on your ChromiumOS
             device](/chromium-os/developing-apps-on-your-chromium-os-device)
-*   [Chromium OS Build](/chromium-os/build)
+*   [ChromiumOS Build](/chromium-os/build)
 
 ### For everyone
 
-*   [Chromium OS FAQ](/chromium-os/chromium-os-faq)
+*   [ChromiumOS FAQ](/chromium-os/chromium-os-faq)
 *   [Project contact
             details](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/contact.md)
             (groups/etc...)
@@ -70,9 +69,9 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 
 ### Source code
 
-*   First time? Use the [Chromium OS Quick Start
+*   First time? Use the [ChromiumOS Quick Start
             Guide](/chromium-os/quick-start-guide)
-*   Read the [Chromium OS Developer
+*   Read the [ChromiumOS Developer
             Guide](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_guide.md)
             to learn how to build the source
 *   [Overview](/chromium-os/developer-guide/directory-structure) of the
@@ -80,9 +79,9 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 *   [Browse](https://chromium.googlesource.com/) the source
 *   [Coding Style
             Guidelines](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/styleguide/)
-    *   [Chromium OS Python Style
+    *   [ChromiumOS Python Style
                 Guide](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/styleguide/python.md)
-    *   [Chromium OS Shell Style
+    *   [ChromiumOS Shell Style
                 Guide](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/styleguide/shell.md)
     *   For other languages, follow the [Google Style
                 Guide](https://github.com/google/styleguide/#google-style-guides)
@@ -91,7 +90,7 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 
 ### Developer docs
 
-*   [Chromium OS Developer
+*   [ChromiumOS Developer
             Guide](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_guide.md)
 *   [CrOS Developer Library](/chromium-os/developer-library)
 *   [High-Level Developer

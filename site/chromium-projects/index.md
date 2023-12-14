@@ -5,7 +5,7 @@ title: Home
 use_title_as_h1: false
 ---
 
-The Chromium projects include Chromium and Chromium OS, the open-source projects
+The Chromium projects include Chromium and ChromiumOS, the open-source projects
 behind the [Google Chrome](https://www.google.com/chrome) browser and Google
 Chrome OS, respectively. This site houses the documentation and code related to
 the Chromium projects and is intended for developers interested in learning
@@ -30,9 +30,9 @@ Looking for Google Chrome?
 </div>
 <div class="column">
 
-## [Chromium OS](/chromium-os)
+## [ChromiumOS](/chromium-os)
 
-Chromium OS is an open-source project that aims to provide a fast, simple, and
+ChromiumOS is an open-source project that aims to provide a fast, simple, and
 more secure computing experience for people who spend most of their time on the
 web. Learn more about the [project
 goals](https://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.html),
