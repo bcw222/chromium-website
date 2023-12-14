@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "835446eb_a3e60ab1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2023-12-14T21:21:14Z",
+      "side": 1,
+      "message": "i started down this path, but `git grep` returned too many hits i gave up :/\n\nwww.chromium.org \u0026 dev.chromium.org, http \u0026 https",
+      "revId": "556cf78865e8445745b87360d8119c77c655ee53",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
