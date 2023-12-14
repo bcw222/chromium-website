@@ -82,6 +82,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f4e3089_0f7cdc81",
+        "filename": "site/chromium-os/chromiumos-design-docs/timekeeping/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1132414
+      },
+      "writtenOn": "2023-12-14T20:29:15Z",
+      "side": 1,
+      "message": "ack, that\u0027s probably fine. (and it\u0027s pretty unlikely drivers/rtc/Kconfig disappears either)",
+      "parentUuid": "a6fb9a39_566d66ef",
+      "range": {
+        "startLine": 76,
+        "startChar": 31,
+        "endLine": 76,
+        "endChar": 109
+      },
+      "revId": "d825c9da384baf342720e287ab50440c7d66a731",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5a916e15_0be85946",
