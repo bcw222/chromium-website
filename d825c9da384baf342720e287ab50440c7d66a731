@@ -16,6 +16,115 @@
       "message": "lgtm, thanks!",
       "revId": "d825c9da384baf342720e287ab50440c7d66a731",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d2179da2_38d65d11",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1132414
+      },
+      "writtenOn": "2023-12-14T20:18:30Z",
+      "side": 1,
+      "message": "minor notes. thanks for doing this",
+      "revId": "d825c9da384baf342720e287ab50440c7d66a731",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3c5235aa_b9a58bc9",
+        "filename": "site/chromium-os/chromiumos-design-docs/timekeeping/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1132414
+      },
+      "writtenOn": "2023-12-14T20:18:30Z",
+      "side": 1,
+      "message": "this is not a very good URL. The top-level Kconfig file is pretty much devoid of content. I\u0027d probably rather have no URL than to use this one.\n\n(You could possibly link into drivers/rtc/Kconfig, but then it\u0027s still tough to have a meaningful pointer, as the exact line number likely changes occasionally.)",
+      "range": {
+        "startLine": 76,
+        "startChar": 31,
+        "endLine": 76,
+        "endChar": 109
+      },
+      "revId": "d825c9da384baf342720e287ab50440c7d66a731",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5a916e15_0be85946",
+        "filename": "site/chromium-os/chromiumos-design-docs/timekeeping/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 1132414
+      },
+      "writtenOn": "2023-12-14T20:18:30Z",
+      "side": 1,
+      "message": "would the term here be \"ChromeOS\"? I\u0027m not sure if we have a \"Flex\" branding in the \"Chromium\" naming scheme.",
+      "range": {
+        "startLine": 205,
+        "startChar": 43,
+        "endLine": 205,
+        "endChar": 47
+      },
+      "revId": "d825c9da384baf342720e287ab50440c7d66a731",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf053a7d_63e0d080",
+        "filename": "site/chromium-os/chromiumos-design-docs/timekeeping/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 423,
+      "author": {
+        "id": 1132414
+      },
+      "writtenOn": "2023-12-14T20:18:30Z",
+      "side": 1,
+      "message": "nit: maybe expand the acronym?",
+      "range": {
+        "startLine": 423,
+        "startChar": 63,
+        "endLine": 423,
+        "endChar": 66
+      },
+      "revId": "d825c9da384baf342720e287ab50440c7d66a731",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c0462c6d_c5ae68b1",
+        "filename": "site/chromium-os/chromiumos-design-docs/timekeeping/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 509,
+      "author": {
+        "id": 1132414
+      },
+      "writtenOn": "2023-12-14T20:18:30Z",
+      "side": 1,
+      "message": "drop? that way, a local viewer of a dev copy will still link to the dev instance and not the live site",
+      "range": {
+        "startLine": 509,
+        "startChar": 14,
+        "endLine": 509,
+        "endChar": 39
+      },
+      "revId": "d825c9da384baf342720e287ab50440c7d66a731",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
