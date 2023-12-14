@@ -10,7 +10,7 @@ title: ChromiumOS
 ChromiumOS is an open-source project that aims to build an operating system
 that provides a fast, simple, and more secure computing experience for people
 who spend most of their time on the web. Here you can review the project's
-[design docs](http://www.chromium.org/chromium-os/chromiumos-design-docs),
+[design docs](/chromium-os/chromiumos-design-docs),
 obtain the source code, and contribute. To learn more about the project goals,
 read the [announcement blog
 post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.html).
@@ -30,8 +30,7 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
             Devices](/chromium-os/developer-information-for-chrome-os-devices)
 *   [Process for Getting
             Involved/Contributing](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/contributing.md)
-*   [Tree
-            sheriffs](http://www.chromium.org/developers/tree-sheriffs/sheriff-details-chromium-os)
+*   [Tree sheriffs](/developers/tree-sheriffs/sheriff-details-chromium-os)
 *   [Useful developer related Chrome
             extensions](/developers/useful-extensions)
 *   [2014 ChromeOS Firmware Summit](/chromium-os/2014-firmware-summit)
@@ -106,8 +105,7 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
             Troubleshooting](/chromium-os/how-tos-and-troubleshooting)
 *   [Poking around Your ChromeOS
             Device](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_mode.md)
-*   [Design
-            docs](http://www.chromium.org/chromium-os/chromiumos-design-docs)
+*   [Design docs](/chromium-os/chromiumos-design-docs)
 
 ### Hardware Reference docs and schematics
 

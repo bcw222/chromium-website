@@ -90,7 +90,7 @@ design docs in the coming months.**
             Overview](/chromium-os/chromiumos-design-docs/chrome-os-battery-life-overview)
 *   [Performance
             Overview](/chromium-os/chromiumos-design-docs/chrome-os-performance-overview)
-*   [Printing](http://www.chromium.org/chromium-os/chromiumos-design-docs/chromium-os-printing-design)
+*   [Printing](/chromium-os/chromiumos-design-docs/chromium-os-printing-design)
 *   [Text Input](/chromium-os/chromiumos-design-docs/text-input)
 *   [Timekeeping](/chromium-os/chromiumos-design-docs/timekeeping)
 *   [User Accounts and
