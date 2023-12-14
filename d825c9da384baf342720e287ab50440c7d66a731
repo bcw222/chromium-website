@@ -58,6 +58,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6fb9a39_566d66ef",
+        "filename": "site/chromium-os/chromiumos-design-docs/timekeeping/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2023-12-14T20:27:09Z",
+      "side": 1,
+      "message": "i meant to use drivers/rtc/ here\n\ni grok the line number slew which is why i didn\u0027t bother.  i figured the fact we highlighted a specific term, people should be able to find it quickly.  that and the term in question tends to be near the top of the file.",
+      "parentUuid": "3c5235aa_b9a58bc9",
+      "range": {
+        "startLine": 76,
+        "startChar": 31,
+        "endLine": 76,
+        "endChar": 109
+      },
+      "revId": "d825c9da384baf342720e287ab50440c7d66a731",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5a916e15_0be85946",
@@ -71,6 +95,30 @@
       "writtenOn": "2023-12-14T20:18:30Z",
       "side": 1,
       "message": "would the term here be \"ChromeOS\"? I\u0027m not sure if we have a \"Flex\" branding in the \"Chromium\" naming scheme.",
+      "range": {
+        "startLine": 205,
+        "startChar": 43,
+        "endLine": 205,
+        "endChar": 47
+      },
+      "revId": "d825c9da384baf342720e287ab50440c7d66a731",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1dd1abc9_00fdec89",
+        "filename": "site/chromium-os/chromiumos-design-docs/timekeeping/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2023-12-14T20:27:09Z",
+      "side": 1,
+      "message": "you\u0027re correct wrt branding and today\u0027s climate.  i think they\u0027re slowly moving things open source, but i don\u0027t think we\u0027ll ever have an official ChromiumOS Flex.",
+      "parentUuid": "5a916e15_0be85946",
       "range": {
         "startLine": 205,
         "startChar": 43,
@@ -104,6 +152,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0905250b_85e0df55",
+        "filename": "site/chromium-os/chromiumos-design-docs/timekeeping/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 423,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2023-12-14T20:27:09Z",
+      "side": 1,
+      "message": "changed to \"currently\" to avoid",
+      "parentUuid": "cf053a7d_63e0d080",
+      "range": {
+        "startLine": 423,
+        "startChar": 63,
+        "endLine": 423,
+        "endChar": 66
+      },
+      "revId": "d825c9da384baf342720e287ab50440c7d66a731",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c0462c6d_c5ae68b1",
@@ -117,6 +189,30 @@
       "writtenOn": "2023-12-14T20:18:30Z",
       "side": 1,
       "message": "drop? that way, a local viewer of a dev copy will still link to the dev instance and not the live site",
+      "range": {
+        "startLine": 509,
+        "startChar": 14,
+        "endLine": 509,
+        "endChar": 39
+      },
+      "revId": "d825c9da384baf342720e287ab50440c7d66a731",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d0c3416_ce1becac",
+        "filename": "site/chromium-os/chromiumos-design-docs/timekeeping/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 509,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2023-12-14T20:27:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c0462c6d_c5ae68b1",
       "range": {
         "startLine": 509,
         "startChar": 14,
