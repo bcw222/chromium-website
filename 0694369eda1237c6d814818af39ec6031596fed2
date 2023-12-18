@@ -16,6 +16,24 @@
       "message": "the table is quite wide which is why we try to be brief in the columns to avoid excessive wide \u0026 wrapping.  this seems to lead to a lot of wrapping as a result.",
       "revId": "0694369eda1237c6d814818af39ec6031596fed2",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f5fadbb1_77cb2ee9",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1000868
+      },
+      "writtenOn": "2023-12-18T18:09:17Z",
+      "side": 1,
+      "message": "It does for some, though not terribly so, there are a lot of model names that cause a three line wrap for me anyway.\n\nMaybe we can take a step further here and just remove the column (and a few others)? One of the goals here is to automate this table, and we have been adding to https://chromiumdash.appspot.com/serving-builds?deviceCategory\u003dChromeOS to that end, the auto updates until date is already there along with the kernel and arch, which are based on infra config data and not hand curated in HTML. \n\nOr we could shorten this to something like \u0027AU Until\u0027...",
+      "parentUuid": "a586168f_4c206555",
+      "revId": "0694369eda1237c6d814818af39ec6031596fed2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
