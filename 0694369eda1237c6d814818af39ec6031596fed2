@@ -34,6 +34,24 @@
       "parentUuid": "a586168f_4c206555",
       "revId": "0694369eda1237c6d814818af39ec6031596fed2",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "58a54877_9c796456",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2023-12-18T19:14:01Z",
+      "side": 1,
+      "message": "i like the entry in this table because coordinating device names with official model names is a huge pita, especially when device makers do their damnedest to obfuscate by tweaking the product names in the most minor way possible.\n\nalternatively, would be really nice if the public docs included codenames.  but that\u0027s prob asking too much.\nhttps://support.google.com/chrome/a/answer/6220366\n\nthe other problem is that these official sites often delete \"obsolete\" information.  the Google help hasn\u0027t yet, but it\u0027s not something i like depending on as experience suggests it\u0027s a \"when\", not \"if\".  the dash site already does this afaict -- there\u0027s nothing in there about cr-48 (mario).",
+      "parentUuid": "f5fadbb1_77cb2ee9",
+      "revId": "0694369eda1237c6d814818af39ec6031596fed2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
