@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a586168f_4c206555",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2023-12-18T17:48:02Z",
+      "side": 1,
+      "message": "the table is quite wide which is why we try to be brief in the columns to avoid excessive wide \u0026 wrapping.  this seems to lead to a lot of wrapping as a result.",
+      "revId": "0694369eda1237c6d814818af39ec6031596fed2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
