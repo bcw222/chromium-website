@@ -115,6 +115,13 @@ Wifi](https://store.google.com/us/product/nest_wifi).
 
 These are your standard Chromebook/Chromebox/etc devices.
 
+If you cannot find the device you are looking for, please try the
+[serving builds page](https://chromiumdash.appspot.com/serving-builds?deviceCategory=ChromeOS).
+The 'View by Brand Name' option on this page shows much of the same
+information in this table.
+
+Note: this table may be deprecated for the serving builds page in the future.
+
 <table>
   <tr>
     <th>Release</th>
