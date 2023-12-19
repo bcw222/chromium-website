@@ -309,6 +309,8 @@ the next client restart.
 *   Implement the actual data type logic. This will mostly be an implementation
     of the [`ModelTypeSyncBridge`][Bridge] interface.
 *   Write some `sync_integration_tests` (see next section).
+*   Finally: While rolling out your new data type, keep the Sync team in the
+    loop! E.g. CC your assigned champion on all Finch CLs.
 
 [protocol]: https://cs.chromium.org/chromium/src/components/sync/protocol/
 [ModelType]: https://cs.chromium.org/chromium/src/components/sync/base/model_type.h
