@@ -52,6 +52,24 @@
       "parentUuid": "f5fadbb1_77cb2ee9",
       "revId": "0694369eda1237c6d814818af39ec6031596fed2",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "646fa37c_fd06f369",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1000868
+      },
+      "writtenOn": "2023-12-20T18:20:11Z",
+      "side": 1,
+      "message": "For the help center article I suspect we don\u0027t want the codenames in there to minimize confusion for end users, for pages targeting more advanced users/developers/admins the codenames are not a problem or secret, we do publish them publicly on the serving builds page in association with the marketing names. \n\nMario is actually in there, but it is somewhat obscured, you need to select both \u0027automatic update ineligible\u0027 and the \u0027show experimental\u0027 checkbox. Why mario is considered experimental I am not entirely sure, I guess it was never \u0027sold\u0027 in a normal sense, but regardless the data is in there. I would like to think we can keep that database intact.\n\nI squeezed these down with just AU to make the columns better for now.",
+      "parentUuid": "58a54877_9c796456",
+      "revId": "0694369eda1237c6d814818af39ec6031596fed2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
