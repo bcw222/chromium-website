@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c25f96a_f0e5b30f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2023-12-21T20:30:00Z",
+      "side": 1,
+      "message": "LGTM. There\u0027s some disagreement on the value of requesting positions from other vendors and TAG still, but that\u0027s compatible with the current state of this document.",
+      "revId": "39e08e6b54677a9f8042982f7df5b7cb4e0ed815",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
