@@ -88,6 +88,24 @@
       "parentUuid": "646fa37c_fd06f369",
       "revId": "0694369eda1237c6d814818af39ec6031596fed2",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b40f3c6d_a9d74d63",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1000868
+      },
+      "writtenOn": "2023-12-28T19:36:36Z",
+      "side": 1,
+      "message": "Ok,this now removes the AUE and the launch milestone, and directs folks to the other page. I think we can remove other columns as well, like the kernel version which is updated automatically in the database based on build content, but we can do that later, for now I want to get the change removing the dates in.",
+      "parentUuid": "6b11e4ef_78a70cfd",
+      "revId": "0694369eda1237c6d814818af39ec6031596fed2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
