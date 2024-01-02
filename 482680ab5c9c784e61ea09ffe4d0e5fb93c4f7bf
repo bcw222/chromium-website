@@ -16,6 +16,24 @@
       "message": "i don\u0027t know that this line adds any value when we have no idea whether it\u0027s going to happen",
       "revId": "482680ab5c9c784e61ea09ffe4d0e5fb93c4f7bf",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3af0399f_982f4966",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 1000868
+      },
+      "writtenOn": "2024-01-02T21:38:42Z",
+      "side": 1,
+      "message": "It is a bit of an internal note, dropped it.",
+      "parentUuid": "9c36a746_f907a598",
+      "revId": "482680ab5c9c784e61ea09ffe4d0e5fb93c4f7bf",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
