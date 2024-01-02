@@ -87,6 +87,24 @@
       "parentUuid": "0dd77e83_3683be07",
       "revId": "8865f5495f6f75aed0b672e0dee374dc95e9161b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "27756fd5_365e0789",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/modemmanager/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-01-02T18:50:59Z",
+      "side": 1,
+      "message": "looks like our manifest is using \"main\" now",
+      "parentUuid": "5a0925f4_4f8e772e",
+      "revId": "8865f5495f6f75aed0b672e0dee374dc95e9161b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
