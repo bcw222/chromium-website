@@ -69,6 +69,24 @@
       "parentUuid": "0dd77e83_3683be07",
       "revId": "8865f5495f6f75aed0b672e0dee374dc95e9161b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5a0925f4_4f8e772e",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/modemmanager/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2024-01-02T18:39:40Z",
+      "side": 1,
+      "message": "The git repo in mention (https://chromium.googlesource.com/chromiumos/third_party/modemmanager-next.git) does use main instead of master now, so I think this edit is correct.",
+      "parentUuid": "0dd77e83_3683be07",
+      "revId": "8865f5495f6f75aed0b672e0dee374dc95e9161b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
