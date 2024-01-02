@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ec02479_3b9b5bc7",
+        "filename": "site/chromium-os/developer-library/guides/testing/igt/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1531147
+      },
+      "writtenOn": "2024-01-02T18:39:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6676a673_cddf6ed7",
+      "revId": "8865f5495f6f75aed0b672e0dee374dc95e9161b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0dd77e83_3683be07",
@@ -31,6 +49,24 @@
       "writtenOn": "2024-01-02T18:32:20Z",
       "side": 1,
       "message": "i don\u0027t think you can just blindly change this file",
+      "revId": "8865f5495f6f75aed0b672e0dee374dc95e9161b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "74f48094_e9bae3fe",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/modemmanager/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1531147
+      },
+      "writtenOn": "2024-01-02T18:39:06Z",
+      "side": 1,
+      "message": "Good catch!\n\nI did make a mistake in that there are still references to chromiumos/master but i think this is the right change.  The chromium repo is on main now: https://chromium.googlesource.com/chromiumos/third_party/modemmanager-next.git",
+      "parentUuid": "0dd77e83_3683be07",
       "revId": "8865f5495f6f75aed0b672e0dee374dc95e9161b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
