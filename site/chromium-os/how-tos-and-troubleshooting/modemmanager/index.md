@@ -55,4 +55,4 @@ Push to the chromiumos repo (upstream branch and master)
 
 $ git push chromiumos origin/master:refs/heads/upstream
 
-$ git push chromiumos merge-${DATE}:refs/heads/master
+$ git push chromiumos merge-${DATE}:refs/heads/main
