@@ -16,6 +16,24 @@
       "message": "should delete this step.  our gob config automirrors the upstream branch (whatever it is) to \"upstream\".\n\nand update the sentence above.",
       "revId": "35728432e941f20e6eede3947f3003eff69e36c1",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c899f6f8_a2389ca8",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/modemmanager/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1531147
+      },
+      "writtenOn": "2024-01-02T18:53:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c1d12774_000dff2f",
+      "revId": "35728432e941f20e6eede3947f3003eff69e36c1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
