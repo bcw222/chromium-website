@@ -106,6 +106,24 @@
       "parentUuid": "6b11e4ef_78a70cfd",
       "revId": "0694369eda1237c6d814818af39ec6031596fed2",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1b9cfc8e_afdcf782",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-01-03T06:38:18Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "b40f3c6d_a9d74d63",
+      "revId": "0694369eda1237c6d814818af39ec6031596fed2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
