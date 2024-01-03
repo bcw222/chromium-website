@@ -206,6 +206,10 @@ solutions = [
 ],
 ```
 
+> **Chrome Branding and Experimental Flags**: Without Chrome branding,
+> experimental field trial testing flags are enabled by default. You may also disable
+> experimental flags by building with `disable_fieldtrial_testing_config=true`.
+
 ### You can also set the following GN argument to disable PGO if needed:
 
 ```
