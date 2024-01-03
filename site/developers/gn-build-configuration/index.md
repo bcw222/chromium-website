@@ -163,7 +163,7 @@ Possible values for the `target_cpu`:
             "`x86`", "`mipsel`", or "`mips64el`" but the GN builds for these aren't
             regularly tested.
 
-### Goma
+### Goma (Deprecated Use [ReClient](https://chromium.googlesource.com/chromium/src/+/main/docs/linux/build_instructions.md#use-reclient))
 
 Googlers can use this for distributed builds. `goma_dir` is only required if you
 use the Goma tools not in the depot_tools.
