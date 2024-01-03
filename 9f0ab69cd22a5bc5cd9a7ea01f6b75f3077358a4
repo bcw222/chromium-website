@@ -70,6 +70,30 @@
       },
       "revId": "9f0ab69cd22a5bc5cd9a7ea01f6b75f3077358a4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f925cfbf_3f4c4f16",
+        "filename": "site/developers/gn-build-configuration/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2024-01-03T23:36:40Z",
+      "side": 1,
+      "message": "I think it\u0027s okay to just describe the default behavior more crisply: In unbranded builds, `testing/variations/fieldtrial_testing_config.json` is used for default field trial settings. You could link to that file (which is imo very unlikely to ever move) or not at your option. I wouldn\u0027t link to the code.",
+      "parentUuid": "20f5e50c_b24d5600",
+      "range": {
+        "startLine": 210,
+        "startChar": 2,
+        "endLine": 210,
+        "endChar": 40
+      },
+      "revId": "9f0ab69cd22a5bc5cd9a7ea01f6b75f3077358a4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
