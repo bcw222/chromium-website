@@ -22,6 +22,30 @@
       },
       "revId": "9f0ab69cd22a5bc5cd9a7ea01f6b75f3077358a4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "66b0613c_059006de",
+        "filename": "site/developers/gn-build-configuration/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 1305461
+      },
+      "writtenOn": "2024-01-03T19:19:49Z",
+      "side": 1,
+      "message": "All those specified in fieldtrial_testing_config.json, though I agree these docs could be more clear.",
+      "parentUuid": "98d027dd_174064c1",
+      "range": {
+        "startLine": 210,
+        "startChar": 2,
+        "endLine": 210,
+        "endChar": 40
+      },
+      "revId": "9f0ab69cd22a5bc5cd9a7ea01f6b75f3077358a4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
