@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "83805f04_6b612078",
+        "filename": "site/developers/gn-build-configuration/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 166,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2024-01-03T19:15:56Z",
+      "side": 1,
+      "message": "why not delete the goma section altogether?",
+      "range": {
+        "startLine": 166,
+        "startChar": 0,
+        "endLine": 166,
+        "endChar": 137
+      },
+      "revId": "72ef72bc65fb2eef3e966d809a87fb26539fbd19",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
