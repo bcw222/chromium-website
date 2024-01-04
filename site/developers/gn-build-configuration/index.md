@@ -163,16 +163,6 @@ Possible values for the `target_cpu`:
             "`x86`", "`mipsel`", or "`mips64el`" but the GN builds for these aren't
             regularly tested.
 
-### Goma
-
-Googlers can use this for distributed builds. `goma_dir` is only required if you
-use the Goma tools not in the depot_tools.
-
-```
-use_goma = true
-goma_dir = "/home/me/somewhere/goma" # Optional
-```
-
 ### Official Chrome build
 
 This build requires that you are a Googler with src-internal checked out.
