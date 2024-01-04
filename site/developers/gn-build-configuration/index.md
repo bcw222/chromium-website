@@ -196,6 +196,11 @@ solutions = [
 ],
 ```
 
+> **Chrome Branding and Experimental Flags**: In unbranded builds,
+> [testing/variations/fieldtrial_testing_config.json](https://source.chromium.org/chromium/chromium/src/+/main:testing/variations/fieldtrial_testing_config.json)
+> is used for default field trial settings. You may also disable field trial
+> experimental flags by building with `disable_fieldtrial_testing_config=true`.
+
 ### You can also set the following GN argument to disable PGO if needed:
 
 ```
