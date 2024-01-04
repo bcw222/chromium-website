@@ -94,6 +94,30 @@
       },
       "revId": "9f0ab69cd22a5bc5cd9a7ea01f6b75f3077358a4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f18183ef_550f4746",
+        "filename": "site/developers/gn-build-configuration/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 1425418
+      },
+      "writtenOn": "2024-01-04T20:23:26Z",
+      "side": 1,
+      "message": "Ack, thanks!",
+      "parentUuid": "f925cfbf_3f4c4f16",
+      "range": {
+        "startLine": 210,
+        "startChar": 2,
+        "endLine": 210,
+        "endChar": 40
+      },
+      "revId": "9f0ab69cd22a5bc5cd9a7ea01f6b75f3077358a4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
