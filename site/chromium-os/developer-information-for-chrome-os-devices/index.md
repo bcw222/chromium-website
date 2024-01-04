@@ -3444,6 +3444,21 @@ such as the auto update until date, first release, and more.
     <td>Yes</td>
   </tr>
   <tr>
+    <td>2021-11-30</td>
+    <td>FCCL</td>
+    <td><a href="https://fmv.fccl.fujitsu.com/shop/pc/note/chromebook">FMV Chromebook WM1/F3</a></td>
+    <td>Chronicleer</td>
+    <td>volteer</td>
+    <td>volteer</td>
+    <td>x86_64</td>
+    <td>5.4</td>
+    <td>x86_64</td>
+    <td>TigerLake-UP3</td>
+    <td>Clamshell</td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
+  <tr>
     <td>2021-12-31</td>
     <td>Acer</td>
     <td><a href="https://www.acer.com/ac/en/US/content/series/acerchromebook311">Acer Chromebook Spin 311</a></td>
