@@ -16,6 +16,23 @@
       "message": "Sorry Elly, I\u0027m still learning the git cl workflow as I\u0027m used to the repo tool instead.",
       "revId": "cb4e22c3d97ed146ec173458d88792b9d97e90a1",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f687b8f_46c0df5b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2024-01-04T22:40:03Z",
+      "side": 1,
+      "message": "lgtm!",
+      "revId": "cb4e22c3d97ed146ec173458d88792b9d97e90a1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
