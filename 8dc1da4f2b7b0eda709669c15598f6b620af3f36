@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "70fd04a8_c24a83ea",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1118331
+      },
+      "writtenOn": "2024-01-05T15:22:00Z",
+      "side": 1,
+      "message": "Hi Dirk and Varun,\n\nPTAL at this small update.\n\nThanks,\nMartin",
+      "revId": "8dc1da4f2b7b0eda709669c15598f6b620af3f36",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
