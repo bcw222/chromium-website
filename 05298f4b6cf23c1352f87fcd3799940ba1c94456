@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "62a8b381_fc0d1f2a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1552347
+      },
+      "writtenOn": "2024-01-08T16:36:09Z",
+      "side": 1,
+      "message": "Please review this CL that updates the Chrome Root Program Policy to Version 1.5. These updates were added based on the LGTM’d copy [1]. A track changes copy [2] of Version 1.4 compared to Version 1.5 was used to make the updates. The updates were reviewed with the chromium-website-try-builder [3] against the track changes copy and all of the hyperlinks were clicked and reviewed. \n\nReferences:\n[1] https://docs.google.com/document/d/185zzy-R-qkpucQeRkcDRu0SysKT3pFQQlqV3lLvAlZE/edit?usp\u003dsharing\u0026resourcekey\u003d0-b8Ac127iX7ErE54B6lHvUQ\n[2] https://docs.google.com/document/d/1soL-ZFOp8LeUwvQjKlacf2GWuvjYJ1A7/edit?usp\u003dsharing\u0026ouid\u003d115629474129262244619\u0026rtpof\u003dtrue\u0026sd\u003dtrue\n[3] https://chromium-website--cl5000525-ps10-vlun6zfd.web.app/Home/chromium-security/root-ca-policy/",
+      "revId": "05298f4b6cf23c1352f87fcd3799940ba1c94456",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
