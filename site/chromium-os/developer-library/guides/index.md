@@ -114,7 +114,7 @@ title: Guides
 
 ## Third Party
 
-* [Working with Coreboot upstream and Chromium](/chromium-os/developer-library/guides/third-party/coreboot-upstream)
+* [coreboot](/chromium-os/developer-library/guides/third-party/coreboot)
 
 ## TypeScript
 
