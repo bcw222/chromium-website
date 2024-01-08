@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4dc9d2ef_a9575f50",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1118331
+      },
+      "writtenOn": "2024-01-08T17:32:51Z",
+      "side": 1,
+      "message": "Hi Dirk and Florian!\n\nCan you PTAL?\n\nThanks,\nMartin",
+      "revId": "2785e308e31db48e6438be7478eb992f28eb5936",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
