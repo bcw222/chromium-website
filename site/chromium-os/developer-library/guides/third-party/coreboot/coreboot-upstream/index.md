@@ -3,32 +3,31 @@ breadcrumbs:
 - - /chromium-os/developer-library/guides
   - Chromium OS > Developer Library > Guides
 page_name: coreboot-upstream
-title: Working with Coreboot upstream and Chromium
+title: Working with coreboot upstream and Chromium
 ---
 
 [TOC]
 
 ## Introduction
 
-ChromeOS uses and actively contributes to [coreboot.org]. Development happens
-in the chromiumos copy of the coreboot repo, and the resulting patch must be
-pushed to upstream coreboot. While this can be done in one local git checkout,
-many developers find it easier to use two coreboot git checkouts:
+coreboot development happens in the chromiumos copy of the coreboot repo, and
+the resulting patch must be pushed to upstream coreboot. While this can be
+done in one local git checkout, many developers find it easier to use two
+coreboot git checkouts:
 
 1. regular chromiumos checkout
 2. coreboot.org checkout
 
 This document describes how to set up a second coreboot.org upstream checkout
 and how to synchronize patches between the two checkouts.
-
-## Setting up a second coreboot checkout
+## Working with coreboot and Chromium
 
 The most familiar local coreboot checkout is the one from chromiumos. It lives
 under `src/third_party/coreboot` in the chromiumos workspace. If you followed
 the [ChromeOS Developer guide], it lives at the full path of
-`~/chromiumos/src/third_party/coreboot`. The following steps will add an
-additional coreboot.org upstream checkout at a secondary location on your
-machine: `~/devel/coreboot`.
+`~/chromiumos/src/third_party/coreboot`.
+
+## Creating an upstream coreboot checkout
 
 1. Create an account on [review.coreboot.org][Gerrit account page]. Sign in with
 Google and fill in a username in the settings.
@@ -45,7 +44,7 @@ Google and fill in a username in the settings.
        Port 29418
        User <username you configured on Gerrit>
    ```
-1. Check out upstream Coreboot from coreboot.org:
+1. Check out upstream coreboot from coreboot.org:
 
    ```bash
    $ mkdir -p ~/devel
@@ -56,9 +55,62 @@ Google and fill in a username in the settings.
    Now the local checkout is tracking `origin/main` on the local `main`
    branch.
 
-1. Assuming there is a chromiumos coreboot checkout at
-   `~/chromiumos/src/third_party/coreboot`, you can link the two repositories
-   using git remotes that are local to the system.
+### Building coreboot in an upstream checkout
+1. Navigate to the top level directory of the upstream checkout
+   ```bash
+   $ cd ~/devel/coreboot
+   ```
+1. Run the abuild command for the desired board
+(util/abuild/abuild -x -t {VENDOR}_{BOARD} --clean)
+   ```bash
+   $ util/abuild/abuild -x -t GOOGLE_SKYRIM --clean
+   ```
+   1. Omit `--clean` to preserve build artifacts/logs
+   1. Output can be found at ~/devel/coreboot/coreboot-builds/{VENDOR}_{BOARD}
+## Working with coreboot in tree
+```bash
+$ cd ~/trunk/src/third_party/coreboot/
+$ git remote add origin https://review.coreboot.org/coreboot.git
+$ git remote update
+$ git checkout origin/main
+```
+
+### Building coreboot in tree
+1. Setup the build system for the board you want to use:
+   ```bash
+   $ ./setup_board --board=$board
+   ```
+
+1. Tell the build system to use the most recent coreboot tree:
+   ```bash
+   $ cros_workon-$board start coreboot coreboot-utils libpayload
+   ```
+
+1. Build the firmware:
+   ```bash
+   $ emerge-$board coreboot coreboot-utils libpayload chromeos-bootimage
+   ```
+   1. Prepend `FEATURES="keepwork"` to the emerge command to preserve build
+   artifacts
+   1. Output can be found at /build/{BOARD}/firmware/
+   1. Output images have the format image-{BOARD}.bin.  Images are:
+      1. image-{BOARD}.bin - Normal bootable image
+      1. image-{BOARD}.serial.bin - Normal bootable image with serial console
+      1. image-{BOARD}.net.bin - Debug build. Only applicable on Intel platforms
+
+
+## Working with a second coreboot checkout
+### Setting up a second coreboot checkout
+The following steps will add an additional coreboot.org upstream checkout at a
+secondary location on your machine: `~/devel/coreboot`.
+
+1. Assuming:
+   1. there is a chromiumos coreboot checkout at
+   `~/chromiumos/src/third_party/coreboot`
+   1. there is a coreboot upstream checkout at
+   `~/devel/coreboot`
+   you can link the two repositories using git remotes that are local to the
+   system.
 
    ```bash
    $ cd ~/devel/coreboot
@@ -74,12 +126,12 @@ Google and fill in a username in the settings.
    the basis for cherry-picking patches back and forth or rebasing commits from
    one repository to the other.
 
-## Developing with two coreboot checkouts
+### Developing with two coreboot checkouts
 
 Developers should initially work in the chromiumos tree since ChromeOS can
 build images to test by flashing and booting on a machine.  When a commit is
 ready in the chromiumos tree, it's time to push to review.coreboot.org.  Suppose
-that the developer committed changes in the chromiumos Coreboot repository after
+that the developer committed changes in the chromiumos coreboot repository after
 running `repo start feature1`. A fetch will bring these changes into
 `~/devel/coreboot` in the `cros-coreboot/feature1` branch:
 
@@ -105,6 +157,7 @@ $ git cherry-pick cros-coreboot/feature1
 $ git cherry-pick cros-coreboot/feature1~N..cros-coreboot/feature1
 ```
 
+## Developing with coreboot
 The commit message should follow the [ChromiumOS Contributing Guide],
 including a Signed-Off-By line which can be easily added using `git commit -s`.
 The prefix for the title should be an abbreviated path to the edited file. Use
