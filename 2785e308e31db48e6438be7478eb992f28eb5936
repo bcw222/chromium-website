@@ -56,6 +56,30 @@
       },
       "revId": "2785e308e31db48e6438be7478eb992f28eb5936",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "310b0616_57cfab46",
+        "filename": "site/Home/chromium-privacy/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1118331
+      },
+      "writtenOn": "2024-01-09T21:43:49Z",
+      "side": 1,
+      "message": "Ah right, chrome.com was recently updated.\n\nThe page that you linked is specifically about Privacy Sandbox. There is also https://www.google.com/chrome/#safe which is more general, but then again also broader beyond just privacy.\n\nI included both links and rewrote the text a bit - WDYT?",
+      "parentUuid": "22c90791_5d7c4711",
+      "range": {
+        "startLine": 47,
+        "startChar": 58,
+        "endLine": 47,
+        "endChar": 65
+      },
+      "revId": "2785e308e31db48e6438be7478eb992f28eb5936",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
