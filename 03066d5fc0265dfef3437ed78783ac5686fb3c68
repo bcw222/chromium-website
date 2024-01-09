@@ -16,6 +16,23 @@
       "message": "Sorry had to rebase.",
       "revId": "03066d5fc0265dfef3437ed78783ac5686fb3c68",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2965c98_0b96d6a3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2024-01-09T17:10:11Z",
+      "side": 1,
+      "message": "lgtm :)",
+      "revId": "03066d5fc0265dfef3437ed78783ac5686fb3c68",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
