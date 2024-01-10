@@ -80,6 +80,30 @@
       },
       "revId": "2785e308e31db48e6438be7478eb992f28eb5936",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dda9c2fe_69bcc455",
+        "filename": "site/Home/chromium-privacy/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1258891
+      },
+      "writtenOn": "2024-01-10T08:08:02Z",
+      "side": 1,
+      "message": "Ah, I missed the #safe section before. Thanks, this looks good!",
+      "parentUuid": "310b0616_57cfab46",
+      "range": {
+        "startLine": 47,
+        "startChar": 58,
+        "endLine": 47,
+        "endChar": 65
+      },
+      "revId": "2785e308e31db48e6438be7478eb992f28eb5936",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
