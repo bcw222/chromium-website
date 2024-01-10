@@ -62,13 +62,13 @@ We use Chromium's issue tracker to keep track of bugs and feature development.
 You can keep track of Accessibility issues using the following links:
 
 *   [All Accessibility
-            bugs](https://code.google.com/p/chromium/issues/list?q=Cr%3DUI-Accessibility)
+            bugs](https://issues.chromium.org/issues?q=Cr-UI-Accessibility)
 *   [Windows accessibility
-            bugs](https://code.google.com/p/chromium/issues/list?q=Cr%3DUI-Accessibility+os%3Dwindows)
+            bugs](https://issues.chromium.org/issues?q=Cr-UI-Accessibility%20os:windows)
 *   [Mac accessibility
-            bugs](https://code.google.com/p/chromium/issues/list?q=Cr%3DUI-Accessibility+os%3Dmac)
+            bugs](https://issues.chromium.org/issues?q=Cr-UI-Accessibility%20os:mac)
 
-You can also file a [New issue](http://code.google.com/p/chromium/issues/entry).
+You can also file a [New issue](https://issues.chromium.org/new).
 
 ## How Chrome detects the presence of Assistive Technology
 
