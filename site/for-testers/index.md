@@ -8,7 +8,7 @@ title: For Testers
 
 * [Bug reporting guidelines and how to report
   bugs](/for-testers/bug-reporting-guidelines)
-* [Glossary](/glossary)
+* [Glossary](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/glossary.md)
 * [Enable logging](/for-testers/enable-logging)
 * [Recording
   traces](/developers/how-tos/trace-event-profiling-tool/recording-tracing-runs)
@@ -27,5 +27,5 @@ title: For Testers
 * [Verify Linux fixed
    bugs](http://code.google.com/p/chromium/issues/list?can=1&q=os:Linux+status:fixed&colspec=ID+Stars+Pri+Area+Type+Status+Summary+Modified+Owner+Mstone+OS&x=mstone&y=area&cells=tiles)
 * [Frontend testing](/for-testers/frontend-testing)
-* [Firmware testing](/for-testers/faft)
+* [Firmware testing](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/faft-how-to-run-doc.md)
 * [Installer](/for-testers/installer)
