@@ -38,4 +38,4 @@ configurations.
 ## Report a bug
 
 *   [Chromium bug
-            system](http://code.google.com/p/chromium/issues/entry)
+            system](https://issues.chromium.org/issues/wizard)

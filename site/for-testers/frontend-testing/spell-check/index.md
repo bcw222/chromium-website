@@ -39,4 +39,4 @@ The Primary Focus will be on verifying spell check behavior in Chromium.
 ## Report a bug
 
 *   [Chromium bug
-            system](http://code.google.com/p/chromium/issues/entry)
+            system](https://issues.chromium.org/issues/wizard)
