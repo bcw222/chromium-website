@@ -12,15 +12,13 @@ title: Bug Life Cycle and Reporting Guidelines
 
 ### Chromium (the web browser)
 
-*   Report bugs at <https://crbug.com/wizard>
+*   Report bugs at <https://issues.chromium.org>
 *   Specifically:
     *   [Bug Reporting Guidelines for the Mac & Linux
                 builds](/for-testers/bug-reporting-guidlines-for-the-mac-linux-builds)
                 (with links to known issues pages)
     *   [Instructions for reporting
                 crashes](/for-testers/bug-reporting-guidelines/reporting-crash-bug).
-*   View existing bugs at
-            <https://bugs.chromium.org/p/chromium/issues/list>
 
 ### Chromium OS (the operating system)
 
@@ -68,90 +66,25 @@ associated with your email address in order to use the bug system.
 *   [Triage Best
             Practices](/for-testers/bug-reporting-guidelines/triage-best-practices)
 
-## Labels
+## Hotlists
 
-Labels are used to help the engineering team categorize and prioritize the bug
-reports that are coming in. Each report can (and should) have multiple labels.
+Hotlists are used to help the engineering team categorize and prioritize the bug
+reports that are coming in. Each report can (and should) have multiple hotlists.
 
-For details on labels used by the Chromium project, see [Chromium Bug
-Labels](/for-testers/bug-reporting-guidelines/chromium-bug-labels).
+For details on hotlists used by the Chromium project, see [Chromium Bug
+Hotlists](/for-testers/bug-reporting-guidelines/chromium-bug-hotlists).
 
 ## Status
 
-### Open bugs
-
-<table>
-<tr>
-Status value 	 Description </tr>
-<tr>
-<td>Unconfirmed</td>
-<td>The default for public bugs. Waiting for someone to validate, reproduce, or otherwise confirm that this is a bug. </td>
-</tr>
-<tr>
-<td>Untriaged</td>
-<td>A confirmed bug that has not been reviewed for priority or assignment. This is the default for project members' new bugs. </td>
-</tr>
-<tr>
-<td>Available</td>
-<td>Confirmed and triaged, but not assigned. Feel free to take these bugs! </td>
-</tr>
-<tr>
-<td>Assigned</td>
-<td>In someone's work queue. </td>
-</tr>
-<tr>
-<td>Started</td>
-<td>Actively being worked on. </td>
-</tr>
-</table>
-
-### Closed bugs
-
-<table>
-<tr>
-Status value 		 Description 	</tr>
-<tr>
-<td>Fixed</td>
-<td>Fixed.</td>
-</tr>
-<tr>
-<td>Verified</td>
-<td>The fix has been verified by test or by the original reporter.</td>
-</tr>
-<tr>
-<td>Duplicate</td>
-
-<td>This issue has been reported in another bug, or shares the same root cause as another bug. When Duplicate is selected, a field will appear for the ID of the other bug --- be sure to fill this in.</td>
-
-<td>Mark the bug with less information/discussion in it as the Duplicate.</td>
-
-</tr>
-<tr>
-<td>WontFix</td>
-<td>Covers all the reasons we chose to close the bug without taking action (can't repro, working as intended, obsolete).</td>
-</tr>
-<tr>
-<td>ExternalDependency</td>
-<td>Bugs that turn out to be in another project's code and that we've filed with that other project. Useful for tracking known issues that manifest themselves in our product, but that need to be fixed elsewhere (such as WebKit and V8 issues).</td>
-</tr>
-<tr>
-<td>FixUnreleased</td>
-<td>A special state for security hotfixes to mark bugs that are fixed, but not yet delivered to users. Bugs with this status will be visible only to project members and the original reporter.</td>
-</tr>
-<tr>
-<td>Invalid</td>
-<td>Illegible, spam, etc.</td>
-</tr>
-</table>
+To better understand the various fields and statues, please visit:
+[Issues Overview](https://developers.google.com/issue-tracker/concepts/issues)
 
 ## Bug life cycle
 
-*   When a bug is first logged, it is given **Unconfirmed** status.
-*   The status is changed from unconfirmed to Untriaged once it has been
-            verified as a Chromium bug.
+*   When a bug is first logged, it is given **New** status.
 *   Once a bug has been picked up by a developer, it is marked as
             Assigned.
-*   A status of **Started** means a fix is being worked on.
+*   A status of **In Progress (Accepted)** means a fix is being worked on.
 *   A status of **Fixed** means that the bug has been fixed, and
             **Verified** means that the fix has been tested and confirmed.
             Please note that it will take some time for the "fix" to make it
