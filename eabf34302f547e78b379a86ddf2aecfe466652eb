@@ -1,0 +1,216 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b17b86e7_c67b1a1d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1118539
+      },
+      "writtenOn": "2024-01-11T11:17:28Z",
+      "side": 1,
+      "message": "Pretty good! My comments are mostly nits, feel free to just resolve things.",
+      "revId": "eabf34302f547e78b379a86ddf2aecfe466652eb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2a5481f1_ee70edc2",
+        "filename": "site/chromium-os/developer-library/guides/third-party/coreboot/coreboot-upstream/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1118539
+      },
+      "writtenOn": "2024-01-11T11:17:28Z",
+      "side": 1,
+      "message": "ed25519 is supported these days, faster and shorter.",
+      "range": {
+        "startLine": 39,
+        "startChar": 17,
+        "endLine": 39,
+        "endChar": 20
+      },
+      "revId": "eabf34302f547e78b379a86ddf2aecfe466652eb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b05c3997_523c84f9",
+        "filename": "site/chromium-os/developer-library/guides/third-party/coreboot/coreboot-upstream/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1118539
+      },
+      "writtenOn": "2024-01-11T11:17:28Z",
+      "side": 1,
+      "message": "would be called id_ed25519.pub then.",
+      "range": {
+        "startLine": 40,
+        "startChar": 14,
+        "endLine": 40,
+        "endChar": 20
+      },
+      "revId": "eabf34302f547e78b379a86ddf2aecfe466652eb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "665b66f2_11b3d795",
+        "filename": "site/chromium-os/developer-library/guides/third-party/coreboot/coreboot-upstream/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1118539
+      },
+      "writtenOn": "2024-01-11T11:17:28Z",
+      "side": 1,
+      "message": "Maybe add a paragraph as follows?\n\"Don\u0027t use Chromium issues to hide more information than is strictly necessary (e.g. NDA\u0027d details). The purpose of a change must be understandable without access to our issue tracker.\"",
+      "revId": "eabf34302f547e78b379a86ddf2aecfe466652eb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d301130e_782f7b08",
+        "filename": "site/chromium-os/developer-library/guides/third-party/coreboot/coreboot-upstream/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1118539
+      },
+      "writtenOn": "2024-01-11T11:17:28Z",
+      "side": 1,
+      "message": "you can also run `git fetch /home/user/devel/coreboot` if it\u0027s more of a one-off action.",
+      "revId": "eabf34302f547e78b379a86ddf2aecfe466652eb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "babcd7c6_36b8bfef",
+        "filename": "site/chromium-os/developer-library/guides/third-party/coreboot/downstreaming/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1118539
+      },
+      "writtenOn": "2024-01-11T11:17:28Z",
+      "side": 1,
+      "message": "nit: the ChromeOS Zephyr team? (as opposed to the Zephyr project)\n```suggestion\n[Copybot] is a custom tool made by the ChromeOS Zephyr team for handling the task of\n```",
+      "range": {
+        "startLine": 52,
+        "startChar": 35,
+        "endLine": 52,
+        "endChar": 45
+      },
+      "revId": "eabf34302f547e78b379a86ddf2aecfe466652eb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "701f1e60_e2e16027",
+        "filename": "site/chromium-os/developer-library/guides/third-party/coreboot/downstreaming/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1118539
+      },
+      "writtenOn": "2024-01-11T11:17:28Z",
+      "side": 1,
+      "message": "typo\n```suggestion\nthe conflicted change(resolved or not) and apply the skip configuration\n```",
+      "range": {
+        "startLine": 121,
+        "startChar": 4,
+        "endLine": 121,
+        "endChar": 14
+      },
+      "revId": "eabf34302f547e78b379a86ddf2aecfe466652eb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f9c2b3eb_125ad1f6",
+        "filename": "site/chromium-os/developer-library/guides/third-party/coreboot/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1118539
+      },
+      "writtenOn": "2024-01-11T11:17:28Z",
+      "side": 1,
+      "message": "I guess this should be a list but it isn\u0027t.\n```suggestion\n* Boot device selection\n* Updating the firmware\n* A shell\n* Network communication\n```",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 40,
+        "endChar": 21
+      },
+      "revId": "eabf34302f547e78b379a86ddf2aecfe466652eb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c40e795d_0466e7ba",
+        "filename": "site/chromium-os/developer-library/guides/third-party/coreboot/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1118539
+      },
+      "writtenOn": "2024-01-11T11:17:28Z",
+      "side": 1,
+      "message": "nit: the?\n```suggestion\n2012 onward use coreboot for their main system firmware.  ChromeOS utilizes the\n```",
+      "range": {
+        "startLine": 44,
+        "startChar": 76,
+        "endLine": 44,
+        "endChar": 77
+      },
+      "revId": "eabf34302f547e78b379a86ddf2aecfe466652eb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b95b139a_43a84afb",
+        "filename": "site/chromium-os/developer-library/guides/third-party/coreboot/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1118539
+      },
+      "writtenOn": "2024-01-11T11:17:28Z",
+      "side": 1,
+      "message": "link to https://chromium.googlesource.com/chromiumos/platform/depthcharge/?",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 19
+      },
+      "revId": "eabf34302f547e78b379a86ddf2aecfe466652eb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
