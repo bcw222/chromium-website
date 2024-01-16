@@ -37,7 +37,7 @@ their prime bookmarks area (the left side).
 The bookmarks bar is not visible by default, but is shown as part of the new tab
 page so that people who dislike the use of real estate can still easily access
 their bookmarks at the start of a navigational task. It can be permanently shown
-by user option, and toggled with Ctrl+B.
+by user option, and toggled with Ctrl+B. Note: This is case-sensitive. It needs Ctrl-Shift-B
 
 ## Basic UX Issues
 
