@@ -16,6 +16,24 @@
       "message": "Hi Pawan,\n\nI have no privilege to CR+2 this cl.",
       "revId": "cf5a2df0c75ea312f8db50187adebe05b5b3dffb",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2b653066_494d85ff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1589202
+      },
+      "writtenOn": "2024-01-18T19:54:30Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "609ff746_b21d78c1",
+      "revId": "cf5a2df0c75ea312f8db50187adebe05b5b3dffb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
