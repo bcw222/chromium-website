@@ -34,6 +34,46 @@
       "parentUuid": "609ff746_b21d78c1",
       "revId": "cf5a2df0c75ea312f8db50187adebe05b5b3dffb",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba09ed75_f97a443b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1300299
+      },
+      "writtenOn": "2024-01-18T20:20:09Z",
+      "side": 1,
+      "message": "I don\u0027t know enough to testify to the provided information, sorry",
+      "revId": "cf5a2df0c75ea312f8db50187adebe05b5b3dffb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f5fbf006_78766eb1",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4300,
+      "author": {
+        "id": 1300299
+      },
+      "writtenOn": "2024-01-18T20:20:09Z",
+      "side": 1,
+      "message": "nit: remove trailing space",
+      "range": {
+        "startLine": 4300,
+        "startChar": 6,
+        "endLine": 4300,
+        "endChar": 7
+      },
+      "revId": "cf5a2df0c75ea312f8db50187adebe05b5b3dffb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
