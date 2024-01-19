@@ -16,6 +16,24 @@
       "message": "Should we mention that longer DTs can be approved in exceptional circumstances (we have some precedent for that - Storage Partitioning, 3PCD, etc.) with 3 LGTMs? Or just wait for folks to reach out and ask?",
       "revId": "ed4373ce22cb65210e477ce125c541af28f1532b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a86a5545_51d5db7b",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 656,
+      "author": {
+        "id": 1000112
+      },
+      "writtenOn": "2024-01-19T20:23:30Z",
+      "side": 1,
+      "message": "Those seems like one-off exceptions to policy to me rather than a practice we want to advertise. But I dunno, WDYT?",
+      "parentUuid": "9ff6608b_8d7e0f95",
+      "revId": "ed4373ce22cb65210e477ce125c541af28f1532b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
