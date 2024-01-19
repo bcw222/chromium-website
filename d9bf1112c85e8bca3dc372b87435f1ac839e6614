@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4101a433_26cc3b26",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1293547
+      },
+      "writtenOn": "2024-01-19T10:44:54Z",
+      "side": 1,
+      "message": "Please add a bug link.",
+      "revId": "d9bf1112c85e8bca3dc372b87435f1ac839e6614",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a26b04fe_1f1e6f34",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1293547
+      },
+      "writtenOn": "2024-01-19T10:44:54Z",
+      "side": 1,
+      "message": "The file is very different with the ToT now...\nhttps://chromium.googlesource.com/website/+/refs/heads/main/site/chromium-os/developer-information-for-chrome-os-devices/index.md\nPlease rebase the code.",
+      "revId": "d9bf1112c85e8bca3dc372b87435f1ac839e6614",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
