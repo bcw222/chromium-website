@@ -34,6 +34,24 @@
       "parentUuid": "9ff6608b_8d7e0f95",
       "revId": "ed4373ce22cb65210e477ce125c541af28f1532b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b3fb6c6a_efc16db9",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 656,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2024-01-19T20:34:10Z",
+      "side": 1,
+      "message": "Yeah, makes sense. No need to codify the exceptional. 😊",
+      "parentUuid": "a86a5545_51d5db7b",
+      "revId": "ed4373ce22cb65210e477ce125c541af28f1532b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
