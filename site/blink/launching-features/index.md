@@ -653,6 +653,18 @@ trials framework ([see
 details](/blink/origin-trials/running-an-origin-trial#integrate-feature)).
 Once your Deprecation Trial is in place, proceed to the next step.
 
+Deprecation trials are run for up to 6 chromium milestones, and can be
+repeatedly extended for 6 milestones as long as significant progress is
+demonstrated in at least one of the following areas:
+ * Designing and shipping alternative APIs for the use case, directly addressing
+   feedback from developers currently relying on the deprecation trial.
+ * Driving the number of origins signed up for the deprecation trial down to
+   zero.
+
+If significant progress cannot be demonstrated towards removing the need for the
+deprecation trial, it will be necessary to un-deprecate the API to acknowledge
+the reality that ongoing support for the API is required for web compatibility.
+
 #### Step 6: Prepare to Ship {:#deprecation-prepare-to-ship}
 
 You should update ChromeStatus with a target milestone for disabling the
