@@ -3863,4 +3863,21 @@ such as the auto update until date, first release, and more.
     <td>Yes</td>
     <td>Yes</td>
   </tr>
+   <tr>
+   <td>2023-07-14</td>
+   <td>HP</td>
+   <td><a href="https://www.hp.com/us-en/cloud-computing/chrome-enterprise.html#section=tabs&tab=chromebox-enterprise">HP Chromebox Enterprise G4</a></td>
+   <td>Gladios</td>
+   <td>Brask</td>
+   <td>Brask</td>
+   <td>x86_64</td>
+   <td>5.15</td>
+   <td>x86_64</td>
+   <td>Alderlake-U</td>
+   <td>Chromebox</td>
+   <td>M114</td>
+   <td><a href="https://support.google.com/chrome/a/answer/6220366">AUE Schedule</a></td>
+   <td>Yes</td>
+   <td>Yes</td>
+   </tr>
 </table>
