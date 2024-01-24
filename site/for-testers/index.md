@@ -4,6 +4,8 @@ page_name: for-testers
 title: For Testers
 ---
 
+## Google Issue Tracker
+
 ## Reporting Bugs
 
 * [Bug reporting guidelines and how to report
