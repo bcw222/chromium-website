@@ -16,6 +16,23 @@
       "message": "testing file upload",
       "revId": "bd9f8d02f791d3def86a3f04cb550a6844ff602b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b79530c_d5a6b5a2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-24T02:10:24Z",
+      "side": 1,
+      "message": "We need to do special things w/ binary files like PDFs. We don\u0027t want to check them into the repo directly because that can make the Git repo larger than we would like over time (I can explain this more if need be). The right thing to do is to upload the file to a particular Google Cloud Storage bucket in a particular way, but I don\u0027t think I\u0027ve documented that very well (if at all) in the contributing docs.\n\nProbably the easiest thing to do is for me to just take this and create the proper patch, so I can do that tomorrow. If you have a burning desire to do this yourself, though, I can walk you through it, too.\n\nAccordingly, I\u0027m marking this code review -1 for now because we don\u0027t want to submit this as-is, not because I don\u0027t like what you\u0027re doing :).",
+      "revId": "bd9f8d02f791d3def86a3f04cb550a6844ff602b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
