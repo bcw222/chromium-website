@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f9a57a34_aad1733a",
+        "filename": "site/for-testers/bug-reporting-guidelines/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2024-01-25T01:50:20Z",
+      "side": 1,
+      "message": "I kind of feel like this is part of \"available\", i.e. someone should feel free to work on it, even at this stage, at least in theory.",
+      "range": {
+        "startLine": 154,
+        "startChar": 4,
+        "endLine": 154,
+        "endChar": 38
+      },
+      "revId": "64ca641295c8178cf4bbd07e28d6c870071c5781",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
