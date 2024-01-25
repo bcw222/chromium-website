@@ -22,6 +22,30 @@
       },
       "revId": "64ca641295c8178cf4bbd07e28d6c870071c5781",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b855497f_63df4004",
+        "filename": "site/for-testers/bug-reporting-guidelines/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 1107759
+      },
+      "writtenOn": "2024-01-25T05:22:02Z",
+      "side": 1,
+      "message": "How about, \"An owner may be **Assigned** to signal they plan to work on an issue.\"?  Or, do you have a better suggestion for the assigned state?",
+      "parentUuid": "f9a57a34_aad1733a",
+      "range": {
+        "startLine": 154,
+        "startChar": 4,
+        "endLine": 154,
+        "endChar": 38
+      },
+      "revId": "64ca641295c8178cf4bbd07e28d6c870071c5781",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
