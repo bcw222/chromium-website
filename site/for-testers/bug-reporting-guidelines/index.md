@@ -147,10 +147,11 @@ Status value 		 Description 	</tr>
 ## Bug life cycle
 
 *   When a bug is first logged, it is given **Unconfirmed** status.
-*   The status is changed from unconfirmed to Untriaged once it has been
+*   The status is changed from unconfirmed to **Untriaged** once it has been
             verified as a Chromium bug.
-*   Once a bug has been picked up by a developer, it is marked as
-            Assigned.
+*   After triaging to a component, and then being triaged by a team, an issue
+            becomes **Available**.
+*   An owner may be **Assigned** to signal they plan to work on an issue.
 *   A status of **Started** means a fix is being worked on.
 *   A status of **Fixed** means that the bug has been fixed, and
             **Verified** means that the fix has been tested and confirmed.
