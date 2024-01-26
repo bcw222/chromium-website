@@ -24,6 +24,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "37f55fb8_b8e0a73b",
+        "filename": "site/for-testers/bug-reporting-guidelines/chromium-bug-labels/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-26T19:45:51Z",
+      "side": 0,
+      "message": "Acknowledged",
+      "parentUuid": "5fc9cfc1_a9c149b4",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 100,
+        "endChar": 5
+      },
+      "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0e4a333d_98ff9ede",
@@ -37,6 +61,30 @@
       "writtenOn": "2024-01-26T05:04:31Z",
       "side": 0,
       "message": "can we have a link for viewing existing bugs?",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 25
+      },
+      "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "70f9a711_3bf68c87",
+        "filename": "site/for-testers/bug-reporting-guidelines/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-26T19:45:51Z",
+      "side": 0,
+      "message": "Acknowledged",
+      "parentUuid": "0e4a333d_98ff9ede",
       "range": {
         "startLine": 22,
         "startChar": 0,

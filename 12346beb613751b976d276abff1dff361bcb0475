@@ -58,6 +58,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "41966e87_9cb0b6e3",
+        "filename": "site/for-testers/bug-reporting-guidelines/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-26T19:45:51Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "f6b3dce1_d4d739c2",
+      "range": {
+        "startLine": 83,
+        "startChar": 14,
+        "endLine": 83,
+        "endChar": 17
+      },
+      "revId": "12346beb613751b976d276abff1dff361bcb0475",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e2bccb05_b3c377ce",
@@ -71,6 +95,24 @@
       "writtenOn": "2024-01-26T05:04:31Z",
       "side": 1,
       "message": "the tense of this is true for only a couple more weeks. Do we have plans to update this post migration?",
+      "revId": "12346beb613751b976d276abff1dff361bcb0475",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f417e12_580c8cc1",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-26T19:45:51Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "e2bccb05_b3c377ce",
       "revId": "12346beb613751b976d276abff1dff361bcb0475",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
