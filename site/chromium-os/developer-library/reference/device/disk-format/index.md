@@ -423,13 +423,11 @@ procedure may help:
    `src/build/images/<board>/latest/` by the last `cros build-image` run.
 6. Create and sign the kernel partition image like this (in chroot):
    ```
-   vbutil_kernel --pack new_kern.bin \
-     --keyblock /usr/share/vboot/devkeys/kernel.keyblock \
-     --signprivate /usr/share/vboot/devkeys/kernel_data_key.vbprivk \
-     --version 1 \
+   futility sign \
      --config config.txt \
-     --bootloader /lib64/bootstub/bootstub.efi \
-     --vmlinuz /build/x86-generic/boot/vmlinuz
+     --arch x86 \
+     --vmlinuz /build/x86-generic/boot/vmlinuz \
+     --outfile new_kern.bin
    ```
 7. Copy `new_kern.bin` into partition 4 on the target (from console):
    ```
@@ -455,18 +453,18 @@ sudo dd if=/dev/<src_part> of=/tmp/kernel.old
 Save the old kernel command line to a file:
 
 ```
-vbutil_kernel --verify /tmp/kernel.old --verbose | \
-  tail -1 > /tmp/cmd.line.old
+dump_kernel_config /tmp/kernel.old > /tmp/cmd.line.old
 ```
 
 Modify the command line as required and save it in a file (say
 `/tmp/cmd.line.new`). Repack the kernel blob using the new command line:
 
 ```
-vbutil_kernel --repack /tmp/kernel.new \
-  --config /tmp/cmd.line.new \
+futility sign \
   --signprivate <private_key> \
-  --oldblob /tmp/kern.old
+  --config /tmp/cmd.line.new \
+  --infile /tmp/kernel.old \
+  --outfile /tmp/kernel.new
 ```
 
 For the recovery kernel on a removeable device, `<private_key>` above is
@@ -477,7 +475,7 @@ is required, of course.
 Then verify things look OK:
 
 ```
-vbutil_kernel --verify /tmp/kernel.new --verbose
+futility show /tmp/kernel.new
 ```
 
 Finally get your kernel back to the device it came from:

@@ -787,11 +787,12 @@ The examples below will assume your active one is 4 (`kern.4.gz`).
 Run the command in chroot to check:
 ```
 gunzip kern.4.gz
-futility vbutil_kernel --verify kern.4
+futility verify kern.4
 ```
 
 If the kernel looks good you should see some information like:
 ```
+Keyblock:
   Signature:           ignored
   Size:                0x4b8
   Flags:               7  !DEV DEV !REC
@@ -802,11 +803,11 @@ Preamble:
   Size:                0xfb48
   Header version:      2.2
   Kernel version:      1
+  Flags:               0
   Body load address:   0x100000
   Body size:           0x7d7000
   Bootloader address:  0x8d6000
   Bootloader size:     0x1000
-  Flags          :       0
 Body verification succeeded.
 Config:
 console= loglevel=7 init=/sbin/init cros_secure root=/dev/dm-0 ......
@@ -850,18 +851,15 @@ If you can't access chromeos-hwid or are not sure which keys were installed on
 the DUT and just want to know if the boot failure is caused by keys mismatch,
 follow the steps:
 ```
-futility gbb --rootkey=rk.bin image.bin
-futility dump_fmap image.bin -x VBLOCK_A:vb.a VBLOCK_B:vb.b FW_MAIN_A:fw.a FW_MAIN_B:fw.b
-futility vbutil_firmware --verify vb.a --signpubkey rk.bin --fv fw.a --kernelkey kk.a
-futility vbutil_firmware --verify vb.b --signpubkey rk.bin --fv fw.b --kernelkey kk.b
-futility vbutil_kernel --verify kern.4 --signpubkey kk.a
-futility vbutil_kernel --verify kern.4 --signpubkey kk.b
+futility verify image.bin
+futility dump_fmap image.bin -x VBLOCK_A:vb.a VBLOCK_B:vb.b
+futility verify kern.4 --publickey vb.a
+futility verify kern.4 --publickey vb.b
 ```
 
-At least one of `kk.a` or `kk.b` should decode kernel partition properly with
+At least one of `vb.a` or `vb.b` should decode kernel partition properly with
 something like:
 ```
-
 Keyblock:
   Signature:           valid
   Size:                0x4b8
@@ -873,11 +871,11 @@ Preamble:
   Size:                0xfb48
   Header version:      2.2
   Kernel version:      1
+  Flags:               0
   Body load address:   0x100000
   Body size:           0x7d7000
   Bootloader address:  0x8d6000
   Bootloader size:     0x1000
-  Flags          :       0
 Body verification succeeded.
 Config:
 console= loglevel=7 init=/sbin/init cros_secure root=/dev/dm-0 ...
