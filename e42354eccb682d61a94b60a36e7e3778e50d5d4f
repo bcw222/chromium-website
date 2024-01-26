@@ -22,6 +22,30 @@
       },
       "revId": "e42354eccb682d61a94b60a36e7e3778e50d5d4f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7395c897_c060888f",
+        "filename": "site/administrators/frequently-asked-questions/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-26T22:21:15Z",
+      "side": 1,
+      "message": "Updated each instance",
+      "parentUuid": "35ba57a7_9b2d7b80",
+      "range": {
+        "startLine": 197,
+        "startChar": 50,
+        "endLine": 197,
+        "endChar": 63
+      },
+      "revId": "e42354eccb682d61a94b60a36e7e3778e50d5d4f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
