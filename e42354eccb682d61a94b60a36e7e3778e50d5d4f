@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "35ba57a7_9b2d7b80",
+        "filename": "site/administrators/frequently-asked-questions/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 1160859
+      },
+      "writtenOn": "2024-01-26T21:51:19Z",
+      "side": 1,
+      "message": "might it be worth changing all these\n\nhttps://issues.chromium.org/issues/wizard\n\nlinks to\n\nhttps://issues.chromium.org/new\n\nThe reasoning is: then chromium developers will get the right UI, but external folks will get redirected correctly to /issues/wizard (I have tested this behavior).\n\nIf we specify https://issues.chromium.org/issues/wizard then it means chromium folks have to edit the URL or click \u0027Chromium Contributor\u0027 and \u0027regular issue form\u0027 which is two extra clicks.\n\nThere doesn\u0027t appear to be a downside of linking directly to https://issues.chromium.org/new",
+      "range": {
+        "startLine": 197,
+        "startChar": 50,
+        "endLine": 197,
+        "endChar": 63
+      },
+      "revId": "e42354eccb682d61a94b60a36e7e3778e50d5d4f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
