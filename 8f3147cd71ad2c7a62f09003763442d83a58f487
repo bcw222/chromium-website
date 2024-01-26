@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5fc9cfc1_a9c149b4",
+        "filename": "site/for-testers/bug-reporting-guidelines/chromium-bug-labels/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1001745
+      },
+      "writtenOn": "2024-01-26T05:04:31Z",
+      "side": 0,
+      "message": "We may want to retain some of these, or maybe all of these.",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 100,
+        "endChar": 5
+      },
+      "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0e4a333d_98ff9ede",
+        "filename": "site/for-testers/bug-reporting-guidelines/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1001745
+      },
+      "writtenOn": "2024-01-26T05:04:31Z",
+      "side": 0,
+      "message": "can we have a link for viewing existing bugs?",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 25
+      },
+      "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
