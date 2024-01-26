@@ -1,6 +1,46 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "647a41fb_dccbab96",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1478228
+      },
+      "writtenOn": "2024-01-26T21:10:07Z",
+      "side": 1,
+      "message": "Rather than make individual comments, I figure it would be easiest to make a batch comment: Since this is documentation for the public site, please consider updating all g-issues links in this CL to issues.chromium.org. Otherwise this is going to result in a frustrating user/navigating experience for all non-Googler Chromium contributors who will be directed to a Google SSO login page instead of the public issue tracker.",
+      "revId": "af3dd0c7b784ee8ba5a842c5a8798d89689184f5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1db6694c_00bd27cf",
+        "filename": "site/administrators/frequently-asked-questions/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 1478228
+      },
+      "writtenOn": "2024-01-26T21:10:07Z",
+      "side": 1,
+      "message": "g-issues is not the correct link for the public Chromium issue tracker, it is https://issues.chromium.org.",
+      "range": {
+        "startLine": 192,
+        "startChar": 27,
+        "endLine": 192,
+        "endChar": 57
+      },
+      "revId": "af3dd0c7b784ee8ba5a842c5a8798d89689184f5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "56f24220_3777a412",
