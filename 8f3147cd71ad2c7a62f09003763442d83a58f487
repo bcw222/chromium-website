@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a214609a_52e9a0d1",
+        "filename": "site/administrators/frequently-asked-questions/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 0,
+      "message": "Wow. That\u0027s embarrassing that we still had that.",
+      "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "5fc9cfc1_a9c149b4",
         "filename": "site/for-testers/bug-reporting-guidelines/chromium-bug-labels/index.md",
         "patchSetId": 6
@@ -91,6 +108,125 @@
         "endLine": 22,
         "endChar": 25
       },
+      "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b92b4bc4_d3830fb3",
+        "filename": "site/getting-involved/bug-triage/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 0,
+      "message": "\"bug 12345\" won\u0027t work in Issue Tracker?",
+      "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c2bbf7a5_67a70787",
+        "filename": "site/getting-involved/bug-triage/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 0,
+      "message": "wouldn\u0027t you still want this sentence?",
+      "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0055deab_4b5dea48",
+        "filename": "site/getting-involved/bug-triage/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 0,
+      "message": "Shouldn\u0027t this be mapped to \"remove it from hotlist X, add it to hotlist Y\"?",
+      "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cde21244_b2d1f2eb",
+        "filename": "site/glossary/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 0,
+      "message": "We don\u0027t want links to break, so we should leave something here. However, we can do better than text saying \"Moved to\". You can add \"redirect: \u003curl\u003e\" as a field in the front matter and then the page will automatically redirect. See site/blink/removing-features/index.md in the repo for an example.",
+      "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "143ea34e_573ce0a8",
+        "filename": "site/issue-tracking/creating-a-bug-template-url/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 0,
+      "message": "Same comment about not breaking links. Maybe add something short about requesting templates, or link to someplace that describes that?",
+      "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0548ff5d_d006f178",
+        "filename": "site/issue-tracking/editing-components/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 0,
+      "message": "same comment about not breaking links?",
+      "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7fe52a81_53970394",
+        "filename": "site/issue-tracking/migrating-issue-components/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 0,
+      "message": "Same comment about not breaking links. Maybe just something that says that the content on the old version of this page was no longer needed with the new issue tracker?",
       "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }

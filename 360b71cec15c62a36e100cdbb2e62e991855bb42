@@ -1,0 +1,749 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0e81a4d_ac701d7b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "Lots of work, lots of comments :). Thanks for working on this!",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a1fb921f_ae511e7f",
+        "filename": "site/developers/design-documents/accessibility/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "These queries are using labels. Won\u0027t they have to be different in the new tracker? Or have they preserved compatibility of the queries somehow?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "290a08c3_27afe468",
+        "filename": "site/for-testers/bug-reporting-guidelines/chromium-bug-hotlists/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "Not-quite-a-nit: please remove the trailing whitespace, here and wherever else it shows up.",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dc49398d_0f5649a4",
+        "filename": "site/for-testers/bug-reporting-guidelines/chromium-bug-hotlists/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "Nit: just one blank line.",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d9a02691_1104854b",
+        "filename": "site/for-testers/bug-reporting-guidelines/hanging-tabs/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "\"Wrench menu\"? I think we call this something like the \"settings menu\" these days.",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "941a6874_db943129",
+        "filename": "site/for-testers/bug-reporting-guidelines/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "I don\u0027t think this query will work either, given that `os` is a custom field. At least, it doesn\u0027t work now on the test instance.",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "69ec2811_fdc7c220",
+        "filename": "site/for-testers/bug-reporting-guidelines/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "typo: \"statuses\"\n```suggestion\nTo better understand the various fields and statuses, please visit:\n```",
+      "range": {
+        "startLine": 79,
+        "startChar": 44,
+        "endLine": 79,
+        "endChar": 51
+      },
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "92366e82_54ac797c",
+        "filename": "site/for-testers/bug-reporting-guidlines-for-the-mac-linux-builds/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "Same comment about these queries may not work.",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "28cdf783_b12c2266",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "\"Program FAQ\" seems obscure. Maybe something like \"Issue Tracker Migration FAQ\"?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fe0bbbad_a6bf32d3",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "Please manually wrap long lines so that lines are under 80 columns wide as per https://chromium.googlesource.com/chromium/src/+/main/styleguide/markdown/markdown.md",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e4f296e_0de17239",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "typo: \"Step\"",
+      "range": {
+        "startLine": 50,
+        "startChar": 2,
+        "endLine": 50,
+        "endChar": 6
+      },
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "362b1249_a53065ff",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "maybe repeat the \"autocomplete\" comment from below about how to look up a hotlist\u0027s ID?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fb2b4cc6_948ed1a1",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "Same comment, maybe repeat the comment from below about how to look up a custom field\u0027s ID?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e07d3b5_2a958f67",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "Do we need to add something here about how there is a Severity field now?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1bd939bb_65d46195",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "Maybe say \"concept of labels or tags directly\"? You could argue that they are supported indirectly by the new fields.",
+      "range": {
+        "startLine": 85,
+        "startChar": 0,
+        "endLine": 85,
+        "endChar": 60
+      },
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "349ee03a_7585a34f",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "Since we don\u0027t actually have labels in the new system, saying that that\u0027s what you\u0027re doing is a bit confusing.\n\nMaybe say something like \"where you would\u0027ve used a label in Monorail, we recommend you use a hotlist in Issue Tracker\"?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e86a5f90_d27e8368",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "Is this accidentally left over from something?",
+      "range": {
+        "startLine": 95,
+        "startChar": 193,
+        "endLine": 95,
+        "endChar": 244
+      },
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "342ef53a_3e6f894e",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "What do I do if my hotlist doesn\u0027t meet that criteria? For example, I have two hotlists under my @google.com account. Also, below it says hotlists for @google.com accounts were also migrated.",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8a36ab6e_545a5fc7",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "Add the bit about autocomplete here as well. It\u0027s usually a good idea (IMO) to repeat short-ish bits of information in FAQs so that users don\u0027t miss them (and don\u0027t have to jump around for them).",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "777e37cf_9e81e25b",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "Should we say \"were migrated\" instead of \"will be migrated\"? Or do you plan to edit this again once the migration is done?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ba5aa4c9_016ef08d",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "Is this correct? I thought any user regardless of privileges can add bugs to hotlists.",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f5f844fd_ee4359f2",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "\"added\" instead of \"add\"?",
+      "range": {
+        "startLine": 203,
+        "startChar": 37,
+        "endLine": 203,
+        "endChar": 40
+      },
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d8cd4ddd_ebe250b3",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 229,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "\"Only migrate hotlists\" is awkward. Maybe \"Only hotlists that are owned by a @google.com account or a @chromium.org account and that have at least one issue will be migrated\"? +/- whatever tense you end up going with.",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8b0cb775_573af989",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 230,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "I don\u0027t understand what this means.",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "14555193_f4c05a46",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "Did we really have ~60k unique labels?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "59b122cd_c6b36b7d",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "Is this different from the \"Monorail label casing problems\" above?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d5ef4b61_0fa10c9f",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "Same question. Maybe these can all be part of one problem?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9eb9e46e_16c57db3",
+        "filename": "site/for-testers/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "Maybe say \"ChromiumOS glossary\" or \"Glossary for ChromiumOS\", to make that a bit clearer?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc3bba93_a67272f4",
+        "filename": "site/for-testers/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "Same comments as elsewhere about the query syntax maybe being different.",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49148679_1f0bb021",
+        "filename": "site/for-testers/providing-memory-details/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "Yay formatting cleanup! :).",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1b470806_77e360d6",
+        "filename": "site/for-testers/query-syntax/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "Based on what you said elsewhere, maybe \"most\" of the labels were migrated to the custom field?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "75de9b5b_ad32e3d6",
+        "filename": "site/for-testers/query-syntax/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "See the updated Chrome-On-Monorail FAQ entry for this, I think this changed.\n\nhttps://docs.google.com/document/d/1TzXvJcCLXU1BlzdApfbnwxpbXHpGZQnFxDFh0eKzoGc/edit?tab\u003dt.0#bookmark\u003did.l8j3w5gibptw\n\nOr is the \"+\" supposed to do the same thing? Because if it is, I wonder if the FAQ should mention that as well.",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "077903bb_c4091feb",
+        "filename": "site/for-testers/query-syntax/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "I don\u0027t understand this. Do you mean from Buganizer and other instances of the issue track?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d24e6991_7c9bf5b1",
+        "filename": "site/for-testers/query-syntax/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 230,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "I think you mean \"you\u0027ve\".",
+      "range": {
+        "startLine": 230,
+        "startChar": 19,
+        "endLine": 230,
+        "endChar": 25
+      },
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "503a1c3c_ee4e569f",
+        "filename": "site/getting-involved/bug-triage/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "maybe add the hotlist ID here?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e53b19e_60035a70",
+        "filename": "site/getting-involved/bug-triage/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "\"should this be \"component\" instead? Also, bugs won\u0027t have no components, so maybe this should be the \"chromium\" component?",
+      "range": {
+        "startLine": 134,
+        "startChar": 56,
+        "endLine": 134,
+        "endChar": 62
+      },
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "91ea644c_7bb12a55",
+        "filename": "site/getting-involved/get-bug-editing-privileges/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "It\u0027s not you that needs to be comfortable, it\u0027s the contributor. Maybe put more of that text back in here?",
+      "range": {
+        "startLine": 31,
+        "startChar": 70,
+        "endLine": 31,
+        "endChar": 73
+      },
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8d61f3c2_d855f9a8",
+        "filename": "site/getting-involved/get-bug-editing-privileges/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "and mention the contributor that can vouch for you?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a05d9a7f_a8bbfbde",
+        "filename": "site/issue-tracking/requesting-a-component-or-label/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "should this be issues.chromium.org? Or will there be a redirect that works?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6666fdba_5b043a19",
+        "filename": "site/issue-tracking/requesting-a-component-or-label/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "Are we still going to name hotlists as \"Proj-foo\" in the new system?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "39288871_d3ccf59b",
+        "filename": "site/issue-tracking/requesting-a-component-or-label/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-27T00:23:31Z",
+      "side": 1,
+      "message": "They do?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
