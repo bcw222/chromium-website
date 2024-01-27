@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d5739ded_fef6316b",
+        "filename": "site/administrators/frequently-asked-questions/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "a214609a_52e9a0d1",
+      "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5fc9cfc1_a9c149b4",
@@ -129,6 +147,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c713d79b_9dc18265",
+        "filename": "site/getting-involved/bug-triage/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "b92b4bc4_d3830fb3",
+      "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c2bbf7a5_67a70787",
@@ -142,6 +178,24 @@
       "writtenOn": "2024-01-27T00:23:31Z",
       "side": 0,
       "message": "wouldn\u0027t you still want this sentence?",
+      "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ab744a5_51413517",
+        "filename": "site/getting-involved/bug-triage/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "c2bbf7a5_67a70787",
       "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -165,6 +219,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "9738db84_3ef01bd4",
+        "filename": "site/getting-involved/bug-triage/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 0,
+      "message": "The hotlists are only used for the migrated issues, no issues won\u0027t be auto added to those hotlists so I felt that this sentence might be confusing.",
+      "parentUuid": "0055deab_4b5dea48",
+      "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "cde21244_b2d1f2eb",
         "filename": "site/glossary/index.md",
         "patchSetId": 10
@@ -176,6 +248,24 @@
       "writtenOn": "2024-01-27T00:23:31Z",
       "side": 0,
       "message": "We don\u0027t want links to break, so we should leave something here. However, we can do better than text saying \"Moved to\". You can add \"redirect: \u003curl\u003e\" as a field in the front matter and then the page will automatically redirect. See site/blink/removing-features/index.md in the repo for an example.",
+      "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d0b85c7d_e33b0ce6",
+        "filename": "site/glossary/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "cde21244_b2d1f2eb",
       "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -197,6 +287,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff42187d_1f72ba2a",
+        "filename": "site/issue-tracking/creating-a-bug-template-url/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "143ea34e_573ce0a8",
+      "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0548ff5d_d006f178",
@@ -214,6 +322,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6af61d0e_7f82a49d",
+        "filename": "site/issue-tracking/editing-components/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "0548ff5d_d006f178",
+      "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7fe52a81_53970394",
@@ -227,6 +353,24 @@
       "writtenOn": "2024-01-27T00:23:31Z",
       "side": 0,
       "message": "Same comment about not breaking links. Maybe just something that says that the content on the old version of this page was no longer needed with the new issue tracker?",
+      "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5841f2ae_662003e6",
+        "filename": "site/issue-tracking/migrating-issue-components/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "7fe52a81_53970394",
       "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }

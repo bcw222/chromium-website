@@ -37,6 +37,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0fa489cc_84699832",
+        "filename": "site/developers/design-documents/accessibility/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "they are in custom fields, but unfortunately, you can\u0027t search custom field across multiple components, so this is basically a text search.  I couldn\u0027t think of another way to do it.",
+      "parentUuid": "a1fb921f_ae511e7f",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "290a08c3_27afe468",
         "filename": "site/for-testers/bug-reporting-guidelines/chromium-bug-hotlists/index.md",
         "patchSetId": 10
@@ -48,6 +66,24 @@
       "writtenOn": "2024-01-27T00:23:31Z",
       "side": 1,
       "message": "Not-quite-a-nit: please remove the trailing whitespace, here and wherever else it shows up.",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a50a8a9_3a85df83",
+        "filename": "site/for-testers/bug-reporting-guidelines/chromium-bug-hotlists/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "290a08c3_27afe468",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -65,6 +101,24 @@
       "writtenOn": "2024-01-27T00:23:31Z",
       "side": 1,
       "message": "Nit: just one blank line.",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "46643a3e_6bbc2b7c",
+        "filename": "site/for-testers/bug-reporting-guidelines/chromium-bug-hotlists/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dc49398d_0f5649a4",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -88,6 +142,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "601df2d3_a890a38f",
+        "filename": "site/for-testers/bug-reporting-guidelines/hanging-tabs/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "This was the the original text, I didn\u0027t add that.  Can you let me know exactly what you want it to say?",
+      "parentUuid": "d9a02691_1104854b",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "941a6874_db943129",
         "filename": "site/for-testers/bug-reporting-guidelines/index.md",
         "patchSetId": 10
@@ -105,6 +177,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7246bd3c_f1d3ab5d",
+        "filename": "site/for-testers/bug-reporting-guidelines/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "they are in custom fields, but unfortunately, you can\u0027t search custom field across multiple components, so this is basically a text search. I couldn\u0027t think of another way to do it.\n\nWe can take these searches out entirely.",
+      "parentUuid": "941a6874_db943129",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "69ec2811_fdc7c220",
         "filename": "site/for-testers/bug-reporting-guidelines/index.md",
         "patchSetId": 10
@@ -116,6 +206,30 @@
       "writtenOn": "2024-01-27T00:23:31Z",
       "side": 1,
       "message": "typo: \"statuses\"\n```suggestion\nTo better understand the various fields and statuses, please visit:\n```",
+      "range": {
+        "startLine": 79,
+        "startChar": 44,
+        "endLine": 79,
+        "endChar": 51
+      },
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fde36f4c_ee1a8484",
+        "filename": "site/for-testers/bug-reporting-guidelines/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "69ec2811_fdc7c220",
       "range": {
         "startLine": 79,
         "startChar": 44,
@@ -145,6 +259,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "38806583_ab8b08fb",
+        "filename": "site/for-testers/bug-reporting-guidlines-for-the-mac-linux-builds/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "they are in custom fields, but unfortunately, you can\u0027t search custom field across multiple components, so this is basically a text search. I couldn\u0027t think of another way to do it.\n\nWe can take these searches out entirely.",
+      "parentUuid": "92366e82_54ac797c",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "28cdf783_b12c2266",
         "filename": "site/for-testers/faq/index.md",
         "patchSetId": 10
@@ -156,6 +288,24 @@
       "writtenOn": "2024-01-27T00:23:31Z",
       "side": 1,
       "message": "\"Program FAQ\" seems obscure. Maybe something like \"Issue Tracker Migration FAQ\"?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b1417ff_773838ed",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "28cdf783_b12c2266",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -177,6 +327,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "50e94468_a6acb6f1",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fe0bbbad_a6bf32d3",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2e4f296e_0de17239",
@@ -190,6 +358,30 @@
       "writtenOn": "2024-01-27T00:23:31Z",
       "side": 1,
       "message": "typo: \"Step\"",
+      "range": {
+        "startLine": 50,
+        "startChar": 2,
+        "endLine": 50,
+        "endChar": 6
+      },
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aa2e5d04_f16d3131",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2e4f296e_0de17239",
       "range": {
         "startLine": 50,
         "startChar": 2,
@@ -219,6 +411,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c9425179_99133548",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "I\u0027m only turning this doc (https://docs.google.com/document/d/1zUyqdli96B-ATokLvfBz9TZJ-ZOwOlBvFOdNO9c85IY/edit?pli\u003d1\u0026resourcekey\u003d0-U5S-oQK_f-wkXFeoebzmtQ\u0026tab\u003dt.0) into markdown.  Any additional content needs to be added there for approval.",
+      "parentUuid": "362b1249_a53065ff",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "fb2b4cc6_948ed1a1",
         "filename": "site/for-testers/faq/index.md",
         "patchSetId": 10
@@ -236,6 +446,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "99a935ae_6cbb2220",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "I\u0027m only turning this doc (https://docs.google.com/document/d/1zUyqdli96B-ATokLvfBz9TZJ-ZOwOlBvFOdNO9c85IY/edit?pli\u003d1\u0026resourcekey\u003d0-U5S-oQK_f-wkXFeoebzmtQ\u0026tab\u003dt.0) into markdown.  Any additional content needs to be added there for approval.",
+      "parentUuid": "fb2b4cc6_948ed1a1",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "2e07d3b5_2a958f67",
         "filename": "site/for-testers/faq/index.md",
         "patchSetId": 10
@@ -247,6 +475,24 @@
       "writtenOn": "2024-01-27T00:23:31Z",
       "side": 1,
       "message": "Do we need to add something here about how there is a Severity field now?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "72f081c4_7d71136c",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "I\u0027m only turning this doc (https://docs.google.com/document/d/1zUyqdli96B-ATokLvfBz9TZJ-ZOwOlBvFOdNO9c85IY/edit?pli\u003d1\u0026resourcekey\u003d0-U5S-oQK_f-wkXFeoebzmtQ\u0026tab\u003dt.0) into markdown.  Any additional content needs to be added there for approval.",
+      "parentUuid": "2e07d3b5_2a958f67",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -276,6 +522,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "bec218c5_dc39c81e",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "I\u0027m only turning this doc (https://docs.google.com/document/d/1zUyqdli96B-ATokLvfBz9TZJ-ZOwOlBvFOdNO9c85IY/edit?pli\u003d1\u0026resourcekey\u003d0-U5S-oQK_f-wkXFeoebzmtQ\u0026tab\u003dt.0) into markdown.  Any additional content needs to be added there for approval.",
+      "parentUuid": "1bd939bb_65d46195",
+      "range": {
+        "startLine": 85,
+        "startChar": 0,
+        "endLine": 85,
+        "endChar": 60
+      },
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "349ee03a_7585a34f",
         "filename": "site/for-testers/faq/index.md",
         "patchSetId": 10
@@ -293,6 +563,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0df5b87f_34ed03f0",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "I\u0027m only turning this doc (https://docs.google.com/document/d/1zUyqdli96B-ATokLvfBz9TZJ-ZOwOlBvFOdNO9c85IY/edit?pli\u003d1\u0026resourcekey\u003d0-U5S-oQK_f-wkXFeoebzmtQ\u0026tab\u003dt.0) into markdown.  Any additional content needs to be added there for approval.",
+      "parentUuid": "349ee03a_7585a34f",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e86a5f90_d27e8368",
         "filename": "site/for-testers/faq/index.md",
         "patchSetId": 10
@@ -304,6 +592,30 @@
       "writtenOn": "2024-01-27T00:23:31Z",
       "side": 1,
       "message": "Is this accidentally left over from something?",
+      "range": {
+        "startLine": 95,
+        "startChar": 193,
+        "endLine": 95,
+        "endChar": 244
+      },
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "76b5629f_73ea2709",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "yes, removed",
+      "parentUuid": "e86a5f90_d27e8368",
       "range": {
         "startLine": 95,
         "startChar": 193,
@@ -333,6 +645,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "9c5fac24_2e90ff84",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "I\u0027m only turning this doc (https://docs.google.com/document/d/1zUyqdli96B-ATokLvfBz9TZJ-ZOwOlBvFOdNO9c85IY/edit?pli\u003d1\u0026resourcekey\u003d0-U5S-oQK_f-wkXFeoebzmtQ\u0026tab\u003dt.0) into markdown.  Any additional content needs to be added there for approval.",
+      "parentUuid": "342ef53a_3e6f894e",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "8a36ab6e_545a5fc7",
         "filename": "site/for-testers/faq/index.md",
         "patchSetId": 10
@@ -344,6 +674,24 @@
       "writtenOn": "2024-01-27T00:23:31Z",
       "side": 1,
       "message": "Add the bit about autocomplete here as well. It\u0027s usually a good idea (IMO) to repeat short-ish bits of information in FAQs so that users don\u0027t miss them (and don\u0027t have to jump around for them).",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bf54cb2e_7461e0eb",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "I\u0027m only turning this doc (https://docs.google.com/document/d/1zUyqdli96B-ATokLvfBz9TZJ-ZOwOlBvFOdNO9c85IY/edit?pli\u003d1\u0026resourcekey\u003d0-U5S-oQK_f-wkXFeoebzmtQ\u0026tab\u003dt.0) into markdown.  Any additional content needs to be added there for approval.",
+      "parentUuid": "8a36ab6e_545a5fc7",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -365,6 +713,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8cdf7e2e_9af941a3",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "777e37cf_9e81e25b",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ba5aa4c9_016ef08d",
@@ -378,6 +744,24 @@
       "writtenOn": "2024-01-27T00:23:31Z",
       "side": 1,
       "message": "Is this correct? I thought any user regardless of privileges can add bugs to hotlists.",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e699f068_b7d6e2bf",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "Depends on the privileges set on the hotlist.",
+      "parentUuid": "ba5aa4c9_016ef08d",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -405,6 +789,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "874225db_c4b4d0a4",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f5f844fd_ee4359f2",
+      "range": {
+        "startLine": 203,
+        "startChar": 37,
+        "endLine": 203,
+        "endChar": 40
+      },
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d8cd4ddd_ebe250b3",
@@ -418,6 +826,24 @@
       "writtenOn": "2024-01-27T00:23:31Z",
       "side": 1,
       "message": "\"Only migrate hotlists\" is awkward. Maybe \"Only hotlists that are owned by a @google.com account or a @chromium.org account and that have at least one issue will be migrated\"? +/- whatever tense you end up going with.",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b0bf5fb_0aa4c99d",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 229,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d8cd4ddd_ebe250b3",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -441,6 +867,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4e296ccf_266e44e8",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 230,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "I\u0027m only turning this doc (https://docs.google.com/document/d/1zUyqdli96B-ATokLvfBz9TZJ-ZOwOlBvFOdNO9c85IY/edit?pli\u003d1\u0026resourcekey\u003d0-U5S-oQK_f-wkXFeoebzmtQ\u0026tab\u003dt.0) into markdown.  Any significant content change needs to be added there for approval.",
+      "parentUuid": "8b0cb775_573af989",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "14555193_f4c05a46",
         "filename": "site/for-testers/faq/index.md",
         "patchSetId": 10
@@ -452,6 +896,24 @@
       "writtenOn": "2024-01-27T00:23:31Z",
       "side": 1,
       "message": "Did we really have ~60k unique labels?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ef67016e_d91b95ac",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "That\u0027s the data that was I given",
+      "parentUuid": "14555193_f4c05a46",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -475,6 +937,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3fcd541a_e82e2975",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "I\u0027m only turning this doc (https://docs.google.com/document/d/1zUyqdli96B-ATokLvfBz9TZJ-ZOwOlBvFOdNO9c85IY/edit?pli\u003d1\u0026resourcekey\u003d0-U5S-oQK_f-wkXFeoebzmtQ\u0026tab\u003dt.0) into markdown.  Any additional content needs to be added there for approval.",
+      "parentUuid": "59b122cd_c6b36b7d",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d5ef4b61_0fa10c9f",
         "filename": "site/for-testers/faq/index.md",
         "patchSetId": 10
@@ -486,6 +966,24 @@
       "writtenOn": "2024-01-27T00:23:31Z",
       "side": 1,
       "message": "Same question. Maybe these can all be part of one problem?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c151c72f_46703f85",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "I\u0027m only turning this doc (https://docs.google.com/document/d/1zUyqdli96B-ATokLvfBz9TZJ-ZOwOlBvFOdNO9c85IY/edit?pli\u003d1\u0026resourcekey\u003d0-U5S-oQK_f-wkXFeoebzmtQ\u0026tab\u003dt.0) into markdown.  Any additional content needs to be added there for approval.",
+      "parentUuid": "d5ef4b61_0fa10c9f",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -509,6 +1007,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7c4d310a_2194abc3",
+        "filename": "site/for-testers/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "This was the previous wording already there, I only updated the link because the old link went to a page with another link.",
+      "parentUuid": "9eb9e46e_16c57db3",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bc3bba93_a67272f4",
         "filename": "site/for-testers/index.md",
         "patchSetId": 10
@@ -526,6 +1042,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f8477fc0_7fa84e97",
+        "filename": "site/for-testers/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "they are in custom fields, but unfortunately, you can\u0027t search custom field across multiple components, so this is basically a text search. I couldn\u0027t think of another way to do it.\n\nWe can take these searches out entirely.",
+      "parentUuid": "bc3bba93_a67272f4",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "49148679_1f0bb021",
         "filename": "site/for-testers/providing-memory-details/index.md",
         "patchSetId": 10
@@ -537,6 +1071,24 @@
       "writtenOn": "2024-01-27T00:23:31Z",
       "side": 1,
       "message": "Yay formatting cleanup! :).",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d19fb12_f3ed0fe0",
+        "filename": "site/for-testers/providing-memory-details/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "49148679_1f0bb021",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -560,6 +1112,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "beba6a27_37e51d2b",
+        "filename": "site/for-testers/query-syntax/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "I\u0027m only turning this doc (https://docs.google.com/document/d/1Nhu8B7-tqiccJiAGNPo0sh8iitQHXmnVOfm0a7WjvFM/edit?resourcekey\u003d0-9ctr29wZxyncucGOmrsrNA\u0026tab\u003dt.0#heading\u003dh.kesjdnqwtm58) into markdown. Any changes in content needs to be added there for approval.",
+      "parentUuid": "1b470806_77e360d6",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "75de9b5b_ad32e3d6",
         "filename": "site/for-testers/query-syntax/index.md",
         "patchSetId": 10
@@ -577,6 +1147,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a7c7e78b_c3f9a18c",
+        "filename": "site/for-testers/query-syntax/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "The linked doc is the internal FAQ, I\u0027m was only asked to the the external faq into markdown.\nhttps://docs.google.com/document/d/1zUyqdli96B-ATokLvfBz9TZJ-ZOwOlBvFOdNO9c85IY/edit?pli\u003d1\u0026resourcekey\u003d0-U5S-oQK_f-wkXFeoebzmtQ\u0026tab\u003dt.0",
+      "parentUuid": "75de9b5b_ad32e3d6",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "077903bb_c4091feb",
         "filename": "site/for-testers/query-syntax/index.md",
         "patchSetId": 10
@@ -588,6 +1176,24 @@
       "writtenOn": "2024-01-27T00:23:31Z",
       "side": 1,
       "message": "I don\u0027t understand this. Do you mean from Buganizer and other instances of the issue track?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c9196ff0_d697280b",
+        "filename": "site/for-testers/query-syntax/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "I\u0027m only turning this doc (https://docs.google.com/document/d/1Nhu8B7-tqiccJiAGNPo0sh8iitQHXmnVOfm0a7WjvFM/edit?resourcekey\u003d0-9ctr29wZxyncucGOmrsrNA\u0026tab\u003dt.0#heading\u003dh.kesjdnqwtm58) into markdown. Any changes in content needs to be added there for approval.",
+      "parentUuid": "077903bb_c4091feb",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -615,6 +1221,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f70ed4bc_7311d0b8",
+        "filename": "site/for-testers/query-syntax/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 230,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d24e6991_7c9bf5b1",
+      "range": {
+        "startLine": 230,
+        "startChar": 19,
+        "endLine": 230,
+        "endChar": 25
+      },
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "503a1c3c_ee4e569f",
@@ -632,6 +1262,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5649ac46_72850c1e",
+        "filename": "site/getting-involved/bug-triage/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "503a1c3c_ee4e569f",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3e53b19e_60035a70",
@@ -645,6 +1293,30 @@
       "writtenOn": "2024-01-27T00:23:31Z",
       "side": 1,
       "message": "\"should this be \"component\" instead? Also, bugs won\u0027t have no components, so maybe this should be the \"chromium\" component?",
+      "range": {
+        "startLine": 134,
+        "startChar": 56,
+        "endLine": 134,
+        "endChar": 62
+      },
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "49567f84_6b1ac114",
+        "filename": "site/getting-involved/bug-triage/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 134,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3e53b19e_60035a70",
       "range": {
         "startLine": 134,
         "startChar": 56,
@@ -680,6 +1352,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "57dcc61d_6b9b1d50",
+        "filename": "site/getting-involved/get-bug-editing-privileges/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "It\u0027s not in our docs to have someone vouch for you to get bug-edit access.  We\u0027ve been granting it to anyone who asks... they usually come from @microsoft, @intel, etc. email addresses.\n\nDo we need modify our instructions that requesters need someone to vouch for them?",
+      "parentUuid": "91ea644c_7bb12a55",
+      "range": {
+        "startLine": 31,
+        "startChar": 70,
+        "endLine": 31,
+        "endChar": 73
+      },
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "8d61f3c2_d855f9a8",
         "filename": "site/getting-involved/get-bug-editing-privileges/index.md",
         "patchSetId": 10
@@ -697,6 +1393,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f84e359d_b28407d7",
+        "filename": "site/getting-involved/get-bug-editing-privileges/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "It\u0027s not in our docs to have someone vouch for you to get bug-edit access. We\u0027ve been granting it to anyone who asks... they usually come from @microsoft, @intel, etc. email addresses.\n\nDo we need modify our instructions that requesters need someone to vouch for them?",
+      "parentUuid": "8d61f3c2_d855f9a8",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a05d9a7f_a8bbfbde",
         "filename": "site/issue-tracking/requesting-a-component-or-label/index.md",
         "patchSetId": 10
@@ -708,6 +1422,24 @@
       "writtenOn": "2024-01-27T00:23:31Z",
       "side": 1,
       "message": "should this be issues.chromium.org? Or will there be a redirect that works?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "09591c94_5663fdd9",
+        "filename": "site/issue-tracking/requesting-a-component-or-label/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a05d9a7f_a8bbfbde",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -731,6 +1463,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "34bb8030_32bc6eca",
+        "filename": "site/issue-tracking/requesting-a-component-or-label/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "I don\u0027t know, should I just remove it?",
+      "parentUuid": "6666fdba_5b043a19",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "39288871_d3ccf59b",
         "filename": "site/issue-tracking/requesting-a-component-or-label/index.md",
         "patchSetId": 10
@@ -742,6 +1492,24 @@
       "writtenOn": "2024-01-27T00:23:31Z",
       "side": 1,
       "message": "They do?",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "85bde48d_f6f3e9b4",
+        "filename": "site/issue-tracking/requesting-a-component-or-label/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-27T01:46:06Z",
+      "side": 1,
+      "message": "by default I believe they do.  When I create a hotlist, it only opens up to buganizer-common-tools and Full time Googlers.  I don\u0027t know what the default is for external users.",
+      "parentUuid": "39288871_d3ccf59b",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
