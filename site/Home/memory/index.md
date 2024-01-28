@@ -8,4 +8,4 @@ title: OBSOLETE. Memory!  Landing page for information on memory efforts and too
 ---
 
 Content moved to
-<https://chromium.googlesource.com/chromium/src/+/HEAD/docs/memory>
+<https://chromium.googlesource.com/chromium/src/Home/HEAD/docs/memory>
