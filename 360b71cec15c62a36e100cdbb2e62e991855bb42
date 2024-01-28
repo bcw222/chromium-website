@@ -55,6 +55,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "15665ba9_f2ac8d6f",
+        "filename": "site/developers/design-documents/accessibility/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1185239
+      },
+      "writtenOn": "2024-01-28T20:21:55Z",
+      "side": 1,
+      "message": "I don\u0027t believe that\u0027s true, you should be able to search those labels (as custom fields) across multiple components, for example:\n\nhttps://g-issues.chromium.org/issues?q\u003dstatus:open%20customfield1223031:Target-122",
+      "parentUuid": "0fa489cc_84699832",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "290a08c3_27afe468",
         "filename": "site/for-testers/bug-reporting-guidelines/chromium-bug-hotlists/index.md",
         "patchSetId": 10
