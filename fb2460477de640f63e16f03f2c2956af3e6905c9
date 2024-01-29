@@ -1,0 +1,107 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d785cdeb_b890ffa0",
+        "filename": "site/for-testers/bug-reporting-guidelines/chromium-bug-hotlists/index.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1159599
+      },
+      "writtenOn": "2024-01-29T22:50:24Z",
+      "side": 1,
+      "message": "If we want to be extra helpful here, it could make sense to pull in some info from this FAQ entry on the differences between Monorail Labels. Chromium Labels, and hotlists: https://docs.google.com/document/d/1TzXvJcCLXU1BlzdApfbnwxpbXHpGZQnFxDFh0eKzoGc/edit?tab\u003dt.0#heading\u003dh.u0hdzuwpd2lq",
+      "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "39ed8aaf_f3abfbaf",
+        "filename": "site/for-testers/bug-reporting-guidelines/chromium-bug-hotlists/index.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1159599
+      },
+      "writtenOn": "2024-01-29T22:50:24Z",
+      "side": 1,
+      "message": "I think this might be a bit of a confusing simplification since most labels in Monorail will have migrated to the \"Chromium Labels\" custom field. \n\nMaybe we could reword this to something like \"Most label use cases are supported by hotlists in the new issue tracker\" \n\nThen include a note saying that many historic labels have been migrated to the \"Chromium Labels\" custom field.",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 60
+      },
+      "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8301c7f3_4f511f14",
+        "filename": "site/for-testers/bug-reporting-guidelines/chromium-bug-hotlists/index.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1159599
+      },
+      "writtenOn": "2024-01-29T22:50:24Z",
+      "side": 1,
+      "message": "This paragraph feels like a bit of nonsequitur in this section - the Chromium Labels custom field seems to have very little to do with bookmark groups because we don\u0027t tend to put custom field searches inside of bookmark groups. \n\nCould it be that the intent here was to discuss bookmark groups for labels that have been migrated to hotlists instead?",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 95
+      },
+      "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9c5510ad_22c2da2f",
+        "filename": "site/for-testers/bug-reporting-guidelines/index.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1159599
+      },
+      "writtenOn": "2024-01-29T22:50:24Z",
+      "side": 1,
+      "message": "We may want to mention the Available and Unconfirmed hotlists per our triage workflow docs here: https://docs.google.com/document/d/1TzXvJcCLXU1BlzdApfbnwxpbXHpGZQnFxDFh0eKzoGc/edit?tab\u003dt.0#bookmark\u003did.6enbn3egktc",
+      "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f90a5d6_4c3eb166",
+        "filename": "site/for-testers/bug-reporting-guidelines/triage-best-practices/index.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1159599
+      },
+      "writtenOn": "2024-01-29T22:50:24Z",
+      "side": 1,
+      "message": "Per Triage Workflows ( https://docs.google.com/document/d/1TzXvJcCLXU1BlzdApfbnwxpbXHpGZQnFxDFh0eKzoGc/edit?tab\u003dt.0 ), this might be a good place to mention the Available hotlist",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 67
+      },
+      "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
