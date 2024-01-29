@@ -24,9 +24,8 @@ charger design:
 *   Support OCP (Over Current Protection) / OVP (Over Voltage
             Protection) at adapter's secondary side
 
-### <img alt="image"
-src="/chromium-os/minimuffin/45W%20Type-C%20Adapter%20Control%20Board%20150710.gif"
-height=259 width=400>
+### Image
+<img alt="image" src="/chromium-os/minimuffin/45W%20Type-C%20Adapter%20Control%20Board%20150710.gif" height=259 width=400>
 
 For schematic, see the attached file at the bottom of this page.
 
