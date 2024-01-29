@@ -273,6 +273,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "6dbf1d08_8504ee61",
+        "filename": "site/getting-involved/bug-triage/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-29T22:56:55Z",
+      "side": 0,
+      "message": "Right, we\u0027re emulating \"unconfirmed\" and \"untriaged\" via new hotlists in Buganizer/Issue Tracker, so we should mention that here. Also, I believe we\u0027re planning to continue to use (update) these hotlists post-migration.",
+      "parentUuid": "db29c9d9_f7242cb8",
+      "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "cde21244_b2d1f2eb",
         "filename": "site/glossary/index.md",
         "patchSetId": 10

@@ -196,6 +196,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "0a104252_2f7e93fd",
+        "filename": "site/for-testers/bug-reporting-guidelines/hanging-tabs/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-29T22:56:55Z",
+      "side": 1,
+      "message": "Let\u0027s call it the \"Settings menu\".",
+      "parentUuid": "601df2d3_a890a38f",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "941a6874_db943129",
         "filename": "site/for-testers/bug-reporting-guidelines/index.md",
         "patchSetId": 10
@@ -499,6 +517,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d4de9084_81f98ca4",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-29T22:56:55Z",
+      "side": 1,
+      "message": "Okay, I\u0027ll add some comments there.",
+      "parentUuid": "c9425179_99133548",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fb2b4cc6_948ed1a1",
@@ -534,6 +570,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "890392d7_1eca34a8",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-29T22:56:55Z",
+      "side": 1,
+      "message": "got it.",
+      "parentUuid": "99a935ae_6cbb2220",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2e07d3b5_2a958f67",
@@ -565,6 +619,24 @@
       "side": 1,
       "message": "I\u0027m only turning this doc (https://docs.google.com/document/d/1zUyqdli96B-ATokLvfBz9TZJ-ZOwOlBvFOdNO9c85IY/edit?pli\u003d1\u0026resourcekey\u003d0-U5S-oQK_f-wkXFeoebzmtQ\u0026tab\u003dt.0) into markdown.  Any additional content needs to be added there for approval.",
       "parentUuid": "2e07d3b5_2a958f67",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "35734728_8d7f2fb1",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-29T22:56:55Z",
+      "side": 1,
+      "message": "commented there.",
+      "parentUuid": "72f081c4_7d71136c",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -616,6 +688,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f3bd6b25_f6b8d073",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-29T22:56:55Z",
+      "side": 1,
+      "message": "commented.",
+      "parentUuid": "bec218c5_dc39c81e",
+      "range": {
+        "startLine": 85,
+        "startChar": 0,
+        "endLine": 85,
+        "endChar": 60
+      },
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "349ee03a_7585a34f",
@@ -647,6 +743,24 @@
       "side": 1,
       "message": "I\u0027m only turning this doc (https://docs.google.com/document/d/1zUyqdli96B-ATokLvfBz9TZJ-ZOwOlBvFOdNO9c85IY/edit?pli\u003d1\u0026resourcekey\u003d0-U5S-oQK_f-wkXFeoebzmtQ\u0026tab\u003dt.0) into markdown.  Any additional content needs to be added there for approval.",
       "parentUuid": "349ee03a_7585a34f",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b54a770b_02b63ded",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-29T22:56:55Z",
+      "side": 1,
+      "message": "commented",
+      "parentUuid": "0df5b87f_34ed03f0",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -768,6 +882,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "032d627e_f02dff7b",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-29T22:56:55Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "bf54cb2e_7461e0eb",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "777e37cf_9e81e25b",
@@ -834,6 +966,24 @@
       "side": 1,
       "message": "Depends on the privileges set on the hotlist.",
       "parentUuid": "ba5aa4c9_016ef08d",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b5726a2_0eb3413d",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-29T22:56:55Z",
+      "side": 1,
+      "message": "Okay, following up on this separately, looks the text here that I was thinking of has changed.",
+      "parentUuid": "e699f068_b7d6e2bf",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -955,6 +1105,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a36268b_9dc6a7af",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 230,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-29T22:56:55Z",
+      "side": 1,
+      "message": "Okay. I think I figured out what this means regardless :).",
+      "parentUuid": "4e296ccf_266e44e8",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "14555193_f4c05a46",
@@ -986,6 +1154,24 @@
       "side": 1,
       "message": "That\u0027s the data that was I given",
       "parentUuid": "14555193_f4c05a46",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2103be1_fac143a7",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-29T22:56:55Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "ef67016e_d91b95ac",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -1025,6 +1211,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d0f6dbea_8dd9e4b7",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-29T22:56:55Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "3fcd541a_e82e2975",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d5ef4b61_0fa10c9f",
@@ -1060,6 +1264,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f9ffd815_f1dbeeb5",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 255,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-29T22:56:55Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "c151c72f_46703f85",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9eb9e46e_16c57db3",
@@ -1091,6 +1313,24 @@
       "side": 1,
       "message": "This was the previous wording already there, I only updated the link because the old link went to a page with another link.",
       "parentUuid": "9eb9e46e_16c57db3",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "30c9f6d0_5e39a79f",
+        "filename": "site/for-testers/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-29T22:56:55Z",
+      "side": 1,
+      "message": "Understood.",
+      "parentUuid": "7c4d310a_2194abc3",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -1218,6 +1458,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "996c94d1_c9651374",
+        "filename": "site/for-testers/query-syntax/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-29T22:56:55Z",
+      "side": 1,
+      "message": "commented there.",
+      "parentUuid": "beba6a27_37e51d2b",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "75de9b5b_ad32e3d6",
@@ -1253,6 +1511,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9cba24be_63c10b51",
+        "filename": "site/for-testers/query-syntax/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-29T22:56:55Z",
+      "side": 1,
+      "message": "Understood, commented there.",
+      "parentUuid": "a7c7e78b_c3f9a18c",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "077903bb_c4091feb",
@@ -1284,6 +1560,24 @@
       "side": 1,
       "message": "I\u0027m only turning this doc (https://docs.google.com/document/d/1Nhu8B7-tqiccJiAGNPo0sh8iitQHXmnVOfm0a7WjvFM/edit?resourcekey\u003d0-9ctr29wZxyncucGOmrsrNA\u0026tab\u003dt.0#heading\u003dh.kesjdnqwtm58) into markdown. Any changes in content needs to be added there for approval.",
       "parentUuid": "077903bb_c4091feb",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c87cfa2a_084be39f",
+        "filename": "site/for-testers/query-syntax/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 191,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-29T22:56:55Z",
+      "side": 1,
+      "message": "Acknowledged, commented there.",
+      "parentUuid": "c9196ff0_d697280b",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -1466,6 +1760,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "20a841ca_11e0f415",
+        "filename": "site/getting-involved/get-bug-editing-privileges/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-29T22:56:55Z",
+      "side": 1,
+      "message": "Do we know if anyone is asking a contributor to review their work?\n\nI imagine we probably give blanket passes to people from the big partners; this more applies to individual gmail (or other) accounts that we may not know much about.\n\nLet\u0027s take this as a separate issue outside of this doc and the migration.",
+      "parentUuid": "57dcc61d_6b9b1d50",
+      "range": {
+        "startLine": 31,
+        "startChar": 70,
+        "endLine": 31,
+        "endChar": 73
+      },
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "8d61f3c2_d855f9a8",
         "filename": "site/getting-involved/get-bug-editing-privileges/index.md",
         "patchSetId": 10
@@ -1571,6 +1889,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a7a70160_c9f1139f",
+        "filename": "site/issue-tracking/requesting-a-component-or-label/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-29T22:56:55Z",
+      "side": 1,
+      "message": "Maybe we should ask the WG what they recommend? I don\u0027t even know if we\u0027ve really been using \"Proj-\" in Monorail.",
+      "parentUuid": "34bb8030_32bc6eca",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "39288871_d3ccf59b",
         "filename": "site/issue-tracking/requesting-a-component-or-label/index.md",
         "patchSetId": 10
@@ -1600,6 +1936,24 @@
       "side": 1,
       "message": "by default I believe they do.  When I create a hotlist, it only opens up to buganizer-common-tools and Full time Googlers.  I don\u0027t know what the default is for external users.",
       "parentUuid": "39288871_d3ccf59b",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "63171b90_51696589",
+        "filename": "site/issue-tracking/requesting-a-component-or-label/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-29T22:56:55Z",
+      "side": 1,
+      "message": "Okay, I\u0027m following up w/ folks on the WG list.",
+      "parentUuid": "85bde48d_f6f3e9b4",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
