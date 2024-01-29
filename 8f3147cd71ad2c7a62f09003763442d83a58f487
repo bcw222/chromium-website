@@ -255,6 +255,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "db29c9d9_f7242cb8",
+        "filename": "site/getting-involved/bug-triage/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-29T05:25:18Z",
+      "side": 0,
+      "message": "I think I need some clarification.  All bugs from Monorail that was \"Unconfirmed\" will be moved into the \"Unconfirmed\" hotlist.  \n\nNew bugs created in Buganizer doesn\u0027t not get added to the \"Unconfirmed\" hotlist.\nTest bug created here: https://g-issues.chromium.org/issues/322724861\nThere\u0027s not hotlist attached.\n\nThere\u0027s also no \"untriaged\" hotlist or status in Buganizer.",
+      "parentUuid": "d65e67b5_7e51d685",
+      "revId": "8f3147cd71ad2c7a62f09003763442d83a58f487",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "cde21244_b2d1f2eb",
         "filename": "site/glossary/index.md",
         "patchSetId": 10

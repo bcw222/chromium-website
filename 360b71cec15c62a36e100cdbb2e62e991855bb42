@@ -71,6 +71,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e031e2a_b44cdcf3",
+        "filename": "site/developers/design-documents/accessibility/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-29T05:25:18Z",
+      "side": 1,
+      "message": "Thank you for pointing that out, fixed all instances.",
+      "parentUuid": "15665ba9_f2ac8d6f",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "290a08c3_27afe468",
@@ -211,6 +229,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e98f819_339b6591",
+        "filename": "site/for-testers/bug-reporting-guidelines/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-29T05:25:18Z",
+      "side": 1,
+      "message": "updated with custom field search",
+      "parentUuid": "7246bd3c_f1d3ab5d",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "69ec2811_fdc7c220",
@@ -289,6 +325,24 @@
       "side": 1,
       "message": "they are in custom fields, but unfortunately, you can\u0027t search custom field across multiple components, so this is basically a text search. I couldn\u0027t think of another way to do it.\n\nWe can take these searches out entirely.",
       "parentUuid": "92366e82_54ac797c",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1088634b_1cd5581e",
+        "filename": "site/for-testers/bug-reporting-guidlines-for-the-mac-linux-builds/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-29T05:25:18Z",
+      "side": 1,
+      "message": "updated with custom field searched",
+      "parentUuid": "38806583_ab8b08fb",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -1072,6 +1126,24 @@
       "side": 1,
       "message": "they are in custom fields, but unfortunately, you can\u0027t search custom field across multiple components, so this is basically a text search. I couldn\u0027t think of another way to do it.\n\nWe can take these searches out entirely.",
       "parentUuid": "bc3bba93_a67272f4",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9979313_40c76ed8",
+        "filename": "site/for-testers/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-29T05:25:18Z",
+      "side": 1,
+      "message": "updated with custom field searches",
+      "parentUuid": "f8477fc0_7fa84e97",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
