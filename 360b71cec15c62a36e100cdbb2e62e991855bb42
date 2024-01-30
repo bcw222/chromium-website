@@ -849,6 +849,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "083eb7ef_61d296b0",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1303432
+      },
+      "writtenOn": "2024-01-30T02:14:26Z",
+      "side": 1,
+      "message": "I am not sure why this particular fact was omitted in the external FAQ, but we will migrate any hotlists that are owned by a @google.com or a @chromium.org accounts.",
+      "parentUuid": "9c5fac24_2e90ff84",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "8a36ab6e_545a5fc7",
         "filename": "site/for-testers/faq/index.md",
         "patchSetId": 10

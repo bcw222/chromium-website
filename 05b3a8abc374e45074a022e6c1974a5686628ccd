@@ -1,0 +1,101 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "48c64cd3_e7393c52",
+        "filename": "site/developers/design-documents/accessibility/index.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 1303432
+      },
+      "writtenOn": "2024-01-30T02:14:26Z",
+      "side": 1,
+      "message": "Monorail searches are by default scoped to open issues, where Buganizer searches are by default scoped to all issues. So if you want this (and the other searches listed) to be the same as Monorail, including only open issues, you probably want to add \u0027status:open\u0027 to the Buganizer query.",
+      "revId": "05b3a8abc374e45074a022e6c1974a5686628ccd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "da78fc66_2f1869b5",
+        "filename": "site/for-testers/bug-reporting-guidelines/chromium-bug-hotlists/index.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1303432
+      },
+      "writtenOn": "2024-01-30T02:14:26Z",
+      "side": 1,
+      "message": "I you want to match the bookmark group name it\u0027s\n\n\u0027Chromium Critical Hotlists\u0027",
+      "range": {
+        "startLine": 38,
+        "startChar": 28,
+        "endLine": 38,
+        "endChar": 78
+      },
+      "revId": "05b3a8abc374e45074a022e6c1974a5686628ccd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f4e21d1_17cf0e11",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1303432
+      },
+      "writtenOn": "2024-01-30T02:14:26Z",
+      "side": 1,
+      "message": "```suggestion\n**Step 2)**  \n```",
+      "revId": "05b3a8abc374e45074a022e6c1974a5686628ccd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1a9dfe28_ea3b5f9c",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 1303432
+      },
+      "writtenOn": "2024-01-30T02:14:26Z",
+      "side": 1,
+      "message": "I think we can just remove this line, as I believe we have fixed it.",
+      "revId": "05b3a8abc374e45074a022e6c1974a5686628ccd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8d2abfc1_ff84b778",
+        "filename": "site/issue-tracking/requesting-a-component-or-label/index.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1303432
+      },
+      "writtenOn": "2024-01-30T02:14:26Z",
+      "side": 1,
+      "message": "Should there be guidelines somewhere on how you get a hotlist into the chromium critical hotlist group if a new one should be added?",
+      "range": {
+        "startLine": 19,
+        "startChar": 20,
+        "endLine": 19,
+        "endChar": 27
+      },
+      "revId": "05b3a8abc374e45074a022e6c1974a5686628ccd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
