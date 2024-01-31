@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1fd71161_aa0a5703",
+        "filename": "site/for-testers/bug-reporting-guidelines/chromium-bug-hotlists/index.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T22:51:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4a54a7e9_4cd08a71",
+      "revId": "1c38effb91548c336e6d74c6a212d23bc1290e4e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fc231525_79dc0d15",
@@ -48,6 +66,24 @@
       "writtenOn": "2024-01-31T21:15:33Z",
       "side": 1,
       "message": "Nit: \"Settings menu\" here as well (sorry I missed this one earlier).",
+      "revId": "1c38effb91548c336e6d74c6a212d23bc1290e4e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c76f5450_b9bb57a7",
+        "filename": "site/for-testers/bug-reporting-guidelines/hanging-tabs/index.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T22:51:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fc231525_79dc0d15",
       "revId": "1c38effb91548c336e6d74c6a212d23bc1290e4e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -69,6 +105,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "930182f9_29d19600",
+        "filename": "site/for-testers/bug-reporting-guidelines/index.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T22:51:18Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "aca3a0f9_ab4c8ca1",
+      "revId": "1c38effb91548c336e6d74c6a212d23bc1290e4e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e07a08fb_e96165f6",
@@ -82,6 +136,24 @@
       "writtenOn": "2024-01-31T21:15:33Z",
       "side": 1,
       "message": "Nit: should this be **Assigned**?",
+      "revId": "1c38effb91548c336e6d74c6a212d23bc1290e4e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "35342749_42217276",
+        "filename": "site/for-testers/bug-reporting-guidelines/index.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T22:51:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e07a08fb_e96165f6",
       "revId": "1c38effb91548c336e6d74c6a212d23bc1290e4e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -103,6 +175,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f1ff38b4_7dfb1e01",
+        "filename": "site/for-testers/faq/SS_1.png.sha1",
+        "patchSetId": 16
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T22:51:18Z",
+      "side": 1,
+      "message": "Yes, I wanted to get them uploaded as a separate patchset so I didn\u0027t mess up other edits.",
+      "parentUuid": "d4f5b872_a6007f9a",
+      "revId": "1c38effb91548c336e6d74c6a212d23bc1290e4e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ffe1771f_0383394b",
@@ -116,6 +206,24 @@
       "writtenOn": "2024-01-31T21:15:33Z",
       "side": 1,
       "message": "Nit: trailing spaces.",
+      "revId": "1c38effb91548c336e6d74c6a212d23bc1290e4e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1ecd8ee1_6cf09719",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T22:51:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ffe1771f_0383394b",
       "revId": "1c38effb91548c336e6d74c6a212d23bc1290e4e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -137,6 +245,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a63c9a1_dfe76b3a",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 259,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T22:51:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "10b536ec_92ded63c",
+      "revId": "1c38effb91548c336e6d74c6a212d23bc1290e4e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "76705d87_d70c87fe",
@@ -150,6 +276,24 @@
       "writtenOn": "2024-01-31T21:15:33Z",
       "side": 1,
       "message": "You\u0027re missing the front matter here. This should probably be something like\n\n---\nbreadcrumbs:\n- - /for-testers/\n  - For Testers\npage_name: issue-query-syntax-for-monorail-users\ntitle: Issue Tracker Query Syntax for Monorail Users\n---\n\nand then omit line 2.",
+      "revId": "1c38effb91548c336e6d74c6a212d23bc1290e4e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ca7a89bb_b96476b7",
+        "filename": "site/for-testers/query-syntax/index.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T22:51:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "76705d87_d70c87fe",
       "revId": "1c38effb91548c336e6d74c6a212d23bc1290e4e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }

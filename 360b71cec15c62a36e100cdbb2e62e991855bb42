@@ -2034,6 +2034,24 @@
       "parentUuid": "85bde48d_f6f3e9b4",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f8e360e_017052bb",
+        "filename": "site/issue-tracking/requesting-a-component-or-label/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T22:51:18Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "63171b90_51696589",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
