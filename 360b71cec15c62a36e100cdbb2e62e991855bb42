@@ -212,6 +212,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "027dad5d_8699f2fc",
+        "filename": "site/for-testers/bug-reporting-guidelines/hanging-tabs/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T00:35:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0a104252_2f7e93fd",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "941a6874_db943129",
@@ -1790,6 +1808,30 @@
       "side": 1,
       "message": "Do we know if anyone is asking a contributor to review their work?\n\nI imagine we probably give blanket passes to people from the big partners; this more applies to individual gmail (or other) accounts that we may not know much about.\n\nLet\u0027s take this as a separate issue outside of this doc and the migration.",
       "parentUuid": "57dcc61d_6b9b1d50",
+      "range": {
+        "startLine": 31,
+        "startChar": 70,
+        "endLine": 31,
+        "endChar": 73
+      },
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "69b28974_212ca1a6",
+        "filename": "site/getting-involved/get-bug-editing-privileges/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T00:35:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "20a841ca_11e0f415",
       "range": {
         "startLine": 31,
         "startChar": 70,

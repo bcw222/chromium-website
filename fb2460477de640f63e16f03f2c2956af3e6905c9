@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "831f326d_8f209364",
+        "filename": "site/administrators/frequently-asked-questions/index.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T00:35:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "06a94c93_7de01df7",
+      "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fa092b97_d1ad486a",
@@ -48,6 +66,24 @@
       "writtenOn": "2024-01-29T22:56:55Z",
       "side": 1,
       "message": "Nit: missing a leading \"(\".",
+      "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8bc3a696_82472991",
+        "filename": "site/administrators/frequently-asked-questions/index.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T00:35:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fa092b97_d1ad486a",
       "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -69,6 +105,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "46ee69fc_bc92e0ea",
+        "filename": "site/for-testers/bug-reporting-guidelines/chromium-bug-hotlists/index.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T00:35:28Z",
+      "side": 1,
+      "message": "Added link to faq section describing the differences",
+      "parentUuid": "d785cdeb_b890ffa0",
+      "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "39ed8aaf_f3abfbaf",
@@ -82,6 +136,30 @@
       "writtenOn": "2024-01-29T22:50:24Z",
       "side": 1,
       "message": "I think this might be a bit of a confusing simplification since most labels in Monorail will have migrated to the \"Chromium Labels\" custom field. \n\nMaybe we could reword this to something like \"Most label use cases are supported by hotlists in the new issue tracker\" \n\nThen include a note saying that many historic labels have been migrated to the \"Chromium Labels\" custom field.",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 60
+      },
+      "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bbdfa76f_ad31363d",
+        "filename": "site/for-testers/bug-reporting-guidelines/chromium-bug-hotlists/index.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T00:35:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "39ed8aaf_f3abfbaf",
       "range": {
         "startLine": 13,
         "startChar": 0,
@@ -115,6 +193,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2024bea0_07623095",
+        "filename": "site/for-testers/bug-reporting-guidelines/chromium-bug-hotlists/index.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T00:35:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8301c7f3_4f511f14",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 95
+      },
+      "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9c5510ad_22c2da2f",
@@ -128,6 +230,24 @@
       "writtenOn": "2024-01-29T22:50:24Z",
       "side": 1,
       "message": "We may want to mention the Available and Unconfirmed hotlists per our triage workflow docs here: https://docs.google.com/document/d/1TzXvJcCLXU1BlzdApfbnwxpbXHpGZQnFxDFh0eKzoGc/edit?tab\u003dt.0#bookmark\u003did.6enbn3egktc",
+      "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cca0f199_d7747ea6",
+        "filename": "site/for-testers/bug-reporting-guidelines/index.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T00:35:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9c5510ad_22c2da2f",
       "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -155,6 +275,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a628623_0e025af1",
+        "filename": "site/for-testers/bug-reporting-guidelines/triage-best-practices/index.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T00:35:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1f90a5d6_4c3eb166",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 67
+      },
+      "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1ee2486a_49c3c805",
@@ -168,6 +312,24 @@
       "writtenOn": "2024-01-29T22:56:55Z",
       "side": 1,
       "message": "Nit: either change this to \"What happened\" or change line 13 to \"Chromium is moving\".",
+      "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9c0c156e_c6bc1603",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T00:35:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1ee2486a_49c3c805",
       "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -189,6 +351,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0038446f_5d7f15c1",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T00:35:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d616c0e5_1829daf3",
+      "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5e3cd421_f2892466",
@@ -206,6 +386,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "78eb0355_79462e24",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T00:35:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5e3cd421_f2892466",
+      "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0444a8c0_dce24c48",
@@ -219,6 +417,24 @@
       "writtenOn": "2024-01-29T22:56:55Z",
       "side": 1,
       "message": "Nit: still some trailing line spaces.",
+      "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "21c40336_451409fe",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T00:35:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0444a8c0_dce24c48",
       "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -246,6 +462,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "88b709c2_714c2a8b",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T00:35:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7a97d7b7_ee8d3542",
+      "range": {
+        "startLine": 95,
+        "startChar": 193,
+        "endLine": 95,
+        "endChar": 244
+      },
+      "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "54bc2542_f2ead34f",
@@ -259,6 +499,24 @@
       "writtenOn": "2024-01-29T22:56:55Z",
       "side": 1,
       "message": "Nit: trailing spaces in this doc, too.",
+      "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "50e29c5f_3e6d4c26",
+        "filename": "site/getting-involved/bug-triage/index.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-01-31T00:35:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "54bc2542_f2ead34f",
       "revId": "fb2460477de640f63e16f03f2c2956af3e6905c9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
