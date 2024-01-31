@@ -1,0 +1,157 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "21becd14_014ddc7b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 16
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-31T21:15:33Z",
+      "side": 1,
+      "message": "almost there :).",
+      "revId": "1c38effb91548c336e6d74c6a212d23bc1290e4e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4a54a7e9_4cd08a71",
+        "filename": "site/for-testers/bug-reporting-guidelines/chromium-bug-hotlists/index.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-31T21:15:33Z",
+      "side": 1,
+      "message": "Nit: only need one blank line here.",
+      "revId": "1c38effb91548c336e6d74c6a212d23bc1290e4e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fc231525_79dc0d15",
+        "filename": "site/for-testers/bug-reporting-guidelines/hanging-tabs/index.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-31T21:15:33Z",
+      "side": 1,
+      "message": "Nit: \"Settings menu\" here as well (sorry I missed this one earlier).",
+      "revId": "1c38effb91548c336e6d74c6a212d23bc1290e4e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aca3a0f9_ab4c8ca1",
+        "filename": "site/for-testers/bug-reporting-guidelines/index.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-31T21:15:33Z",
+      "side": 1,
+      "message": "Side note: I suspect this is no longer the right query for ChromiumOS bugs, but I don\u0027t know how those bugs are surfaced to the public anymore. Something to fix at some point.",
+      "revId": "1c38effb91548c336e6d74c6a212d23bc1290e4e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e07a08fb_e96165f6",
+        "filename": "site/for-testers/bug-reporting-guidelines/index.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-31T21:15:33Z",
+      "side": 1,
+      "message": "Nit: should this be **Assigned**?",
+      "revId": "1c38effb91548c336e6d74c6a212d23bc1290e4e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d4f5b872_a6007f9a",
+        "filename": "site/for-testers/faq/SS_1.png.sha1",
+        "patchSetId": 16
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-31T21:15:33Z",
+      "side": 1,
+      "message": "Do you actually mean for these images to be added to the repo? I didn\u0027t see them being referenced from the index.md page.",
+      "revId": "1c38effb91548c336e6d74c6a212d23bc1290e4e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ffe1771f_0383394b",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-31T21:15:33Z",
+      "side": 1,
+      "message": "Nit: trailing spaces.",
+      "revId": "1c38effb91548c336e6d74c6a212d23bc1290e4e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "10b536ec_92ded63c",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 259,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-31T21:15:33Z",
+      "side": 1,
+      "message": "Nit: trailing space.",
+      "revId": "1c38effb91548c336e6d74c6a212d23bc1290e4e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "76705d87_d70c87fe",
+        "filename": "site/for-testers/query-syntax/index.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-31T21:15:33Z",
+      "side": 1,
+      "message": "You\u0027re missing the front matter here. This should probably be something like\n\n---\nbreadcrumbs:\n- - /for-testers/\n  - For Testers\npage_name: issue-query-syntax-for-monorail-users\ntitle: Issue Tracker Query Syntax for Monorail Users\n---\n\nand then omit line 2.",
+      "revId": "1c38effb91548c336e6d74c6a212d23bc1290e4e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}

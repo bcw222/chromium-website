@@ -1877,6 +1877,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ad59cff_a78be7f4",
+        "filename": "site/getting-involved/get-bug-editing-privileges/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-01-31T21:15:33Z",
+      "side": 1,
+      "message": "Let\u0027s table that for a separate discussion.",
+      "parentUuid": "f84e359d_b28407d7",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a05d9a7f_a8bbfbde",
