@@ -193,6 +193,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1a41c2b5_edf858ff",
+        "filename": "site/for-testers/faq/SS_1.png.sha1",
+        "patchSetId": 16
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-02-01T00:40:33Z",
+      "side": 1,
+      "message": "Oh, I see, patchset 17 actually uses them. Okay then.",
+      "parentUuid": "f1ff38b4_7dfb1e01",
+      "revId": "1c38effb91548c336e6d74c6a212d23bc1290e4e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ffe1771f_0383394b",
