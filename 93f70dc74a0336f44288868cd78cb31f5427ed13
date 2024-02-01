@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4e179162_a1c8e423",
+        "filename": "site/tab-to-search/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2024-02-01T18:01:18Z",
+      "side": 1,
+      "message": "This change LGTM, but I noticed this link seems to be dead. Updating it either in this change or a follow-up would be a good idea.\n\nhttps://developer.mozilla.org/en-US/docs/Web/OpenSearch looks like a reasonable alternative to me.",
+      "range": {
+        "startLine": 67,
+        "startChar": 8,
+        "endLine": 67,
+        "endChar": 114
+      },
+      "revId": "93f70dc74a0336f44288868cd78cb31f5427ed13",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
