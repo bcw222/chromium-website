@@ -33,6 +33,86 @@
       "message": "Also +dcheng for website CONTENT_OWNERS",
       "revId": "83d43a6519d3aaab5f8028108d81b49c300f4f7b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8098a9d6_fdc4d7da",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2024-02-02T21:33:39Z",
+      "side": 1,
+      "message": "LGTM with some optional nits (also some trailing whitespace, and ideally, wrap to 80 chars, blah blah :)",
+      "revId": "83d43a6519d3aaab5f8028108d81b49c300f4f7b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "88c9a8ab_6528d091",
+        "filename": "site/issue-tracking/googler-guidelines/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2024-02-02T21:33:39Z",
+      "side": 1,
+      "message": "Wording-wise, I found this slightly hard to parse.\n\n\n```suggestion\n- **Even security bugs should not normally be restricted to Googlers.** Chromium’s reputation depends upon us being open across all our open-source contributors. Security bugs start as restricted to the Chromium security team, instead of being restricted to Googlers. (Unless embargoed, security bugs are made public after their fix is rolled out.)\n```",
+      "range": {
+        "startLine": 10,
+        "startChar": 227,
+        "endLine": 10,
+        "endChar": 256
+      },
+      "revId": "83d43a6519d3aaab5f8028108d81b49c300f4f7b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "225026c5_366b3fd6",
+        "filename": "site/issue-tracking/googler-guidelines/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2024-02-02T21:33:39Z",
+      "side": 1,
+      "message": "```suggestion\n* **Usage of severity and Priority should align with Chromium severity and priority guidelines, not Google guidelines**. For example, severity and priority for security bugs should align with [Chromium Security Severity Guidelines](https://chromium.googlesource.com/chromium/src/+/main/docs/security/severity-guidelines.md), with S0 \u003d Critical Severity, S1 \u003d High Severity, S2 \u003d Medium Severity, and S3 \u003d Low Severity. S4 should be considered the lack of a security severity (equivalent to the absence of a severity label on Monorail.)\n```",
+      "range": {
+        "startLine": 26,
+        "startChar": 134,
+        "endLine": 26,
+        "endChar": 180
+      },
+      "revId": "83d43a6519d3aaab5f8028108d81b49c300f4f7b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1139e41e_0a34f1bd",
+        "filename": "site/issue-tracking/googler-guidelines/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2024-02-02T21:33:39Z",
+      "side": 1,
+      "message": "```suggestion\n- **There should be only one, canonical version of a Chromium issue rather than an external version and an internal version.** Any duplicate issues should be merged as Duplicate to the older or other canonical version of the issue.\n```",
+      "revId": "83d43a6519d3aaab5f8028108d81b49c300f4f7b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
