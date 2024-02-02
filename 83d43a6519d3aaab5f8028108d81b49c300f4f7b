@@ -75,6 +75,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0980632a_df31688f",
+        "filename": "site/issue-tracking/googler-guidelines/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000112
+      },
+      "writtenOn": "2024-02-02T22:17:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "88c9a8ab_6528d091",
+      "range": {
+        "startLine": 10,
+        "startChar": 227,
+        "endLine": 10,
+        "endChar": 256
+      },
+      "revId": "83d43a6519d3aaab5f8028108d81b49c300f4f7b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "225026c5_366b3fd6",
@@ -98,6 +122,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c370932_f8490ce1",
+        "filename": "site/issue-tracking/googler-guidelines/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000112
+      },
+      "writtenOn": "2024-02-02T22:17:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "225026c5_366b3fd6",
+      "range": {
+        "startLine": 26,
+        "startChar": 134,
+        "endLine": 26,
+        "endChar": 180
+      },
+      "revId": "83d43a6519d3aaab5f8028108d81b49c300f4f7b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1139e41e_0a34f1bd",
@@ -111,6 +159,24 @@
       "writtenOn": "2024-02-02T21:33:39Z",
       "side": 1,
       "message": "```suggestion\n- **There should be only one, canonical version of a Chromium issue rather than an external version and an internal version.** Any duplicate issues should be merged as Duplicate to the older or other canonical version of the issue.\n```",
+      "revId": "83d43a6519d3aaab5f8028108d81b49c300f4f7b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2040b20b_5a4969a0",
+        "filename": "site/issue-tracking/googler-guidelines/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000112
+      },
+      "writtenOn": "2024-02-02T22:17:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1139e41e_0a34f1bd",
       "revId": "83d43a6519d3aaab5f8028108d81b49c300f4f7b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
