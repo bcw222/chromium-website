@@ -885,6 +885,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "6acfe4b2_015e0ca2",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1303432
+      },
+      "writtenOn": "2024-02-02T00:02:16Z",
+      "side": 1,
+      "message": "I wouldn\u0027t block merging this CL on this piece, but if we get the OK to say @google.com here I think we should. I\u0027m not sure why it was pulled out of the external version. You\u0027re on my internal chat thread about this.",
+      "parentUuid": "083eb7ef_61d296b0",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "8a36ab6e_545a5fc7",
         "filename": "site/for-testers/faq/index.md",
         "patchSetId": 10

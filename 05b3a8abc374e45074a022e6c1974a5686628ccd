@@ -83,6 +83,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e76305a4_d82cafde",
+        "filename": "site/for-testers/bug-reporting-guidelines/chromium-bug-hotlists/index.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1303432
+      },
+      "writtenOn": "2024-02-02T00:02:16Z",
+      "side": 1,
+      "message": "This wasn\u0027t done. Adding a suggestion for you\n```suggestion\n*   The [Chromium Critical Hotlists](https://issues.chromium.org/bookmark-groups/860925) Bookmark group\n```",
+      "parentUuid": "ce33a93e_bb8854f4",
+      "range": {
+        "startLine": 38,
+        "startChar": 28,
+        "endLine": 38,
+        "endChar": 78
+      },
+      "revId": "05b3a8abc374e45074a022e6c1974a5686628ccd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1f4e21d1_17cf0e11",
