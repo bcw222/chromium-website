@@ -22,6 +22,30 @@
       },
       "revId": "93f70dc74a0336f44288868cd78cb31f5427ed13",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "48e7bced_452c9bd7",
+        "filename": "site/tab-to-search/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1123275
+      },
+      "writtenOn": "2024-02-02T13:05:30Z",
+      "side": 1,
+      "message": "Thanks I saw this page and this is how I ended up on this old Chromium page actually!\n\nThe MDN page seems to be somewhat Firefox-specific, as there are many blocks referring to how specifically it handles OpenSearch and the additional things not supported in the spec. It also points to github as general documentation for OpenSearch, and I see the repo got a commit a few months ago.\n\nMaybe I missed some other indicators pointing to the github repo as being abandoned?",
+      "parentUuid": "4e179162_a1c8e423",
+      "range": {
+        "startLine": 67,
+        "startChar": 8,
+        "endLine": 67,
+        "endChar": 114
+      },
+      "revId": "93f70dc74a0336f44288868cd78cb31f5427ed13",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
