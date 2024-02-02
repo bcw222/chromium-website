@@ -1,0 +1,197 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b93e1394_8c0fb5a8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 19
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-02-02T20:11:53Z",
+      "side": 1,
+      "message": "A few more comments, but nothing terribly important. Looks good enough to me :). We can always land this and then make more edits easily enough.",
+      "revId": "ff9f4237c34d7167137f8dc5270466b42bb11978",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8324e7b7_aaae4dc4",
+        "filename": "site/for-testers/bug-reporting-guidelines/index.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-02-02T20:11:53Z",
+      "side": 1,
+      "message": "There isn\u0027t a specific template to use here?",
+      "revId": "ff9f4237c34d7167137f8dc5270466b42bb11978",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9938ded5_70f9a9ee",
+        "filename": "site/for-testers/bug-reporting-guidelines/index.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-02-02T20:11:53Z",
+      "side": 1,
+      "message": "Maybe mention that it is also added to the `Unconfirmed` hotlist when it is first logged?",
+      "revId": "ff9f4237c34d7167137f8dc5270466b42bb11978",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f4ed99e6_ec2e4740",
+        "filename": "site/for-testers/bug-reporting-guidelines/index.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-02-02T20:11:53Z",
+      "side": 1,
+      "message": "Should you mention the `Available` hotlist?",
+      "revId": "ff9f4237c34d7167137f8dc5270466b42bb11978",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cfe4f54b_7c088d10",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-02-02T20:11:53Z",
+      "side": 1,
+      "message": "Nit: trailing space.",
+      "revId": "ff9f4237c34d7167137f8dc5270466b42bb11978",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2b39f361_896b56bf",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-02-02T20:11:53Z",
+      "side": 1,
+      "message": "Nit: remove the extra blank line.",
+      "revId": "ff9f4237c34d7167137f8dc5270466b42bb11978",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9c585f26_5e30c47c",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-02-02T20:11:53Z",
+      "side": 1,
+      "message": "where is \u0027here\u0027? I.e., should this be a link to something?",
+      "range": {
+        "startLine": 130,
+        "startChar": 18,
+        "endLine": 130,
+        "endChar": 22
+      },
+      "revId": "ff9f4237c34d7167137f8dc5270466b42bb11978",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9379ba71_84420107",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 242,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-02-02T20:11:53Z",
+      "side": 1,
+      "message": "Nit: don\u0027t use \"image\" as an alt\u003d value. Either put in an actual description of the image (preferred if you can), or just leave the alt\u003d field out.",
+      "revId": "ff9f4237c34d7167137f8dc5270466b42bb11978",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "372d2f25_5e2252e5",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 389,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-02-02T20:11:53Z",
+      "side": 1,
+      "message": "Should there be a step here in between `Unconfirmed` and `assigned` where you add the `available` hotlist?",
+      "revId": "ff9f4237c34d7167137f8dc5270466b42bb11978",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c0ff092b_0d64485e",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 392,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-02-02T20:11:53Z",
+      "side": 1,
+      "message": "Nit: extra blank line.",
+      "revId": "ff9f4237c34d7167137f8dc5270466b42bb11978",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9c2d0257_26f4fd63",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 417,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-02-02T20:11:53Z",
+      "side": 1,
+      "message": "Nit: extra blank line",
+      "revId": "ff9f4237c34d7167137f8dc5270466b42bb11978",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
