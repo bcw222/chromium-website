@@ -18,6 +18,23 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1fa2d0ff_e7a71315",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 19
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000112
+      },
+      "writtenOn": "2024-02-02T22:40:30Z",
+      "side": 1,
+      "message": "Note I just added some additional content to the issue-tracking directory with guidelines for googlers: https://chromium-review.googlesource.com/c/website/+/5262741. I didn\u0027t add it to index.md to avoid creating a merge conflict with this CL. But perhaps we should? I can follow up with that later after this CL lands though.",
+      "revId": "ff9f4237c34d7167137f8dc5270466b42bb11978",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8324e7b7_aaae4dc4",
