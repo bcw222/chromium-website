@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b57dd69b_4641468b",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-02-02T00:08:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f3ae179f_6c49566a",
+      "revId": "b501da03e8c7d8da36151bc1c47f1f633d780bb3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "91099bd4_7eb2e0ce",
@@ -48,6 +66,24 @@
       "writtenOn": "2024-02-01T00:40:33Z",
       "side": 1,
       "message": "Not quite. Look at how this version ended up: https://chromium-website--cl5186937-ps17-rcdq2hgq.web.app/for-testers/query-syntax/ . I actually meant literally the text of what I wrote in the comment, including the \"---\" lines and the \"-\" dashes.",
+      "revId": "b501da03e8c7d8da36151bc1c47f1f633d780bb3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0a70871e_91a23014",
+        "filename": "site/for-testers/query-syntax/index.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-02-02T00:08:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "91099bd4_7eb2e0ce",
       "revId": "b501da03e8c7d8da36151bc1c47f1f633d780bb3",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }

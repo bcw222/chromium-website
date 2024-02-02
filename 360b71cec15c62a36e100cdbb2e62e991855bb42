@@ -901,6 +901,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "91d87875_be0c7d80",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-02-02T00:08:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "083eb7ef_61d296b0",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8a36ab6e_545a5fc7",
@@ -1997,6 +2015,24 @@
       "side": 1,
       "message": "Maybe we should ask the WG what they recommend? I don\u0027t even know if we\u0027ve really been using \"Proj-\" in Monorail.",
       "parentUuid": "34bb8030_32bc6eca",
+      "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "07051742_9e815ea1",
+        "filename": "site/issue-tracking/requesting-a-component-or-label/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-02-02T00:08:53Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "a7a70160_c9f1139f",
       "revId": "360b71cec15c62a36e100cdbb2e62e991855bb42",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
