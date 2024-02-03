@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6c7e719e_af56cf4e",
+        "filename": "site/chromium-os/developer-library/getting-started/hardware-requirements/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1330845
+      },
+      "writtenOn": "2024-02-03T07:06:20Z",
+      "side": 1,
+      "message": "System?\n```suggestion\ntitle: System Requirements\n```",
+      "range": {
+        "startLine": 6,
+        "startChar": 7,
+        "endLine": 6,
+        "endChar": 15
+      },
+      "revId": "c83dfcabbbce1956edf91dbdc1d863cb062e3fd5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f7d9921_76fa0c75",
+        "filename": "site/chromium-os/developer-library/getting-started/hardware-requirements/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1330845
+      },
+      "writtenOn": "2024-02-03T07:06:20Z",
+      "side": 1,
+      "message": "Or boot using `cros vm` if you don\u0027t need specific hardware.",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 49
+      },
+      "revId": "c83dfcabbbce1956edf91dbdc1d863cb062e3fd5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4df08f7e_1d6cd23b",
+        "filename": "site/chromium-os/developer-library/getting-started/hardware-requirements/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1330845
+      },
+      "writtenOn": "2024-02-03T07:06:20Z",
+      "side": 1,
+      "message": "Our CQ bots run with 32 cores.  You can get by on 16.  8 is probably the bare minimum you\u0027d want.",
+      "range": {
+        "startLine": 44,
+        "startChar": 2,
+        "endLine": 44,
+        "endChar": 7
+      },
+      "revId": "c83dfcabbbce1956edf91dbdc1d863cb062e3fd5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "537ea892_f8d1ea1c",
+        "filename": "site/chromium-os/developer-library/getting-started/hardware-requirements/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1330845
+      },
+      "writtenOn": "2024-02-03T07:06:20Z",
+      "side": 1,
+      "message": "This seems really overkill. Even internal builds fine on 32 GB of RAM.  64 is very comfortable.\n\n(The bottleneck on RAM is linking chrome, which requires ~20 GB iirc)",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 12
+      },
+      "revId": "c83dfcabbbce1956edf91dbdc1d863cb062e3fd5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d58bbe8d_dea1a9fc",
+        "filename": "site/chromium-os/developer-library/getting-started/hardware-requirements/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1330845
+      },
+      "writtenOn": "2024-02-03T07:06:20Z",
+      "side": 1,
+      "message": "It\u0027s probably better to advertise the amount of free disk space required instead of total size.  An internal checkout with `-g all`, unpacked chroot, and a single build weighs in at less than 200 GB.  Most public devs will likely require significantly less than that.",
+      "range": {
+        "startLine": 46,
+        "startChar": 2,
+        "endLine": 46,
+        "endChar": 6
+      },
+      "revId": "c83dfcabbbce1956edf91dbdc1d863cb062e3fd5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5169df77_6d02ea66",
+        "filename": "site/chromium-os/developer-library/getting-started/hardware-requirements/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1330845
+      },
+      "writtenOn": "2024-02-03T07:06:20Z",
+      "side": 1,
+      "message": "NVMe is nice, but many get by on SATA just fine.  It would be better to document the difference between \"minimum\" and \"nice-to-have\" specs here.",
+      "range": {
+        "startLine": 46,
+        "startChar": 11,
+        "endLine": 46,
+        "endChar": 15
+      },
+      "revId": "c83dfcabbbce1956edf91dbdc1d863cb062e3fd5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
