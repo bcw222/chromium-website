@@ -35,7 +35,7 @@ and how things will generally work in Issue Tracker.*
 ### How do I file an issue?
 
 You can report an issue in the Issue Tracker using the Issue Wizard at
-[issues.chromium.org]<https://issues.chromium.org/issues/new>
+[issues.chromium.org](https://issues.chromium.org/issues/new)
 
 ### How do I file a Security bug?
 
