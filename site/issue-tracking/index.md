@@ -4,9 +4,6 @@ page_name: issue-tracking
 title: Issue Tracking
 ---
 
-Building this section back out, pulling in and re-writing all the existing bug
-related documentation under here.
-
 Topics
 
 *   [Requesting a Component or
