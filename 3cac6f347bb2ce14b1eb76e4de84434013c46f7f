@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa528a5e_02064f7f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-02-05T19:26:44Z",
+      "side": 1,
+      "message": "One of the chromeos owners should approve this, not me.",
+      "revId": "3cac6f347bb2ce14b1eb76e4de84434013c46f7f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
