@@ -86,7 +86,9 @@ Note: the majority of Monorail labels have been migrated to the “Chromium Labe
 * *[Option B]* <br>
    If your label has been mapped to a custom field, see Issue Tracker’s documentation on [how to search by a custom field value](https://developers.google.com/issue-tracker/concepts/custom-fields#searching_for_issues_by_custom_fields).
 
-  * QA example search query: `customfield[id]:<value>`
+  * Example search query: `customfield[id]:<value>`
+
+  * Example Chromium Label query: `customfield1223031:Type-Bug-Regression`
 
 ### How do I search for hotlists?
 
