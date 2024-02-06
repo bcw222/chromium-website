@@ -16,6 +16,24 @@
       "message": "I\u0027m planning on adding an analyzer check that discourages b/ and crbug/ in code comments; since \"crbug.com\" is considerably shorter than \"issues.chromium.org\", I\u0027d like the analyzer to recommend that as the preferred form. How do you feel about that?\n\n(Somewhat ironically, I want to attach b/324087826 to this CL, which is Googler-only :P)",
       "revId": "f35dd81a1dda8fc7fb54982055d5d57e16915c6e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "20b0e66a_9a4ccd9f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000112
+      },
+      "writtenOn": "2024-02-06T22:41:29Z",
+      "side": 1,
+      "message": "SGTM. Yeah we should have filed more of our feedback on the public component, kind of ironic. We could probably move it, but also not much of public value there I think.",
+      "parentUuid": "8ad6502f_da6c9631",
+      "revId": "f35dd81a1dda8fc7fb54982055d5d57e16915c6e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
