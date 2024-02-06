@@ -16,6 +16,24 @@
       "message": "Hi! Could this change be scoped to a subdirectory of the website, e.g., the issue tracker docs? I noticed that neither of the proposed owners have done any reviews in Chromium, and top-level owners are usually have some prior experience. Being an owner of the project subdirectory would be totally appropriate, though!",
       "revId": "eed5ed7fa0794c97e36b78c48453f3c7571f28b7",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e649690e_80e187a5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1535607
+      },
+      "writtenOn": "2024-02-06T18:37:34Z",
+      "side": 1,
+      "message": "yes! I\u0027m not sure how to do that though.",
+      "parentUuid": "775c9b4a_2aecb1dc",
+      "revId": "eed5ed7fa0794c97e36b78c48453f3c7571f28b7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ],
   "submitRequirementResults": [
