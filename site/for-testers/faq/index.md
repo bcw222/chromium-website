@@ -86,7 +86,9 @@ Note: the majority of Monorail labels have been migrated to the “Chromium Labe
 * *[Option B]* <br>
    If your label has been mapped to a custom field, see Issue Tracker’s documentation on [how to search by a custom field value](https://developers.google.com/issue-tracker/concepts/custom-fields#searching_for_issues_by_custom_fields).
 
-  * QA example search query: `customfield[id]:<value>`
+  * Example search query: `customfield[id]:<value>`
+
+  * Example Chromium Label query: `customfield1223031:Type-Bug-Regression`
 
 ### How do I search for hotlists?
 
@@ -127,7 +129,7 @@ when issues are filed within that component. Additionally, Issue Tracker will al
 users if an existing issue is moved into the component.
 
 If you would like to request a new template or change for an existing template,
-please file a bug here.
+please file a bug [here](https://g-issues.chromium.org/issues/new?component=1456459&template=1935230).
 
 ### How do I bulk edit bugs?
 
