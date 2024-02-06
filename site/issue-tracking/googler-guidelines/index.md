@@ -38,11 +38,12 @@ to Chrome that we preserve our culture of being open by default.
   internal view of the bug entries, which may cause you to run into the previous
   problems. Be careful!
 
-- **When referencing other issues please use the external/Chromium tracker
-  link**: issues.chromium.org rather than g-issues.chromium.org. The internal /
-  g-issues.chromium.org link may route them to a Google SSO login page and
-  create an inefficient and sub-optimal workflow for non-Googlers. crbug.com is
-  also fine; b/ or any corp.google.com links are not.
+- **When referencing issues please use the external/Chromium tracker link**:
+  use [crbug.com](https://crbug.com) or [issues.chromium.org](https://issues.chromium.org)
+  rather than b/ or g-issues.chromium.org. Internal / g-issues.chromium.org
+  links may redirect to a Google SSO login page and create an inefficient
+  and sub-optimal workflow for non-Googlers. Similarly, other
+  corp.google.com links are not OK, e.g. crbug/.
 
 - **Usage of severity and Priority should align with Chromium severity and
   priority guidelines, not Google guidelines**. For example, severity and
