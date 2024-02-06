@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8ad6502f_da6c9631",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2024-02-06T22:36:52Z",
+      "side": 1,
+      "message": "I\u0027m planning on adding an analyzer check that discourages b/ and crbug/ in code comments; since \"crbug.com\" is considerably shorter than \"issues.chromium.org\", I\u0027d like the analyzer to recommend that as the preferred form. How do you feel about that?\n\n(Somewhat ironically, I want to attach b/324087826 to this CL, which is Googler-only :P)",
+      "revId": "f35dd81a1dda8fc7fb54982055d5d57e16915c6e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
