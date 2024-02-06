@@ -86,7 +86,9 @@ Note: the majority of Monorail labels have been migrated to the “Chromium Labe
 * *[Option B]* <br>
    If your label has been mapped to a custom field, see Issue Tracker’s documentation on [how to search by a custom field value](https://developers.google.com/issue-tracker/concepts/custom-fields#searching_for_issues_by_custom_fields).
 
-  * QA example search query: `customfield[id]:<value>`
+  * Example search query: `customfield[id]:<value>`
+
+  * Example Chromium Label query: `customfield1223031:Type-Bug-Regression`
 
 ### How do I search for hotlists?
 
@@ -127,7 +129,7 @@ when issues are filed within that component. Additionally, Issue Tracker will al
 users if an existing issue is moved into the component.
 
 If you would like to request a new template or change for an existing template,
-please file a bug here.
+please file a bug [here](https://issues.chromium.org/issues/new?component=1456459&template=1935230).
 
 ### How do I bulk edit bugs?
 
@@ -233,15 +235,16 @@ access to the following hotlists:
 ---
 
 ## Information about Triage workflows
-Before trying any of these workflows, first click on the following link for the [Suggested
-Chromium Triage Workflow](https://issues.chromium.org/bookmark-groups/860874) Bookmark
-group and **"star"** it:
+Before trying any of these workflows, Chromium contributors should first click on the
+following link for the [Suggested Chromium Triage Workflow](https://issues.chromium.org/bookmark-groups/860874)
+Bookmark group and **"star"** it:
 
 Starring the Bookmark group will place it in your sidebar for easy access:
 
 [<img alt="image" src="/for-testers/faq/SS_1.png">](/for-testers/faq/SS_1.png)
 
-Also star the [Chromium Triage Hotlist](https://issues.chromium.org/bookmark-groups/865505)
+Also Chromium contributors should star the
+[Chromium Triage Hotlist](https://issues.chromium.org/bookmark-groups/865505)
 Bookmark group.  This bookmark group contains a small number of hotlists,
 and by starring it you will also be able to access it from the sidebar:
 
@@ -503,3 +506,10 @@ Hotlist casing problems
 Monorail’s intra-issue comment links (eg: "comment #c5", "#comment5", "comment 5", "#c5")
 will be replaced with a full link to the comment (eg: "https://crbug.com/${project}/${issue}#c5")
 in the migrated Issue Tracker issue.
+
+### Changing restricted comments / attachments from non-@google.com accounts
+There is a bug where external accounts (accounts using a non-@google.com email) cannot
+change the restriction settings on comments / attachments after they have been uploaded.  
+
+As an immediate workaround, if needed, an external account can delete their own
+comment / attachment and re-upload it with the expected restriction settings. 
