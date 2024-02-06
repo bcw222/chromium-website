@@ -34,6 +34,24 @@
       "parentUuid": "775c9b4a_2aecb1dc",
       "revId": "eed5ed7fa0794c97e36b78c48453f3c7571f28b7",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "90ffbe7e_78dd85a7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-02-06T20:30:24Z",
+      "side": 1,
+      "message": "Add an `OWNERS` file in //site/for-testers with your two email addresses added.\n\nI have no strong objection to adding you to CONTENT_OWNERS, but that would mean that you\u0027d get asked to review changes in other parts of the website :).",
+      "parentUuid": "e649690e_80e187a5",
+      "revId": "eed5ed7fa0794c97e36b78c48453f3c7571f28b7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ],
   "submitRequirementResults": [
