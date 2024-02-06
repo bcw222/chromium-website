@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dcfa75c6_bb6cac7b",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 512,
+      "author": {
+        "id": 1558930
+      },
+      "writtenOn": "2024-02-06T19:31:47Z",
+      "side": 1,
+      "message": "nit: whitespace",
+      "range": {
+        "startLine": 512,
+        "startChar": 88,
+        "endLine": 512,
+        "endChar": 90
+      },
+      "revId": "536df14a7db384ec8a8d3d9b34db51c1ee46f976",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cb054275_e15fda25",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 515,
+      "author": {
+        "id": 1558930
+      },
+      "writtenOn": "2024-02-06T19:31:47Z",
+      "side": 1,
+      "message": "nit:whitespace",
+      "range": {
+        "startLine": 515,
+        "startChar": 77,
+        "endLine": 515,
+        "endChar": 78
+      },
+      "revId": "536df14a7db384ec8a8d3d9b34db51c1ee46f976",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
