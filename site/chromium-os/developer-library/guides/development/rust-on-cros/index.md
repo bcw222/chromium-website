@@ -193,12 +193,8 @@ Ensure that your package & ebuild depend on libchromeos:
 Cargo.toml
 ```toml
 [dependencies]
-libchromeos = "0.1.0"
+libchromeos = { path = "../libchromeos-rs" } # provided by ebuild
 ...
-
-[patch.crates-io] # ignored by ebuild
-crosvm-base = { path = "../../../chroot/usr/lib/cros_rust_registry/registry/crosvm-base-0.1.0/" } # ignored by ebuild
-libchromeos = { path = "../../../chroot/usr/lib/cros_rust_registry/registry/libchromeos-0.1.0/" } # ignored by ebuild
 ```
 
 Ebuild:
