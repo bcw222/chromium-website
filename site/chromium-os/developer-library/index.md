@@ -44,5 +44,11 @@ your tasks done.
 Develop your skills by accessing learning-based content such as code labs,
 presentations, and training session videos.
 
+## [Contributing](/chromium-os/developer-library/contributing)
+
+Looking to add or update content in the library? Read through this short guide
+to understand how to check out the library source and upload your change for
+review.
+
 </div>
 </div>
