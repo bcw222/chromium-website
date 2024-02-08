@@ -258,7 +258,7 @@ The toolchain that is installed by default is targetable to the following triple
 |-------------------------------|-------------------------------------------------------------------------------------|
 | `x86_64-pc-linux-gnu`         | **(default)** Used exclusively for packages installed in the chroot                 |
 | `armv7a-cros-linux-gnueabihf` | Used by 32-bit usermode ARM devices                                                 |
-| `aarch64-cros-linux-gnu`      | Used by 64-bit usermode ARM devices (none of these exist as of November 30th, 2018) |
+| `aarch64-cros-linux-gnu`      | Used by 64-bit usermode ARM devices                                                 |
 | `x86_64-cros-linux-gnu`       | Used by x86_64 devices                                                              |
 
 When building Rust projects for development, a non-default target can be
