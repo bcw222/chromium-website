@@ -290,11 +290,7 @@ export PKG_CONFIG_ALLOW_CROSS=1
 ```
 
 [rust]: https://www.rust-lang.org
-[cargo]: https://crates.io/
 [crates.io]: https://crates.io
 [cros-rust.eclass]: https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/eclass/cros-rust.eclass
 [cros_workon_make]: https://chromium.googlesource.com/chromiumos/docs/+/main/developer_guide.md#Make-your-changes
-[localmirror]: archive_mirrors.md
-[link time optimizations]: https://en.wikipedia.org/wiki/Interprocedural_optimization
 [rust_crates_updating]: https://chromium.googlesource.com/chromiumos/third_party/rust_crates/+/HEAD/README.md#updating-packages
-[semver]: https://doc.rust-lang.org/cargo/reference/specifying-dependencies.html
