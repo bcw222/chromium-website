@@ -16,8 +16,10 @@ appears in a hotlist if you or another user explicitly adds it and it remains in
 regardless of any changes that are made to it. Hotlists allow you to track a set of issues
 related to a common goal, such as a product launch or particular feature.
 
-[Monorail Labels vs Issue Tracker Hotlists, what's the difference](/site/for-testers/faq#Since-many-labels-will-be-replaced-by-hotlists,-how-will-hotlists-differ-from-labels?)
+[Monorail Labels vs Issue Tracker Hotlists, what's the difference](/for-testers/faq#since-many-labels-will-be-replaced-by-hotlists-how-will-hotlists-differ-from-labels)
+
 [Additional information can be found here](https://developers.google.com/issue-tracker/concepts/hotlists)
+
 [Instructions for creating and managing hotlists here](https://developers.google.com/issue-tracker/guides/work-with-hotlist)
 
 ## Bookmark Groups
