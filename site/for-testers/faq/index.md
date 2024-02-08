@@ -117,6 +117,10 @@ been migrated to either a hotlist or custom field in Issue Tracker.
 
 Where you would've used a label in Monorail, we recommend you use a hotlist in Issue Tracker.
 
+### What happened to the auto-CC rules from Monorail?
+
+The auto-CC rules from Monorail were not migrated. However, it is possible in
+the Issue Tracker to be cc'd on bugs in a specific component as described below.
 
 ### How do I ensure I’m automatically CC’d on all of the things I care about?
 
