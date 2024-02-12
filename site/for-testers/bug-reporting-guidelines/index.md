@@ -107,4 +107,4 @@ Infrastructure and build tools
 If you find an issue with our infrastructure or build tools, please file the
 ticket using the Build Infrastructure template:
 
-*   <https://code.google.com/p/chromium/issues/entry?template=Build%20Infrastructure>
+*   <https://issues.chromium.org>
