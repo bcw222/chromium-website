@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ca11a9e9_04022f7a",
+        "filename": "site/blink/blink-triaging/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1123071
+      },
+      "writtenOn": "2024-02-12T20:27:00Z",
+      "side": 1,
+      "message": "You should not be using g-issues (according to all documentation, that is an internal redirect and causes issues for external people).",
+      "revId": "29c6f8fa1ef2454e0aaaaf66d588d38944552c85",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
