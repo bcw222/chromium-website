@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f632eeac_d3c0b278",
+        "filename": "site/for-testers/bug-reporting-guidelines/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1338159
+      },
+      "writtenOn": "2024-02-12T22:51:52Z",
+      "side": 1,
+      "message": "This URL does not have any template. Can you double check?",
+      "range": {
+        "startLine": 110,
+        "startChar": 13,
+        "endLine": 110,
+        "endChar": 32
+      },
+      "revId": "dbf40b20ea5b3a029524b1bfa67d927647abfb21",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
