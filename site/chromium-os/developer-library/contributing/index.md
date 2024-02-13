@@ -20,7 +20,8 @@ The library is hosted in the chromium.org website git repository hosted at
 chromium.googlesource.com.
 
 ```
-git clone https://chromium.googlesource.com/website
+$ git clone https://chromium.googlesource.com/website
+$ gclient sync
 ```
 
 ## Website format
