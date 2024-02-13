@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8418c0bf_19c814c7",
+        "filename": "site/chromium-os/developer-library/contributing/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1516607
+      },
+      "writtenOn": "2024-02-13T23:12:26Z",
+      "side": 1,
+      "message": "I think if folks don\u0027t already have it, they\u0027ll need go/depot_tools for the `gclient sync`",
+      "revId": "ce23b8214b1d749962674bd49862537658338734",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
