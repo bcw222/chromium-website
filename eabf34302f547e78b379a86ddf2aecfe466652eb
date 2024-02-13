@@ -41,6 +41,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8fc7250a_c8444eaf",
+        "filename": "site/chromium-os/developer-library/guides/third-party/coreboot/coreboot-upstream/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1531147
+      },
+      "writtenOn": "2024-02-13T23:56:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2a5481f1_ee70edc2",
+      "range": {
+        "startLine": 39,
+        "startChar": 17,
+        "endLine": 39,
+        "endChar": 20
+      },
+      "revId": "eabf34302f547e78b379a86ddf2aecfe466652eb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b05c3997_523c84f9",
@@ -54,6 +78,30 @@
       "writtenOn": "2024-01-11T11:17:28Z",
       "side": 1,
       "message": "would be called id_ed25519.pub then.",
+      "range": {
+        "startLine": 40,
+        "startChar": 14,
+        "endLine": 40,
+        "endChar": 20
+      },
+      "revId": "eabf34302f547e78b379a86ddf2aecfe466652eb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cdf6de5e_34657302",
+        "filename": "site/chromium-os/developer-library/guides/third-party/coreboot/coreboot-upstream/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1531147
+      },
+      "writtenOn": "2024-02-13T23:56:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b05c3997_523c84f9",
       "range": {
         "startLine": 40,
         "startChar": 14,
@@ -81,6 +129,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5598d96_60637506",
+        "filename": "site/chromium-os/developer-library/guides/third-party/coreboot/coreboot-upstream/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1531147
+      },
+      "writtenOn": "2024-02-13T23:56:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "665b66f2_11b3d795",
+      "revId": "eabf34302f547e78b379a86ddf2aecfe466652eb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d301130e_782f7b08",
@@ -94,6 +160,24 @@
       "writtenOn": "2024-01-11T11:17:28Z",
       "side": 1,
       "message": "you can also run `git fetch /home/user/devel/coreboot` if it\u0027s more of a one-off action.",
+      "revId": "eabf34302f547e78b379a86ddf2aecfe466652eb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2cdf7731_350768bb",
+        "filename": "site/chromium-os/developer-library/guides/third-party/coreboot/coreboot-upstream/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1531147
+      },
+      "writtenOn": "2024-02-13T23:56:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d301130e_782f7b08",
       "revId": "eabf34302f547e78b379a86ddf2aecfe466652eb",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -299,6 +383,30 @@
       "writtenOn": "2024-01-11T11:17:28Z",
       "side": 1,
       "message": "link to https://chromium.googlesource.com/chromiumos/platform/depthcharge/?",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 19
+      },
+      "revId": "eabf34302f547e78b379a86ddf2aecfe466652eb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ffa7d2c8_b1400654",
+        "filename": "site/chromium-os/developer-library/guides/third-party/coreboot/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1531147
+      },
+      "writtenOn": "2024-02-13T23:56:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b95b139a_43a84afb",
       "range": {
         "startLine": 45,
         "startChar": 0,
