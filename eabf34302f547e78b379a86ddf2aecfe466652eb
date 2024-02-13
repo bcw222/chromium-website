@@ -121,6 +121,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9671a719_96d5ace6",
+        "filename": "site/chromium-os/developer-library/guides/third-party/coreboot/downstreaming/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1531147
+      },
+      "writtenOn": "2024-02-13T23:44:12Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "babcd7c6_36b8bfef",
+      "range": {
+        "startLine": 52,
+        "startChar": 35,
+        "endLine": 52,
+        "endChar": 45
+      },
+      "revId": "eabf34302f547e78b379a86ddf2aecfe466652eb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "701f1e60_e2e16027",
@@ -134,6 +158,30 @@
       "writtenOn": "2024-01-11T11:17:28Z",
       "side": 1,
       "message": "typo\n```suggestion\nthe conflicted change(resolved or not) and apply the skip configuration\n```",
+      "range": {
+        "startLine": 121,
+        "startChar": 4,
+        "endLine": 121,
+        "endChar": 14
+      },
+      "revId": "eabf34302f547e78b379a86ddf2aecfe466652eb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1dad25fb_bc8a0652",
+        "filename": "site/chromium-os/developer-library/guides/third-party/coreboot/downstreaming/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 1531147
+      },
+      "writtenOn": "2024-02-13T23:44:12Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "701f1e60_e2e16027",
       "range": {
         "startLine": 121,
         "startChar": 4,
@@ -167,6 +215,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ca61f8a_37d05f21",
+        "filename": "site/chromium-os/developer-library/guides/third-party/coreboot/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1531147
+      },
+      "writtenOn": "2024-02-13T23:44:12Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "f9c2b3eb_125ad1f6",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 40,
+        "endChar": 21
+      },
+      "revId": "eabf34302f547e78b379a86ddf2aecfe466652eb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c40e795d_0466e7ba",
@@ -180,6 +252,30 @@
       "writtenOn": "2024-01-11T11:17:28Z",
       "side": 1,
       "message": "nit: the?\n```suggestion\n2012 onward use coreboot for their main system firmware.  ChromeOS utilizes the\n```",
+      "range": {
+        "startLine": 44,
+        "startChar": 76,
+        "endLine": 44,
+        "endChar": 77
+      },
+      "revId": "eabf34302f547e78b379a86ddf2aecfe466652eb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66a3d01a_8407d63c",
+        "filename": "site/chromium-os/developer-library/guides/third-party/coreboot/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1531147
+      },
+      "writtenOn": "2024-02-13T23:44:12Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "c40e795d_0466e7ba",
       "range": {
         "startLine": 44,
         "startChar": 76,
