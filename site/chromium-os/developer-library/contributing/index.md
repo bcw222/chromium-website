@@ -159,10 +159,10 @@ website$ git commit -a
 
 When you are ready to send your change for review, use `git cl upload` to upload
 the change to [gerrit](https://chromium-review.googlesource.com/). Add
-`jhawkins@google.com` as a reviewer.
+`jhawkins@chromium.org` as a reviewer.
 
 ```
-website$ git cl upload -r jhawkins@google.com
+website$ git cl upload -r jhawkins@chromium.org
 ```
 
 After review and editing, the change can be submitted in gerrit.
