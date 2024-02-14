@@ -34,6 +34,24 @@
       "parentUuid": "8418c0bf_19c814c7",
       "revId": "ce23b8214b1d749962674bd49862537658338734",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c5756878_824cdb81",
+        "filename": "site/chromium-os/developer-library/contributing/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1516607
+      },
+      "writtenOn": "2024-02-14T00:50:49Z",
+      "side": 1,
+      "message": "https://crrev.com/c/5293648",
+      "parentUuid": "8b49053b_69d1e229",
+      "revId": "ce23b8214b1d749962674bd49862537658338734",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
