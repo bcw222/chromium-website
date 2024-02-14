@@ -33,6 +33,24 @@
       "message": "I don\u0027t use my @chromium.org anymore :-)",
       "revId": "6a062d7218fc7baad36a249b8b0ea40f2075b297",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff2f14f4_1d916322",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1516607
+      },
+      "writtenOn": "2024-02-14T00:35:33Z",
+      "side": 1,
+      "message": "ah sorry. when i used jhawkins@google.com it didn\u0027t seem to correctly apply you as a reviewer, e.g. on https://crrev.com/c/5293643. If I try to remove your @google, I see http://screen/7aQw6G5X6A2Zvyv 🤔",
+      "parentUuid": "bb1967ba_43fe9965",
+      "revId": "6a062d7218fc7baad36a249b8b0ea40f2075b297",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
