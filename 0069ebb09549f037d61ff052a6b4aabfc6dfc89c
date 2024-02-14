@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d377ce99_585edd7d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-02-14T15:51:30Z",
+      "side": 1,
+      "message": "why is this duplicating the existing docs/CONTRIBUTING.md ?",
+      "revId": "0069ebb09549f037d61ff052a6b4aabfc6dfc89c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
