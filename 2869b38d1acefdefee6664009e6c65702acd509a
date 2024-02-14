@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c8342c0_40c5c962",
+        "filename": "site/chromium-os/developer-library/guides/third-party/coreboot/coreboot-upstream/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1270601
+      },
+      "writtenOn": "2024-02-14T18:13:41Z",
+      "side": 1,
+      "message": "I should really push my [git-push-upstream](https://gist.github.com/ismell/f02b2baf7c59bda21439c365f9e3ad6b#file-git-push-upstream) script into `contrib` so that people don\u0027t need to maintain two checkouts.",
+      "range": {
+        "startLine": 15,
+        "startChar": 8,
+        "endLine": 15,
+        "endChar": 21
+      },
+      "revId": "2869b38d1acefdefee6664009e6c65702acd509a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "afe838fa_3104447a",
+        "filename": "site/chromium-os/developer-library/guides/third-party/coreboot/downstreaming/index.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1270601
+      },
+      "writtenOn": "2024-02-14T18:13:41Z",
+      "side": 1,
+      "message": "nit: I would run [mdformat](http://go/mdformat) on this.",
+      "revId": "2869b38d1acefdefee6664009e6c65702acd509a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
