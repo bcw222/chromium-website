@@ -19,17 +19,18 @@ to Chrome that we preserve our culture of being open by default.
   made public after their fix is rolled out.)
 
 - **Use the Chromium issue tracker not the internal Google view, where
- possible.** If you see this banner, click the button:![](banner.png)Using
- Google’s internal view of the same bugs will result in new bugs or attachments
- being hidden from the open source community _by default._\
-  ![](access-warning1.png)\
-  ![](access-warning2.png)
+ possible.** If you see this banner, click the button:\
+  <img src="banner.png" alt="This issue is part of the chromium tracker." width=770 height=58>\
+ Using Google’s internal view of the same bugs will result in new bugs or
+ attachments being hidden from the open source community _by default._\
+  <img src="access-warning1.png" alt="Because this issue will be on a public tracker, the following Issue Access Limit will be applied: Limited visibility + Google. You may modify this access level before creating the issue." width=603 height=97>\
+  <img src="access-warning2.png" alt="Because this issue is displayed on a public tracker, this comment will be Restricted. You may modify the restriction level before submitting the comment." width=504 height=96>
 
 - **If you use the Google bug tracker (b.corp.google.com) please take extra
   steps to make things open:** For issues: change this setting\
-  ![](issue-access.png)\
+  <img src="issue-access.png" alt="Limited visibility + Google" width=247 height=65>\
   For comments adding attachments: change this setting \
-  ![](attachment-access.png)
+  <img src="attachment-access.png" alt="Restricted" width=139 height=47>
 
 - **Using Google-internal tools is fine, but ensure sufficient information is
   available externally.** Some Google-internal tools will store metadata on bug

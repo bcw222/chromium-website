@@ -14,6 +14,7 @@ Topics
 *   [Editing Components](/issue-tracking/editing-components)
 *   [Frequently Asked Questions](/for-testers/faq)
 *   [Issue Tracker Query Syntax for Monorail users](/for-testers/query-syntax)
+*   [Guidelines for Google Employees](/issue-tracking/googler-guidelines)
 
 
 Process
