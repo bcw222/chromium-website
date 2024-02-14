@@ -23,11 +23,16 @@ Run grit unit, which should print the result of the tests, ending with OK.
 
 ## Creating a Blank .grd File
 
-You can run grit newgrd to create a new .grd file with no content but a skeleton
-to start you off with.
+You can run `grit newgrd` to create a new .grd file with no content but a
+skeleton to start you off with. Alternatively, copy a pre-existing .grd file as
+a starting point.
 
 If you're looking to convert an existing .rc file to the .grd format, see the
 section "Converting Your RC File to GRIT Format" below.
+
+For GRIT to recognize the new .grd file in Chromium, there needs to be a new
+entry for it in //tools/gritsettings/resource_ids.spec. See the header in that
+file and also //tools/gritsettings/README.md for details.
 
 # Adding Resources
 
