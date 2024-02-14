@@ -16,6 +16,23 @@
       "message": "Thank you!",
       "revId": "34558c5cd094514eb619261ed1e14aa725d1e875",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "57d54114_5f486637",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1479707
+      },
+      "writtenOn": "2024-02-14T19:58:09Z",
+      "side": 1,
+      "message": "see also: https://chromium-review.googlesource.com/c/chromiumos/docs/+/5296737",
+      "revId": "34558c5cd094514eb619261ed1e14aa725d1e875",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ],
   "submitRequirementResults": [
