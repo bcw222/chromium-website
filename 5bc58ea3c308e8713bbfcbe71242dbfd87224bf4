@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "69877b32_aa78fed6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000112
+      },
+      "writtenOn": "2024-02-14T02:59:50Z",
+      "side": 1,
+      "message": "Bruce PTAL - just fixing this page up a bit to look as intended, and also add a link to it from the index.\n\nThese images are 2x DPI and it looks like using html tags is the only way to size them correctly. I verified this works in our server, but it required me to add alt tags and then broke when I tried to wrap the long alt attribute values across multiple lines.",
+      "revId": "5bc58ea3c308e8713bbfcbe71242dbfd87224bf4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
