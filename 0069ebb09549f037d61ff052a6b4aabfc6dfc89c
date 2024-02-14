@@ -16,6 +16,24 @@
       "message": "why is this duplicating the existing docs/CONTRIBUTING.md ?",
       "revId": "0069ebb09549f037d61ff052a6b4aabfc6dfc89c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7c9601cb_1a0241c8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-02-14T18:36:38Z",
+      "side": 1,
+      "message": "Are you referring to chromiumos/docs/contributing.md or something else?\n\nThis doc is about contributing to the library itself. It will eventually be below the fold, but a lot of folks are jumping in to help with the library and have asked for instructions on how to do that.\n\nLet me know if that answers your question.",
+      "parentUuid": "d377ce99_585edd7d",
+      "revId": "0069ebb09549f037d61ff052a6b4aabfc6dfc89c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
