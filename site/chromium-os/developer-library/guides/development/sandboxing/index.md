@@ -6,6 +6,7 @@ page_name: sandboxing
 title: Sandboxing ChromeOS system services
 ---
 
+
 [TOC]
 
 In ChromeOS, OS-level functionality (such as configuring network interfaces)
@@ -52,6 +53,17 @@ preferably more than one of, and ideally all of:
 You don't normally need both Seccomp and SELinux but for very security-sensitive
 workloads this can be required.
 
+### Note on SELinux support
+
+SELinux should be used exclusively when other sandboxing approaches are not
+feasible. Examples of this include:
+
+*   Services that need to run as root or with `CAP_SYS_ADMIN`, or
+*   Services that require privileged access to the filesystem:
+    *   Writing to root-owned files or directories, or
+    *   Mounting paths where existing sandboxing tools cannot restrict
+    mount paths.
+
 ## Best practices for writing secure system services
 
 Just remember that code has bugs, and these bugs can be used to take control
@@ -74,6 +86,10 @@ separated from your main service, use programs written in a primary programming
 language like C++ or Rust, not shell scripts. Moreover, when you execute them,
 consider further restricting their privileges.
 
+It is strongly recommended to [enable CFI] for code for code not written in a
+memory safe language whenever it handles untrusted inputs or runs without all
+three techniques mentioned in the Forbidden intersection section.
+
 ## Just tell me what I need to do
 
 *   Create a new user for your service ([example](https://crrev.com/c/225257)).
@@ -91,6 +107,7 @@ consider further restricting their privileges.
 *   Consider reducing the kernel attack surface exposed to your service by
     using Seccomp filters. See [Seccomp filters].
 *   Add your sandboxed service to the [security.SandboxedServices] test.
+*   Enable the `cfi` and `thinlto` USE flags.
 
 ## User IDs
 
@@ -594,10 +611,12 @@ exec minijail0 -i -I -p -l -r -v -t -u mtp -g mtp -G \
 ## Securely mounting cryptohome daemon store folders
 
 Some daemons store user data on the user's cryptohome under
-`/home/.shadow/<user_hash>/mount/root/<daemon_name>` or equivalently
-`/home/root/<user_hash>/<daemon_name>`. For instance, Session Manager stores
-user policy under `/home/root/<user_hash>/session_manager/policy`. This is
-useful if the data should be protected from other users since the user's
+`/home/.shadow/<user_hash>/mount/root/<daemon_name>` (or equivalently
+`/home/root/<user_hash>/<daemon_name>`) and
+`/home/.shadow/<user_hash>/mount/root/.cache/<daemon_name>` (or equivalent
+`/home/root/<user_hash>/.cache/<daemon_name>`). For instance, Session Manager
+stores user policy under `/home/root/<user_hash>/session_manager/policy`. This
+is useful if the data should be protected from other users since the user's
 cryptohome is only mounted (and therefore decrypted) when the user logs in. If
 the user is not logged in, it is encrypted with the user's password.
 
@@ -621,30 +640,32 @@ fowners <daemon_user>:<daemon_group> "${daemon_store}"
 
 This directory is never used directly. It merely serves as a secure template for
 the `chromeos_startup` script, which picks it up and creates
-`/run/daemon-store/<daemon_name>` as a shared mount.
+`/run/daemon-store/<daemon_name>` and `/run/daemon-store-cache/<daemon_name>` as
+shared mounts.
 
 Next, move the user/group setup to `pkg_setup()` since `pkg_preinst()`, where
 this is usually done, runs after `src_install()`:
 
 ```bash
 pkg_setup() {
-	# Has to be done in pkg_setup() instead of pkg_preinst() since
-	# src_install() needs <daemon_user> and <daemon_group>.
-	enewuser <daemon_user>
-	enewgroup <daemon_group>
-	cros-workon_pkg_setup
+    # Has to be done in pkg_setup() instead of pkg_preinst() since
+    # src_install() needs <daemon_user> and <daemon_group>.
+    enewuser <daemon_user>
+    enewgroup <daemon_group>
+    cros-workon_pkg_setup
 }
 ```
-
-In your daemon's init script, mount the daemon store folder as `MS_SLAVE` in
-your mount namespace. Be sure not to mount all of `/run`. Make sure to mount
-with the `MS_REC` flag to propagate any already-mounted cryptohome bind mounts
-into the mount namespace.
+In your daemon's init script, the default is to mount with `MS_SLAVE`
+for minijail0 (`MS_PRIVATE` for libminijail) unless `-K<mode>` is passed
+when creating your mount namespace. Be sure not to mount all of `/run`. Make
+sure to mount with the `MS_REC` flag to propagate any already-mounted cryptohome
+bind mounts into the mount namespace.
 
 ```bash
 minijail0 -v -Kslave \
           -k 'tmpfs,/run,tmpfs,MS_NOSUID|MS_NODEV|MS_NOEXEC' \
           -k '/run/daemon-store/<daemon_name>,/run/daemon-store/<daemon_name>,none,MS_BIND|MS_REC' \
+          -k '/run/daemon-store-cache/<daemon_name>,/run/daemon-store-cache/<daemon_name>,none,MS_BIND|MS_REC' \
           ...
 ```
 
@@ -654,12 +675,18 @@ During sign-in, when the user's cryptohome is mounted, Cryptohome creates
 `/etc/daemon-store/<daemon_name>` to the bind target. Since
 `/run/daemon-store/<daemon_name>` is a shared mount outside of the mount
 namespace and a `MS_SLAVE` mount inside, the mount event propagates into the
-daemon.
+daemon. Ditto for `/home/.shadow/<user_hash>/mount/root/.cache/<daemon_name>`
+and `/run/daemon-store-cache/<daemon_name>`
 
 Your daemon can now use `/run/daemon-store/<daemon_name>/<user_hash>` to store
 user data once the user's cryptohome is mounted. Note that even though
 `/run/daemon-store` is on a tmpfs, your data is actually stored on disk and not
 lost on reboot.
+
+`/run/daemon-store-cache/<daemon_name>/<user_hash>` works similarly as above,
+however contents inside this directory are automatically cleaned up when device
+disk space is low, for both logged-in and logged-out users. This is the ideal
+directory to store cache contents.
 
 **Be sure not to write to the folder before the cryptohome is mounted**.
 Consider listening to Session Manager's `SessionStateChanged` signal or similar
@@ -753,6 +780,54 @@ way to mock Minijail is to just abstract away the entire sandboxed process
 execution. An example of this can be found in the [SandboxedProcess class] in
 debugd.
 
+# Enforcing Control Flow Integrity
+
+[Control Flow Integrity] is a compiler feature for making certain memory
+corruption bugs much more difficult to exploit for code execution. Examples
+include type confusion, heap use-after-frees, heap buffer overflows, heap double
+frees, etc. Violations trigger crashes through SIGILL.
+
+CFI is already [enabled in debugd](https://crrev.com/c/4611534), and you can use
+that CL as an example for your service. Please note that CFI isn't free so there
+is a ~1% performance cost plus a potential binary size increase. However,
+enabling LTO is a prerequisite of CFI which typically leads to a ~3% performance
+gain and in some cases leads to a binary size decrease.
+
+Control flow integrity support for ChromeOS is available through
+[cros-sanitizers.eclass] which is already inherited for all [ebuild]s that
+inherit [platform.eclass]. This means that for most first party [ebuild]s you
+just need to set the appropriate USE flags and make sure everything still works.
+For things that break with CFI enabled you can add them to a [cfi-ignore.txt]
+file. This will be automatically applied if it is placed in the ebuild's `files`
+directory.
+
+## Troubleshooting
+
+Since CFI might break certain atypical usage of function pointers and type
+casting, it may be necessary to troubleshoot CFI related crashes. A good
+starting point is to enable the diagnostic and recovery modes of CFI and run the
+package's unit tests for example:
+
+```bash
+FEATURES=test USE='cfi cfi_diag cfi_recover thinlto' emerge-${BOARD} debugd
+```
+
+CFI violations will look something like:
+```
+ASAN error detected:
+/build/amd64-generic/usr/include/gtest/gtest-matchers.h:234:12: runtime error: control flow integrity check for type 'bool (const testing::internal::MatcherBase<const std::string &> &, const std::string &, testing::MatchResultListener *)' failed during indirect function call
+(/usr/lib64/libgtest.so.1.13.0+0x603f4): note: (unknown) defined here
+/build/amd64-generic/usr/include/gtest/gtest-matchers.h:234:12: note: check failed in /var/cache/portage/chromeos-base/debugd/out/Default/debugd_testrunner, destination function located in /usr/lib64/libgtest.so.1.13.0
+    #0 0x55fd85b5d9e8 in testing::internal::MatcherBase<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&>::MatchAndExplain(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, testing::MatchResultListener*) const /build/amd64-generic/usr/include/gtest/gtest-matchers.h:234:12
+    #1 0x55fd85b6106a in testing::internal::MatcherBase<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&>::Matches(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&) const /build/amd64-generic/usr/include/gtest/gtest-matchers.h:240:12
+...
+```
+
+At this point it is up to you to determine if a source change is justified or if
+it is ok to add the particular function or source file to a [cfi-ignore.txt].
+Generally, it is preferable not to exempt code from CFI unless there is a good
+reason such as when the code is only for unit test support.
+
 [ChromeOS sandboxing talk]: https://drive.google.com/file/d/1hJOcKaj8FK2sDLX5rSJcmgjEylviVlb_/view
 [Minijail wrappers]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/libbrillo/brillo/minijail/
 [Minijail library]: https://android.googlesource.com/platform/external/minijail/+/HEAD/libminijail.h
@@ -761,6 +836,10 @@ debugd.
 [Namespaces]: #Namespaces
 [Landlock]: #landlock-unprivileged-filesystem-access-control
 [Seccomp filters]: #Seccomp-filters
+[enable CFI]: #enforcing-control-flow-integrity
+[ebuild]: portage/ebuild_faq.md
+[cros-sanitizers.eclass]: https://source.chromium.org/chromiumos/chromiumos/codesearch/+/main:src/third_party/chromiumos-overlay/eclass/cros-sanitizers.eclass
+[platform.eclass]: https://source.chromium.org/chromiumos/chromiumos/codesearch/+/main:src/third_party/chromiumos-overlay/eclass/platform.eclass
 [UNIX _abstract_ sockets]: https://man7.org/linux/man-pages/man7/unix.7.html
 [security.SandboxedServices]: https://chromium.googlesource.com/chromiumos/platform/tast-tests/+/HEAD/src/chromiumos/tast/local/bundles/cros/security/sandboxed_services.go
 
@@ -791,3 +870,5 @@ debugd.
 [SandboxedProcess class]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/debugd/src/sandboxed_process.h
 [setns(2)]: https://man7.org/linux/man-pages/man2/setns.2.html
 [nsenter(1)]: https://man7.org/linux/man-pages/man1/nsenter.1.html
+[Control Flow Integrity]: https://clang.llvm.org/docs/ControlFlowIntegrity.html
+[cfi-ignore.txt]: https://clang.llvm.org/docs/SanitizerSpecialCaseList.html#format
