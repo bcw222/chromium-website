@@ -19,6 +19,9 @@ is straightforward, and this guide will take you through the steps.
 The library is hosted in the chromium.org website git repository hosted at
 chromium.googlesource.com.
 
+If you don't already have `depot_tools` cloned and in your `PATH`, see
+[Get depot tools](https://commondatastorage.googleapis.com/chrome-infra-docs/flat/depot_tools/docs/html/depot_tools_tutorial.html#_setting_up).
+
 ```
 $ git clone https://chromium.googlesource.com/website
 $ gclient sync
