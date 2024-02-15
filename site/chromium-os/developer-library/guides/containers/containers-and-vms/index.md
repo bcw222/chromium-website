@@ -1066,7 +1066,7 @@ It's not that [crouton] is bad, it's simply a completely different model.
 [UTC]: https://en.wikipedia.org/wiki/Coordinated_Universal_Time
 [virtio]: http://docs.oasis-open.org/virtio/virtio/v1.0/virtio-v1.0.html
 [VM]: https://en.wikipedia.org/wiki/Virtual_machine
-[vmc]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/vm_tools/crostini_client/
+[vmc]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/vm_tools/vmc/
 [vsh]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/vm_tools/vsh/
 [Wayland]: https://wayland.freedesktop.org/
 [WINE]: https://www.winehq.org/

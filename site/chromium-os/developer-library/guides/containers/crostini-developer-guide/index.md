@@ -31,7 +31,6 @@ Googlers: update this image at [go/termina-rpc]
 | concierge                              | Host                     | [platform2/vm_tools/concierge]       | chromeos-base/vm_host_tools                                                                      |
 | container .debs, Termina build scripts | Container                | [platform/container-guest-tools]     | N/A                                                                                              |
 | [cros_im]                              | Container                | [platform2/vm_tools/cros_im]         | N/A                                                                                              |
-| crostini_client                        | Host                     | [platform2/vm_tools/crostini_client] | chromeos-base/crostini_client                                                                    |
 | [crosvm]                               | Host                     | [platform/crosvm]                    | chromeos-base/crosvm                                                                             |
 | [garcon]                               | Termina, Container       | [platform2/vm_tools/garcon]          | chromeos-base/vm_guest_tools, chromeos-base/termina_container_tools                              |
 | LXD                                    | Termina                  | [github/lxc/lxd]                     | app-emulation/lxd                                                                                |
@@ -43,6 +42,7 @@ Googlers: update this image at [go/termina-rpc]
 | [tremplin]                             | Termina                  | [platform/tremplin]                  | chromeos-base/tremplin                                                                           |
 | VM protobufs                           | Host, Termina, Container | [platform2/vm_tools/proto]           | chromeos-base/vm_protos                                                                          |
 | vm_syslog                              | Host, Termina            | [platform2/vm_tools/syslog]          | chromeos-base/vm_guest_tools, chromeos-base/vm_host_tools                                        |
+| vmc                                    | Host                     | [platform2/vm_tools/vmc]             | chromeos-base/crostini_client                                                                    |
 | [vsh]                                  | Host, Termina, Container | [platform2/vm_tools/vsh]             | chromeos-base/vm_host_tools, chromeos-base/vm_guest_tools, chromeos-base/termina_container_tools |
 
 [cros_im]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/vm_tools/cros_im/README.md
@@ -58,7 +58,6 @@ Googlers: update this image at [go/termina-rpc]
 [platform2/vm_tools/cicerone]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/vm_tools/cicerone
 [platform2/vm_tools/concierge]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/vm_tools/concierge
 [platform2/vm_tools/cros_im]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/vm_tools/cros_im
-[platform2/vm_tools/crostini_client]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/vm_tools/crostini_client
 [platform2/vm_tools/garcon]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/vm_tools/garcon
 [platform2/vm_tools/maitred]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/vm_tools/maitred
 [platform2/vm_tools/metric_reporter]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/vm_tools/metric_reporter
@@ -66,6 +65,7 @@ Googlers: update this image at [go/termina-rpc]
 [platform2/vm_tools/seneschal]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/vm_tools/seneschal
 [platform2/vm_tools/sommelier]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/vm_tools/sommelier
 [platform2/vm_tools/syslog]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/vm_tools/syslog
+[platform2/vm_tools/vmc]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/vm_tools/vmc
 [platform2/vm_tools/vsh]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/vm_tools/vsh
 [seneschal]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/vm_tools/seneschal/README.md
 [sommelier]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/vm_tools/sommelier/README.md
