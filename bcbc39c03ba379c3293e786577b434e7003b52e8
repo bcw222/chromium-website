@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d5e96b95_112bccf6",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2024-02-15T16:40:25Z",
+      "side": 1,
+      "message": "The subject line should describe the commit, not the situation. Something like \"Update gclient sync --with_branch_heads estimate\"",
+      "revId": "bcbc39c03ba379c3293e786577b434e7003b52e8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
