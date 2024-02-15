@@ -250,19 +250,17 @@ run in the init mount or PID namespace.
 When using many namespaces to isolate a service, there are some resources
 that the service still reasonably should be able to access.
 
-*** note
-If bind-mounting on top of /run, you need to mount a *tmpfs* /run:
-
-```bash
--k 'none,/run,tmpfs,MS_NODEV|MS_NOEXEC|MS_NOSUID,mode=755,size=10M'
-```
-
-If bind-mounting on top of /sys, you need to mount a *tmpfs* /sys:
-
-```bash
--k 'none,/sys,sysfs,MS_NODEV|MS_NOEXEC|MS_NOSUID,mode=755,size=10M'
-```
-***
+> If bind-mounting on top of /run, you need to mount a *tmpfs* /run:
+>
+> ```bash
+> -k 'none,/run,tmpfs,MS_NODEV|MS_NOEXEC|MS_NOSUID,mode=755,size=10M'
+> ```
+>
+> If bind-mounting on top of /sys, you need to mount a *tmpfs* /sys:
+>
+> ```bash
+> -k 'none,/sys,sysfs,MS_NODEV|MS_NOEXEC|MS_NOSUID,mode=755,size=10M'
+> ```
 
 *   syslog: If using `-d` to mount a minimal /dev, you can pass access to the
     syslog daemon by using `-b /dev/log`. If your process mounts all of /dev,
@@ -378,14 +376,12 @@ being killed. The policy file can also tell the kernel to fail the system call
 execve: return 1
 ```
 
-*** note
-**NOTE**: `mmap` and `mprotect` both have argument filters to prevent writeable
-executable memory since that makes certain classes of attacks much easier. In
-most cases `mprotect` does not need `PROT_EXEC`, but you might have to use `arg2
-in ~PROT_EXEC || arg2 in ~PROT_WRITE` just like `mmap` in cases where child
-processes are executed and need to dynamically link shared libraries or the code
-implements a JIT compiler.
-***
+> **NOTE**: `mmap` and `mprotect` both have argument filters to prevent
+> writeable executable memory since that makes certain classes of attacks much
+> easier. In most cases `mprotect` does not need `PROT_EXEC`, but you might have
+> to use `arg2 in ~PROT_EXEC || arg2 in ~PROT_WRITE` just like `mmap` in cases
+> where child processes are executed and need to dynamically link shared
+> libraries or the code implements a JIT compiler.
 
 ### Generating Seccomp policies using audit (on 4.14+ kernels)
 
@@ -402,11 +398,9 @@ can run the process with `-L`, get a list of all the syscalls not included in
 the policy, review them, and automatically generate or augment a policy, all
 in one step.
 
-*** note
-**NOTE**: Minijail's `-L` flag requires minijail to be built with
-`USE=cros-debug`. Generally, this means that it will not work out of the box in
-prebuilt (e.g Goldeneye, CPFE, etc.) OS images.
-***
+> **NOTE**: Minijail's `-L` flag requires minijail to be built with
+> `USE=cros-debug`. Generally, this means that it will not work out of the box
+> in prebuilt (e.g Goldeneye, CPFE, etc.) OS images.
 
 Our recommended way of using this functionality is to start with an empty
 policy which will cause all syscalls to be logged-but-allowed. The resulting
@@ -428,15 +422,13 @@ not require a minijail build with `USE=cros-debug`. Similar to audit logs above,
 the [generate_seccomp_policy.py script] can accept strace logs from an
 unsandboxed process to generate a policy.
 
-*** note
-**NOTE**: When creating `strace` logs for arm64, make sure you're running it in
-arm64 userland as most devices that support arm64 kernels run 32-bit arm
-userland by default. The image running on the device should be built for 64-bit
-arm userland e.g. kevin device can run the image built for 32-bit arm userland
-with the `--board=kevin` flag and run the image for 64-bit arm userland built
-with the `--board=kevin64` flag. You can run `file -L /bin/sh` command to check
-which environment you're running on.
-***
+> **NOTE**: When creating `strace` logs for arm64, make sure you're running it
+> in arm64 userland as most devices that support arm64 kernels run 32-bit arm
+> userland by default. The image running on the device should be built for
+> 64-bit arm userland e.g. kevin device can run the image built for 32-bit arm
+> userland with the `--board=kevin` flag and run the image for 64-bit arm
+> userland built with the `--board=kevin64` flag. You can run `file -L /bin/sh`
+> command to check which environment you're running on.
 
 #### Generate and pre-process the strace log
 
@@ -699,8 +691,8 @@ D-Bus method.
 
 The following diagram illustrates the mount event propagation:
 
-![Mount propagation diagram](images/sandboxing_daemon_store.png "Mount
-propagation diagram")
+![Mount propagation diagram](sandboxing_daemon_store.png "Mount propagation
+diagram")
 
 ## Landlock unprivileged filesystem access control
 
