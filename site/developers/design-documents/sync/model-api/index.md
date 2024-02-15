@@ -292,7 +292,6 @@ the next client restart.
     [`kModelTypeInfoMap`][info_map].
 *   Add to the `SyncModelTypes` enum in [`enums.xml`][enums] and to the
     `SyncModelType` suffix in [`histograms.xml`][histograms].
-*   Add an field for encrypted data to [`NigoriSpecifics`][NigoriSpecifics].
 *   If your type should have its own toggle in sync settings, add an entry to
     the [`UserSelectableType`][UserSelectableType] enum, add a
     [preference][pref_names] for tracking whether your type is enabled, and
