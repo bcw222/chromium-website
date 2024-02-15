@@ -382,7 +382,7 @@ The following table shows how Monorail Status values are mapped into Issue Track
     <td>hotlistid:5438152</td>
   </tr>
 <tr>
-    <td><code>Type_Bug-Regression</code>
+    <td><code>Type_Chromium-Regression</code>
     <td>hotlistid:5438261</td>
   </tr>
 </table>
