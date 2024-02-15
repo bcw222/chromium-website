@@ -382,7 +382,7 @@ The following table shows how Monorail Status values are mapped into Issue Track
     <td>hotlistid:5438152</td>
   </tr>
 <tr>
-    <td><code>Type_Bug-Regression</code>
+    <td><code>Chromium-Regression</code>
     <td>hotlistid:5438261</td>
   </tr>
 </table>
@@ -440,9 +440,9 @@ it to chrome://version.
 
 ### Mark a bug as a regression
 
-To mark a bug as a regression add it to the  `Type_Bug-Regression` hotlist.
+To mark a bug as a regression add it to the  `Chromium-Regression` hotlist.
 
-[<img alt="image" src="/for-testers/faq/SS_16.png">](/for-testers/faq/SS_16.png)
+[<img alt="image" src="/for-testers/faq/SS_16-new.png">](/for-testers/faq/SS_16-new.png)
 
 ### Further customization
 
