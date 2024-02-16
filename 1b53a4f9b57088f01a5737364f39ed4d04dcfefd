@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c2158fd5_54987e28",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-02-16T20:19:28Z",
+      "side": 1,
+      "message": "Slightly off-topic, but I did not realize this page existed. It covers the same ground as https://chromium.googlesource.com/website/+/refs/heads/main/docs/CONTRIBUTING.md, and I would rather we didn\u0027t have the documentation in two places that we have to keep in sync. \n\nI don\u0027t have a strong opinion as to which to keep (or where it should live), but I would rather it be someplace more generic as there\u0027s nothing ChromeOS-specific about this.\n\n(We don\u0027t necessarily need to block this CL on that decision, though.)",
+      "revId": "1b53a4f9b57088f01a5737364f39ed4d04dcfefd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
