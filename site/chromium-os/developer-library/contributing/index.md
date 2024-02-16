@@ -144,6 +144,14 @@ can browse to in order to see the locally built website.
 
 The website is available at the `Local` URL.
 
+> Note: If you are a Googler using a Cloudtop you will need to add `-L
+> 8080:localhost:8080` to your
+> [Secure Shell](https://chromewebstore.google.com/detail/secure-shell/iodihamcpbpeioajjeobimgagajmlibd)
+> ssh arguments to view the `Local` URL in your regular browser, or use
+> [Chrome Remote Desktop](https://remotedesktop.corp.google.com/).
+> [Tricium](https://chromium.googlesource.com/infra/infra/+/main/go/src/infra/tricium/README.md)
+> also comments on CLs uploaded to Gerrit with a preview link.
+
 `npmw start` provides a real-time build/redeploy development cycle, i.e., once
 the command is running, it listens for filesystem changes to the source code,
 rebuilds, and reloads the served website instance.
