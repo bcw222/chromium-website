@@ -72,11 +72,20 @@ hopefully soon have this repo DEPS'ed in in automatically.*
 
 5.  Start a local web server to view the site. The server will (re-)generate
     the pages on the fly as needed if the input or conversion code changes.
-    The content will be built into `//build`.
+    The content will be built into `//build` and will be available at the
+    `Local` URL.
 
     ```bash
     $ ./npmw start
     ```
+
+    > Note: If you are a Googler using a Cloudtop you will need to add `-L
+    > 8080:localhost:8080` to your
+    > [Secure Shell](https://chromewebstore.google.com/detail/secure-shell/iodihamcpbpeioajjeobimgagajmlibd)
+    > ssh arguments to view the `Local` URL in your regular browser, or use
+    > [Chrome Remote Desktop](https://remotedesktop.corp.google.com/).
+    > [Tricium](https://chromium.googlesource.com/infra/infra/+/main/go/src/infra/tricium/README.md)
+    > also comments on CLs uploaded to Gerrit with a preview link.
 
 6.  Check in your changes and upload a CL to the Gerrit code review server.
 
