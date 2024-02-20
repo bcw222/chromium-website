@@ -30,6 +30,11 @@ these resources will give you a deeper understanding of which systems exist,
 how and why they were created, and how these pieces fit together in the
 development process.
 
+## [Glossary](/chromium-os/developer-library/glossary)
+
+This page provides a glossary of commonly-used terms and acronyms within the
+Chromium OS development ecosystem.
+
 </div>
 <div class="column">
 
