@@ -34,6 +34,24 @@
       "parentUuid": "c2158fd5_54987e28",
       "revId": "1b53a4f9b57088f01a5737364f39ed4d04dcfefd",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "634d91f2_87884d0d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-02-20T19:01:55Z",
+      "side": 1,
+      "message": "I\u0027ve heard this feedback from others as well, so until we extract the CrOS library from chromium.org, I\u0027m fine for the library Contributing link to point to the original contributing.md.",
+      "parentUuid": "6100c1f9_659433a7",
+      "revId": "1b53a4f9b57088f01a5737364f39ed4d04dcfefd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
