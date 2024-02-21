@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d660ea5_264cfc2b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-02-21T20:13:32Z",
+      "side": 1,
+      "message": "Hi Samar,\n\nThanks for taking a stab at making the website look better. It certainly could use it!\n\nHowever, I would prefer that we not make changes in a somewhat arbitrary manner, and that\u0027s why I haven\u0027t changed anything before now. I would rather we have some sort of project to determine what we want things to look like.\n\nUnfortunately, I don\u0027t have any cycles for such a thing at the moment, and I\u0027m not sure who else does either, so I\u0027m not sure how to make progress on this.",
+      "revId": "a2519226d61ed6b24d3bd813c211581b61056839",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
