@@ -1,12 +1,19 @@
-# Source code for www.chromium.org
+# Source Code for www.chromium.org
 
-This Git repo contains the source content for
-[www.chromium.org](https://www.chromium.org).
+Welcome to the source code repository for [www.chromium.org](
+https://www.chromium.org)!
 
-The website is implemented by serving static content (mostly Markdown files)
-that is translated / built ahead of time into HTML using the
-[Eleventy](https://11ty.dev) static site generator (which is written in
-Node/JS) and deployed onto [Firebase Cloud Hosting](firebase.google.com/products/hosting).
+## Overview
 
-See [//docs/CONTRIBUTING.md](docs/CONTRIBUTING.md) if you wish to contribute
-to the site.
+This repository contains the source content for the Chromium website. The
+website is implemented using static content, primarily consisting of Markdown
+files. These files are pre-built into HTML using the [Eleventy](
+https://11ty.dev) static site generator, which is written in Node.js. The built
+content is then deployed onto [Firebase Cloud Hosting](
+https://firebase.google.com/products/hosting).
+
+## Contributing
+
+Interested in contributing to the website? Check out the [CONTRIBUTING.md](
+docs/CONTRIBUTING.md) document for guidelines and instructions on how to get
+started.
