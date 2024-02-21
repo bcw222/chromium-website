@@ -19,6 +19,23 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "2b42497b_65815713",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-02-21T19:26:41Z",
+      "side": 1,
+      "message": "please write standard git commit messages\nhttps://cbea.ms/git-commit/",
+      "revId": "0c7c0da835f5011b52efc27849cbfc7b2f3e8b53",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "ca219b17_d4377975",
@@ -32,6 +49,23 @@
       "writtenOn": "2024-02-21T19:18:40Z",
       "side": 1,
       "message": "I\u0027ve made the README more visually appealing and easier to read by using headers, bullet points, and hyperlinks. Additionally, I\u0027ve formatted the links properly to ensure they are clickable.",
+      "revId": "0c7c0da835f5011b52efc27849cbfc7b2f3e8b53",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bad7b9e4_acb9e0cc",
+        "filename": "README.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-02-21T19:26:41Z",
+      "side": 1,
+      "message": "this doesn\u0027t follow our md style guide.  please wrap to 80 cols.\nhttps://github.com/google/styleguide/blob/gh-pages/docguide/style.md#character-line-limit",
       "revId": "0c7c0da835f5011b52efc27849cbfc7b2f3e8b53",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
