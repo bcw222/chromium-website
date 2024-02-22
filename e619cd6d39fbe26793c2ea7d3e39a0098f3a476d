@@ -70,6 +70,24 @@
       "parentUuid": "b3ded8fc_8030ca5c",
       "revId": "e619cd6d39fbe26793c2ea7d3e39a0098f3a476d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "997e632c_e7129829",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1543968
+      },
+      "writtenOn": "2024-02-22T00:20:10Z",
+      "side": 1,
+      "message": "As a note, the .dia files are the sources for generating the images. the presubmit counted them as being \"binary/image\" files so I uploaded them the same way, they are large each so maybe it makes sense.\n\nThere was another example with a .dia file that did the same thing I so I figured it was correct.",
+      "parentUuid": "85f95ab6_c216f082",
+      "revId": "e619cd6d39fbe26793c2ea7d3e39a0098f3a476d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
