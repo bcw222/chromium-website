@@ -58,7 +58,7 @@ to that interface.
     *   `Return ~~` and return to exit.
 *   Screen
     *   Run `screen /dev/pts/{PTS} 115200`.
-    *   Press `Ctrl+A` and quit to exit
+    *   Press `Ctrl+A` and `q` to exit
 
 ## Device Precondition
 
@@ -357,12 +357,6 @@ If the DUT is connected via a servo to a workstation (and servod is running on
 your workstation):
 
 `sudo futility update --servo -i PATH_TO/image.bin`
-
-or
-
-`sudo futility update --ccd -i PATH_TO/image.bin`
-
-if you are using [Case Closed Debugging].
 
 ### Re-signing the Firmware
 
