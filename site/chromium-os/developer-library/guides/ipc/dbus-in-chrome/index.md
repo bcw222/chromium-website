@@ -65,7 +65,11 @@ See [D-Bus Best Practices] for more information about D-Bus permissions.
 ## Using system daemons' D-Bus services
 
 To call methods exported by system daemons or observe signals, Chrome uses
-`Client` classes located under [chromeos/dbus].
+`Client` classes located under [chromeos/dbus]. Ash specific clients are located
+under [chromeos/ash/components/dbus].
+
+DBus clients for lacros is not recommended without a specific reason. You should
+consider to use crosapi so that ash proxies the DBus request.
 
 **Chrome's D-Bus-related code is not thread-safe and runs on the UI thread in
 the browser process.**
