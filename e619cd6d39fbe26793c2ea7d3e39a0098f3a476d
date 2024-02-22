@@ -106,6 +106,23 @@
       "parentUuid": "997e632c_e7129829",
       "revId": "e619cd6d39fbe26793c2ea7d3e39a0098f3a476d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1fcc6dc4_b72aacfb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1543968
+      },
+      "writtenOn": "2024-02-22T00:22:20Z",
+      "side": 1,
+      "message": "+dpranke@ for .gitignore",
+      "revId": "e619cd6d39fbe26793c2ea7d3e39a0098f3a476d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
