@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "86755cd9_6c063235",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1115919
+      },
+      "writtenOn": "2024-02-22T19:28:29Z",
+      "side": 1,
+      "message": "thanks!",
+      "revId": "c785574026462f1a2193aa71a695c85e2ba5eaca",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a5bc1cff_2f77b36c",
+        "filename": "site/chromium-os/developer-library/guides/ipc/dbus-in-chrome/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1115919
+      },
+      "writtenOn": "2024-02-22T19:28:29Z",
+      "side": 1,
+      "message": "would you mind adding version skew is the reason?",
+      "range": {
+        "startLine": 71,
+        "startChar": 51,
+        "endLine": 71,
+        "endChar": 68
+      },
+      "revId": "c785574026462f1a2193aa71a695c85e2ba5eaca",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a4e2a0a7_a3a14b3a",
+        "filename": "site/chromium-os/developer-library/guides/ipc/dbus-in-chrome/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1115919
+      },
+      "writtenOn": "2024-02-22T19:28:29Z",
+      "side": 1,
+      "message": "nit: \"D-Bus\".",
+      "range": {
+        "startLine": 71,
+        "startChar": 0,
+        "endLine": 71,
+        "endChar": 5
+      },
+      "revId": "c785574026462f1a2193aa71a695c85e2ba5eaca",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f77737f5_d6f7f037",
+        "filename": "site/chromium-os/developer-library/guides/ipc/dbus-in-chrome/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1115919
+      },
+      "writtenOn": "2024-02-22T19:28:29Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 72,
+        "startChar": 48,
+        "endLine": 72,
+        "endChar": 52
+      },
+      "revId": "c785574026462f1a2193aa71a695c85e2ba5eaca",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
