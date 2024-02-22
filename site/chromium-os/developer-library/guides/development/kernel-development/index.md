@@ -6,10 +6,9 @@ page_name: kernel-development
 title: Kernel Development
 ---
 
-This document covers best practices for kernel development in Chromium
-OS, including debugging tips, platform bringup info, committing
-changes, sending code upstream, and using upstream repos for testing &
-development.
+This document covers best practices for kernel development in ChromiumOS,
+including debugging tips, platform bringup info, committing changes, sending
+code upstream, and using upstream repos for testing & development.
 
 *** promo
 Note for Googlers: There are additional Google-specific notes and
@@ -100,8 +99,7 @@ down because the entire source directory gets copied. So delete the
 Update the kernel on the target (if you are sure that it will boot):
 
 ```bash
-(chroot) $ ~/chromiumos/src/scripts/update_kernel.sh --remote=$IP \
-  --ssh_port 22
+(chroot) $ ~/chromiumos/src/scripts/update_kernel.sh --remote=$DUT
 ```
 
 *** note
@@ -118,7 +116,7 @@ run `update_kernel.sh` with `--ab_update` option to specify the other kernel
 partition.:
 
 ```bash
-(chroot) ./update_kernel.sh --remote=$IP --bootonce --ab_update
+(chroot) ./update_kernel.sh --remote=$DUT --bootonce --ab_update
 ```
 
 The bootloader will attempt to boot the kernel on the other partition (typically
@@ -211,8 +209,7 @@ slow. There are a couple approaches that can be useful to recover quickly.
 	TODO(b/202778198): fix update_kernel.sh to update root fs with modules.
 
     ```bash
-    (chroot) $  ./update_kernel.sh --remote $IP --ssh_port 22 \
-      --board=${BOARD} \
+    (chroot) $  ./update_kernel.sh --remote=$DUT --board=$BOARD \
       --device=/dev/nvme0n1p --ignore_verity --partition /dev/nvme0n1p2
     ```
 
@@ -347,7 +344,7 @@ syslinux boot configuration:
 /tmp/mnt/syslinux/ldlinux.c32
 (DUT) # cat /tmp/mnt/syslinux/README
 Partition 12 contains the active bootloader configuration when
-booting from a non-Chrome OS BIOS.  EFI BIOSes use /efi/*
+booting from a non-ChromeOS BIOS.  EFI BIOSes use /efi/*
 and legacy BIOSes use this syslinux configuration.
 (DUT) # cat /tmp/mnt/syslinux/default.cfg
 DEFAULT chromeos-usb.A
@@ -360,7 +357,7 @@ Now, edit the relevant boot entry; this is almost always `usb.A.cfg`:
 label chromeos-usb.A
   menu label chromeos-usb.A
   kernel vmlinuz.A
-  append init=/sbin/init boot=local rootwait ro noresume noswap loglevel=7 noinitrd console=ttyS0  root=PARTUUID=80BF3EED-EB79-4D99-A837-06C95D8574B9 i915.modeset=1 cros_legacy cros_debug
+  append init=/sbin/init rootwait ro noresume loglevel=7 noinitrd console=ttyS0  root=PARTUUID=80BF3EED-EB79-4D99-A837-06C95D8574B9 i915.modeset=1 cros_legacy cros_debug
 [...]
 ```
 
@@ -525,10 +522,10 @@ same file or other files in the same directory.**
 Do not include configuration changes (i.e. changes to files within
 chromeos/config) with other code changes. See the next section for these.
 
-Files may not be suitable for submission upstream because they have Chromium
-OS-specific information, or may be based on other changes which are local to
-the ChromiumOS project. Such changes may not be upstreamed, but the Chromium
-OS project team will continue to maintain the changes.
+Files may not be suitable for submission upstream because they have
+ChromiumOS-specific information, or may be based on other changes which are
+local to the ChromiumOS project. Such changes may not be upstreamed, but the
+ChromiumOS project team will continue to maintain the changes.
 
 ##### Configuration Changes
 
@@ -562,7 +559,7 @@ So the first step is to figure out _what_ are the problems:
 *   `USE=debug` enables many of the individual debug options listed below.
 *   `USE=devdebug` enables options that should impose no or little runtime
     overhead.
-*   Miscellaneous debug options (see [kernel2.eclass] for an up to date list):
+*   Miscellaneous debug options (see [kernel.eclass] for an up to date list):
     *   Memory-related options:
         *   `USE=kmemleak`
         *   `USE=failslab`. Then configure in `/sys/kernel/debug/failslab` (setting
@@ -589,15 +586,15 @@ So the first step is to figure out _what_ are the problems:
 	    ```bash
 		#!/bin/bash
 
-		IP=$1
+		DUT=$1
 		i=0
 		while true; do
-			while ! scp root@$IP:/sys/fs/pstore/console-ramoops-0 ramoops-$i; do
+			while ! scp "root@$DUT:/sys/fs/pstore/console-ramoops-0" "ramoops-$i"; do
 			sleep 1
 			done
-			ssh root@$IP reboot
+			ssh "root@$DUT" reboot
 			sleep 20
-			i=$((i+1))
+			((++i))
 		done
 		```
 
@@ -680,8 +677,9 @@ kernel logs to your console.
 ***
 
 Caveats apply: architecture and driver support varies. For example, ACPI/SPCR
-earlycon support is [not fully integrated in Chrome
-OS](https://issuetracker.google.com/73886662) as of this writing.
+earlycon support is
+[not fully integrated in ChromeOS](https://issuetracker.google.com/73886662) as
+of this writing.
 
 #### Dynamic Debugging (dev_dbg / pr_debug)
 
@@ -1245,7 +1243,7 @@ OPTIONS
 First, add Linus's tree as a remote to the chromium-os kernel tree (assuming the chromium-os root is `~/chromiumos`):
 
 ```bash
-cd ~/chromiumos/src/third_party/kernel
+cd ~/chromiumos/src/third_party/kernel/<version>
 git remote add linus git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 git remote update
 ```
@@ -1434,23 +1432,33 @@ gerrit label-v "${deps[@]}" 1
 gerrit label-cq "${deps[@]}" 2
 ```
 
-### Downloading a patch from patchwork into IMAP
+### Downloading patches from upstream
 
-So you have an email/patch on patchwork, but you didn't subscribe to the mailing
-list, so you can't reply to/review the change.
+If you want to review or apply a patchset from a mailing list that you are not
+subscribed, you can download it from `lore`. Lore is an email archive
+maintained by kernel.org.
 
-To fetch the email into your IMAP/gmail account:
+You can reach lore via their web interface: https://lore.kernel.org .
+Simply navigate to the mail thread that you are interested and click on the
+`mbox.gz` link to obtain the mailbox file.
 
-1.  Download the patchwork mbox file.
+You can also use the
+[b4](https://b4.docs.kernel.org/en/latest/installing.html) console tool.
+Simply run `b4 mbox $Message-id` and you will obtain the mailbox file. You can
+also apply the all patches with b4 using `b4 am $Message-id`. b4 will run some
+attestations of the patches.
+
+### Review patches from a mailbox file
+
+If you use `mutt`, you can simply run `mutt -f patch.mbox`.
+
+If you prefer to forward the emails to an email account with IMAP access, you
+can use `imap-upload`:
+
 1.  Clone the [imap-upload] repo.
 1.  `python2.7 ./imap_upload.py patch.mbox --gmail`
 1.  Use @chromium.org account.
 1.  Find the email in your mailbox, and reply!
-
-mbox downloaded from patchwork doesn't include replies to the patch (e.g.
-reviewer comments). To obtain mbox containing replies, download mbox.gz files
-from https://lore.kernel.org/lkml/ instead.
-
 
 ### How do I build an upstream kernel?
 
@@ -1466,19 +1474,6 @@ an upstream kernel release. Ensuring hardware support for your system is not
 covered here.
 ***
 
-### Building and installing kernel-next on a specific overlay
-
-If given target device is not building kernel-next, you can switch by unmerging
-the standard kernel and then building kernel-next normally:
-
-```bash
-cros-workon-${BOARD} stop sys-kernel/chromeos-kernel
-emerge-${BOARD} --unmerge sys-kernel/chromeos-kernel
-cros-workon-${BOARD} start sys-kernel/chromeos-kernel-next
-cros_workon_make --board=${BOARD} sys-kernel/chromeos-kernel-next --install
-~/chromiumos/src/scripts/update_kernel.sh --board=${BOARD} --remote=hostname...
-```
-
 ### How do I send a patch upstream?
 
 Changes to parts of the kernel which are not purely ChromeOS-specific should
@@ -1488,7 +1483,7 @@ kernel and mm source. You can start with a code review if you like. Take a look
 on the kernel mailing list to get a feel for how people submit and review
 patches.
 
-#### Prepare your local repository state
+#### 1) Prepare your local repository state
 
 To upstream, create a remote to track upstream.
 
@@ -1525,12 +1520,12 @@ git commit
 # create a suitable message
 ```
 
-#### How do I check my patches are correctly formatted?
+#### 2) Check if your patches are correctly formatted
 
 There are two aspects of having correct patches to send upstream: not having
 ChromiumOS-specific details, and meeting all the Linux kernel requirements.
 
-###### Remove ChromiumOS-specific Details
+##### Remove ChromiumOS-specific Details
 
 Verifying these details is as simple as loading the patch file in your favorite
 editor. Edit the file manually to become compliant; this will, of course, have
@@ -1545,7 +1540,7 @@ no affect on the source or commit message stored by git.
 Once all of the above is true, you can move on to checking for compliance with
 the Linux Kernel guidelines.
 
-###### Check for Compliance with Linux Kernel Requirements
+##### Check for Compliance with Linux Kernel Requirements
 
 First off, make sure the Kernel builds with patch applied.
 
@@ -1562,13 +1557,37 @@ git commit --amend
 # rinse and repeat
 ```
 
-#### Send out the patch using patman
+#### 3a) Option 1: Send out the patch using b4
+
+Currently, it is recommended to use b4 to send your patch upstream because it is
+maintained by the people behind the kernel infra.
+
+You may use the [original documentation](https://b4.docs.kernel.org/en/latest/contributor/prep.html).
+Alternatively, [this tutorial](https://people.kernel.org/monsieuricon/sending-a-kernel-patch-with-b4-part-1)
+is also helpful.
+
+While following this workflow, keep the following in mind:
+
+* For this workflow, you will have to check out a separate kernel src tree. This is
+because you don't want cros hooks to run on the commits you make.
+
+* You will have to modify your `.git/config`, and ensure it has the [user] and [sendemail]
+section accurately filled out.
+
+* If you do not want to use a pgp key, or don't have one, make sure you pass in the `--no-sign`
+option when you run`b4 send`.
+
+* This workflow gives you the option of using git-sendemail. If you choose to use that instead
+of the web endpoint, and it's your first time, make sure to follow instructions
+[here](#first_time-email-setup) and to pass in the `--no-sign` option when running `b4 send`.
+
+#### 3b) Option 2: Send out the patch using patman
 
 It is possible to send out patches using `git send-email` manually, but for
 most usecases using the `patman` CLI is sufficient and can save a lot of time.
 
-(See the next section for first-time credential setup for using `patman` or
-`git send-email`.)
+(See the [next section](#first_time-email-setup) for first-time credential setup
+for using `patman` and `git send-email`.)
 
 Patman automates patch creation, checking, change list creation, cover letter,
 sending to the mailing list, etc. You can find patman in the U-Boot tree
@@ -1609,25 +1628,23 @@ Various options are available. Particularly useful ones are:
 *   \-n - do a dry run
 
 Full documentation is available in the README (patman -h) or
-[here](https://gitlab.denx.de/u-boot/u-boot/blob/HEAD/tools/patman/README).
+[here](https://source.denx.de/u-boot/u-boot/-/blob/HEAD/tools/patman/patman.rst).
 Take a look at the automated change list creation and the alias support also.
 
-###### First-Time Email Setup
+##### Troubleshooting
+You may get some python `ModuleNotFoundError` errors when running `patman`. This
+may be resolved by `pip install pygit2 requests`
+
+#### First-Time Email Setup
 
 If you have never sent email from the command-line, or from `git send-email`, then there is some setup required.
 
-**NOTE**: Googlers who can access pre-released Google-corp binaries should use
-instructions from this internal site instead: http://go/sendgmail.
-
-The following instructions are for open-source contributors or Googlers who
-are directly using gLaptops for sending out patches.
-
-**Install `git send-email`**
+##### 1. **Install `git send-email`**
 
    * If `git send-email --help` shows an error, you'll need to install it
       * For example, on debian: `apt-get install git-email`
 
-**Decide on the email address, password, and mail server to use**
+##### 2. **Decide on the email address, password, and mail server to use**
 
 You must configure git's send-email command with the details of how to send
 email from your identity. The rest of this section will explain how to set up a
@@ -1639,6 +1656,8 @@ settings.
 **NOTE**: For Googlers, note that [DMARC](http://b/14415867) restrictions
 prevent usage of your @google.com email address. Use http://go/chromium-account
 to obtain an @chromium.org address.
+
+##### 3. Set up email credentials
 
 For google-mail-based addresses, it's recommended to use an "App
 Password" for convenience when storing your real password on disk is
@@ -1663,7 +1682,7 @@ Open up your `~/.gitconfig` file to include the following stanza:
 Remember to swap in the `YOUR_EMAIL_ADDRESS` with your full email address, and
 `PASSWORD` with your password (or App Password).
 
-###### Automating the Compliance Checks
+#### Optional: Automating the Compliance Checks
 
 To use the following script, you will need to have created a _patch_ file using
 `git format-patch`. Also note that you will have to recreate the patch file, and
@@ -1714,5 +1733,5 @@ cat $OUT
 [SSH keys]: developer_guide.md#Set-up-SSH-connection-between-chroot-and-DUT
 [trace-cmd man pages]: https://man7.org/linux/man-pages/man1/trace-cmd.1.html
 [LWN trace-cmd HOWTO]: https://lwn.net/Articles/410200/
-[kernel2.eclass]: https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/eclass/cros-kernel2.eclass
+[kernel.eclass]: https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/eclass/cros-kernel.eclass
 [KCSan]: http://issuetracker.google.com/issues/182965087
