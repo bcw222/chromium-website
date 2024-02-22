@@ -1153,4 +1153,9 @@ issue-tracking/googler-guidelines/access-warning2.png
 issue-tracking/googler-guidelines/attachment-access.png
 issue-tracking/googler-guidelines/banner.png
 issue-tracking/googler-guidelines/issue-access.png
+chromium-os/developer-library/reference/infrastructure/input-stack/chrome.png
+chromium-os/developer-library/reference/infrastructure/input-stack/kernel.png
+chromium-os/developer-library/reference/infrastructure/input-stack/vms-and-containers.png
+chromium-os/developer-library/reference/infrastructure/input-stack/chrome.dia
+chromium-os/developer-library/reference/infrastructure/input-stack/vms-and-containers.dia
 #end_lob_ignore
