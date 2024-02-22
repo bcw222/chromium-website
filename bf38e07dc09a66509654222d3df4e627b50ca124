@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ffe2a5a7_739616cf",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2024-02-22T20:19:17Z",
+      "side": 1,
+      "message": "Could you add a reason for the change. I don\u0027t have any particular problem with updating the readme but some context would help understand why these changes are being made",
+      "revId": "bf38e07dc09a66509654222d3df4e627b50ca124",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
