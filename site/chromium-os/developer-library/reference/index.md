@@ -49,6 +49,13 @@ title: Reference
 * [repo](/chromium-os/developer-library/reference/tools/repo-tool)
 * [xBuddy for Devserver](/chromium-os/developer-library/reference/tools/xbuddy)
 
+## C++
+
+* [Intro](/chromium-os/developer-library/reference/cpp/intro)
+* [Memory
+  Management](/chromium-os/developer-library/reference/cpp/cpp-memory-management)
+* [Design Patterns](/chromium-os/developer-library/reference/cpp/cpp-patterns)
+
 </div>
 <div class="column">
 
