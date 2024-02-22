@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "996b5988_99383e20",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-02-22T00:17:19Z",
+      "side": 1,
+      "message": "I only see the sha1 files. Are the actual images missing?",
+      "revId": "e619cd6d39fbe26793c2ea7d3e39a0098f3a476d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
