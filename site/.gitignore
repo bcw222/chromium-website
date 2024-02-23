@@ -1163,4 +1163,8 @@ chromium-os/developer-library/reference/device/disk-format/kernel_partition_layo
 chromium-os/developer-library/reference/device/disk-format/disk_layout.png
 chromium-os/developer-library/reference/development/cros-commit-pipeline/simplified_cq_pipeline.png
 chromium-os/developer-library/reference/security/security-whitepaper/chromeos_security_layers.png
+chromium-os/developer-library/guides/device/developer-mode/developer_mode1.jpg
+chromium-os/developer-library/guides/device/developer-mode/developer_mode2.jpg
+chromium-os/developer-library/guides/device/developer-mode/developer_mode3.jpg
+chromium-os/developer-library/guides/device/developer-mode/developer_mode4.jpg
 #end_lob_ignore

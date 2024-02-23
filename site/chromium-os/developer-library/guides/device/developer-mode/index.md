@@ -52,7 +52,7 @@ details about [blocked Developer Mode].
 You can tell that you're in Developer Mode if you see one of these screens when
 you turn the device on:
 
-![developer mode 1] ![developer mode 2] ![developer mode 3] ![developer mode 4]
+![developer mode 1](/chromium-os/developer-library/guides/device/developer-mode/developer_mode1.jpg) ![developer mode 2](/chromium-os/developer-library/guides/device/developer-mode/developer_mode2.jpg) ![developer mode 3](/chromium-os/developer-library/guides/device/developer-mode/developer_mode3.jpg) ![developer mode 4](/chromium-os/developer-library/guides/device/developer-mode/developer_mode4.jpg)
 
 ## Switch to Normal Mode
 
@@ -300,10 +300,3 @@ bootloader when you see the developer mode boot screen.
 [blocked Developer Mode]: https://support.google.com/chrome/a/answer/6150653
 [old-style CBFS creation guide]: https://groups.google.com/a/chromium.org/g/chromium-os-dev/c/xtR0nUwF-Fo/m/sgzY1JC2CQAJ
 [Mode Transition Wipe]: https://www.chromium.org/chromium-os/chromiumos-design-docs/developer-mode/#mode-transition-wipe
-
-<!-- Images -->
-
-[developer mode 1]: ./images/developer_mode1.jpg
-[developer mode 2]: ./images/developer_mode2.jpg
-[developer mode 3]: ./images/developer_mode3.jpg
-[developer mode 4]: ./images/developer_mode4.jpg
