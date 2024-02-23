@@ -45,7 +45,6 @@ title: Guides
 * [Remote Trybots](/chromium-os/developer-library/guides/development/remote-trybots)
 * [Rust on ChromeOS](/chromium-os/developer-library/guides/development/rust-on-cros)
 * [Sandboxing ChromeOS system services](/chromium-os/developer-library/guides/development/sandboxing)
-* [ChromeOS security review HOWTO](/chromium-os/developer-library/guides/development/security-review-howto)
 * [ChromiumOS Guide to Working on Branches](/chromium-os/developer-library/guides/development/work-on-branch)
 
 ## Device
