@@ -33,6 +33,24 @@
       "message": "https://chromium-website--cl5319726-ps1-rtq72gg2.web.app/chromium-os/developer-library/reference/device/disk-format/\n\nnot sure what the error on uploading was, but seems like it worked",
       "revId": "3d2a7307882e4bfb45b11c4622ad85e28ca72766",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d199241_dd3f9c73",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-02-23T01:12:49Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "934482d1_f75d7062",
+      "revId": "3d2a7307882e4bfb45b11c4622ad85e28ca72766",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
