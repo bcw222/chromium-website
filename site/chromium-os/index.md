@@ -29,7 +29,7 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 *   [Official ChromeOS
             Devices](/chromium-os/developer-information-for-chrome-os-devices)
 *   [Process for Getting
-            Involved/Contributing](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/contributing.md)
+            Involved/Contributing](/chromium-os/developer-library/guides/development/contributing)
 *   [Tree sheriffs](/developers/tree-sheriffs/sheriff-details-chromium-os)
 *   [Useful developer related Chrome
             extensions](/developers/useful-extensions)
