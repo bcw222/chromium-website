@@ -1158,4 +1158,7 @@ chromium-os/developer-library/reference/infrastructure/input-stack/kernel.png
 chromium-os/developer-library/reference/infrastructure/input-stack/vms-and-containers.png
 chromium-os/developer-library/reference/infrastructure/input-stack/chrome.dia
 chromium-os/developer-library/reference/infrastructure/input-stack/vms-and-containers.dia
+chromium-os/developer-library/reference/device/disk-format/boot_flow.png
+chromium-os/developer-library/reference/device/disk-format/kernel_partition_layout.png
+chromium-os/developer-library/reference/device/disk-format/disk_layout.png
 #end_lob_ignore
