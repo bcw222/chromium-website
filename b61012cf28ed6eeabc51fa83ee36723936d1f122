@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9323acbb_7998315f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-02-23T22:42:05Z",
+      "side": 1,
+      "message": "I actually meant //site/OWNERS or //CONTENT_OWNERS, but //OWNERS is fine, too.",
+      "revId": "b61012cf28ed6eeabc51fa83ee36723936d1f122",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
