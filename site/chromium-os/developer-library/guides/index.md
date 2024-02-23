@@ -37,15 +37,15 @@ title: Guides
 
 ## Development
 
-* [Life of a Chrome commit on ChromeOS](/chromium-os/developer-library/guides/development/chrome-commit-pipeline)
 * [ChromiumOS Contributing Guide](/chromium-os/developer-library/guides/development/contributing)
 * [ChromiumOS Developer Guide](/chromium-os/developer-library/guides/development/developer-guide)
-* [Kernel Development](/chromium-os/developer-library/guides/development/kernel-development)
-* [Getting started with platform2](/chromium-os/developer-library/guides/development/platform2-primer)
-* [Remote Trybots](/chromium-os/developer-library/guides/development/remote-trybots)
-* [Rust on ChromeOS](/chromium-os/developer-library/guides/development/rust-on-cros)
-* [Sandboxing ChromeOS system services](/chromium-os/developer-library/guides/development/sandboxing)
 * [ChromiumOS Guide to Working on Branches](/chromium-os/developer-library/guides/development/work-on-branch)
+* [Development Basics](/chromium-os/developer-library/guides/development/development-basics)
+* [Getting started with platform2](/chromium-os/developer-library/guides/development/platform2-primer)
+* [Introduction to Git & Gerrit for CrOS contributors](/chromium-os/developer-library/guides/development/git-and-gerrit-intro)
+* [Life of a Chrome commit on ChromeOS](/chromium-os/developer-library/guides/development/chrome-commit-pipeline)
+* [Remote Trybots](/chromium-os/developer-library/guides/development/remote-trybots)
+* [Sandboxing ChromeOS system services](/chromium-os/developer-library/guides/development/sandboxing)
 
 ## Device
 
@@ -63,13 +63,17 @@ title: Guides
 
 * [libchrome](/chromium-os/developer-library/guides/infrastructure/libchrome)
 
-</div>
-<div class="column">
-
 ## IPC
 
 * [ChromeOS D-Bus best practices](/chromium-os/developer-library/guides/ipc/dbus-best-practices)
 * [ChromeOS D-Bus usage in Chrome](/chromium-os/developer-library/guides/ipc/dbus-in-chrome)
+
+## Kernel
+
+* [Kernel Development](/chromium-os/developer-library/guides/kernel/kernel-development)
+
+</div>
+<div class="column">
 
 ## LSC
 
@@ -87,6 +91,10 @@ title: Guides
 ## Recipes
 
 * [Tips And Tricks for ChromiumOS Developers](/chromium-os/developer-library/guides/recipes/tips-and-tricks)
+
+## Rust
+
+* [Rust on ChromeOS](/chromium-os/developer-library/guides/rust/rust-on-cros)
 
 ## Security
 
