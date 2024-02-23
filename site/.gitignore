@@ -1161,4 +1161,6 @@ chromium-os/developer-library/reference/infrastructure/input-stack/vms-and-conta
 chromium-os/developer-library/reference/device/disk-format/boot_flow.png
 chromium-os/developer-library/reference/device/disk-format/kernel_partition_layout.png
 chromium-os/developer-library/reference/device/disk-format/disk_layout.png
+chromium-os/developer-library/reference/development/cros-commit-pipeline/simplified_cq_pipeline.png
+chromium-os/developer-library/reference/security/security-whitepaper/chromeos_security_layers.png
 #end_lob_ignore
