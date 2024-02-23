@@ -14,6 +14,10 @@ enable developer mode and get root access to your system.
 
 ## Enable Developer Mode
 
+Before entering developer mode it is important to understand that transitioning
+to or from developer mode will trigger a [Mode Transition Wipe] which wipes the
+stateful partition of the device.
+
 Modern ChromeOS devices can be put into developer mode by pressing
 [specific keys][debug buttons] while ChromeOS is booting:
 
@@ -295,6 +299,7 @@ bootloader when you see the developer mode boot screen.
 [recovery process]: https://www.google.com/chromeos/recovery
 [blocked Developer Mode]: https://support.google.com/chrome/a/answer/6150653
 [old-style CBFS creation guide]: https://groups.google.com/a/chromium.org/g/chromium-os-dev/c/xtR0nUwF-Fo/m/sgzY1JC2CQAJ
+[Mode Transition Wipe]: https://www.chromium.org/chromium-os/chromiumos-design-docs/developer-mode/#mode-transition-wipe
 
 <!-- Images -->
 
