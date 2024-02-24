@@ -32,8 +32,11 @@ keep reading ...
 
 ## Making bigger changes using a local Git checkout
 
-*NOTE: If you have an existing Chromium or ChromiumOS checkout, you will
-hopefully soon have this repo DEPS'ed in in automatically.*
+*NOTE: If you have an existing Chromium checkout, you should
+see this under chromium/src/docs/website already. Skip to step 3.*
+
+*NOTE: If you have an existing ChromiumOS checkout, you should
+see this under chromiumos/website already. Skip to step 3.*
 
 1.  Install depot_tools:
 
@@ -47,7 +50,6 @@ hopefully soon have this repo DEPS'ed in in automatically.*
     ```bash
     $ git clone https://chromium.googlesource.com/website
     $ cd website
-    $ gclient sync
     ```
 
     or
@@ -56,9 +58,15 @@ hopefully soon have this repo DEPS'ed in in automatically.*
     $ fetch website
     ```
 
-3.  Make your changes! Check out [AUTHORING.md](AUTHORING.md) for guidelines.
+3. Download dependencies:
 
-4.  Build all of the static pages up-front to check for errors.
+   ```bash
+   $ gclient sync
+   ```
+
+4.  Make your changes! Check out [AUTHORING.md](AUTHORING.md) for guidelines.
+
+5.  Build all of the static pages up-front to check for errors.
     The content will be built into `//build` by default.
 
     ```bash
@@ -70,7 +78,7 @@ hopefully soon have this repo DEPS'ed in in automatically.*
     (`npmw` is a simple wrapper around the version of `npm` that is bundled
     as part of this checkout.)
 
-5.  Start a local web server to view the site. The server will (re-)generate
+6.  Start a local web server to view the site. The server will (re-)generate
     the pages on the fly as needed if the input or conversion code changes.
     The content will be built into `//build` and will be available at the
     `Local` URL.
@@ -87,7 +95,7 @@ hopefully soon have this repo DEPS'ed in in automatically.*
     > [Tricium](https://chromium.googlesource.com/infra/infra/+/main/go/src/infra/tricium/README.md)
     > also comments on CLs uploaded to Gerrit with a preview link.
 
-6.  Check in your changes and upload a CL to the Gerrit code review server.
+7.  Check in your changes and upload a CL to the Gerrit code review server.
 
     ```bash
     $ git commit -a -m 'whatever'
@@ -97,7 +105,7 @@ hopefully soon have this repo DEPS'ed in in automatically.*
     If you are adding binary assets (images, etc.) to the site, you will
     need to upload them to the GCS bucket using `//scripts/upload-lobs.py`.
 
-7.  Get one of the [//OWNERS](../OWNERS) to review your changes, and then
+8.  Get one of the [//OWNERS](../OWNERS) to review your changes, and then
     submit the change via the commit queue.
 
     *NOTE:* If this is your first time contributing something to Chromium
