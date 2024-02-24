@@ -55,6 +55,11 @@ title: Reference
 * [Memory
   Management](/chromium-os/developer-library/reference/cpp/cpp-memory-management)
 * [Design Patterns](/chromium-os/developer-library/reference/cpp/cpp-patterns)
+* [Writing Tests](/chromium-os/developer-library/reference/cpp/cpp-writing-tests)
+* [Using Mojo in C++](/chromium-os/developer-library/reference/cpp/cpp-mojo)
+* [C++ Prefs](/chromium-os/developer-library/reference/cpp/cpp-pref)
+* [Invariants and CHECKs in C++](/chromium-os/developer-library/reference/cpp/cpp-invariant-checks)
+* [Security - Best Practices for C++](/chromium-os/developer-library/reference/cpp/cpp-security-best-practices)
 
 </div>
 <div class="column">
@@ -68,6 +73,7 @@ title: Reference
 * [Life of a ChromeOS commit](/chromium-os/developer-library/reference/development/cros-commit-pipeline)
 * [Directory metadata](/chromium-os/developer-library/reference/development/dir-metadata)
 * [Local & Remote Source Tree Layouts](/chromium-os/developer-library/reference/development/source-layout)
+* [E2E Tests](/chromium-os/developer-library/reference/development/e2e_tests)
 
 ## Infrastructure
 
@@ -104,6 +110,10 @@ title: Reference
 ## Third party
 
 * [ChromiumOS Archive Mirrors](/chromium-os/developer-library/reference/third-party/archive-mirrors)
+
+## User sessions
+
+* [User sessions](/chromium-os/developer-library/reference/user-sessions/user-sessions)
 
 </div>
 </div>
