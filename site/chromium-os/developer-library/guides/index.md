@@ -34,6 +34,7 @@ title: Guides
 * [Debug button shortcuts](/chromium-os/developer-library/guides/debugging/debug-buttons)
 * [Firmware UI troubleshooting](/chromium-os/developer-library/guides/debugging/firmware-ui)
 * [How to get a stack trace at runtime](/chromium-os/developer-library/guides/debugging/stack-traces)
+* [Recreating a Snapshot or Buildspec](/chromium-os/developer-library/guides/debugging/recreating-a-snapshot-or-buildspec)
 
 ## Development
 
