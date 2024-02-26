@@ -41,6 +41,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "233ad6e7_23e9f372",
+        "filename": "site/chromium-os/developer-library/reference/cpp/cpp-security-best-practices/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1426572
+      },
+      "writtenOn": "2024-02-26T17:47:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c42ace21_3f6a97de",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 40
+      },
+      "revId": "147dd6f3bbe3b71819a8e7d2fb91ccb9479cbdf2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0cd17a4e_9d398365",
@@ -64,6 +88,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1309eab3_71364755",
+        "filename": "site/chromium-os/developer-library/reference/cpp/cpp-writing-tests/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1426572
+      },
+      "writtenOn": "2024-02-26T17:47:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0cd17a4e_9d398365",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 24
+      },
+      "revId": "147dd6f3bbe3b71819a8e7d2fb91ccb9479cbdf2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4c96e76e_126ab6a6",
@@ -77,6 +125,30 @@
       "writtenOn": "2024-02-26T17:16:40Z",
       "side": 1,
       "message": "This also seems like a candidate for Guides / Testing.",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 20
+      },
+      "revId": "147dd6f3bbe3b71819a8e7d2fb91ccb9479cbdf2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "92c3db51_c63b938a",
+        "filename": "site/chromium-os/developer-library/reference/development/e2e_tests/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1426572
+      },
+      "writtenOn": "2024-02-26T17:47:32Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4c96e76e_126ab6a6",
       "range": {
         "startLine": 5,
         "startChar": 0,
