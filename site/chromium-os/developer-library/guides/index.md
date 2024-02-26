@@ -119,6 +119,8 @@ title: Guides
 * [ChromiumOS unit testing](/chromium-os/developer-library/guides/testing/running-unit-tests)
 * [Running a single binary with UBSAN](/chromium-os/developer-library/guides/testing/single-binary-ubsan)
 * [Best practices for writing ChromeOS unit tests](/chromium-os/developer-library/guides/testing/unit-tests)
+* [Writing Tests in C++](/chromium-os/developer-library/guides/testing/cpp-writing-tests)
+* [Running and writing "Tast" automated end to end (E2E) tests](/chromium-os/developer-library/guides/testing/e2e-tests)
 
 ## Third Party
 
