@@ -56,6 +56,30 @@
       },
       "revId": "4ea1bdb806cf66f6cab6f8df67f31e89fe6419b1",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c18ed505_89b37050",
+        "filename": "site/chromium-os/developer-library/guides/development/sandboxing/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 1479707
+      },
+      "writtenOn": "2024-02-26T19:47:02Z",
+      "side": 1,
+      "message": "Ugh, wrote up a whole long comment before vacation, discovered on return that I never sent it.\n\nMy goal here was just to convert the style annotations to match, so you can look at the\nbefore: https://chromium.googlesource.com/chromiumos/docs/+/5acc66987b5f15f4cc31e86ebca74cc9ee9fe1fc/sandboxing.md\nand after: https://chromium-website--cl5300123-ps1-acrcifyt.web.app/chromium-os/developer-library/guides/development/sandboxing/\n\nand see that they\u0027re pretty similar.\n\nThat said, from a \"what looks good and is clear\" perspective, I still think this is probably the right change. The point of this \"note\" seems to be to highlight an important gotcha (one that I think I\u0027ve tripped over in the past), and blockquote highlights these lines in yellow to make it pop a bit.\n\nI wonder if we should put some work into starting a style guide or something? Is there already one I missed?\n\nI\u0027ll merge this as-is, though I\u0027m also happy to make further changes in another CL.",
+      "parentUuid": "2628bbde_568304f9",
+      "range": {
+        "startLine": 253,
+        "startChar": 0,
+        "endLine": 253,
+        "endChar": 1
+      },
+      "revId": "4ea1bdb806cf66f6cab6f8df67f31e89fe6419b1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
