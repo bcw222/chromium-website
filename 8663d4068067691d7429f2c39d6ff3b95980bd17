@@ -22,6 +22,30 @@
       },
       "revId": "8663d4068067691d7429f2c39d6ff3b95980bd17",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "230ccf78_56876c3e",
+        "filename": "site/chromium-os/developer-library/guides/debugging/recreating-a-snapshot-or-buildspec/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-02-26T17:17:54Z",
+      "side": 1,
+      "message": "No worries. We\u0027ll (relatively) soon move to a more modern CMS which should help with papercuts like this.",
+      "parentUuid": "50e91b06_b13ce449",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 0
+      },
+      "revId": "8663d4068067691d7429f2c39d6ff3b95980bd17",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
