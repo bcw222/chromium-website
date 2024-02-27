@@ -16,6 +16,24 @@
       "message": "It\u0027d probably be useful to also include this instruction in the other feature types that need Intents to Ship.",
       "revId": "7a0de304e9f4c0269e65ca7dc68016d37f576e5c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8fd5ba10_20358b55",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 422,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2024-02-27T01:57:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "aa370164_0194d90f",
+      "revId": "7a0de304e9f4c0269e65ca7dc68016d37f576e5c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
