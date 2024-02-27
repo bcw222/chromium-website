@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fa89b3ee_ea537ec0",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1603452
+      },
+      "writtenOn": "2024-02-27T21:10:18Z",
+      "side": 1,
+      "message": "Edit to: publicly visible",
+      "range": {
+        "startLine": 101,
+        "startChar": 235,
+        "endLine": 101,
+        "endChar": 242
+      },
+      "revId": "249e6d9cd427e062a699fd233db6d72af48a0adc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "849d74c4_2988010c",
+        "filename": "site/for-testers/faq/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 1603452
+      },
+      "writtenOn": "2024-02-27T21:10:18Z",
+      "side": 1,
+      "message": "remove",
+      "range": {
+        "startLine": 101,
+        "startChar": 242,
+        "endLine": 101,
+        "endChar": 260
+      },
+      "revId": "249e6d9cd427e062a699fd233db6d72af48a0adc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
