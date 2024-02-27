@@ -418,6 +418,9 @@ after 5 days.
 
 Once you have the needed approvals, set the implementation status to "Enabled by default" in
 ChromeStatus.
+You will likely also need to land a Chromium CL to turn on the feature.
+Link to the blink-dev thread via the [Google Groups web interface](https://groups.google.com/a/chromium.org/g/blink-dev)
+in your CL's commit message to make it easy and clear to review.
 
 ### Implementations of already-defined consensus-based standards {:#process-existing-standard}
 
@@ -489,6 +492,9 @@ days.)
 
 Once you have the needed approvals, set the implementation status to "Enabled by default" in
 ChromeStatus.
+You will likely also need to land a Chromium CL to turn on the feature.
+Link to the blink-dev thread via the [Google Groups web interface](https://groups.google.com/a/chromium.org/g/blink-dev)
+in your CL's commit message to make it easy and clear to review.
 
 ### Feature deprecations
 
@@ -677,6 +683,11 @@ update that thread with the new details, and wait for 3 API owners to confirm
 that their LGTMs still apply. Otherwise, you can keep following your approved
 plan without new LGTMs.
 
+You will likely also need to land a Chromium CL to turn on the feature.
+Link to the blink-dev thread via the [Google Groups web interface](https://groups.google.com/a/chromium.org/g/blink-dev)
+in your CL's commit message to make it easy and clear to review.
+
+
 #### Step 7: Disable the feature {:#disable-feature}
 
 Disable the feature by default. Update ChromeStatus to either “Disabled” or
@@ -767,6 +778,11 @@ summary of the code change and the expected milestone.
 For a PSA you're expected to follow the [flag guarding
 guidelines](https://chromium.googlesource.com/chromium/src/+/main/docs/flag_guarding_guidelines.md),
 which generally allow for some discretion for trivial changes.
+
+You will likely also need to land a Chromium CL to turn on the feature.
+Link to the blink-dev thread via the [Google Groups web interface](https://groups.google.com/a/chromium.org/g/blink-dev)
+in your CL's commit message to make it easy and clear to review.
+
 
 You may wish to use [Finch](http://go/finch) to increase confidence in the new
 code as you deploy it.
