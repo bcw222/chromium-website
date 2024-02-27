@@ -17,7 +17,7 @@ how the crostini is made, not how to use it. :)
 Note: this diagram is not exhaustive, but covers the major services and how they
 interact.
 
-![Crostini services diagram](images/crostini_services.png)
+![Crostini services diagram](/chromium-os/developer-library/guides/containers/crostini-developer-guide/crostini_services.png)
 
 Googlers: update this image at [go/termina-rpc]
 
