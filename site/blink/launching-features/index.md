@@ -418,6 +418,9 @@ after 5 days.
 
 Once you have the needed approvals, set the implementation status to "Enabled by default" in
 ChromeStatus.
+You will likely also need to land a Chromium CL to turn on the feature.
+Link to the blink-dev thread via the [Google Groups web interface](https://groups.google.com/a/chromium.org/g/blink-dev)
+in your CL's commit message to make it easy and clear to review.
 
 ### Implementations of already-defined consensus-based standards {:#process-existing-standard}
 
