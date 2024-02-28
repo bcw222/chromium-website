@@ -51,6 +51,7 @@ title: Guides
 ## Device
 
 * [Developer mode](/chromium-os/developer-library/guides/device/developer-mode)
+* [Powerwash](/chromium-os/developer-library/guides/device/powerwash)
 * [Screenshots](/chromium-os/developer-library/guides/device/screenshots)
 
 ## Firmware
