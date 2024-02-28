@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0973e6a1_3e0cff33",
+        "filename": "site/chromium-os/developer-library/guides/containers/containers-and-vms/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 554,
+      "author": {
+        "id": 1113814
+      },
+      "writtenOn": "2024-02-28T21:20:24Z",
+      "side": 1,
+      "message": "Does the \"start\" still allow specifying full path?",
+      "revId": "3258a9d221cd17afccb7168a5ce5e64552cb48ed",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
