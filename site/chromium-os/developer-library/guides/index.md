@@ -81,6 +81,10 @@ title: Guides
 * [ChromeOS Platform Large Scale Changes (LSC)](/chromium-os/developer-library/guides/lsc/large-scale-changes)
 * [ChromeOS LSC Workflow](/chromium-os/developer-library/guides/lsc/large-scale-changes)
 
+## Metrics
+
+* [How to Create Metrics?](/chromium-os/developer-library/guides/metrics/how-to-create-metrics)
+
 ## Portage
 
 * [Ebuild FAQ](/chromium-os/developer-library/guides/portage/ebuild-faq)
