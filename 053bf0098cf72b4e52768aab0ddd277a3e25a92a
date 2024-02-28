@@ -16,6 +16,23 @@
       "message": "You need to update guides/index.md to include a link to this doc.\n\nPlease copy/paste other CL descriptions, something like \"\"\n\nCrOS Developer Library: Migrate running_remotely.md\n\nThis change migrates the running_remotely.md documentation from\ngo/howdoicros to the CrOS developer library.\n\nBug: b/327496227",
       "revId": "053bf0098cf72b4e52768aab0ddd277a3e25a92a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1cb5a3ac_03fad486",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-02-28T23:48:06Z",
+      "side": 1,
+      "message": "Please add more context in the CL description including the b/ number",
+      "revId": "053bf0098cf72b4e52768aab0ddd277a3e25a92a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
