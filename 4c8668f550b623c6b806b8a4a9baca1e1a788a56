@@ -22,6 +22,30 @@
       },
       "revId": "4c8668f550b623c6b806b8a4a9baca1e1a788a56",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "245cfa76_d6126be6",
+        "filename": "site/chromium-os/developer-library/guides/golang/protobuf-golang-deserialize/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1547388
+      },
+      "writtenOn": "2024-02-28T23:06:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a9631e01_8b47adbd",
+      "range": {
+        "startLine": 5,
+        "startChar": 21,
+        "endLine": 5,
+        "endChar": 30
+      },
+      "revId": "4c8668f550b623c6b806b8a4a9baca1e1a788a56",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
