@@ -104,6 +104,30 @@
       },
       "revId": "6f4b8ae4caf791fdcc4abda3f41d77f2ab1a23c8",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "52f072ae_8294c680",
+        "filename": "site/chromium-os/developer-library/guides/enterprise/enterprise-policy/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1433868
+      },
+      "writtenOn": "2024-02-28T23:57:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b71436f1_9af64ce7",
+      "range": {
+        "startLine": 6,
+        "startChar": 18,
+        "endLine": 6,
+        "endChar": 24
+      },
+      "revId": "6f4b8ae4caf791fdcc4abda3f41d77f2ab1a23c8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
