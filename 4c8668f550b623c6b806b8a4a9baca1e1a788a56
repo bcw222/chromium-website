@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a9631e01_8b47adbd",
+        "filename": "site/chromium-os/developer-library/guides/golang/protobuf-golang-deserialize/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-02-28T23:02:35Z",
+      "side": 1,
+      "message": "Remove freshness tag and add breadcrumbs.",
+      "range": {
+        "startLine": 5,
+        "startChar": 21,
+        "endLine": 5,
+        "endChar": 30
+      },
+      "revId": "4c8668f550b623c6b806b8a4a9baca1e1a788a56",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
