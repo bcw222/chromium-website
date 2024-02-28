@@ -16,6 +16,29 @@
       "message": "What\u0027s the bug for go/howdoicros migration?",
       "revId": "4d47a0260260d3aaa3bd26336db072b41cb0d0b9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f4b915d0_4f4c032f",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-02-28T23:03:31Z",
+      "side": 1,
+      "message": "nit: I think we\u0027re using whatever is the opposite of Title case, i.e., only capitalize the first word.",
+      "range": {
+        "startLine": 137,
+        "startChar": 13,
+        "endLine": 137,
+        "endChar": 17
+      },
+      "revId": "4d47a0260260d3aaa3bd26336db072b41cb0d0b9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
