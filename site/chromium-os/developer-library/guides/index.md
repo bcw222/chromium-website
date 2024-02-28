@@ -57,6 +57,10 @@ title: Guides
 * [Powerwash](/chromium-os/developer-library/guides/device/powerwash)
 * [Screenshots](/chromium-os/developer-library/guides/device/screenshots)
 
+## Documentation
+
+* [Chromium Cookbook](/chromium-os/developer-library/guides/documentation/chromium-cookbook)
+
 ## Firmware
 
 * [USB Type-C power delivery (PD) firmware](/chromium-os/developer-library/guides/firmware/pd-firmware-update)
