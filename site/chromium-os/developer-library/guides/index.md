@@ -32,6 +32,7 @@ title: Guides
 ## Debugging
 
 * [Debug button shortcuts](/chromium-os/developer-library/guides/debugging/debug-buttons)
+* [Debugging tips and tricks](/chromium-os/developer-library/guides/debugging/debugging)
 * [Firmware UI troubleshooting](/chromium-os/developer-library/guides/debugging/firmware-ui)
 * [How to get a stack trace at runtime](/chromium-os/developer-library/guides/debugging/stack-traces)
 * [Recreating a Snapshot or Buildspec](/chromium-os/developer-library/guides/debugging/recreating-a-snapshot-or-buildspec)
@@ -44,6 +45,7 @@ title: Guides
 * [Development basics](/chromium-os/developer-library/guides/development/development-basics)
 * [Getting started with platform2](/chromium-os/developer-library/guides/development/platform2-primer)
 * [Introduction to Git & Gerrit for CrOS contributors](/chromium-os/developer-library/guides/development/git-and-gerrit-intro)
+* [How to use LINT.IfChange to keep files in sync](/chromium-os/developer-library/guides/development/keep-files-in-sync)
 * [Life of a Chrome commit on ChromeOS](/chromium-os/developer-library/guides/development/chrome-commit-pipeline)
 * [Remote trybots](/chromium-os/developer-library/guides/development/remote-trybots)
 * [Sandboxing ChromeOS system services](/chromium-os/developer-library/guides/development/sandboxing)
@@ -83,6 +85,9 @@ title: Guides
 </div>
 <div class="column">
 
+## Logging
+* [Logging](/chromium-os/developer-library/guides/logging/logging/)
+
 ## LSC
 
 * [ChromeOS platform large ccale changes (LSC)](/chromium-os/developer-library/guides/lsc/large-scale-changes)
@@ -91,6 +96,9 @@ title: Guides
 ## Metrics
 
 * [How to create metrics?](/chromium-os/developer-library/guides/metrics/how-to-create-metrics)
+
+## Mojo
+* [Use Mojom Union in TypeScript and C++](/chromium-os/developer-library/guides/mojo/use-mojom-union)
 
 ## Portage
 
@@ -142,6 +150,10 @@ title: Guides
 * [Detecting dark mode in polymer](/chromium-os/developer-library/guides/typescript/detect-dark-mode)
 * [Detecting online status in polymer](/chromium-os/developer-library/guides/typescript/detect-online)
 * [Generating a local `tsconfig.json` file](/chromium-os/developer-library/guides/typescript/generating-local-tsconfig)
+* [How to mock JavaScript](/chromium-os/developer-library/guides/typescript/javascript-mock)
+
+## System Web Apps
+* [How to open other SWA/SWD from your SWA](/chromium-os/developer-library/guides/web-apps/open-app-as-swa-vs-swd)
 
 ## Who do I notify?
 
