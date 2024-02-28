@@ -39,6 +39,30 @@
       },
       "revId": "4d47a0260260d3aaa3bd26336db072b41cb0d0b9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea5e402f_18e40df1",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1543968
+      },
+      "writtenOn": "2024-02-28T23:04:44Z",
+      "side": 1,
+      "message": "Does that apply in the \"breadcrumbs\" header as well?",
+      "parentUuid": "f4b915d0_4f4c032f",
+      "range": {
+        "startLine": 137,
+        "startChar": 13,
+        "endLine": 137,
+        "endChar": 17
+      },
+      "revId": "4d47a0260260d3aaa3bd26336db072b41cb0d0b9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
