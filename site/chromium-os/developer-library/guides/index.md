@@ -130,6 +130,10 @@ title: Guides
 
 * [Generating a local `tsconfig.json` file](/chromium-os/developer-library/guides/typescript/generating-local-tsconfig)
 
+## WebUI
+
+* [Communication between trusted and untruted WebUI](/chromium-os/developer-library/guides/webui/untrusted)
+
 ## Who do I notify?
 
 * [ChromiumOS contact](/chromium-os/developer-library/guides/who-do-i-notify/contact)
