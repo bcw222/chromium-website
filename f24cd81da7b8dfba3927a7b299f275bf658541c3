@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d67f863_8085adc1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-02-28T23:36:22Z",
+      "side": 1,
+      "message": "LGTM with nit.",
+      "revId": "f24cd81da7b8dfba3927a7b299f275bf658541c3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2eafa34a_47eb3c5e",
+        "filename": "site/chromium-os/developer-library/guides/device/requesting-devices/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-02-28T23:36:22Z",
+      "side": 1,
+      "message": "nit: non-Title case here and in index.",
+      "range": {
+        "startLine": 6,
+        "startChar": 18,
+        "endLine": 6,
+        "endChar": 25
+      },
+      "revId": "f24cd81da7b8dfba3927a7b299f275bf658541c3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
