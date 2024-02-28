@@ -16,6 +16,24 @@
       "message": "Does the \"start\" still allow specifying full path?",
       "revId": "3258a9d221cd17afccb7168a5ce5e64552cb48ed",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "59c63e81_2c6efda2",
+        "filename": "site/chromium-os/developer-library/guides/containers/containers-and-vms/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 554,
+      "author": {
+        "id": 1297374
+      },
+      "writtenOn": "2024-02-28T21:21:01Z",
+      "side": 1,
+      "message": "Yes, it is still using the full path. This may change with future CLs, but for now it\u0027s accurate.",
+      "parentUuid": "0973e6a1_3e0cff33",
+      "revId": "3258a9d221cd17afccb7168a5ce5e64552cb48ed",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
