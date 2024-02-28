@@ -134,6 +134,8 @@ title: Guides
 
 ## TypeScript
 
+* [Detecting dark mode in polymer](/chromium-os/developer-library/guides/typescript/detect-dark-mode)
+* [Detecting online status in polymer](/chromium-os/developer-library/guides/typescript/detect-online)
 * [Generating a local `tsconfig.json` file](/chromium-os/developer-library/guides/typescript/generating-local-tsconfig)
 
 ## Who do I notify?
