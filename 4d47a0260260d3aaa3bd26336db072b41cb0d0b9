@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "55c200e0_238b3dcc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1543968
+      },
+      "writtenOn": "2024-02-28T23:08:54Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "b251dd4e_772bd90a",
+      "revId": "4d47a0260260d3aaa3bd26336db072b41cb0d0b9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f4b915d0_4f4c032f",
@@ -79,6 +97,30 @@
       "side": 1,
       "message": "Yeah they should match.",
       "parentUuid": "ea5e402f_18e40df1",
+      "range": {
+        "startLine": 137,
+        "startChar": 13,
+        "endLine": 137,
+        "endChar": 17
+      },
+      "revId": "4d47a0260260d3aaa3bd26336db072b41cb0d0b9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d46bb3a7_2fcc5b79",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 1543968
+      },
+      "writtenOn": "2024-02-28T23:08:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "10013345_c5b5988e",
       "range": {
         "startLine": 137,
         "startChar": 13,
