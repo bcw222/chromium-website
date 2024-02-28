@@ -82,7 +82,8 @@ appropriate steps to take for your feature.
 my new feature? Can I ship it anyway?*
 
 **A**: Blink and Chromium do sometimes ship features over the objections of
-other browsers or the TAG. See the [Blink Values in
+other browsers or the TAG, though we prefer to build consensus around features
+if possible. See the [Blink Values in
 Practice](/blink/guidelines/web-platform-changes-guidelines/) for how we make
 this tradeoff.
 
