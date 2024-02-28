@@ -47,6 +47,7 @@ title: Guides
 * [Life of a Chrome commit on ChromeOS](/chromium-os/developer-library/guides/development/chrome-commit-pipeline)
 * [Remote Trybots](/chromium-os/developer-library/guides/development/remote-trybots)
 * [Sandboxing ChromeOS system services](/chromium-os/developer-library/guides/development/sandboxing)
+* [Running Graphical Applications Remotely](/chromium-os/developer-library/guides/development/running-graphical-applications-remotely)
 
 ## Device
 
