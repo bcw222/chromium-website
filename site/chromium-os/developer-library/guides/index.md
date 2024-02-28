@@ -147,6 +147,7 @@ title: Guides
 
 ## TypeScript
 
+* [Adding handling for scroll events](/chromium-os/developer-library/guides/typescript/on-scroll-event)
 * [Detecting dark mode in polymer](/chromium-os/developer-library/guides/typescript/detect-dark-mode)
 * [Detecting online status in polymer](/chromium-os/developer-library/guides/typescript/detect-online)
 * [Generating a local `tsconfig.json` file](/chromium-os/developer-library/guides/typescript/generating-local-tsconfig)
