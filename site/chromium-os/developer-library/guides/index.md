@@ -27,6 +27,7 @@ title: Guides
 ## C++
 
 * [How to wait for a callback be invoked N times](/chromium-os/developer-library/guides/cpp/barrier-callback)
+* [Using delegates to Resolve Dependency Issues](/chromium-os/developer-library/guides/c++/resolving-dependency-issues)
 
 ## Containers
 
