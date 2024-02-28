@@ -58,6 +58,10 @@ title: Guides
 * [Requesting devices](/chromium-os/developer-library/guides/device/requesting-devices)
 * [Screenshots](/chromium-os/developer-library/guides/device/screenshots)
 
+## Enterprise
+
+* [Enterprise policy](/chromium-os/developer-library/guides/enterprise/enterprise-policy)
+
 ## Firmware
 
 * [USB Type-C power delivery (PD) firmware](/chromium-os/developer-library/guides/firmware/pd-firmware-update)
