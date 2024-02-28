@@ -56,6 +56,30 @@
       },
       "revId": "2b4daca1729c942838866010bcd67722e40e94a7",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "44c4b346_17d17505",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1310383
+      },
+      "writtenOn": "2024-02-28T23:16:36Z",
+      "side": 1,
+      "message": "Please let me know if you\u0027d like me to split the capitalization changes to a different change!",
+      "parentUuid": "8257fd02_b9de65e2",
+      "range": {
+        "startLine": 50,
+        "startChar": 3,
+        "endLine": 50,
+        "endChar": 10
+      },
+      "revId": "2b4daca1729c942838866010bcd67722e40e94a7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
