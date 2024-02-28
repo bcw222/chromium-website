@@ -19,6 +19,10 @@ title: Guides
 * [Reporting Chrome OS bugs in the buganizer public tracker](/chromium-os/developer-library/guides/bugs/platform-public-tracker)
 * [Chrome OS security severity guidelines](/chromium-os/developer-library/guides/bugs/security-severity-guidelines)
 
+## C++
+
+* [Using Delegates to Resolve Dependency Issues](/chromium-os/developer-library/guides/c++/resolving-dependency-issues)
+
 ## Code review
 
 * [Firmware code reviews](/chromium-os/developer-library/guides/code-review/firmware-code-reviews)
