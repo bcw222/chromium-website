@@ -24,8 +24,8 @@ title: Glossary
 *   __CPFE__: ChromeOS Partner Front End.
 *   __CQ__: "Commit Queue", infrastructure to automatically
     check/build/test/verify/etc... CLs before merging into the tree.
-    See also the [Chromium CQ](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/infra/cq.md) and [ChromiumOS CQ](https://www.chromium.org/developers/tree-sheriffs/sheriff-details-chromium-os/commit-queue-overview) pages.
-*   __CRX file__: [CRX files](https://developer.chrome.com/extensions/hosting)
+    See also the [Chromium CQ](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/infra/cq.md).
+*   __CRX file__: [CRX files](https://developer.chrome.com/docs/extensions/how-to/distribute/host-on-linux#packaging)
     are ZIP files with a special header and the .crx file extension used to
     package Extensions and Apps.
 *   __CTS__: Android Compatibility Test Suite.
@@ -74,7 +74,7 @@ title: Glossary
 *   __LOEM__: Local OEM, process model that different OEMs share
     exactly same device (with no difference) that uses same firmware
     code and disk image. Only OEM is different.
-*   __LSC__: [Large Scale Change](large_scale_changes.md)
+*   __LSC__: Large Scale Change
 *   __MLB__: Main Logic Board (aka motherboard).
 *   __MVP__: "Minimum viable product", used to refer to the subset of
     a feature we want to ship initially.
@@ -353,10 +353,10 @@ title: Glossary
     deployed on a device for development and testing), signed build images
     (which support secure verified boot), and Final Shipping Images (FSI, which
     are deployed to a device during manufacturing).
-*   __manifest__: Refers to ChromeOS's [Repo](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/repo-tool.md)
+*   __manifest__: Refers to ChromeOS's [Repo](https://www.chromium.org/chromium-os/developer-library/reference/tools/repo-tool/)
     manifest. A Repo manifest is an XML file or set of XML files that describes
     the Git repositories and refs that make up a ChromeOS image. See
-    [Local & Remote Source Tree Layouts](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/source_layout.md).
+    [Local & Remote Source Tree Layouts](https://www.chromium.org/chromium-os/developer-library/reference/development/source-layout/).
 *   __buildspec__: A manifest where every git repository is pinned to a specific
     git revision, used to represent a specific build (version) of ChromeOS.
 *   __snapshot__: A manifest where every git repository is pinned to a specific
@@ -418,8 +418,7 @@ Terms related to building ChromiumOS.
     Example: [amd64-generic:base](https://source.chromium.org/chromiumos/chromiumos/codesearch/+/HEAD:src/overlays/overlay-amd64-generic/profiles/base/)
 *   __stepping stone__: An intermediate OS version that a device must update to
     before it can upgrade to newer versions.  e.g. CrOS R50 must update to R72
-    before it can upgrade to R100.  See the [release
-    documentation](./releases.md#stepping-stones) for more information.
+    before it can upgrade to R100.
 *   __variant__:  A CrOS-specific deprecated mechanism, still in-use by some
     boards, to share settings across similar boards.
 *   __`USE` flag__: A Portage mechanism to enable/disable features for packages,
