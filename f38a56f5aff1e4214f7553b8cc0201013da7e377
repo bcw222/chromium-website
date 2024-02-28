@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "459857df_38ac03ad",
+        "filename": "chromium-os/developer-library/guides/development/simple-chrome-workflow/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1543968
+      },
+      "writtenOn": "2024-02-28T23:51:13Z",
+      "side": 1,
+      "message": "This file needs to be at site/chromium-os/developer-library/guides/development/simple-chrome-workflow/index.md (missing \"site/\")",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 12
+      },
+      "revId": "f38a56f5aff1e4214f7553b8cc0201013da7e377",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e81ace9b_dd3ae333",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1543968
+      },
+      "writtenOn": "2024-02-28T23:51:13Z",
+      "side": 1,
+      "message": "needs to have a leading \"/\"",
+      "range": {
+        "startLine": 50,
+        "startChar": 27,
+        "endLine": 50,
+        "endChar": 35
+      },
+      "revId": "f38a56f5aff1e4214f7553b8cc0201013da7e377",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
