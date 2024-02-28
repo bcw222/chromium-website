@@ -33,6 +33,52 @@
       "message": "Please add more context in the CL description including the b/ number",
       "revId": "053bf0098cf72b4e52768aab0ddd277a3e25a92a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "26c5b5b9_0693d90a",
+        "filename": "site/chromium-os/developer-library/guides/development/cheatsheet/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-02-28T23:48:44Z",
+      "side": 1,
+      "message": "You need to update guides/index.md to reference this new doc.",
+      "range": {
+        "startLine": 4,
+        "startChar": 47,
+        "endLine": 4,
+        "endChar": 58
+      },
+      "revId": "053bf0098cf72b4e52768aab0ddd277a3e25a92a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5d26979f_ba252a48",
+        "filename": "site/chromium-os/developer-library/guides/development/cheatsheet/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-02-28T23:48:44Z",
+      "side": 1,
+      "message": "nit: Use non-Title case, i.e., only capitalize the first word. Here and in the index.",
+      "range": {
+        "startLine": 9,
+        "startChar": 12,
+        "endLine": 9,
+        "endChar": 23
+      },
+      "revId": "053bf0098cf72b4e52768aab0ddd277a3e25a92a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
