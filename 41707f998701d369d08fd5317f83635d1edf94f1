@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a391973b_7e82b431",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-02-28T19:56:34Z",
+      "side": 1,
+      "message": "LGTM with nit.",
+      "revId": "41707f998701d369d08fd5317f83635d1edf94f1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d6b45840_04aa42c6",
+        "filename": "site/chromium-os/developer-library/guides/device/powerwash/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-02-28T19:56:34Z",
+      "side": 1,
+      "message": "Maybe \"How to powerwash your device\"?\n```suggestion\ntitle: How to powerwash your device\n```",
+      "range": {
+        "startLine": 6,
+        "startChar": 14,
+        "endLine": 6,
+        "endChar": 23
+      },
+      "revId": "41707f998701d369d08fd5317f83635d1edf94f1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
