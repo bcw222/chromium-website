@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2651814f_a4664470",
+        "filename": "site/chromium-os/developer-library/guides/webui/untrusted/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-02-28T23:57:15Z",
+      "side": 1,
+      "message": "It looks like the .sha1 is missing in this CL? And the .png needs to be added to site/.gitignore",
+      "range": {
+        "startLine": 25,
+        "startChar": 67,
+        "endLine": 25,
+        "endChar": 89
+      },
+      "revId": "5b1f77c473833b4b7c393054889aaa559e5de969",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
