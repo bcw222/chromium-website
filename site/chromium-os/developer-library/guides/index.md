@@ -51,6 +51,7 @@ title: Guides
 ## Device
 
 * [Developer mode](/chromium-os/developer-library/guides/device/developer-mode)
+* [Screenshots](/chromium-os/developer-library/guides/device/screenshots)
 
 ## Firmware
 
