@@ -58,6 +58,10 @@ title: Guides
 
 * [USB Type-C Power Delivery (PD) Firmware](/chromium-os/developer-library/guides/firmware/pd-firmware-update)
 
+## Golang
+
+* [Deserialize objects in golang using protobuf](/chromium-os/developer-library/guides/golang/protobuf-golang-deserialize)
+
 ## IDEs
 
 * [Using clangd LSP server in the chroot](/chromium-os/developer-library/guides/ides/chroot-clangd-guide)
