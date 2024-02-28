@@ -56,6 +56,7 @@ title: Guides
 
 ## Enterprise
 
+* [Enterprise metrics](/chromium-os/developer-library/guides/enterprise/enterprise-metrics)
 * [Enterprise Policy](/chromium-os/developer-library/guides/enterprise/enterprise-policy)
 
 ## Firmware
