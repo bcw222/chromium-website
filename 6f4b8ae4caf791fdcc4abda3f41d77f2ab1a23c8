@@ -16,6 +16,46 @@
       "message": "nit: Add b/327496227 to the description.",
       "revId": "6f4b8ae4caf791fdcc4abda3f41d77f2ab1a23c8",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c581ed4f_33b9bb31",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-02-28T23:21:25Z",
+      "side": 1,
+      "message": "LGTM with casing nit.",
+      "revId": "6f4b8ae4caf791fdcc4abda3f41d77f2ab1a23c8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5b3ee19e_7f2eca75",
+        "filename": "site/chromium-os/developer-library/guides/enterprise/enterprise-policy/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-02-28T23:21:25Z",
+      "side": 1,
+      "message": "nit: non-Title case, i.e., only capitalize first word. Here and in the index file itself.",
+      "range": {
+        "startLine": 6,
+        "startChar": 18,
+        "endLine": 6,
+        "endChar": 24
+      },
+      "revId": "6f4b8ae4caf791fdcc4abda3f41d77f2ab1a23c8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
