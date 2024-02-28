@@ -39,6 +39,30 @@
       },
       "revId": "41707f998701d369d08fd5317f83635d1edf94f1",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ccb0c069_57669872",
+        "filename": "site/chromium-os/developer-library/guides/device/powerwash/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1364231
+      },
+      "writtenOn": "2024-02-28T20:59:41Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "d6b45840_04aa42c6",
+      "range": {
+        "startLine": 6,
+        "startChar": 14,
+        "endLine": 6,
+        "endChar": 23
+      },
+      "revId": "41707f998701d369d08fd5317f83635d1edf94f1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
