@@ -38,15 +38,16 @@ title: Guides
 
 ## Development
 
-* [ChromiumOS Contributing Guide](/chromium-os/developer-library/guides/development/contributing)
-* [ChromiumOS Developer Guide](/chromium-os/developer-library/guides/development/developer-guide)
-* [ChromiumOS Guide to Working on Branches](/chromium-os/developer-library/guides/development/work-on-branch)
-* [Development Basics](/chromium-os/developer-library/guides/development/development-basics)
+* [ChromiumOS contributing guide](/chromium-os/developer-library/guides/development/contributing)
+* [ChromiumOS developer guide](/chromium-os/developer-library/guides/development/developer-guide)
+* [ChromiumOS guide to working on branches](/chromium-os/developer-library/guides/development/work-on-branch)
+* [Development basics](/chromium-os/developer-library/guides/development/development-basics)
 * [Getting started with platform2](/chromium-os/developer-library/guides/development/platform2-primer)
 * [Introduction to Git & Gerrit for CrOS contributors](/chromium-os/developer-library/guides/development/git-and-gerrit-intro)
 * [Life of a Chrome commit on ChromeOS](/chromium-os/developer-library/guides/development/chrome-commit-pipeline)
-* [Remote Trybots](/chromium-os/developer-library/guides/development/remote-trybots)
+* [Remote trybots](/chromium-os/developer-library/guides/development/remote-trybots)
 * [Sandboxing ChromeOS system services](/chromium-os/developer-library/guides/development/sandboxing)
+* [Running graphical applications remotely](/chromium-os/developer-library/guides/development/running-graphical-applications-remotely)
 
 ## Device
 
@@ -56,7 +57,7 @@ title: Guides
 
 ## Firmware
 
-* [USB Type-C Power Delivery (PD) Firmware](/chromium-os/developer-library/guides/firmware/pd-firmware-update)
+* [USB Type-C power delivery (PD) firmware](/chromium-os/developer-library/guides/firmware/pd-firmware-update)
 
 ## Golang
 
@@ -77,31 +78,31 @@ title: Guides
 
 ## Kernel
 
-* [Kernel Development](/chromium-os/developer-library/guides/kernel/kernel-development)
+* [Kernel development](/chromium-os/developer-library/guides/kernel/kernel-development)
 
 </div>
 <div class="column">
 
 ## LSC
 
-* [ChromeOS Platform Large Scale Changes (LSC)](/chromium-os/developer-library/guides/lsc/large-scale-changes)
-* [ChromeOS LSC Workflow](/chromium-os/developer-library/guides/lsc/large-scale-changes)
+* [ChromeOS platform large ccale changes (LSC)](/chromium-os/developer-library/guides/lsc/large-scale-changes)
+* [ChromeOS LSC workflow](/chromium-os/developer-library/guides/lsc/large-scale-changes)
 
 ## Metrics
 
-* [How to Create Metrics?](/chromium-os/developer-library/guides/metrics/how-to-create-metrics)
+* [How to create metrics?](/chromium-os/developer-library/guides/metrics/how-to-create-metrics)
 
 ## Portage
 
 * [Ebuild FAQ](/chromium-os/developer-library/guides/portage/ebuild-faq)
 * [How to patch an ebuild](/chromium-os/developer-library/guides/portage/how-to-patch-an-ebuild)
 * [Overlay FAQ](/chromium-os/developer-library/guides/portage/overlay-faq)
-* [New & Upgrade Package Process](/chromium-os/developer-library/guides/portage/package-upgrade-process)
-* [CrOS bashrc Override Framework](/chromium-os/developer-library/guides/portage/profile-bashrc)
+* [New & upgrade package process](/chromium-os/developer-library/guides/portage/package-upgrade-process)
+* [CrOS bashrc override framework](/chromium-os/developer-library/guides/portage/profile-bashrc)
 
 ## Recipes
 
-* [Tips And Tricks for ChromiumOS Developers](/chromium-os/developer-library/guides/recipes/tips-and-tricks)
+* [Tips And tricks for ChromiumOS developers](/chromium-os/developer-library/guides/recipes/tips-and-tricks)
 
 ## Rust
 
@@ -111,13 +112,13 @@ title: Guides
 
 * [Shell scripts & noexec mounts](/chromium-os/developer-library/guides/security/noexec-shell-scripts)
 * [ChromeOS security review HOWTO](/chromium-os/developer-library/guides/security/security-review-howto)
-* [Owned Test Accounts (OTAs) for Manual Testing](/chromium-os/developer-library/guides/security/test-accounts)
+* [Owned test accounts (OTAs) for manual testing](/chromium-os/developer-library/guides/security/test-accounts)
 * [ChromeOS security vulnerability management](/chromium-os/developer-library/guides/security/vulnerability-management)
 
 ## Testing
 
-* [Adding Builder Variants using Profiles](/chromium-os/developer-library/guides/testing/adding-builder-variants)
-* [Breakage and Flake Policy](/chromium-os/developer-library/guides/testing/breakages-and-flakes)
+* [Adding builder variants using profiles](/chromium-os/developer-library/guides/testing/adding-builder-variants)
+* [Breakage and flake policy](/chromium-os/developer-library/guides/testing/breakages-and-flakes)
 * [Firmware test manual](/chromium-os/developer-library/guides/testing/firmware-test-manual)
 * [Fuzz testing in ChromeOS](/chromium-os/developer-library/guides/testing/fuzzing)
 * [Fuzz testing in ChromeOS (dupe)](/chromium-os/developer-library/guides/testing/fuzzing-main)
@@ -129,7 +130,7 @@ title: Guides
 * [ChromiumOS unit testing](/chromium-os/developer-library/guides/testing/running-unit-tests)
 * [Running a single binary with UBSAN](/chromium-os/developer-library/guides/testing/single-binary-ubsan)
 * [Best practices for writing ChromeOS unit tests](/chromium-os/developer-library/guides/testing/unit-tests)
-* [Writing Tests in C++](/chromium-os/developer-library/guides/testing/cpp-writing-tests)
+* [Writing tests in C++](/chromium-os/developer-library/guides/testing/cpp-writing-tests)
 * [Running and writing "Tast" automated end to end (E2E) tests](/chromium-os/developer-library/guides/testing/e2e-tests)
 
 ## Third Party
