@@ -138,6 +138,7 @@ title: Guides
 
 ## TypeScript
 
+* [Adding handling for scroll events](/chromium-os/developer-library/guides/typescript/on-scroll-event)
 * [Generating a local `tsconfig.json` file](/chromium-os/developer-library/guides/typescript/generating-local-tsconfig)
 
 ## Who do I notify?
