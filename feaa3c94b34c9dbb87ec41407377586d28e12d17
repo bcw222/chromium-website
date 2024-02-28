@@ -16,6 +16,23 @@
       "message": "Thanks for the speedy review!",
       "revId": "feaa3c94b34c9dbb87ec41407377586d28e12d17",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e3aa471e_4e2e46d8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-02-28T23:18:14Z",
+      "side": 1,
+      "message": "Please add b/327496227 to the description. Still LGTM",
+      "revId": "feaa3c94b34c9dbb87ec41407377586d28e12d17",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
