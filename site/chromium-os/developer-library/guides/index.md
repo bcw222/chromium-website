@@ -52,6 +52,10 @@ title: Guides
 
 * [Developer mode](/chromium-os/developer-library/guides/device/developer-mode)
 
+## Documentation
+
+* [Chromium Cookbook](/chromium-os/developer-library/guides/documentation/chromium-cookbook)
+
 ## Firmware
 
 * [USB Type-C Power Delivery (PD) Firmware](/chromium-os/developer-library/guides/firmware/pd-firmware-update)
