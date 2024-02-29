@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a128be8a_835422c7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-02-29T01:52:49Z",
+      "side": 1,
+      "message": "LGTM with nit.",
+      "revId": "89c1d2bda438a84aaa6494a268940dc50d4c6f9b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8d62c067_17a52afa",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-02-29T01:52:49Z",
+      "side": 1,
+      "message": "nit: Use non-Title case (only capitalize first word). Here and the docs.",
+      "range": {
+        "startLine": 98,
+        "startChar": 16,
+        "endLine": 98,
+        "endChar": 27
+      },
+      "revId": "89c1d2bda438a84aaa6494a268940dc50d4c6f9b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
