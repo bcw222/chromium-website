@@ -47,6 +47,7 @@ title: Guides
 * [Sandboxing ChromeOS system services](/chromium-os/developer-library/guides/development/sandboxing)
 * [ChromeOS security review HOWTO](/chromium-os/developer-library/guides/development/security-review-howto)
 * [ChromiumOS Guide to Working on Branches](/chromium-os/developer-library/guides/development/work-on-branch)
+* [Simple Chrome Workflow](/chromium-os/developer-library/guides/development/simple-chrome-workflow)
 
 ## Device
 
