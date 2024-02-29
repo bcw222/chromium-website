@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5bb9b2f3_69044228",
+        "filename": "site/developers/design-documents/sync/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1339017
+      },
+      "writtenOn": "2024-02-29T15:17:15Z",
+      "side": 1,
+      "message": "Pending feedback on the form itself, but this CL can be reviewed already",
+      "revId": "67ba32cbe6eb9f9dee76a2980a6c8a1f1ae0fcc9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
