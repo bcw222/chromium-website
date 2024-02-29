@@ -167,6 +167,10 @@ title: Guides
 ## System Web Apps
 * [How to open other SWA/SWD from your SWA](/chromium-os/developer-library/guides/web-apps/open-app-as-swa-vs-swd)
 
+## WebUI
+
+* [Communication between trusted and untruted WebUI](/chromium-os/developer-library/guides/webui/untrusted)
+
 ## Who do I notify?
 
 * [ChromiumOS contact](/chromium-os/developer-library/guides/who-do-i-notify/contact)
