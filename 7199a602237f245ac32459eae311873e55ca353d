@@ -56,6 +56,30 @@
       },
       "revId": "7199a602237f245ac32459eae311873e55ca353d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6053b3f2_a8952641",
+        "filename": "site/chromium-os/developer-library/guides/documentation/chromium-coookbook/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1485520
+      },
+      "writtenOn": "2024-02-29T00:24:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "570a61bd_c4cd2612",
+      "range": {
+        "startLine": 6,
+        "startChar": 16,
+        "endLine": 6,
+        "endChar": 24
+      },
+      "revId": "7199a602237f245ac32459eae311873e55ca353d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
