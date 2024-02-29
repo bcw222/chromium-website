@@ -93,6 +93,10 @@ title: Guides
 
 * [Kernel development](/chromium-os/developer-library/guides/kernel/kernel-development)
 
+## Localization
+
+* [Creating and Translating Strings](/chromium-os/developer-library/guides/localization/creating-and-translating-strings)
+
 </div>
 <div class="column">
 
@@ -166,6 +170,10 @@ title: Guides
 
 ## System Web Apps
 * [How to open other SWA/SWD from your SWA](/chromium-os/developer-library/guides/web-apps/open-app-as-swa-vs-swd)
+
+## Views (UI framework)
+
+* [Introduction to Views](/chromium-os/developer-library/guides/views/intro)
 
 ## WebUI
 
