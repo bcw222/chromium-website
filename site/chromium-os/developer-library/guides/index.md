@@ -31,6 +31,7 @@ title: Guides
 
 ## Debugging
 
+* [Debugging Accessibility (a11y) Issues](/chromium-os/developer-library/guides/debugging/a11y-debugging)
 * [Debug button shortcuts](/chromium-os/developer-library/guides/debugging/debug-buttons)
 * [Firmware UI troubleshooting](/chromium-os/developer-library/guides/debugging/firmware-ui)
 * [How to get a stack trace at runtime](/chromium-os/developer-library/guides/debugging/stack-traces)
