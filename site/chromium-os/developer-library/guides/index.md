@@ -138,6 +138,10 @@ title: Guides
 * [Owned test accounts (OTAs) for manual testing](/chromium-os/developer-library/guides/security/test-accounts)
 * [ChromeOS security vulnerability management](/chromium-os/developer-library/guides/security/vulnerability-management)
 
+## System Web Apps
+* [How to launch a SWA async](/chromium-os/developer-library/guides/web-apps/launch-swa-async)
+* [How to open other SWA/SWD from your SWA](/chromium-os/developer-library/guides/web-apps/open-app-as-swa-vs-swd)
+
 ## Testing
 
 * [Adding builder variants using profiles](/chromium-os/developer-library/guides/testing/adding-builder-variants)
@@ -153,6 +157,9 @@ title: Guides
 * [ChromiumOS unit testing](/chromium-os/developer-library/guides/testing/running-unit-tests)
 * [Running a single binary with UBSAN](/chromium-os/developer-library/guides/testing/single-binary-ubsan)
 * [Best practices for writing ChromeOS unit tests](/chromium-os/developer-library/guides/testing/unit-tests)
+* [Best practices for writing Tast tests](/chromium-os/developer-library/guides/testing/tast-tests-best-practice)
+* [Tips on writing Tast tests](/chromium-os/developer-library/guides/testing/tast-tests-writing-tips)
+* [Tips on writing C++ Browser tests](/chromium-os/developer-library/guides/testing/browser-tests-writing-tips)
 * [Writing tests in C++](/chromium-os/developer-library/guides/testing/cpp-writing-tests)
 * [Running and writing "Tast" automated end to end (E2E) tests](/chromium-os/developer-library/guides/testing/e2e-tests)
 
@@ -167,9 +174,6 @@ title: Guides
 * [Detecting online status in polymer](/chromium-os/developer-library/guides/typescript/detect-online)
 * [Generating a local `tsconfig.json` file](/chromium-os/developer-library/guides/typescript/generating-local-tsconfig)
 * [How to mock JavaScript](/chromium-os/developer-library/guides/typescript/javascript-mock)
-
-## System Web Apps
-* [How to open other SWA/SWD from your SWA](/chromium-os/developer-library/guides/web-apps/open-app-as-swa-vs-swd)
 
 ## WebUI
 
