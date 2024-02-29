@@ -42,7 +42,6 @@ title: Guides
 
 * [ChromiumOS contributing guide](/chromium-os/developer-library/guides/development/contributing)
 * [ChromiumOS developer guide](/chromium-os/developer-library/guides/development/developer-guide)
-* [ChromiumOS guide to working on branches](/chromium-os/developer-library/guides/development/work-on-branch)
 * [Development basics](/chromium-os/developer-library/guides/development/development-basics)
 * [Getting started with platform2](/chromium-os/developer-library/guides/development/platform2-primer)
 * [Introduction to Git & Gerrit for CrOS contributors](/chromium-os/developer-library/guides/development/git-and-gerrit-intro)
@@ -51,6 +50,7 @@ title: Guides
 * [Remote trybots](/chromium-os/developer-library/guides/development/remote-trybots)
 * [Sandboxing ChromeOS system services](/chromium-os/developer-library/guides/development/sandboxing)
 * [Running graphical applications remotely](/chromium-os/developer-library/guides/development/running-graphical-applications-remotely)
+* [Simple Chrome Workflow](/chromium-os/developer-library/guides/development/simple-chrome-workflow)
 
 ## Device
 
@@ -133,7 +133,6 @@ title: Guides
 ## Security
 
 * [Shell scripts & noexec mounts](/chromium-os/developer-library/guides/security/noexec-shell-scripts)
-* [ChromeOS security review HOWTO](/chromium-os/developer-library/guides/security/security-review-howto)
 * [Owned test accounts (OTAs) for manual testing](/chromium-os/developer-library/guides/security/test-accounts)
 * [ChromeOS security vulnerability management](/chromium-os/developer-library/guides/security/vulnerability-management)
 
