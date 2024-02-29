@@ -60,6 +60,10 @@ title: Guides
 * [Requesting devices](/chromium-os/developer-library/guides/device/requesting-devices)
 * [Screenshots](/chromium-os/developer-library/guides/device/screenshots)
 
+## Experimentation
+
+* [Power consumption & Finch experimentation](/chromium-os/developer-library/guides/experimentation/power_consumption)
+
 ## Enterprise
 
 * [Enterprise metrics](/chromium-os/developer-library/guides/enterprise/enterprise-metrics)
