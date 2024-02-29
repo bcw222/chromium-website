@@ -1190,4 +1190,5 @@ chromium-os/developer-library/guides/development/sandboxing/sandboxing_daemon_st
 chromium-os/developer-library/guides/containers/crostini-developer-guide/crostini_services.png
 chromium-os/developer-library/guides/debugging/a11y-debugging/chromevox_top_bar.png
 chromium-os/developer-library/guides/debugging/a11y-debugging/chromevox_view_logs.png
+chromium-os/developer-library/training/codelabs/debugging-crashes/saved_devices.png
 #end_lob_ignore
