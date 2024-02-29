@@ -1193,4 +1193,6 @@ chromium-os/developer-library/guides/containers/crostini-developer-guide/crostin
 chromium-os/developer-library/guides/debugging/a11y-debugging/chromevox_top_bar.png
 chromium-os/developer-library/guides/debugging/a11y-debugging/chromevox_view_logs.png
 chromium-os/developer-library/training/codelabs/debugging-crashes/saved_devices.png
+chromium-os/developer-library/guides/testing/bluetooth-tast-tests/rpi_testbed_setup.png
+chromium-os/developer-library/guides/testing/bluetooth-tast-tests/secure_ssh_raspi.png
 #end_lob_ignore
