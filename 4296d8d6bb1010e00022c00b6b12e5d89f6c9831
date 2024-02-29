@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ac1da77a_85afd295",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1532392
+      },
+      "writtenOn": "2024-02-29T08:03:19Z",
+      "side": 1,
+      "message": "Updated the subject. Is there a link to best practices?",
+      "parentUuid": "82be6ab5_ccc21366",
+      "revId": "4296d8d6bb1010e00022c00b6b12e5d89f6c9831",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a634756a_a28cf05a",
         "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
         "patchSetId": 2
@@ -43,6 +61,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "cf1536c6_96a93c8c",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 3809,
+      "author": {
+        "id": 1532392
+      },
+      "writtenOn": "2024-02-29T08:03:19Z",
+      "side": 1,
+      "message": "Agreed and changed as this was part of the search addition.",
+      "parentUuid": "a634756a_a28cf05a",
+      "range": {
+        "startLine": 3809,
+        "startChar": 136,
+        "endLine": 3809,
+        "endChar": 194
+      },
+      "revId": "4296d8d6bb1010e00022c00b6b12e5d89f6c9831",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e6719723_6b1f2f56",
         "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
         "patchSetId": 2
@@ -54,6 +96,30 @@
       "writtenOn": "2024-02-28T20:49:56Z",
       "side": 1,
       "message": "ditto, same Q.",
+      "range": {
+        "startLine": 3884,
+        "startChar": 140,
+        "endLine": 3884,
+        "endChar": 186
+      },
+      "revId": "4296d8d6bb1010e00022c00b6b12e5d89f6c9831",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dffd8e5e_40adbe21",
+        "filename": "site/chromium-os/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 3884,
+      "author": {
+        "id": 1532392
+      },
+      "writtenOn": "2024-02-29T08:03:19Z",
+      "side": 1,
+      "message": "Agreed and changed",
+      "parentUuid": "e6719723_6b1f2f56",
       "range": {
         "startLine": 3884,
         "startChar": 140,
