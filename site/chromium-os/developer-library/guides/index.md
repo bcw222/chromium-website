@@ -119,6 +119,9 @@ title: Guides
 * [New & upgrade package process](/chromium-os/developer-library/guides/portage/package-upgrade-process)
 * [CrOS bashrc override framework](/chromium-os/developer-library/guides/portage/profile-bashrc)
 
+## Preferences
+* [Preferences and policies](/chromium-os/developer-library/guides/preferences/policy-prefs)
+
 ## Recipes
 
 * [Tips And tricks for ChromiumOS developers](/chromium-os/developer-library/guides/recipes/tips-and-tricks)
