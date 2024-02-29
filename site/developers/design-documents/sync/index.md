@@ -8,7 +8,9 @@ page_name: sync
 title: Sync
 ---
 
-**Design docs**
+**Docs**
+
+[Sync integration checklist](/developers/design-documents/sync/model-api)
 
 [Model API](/developers/design-documents/sync/model-api)
 
