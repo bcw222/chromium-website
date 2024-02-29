@@ -63,6 +63,10 @@ title: Guides
 * [Enterprise metrics](/chromium-os/developer-library/guides/enterprise/enterprise-metrics)
 * [Enterprise policy](/chromium-os/developer-library/guides/enterprise/enterprise-policy)
 
+## Documentation
+
+* [Chromium cookbook](/chromium-os/developer-library/guides/documentation/chromium-cookbook)
+
 ## Firmware
 
 * [USB Type-C power delivery (PD) firmware](/chromium-os/developer-library/guides/firmware/pd-firmware-update)
