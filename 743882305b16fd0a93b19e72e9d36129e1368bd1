@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "acf1ad25_bb37739e",
+        "filename": "site/.gitignore",
+        "patchSetId": 5
+      },
+      "lineNbr": 1191,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-02-29T01:23:59Z",
+      "side": 0,
+      "message": "Did you intend to delete this line?",
+      "range": {
+        "startLine": 1191,
+        "startChar": 56,
+        "endLine": 1191,
+        "endChar": 68
+      },
+      "revId": "743882305b16fd0a93b19e72e9d36129e1368bd1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
