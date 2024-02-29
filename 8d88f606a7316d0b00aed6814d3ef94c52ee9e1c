@@ -41,6 +41,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "83734939_283dd09d",
+        "filename": "site/chromium-os/developer-library/guides/debugging/a11y-debugging/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1001529
+      },
+      "writtenOn": "2024-02-29T00:29:12Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "b53227d7_8880bdda",
+      "range": {
+        "startLine": 6,
+        "startChar": 17,
+        "endLine": 6,
+        "endChar": 30
+      },
+      "revId": "8d88f606a7316d0b00aed6814d3ef94c52ee9e1c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e1ba3fb1_4b36902f",
@@ -54,6 +78,30 @@
       "writtenOn": "2024-02-29T00:23:58Z",
       "side": 1,
       "message": "```suggestion\n* [Debugging accessibility (a11y) issues](/chromium-os/developer-library/guides/debugging/a11y-debugging)\n```",
+      "range": {
+        "startLine": 34,
+        "startChar": 13,
+        "endLine": 34,
+        "endChar": 26
+      },
+      "revId": "8d88f606a7316d0b00aed6814d3ef94c52ee9e1c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f27d4d15_5368310f",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1001529
+      },
+      "writtenOn": "2024-02-29T00:29:12Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "e1ba3fb1_4b36902f",
       "range": {
         "startLine": 34,
         "startChar": 13,
