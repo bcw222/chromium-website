@@ -31,6 +31,7 @@ title: Guides
 
 ## Debugging
 
+* [Debugging accessibility (a11y) Issues](/chromium-os/developer-library/guides/debugging/a11y-debugging)
 * [Debug button shortcuts](/chromium-os/developer-library/guides/debugging/debug-buttons)
 * [Debugging tips and tricks](/chromium-os/developer-library/guides/debugging/debugging)
 * [Firmware UI troubleshooting](/chromium-os/developer-library/guides/debugging/firmware-ui)
