@@ -22,6 +22,30 @@
       },
       "revId": "5b1f77c473833b4b7c393054889aaa559e5de969",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d3c8806_2365fbb1",
+        "filename": "site/chromium-os/developer-library/guides/webui/untrusted/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1513257
+      },
+      "writtenOn": "2024-02-29T00:04:35Z",
+      "side": 1,
+      "message": "Done. Right, that\u0027s the image that is still compressing. I forgot to change it back to the original URL.",
+      "parentUuid": "2651814f_a4664470",
+      "range": {
+        "startLine": 25,
+        "startChar": 67,
+        "endLine": 25,
+        "endChar": 89
+      },
+      "revId": "5b1f77c473833b4b7c393054889aaa559e5de969",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
