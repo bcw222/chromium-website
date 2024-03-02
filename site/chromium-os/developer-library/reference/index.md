@@ -36,6 +36,8 @@ title: Reference
 ## Release
 
 * [ChromeOS Releases](/chromium-os/developer-library/reference/release/releases)
+* [Understanding ChromeOS Releases](/chromium-os/developer-library/reference/understanding-chromeos-releases)
+
 
 ## Style guides
 
