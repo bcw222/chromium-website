@@ -62,7 +62,7 @@ title: Guides
 
 ## Experimentation
 
-* [Power consumption & Finch experimentation](/chromium-os/developer-library/guides/experimentation/power_consumption)
+* [Power consumption & Finch experimentation](/chromium-os/developer-library/guides/experimentation/power-consumption)
 
 ## Enterprise
 
