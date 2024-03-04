@@ -63,6 +63,30 @@
       },
       "revId": "891f8132347ae5b5812f3985365968dc36a326c6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1b142bed_51612692",
+        "filename": "site/chromium-os/developer-library/reference/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-04T19:58:23Z",
+      "side": 1,
+      "message": "No, the word releases is fine. The style we\u0027re conforming to is to use non-title case, i.e., only capitalize the first word in a title.",
+      "parentUuid": "e9f4274f_e3227b0b",
+      "range": {
+        "startLine": 39,
+        "startChar": 26,
+        "endLine": 39,
+        "endChar": 34
+      },
+      "revId": "891f8132347ae5b5812f3985365968dc36a326c6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
