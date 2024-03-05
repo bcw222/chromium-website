@@ -98,6 +98,10 @@ title: Guides
 
 * [Kernel development](/chromium-os/developer-library/guides/kernel/kernel-development)
 
+## Localization
+
+* [Creating and translating Strings](/chromium-os/developer-library/guides/localization/creating-and-translating-strings)
+
 </div>
 <div class="column">
 
@@ -179,6 +183,10 @@ title: Guides
 * [Detecting online status in polymer](/chromium-os/developer-library/guides/typescript/detect-online)
 * [Generating a local `tsconfig.json` file](/chromium-os/developer-library/guides/typescript/generating-local-tsconfig)
 * [How to mock JavaScript](/chromium-os/developer-library/guides/typescript/javascript-mock)
+
+## Views (UI framework)
+
+* [Introduction to Views](/chromium-os/developer-library/guides/views/intro)
 
 ## WebUI
 
