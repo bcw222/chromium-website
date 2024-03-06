@@ -314,6 +314,12 @@ Once you have a complete specification:
    this at least a month ahead of sending an Intent to Ship, to give the TAG
    sufficient time for meaningful feedback.
 
+   Note that if the TAG takes several months to review the feature,
+   and during that time the implementations and relevant standards
+   bodies find consensus on the feature, the TAG's review might not
+   be able to influence the design anymore. If that happens, it's best to notify the TAG so
+   that they can close the issue and prioritize other issues.
+
 #### Step 5 (Optional): Origin Trial {:#origin-trials}
 
 If you want to gather data on the usability of your feature that an [Origin
@@ -380,6 +386,10 @@ other than [`Resolution:
 satisfied`](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+label%3A%22Resolution%3A+satisfied%22),
 the API Owners should be able to see evidence that you've seriously and
 comprehensively engaged with their comments, and tried to resolve any concerns.
+If the TAG has _not_ commented, then after your I2S is approved, it's courteous
+to post to the review saying that Chromium considers the feature stable, and
+future proposals for changes will be weighed against the compatibility risk of changing a
+shipping feature.
 
 If your specification is still in an [incubation venue](#incubation-venue) and
 not a working group, propose that the feature migrate to a working group.
