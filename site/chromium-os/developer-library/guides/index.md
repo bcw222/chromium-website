@@ -43,6 +43,7 @@ title: Guides
 * [ChromiumOS contributing guide](/chromium-os/developer-library/guides/development/contributing)
 * [ChromiumOS developer guide](/chromium-os/developer-library/guides/development/developer-guide)
 * [ChromiumOS guide to working on branches](/chromium-os/developer-library/guides/development/work-on-branch)
+* [CrOS work command cheatsheet](/chromium-os/developer-library/guides/development/cheatsheet)
 * [Development basics](/chromium-os/developer-library/guides/development/development-basics)
 * [Getting started with platform2](/chromium-os/developer-library/guides/development/platform2-primer)
 * [Introduction to Git & Gerrit for CrOS contributors](/chromium-os/developer-library/guides/development/git-and-gerrit-intro)
