@@ -41,6 +41,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5201f0b3_ac8419ae",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 317,
+      "author": {
+        "id": 1548840
+      },
+      "writtenOn": "2024-03-06T20:10:55Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "35bc1c91_198aa4d5",
+      "range": {
+        "startLine": 317,
+        "startChar": 117,
+        "endLine": 317,
+        "endChar": 143
+      },
+      "revId": "0d78fe25862e541f2fefe58ff1ec5d19b81197d0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1d98ee38_cb781b55",
@@ -54,6 +78,30 @@
       "writtenOn": "2024-03-06T19:59:39Z",
       "side": 1,
       "message": "We might also want to say something here about \"if the TAG has _not_ commented\"...\n\n\n```suggestion\nIf the TAG has commented on your review, and the state of the review is anything\nother than [`Resolution:\nsatisfied`](https://github.com/w3ctag/design-reviews/issues?q\u003dis%3Aissue+label%3A%22Resolution%3A+satisfied%22),\nthe API Owners should be able to see evidence that you\u0027ve seriously and\ncomprehensively engaged with their comments, and tried to resolve any concerns.\nIf the TAG has _not_ commented, then after your I2S is approved, it\u0027s courteous\nto post to the review saying that Chromium considers the feature stable, and\nany future suggestions will need to come with stronger justifications.\n```",
+      "range": {
+        "startLine": 381,
+        "startChar": 0,
+        "endLine": 385,
+        "endChar": 79
+      },
+      "revId": "0d78fe25862e541f2fefe58ff1ec5d19b81197d0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "10baed76_93015af1",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 385,
+      "author": {
+        "id": 1548840
+      },
+      "writtenOn": "2024-03-06T20:10:55Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "1d98ee38_cb781b55",
       "range": {
         "startLine": 381,
         "startChar": 0,
