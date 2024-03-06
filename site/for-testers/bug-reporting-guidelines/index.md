@@ -40,10 +40,10 @@ associated with your email address in order to use the bug system.
             information:
     *   **Web site compatibility problem:** Please provide a URL to
                 replicate the issue.
-    *   **Hanging tab: See [Reporting hanging tab
-                bugs](/for-testers/bug-reporting-guidelines/hanging-tabs).**
-    *   **Crash: See [Reporting crash
-                bugs](/for-testers/bug-reporting-guidelines/reporting-crash-bug).**
+    *   **Hanging tab:** See [Reporting hanging tab
+                bugs](/for-testers/bug-reporting-guidelines/hanging-tabs).
+    *   **Crash:** See [Reporting crash
+                bugs](/for-testers/bug-reporting-guidelines/reporting-crash-bug).
 *   Provide a high-level problem description.
 *   Mention detailed steps to replicate the issue.
 *   Include the expected behavior.
