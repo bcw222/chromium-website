@@ -67,6 +67,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8faa6258_711b79fe",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 318,
+      "author": {
+        "id": 1497432
+      },
+      "writtenOn": "2024-03-06T20:18:16Z",
+      "side": 1,
+      "message": "Drop the word \"team\", and fix spelling of \"prioritize\".\n```suggestion\n   it\u0027s best to notify the TAG so that they can close the issue and prioritize other issues.\n```",
+      "revId": "0d78fe25862e541f2fefe58ff1ec5d19b81197d0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "1d98ee38_cb781b55",
         "filename": "site/blink/launching-features/index.md",
         "patchSetId": 2
@@ -101,6 +118,30 @@
       "writtenOn": "2024-03-06T20:10:55Z",
       "side": 1,
       "message": "Fix applied.",
+      "parentUuid": "1d98ee38_cb781b55",
+      "range": {
+        "startLine": 381,
+        "startChar": 0,
+        "endLine": 385,
+        "endChar": 79
+      },
+      "revId": "0d78fe25862e541f2fefe58ff1ec5d19b81197d0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "63ff40cf_0af36e88",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 385,
+      "author": {
+        "id": 1497432
+      },
+      "writtenOn": "2024-03-06T20:18:16Z",
+      "side": 1,
+      "message": "I think the last phrase in this suggestion might be a bit awkward (in that it seems to be telling the TAG what to do rather than telling them what the Chromium project will do).  Perhaps instead of \"any future suggestions will need to come with stronger justifications\" maybe something like \"future proposals for changes will be weighed against the compatibility risk of changing a shipping feature\".",
       "parentUuid": "1d98ee38_cb781b55",
       "range": {
         "startLine": 381,
