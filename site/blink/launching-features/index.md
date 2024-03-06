@@ -314,6 +314,9 @@ Once you have a complete specification:
    this at least a month ahead of sending an Intent to Ship, to give the TAG
    sufficient time for meaningful feedback.
 
+   Note that if the TAG review takes long and the design is being matured elsewhere, to the point where a TAG review would no longer be helpful, 
+   it's best to notify the TAG team so that they can close the issue and prioritze other issues.
+
 #### Step 5 (Optional): Origin Trial {:#origin-trials}
 
 If you want to gather data on the usability of your feature that an [Origin
