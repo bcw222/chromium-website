@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ca1bc60f_b30c05c2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-06T17:34:19Z",
+      "side": 1,
+      "message": "lgtm with nits.",
+      "revId": "aaf803b11926e1243d49d403de7188797cf0632e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c4fc955b_474f18a7",
+        "filename": "site/chromium-os/developer-library/guides/development/cheatsheet/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-06T17:34:19Z",
+      "side": 1,
+      "message": "nit: Non-title case here as well.",
+      "range": {
+        "startLine": 6,
+        "startChar": 12,
+        "endLine": 6,
+        "endChar": 16
+      },
+      "revId": "aaf803b11926e1243d49d403de7188797cf0632e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c5353a43_64190c69",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-06T17:34:19Z",
+      "side": 1,
+      "message": "nit: Keep alphabetical ordering.",
+      "range": {
+        "startLine": 55,
+        "startChar": 3,
+        "endLine": 55,
+        "endChar": 7
+      },
+      "revId": "aaf803b11926e1243d49d403de7188797cf0632e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
