@@ -59,6 +59,7 @@ title: Guides
 * [Powerwash](/chromium-os/developer-library/guides/device/powerwash)
 * [Requesting devices](/chromium-os/developer-library/guides/device/requesting-devices)
 * [Screenshots](/chromium-os/developer-library/guides/device/screenshots)
+* [Flashing chromiumos](/chromium-os/developer-library/guides/device/flashing-chromiumos)
 
 ## Experimentation
 
