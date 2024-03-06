@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a0df7033_379cfe28",
+        "filename": "site/chromium-os/build/circular-deps/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-03-06T18:12:17Z",
+      "side": 1,
+      "message": "let\u0027s move to chromium-os/developer-library/guides/portage/circular-deps/ so it\u0027s with our other portage docs",
+      "revId": "51c99d1047e0908b74786dcf96666cf12b93c06a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dacb1e87_e0c6953c",
+        "filename": "site/chromium-os/build/circular-deps/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-03-06T18:12:17Z",
+      "side": 1,
+      "message": "please wrap to 80 cols",
+      "revId": "51c99d1047e0908b74786dcf96666cf12b93c06a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "af55b383_93d92840",
+        "filename": "site/chromium-os/build/circular-deps/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-03-06T18:12:17Z",
+      "side": 1,
+      "message": "```suggestion\nif the circular dependency is only a runtime dependency, rather than compile-time dependency,\n```",
+      "revId": "51c99d1047e0908b74786dcf96666cf12b93c06a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4998fc6c_c2bbe503",
+        "filename": "site/chromium-os/build/circular-deps/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-03-06T18:12:17Z",
+      "side": 1,
+      "message": "trim trailing whitespace",
+      "revId": "51c99d1047e0908b74786dcf96666cf12b93c06a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
