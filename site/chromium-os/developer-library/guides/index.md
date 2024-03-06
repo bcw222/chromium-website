@@ -34,23 +34,27 @@ title: Guides
 * [Debug button shortcuts](/chromium-os/developer-library/guides/debugging/debug-buttons)
 * [Firmware UI troubleshooting](/chromium-os/developer-library/guides/debugging/firmware-ui)
 * [How to get a stack trace at runtime](/chromium-os/developer-library/guides/debugging/stack-traces)
+* [Recreating a Snapshot or Buildspec](/chromium-os/developer-library/guides/debugging/recreating-a-snapshot-or-buildspec)
 
 ## Development
 
-* [Life of a Chrome commit on ChromeOS](/chromium-os/developer-library/guides/development/chrome-commit-pipeline)
 * [ChromiumOS Contributing Guide](/chromium-os/developer-library/guides/development/contributing)
 * [ChromiumOS Developer Guide](/chromium-os/developer-library/guides/development/developer-guide)
-* [Kernel Development](/chromium-os/developer-library/guides/development/kernel-development)
-* [Getting started with platform2](/chromium-os/developer-library/guides/development/platform2-primer)
-* [Remote Trybots](/chromium-os/developer-library/guides/development/remote-trybots)
-* [Rust on ChromeOS](/chromium-os/developer-library/guides/development/rust-on-cros)
-* [Sandboxing ChromeOS system services](/chromium-os/developer-library/guides/development/sandboxing)
-* [ChromeOS security review HOWTO](/chromium-os/developer-library/guides/development/security-review-howto)
 * [ChromiumOS Guide to Working on Branches](/chromium-os/developer-library/guides/development/work-on-branch)
+* [Development Basics](/chromium-os/developer-library/guides/development/development-basics)
+* [Getting started with platform2](/chromium-os/developer-library/guides/development/platform2-primer)
+* [Introduction to Git & Gerrit for CrOS contributors](/chromium-os/developer-library/guides/development/git-and-gerrit-intro)
+* [Life of a Chrome commit on ChromeOS](/chromium-os/developer-library/guides/development/chrome-commit-pipeline)
+* [Remote Trybots](/chromium-os/developer-library/guides/development/remote-trybots)
+* [Sandboxing ChromeOS system services](/chromium-os/developer-library/guides/development/sandboxing)
+* [CrOS work command cheat
+  sheet](/chromium-os/developer-library/guides/development/cheatsheet)
 
 ## Device
 
 * [Developer mode](/chromium-os/developer-library/guides/device/developer-mode)
+* [Powerwash](/chromium-os/developer-library/guides/device/powerwash)
+* [Screenshots](/chromium-os/developer-library/guides/device/screenshots)
 
 ## Firmware
 
@@ -64,18 +68,26 @@ title: Guides
 
 * [libchrome](/chromium-os/developer-library/guides/infrastructure/libchrome)
 
-</div>
-<div class="column">
-
 ## IPC
 
 * [ChromeOS D-Bus best practices](/chromium-os/developer-library/guides/ipc/dbus-best-practices)
 * [ChromeOS D-Bus usage in Chrome](/chromium-os/developer-library/guides/ipc/dbus-in-chrome)
 
+## Kernel
+
+* [Kernel Development](/chromium-os/developer-library/guides/kernel/kernel-development)
+
+</div>
+<div class="column">
+
 ## LSC
 
 * [ChromeOS Platform Large Scale Changes (LSC)](/chromium-os/developer-library/guides/lsc/large-scale-changes)
 * [ChromeOS LSC Workflow](/chromium-os/developer-library/guides/lsc/large-scale-changes)
+
+## Metrics
+
+* [How to Create Metrics?](/chromium-os/developer-library/guides/metrics/how-to-create-metrics)
 
 ## Portage
 
@@ -88,6 +100,10 @@ title: Guides
 ## Recipes
 
 * [Tips And Tricks for ChromiumOS Developers](/chromium-os/developer-library/guides/recipes/tips-and-tricks)
+
+## Rust
+
+* [Rust on ChromeOS](/chromium-os/developer-library/guides/rust/rust-on-cros)
 
 ## Security
 
@@ -111,6 +127,8 @@ title: Guides
 * [ChromiumOS unit testing](/chromium-os/developer-library/guides/testing/running-unit-tests)
 * [Running a single binary with UBSAN](/chromium-os/developer-library/guides/testing/single-binary-ubsan)
 * [Best practices for writing ChromeOS unit tests](/chromium-os/developer-library/guides/testing/unit-tests)
+* [Writing Tests in C++](/chromium-os/developer-library/guides/testing/cpp-writing-tests)
+* [Running and writing "Tast" automated end to end (E2E) tests](/chromium-os/developer-library/guides/testing/e2e-tests)
 
 ## Third Party
 

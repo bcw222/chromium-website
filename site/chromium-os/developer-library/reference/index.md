@@ -21,7 +21,9 @@ title: Reference
 
 ## Device
 
+* [CBI: CrOS Board Info](/chromium-os/developer-library/reference/device/cros-board-info)
 * [Disk format](/chromium-os/developer-library/reference/device/disk-format)
+* [Firmware Config](/chromium-os/developer-library/reference/device/firmware-config)
 
 ## Kernel
 
@@ -55,6 +57,9 @@ title: Reference
 * [Memory
   Management](/chromium-os/developer-library/reference/cpp/cpp-memory-management)
 * [Design Patterns](/chromium-os/developer-library/reference/cpp/cpp-patterns)
+* [Using Mojo in C++](/chromium-os/developer-library/reference/cpp/cpp-mojo)
+* [C++ Prefs](/chromium-os/developer-library/reference/cpp/cpp-pref)
+* [Invariants and CHECKs in C++](/chromium-os/developer-library/reference/cpp/cpp-invariant-checks)
 
 </div>
 <div class="column">
@@ -100,10 +105,15 @@ title: Reference
 * [Security-sensitive ChromeOS packages](/chromium-os/developer-library/reference/security/sensitive-chromeos-packages)
 * [USB4 security](/chromium-os/developer-library/reference/security/usb4)
 * [Write protection](/chromium-os/developer-library/reference/security/write-protection)
+* [Security - Best Practices for C++](/chromium-os/developer-library/reference/security/cpp-security-best-practices)
 
 ## Third party
 
 * [ChromiumOS Archive Mirrors](/chromium-os/developer-library/reference/third-party/archive-mirrors)
+
+## User sessions
+
+* [User sessions](/chromium-os/developer-library/reference/user-sessions/user-sessions)
 
 </div>
 </div>

@@ -296,7 +296,7 @@ Resizing] document for details.
 
 Here’s the current fixed-disk layout:
 
-![Current fixed-disk layout](images/disk_layout.png)
+![Current fixed-disk layout](/chromium-os/developer-library/reference/device/disk-format/disk_layout.png)
 
 ## Secure boot
 
@@ -383,7 +383,7 @@ partition.
 
 Here’s the flow in graphical form:
 
-![Boot flow](images/boot_flow.png)
+![Boot flow](/chromium-os/developer-library/reference/device/disk-format/boot_flow.png)
 
 ## Kernel partition format
 
@@ -391,7 +391,7 @@ The same library that sanity-checks the GPT and selects the kernel partition
 also checks the kernel’s cryptographic signature. The kernel partition consists
 of the following structure:
 
-![Kernel partition layout](images/kernel_partition_layout.png)
+![Kernel partition layout](/chromium-os/developer-library/reference/device/disk-format/kernel_partition_layout.png)
 
 The first 64K bytes are the cryptographic signature header blob, which contains
 the keys and signatures needed to verify the rest of the kernel blob (plus a few
