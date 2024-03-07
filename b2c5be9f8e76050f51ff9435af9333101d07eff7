@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c96ce03e_b6da03a2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1314760
+      },
+      "writtenOn": "2024-03-07T19:02:33Z",
+      "side": 1,
+      "message": "(The apply edit feature in gerrit seems to work, I\u0027m sending it in)",
+      "revId": "b2c5be9f8e76050f51ff9435af9333101d07eff7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
