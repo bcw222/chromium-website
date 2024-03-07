@@ -299,12 +299,33 @@ Create the directory for your source code with this command:
 $ mkdir -p ~/chromiumos
 ```
 
-**IMPORTANT NOTE:** If your home directory is on NFS, you **must** place your
-code somewhere else. Not only is it a bad idea to build directly from NFS for
-performance reasons, but builds won't actually work (builds use sudo, and root
-doesn't have access to your NFS mount, unless your NFS server has the
-`no_root_squash` option). Wherever you place your source, you can still add a
-symbolic link to it from your home directory (this is suggested), like so:
+**IMPORTANT NOTE:** Please ensure the backing filesystem for the ChromiumOS
+code is compatible, as detailed in the next section.
+
+### Compatible Filesystems
+
+Some filesystems are not compatible with the ChromiumOS build system, and as
+such, the code (and `chroot` and `out` directory) should not be hosted on such
+filesystems. Below lists the known compatibility issues:
+
+| Filesystem | Compatible                                                 |
+|------------|------------------------------------------------------------|
+| ext4       | Yes                                                        |
+| nfs        | No                                                         |
+| btrfs      | Yes, but only without compression or other features        |
+
+* nfs is not compatible because builds use sudo and root doesn't have access to
+    nfs mount, unless your nfs server has the `no_root_squash` option.
+    Furthermore, it is also a bad idea due to performance reasons.
+
+* btrfs generally works, but any features that introduce xattr on files may
+    cause issues with squashfs/erofs operations during the build process, and
+    as such, should be avoided. Particularly, the btrfs compression feature is
+    known to introduce xattr and cause build failures.
+
+If your home directory is not backed by a compatible filesystem, then wherever
+you place your source, you can still add a symbolic link to it from your home
+directory (this is suggested), like so:
 
 ```bash
 (outside)
