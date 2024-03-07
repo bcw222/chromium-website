@@ -39,8 +39,9 @@ title: Reference
 
 ## Style guides
 
-* [Python Style Guidelines](/chromium-os/developer-library/reference/style-guides/python)
-* [Shell Style Guidelines](/chromium-os/developer-library/reference/style-guides/shell)
+* [Style guides in ChromiumOS](/chromium-os/developer-library/reference/style-guides/style-guides)
+* [Python style guidelines](/chromium-os/developer-library/reference/style-guides/python)
+* [Shell style guidelines](/chromium-os/developer-library/reference/style-guides/shell)
 
 ## Tools
 
