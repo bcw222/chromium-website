@@ -22,6 +22,30 @@
       },
       "revId": "0e91dbef23d182aac324fa715ca3277bb3c428a8",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "19a85691_b89b5a84",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-07T19:02:31Z",
+      "side": 1,
+      "message": "It works either way, right?",
+      "parentUuid": "cbac5e22_51587370",
+      "range": {
+        "startLine": 10,
+        "startChar": 5,
+        "endLine": 10,
+        "endChar": 14
+      },
+      "revId": "0e91dbef23d182aac324fa715ca3277bb3c428a8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
