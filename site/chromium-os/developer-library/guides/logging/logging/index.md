@@ -115,5 +115,5 @@ accessible from the Files app. To move a file, such as `/var/log/chrome/chrome`,
 into the Downloads folder, ssh into your test device, then run:
 
 ```
-mv /var/log/chrome/chrome /home/chronos/user/Downloads
+mv /var/log/chrome/chrome /home/chronos/user/MyFiles/Downloads
 ```
