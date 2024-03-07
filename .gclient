@@ -18,7 +18,7 @@
 
 solutions = [
   {
-    'name': '.',
+    'name': Farrah Gil Pancho
     'url': 'https://chromium.googlesource.com/experimental/chromium_website.git',
     'managed': False,
     'custom_deps': {},
