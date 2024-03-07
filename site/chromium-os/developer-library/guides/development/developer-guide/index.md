@@ -1898,7 +1898,7 @@ Below are a few links to external sites that you might also find helpful
 [Remote Debugging in ChromiumOS]: https://www.chromium.org/chromium-os/how-tos-and-troubleshooting/remote-debugging
 [cgdb]: https://cgdb.github.io/
 [crbug.com/new]: https://crbug.com/new
-[Simple Chrome Workflow]: simple_chrome_workflow.md
+[Simple Chrome Workflow]: https://www.chromium.org/chromium-os/developer-library/guides/development/simple-chrome-workflow
 [Tast]: https://chromium.googlesource.com/chromiumos/platform/tast/
 [Autotest]: https://autotest.github.io/
 [Tast Quickstart]: https://chromium.googlesource.com/chromiumos/platform/tast/+/HEAD/docs/quickstart.md
