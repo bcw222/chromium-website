@@ -57,6 +57,7 @@ title: Guides
 ## Device
 
 * [Developer mode](/chromium-os/developer-library/guides/device/developer-mode)
+* [Flashing chromiumOS](/chromium-os/developer-library/guides/device/flashing-chromiumos)
 * [Powerwash](/chromium-os/developer-library/guides/device/powerwash)
 * [Requesting devices](/chromium-os/developer-library/guides/device/requesting-devices)
 * [Screenshots](/chromium-os/developer-library/guides/device/screenshots)
