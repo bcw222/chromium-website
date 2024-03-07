@@ -16,6 +16,52 @@
       "message": "Hello, please continue the review from crrev.com/c/5329066 here. Thanks.",
       "revId": "f679a287702c45b7baef97e20fb820a13fa3370d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ddd0ecfa_48406ead",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 305,
+      "author": {
+        "id": 1474888
+      },
+      "writtenOn": "2024-03-07T17:08:07Z",
+      "side": 1,
+      "message": "```suggestion\n### Compatible Filesystems\n```",
+      "range": {
+        "startLine": 305,
+        "startChar": 0,
+        "endLine": 305,
+        "endChar": 25
+      },
+      "revId": "f679a287702c45b7baef97e20fb820a13fa3370d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c8295f90_3d680303",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 308,
+      "author": {
+        "id": 1474888
+      },
+      "writtenOn": "2024-03-07T17:08:07Z",
+      "side": 1,
+      "message": "```suggestion\nSome filesystems are not compatible with the ChromiumOS build system, and as\nsuch, the code (and `chroot` and `out` directory) should not be hosted on such\n```",
+      "range": {
+        "startLine": 307,
+        "startChar": 0,
+        "endLine": 308,
+        "endChar": 77
+      },
+      "revId": "f679a287702c45b7baef97e20fb820a13fa3370d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
