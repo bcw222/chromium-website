@@ -181,7 +181,7 @@ places:
 Otherwise, a public personal Github repo typically works well. Then put a link
 to your public explainer in the feature entry.
 
-We have a [program for to provide mentorship for specification
+We have a [program to provide mentorship for specification
 writing](/blink/spec-mentors); If you are a Googler you must file a
 [request](https://docs.google.com/forms/d/e/1FAIpQLSfCYE4U13GkZ11rAWBUjOb3Lza-u4m2k3TklQHXe7Zfn3Qo1g/viewform)
 for a spec mentor, and ask them to review this early explainer before
