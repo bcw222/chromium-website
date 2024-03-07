@@ -16,6 +16,24 @@
       "message": "The text wrapping isn\u0027t great. Can we do something about this?",
       "revId": "c9ab4d5f707b0f47417dbcf0207241fe911b1f46",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e6a33072_53deb210",
+        "filename": "site/for-testers/bug-reporting-guidelines/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1419102
+      },
+      "writtenOn": "2024-03-07T01:12:30Z",
+      "side": 1,
+      "message": "The wrapping is because of the really long link. We could use local links if wanted.",
+      "parentUuid": "21b0f214_1c310606",
+      "revId": "c9ab4d5f707b0f47417dbcf0207241fe911b1f46",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
