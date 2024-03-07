@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f3f19d71_d5bd2be6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1314760
+      },
+      "writtenOn": "2024-03-07T09:10:44Z",
+      "side": 1,
+      "message": "Hello, please continue the review from crrev.com/c/5329066 here. Thanks.",
+      "revId": "f679a287702c45b7baef97e20fb820a13fa3370d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
