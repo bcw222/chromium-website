@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "21b0f214_1c310606",
+        "filename": "site/for-testers/bug-reporting-guidelines/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1419102
+      },
+      "writtenOn": "2024-03-07T01:10:30Z",
+      "side": 1,
+      "message": "The text wrapping isn\u0027t great. Can we do something about this?",
+      "revId": "c9ab4d5f707b0f47417dbcf0207241fe911b1f46",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
