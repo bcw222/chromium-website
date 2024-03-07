@@ -82,6 +82,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f8bd104_df624e6c",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 318,
+      "author": {
+        "id": 1548840
+      },
+      "writtenOn": "2024-03-07T10:41:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8faa6258_711b79fe",
+      "revId": "0d78fe25862e541f2fefe58ff1ec5d19b81197d0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1d98ee38_cb781b55",
@@ -167,6 +185,30 @@
       "side": 1,
       "message": "That sounds better to me too.",
       "parentUuid": "63ff40cf_0af36e88",
+      "range": {
+        "startLine": 381,
+        "startChar": 0,
+        "endLine": 385,
+        "endChar": 79
+      },
+      "revId": "0d78fe25862e541f2fefe58ff1ec5d19b81197d0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7216cdcc_28298c2e",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 385,
+      "author": {
+        "id": 1548840
+      },
+      "writtenOn": "2024-03-07T10:41:49Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "36e0e6a6_4e32c372",
       "range": {
         "startLine": 381,
         "startChar": 0,

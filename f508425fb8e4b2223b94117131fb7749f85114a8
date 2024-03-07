@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "966252c9_80b6bb3c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1548840
+      },
+      "writtenOn": "2024-03-07T10:41:49Z",
+      "side": 1,
+      "message": "Applied comments. @jyasskin@google.com do you mind taking a last look before I CQ?",
+      "revId": "f508425fb8e4b2223b94117131fb7749f85114a8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
