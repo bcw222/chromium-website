@@ -18,6 +18,23 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "34ed50f0_de1a46b9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1314760
+      },
+      "writtenOn": "2024-03-07T19:01:11Z",
+      "side": 1,
+      "message": "(Never used the apply edit feature in gerrit, I\u0027m trying it)",
+      "revId": "f679a287702c45b7baef97e20fb820a13fa3370d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ddd0ecfa_48406ead",
@@ -41,6 +58,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "af004204_56c1f89d",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 305,
+      "author": {
+        "id": 1314760
+      },
+      "writtenOn": "2024-03-07T19:01:11Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "ddd0ecfa_48406ead",
+      "range": {
+        "startLine": 305,
+        "startChar": 0,
+        "endLine": 305,
+        "endChar": 25
+      },
+      "revId": "f679a287702c45b7baef97e20fb820a13fa3370d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c8295f90_3d680303",
@@ -54,6 +95,30 @@
       "writtenOn": "2024-03-07T17:08:07Z",
       "side": 1,
       "message": "```suggestion\nSome filesystems are not compatible with the ChromiumOS build system, and as\nsuch, the code (and `chroot` and `out` directory) should not be hosted on such\n```",
+      "range": {
+        "startLine": 307,
+        "startChar": 0,
+        "endLine": 308,
+        "endChar": 77
+      },
+      "revId": "f679a287702c45b7baef97e20fb820a13fa3370d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a6d39aa_487084e2",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 308,
+      "author": {
+        "id": 1314760
+      },
+      "writtenOn": "2024-03-07T19:01:11Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "c8295f90_3d680303",
       "range": {
         "startLine": 307,
         "startChar": 0,
