@@ -75,15 +75,7 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 *   [Overview](/chromium-os/developer-guide/directory-structure) of the
             source
 *   [Browse](https://chromium.googlesource.com/) the source
-*   [Coding Style
-            Guidelines](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/styleguide/)
-    *   [ChromiumOS Python Style
-                Guide](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/styleguide/python.md)
-    *   [ChromiumOS Shell Style
-                Guide](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/styleguide/shell.md)
-    *   For other languages, follow the [Google Style
-                Guide](https://github.com/google/styleguide/#google-style-guides)
-    *   For third-party code, follow the external project style guides
+*   [Coding Style Guidelines](/chromium-os/developer-library/reference/style-guides/style-guides/)
 *   [Testing](/chromium-os/testing)
 
 ### Developer docs

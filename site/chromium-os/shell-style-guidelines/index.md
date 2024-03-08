@@ -6,10 +6,12 @@ page_name: shell-style-guidelines
 title: Shell Style Guidelines
 ---
 
-<table>
-<tr>
+>This resource has migrated to the ChromeOS Developer Library hosted at
+> [chromium.org]. Please update your links to point to the [new location].
+>
+> Please see the [library proposal] for more information. This resource will be
+> removed at the end of Q1 2024.
 
-<td>## Moved to <a href="https://chromium.googlesource.com/chromiumos/docs/+/HEAD/styleguide/shell.md">https://chromium.googlesource.com/chromiumos/docs/+/HEAD/styleguide/shell.md</a>. Please update the link that brought you here with the new location.</td>
-
-</tr>
-</table>
+[chromium.org]: https://www.chromium.org/
+[library proposal]: /chromium-os/developer-library/proposal/
+[new location]: /chromium-os/developer-library/reference/style-guides/shell
