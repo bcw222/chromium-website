@@ -108,7 +108,7 @@ There is a checked-in script called
 that uses the output of the build_ts command to generate a local `tsconfig.json`
 file.
 
-**Use the following tool to generate a shell command for you!**
+Here's how to run that script:
 
 ```shell
 $ ash/webui/personalization_app/tools/gen_tsconfig.py \
