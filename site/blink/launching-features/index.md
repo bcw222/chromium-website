@@ -341,10 +341,18 @@ Please note that Origin Trials are not exempt from requiring cross-functional
 approvals from the Chrome launch review process.
 
 Depending on your feature and your experimentation goals, running an experiment
-via Finch on a percentage of the stable or beta populations may be useful
-([example](https://groups.google.com/a/chromium.org/g/blink-api-owners-discuss/c/WoQvWPCxKdU/m/e93bxrzwAQAJ)).
-In these cases, an Intent to Experiment explaining why this non-typical path is
-requested and the corresponding LGTM(s) are still required before proceeding.
+via Finch on a percentage of the user populations may be useful. Features that
+are going through the intent process should adhere to the following guidelines:
+* Canary, Dev, and Beta channel experimentation does not require API owners'
+  approval.
+* Experimentation on 1% of Stable channel population requires an Intent to
+  Experiment approval. Note that an additional explanation for why this
+  experimentation is needed is also required.
+* Experimentation on higher percentages of Stable channel population (> 1%)
+  should be considered exceptional, and requires 3 LGTMs from API owners.
+
+Note that if your plan for shipping involves a gradual ramp-up on Stable channel,
+this is not considered experimentation, and instead follows the usual Intent to Ship process.
 
 An initial origin trial for a feature may only run for *6 milestones of Chromium*.
 Each request to extend beyond that limit may only be for *3 milestones* at a time,
