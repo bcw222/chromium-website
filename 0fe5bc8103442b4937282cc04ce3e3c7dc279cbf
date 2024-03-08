@@ -41,6 +41,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c473396c_3d2f90fe",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 1485520
+      },
+      "writtenOn": "2024-03-08T00:23:40Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "87a9c27a_9aac43e7",
+      "range": {
+        "startLine": 180,
+        "startChar": 26,
+        "endLine": 180,
+        "endChar": 33
+      },
+      "revId": "0fe5bc8103442b4937282cc04ce3e3c7dc279cbf",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d2a4dff3_80265796",
@@ -54,6 +78,30 @@
       "writtenOn": "2024-03-08T00:22:40Z",
       "side": 1,
       "message": "s/Update/updates/\n```suggestion\ntitle: Common Green Stainless updates\n```",
+      "range": {
+        "startLine": 6,
+        "startChar": 30,
+        "endLine": 6,
+        "endChar": 37
+      },
+      "revId": "0fe5bc8103442b4937282cc04ce3e3c7dc279cbf",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6dcca9a2_c751096c",
+        "filename": "site/chromium-os/developer-library/guides/testing/green-stainless-report/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1485520
+      },
+      "writtenOn": "2024-03-08T00:23:40Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "d2a4dff3_80265796",
       "range": {
         "startLine": 6,
         "startChar": 30,
