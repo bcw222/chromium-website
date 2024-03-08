@@ -38,6 +38,9 @@ title: Reference
 * [ChromeOS releases](/chromium-os/developer-library/reference/release/releases)
 * [Understanding ChromeOS releases](/chromium-os/developer-library/reference/release/understanding-chromeos-releases)
 
+## Rotations
+
+* [CrOS oncall](/chromium-os/developer-library/reference/rotations/cros-oncall)
 
 ## Style guides
 

@@ -45,23 +45,25 @@ title: Guides
 
 ## Development
 
+* [Build broken](/chromium-os/developer-library/guides/development/build-broken)
 * [ChromiumOS contributing guide](/chromium-os/developer-library/guides/development/contributing)
 * [ChromiumOS developer guide](/chromium-os/developer-library/guides/development/developer-guide)
 * [ChromiumOS guide to working on branches](/chromium-os/developer-library/guides/development/work-on-branch)
 * [CrOS work command cheatsheet](/chromium-os/developer-library/guides/development/cheatsheet)
 * [Development basics](/chromium-os/developer-library/guides/development/development-basics)
 * [Getting started with platform2](/chromium-os/developer-library/guides/development/platform2-primer)
-* [Introduction to Git & Gerrit for CrOS contributors](/chromium-os/developer-library/guides/development/git-and-gerrit-intro)
 * [How to use LINT.IfChange to keep files in sync](/chromium-os/developer-library/guides/development/keep-files-in-sync)
+* [Introduction to Git & Gerrit for CrOS contributors](/chromium-os/developer-library/guides/development/git-and-gerrit-intro)
 * [Life of a Chrome commit on ChromeOS](/chromium-os/developer-library/guides/development/chrome-commit-pipeline)
 * [Remote trybots](/chromium-os/developer-library/guides/development/remote-trybots)
-* [Sandboxing ChromeOS system services](/chromium-os/developer-library/guides/development/sandboxing)
 * [Running graphical applications remotely](/chromium-os/developer-library/guides/development/running-graphical-applications-remotely)
+* [Sandboxing ChromeOS system services](/chromium-os/developer-library/guides/development/sandboxing)
 * [Simple chrome workflow](/chromium-os/developer-library/guides/development/simple-chrome-workflow)
-* [Build broken](/chromium-os/developer-library/guides/development/build-broken)
+* [Tools used](/chromium-os/developer-library/guides/development/tools-used)
 
 ## Device
 
+* [Crosfleet](/chromium-os/developer-library/guides/device/crosfleet)
 * [Developer mode](/chromium-os/developer-library/guides/device/developer-mode)
 * [Flashing chromiumOS](/chromium-os/developer-library/guides/device/flashing-chromiumos)
 * [Powerwash](/chromium-os/developer-library/guides/device/powerwash)
