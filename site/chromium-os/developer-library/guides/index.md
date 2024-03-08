@@ -22,6 +22,7 @@ title: Guides
 ## Code review
 
 * [Firmware code reviews](/chromium-os/developer-library/guides/code-review/firmware-code-reviews)
+* [Code review and submitting code](/chromium-os/developer-library/guides/code-review/code-reviews-and-submitting-code)
 
 ## C++
 
