@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fd9ff0bd_756e99d8",
+        "filename": "site/chromium-os/python-style-guidelines/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-08T22:14:53Z",
+      "side": 0,
+      "message": "Let\u0027s just delete these files.",
+      "range": {
+        "startLine": 9,
+        "startChar": 3,
+        "endLine": 9,
+        "endChar": 8
+      },
+      "revId": "67b5bd1e70772912905aeb6b79ba7d84d7c0ce9f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "21afaa62_7d580603",
+        "filename": "site/chromium-os/shell-style-guidelines/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-08T22:14:53Z",
+      "side": 0,
+      "message": "Delete this file.",
+      "range": {
+        "startLine": 9,
+        "startChar": 1,
+        "endLine": 9,
+        "endChar": 6
+      },
+      "revId": "67b5bd1e70772912905aeb6b79ba7d84d7c0ce9f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
