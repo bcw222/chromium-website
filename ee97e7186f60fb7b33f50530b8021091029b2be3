@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "64c79f92_ba9c939c",
+        "filename": "site/chromium-os/developer-library/guides/development/broken-build/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1548900
+      },
+      "writtenOn": "2024-03-08T06:39:23Z",
+      "side": 1,
+      "message": "Originally, this was linked to `developing.md` which is now the in-progress \u0027Getting Started\u0027 guide in the library.\nPer offline discussion, I\u0027m simply put the getting-start page.",
+      "range": {
+        "startLine": 73,
+        "startChar": 1,
+        "endLine": 73,
+        "endChar": 17
+      },
+      "revId": "ee97e7186f60fb7b33f50530b8021091029b2be3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a1767ab1_902d79ea",
+        "filename": "site/chromium-os/developer-library/guides/development/broken-build/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1548900
+      },
+      "writtenOn": "2024-03-08T06:39:23Z",
+      "side": 1,
+      "message": "I\u0027m not seeing this doc being migrated or to be migrated. Leave it as is. Let me know if you have more pointers on this.",
+      "range": {
+        "startLine": 90,
+        "startChar": 36,
+        "endLine": 90,
+        "endChar": 55
+      },
+      "revId": "ee97e7186f60fb7b33f50530b8021091029b2be3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
