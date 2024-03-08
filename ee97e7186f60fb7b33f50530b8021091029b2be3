@@ -24,6 +24,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fc02c1f5_2d4db416",
+        "filename": "site/chromium-os/developer-library/guides/development/broken-build/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1548900
+      },
+      "writtenOn": "2024-03-08T20:12:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "76f6002c_3811030d",
+      "range": {
+        "startLine": 6,
+        "startChar": 14,
+        "endLine": 6,
+        "endChar": 19
+      },
+      "revId": "ee97e7186f60fb7b33f50530b8021091029b2be3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "64c79f92_ba9c939c",
@@ -94,6 +118,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ec4960b_a60d2e7b",
+        "filename": "site/chromium-os/developer-library/guides/development/broken-build/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1548900
+      },
+      "writtenOn": "2024-03-08T20:12:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d8b91931_ecccfc39",
+      "range": {
+        "startLine": 83,
+        "startChar": 19,
+        "endLine": 83,
+        "endChar": 24
+      },
+      "revId": "ee97e7186f60fb7b33f50530b8021091029b2be3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a1767ab1_902d79ea",
@@ -141,6 +189,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3bfd4e88_cade7734",
+        "filename": "site/chromium-os/developer-library/guides/development/broken-build/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1548900
+      },
+      "writtenOn": "2024-03-08T20:12:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b429d895_81e026f0",
+      "range": {
+        "startLine": 90,
+        "startChar": 36,
+        "endLine": 90,
+        "endChar": 55
+      },
+      "revId": "ee97e7186f60fb7b33f50530b8021091029b2be3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6c05d8c9_34ff4f87",
@@ -164,6 +236,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "498e6fa3_11fc0200",
+        "filename": "site/chromium-os/developer-library/guides/development/broken-build/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 1548900
+      },
+      "writtenOn": "2024-03-08T20:12:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6c05d8c9_34ff4f87",
+      "range": {
+        "startLine": 93,
+        "startChar": 54,
+        "endLine": 93,
+        "endChar": 59
+      },
+      "revId": "ee97e7186f60fb7b33f50530b8021091029b2be3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "008a4baf_cdd9d69d",
@@ -177,6 +273,30 @@
       "writtenOn": "2024-03-08T17:17:11Z",
       "side": 1,
       "message": "This doesn\u0027t match the title of the doc.",
+      "range": {
+        "startLine": 60,
+        "startChar": 10,
+        "endLine": 60,
+        "endChar": 15
+      },
+      "revId": "ee97e7186f60fb7b33f50530b8021091029b2be3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f2dae69_d4f0b37a",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1548900
+      },
+      "writtenOn": "2024-03-08T20:12:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "008a4baf_cdd9d69d",
       "range": {
         "startLine": 60,
         "startChar": 10,
