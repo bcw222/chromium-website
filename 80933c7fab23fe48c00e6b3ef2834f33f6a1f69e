@@ -41,6 +41,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "616b4ab0_0d8e656f",
+        "filename": "site/chromium-os/developer-library/guides/cpp/resolving-dependency-issues/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1547388
+      },
+      "writtenOn": "2024-03-08T22:23:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9659f0bc_68d96b2e",
+      "range": {
+        "startLine": 6,
+        "startChar": 13,
+        "endLine": 6,
+        "endChar": 22
+      },
+      "revId": "80933c7fab23fe48c00e6b3ef2834f33f6a1f69e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cbeb4542_08b6ffb8",
@@ -54,6 +78,30 @@
       "writtenOn": "2024-03-08T22:21:29Z",
       "side": 1,
       "message": "nit: non-title case",
+      "range": {
+        "startLine": 30,
+        "startChar": 9,
+        "endLine": 30,
+        "endChar": 18
+      },
+      "revId": "80933c7fab23fe48c00e6b3ef2834f33f6a1f69e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5bdaaa9a_3793e2be",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1547388
+      },
+      "writtenOn": "2024-03-08T22:23:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cbeb4542_08b6ffb8",
       "range": {
         "startLine": 30,
         "startChar": 9,
