@@ -16,6 +16,23 @@
       "message": "Please take a look.",
       "revId": "9710aa9f1906d49e23f761d208b8ee3e6ba65b68",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7ad77a27_f9fb3b65",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 351,
+      "author": {
+        "id": 1484892
+      },
+      "writtenOn": "2024-03-08T21:56:06Z",
+      "side": 1,
+      "message": "I think we don\u0027t necessarily need an I2S to experiment at, say, 5%, but the approval bar is the same (3 LGTMs).\n\nMaybe instead we say: \n\n\"Experimentation on higher percentages of Stable channel population (\u003e 1%) should be considered exceptional, and requires 3 LGTMs from API owners.\"",
+      "revId": "9710aa9f1906d49e23f761d208b8ee3e6ba65b68",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
