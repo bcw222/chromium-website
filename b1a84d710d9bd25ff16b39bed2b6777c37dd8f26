@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1687db53_96d7de73",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1338865
+      },
+      "writtenOn": "2024-03-08T09:27:04Z",
+      "side": 1,
+      "message": "Hey there,\n\nhiting you as a reviewer since you approved the previous cleanup of these instruction.\nWe will keep the bug around to write proper instructions later on (I don\u0027t have the knowledge to do that yet :) ), but there\u0027s no point in keeping these stale instructions. \n\nThanks",
+      "revId": "b1a84d710d9bd25ff16b39bed2b6777c37dd8f26",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
