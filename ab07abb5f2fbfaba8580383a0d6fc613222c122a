@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b4342086_f47cd589",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-08T20:14:47Z",
+      "side": 1,
+      "message": "lgtm with nit",
+      "revId": "ab07abb5f2fbfaba8580383a0d6fc613222c122a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cc196f97_419cbccf",
+        "filename": "site/chromium-os/developer-library/reference/style-guides/style-guides/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-08T20:14:47Z",
+      "side": 1,
+      "message": "nit: Use non-title case, i.e., only capitalize the first word.",
+      "range": {
+        "startLine": 6,
+        "startChar": 18,
+        "endLine": 6,
+        "endChar": 23
+      },
+      "revId": "ab07abb5f2fbfaba8580383a0d6fc613222c122a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
