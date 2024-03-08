@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c1c0e4f0_c84d6460",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1513257
+      },
+      "writtenOn": "2024-03-08T22:09:58Z",
+      "side": 1,
+      "message": "@jhawkin - `s/c/python-style-guidelines` and `s/c/shell-style-guidelines` will need to be removed during the clean-up, where should that be recorded?",
+      "revId": "b54cca30dd47fbc3eb7f73599ac040daca360e01",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
