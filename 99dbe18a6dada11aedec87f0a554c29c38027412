@@ -39,6 +39,30 @@
       },
       "revId": "99dbe18a6dada11aedec87f0a554c29c38027412",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "24d85949_5836535e",
+        "filename": "site/chromium-os/developer-library/guides/code-review/code-reviews-and-submitting-code/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1548900
+      },
+      "writtenOn": "2024-03-08T20:18:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bba12033_aceb5042",
+      "range": {
+        "startLine": 6,
+        "startChar": 18,
+        "endLine": 6,
+        "endChar": 22
+      },
+      "revId": "99dbe18a6dada11aedec87f0a554c29c38027412",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
