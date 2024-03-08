@@ -178,6 +178,7 @@ title: Guides
 * [Best practices for writing Tast tests](/chromium-os/developer-library/guides/testing/tast-tests-best-practice)
 * [Tips on writing Tast tests](/chromium-os/developer-library/guides/testing/tast-tests-writing-tips)
 * [Tips on writing C++ Browser tests](/chromium-os/developer-library/guides/testing/browser-tests-writing-tips)
+* [UI selection in Tast](/chromium-os/developer-library/guides/testing/ui-tast-tests)
 * [Writing tests in C++](/chromium-os/developer-library/guides/testing/cpp-writing-tests)
 * [Common Green Stainless updates](/chromium-os/developer-library/guides/testing/green-stainless-report)
 * [Running and writing "Tast" automated end to end (E2E) tests](/chromium-os/developer-library/guides/testing/e2e-tests)
