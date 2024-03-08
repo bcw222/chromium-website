@@ -41,6 +41,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb3d112a_ff55620f",
+        "filename": "site/chromium-os/developer-library/guides/device/crosfleet/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-08T21:43:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "334107d3_df631f03",
+      "range": {
+        "startLine": 17,
+        "startChar": 37,
+        "endLine": 17,
+        "endChar": 53
+      },
+      "revId": "0d172f3a998285d11a53aa4d62bd006978b55c86",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4a92b665_ab611a3d",
@@ -64,6 +88,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "91395d25_71785c84",
+        "filename": "site/chromium-os/developer-library/guides/device/crosfleet/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-08T21:43:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4a92b665_ab611a3d",
+      "range": {
+        "startLine": 48,
+        "startChar": 48,
+        "endLine": 48,
+        "endChar": 73
+      },
+      "revId": "0d172f3a998285d11a53aa4d62bd006978b55c86",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "81fe2287_a9272ba2",
@@ -77,6 +125,30 @@
       "writtenOn": "2024-03-08T21:28:18Z",
       "side": 1,
       "message": "nit: broken go/ link",
+      "range": {
+        "startLine": 25,
+        "startChar": 41,
+        "endLine": 25,
+        "endChar": 65
+      },
+      "revId": "0d172f3a998285d11a53aa4d62bd006978b55c86",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9136fd69_cf454ed7",
+        "filename": "site/chromium-os/developer-library/reference/rotations/cros-oncall/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-08T21:43:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "81fe2287_a9272ba2",
       "range": {
         "startLine": 25,
         "startChar": 41,
