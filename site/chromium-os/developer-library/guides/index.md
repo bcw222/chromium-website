@@ -196,6 +196,7 @@ title: Guides
 * [Detecting dark mode in polymer](/chromium-os/developer-library/guides/typescript/detect-dark-mode)
 * [Detecting online status in polymer](/chromium-os/developer-library/guides/typescript/detect-online)
 * [Generating a local `tsconfig.json` file](/chromium-os/developer-library/guides/typescript/generating-local-tsconfig)
+* [Setting up your TypeScript dev environment](/chromium-os/developer-library/guides/typescript/setup-ts-environment)
 * [How to mock JavaScript](/chromium-os/developer-library/guides/typescript/javascript-mock)
 
 ## Views (UI framework)
