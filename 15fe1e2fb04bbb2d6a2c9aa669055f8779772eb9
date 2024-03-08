@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e03dbcd8_b4a2e92f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-03-08T23:50:52Z",
+      "side": 1,
+      "message": "I\u0027m not what this change is supposed to do, but I\u0027m not sure that it\u0027s working right. Does edit.chromium.org now somehow automatically know to redirect to Cider-V? Is there a way to not do that if I still want to use the Gerrit editor?\n\nAlso, probably more importantly, when I get redirected, I seem to lose the actual page I wanted to edit, and get dumped into a blank workspace.",
+      "revId": "15fe1e2fb04bbb2d6a2c9aa669055f8779772eb9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
