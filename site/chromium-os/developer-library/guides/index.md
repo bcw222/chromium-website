@@ -23,6 +23,10 @@ title: Guides
 
 * [Firmware code reviews](/chromium-os/developer-library/guides/code-review/firmware-code-reviews)
 
+## C++
+
+* [How to wait for a callback be invoked N times](/chromium-os/developer-library/guides/cpp/barrier-callback)
+
 ## Containers
 
 * [Running custom containers under Chrome OS](/chromium-os/developer-library/guides/containers/containers-and-vms)
@@ -167,11 +171,13 @@ title: Guides
 * [Running unittests via QEMU](/chromium-os/developer-library/guides/testing/qemu-unit-tests-design)
 * [ChromiumOS unit testing](/chromium-os/developer-library/guides/testing/running-unit-tests)
 * [Running a single binary with UBSAN](/chromium-os/developer-library/guides/testing/single-binary-ubsan)
+* [Run Tast tests with servo](/chromium-os/developer-library/guides/testing/test-with-servo)
 * [Best practices for writing ChromeOS unit tests](/chromium-os/developer-library/guides/testing/unit-tests)
 * [Best practices for writing Tast tests](/chromium-os/developer-library/guides/testing/tast-tests-best-practice)
 * [Tips on writing Tast tests](/chromium-os/developer-library/guides/testing/tast-tests-writing-tips)
 * [Tips on writing C++ Browser tests](/chromium-os/developer-library/guides/testing/browser-tests-writing-tips)
 * [Writing tests in C++](/chromium-os/developer-library/guides/testing/cpp-writing-tests)
+* [Common Green Stainless updates](/chromium-os/developer-library/guides/testing/green-stainless-report)
 * [Running and writing "Tast" automated end to end (E2E) tests](/chromium-os/developer-library/guides/testing/e2e-tests)
 
 ## Third Party
