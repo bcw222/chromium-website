@@ -34,6 +34,24 @@
       "parentUuid": "e03dbcd8_b4a2e92f",
       "revId": "15fe1e2fb04bbb2d6a2c9aa669055f8779772eb9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5be7a9ee_0179ffdf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-03-09T01:05:19Z",
+      "side": 1,
+      "message": "\u003e I think the reason it doesn\u0027t look like it\u0027s working is the workspace\n\u003e takes a while to setup and the edit page doesn\u0027t load immediately, it \n\u003e looks like it\u0027s taking about 15 seconds to get the edit page up for me.\n\nIt doesn\u0027t seem to be doing anything for me, even after waiting several minutes several times. I have never actually used Cider-V for anything yet; maybe that\nmatters?\n\nThe CrOS folks have been doing a lot of site editing lately and I am reluctant\nto do anything that might disrupt that. \n\nI wonder if there\u0027s something we can do in JavaScript to only show a Cider-V button if someone is logged in. Failing that, I\u0027d probably vote for a second button. But, let\u0027s find out what\u0027s not working for me first.",
+      "parentUuid": "67cf2ca7_56c919cb",
+      "revId": "15fe1e2fb04bbb2d6a2c9aa669055f8779772eb9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
