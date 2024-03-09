@@ -16,6 +16,24 @@
       "message": "I\u0027m not what this change is supposed to do, but I\u0027m not sure that it\u0027s working right. Does edit.chromium.org now somehow automatically know to redirect to Cider-V? Is there a way to not do that if I still want to use the Gerrit editor?\n\nAlso, probably more importantly, when I get redirected, I seem to lose the actual page I wanted to edit, and get dumped into a blank workspace.",
       "revId": "15fe1e2fb04bbb2d6a2c9aa669055f8779772eb9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67cf2ca7_56c919cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2024-03-09T00:12:35Z",
+      "side": 1,
+      "message": "edit.chromium.org does redirect to cider-v if a ext_google.git parameter is passed. I don\u0027t think there\u0027s a way to get it to not redirect if that parameter is included. I think the reason it doesn\u0027t look like it\u0027s working is the workspace takes a while to setup and the edit page doesn\u0027t load immediately, it looks like it\u0027s taking about 15 seconds to get the edit page up for me.\n\nI can see the delay in the workspace setup making for a confusing experience though, maybe we want to wait to make this change until that is more seamless. Or I could add a second button for \"Edit in Cider\" until the setup is faster",
+      "parentUuid": "e03dbcd8_b4a2e92f",
+      "revId": "15fe1e2fb04bbb2d6a2c9aa669055f8779772eb9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
