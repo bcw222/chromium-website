@@ -106,6 +106,24 @@
       "parentUuid": "d5da62cc_bae8cd9d",
       "revId": "15fe1e2fb04bbb2d6a2c9aa669055f8779772eb9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a67f1b19_0be66938",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-03-11T19:53:14Z",
+      "side": 1,
+      "message": "Sorry, to clarify: I do get redirected, but all I see is Cider opening up and showing me the \"Welcome\" page. I do not get the file loaded in a workspace.",
+      "parentUuid": "5d260fbb_5512644c",
+      "revId": "15fe1e2fb04bbb2d6a2c9aa669055f8779772eb9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
