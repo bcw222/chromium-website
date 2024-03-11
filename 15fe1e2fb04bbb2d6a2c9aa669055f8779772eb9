@@ -160,6 +160,24 @@
       "parentUuid": "0f9c814b_afcc63c1",
       "revId": "15fe1e2fb04bbb2d6a2c9aa669055f8779772eb9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e2d9de6e_ef49607d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-03-11T20:21:39Z",
+      "side": 1,
+      "message": "\u003e \u003e it shows me a directory tree for chromium/src, not the website repo\n\u003e \n\u003e This is intentional since project is chromium/src. We could always use website, example link would be:\n\u003e \n\u003e https://edit.chromium.org/edit?repo\u003dchromium/website/main\u0026file\u003dsite/chromium-projects/index.md\u0026ext_google.git\u003d%7B%22repo%22%3A%22chromium%2Fwebsite%22%2C%22ref%22%3A%22main%22%2C%22file%22%3A%22site/chromium-projects/index.md%22%7D - does that work?\n\nThat does at least show me the correct repo. We do not want to show chromium/src, since that has no relevance to what is actually being edited (and is probably worse than useless to the people working on CrOS pages).\n\n\u003e \u003e Sorry, to clarify: I do get redirected, but all I see is Cider opening up and showing me the \"Welcome\" page. I do not get the file loaded in a workspace.\n\u003e \n\u003e Does the file get open after 15-20s? You may want to submit feedback using\n\u003e Cider feedback.\n\nNo, the file does not open no matter how long I wait. \n\nI would be happy to submit feedback if I knew what to describe. Is there a direct URL in Cider that should be the equivalent? I can try seeing if that works.\n\n(and, this is probably obvious, but I wouldn\u0027t want to change anything until we understand what\u0027s going on here and hopefully fix it).",
+      "parentUuid": "cf508c21_ef1cf997",
+      "revId": "15fe1e2fb04bbb2d6a2c9aa669055f8779772eb9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
