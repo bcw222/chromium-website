@@ -104,6 +104,7 @@ three techniques mentioned in the Forbidden intersection section.
 *   If your service fails, you might need to grant it capabilities. See
     [Capabilities].
 *   Use as many namespaces as possible. See [Namespaces].
+*   If possible, use `-n` to set [`no_new_privs`].
 *   Consider reducing the kernel attack surface exposed to your service by
     using Seccomp filters. See [Seccomp filters].
 *   Add your sandboxed service to the [security.SandboxedServices] test.
@@ -864,3 +865,4 @@ reason such as when the code is only for unit test support.
 [nsenter(1)]: https://man7.org/linux/man-pages/man1/nsenter.1.html
 [Control Flow Integrity]: https://clang.llvm.org/docs/ControlFlowIntegrity.html
 [cfi-ignore.txt]: https://clang.llvm.org/docs/SanitizerSpecialCaseList.html#format
+[`no_new_privs`]: https://docs.kernel.org/userspace-api/no_new_privs.html
