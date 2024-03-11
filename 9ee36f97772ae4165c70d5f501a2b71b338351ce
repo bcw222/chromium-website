@@ -50,6 +50,24 @@
       "message": "You may want to add (maybe after the bulleted list) something like: \"If your plan for shipping involves a gradual ramp-up on Stable channel, this is not considered experimentation, and instead follows the usual Intent to Ship process.\"",
       "revId": "9ee36f97772ae4165c70d5f501a2b71b338351ce",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "508e9fd2_2f4e9826",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 352,
+      "author": {
+        "id": 1002513
+      },
+      "writtenOn": "2024-03-11T14:57:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ec8febcf_9667ce59",
+      "revId": "9ee36f97772ae4165c70d5f501a2b71b338351ce",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
