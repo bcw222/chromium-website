@@ -142,6 +142,24 @@
       "parentUuid": "a67f1b19_0be66938",
       "revId": "15fe1e2fb04bbb2d6a2c9aa669055f8779772eb9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf508c21_ef1cf997",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1560543
+      },
+      "writtenOn": "2024-03-11T20:04:50Z",
+      "side": 1,
+      "message": "\u003e it shows me a directory tree for chromium/src, not the website repo\n\nThis is intentional since project is chromium/src. We could always use website, example link would be:\n\nhttps://edit.chromium.org/edit?repo\u003dchromium/website/main\u0026file\u003dsite/chromium-projects/index.md\u0026ext_google.git\u003d%7B%22repo%22%3A%22chromium%2Fwebsite%22%2C%22ref%22%3A%22main%22%2C%22file%22%3A%22site/chromium-projects/index.md%22%7D - does that work?\n\n\n\u003e Sorry, to clarify: I do get redirected, but all I see is Cider opening up and showing me the \"Welcome\" page. I do not get the file loaded in a workspace.\n\nDoes the file get open after 15-20s? You may want to submit feedback using Cider feedback.",
+      "parentUuid": "0f9c814b_afcc63c1",
+      "revId": "15fe1e2fb04bbb2d6a2c9aa669055f8779772eb9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
