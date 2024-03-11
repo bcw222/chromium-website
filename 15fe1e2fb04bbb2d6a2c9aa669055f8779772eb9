@@ -70,6 +70,24 @@
       "parentUuid": "5be7a9ee_0179ffdf",
       "revId": "15fe1e2fb04bbb2d6a2c9aa669055f8779772eb9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d5da62cc_bae8cd9d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1560543
+      },
+      "writtenOn": "2024-03-11T19:26:08Z",
+      "side": 1,
+      "message": "https://edit.chromium.org/edit should redirect only if you have access to Cider - it shouldn\u0027t blindly redirect. If you don\u0027t have access, you would see the old flow. Note that chromium.org accounts don\u0027t have access (edit.chromium.org/edit will show login information in the upper right corner).\n\nCan you share link that leads to a blank page for you? And could you record it?",
+      "parentUuid": "711f37dc_4766b195",
+      "revId": "15fe1e2fb04bbb2d6a2c9aa669055f8779772eb9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
