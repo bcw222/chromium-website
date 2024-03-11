@@ -52,6 +52,24 @@
       "parentUuid": "67cf2ca7_56c919cb",
       "revId": "15fe1e2fb04bbb2d6a2c9aa669055f8779772eb9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "711f37dc_4766b195",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2024-03-11T19:12:40Z",
+      "side": 1,
+      "message": "Hmm that\u0027s strange. I would have thought it was the mdb access group but when I check http://aclchecker/dpranke/mdb/cider-g-access (which is looking like a potential solution for the JavaScript to verify before linking) it seems you are in that group. Josip, do you know why the link might not be working for Dirk?",
+      "parentUuid": "5be7a9ee_0179ffdf",
+      "revId": "15fe1e2fb04bbb2d6a2c9aa669055f8779772eb9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
