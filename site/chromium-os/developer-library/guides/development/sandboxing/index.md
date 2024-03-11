@@ -834,7 +834,7 @@ reason such as when the code is only for unit test support.
 [cros-sanitizers.eclass]: https://source.chromium.org/chromiumos/chromiumos/codesearch/+/main:src/third_party/chromiumos-overlay/eclass/cros-sanitizers.eclass
 [platform.eclass]: https://source.chromium.org/chromiumos/chromiumos/codesearch/+/main:src/third_party/chromiumos-overlay/eclass/platform.eclass
 [UNIX _abstract_ sockets]: https://man7.org/linux/man-pages/man7/unix.7.html
-[security.SandboxedServices]: https://chromium.googlesource.com/chromiumos/platform/tast-tests/+/HEAD/src/chromiumos/tast/local/bundles/cros/security/sandboxed_services.go
+[security.SandboxedServices]: https://chromium.googlesource.com/chromiumos/platform/tast-tests/+/HEAD/src/go.chromium.org/tast-tests/cros/local/bundles/cros/security/sandboxed_services.go
 
 [SELinux]: https://chromium.googlesource.com/chromiumos/docs/+/HEAD/security/selinux.md
 [libchrome]: packages/libchrome.md
