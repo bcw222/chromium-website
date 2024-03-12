@@ -16,6 +16,24 @@
       "message": "Hi, are you guys aware that this migration has broken most of the links in these documents? For example, when you go to https://www.chromium.org/chromium-os/developer-library/guides/device/developer-mode and click on the link text \"method appropriate for your device\" in the last line, it leads to a 404 (it\u0027s supposed to lead to https://www.chromium.org/chromium-os/developer-library/guides/debugging/debug-buttons). You also took away the internal anchors for headlines inside the document (e.g. `#shell`), so clicking on the \"opening a shell\" link text that appears several times earlier in the doc no longer does anything.",
       "revId": "df59ae11bb4ef8c7ab3803d84cc7808c2b294030",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "68767d42_0cf34691",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-12T17:46:08Z",
+      "side": 1,
+      "message": "Yes, we\u0027re aware and we\u0027re planning to clean up these issues. I mentioned this generally in my update I sent in the thread \"CrOS Dev Library update: Major phase 1 milestone completed!\" that some things are breaking temporarily in the interest of moving quickly. This is a volunteer effort, so please feel free to contribute fixes to issues that you run into so we can get the library in shape more quickly.",
+      "parentUuid": "596e01d5_c41b82c0",
+      "revId": "df59ae11bb4ef8c7ab3803d84cc7808c2b294030",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
