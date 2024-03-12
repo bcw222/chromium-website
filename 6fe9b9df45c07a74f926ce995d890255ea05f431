@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "60700bc4_98630e96",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000112
+      },
+      "writtenOn": "2024-03-12T22:09:31Z",
+      "side": 1,
+      "message": "Thanks Thomas!",
+      "revId": "6fe9b9df45c07a74f926ce995d890255ea05f431",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "465e076d_1f052f4d",
+        "filename": "site/teams/web-capabilities-fugu/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1000112
+      },
+      "writtenOn": "2024-03-12T22:09:31Z",
+      "side": 1,
+      "message": "This looks like it\u0027s not just a list of capabilities but also lots of bugs, right? Perhaps if we filter just by feature request?",
+      "range": {
+        "startLine": 59,
+        "startChar": 30,
+        "endLine": 59,
+        "endChar": 33
+      },
+      "revId": "6fe9b9df45c07a74f926ce995d890255ea05f431",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
