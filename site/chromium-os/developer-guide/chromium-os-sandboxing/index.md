@@ -9,7 +9,7 @@ title: Chromium OS Sandboxing
 ---
 
 **This document can now be found here:**
-**<https://chromium.googlesource.com/chromiumos/docs/+/HEAD/sandboxing.md>**
+**<https://www.chromium.org/chromium-os/developer-library/guides/development/sandboxing/>**
 
 **The content below is a (possibly out-of-date) copy for easier searching.**
 
