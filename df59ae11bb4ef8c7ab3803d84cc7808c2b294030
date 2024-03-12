@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "596e01d5_c41b82c0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1002133
+      },
+      "writtenOn": "2024-03-12T00:20:57Z",
+      "side": 1,
+      "message": "Hi, are you guys aware that this migration has broken most of the links in these documents? For example, when you go to https://www.chromium.org/chromium-os/developer-library/guides/device/developer-mode and click on the link text \"method appropriate for your device\" in the last line, it leads to a 404 (it\u0027s supposed to lead to https://www.chromium.org/chromium-os/developer-library/guides/debugging/debug-buttons). You also took away the internal anchors for headlines inside the document (e.g. `#shell`), so clicking on the \"opening a shell\" link text that appears several times earlier in the doc no longer does anything.",
+      "revId": "df59ae11bb4ef8c7ab3803d84cc7808c2b294030",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
