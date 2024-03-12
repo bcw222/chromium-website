@@ -16,6 +16,24 @@
       "message": "What do you think about just deleting this file/directory?",
       "revId": "b5a400a282bfd2deb783419e702e8b349e1424a6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6adb0453_ada52950",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1481202
+      },
+      "writtenOn": "2024-03-12T17:59:05Z",
+      "side": 1,
+      "message": "I was afraid that might break links somewhere, unless there\u0027s a way to 301 redirect it?",
+      "parentUuid": "e51867b5_07523bc6",
+      "revId": "b5a400a282bfd2deb783419e702e8b349e1424a6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
