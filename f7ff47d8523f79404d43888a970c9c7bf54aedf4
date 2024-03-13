@@ -22,6 +22,30 @@
       },
       "revId": "f7ff47d8523f79404d43888a970c9c7bf54aedf4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "211fd4da_12db4912",
+        "filename": "site/chromium-os/developer-library/guides/development/sandboxing/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 1481202
+      },
+      "writtenOn": "2024-03-13T17:59:49Z",
+      "side": 1,
+      "message": "We could, but I think it might be better to have a full example of a very restrictive config. (I think ideally minijail would be restrictive by default, but since it\u0027s not, it\u0027s good to show reasonable defaults.) And having the example here allows for showing various mount options that probably aren\u0027t all used by any one service.",
+      "parentUuid": "63f02717_5ee333ac",
+      "range": {
+        "startLine": 127,
+        "startChar": 0,
+        "endLine": 176,
+        "endChar": 3
+      },
+      "revId": "f7ff47d8523f79404d43888a970c9c7bf54aedf4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
