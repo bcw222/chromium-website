@@ -77,9 +77,25 @@ If you're changing a non-`cros_workon` package, you must uprev the corresponding
 non-`cros_workon` packages on the master (or main) branch.
 ***
 
+## Merge via Gerrit CLI
+
+The `gerrit cherry-pick` tool uses the same backend APIs as the
+[Gerrit UI](#merge-via-gerrit-ui).
+
+```shell
+gerrit cherry-pick --branches release-R76 1376991
+```
+
+The `--branches` option supports multiple branches and autocompletion.
+If there is only one branch that matches `release-R76`, we will expand to the
+full name for you.
+
+Multiple CLs can be specified, but they will be cherry-picked independently.
+This tool cannot be used to cherry-pick stacks of CLs that depend on each other.
+
 ## Use cros\_merge\_to\_branch tool
 
-The second easiest way to create a change from a change you already committed on
+The next easiest way to create a change from a change you already committed on
 top-of-tree (ToT) in ChromeOS is using `cros_merge_to_branch`.
 
 Example usage:
