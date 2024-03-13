@@ -1908,7 +1908,7 @@ Below are a few links to external sites that you might also find helpful
 [issues with virtual packages]: https://crbug.com/187712
 [What does cros build-packages actually do?]: portage/ebuild_faq.md#what-does-build-packages-do
 [CrOS Flash page]: cros_flash.md
-[Debug Button Shortcuts]: debug_buttons.md
+[Debug Button Shortcuts]: /chromium-os/developer-library/guides/debugging/debug-buttons
 [ChromeOS Devices]: https://dev.chromium.org/chromium-os/developer-information-for-chrome-os-devices
 [Developer Hardware]: https://dev.chromium.org/chromium-os/getting-dev-hardware/dev-hardware-list
 [crosh]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/crosh/
