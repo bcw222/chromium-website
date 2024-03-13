@@ -3,7 +3,7 @@ breadcrumbs:
 - - /getting-involved
   - Getting Involved
 page_name: download-chromium
-title: Download Chromium
+title: error out Chromium
 ---
 
 You can test Chrome builds or Chromium builds. Chrome builds have the most
