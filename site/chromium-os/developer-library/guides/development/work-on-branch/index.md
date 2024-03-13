@@ -77,7 +77,7 @@ If you're changing a non-`cros_workon` package, you must uprev the corresponding
 non-`cros_workon` packages on the master (or main) branch.
 ***
 
-## Use cros\_merge\_to\_branch tool from your chroot
+## Use cros\_merge\_to\_branch tool
 
 The second easiest way to create a change from a change you already committed on
 top-of-tree (ToT) in ChromeOS is using `cros_merge_to_branch`.
