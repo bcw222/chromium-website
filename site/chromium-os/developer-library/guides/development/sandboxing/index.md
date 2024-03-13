@@ -98,9 +98,7 @@ three techniques mentioned in the Forbidden intersection section.
 *   Optionally, create a new group to control access to a resource and add the
     new user to that group ([example](https://crrev.com/c/242551)).
 *   Use Minijail to run your service as the user (and group) created in the
-    previous steps. In your init script:
-    *   `exec minijail0 -u <user> -g <group> /full/path/to/binary`
-    *   See [User IDs].
+    previous steps. See [User IDs] and [Minijail configuration].
 *   If your service fails, you might need to grant it capabilities. See
     [Capabilities].
 *   Use as many namespaces as possible. See [Namespaces].
@@ -109,6 +107,73 @@ three techniques mentioned in the Forbidden intersection section.
     using Seccomp filters. See [Seccomp filters].
 *   Add your sandboxed service to the [security.SandboxedServices] test.
 *   Enable the `cfi` and `thinlto` USE flags.
+
+## Minijail configuration
+
+Minijail can be configured via command-line arguments or a
+[configuration file][minijail config]. Prefer using a configuration
+file, as it's easier to read and can include comments.
+
+Minijail configuration files should be installed to
+`/usr/share/minijail/`. An upstart service can invoke minijail with a
+configuration file like this:
+
+```
+exec minijail0 --config /usr/share/minijail/my_service.conf -- /usr/bin/my_service
+```
+
+Example configuration:
+
+```conf
+% minijail-config-file v0
+
+# Copyright 2024 The ChromiumOS Authors
+# Use of this source code is governed by a BSD-style license that can be
+# found in the LICENSE file.
+
+# Enable network, ipc, cgroup, pid, and uts namespaces.
+e
+l
+N
+p
+uts
+
+# Minimal mount namespace.
+profile=minimalistic-mountns
+# If you don't need /dev, use minimalistic-mountns-nodev instead.
+
+# Set no_new_privs.
+n
+
+# Enable seccomp policy.
+S = /usr/share/policy/my_service-seccomp.policy
+
+# Set user and group.
+u = my_service
+g = my_service
+
+# Set up mounts. These will be specific to your service, these are just common examples:
+
+# Mount a tmpfs at /dev and /run.
+mount = /dev,/dev,tmpfs,MS_NODEV|MS_NOEXEC|MS_NOSUID,mode=755,size=10M
+mount = /run,/run,tmpfs,MS_NODEV|MS_NOEXEC|MS_NOSUID,mode=755,size=10M
+
+# Allow syslog.
+bind-mount = /dev/log
+
+# Allow D-Bus.
+bind-mount = /run/dbus
+
+# Allow mojo.
+bind-mount = /run/mojo,,1
+
+# Allow DNS resolution.
+bind-mount = /run/dns-proxy
+bind-mount = /run/shill
+
+# Allow UMA metrics.
+bind-mount = /var/lib/metrics,,1
+```
 
 ## User IDs
 
@@ -825,6 +890,7 @@ reason such as when the code is only for unit test support.
 [Minijail wrappers]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/libbrillo/brillo/minijail/
 [Minijail library]: https://android.googlesource.com/platform/external/minijail/+/HEAD/libminijail.h
 [User IDs]: #user-ids
+[Minijail configuration]: #minijail-configuration
 [Capabilities]: #capabilities
 [Namespaces]: #namespaces
 [Landlock]: #landlock-unprivileged-filesystem-access-control
@@ -848,6 +914,7 @@ reason such as when the code is only for unit test support.
 [namespaces overview]: https://man7.org/linux/man-pages/man7/namespaces.7.html
 [control groups settings]: https://man7.org/linux/man-pages/man7/cgroups.7.html
 [`minijail0(1)`]: https://google.github.io/minijail/minijail0.1.html
+[minijail config]: https://google.github.io/minijail/minijail0.5#configuration-file
 [Linux kernel mount documentation]: https://www.kernel.org/doc/Documentation/filesystems/sharedsubtree.txt
 [Seccomp-BPF]: https://www.kernel.org/doc/Documentation/prctl/seccomp_filter.txt
 [`syscall_filter.c` source]: https://android.googlesource.com/platform/external/minijail/+/HEAD/syscall_filter.c
