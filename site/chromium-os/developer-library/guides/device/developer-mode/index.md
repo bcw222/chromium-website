@@ -292,9 +292,9 @@ bootloader when you see the developer mode boot screen.
 [`VT-2`]: #vt2
 [Building ChromiumOS]: developer_guide.md#Building-ChromiumOS
 [crosh]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/crosh
-[debug buttons]: debug_buttons.md
-[keyboard developer mode]: debug_buttons.md#firmware-keyboard-interface
-[keyboardless developer mode]: debug_buttons.md#firmware-menu-interface
+[debug buttons]: /chromium-os/developer-library/guides/debugging/debug-buttons
+[keyboard developer mode]: /chromium-os/developer-library/guides/debugging/debug-buttons#firmware-keyboard-interface
+[keyboardless developer mode]: /chromium-os/developer-library/guides/debugging/debug-buttons#firmware-menu-interface
 [mrchromebox.tech]: https://mrchromebox.tech
 [recovery process]: https://www.google.com/chromeos/recovery
 [blocked Developer Mode]: https://support.google.com/chrome/a/answer/6150653
