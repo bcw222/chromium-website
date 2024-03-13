@@ -824,11 +824,11 @@ reason such as when the code is only for unit test support.
 [ChromeOS sandboxing talk]: https://drive.google.com/file/d/1hJOcKaj8FK2sDLX5rSJcmgjEylviVlb_/view
 [Minijail wrappers]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/libbrillo/brillo/minijail/
 [Minijail library]: https://android.googlesource.com/platform/external/minijail/+/HEAD/libminijail.h
-[User IDs]: #User-IDs
-[Capabilities]: #Capabilities
-[Namespaces]: #Namespaces
+[User IDs]: #user-ids
+[Capabilities]: #capabilities
+[Namespaces]: #namespaces
 [Landlock]: #landlock-unprivileged-filesystem-access-control
-[Seccomp filters]: #Seccomp-filters
+[Seccomp filters]: #seccomp-filters
 [enable CFI]: #enforcing-control-flow-integrity
 [ebuild]: portage/ebuild_faq.md
 [cros-sanitizers.eclass]: https://source.chromium.org/chromiumos/chromiumos/codesearch/+/main:src/third_party/chromiumos-overlay/eclass/cros-sanitizers.eclass
