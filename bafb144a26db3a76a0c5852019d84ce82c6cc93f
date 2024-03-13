@@ -69,6 +69,24 @@
       "parentUuid": "c97a2787_0b0b4f76",
       "revId": "bafb144a26db3a76a0c5852019d84ce82c6cc93f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f471a7a_25593401",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-13T23:58:11Z",
+      "side": 1,
+      "message": "Thank you for fixing this particular issue, Daniel!\n\n@Brian - the library is a volunteer effort, so I wouldn\u0027t say there is any individual whose job is to fix these issues, but I have set myself as the DRI of the effort and I am working with volunteers to collectively make sure we address these issues. Any help is appreciated! As an example, I landed crrev/c/5370375 earlier today.",
+      "parentUuid": "410dc773_75b5c1c9",
+      "revId": "bafb144a26db3a76a0c5852019d84ce82c6cc93f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
