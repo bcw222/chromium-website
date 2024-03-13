@@ -102,7 +102,7 @@ title: Reference
 * [Security guidelines for closed-source components](/chromium-os/developer-library/reference/security/closed-source)
 * [Peripheral firmware security](/chromium-os/developer-library/reference/security/firmware-updating)
 * [Handling bugs found by fuzzers](/chromium-os/developer-library/reference/security/fuzzer-bugs)
-* [Prioritizing security hardening bugs](/chromium-os/developer-library/reference/security/hardening-proritizing-guidelines)
+* [Prioritizing security hardening bugs](/chromium-os/developer-library/reference/security/hardening-prioritizing-guidelines)
 * [Just-In-Time compilation in ChromeOS](/chromium-os/developer-library/reference/security/jit)
 * [Port forwarding and tunneling in ChromeOS](/chromium-os/developer-library/reference/security/port-forwarding)
 * [The ChromeOS security review process](/chromium-os/developer-library/reference/security/review-process)

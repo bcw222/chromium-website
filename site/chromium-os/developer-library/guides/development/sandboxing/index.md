@@ -836,11 +836,11 @@ reason such as when the code is only for unit test support.
 [UNIX _abstract_ sockets]: https://man7.org/linux/man-pages/man7/unix.7.html
 [security.SandboxedServices]: https://chromium.googlesource.com/chromiumos/platform/tast-tests/+/HEAD/src/go.chromium.org/tast-tests/cros/local/bundles/cros/security/sandboxed_services.go
 
-[SELinux]: https://chromium.googlesource.com/chromiumos/docs/+/HEAD/security/selinux.md
+[SELinux]: https://www.chromium.org/chromium-os/developer-library/reference/security/selinux
 [libchrome]: packages/libchrome.md
 [libbrillo]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/libbrillo
 [shell command-injection bugs]: https://en.wikipedia.org/wiki/Code_injection#Shell_injection
-[ChromeOS user accounts README]: https://chromium.googlesource.com/chromiumos/docs/+/HEAD/account_management.md
+[ChromeOS user accounts README]: https://www.chromium.org/chromium-os/developer-library/reference/build/account-management
 [How do I specify the dependencies of a change?]: contributing.md#CQ-DEPEND
 [Linux capabilities]: https://man7.org/linux/man-pages/man7/capabilities.7.html
 [capability.h]: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/include/uapi/linux/capability.h
