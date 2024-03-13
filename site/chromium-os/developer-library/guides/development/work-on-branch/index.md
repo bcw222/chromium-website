@@ -67,14 +67,14 @@ To resolve simple conflicts manually in Gerrit:
 *** promo
 Note: When to update ebuilds while merging changes
 
-This works the same way on other branches as it does on the master branch:
+This works the same way on other branches as it does on [ToT].
 If you're merging a change to code that is built as part of a `cros_workon`
 package, or to a `.ebuild` file for a `cros_workon` package, the package will be
 uprev-ed automatically.
 
 If you're changing a non-`cros_workon` package, you must uprev the corresponding
 `.ebuild` file on the branch manually, just as you do when making changes to
-non-`cros_workon` packages on the master (or main) branch.
+non-`cros_workon` packages on [ToT].
 ***
 
 ## Merge via Gerrit CLI
@@ -96,7 +96,7 @@ This tool cannot be used to cherry-pick stacks of CLs that depend on each other.
 ## Use cros\_merge\_to\_branch tool
 
 The next easiest way to create a change from a change you already committed on
-top-of-tree (ToT) in ChromeOS is using `cros_merge_to_branch`.
+[ToT] in ChromeOS is using `cros_merge_to_branch`.
 
 Example usage:
 
@@ -257,7 +257,7 @@ git push origin R76:refs/for/release-R76-12239.B
 
 While it is possible to manually checkout a different branch in an existing
 repo checkout (e.g. checking out `release-R69-10895.B` in `chromite/` when the
-rest of the manifest is tracking `ToT`), this is *strongly not recommended*.
+rest of the manifest is tracking [ToT]), this is *strongly not recommended*.
 
 Mixing different branches in git trees in a single repo checkout can easily
 break existing tools and is not supported. Even if you want to do it as a one
@@ -274,3 +274,4 @@ This is why we only support the methods listed above.
 [experimental-branches]: https://dev.chromium.org/developers/experimental-branches
 [developer_guide.md]: developer_guide.md
 [merge request]: https://chromium.googlesource.com/chromium/src/+/HEAD/docs/process/merge_request.md
+[ToT]: /glossary
