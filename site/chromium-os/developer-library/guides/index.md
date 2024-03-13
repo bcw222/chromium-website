@@ -74,6 +74,7 @@ title: Guides
 * [Developer mode](/chromium-os/developer-library/guides/device/developer-mode)
 * [Flashing chromiumOS](/chromium-os/developer-library/guides/device/flashing-chromiumos)
 * [Powerwash](/chromium-os/developer-library/guides/device/powerwash)
+* [Read-only firmware unlock on 2023+ devices](/chromium-os/developer-library/guides/device/ro-firmware-unlock)
 * [Requesting devices](/chromium-os/developer-library/guides/device/requesting-devices)
 * [Screenshots](/chromium-os/developer-library/guides/device/screenshots)
 
