@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "63f02717_5ee333ac",
+        "filename": "site/chromium-os/developer-library/guides/development/sandboxing/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 1344767
+      },
+      "writtenOn": "2024-03-13T17:10:52Z",
+      "side": 1,
+      "message": "Is there any example conf file from the code that you can link here instead?\ne.g. src/platform2/flex_hwis/minijail/flex_hwis.conf",
+      "range": {
+        "startLine": 127,
+        "startChar": 0,
+        "endLine": 176,
+        "endChar": 3
+      },
+      "revId": "f7ff47d8523f79404d43888a970c9c7bf54aedf4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
