@@ -167,7 +167,7 @@ repo init \
 ```
 
 This will get you chromite and all the tools it includes i.e.
-`cros_merge_to_branch`. Make sure you pass the `--nomirror` option so it will
+`cros_merge_to_branch`. Make sure you pass the `--no-mirror` option so it will
 fetch the single git repo needed to cherry-pick & upload the CL.
 
 ## Checking out a single repository (with git)
