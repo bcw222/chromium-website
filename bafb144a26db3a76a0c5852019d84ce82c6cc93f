@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c97a2787_0b0b4f76",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1132414
+      },
+      "writtenOn": "2024-03-13T22:14:11Z",
+      "side": 1,
+      "message": "there are a ton of https://chromium.googlesource.com/chromiumos/docs links in this repo. are the port-ers going to be responsible for fixing links like this?",
+      "revId": "bafb144a26db3a76a0c5852019d84ce82c6cc93f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
