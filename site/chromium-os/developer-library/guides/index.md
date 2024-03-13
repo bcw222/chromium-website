@@ -51,6 +51,7 @@ title: Guides
 ## Device
 
 * [Developer mode](/chromium-os/developer-library/guides/device/developer-mode)
+* [Read-only firmware unlock on 2023+ devices](/chromium-os/developer-library/guides/device/ro-firmware-unlock)
 
 ## Firmware
 
