@@ -240,7 +240,7 @@ and mailing lists rather than the internal versions.
 [ChromiumOS design docs]: https://www.chromium.org/chromium-os/chromiumos-design-docs
 [Chromium design docs]: https://www.chromium.org/developers/design-documents
 [set from crosvm]: https://chromium.googlesource.com/chromiumos/platform/crosvm/+/HEAD/bin/clippy
-[Rust on ChromeOS]: https://chromium.googlesource.com/chromiumos/docs/+/HEAD/rust_on_cros.md
+[Rust on ChromeOS]: https://www.chromium.org/chromium-os/developer-library/guides/rust/rust-on-cros
 [Google C++ style guide]: https://google.github.io/styleguide/cppguide.html
 [Chromium C++ style guide]: https://chromium.googlesource.com/chromium/src/+/HEAD/styleguide/c++/c++.md
 [Modern C++ use in Chromium]: https://chromium.googlesource.com/chromium/src/+/HEAD/styleguide/c++/c++-features.md

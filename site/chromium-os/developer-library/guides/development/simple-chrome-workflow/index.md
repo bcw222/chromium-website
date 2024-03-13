@@ -884,7 +884,7 @@ Some notes about the above:
 [Debug builds]: #debug-builds
 [Create a bootable USB stick]: #create-a-bootable-usb-stick
 [Set up the ChromeOS device]: #set-up-the-chromeos-device
-[OS development guide]: https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_guide.md
+[OS development guide]: https://www.chromium.org/chromium-os/developer-library/guides/development/developer-guide
 [Chrome source code and depot_tools]: https://chromium.googlesource.com/chromium/src/+/HEAD/docs/linux/build_instructions.md
 [instructions for running tests on Linux]: https://chromium.googlesource.com/chromium/src/+/HEAD/docs/linux/build_instructions.md#Running-test-targets
 [update .gclient]: https://chromium.googlesource.com/chromium/src/+/HEAD/docs/chromeos_build_instructions.md#updating-your-gclient-config

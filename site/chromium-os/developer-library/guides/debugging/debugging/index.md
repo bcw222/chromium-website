@@ -261,7 +261,7 @@ Note: generating a stack trace does noticeably impact performance of Chrome, so
 don’t be shocked to see some mild stuttering when they are generated.
 
 See
-[How to get a stack trace at runtime for debugging purposes](https://chromium.googlesource.com/chromiumos/docs/+/refs/heads/main/stack_traces.md)
+[How to get a stack trace at runtime for debugging purposes](https://www.chromium.org/chromium-os/developer-library/guides/debugging/stack-traces)
 for more troubleshooting.
 
 ## Debugging JS BrowserTest failures

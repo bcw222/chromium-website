@@ -284,7 +284,7 @@ for more details on usage.
 ### RunLoops - Prefer QuitClosure()+Run() to RunUntilIdle()
 
 Another recommended option (per the
-[Chromium style guide](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/testing/unit_tests.md))
+[Chromium style guide](https://www.chromium.org/chromium-os/developer-library/guides/testing/unit-tests))
 is to use `base::RunLoop`. A RunLoop will run the message loop asynchronously
 and verify the behavior is expected, or injecting a task runner so tests can
 control where tasks are run. Chromium best practice for these types of tests is
