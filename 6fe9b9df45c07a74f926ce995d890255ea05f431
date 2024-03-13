@@ -80,6 +80,30 @@
       },
       "revId": "6fe9b9df45c07a74f926ce995d890255ea05f431",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d74ff0c_0db982d4",
+        "filename": "site/teams/web-capabilities-fugu/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1000112
+      },
+      "writtenOn": "2024-03-13T14:09:32Z",
+      "side": 1,
+      "message": "Thanks. WDYT about this query to highlight the active (complete and assigned) features?  https://issues.chromium.org/issues?q\u003dcustomfield1223031:proj-fugu%20-customfield1223031:proj-fugu-efforts%20-is:obsolete%20-status:duplicate%20-status:new%20type:feature_request\n\nIt looks like the Fugu API tracker app now redirects to a query like this. I think presented in this way we get closer to what we used to have with the dedicated API tracker app. Including all the new unassigned feature requests for lots of crazy and minor ideas seems a little misleading to me. I\u0027d also be happy with sorting to show completed ones first, but it looks like things like sort order and preserved in the issue tracker URL :-(.\n\nRegardless we can land this CL and tweak the short link (as long as you\u0027re happy with the name \"all-fugu-bugs\", \"all-fugu-features\" would probably be more accurate for what we\u0027re now doing).",
+      "parentUuid": "efcb833a_789c4cd5",
+      "range": {
+        "startLine": 59,
+        "startChar": 30,
+        "endLine": 59,
+        "endChar": 33
+      },
+      "revId": "6fe9b9df45c07a74f926ce995d890255ea05f431",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
