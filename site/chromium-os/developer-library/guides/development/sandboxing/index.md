@@ -773,7 +773,7 @@ way to mock Minijail is to just abstract away the entire sandboxed process
 execution. An example of this can be found in the [SandboxedProcess class] in
 debugd.
 
-# Enforcing Control Flow Integrity
+## Enforcing Control Flow Integrity
 
 [Control Flow Integrity] is a compiler feature for making certain memory
 corruption bugs much more difficult to exploit for code execution. Examples
