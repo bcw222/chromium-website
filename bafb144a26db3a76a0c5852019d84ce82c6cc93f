@@ -51,6 +51,24 @@
       "parentUuid": "e9a51de2_30e7ac54",
       "revId": "bafb144a26db3a76a0c5852019d84ce82c6cc93f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "410dc773_75b5c1c9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1297374
+      },
+      "writtenOn": "2024-03-13T23:42:40Z",
+      "side": 1,
+      "message": "It would definitely be nice if this problem could be fixed in an automated way for all affected links. (I fixed this one in particular because I happened to trip over it.)\n\nIt is a little trickier than just find/replace on a chromiumos/docs link, since some of the broken links are relative paths without any of the https://chromium.googlesource.com/ prefix, which may not even be in the same directory anymore after the migration (like the ones in `developer-library/guides/developer-mode/index.md` in this change).",
+      "parentUuid": "c97a2787_0b0b4f76",
+      "revId": "bafb144a26db3a76a0c5852019d84ce82c6cc93f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
