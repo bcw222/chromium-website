@@ -22,6 +22,30 @@
       },
       "revId": "25d0dbe95bb06fab7afaa2e1199d00a0c9f6616d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e0974bd6_85b809b3",
+        "filename": "site/chromium-os/developer-library/reference/cpp/cpp-pref/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1552498
+      },
+      "writtenOn": "2024-03-14T17:29:00Z",
+      "side": 1,
+      "message": "This is a link to the `GetAllowlistedKeys` function on the `prefs_util.cc` file page instead of just the file page itself. WDYT?",
+      "parentUuid": "9326e5b6_a5566d3d",
+      "range": {
+        "startLine": 30,
+        "startChar": 192,
+        "endLine": 30,
+        "endChar": 702
+      },
+      "revId": "25d0dbe95bb06fab7afaa2e1199d00a0c9f6616d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
