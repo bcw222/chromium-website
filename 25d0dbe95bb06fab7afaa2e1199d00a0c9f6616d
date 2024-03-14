@@ -70,6 +70,30 @@
       },
       "revId": "25d0dbe95bb06fab7afaa2e1199d00a0c9f6616d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8fabc8a3_08b9dd7c",
+        "filename": "site/chromium-os/developer-library/reference/cpp/cpp-pref/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1552498
+      },
+      "writtenOn": "2024-03-14T17:39:38Z",
+      "side": 1,
+      "message": "Replaced.",
+      "parentUuid": "1e8a8e7c_484e238a",
+      "range": {
+        "startLine": 30,
+        "startChar": 192,
+        "endLine": 30,
+        "endChar": 702
+      },
+      "revId": "25d0dbe95bb06fab7afaa2e1199d00a0c9f6616d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
