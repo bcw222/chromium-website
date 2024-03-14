@@ -25,6 +25,10 @@ All prefs need to be registered by a
 which is often triggered by
 [BrowserContextKeyedServiceFactory::RegisterProfilePrefs()](https://source.chromium.org/chromium/chromium/src/+/refs/heads/main:components/keyed_service/content/browser_context_keyed_service_factory.h;l=174;drc=47042255a0d8acfbcf58cb0eea4607ec574b8419).
 
+For prefs to be recognized in the ChromeOS UI, the pref name must be added to
+`GetAllowlistedKeys()` in
+[`prefs_util.cc`](https://source.chromium.org/chromium/chromium/src/+/main:chrome/browser/extensions/api/settings_private/prefs_util.cc;l=176)
+
 To learn more about using Prefs to write code, see
 go/chromium-cookbook-policy-prefs. If you'd like to understand prefs more
 deeply, read ["User Sessions"](/chromium-os/developer-library/reference/user-sessions/user-sessions).
