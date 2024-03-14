@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cc0d4e5f_7c5ecaef",
+        "filename": "site/chromium-os/developer-library/guides/device/ro-firmware-unlock/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1002133
+      },
+      "writtenOn": "2024-03-14T02:58:14Z",
+      "side": 1,
+      "message": "This is super annoying, btw, because you have to wait the 5+ minutes for the disk wipe again. Is there actually a good reason why we\u0027re removing all TPM spaces on CCD open? Could we maybe only remove spaces that aren\u0027t NV_PLATFORMCREATE or something like that? (I don\u0027t necessarily think it\u0027s \"right\" to erase the rollback counters there either, although in practice it tends to be harmless.)",
+      "range": {
+        "startLine": 82,
+        "startChar": 28,
+        "endLine": 84,
+        "endChar": 30
+      },
+      "revId": "996c621b54216130d5747edffcad48af66db3176",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
