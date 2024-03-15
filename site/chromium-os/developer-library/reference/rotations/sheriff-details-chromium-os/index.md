@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /developers
-  - For Developers
-- - /developers/tree-sheriffs
-  - Tree Sheriffs
+- - /chromium-os/developer-library/reference
+  - Chromium OS > Developer Library > Reference
 page_name: sheriff-details-chromium-os
 title: 'Sheriff FAQ: Chromium OS'
 ---

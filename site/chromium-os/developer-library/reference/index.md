@@ -41,6 +41,7 @@ title: Reference
 ## Rotations
 
 * [CrOS oncall](/chromium-os/developer-library/reference/rotations/cros-oncall)
+* [Sheriff FAQ: ChromiumOS](/chromium-os/developer-library/reference/rotations/sheriff-details-chromium-os)
 
 ## Style guides
 
@@ -77,6 +78,7 @@ title: Reference
 
 ## Development
 
+* [ChromiumOS FAQ](/chromium-os/developer-library/reference/development/chromium-os-faq)
 * [Life of a ChromeOS commit](/chromium-os/developer-library/reference/development/cros-commit-pipeline)
 * [Directory metadata](/chromium-os/developer-library/reference/development/dir-metadata)
 * [Local & Remote Source Tree Layouts](/chromium-os/developer-library/reference/development/source-layout)

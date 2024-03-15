@@ -13,6 +13,12 @@ title: Guides
 <div class="two-column-container">
 <div class="column">
 
+## App Development
+
+* [Optimize Android Apps for ChromeOS device](/chromium-os/developer-library/guides/app-development/android-apps)
+* [Sideload Android apps on your Chromebook](/chromium-os/developer-library/guides/app-development/sideload-android-apps-on-chromebook)
+* [Developing apps on your ChromiumOS device](/chromium-os/developer-library/guides/app-development/developing-apps-on-your-chromium-os-device)
+
 ## Bugs
 
 * [Reporting bugs](/chromium-os/developer-library/guides/bugs/reporting-bugs)

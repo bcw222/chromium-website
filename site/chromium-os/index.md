@@ -21,20 +21,10 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 *   [Getting developer hardware](/chromium-os/getting-dev-hardware)
 *   [Official ChromeOS
             Devices](/chromium-os/developer-information-for-chrome-os-devices)
-*   [Tree sheriffs](/developers/tree-sheriffs/sheriff-details-chromium-os)
 
 ### For developers
 
-*   [Optimize Android Apps for ChromeOS device](/chromium-os/android-apps)
-*   [Sideload Android apps on your
-            Chromebook](/chromium-os/sideload-android-apps-on-chromebook)
-*   [Developing apps on your ChromiumOS
-            device](/chromium-os/developing-apps-on-your-chromium-os-device)
 *   [ChromiumOS Build](/chromium-os/build)
-
-### For everyone
-
-*   [ChromiumOS FAQ](/chromium-os/chromium-os-faq)
 
 </div>
 <div class="column">

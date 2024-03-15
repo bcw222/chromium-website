@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
+- - /chromium-os/developer-library/reference
+  - Chromium OS > Developer Library > Reference
 page_name: chromium-os-faq
 title: Chromium OS FAQ
 ---
