@@ -53,12 +53,6 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 ### For everyone
 
 *   [ChromiumOS FAQ](/chromium-os/chromium-os-faq)
-*   [Project contact
-            details](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/contact.md)
-            (groups/etc...)
-*   [Report
-            bugs](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/reporting_bugs.md)
-*   [Steam on ChromeOS](/chromium-os/steam-on-chromeos)
 
 </div>
 <div class="column">
@@ -67,15 +61,6 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 
 ### Source code
 
-*   First time? Use the [ChromiumOS Quick Start
-            Guide](/chromium-os/quick-start-guide)
-*   Read the [ChromiumOS Developer
-            Guide](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_guide.md)
-            to learn how to build the source
-*   [Overview](/chromium-os/developer-guide/directory-structure) of the
-            source
-*   [Browse](https://chromium.googlesource.com/) the source
-*   [Coding Style Guidelines](/chromium-os/developer-library/reference/style-guides/style-guides/)
 *   [Testing](/chromium-os/testing)
 
 ### Developer docs
