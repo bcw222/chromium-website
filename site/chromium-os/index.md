@@ -21,18 +21,7 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 *   [Getting developer hardware](/chromium-os/getting-dev-hardware)
 *   [Official ChromeOS
             Devices](/chromium-os/developer-information-for-chrome-os-devices)
-*   [Process for Getting
-            Involved/Contributing](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/contributing.md)
 *   [Tree sheriffs](/developers/tree-sheriffs/sheriff-details-chromium-os)
-*   [Useful developer related Chrome
-            extensions](/developers/useful-extensions)
-*   [2014 ChromeOS Firmware Summit](/chromium-os/2014-firmware-summit)
-*   [2017 ChromeOS Intel Firmware Architecture
-            Presentation](https://docs.google.com/a/chromium.org/viewer?a=v&pid=sites&srcid=Y2hyb21pdW0ub3JnfGRldnxneDo1NGY1YWViZDBkN2JjOTky)
-
-### For UI designers
-
-*   [User experience: Chromium/OS](/user-experience)
 
 ### For developers
 
@@ -59,7 +48,7 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 ### Developer docs
 
 *   [ChromiumOS Developer
-            Guide](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_guide.md)
+            Guide](/chromium-os/developer-library/guides/development/developer-guide)
 *   [CrOS Developer Library](/chromium-os/developer-library)
 *   [High-Level Developer
             FAQ](/chromium-os/how-tos-and-troubleshooting/developer-faq)
@@ -73,8 +62,6 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
             Development](https://chromium.googlesource.com/chromiumos/platform/ec/+/HEAD/README.md)
 *   [All How Tos and
             Troubleshooting](/chromium-os/how-tos-and-troubleshooting)
-*   [Poking around Your ChromeOS
-            Device](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_mode.md)
 *   [Design docs](/chromium-os/chromiumos-design-docs)
 
 ### Hardware Reference docs and schematics

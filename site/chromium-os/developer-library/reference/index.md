@@ -56,6 +56,7 @@ title: Reference
 * [gsutil](/chromium-os/developer-library/reference/tools/gsutil)
 * [repo](/chromium-os/developer-library/reference/tools/repo-tool)
 * [xBuddy for Devserver](/chromium-os/developer-library/reference/tools/xbuddy)
+* [Useful developer related Chrome extensions](/developers/useful-extensions)
 
 ## C++
 
