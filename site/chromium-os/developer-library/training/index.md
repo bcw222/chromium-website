@@ -27,25 +27,6 @@ title: Training
   </thead>
   <tbody>
     <tr>
-      <td>ChromeOS Software Bluetooth 101</td>
-      <td>
-        <a href="http://goto.google.com/chromeos-software-bt-101"
-           target="_blank">
-          go/chromeos-software-bt-101
-        </a>
-      </td>
-      <td>
-        <a href="http://goto.google.com/chromeos-software-bt-101-slides"
-           target="_blank">
-          go/chromeos-software-bt-101-slides
-        </a>
-      </td>
-      <td>
-        Improve your familiarity with the Bluetooth technology, understand the
-        underlying effects of using Bluetooth APIs, and develop debug intuition.
-      </td>
-    </tr>
-    <tr>
       <td>Callbacks in Chromium</td>
       <td>
         <a href="https://drive.google.com/file/d/17ztTURbVqIzY1gZRjLoN0wGbIsatGvCd/view?usp=sharing&resourcekey=0-UvcDKR7iYwYvc8WdA63w_g"
@@ -67,6 +48,55 @@ title: Training
       </td>
     </tr>
     <tr>
+      <td>ChromiumOS Fast Boot</td>
+      <td>
+        <a href="http://www.youtube.com/watch?v=mTFfl7AjNfI" target="_blank">
+          Video
+        </a>
+      </td>
+      <td>None available</td>
+      <td>A description of the ChromiumOS fast bootup design.</td>
+    </tr>
+    <tr>
+      <td>ChromiumOS Security</td>
+      <td>
+        <a href="http://www.youtube.com/watch?v=A9WVmNfgjtQ" target="_blank">
+          Video
+        </a>
+      </td>
+      <td>None available</td>
+      <td>A description of the ChromiumOS security philosophy.</td>
+    </tr>
+    <tr>
+      <td>ChromiumOS & Open Source</td>
+      <td>
+        <a href="http://www.youtube.com/watch?v=KA5RQv9mBoY" target="_blank">
+          Video
+        </a>
+      </td>
+      <td>None available</td>
+      <td>A description of the ChromiumOS open source development model.</td>
+    </tr>
+    <tr>
+      <td>ChromeOS Software Bluetooth 101</td>
+      <td>
+        <a href="http://goto.google.com/chromeos-software-bt-101"
+           target="_blank">
+          go/chromeos-software-bt-101
+        </a>
+      </td>
+      <td>
+        <a href="http://goto.google.com/chromeos-software-bt-101-slides"
+           target="_blank">
+          go/chromeos-software-bt-101-slides
+        </a>
+      </td>
+      <td>
+        Improve your familiarity with the Bluetooth technology, understand the
+        underlying effects of using Bluetooth APIs, and develop debug intuition.
+      </td>
+    </tr>
+    <tr>
       <td>WebUI Walkthrough</td>
       <td>
         TODO(jhawkins): Find the link to the video.
@@ -82,6 +112,16 @@ title: Training
         including its build process. Information about Jelly/Jellybean is also
         given.
       </td>
+    </tr>
+    <tr>
+      <td>What is Google ChromeOS?</td>
+      <td>
+        <a href="https://www.youtube.com/watch?v=LwVX42Amcak" target="_blank">
+          Video
+        </a>
+      </td>
+      <td>None available</td>
+      <td>A high-level description of the ChromeOS product.</td>
     </tr>
   </tbody>
 </table>
