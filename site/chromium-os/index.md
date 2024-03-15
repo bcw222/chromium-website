@@ -15,13 +15,6 @@ obtain the source code, and contribute. To learn more about the project goals,
 read the [announcement blog
 post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.html).
 
-### Videos
-
-*   [What is Google Chrome
-            OS?](https://www.youtube.com/watch?v=LwVX42Amcak)
-*   [ChromiumOS Security](http://www.youtube.com/watch?v=A9WVmNfgjtQ)
-*   [ChromiumOS & Open Source](http://www.youtube.com/watch?v=KA5RQv9mBoY)
-*   [ChromiumOS Fast Boot](http://www.youtube.com/watch?v=mTFfl7AjNfI)
 
 ### For contributors
 
