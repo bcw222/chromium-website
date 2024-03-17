@@ -3893,4 +3893,19 @@ such as the auto update until date, first release, and more.
     <td>Yes</td>
     <td>Yes</td>
   </tr>
+  <tr>
+    <td>2024-03-14</td>
+    <td>Lenovo</td>
+    <td><a href="https://www.asus.com/laptops/for-work/chromebook/asus-expertbook-cx54-chromebook-plus-enterprise-cx5403/">ASUS ExpertBook CX54 Chromebook Plus Enterprise (CX5403)</a></td>
+    <td>Screebo</td>
+    <td>Rex</td>
+    <td>Rex</td>
+    <td>x86_64</td>
+    <td>6.1</td>
+    <td>x86_64</td>
+    <td>Meteor Lake</td>
+    <td>Chromebook</td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
 </table>
