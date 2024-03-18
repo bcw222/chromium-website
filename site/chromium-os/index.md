@@ -16,11 +16,6 @@ read the [announcement blog
 post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.html).
 
 
-### For contributors
-
-*   [Official ChromeOS
-            Devices](/chromium-os/developer-information-for-chrome-os-devices)
-
 ### For developers
 
 *   [ChromiumOS Build](/chromium-os/build)
