@@ -18,7 +18,6 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 
 ### For contributors
 
-*   [Getting developer hardware](/chromium-os/getting-dev-hardware)
 *   [Official ChromeOS
             Devices](/chromium-os/developer-information-for-chrome-os-devices)
 
