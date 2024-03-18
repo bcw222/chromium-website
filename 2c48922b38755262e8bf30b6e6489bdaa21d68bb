@@ -41,6 +41,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ce5dd53_ceadbbbb",
+        "filename": "site/chromium-os/developer-library/guides/device/ro-firmware-unlock/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1002133
+      },
+      "writtenOn": "2024-03-18T23:32:23Z",
+      "side": 1,
+      "message": "Done, and rewrote the later instructions to present the removing write-protection step as non-optional. (I don\u0027t think it\u0027s necessary to explain what the tool will tell you when you do things in the wrong order here... I want to keep this guide focused on being a simple \"follow these steps\" kind of thing without too many tangents.)",
+      "parentUuid": "46729f91_3c832fb0",
+      "range": {
+        "startLine": 34,
+        "startChar": 12,
+        "endLine": 37,
+        "endChar": 30
+      },
+      "revId": "2c48922b38755262e8bf30b6e6489bdaa21d68bb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8dfdde24_9b54901f",
@@ -102,6 +126,30 @@
       "side": 1,
       "message": "The procedure you mentioned is correct for detachables",
       "parentUuid": "ebf8dc99_3cd3fa3c",
+      "range": {
+        "startLine": 105,
+        "startChar": 3,
+        "endLine": 105,
+        "endChar": 38
+      },
+      "revId": "2c48922b38755262e8bf30b6e6489bdaa21d68bb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "200b1953_87dc0d75",
+        "filename": "site/chromium-os/developer-library/guides/device/ro-firmware-unlock/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1002133
+      },
+      "writtenOn": "2024-03-18T23:32:23Z",
+      "side": 1,
+      "message": "Ack, added those cases.",
+      "parentUuid": "f388dbfb_7b05e282",
       "range": {
         "startLine": 105,
         "startChar": 3,
