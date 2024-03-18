@@ -62,6 +62,30 @@
       },
       "revId": "2c48922b38755262e8bf30b6e6489bdaa21d68bb",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ebf8dc99_3cd3fa3c",
+        "filename": "site/chromium-os/developer-library/guides/device/ro-firmware-unlock/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1002133
+      },
+      "writtenOn": "2024-03-18T21:17:40Z",
+      "side": 1,
+      "message": "Sorry, I don\u0027t quite get it... how exactly does the detachable version work? Is it this:\n\n1. Press and hold the power button.\n\n2. Press the VolUp key for 10 seconds, then release.\n\n3. Press the VolUp key again for 10 seconds, then release again.\n\n4. Release the power button.\n\n5. Repeat steps 1 through 4.",
+      "parentUuid": "8dfdde24_9b54901f",
+      "range": {
+        "startLine": 105,
+        "startChar": 3,
+        "endLine": 105,
+        "endChar": 38
+      },
+      "revId": "2c48922b38755262e8bf30b6e6489bdaa21d68bb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
