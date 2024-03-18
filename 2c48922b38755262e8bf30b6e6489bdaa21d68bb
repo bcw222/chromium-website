@@ -86,6 +86,30 @@
       },
       "revId": "2c48922b38755262e8bf30b6e6489bdaa21d68bb",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f388dbfb_7b05e282",
+        "filename": "site/chromium-os/developer-library/guides/device/ro-firmware-unlock/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1259838
+      },
+      "writtenOn": "2024-03-18T21:24:43Z",
+      "side": 1,
+      "message": "The procedure you mentioned is correct for detachables",
+      "parentUuid": "ebf8dc99_3cd3fa3c",
+      "range": {
+        "startLine": 105,
+        "startChar": 3,
+        "endLine": 105,
+        "endChar": 38
+      },
+      "revId": "2c48922b38755262e8bf30b6e6489bdaa21d68bb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
