@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2c55d308_f4368265",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1259838
+      },
+      "writtenOn": "2024-03-18T14:38:21Z",
+      "side": 1,
+      "message": "Thank you for putting this guide together!",
+      "revId": "2c48922b38755262e8bf30b6e6489bdaa21d68bb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "46729f91_3c832fb0",
+        "filename": "site/chromium-os/developer-library/guides/device/ro-firmware-unlock/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1259838
+      },
+      "writtenOn": "2024-03-18T14:38:21Z",
+      "side": 1,
+      "message": "It might also be worth mentioning here that removing your battery will no longer disable write protect automatically. This goes with the AP RO verification change. Users will need to either disabled wp or make wp follow battery presence (through `gsctool --wp` command). Also worth noting that the `gsctool --wp` will guide the user to enable `AllowUnverifiedRO` CCD cap if not already enabled when trying to change write protect setting.",
+      "range": {
+        "startLine": 34,
+        "startChar": 12,
+        "endLine": 37,
+        "endChar": 30
+      },
+      "revId": "2c48922b38755262e8bf30b6e6489bdaa21d68bb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8dfdde24_9b54901f",
+        "filename": "site/chromium-os/developer-library/guides/device/ro-firmware-unlock/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1259838
+      },
+      "writtenOn": "2024-03-18T14:38:21Z",
+      "side": 1,
+      "message": "This is the clamshell version, but the Box and Detachable version use different key combinations (i.e. Box uses recovery key, and Detachable uses VolUp key held for 10 seconds).\n\nMost people will be using a clamshell, but it is probably worth adding a note somewhere here. Thoughts?",
+      "range": {
+        "startLine": 105,
+        "startChar": 3,
+        "endLine": 105,
+        "endChar": 38
+      },
+      "revId": "2c48922b38755262e8bf30b6e6489bdaa21d68bb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}

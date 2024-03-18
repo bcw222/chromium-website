@@ -46,6 +46,30 @@
       },
       "revId": "996c621b54216130d5747edffcad48af66db3176",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6cc58ce1_40c881a7",
+        "filename": "site/chromium-os/developer-library/guides/device/ro-firmware-unlock/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1259838
+      },
+      "writtenOn": "2024-03-18T14:38:21Z",
+      "side": 1,
+      "message": "We would also need to differentiate between CCD open wipe and power wash wipe. Do you have other bits of data you would like to see survive one of those two wipes? If so, can you open a feature request issue and we can look into making the improvement for ti50?",
+      "parentUuid": "db991a8d_47bf226f",
+      "range": {
+        "startLine": 82,
+        "startChar": 28,
+        "endLine": 84,
+        "endChar": 30
+      },
+      "revId": "996c621b54216130d5747edffcad48af66db3176",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
