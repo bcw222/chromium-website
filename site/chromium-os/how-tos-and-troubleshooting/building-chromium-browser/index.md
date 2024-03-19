@@ -11,4 +11,4 @@ title: Building Chromium for Chromium OS (simple chrome)
 This document has been moved to markdown/git. The up-to-date version can be
 found at:
 
-<https://chromium.googlesource.com/chromiumos/docs/+/HEAD/simple_chrome_workflow.md>.
+<https://www.chromium.org/chromium-os/developer-library/guides/development/simple-chrome-workflow/>.

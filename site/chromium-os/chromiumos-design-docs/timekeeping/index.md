@@ -357,7 +357,7 @@ uses are checked, not the entire ecosystem that a browser (e.g. Chrome or
 Firefox) would trust, and device administrators cannot inject their own
 certificates for this connection.
 
-[Root CA Certificates on ChromiumOS document]: https://chromium.googlesource.com/chromiumos/docs/+/HEAD/ca_certs.md#For-connecting-to-Google-services
+[Root CA Certificates on ChromiumOS document]: /chromium-os/developer-library/reference/infrastructure/ca-certs/#For-connecting-to-Google-services
 
 ### Isn't ignoring certificate errors a security risk?
 

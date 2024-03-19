@@ -215,4 +215,4 @@ following components.
 
 [Issue Tracker developer documentation]:
 https://developers.google.com/issue-tracker/
-[Life of a Bug]: life_of_a_bug.md
+[Life of a Bug]: /chromium-os/developer-library/reference/bugs/life-of-a-bug/

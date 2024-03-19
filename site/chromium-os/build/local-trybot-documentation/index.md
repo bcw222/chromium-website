@@ -17,7 +17,7 @@ a set of your changes. The changes are patched to tip of tree (TOT). They should
 be very similar to remote tryjobs in most regards.
 
 For Google developers, please also take a look at the [Remote Trybot
-documentation](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/remote_trybots.md).
+documentation](/chromium-os/developer-library/guides/development/remote-trybots/).
 
 NOTE: The first time you run the trybot it will sync down a fresh checkout of
 the source, build a new chroot and board, which will make the initial run take
@@ -27,10 +27,10 @@ longer than subsequent runs. An incremental run with an existing board takes
 **Pre-instructions (These are important!)**
 
 1.  Make sure you’ve read through the [ChromiumOS Developer
-            Guide](https://chromium.googlesource.com/chromiumos/docs/+/main/developer_guide.md)
+            Guide](/chromium-os/developer-library/guides/development/developer-guide/)
             and can kick off a build properly.
 2.  [Modify your sudo
-            config](https://chromium.googlesource.com/chromiumos/docs/+/main/tips-and-tricks.md#How-to-make-sudo-a-little-more-permissive)
+            config](/chromium-os/developer-library/guides/recipes/tips-and-tricks/#How-to-make-sudo-a-little-more-permissive)
             If you are at Google, you need to follow [these
             instructions](http://go/cros-glinux-sudo#configuring-etcsudoers)
             first (Under 'Tweaking with /etc/sudoers' section).

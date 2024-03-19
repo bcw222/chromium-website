@@ -14,7 +14,7 @@ title: Adding a Package to the SDK
 
 When adding a package to the SDK, for third-party packages not yet in the source
 tree, start by following the
-[New & Upgrade Package Process](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/portage/package_upgrade_process.md)
+[New & Upgrade Package Process](/chromium-os/developer-library/guides/portage/package-upgrade-process/)
 guide (short version: use `cros_portage_upgrade` to pull the package from
 upstream). For new cros-workon packages, see
 [Adding a New Package](/chromium-os/how-tos-and-troubleshooting/add-a-new-package).

@@ -485,7 +485,7 @@ It has user & developer & internal documentation.
 Check out our [source checkout] documentation.
 
 
-[cros_portage_upgrade]: ./portage/package_upgrade_process.md
+[cros_portage_upgrade]: /chromium-os/developer-library/guides/portage/package-upgrade-process/
 [depot_tools]: https://commondatastorage.googleapis.com/chrome-infra-docs/flat/depot_tools/docs/html/depot_tools_tutorial.html
 [dev-vcs/repo]: https://chromium.googlesource.com/chromiumos/overlays/portage-stable/+/HEAD/dev-vcs/repo
 [go/cros-infra-chat]: https://goto.google.com/cros-infra-chat
@@ -493,7 +493,7 @@ Check out our [source checkout] documentation.
 [production]: #prod
 [repo tool]: https://gerrit.googlesource.com/git-repo
 [rollbacks]: #rollback
-[source checkout]: ./source_layout.md
+[source checkout]: /chromium-os/developer-library/reference/development/source-layout/
 [staging]: #staging
 [tagging sidenotes]: #sidenote-tags
 [updating bots]: #updating-bots

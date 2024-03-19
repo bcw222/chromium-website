@@ -55,7 +55,7 @@ more details, you can always go to one of the following pages:
 *   Once built, a clone of this [image should be created to run in a
             VM](http://www.chromium.org/chromium-os/developer-guide#TOC-Building-an-image-to-run-in-a-virtu).
 *   Here are some instructions to [run the image on a
-            VM](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/cros_vm.md).
+            VM](/chromium-os/developer-library/guides/containers/cros-vm/).
 *   Here's how to build and run [autotest tests on the
             VM](/system/errors/NodeNotFound).
 

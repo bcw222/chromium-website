@@ -476,11 +476,11 @@ want to upload the files for the package to the localmirror. See the
 ### How do I write unit tests for my ebuild?
 
 See the
-[Best practices for writing ChromeOS unit tests](../testing/unit_tests.md) page.
+[Best practices for writing ChromeOS unit tests](/chromium-os/developer-library/guides/testing/unit-tests/) page.
 
 ### How do I run unit tests?
 
-See the [ChromiumOS Unit Testing](../testing/running_unit_tests.md) page.
+See the [ChromiumOS Unit Testing](/chromium-os/developer-library/guides/testing/running-unit-tests/) page.
 
 ## How do I store transient artifacts in an ebuild?
 
@@ -641,7 +641,7 @@ See
 
 ## How do I install a single package?
 
-Use [cros deploy](/cros_deploy.md).
+Use [cros deploy](/chromium-os/developer-library/reference/tools/cros-deploy/).
 
 ## How do I install a single package into a local disk image?
 
@@ -1292,18 +1292,18 @@ Instructions for building ChromiumOS can be found
 [here][chromium-os-dev-guide].
 
 [Portage]: https://wiki.gentoo.org/wiki/Portage
-[Overlay FAQ]: overlay_faq.md
+[Overlay FAQ]: /chromium-os/developer-library/guides/portage/overlay-faq/
 [Working with Gentoo]: https://www.gentoo.org/doc/en/handbook/handbook-x86.xml?part=2
 [Gentoo Development Guide]: https://devmanual.gentoo.org/
 [Portage]: https://wiki.gentoo.org/wiki/Portage
 [Gentoo]: https://www.gentoo.org/
-[localmirror]: ../archive_mirrors.md
+[localmirror]: /chromium-os/developer-library/reference/third-party/archive-mirrors/
 [devserver]: https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/docs/devserver.md
 [gentoo-blockers]: https://devmanual.gentoo.org/general-concepts/dependencies/#blockers
 [virtual/editor]: https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/virtual/editor/editor-1.ebuild
 [ChromiumOS's virtual/linux-sources ebuild]: https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/virtual/linux-sources/
 [package management specification]: https://projects.gentoo.org/pms/8/pms.html
-[chromium-os-dev-guide]: ../developer_guide.md
+[chromium-os-dev-guide]: /chromium-os/developer-library/guides/development/developer-guide/
 [cups-ebuild-use-debug]: https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/932089ace19442cbd1d72a9304226ab604984ac4/net-print/cups/cups-9999.ebuild#28
 [Slotting]: https://devmanual.gentoo.org/general-concepts/slotting/
 [Version Dependencies]: https://devmanual.gentoo.org/general-concepts/dependencies/index.html#version-dependencies

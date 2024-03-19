@@ -22,7 +22,7 @@ server hostname.
 You need to set up SSH for the apache user (www-data) in its home directory.
 Follow the directions for ssh key setup, using the directory /var/www/.ssh and
 make sure everything is owned by www-data with user only permissions:
-<https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_guide.md#Set-up-SSH-connection-between-chroot-and-DUT>
+<https://www.chromium.org/chromium-os/developer-library/guides/development/developer-guide/#Set-up-SSH-connection-between-chroot-and-DUT>
 
 If you ran the setup script please proceed to the Autotest Server Usage Guide:
 <https://www.chromium.org/chromium-os/testing/autotest-developer-faq/autotest-server-usage>
@@ -68,7 +68,7 @@ Setup the Autotest MYSQL user:
 <pre><code>
 mysql -u root -p
 create database chromeos_autotest_db;
-grant all privileges on chromeos_autotest_db.* TO 'chromeosqa-admin'@'localhost' identified by '<b>some_password</b>'; 
+grant all privileges on chromeos_autotest_db.* TO 'chromeosqa-admin'@'localhost' identified by '<b>some_password</b>';
 FLUSH PRIVILEGES;
 </code></pre>
 
@@ -134,7 +134,7 @@ Edit the *global_config.ini,* or better yet, create a shadow configuration
 ```none
 /usr/local/autotest/database/migrate.py sync
 /usr/local/autotest/frontend/manage.py syncdb
-# You may have to run this twice. 
+# You may have to run this twice.
 /usr/local/autotest/frontend/manage.py syncdb
 ```
 
@@ -160,7 +160,7 @@ sudo a2dismod python
 sudo a2enmod wsgi
 # Enable mod_headers
 sudo a2enmod headers
-# Setup permissions so that Apache web user can read the proper files. 
+# Setup permissions so that Apache web user can read the proper files.
 chmod -R o+r /usr/local/autotest
 find /usr/local/autotest/ -type d | xargs chmod o+x
 chmod o+x /usr/local/autotest/tko/*.cgi
@@ -202,7 +202,7 @@ If you get 403 Forbidden when viewing the results, or if the AFE starts giving
 Error 500 and strugging to import code, then you either need to re-run
 
 ```none
-# Setup permissions so that Apache web user can read the proper files. 
+# Setup permissions so that Apache web user can read the proper files.
 chmod -R o+r /usr/local/autotest
 find /usr/local/autotest/ -type d | xargs chmod o+x
 chmod o+x /usr/local/autotest/tko/*.cgi

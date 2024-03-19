@@ -580,5 +580,5 @@ These are the ACL files used by gsutil to apply access for people. Used whenever
 you want to upload files and grant access to people who have the boto file.
 
 The TXT format is documented in the [gsutil
-FAQ](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/gsutil.md#installing-gsutil).
+FAQ](/chromium-os/developer-library/reference/tools/gsutil/#installing-gsutil).
 The JSON format is not yet used. Support for the XML format has been dropped.

@@ -1431,7 +1431,7 @@ use `set substitute-path <from> <to>` inside gdb to help it find the right path
 
 ### Printing stack traces at runtime
 
-See [./stack_traces.md] for how to print stack traces at runtime.
+See [Stack Traces] for how to print stack traces at runtime.
 
 ## Remote Debugging
 
@@ -1649,9 +1649,9 @@ ChromiumOS integration (or "functional") tests are written using the [Tast] or
 
 ### Set up SSH connection between chroot and DUT
 
-To run automated tests on your [DUT](glossary.md#acronyms), you first need to
+To run automated tests on your [DUT](/chromium-os/developer-library/glossary/#acronyms), you first need to
 set up SSH connection between chroot on your workstation and the DUT. See
-[this document](tips-and-tricks.md#How-to-SSH-to-DUT-without-a-password)
+[this document](/chromium-os/developer-library/guides/recipes/tips-and-tricks/#How-to-SSH-to-DUT-without-a-password)
 for how to set it up.
 
 #### For Googlers
@@ -1892,30 +1892,30 @@ Below are a few links to external sites that you might also find helpful
 [RAM-thread]: https://groups.google.com/a/chromium.org/d/topic/chromium-os-dev/ZcbP-33Smiw/discussion
 [install depot_tools]: https://commondatastorage.googleapis.com/chrome-infra-docs/flat/depot_tools/docs/html/depot_tools_tutorial.html#_setting_up
 [Sync to Green]: #Sync-to-Green
-[Making sudo a little more permissive]: tips-and-tricks.md#How-to-make-sudo-a-little-more-permissive
+[Making sudo a little more permissive]: /chromium-os/developer-library/guides/recipes/tips-and-tricks/#How-to-make-sudo-a-little-more-permissive
 [Gerrit guide]: https://www.chromium.org/chromium-os/developer-guide/gerrit-guide
 [repo]: https://code.google.com/p/git-repo/
 [git]: https://git-scm.com/
 [goto/chromeos-building]: http://goto/chromeos-building
 [API Keys]: https://www.chromium.org/developers/how-tos/api-keys
-[working on a branch page]: work_on_branch.md
+[working on a branch page]: /chromium-os/developer-library/guides/development/work-on-branch/
 [chroot]: https://en.wikipedia.org/wiki/Chroot
-[gsutil]: gsutil.md
-[bazel_remote_caching]: bazel_remote_caching.md
+[gsutil]: /chromium-os/developer-library/reference/tools/gsutil/
+[bazel_remote_caching]: /chromium-os/developer-library/reference/build/bazel-remote-caching/
 [crosbug/10048]: https://crbug.com/192478
-[Tips And Tricks]: tips-and-tricks.md
+[Tips And Tricks]: /chromium-os/developer-library/guides/recipes/tips-and-tricks/
 [something harder]: https://www.google.com/search?q=the+fourth+dimension
 [issues with virtual packages]: https://crbug.com/187712
-[What does cros build-packages actually do?]: portage/ebuild_faq.md#what-does-build-packages-do
-[CrOS Flash page]: cros_flash.md
+[What does cros build-packages actually do?]: /chromium-os/developer-library/guides/portage/ebuild-faq/#what-does-build-packages-do
+[CrOS Flash page]: /chromium-os/developer-library/reference/tools/cros-flash/
 [Debug Button Shortcuts]: /chromium-os/developer-library/guides/debugging/debug-buttons
 [ChromeOS Devices]: https://dev.chromium.org/chromium-os/developer-information-for-chrome-os-devices
 [Developer Hardware]: https://dev.chromium.org/chromium-os/getting-dev-hardware/dev-hardware-list
 [crosh]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/crosh/
-[cros_vm]: cros_vm.md#launch-a-locally-built-vm-from-within-the-chroot
-[cros deploy]: cros_deploy.md
+[cros_vm]: /chromium-os/developer-library/guides/containers/cros-vm/#launch-a-locally-built-vm-from-within-the-chroot
+[cros deploy]: /chromium-os/developer-library/reference/tools/cros-deploy/
 [Create a branch for your changes]: #Create-a-branch-for-your-changes
-[chromeos-uprev-tester]: simple_chrome_workflow.md#testing-a-chromium-cl-remotely-on-cros-cq
+[chromeos-uprev-tester]: /chromium-os/developer-library/guides/development/simple-chrome-workflow/#testing-a-chromium-cl-remotely-on-cros-cq
 [Remote Debugging in ChromiumOS]: https://www.chromium.org/chromium-os/how-tos-and-troubleshooting/remote-debugging
 [cgdb]: https://cgdb.github.io/
 [crbug.com/new]: https://crbug.com/new
@@ -1934,16 +1934,16 @@ Below are a few links to external sites that you might also find helpful
 [Seeing which Autotest tests are implemented by an ebuild]: https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/user-doc.md#Q4_I-have-an-ebuild_what-tests-does-it-build
 [Creating an image that has been modified for test]: https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/user-doc.md#W4_Create-and-run-a-test_enabled-image-on-your-device
 [devserver]: https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/docs/devserver.md
-[directory structure]: source_layout.md
+[directory structure]: /chromium-os/developer-library/reference/development/source-layout/
 [The ChromiumOS developer FAQ]: https://dev.chromium.org/chromium-os/how-tos-and-troubleshooting/developer-faq
-[ChromiumOS Portage Build FAQ]: portage/ebuild_faq.md
+[ChromiumOS Portage Build FAQ]: /chromium-os/developer-library/guides/portage/ebuild-faq/
 [rootfs-thread]: https://groups.google.com/a/chromium.org/group/chromium-os-dev/browse_thread/thread/967e783e27dd3a9d/0fa20a1547de2c77?lnk=gst
 [Running Smoke Suite on a VM Image]: https://dev.chromium.org/chromium-os/testing/running-smoke-suite-on-a-vm-image
 [Debugging Tips]: https://dev.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-tips
-[Working on a Branch]: work_on_branch.md
+[Working on a Branch]: /chromium-os/developer-library/guides/development/work-on-branch/
 [Git server-side information]: https://dev.chromium.org/chromium-os/how-tos-and-troubleshooting/git-server-side-information
-[Portage Package Upgrade Process]: portage/package_upgrade_process.md
-[ChromiumOS Sandboxing]: sandboxing.md
+[Portage Package Upgrade Process]: /chromium-os/developer-library/guides/portage/package-upgrade-process/
+[ChromiumOS Sandboxing]: /chromium-os/developer-library/guides/development/sandboxing/
 [Go in ChromiumOS]: https://dev.chromium.org/chromium-os/developer-guide/go-in-chromium-os
 [Go]: https://golang.org
 [ChromiumOS dev group]: https://groups.google.com/a/chromium.org/group/chromium-os-dev
@@ -1952,7 +1952,7 @@ Below are a few links to external sites that you might also find helpful
 [ChromiumOS gitweb]: https://chromium.googlesource.com/
 [ChromiumOS build waterfall]: https://ci.chromium.org/p/chromeos
 [libera.chat]: https://web.libera.chat/
-[Gerrit Workflow]: contributing.md
+[Gerrit Workflow]: /chromium-os/developer-library/guides/development/contributing/
 [Git for Computer Scientists]: https://eagain.net/articles/git-for-computer-scientists/
 [Git Magic]: http://www-cs-students.stanford.edu/~blynn/gitmagic/
 [Git Manual]: http://schacon.github.com/git/user-manual.html
@@ -1963,8 +1963,8 @@ Below are a few links to external sites that you might also find helpful
 [Gentoo Package Manager Specification]: https://ci.chromium.org/p/chromeos
 [repo user docs]: https://source.android.com/source/using-repo
 [repo-discuss group]: https://groups.google.com/group/repo-discuss
-[Developer Mode]: ./developer_mode.md
-[./stack_traces.md]: stack_traces.md
+[Developer Mode]: /chromium-os/developer-library/guides/device/developer-mode/
+[stack traces]: /chromium-os/developer-library/guides/debugging/stack-traces/
 [build codelab]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/codelab/README.md
 [ChromiumIDE]: https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/ide_tooling/docs/quickstart.md
 [novnc]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/screen-capture-utils/README.md#kmsvnc

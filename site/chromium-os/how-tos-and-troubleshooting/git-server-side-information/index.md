@@ -11,7 +11,7 @@ title: Git server-side information
 [TOC]
 
 This guide has been migrated to markdown:
-<https://chromium.googlesource.com/chromiumos/docs/+/HEAD/source_layout.md#FAQ>
+<https://www.chromium.org/chromium-os/developer-library/reference/development/source-layout/#FAQ>
 
 Please update any stale links you might have come across.
 

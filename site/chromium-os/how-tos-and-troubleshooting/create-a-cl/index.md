@@ -9,7 +9,7 @@ title: Create a CL
 ---
 
 For a more thorough introduction, see the [appropriate section of the Developer
-Guide](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_guide.md#making-changes-to-packages-whose-source-code-is-checked-into-chromium-os-git-repositories).
+Guide](/chromium-os/developer-library/guides/development/developer-guide/#making-changes-to-packages-whose-source-code-is-checked-into-chromium-os-git-repositories).
 
 Here's the basic flow when creating/uploading a CL for review:
 
@@ -19,7 +19,7 @@ Here's the basic flow when creating/uploading a CL for review:
             &lt;name of branch to create&gt; .
 3.  Make the changes you want to upload, and then commit them, following
             the [commit message
-            format](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/contributing.md#Commit-messages).
+            format](/chromium-os/developer-library/guides/development/contributing/#Commit-messages).
 4.  Upload your CL by typing repo upload . --cbr
 5.  You'll get given a URL to your CL on Gerrit where it'll be reviewed.
             Add some reviewers and wait for them to check your change.

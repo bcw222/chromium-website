@@ -27,7 +27,7 @@ In order to run the automated tests against your device you need to ensure it is
 running a Test Image and you have password-less SSH Access.
 
 Please follow:
-<https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_guide.md#Set-up-SSH-connection-between-chroot-and-DUT>
+<https://www.chromium.org/chromium-os/developer-library/guides/development/developer-guide/#Set-up-SSH-connection-between-chroot-and-DUT>
 
 ## Setting up an Autotest Server and Web Frontend
 
@@ -67,7 +67,7 @@ to give you access to these builds.
     *   **apt-get install python-cherrypy3 python-lockfile**, or
                 easy_install -U cherrypy3 lockfile
 *   [gsutil
-            installed](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/gsutil.md#installing-gsutil)
+            installed](/chromium-os/developer-library/reference/tools/gsutil/#installing-gsutil)
 *   A .boto file in your home directory
     *   Run \`gsutil config\`
 

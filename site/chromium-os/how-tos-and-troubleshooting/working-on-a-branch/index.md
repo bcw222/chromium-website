@@ -9,6 +9,6 @@ title: Working on a Chromium OS Branch
 ---
 
 **This document can now be found here:**
-**<https://chromium.googlesource.com/chromiumos/docs/+/HEAD/work_on_branch.md>.**
+**<https://www.chromium.org/chromium-os/developer-library/guides/development/work-on-branch/>.**
 
 **Please update the link that brought you here.**

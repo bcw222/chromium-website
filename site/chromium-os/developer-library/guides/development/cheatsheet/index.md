@@ -104,7 +104,7 @@ cros build-image --board=${BOARD} --noenable_rootfs_verification dev
 ```
 
 Then reimage your test device with instructions in
-[flash chromiumOS](flash_chromiumos.md).
+[flash chromiumOS](/chromium-os/developer-library/guides/device/flashing-chromiumos/).
 
 ### Test
 
@@ -129,4 +129,3 @@ crash.UncleanShutdownCollector.
 
 Sometimes you might need to include `--extrauseflags chrome_internal`, such as
 when working with metrics_consent.
-

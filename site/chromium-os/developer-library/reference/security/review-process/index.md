@@ -106,4 +106,4 @@ to them. Also, ensure that folks provide feedback to the feature owner before
 launch review meetings.
 
 [crbug.com]: https://crbug.com
-[security review HOWTO]: ../security_review_howto.md
+[security review HOWTO]: /chromium-os/developer-library/guides/security/security-review-howto/

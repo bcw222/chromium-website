@@ -101,14 +101,14 @@ canary build (generally the most recent).
 
 
 [chromium-review]: https://chromium-review.googlesource.com
-[developer guide]: developer_guide.md
-[gerrit workflow]: contributing.md#Going-through-review
-[Cq-Depend]: contributing.md#CQ-DEPEND
+[developer guide]: /chromium-os/developer-library/guides/development/developer-guide/
+[gerrit workflow]: /chromium-os/developer-library/guides/development/contributing/#Going-through-review
+[Cq-Depend]: /chromium-os/developer-library/guides/development/contributing/#CQ-DEPEND
 [chromeos-cq builders]: https://ci.chromium.org/p/chromeos/g/chromeos.cq/builders
 [Skylab]: https://goto.corp.google.com/chromeos-skylab-doc
 [go/cros-oncall]: https://goto.corp.google.com/cros-oncall
 [release]: https://cros-goldeneye.corp.google.com/chromeos/legoland/builderSummary?builderGroups=release&buildBranch=master
 [goldeneye]: https://goto.corp.google.com/goldeneye
 [Post-submit builders]: https://ci.chromium.org/p/chromeos/g/chromeos.postsubmit/builders
-[Simple Chrome]: simple_chrome_workflow.md
+[Simple Chrome]: /chromium-os/developer-library/guides/development/simple-chrome-workflow/
 [Chrome LKGM]: https://yaqs.googleplex.com/eng/q/5254238507106304

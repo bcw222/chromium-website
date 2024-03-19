@@ -896,18 +896,18 @@ reason such as when the code is only for unit test support.
 [Landlock]: #landlock-unprivileged-filesystem-access-control
 [Seccomp filters]: #seccomp-filters
 [enable CFI]: #enforcing-control-flow-integrity
-[ebuild]: portage/ebuild_faq.md
+[ebuild]: /chromium-os/developer-library/guides/portage/ebuild-faq/
 [cros-sanitizers.eclass]: https://source.chromium.org/chromiumos/chromiumos/codesearch/+/main:src/third_party/chromiumos-overlay/eclass/cros-sanitizers.eclass
 [platform.eclass]: https://source.chromium.org/chromiumos/chromiumos/codesearch/+/main:src/third_party/chromiumos-overlay/eclass/platform.eclass
 [UNIX _abstract_ sockets]: https://man7.org/linux/man-pages/man7/unix.7.html
 [security.SandboxedServices]: https://chromium.googlesource.com/chromiumos/platform/tast-tests/+/HEAD/src/go.chromium.org/tast-tests/cros/local/bundles/cros/security/sandboxed_services.go
 
 [SELinux]: https://www.chromium.org/chromium-os/developer-library/reference/security/selinux
-[libchrome]: packages/libchrome.md
+[libchrome]: /chromium-os/developer-library/guides/infrastructure/libchrome/
 [libbrillo]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/libbrillo
 [shell command-injection bugs]: https://en.wikipedia.org/wiki/Code_injection#Shell_injection
 [ChromeOS user accounts README]: https://www.chromium.org/chromium-os/developer-library/reference/build/account-management
-[How do I specify the dependencies of a change?]: contributing.md#CQ-DEPEND
+[How do I specify the dependencies of a change?]: /chromium-os/developer-library/guides/development/contributing/#CQ-DEPEND
 [Linux capabilities]: https://man7.org/linux/man-pages/man7/capabilities.7.html
 [capability.h]: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/include/uapi/linux/capability.h
 [`cap_from_text(3)`]: https://man7.org/linux/man-pages/man3/cap_from_text.3.html
@@ -921,8 +921,8 @@ reason such as when the code is only for unit test support.
 [generate_seccomp_policy.py script]: https://android.googlesource.com/platform/external/minijail/+/HEAD/tools/generate_seccomp_policy.py
 [using Linux audit logs to generate policy]: https://android.googlesource.com/platform/external/minijail/+/HEAD/tools/README.md#using-linux-audit-logs-to-generate-policy
 [shared subtrees]: https://www.kernel.org/doc/Documentation/filesystems/sharedsubtree.txt
-[syscalls table]: ./constants/syscalls.md
-[syscall calling conventions]: ./constants/syscalls.md#calling-conventions
+[syscalls table]: /chromium-os/developer-library/reference/linux-constants/syscalls/
+[syscall calling conventions]: /chromium-os/developer-library/reference/linux-constants/syscalls/#calling-conventions
 [gen_constants-inl.h]: https://android.googlesource.com/platform/external/minijail/+/HEAD/gen_constants-inl.h
 [confused deputy attack]: https://en.wikipedia.org/wiki/Confused_deputy_problem
 [Linux Security Module]: https://en.wikipedia.org/wiki/Linux_Security_Modules

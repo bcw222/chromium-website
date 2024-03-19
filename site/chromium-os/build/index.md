@@ -19,9 +19,9 @@ page](http://goto.google.com/cros-build).
 *   [Developer
             guide](http://www.chromium.org/chromium-os/developer-guide)
 *   Imaging your device with [Cros
-            Flash](https://chromium.googlesource.com/chromiumos/docs/+/master/cros_flash.md)
+            Flash](/chromium-os/developer-library/reference/tools/cros-flash/)
 *   Install packages to your device with [Cros
-            Deploy](https://chromium.googlesource.com/chromiumos/docs/+/master/cros_deploy.md)
+            Deploy](/chromium-os/developer-library/reference/tools/cros-deploy/)
 *   [Bypassing tests on a per-project
             basis](/chromium-os/build/bypassing-tests-on-a-per-project-basis)
 *   [Adding a Package to the SDK](/chromium-os/build/add-sdk-package)
@@ -36,9 +36,9 @@ page](http://goto.google.com/cros-build).
 *   [Python style
             guide](/chromium-os/developer-library/reference/style-guides/python)
 *   [Chromium OS Developer
-            Guide](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_guide.md)
+            Guide](/chromium-os/developer-library/guides/development/developer-guide/)
 *   [Developing Chromium on Chromium
-            OS](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/simple_chrome_workflow.md)
+            OS](/chromium-os/developer-library/guides/development/simple-chrome-workflow/)
             ("Simple Chrome")
 *   Misc. [developer helper
             scripts](http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/helper-scripts)
@@ -54,7 +54,7 @@ page](http://goto.google.com/cros-build).
 #### Build System Documentation
 
 *   [Portage Build and
-            FAQ](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/portage/ebuild_faq.md)
+            FAQ](/chromium-os/developer-library/guides/portage/ebuild-faq/)
 *   [Portage Package Upgrade
             Initiative](http://www.chromium.org/chromium-os/obsolete/portage-package-status)
     *   [Portage Package Status
@@ -67,13 +67,13 @@ page](http://goto.google.com/cros-build).
                 (e.g. for a toolchain revert)
 
 *   [cbuildbot
-            Overview](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/remote_trybots.md)
+            Overview](/chromium-os/developer-library/guides/development/remote-trybots/)
 *   Buildbot [Configure/Set
             up](/developers/testing/chromium-build-infrastructure/getting-the-buildbot-source/configuring-your-buildbot)
             (Chrome Infra guide)
 *   [Commit Queue overview](/system/errors/NodeNotFound)
 *   [Local Trybot](http://www.chromium.org/chromium-os/build/local-trybot-documentation)
-*   [Remote trybot](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/remote_trybots.md)
+*   [Remote trybot](/chromium-os/developer-library/guides/development/remote-trybots/)
 
 #### Build labels
 

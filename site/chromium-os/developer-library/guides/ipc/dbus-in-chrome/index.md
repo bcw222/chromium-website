@@ -219,7 +219,7 @@ need to provide a method that Chrome can call when it starts or restarts to get
 the correct initial state from the daemon.
 
 [D-Bus]: https://www.freedesktop.org/wiki/Software/dbus/
-[D-Bus Best Practices]: dbus_best_practices.md
+[D-Bus Best Practices]: /chromium-os/developer-library/guides/ipc/dbus-best-practices/
 [system_api]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/system_api
 [src/DEPS]: https://chromium.googlesource.com/chromium/src/+/HEAD/DEPS
 [mus+ash]: https://www.chromium.org/developers/mus-ash

@@ -10,4 +10,4 @@ title: Kernel FAQ
 
 This document has been moved to markdown/git. The up-to-date version can be
 found at:
-<https://chromium.googlesource.com/chromiumos/docs/+/HEAD/kernel_development.md>.
+<https://www.chromium.org/chromium-os/developer-library/guides/kernel/kernel-development/>.

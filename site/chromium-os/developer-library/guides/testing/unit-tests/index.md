@@ -944,7 +944,7 @@ llvm-cov report -instr-profile=default.profdata -object=/build/$BOARD/tmp/portag
 
 [Unit tests]: https://en.wikipedia.org/wiki/Unit_testing
 [Google Test]: https://github.com/google/googletest
-[unit testing document]: running_unit_tests.md#Adding-unit-tests
+[unit testing document]: /chromium-os/developer-library/guides/testing/running-unit-tests/#Adding-unit-tests
 [Functional tests]: https://en.wikipedia.org/wiki/Functional_testing
 [Tast]: https://chromium.googlesource.com/chromiumos/platform/tast/
 [Autotest]: https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/user-doc.md

@@ -15,7 +15,7 @@ title: Boot mainline kernel on veyron-jaq
 #### Setup
 
 Follow the instructions in the
-[Developer Guide](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_guide.md).
+[Developer Guide](/chromium-os/developer-library/guides/development/developer-guide/).
 
 ## Firmware
 

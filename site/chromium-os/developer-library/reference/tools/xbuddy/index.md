@@ -139,6 +139,6 @@ update_engine_client --update --omaha_url=${HOST}:${PORT}/update/xbuddy/{XBUDDY_
 
 See [update engine] page for more details.
 
-[cros flash]: /cros_flash.md
+[cros flash]: /chromium-os/developer-library/reference/tools/cros-flash/
 [Using The Devserver]: https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/docs/devserver.md
 [update engine]: https://chromium.googlesource.com/aosp/platform/system/update_engine/

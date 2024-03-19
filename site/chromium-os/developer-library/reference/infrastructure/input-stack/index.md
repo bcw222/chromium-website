@@ -254,7 +254,7 @@ gestures.cc][interpreter-chains].
 `GestureInterpreterLibevdevCros`, which you can activate to show the gestures
 being produced.
 
-To activate the `DVLOG` statements, first add the following to the `/etc/chrome_dev.conf` of a DUT with a [debug Chrome build](simple_chrome_workflow.md#debug-builds):
+To activate the `DVLOG` statements, first add the following to the `/etc/chrome_dev.conf` of a DUT with a [debug Chrome build](/chromium-os/developer-library/guides/development/simple-chrome-workflow/#debug-builds):
 
 ```
 --enable-logging

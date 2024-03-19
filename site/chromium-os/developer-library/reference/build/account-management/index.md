@@ -220,6 +220,6 @@ or creating the image.
 
 
 [crbug.com/402673]: https://crbug.com/402673
-[cros_portage_upgrade]: portage/package_upgrade_process.md
+[cros_portage_upgrade]: /chromium-os/developer-library/guides/portage/package-upgrade-process/
 [eclass-overlay]: https://chromium.googlesource.com/chromiumos/overlays/eclass-overlay/
 [user.eclass]: https://chromium.googlesource.com/chromiumos/overlays/eclass-overlay/+/HEAD/eclass/user.eclass

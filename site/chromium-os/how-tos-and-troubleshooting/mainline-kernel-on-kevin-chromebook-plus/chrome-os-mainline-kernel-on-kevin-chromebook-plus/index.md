@@ -113,7 +113,7 @@ cros build-image --boot-args="noinitrd kgdboc=ttyS2 slub_debug=FZPUA" --enable-s
 ```
 
 Now follow the instructions from the [Chromium OS Developer
-Guide](https://chromium.googlesource.com/chromiumos/docs/+/HEAD/developer_guide.md#Installing-Chromium-OS-on-your-Device)
+Guide](/chromium-os/developer-library/guides/development/developer-guide/#Installing-Chromium-OS-on-your-Device)
 to flash your image to a USB stick and boot it on your device.
 
 Deploying changes to the kernel is as easy as:
