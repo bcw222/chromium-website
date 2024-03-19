@@ -166,6 +166,30 @@
       },
       "revId": "996c621b54216130d5747edffcad48af66db3176",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b15f3232_07207463",
+        "filename": "site/chromium-os/developer-library/guides/device/ro-firmware-unlock/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1002133
+      },
+      "writtenOn": "2024-03-19T00:17:27Z",
+      "side": 1,
+      "message": "I mean, the whole point of opening CCD is to be able to set AllowUnverifiedRo and disable write-protection, so before CCD is opened we can\u0027t have any GBB flags set.",
+      "parentUuid": "63d85fa8_4f02a321",
+      "range": {
+        "startLine": 82,
+        "startChar": 28,
+        "endLine": 84,
+        "endChar": 30
+      },
+      "revId": "996c621b54216130d5747edffcad48af66db3176",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
