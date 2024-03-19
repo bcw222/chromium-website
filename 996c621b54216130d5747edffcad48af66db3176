@@ -142,6 +142,30 @@
       },
       "revId": "996c621b54216130d5747edffcad48af66db3176",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "63d85fa8_4f02a321",
+        "filename": "site/chromium-os/developer-library/guides/device/ro-firmware-unlock/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1152319
+      },
+      "writtenOn": "2024-03-19T00:12:58Z",
+      "side": 1,
+      "message": "we can also suggest to set GBB flags to force dev mode. but that\u0027s only a good idea combined with AllowUnverifiedRo\u003dtrue. so, can we set AllowUnverifiedRo:always and GBB flags before `gsctool -a - o` as one variation of the flow?",
+      "parentUuid": "ebdb2457_8a248bf8",
+      "range": {
+        "startLine": 82,
+        "startChar": 28,
+        "endLine": 84,
+        "endChar": 30
+      },
+      "revId": "996c621b54216130d5747edffcad48af66db3176",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
