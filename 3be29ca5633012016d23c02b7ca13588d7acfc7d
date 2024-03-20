@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0feb75dd_b5e2542d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1182404
+      },
+      "writtenOn": "2024-03-20T22:12:12Z",
+      "side": 1,
+      "message": "FYI (adding the link to the proposed new doc here).",
+      "revId": "3be29ca5633012016d23c02b7ca13588d7acfc7d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
