@@ -79,6 +79,7 @@ title: Reference
 ## Development
 
 * [ChromiumOS FAQ](/chromium-os/developer-library/reference/development/chromium-os-faq)
+* [Developer FAQ](/chromium-os/developer-library/reference/development/developer-faq)
 * [Developer Information for Chrome OS Devices](/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices)
 * [Directory metadata](/chromium-os/developer-library/reference/development/dir-metadata)
 * [Life of a ChromeOS commit](/chromium-os/developer-library/reference/development/cros-commit-pipeline)

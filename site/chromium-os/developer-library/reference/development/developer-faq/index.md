@@ -11,8 +11,8 @@ title: High-Level Developer FAQ
 [TOC]
 
 This FAQ is for developers; check out the [General Chromium OS
-FAQ](/chromium-os/chromium-os-faq) for non-development related questions. If
-that doesn't work out, try the [discussion groups](/system/errors/NodeNotFound).
+FAQ](/chromium-os/developer-library/reference/development/chromium-os-faq) for
+non-development related questions.
 
 ---
 
