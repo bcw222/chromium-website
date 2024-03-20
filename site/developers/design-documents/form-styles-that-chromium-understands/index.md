@@ -136,9 +136,9 @@ Or:
   >
   <label for="password">Confirm new password</label>
   <input
-    id="password"
+    id="passwordConfirm"
     type="password"
-    name="password"
+    name="passwordConfirm"
     autocomplete="new-password"
     required
   >
