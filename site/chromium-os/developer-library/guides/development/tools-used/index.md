@@ -75,7 +75,7 @@ extensions to improve your productivity. Here are a few that are recommended:
     purposes.
 -   [Chromium CL Finder](https://chromewebstore.google.com/detail/egncfhncpaakcfegigpnijpdlffhljcc?pli=1)
     shows the first landed version on Gerrit for Chromium CLs. See
-    [Understanding ChromeOS Releases](/chrome/chromeos/system_services_team/dev_instructions/g3doc/understanding_releases.md)
+    [Understanding ChromeOS Releases](/chromium-os/developer-library/reference/release/understanding-chromeos-releases)
     for why you'd want to use this.
 -   [Linkable](https://chromewebstore.google.com/detail/gfgjcjnidbkemmgcgpjfnplblfdkgcfk)
     provides alternate, short-form URLs to easily use in emails, bugs, or

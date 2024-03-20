@@ -334,4 +334,4 @@ dependency would be disallowed:
     code in `//chrome`.
 
 Read more about the Delegate Pattern
-[here](https://g3doc.corp.google.com/chrome/chromeos/system_services_team/dev_instructions/g3doc/chromium_cookbook/chromium_repo/resolving_dependency_issues.md).
+[here](/chromium-os/developer-library/guides/cpp/resolving-dependency-issues).

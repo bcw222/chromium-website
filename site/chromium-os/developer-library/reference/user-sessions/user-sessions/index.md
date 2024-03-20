@@ -111,7 +111,7 @@ encrypted). Read more about the difference between local and profile prefs
 [here](http://go/chromium-cookbook-policy-prefs#what-are-preferences).
 
 A user may also have their prefs controlled by policy. Read more about
-[Enterprise policy implications on prefs](https://g3doc.corp.google.com/chrome/chromeos/system_services_team/dev_instructions/g3doc/enterprise_policy.md).
+[Enterprise policy implications on prefs](/chromium-os/developer-library/guides/enterprise/enterprise-policy).
 
 ### Sources
 
