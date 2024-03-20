@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1d802a8b_0585b9d3",
+        "filename": "site/chromium-os/developer-library/reference/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 1547388
+      },
+      "writtenOn": "2024-03-20T23:21:19Z",
+      "side": 1,
+      "message": "nit: Developer",
+      "range": {
+        "startLine": 82,
+        "startChar": 3,
+        "endLine": 82,
+        "endChar": 11
+      },
+      "revId": "97b1fefc7292f17bad7756d0477652169fe3622b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
