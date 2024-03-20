@@ -33,6 +33,24 @@
       "message": "Okay, I still need a +2 on this though. Anyone?",
       "revId": "1badc9804e664803f7799ac759dca882d8339a85",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "22dcf8b4_0749f16b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-20T21:48:01Z",
+      "side": 1,
+      "message": "Oh I forgot why I didn\u0027t autosubmit in the first: merge conflict.\n\nOther than that, are you not able to submit the CL yourself?",
+      "parentUuid": "289c73cd_035a668a",
+      "revId": "1badc9804e664803f7799ac759dca882d8339a85",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
