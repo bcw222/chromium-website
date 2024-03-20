@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "52e9ab54_423476eb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-20T17:22:31Z",
+      "side": 1,
+      "message": "Woot! Thanks so much Daniel.\n\nlgtm",
+      "revId": "4b9247349364dca7b0c9a12ede2558a3c1bea18b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
