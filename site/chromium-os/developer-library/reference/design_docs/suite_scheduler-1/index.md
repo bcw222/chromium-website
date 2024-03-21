@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
+- - /chromium-os/developer-library/reference
+  - Chromium OS > Developer Library > Reference
 page_name: suite_scheduler-1
 title: Suite Scheduler Design Doc
 ---
