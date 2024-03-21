@@ -89,9 +89,5 @@ page](http://goto.google.com/cros-build).
 Or file a generic Build issue to be triaged by the build team at
 [goto.google.com/cros-build-ticket](https://code.google.com/p/chromium/issues/entry?template=Build%20Infrastructure&labels=Build,OS-Chrome,Pri-2&summary=your%20words%20here).
 
-#### Other Resources
-
-*   Build [FAQ](/chromium-os/build/faq)
-
 </div>
 </div>
