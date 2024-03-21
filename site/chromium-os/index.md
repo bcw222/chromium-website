@@ -39,10 +39,6 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 *   [CrOS Developer Library](/chromium-os/developer-library)
 *   [Firmware (Coreboot / U-Boot) Overview and Porting
             Guide](/chromium-os/firmware-porting-guide)
-*   [Embedded Firmware Solutions
-            book](https://link.springer.com/book/10.1007/978-1-4842-0070-4)
-    *   [Chromebook Firmware Internals
-                chapter](https://link.springer.com/chapter/10.1007/978-1-4842-0070-4_5)
 *   [Embedded Controller (EC)
             Development](https://chromium.googlesource.com/chromiumos/platform/ec/+/HEAD/README.md)
 *   [All How Tos and
