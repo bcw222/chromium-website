@@ -1,13 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
-- - /chromium-os/testing/test-code-labs
-  - Test Code Labs
+- - /chromium-os/developer-library/training
+  - ChromiumOS > Developer Library > Training
 page_name: dynamic-suite-codelab
-title: Creating and deploying Chromium OS Dynamic Test Suites
+title: Creating and deploying ChromiumOS dynamic test suites
 ---
 
 [TOC]
@@ -19,7 +15,7 @@ title: Creating and deploying Chromium OS Dynamic Test Suites
 1.  [Autotest Best
             Practices](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/best-practices.md)
 2.  [Codelab: Writing a server side
-            test](/chromium-os/testing/test-code-labs/server-side-test)
+            test](/chromium-os/developer-library/training/codelabs/server-side-test)
 3.  [Codelab: Writing a client side test](/system/errors/NodeNotFound)
 4.  [Design Doc: Dynamic Test
             Suites](/chromium-os/testing/dynamic-test-suites)

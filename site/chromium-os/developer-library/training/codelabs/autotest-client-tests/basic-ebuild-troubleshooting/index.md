@@ -1,15 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
-- - /chromium-os/testing/test-code-labs
-  - Test Code Labs
-- - /chromium-os/testing/test-code-labs/autotest-client-tests
-  - Autotest Client Tests
+- - /chromium-os/developer-library/training
+  - ChromiumOS > Developer Library > Training
 page_name: basic-ebuild-troubleshooting
-title: Basic Ebuild Troubleshooting
+title: Basic ebuild troubleshooting
 ---
 
 ### This is a brief explanation of how one might trouble shoot local emerge/ebuild failures. It is in no way comprehensive, and is only meant as an introduction to the topic:
@@ -151,8 +145,7 @@ kernel_HdParmBasic</td>
 *   <td>autotest (Autotest scripts and tools).</td>
 
 <td>If you have come this far, you may also be interested in reading the
-autotest client tests <a
-href="/chromium-os/testing/test-code-labs/autotest-client-tests">codelab</a>.</td>
+autotest client tests <a href="autotest-client-tests">codelab</a>.</td>
 
 <td><b>Access Violation Errors when Emerging</b></td>
 

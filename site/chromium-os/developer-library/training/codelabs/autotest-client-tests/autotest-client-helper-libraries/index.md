@@ -1,15 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
-- - /chromium-os/testing/test-code-labs
-  - Test Code Labs
-- - /chromium-os/testing/test-code-labs/autotest-client-tests
-  - Autotest Client Tests
+- - /chromium-os/developer-library/training
+  - ChromiumOS > Developer Library > Training
 page_name: autotest-client-helper-libraries
-title: Autotest Client Helper Libraries
+title: Autotest client helper libraries
 ---
 
 This is a listing and brief explanation of the various helper methods available
@@ -82,5 +76,4 @@ test            - main test class
 unit_test       - main unit_test class
 
 If you have come this far, you may also be interested in reading the autotest
-client tests
-[codelab](/chromium-os/testing/test-code-labs/autotest-client-tests).
+client tests [codelab](autotest-client-tests).

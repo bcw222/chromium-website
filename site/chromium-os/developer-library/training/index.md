@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library
-  - Chromium OS > Developer Library
+  - ChromiumOS > Developer Library
 page_name: training
 title: Training
 ---
@@ -12,7 +12,10 @@ title: Training
 
 ## Codelabs
 
+* [Autotest client tests](/chromium-os/developer-library/training/codelabs/autotest-client-tests)
 * [Debugging crashes](/chromium-os/developer-library/training/codelabs/debugging-crashes)
+* [Creating and deploying Chromium OS dynamic test suites](/chromium-os/developer-library/training/codelabs/dynamic-suite-codelab)
+* [Server Side test for ChromiumOS autotest codelab](/chromium-os/developer-library/training/codelabs/server-side-test)
 
 ## Tech Talks
 

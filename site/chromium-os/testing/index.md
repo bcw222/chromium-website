@@ -58,15 +58,6 @@ tests and smoke tests in the same way that the builders do.
 </div>
 <div class="column">
 
-### Codelabs
-
-*   [Server Side tests
-            codelab](/chromium-os/testing/test-code-labs/server-side-test)
-*   [Client side
-            codelab](/chromium-os/testing/test-code-labs/autotest-client-tests)
-*   [Dynamic suite
-            codelab](/chromium-os/testing/test-code-labs/dynamic-suite-codelab)
-
 ### Writing Tests & Suites
 
 *   [Autotest Best
