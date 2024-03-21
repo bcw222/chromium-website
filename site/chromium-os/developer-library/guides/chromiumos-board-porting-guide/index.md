@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides/
+  - Chromium OS > Developer Library > Guides
 page_name: chromiumos-board-porting-guide
 title: Chromium OS Board Porting Guide
 ---
@@ -32,7 +30,7 @@ comfortable with things.
 
 This guide covers doing a public build (one that will be released to the world).
 There is a [separate
-guide](/chromium-os/how-tos-and-troubleshooting/chromiumos-board-porting-guide/private-boards)
+guide](/chromium-os/developer-library/guides/chromiumos-board-porting-guide/private-boards)
 (meant as an add-on to this one) for creating a private board. Setting up a
 private board is useful for when you want to keep your project details a secret
 before launch, or if your board contains proprietary drivers or firmware that
@@ -116,7 +114,7 @@ supported) architectures:
 
 If you're using a different architecture, please see the [Chromium OS
 Architecture Porting
-Guide](/chromium-os/how-tos-and-troubleshooting/chromiumos-architecture-porting-guide)
+Guide](/chromium-os/developer-library/guides/chromiumos-architecture-porting-guide)
 first.
 
 ### src/overlays/overlay-$BOARD/
@@ -545,8 +543,7 @@ even [run it locally](/chromium-os/build/local-trybot-documentation).
 
 ### chromite/buildbot/cbuildbot_config.py
 
-At any rate, you'll need to update this [master
-file](https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/cbuildbot/cbuildbot_config.py)
+At any rate, you'll need to update this [file](https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/cbuildbot/cbuildbot_config.py)
 to add your new board configs. There are a few classes of configs to be familiar
 with:
 

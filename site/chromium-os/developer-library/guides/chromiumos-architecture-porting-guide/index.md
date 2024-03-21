@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides/
+  - Chromium OS > Developer Library > Guides
 page_name: chromiumos-architecture-porting-guide
 title: Chromium OS Architecture Porting Guide
 ---
@@ -53,7 +51,7 @@ move on to the next section.
 
 Your architecture not listed there? Sorry! You're first going to have to
 coordinate with the [Gentoo
-maintainers](http://www.gentoo.org/main/en/lists.xml) in porting to your crazy
+maintainers](http://www.gentoo.org/main/en/lists.xml) in porting to your
 architecture. Come visit us once you've gotten those sorted out.
 
 ## Chromium OS Pieces

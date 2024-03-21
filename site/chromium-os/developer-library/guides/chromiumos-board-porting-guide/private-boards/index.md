@@ -1,11 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
-- - /chromium-os/how-tos-and-troubleshooting/chromiumos-board-porting-guide
-  - Chromium OS Board Porting Guide
+- - /chromium-os/developer-library/guides/chromiumos-board-porting-guide
+  - Chromium OS > Developer Library > Guides > Chromium OS Board Porting Guide
 page_name: private-boards
 title: Creating Private Board Overlays
 ---
@@ -15,7 +11,7 @@ title: Creating Private Board Overlays
 ## Introduction
 
 In the main [Chromium OS Board Porting
-Guide](/chromium-os/how-tos-and-troubleshooting/chromiumos-board-porting-guide),
+Guide](/chromium-os/developer-library/guides/chromiumos-board-porting-guide),
 we covered how to create a new board overlay for a project. The goal there was
 to create a board that'd be published for anyone to build themselves. However,
 it is not uncommon for people to want to develop their boards in secret before
