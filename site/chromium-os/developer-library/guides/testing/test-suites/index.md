@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: test-suites
 title: Test Suites
 ---
@@ -16,7 +14,7 @@ that are in a Test Suite.
 A test suite is a collection of tests, client and server side, that are run on a
 particular build to validate a larger system.
 
-[Design Doc](/chromium-os/testing/dynamic-test-suites)
+[Design Doc](/chromium-os/developer-library/guides/testing/dynamic-test-suites)
 
 Test Suites build on the Autotest [control file
 specification](http://autotest.readthedocs.org/en/latest/main/local/ControlRequirements.html).
@@ -65,7 +63,7 @@ ATTRIBUTES = "suite:bvt-inline, suite:push_to_prod, suite:smoke"
 
 For an end-to-end demonstration of the flow of creating a new suite, see
 [Dynamic Suites Code
-Lab](/chromium-os/testing/test-code-labs/dynamic-suite-codelab)
+Lab](/chromium-os/developer-library/training/codelabs/dynamic-suite-codelab/)
 
 # How to Modify Suites
 
@@ -193,18 +191,17 @@ the suite control file.
 ...
 _BUG_TEMPLATE = {
     'labels': ['OS-Chrome','Type-Bug', 'your-label'],
-    'owner': '',	
-    'status': None,	
-    'summary': None,	
-    'title': None,	
-    'cc': ['a@chromium.org','b@chromium.org', 'c@chromium.org']	
+    'owner': '',
+    'status': None,
+    'summary': None,
+    'title': None,
+    'cc': ['a@chromium.org','b@chromium.org', 'c@chromium.org']
 }
 args_dict['bug_template'] = _BUG_TEMPLATE
 dynamic_suite.reimage_and_run(**args_dict)
 ```
 
-*   Set the [file_bugs option](/chromium-os/testing/test-suites) in the
-            suite_scheduler.ini section of your suite
+*   Set the file_bugs option in the suite_scheduler.ini section of your suite
 
 ## How do I define bug template in test control file?
 
@@ -278,7 +275,7 @@ The argument **bvt-inline** is the SUITE you are intersted in.
 # How to enumerate what suites are available?
 
 ```none
-$~/trunk/src/third_party/autotest/files/site_utils/suite_enumerator.py -a ~/trunk/src/third_party/autotest/files -l 
+$~/trunk/src/third_party/autotest/files/site_utils/suite_enumerator.py -a ~/trunk/src/third_party/autotest/files -l
 ```
 
 # How to run suites with test_that?
@@ -413,7 +410,7 @@ the ini section of the suite each test failure will either result in a new bug
 or a comment on an existing open bug, on the chromium bug tracker. Deduplication
 of bugs happens based on the test name, the suite name and the reason for
 failure. You can specify more bug filing options through the
-[bug_template](http://www.chromium.org/chromium-os/testing/test-suites#TOC-How-do-I-enable-automatic-bug-filing-for-my-suite-)
+[bug_template](#how-do-i-enable-automatic-bug-filing-for-my-suite)
 in the suite control file.
 
 # Running suites in BuildBot (HW_Test Stage)
@@ -427,7 +424,7 @@ can look at how to best direct you.
 actual hardware tests. If you do not want your builders to block on this
 consider using Suite Scheduler as described above.
 
-**\*Note if your build client is not on the master2 vlan you will need to [file
+**\*Note if your build client is not on the m​aster2 vlan you will need to [file
 a bug](http://goto.google.com/chromeos-lab-bug) with the Chrome OS lab team so a
 proxy connection can be set up.**
 

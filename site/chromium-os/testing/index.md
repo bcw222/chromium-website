@@ -68,8 +68,6 @@ tests and smoke tests in the same way that the builders do.
 *   [Existing Autotest
             Utilities](/chromium-os/testing/existing-autotest-utilities) -
             Coming Soon!
-*   [Using Test Suites](/chromium-os/testing/test-suites) - How to write
-            and modify Test Suites
 
 ### MobLab
 

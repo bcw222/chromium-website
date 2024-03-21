@@ -204,6 +204,7 @@ title: Guides
 * [Writing tests in C++](/chromium-os/developer-library/guides/testing/cpp-writing-tests)
 * [Common Green Stainless updates](/chromium-os/developer-library/guides/testing/green-stainless-report)
 * [Running and writing "Tast" automated end to end (E2E) tests](/chromium-os/developer-library/guides/testing/e2e-tests)
+* [Using test suites](/chromium-os/developer-library/guides/testing/test-suites)
 
 ## Third Party
 
