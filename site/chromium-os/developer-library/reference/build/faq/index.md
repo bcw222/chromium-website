@@ -2,8 +2,8 @@
 breadcrumbs:
 - - /chromium-os
   - Chromium OS
-- - /chromium-os/build
-  - Chromium OS Build
+- - /chromium-os/developer-library/reference/build
+  - ChromiumOS Build
 page_name: faq
 title: Build FAQ
 ---
@@ -59,7 +59,7 @@ FAQ items covering general development questions
 
 ## How do I port a new board to Chromium OS?
 
-<https://sites.google.com/a/chromium.org/dev/chromium-os/how-tos-and-troubleshooting/chromiumos-board-porting-guide>
+<https://www.chromium.org/chromium-os/developer-library/guides/chromiumos-board-porting-guide/>
 
 ## Making changes to the Chromium browser on ChromiumOS (AKA Simple Chrome)
 

@@ -17,6 +17,7 @@ title: Reference
 
 * [CrOS user & group management](/chromium-os/developer-library/reference/build/account-management)
 * [Bazel remote caching](/chromium-os/developer-library/reference/build/bazel-remote-caching)
+* [Build FAQ](/chromium-os/developer-library/reference/build/faq)
 * [GN in ChromeOS](/chromium-os/developer-library/reference/build/chromeos-gn)
 
 ## Device
