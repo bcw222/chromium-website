@@ -1,11 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides/
+  - ChromiumOS > Developer Library > Guides
 page_name: chromiumos-architecture-porting-guide
-title: Chromium OS Architecture Porting Guide
+title: ChromiumOS architecture porting guide
 ---
 
 [TOC]
@@ -19,7 +17,7 @@ possible, but you should buckle up and prepare for a bumpy ride!
 
 ## Various Upstream Projects
 
-Keep in mind that Chromium OS is based on a lot of upstream projects that we
+Keep in mind that ChromiumOS is based on a lot of upstream projects that we
 have not authored. That means you can't really get by with just porting Chromium
 OS and forgetting about the rest.
 
@@ -43,7 +41,7 @@ sorted out.
 
 ### Existing Gentoo Support
 
-Chromium OS is based on [Gentoo](http://www.gentoo.org/). Hopefully you've
+ChromiumOS is based on [Gentoo](http://www.gentoo.org/). Hopefully you've
 selected a processor that they already support (they support many already). You
 can find the current list here:
 <http://sources.gentoo.org/profiles/arch.list>
@@ -53,9 +51,9 @@ move on to the next section.
 
 Your architecture not listed there? Sorry! You're first going to have to
 coordinate with the [Gentoo
-maintainers](http://www.gentoo.org/main/en/lists.xml) in porting to your crazy
+maintainers](http://www.gentoo.org/main/en/lists.xml) in porting to your
 architecture. Come visit us once you've gotten those sorted out.
 
-## Chromium OS Pieces
+## ChromiumOS Pieces
 
 More To Come!

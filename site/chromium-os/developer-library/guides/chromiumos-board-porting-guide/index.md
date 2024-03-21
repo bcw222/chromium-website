@@ -1,24 +1,22 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides/
+  - ChromiumOS > Developer Library > Guides
 page_name: chromiumos-board-porting-guide
-title: Chromium OS Board Porting Guide
+title: ChromiumOS board porting guide
 ---
 
 [TOC]
 
 ## Introduction
 
-You've got a wonderful new platform that you'd like to run Chromium OS on, but
+You've got a wonderful new platform that you'd like to run ChromiumOS on, but
 have no idea how to get there from here? Fret not my fellow traveler, for this
 document shall be your guide. We promise it'll be a wondrous and enlightening
 journey.
 
 An overlay is the set of configuration files that define how the build system
-will build a Chromium OS disk image. Configurations will be different depending
+will build a ChromiumOS disk image. Configurations will be different depending
 on the board and architecture type, and what files a developer wants installed
 on a given disk image. Every command in the build process takes a required
 \`--board\` parameter, which developers should pass the overlay name to.
@@ -32,7 +30,7 @@ comfortable with things.
 
 This guide covers doing a public build (one that will be released to the world).
 There is a [separate
-guide](/chromium-os/how-tos-and-troubleshooting/chromiumos-board-porting-guide/private-boards)
+guide](/chromium-os/developer-library/guides/chromiumos-board-porting-guide/private-boards)
 (meant as an add-on to this one) for creating a private board. Setting up a
 private board is useful for when you want to keep your project details a secret
 before launch, or if your board contains proprietary drivers or firmware that
@@ -114,9 +112,9 @@ supported) architectures:
 *   arm64 -- 64-bit ARM processors
 *   x86 (i386/i486/i586/i686) -- 32-bit Intel/AMD/etc... processors
 
-If you're using a different architecture, please see the [Chromium OS
+If you're using a different architecture, please see the [ChromiumOS
 Architecture Porting
-Guide](/chromium-os/how-tos-and-troubleshooting/chromiumos-architecture-porting-guide)
+Guide](/chromium-os/developer-library/guides/chromiumos-architecture-porting-guide)
 first.
 
 ### src/overlays/overlay-$BOARD/
@@ -378,14 +376,14 @@ that.
 
 You can specify the relative path (to the root of the kernel tree) to your
 defconfig. This is useful if you are using a custom kernel tree rather than the
-official Chromium OS Linux kernel tree.
+official ChromiumOS Linux kernel tree.
 
 ```none
 $ grep CHROMEOS_KERNEL_CONFIG profiles/base/make.defaults
 CHROMEOS_KERNEL_CONFIG="arch/arm/configs/bcmrpi_defconfig"
 ```
 
-Or you can specify a Chromium OS config base. We have one for each major
+Or you can specify a ChromiumOS config base. We have one for each major
 platform/SoC that ships in an official Chrome OS device, and we have
 architecture generic configs. You can find the full list by browsing the
 [chromeos/config/ directory in the kernel
@@ -458,7 +456,7 @@ TBD
 Everyone likes optimizations. Faster is better, right? Here's the nuts and bolts
 of it.
 
-While picking out flags to use, keep in mind that Chromium OS uses
+While picking out flags to use, keep in mind that ChromiumOS uses
 [LLVM/Clang](https://clang.llvm.org/) for its compiler suite. It also uses the
 [gold linker](http://en.wikipedia.org/wiki/Gold_(linker)). So see the respective
 documentation.
@@ -490,7 +488,7 @@ variable. Commonly, this means:
     *   If you don't have an ARMv7, then you should already know the
                 answer to this question :)
 *   -mfloat-abi=hard (ARM only)
-    *   Keep in mind that Chromium OS assumes you are using the hard
+    *   Keep in mind that ChromiumOS assumes you are using the hard
                 float ABI. While it is certainly possible to get things working
                 with a soft float ABI, you shouldn't waste your time. Join us in
                 the future and migrate away from the old & slow soft float ABI
@@ -545,12 +543,11 @@ even [run it locally](/chromium-os/build/local-trybot-documentation).
 
 ### chromite/buildbot/cbuildbot_config.py
 
-At any rate, you'll need to update this [master
-file](https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/cbuildbot/cbuildbot_config.py)
+At any rate, you'll need to update this [file](https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/cbuildbot/cbuildbot_config.py)
 to add your new board configs. There are a few classes of configs to be familiar
 with:
 
-*   $BOARD-paladin: used by the [Chromium OS
+*   $BOARD-paladin: used by the [ChromiumOS
             CQ](/system/errors/NodeNotFound) -- not needed if you aren't an
             official Chrome OS device
 *   $BOARD-full: a public build of the build

@@ -53,6 +53,8 @@ title: Guides
 ## Development
 
 * [Build broken](/chromium-os/developer-library/guides/development/build-broken)
+* [ChromiumOS architecture porting guide](/chromium-os/developer-library/guides/chromiumos-architecture-porting-guide)
+* [ChromiumOS board porting guide](/chromium-os/developer-library/guides/chromiumos-board-porting-guide)
 * [ChromiumOS contributing guide](/chromium-os/developer-library/guides/development/contributing)
 * [ChromiumOS developer guide](/chromium-os/developer-library/guides/development/developer-guide)
 * [ChromiumOS guide to working on branches](/chromium-os/developer-library/guides/development/work-on-branch)
