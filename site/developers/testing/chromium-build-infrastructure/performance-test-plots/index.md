@@ -16,7 +16,7 @@ Warning: this page is stale. Performance test results are now displayed at
 See:
 
 *   [User Guide: Chrome OS Performance Tests and the Chrome Performance
-            Dashboard](/chromium-os/testing/perf-data)
+            Dashboard](/chromium-os/developer-library/reference/infrastructure/perf-data)
 *   [Adding Performance
             Tests](/developers/testing/adding-performance-tests)
 *   [Sending Data to the Performance
