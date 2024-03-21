@@ -39,6 +39,30 @@
       },
       "revId": "1cd2780b0d42fc715e1b4d8ead4dfe5225e8be6c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a669be0_5f7c4e31",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 1001529
+      },
+      "writtenOn": "2024-03-21T21:32:45Z",
+      "side": 1,
+      "message": "Yep, sorry about that -- fixed that in a previous patchset (but looks like not in time for you before you reviewed the CL).",
+      "parentUuid": "665c367b_cc3779c8",
+      "range": {
+        "startLine": 222,
+        "startChar": 0,
+        "endLine": 222,
+        "endChar": 1
+      },
+      "revId": "1cd2780b0d42fc715e1b4d8ead4dfe5225e8be6c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
