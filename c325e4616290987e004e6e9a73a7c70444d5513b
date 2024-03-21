@@ -16,6 +16,24 @@
       "message": "The breadcrumbs for chamelium-usb-audio need to be updated.",
       "revId": "c325e4616290987e004e6e9a73a7c70444d5513b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4eb3e48e_9779b490",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1547388
+      },
+      "writtenOn": "2024-03-21T20:57:00Z",
+      "side": 1,
+      "message": "Done, thank you for catching this",
+      "parentUuid": "12965426_8fb3bda2",
+      "revId": "c325e4616290987e004e6e9a73a7c70444d5513b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
