@@ -1,11 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: common-testing-workflows
-title: Common Testing Workflows
+title: Common testing workflows
 ---
 
 [TOC]
@@ -15,9 +13,9 @@ document details those.
 
 ## Workflow 1
 
-### Developer already has a built system using build instructions. Developer wants to create a copy of their image for testing and build Chromium OS tests without re-running `cros build-packages`.
+Developer already has a built system using build instructions. Developer wants to create a copy of their image for testing and build Chromium OS tests without re-running `cros build-packages`.
 
-### cros_sdk and run mod_image_for_test on the chromiumos_image.bin (if you get complaints of unmount errors, sudo umount /media/\* outside the chroot).
+cros_sdk and run mod_image_for_test on the chromiumos_image.bin (if you get complaints of unmount errors, sudo umount /media/\* outside the chroot).
 
 ## Workflow 2
 
@@ -33,9 +31,9 @@ build_autotest.sh
 
 ## Workflow 3
 
-### *Developer wants to run a test with certain conditions met on the host system before the system is ready for that test e.g. "browser is not running and has never run since boot".*
+*Developer wants to run a test with certain conditions met on the host system before the system is ready for that test e.g. "browser is not running and has never run since boot".*
 
-### For tests that require system-wide setup and system-wide cleanup, the best approach is probably to create a server-side test that sets up the environment, reboots the system, runs the test and cleans up the system. This should not be done for very small tests as rebooting is rather expensive. Take a look at [BootPerfServer](http://git.chromium.org/cgi-bin/gitweb.cgi?p=autotest.git;a=tree;f=server/site_tests/platform_BootPerfServer;h=2362958081700ed3e243935641ebe69b17890045;hb=HEAD) as an example to write such a test.
+For tests that require system-wide setup and system-wide cleanup, the best approach is probably to create a server-side test that sets up the environment, reboots the system, runs the test and cleans up the system. This should not be done for very small tests as rebooting is rather expensive. Take a look at [BootPerfServer](http://git.chromium.org/cgi-bin/gitweb.cgi?p=autotest.git;a=tree;f=server/site_tests/platform_BootPerfServer;h=2362958081700ed3e243935641ebe69b17890045;hb=HEAD) as an example to write such a test.
 
 *Note in the long run we want to create utilities that verify certain
 conditions. If you are interested in writing one of these utilities, please
