@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c31bc75_87e2441a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1516042
+      },
+      "writtenOn": "2024-03-21T22:37:00Z",
+      "side": 1,
+      "message": "Updated.",
+      "parentUuid": "6dc6be49_5f63ba63",
+      "revId": "d89d711f2f9aa969b426155ccf616f3686243244",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ec10f55a_d067f9d6",
@@ -31,6 +49,30 @@
       "writtenOn": "2024-03-21T21:46:25Z",
       "side": 1,
       "message": "nit: Change this to non-title case (only capitalize the first word). Here and in the doc itself.",
+      "range": {
+        "startLine": 24,
+        "startChar": 8,
+        "endLine": 24,
+        "endChar": 20
+      },
+      "revId": "d89d711f2f9aa969b426155ccf616f3686243244",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c3b936a_2d897a35",
+        "filename": "site/chromium-os/developer-library/reference/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1516042
+      },
+      "writtenOn": "2024-03-21T22:37:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ec10f55a_d067f9d6",
       "range": {
         "startLine": 24,
         "startChar": 8,
