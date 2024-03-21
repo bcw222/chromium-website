@@ -53,6 +53,26 @@ The password field can be set to one of the following:
 *   An encrypted password as per
     [crypt(3)](https://man7.org/linux/man-pages/man3/crypt.3.html#NOTES).
 
+### No longer needed UIDs/GIDs
+
+When a UID or GID is no longer needed, the account database entry needs to
+remain to prevent the UID/GID from being accidentally reused. Re-using the
+UID/GID could lead to a number of problems especially if there are left over
+files owned by the UID/GID.
+
+To mark a UID or GID as no longer used, add `defunct:true` to the end of the
+database entry file. For example:
+
+```
+user:tpmd
+uid:225
+gid:225
+gecos:TPM daemon
+home:/dev/null
+shell:/bin/false
+defunct:true
+```
+
 ## Choosing UIDs and GIDs
 
 Every UID on CrOS has an associated GID with the same value. The
