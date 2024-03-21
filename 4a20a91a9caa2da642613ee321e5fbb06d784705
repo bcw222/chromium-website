@@ -41,6 +41,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7a069eee_a626464a",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 1547388
+      },
+      "writtenOn": "2024-03-21T21:02:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "23b0e6ab_bf68146e",
+      "range": {
+        "startLine": 203,
+        "startChar": 12,
+        "endLine": 203,
+        "endChar": 13
+      },
+      "revId": "4a20a91a9caa2da642613ee321e5fbb06d784705",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "74030c3e_99f19bbf",
@@ -54,6 +78,30 @@
       "writtenOn": "2024-03-21T20:58:45Z",
       "side": 1,
       "message": "ChromiumOS\n\nWe actually need to fix this everywhere :-|\n```suggestion\n  - ChromiumOS \u003e Developer Library \u003e Guides\n```",
+      "range": {
+        "startLine": 4,
+        "startChar": 12,
+        "endLine": 4,
+        "endChar": 13
+      },
+      "revId": "4a20a91a9caa2da642613ee321e5fbb06d784705",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ef81ac6_ee7f28d9",
+        "filename": "site/chromium-os/developer-library/guides/testing/chamelium-usb-audio/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1547388
+      },
+      "writtenOn": "2024-03-21T21:02:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "74030c3e_99f19bbf",
       "range": {
         "startLine": 4,
         "startChar": 12,
