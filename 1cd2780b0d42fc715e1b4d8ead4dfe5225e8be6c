@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "660325cb_b6344b6a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-21T21:22:18Z",
+      "side": 1,
+      "message": "LGTM with nit.",
+      "revId": "1cd2780b0d42fc715e1b4d8ead4dfe5225e8be6c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "665c367b_cc3779c8",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 222,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-21T21:22:18Z",
+      "side": 1,
+      "message": "Accident?",
+      "range": {
+        "startLine": 222,
+        "startChar": 0,
+        "endLine": 222,
+        "endChar": 1
+      },
+      "revId": "1cd2780b0d42fc715e1b4d8ead4dfe5225e8be6c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
