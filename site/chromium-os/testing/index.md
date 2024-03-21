@@ -11,8 +11,13 @@ title: Testing Home
 
 ### Design Docs
 
+<<<<<<< PATCH SET (2abc9e CrOS Developer Library: Move Autotest Test Scheduler doc)
+*   [Dynamic Test Suite
+            Implementation](/chromium-os/testing/dynamic-test-suites)
+=======
 *   [Suite Scheduler AKA Test Scheduler
             V2](/chromium-os/testing/suite_scheduler-1)
+>>>>>>> BASE      (e2a074 CrOS Developer Library: Move moblab etc to the library from )
 
 ## Chamelium
 

@@ -22,7 +22,11 @@ title: Reference
 
 ## Design Docs
 
+<<<<<<< PATCH SET (2abc9e CrOS Developer Library: Move Autotest Test Scheduler doc)
+* [Suite scheduler design doc](/chromium-os/developer-library/reference/design-docs/suite_scheduler-1)
+=======
 * [Dynamic test suites](/chromium-os/developer-library/reference/design-docs/dynamic-test-suites)
+>>>>>>> BASE      (e2a074 CrOS Developer Library: Move moblab etc to the library from )
 * [Test dependencies in dynamic suites](/chromium-os/developer-library/reference/design-docs/test-dependencies-in-dynamic-suites)
 
 ## Device
