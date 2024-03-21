@@ -46,13 +46,14 @@ locally](/chromium-os/build/local-trybot-documentation), which will run unit
 tests and smoke tests in the same way that the builders do.
 
 *   [AFE RPC
-            Infrastructure](/chromium-os/testing/afe-rpc-infrastructure)
-*   [Autoserv Packaging](/chromium-os/testing/autoserv-packaging)
+            Infrastructure](/chromium-os/developer-library/reference/infrastructure/afe-rpc-infrastructure)
+*   [Autoserv Packaging](/chromium-os/developer-library/reference/infrastructure/autoserv-packaging)
 *   [Collecting Stats for
-            Graphite](/chromium-os/testing/collecting-stats-for-graphite)
-*   [GS Offloader](/chromium-os/testing/gs-offloader)
-*   [Autotest Keyvals](/chromium-os/testing/autotest-keyvals)
-*   [Performance Tests and Dashboard](/chromium-os/testing/perf-data)
+            Graphite](/chromium-os/developer-library/reference/infrastructure/collecting-stats-for-graphite)
+*   [GS Offloader](/chromium-os/developer-library/reference/infrastructure/gs-offloader)
+*   [Autotest Keyvals](/chromium-os/developer-library/reference/infrastructure/autotest-keyvals)
+*   [Performance Tests and
+    Dashboard](/chromium-os/developer-library/guides/testing/perf-data)
 
 </div>
 <div class="column">
