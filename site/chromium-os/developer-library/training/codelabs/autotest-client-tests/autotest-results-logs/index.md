@@ -18,7 +18,8 @@ introduction to the topic.
 log_collector.collect_client_job_results. This does an rsync from the server
 results dir to the client results dir.
 
-3. [GSoffloader](http://www.chromium.org/chromium-os/testing/gs-offloader)
+3.
+[GSoffloader](http://www.chromium.org/chromium-os/developer-library/reference/infrastructure/gs-offloader)
 uploads these results to google storage.
 
 The rest of this document describes how step 1 occurs, to learn more about the

@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
+- - /chromium-os/developer-library/reference
+  - Chromium OS > Developer Library > Reference
 page_name: autotest-keyvals
 title: Autotest Keyvals
 ---
@@ -36,7 +34,7 @@ job start/end time (job_started, job_queued, job_finished)
 
 perf keyvals, which are up to individual tests to create as they see fit. The
 use and lifecycle of perf keyvals is explained in detail on [a separate
-webpage](/chromium-os/testing/autotest-keyvals/perf-keyvals).
+webpage](/chromium-os/developer-library/reference/infrastructure/autotest-keyvals/perf-keyvals).
 
 Importantly, the tko_job_keyvals entry for a suite job stores a dictionary
 between hashed test names and job_id-owner. After a suite job is finished,
