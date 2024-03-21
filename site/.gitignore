@@ -450,7 +450,6 @@ for-testers/faft/FAFT (1).jpg
 for-testers/faft/FAFT Hardware Setup Layout.png
 for-testers/faft/Servo2_with_labels.jpg
 for-testers/faft/rc_typec_official.png
-for-testers/touch-firmware-tests/TouchFWTests.png
 for-testers/enable-logging/configure providers.png
 getting-involved/dev-channel/wrench.png
 omnibox-history-provider/Screen shot 2011-02-16 at 2.59.44 PM.png
@@ -1188,4 +1187,5 @@ chromium-os/developer-library/guides/testing/bluetooth-tast-tests/rpi_testbed_se
 chromium-os/developer-library/guides/testing/bluetooth-tast-tests/secure_ssh_raspi.png
 chromium-os/developer-library/guides/cpp/resolving-dependency-issues/chromeos_dependency_chart.png
 chromium-os/developer-library/guides/cpp/resolving-dependency-issues/delegate_diagram.jpg
+chromium-os/developer-library/guides/testing/touch-firmware-tests/TouchFWTests.png
 #end_lob_ignore

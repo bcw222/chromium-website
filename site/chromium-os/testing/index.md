@@ -30,7 +30,6 @@ When iterating on a test, you might save some time by using the
 These documents discuss test cases and (eventually) test suites.
 
 *   [Power testing](/chromium-os/testing/power-testing)
-*   [Touch Firmware Tests](/for-testers/touch-firmware-tests)
 *   [FAFT](/for-testers/faft) (Fully Automated Firmware Tests)
 
 ## Autotest
