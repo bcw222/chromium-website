@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
+- - /chromium-os/developer-library/guides
+  - Chromium OS > Developer Library > Guides
 page_name: chamelium-usb-audio
 title: Chamelium USB Audio
 ---
