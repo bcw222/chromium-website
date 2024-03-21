@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "86c96058_37e1f8cd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-21T21:32:26Z",
+      "side": 1,
+      "message": "Images shouldn\u0027t be uploaded. The .sha1 in the original directory should also be used and the underlying infrastructure pulls down the .png from the gs bucket that holds the resource (pointed to by the sha1 hash).",
+      "revId": "49b9d5358492c8c8be3473422eab56b4cf19ca63",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
