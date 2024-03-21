@@ -67,7 +67,7 @@ GSC_VERSION_CR50` to indicate it doesn't and you can ignore this guide.
 
 1. Make sure your device is in [developer mode]
 
-1. Go to the [command prompt on VT2]
+1. Go to the [command prompt on VT2] and log in as `root`.
 
 1. (optional) If you're willing to open your device chassis, you can disconnect
 the battery at this point to make the following step less cumbersome. Make sure
@@ -80,20 +80,21 @@ chassis may void your warranty.)
 not, you will be prompted to press the power button multiple times. Whenever you
 see the message "Press PP button now!" repeated on the screen, press the power
 button. When you see "Another press will be required!", do **not** press the
-button and wait until the text changes again. If you don't follow the sequence
-exactly, the command may fail and you may have to try again.
+button and wait until the text changes again. This may take up to 5 minutes. If
+you don't follow the sequence exactly, the command may fail and you may have to
+try again.
 
 1. If the command succeeds, your Chromebook will immediately reboot and will no
 longer be in developer mode. Re-enter [developer mode] the usual way, and go
 back to the VT2 command prompt.
 
-1. Run `gsctool -a -I AllowUnverifiedRo:always`. This permanently disables the
-read-only firmware verification.
+1. Run `gsctool -a -I AllowUnverifiedRo:always`. You will be prompted to press
+the power button again to confirm. This permanently disables the read-only
+firmware verification.
 
-1. Run `gsctool -a -w disable`. This permanently disables the firmware
-write-protection. (If you wish, you can later re-enable the write-protection
-after you installed your own read-only firmware by running
-`gsctool -a -w enable`.)
+1. Run `gsctool -a -w disable`. You will be prompted to press the power button
+again to confirm. This disables the firmware write-protection until the next
+reboot.
 
 1. If you disconnected the battery earlier, you can reconnect it now.
 
