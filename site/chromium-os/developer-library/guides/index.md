@@ -181,6 +181,7 @@ title: Guides
 * [Adding builder variants using profiles](/chromium-os/developer-library/guides/testing/adding-builder-variants)
 * [Bluetooth Tast tests](/chromium-os/developer-library/guides/testing/bluetooth-tast-tests)
 * [Breakage and flake policy](/chromium-os/developer-library/guides/testing/breakages-and-flakes)
+* [Chamelium USB audio](/chromium-os/developer-library/guides/testing/chamelium-usb-audio)
 * [Firmware test manual](/chromium-os/developer-library/guides/testing/firmware-test-manual)
 * [Fuzz testing in ChromeOS](/chromium-os/developer-library/guides/testing/fuzzing)
 * [Fuzz testing in ChromeOS (dupe)](/chromium-os/developer-library/guides/testing/fuzzing-main)

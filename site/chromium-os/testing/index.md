@@ -122,8 +122,6 @@ most Chrome devices through a debug header on the mainboard.
 *   [Chamelium capturing and streaming
             tool](/chromium-os/testing/chamelium-audio-streaming) to monitor
             audio underruns.
-*   [Chamelium USB audio](/chromium-os/testing/chamelium-usb-audio) to
-            setup external USB audio devices
 
 </div>
 </div>
