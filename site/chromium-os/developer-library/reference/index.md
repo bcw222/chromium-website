@@ -23,6 +23,7 @@ title: Reference
 ## Design Docs
 
 * [Test dependencies in dynamic suites](/chromium-os/developer-library/reference/design-docs/test-dependencies-in-dynamic-suites)
+* [Suite scheduler design doc](/chromium-os/developer-library/reference/design-docs/suite_scheduler-1)
 
 ## Device
 
