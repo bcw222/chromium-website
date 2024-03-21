@@ -24,6 +24,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e846eb1_1222efd4",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 1001529
+      },
+      "writtenOn": "2024-03-21T21:19:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8de3a8bc_6c4cc7b8",
+      "range": {
+        "startLine": 200,
+        "startChar": 9,
+        "endLine": 200,
+        "endChar": 17
+      },
+      "revId": "1dc76e384c8fbe057cff29f5ad16de00058e6d6b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8f808a23_ffbbc677",
@@ -37,6 +61,30 @@
       "writtenOn": "2024-03-21T21:12:24Z",
       "side": 1,
       "message": "ChromiumOS",
+      "range": {
+        "startLine": 4,
+        "startChar": 13,
+        "endLine": 4,
+        "endChar": 15
+      },
+      "revId": "1dc76e384c8fbe057cff29f5ad16de00058e6d6b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c0e6e0f5_31606d1b",
+        "filename": "site/chromium-os/developer-library/guides/testing/touch-firmware-tests/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1001529
+      },
+      "writtenOn": "2024-03-21T21:19:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8f808a23_ffbbc677",
       "range": {
         "startLine": 4,
         "startChar": 13,

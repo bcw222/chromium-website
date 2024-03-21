@@ -22,6 +22,30 @@
       },
       "revId": "2491d55b784680ad844e45f5b1b0a39041f4a635",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "30d725ee_102e8404",
+        "filename": "site/for-testers/touch-firmware-tests/TouchFWTests.png.sha1",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1001529
+      },
+      "writtenOn": "2024-03-21T21:19:45Z",
+      "side": 0,
+      "message": "I uploaded it myself in this new directory. I wasn\u0027t sure if this was necessary or not (by your comment, I guess it wasn\u0027t). But anyway, I used that new SHA.",
+      "parentUuid": "36c84c4a_dbf87e96",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 40
+      },
+      "revId": "2491d55b784680ad844e45f5b1b0a39041f4a635",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
