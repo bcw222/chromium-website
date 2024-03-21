@@ -22,8 +22,6 @@ page](http://goto.google.com/cros-build).
             Flash](/chromium-os/developer-library/reference/tools/cros-flash/)
 *   Install packages to your device with [Cros
             Deploy](/chromium-os/developer-library/reference/tools/cros-deploy/)
-*   [Bypassing tests on a per-project
-            basis](/chromium-os/build/bypassing-tests-on-a-per-project-basis)
 *   [Adding a Package to the SDK](/chromium-os/build/add-sdk-package)
 
 #### For Sheriffs
@@ -55,10 +53,6 @@ page](http://goto.google.com/cros-build).
 
 *   [Portage Build and
             FAQ](/chromium-os/developer-library/guides/portage/ebuild-faq/)
-*   [Portage Package Upgrade
-            Initiative](http://www.chromium.org/chromium-os/obsolete/portage-package-status)
-    *   [Portage Package Status
-                Spreadsheet](https://docs.google.com/a/chromium.org/spreadsheet/ccc?key=0AsXDKtaHikmcdEp1dVN1SG1yRU1xZEw1Yjhka2dCSUE#gid=0)
 *   Build hacking
     *   [Chroot versioning](/chromium-os/build/chroot_version_hooks)
                 (chroot version hooks)
