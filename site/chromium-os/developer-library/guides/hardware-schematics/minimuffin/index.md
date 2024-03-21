@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
+- - /chromium-os/developer-library/guides
+  - Chromium OS > Developer Library > Guides
 page_name: minimuffin
 title: 45W USB Type-C charging adapter control board
 ---
@@ -24,8 +24,7 @@ charger design:
 *   Support OCP (Over Current Protection) / OVP (Over Voltage
             Protection) at adapter's secondary side
 
-### <img alt="image"
-src="/chromium-os/minimuffin/45W%20Type-C%20Adapter%20Control%20Board%20150710.gif"
+<img alt="image" src="45W%20Type-C%20Adapter%20Control%20Board%20150710.gif"
 height=259 width=400>
 
 For schematic, see the attached file at the bottom of this page.

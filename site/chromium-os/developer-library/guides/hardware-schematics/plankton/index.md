@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
+- - /chromium-os/developer-library/guides
+  - Chromium OS > Developer Library > Guides
 page_name: plankton
 title: USB Type-C functional testing board
 ---
@@ -21,7 +21,7 @@ switches controller, and FTDI listener to get commands from the outside host.
 
 ## Hardware Capabilities
 
-### <img alt="image" src="/chromium-os/plankton/IMG_5169.jpg" height=320 width=271>
+### <img alt="image" src="IMG_5169.jpg" height=320 width=271>
 
 > ### Data
 
@@ -45,8 +45,7 @@ switches controller, and FTDI listener to get commands from the outside host.
 
 ## Block diagram
 
-[<img alt="image"
-src="/chromium-os/plankton/Plankton_raiden%20block%20diagram.png">](/chromium-os/plankton/Plankton_raiden%20block%20diagram.png)
+[<img alt="image" src="Plankton_raiden%20block%20diagram.png">](Plankton_raiden%20block%20diagram.png)
 
 For schematic and board files, please see the attached zip file at the bottom of
 this page.
@@ -88,10 +87,8 @@ and then use this command to flash EEPROM. The format of serial number is
 "901008-XXXXX", get the last 5 digits from the back of the Plankton Raiden
 board.
 
-[<img alt="image"
-src="/chromium-os/plankton/Plankton%20Raiden%20Software%20Care%20%26%20Feed.jpg"
-height=55
-width=400>](/chromium-os/plankton/Plankton%20Raiden%20Software%20Care%20%26%20Feed.jpg)
+[<img alt="image" src="Plankton%20Raiden%20Software%20Care%20%26%20Feed.jpg"
+    height=55 width=400>](Plankton%20Raiden%20Software%20Care%20%26%20Feed.jpg)
 
 ```none
 sudo ftx_prog --old-vid 0x0403 --new-vid 0x18d1 --old-pid 0x6015 --new-pid 0x500c --new-serial-number <serial number> --cbus 0 GPIO --cbus 1 Tristate --cbus 2 GPIO --cbus 3 GPIO --manufacturer "Google Inc" --product "Plankton" --ftprog-strings
@@ -170,9 +167,9 @@ argument:
 If debug buttons are enabled (SW9), you can use buttons to switch board
 functions. LEDs are helpful for monitoring current state of Plankton Raiden.
 
-<img alt="image" src="/chromium-os/plankton/buttons.jpeg" height=138 width=400>
+<img alt="image" src="buttons.jpeg" height=138 width=400>
 
-<img alt="image" src="/chromium-os/plankton/leds.jpeg" height=217 width=400>
+<img alt="image" src="leds.jpeg" height=217 width=400>
 
 <table>
 <tr>

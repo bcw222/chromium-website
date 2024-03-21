@@ -25,6 +25,10 @@ title: Reference
 * [Disk format](/chromium-os/developer-library/reference/device/disk-format)
 * [Firmware Config](/chromium-os/developer-library/reference/device/firmware-config)
 
+## Hardware
+
+* [Cable and adapter parameters](/chromium-os/developer-library/reference/hardware/cable-and-adapter-tips-and-tricks)
+
 ## Kernel
 
 * [Kernel scheduler in ChromeOS](/chromium-os/developer-library/reference/kernel/kernel-scheduler)

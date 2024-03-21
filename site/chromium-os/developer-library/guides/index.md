@@ -99,6 +99,14 @@ title: Guides
 
 * [Deserialize objects in golang using protobuf](/chromium-os/developer-library/guides/golang/protobuf-golang-deserialize)
 
+## Hardware Schematics
+
+* [45W USB Type-C charging adapter control board](/chromium-os/developer-library/guides/hardware-schematics/minimuffin)
+* [USB Type-C debug dongle and sniffer for USB-PD communications](/chromium-os/developer-library/guides/hardware-schematics/twinkie)
+* [USB Type-C to DisplayPort adapter](/chromium-os/developer-library/guides/hardware-schematics/dingdong)
+* [USB Type-C to HDMI adapter](/chromium-os/developer-library/guides/hardware-schematics/hoho)
+* [USB Type-C functional testing board](/chromium-os/developer-library/guides/hardware-schematics/plankton)
+
 ## IDEs
 
 * [Using clangd LSP server in the chroot](/chromium-os/developer-library/guides/ides/chroot-clangd-guide)

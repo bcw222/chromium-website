@@ -61,10 +61,10 @@ Home/chromium-privacy/privacy-sandbox/third-party-cookie-phaseout/3p-cookie-bloc
 Home/chromium-privacy/privacy-sandbox/third-party-cookie-phaseout/3p-cookie-blocked-response.png
 Home/chromium-privacy/privacy-sandbox/third-party-cookie-phaseout/3p-cookie-blocking.png
 Home/chromium-privacy/privacy-sandbox/third-party-cookie-phaseout/cookie-setting-for-site.png
-chromium-os/hoho/HoHo Block Diagram.png
-chromium-os/hoho/810-10116-02_20150109_hdmi_SCH_0.pdf
-chromium-os/hoho/HoHo Block Diagram (1).png
-chromium-os/hoho/chromium-os-hoho.tar.bz2
+chromium-os/developer-library/guides/hardware-schematics/hoho/HoHo Block Diagram.png
+chromium-os/developer-library/guides/hardware-schematics/hoho/810-10116-02_20150109_hdmi_SCH_0.pdf
+chromium-os/developer-library/guides/hardware-schematics/hoho/HoHo Block Diagram (1).png
+chromium-os/developer-library/guides/hardware-schematics/hoho/chromium-os-hoho.tar.bz2
 chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/samsung-sandy-bridge/lumpy-dev-switch.jpg
 chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/samsung-sandy-bridge/lumpy-internals-bare.jpg
 chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/samsung-sandy-bridge/stumpy-dev-switch.jpg
@@ -213,14 +213,14 @@ chromium-os/obsolete/using-eclipse-to-debug-chrome-on-chrome-os/debug connection
 chromium-os/obsolete/using-eclipse-to-debug-chrome-on-chrome-os/Resource Filters.png
 chromium-os/obsolete/monitoring-tools/timeline.jpg
 chromium-os/firmware-porting-guide/2-concepts/Verified Boot Flow.png
-chromium-os/plankton/IMG_5169.jpg
-chromium-os/plankton/leds.jpeg
-chromium-os/plankton/Plankton Raiden MCU command table.pdf
-chromium-os/plankton/Plankton_raiden block diagram.png
-chromium-os/plankton/buttons.jpeg
-chromium-os/plankton/Plankton Raiden Software Care & Feed.jpg
-chromium-os/plankton/plankton-master.tar.gz
-chromium-os/cable-and-adapter-tips-and-tricks/SourcePowerRule.png
+chromium-os/developer-library/guides/hardware-schematics/plankton/IMG_5169.jpg
+chromium-os/developer-library/guides/hardware-schematics/plankton/leds.jpeg
+chromium-os/developer-library/guides/hardware-schematics/plankton/Plankton Raiden MCU command table.pdf
+chromium-os/developer-library/guides/hardware-schematics/plankton/Plankton_raiden block diagram.png
+chromium-os/developer-library/guides/hardware-schematics/plankton/buttons.jpeg
+chromium-os/developer-library/guides/hardware-schematics/plankton/Plankton Raiden Software Care & Feed.jpg
+chromium-os/developer-library/guides/hardware-schematics/plankton/plankton-master.tar.gz
+chromium-os/developer-library/reference/hardware/cable-and-adapter-tips-and-tricks/SourcePowerRule.png
 chromium-os/donnettes/smart receptacle-05042017.pdf
 chromium-os/testing/moblab/overview-of-moblab/image00.png
 chromium-os/testing/moblab/overview-of-moblab/image01.png
@@ -345,31 +345,31 @@ chromium-os/user-experience/Concept.jpg
 chromium-os/user-experience/sdres_0001_App-Menu.png
 chromium-os/user-experience/shelf/Shelf.png
 chromium-os/comp2jpg
-chromium-os/minimuffin/45W Type-C Adapter Control Board 150710.pdf
-chromium-os/minimuffin/45W Type-C Adapter Control Board 150710.gif
+chromium-os/developer-library/guides/hardware-schematics/minimuffin/45W Type-C Adapter Control Board 150710.pdf
+chromium-os/developer-library/guides/hardware-schematics/minimuffin/45W Type-C Adapter Control Board 150710.gif
 chromium-os/packages/biod/biod_diagram.png
 chromium-os/packages/power_manager/suspend-and-resume/suspend_flowchart.png
 chromium-os/how-tos-and-troubleshooting/kernel-configuration/kernel_config_diag.png
 chromium-os/how-tos-and-troubleshooting/kernel-configuration/kernel_config_diag.svg
 chromium-os/how-tos-and-troubleshooting/running-chromeos-image-under-virtual-machines/Screenshot-QEMU-KVM.png
 chromium-os/how-tos-and-troubleshooting/get-a-3g-modem-running/GSM PIN code types.png
-chromium-os/twinkie/pulseview_zoom_packetx3.png
-chromium-os/twinkie/older-sigrok-packages/twinkie_v1.1.2705-bc6d966.combined.bin
-chromium-os/twinkie/pulseview_zoom_packet.png
-chromium-os/twinkie/pulseview_3packets.png
-chromium-os/twinkie/PulseviewSourceCap_request.png
-chromium-os/twinkie/twinkie_v1.11.21-3e33e08af.webusb.bin
-chromium-os/twinkie/PulseviewRequestAccept.png
-chromium-os/twinkie/Twinkie-diagram.png
-chromium-os/twinkie/chromium-os-twinkie-v2.tar.bz2
-chromium-os/twinkie/twinkie_v1.11.19-9e81762f2.bin
-chromium-os/twinkie/twinkie_programming.jpg
-chromium-os/twinkie/pulseview_VBUS_V.png
-chromium-os/twinkie/twinkies-3.png
-chromium-os/twinkie/twinkies-2.png
-chromium-os/twinkie/pulseview_VBUS_V_A.png
-chromium-os/twinkie/twinkie_v1.11.20-005227d8f.bin
-chromium-os/twinkie/twinkies-1.png
+chromium-os/developer-library/guides/hardware-schematics/twinkie/pulseview_zoom_packetx3.png
+chromium-os/developer-library/guides/hardware-schematics/twinkie/older-sigrok-packages/twinkie_v1.1.2705-bc6d966.combined.bin
+chromium-os/developer-library/guides/hardware-schematics/twinkie/pulseview_zoom_packet.png
+chromium-os/developer-library/guides/hardware-schematics/twinkie/pulseview_3packets.png
+chromium-os/developer-library/guides/hardware-schematics/twinkie/PulseviewSourceCap_request.png
+chromium-os/developer-library/guides/hardware-schematics/twinkie/twinkie_v1.11.21-3e33e08af.webusb.bin
+chromium-os/developer-library/guides/hardware-schematics/twinkie/PulseviewRequestAccept.png
+chromium-os/developer-library/guides/hardware-schematics/twinkie/Twinkie-diagram.png
+chromium-os/developer-library/guides/hardware-schematics/twinkie/chromium-os-twinkie-v2.tar.bz2
+chromium-os/developer-library/guides/hardware-schematics/twinkie/twinkie_v1.11.19-9e81762f2.bin
+chromium-os/developer-library/guides/hardware-schematics/twinkie/twinkie_programming.jpg
+chromium-os/developer-library/guides/hardware-schematics/twinkie/pulseview_VBUS_V.png
+chromium-os/developer-library/guides/hardware-schematics/twinkie/twinkies-3.png
+chromium-os/developer-library/guides/hardware-schematics/twinkie/twinkies-2.png
+chromium-os/developer-library/guides/hardware-schematics/twinkie/pulseview_VBUS_V_A.png
+chromium-os/developer-library/guides/hardware-schematics/twinkie/twinkie_v1.11.20-005227d8f.bin
+chromium-os/developer-library/guides/hardware-schematics/twinkie/twinkies-1.png
 chromium-os/developer-guide/BugTrackerName.png
 chromium-os/developer-guide/TrackerName.png
 chromium-os/chromiumos-design-docs/keyboard-controlled-reset-circuit/KbdReset.png
@@ -420,9 +420,9 @@ chromium-os/chromiumos-design-docs/text-input/basic-architecture.png
 chromium-os/chromiumos-design-docs/text-input/basic-architecture2.png
 chromium-os/chromiumos-design-docs/text-input/candidate_window.png
 chromium-os/chromiumos-design-docs/text-input/input.png
-chromium-os/dingdong/chromium-os-dingdong.tar.bz2
-chromium-os/dingdong/DingDong Block Diagram.png
-chromium-os/dingdong/810-10117-03_20151211_dingdong_SCH_0.pdf
+chromium-os/developer-library/guides/hardware-schematics/dingdong/chromium-os-dingdong.tar.bz2
+chromium-os/developer-library/guides/hardware-schematics/dingdong/DingDong Block Diagram.png
+chromium-os/developer-library/guides/hardware-schematics/dingdong/810-10117-03_20151211_dingdong_SCH_0.pdf
 chromium-os/comp2_200x146.jpg
 favicon.ico
 apple-touch-icon.png

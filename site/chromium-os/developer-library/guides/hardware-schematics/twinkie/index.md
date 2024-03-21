@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
+- - /chromium-os/developer-library/guides
+  - Chromium OS > Developer Library > Guides
 page_name: twinkie
 title: USB-PD Sniffer
 ---
@@ -13,9 +13,9 @@ title: USB-PD Sniffer
 This page describes a USB-PD sniffing dongle with Type-C connectors. The dongle
 can be supported by Chrome devices as part of a USB-Type C implementation.
 
-<img alt="image" src="/chromium-os/twinkie/twinkies-2.png" height=156 width=200>
-<img alt="image" src="/chromium-os/twinkie/twinkies-1.png" height=156 width=200>
-<img alt="image" src="/chromium-os/twinkie/twinkies-3.png" height=156 width=200>
+<img alt="image" src="twinkies-2.png" height=156 width=200>
+<img alt="image" src="twinkies-1.png" height=156 width=200>
+<img alt="image" src="twinkies-3.png" height=156 width=200>
 
 ## Hardware Capabilities
 
@@ -28,8 +28,7 @@ can be supported by Chrome devices as part of a USB-Type C implementation.
 *   Injecting PD packets on CC1 or CC2
 *   Putting Rd/Rp/Ra resistors on CC1 or CC2
 
-[<img alt="image" src="/chromium-os/twinkie/Twinkie-diagram.png" height=314
-width=400>](/chromium-os/twinkie/Twinkie-diagram.png)
+[<img alt="image" src="Twinkie-diagram.png" height=314 width=400>](Twinkie-diagram.png)
 
 Complete schematics, layout, and enclosure are attached at the bottom of this
 page.

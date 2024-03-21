@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
+- - /chromium-os/developer-library/reference
+  - Chromium OS > Developer Library > Reference
 page_name: cable-and-adapter-tips-and-tricks
 title: USB Type-C Cable and Adapter Tips and Tricks
 ---
@@ -150,8 +150,7 @@ initially specifying the voltage and current capability of an adapter which
 supplies &gt; 15W, pay close attention to Power Rules, in USB PD R2.0 V1.2
 Section 10.
 
-[<img alt="image"
-src="/chromium-os/cable-and-adapter-tips-and-tricks/SourcePowerRule.png">](/chromium-os/cable-and-adapter-tips-and-tricks/SourcePowerRule.png)
+[<img alt="image" src="SourcePowerRule.png">](SourcePowerRule.png)
 
 USB PD Revision 2.0 specifies normative voltage rails of 5V, 9V, 15V, and 20V.
 In order to support a particular voltage rail, all voltage rails lower must be

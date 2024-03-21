@@ -15,15 +15,18 @@ obtain the source code, and contribute. To learn more about the project goals,
 read the [announcement blog
 post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.html).
 
+</div>
+
+<div class="column">
+
+### ![](/chromium-os/comp2_200x146.jpg)
+
+</div>
+</div>
 
 ### For developers
 
 *   [ChromiumOS Build](/chromium-os/build)
-
-</div>
-<div class="column">
-
-### ![](/chromium-os/comp2_200x146.jpg)
 
 ### Source code
 
@@ -45,21 +48,3 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 *   [All How Tos and
             Troubleshooting](/chromium-os/how-tos-and-troubleshooting)
 *   [Design docs](/chromium-os/chromiumos-design-docs)
-
-### Hardware Reference docs and schematics
-
-Software for the microcontroller on these USB Type-C example designs is in the
-[EC source code](https://chromium.googlesource.com/chromiumos/platform/ec/+/HEAD/README.md)
-
-*   [USB Type-C debug dongle and sniffer for USB-PD
-            communications](/chromium-os/twinkie)
-*   [USB Type-C to DisplayPort Adapter](/chromium-os/dingdong)
-*   [USB Type-C to HDMI Adapter](/chromium-os/hoho)
-*   [45W USB Type-C Charging Adapter Control
-            Board](/chromium-os/minimuffin)
-*   [Cable and Adapter Tips and
-            Tricks](/chromium-os/cable-and-adapter-tips-and-tricks)
-*   [USB Type-C functional testing board](/chromium-os/plankton)
-
-</div>
-</div>
