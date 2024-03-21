@@ -1,15 +1,14 @@
 ---
 breadcrumbs:
-- - /for-testers
-  - For Testers
+- - /chromium-os/developer-library/guides
+  - Chromium OS > Developer Library > Guides
 page_name: touch-firmware-tests
 title: Touch Firmware Tests
 ---
 
 [TOC]
 
-[ <img alt="image" src="/for-testers/touch-firmware-tests/TouchFWTests.png"
-height=94 width=400>](/for-testers/touch-firmware-tests/TouchFWTests.png)
+![Touch Firmware Tests](/chromium-os/developer-library/guides/testing/touch-firmware-tests/TouchFWTests.png)
 
 ## Preparing the Testing Host
 
