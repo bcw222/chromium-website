@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "36c84c4a_dbf87e96",
+        "filename": "site/for-testers/touch-firmware-tests/TouchFWTests.png.sha1",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-21T21:12:24Z",
+      "side": 0,
+      "message": "Hmm, why is the hash different?",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 40
+      },
+      "revId": "2491d55b784680ad844e45f5b1b0a39041f4a635",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
