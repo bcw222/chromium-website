@@ -1,15 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
-- - /chromium-os/testing/test-code-labs
-  - Test Code Labs
-- - /chromium-os/testing/test-code-labs/autotest-client-tests
-  - Autotest Client Tests
+- - /chromium-os/developer-library/training
+  - ChromiumOS > Developer Library > Training
 page_name: autotest-results-logs
-title: Autotest Results Logs
+title: Autotest results logs
 ---
 
 This is a listing and brief explanation of the various results logs available
@@ -201,5 +195,4 @@ test_loggables-df, dmesg, installed_packages, schedstat, meminfo, slabinfo,
 interrupts
 
 If you have come this far, you may also be interested in reading the autotest
-client tests
-[codelab](/chromium-os/testing/test-code-labs/autotest-client-tests).
+client tests [codelab](autotest-client-tests).

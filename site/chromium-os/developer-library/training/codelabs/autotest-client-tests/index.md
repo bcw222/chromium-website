@@ -1,13 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
-- - /chromium-os/testing/test-code-labs
-  - Test Code Labs
+- - /chromium-os/developer-library/training
+  - ChromiumOS > Developer Library > Training
 page_name: autotest-client-tests
-title: Autotest Client Tests
+title: Autotest client tests
 ---
 
 [TOC]
@@ -20,16 +16,11 @@ title: Autotest Client Tests
             Guide](http://git.chromium.org/gitweb/?p=chromiumos/third_party/autotest.git;a=blob;f=CODING_STYLE;h=777cc1de3e409a69581ae44a9432d8634dc114e6;hb=HEAD)
 *   [Writing
             Autotests](http://www.chromium.org/chromium-os/testing/autotest-developer-faq#TOC-Writing-Autotests)
-*   [Dynamic Suites
-            Codelab](/chromium-os/testing/test-code-labs/dynamic-suite-codelab)
-*   [Server Side Autotests
-            Codelab](/chromium-os/testing/test-code-labs/server-side-test)
-*   [Result logs
-            ](/chromium-os/testing/test-code-labs/autotest-client-tests/autotest-results-logs)
-*   [Client helper
-            libraries](/chromium-os/testing/test-code-labs/autotest-client-tests/autotest-client-helper-libraries)
-*   [Troubleshooting ebuild
-            files](/chromium-os/testing/test-code-labs/autotest-client-tests/basic-ebuild-troubleshooting)
+*   [Dynamic Suites Codelab](dynamic-suite-codelab)
+*   [Server Side Autotests Codelab](server-side-test)
+*   [Result logs](autotest-results-logs)
+*   [Client helper libraries](autotest-client-helper-libraries)
+*   [Troubleshooting ebuild files](basic-ebuild-troubleshooting)
 
 # Overview
 
@@ -87,9 +78,8 @@ directories might give you some perspective:
 *   `<cros_checkout>/src/platform/factory`: holds some private factory
             tests, although the bulk of factory tests reside in site_tests.
 
-Please consult the [dynamic suite
-codelab](/chromium-os/testing/test-code-labs/dynamic-suite-codelab) to
-understand how your tests can run as a suite.
+Please consult the [dynamic suite codelab](dynamic-suite-codelab) to understand
+how your tests can run as a suite.
 
 ## Prerequisites
 
@@ -341,18 +331,16 @@ test_that -b lumpy DUT_IP kernel_HdParmBasics
 ```
 
 If you’d like more perspective you might benefit from consulting the
-[troubleshooting](/chromium-os/testing/test-code-labs/autotest-client-tests/basic-ebuild-troubleshooting)
+[troubleshooting](basic-ebuild-troubleshooting)
 doc.
 
 ## Checking results
 
-The results folder contains [many
-logs](/chromium-os/testing/test-code-labs/autotest-client-tests/autotest-results-logs),
-to analyze client test logging messages you need to find
-kernel_HdParmBasic.(DEBUG, INFO, ERROR) depending on which logging macro you
-used. Note: logging message priorities escalate, and debug &lt; info &lt;
-warning &lt; error. If you want to see all logging messages just look in the
-debug logs.
+The results folder contains [many logs](autotest-results-logs), to analyze
+client test logging messages you need to find kernel_HdParmBasic.(DEBUG, INFO,
+ERROR) depending on which logging macro you used. Note: logging message
+priorities escalate, and debug &lt; info &lt; warning &lt; error. If you want to
+see all logging messages just look in the debug logs.
 
 Client test logs should be in:
 `/tmp/test_that.<RESULTS_DIR_HASH>/kernel_HdParmBasic/kernle_HdParmBasic/debug`

@@ -1,13 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
-- - /chromium-os/testing/test-code-labs
-  - Test Code Labs
+- - /chromium-os/developer-library/training
+  - ChromiumOS > Developer Library > Training
 page_name: server-side-test
-title: Server Side Test for Chromium OS Autotest Codelab
+title: Server Side test for ChromiumOS autotest codelab
 ---
 
 [TOC]
@@ -69,7 +65,7 @@ title: Server Side Test for Chromium OS Autotest Codelab
 
 ****Autotest has a notion of both client-side tests and server-side tests. All tests are managed by an Autotest server machine that is typically the machine where [test_that](http://go/cros-test_that) is invoked. test_that (can be found in folder scripts) is a script to run autoserv process which deploys and executes tests on remote machines.****
 
-****Code in a client-side test runs only on the device under test (DUT), and as such isn’t capable of maintaining state across reboots, handling a failed suspend/resume, or the like. If possible, an Autotest should be written as a client-side test, as it’s simpler and more reusable. Code lab for client side test can be found [here](http://www.chromium.org/chromium-os/testing/test-code-labs/autotest-client-tests).****
+****Code in a client-side test runs only on the device under test (DUT), and as such isn’t capable of maintaining state across reboots, handling a failed suspend/resume, or the like. If possible, an Autotest should be written as a client-side test, as it’s simpler and more reusable. Code lab for client side test can be found [here](/chromium-os/developer-library/training/codelabs/autotest-client-tests).****
 
 ****A ‘server’ test runs on the Autotest server, and gets assigned a DUT, just like a client-side test. It can use various Autotest primitives (and library code written by the CrOS team) to manipulate that device. Most, if not all, tests that use [Servo](/chromium-os/servo) or remote power management should be written as server-side tests. As a good example, if the DUT needs to be rebooted during the test, it should be a server-side test.****
 
@@ -396,7 +392,7 @@ src/third_party/autotest/files/server/site_tests/ folder. Note that the folder
 name must match the class name of the test code (the class is the one defined in
 test wrapper and derived from base class “test”). See the code lab for [Creating
 and deploying Chromium OS Dynamic Test
-Suites](/chromium-os/testing/test-code-labs/dynamic-suite-codelab).
+Suites](/chromium-os/developer-library/training/codelabs/dynamic-suite-codelab).
 
 ### Step 4. Implement test logic in test wrapper
 
