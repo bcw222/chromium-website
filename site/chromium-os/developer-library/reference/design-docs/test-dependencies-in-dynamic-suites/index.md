@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
+- - /chromium-os/developer-library/reference/design-docs
+  - Chromium OS > Developer Library > Reference > Design Docs
 page_name: test-dependencies-in-dynamic-suites
 title: Test Dependencies in Dynamic Suites
 ---
