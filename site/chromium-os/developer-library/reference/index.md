@@ -19,6 +19,10 @@ title: Reference
 * [Bazel remote caching](/chromium-os/developer-library/reference/build/bazel-remote-caching)
 * [GN in ChromeOS](/chromium-os/developer-library/reference/build/chromeos-gn)
 
+## Design Docs
+
+* [Test dependencies in dynamic suites](/chromium-os/developer-library/reference/design-docs/test-dependencies-in-dynamic-suites)
+
 ## Device
 
 * [CBI: CrOS Board Info](/chromium-os/developer-library/reference/device/cros-board-info)
