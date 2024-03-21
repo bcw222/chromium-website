@@ -25,6 +25,10 @@ title: Reference
 * [Disk format](/chromium-os/developer-library/reference/device/disk-format)
 * [Firmware Config](/chromium-os/developer-library/reference/device/firmware-config)
 
+## Design Docs
+
+* [Dynamic Test Suites](/chromium-os/developer-library/reference/design-docs/dynamic-test-suites)
+
 ## Kernel
 
 * [Kernel scheduler in ChromeOS](/chromium-os/developer-library/reference/kernel/kernel-scheduler)
