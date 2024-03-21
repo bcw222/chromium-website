@@ -1,11 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
+- - /chromium-os/developer-library/reference
+  - ChromiumOS > Developer Library > Reference
 page_name: suite_scheduler-1
-title: Suite Scheduler Design Doc
+title: Suite scheduler design doc
 ---
 
 **Autotest Test Scheduler V2**
