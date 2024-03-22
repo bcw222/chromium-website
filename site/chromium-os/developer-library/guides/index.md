@@ -43,6 +43,7 @@ title: Guides
 
 ## Debugging
 
+* [Debugging a cellular modem](/chromium-os/developer-library/guides/debugging/debugging-3g)
 * [Debugging accessibility (a11y) Issues](/chromium-os/developer-library/guides/debugging/a11y-debugging)
 * [Debug button shortcuts](/chromium-os/developer-library/guides/debugging/debug-buttons)
 * [Debugging tips and tricks](/chromium-os/developer-library/guides/debugging/debugging)
@@ -56,6 +57,8 @@ title: Guides
 * [ChromiumOS contributing guide](/chromium-os/developer-library/guides/development/contributing)
 * [ChromiumOS developer guide](/chromium-os/developer-library/guides/development/developer-guide)
 * [ChromiumOS guide to working on branches](/chromium-os/developer-library/guides/development/work-on-branch)
+* [Create a CL](/chromium-os/developer-library/guides/create-a-cl)
+* [Creating local mirrors](/chromium-os/developer-library/guides/creating-local-mirrors)
 * [CrOS work command cheatsheet](/chromium-os/developer-library/guides/development/cheatsheet)
 * [Development basics](/chromium-os/developer-library/guides/development/development-basics)
 * [Getting started with platform2](/chromium-os/developer-library/guides/development/platform2-primer)
