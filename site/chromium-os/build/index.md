@@ -22,7 +22,7 @@ page](http://goto.google.com/cros-build).
             Flash](/chromium-os/developer-library/reference/tools/cros-flash/)
 *   Install packages to your device with [Cros
             Deploy](/chromium-os/developer-library/reference/tools/cros-deploy/)
-*   [Adding a Package to the SDK](/chromium-os/build/add-sdk-package)
+*   [Adding a package to the SDK](/chromium-os/developer-library/guides/portage/add-sdk-package)
 
 #### For Sheriffs
 

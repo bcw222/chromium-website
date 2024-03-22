@@ -44,7 +44,7 @@ In our chroot, Portage installs packages into multiple directories:
 To cross-compile, the SDK requires special tools which are installed via the
 `virtual/target-chromium-os-sdk` package. When additional tools are needed,
 this package can be upgraded and re-merged (see
-[Adding a Package to the SDK](https://www.chromium.org/chromium-os/build/add-sdk-package)).
+[Adding a package to the SDK](/chromium-os/developer-library/guides/portage/add-sdk-package)).
 The `cros build-packages` command ensures that re-merging will add required
 tools automatically.  Notice that since we are updating the chroot/host, we use
 the standard `emerge` command that installs packages at the root and uses the

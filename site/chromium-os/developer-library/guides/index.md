@@ -155,6 +155,7 @@ title: Guides
 
 ## Portage
 
+* [Adding a package to the SDK](/chromium-os/developer-library/guides/portage/add-sdk-package)
 * [CrOS bashrc override framework](/chromium-os/developer-library/guides/portage/profile-bashrc)
 * [Ebuild FAQ](/chromium-os/developer-library/guides/portage/ebuild-faq)
 * [How to patch an ebuild](/chromium-os/developer-library/guides/portage/how-to-patch-an-ebuild)
