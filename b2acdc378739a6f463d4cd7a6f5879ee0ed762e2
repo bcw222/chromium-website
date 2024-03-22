@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3baafb7e_e9e21786",
+        "filename": "site/chromium-os/developer-library/reference/design_docs/suite_scheduler-1/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-22T17:40:02Z",
+      "side": 1,
+      "message": "nit: ChromiumOS",
+      "range": {
+        "startLine": 4,
+        "startChar": 13,
+        "endLine": 4,
+        "endChar": 15
+      },
+      "revId": "b2acdc378739a6f463d4cd7a6f5879ee0ed762e2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f43ccb1e_28a27701",
+        "filename": "site/chromium-os/developer-library/reference/design_docs/suite_scheduler-1/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-22T17:40:02Z",
+      "side": 1,
+      "message": "nit: Non-title case (only capitalize the first word).\n```suggestion\ntitle: Suite scheduler design doc\n```",
+      "range": {
+        "startLine": 6,
+        "startChar": 13,
+        "endLine": 6,
+        "endChar": 22
+      },
+      "revId": "b2acdc378739a6f463d4cd7a6f5879ee0ed762e2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bcadfb99_efc351d4",
+        "filename": "site/chromium-os/developer-library/reference/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-22T17:40:02Z",
+      "side": 1,
+      "message": "nit: Make this text match the title of the doc.",
+      "range": {
+        "startLine": 30,
+        "startChar": 3,
+        "endLine": 30,
+        "endChar": 11
+      },
+      "revId": "b2acdc378739a6f463d4cd7a6f5879ee0ed762e2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
