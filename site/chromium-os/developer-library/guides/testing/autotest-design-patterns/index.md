@@ -1,11 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
+- - /chromium-os/developer-library/guides
+  - Chromium OS > Developer Library > Guides
 page_name: autotest-design-patterns
-title: Autotest Design Patterns
+title: Autotest design patterns
 ---
 
 [TOC]
@@ -98,7 +96,7 @@ telemetry changes.
 
 1.  First set up a local AFE and database by following the instructions
             here:
-            <http://www.chromium.org/chromium-os/testing/autotest-developer-faq/setup-autotest-server>
+            <http://www.chromium.org/chromium-os/developer-library/guides/autotest-developer-faq/setup-autotest-server>
 2.  Kick off a local devserver.
 
     ```none

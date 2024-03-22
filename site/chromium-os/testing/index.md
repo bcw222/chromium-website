@@ -53,15 +53,6 @@ tests and smoke tests in the same way that the builders do.
 
 ### Writing Tests & Suites
 
-*   [Autotest Best
-            Practices](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/best-practices.md)
-            - Start here when writing any code for Autotest.
-*   [Autotest Developer
-            FAQ](/chromium-os/testing/autotest-developer-faq) - Working on test
-            cases within Autotest.
-*   [Autotest Design
-            Patterns](/chromium-os/testing/autotest-design-patterns) - Recipes
-            for completing specific tasks in Autotest
 *   [Existing Autotest
             Utilities](/chromium-os/testing/existing-autotest-utilities) -
             Coming Soon!

@@ -181,6 +181,8 @@ title: Guides
 ## Testing
 
 * [Adding builder variants using profiles](/chromium-os/developer-library/guides/testing/adding-builder-variants)
+* [Autotest design patterns](/chromium-os/developer-library/guides/testing/autotest-design-patterns)
+* [Autotest developer FAQ](/chromium-os/developer-library/guides/testing/autotest-developer-faq)
 * [Best practices for writing ChromeOS unit tests](/chromium-os/developer-library/guides/testing/unit-tests)
 * [Best practices for writing Tast tests](/chromium-os/developer-library/guides/testing/tast-tests-best-practice)
 * [Bluetooth Tast tests](/chromium-os/developer-library/guides/testing/bluetooth-tast-tests)
