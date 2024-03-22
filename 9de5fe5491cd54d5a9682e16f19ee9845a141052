@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6ebb918e_47427332",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-22T17:42:54Z",
+      "side": 1,
+      "message": "The original resource should have been removed, i.e.,\n\ngit mv testing/old library/guides/...\n\nThe reference in the testing index.md also needs to be removed.",
+      "revId": "9de5fe5491cd54d5a9682e16f19ee9845a141052",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
