@@ -179,6 +179,8 @@ title: Guides
 ## Testing
 
 * [Adding builder variants using profiles](/chromium-os/developer-library/guides/testing/adding-builder-variants)
+* [Autotest design patterns](/chromium-os/developer-library/guides/testing/autotest-design-patterns)
+* [Autotest developer FAQ](/chromium-os/developer-library/guides/testing/autotest-developer-faq)
 * [Bluetooth Tast tests](/chromium-os/developer-library/guides/testing/bluetooth-tast-tests)
 * [Breakage and flake policy](/chromium-os/developer-library/guides/testing/breakages-and-flakes)
 * [Chamelium USB audio](/chromium-os/developer-library/guides/testing/chamelium-usb-audio)

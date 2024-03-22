@@ -1,13 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
-- - /chromium-os/testing/autotest-developer-faq
-  - Autotest Developer FAQ
+- - /chromium-os/developer-library/guides
+  - Chromium OS > Developer Library > Guides
 page_name: setup-autotest-server
-title: Setup Autotest Server
+title: Setup Autotest server
 ---
 
 This document will go over how to set up a local Autotest server for developing
@@ -25,7 +21,7 @@ make sure everything is owned by www-data with user only permissions:
 <https://www.chromium.org/chromium-os/developer-library/guides/development/developer-guide/#Set-up-SSH-connection-between-chroot-and-DUT>
 
 If you ran the setup script please proceed to the Autotest Server Usage Guide:
-<https://www.chromium.org/chromium-os/testing/autotest-developer-faq/autotest-server-usage>
+<https://www.chromium.org/chromium-os/developer-library/guides/autotest-developer-faq/autotest-server-usage>
 
 You will want to re-run this script or the below steps for changes that are not
 easily testable in the production server. Generally this will not be needed for
@@ -232,4 +228,4 @@ setup_dev_autotest.sh.\*\*\***
 ## Using the Autotest Server
 
 Now that everything is setup, please proceed to the Autotest Server Usage Guide
-<https://www.chromium.org/chromium-os/testing/autotest-developer-faq/autotest-server-usage>
+<https://www.chromium.org/chromium-os/developer-library/guides/autotest-developer-faq/autotest-server-usage>

@@ -1,11 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
+- - /chromium-os/developer-library/guides
+  - Chromium OS > Developer Library > Guides
 page_name: autotest-developer-faq
-title: Autotest Developer FAQ
+title: Autotest developer FAQ
 ---
 
 [TOC]
@@ -60,7 +58,7 @@ to test your change unless you can actually run an instance of the Autotest
 server locally.
 
 To quickly get functional Autotest server setup please refer to: [Setup Autotest
-Server](/chromium-os/testing/autotest-developer-faq/setup-autotest-server)
+Server](/chromium-os/developer-library/guides/autotest-developer-faq/setup-autotest-server)
 
 Reasons to run a local Autotest server might include:
 
@@ -368,7 +366,7 @@ see below for how to run a Telemetry Test/Benchmark in autotest.
 ### How do I write a test that uses Telemetry?
 
 [Please refer to Wrapping a Telemetry test in
-Autotest](/chromium-os/testing/autotest-design-patterns#TOC-Wrapping-a-Telemetry-test-in-Autotest)
+Autotest](/chromium-os/developer-library/guides/autotest-design-patterns#TOC-Wrapping-a-Telemetry-test-in-Autotest)
 
 ### How do I bundle a bunch of tests into a suite that can be scheduled and run as a group?
 
@@ -449,7 +447,7 @@ use gmerge for autotest or autotest-tests.
 These messages come up when autotest tries to run 'make' or 'patch' on the
 client. They are not supposed to run there. Test code is only patched and
 compiled on the host as describe
-[above](http://www.chromium.org/chromium-os/testing/autotest-developer-faq#TOC-How-do-I-create-a-test-that-requires-compiling-code-).
+[above](/chromium-os/developer-library/guides/autotest-developer-faq#TOC-How-do-I-create-a-test-that-requires-compiling-code-).
 
 Common mistakes are:
 
