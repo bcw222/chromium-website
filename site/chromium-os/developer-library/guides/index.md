@@ -15,20 +15,20 @@ title: Guides
 
 ## App Development
 
+* [Developing apps on your ChromiumOS device](/chromium-os/developer-library/guides/app-development/developing-apps-on-your-chromium-os-device)
 * [Optimize Android Apps for ChromeOS device](/chromium-os/developer-library/guides/app-development/android-apps)
 * [Sideload Android apps on your Chromebook](/chromium-os/developer-library/guides/app-development/sideload-android-apps-on-chromebook)
-* [Developing apps on your ChromiumOS device](/chromium-os/developer-library/guides/app-development/developing-apps-on-your-chromium-os-device)
 
 ## Bugs
 
+* [Chrome OS security severity guidelines](/chromium-os/developer-library/guides/bugs/security-severity-guidelines)
 * [Reporting bugs](/chromium-os/developer-library/guides/bugs/reporting-bugs)
 * [Reporting Chrome OS bugs in the buganizer public tracker](/chromium-os/developer-library/guides/bugs/platform-public-tracker)
-* [Chrome OS security severity guidelines](/chromium-os/developer-library/guides/bugs/security-severity-guidelines)
 
 ## Code review
 
-* [Firmware code reviews](/chromium-os/developer-library/guides/code-review/firmware-code-reviews)
 * [Code review and submitting code](/chromium-os/developer-library/guides/code-review/code-reviews-and-submitting-code)
+* [Firmware code reviews](/chromium-os/developer-library/guides/code-review/firmware-code-reviews)
 
 ## C++
 
@@ -37,9 +37,9 @@ title: Guides
 
 ## Containers
 
-* [Running custom containers under Chrome OS](/chromium-os/developer-library/guides/containers/containers-and-vms)
 * [Chrome OS VM for Chromium developers](/chromium-os/developer-library/guides/containers/cros-vm)
 * [Crostini developer guide](/chromium-os/developer-library/guides/containers/crostini-developer-guide)
+* [Running custom containers under Chrome OS](/chromium-os/developer-library/guides/containers/containers-and-vms)
 
 ## Debugging
 
@@ -150,11 +150,11 @@ title: Guides
 
 ## Portage
 
+* [CrOS bashrc override framework](/chromium-os/developer-library/guides/portage/profile-bashrc)
 * [Ebuild FAQ](/chromium-os/developer-library/guides/portage/ebuild-faq)
 * [How to patch an ebuild](/chromium-os/developer-library/guides/portage/how-to-patch-an-ebuild)
-* [Overlay FAQ](/chromium-os/developer-library/guides/portage/overlay-faq)
 * [New & upgrade package process](/chromium-os/developer-library/guides/portage/package-upgrade-process)
-* [CrOS bashrc override framework](/chromium-os/developer-library/guides/portage/profile-bashrc)
+* [Overlay FAQ](/chromium-os/developer-library/guides/portage/overlay-faq)
 
 ## Preferences
 * [Preferences and policies](/chromium-os/developer-library/guides/preferences/policy-prefs)
@@ -169,10 +169,10 @@ title: Guides
 
 ## Security
 
-* [Shell scripts & noexec mounts](/chromium-os/developer-library/guides/security/noexec-shell-scripts)
 * [ChromeOS security review HOWTO](/chromium-os/developer-library/guides/security/security-review-howto)
-* [Owned test accounts (OTAs) for manual testing](/chromium-os/developer-library/guides/security/test-accounts)
 * [ChromeOS security vulnerability management](/chromium-os/developer-library/guides/security/vulnerability-management)
+* [Owned test accounts (OTAs) for manual testing](/chromium-os/developer-library/guides/security/test-accounts)
+* [Shell scripts & noexec mounts](/chromium-os/developer-library/guides/security/noexec-shell-scripts)
 
 ## System Web Apps
 * [How to launch a SWA async](/chromium-os/developer-library/guides/web-apps/launch-swa-async)
@@ -181,30 +181,31 @@ title: Guides
 ## Testing
 
 * [Adding builder variants using profiles](/chromium-os/developer-library/guides/testing/adding-builder-variants)
+* [Best practices for writing ChromeOS unit tests](/chromium-os/developer-library/guides/testing/unit-tests)
+* [Best practices for writing Tast tests](/chromium-os/developer-library/guides/testing/tast-tests-best-practice)
 * [Bluetooth Tast tests](/chromium-os/developer-library/guides/testing/bluetooth-tast-tests)
 * [Breakage and flake policy](/chromium-os/developer-library/guides/testing/breakages-and-flakes)
 * [Chamelium USB audio](/chromium-os/developer-library/guides/testing/chamelium-usb-audio)
+* [ChromeOS performance tests](/chromium-os/developer-library/guides/testing/performance)
+* [ChromiumOS unit testing](/chromium-os/developer-library/guides/testing/running-unit-tests)
+* [Common Green Stainless updates](/chromium-os/developer-library/guides/testing/green-stainless-report)
+* [Common testing workflows](/chromium-os/developer-library/guides/testing/common-testing-workflows)
 * [Firmware test manual](/chromium-os/developer-library/guides/testing/firmware-test-manual)
 * [Fuzz testing in ChromeOS](/chromium-os/developer-library/guides/testing/fuzzing)
 * [Fuzz testing in ChromeOS (dupe)](/chromium-os/developer-library/guides/testing/fuzzing-main)
-* [Running IGT tests on ChromeOS](/chromium-os/developer-library/guides/testing/igt)
 * [Kernel fuzzing in ChromeOS](/chromium-os/developer-library/guides/testing/kernel-fuzzing)
-* [ChromeOS performance tests](/chromium-os/developer-library/guides/testing/performance)
 * [Python unittest mocking](/chromium-os/developer-library/guides/testing/python-mock)
-* [Running unittests via QEMU](/chromium-os/developer-library/guides/testing/qemu-unit-tests-design)
-* [ChromiumOS unit testing](/chromium-os/developer-library/guides/testing/running-unit-tests)
-* [Running a single binary with UBSAN](/chromium-os/developer-library/guides/testing/single-binary-ubsan)
 * [Run Tast tests with servo](/chromium-os/developer-library/guides/testing/test-with-servo)
-* [Best practices for writing ChromeOS unit tests](/chromium-os/developer-library/guides/testing/unit-tests)
-* [Best practices for writing Tast tests](/chromium-os/developer-library/guides/testing/tast-tests-best-practice)
+* [Running a single binary with UBSAN](/chromium-os/developer-library/guides/testing/single-binary-ubsan)
+* [Running and writing "Tast" automated end to end (E2E) tests](/chromium-os/developer-library/guides/testing/e2e-tests)
+* [Running IGT tests on ChromeOS](/chromium-os/developer-library/guides/testing/igt)
+* [Running unittests via QEMU](/chromium-os/developer-library/guides/testing/qemu-unit-tests-design)
 * [Tips on writing Tast tests](/chromium-os/developer-library/guides/testing/tast-tests-writing-tips)
 * [Tips on writing C++ Browser tests](/chromium-os/developer-library/guides/testing/browser-tests-writing-tips)
 * [Touch firmware tests](/chromium-os/developer-library/guides/testing/touch-firmware-tests)
 * [UI selection in Tast](/chromium-os/developer-library/guides/testing/ui-tast-tests)
-* [Writing tests in C++](/chromium-os/developer-library/guides/testing/cpp-writing-tests)
-* [Common Green Stainless updates](/chromium-os/developer-library/guides/testing/green-stainless-report)
-* [Running and writing "Tast" automated end to end (E2E) tests](/chromium-os/developer-library/guides/testing/e2e-tests)
 * [Using test suites](/chromium-os/developer-library/guides/testing/test-suites)
+* [Writing tests in C++](/chromium-os/developer-library/guides/testing/cpp-writing-tests)
 
 ## Third Party
 
@@ -216,8 +217,8 @@ title: Guides
 * [Detecting dark mode in polymer](/chromium-os/developer-library/guides/typescript/detect-dark-mode)
 * [Detecting online status in polymer](/chromium-os/developer-library/guides/typescript/detect-online)
 * [Generating a local `tsconfig.json` file](/chromium-os/developer-library/guides/typescript/generating-local-tsconfig)
-* [Setting up your TypeScript dev environment](/chromium-os/developer-library/guides/typescript/setup-ts-environment)
 * [How to mock JavaScript](/chromium-os/developer-library/guides/typescript/javascript-mock)
+* [Setting up your TypeScript dev environment](/chromium-os/developer-library/guides/typescript/setup-ts-environment)
 
 ## Views (UI framework)
 
