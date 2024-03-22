@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - ChromiumOS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/reference
+  - ChromiumOS > Developer Library > Reference
 page_name: developer-faq
 title: High-Level Developer FAQ
 ---
