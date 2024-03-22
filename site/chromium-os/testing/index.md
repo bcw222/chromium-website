@@ -19,9 +19,6 @@ and add your own unit tests, follow these
 
 ### Testing Workflows
 
-Here's a description of some common [developer
-workflows](/chromium-os/testing/common-testing-workflows)
-
 When iterating on a test, you might save some time by using the
 [autotest_quickmerge](/system/errors/NodeNotFound) tool.
 
