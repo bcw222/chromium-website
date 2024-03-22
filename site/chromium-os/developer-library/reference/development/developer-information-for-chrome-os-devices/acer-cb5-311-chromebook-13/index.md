@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 page_name: acer-cb5-311-chromebook-13
 title: Acer CB5-311 Chromebook 13
 ---
@@ -15,8 +15,8 @@ title: Acer CB5-311 Chromebook 13
 This page contains information about the [Acer Chromebook 13
 (CB5-311)](https://store.google.com/product/acer_chromebook_13) that is
 interesting and/or useful to software developers. For general information about
-getting started with developing on Chromium OS (the open-source version of the
-software on the Chrome Notebook), see the [Chromium OS Developer
+getting started with developing on ChromiumOS (the open-source version of the
+software on the Chrome Notebook), see the [ChromiumOS Developer
 Guide](/chromium-os/developer-guide).
 
 <img alt="image"
@@ -71,7 +71,7 @@ chance of trashing the contents of your stateful partition.
 
 Enabling Developer mode is the first step to tinkering with your Chromebook.
 With Developer mode enabled you can do things like poke around on a command
-shell (as root if you want), install Chromium OS, or try other OS's. Note that
+shell (as root if you want), install ChromiumOS, or try other OS's. Note that
 Developer mode turns off some security features like verified boot and disabling
 the shell access. If you want to browse in a safer, more secure way, leave
 Developer mode turned OFF. Note: Switching between Developer and Normal
@@ -128,6 +128,6 @@ without your knowledge.
 ## Firmware
 
 This device uses [coreboot](http://www.coreboot.org/) to boot the system. You
-can find the source in the [Chromium OS coreboot git
+can find the source in the [ChromiumOS coreboot git
 tree](https://chromium.googlesource.com/chromiumos/third_party/coreboot/+/firmware-nyan-5771.B)
 in the `firmware-nyan-5771.B` branch.

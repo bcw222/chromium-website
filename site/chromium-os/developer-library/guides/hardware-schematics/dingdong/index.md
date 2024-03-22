@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides
-  - Chromium OS > Developer Library > Guides
+  - ChromiumOS > Developer Library > Guides
 page_name: dingdong
 title: USB Type-C to DP Adapter
 ---
@@ -45,7 +45,7 @@ The firmware is located In the Chromium Embedded Controller repository under
 
 ### Building Firmware
 
-Within your Chromium OS chroot, the syntax is:
+Within your ChromiumOS chroot, the syntax is:
 
 ```none
 cd ~/trunk/src/platform/ec
@@ -54,7 +54,7 @@ make BOARD=dingdong
 
 ### Flashing Firmware
 
-The firmware is normally flashed via the kernel, as part of the Chrome OS
+The firmware is normally flashed via the kernel, as part of the ChromeOS
 Auto-Update process. Payloads are located in `/lib/firmware/cros-pd`.
 
 When the adapter is connected to a Chrome device, you can manually flash the
@@ -77,7 +77,7 @@ switch for this purpose on prototype devices.
 
 Installing an image requires the dfu-util tools package on the Chrome device
 where the adapter is connected. To deploy dfu-util and copy the chromeos-ec
-image from within your Chromium OS chroot, the syntax is:
+image from within your ChromiumOS chroot, the syntax is:
 
 <pre><code>BOARD=<i>board-name</i>
 </code></pre>

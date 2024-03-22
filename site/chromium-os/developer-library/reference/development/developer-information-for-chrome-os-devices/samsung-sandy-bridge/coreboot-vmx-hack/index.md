@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 - - /chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge
   - Samsung Series 5 550 Chromebook and Series 3 Chromebox
 page_name: coreboot-vmx-hack
@@ -52,7 +52,7 @@ $ crossystem | grep fwidfwid                   = Google_Stumpy.2.102.0          
 ```
 
 Note that while most of these commands can be run on the device, some will
-require tools that are available in the Chromium OS SDK (like cbfstool and a
+require tools that are available in the ChromiumOS SDK (like cbfstool and a
 compiler/assembler). So you should extract the bios on the device, and then do
 all the other commands on your development system. You can transfer the file via
 scp.
@@ -85,7 +85,7 @@ $ eval `fmap_decode bios.bin | grep BOOT_STUB`$ dd if=bios.bin ibs=$((area_offse
 ```
 
 You can verify this actually worked by running the cbfstool (part of coreboot,
-and in the Chromium OS sdk chroot).
+and in the ChromiumOS sdk chroot).
 
 ```none
 $ cbfstool coreboot.bin printUpdating CBFS master header to version 2coreboot.bin: 1024 kB, bootblocksize 10498, romsize 1048576, offset 0x0Alignment: 64 bytes, architecture: x86Name                           Offset     Type         Sizecmos_layout.bin                0x0        cmos layout  1223pci8086,0106.rom               0x500      optionrom    65536fallback/romstage              0x10540    stage        34084fallback/coreboot_ram          0x18ac0    stage        79377fallback/payload               0x2c140    payload      106157u-boot.dtb                     0x46040    unknown      8144(empty)                        0x48040    null         622424mrc.bin                        0xdffc0    unknown      102924(empty)                        0xf9240    null         17526

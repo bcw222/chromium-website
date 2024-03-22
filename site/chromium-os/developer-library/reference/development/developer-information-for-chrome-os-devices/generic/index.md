@@ -1,11 +1,11 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 page_name: generic
-title: Generic Chrome OS Device Instructions
+title: Generic ChromeOS Device Instructions
 ---
 
 [TOC]
@@ -13,13 +13,13 @@ title: Generic Chrome OS Device Instructions
 ## Introduction
 
 Unfortunately, a page specific to your device does not yet exist. This page
-contains generic information for working with your Chrome OS device that is
+contains generic information for working with your ChromeOS device that is
 interesting and/or useful to software developers. It should hopefully work for
 your device, but there are no guarantees.
 
-For general information about getting started with developing on Chromium OS
+For general information about getting started with developing on ChromiumOS
 (the open-source version of the software on the Chrome Notebook), see the
-[Chromium OS Developer Guide](/chromium-os/developer-guide).
+[ChromiumOS Developer Guide](/chromium-os/developer-guide).
 
 ## Developer Mode
 
@@ -35,7 +35,7 @@ chance of trashing the contents of your stateful partition.
 
 Enabling Developer mode (dev mode) is the first step to tinkering with your
 Chromebook. With Developer mode enabled you can do things like poke around on a
-command shell (as root if you want), install Chromium OS, or try other OS's.
+command shell (as root if you want), install ChromiumOS, or try other OS's.
 Note that Developer mode turns off some security features like verified boot and
 disabling the shell access. If you want to browse in a safer, more secure way,
 leave Developer mode turned OFF.

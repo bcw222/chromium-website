@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides
-  - Chromium OS > Developer Library > Guides
+  - ChromiumOS > Developer Library > Guides
 page_name: twinkie
 title: USB-PD Sniffer
 ---
@@ -43,7 +43,7 @@ the release version is on the firmware-twinkie-9628.B branch :
 
 ### **Building Firmware**
 
-Within your Chromium OS chroot, the syntax is:
+Within your ChromiumOS chroot, the syntax is:
 
 ```none
 For the impatient, here is a very cut-down version of the detailed instructions. 
@@ -139,7 +139,7 @@ as shown in the photo below
 or by typing the` dfu` command on the USB console (if you already have a recent
 firmware, e.g. *v1.11.19*+).
 
-Within your Chromium OS chroot:
+Within your ChromiumOS chroot:
 
 ```none
 ./util/flash_ec --board=twinkie
@@ -225,7 +225,7 @@ sudo dpkg -i *.deb
 sudo apt-get install -f
 ```
 
-- for Debian Buster (stable) or Chrome OS Crostini container
+- for Debian Buster (stable) or ChromeOS Crostini container
 
 ```none
 cd $(mktemp -d)

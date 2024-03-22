@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/reference
-  - Chromium OS > Developer Library > Reference
+  - ChromiumOS > Developer Library > Reference
 page_name: life-of-a-bug
 title: Life of a ChromeOS Bug
 ---

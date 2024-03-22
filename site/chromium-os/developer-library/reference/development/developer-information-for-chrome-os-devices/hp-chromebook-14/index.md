@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 page_name: hp-chromebook-14
 title: HP Chromebook 14
 ---
@@ -15,8 +15,8 @@ title: HP Chromebook 14
 This page contains information about the [HP Chromebook
 14](http://www.google.com/intl/en/chrome/devices/hp-14-chromebook.html) that is
 interesting and/or useful to software developers. For general information about
-getting started with developing on Chromium OS (the open-source version of the
-software on the Chrome Notebook), see the [Chromium OS Developer
+getting started with developing on ChromiumOS (the open-source version of the
+software on the Chrome Notebook), see the [ChromiumOS Developer
 Guide](/chromium-os/developer-guide).
 
 <img alt="image"
@@ -72,7 +72,7 @@ page](/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromeb
 ## Firmware
 
 This device uses [coreboot](http://www.coreboot.org/) to boot the system. You
-can find the source in the [Chromium OS coreboot git
+can find the source in the [ChromiumOS coreboot git
 tree](https://chromium.googlesource.com/chromiumos/third_party/coreboot/+/firmware-falco_peppy-4389.B)
 in the `firmware-falco_peppy-4389.B` branches.
 

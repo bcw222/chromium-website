@@ -21,10 +21,10 @@ title: Server Side test for ChromiumOS autotest codelab
     - This is a codelab teaching you how to write a generic test for
     Autotest.****
 
-    ****[Autotest for Chromium OS
+    ****[Autotest for ChromiumOS
     developers](http://www.chromium.org/chromium-os/testing/autotest-user-doc)****
 
-    ****[Chromium OS Developer
+    ****[ChromiumOS Developer
     Guide](http://www.chromium.org/chromium-os/developer-guide)****
 
 ****## Overview****
@@ -37,16 +37,16 @@ title: Server Side test for ChromiumOS autotest codelab
 
 ****## Prerequisite****
 
-****This Codelab is for Chromium OS developers and testers to learn how to write a server side Autotest. Assumptions:****
+****This Codelab is for ChromiumOS developers and testers to learn how to write a server side Autotest. Assumptions:****
 
     ****You know the Python programming language.****
 
     ****You have a device under test (DUT) with a test image installed. See
-    [Chromium OS Developer
+    [ChromiumOS Developer
     Guide](http://www.chromium.org/chromium-os/developer-guide#TOC-Installing-Chromium-OS-on-your-Device)
     for details.****
 
-    ****You have Chromium OS development environment setup, see [Chromium OS
+    ****You have ChromiumOS development environment setup, see [ChromiumOS
     Developer
     Guide](http://www.chromium.org/chromium-os/developer-guide#TOC-Get-the-Source)
     for details.****
@@ -55,7 +55,7 @@ title: Server Side test for ChromiumOS autotest codelab
 
 ****By the end of this lab, you will know how to:****
 
-    ****Write Chromium OS server side Autotest in Python****
+    ****Write ChromiumOS server side Autotest in Python****
 
     ****Manually run the server side Autotest against a DUT****
 
@@ -72,16 +72,16 @@ title: Server Side test for ChromiumOS autotest codelab
 ****Tests are located in 4 locations in the chromeos_public [third_party/autotest/files/](https://cs.corp.google.com/#chromeos_public/src/third_party/autotest/files/) tree:****
 
     ****client/site_tests - These are where most tests live. These are client
-    tests that are Chromium OS specific.****
+    tests that are ChromiumOS specific.****
 
     ****client/tests - These are client tests that come from upstream Autotest,
-    and most are general Linux tests (not Chromium OS specific).****
+    and most are general Linux tests (not ChromiumOS specific).****
 
-    ****server/site_tests - These are server tests that are Chromium OS
+    ****server/site_tests - These are server tests that are ChromiumOS
     specific.****
 
     ****server/tests - These are server tests that are general Linux tests (not
-    Chromium OS specific).****
+    ChromiumOS specific).****
 
 ****Decide if your test is a client or server test and choose the appropriate directory from the above.****
 
@@ -101,7 +101,7 @@ title: Server Side test for ChromiumOS autotest codelab
 
 ****### Syntax and style guide****
 
-****Before we start writing any code, it’s a good idea to understand and follow the Python coding style enforced in Chromium OS project. For Autotest code in Chromium OS project, the Python coding style must follow the coding style specified at the top level of the Autotest repo. This style adds a few additions to [PEP-8](http://www.python.org/dev/peps/pep-0008/) style guide, e.g., formatting on comments and Docstrings. You may also consider to follow [Python Style Guidelines](/chromium-os/developer-library/reference/style-guides/python), but coding style defined in Autotest repo and [PEP-8](http://www.python.org/dev/peps/pep-0008/) style guide must take precedence.****
+****Before we start writing any code, it’s a good idea to understand and follow the Python coding style enforced in ChromiumOS project. For Autotest code in ChromiumOS project, the Python coding style must follow the coding style specified at the top level of the Autotest repo. This style adds a few additions to [PEP-8](http://www.python.org/dev/peps/pep-0008/) style guide, e.g., formatting on comments and Docstrings. You may also consider to follow [Python Style Guidelines](/chromium-os/developer-library/reference/style-guides/python), but coding style defined in Autotest repo and [PEP-8](http://www.python.org/dev/peps/pep-0008/) style guide must take precedence.****
 
 ****Some basic rules include:****
 
@@ -147,7 +147,7 @@ title: Server Side test for ChromiumOS autotest codelab
 
 ****Your control file runs the test and sets up default parameters. The .py file is the test wrapper, and has the actual implementation of the test. You can create multiple control files for the same test that can take different arguments. As an example, power_SuspendStress test has multiple control files that serve multiple purpose, while sharing the same test logic with different configuration.****
 
-****Inside the control file, the TEST_CLASS variable should be set to ${LOWERCASE_AREA}. The naming convention simply exists to make it easier to find other similar tests and measure the coverage in different areas of Chromium OS.****
+****Inside the control file, the TEST_CLASS variable should be set to ${LOWERCASE_AREA}. The naming convention simply exists to make it easier to find other similar tests and measure the coverage in different areas of ChromiumOS.****
 
 ****### Step 2. Create a barebone server side test****
 
@@ -391,7 +391,7 @@ The control file and test wrapper must be stored in a subfolder of
 src/third_party/autotest/files/server/site_tests/ folder. Note that the folder
 name must match the class name of the test code (the class is the one defined in
 test wrapper and derived from base class “test”). See the code lab for [Creating
-and deploying Chromium OS Dynamic Test
+and deploying ChromiumOS Dynamic Test
 Suites](/chromium-os/developer-library/training/codelabs/dynamic-suite-codelab).
 
 ### Step 4. Implement test logic in test wrapper
@@ -420,7 +420,7 @@ you need to run the command through a host object (self._client showing in the
 code). Different from to a server side test, client side test code is copied to
 the DUT and executed within the DUT.
 
-#### Step 4.1. Import modules useful for Chromium OS specific test
+#### Step 4.1. Import modules useful for ChromiumOS specific test
 
 Add the imports at the beginning of test wrapper.
 

@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 page_name: chromebook-pixel-2015
 title: Chromebook Pixel (2015)
 ---
@@ -15,8 +15,8 @@ title: Chromebook Pixel (2015)
 This page contains information about the [Chromebook Pixel
 (2015)](http://www.google.com/chromebook/pixel) that is interesting and/or
 useful to software developers. For general information about getting started
-with developing on Chromium OS (the open-source version of the software on the
-Chrome Notebook), see the [Chromium OS Developer
+with developing on ChromiumOS (the open-source version of the software on the
+Chrome Notebook), see the [ChromiumOS Developer
 Guide](/chromium-os/developer-guide).
 
 ### Specifications
@@ -51,7 +51,7 @@ chance of trashing the contents of your stateful partition.
 
 Enabling Developer mode is the first step to tinkering with your Chromebook.
 With Developer mode enabled you can do things like poke around on a command
-shell (as root if you want), install Chromium OS, or try other OS's. Note that
+shell (as root if you want), install ChromiumOS, or try other OS's. Note that
 Developer mode turns off some security features like verified boot and disabling
 the shell access. If you want to browse in a safer, more secure way, leave
 Developer mode turned OFF. Note: Switching between Developer and Normal
@@ -104,8 +104,8 @@ troubleshooting your device.
 
 The event log is based on SMBIOS Type 15 Event Log format, but uses a number of
 OEM events to provide additional information. The mosys application that is part
-of Chromium OS can be used to read and decode the log by running **mosys
-eventlog list** as the root user in Chrome OS if the device is in developer mode
+of ChromiumOS can be used to read and decode the log by running **mosys
+eventlog list** as the root user in ChromeOS if the device is in developer mode
 or opening **chrome://system** and looking for the **eventlog** entry in
 normal/verified mode.
 
@@ -115,9 +115,9 @@ This device uses [coreboot](http://www.coreboot.org/) and
 [Depthcharge](https://chromium.googlesource.com/chromiumos/platform/depthcharge/)
 as a payload to boot the system. See here for a [detailed description of the
 Samus FMAP / firmware flash layout](/chromium-os/firmware-porting-guide/fmap).
-You can find the source in the [Chromium OS coreboot git
+You can find the source in the [ChromiumOS coreboot git
 tree](https://chromium.googlesource.com/chromiumos/third_party/coreboot/+/firmware-samus-6300.B)
-and the [Chromium OS depthcharge git
+and the [ChromiumOS depthcharge git
 tree](https://chromium.googlesource.com/chromiumos/platform/depthcharge/+/firmware-samus-6300.B)
 in the `firmware-samus-6300.B` branches.
 

@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 page_name: hp-pavilion-14-chromebook
 title: HP Pavilion Chromebook
 ---
@@ -15,7 +15,7 @@ title: HP Pavilion Chromebook
 This page contains information about the [HP Pavilion
 Chromebook](http://www.google.com/intl/en/chrome/devices/hp-pavilion-chromebook.html)
 that is interesting and/or useful to software developers. For general
-information about getting started with developing on Chromium OS (the
+information about getting started with developing on ChromiumOS (the
 open-source version of the software on the Chrome Notebook), see the [Chromium
 OS Developer Guide](/chromium-os/developer-guide).
 
@@ -31,9 +31,9 @@ page](/chromium-os/developer-information-for-chrome-os-devices/acer-c7-chromeboo
 
 This device uses [coreboot](http://www.coreboot.org/) and [Das
 U-Boot](http://www.denx.de/wiki/U-Boot) to boot the system. You can find the
-source in the [Chromium OS coreboot git
+source in the [ChromiumOS coreboot git
 tree](https://chromium.googlesource.com/chromiumos/third_party/coreboot/+/firmware-butterfly-2788.B)
-and the [Chromium OS u-boot git
+and the [ChromiumOS u-boot git
 tree](https://chromium.googlesource.com/chromiumos/third_party/u-boot/+/firmware-butterfly-2788.B)
 in the `firmware-butterfly-2788.B` branches.
 

@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/getting-started
-  - Chromium OS > Developer Library > Getting Started
+  - ChromiumOS > Developer Library > Getting Started
 page_name: hardware-requirements
 title: Hardware Requirements
 ---

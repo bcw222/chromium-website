@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 page_name: dell-chromebook-11
 title: Dell Chromebook 11
 ---
@@ -15,7 +15,7 @@ title: Dell Chromebook 11
 This page contains information about the [Dell Chromebook
 11](http://www.google.com/intl/en/chrome/education/devices/chromebooks.html#d11)
 that is interesting and/or useful to software developers. For general
-information about getting started with developing on Chromium OS (the
+information about getting started with developing on ChromiumOS (the
 open-source version of the software on the Chrome Notebook), see the [Chromium
 OS Developer Guide](http://www.chromium.org/chromium-os/developer-guide).
 
@@ -48,17 +48,17 @@ cause hardware, software or security issues and may void warranty.**
 Details for working with developer mode can be found [on this
 page](/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook).
 
-## Running Chromium OS
+## Running ChromiumOS
 
 Before you start fiddling with your own builds it is strongly recommend to
 create a recovery USB stick or SD card. As long as you don't disable hardware
 write protect on the system & EC firmware, you can get your machine back into
 working order by entering Recovery Mode and plugging in your recovery image. You
-can create a recovery image from Chrome OS by browsing to chrome://imageburner
-or follow instructions for other OS on the [Chrome OS help
+can create a recovery image from ChromeOS by browsing to chrome://imageburner
+or follow instructions for other OS on the [ChromeOS help
 center](https://support.google.com/chromebook/answer/1080595?hl=en) site.
 
-You can build and run Chromium OS on your Dell Chromebook 11 (versions R31 and
+You can build and run ChromiumOS on your Dell Chromebook 11 (versions R31 and
 later). Follow the [quick start
 guide](http://www.chromium.org/chromium-os/quick-start-guide) to setup a build
 environment. The board name for Dell Chromebook 11 is "wolf". Build an image and
@@ -72,17 +72,17 @@ user (or guest mode), starting a "crosh" shell with Ctrl+Alt+t, and typing
 
 Plug your USB stick or SD card in and on the scary "OS Verification is OFF"
 screen hit Ctrl+u to boot from external media. If all goes well you should see a
-"Chromium OS" logo screen. If you want to install your build to the SSD, open a
+"ChromiumOS" logo screen. If you want to install your build to the SSD, open a
 shell and type "sudo /usr/sbin/chromeos-install". Note: This will replace
 EVERYTHING on your SSD. Use a recovery image if you want to get back to a stock
-Chrome OS build.
+ChromeOS build.
 
 Have fun!
 
 ## Firmware
 
 This device uses [coreboot](http://www.coreboot.org/) to boot the system. You
-can find the source in the [Chromium OS coreboot git
+can find the source in the [ChromiumOS coreboot git
 tree](https://chromium.googlesource.com/chromiumos/third_party/coreboot/+/firmware-wolf-4389.24.B)
 in the `firmware-wolf-4389.24.B` branches.
 

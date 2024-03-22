@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 - - /chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information
   - Cr-48 Chrome Notebook Developer Information
 page_name: how-to-boot-ubuntu-on-a-cr-48
@@ -14,18 +14,18 @@ title: How to boot Ubuntu on a Cr-48
 
 Introduction
 
-While [Chrome OS verified
+While [ChromeOS verified
 boot](http://www.chromium.org/chromium-os/chromiumos-design-docs/verified-boot)
 protects against unintended system modification by malicious or buggy software,
 **the ability to hack your own device is an
 [intentional](/chromium-os/chromiumos-design-docs/developer-mode) design feature
 of Google Chrome notebooks**. The instructions for [building your own version of
-Chromium OS](http://www.chromium.org/chromium-os/developer-guide), and
+ChromiumOS](http://www.chromium.org/chromium-os/developer-guide), and
 installing it on a Cr-48 are given elsewhere. Some enthusiasts, however, may
 want to install something completely different. This page provides an example,
-showing how the official Chrome OS software can coexist with
+showing how the official ChromeOS software can coexist with
 [Ubuntu](http://www.ubuntu.com/), a popular linux distribution. I'm assuming
-that you're already somewhat familiar with the Chromium OS development
+that you're already somewhat familiar with the ChromiumOS development
 environment.
 
 **Caution: Modifications you make to the system are not supported by Google, may
@@ -44,7 +44,7 @@ The Cr-48 shell is formatted like this.
 ```
 
 ```none
-The Chromium OS build chroot is formatted like this.
+The ChromiumOS build chroot is formatted like this.
 ```
 
 ```none
@@ -57,10 +57,10 @@ This is kind of a cheat. The Cr-48's boot process does not support
 `[initrd](http://www.ibm.com/developerworks/linux/library/l-initrd.html)`, which
 is required by Ubuntu. That leaves us three possibilities:
 
-1.  Use the existing Chrome OS kernel with the Ubuntu rootfs.
+1.  Use the existing ChromeOS kernel with the Ubuntu rootfs.
 2.  Recompile the Ubuntu kernel to do without `initrd`
             ([ugh](/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information/how-to-boot-ubuntu-on-a-cr-48#TOC-Ugh)).
-3.  Modify the Chrome OS bootstub to handle `initrd`
+3.  Modify the ChromeOS bootstub to handle `initrd`
             ([double-ugh](/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information/how-to-boot-ubuntu-on-a-cr-48#TOC-Double-ugh)).
 
 Let's take door #1.
@@ -69,7 +69,7 @@ Let's take door #1.
 
 To begin our journey, first switch the Cr-48 into [developer
 mode](/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information)
-and reboot. When you see the blue frowny face with the "Chrome OS verification
+and reboot. When you see the blue frowny face with the "ChromeOS verification
 is turned off" message, either wait 30 seconds or hit Ctrl-D to boot
 immediately. This screen is always shown when booting in developer mode, to
 ensure that someone doesn't change your OS without your knowledge.
@@ -79,7 +79,7 @@ Switch to
 (press \[ Ctrl \] \[ Alt \] \[ =&gt; \]), and log in as user 'chronos' (no
 password required), then run `sudo bash`.
 
-To prevent the lock screen from logging you out of VT2, leave Chrome OS parked
+To prevent the lock screen from logging you out of VT2, leave ChromeOS parked
 on the login screen. To prevent the backlight from dimming while in VT2, run
 sudo initctl stop powerd.
 
@@ -137,18 +137,18 @@ localhost ~ # <b>cgpt show /dev/sda</b>
 
 The units are 512-byte disk sectors.
 
-On Chrome OS there are several bootable images, each composed of a kernel and a
+On ChromeOS there are several bootable images, each composed of a kernel and a
 root filesystem (rootfs). For a given image, the kernel and rootfs are stored on
 a pair of consecutive partitions. Two of these images, Image-A and Image-B, are
-for official Chrome OS:
+for official ChromeOS:
 
 *   KERN-A and ROOT-A on partitions `/dev/sda2` and `/dev/sda3`
 *   KERN-B and ROOT-B on partitions `/dev/sda4` and `/dev/sda5`
 
-When the Chrome OS autoupdater downloads a new image (every six weeks or so, as
+When the ChromeOS autoupdater downloads a new image (every six weeks or so, as
 new versions are pushed out), it alternately stores it in Image-A and Image-B -
 whichever image isn't currently running. The autoupdater even runs in developer
-mode, as long as we are running an official Chrome OS image.
+mode, as long as we are running an official ChromeOS image.
 
 For Ubuntu, we'll use the currently unassigned Image-C, composed of KERN-C and
 ROOT-C on partitions `/dev/sda6` and `/dev/sda7`, respectively.
@@ -241,7 +241,7 @@ to go back to VT2 and set a password according to these
 ## Acquire an Ubuntu filesystem
 
 First, although the Cr-48 CPU and BIOS is 64-bit, the kernel and rootfs are
-presently 32-bit. Since we're reusing the Chrome OS kernel, we'll download and
+presently 32-bit. Since we're reusing the ChromeOS kernel, we'll download and
 use the 32-bit ubuntu-10.10-desktop-i386.iso from an [Ubuntu CD
 mirror](https://launchpad.net/ubuntu/+cdmirrors). For example:
 
@@ -271,7 +271,7 @@ chroot, but whatever.
 We'll need our disk image to be a little larger than 5G so it has room for the
 GPT headers.
 
-So, do the following in the [Chromium OS
+So, do the following in the [ChromiumOS
 chroot](http://www.chromium.org/chromium-os/developer-guide#TOC-Create-a-chroot):
 
 ```none
@@ -295,7 +295,7 @@ Launch the VirtualBox GUI (`virtualbox`) and create a new virtual machine with
 attach the Ubuntu .iso as the IDE secondary master. Everything else can be left
 as default.
 
-Boot the virtual machine and install Ubuntu onto `/dev/sda1`. The Chrome OS
+Boot the virtual machine and install Ubuntu onto `/dev/sda1`. The ChromeOS
 kernel does not use swap memory, so be sure to specify partitions manually.
 Select the middle `/dev/sda1`, and format it for `ext2`, and mount on `/`. The
 ubuntu installer should warn you that you have no swap partition, and it will
@@ -369,7 +369,7 @@ umount /tmp/urfs
 
 ## Configure the kernel
 
-The next step is to copy the currently running Chrome OS kernel to KERN-C
+The next step is to copy the currently running ChromeOS kernel to KERN-C
 (`/dev/sda6`). Remember, an image consists of a kernel and a rootfs on
 consecutive partitions. So, to figure out which kernel is running, we can check
 which partition is currently mounted as the rootfs:
@@ -389,8 +389,8 @@ dd if=/dev/sda2 of=/dev/sda6
 ```
 
 Now we need to change the kernel command line to use our Ubuntu rootfs instead
-of a Chrome OS rootfs. For this, we'll use `make_dev_ssd.sh`, located in the
-Chromium OS source tree under
+of a ChromeOS rootfs. For this, we'll use `make_dev_ssd.sh`, located in the
+ChromiumOS source tree under
 `src/platform/vboot_reference/scripts/image_signing/.` The [latest
 version](http://git.chromium.org/cgi-bin/gitweb.cgi?p=vboot_reference.git;a=tree)
 has options to change individual kernel command lines.
@@ -411,7 +411,7 @@ named `foo.6` (the .6 extension is added by the script):
 sh ./make_dev_ssd.sh --partitions '6' --save_config foo
 ```
 
-The default Chrome OS kernel command line looks something like this:
+The default ChromeOS kernel command line looks something like this:
 
 ```none
 quiet console=tty2 init=/sbin/init add_efi_memmap boot=local rootwait ro noresume noswap i915.modeset=1 loglevel=1 cros_secure kern_guid=%U tpm_tis.force=1 tpm_tis.interrupts=0 root=/dev/dm-0 dm_verity.error_behavior=3 dm_verity.max_bios=-1 dm_verity.dev_wait=1 dm="vroot none ro,0 1740800 verity /dev/sd%D%P /dev/sd%D%P 1740800 1 sha1 50adbfb72bb1efda0c1a86dcd1c1d6a0b46726d1" noinitrd
@@ -452,13 +452,13 @@ need it.
 
 At this point we should have the following situation:
 
-Image-A is an official Google Chrome OS which can boot either in normal mode or
+Image-A is an official Google ChromeOS which can boot either in normal mode or
 dev-mode.
 
 Image-B is (or will be after the first autoupdate) another official Google
-Chrome OS which can boot either in normal mode or dev-mode.
+ChromeOS which can boot either in normal mode or dev-mode.
 
-Image-C is Chrome OS kernel with a modified command line and an Ubuntu rootfs,
+Image-C is ChromeOS kernel with a modified command line and an Ubuntu rootfs,
 which can only boot in dev-mode.
 
 Next, we adjust the priority among the images so we can try out our Ubuntu
@@ -505,7 +505,7 @@ Standard Answer #1 applies: It Works For Me™
 
 If something went wrong and Ubuntu crashes or you powered off, the tries field
 for KERN-C will have been decremented to 0 and you'll fall back to booting
-Chrome OS.
+ChromeOS.
 
 Assuming that Ubuntu booted and you could log in, go to
 Applications-&gt;Accessories-&gt;Terminal to get a shell, and run
@@ -517,7 +517,7 @@ sudo cgpt add -i 6 -P 5 -S 1 /dev/sda
 This will mark the Ubuntu kernel as valid, so it will continue to boot next
 time.
 
-Now you can switch back and forth between the official Chrome OS release and
+Now you can switch back and forth between the official ChromeOS release and
 Ubuntu just by flipping the dev-mode switch. Going from dev-mode to normal mode
 erases STATE (`/dev/sda1`), but much more quickly. Going from normal to dev-mode
 again would normally do a slow erase of `/dev/sda1`, but since we're booting
@@ -538,7 +538,7 @@ to dev mode, you will
 
 a) have a long wait,
 
-b) still be running Chrome OS, and
+b) still be running ChromeOS, and
 
 c) have to use cgpt to raise the KERN-C priority again.
 
@@ -554,12 +554,12 @@ Recompiling the Ubuntu kernel should be possible, with a few caveats:
 First, you'll have to modify or reconfigure the kernel to not use initrd.
 initramfs should work though.
 
-Second, official Chrome OS still has a few closed-source hardware drivers. The
-pure open-source Chromium OS experience is therefore a bit sub-optimal, although
+Second, official ChromeOS still has a few closed-source hardware drivers. The
+pure open-source ChromiumOS experience is therefore a bit sub-optimal, although
 still quite useable.
 
 Third, if you use the 32-bit image, you'll also have to modify the kernel source
-to boot correctly from the 64-bit Chrome OS BIOS.
+to boot correctly from the 64-bit ChromeOS BIOS.
 
 See
 <http://git.chromium.org/cgi-bin/gitweb.cgi?p=kernel.git;a=commit;h=a7cfa1075c04df162d58dc2ed93df6045e9c3271>
@@ -577,7 +577,7 @@ documented. Look in the developer pages.
 `initrd` is typically handled by the bootloader, which reads the specified image
 from the disk into RAM and passes the address to the kernel as it's invoked.
 
-The Chrome OS BIOS is a modified EFI BIOS. The bootstub is a standard EFI
+The ChromeOS BIOS is a modified EFI BIOS. The bootstub is a standard EFI
 Application, but it's embedded in the kernel image in a dedicated partition
 type, rather than accessible through a FAT filesystem. To decrease boot time,
 the BIOS does not discover or pass the standard disk drive handles to the

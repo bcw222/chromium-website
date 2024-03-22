@@ -10,7 +10,7 @@ title: Basic ebuild troubleshooting
 
 #### Emerge errors during cros build-image
 
-When following the [Chromium OS Developer Guide](/chromium-os/developer-guide)
+When following the [ChromiumOS Developer Guide](/chromium-os/developer-guide)
 emerge errors can be encountered for missing ebuild. A error that can be
 encountered when running `cros build-image` is:
 

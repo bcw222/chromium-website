@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 page_name: samsung-series-5-chromebook
 title: Samsung Series 5 Chromebook
 ---
@@ -15,14 +15,14 @@ title: Samsung Series 5 Chromebook
 This page contains information about the [Samsung Series 5
 Chromebook](http://www.samsung.com/us/computer/chromebook) that is interesting
 and/or useful to software developers. For general information about getting
-started with developing on Chromium OS (the open-source version of the software
-on Chrome OS devices), see the [Chromium OS Developer
+started with developing on ChromiumOS (the open-source version of the software
+on ChromeOS devices), see the [ChromiumOS Developer
 Guide](/chromium-os/developer-guide).
 
 ## Entering Developer Mode
 
 You might want to enter developer mode if you're following the instructions in
-the [Chromium OS Developer Guide](/chromium-os/developer-guide), or if you just
+the [ChromiumOS Developer Guide](/chromium-os/developer-guide), or if you just
 want to get access to a shell on your device to [poke
 around](/chromium-os/poking-around-your-chrome-os-device).
 
@@ -65,7 +65,7 @@ from the keyboard. Successive boots will:
             the SSD.*********
 
 At this point, verified boot is still active but because a command line shell is
-enabled, your system is **NOT** secure. Refer to [Poking around your Chrome OS
+enabled, your system is **NOT** secure. Refer to [Poking around your ChromeOS
 Notebook](/chromium-os/poking-around-your-chrome-os-device) to see how to access
 the command line shell. The message displayed at the shell itself should tell
 you how to set your own password to protect shell access and make your system
@@ -79,8 +79,8 @@ width=400>](/chromium-os/developer-information-for-chrome-os-devices/samsung-ser
 
 ### Developer-mode BIOS
 
-If you want to make modifications to the Chrome OS filesystem or boot your own
-version of Chromium OS, you'll need to activate the second level of developer
+If you want to make modifications to the ChromeOS filesystem or boot your own
+version of ChromiumOS, you'll need to activate the second level of developer
 access. You do this by running a special command from the command line shell,
 available after the device boots to the 'select language' screen by pressing
 Ctrl-Alt-"→" (Ctrl-Alt-F2). You first log in with the username 'chronos' (if
@@ -95,7 +95,7 @@ localhost chronos # **chromeos-firmwareupdate --mode=todev**
 ### What's going on here?
 
 [Verified boot](/chromium-os/chromiumos-design-docs/verified-boot) is the
-process by which Chrome OS ensures that you are running only the software that
+process by which ChromeOS ensures that you are running only the software that
 shipped with your chromebook. The process starts with the read-only BIOS, which
 is built into the device at the factory and can't be modified without
 disassembly (please don't try that; you'll void your warranty). The read-only
@@ -107,7 +107,7 @@ SSD.
 The normal read-write BIOSes will only boot Google-signed kernels, and only from
 the SSD. When you run the chromeos-firmwareupdate command above, you are
 replacing the primary read-write BIOS with a different one that will allow any
-self-signed kernel (refer to the [Chromium OS Developer
+self-signed kernel (refer to the [ChromiumOS Developer
 Guide](/chromium-os/developer-guide)) to boot from either a removable device (by
 pressing Ctrl-U at the scary boot screen) or from the SSD (press Ctrl-D or wait
 30 seconds).
@@ -116,7 +116,7 @@ pressing Ctrl-U at the scary boot screen) or from the SSD (press Ctrl-D or wait
 
 *   Follow the steps above to turn on the developer switch and to
             install the developer-mode BIOS.
-*   Build a Chrome OS image using the steps in the [Chromium OS
+*   Build a ChromeOS image using the steps in the [ChromiumOS
             Developer Guide](/chromium-os/developer-guide). It does not need to
             be a recovery image.
 *   Insert the removable drive containing your image into either USB
@@ -125,9 +125,9 @@ pressing Ctrl-U at the scary boot screen) or from the SSD (press Ctrl-D or wait
 *   It should boot your image. If for some reason it doesn't think your
             image is valid it will just beep once instead.
 
-## How to install your own Chromium OS image on your SSD
+## How to install your own ChromiumOS image on your SSD
 
-If you follow the full instructions from the [Chromium OS Developer
+If you follow the full instructions from the [ChromiumOS Developer
 Guide](/chromium-os/developer-guide), you will eventually end up with a bootable
 USB drive containing your image. You can boot that image directly from the USB
 drive as described above. Since it's your personal image, it should have shell
@@ -148,8 +148,8 @@ seconds to boot.
 To leave developer mode, simply flip the developer-mode switch back to the OFF
 position and reboot. One of two things will happen. If your chromebook still has
 a valid read-write normal-mode BIOS, Google-signed kernel, and an unmodified
-Chrome OS root filesystem, then that's what will boot and you'll be back running
-the official Chrome OS image. Or, if you've modified any part of the verified
+ChromeOS root filesystem, then that's what will boot and you'll be back running
+the official ChromeOS image. Or, if you've modified any part of the verified
 boot chain so that a full verified boot process isn't possible, you'll be
 dropped into [recovery mode](http://www.google.com/chromeos/recovery). That will
 require you to create a bootable USB key to restore your chromebook to its

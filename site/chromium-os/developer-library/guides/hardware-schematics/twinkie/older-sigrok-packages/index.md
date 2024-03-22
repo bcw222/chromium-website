@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/twinkie
   - USB-PD Sniffer
 page_name: older-sigrok-packages

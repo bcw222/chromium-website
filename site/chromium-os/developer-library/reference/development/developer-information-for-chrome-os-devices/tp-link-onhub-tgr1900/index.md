@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 page_name: tp-link-onhub-tgr1900
 title: TP-LINK OnHub TGR1900
 ---
@@ -16,8 +16,8 @@ This page contains information about the [TP-LINK OnHub Router
 TGR1900](http://www.tp-link.us/products/details/cat-9_TGR1900.html), an
 [OnHub](https://on.google.com/hub/) WiFi router. that is interesting and/or
 useful to software developers. For general information about getting started
-with developing on Chromium OS (the open-source version of the software on the
-Chrome Notebook), see the [Chromium OS Developer
+with developing on ChromiumOS (the open-source version of the software on the
+Chrome Notebook), see the [ChromiumOS Developer
 Guide](/chromium-os/developer-guide).
 
 [<img alt="image"
@@ -50,9 +50,9 @@ width=199>](/chromium-os/developer-information-for-chrome-os-devices/tp-link-onh
 
 This device uses [coreboot](http://www.coreboot.org/) and
 [Depthcharge](https://chromium.googlesource.com/chromiumos/platform/depthcharge/)
-as a payload to boot the system. You can find the source in the [Chromium OS
+as a payload to boot the system. You can find the source in the [ChromiumOS
 coreboot git
 tree](https://chromium.googlesource.com/chromiumos/third_party/coreboot/+/firmware-storm-6315.B)
-and the [Chromium OS depthcharge git
+and the [ChromiumOS depthcharge git
 tree](https://chromium.googlesource.com/chromiumos/platform/depthcharge/+/firmware-storm-6315.B)
 in the `firmware-storm-6315.B` branches.

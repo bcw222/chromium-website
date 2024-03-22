@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library
-  - Chromium OS > Developer Library
+  - ChromiumOS > Developer Library
 page_name: guides
 title: Guides
 ---
@@ -21,9 +21,9 @@ title: Guides
 
 ## Bugs
 
-* [Chrome OS security severity guidelines](/chromium-os/developer-library/guides/bugs/security-severity-guidelines)
+* [ChromeOS security severity guidelines](/chromium-os/developer-library/guides/bugs/security-severity-guidelines)
 * [Reporting bugs](/chromium-os/developer-library/guides/bugs/reporting-bugs)
-* [Reporting Chrome OS bugs in the buganizer public tracker](/chromium-os/developer-library/guides/bugs/platform-public-tracker)
+* [Reporting ChromeOS bugs in the buganizer public tracker](/chromium-os/developer-library/guides/bugs/platform-public-tracker)
 
 ## Code review
 
@@ -37,7 +37,7 @@ title: Guides
 
 ## Containers
 
-* [Chrome OS VM for Chromium developers](/chromium-os/developer-library/guides/containers/cros-vm)
+* [ChromeOS VM for Chromium developers](/chromium-os/developer-library/guides/containers/cros-vm)
 * [Crostini developer guide](/chromium-os/developer-library/guides/containers/crostini-developer-guide)
 * [Running custom containers under Chrome OS](/chromium-os/developer-library/guides/containers/containers-and-vms)
 

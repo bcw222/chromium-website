@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides
-  - Chromium OS > Developer Library > Guides
+  - ChromiumOS > Developer Library > Guides
 page_name: minimuffin
 title: 45W USB Type-C charging adapter control board
 ---
@@ -39,7 +39,7 @@ The firmware is located In the Chromium Embedded Controller repository under
 
 ### Building Firmware
 
-Within your Chromium OS chroot, the syntax is:
+Within your ChromiumOS chroot, the syntax is:
 
 ```none
 cd ~/trunk/src/platform/ec
@@ -48,7 +48,7 @@ make BOARD=zinger
 
 ### Flashing Firmware
 
-The firmware is normally flashed via the kernel, as part of the Chrome OS
+The firmware is normally flashed via the kernel, as part of the ChromeOS
 Auto-Update process. Payloads are located in `/lib/firmware/cros-pd`.
 
 When the adapter is connected to a Chrome device, you can manually flash the

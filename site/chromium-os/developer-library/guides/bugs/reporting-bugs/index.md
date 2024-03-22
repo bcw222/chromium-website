@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides
-  - Chromium OS > Developer Library > Guides
+  - ChromiumOS > Developer Library > Guides
 page_name: reporting-chromeos-bugs
-title: Reporting Chrome OS bugs
+title: Reporting ChromeOS bugs
 ---
 
 [TOC]

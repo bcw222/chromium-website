@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 page_name: lenovo-chromebook-n20
 title: Lenovo Chromebook N20 & N20P
 ---
@@ -15,8 +15,8 @@ title: Lenovo Chromebook N20 & N20P
 This page contains information about the [Lenovo Chromebook N20 &
 N20P](https://www.google.com/chromebook/) that is interesting and/or useful to
 software developers. For general information about getting started with
-developing on Chromium OS (the open-source version of the software on the Chrome
-Notebook), see the [Chromium OS Developer Guide](/chromium-os/developer-guide).
+developing on ChromiumOS (the open-source version of the software on the Chrome
+Notebook), see the [ChromiumOS Developer Guide](/chromium-os/developer-guide).
 
 <img alt="image"
 src="/chromium-os/developer-information-for-chrome-os-devices/lenovo-chromebook-n20/gallery-LenovoChromebookN20p-1-hinge.jpg"
@@ -70,7 +70,7 @@ page](/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromeb
 ## Firmware
 
 This device uses [coreboot](http://www.coreboot.org/) to boot the system. You
-can find the source in the [Chromium OS coreboot git
+can find the source in the [ChromiumOS coreboot git
 tree](https://chromium.googlesource.com/chromiumos/third_party/coreboot/+/firmware-clapper-5216.199.B)
 in the `firmware-clapper-5216.199.B ` branch.
 

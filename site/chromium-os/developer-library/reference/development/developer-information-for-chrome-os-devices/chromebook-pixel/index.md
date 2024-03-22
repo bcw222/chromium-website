@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 page_name: chromebook-pixel
 title: Chromebook Pixel (2013)
 ---
@@ -15,8 +15,8 @@ title: Chromebook Pixel (2013)
 This page contains information about the [Chromebook Pixel
 (2013)](http://www.google.com/chromebook/pixel) that is interesting and/or
 useful to software developers. For general information about getting started
-with developing on Chromium OS (the open-source version of the software on the
-Chrome Notebook), see the [Chromium OS Developer
+with developing on ChromiumOS (the open-source version of the software on the
+Chrome Notebook), see the [ChromiumOS Developer
 Guide](/chromium-os/developer-guide).
 
 ### Specifications
@@ -49,7 +49,7 @@ chance of trashing the contents of your stateful partition.
 
 Enabling Developer mode is the first step to tinkering with your Chromebook.
 With Developer mode enabled you can do things like poke around on a command
-shell (as root if you want), install Chromium OS, or try other OS's. Note that
+shell (as root if you want), install ChromiumOS, or try other OS's. Note that
 Developer mode turns off some security features like verified boot and disabling
 the shell access. If you want to browse in a safer, more secure way, leave
 Developer mode turned OFF. Note: Switching between Developer and Normal
@@ -148,8 +148,8 @@ troubleshooting your device.
 
 The event log is based on SMBIOS Type 15 Event Log format, but uses a number of
 OEM events to provide additional information. The mosys application that is part
-of Chromium OS can be used to read and decode the log by running **mosys
-eventlog list** as the root user in Chrome OS if the device is in developer mode
+of ChromiumOS can be used to read and decode the log by running **mosys
+eventlog list** as the root user in ChromeOS if the device is in developer mode
 or opening **chrome://system** and looking for the **eventlog** entry in
 normal/verified mode.
 
@@ -175,7 +175,7 @@ make EXTRA_CFLAGS="-I ../flashmap/lib -static" FMAP_LINKOPT="-I ../flashmap/lib 
 sudo ./mosys eventlog list
 # example output...
 221 | 2013-03-05 08:31:45 | ACPI Wake | S5
-222 | 2013-03-05 08:31:47 | Chrome OS Developer Mode
+222 | 2013-03-05 08:31:47 | ChromeOS Developer Mode
 223 | 2013-03-05 09:01:03 | Kernel Event | Clean Shutdown
 224 | 2013-03-05 09:01:03 | ACPI Enter | S5
 225 | 2013-03-05 09:01:09 | System boot | 362
@@ -183,16 +183,16 @@ sudo ./mosys eventlog list
 227 | 2013-03-05 09:01:09 | ACPI Wake | S5
 228 | 2013-03-05 09:01:09 | Wake Source | PCI PME | 0
 229 | 2013-03-05 09:01:09 | Wake Source | Internal PME | 0
-230 | 2013-03-05 09:01:10 | Chrome OS Developer Mode
+230 | 2013-03-05 09:01:10 | ChromeOS Developer Mode
 ```
 
 ## Firmware
 
 This device uses [coreboot](http://www.coreboot.org/) and [Das
 U-Boot](http://www.denx.de/wiki/U-Boot) to boot the system. You can find the
-source in the [Chromium OS coreboot git
+source in the [ChromiumOS coreboot git
 tree](https://chromium.googlesource.com/chromiumos/third_party/coreboot/+/firmware-link-2695.B)
-and the [Chromium OS u-boot git
+and the [ChromiumOS u-boot git
 tree](https://chromium.googlesource.com/chromiumos/third_party/u-boot/+/firmware-link-2695.B)
 in the `firmware-link-2695.B` branches.
 

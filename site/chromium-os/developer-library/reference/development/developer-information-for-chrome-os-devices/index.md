@@ -1,15 +1,15 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/reference
-  - Chromium OS > Developer Library > Reference
+  - ChromiumOS > Developer Library > Reference
 page_name: developer-information-for-chrome-os-devices
-title: Developer Information for Chrome OS Devices
+title: Developer Information for ChromeOS Devices
 ---
 
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/reference
-  - Chromium OS > Developer Library > Reference
+  - ChromiumOS > Developer Library > Reference
 page_name: dir-metadata
 title: Directory metadata
 ---
@@ -17,17 +17,17 @@ title: Directory metadata
 ## Introduction
 
 This page provides developer-related information for Chrome devices. These are
-systems that *shipped from the factory* with Google Chrome OS on them. For
-details about Google Chrome OS and how it differs from Chromium OS, see the
+systems that *shipped from the factory* with Google ChromeOS on them. For
+details about Google ChromeOS and how it differs from ChromiumOS, see the
 [note in the FAQ about Google Chrome
 OS](http://www.chromium.org/chromium-os/chromium-os-faq#TOC-What-s-the-difference-between-Chrom).
-Chrome OS devices typically require special setup in order to be used for
-Chromium OS development.
+ChromeOS devices typically require special setup in order to be used for
+ChromiumOS development.
 
 **Caution: Modifications you make to the system are not supported by Google, may
 cause hardware, software or security issues and may void warranty.**
 
-> Remember: Chrome OS devices are **not** general-purpose PCs. We believe you
+> Remember: ChromeOS devices are **not** general-purpose PCs. We believe you
 > should be able to hack on your own property, but if you do it's not our fault
 > if something breaks.
 

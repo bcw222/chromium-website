@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library
-  - Chromium OS > Developer Library
+  - ChromiumOS > Developer Library
 page_name: reference
 title: Reference
 ---
@@ -85,7 +85,7 @@ title: Reference
 
 * [ChromiumOS FAQ](/chromium-os/developer-library/reference/development/chromium-os-faq)
 * [Developer FAQ](/chromium-os/developer-library/reference/development/developer-faq)
-* [Developer Information for Chrome OS Devices](/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices)
+* [Developer Information for ChromeOS Devices](/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices)
 * [Directory metadata](/chromium-os/developer-library/reference/development/dir-metadata)
 * [Life of a ChromeOS commit](/chromium-os/developer-library/reference/development/cros-commit-pipeline)
 * [Local & Remote Source Tree Layouts](/chromium-os/developer-library/reference/development/source-layout)
