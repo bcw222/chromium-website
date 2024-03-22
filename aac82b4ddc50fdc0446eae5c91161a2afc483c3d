@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "38bd1c7f_801f7344",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-22T18:31:17Z",
+      "side": 1,
+      "message": "The reference should be removed from /chromium-os/index.md",
+      "parentUuid": "e70889aa_65fd16cb",
+      "revId": "aac82b4ddc50fdc0446eae5c91161a2afc483c3d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "42857173_3d6a0b14",
         "filename": "site/chromium-os/developer-library/guides/debugging-3g/manual-e362-setup/index.md",
         "patchSetId": 3
