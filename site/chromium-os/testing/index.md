@@ -11,26 +11,7 @@ title: Testing Home
 
 ## This is the home page for testing. You should find everything related to writing tests, modifying existing tests, and running tests here. Please feel free to send an email to [chromium-os-dev@chromium.org ](mailto:chromium-os-dev@chromium.org)if you have any questions.
 
-### Unit Tests
-
-We run unit tests using the Portage test FEATURE. For instructions on how to run
-and add your own unit tests, follow these
-[instructions](/chromium-os/developer-library/guides/testing/running-unit-tests/).
-
-### Testing Workflows
-
-When iterating on a test, you might save some time by using the
-[autotest_quickmerge](/system/errors/NodeNotFound) tool.
-
-### **Testing Components**
-
-These documents discuss test cases and (eventually) test suites.
-
 ## Autotest
-
-[Autotest User Doc](/chromium-os/testing/autotest-user-doc) describes the
-integration of autotest into the build system, along with FAQ and specific
-descriptions of various tasks.
 
 This has additional info on how to [run the smoke test suite on a Virtual
 Machine](/chromium-os/testing/running-smoke-suite-on-a-vm-image).
@@ -42,24 +23,11 @@ tests and smoke tests in the same way that the builders do.
 </div>
 <div class="column">
 
-### Writing Tests & Suites
-
-*   [Existing Autotest
-            Utilities](/chromium-os/testing/existing-autotest-utilities) -
-            Coming Soon!
-
 ### MobLab
 
 MobLab is a self-contained automated test environment running on a Chromebox.
 
 *   ==[MobLab Home](/chromium-os/testing/moblab)==
-
-### Related Links
-
-*   [Slides](https://docs.google.com/present/edit?id=0AXd3jph7Jzc6ZGQ4NjI1el8waGszOXZwZmI)
-            for testing in Chromium OS
-*   [Autotest API
-            docs](https://github.com/autotest/autotest/wiki/TestDeveloper)
 
 ### Design Docs
 
@@ -67,11 +35,6 @@ MobLab is a self-contained automated test environment running on a Chromebox.
             Implementation](/chromium-os/testing/dynamic-test-suites)
 *   [Suite Scheduler AKA Test Scheduler
             V2](/chromium-os/testing/suite_scheduler-1)
-
-## Servo
-
-[Servo](https://chromium.googlesource.com/chromiumos/third_party/hdctools/+/HEAD/docs/servo.md) is a debug board for Chromium OS test and development. It can connect to
-most Chrome devices through a debug header on the mainboard.
 
 ## Chamelium
 
