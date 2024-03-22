@@ -1,16 +1,16 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 page_name: custom-firmware
 title: Custom Firmware
 ---
 
 [TOC]
 
-The Chrome OS firmware is **always** verified as signed by Google. Developer
+The ChromeOS firmware is **always** verified as signed by Google. Developer
 mode allows you to safely fiddle with the disk and operating system, but the
 boot process depends on unmodified firmware. There is no provision for modifying
 the firmware without physically taking the device apart. Modifying your firmware
@@ -31,13 +31,13 @@ In developer mode, the RW firmware doesn't verify that the kernel is signed by
 Google, just that it looks like a correctly signed kernel image. It doesn't
 matter **who** signed it, so you can [build and boot your
 own](/chromium-os/developer-guide) kernel and rootfs. On later models, you can
-also enable booting a custom Chromium OS kernel from USB.
+also enable booting a custom ChromiumOS kernel from USB.
 
 The ChromeOS firmware doesn't actually look at the kernel, it just looks for a
 [ChromeOS-specific
 header](/chromium-os/chromiumos-design-docs/verified-boot-data-structures) that
 describes it. So if your custom kernel isn't actually a Linux kernel, but is a
-custom build of U-Boot that was packaged as though it was a Chromium OS kernel,
+custom build of U-Boot that was packaged as though it was a ChromiumOS kernel,
 the firmware will happily load it into RAM and jump to it. What happens next is
 up to you.
 
@@ -53,10 +53,10 @@ time trying to get it right.
 
 That said, the general process is fairly straightforward. Of course, it helps
 **a lot** if you've [built and booted your own](/chromium-os/developer-guide)
-Chromium OS image at least once so that you're familiar with the development
+ChromiumOS image at least once so that you're familiar with the development
 environment.
 
-Google pushes frequent updates to the running Chrome OS system so that over time
+Google pushes frequent updates to the running ChromeOS system so that over time
 it just gets better. However, since the initial portion of the BIOS is
 read-only, only the read-write part of the BIOS can be updated and the
 requirement that it interoperate with the RW portion limits the amount of change
@@ -142,7 +142,7 @@ available
 
 **Step one** is to build your custom bootloader.
 
-On x86 coreboot if you're modifying the Chrome OS U-Boot, that may be as simple
+On x86 coreboot if you're modifying the ChromeOS U-Boot, that may be as simple
 as changing `CONFIG_SYS_TEXT_BASE` to the expected kernel load address and
 running `emerge chromeos-u-boot` (`cros_workon` first, of course). You'll
 probably need to tweak a few other things to enable the vga output or provide an
@@ -151,7 +151,7 @@ interactive prompt.
 For an ARM Chromebook, you can find detailed instructions on the [Using
 nv-U-Boot on the Samsung ARM Chromebook](/system/errors/NodeNotFound) page.
 
-**Step two** is to sign your binary like a Chromium OS kernel:
+**Step two** is to sign your binary like a ChromiumOS kernel:
 
 ```none
 echo blah > config.txt

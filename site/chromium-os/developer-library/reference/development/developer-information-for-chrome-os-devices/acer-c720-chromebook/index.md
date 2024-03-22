@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 page_name: acer-c720-chromebook
 title: Acer C720 & C720P & C740 Chromebook
 ---
@@ -19,8 +19,8 @@ Chromebook](https://www.google.com/intl/en/chrome/devices/acer-c720p-chromebook/
 and [Acer C740
 Chromebook](http://us.acer.com/ac/en/US/content/series/chromebook11c740) that is
 interesting and/or useful to software developers. For general information about
-getting started with developing on Chromium OS (the open-source version of the
-software on the Chrome Notebook), see the [Chromium OS Developer
+getting started with developing on ChromiumOS (the open-source version of the
+software on the Chrome Notebook), see the [ChromiumOS Developer
 Guide](/chromium-os/developer-guide).
 
 ### Specifications
@@ -61,7 +61,7 @@ chance of trashing the contents of your stateful partition.
 
 Enabling Developer mode is the first step to tinkering with your Chromebook.
 With Developer mode enabled you can do things like poke around on a command
-shell (as root if you want), install Chromium OS, or try other OS's. Note that
+shell (as root if you want), install ChromiumOS, or try other OS's. Note that
 Developer mode turns off some security features like verified boot and disabling
 the shell access. If you want to browse in a safer, more secure way, leave
 Developer mode turned OFF. Note: Switching between Developer and Normal
@@ -142,18 +142,18 @@ You can safely reset the copy of SeaBIOS in your flash by running (as root):
 # flashrom -w /tmp/bios.bin -i RW_LEGACY
 ```
 
-## Running Chromium OS
+## Running ChromiumOS
 
 Before you start fiddling with your own builds it is strongly recommend to
 create a recovery USB stick or SD card. As long as you don't disable hardware
 write protect on the system & EC firmware, you can get your machine back into
 working order by entering Recovery Mode and plugging in your recovery image. You
-can create a recovery image from Chrome OS by browsing to
+can create a recovery image from ChromeOS by browsing to
 [chrome://imageburner](javascript:void(0);) or follow instructions for other OS
-on the [Chrome OS help
+on the [ChromeOS help
 center](https://support.google.com/chromebook/answer/1080595?hl=en) site.
 
-You can build and run Chromium OS on your Acer C720 (versions R32 and later).
+You can build and run ChromiumOS on your Acer C720 (versions R32 and later).
 Follow the [quick start guide](/chromium-os/quick-start-guide) to setup a build
 environment. The board name for the Acer C720 is "peppy". Build an image and
 write it to a USB stick or SD card.
@@ -166,17 +166,17 @@ user (or guest mode), starting a "crosh" shell with Ctrl+Alt+t, and typing
 
 Plug your USB stick or SD card in and on the scary "OS Verification is OFF"
 screen hit Ctrl+u to boot from external media. If all goes well you should see a
-"Chromium OS" logo screen. If you want to install your build to the SSD, open a
+"ChromiumOS" logo screen. If you want to install your build to the SSD, open a
 shell and type "sudo /usr/sbin/chromeos-install". Note: This will replace
 EVERYTHING on your SSD. Use a recovery image if you want to get back to a stock
-Chrome OS build.
+ChromeOS build.
 
 Have fun!
 
 ## Firmware
 
 This device uses [coreboot](http://www.coreboot.org/) to boot the system. You
-can find the source in the [Chromium OS coreboot git
+can find the source in the [ChromiumOS coreboot git
 tree](https://chromium.googlesource.com/chromiumos/third_party/coreboot/+/firmware-falco_peppy-4389.B)
 in the `firmware-falco_peppy-4389.B` branches.
 
@@ -213,7 +213,7 @@ Notes:
 
 *   While it is possible to replace the NGFF (M.2) SSD, compatibility is
             not guaranteed. Reliability and power use may vary. If you install
-            Chrome OS using a recovery image, the recovery process will
+            ChromeOS using a recovery image, the recovery process will
             partition the drive to use the full capacity.
 *   The battery enable switch and battery enable screw are a safety
             mechanism to prevent the Acer C720 from being powered by the battery

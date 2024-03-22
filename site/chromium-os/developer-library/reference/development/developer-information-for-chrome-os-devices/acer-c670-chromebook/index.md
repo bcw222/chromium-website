@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 page_name: acer-c670-chromebook
 title: Acer C670 Chromebook 11
 ---
@@ -15,8 +15,8 @@ title: Acer C670 Chromebook 11
 This page contains information about the [Acer Chromebook 11
 (C670)](https://store.google.com/product/acer_chromebook_11) that is interesting
 and/or useful to software developers. For general information about getting
-started with developing on Chromium OS (the open-source version of the software
-on the Chrome Notebook), see the [Chromium OS Developer
+started with developing on ChromiumOS (the open-source version of the software
+on the Chrome Notebook), see the [ChromiumOS Developer
 Guide](/chromium-os/developer-guide).
 
 <img alt="image"
@@ -76,7 +76,7 @@ page](/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromeb
 ## Firmware
 
 This device uses [coreboot](http://www.coreboot.org/) to boot the system. You
-can find the source in the [Chromium OS coreboot git
+can find the source in the [ChromiumOS coreboot git
 tree](https://chromium.googlesource.com/chromiumos/third_party/coreboot/+/firmware-paine-6301.58.B)
 in the `firmware-paine-6301.58.B` branch.
 

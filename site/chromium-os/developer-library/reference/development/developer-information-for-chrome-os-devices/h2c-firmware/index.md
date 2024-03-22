@@ -1,20 +1,20 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 page_name: h2c-firmware
 title: Insyde H2O Firmware
 ---
 
 ## Introduction
 
-The first few Google Chrome OS devices used a custom firmware based on a
+The first few Google ChromeOS devices used a custom firmware based on a
 proprietary base often referred to as "H2C". It's a 64 bit UEFI BIOS from
 [Insyde](http://www.insyde.com/) named H2O ("Hardware-2-Operating System"), but
 a lot of code/features have been stripped out to significantly speed things up.
-Basically, everything not needed to boot Chrome OS was removed.
+Basically, everything not needed to boot ChromeOS was removed.
 
 Unfortunately, this also means the firmware source cannot be released.
 

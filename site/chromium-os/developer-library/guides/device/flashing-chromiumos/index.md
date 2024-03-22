@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides/device
-  - Chromium OS > Developer Library > Guides > Device
+  - ChromiumOS > Developer Library > Guides > Device
 page_name: flash-chromiumos
 title: Flashing chromiumOS
 ---

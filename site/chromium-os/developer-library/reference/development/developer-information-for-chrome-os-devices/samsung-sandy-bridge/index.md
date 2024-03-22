@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 page_name: samsung-sandy-bridge
 title: Samsung Series 5 550 Chromebook and Series 3 Chromebox
 ---
@@ -15,8 +15,8 @@ title: Samsung Series 5 550 Chromebook and Series 3 Chromebox
 This page contains information about the [Series 5 550 Chromebook and the Series
 3 Chromebox](http://www.samsung.com/us/computer/chrome-os-devices/all-products)
 that is interesting and/or useful to software developers. For general
-information about getting started with developing on Chromium OS (the
-open-source version of the software on Chrome OS devices), see the [Chromium OS
+information about getting started with developing on ChromiumOS (the
+open-source version of the software on ChromeOS devices), see the [ChromiumOS
 Developer Guide](/chromium-os/developer-guide).
 
 ## Developer Mode
@@ -28,7 +28,7 @@ cause hardware, software or security issues and may void warranty.**
 
 Enabling Developer mode is the first step to tinkering with your Chromebook.
 With Developer mode enabled you can do things like poke around on a command
-shell (as root if you want), install Chromium OS, or try other OS's. Note that
+shell (as root if you want), install ChromiumOS, or try other OS's. Note that
 Developer mode turns off some security features like verified boot and disabling
 the shell access. If you want to browse in a safer, more secure way, leave
 Developer mode turned OFF. Note: Switching between Developer and Normal
@@ -72,7 +72,7 @@ from the keyboard. Successive boots will:
 ### What's going on here?
 
 [Verified boot](/chromium-os/chromiumos-design-docs/verified-boot) is the
-process by which Chrome OS ensures that you are running only the software that
+process by which ChromeOS ensures that you are running only the software that
 shipped with your device. The process starts with the read-only BIOS, which is
 built into the device at the factory and can't be modified without disassembly
 (please don't try that; you'll void your warranty). The read-only BIOS verifies
@@ -110,8 +110,8 @@ the field.
 To leave developer mode, simply flip the developer-mode switch back to the OFF
 position and reboot. One of two things will happen. If your Chromebook or
 Chromebox still has a valid read-write BIOS, Google-signed kernel, and an
-unmodified Chrome OS root filesystem, then that's what will boot and you'll be
-back running the official Chrome OS image. Or, if you've modified any part of
+unmodified ChromeOS root filesystem, then that's what will boot and you'll be
+back running the official ChromeOS image. Or, if you've modified any part of
 the verified boot chain so that a full verified boot process isn't possible,
 you'll be dropped into [recovery mode](http://www.google.com/chromeos/recovery).
 That will require you to create a bootable USB key to restore your chromebook to
@@ -124,7 +124,7 @@ the transition.
 
 ## How to boot your own image from USB
 
-*   Build a Chrome OS image using the steps in the [Chromium OS
+*   Build a ChromeOS image using the steps in the [ChromiumOS
             Developer Guide](/chromium-os/developer-guide). It does not need to
             be a recovery image.
 *   Turn on the developer switch and reboot to enter developer mode.
@@ -136,9 +136,9 @@ the transition.
 *   It should boot your image. If for some reason it doesn't think your
             image is valid it will just beep once instead.
 
-## How to install your own Chromium OS image on your SSD
+## How to install your own ChromiumOS image on your SSD
 
-If you follow the full instructions from the [Chromium OS Developer
+If you follow the full instructions from the [ChromiumOS Developer
 Guide](/chromium-os/developer-guide), you will eventually end up with a bootable
 USB drive containing your image. You can boot that image directly from the USB
 drive as described above. Since it's your personal image, it should have shell
@@ -215,9 +215,9 @@ guide for more information.
 
 These devices use [coreboot](http://www.coreboot.org/) and [Das
 U-Boot](http://www.denx.de/wiki/U-Boot) to boot the system. You can find the
-source in the [Chromium OS coreboot git
+source in the [ChromiumOS coreboot git
 tree](https://chromium.googlesource.com/chromiumos/third_party/coreboot/+/firmware-uboot_v2-1299.B)
-and the [Chromium OS u-boot git
+and the [ChromiumOS u-boot git
 tree](https://chromium.googlesource.com/chromiumos/third_party/u-boot/+/firmware-uboot_v2-1299.B)
 in the `firmware-uboot_v2-1299.B` branches.
 

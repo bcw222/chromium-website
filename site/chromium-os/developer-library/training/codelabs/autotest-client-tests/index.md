@@ -211,7 +211,7 @@ python changes to the sysroot. There is no need to run rcp/scp to copy the
 change over to your DUT.*
 
 The fastest way to edit a test is directly on the client. If you find the text
-editor on a Chromium OS device non-intuitive then edit the file locally and use
+editor on a ChromiumOS device non-intuitive then edit the file locally and use
 a copy tool like rcp/scp to send it to the DUT.
 
 1. Add a print statement to the
@@ -255,7 +255,7 @@ Our aim is to create a test which does the following:
 for the hdparm test:
 
 ```none
-AUTHOR = "Chrome OS Team"NAME = "kernel_HdParmBasic"TIME = "SHORT"TEST_TYPE = "client"DOC = """This test uses hdparm to measure disk performance."""job.run_test('kernel_HdParmBasic', named_arg='kernel test')
+AUTHOR = "ChromeOS Team"NAME = "kernel_HdParmBasic"TIME = "SHORT"TEST_TYPE = "client"DOC = """This test uses hdparm to measure disk performance."""job.run_test('kernel_HdParmBasic', named_arg='kernel test')
 ```
 
 To which you can add the necessary control variables as described in the

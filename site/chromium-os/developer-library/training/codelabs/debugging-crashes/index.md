@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/training
-  - Chromium OS > Developer Library > Training
+  - ChromiumOS > Developer Library > Training
 page_name: debugging-crashes
 title: Debugging Crashes
 ---

@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 page_name: running-virtual-machines-on-your-chromebook
 title: Running virtual machines on your Chromebook
 ---
@@ -13,16 +13,16 @@ title: Running virtual machines on your Chromebook
 ## Introduction
 
 The Chromebooks with Intel processors are fast. I've replaced my Macbook Air
-with a Chromebook, and run the standard Chrome OS software on VT01, and virtual
+with a Chromebook, and run the standard ChromeOS software on VT01, and virtual
 machines on VT02. I have booted both Windows and different versions of Linux and
 the 9front version of Plan 9.
 
 I currently use a custom build of Qemu. It's a bit hard to get Qemu built in the
-Chrome OS build system at present, so I've got a directory containing Qemu, its
+ChromeOS build system at present, so I've got a directory containing Qemu, its
 libraries and BIOS files, and scripts to chroot to that directory and run Qemu.
 Access to devices, where needed, is provided via bind-mounts. The setup sounds a
 bit kludgy but works well for me; nevertheless, we welcome improvements. What
-we'd most prefer is to get this patch series into Chrome OS, so we have qemu as
+we'd most prefer is to get this patch series into ChromeOS, so we have qemu as
 part of a "real" build.
 
 <https://gerrit.chromium.org/gerrit/#/c/15445/>
@@ -32,24 +32,24 @@ when my Air was stolen.
 
 ### Background
 
-The firmware on Chrome OS devices will clear the VMX bits during boot. This
+The firmware on ChromeOS devices will clear the VMX bits during boot. This
 means that support is disabled, but it is not locked such that runtime cannot
 change things. This keeps things secure during initial boot, but doesn't lock
 out people from enabling things themselves in the kernel. Otherwise, they'd have
 to resort to modifying the firmware and that's always a tricky proposition (make
 a mistake and you have a brick).
 
-When the Chrome OS kernel boots up, it will look for the `disablevmx=[on|off]`
+When the ChromeOS kernel boots up, it will look for the `disablevmx=[on|off]`
 option on the kernel command line. If it is set to `off`, then VMX support will
 be enabled. For all other situations, we disable VMX and lock the bits so they
 cannot be turned back on. This keeps the system secure.
 
-Current Chrome OS systems all ship with KVM disabled. That means you need to
+Current ChromeOS systems all ship with KVM disabled. That means you need to
 currently build a custom kernel yourself in order to get KVM support.
 
 ### Board Specific Notes
 
-Be aware that on earlier Chrome OS devices, the firmware contained bugs such
+Be aware that on earlier ChromeOS devices, the firmware contained bugs such
 that they locked VMX support during power on. It's known to affect:
 
 *   [Series 5
@@ -62,7 +62,7 @@ that they locked VMX support during power on. It's known to affect:
 For devices marked with a \*, you might be able to restore support by hacking
 the firmware. Please see the respective device pages for more details.
 
-## Building Chromium OS w/KVM
+## Building ChromiumOS w/KVM
 
 To start, you're going to need an image that has the KVM modules. You should
 update your sources, then build an image with (at minimum) the USE=kvm option,
@@ -125,7 +125,7 @@ and it might just work. Please let rminnich@chromium.org know about bugs.
 
 ## Checking VMX Support on Unofficial Hardware
 
-If you are trying to run Chromium OS on your own hardware (i.e. not a
+If you are trying to run ChromiumOS on your own hardware (i.e. not a
 Chromebook/Chromebox), you should make sure your system is properly configured
 first.
 

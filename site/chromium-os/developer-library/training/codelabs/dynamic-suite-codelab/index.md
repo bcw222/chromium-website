@@ -26,7 +26,7 @@ title: Creating and deploying ChromiumOS dynamic test suites
 
 ## Overview
 
-The Chrome OS version of Autotest introduces a new type of suite, known as a
+The ChromeOS version of Autotest introduces a new type of suite, known as a
 dynamic suite. Dynamic suites allow for the jobs in a suite to be sharded over a
 pool of DUTs, and the dynamic suite infrastructure takes care of all of the
 device imaging and test scheduling/sharding details.
@@ -52,9 +52,9 @@ In this codelab, we will:
 
 ### Prerequisites
 
-*   This codelab assumes a full working checkout of the Chromium OS
-            repo. To get started with a Chromium OS checkout, see [How to Build
-            Chrome OS
+*   This codelab assumes a full working checkout of the ChromiumOS
+            repo. To get started with a ChromiumOS checkout, see [How to Build
+            ChromeOS
             "Internally"](https://sites.google.com/a/google.com/chromeos/resources/engineering/how-to-build).
 *   This codelab assumes a basic familiarity with use of `git` to stage
             files and commit changes.
@@ -94,7 +94,7 @@ user@host:~/chromiumos$ repo branch
 
 Test suites are defined by Autotest control files (Made up of Python with some
 meta variables), similar to the control files used to define tests themselves.
-The suite control files live in the Chromium OS source tree it the
+The suite control files live in the ChromiumOS source tree it the
 `src/third_party/autotest/files/test_suites` directory. Poke around and take a
 look at some of them to see their basic structure.
 
@@ -107,7 +107,7 @@ safer than using middle-click pasting on Linux.**
 <pre><code># Copyright 2013 The ChromiumOS Authors.
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
-AUTHOR = "Chrome OS Team"
+AUTHOR = "ChromeOS Team"
 <b>NAME = "peaches"</b>
 PURPOSE = "A simple example suite."
 CRITERIA = "All tests with SUITE=peaches must pass."
@@ -156,7 +156,7 @@ pasting on Linux.**
 <pre><code># Copyright 2013 The ChromiumOS Authors.
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
-AUTHOR = "Chrome OS Team"
+AUTHOR = "ChromeOS Team"
 NAME = "peaches_DummyPass"
 PURPOSE = "Dummy test that passes immediately."
 SUITE = "peaches"

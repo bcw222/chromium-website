@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 page_name: cr-48-chrome-notebook-developer-information
 title: Cr-48 Chrome Notebook Developer Information
 ---
@@ -15,14 +15,14 @@ title: Cr-48 Chrome Notebook Developer Information
 This page contains information about the [Cr-48 Chrome
 Notebook](http://www.google.com/chromeos/pilot-program-cr48.html) that is
 interesting and/or useful to software developers. For general information about
-getting started with developing on Chromium OS (the open-source version of the
-software on the Chrome Notebook), see the [Chromium OS Developer
+getting started with developing on ChromiumOS (the open-source version of the
+software on the Chrome Notebook), see the [ChromiumOS Developer
 Guide](/chromium-os/developer-guide).
 
 ## Entering Developer Mode
 
 You might want to enter developer mode if you're following the instructions in
-the [Chromium OS Developer Guide](/chromium-os/developer-guide), or if you just
+the [ChromiumOS Developer Guide](/chromium-os/developer-guide), or if you just
 want to get access to a shell on your device to [poke
 around](/chromium-os/poking-around-your-chrome-os-device). To get your device
 into Developer Mode, you'll need to flip the developer switch to the "Developer
@@ -88,7 +88,7 @@ width=400>](/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrom
 ## Getting the recovery kernel
 
 If you are trying to install your own disk image onto your Cr-48 Chrome Notebook
-(maybe you're following the [Chromium OS Developer
+(maybe you're following the [ChromiumOS Developer
 Instructions](/chromium-os/developer-guide)), you need the recovery kernel. You
 can find it at:
 <https://dl.google.com/dl/edgedl/chromeos/recovery/mario_recovery_kernel.zip>
@@ -150,7 +150,7 @@ drive](http://www.google.com/chromeos/recovery). In developer mode you can run
 your own scripts from the recovery USB drive, but in developer mode you can
 trigger recovery mode by just pressing SPACE at boot. Still, there it is.
 
-## How to boot your own (non-Chromium OS) image from USB
+## How to boot your own (non-ChromiumOS) image from USB
 
 (Note: This part is outdated: make_developer_script_runner.sh does not exist
 anymore)
@@ -158,27 +158,27 @@ anymore)
 Sometimes, you just want to have a shell or maybe you want to install another
 operating system. If you're in Developer Mode, then you can totally do that.
 
-This tip could actually be useful to someone who wasn't a Chromium OS developer.
+This tip could actually be useful to someone who wasn't a ChromiumOS developer.
 However, at the moment the only easy way to get the tools is to follow many of
-the steps in the [Chromium OS Developer Guide](/chromium-os/developer-guide). If
-you don't care about developing for Chromium OS and just want to get to booting
+the steps in the [ChromiumOS Developer Guide](/chromium-os/developer-guide). If
+you don't care about developing for ChromiumOS and just want to get to booting
 your own stuff, you should read the developer guide with these thoughts in mind:
 
-1.  The instructions in the [Chromium OS Developer
+1.  The instructions in the [ChromiumOS Developer
             Guide](/chromium-os/developer-guide) assume that you're running the
             [Ubuntu Lucid](http://www.ubuntu.com/) distribution of Linux. If
             you're not, you may not be able to follow them.
 2.  You should only need to follow the instructions up to the point of
-            "Enter the chroot". You don't actually need to build a Chromium OS
+            "Enter the chroot". You don't actually need to build a ChromiumOS
             image. You probably also want to choose the "minilayout" when
             downloading the source code, since that will be faster.
 
 The rest of the instructions will assume that you've followed the instructions
 enough to make a chroot and that you're currently in the chroot.
 
-### Getting the recovery kernel for your Chrome OS Notebook
+### Getting the recovery kernel for your ChromeOS Notebook
 
-You'll need to get a "recovery kernel" for your Chrome OS Notebook in order to
+You'll need to get a "recovery kernel" for your ChromeOS Notebook in order to
 follow these instructions. You can download the an officially-signed Recovery
 Kernel for the [Cr-48
 Chromebook](/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information)
@@ -223,7 +223,7 @@ explained above.
 #### Find your USB disk
 
 You should plug a USB disk in to your computer now and wait a few seconds for it
-to be detected. You can then run this quick command to use some Chromium OS
+to be detected. You can then run this quick command to use some ChromiumOS
 tools to detect the disk and find out where it is:
 
 ```none
@@ -265,9 +265,9 @@ Ubuntu mounted it for you. Put a set of instructions that tell how to do that.
 sudo dd if=dev_runner_image.bin of=${MY_USB_KEY_LOCATION} bs=16M conv=fsync
 ```
 
-#### Boot your Chrome OS Notebook with your USB image
+#### Boot your ChromeOS Notebook with your USB image
 
-Now, shut off your Chrome OS Notebook and turn it back on. Since you're in
+Now, shut off your ChromeOS Notebook and turn it back on. Since you're in
 Developer Mode (right?), you should see the warning. Hit the space bar to enter
 recovery mode. Once prompted, insert your USB disk.
 
@@ -289,10 +289,10 @@ It would be nice to get some good instructions here, though.
 
 ---
 
-### Install your own build of Chromium OS
+### Install your own build of ChromiumOS
 
 First, download the recovery kernel, as explained above. Then build a Chromium
-OS image, as mentioned in the [Chromium OS Developer
+OS image, as mentioned in the [ChromiumOS Developer
 Guide](/chromium-os/developer-guide). Once you have the recovery kernel and the
 OS image, you'll stitch them together, copy them to a USB drive, and then boot
 your system from the USB drive.
@@ -315,7 +315,7 @@ for the `${BOARD}` you built):
 ```
 
 **SIDE NOTE**: If you're interested in creating a test image (used for allowing
-Chromium OS to talk to autotest), you can run `cros build-image test` to create
+ChromiumOS to talk to autotest), you can run `cros build-image test` to create
 a test image that can be combined with the recovery image:
 
 ```bash
@@ -350,11 +350,11 @@ before you run this command.
 
 #### Install your image to the Cr-48's SSD
 
-In developer mode, your Chrome OS Notebook gives you an option to use a recovery
+In developer mode, your ChromeOS Notebook gives you an option to use a recovery
 image every time the machine boots. To install your recovery image, do the
 following:
 
-1.  Turn your Chrome OS Notebook off.
+1.  Turn your ChromeOS Notebook off.
 2.  Turn it back on.
 3.  During the boot warning, press space to enter recovery mode.
 4.  Wait until prompted to put your USB disk in.
@@ -375,7 +375,7 @@ directly to a USB drive, without making any modifications to it.
 
 ## How to install a different OS on your SSD
 
-There's an example of configuring a Cr-48 to dual-boot Chrome OS and Ubuntu
+There's an example of configuring a Cr-48 to dual-boot ChromeOS and Ubuntu
 [here](/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information/how-to-boot-ubuntu-on-a-cr-48).
 
 ## Troubleshooting

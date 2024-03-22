@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides
-  - Chromium OS > Developer Library > Guides
+  - ChromiumOS > Developer Library > Guides
 page_name: plankton
 title: USB Type-C functional testing board
 ---
@@ -104,7 +104,7 @@ The firmware is located In the Chromium Embedded Controller repository under
 
 ### Building Firmware
 
-Within your Chromium OS chroot, the syntax is:
+Within your ChromiumOS chroot, the syntax is:
 
 ```none
 cd ~/trunk/src/platform/ec

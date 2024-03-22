@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 page_name: samsung-arm-chromebook
 title: Samsung ARM Chromebook
 ---
@@ -15,7 +15,7 @@ title: Samsung ARM Chromebook
 This page contains information about the [ARM Samsung Series 3
 Chromebook](http://www.google.com/intl/en/chrome/devices/samsung-chromebook.html)
 that is interesting and/or useful to software developers. For general
-information about getting started with developing on Chromium OS (the
+information about getting started with developing on ChromiumOS (the
 open-source version of the software on the Chrome Notebook), see the [Chromium
 OS Developer Guide](/chromium-os/developer-guide).
 
@@ -60,7 +60,7 @@ chance of trashing the contents of your stateful partition.
 
 Enabling Developer mode is the first step to tinkering with your Chromebook.
 With Developer mode enabled you can do things like poke around on a command
-shell (as root if you want), install Chromium OS, or try other OS's. Note that
+shell (as root if you want), install ChromiumOS, or try other OS's. Note that
 Developer mode turns off some security features like verified boot and disabling
 the shell access. If you want to browse in a safer, more secure way, leave
 Developer mode turned OFF. Note: Switching between Developer and Normal
@@ -118,13 +118,13 @@ without your knowledge.
 ## Firmware
 
 This device uses [Das U-Boot](http://www.denx.de/wiki/U-Boot) to boot the
-system. You can find the source in the [Chromium OS u-boot git
+system. You can find the source in the [ChromiumOS u-boot git
 tree](https://chromium.googlesource.com/chromiumos/third_party/u-boot/+/firmware-snow-2695.B)
 in the `firmware-snow-2695.B` branch.
 
 There is also firmware in a custom embedded controller (which handles things
 like the keyboard), but we won't cover that here as you generally should not
-need to modify that. You can find the source in the [Chromium OS ec git
+need to modify that. You can find the source in the [ChromiumOS ec git
 tree](https://chromium.googlesource.com/chromiumos/platform/ec/+/firmware-snow-2695.B)
 (in the snow firmware branch).
 

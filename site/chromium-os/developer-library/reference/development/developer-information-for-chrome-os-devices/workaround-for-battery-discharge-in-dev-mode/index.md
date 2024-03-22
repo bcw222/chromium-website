@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 page_name: workaround-for-battery-discharge-in-dev-mode
 title: Workaround for battery discharge in dev-mode
 ---
@@ -15,11 +15,11 @@ title: Workaround for battery discharge in dev-mode
 [Issue 362105](https://crbug.com/362105) describes a painfully annoying problem
 for people who put their Chromebooks in dev-mode so they can use them more like
 a standard laptop. The tl;dr version is that if you've completely replaced or
-disabled Chrome OS and the battery runs all the way down, it forgets that it was
-configured to allow non-Chrome OS images to boot, locking you out of your own
+disabled ChromeOS and the battery runs all the way down, it forgets that it was
+configured to allow non-ChromeOS images to boot, locking you out of your own
 device. If this happens to you, here's how to get back in.
 
-Note: If your machine boots up in Chrome OS, you probably haven't lost anything:
+Note: If your machine boots up in ChromeOS, you probably haven't lost anything:
 
 > If you're no longer in dev-mode, enter it again and reboot
 
@@ -33,7 +33,7 @@ Note: If your machine boots up in Chrome OS, you probably haven't lost anything:
 
 > press CTRL-L when you see the scary boot screen
 
-If your machine **doesn't** boot Chrome OS and only gives you the "Chrome OS is
+If your machine **doesn't** boot ChromeOS and only gives you the "ChromeOS is
 missing or damaged" screen with every boot, then the following may help.
 
 This process is long and annoying, but it's better than losing all your data.
@@ -42,7 +42,7 @@ This process is long and annoying, but it's better than losing all your data.
 
 The issue has been resolved in newer devices, but most likely will not be
 backported to older ones. Here are all the devices impacted (the project names
-are listed; see the [Developer Information for Chrome OS
+are listed; see the [Developer Information for ChromeOS
 Devices](/chromium-os/developer-information-for-chrome-os-devices) page for
 product names):
 

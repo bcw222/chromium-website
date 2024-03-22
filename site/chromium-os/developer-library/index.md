@@ -1,12 +1,12 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 page_name: developer-library
 title: Developer Library
 ---
 
-The Chromium OS Developer Library is the authoritative collection of resources
+The ChromiumOS Developer Library is the authoritative collection of resources
 and materials that enable engineers to efficiently develop the platform.
 
 > 🚧 The library is currently under construction. See
@@ -18,7 +18,7 @@ and materials that enable engineers to efficiently develop the platform.
 
 ## [Getting Started](/chromium-os/developer-library/getting-started)
 
-Whether you are new to Chromium OS development or unpacking a new workstation,
+Whether you are new to ChromiumOS development or unpacking a new workstation,
 the Getting Started guide provides step-by-step instructions to go from an
 empty directory to building and uploading changes for review.
 
@@ -33,7 +33,7 @@ development process.
 ## [Glossary](/chromium-os/developer-library/glossary)
 
 This page provides a glossary of commonly-used terms and acronyms within the
-Chromium OS development ecosystem.
+ChromiumOS development ecosystem.
 
 </div>
 <div class="column">

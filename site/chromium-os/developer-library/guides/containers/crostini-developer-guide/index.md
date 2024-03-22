@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides
-  - Chromium OS > Developer Library > Guides
+  - ChromiumOS > Developer Library > Guides
 page_name: crostini-developer-guide
 title: Crostini developer guide
 ---
@@ -379,7 +379,7 @@ You can now connect to Crostini the same as you would the host.
 
 ### Chrome
 
-See [Chrome Logging on Chrome OS](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/chrome_os_logging.md).
+See [Chrome Logging on ChromeOS](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/chrome_os_logging.md).
 
 ### Host Services
 

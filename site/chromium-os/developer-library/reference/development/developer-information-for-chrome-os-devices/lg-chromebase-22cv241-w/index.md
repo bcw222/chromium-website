@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 page_name: lg-chromebase-22cv241-w
 title: LG Chromebase 22CV241-W
 ---
@@ -15,8 +15,8 @@ title: LG Chromebase 22CV241-W
 This page contains information about the [Lenovo Chromebook N20 &
 N20P](https://www.google.com/chromebook/) that is interesting and/or useful to
 software developers. For general information about getting started with
-developing on Chromium OS (the open-source version of the software on the Chrome
-Notebook), see the [Chromium OS Developer Guide](/chromium-os/developer-guide).
+developing on ChromiumOS (the open-source version of the software on the Chrome
+Notebook), see the [ChromiumOS Developer Guide](/chromium-os/developer-guide).
 
 <img alt="image"
 src="/chromium-os/developer-information-for-chrome-os-devices/lg-chromebase-22cv241-w/gallery-LG-1-F-101_White_Monitor_from-Sandbox.jpg"
@@ -77,7 +77,7 @@ page](/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromeb
 ## Firmware
 
 This device uses [coreboot](http://www.coreboot.org/) to boot the system. You
-can find the source in the [Chromium OS coreboot git
+can find the source in the [ChromiumOS coreboot git
 tree](https://chromium.googlesource.com/chromiumos/third_party/coreboot/+/firmware-monroe-4921.B)
 in the `firmware-monroe-4921.B` branch.
 

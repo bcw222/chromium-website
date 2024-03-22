@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 page_name: hp-chromebook-11
 title: HP Chromebook 11
 ---
@@ -15,8 +15,8 @@ title: HP Chromebook 11
 This page contains information about the [HP Chromebook
 11](http://www.google.com/intl/en/chrome/devices/hp-chromebook-11/) that is
 interesting and/or useful to software developers. For general information about
-getting started with developing on Chromium OS (the open-source version of the
-software on the Chrome Notebook), see the [Chromium OS Developer
+getting started with developing on ChromiumOS (the open-source version of the
+software on the Chrome Notebook), see the [ChromiumOS Developer
 Guide](/chromium-os/developer-guide).
 
 Note: there have been multiple devices released under the moniker "HP Chromebook

@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
 - - /chromium-os
-  - Chromium OS
+  - ChromiumOS
 - - /chromium-os/developer-information-for-chrome-os-devices
-  - Developer Information for Chrome OS Devices
+  - Developer Information for ChromeOS Devices
 page_name: lenovo-thinkpad-x131e-chromebook
 title: Lenovo Thinkpad X131e Chromebook
 ---
@@ -15,7 +15,7 @@ title: Lenovo Thinkpad X131e Chromebook
 This page contains information about the [Lenovo Thinkpad X131e
 Chromebook](http://www.google.com/intl/en/chrome/education/devices/lenovo-x131e-chromebook.html)
 that is interesting and/or useful to software developers. For general
-information about getting started with developing on Chromium OS (the
+information about getting started with developing on ChromiumOS (the
 open-source version of the software on the Chrome Notebook), see the [Chromium
 OS Developer Guide](/chromium-os/developer-guide).
 
@@ -33,7 +33,7 @@ chance of trashing the contents of your stateful partition.
 
 Enabling Developer mode is the first step to tinkering with your Chromebook.
 With Developer mode enabled you can do things like poke around on a command
-shell (as root if you want), install Chromium OS, or try other OS's. Note that
+shell (as root if you want), install ChromiumOS, or try other OS's. Note that
 Developer mode turns off some security features like verified boot and disabling
 the shell access. If you want to browse in a safer, more secure way, leave
 Developer mode turned OFF. Note: Switching between Developer and Normal
@@ -96,9 +96,9 @@ without your knowledge.
 
 This device uses [coreboot](http://www.coreboot.org/) and [Das
 U-Boot](http://www.denx.de/wiki/U-Boot) to boot the system. You can find the
-source in the [Chromium OS coreboot git
+source in the [ChromiumOS coreboot git
 tree](https://chromium.googlesource.com/chromiumos/third_party/coreboot/+/firmware-stout-2817.B)
-and the [Chromium OS u-boot git
+and the [ChromiumOS u-boot git
 tree](https://chromium.googlesource.com/chromiumos/third_party/u-boot/+/firmware-stout-2817.B)
 in the `firmware-stout-2817.B` branches.
 
