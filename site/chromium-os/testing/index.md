@@ -74,8 +74,6 @@ MobLab is a self-contained automated test environment running on a Chromebox.
 
 *   [Dynamic Test Suite
             Implementation](/chromium-os/testing/dynamic-test-suites)
-*   [Test Dependencies in Dynamic
-            Suites](/chromium-os/testing/test-dependencies-in-dynamic-suites)
 *   [Suite Scheduler AKA Test Scheduler
             V2](/chromium-os/testing/suite_scheduler-1)
 
