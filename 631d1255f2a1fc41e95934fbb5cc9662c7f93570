@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee0db060_0d315890",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-22T00:54:13Z",
+      "side": 1,
+      "message": "LGTM with nit. Thanks!",
+      "revId": "631d1255f2a1fc41e95934fbb5cc9662c7f93570",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4656467a_bf69dbdd",
+        "filename": "site/chromium-os/developer-library/guides/chromiumos-architecture-porting-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-22T00:54:13Z",
+      "side": 1,
+      "message": "nit: non-title case in the doc as well (all the docs in the CL).",
+      "range": {
+        "startLine": 6,
+        "startChar": 18,
+        "endLine": 6,
+        "endChar": 30
+      },
+      "revId": "631d1255f2a1fc41e95934fbb5cc9662c7f93570",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
