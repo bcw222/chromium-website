@@ -1,0 +1,84 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "76d6e383_fc3e4899",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-22T21:37:31Z",
+      "side": 1,
+      "message": "LGTM with nits.",
+      "revId": "eeaac2f7c53726f40c101e9b473d7e7ba4ec2062",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8f8c97ee_06b4450f",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-22T21:37:31Z",
+      "side": 1,
+      "message": "nit: We\u0027ve codified using non-title case in the library, i.e. only capitalize the first word.\n```suggestion\n* [Adding a package to the SDK](/chromium-os/developer-library/guides/portage/add-sdk-package)\n```",
+      "revId": "eeaac2f7c53726f40c101e9b473d7e7ba4ec2062",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "95fe0050_11af70f1",
+        "filename": "site/chromium-os/developer-library/guides/portage/add-sdk-package/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-22T21:37:31Z",
+      "side": 1,
+      "message": "This should follow the library standard breadcrumb:\n\n  - ChromiumOS \u003e Developer Library \u003e Guides",
+      "range": {
+        "startLine": 6,
+        "startChar": 16,
+        "endLine": 6,
+        "endChar": 21
+      },
+      "revId": "eeaac2f7c53726f40c101e9b473d7e7ba4ec2062",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "13584308_c9759732",
+        "filename": "site/chromium-os/developer-library/guides/portage/ebuild-faq/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-22T21:37:31Z",
+      "side": 1,
+      "message": "ChromiumOS was correct.",
+      "range": {
+        "startLine": 4,
+        "startChar": 13,
+        "endLine": 4,
+        "endChar": 15
+      },
+      "revId": "eeaac2f7c53726f40c101e9b473d7e7ba4ec2062",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
