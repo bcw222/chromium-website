@@ -74,6 +74,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a841bf78_896b8641",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-22T19:43:45Z",
+      "side": 1,
+      "message": "Sorry, I see what you\u0027re doing now. Then I suppose the request is to remove these links from chromium-os/how-tos-and-troubleshooting/index.md.\n\nDoes that make sense?",
+      "parentUuid": "ae8e607e_651f50f2",
+      "revId": "aac82b4ddc50fdc0446eae5c91161a2afc483c3d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "42857173_3d6a0b14",
         "filename": "site/chromium-os/developer-library/guides/debugging-3g/manual-e362-setup/index.md",
         "patchSetId": 3
