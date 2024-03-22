@@ -39,15 +39,6 @@ Before you check in a change, you should also do [a trybot run
 locally](/chromium-os/build/local-trybot-documentation), which will run unit
 tests and smoke tests in the same way that the builders do.
 
-*   [AFE RPC
-            Infrastructure](/chromium-os/testing/afe-rpc-infrastructure)
-*   [Autoserv Packaging](/chromium-os/testing/autoserv-packaging)
-*   [Collecting Stats for
-            Graphite](/chromium-os/testing/collecting-stats-for-graphite)
-*   [GS Offloader](/chromium-os/testing/gs-offloader)
-*   [Autotest Keyvals](/chromium-os/testing/autotest-keyvals)
-*   [Performance Tests and Dashboard](/chromium-os/testing/perf-data)
-
 </div>
 <div class="column">
 

@@ -96,10 +96,15 @@ title: Reference
 
 ## Infrastructure
 
-* [Root CA Certificates on ChromiumOS](/chromium-os/developer-library/reference/infrastructure/ca-certs)
-* [ChromiumOS Input Stack](/chromium-os/developer-library/reference/infrastructure/input-stack)
 * [/etc/lsb-release File Format](/chromium-os/developer-library/reference/infrastructure/lsb-release)
+* [AFE RPC Infrastructure](/chromium-os/developer-library/reference/infrastructure/afe-rpc-infrastructure)
+* [Autoserv Packaging](/chromium-os/developer-library/reference/infrastructure/autoserv-packaging)
+* [Autotest Keyvals](/chromium-os/developer-library/reference/infrastructure/autotest-keyvals)
 * [ChromiumOS Configuration](/chromium-os/developer-library/reference/infrastructure/os-config)
+* [ChromiumOS Input Stack](/chromium-os/developer-library/reference/infrastructure/input-stack)
+* [Collecting Stats for Graphite](/chromium-os/developer-library/reference/infrastructure/collecting-stats-for-graphite)
+* [GS Offloader](/chromium-os/developer-library/reference/infrastructure/gs-offloader)
+* [Root CA Certificates on ChromiumOS](/chromium-os/developer-library/reference/infrastructure/ca-certs)
 
 ## Linux constants
 

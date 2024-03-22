@@ -1,16 +1,12 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
-- - /chromium-os/testing/autotest-keyvals
-  - Autotest Keyvals
+- - /chromium-os/developer-library/reference
+  - Chromium OS > Developer Library > Reference
 page_name: perf-keyvals
 title: Perf Keyvals
 ---
 
-# Note perf keyvals described in this page has been deprecated. If your test output perf values, please refer to <http://www.chromium.org/chromium-os/testing/perf-data>
+# Note perf keyvals described in this page has been deprecated. If your test output perf values, please refer to <http://www.chromium.org/chromium-os/developer-library/guides/testing/perf-data>
 
 # Currently, autotest uses a special kind of keyval called a “perf keyval” to store performance test data. A perf keyval -- like any keyval in autotest -- is simply a key/value pair, where the key is a string that describes the value. The string key can contain only letters, numbers, periods, dashes, and underscores, as defined in write_keyval() in chromeos/src/third_party/autotest/files/client/common_lib/base_utils.py.
 
