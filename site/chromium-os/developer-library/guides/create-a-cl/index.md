@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides/
+  - ChromiumOS > Developer Library > Guides
 page_name: create-a-cl
 title: Create a CL
 ---
@@ -15,7 +13,7 @@ Here's the basic flow when creating/uploading a CL for review:
 
 1.  Navigate to the project you want to create a CL for, I'll use
             src/scripts as an example: cd ~/trunk/src/scripts
-2.  Start a new branch that tracks the remote master branch: repo start
+2.  Start a new branch that tracks the remote branch: repo start
             &lt;name of branch to create&gt; .
 3.  Make the changes you want to upload, and then commit them, following
             the [commit message

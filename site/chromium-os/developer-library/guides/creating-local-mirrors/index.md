@@ -1,12 +1,12 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides/
+  - ChromiumOS > Developer Library > Guides
 page_name: creating-local-mirrors
-title: Creating Local Mirrors
+title: Creating local mirrors
 ---
+
+
 
 [TOC]
 
