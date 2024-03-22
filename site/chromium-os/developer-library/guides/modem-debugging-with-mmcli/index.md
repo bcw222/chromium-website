@@ -1,11 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
-- - /chromium-os/how-tos-and-troubleshooting/debugging-3g
-  - Debugging a cellular modem
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: modem-debugging-with-mmcli
 title: Modem debugging with mmcli (from the modemmanager-next package)
 ---
