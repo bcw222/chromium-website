@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/build
-  - Chromium OS Build
+- - /chromium-os/developer-library/guides/#portage
+  - ChromiumOS > Developer Library > Guides
 page_name: add-sdk-package
 title: Adding a Package to the SDK
 ---
