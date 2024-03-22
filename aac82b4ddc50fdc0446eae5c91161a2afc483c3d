@@ -92,6 +92,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "463f3ddf_46fff6cf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1516607
+      },
+      "writtenOn": "2024-03-22T19:51:29Z",
+      "side": 1,
+      "message": "Removing the files themselves has removed the references from chromium-os/how-tos-and-troubleshooting/index.md since that index just lists subpages - http://cs/h/chromium/chromiumos/codesearch/+/main:website/site/chromium-os/how-tos-and-troubleshooting/index.md\n\nthe preview looks correct to me: https://chromium-website--cl5388458-ps4-tvu9eo3n.web.app/chromium-os/how-tos-and-troubleshooting/",
+      "parentUuid": "a841bf78_896b8641",
+      "revId": "aac82b4ddc50fdc0446eae5c91161a2afc483c3d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "42857173_3d6a0b14",
         "filename": "site/chromium-os/developer-library/guides/debugging-3g/manual-e362-setup/index.md",
         "patchSetId": 3
