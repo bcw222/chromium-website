@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "9a479a10_a96bb82c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-22T17:40:35Z",
+      "side": 1,
+      "message": "Please also remove the reference from the original testing index.md.",
+      "revId": "b2acdc378739a6f463d4cd7a6f5879ee0ed762e2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3baafb7e_e9e21786",
         "filename": "site/chromium-os/developer-library/reference/design_docs/suite_scheduler-1/index.md",
         "patchSetId": 1
