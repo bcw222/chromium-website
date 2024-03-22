@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e9a72740_09bf5fc7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-22T00:59:14Z",
+      "side": 1,
+      "message": "lgtm with nits",
+      "revId": "afd213ebc08135121c9ff017651b80ce3ba84e17",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7ac3e93d_b836bea9",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-22T00:59:14Z",
+      "side": 1,
+      "message": "nit: Alphabetize in the list.",
+      "range": {
+        "startLine": 205,
+        "startChar": 3,
+        "endLine": 205,
+        "endChar": 9
+      },
+      "revId": "afd213ebc08135121c9ff017651b80ce3ba84e17",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ee7ff641_1defa918",
+        "filename": "site/chromium-os/testing/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-22T00:59:14Z",
+      "side": 1,
+      "message": "Please remove this sentence as well.",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 6
+      },
+      "revId": "afd213ebc08135121c9ff017651b80ce3ba84e17",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
