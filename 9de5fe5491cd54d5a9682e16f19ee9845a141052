@@ -16,6 +16,24 @@
       "message": "The original resource should have been removed, i.e.,\n\ngit mv testing/old library/guides/...\n\nThe reference in the testing index.md also needs to be removed.",
       "revId": "9de5fe5491cd54d5a9682e16f19ee9845a141052",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "79e0cdd8_c65cdc33",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1540737
+      },
+      "writtenOn": "2024-03-22T17:54:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6ebb918e_47427332",
+      "revId": "9de5fe5491cd54d5a9682e16f19ee9845a141052",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
