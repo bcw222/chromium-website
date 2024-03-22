@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8df9805f_a2f394c0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-22T18:18:44Z",
+      "side": 1,
+      "message": "lgtm",
+      "revId": "e6fb4d56c04dff97e496354e90e8efa8d09c3947",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "66011d93_9fc18ef4",
+        "filename": "site/chromium-os/developer-library/reference/build/faq/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-22T18:18:44Z",
+      "side": 1,
+      "message": "ChromiumOS\n```suggestion\n  - ChromiumOS Build\n```",
+      "range": {
+        "startLine": 6,
+        "startChar": 13,
+        "endLine": 6,
+        "endChar": 15
+      },
+      "revId": "e6fb4d56c04dff97e496354e90e8efa8d09c3947",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
