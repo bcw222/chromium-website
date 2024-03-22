@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a2fb47c_ef7af417",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-22T17:48:50Z",
+      "side": 1,
+      "message": "lgtm",
+      "revId": "87dcdb200f40e0c01c931ecf0df951e4a6b500f4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa90e60e_f881a159",
+        "filename": "site/chromium-os/developer-library/guides/testing/test-suites/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-22T17:48:50Z",
+      "side": 1,
+      "message": "ChromiumOS\n```suggestion\n  - ChromiumOS \u003e Developer Library \u003e Guides\n```",
+      "range": {
+        "startLine": 4,
+        "startChar": 13,
+        "endLine": 4,
+        "endChar": 15
+      },
+      "revId": "87dcdb200f40e0c01c931ecf0df951e4a6b500f4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
