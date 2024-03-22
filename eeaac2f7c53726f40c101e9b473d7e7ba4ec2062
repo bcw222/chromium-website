@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b674dc77_aed6a17c",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 1541867
+      },
+      "writtenOn": "2024-03-22T22:17:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8f8c97ee_06b4450f",
+      "revId": "eeaac2f7c53726f40c101e9b473d7e7ba4ec2062",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "95fe0050_11af70f1",
@@ -58,6 +76,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ce5289f_a5f55920",
+        "filename": "site/chromium-os/developer-library/guides/portage/add-sdk-package/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1541867
+      },
+      "writtenOn": "2024-03-22T22:17:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "95fe0050_11af70f1",
+      "range": {
+        "startLine": 6,
+        "startChar": 16,
+        "endLine": 6,
+        "endChar": 21
+      },
+      "revId": "eeaac2f7c53726f40c101e9b473d7e7ba4ec2062",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "13584308_c9759732",
@@ -71,6 +113,30 @@
       "writtenOn": "2024-03-22T21:37:31Z",
       "side": 1,
       "message": "ChromiumOS was correct.",
+      "range": {
+        "startLine": 4,
+        "startChar": 13,
+        "endLine": 4,
+        "endChar": 15
+      },
+      "revId": "eeaac2f7c53726f40c101e9b473d7e7ba4ec2062",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0854edab_dacc7871",
+        "filename": "site/chromium-os/developer-library/guides/portage/ebuild-faq/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1541867
+      },
+      "writtenOn": "2024-03-22T22:17:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "13584308_c9759732",
       "range": {
         "startLine": 4,
         "startChar": 13,
