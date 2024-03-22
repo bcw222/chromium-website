@@ -39,6 +39,30 @@
       },
       "revId": "2faf58c2dc9f9115c97a2453f25559970882e4d6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "09ae4ee9_102e6935",
+        "filename": "site/chromium-os/developer-library/guides/device/ro-firmware-unlock/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1259838
+      },
+      "writtenOn": "2024-03-22T15:36:04Z",
+      "side": 1,
+      "message": "It is intentional that you cannot change the at boot setting from the AP. You can still change the at boot setting from CCD",
+      "parentUuid": "4c7dcc71_5699058d",
+      "range": {
+        "startLine": 96,
+        "startChar": 62,
+        "endLine": 97,
+        "endChar": 6
+      },
+      "revId": "2faf58c2dc9f9115c97a2453f25559970882e4d6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ],
   "submitRequirementResults": [
