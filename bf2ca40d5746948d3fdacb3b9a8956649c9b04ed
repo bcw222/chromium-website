@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a005630_86c70880",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1310383
+      },
+      "writtenOn": "2024-03-22T20:51:04Z",
+      "side": 1,
+      "message": "Thank you for the review! I have gone ahead and removed the links, PTAL when you have a moment :D",
+      "revId": "bf2ca40d5746948d3fdacb3b9a8956649c9b04ed",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
