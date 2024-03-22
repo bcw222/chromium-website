@@ -56,6 +56,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ae8e607e_651f50f2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1516607
+      },
+      "writtenOn": "2024-03-22T19:15:38Z",
+      "side": 1,
+      "message": "I\u0027m not seeing whether these references are listed on /chromium-os/index.md. There is \"All How Tos and Troubleshooting\" but that still contains unmigrated pages.\n\nCould you point me to where on https://www.chromium.org/chromium-os/ has references that should be removed?",
+      "parentUuid": "38bd1c7f_801f7344",
+      "revId": "aac82b4ddc50fdc0446eae5c91161a2afc483c3d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "42857173_3d6a0b14",
         "filename": "site/chromium-os/developer-library/guides/debugging-3g/manual-e362-setup/index.md",
         "patchSetId": 3
@@ -67,6 +85,30 @@
       "writtenOn": "2024-03-22T18:30:07Z",
       "side": 1,
       "message": "We have just stopped the breadcrumb at Guides. We should probably flatten these docs that have an extra layer of depth in the future.",
+      "range": {
+        "startLine": 4,
+        "startChar": 46,
+        "endLine": 4,
+        "endChar": 55
+      },
+      "revId": "aac82b4ddc50fdc0446eae5c91161a2afc483c3d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd7241c4_1f30f068",
+        "filename": "site/chromium-os/developer-library/guides/debugging-3g/manual-e362-setup/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1516607
+      },
+      "writtenOn": "2024-03-22T19:15:38Z",
+      "side": 1,
+      "message": "done - flattened all these pages to be directly under guides.",
+      "parentUuid": "42857173_3d6a0b14",
       "range": {
         "startLine": 4,
         "startChar": 46,
