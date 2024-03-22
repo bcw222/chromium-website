@@ -66,7 +66,7 @@ title: Guides
 * [CrOS work command cheatsheet](/chromium-os/developer-library/guides/development/cheatsheet)
 * [Development basics](/chromium-os/developer-library/guides/development/development-basics)
 * [Getting started with platform2](/chromium-os/developer-library/guides/development/platform2-primer)
-* [How to use LINT.IfChange to keep files in sync](/chromium-os/developer-library/guides/development/keep-files-in-sync)
+* [How to use "LINT.IfChange" to keep files in sync](/chromium-os/developer-library/guides/development/keep-files-in-sync)
 * [Introduction to Git & Gerrit for CrOS contributors](/chromium-os/developer-library/guides/development/git-and-gerrit-intro)
 * [Life of a Chrome commit on ChromeOS](/chromium-os/developer-library/guides/development/chrome-commit-pipeline)
 * [Remote trybots](/chromium-os/developer-library/guides/development/remote-trybots)
@@ -155,6 +155,7 @@ title: Guides
 
 ## Portage
 
+* [Adding a Package to the SDK](/chromium-os/developer-library/guides/portage/add-sdk-package)
 * [CrOS bashrc override framework](/chromium-os/developer-library/guides/portage/profile-bashrc)
 * [Ebuild FAQ](/chromium-os/developer-library/guides/portage/ebuild-faq)
 * [How to patch an ebuild](/chromium-os/developer-library/guides/portage/how-to-patch-an-ebuild)
