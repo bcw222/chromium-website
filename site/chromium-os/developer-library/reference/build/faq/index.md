@@ -1,8 +1,6 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/developer-library/reference/build
+- - /chromium-os/developer-library/reference/build/faq
   - Chromium OS Build
 page_name: faq
 title: Build FAQ
