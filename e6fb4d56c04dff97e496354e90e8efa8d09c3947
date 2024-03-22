@@ -39,6 +39,30 @@
       },
       "revId": "e6fb4d56c04dff97e496354e90e8efa8d09c3947",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0b238f21_2f62de33",
+        "filename": "site/chromium-os/developer-library/reference/build/faq/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1516607
+      },
+      "writtenOn": "2024-03-22T18:19:50Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "66011d93_9fc18ef4",
+      "range": {
+        "startLine": 6,
+        "startChar": 13,
+        "endLine": 6,
+        "endChar": 15
+      },
+      "revId": "e6fb4d56c04dff97e496354e90e8efa8d09c3947",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
