@@ -16,6 +16,24 @@
       "message": "I think they are all good explanations, no need to remove.",
       "revId": "8fba66b180a1ec232b1e3d4c4546d60b0bacf918",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ab268256_0228022b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1481202
+      },
+      "writtenOn": "2024-03-25T17:46:04Z",
+      "side": 1,
+      "message": "A couple pieces of motivation here:\n1. Having multiple docs cover the same thing (the process of adding a user/group) means we have to remember to keep both places up to date any time the process changes.\n2. Perhaps more importantly, as a user of the doc I have to figure out: is this doc adding anything onto the other doc? I have to click through each CL example link and try to determine if there\u0027s some additional knowledge here, or if the main User \u0026 Group Management doc actually covers everything.\n\nBasically, when I\u0027m adding a service and trying to add all the sandboxing stuff, I want the process documentation to be as simple and up-to-date as possible.",
+      "parentUuid": "d3f4d2e9_5ff344cf",
+      "revId": "8fba66b180a1ec232b1e3d4c4546d60b0bacf918",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
