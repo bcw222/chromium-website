@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: chamelium
 title: Chamelium
 ---
@@ -45,9 +43,9 @@ Please direct any questions about Chamelium to
 ## Setting up Chamelium
 
 [<img alt="image"
-src="/chromium-os/testing/chamelium/Chameleon%20Video%20-%20New%20Page%20%284%29.png"
+src="Chameleon%20Video%20-%20New%20Page%20%284%29.png"
 height=309
-width=400>](/chromium-os/testing/chamelium/Chameleon%20Video%20-%20New%20Page%20%284%29.png)
+width=400>](Chameleon%20Video%20-%20New%20Page%20%284%29.png)
 
 (Block diagram)
 
@@ -121,16 +119,16 @@ The following equipment is optional:
         J19 = down
 
         JP2 - 2.5V <img alt="image"
-        src="/chromium-os/testing/chamelium/s2mbf9hZBTGKMFHBgqQqDiA.png"> <img
+        src="s2mbf9hZBTGKMFHBgqQqDiA.png"> <img
         alt="image"
-        src="/chromium-os/testing/chamelium/sjR3S5TzIrNaCyuUbwvWwbA.png"> <img
+        src="sjR3S5TzIrNaCyuUbwvWwbA.png"> <img
         alt="image"
-        src="/chromium-os/testing/chamelium/swKcCTHdtRXI6IJ-pzsZR9Q.png">
+        src="swKcCTHdtRXI6IJ-pzsZR9Q.png">
 
     Set the jumpers on the bottom side of the board
 
         MSEL = up-up-down-up-up-up = uncompressed RBF (001000) <img alt="image"
-        src="/chromium-os/testing/chamelium/spstW8nBPTZeJhUk-NjRnQg.png">
+        src="spstW8nBPTZeJhUk-NjRnQg.png">
 
 ### Image the SD card
 
@@ -171,7 +169,7 @@ the external display emulator board and secure them into place per the diagram
 below:
 
 **<img alt="image"
-src="/chromium-os/testing/chamelium/png%3Bbase644fb8f58c45521404.png">**
+src="png%3Bbase644fb8f58c45521404.png">**
 
 Note that the longer nuts should be placed in between the two boards, with the
 shorter nuts on the bottom.
@@ -189,7 +187,7 @@ shorter nuts on the bottom.
     The additional VGA port next to the ethernet port is optional (it’s for
     debugging purposes only) and should be connected to an external monitor if
     you decide to use it. <img alt="image"
-    src="/chromium-os/testing/chamelium/s3x3vmsvmeWSlhdK4GEG60A.png">
+    src="s3x3vmsvmeWSlhdK4GEG60A.png">
 
     Next, connect the ethernet port on the FPGA to the same network as your
     Linux host and as your DUT.
@@ -376,7 +374,7 @@ to hex numbers of your choice):
         suite:chameleon_dp
 
     Run a test [using
-    test_that](/chromium-os/testing/test-suites#TOC-How-to-run-suites-with-test_that-)!
+    test_that](/chromium-os/developer-library/guides/testing/test-suites#TOC-How-to-run-suites-with-test_that-)!
 
 # cd ~/trunk/src/scripts
 
