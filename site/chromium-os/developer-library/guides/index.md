@@ -109,6 +109,9 @@ title: Guides
 ## Hardware Schematics
 
 * [45W USB Type-C charging adapter control board](/chromium-os/developer-library/guides/hardware-schematics/minimuffin)
+* [Chamelium](/chromium-os/developer-library/guides/hardware-schematics/chamelium)
+* [Chamelium audio board](/chromium-os/developer-library/guides/hardware-schematics/chamelium-audio-board)
+* [Chamelium audio streaming](/chromium-os/developer-library/guides/hardware-schematics/chamelium-audio-streaming)
 * [USB Type-C debug dongle and sniffer for USB-PD communications](/chromium-os/developer-library/guides/hardware-schematics/twinkie)
 * [USB Type-C to DisplayPort adapter](/chromium-os/developer-library/guides/hardware-schematics/dingdong)
 * [USB Type-C to HDMI adapter](/chromium-os/developer-library/guides/hardware-schematics/hoho)

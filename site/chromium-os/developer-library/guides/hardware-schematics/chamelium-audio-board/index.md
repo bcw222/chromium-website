@@ -1,11 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: chamelium-audio-board
-title: Chamelium Audio Board
+title: Chamelium audio board
 ---
 
 [TOC]
@@ -41,9 +39,9 @@ It helps Chamelium automate audio testing including:
 *   Audio Board Block Diagram
 
 > > [<img alt="image"
-> > src="/chromium-os/testing/chamelium-audio-board/Chameleon%20Audio%20-%20New%20Page%20%284%29.png"
+> > src="Chameleon%20Audio%20-%20New%20Page%20%284%29.png"
 > > height=283
-> > width=400>](/chromium-os/testing/chamelium-audio-board/Chameleon%20Audio%20-%20New%20Page%20%284%29.png)
+> > width=400>](Chameleon%20Audio%20-%20New%20Page%20%284%29.png)
 
 *   Audio Board
 
