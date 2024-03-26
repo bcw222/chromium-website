@@ -1,13 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
-- - /chromium-os/testing/moblab
-  - MobLab
+- - /chromium-os/developer-library/reference
+  - ChromiumOS > Developer Library > Reference
 page_name: releasenotes
-title: MobLab Release Notes
+title: MobLab release notes
 ---
 
 # The latest recovery images for Moblab:
