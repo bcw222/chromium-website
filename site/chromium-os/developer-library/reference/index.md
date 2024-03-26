@@ -105,6 +105,7 @@ title: Reference
 * [ChromiumOS Input Stack](/chromium-os/developer-library/reference/infrastructure/input-stack)
 * [Collecting Stats for Graphite](/chromium-os/developer-library/reference/infrastructure/collecting-stats-for-graphite)
 * [GS Offloader](/chromium-os/developer-library/reference/infrastructure/gs-offloader)
+* [MobLab](/chromium-os/developer-library/reference/infrastructure/moblab)
 * [Root CA Certificates on ChromiumOS](/chromium-os/developer-library/reference/infrastructure/ca-certs)
 
 ## Linux constants

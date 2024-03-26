@@ -222,44 +222,14 @@ chromium-os/developer-library/guides/hardware-schematics/plankton/Plankton Raide
 chromium-os/developer-library/guides/hardware-schematics/plankton/plankton-master.tar.gz
 chromium-os/developer-library/reference/hardware/cable-and-adapter-tips-and-tricks/SourcePowerRule.png
 chromium-os/donnettes/smart receptacle-05042017.pdf
-chromium-os/testing/moblab/overview-of-moblab/image00.png
-chromium-os/testing/moblab/overview-of-moblab/image01.png
-chromium-os/testing/moblab/view-test-result-vis-wmatrix/Selection_977.png
-chromium-os/testing/moblab/view-test-result-vis-wmatrix/Selection_980.png
-chromium-os/testing/moblab/view-test-result-vis-wmatrix/Selection_982.png
-chromium-os/testing/moblab/view-test-result-vis-wmatrix/Selection_978.png
-chromium-os/testing/moblab/usingmoblab/image00.png
-chromium-os/testing/moblab/usingmoblab/image01.png
-chromium-os/testing/moblab/usingmoblab/image03.png
-chromium-os/testing/moblab/usingmoblab/image02.png
-chromium-os/testing/moblab/usingmoblab/Selection_945.png
-chromium-os/testing/moblab/usingmoblab/Selection_946.png
-chromium-os/testing/moblab/setup/Selection_971.png
-chromium-os/testing/moblab/setup/Selection_970.png
-chromium-os/testing/moblab/setup/Selection_972.png
-chromium-os/testing/moblab/setup/Screenshot from 2014-09-02 17_21_38.png
-chromium-os/testing/moblab/setup/Selection_973.png
-chromium-os/testing/moblab/setup/image00.png
-chromium-os/testing/moblab/setup/image01.png
-chromium-os/testing/moblab/setup/image03.png
-chromium-os/testing/moblab/setup/image02.png
-chromium-os/testing/moblab/setup/Screenshot from 2014-09-02 17_21_50.png
-chromium-os/testing/moblab/setup/Selection_968.png
-chromium-os/testing/moblab/faft-testing-with-moblab/create_job_faft.png
-chromium-os/testing/moblab/faft-testing-with-moblab/Running FAFT (Fully Automated Firmware Tests) with MobLab.png
-chromium-os/testing/moblab/faft-testing-with-moblab/servo v2 diagram.png
-chromium-os/testing/moblab/releasenotes/Screenshot from 2014-09-02 17_21_38.png
-chromium-os/testing/moblab/releasenotes/mob1.png
-chromium-os/testing/moblab/releasenotes/mob2.png
-chromium-os/testing/moblab/releasenotes/7tG9QTai4PUH2ue.png
-chromium-os/testing/moblab/releasenotes/5AjtD5fj5XrBV3X.png
-chromium-os/testing/moblab/releasenotes/Screenshot from 2014-09-02 17_21_50.png
-chromium-os/testing/moblab/releasenotes/944NKgXvoL9ubsp.png
-chromium-os/testing/moblab/releasenotes/65cXCzDADkz.png
-chromium-os/testing/moblab/mob-monitor/mobmonitor.png
-chromium-os/testing/moblab/mob-monitor/mobmonitor_repair_dialog.png
-chromium-os/testing/moblab/mob-monitor/mobmonitor_main_page.png
-chromium-os/testing/moblab/mob-monitor/mobmonitor_colours.png
+chromium-os/developer-library/reference/infrastructure/moblab/releasenotes/Screenshot from 2014-09-02 17_21_38.png
+chromium-os/developer-library/reference/infrastructure/moblab/releasenotes/mob1.png
+chromium-os/developer-library/reference/infrastructure/moblab/releasenotes/mob2.png
+chromium-os/developer-library/reference/infrastructure/moblab/releasenotes/7tG9QTai4PUH2ue.png
+chromium-os/developer-library/reference/infrastructure/moblab/releasenotes/5AjtD5fj5XrBV3X.png
+chromium-os/developer-library/reference/infrastructure/moblab/releasenotes/Screenshot from 2014-09-02 17_21_50.png
+chromium-os/developer-library/reference/infrastructure/moblab/releasenotes/944NKgXvoL9ubsp.png
+chromium-os/developer-library/reference/infrastructure/moblab/releasenotes/65cXCzDADkz.png
 chromium-os/testing/hardware_qualification/HWQual.pdf
 chromium-os/testing/chamelium-audio-streaming/IMG_0001.jpg
 chromium-os/testing/chamelium-audio-streaming/IMG_0003.jpg

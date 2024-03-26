@@ -1,11 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
-- - /chromium-os/testing/moblab
-  - MobLab
+- - /chromium-os/developer-library/reference
+  - ChromiumOS > Developer Library > Reference
 page_name: pre-requirements-of-issue-creation
 title: Pre-requirements of issue creation
 ---

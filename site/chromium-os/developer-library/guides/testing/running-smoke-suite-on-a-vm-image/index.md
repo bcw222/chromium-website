@@ -1,11 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: running-smoke-suite-on-a-vm-image
-title: Running Smoke Suite On a VM Image
+title: Running smoke suite on a VM image
 ---
 
 [TOC]
