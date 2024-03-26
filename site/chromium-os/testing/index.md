@@ -13,15 +13,3 @@ title: Testing Home
 
 *   [Suite Scheduler AKA Test Scheduler
             V2](/chromium-os/testing/suite_scheduler-1)
-
-## Chamelium
-
-*   [Chamelium](/chromium-os/testing/chamelium) automates external
-            display testing across VGA, HDMI, and DisplayPort (DP).
-*   [Chamelium with audio
-            board](/chromium-os/testing/chamelium-audio-board) automate audio
-            testing across 3.5mm headphone/mic, internal speaker, internal
-            microphone, HDMI, Bluetooth A2DP/HSP, USB audio.
-*   [Chamelium capturing and streaming
-            tool](/chromium-os/testing/chamelium-audio-streaming) to monitor
-            audio underruns.

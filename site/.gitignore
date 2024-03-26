@@ -231,32 +231,32 @@ chromium-os/developer-library/reference/infrastructure/moblab/releasenotes/Scree
 chromium-os/developer-library/reference/infrastructure/moblab/releasenotes/944NKgXvoL9ubsp.png
 chromium-os/developer-library/reference/infrastructure/moblab/releasenotes/65cXCzDADkz.png
 chromium-os/testing/hardware_qualification/HWQual.pdf
-chromium-os/testing/chamelium-audio-streaming/IMG_0001.jpg
-chromium-os/testing/chamelium-audio-streaming/IMG_0003.jpg
-chromium-os/testing/chamelium-audio-streaming/IMG_0002.jpg
-chromium-os/testing/chamelium-audio-board/Chameleon Audio Board R1.1 Release PCB.zip
-chromium-os/testing/chamelium-audio-board/Chameleon Audio - New Page (4).png
-chromium-os/testing/chamelium-audio-board/Chameleon Audio Board Block Diagram.png
-chromium-os/testing/chamelium-audio-board/Chameleon Audio Board R1.1 Release.pdf
-chromium-os/testing/chamelium/FPGA pins.png
-chromium-os/testing/chamelium/IT6803 Programming Guide.1.05.pdf
-chromium-os/testing/chamelium/png;base644fb8f58c45521404.png
-chromium-os/testing/chamelium/Chameleon_B1_R1.2_Release.brd
-chromium-os/testing/chamelium/IT6803TE Datasheet_for_Google v0.83.pdf
-chromium-os/testing/chamelium/s2mbf9hZBTGKMFHBgqQqDiA.png
-chromium-os/testing/chamelium/s3x3vmsvmeWSlhdK4GEG60A.png
-chromium-os/testing/chamelium/IT6506_Datasheet_for_Google_v1.3.pdf
-chromium-os/testing/chamelium/Chameleon-B1_R1.2_Release %5Bfor external use%5D.pdf
-chromium-os/testing/chamelium/video-chameleon-658cadce37849ec8330f7cbfa01135983984ec24.tar.gz
-chromium-os/testing/chamelium/cat9883c_datasheet_for_Google_Rev1 3.pdf
-chromium-os/testing/chamelium/IT6506 Programming Guide.pdf
-chromium-os/testing/chamelium/swKcCTHdtRXI6IJ-pzsZR9Q.png
-chromium-os/testing/chamelium/CAT9883CRegisterRev01.pdf
-chromium-os/testing/chamelium/spstW8nBPTZeJhUk-NjRnQg.png
-chromium-os/testing/chamelium/sjR3S5TzIrNaCyuUbwvWwbA.png
-chromium-os/testing/chamelium/Chameleon_B1_R1.2- Gerber file.zip
-chromium-os/testing/chamelium/Chameleon_B1_R1.1_BOM.xlsx
-chromium-os/testing/chamelium/Chameleon Video - New Page (4).png
+chromium-os/developer-library/guides/hardware-schematics/chamelium-audio-streaming/IMG_0001.jpg
+chromium-os/developer-library/guides/hardware-schematics/chamelium-audio-streaming/IMG_0003.jpg
+chromium-os/developer-library/guides/hardware-schematics/chamelium-audio-streaming/IMG_0002.jpg
+chromium-os/developer-library/guides/hardware-schematics/chamelium-audio-board/Chameleon Audio Board R1.1 Release PCB.zip
+chromium-os/developer-library/guides/hardware-schematics/chamelium-audio-board/Chameleon Audio - New Page (4).png
+chromium-os/developer-library/guides/hardware-schematics/chamelium-audio-board/Chameleon Audio Board Block Diagram.png
+chromium-os/developer-library/guides/hardware-schematics/chamelium-audio-board/Chameleon Audio Board R1.1 Release.pdf
+chromium-os/developer-library/guides/hardware-schematics/chamelium/FPGA pins.png
+chromium-os/developer-library/guides/hardware-schematics/chamelium/IT6803 Programming Guide.1.05.pdf
+chromium-os/developer-library/guides/hardware-schematics/chamelium/png;base644fb8f58c45521404.png
+chromium-os/developer-library/guides/hardware-schematics/chamelium/Chameleon_B1_R1.2_Release.brd
+chromium-os/developer-library/guides/hardware-schematics/chamelium/IT6803TE Datasheet_for_Google v0.83.pdf
+chromium-os/developer-library/guides/hardware-schematics/chamelium/s2mbf9hZBTGKMFHBgqQqDiA.png
+chromium-os/developer-library/guides/hardware-schematics/chamelium/s3x3vmsvmeWSlhdK4GEG60A.png
+chromium-os/developer-library/guides/hardware-schematics/chamelium/IT6506_Datasheet_for_Google_v1.3.pdf
+chromium-os/developer-library/guides/hardware-schematics/chamelium/Chameleon-B1_R1.2_Release %5Bfor external use%5D.pdf
+chromium-os/developer-library/guides/hardware-schematics/chamelium/video-chameleon-658cadce37849ec8330f7cbfa01135983984ec24.tar.gz
+chromium-os/developer-library/guides/hardware-schematics/chamelium/cat9883c_datasheet_for_Google_Rev1 3.pdf
+chromium-os/developer-library/guides/hardware-schematics/chamelium/IT6506 Programming Guide.pdf
+chromium-os/developer-library/guides/hardware-schematics/chamelium/swKcCTHdtRXI6IJ-pzsZR9Q.png
+chromium-os/developer-library/guides/hardware-schematics/chamelium/CAT9883CRegisterRev01.pdf
+chromium-os/developer-library/guides/hardware-schematics/chamelium/spstW8nBPTZeJhUk-NjRnQg.png
+chromium-os/developer-library/guides/hardware-schematics/chamelium/sjR3S5TzIrNaCyuUbwvWwbA.png
+chromium-os/developer-library/guides/hardware-schematics/chamelium/Chameleon_B1_R1.2- Gerber file.zip
+chromium-os/developer-library/guides/hardware-schematics/chamelium/Chameleon_B1_R1.1_BOM.xlsx
+chromium-os/developer-library/guides/hardware-schematics/chamelium/Chameleon Video - New Page (4).png
 chromium-os/user-experience/settings/5-UnderTheHood.png
 chromium-os/user-experience/settings/3-Browser.png
 chromium-os/user-experience/settings/4-PersonalStuff.png
@@ -1082,8 +1082,8 @@ developers/web-intents-in-chrome/Screen shot 2012-05-14 at 4.48.28 PM.png
 developers/gyp-environment-variables/menu_check.png
 chromium-os/how-tos-and-troubleshooting/boot-mainline-kernel-on-veyron-jaq/.config
 chromium-os/how-tos-and-troubleshooting/visualizing-the-rootfs/Screenshot from 2013-04-08 13_46_48.png
-chromium-os/testing/chamelium-audio-streaming/Screenshot from 2017-03-07 17_51_43.png
-chromium-os/testing/chamelium-audio-streaming/Screenshot from 2017-03-07 17_53_38.png
+chromium-os/developer-library/guides/hardware-schematics/chamelium-audio-streaming/Screenshot from 2017-03-07 17_51_43.png
+chromium-os/developer-library/guides/hardware-schematics/chamelium-audio-streaming/Screenshot from 2017-03-07 17_53_38.png
 developers/design-documents/aura/ash-color-chooser/Screenshot 2012-06-20 6_31_36 PM.png
 developers/design-documents/aura/ash-color-chooser/Screenshot 2012-06-26 3_50_42 PM.png
 developers/how-tos/inspecting-ash/Screenshot from 2017-08-28 14_28_36.png

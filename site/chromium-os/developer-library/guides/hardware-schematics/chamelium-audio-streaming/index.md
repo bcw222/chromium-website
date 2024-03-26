@@ -1,11 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: chamelium-audio-streaming
-title: Chamelium Audio streaming
+title: Chamelium audio streaming
 ---
 
 [TOC]
@@ -38,21 +36,21 @@ Connect Chamelium blue port (LineIn) to audio board blue port using 3 ring audio
 cable.
 
 [<img alt="image"
-src="/chromium-os/testing/chamelium-audio-streaming/IMG_0001.jpg" height=300
-width=400>](/chromium-os/testing/chamelium-audio-streaming/IMG_0001.jpg) [<img
-alt="image" src="/chromium-os/testing/chamelium-audio-streaming/IMG_0002.jpg"
+src="IMG_0001.jpg" height=300
+width=400>](IMG_0001.jpg) [<img
+alt="image" src="IMG_0002.jpg"
 height=300
-width=400>](/chromium-os/testing/chamelium-audio-streaming/IMG_0002.jpg) [<img
-alt="image" src="/chromium-os/testing/chamelium-audio-streaming/IMG_0003.jpg"
+width=400>](IMG_0002.jpg) [<img
+alt="image" src="IMG_0003.jpg"
 height=300
-width=400>](/chromium-os/testing/chamelium-audio-streaming/IMG_0003.jpg)
+width=400>](IMG_0003.jpg)
 
 ## Find Chamelium's IP
 
 Connect the USB serial port to workstation.
 
 Refer to [network
-setup](/chromium-os/testing/chamelium#TOC-Verify-your-network-setup) to get the
+setup](/chromium-os/developer-library/guides/hardware-schematics/chamelium#TOC-Verify-your-network-setup) to get the
 IP address of Chamelium.
 
 ## Connect to Chamelium server
@@ -256,6 +254,6 @@ The first wav file is where underrun is detected.
 Press the black arrow on the left of a channel and select **Spectrogram** so the
 part where waveform dropped to zero is obvious.
 
-![](/chromium-os/testing/chamelium-audio-streaming/Screenshot%20from%202017-03-07%2017_51_43.png)
+![](Screenshot%20from%202017-03-07%2017_51_43.png)
 
 The second wav file is where normal playback is resumed.
