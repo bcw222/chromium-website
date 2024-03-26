@@ -1,4 +1,4 @@
----
+samsung-ro.com
 breadcrumbs: []
 page_name: chromium-os
 title: ChromiumOS
