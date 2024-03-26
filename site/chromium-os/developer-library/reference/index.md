@@ -22,6 +22,7 @@ title: Reference
 
 ## Design Docs
 
+* [Dynamic test suites](/chromium-os/developer-library/reference/design-docs/dynamic-test-suites)
 * [Test dependencies in dynamic suites](/chromium-os/developer-library/reference/design-docs/test-dependencies-in-dynamic-suites)
 
 ## Device

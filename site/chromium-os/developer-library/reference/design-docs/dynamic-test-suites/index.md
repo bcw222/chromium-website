@@ -1,11 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
+- - /chromium-os/developer-library/reference
+  - ChromiumOS > Developer Library > Reference
 page_name: dynamic-test-suites
-title: Dynamic Test Suites
+title: Dynamic test suites
 ---
 
 ## Autotest Dynamic Test Suites
@@ -65,7 +63,7 @@ see which jobs are getting starved and detect new, unexpected starvation.
 #### Defining suites
 
 \*\*\* For more updated information, please see the [Dynamic Suites Code
-Lab](/chromium-os/testing/test-code-labs/dynamic-suite-codelab).
+Lab](/chromium-os/developer-library/training/codelabs/dynamic-suite-codelab).
 
 We've added a custom variable to control files called SUITE. SUITE can contain a
 comma-delineated list of arbitrary strings. Only suite names that have an
