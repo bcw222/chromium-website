@@ -6,7 +6,7 @@ page_name: technical-discussion-groups
 title: Technical Discussion Groups
 ---
 
-#### Feature requests, help/support queries, or other end user questions:
+#### Feature requests, help/support queries, or other end user questions on forum:
 
 #### [Google Chrome Help Center](https://www.google.com/support/chrome/) or [Discussion Groups](/developers/discussion-groups).
 
