@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "10c57486_a02d9e4f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-26T16:50:04Z",
+      "side": 1,
+      "message": "LGTM with nit",
+      "revId": "dd3c9eebbffcc13268873f52abaabb61d1478262",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "22053c59_8fe98131",
+        "filename": "site/chromium-os/developer-library/reference/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-26T16:50:04Z",
+      "side": 1,
+      "message": "nit: Alphabetize the list",
+      "range": {
+        "startLine": 26,
+        "startChar": 9,
+        "endLine": 26,
+        "endChar": 18
+      },
+      "revId": "dd3c9eebbffcc13268873f52abaabb61d1478262",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
