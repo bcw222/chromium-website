@@ -34,6 +34,24 @@
       "parentUuid": "d3f4d2e9_5ff344cf",
       "revId": "8fba66b180a1ec232b1e3d4c4546d60b0bacf918",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "85861c68_8dcc1cd8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1344767
+      },
+      "writtenOn": "2024-03-26T19:34:12Z",
+      "side": 1,
+      "message": "From this perspective changes make sense. Thanks for the explanation.",
+      "parentUuid": "ab268256_0228022b",
+      "revId": "8fba66b180a1ec232b1e3d4c4546d60b0bacf918",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
