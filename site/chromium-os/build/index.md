@@ -30,7 +30,6 @@ page](http://goto.google.com/cros-build).
 
 #### For Build Contributors and other resources
 
-*   Help writing unittests using [python-mock](/chromium-os/python-mock)
 *   [Python style
             guide](/chromium-os/developer-library/reference/style-guides/python)
 *   [Chromium OS Developer
