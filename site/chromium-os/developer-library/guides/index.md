@@ -77,6 +77,7 @@ title: Guides
 
 ## Device
 
+* [Boot mainline kernel on veyron-jaq](/chromium-os/developer-library/guides/device/boot-mainline-kernel-on-veyron-jaq)
 * [Crosfleet](/chromium-os/developer-library/guides/device/crosfleet)
 * [Developer mode](/chromium-os/developer-library/guides/device/developer-mode)
 * [Flashing chromiumOS](/chromium-os/developer-library/guides/device/flashing-chromiumos)
