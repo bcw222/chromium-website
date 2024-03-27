@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: using-an-upstream-kernel-on-snow
 title: Using an Upstream Kernel on Chrome OS
 ---
@@ -14,14 +12,14 @@ title: Using an Upstream Kernel on Chrome OS
 
 This page aims to document how to use an Upstream Kernel on Chrome OS. It's
 aimed at helping people with upstreaming for the [Samsung ARM Series 3
-Chromebook](http://www.samsung.com/us/computer/chrome-os-devices/XE303C12-A01US)
+Chromebook](https://www.samsung.com/us/business/support/owners/product/chromebook-xe303c12/)
 (AKA snow) and uses that in many examples. However, it's useful in other cases,
 too.
 
 In general this documentation assumes that you've got the Chrome OS source tree
 synced down and have a build environment (and chroot) setup. It assumes you've
 built packages and an image for your board (like `BOARD=daisy` for the snow
-board). See the [Developer Guide](/chromium-os/developer-guide) if you haven't
+board). See the [Developer Guide](/chromium-os/developer-library/guides/development/developer-guide/) if you haven't
 done that.
 
 ## Obtain source code and recent patches
@@ -136,24 +134,21 @@ Status on linux-next/master:
 
 Certainly there are lots of ways to build and install the kernel. I'm not going
 to copy them all here but I'll just point you at the [Kernel
-FAQ](/chromium-os/how-tos-and-troubleshooting/kernel-faq). Specifically read the
-[How to quickly test kernel modifications (the fast
-way)](http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/kernel-faq#TOC-How-to-quickly-test-kernel-modifications-the-fast-way-)
-section carefully.
+FAQ](/chromium-os/developer-library/guides/kernel/kernel-development/).
 
 I would strongly suggest that you boot from a fast SD card rather than directly
 messing with what you have on eMMC. That way you can always get back to a
 running system. The quick set of steps for that is:
 
 *   Switch to [developer
-            mode](/chromium-os/developer-information-for-chrome-os-devices/samsung-arm-chromebook).
+            mode](/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/samsung-arm-chromebook).
 *   At the command prompt (VT2), enable USB (and SD card) booting with `crossystem dev_boot_usb=1`.
     Note: the exact method might differ between boards; see the [Developer
     Information for Chrome OS Devices
-    page](/chromium-os/developer-information-for-chrome-os-devices) for specific
+    page](/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices) for specific
     details.
 *   Insert an SD card with an image that you installed with `[cros
-            flash](/chromium-os/build/cros-flash)`.
+            flash](/chromium-os/developer-library/reference/tools/cros-flash)`.
 *   Reboot your Chromebook and press `Ctrl-U` at the BIOS prompt to boot
             from your SD card.
 
@@ -208,7 +203,7 @@ my last patch. :(
 ## Sending your change upstream
 
 This is documented over at the [Kernel
-FAQ](/chromium-os/how-tos-and-troubleshooting/kernel-faq), which will soon
+FAQ](/chromium-os/developer-library/guides/kernel/kernel-development/), which will soon
 (hopefully) include the use of patman.
 
 ## What is known to work (and known to not work)
