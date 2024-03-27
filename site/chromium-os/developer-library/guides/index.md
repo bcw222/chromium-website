@@ -104,6 +104,11 @@ title: Guides
 
 * [USB Type-C power delivery (PD) firmware](/chromium-os/developer-library/guides/firmware/pd-firmware-update)
 
+## Git
+
+* [Git helpers](/chromium-os/developer-library/guides/git/git-helpers)
+* [Git troubleshooting](/chromium-os/developer-library/guides/git/git-troubleshooting)
+
 ## Golang
 
 * [Deserialize objects in golang using protobuf](/chromium-os/developer-library/guides/golang/protobuf-golang-deserialize)
