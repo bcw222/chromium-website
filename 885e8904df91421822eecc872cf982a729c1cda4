@@ -16,6 +16,24 @@
       "message": "Please add a note in the CL description to the new doc location in the library.",
       "revId": "885e8904df91421822eecc872cf982a729c1cda4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "00af6365_cef993c4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-27T19:54:04Z",
+      "side": 1,
+      "message": "Not sure why this was resolved.",
+      "parentUuid": "de8b104f_41dbcaaa",
+      "revId": "885e8904df91421822eecc872cf982a729c1cda4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ],
   "submitRequirementResults": [
