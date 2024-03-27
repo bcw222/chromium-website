@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8fa4dcf0_bfa534be",
+        "filename": "site/chromium-os/packages/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-27T22:56:16Z",
+      "side": 0,
+      "message": "We haven\u0027t really touched this landing page yet (but probably should at some point). Since it\u0027s not linked to from the main landing page, let\u0027s leave this page alone for now.",
+      "range": {
+        "startLine": 31,
+        "startChar": 4,
+        "endLine": 31,
+        "endChar": 12
+      },
+      "revId": "9ce593496323f4673e13c846ec0b7c5fe43a4ec8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}

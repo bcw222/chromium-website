@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b1fbf7e1_26c4e472",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-27T22:56:16Z",
+      "side": 1,
+      "message": "LGTM with nits.",
+      "revId": "b8f2e2dad7905bbcb6bbf4fabf05c491fa23357b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "360701c9_19fc68c6",
+        "filename": "site/chromium-os/developer-library/guides/device/install-software-on-base-images/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-27T22:56:16Z",
+      "side": 1,
+      "message": "The breadcrumbs always end at Guides (or whichever main section).\n```suggestion\n  - ChromiumOS \u003e Developer Library \u003e Guides\n```",
+      "range": {
+        "startLine": 4,
+        "startChar": 46,
+        "endLine": 4,
+        "endChar": 52
+      },
+      "revId": "b8f2e2dad7905bbcb6bbf4fabf05c491fa23357b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
