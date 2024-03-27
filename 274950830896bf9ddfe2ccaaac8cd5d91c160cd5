@@ -41,6 +41,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "11d0fdc0_a8a9c882",
+        "filename": "site/chromium-os/developer-library/reference/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 1426572
+      },
+      "writtenOn": "2024-03-27T23:30:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "261a9332_a185ec51",
+      "range": {
+        "startLine": 74,
+        "startChar": 10,
+        "endLine": 74,
+        "endChar": 17
+      },
+      "revId": "274950830896bf9ddfe2ccaaac8cd5d91c160cd5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d25ddb12_5cb304ca",
@@ -64,6 +88,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9927c7d0_4d3db200",
+        "filename": "site/chromium-os/developer-library/reference/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 1426572
+      },
+      "writtenOn": "2024-03-27T23:30:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d25ddb12_5cb304ca",
+      "range": {
+        "startLine": 76,
+        "startChar": 10,
+        "endLine": 76,
+        "endChar": 17
+      },
+      "revId": "274950830896bf9ddfe2ccaaac8cd5d91c160cd5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9380f5ca_882227b5",
@@ -77,6 +125,30 @@
       "writtenOn": "2024-03-27T23:27:24Z",
       "side": 1,
       "message": "scripts\n```suggestion\ntitle: scripts\n```",
+      "range": {
+        "startLine": 6,
+        "startChar": 14,
+        "endLine": 6,
+        "endChar": 21
+      },
+      "revId": "274950830896bf9ddfe2ccaaac8cd5d91c160cd5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a29f6715_4537ffd4",
+        "filename": "site/chromium-os/developer-library/reference/tools/helper-scripts/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1426572
+      },
+      "writtenOn": "2024-03-27T23:30:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9380f5ca_882227b5",
       "range": {
         "startLine": 6,
         "startChar": 14,
