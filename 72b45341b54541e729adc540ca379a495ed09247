@@ -1,0 +1,176 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f54a3d78_183541af",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-27T23:49:27Z",
+      "side": 1,
+      "message": "LGTM with nits",
+      "revId": "72b45341b54541e729adc540ca379a495ed09247",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "48a5983b_42685e57",
+        "filename": "site/chromium-os/developer-library/guides/debugging/debugging-features/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-27T23:49:27Z",
+      "side": 1,
+      "message": "ChromiumOS \u003e Developer Library \u003e Guides\n```suggestion\n  - ChromiumOS \u003e Developer Library \u003e Guides\n```",
+      "revId": "72b45341b54541e729adc540ca379a495ed09247",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e8d1b83_765ff042",
+        "filename": "site/chromium-os/developer-library/guides/debugging/debugging-hangs/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-27T23:49:27Z",
+      "side": 1,
+      "message": "ChromiumOS \u003e Developer Library \u003e Guides\n```suggestion\n  - ChromiumOS \u003e Developer Library \u003e Guides\n```",
+      "range": {
+        "startLine": 4,
+        "startChar": 15,
+        "endLine": 4,
+        "endChar": 16
+      },
+      "revId": "72b45341b54541e729adc540ca379a495ed09247",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8bc917ad_f7369fc2",
+        "filename": "site/chromium-os/developer-library/guides/debugging/force-out-of-box-experience-oobe/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-27T23:49:27Z",
+      "side": 1,
+      "message": "ChromiumOS \u003e Developer Library \u003e Guides\n```suggestion\n  - ChromiumOS \u003e Developer Library \u003e Guides\n```",
+      "range": {
+        "startLine": 4,
+        "startChar": 17,
+        "endLine": 4,
+        "endChar": 23
+      },
+      "revId": "72b45341b54541e729adc540ca379a495ed09247",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eb568d3d_4dd1f3f4",
+        "filename": "site/chromium-os/developer-library/guides/debugging/remote-debugging/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-27T23:49:27Z",
+      "side": 1,
+      "message": "ChromiumOS \u003e Developer Library \u003e Guides\n```suggestion\n  - ChromiumOS \u003e Developer Library \u003e Guides\n```",
+      "range": {
+        "startLine": 4,
+        "startChar": 17,
+        "endLine": 4,
+        "endChar": 23
+      },
+      "revId": "72b45341b54541e729adc540ca379a495ed09247",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c13c5971_297ed26e",
+        "filename": "site/chromium-os/developer-library/guides/debugging/serial-debugging-howto/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-27T23:49:27Z",
+      "side": 1,
+      "message": "ChromiumOS \u003e Developer Library \u003e Guides\n```suggestion\n  - ChromiumOS \u003e Developer Library \u003e Guides\n```",
+      "range": {
+        "startLine": 4,
+        "startChar": 16,
+        "endLine": 4,
+        "endChar": 17
+      },
+      "revId": "72b45341b54541e729adc540ca379a495ed09247",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3bea1768_28f178d5",
+        "filename": "site/chromium-os/developer-library/guides/debugging/target-serial-access/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-27T23:49:27Z",
+      "side": 1,
+      "message": "ChromiumOS \u003e Developer Library \u003e Guides\n```suggestion\n  - ChromiumOS \u003e Developer Library \u003e Guides\n```",
+      "range": {
+        "startLine": 4,
+        "startChar": 17,
+        "endLine": 4,
+        "endChar": 23
+      },
+      "revId": "72b45341b54541e729adc540ca379a495ed09247",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6f138604_95f337d1",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-27T23:49:27Z",
+      "side": 1,
+      "message": "nit: We should remove go/ links.",
+      "range": {
+        "startLine": 51,
+        "startChar": 30,
+        "endLine": 51,
+        "endChar": 34
+      },
+      "revId": "72b45341b54541e729adc540ca379a495ed09247",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
