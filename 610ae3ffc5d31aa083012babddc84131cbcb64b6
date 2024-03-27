@@ -41,6 +41,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f450a6b1_fc95af72",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 1547388
+      },
+      "writtenOn": "2024-03-27T23:19:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6176d873_894b317b",
+      "range": {
+        "startLine": 136,
+        "startChar": 12,
+        "endLine": 136,
+        "endChar": 20
+      },
+      "revId": "610ae3ffc5d31aa083012babddc84131cbcb64b6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "74361b2f_8f531d70",
@@ -54,6 +78,30 @@
       "writtenOn": "2024-03-27T23:13:41Z",
       "side": 1,
       "message": "upstream kernel on ChromeOS\n```suggestion\ntitle: Using an upstream kernel on Chrome OS\n```",
+      "range": {
+        "startLine": 6,
+        "startChar": 16,
+        "endLine": 6,
+        "endChar": 24
+      },
+      "revId": "610ae3ffc5d31aa083012babddc84131cbcb64b6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9764b6fd_e001651c",
+        "filename": "site/chromium-os/developer-library/guides/kernel/using-an-upstream-kernel-on-snow/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1547388
+      },
+      "writtenOn": "2024-03-27T23:19:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "74361b2f_8f531d70",
       "range": {
         "startLine": 6,
         "startChar": 16,
