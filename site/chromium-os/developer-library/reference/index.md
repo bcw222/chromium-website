@@ -41,6 +41,12 @@ title: Reference
 
 * [Kernel scheduler in ChromeOS](/chromium-os/developer-library/reference/kernel/kernel-scheduler)
 
+## Licensing
+* [Licensing for Chromium OS Package Owners](/chromium-os/developer-library/reference/licensing/licensing-for-chromiumos-package-owners/)
+  * e.g. people writing ebuilds
+* [Licensing for Chromium OS Developers](/chromium-os/developer-library/reference/licensing/licensing-for-chromiumos-developers/)
+  * e.g. people dealing with the license generation logic
+
 ## Logging
 
 * [Logging on ChromeOS](/chromium-os/developer-library/reference/logging/logging)
