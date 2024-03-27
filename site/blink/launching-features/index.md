@@ -686,6 +686,9 @@ demonstrated in at least one of the following areas:
  * Driving the number of origins signed up for the deprecation trial down to
    zero.
 
+Requests for a deprecation trial or deprecation trial renewal that extend beyond
+these limits will require sufficient justification and 3 LGTMs from API owners.
+
 If significant progress cannot be demonstrated towards removing the need for the
 deprecation trial, it will be necessary to un-deprecate the API to acknowledge
 the reality that ongoing support for the API is required for web compatibility.
