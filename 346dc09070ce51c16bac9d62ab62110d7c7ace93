@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f10f10e_ae6e52b0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 13
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-27T23:02:56Z",
+      "side": 1,
+      "message": "LGTM with nit.",
+      "revId": "346dc09070ce51c16bac9d62ab62110d7c7ace93",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "411a4854_1487af42",
+        "filename": "site/chromium-os/developer-library/reference/index.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-27T23:02:56Z",
+      "side": 1,
+      "message": "nit: Alphabetical order\n```suggestion\n* [Licensing for ChromiumOS developers](/chromium-os/developer-library/reference/licensing/licensing-for-chromiumos-developers)\n```",
+      "range": {
+        "startLine": 46,
+        "startChar": 28,
+        "endLine": 46,
+        "endChar": 134
+      },
+      "revId": "346dc09070ce51c16bac9d62ab62110d7c7ace93",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
