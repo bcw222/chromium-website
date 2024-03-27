@@ -402,8 +402,6 @@
   "/chromium-os/lazy-fp-restore-vulnerability-status",
   "/chromium-os/licensing",
   "/chromium-os/licensing/building-a-distro",
-  "/chromium-os/licensing/licensing-for-chromiumos-developers",
-  "/chromium-os/licensing/licensing-for-chromiumos-package-owners",
   "/chromium-os/mds-on-chromeos",
   "/chromium-os/meltdown-spectre-vulnerability-status",
   "/chromium-os/minimuffin",

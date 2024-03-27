@@ -141,6 +141,12 @@ title: Guides
 </div>
 <div class="column">
 
+## Licensing
+* [Licensing for Chromium OS Package Owners](/chromium-os/developer-library/guides/licensing/licensing-for-chromiumos-package-owners/)
+  * e.g. people writing ebuilds
+* [Licensing for Chromium OS Developers](/chromium-os/developer-library/guides/licensing/licensing-for-chromiumos-developers/)
+  * e.g. people dealing with the license generation logic
+
 ## Logging
 * [Logging](/chromium-os/developer-library/guides/logging/logging/)
 
