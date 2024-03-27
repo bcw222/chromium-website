@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "846d4bc0_8663fb97",
+        "filename": "site/chromium-os/developer-library/reference/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-27T22:33:21Z",
+      "side": 1,
+      "message": "nit: Blank line after\n```suggestion\n## Licensing\n\n```",
+      "range": {
+        "startLine": 44,
+        "startChar": 3,
+        "endLine": 44,
+        "endChar": 12
+      },
+      "revId": "8b5b8d5c2248313532dd5e9948b1c3ec7a29bb5a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f558793a_50944f38",
+        "filename": "site/chromium-os/developer-library/reference/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-27T22:33:21Z",
+      "side": 1,
+      "message": "ChromiumOS",
+      "range": {
+        "startLine": 45,
+        "startChar": 26,
+        "endLine": 45,
+        "endChar": 28
+      },
+      "revId": "8b5b8d5c2248313532dd5e9948b1c3ec7a29bb5a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ff5f8a81_aea116fc",
+        "filename": "site/chromium-os/developer-library/reference/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-27T22:33:21Z",
+      "side": 1,
+      "message": "nit: Non-title case, i.e., only capitalize the first word.\n```suggestion\n* [Licensing for Chromium OS package owners](/chromium-os/developer-library/reference/licensing/licensing-for-chromiumos-package-owners/)\n```",
+      "range": {
+        "startLine": 45,
+        "startChar": 29,
+        "endLine": 45,
+        "endChar": 36
+      },
+      "revId": "8b5b8d5c2248313532dd5e9948b1c3ec7a29bb5a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "29415ac6_e8569172",
+        "filename": "site/chromium-os/developer-library/reference/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-03-27T22:33:21Z",
+      "side": 1,
+      "message": "nit: Remove these e.g.. lines",
+      "range": {
+        "startLine": 46,
+        "startChar": 24,
+        "endLine": 46,
+        "endChar": 31
+      },
+      "revId": "8b5b8d5c2248313532dd5e9948b1c3ec7a29bb5a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
