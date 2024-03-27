@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/build
-  - Chromium OS Build
+- - /chromium-os/developer-library/reference
+  - ChromiumOS > Developer Library > Reference
 page_name: chroot_version_hooks
 title: chroot_version_hooks
 ---
