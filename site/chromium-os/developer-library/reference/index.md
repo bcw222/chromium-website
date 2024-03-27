@@ -40,6 +40,11 @@ title: Reference
 
 * [Kernel scheduler in ChromeOS](/chromium-os/developer-library/reference/kernel/kernel-scheduler)
 
+## Licensing
+
+* [Licensing for ChromiumOS package owners](/chromium-os/developer-library/reference/licensing/licensing-for-chromiumos-package-owners)
+* [Licensing for ChromiumOS developers](/chromium-os/developer-library/reference/licensing/licensing-for-chromiumos-developers)
+
 ## Logging
 
 * [Logging on ChromeOS](/chromium-os/developer-library/reference/logging/logging)

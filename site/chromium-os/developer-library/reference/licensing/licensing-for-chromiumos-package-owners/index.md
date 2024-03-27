@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/licensing
-  - Licensing in Chromium OS
+- - /chromium-os/developer-library/reference/#licensing
+  - ChromiumOS > Developer Library > Reference
 page_name: licensing-for-chromiumos-package-owners
 title: Licensing for Chromium OS Package Owners
 ---
@@ -12,7 +10,7 @@ title: Licensing for Chromium OS Package Owners
 
 Chrome OS Build team oriented info with more details can be found here:
 [Licensing for Chromium OS
-Developers](/chromium-os/licensing/licensing-for-chromiumos-developers)
+Developers](/chromium-os/developer-library/reference/licensing/licensing-for-chromiumos-developers)
 
 ## I am creating a new package, what license do I set in the Ebuild?
 
