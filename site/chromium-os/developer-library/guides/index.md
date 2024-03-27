@@ -82,6 +82,7 @@ title: Guides
 * [Crosfleet](/chromium-os/developer-library/guides/device/crosfleet)
 * [Developer mode](/chromium-os/developer-library/guides/device/developer-mode)
 * [Flashing chromiumOS](/chromium-os/developer-library/guides/device/flashing-chromiumos)
+* [Install software on base images](/chromium-os/developer-library/guides/device/install-software-on-base-images)
 * [Powerwash](/chromium-os/developer-library/guides/device/powerwash)
 * [Read-only firmware unlock on 2023+ devices](/chromium-os/developer-library/guides/device/ro-firmware-unlock)
 * [Requesting devices](/chromium-os/developer-library/guides/device/requesting-devices)
