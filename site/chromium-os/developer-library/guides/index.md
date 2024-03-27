@@ -53,6 +53,7 @@ title: Guides
 
 ## Device
 
+* [Chrome OS + Mainline kernel on kevin (Chromebook Plus)](/chromium-os/developer-library/guides/device/chrome-os-mainline-kernel-on-kevin-chromebook-plus)
 * [Developer mode](/chromium-os/developer-library/guides/device/developer-mode)
 * [Powerwash](/chromium-os/developer-library/guides/device/powerwash)
 * [Screenshots](/chromium-os/developer-library/guides/device/screenshots)

@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/reference
+  - Chromium OS > Developer Library > Reference
 page_name: helper-scripts
 title: Helper Scripts
 ---
