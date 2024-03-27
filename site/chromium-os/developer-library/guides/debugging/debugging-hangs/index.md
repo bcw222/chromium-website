@@ -1,11 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: debugging-hangs
-title: Debugging system hangs (go/cros-debug-hang)
+title: Debugging system hangs
 ---
 
 If your Chromebook appears hung (i.e. the screen is frozen and the keyboard

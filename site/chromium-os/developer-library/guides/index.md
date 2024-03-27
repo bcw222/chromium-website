@@ -43,15 +43,21 @@ title: Guides
 
 ## Debugging
 
+* [ChromiumOS [serial] console debugging HOWTO](/chromium-os/developer-library/guides/debugging/serial-debugging-howto)
 * [Debugging a cellular modem](/chromium-os/developer-library/guides/debugging-3g)
 * [Debugging accessibility (a11y) Issues](/chromium-os/developer-library/guides/debugging/a11y-debugging)
 * [Debug button shortcuts](/chromium-os/developer-library/guides/debugging/debug-buttons)
+* [Debugging features](/chromium-os/developer-library/guides/debugging/debugging-features)
+* [Debugging system hangs](/chromium-os/developer-library/guides/debugging/debugging-hangs)
 * [Debugging tips and tricks](/chromium-os/developer-library/guides/debugging/debugging)
 * [Firmware UI troubleshooting](/chromium-os/developer-library/guides/debugging/firmware-ui)
 * [How to get a stack trace at runtime](/chromium-os/developer-library/guides/debugging/stack-traces)
+* [How to force the out-of-box experience (OOBE)](/chromium-os/developer-library/guides/debugging/force-out-of-box-experience-oobe)
 * [LTE: manual E362 setup](/chromium-os/developer-library/guides/manual-e362-setup)
 * [Modem debugging with mmcli (from the modemmanager-next package)](/chromium-os/developer-library/guides/modem-debugging-with-mmcli)
 * [Recreating a Snapshot or Buildspec](/chromium-os/developer-library/guides/debugging/recreating-a-snapshot-or-buildspec)
+* [Remote debugging in ChromiumOS](/chromium-os/developer-library/guides/debugging/remote-debugging)
+* [Target serial access](/chromium-os/developer-library/guides/debugging/target-serial-access)
 
 ## Development
 

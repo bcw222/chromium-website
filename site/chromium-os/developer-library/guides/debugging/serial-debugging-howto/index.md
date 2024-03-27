@@ -1,18 +1,16 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: serial-debugging-howto
-title: Chromium OS [serial] Console Debugging HOWTO
+title: ChromiumOS [serial] console debugging HOWTO
 ---
 
 [TOC]
 
 ## Introduction
 
-The kernel team has been working to remove cruft from the Chromium OS kernel
+The kernel team has been working to remove cruft from the ChromiumOS kernel
 configs. Since there are no Chromebooks with a serial port, serial port drivers
 were removed from the stock configuration, which is a minor inconvenience for
 those who still do a lot of debugging using the serial port.
@@ -23,7 +21,7 @@ for using mini-PCIe serial cards, but the information is somewhat limited in
 scope and is worth correcting and modernizing. There are several ways to
 accomplish what is described here, please feel free to chip in.
 
-This HOWTO assumes you have built a bootable Chromium OS image and are not
+This HOWTO assumes you have built a bootable ChromiumOS image and are not
 afraid to edit some config files. We'll assume the target platform is 32-bit
 "x86-generic".
 
@@ -74,7 +72,7 @@ Settings**, below.
 ### The console= option
 
 The console= option is described in detail in
-[kernel-parameters.txt](https://chromium.googlesource.com/chromiumos/third_party/kernel/+/HEAD/Documentation/kernel-parameters.txt)
+[kernel-parameters.txt](https://chromium.googlesource.com/chromiumos/third_party/kernel/+/HEAD/Documentation/admin-guide/kernel-parameters.txt)
 in the Linux kernel source tree.
 
 ### Platform Specific Settings
@@ -82,7 +80,7 @@ in the Linux kernel source tree.
 #### Virtual Machines (QEMU/KVM)
 
 If you boot the image in a VM, and you use the
-[cros_start_vm](/chromium-os/how-tos-and-troubleshooting/running-chromeos-image-under-virtual-machines)
+[cros_start_vm](/chromium-os/developer-library/guides/containers/cros-vm)
 script to launch it, then serial output will be logged to a
 `/tmp/kvm.xxx.serial` file (exact name will be shown when starting the VM).
 
@@ -110,7 +108,7 @@ You probably want to use ttySAC3 for your console.
 See the [Controlling Enabled Consoles
 document](/chromium-os/developer-guide/using-serial-tty) for all the details.
 
-## Build Chromium OS image using your custom kernel config
+## Build ChromiumOS image using your custom kernel config
 
 Set the `pcserial` `USE` flag when calling `cros build-packages`:
 

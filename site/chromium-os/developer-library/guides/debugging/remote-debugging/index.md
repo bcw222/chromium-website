@@ -1,20 +1,18 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: remote-debugging
-title: Remote Debugging in ChromiumOS
+title: Remote debugging in ChromiumOS
 ---
 
-### See the [CrOS developer guide](http://www.chromium.org/chromium-os/developer-guide#TOC-Remote-Debugging) for instructions on using a script that automates most of the below steps.
+### See the [CrOS developer guide](/chromium-os/developer-library/guides/development/developer-guide/) for instructions on using a script that automates most of the below steps.
 
 ### Device Setup
 
 For details on copying a binary over to your developer device in order to debug
 it, see [Host File
-Access](/chromium-os/how-tos-and-troubleshooting/debugging-tips/host-file-access).
+Access](/chromium-os/developer-library/guides/debugging/host-file-access).
 
 You will need to open a port on your device so that gdbserver can be reached by
 gdb:

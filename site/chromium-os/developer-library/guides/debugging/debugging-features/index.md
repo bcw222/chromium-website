@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: debugging-features
 title: Debugging Features
 ---
@@ -15,7 +13,7 @@ M41.
 
 ## Introduction
 
-You can enable debugging features on your Chrome OS device to support installing
+You can enable debugging features on your ChromeOS device to support installing
 and testing custom code on your device. These features allow you to:
 
 *   Remove rootfs verification so you can modify OS files
@@ -42,13 +40,13 @@ To enable debugging features, do the following:
             process](https://support.google.com/chromebook/answer/1080595) to
             wipe your hard drive. After the device reboots and you sign in
             again, you’ll see the first screen.
-    **Note:** For managed Chrome OS devices, do NOT follow the powerwash or
+    **Note:** For managed ChromeOS devices, do NOT follow the powerwash or
     recovery instructions because you won’t be able re-enroll the device
-    afterwards. Instead, [wipe the data on your Chrome OS
+    afterwards. Instead, [wipe the data on your ChromeOS
     device](https://support.google.com/chrome/a/answer/1360642) to reset the
     device.
 2.  Set the device to Developer Mode (see [Developer Information for
-            Chrome OS
+            ChromeOS
             Devices](http://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices)).
             The system reboots, then displays the “OS Verification is OFF"
             screen.
@@ -67,18 +65,19 @@ To enable debugging features, do the following:
 
 ## Disabling debugging features
 
-On a managed Chrome OS device, most debugging features remain enabled, even
+On a managed ChromeOS device, most debugging features remain enabled, even
 after powerwashing or wiping the data. Use one of the following processes to
 disable features, depending on your requirements:
 
-*   [Chrome OS recovery
+*   [ChromeOS recovery
             process](https://support.google.com/chromebook/answer/1080595)
 *   The [cros
-            flash](http://www.chromium.org/chromium-os/build/cros-flash) script
-            for updating the Chrome OS image directly
+            flash](/chromium-os/developer-library/reference/tools/cros-flash/) script
+            for updating the ChromeOS image directly
 *   The [cros
-            flash](http://www.chromium.org/chromium-os/build/cros-flash) script
-            for updating the Chrome OS image via USB (or directly using the
+            flash](/chromium-os/developer-library/reference/tools/cros-flash/) script
+
+            for updating the ChromeOS image via USB (or directly using the
             `--clobber-stateful` flag)
 *   [Powerwash](https://support.google.com/chromebook/answer/183084)
             process
@@ -88,7 +87,7 @@ is reset):
 
 <table>
 <tr>
-<td>Chrome OS Recovery</td>
+<td>ChromeOS Recovery</td>
 <td>`cros flash`</td>
 <td>`cros flash usb://`</td>
 <td> or</td>
