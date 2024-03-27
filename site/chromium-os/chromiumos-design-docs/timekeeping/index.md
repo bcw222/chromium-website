@@ -509,7 +509,7 @@ It's offset from 1 Jan 1970
 [boot-design]: /chromium-os/chromiumos-design-docs/boot-design
 [certificate authority]: https://en.wikipedia.org/wiki/Certificate_authority
 [Chrony]: https://chrony-project.org/
-[crosh]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/crosh/README.md
+[crosh]: /chromium-os/developer-library/reference/device/crosh
 [D-Bus]: https://en.wikipedia.org/wiki/D-Bus
 [DNS]: https://en.wikipedia.org/wiki/Domain_Name_System
 [DNSSEC]: https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions

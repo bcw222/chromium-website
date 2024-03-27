@@ -29,6 +29,7 @@ title: Reference
 ## Device
 
 * [CBI: CrOS Board Info](/chromium-os/developer-library/reference/device/cros-board-info)
+* [Crosh](/chromium-os/developer-library/reference/device/crosh)
 * [Disk format](/chromium-os/developer-library/reference/device/disk-format)
 * [Firmware Config](/chromium-os/developer-library/reference/device/firmware-config)
 
