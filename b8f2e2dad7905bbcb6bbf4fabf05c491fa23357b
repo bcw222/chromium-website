@@ -39,6 +39,30 @@
       },
       "revId": "b8f2e2dad7905bbcb6bbf4fabf05c491fa23357b",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11cce427_fc759b15",
+        "filename": "site/chromium-os/developer-library/guides/device/install-software-on-base-images/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1547388
+      },
+      "writtenOn": "2024-03-27T23:17:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "360701c9_19fc68c6",
+      "range": {
+        "startLine": 4,
+        "startChar": 46,
+        "endLine": 4,
+        "endChar": 52
+      },
+      "revId": "b8f2e2dad7905bbcb6bbf4fabf05c491fa23357b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
