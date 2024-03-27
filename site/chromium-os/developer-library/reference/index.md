@@ -71,6 +71,7 @@ title: Reference
 * [cros deploy](/chromium-os/developer-library/reference/tools/cros-deploy)
 * [cros flash](/chromium-os/developer-library/reference/tools/cros-flash)
 * [CrOS Tools](/chromium-os/developer-library/reference/tools/cros-tools)
+* [Helper scripts](/chromium-os/developer-library/reference/tools/helper-scripts)
 * [gsutil](/chromium-os/developer-library/reference/tools/gsutil)
 * [repo](/chromium-os/developer-library/reference/tools/repo-tool)
 * [xBuddy for Devserver](/chromium-os/developer-library/reference/tools/xbuddy)
