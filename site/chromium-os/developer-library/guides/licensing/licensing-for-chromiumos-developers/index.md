@@ -1,15 +1,13 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/licensing
-  - Licensing in Chromium OS
+- - /chromium-os/developer-library/guides/#licensing
+  - ChromiumOS > Developer Library > Guides
 page_name: licensing-for-chromiumos-developers
 title: Licensing for Chromium OS Developers
 ---
 
 User oriented documentation is here: [Licensing for Chromium OS Package
-Owners](/chromium-os/licensing/licensing-for-chromiumos-package-owners)
+Owners](/chromium-os/developer-library/guides/licensing/licensing-for-chromiumos-package-owners)
 
 ## Goal
 
