@@ -68,6 +68,7 @@ title: Reference
 
 ## Tools
 
+* [chroot-version-hooks](/chromium-os/developer-library/reference/tools/chroot-version-hooks)
 * [cros deploy](/chromium-os/developer-library/reference/tools/cros-deploy)
 * [cros flash](/chromium-os/developer-library/reference/tools/cros-flash)
 * [CrOS Tools](/chromium-os/developer-library/reference/tools/cros-tools)

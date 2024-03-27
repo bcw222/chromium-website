@@ -1,11 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/build
-  - Chromium OS Build
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: local-trybot-documentation
-title: Chromium OS Local Trybots
+title: ChromiumOS local trybots
 ---
 
 [TOC]

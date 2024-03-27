@@ -69,6 +69,7 @@ title: Guides
 * [How to use LINT.IfChange to keep files in sync](/chromium-os/developer-library/guides/development/keep-files-in-sync)
 * [Introduction to Git & Gerrit for CrOS contributors](/chromium-os/developer-library/guides/development/git-and-gerrit-intro)
 * [Life of a Chrome commit on ChromeOS](/chromium-os/developer-library/guides/development/chrome-commit-pipeline)
+* [Local trybot](/chromium-os/developer-library/guides/development/local-trybot-documentation)
 * [Remote trybots](/chromium-os/developer-library/guides/development/remote-trybots)
 * [Running graphical applications remotely](/chromium-os/developer-library/guides/development/running-graphical-applications-remotely)
 * [Sandboxing ChromeOS system services](/chromium-os/developer-library/guides/development/sandboxing)

@@ -24,10 +24,6 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 </div>
 </div>
 
-### For developers
-
-*   [ChromiumOS Build](/chromium-os/build)
-
 ### Developer docs
 
 *   [ChromiumOS Developer
