@@ -18,9 +18,6 @@ Select the area that you're interested in:
 *   [Licensing Handling For OS
             Builders](/chromium-os/licensing/building-a-distro)
     *   e.g. people generating images
-*   [Internal Licensing Handling For Chromium OS
-            Developers](/chromium-os/licensing/licensing-for-chromiumos-developers)
-    *   e.g. people dealing with the license generation logic
 
 ## Chrome OS Devices
 
