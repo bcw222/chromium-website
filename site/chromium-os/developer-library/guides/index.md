@@ -133,6 +133,7 @@ title: Guides
 ## Kernel
 
 * [Kernel development](/chromium-os/developer-library/guides/kernel/kernel-development)
+* [Using an upstream kernel on ChromeOS](/chromium-os/developer-library/guides/kernel/using-an-upstream-kernel-on-snow)
 
 ## Localization
 
