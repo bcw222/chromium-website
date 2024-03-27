@@ -73,6 +73,7 @@ title: Reference
 * [cros flash](/chromium-os/developer-library/reference/tools/cros-flash)
 * [CrOS Tools](/chromium-os/developer-library/reference/tools/cros-tools)
 * [gsutil](/chromium-os/developer-library/reference/tools/gsutil)
+* [Helper scripts](/chromium-os/developer-library/reference/tools/helper-scripts)
 * [repo](/chromium-os/developer-library/reference/tools/repo-tool)
 * [xBuddy for Devserver](/chromium-os/developer-library/reference/tools/xbuddy)
 * [Useful developer related Chrome extensions](/developers/useful-extensions)
