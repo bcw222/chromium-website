@@ -179,6 +179,9 @@ title: Guides
 * [How to patch an ebuild](/chromium-os/developer-library/guides/portage/how-to-patch-an-ebuild)
 * [New & upgrade package process](/chromium-os/developer-library/guides/portage/package-upgrade-process)
 * [Overlay FAQ](/chromium-os/developer-library/guides/portage/overlay-faq)
+* [Adding a New Package](/chromium-os/developer-library/guides/portage/add-a-new-package)
+* [Upgrade Ebuild EAPIs HOWTO](/chromium-os/developer-library/guides/portage/upgrade-ebuild-eapis)
+* [Working with your Overlay FAQ](/chromium-os/developer-library/guides/portage/working-with-your-overlay-faq)
 
 ## Preferences
 * [Preferences and policies](/chromium-os/developer-library/guides/preferences/policy-prefs)
