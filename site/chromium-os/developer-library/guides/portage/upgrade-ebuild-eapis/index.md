@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: upgrade-ebuild-eapis
 title: Upgrade Ebuild EAPIs HOWTO
 ---

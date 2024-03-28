@@ -173,12 +173,15 @@ title: Guides
 
 ## Portage
 
+* [Adding a New Package](/chromium-os/developer-library/guides/portage/add-a-new-package)
 * [Adding a package to the SDK](/chromium-os/developer-library/guides/portage/add-sdk-package)
 * [CrOS bashrc override framework](/chromium-os/developer-library/guides/portage/profile-bashrc)
 * [Ebuild FAQ](/chromium-os/developer-library/guides/portage/ebuild-faq)
 * [How to patch an ebuild](/chromium-os/developer-library/guides/portage/how-to-patch-an-ebuild)
 * [New & upgrade package process](/chromium-os/developer-library/guides/portage/package-upgrade-process)
 * [Overlay FAQ](/chromium-os/developer-library/guides/portage/overlay-faq)
+* [Upgrade Ebuild EAPIs HOWTO](/chromium-os/developer-library/guides/portage/upgrade-ebuild-eapis)
+* [Working with your Overlay FAQ](/chromium-os/developer-library/guides/portage/working-with-your-overlay-faq)
 
 ## Preferences
 * [Preferences and policies](/chromium-os/developer-library/guides/preferences/policy-prefs)
