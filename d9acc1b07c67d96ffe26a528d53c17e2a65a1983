@@ -41,6 +41,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "11438e56_58f91e76",
+        "filename": "site/chromium-os/developer-library/guides/debugging/debugging-tips/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1548900
+      },
+      "writtenOn": "2024-03-28T20:56:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "86ad584a_1a174a63",
+      "range": {
+        "startLine": 6,
+        "startChar": 19,
+        "endLine": 6,
+        "endChar": 27
+      },
+      "revId": "d9acc1b07c67d96ffe26a528d53c17e2a65a1983",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "29feced0_5f89a96e",
@@ -54,6 +78,30 @@
       "writtenOn": "2024-03-28T20:49:26Z",
       "side": 1,
       "message": "s/ss//\n```suggestion\n[TOC]\n```",
+      "range": {
+        "startLine": 9,
+        "startChar": 5,
+        "endLine": 9,
+        "endChar": 7
+      },
+      "revId": "d9acc1b07c67d96ffe26a528d53c17e2a65a1983",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f05851f9_f914e74b",
+        "filename": "site/chromium-os/developer-library/guides/debugging/debugging-tips/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1548900
+      },
+      "writtenOn": "2024-03-28T20:56:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "29feced0_5f89a96e",
       "range": {
         "startLine": 9,
         "startChar": 5,
@@ -87,6 +135,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "242240a1_b168d68a",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1548900
+      },
+      "writtenOn": "2024-03-28T20:56:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4adc3e06_6553f86d",
+      "range": {
+        "startLine": 46,
+        "startChar": 3,
+        "endLine": 46,
+        "endChar": 9
+      },
+      "revId": "d9acc1b07c67d96ffe26a528d53c17e2a65a1983",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "997ba6f8_92af0c3f",
@@ -110,6 +182,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1bdbaafb_9e7d5927",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1548900
+      },
+      "writtenOn": "2024-03-28T20:56:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "997ba6f8_92af0c3f",
+      "range": {
+        "startLine": 48,
+        "startChar": 15,
+        "endLine": 48,
+        "endChar": 23
+      },
+      "revId": "d9acc1b07c67d96ffe26a528d53c17e2a65a1983",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ae9e8655_eaaed7ff",
@@ -123,6 +219,30 @@
       "writtenOn": "2024-03-28T20:49:26Z",
       "side": 1,
       "message": "ChromiumOS\n```suggestion\n* [Chrome API keys in the ChromiumOS SDK chroot](/chromium-os/developer-library/guides/development/chrome-api-keys-in-the-chroot)\n```",
+      "range": {
+        "startLine": 68,
+        "startChar": 26,
+        "endLine": 68,
+        "endChar": 34
+      },
+      "revId": "d9acc1b07c67d96ffe26a528d53c17e2a65a1983",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3f0478d_3e067e16",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1548900
+      },
+      "writtenOn": "2024-03-28T20:56:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ae9e8655_eaaed7ff",
       "range": {
         "startLine": 68,
         "startChar": 26,
