@@ -43,6 +43,7 @@ title: Guides
 
 ## Debugging
 
+* [Chrome OS build with LLVM Clang and ASAN](/chromium-os/developer-library/guides/debugging/llvm-clang-build)
 * [ChromiumOS [serial] console debugging HOWTO](/chromium-os/developer-library/guides/debugging/serial-debugging-howto)
 * [Debugging a cellular modem](/chromium-os/developer-library/guides/debugging-3g)
 * [Debugging accessibility (a11y) Issues](/chromium-os/developer-library/guides/debugging/a11y-debugging)
@@ -62,6 +63,7 @@ title: Guides
 ## Development
 
 * [Build broken](/chromium-os/developer-library/guides/development/build-broken)
+* [Chrome API keys in the Chromium OS SDK chroot](/chromium-os/developer-library/guides/development/chrome-api-keys-in-the-chroot)
 * [ChromiumOS architecture porting guide](/chromium-os/developer-library/guides/chromiumos-architecture-porting-guide)
 * [ChromiumOS board porting guide](/chromium-os/developer-library/guides/chromiumos-board-porting-guide)
 * [ChromiumOS contributing guide](/chromium-os/developer-library/guides/development/contributing)
