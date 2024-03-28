@@ -88,11 +88,14 @@ title: Guides
 
 ## Device
 
+* [Arch Linux + mainline kernel on kevin (Chromebook Plus)](/chromium-os/developer-library/guides/device/mainline-kernel-on-kevin-chromebook-plus)
 * [Boot mainline kernel on veyron-jaq](/chromium-os/developer-library/guides/device/boot-mainline-kernel-on-veyron-jaq)
+* [Chrome OS + mainline kernel on kevin (Chromebook Plus)](/chromium-os/developer-library/guides/device/chrome-os-mainline-kernel-on-kevin-chromebook-plus)
 * [Crosfleet](/chromium-os/developer-library/guides/device/crosfleet)
 * [Developer mode](/chromium-os/developer-library/guides/device/developer-mode)
 * [Flashing chromiumOS](/chromium-os/developer-library/guides/device/flashing-chromiumos)
 * [Install software on base images](/chromium-os/developer-library/guides/device/install-software-on-base-images)
+* [NFS-quickstart](/chromium-os/developer-library/guides/device/nfs-quickstart)
 * [Powerwash](/chromium-os/developer-library/guides/device/powerwash)
 * [Read-only firmware unlock on 2023+ devices](/chromium-os/developer-library/guides/device/ro-firmware-unlock)
 * [Requesting devices](/chromium-os/developer-library/guides/device/requesting-devices)
