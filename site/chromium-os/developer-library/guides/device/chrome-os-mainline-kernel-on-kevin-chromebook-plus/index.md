@@ -1,13 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
-- - /chromium-os/how-tos-and-troubleshooting/mainline-kernel-on-kevin-chromebook-plus
-  - Arch Linux + Mainline kernel on kevin (Chromebook Plus)
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: chrome-os-mainline-kernel-on-kevin-chromebook-plus
-title: Chrome OS + Mainline kernel on kevin (Chromebook Plus)
+title: Chrome OS + mainline kernel on kevin (Chromebook Plus)
 ---
 
 Adapted from Tomasz's instructions
@@ -59,14 +55,14 @@ pushd third_party/kernel/v4.4/ && \
     git fetch torvalds && \
     git branch -t rockchip_upstream torvalds/master && \
     git checkout rockchip_upstream && \
-    (curl -L 'https://www.chromium.org/chromium-os/how-tos-and-troubleshooting/mainline-kernel-on-kevin-chromebook-plus/chrome-os-mainline-kernel-on-kevin-chromebook-plus/0001-FROMLIST-drm-panel-add-Kingdisplay-kd097d04-panel-dr.patch' | git am) && \
-    (curl -L 'https://www.chromium.org/chromium-os/how-tos-and-troubleshooting/mainline-kernel-on-kevin-chromebook-plus/chrome-os-mainline-kernel-on-kevin-chromebook-plus/0002-CHROMIUM-drm-Add-drm_master_relax-debugfs-file-non-r.patch' | git am) && \
-    (curl -L 'https://www.chromium.org/chromium-os/how-tos-and-troubleshooting/mainline-kernel-on-kevin-chromebook-plus/chrome-os-mainline-kernel-on-kevin-chromebook-plus/0003-CHROMIUM-drm-Allow-DRM_IOCTL_MODE_MAP_DUMB-for-rende.patch' | git am) && \
-    (curl -L 'https://www.chromium.org/chromium-os/how-tos-and-troubleshooting/mainline-kernel-on-kevin-chromebook-plus/chrome-os-mainline-kernel-on-kevin-chromebook-plus/0004-CHROMIUM-drm-Allow-render-node-access-to-KMS-getters.patch' | git am) && \
-    (curl -L 'https://www.chromium.org/chromium-os/how-tos-and-troubleshooting/mainline-kernel-on-kevin-chromebook-plus/chrome-os-mainline-kernel-on-kevin-chromebook-plus/0005-CHROMIUM-drm-Allow-DRM_IOCTL_MODE_DESTROY_DUMB-for-r.patch' | git am) && \
-    (curl -L 'https://www.chromium.org/chromium-os/how-tos-and-troubleshooting/mainline-kernel-on-kevin-chromebook-plus/chrome-os-mainline-kernel-on-kevin-chromebook-plus/0006-CHROMIUM-drm-rockchip-Enable-rendernode.patch' | git am) && \
-    (curl -L 'https://www.chromium.org/chromium-os/how-tos-and-troubleshooting/mainline-kernel-on-kevin-chromebook-plus/chrome-os-mainline-kernel-on-kevin-chromebook-plus/0007-CHROMIUM-drm-rockchip-Add-GEM-ioctls.patch' | git am) && \
-    (curl -L 'https://www.chromium.org/chromium-os/how-tos-and-troubleshooting/mainline-kernel-on-kevin-chromebook-plus/chrome-os-mainline-kernel-on-kevin-chromebook-plus/0008-CHROMIUM-Revert-drm-vgem-create-a-render-node-for-vg.patch' | git am) && \
+    (curl -L 'https://www.chromium.org/chromium-os/developer-library/guides/device/chrome-os-mainline-kernel-on-kevin-chromebook-plus/0001-FROMLIST-drm-panel-add-Kingdisplay-kd097d04-panel-dr.patch' | git am) && \
+    (curl -L 'https://www.chromium.org/chromium-os/developer-library/guides/device/chrome-os-mainline-kernel-on-kevin-chromebook-plus/0002-CHROMIUM-drm-Add-drm_master_relax-debugfs-file-non-r.patch' | git am) && \
+    (curl -L 'https://www.chromium.org/chromium-os/developer-library/guides/device/chrome-os-mainline-kernel-on-kevin-chromebook-plus/0003-CHROMIUM-drm-Allow-DRM_IOCTL_MODE_MAP_DUMB-for-rende.patch' | git am) && \
+    (curl -L 'https://www.chromium.org/chromium-os/developer-library/guides/device/chrome-os-mainline-kernel-on-kevin-chromebook-plus/0004-CHROMIUM-drm-Allow-render-node-access-to-KMS-getters.patch' | git am) && \
+    (curl -L 'https://www.chromium.org/chromium-os/developer-library/guides/device/chrome-os-mainline-kernel-on-kevin-chromebook-plus/0005-CHROMIUM-drm-Allow-DRM_IOCTL_MODE_DESTROY_DUMB-for-r.patch' | git am) && \
+    (curl -L 'https://www.chromium.org/chromium-os/developer-library/guides/device/chrome-os-mainline-kernel-on-kevin-chromebook-plus/0006-CHROMIUM-drm-rockchip-Enable-rendernode.patch' | git am) && \
+    (curl -L 'https://www.chromium.org/chromium-os/developer-library/guides/device/chrome-os-mainline-kernel-on-kevin-chromebook-plus/0007-CHROMIUM-drm-rockchip-Add-GEM-ioctls.patch' | git am) && \
+    (curl -L 'https://www.chromium.org/chromium-os/developer-library/guides/device/chrome-os-mainline-kernel-on-kevin-chromebook-plus/0008-CHROMIUM-Revert-drm-vgem-create-a-render-node-for-vg.patch' | git am) && \
     popd
 ```
 

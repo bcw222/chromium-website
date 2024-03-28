@@ -1,11 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: mainline-kernel-on-kevin-chromebook-plus
-title: Arch Linux + Mainline kernel on kevin (Chromebook Plus)
+title: Arch Linux + mainline kernel on kevin (Chromebook Plus)
 ---
 
 **Note:** Adapted/inspired by [this
