@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c98f8175_4d6c9a2a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2024-03-28T17:17:48Z",
+      "side": 1,
+      "message": "This justifies the change in https://github.com/GoogleChrome/chromium-dashboard/pull/3749 to color-code links to external reviews by how much time they\u0027ve been pending.",
+      "revId": "ad40e37ae2aad070f73de5361f94e06feb7532cf",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
