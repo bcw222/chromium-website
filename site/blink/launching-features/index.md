@@ -286,7 +286,8 @@ exception from the API owners.
 If you haven't already received [signals on their opinion of the
 API](https://docs.google.com/document/d/1xkHRXnFS8GDqZi7E0SSbR3a7CZsGScdxPUWBsNgo-oo/edit#heading=h.tgzhprxcmw4u)
 from other browser vendors and the web developer community, now is the time to
-pursue getting those signals.
+pursue getting those signals. You should ask at least a month ahead of sending
+an Intent to Ship, to give reviewers sufficient time for meaningful feedback.
 
 You should also work with the documentation team to ensure your features will be
 documented when shipped, and estimate when (in what milestone) you would like to
@@ -383,7 +384,8 @@ discuss this option.
 #### Step 6: Prepare to Ship {:#new-feature-prepare-to-ship}
 
 By this stage, you need to have a complete specification available that matches
-what you have implemented, and you should have given the TAG at least a month to
+what you have implemented, and you should have given the TAG and [other
+browser vendors](https://bit.ly/blink-signals) at least a month to
 comment on that specification. If you are a Googler you should get a final spec
 review from your [spec mentor](/blink/spec-mentors), and discuss options for
 moving your spec to a final standardization venue. You should get final signoff
