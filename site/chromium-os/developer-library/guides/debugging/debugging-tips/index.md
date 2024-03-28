@@ -1,14 +1,12 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: debugging-tips
-title: Chromium on Chromium OS Debugging Tips
+title: Chromium on Chromium OS debugging tips
 ---
 
-[TOC]
+[TOC]ss
 
 These instructions will help you debug programs, including the chromium browser
 on your chromium os netbook.
@@ -125,7 +123,7 @@ Chrome, and messages that it logs before it initializes its log file, appear in
 ## **Enabling core dumps**
 
 See the [Crash Reporting
-FAQ](../../packages/crash-reporting/faq/#how-can-i-get-the-core-file-for-a-crash)
+FAQ](/chromium-os/packages/crash-reporting/faq/#how-can-i-get-the-core-file-for-a-crash)
 for how to get core files.
 
 Once you have a core file, you can load it to gdb.
