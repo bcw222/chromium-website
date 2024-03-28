@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f29978ed_ec8de087",
+        "filename": "site/chromium-os/how-tos-and-troubleshooting/building-chromium-browser/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1548900
+      },
+      "writtenOn": "2024-03-28T20:45:12Z",
+      "side": 0,
+      "message": "Page isn\u0027t deleted, but was moved to https://www.chromium.org/chromium-os/developer-library/guides/development/simple-chrome-workflow/",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 3
+      },
+      "revId": "4f69daf837e78df448f2bdb03d853faa3e0d0813",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
