@@ -43,7 +43,9 @@ title: Guides
 
 ## Debugging
 
+* [ChromeOS build with LLVM Clang and ASAN](/chromium-os/developer-library/guides/debugging/llvm-clang-build)
 * [ChromiumOS [serial] console debugging HOWTO](/chromium-os/developer-library/guides/debugging/serial-debugging-howto)
+* [Chromium on ChromiumOS debugging tips](/chromium-os/developer-library/guides/debugging/debugging-tips)
 * [Debugging a cellular modem](/chromium-os/developer-library/guides/debugging-3g)
 * [Debugging accessibility (a11y) Issues](/chromium-os/developer-library/guides/debugging/a11y-debugging)
 * [Debug button shortcuts](/chromium-os/developer-library/guides/debugging/debug-buttons)
@@ -51,6 +53,7 @@ title: Guides
 * [Debugging system hangs](/chromium-os/developer-library/guides/debugging/debugging-hangs)
 * [Debugging tips and tricks](/chromium-os/developer-library/guides/debugging/debugging)
 * [Firmware UI troubleshooting](/chromium-os/developer-library/guides/debugging/firmware-ui)
+* [Host file access](/chromium-os/developer-library/guides/debugging/host-file-access)
 * [How to get a stack trace at runtime](/chromium-os/developer-library/guides/debugging/stack-traces)
 * [How to force the out-of-box experience (OOBE)](/chromium-os/developer-library/guides/debugging/force-out-of-box-experience-oobe)
 * [LTE: manual E362 setup](/chromium-os/developer-library/guides/manual-e362-setup)
@@ -62,6 +65,7 @@ title: Guides
 ## Development
 
 * [Build broken](/chromium-os/developer-library/guides/development/build-broken)
+* [Chrome API keys in the ChromiumOS SDK chroot](/chromium-os/developer-library/guides/development/chrome-api-keys-in-the-chroot)
 * [ChromiumOS architecture porting guide](/chromium-os/developer-library/guides/chromiumos-architecture-porting-guide)
 * [ChromiumOS board porting guide](/chromium-os/developer-library/guides/chromiumos-board-porting-guide)
 * [ChromiumOS contributing guide](/chromium-os/developer-library/guides/development/contributing)
