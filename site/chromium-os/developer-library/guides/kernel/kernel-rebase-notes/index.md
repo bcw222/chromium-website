@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides/#kernel
+  - ChromiumOS > Developer Library > Guides
 page_name: kernel-rebase-notes
 title: Kernel rebase notes
 ---
