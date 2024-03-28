@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: add-a-new-package
 title: Adding a New Package
 ---
@@ -41,7 +39,7 @@ new package, we can put the package in `/var/lib/portage/distfiles-target/`.
 
 Once you're done, make sure your changes to do not break the build system. Then
 create a changelist and get it reviewed (see [Contributing
-Code](/developers/contributing-code) for details).
+Code](https://chromium.googlesource.com/chromium/src/+/main/docs/contributing.md) for details).
 
 ### Adding a package to a running Chromium OS system
 
@@ -50,10 +48,8 @@ The easiest way to add a new package, or update a package is to start
 the results on the target device.
 
 See [Using the dev
-server](http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/using-the-dev-server#TOC-How-to-build-a-single-package-and-i).
+server](https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/docs/devserver.md).
 
 ### Adding a package to the manifest
 
-See the [Git server-side
-information](http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/git-server-side-information#TOC-How-do-I-add-my-project-to-the-mani)
-site for information about how to add your package to a manifest.
+TODO(b/326073657): Add information on how to add a package to a manifest.

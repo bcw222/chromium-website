@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: working-with-your-overlay-faq
 title: Working with your Overlay FAQ
 ---
@@ -17,7 +15,7 @@ concepts](https://docs.google.com/document/d/16PWfmUkv5ZRoeaJeggHqF8cNwgSPLeL2I_
 
 ### How do I push changes that I made to my app to my developer device?
 
-Use [cros deploy](/chromium-os/build/cros-deploy)
+Use [cros deploy](/chromium-os/developer-library/reference/tools/cros-deploy/)
 
 ## Packages
 
@@ -57,8 +55,6 @@ Example upstart script:
 system-services, unless your job in the critical boot path (e.g. network driver
 setup), in which case boot-services is appropriate.
 
-The following additional resources go into more detail:
+The following resource goes into more detail:
 
-[More information](/chromium-os/boot-milestones)
-
-[Boot system design](/chromium-os/chromiumos-design-docs/userland-boot)
+[Boot system design](/chromium-os/developer-library/reference/platform/boot-design)
