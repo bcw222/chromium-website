@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "483b2d5b_ab62050d",
+        "filename": "site/chromium-os/developer-library/guides/debugging/debugging-features/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1516607
+      },
+      "writtenOn": "2024-03-28T15:18:42Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "48a5983b_42685e57",
+      "revId": "72b45341b54541e729adc540ca379a495ed09247",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3e8d1b83_765ff042",
@@ -48,6 +66,30 @@
       "writtenOn": "2024-03-27T23:49:27Z",
       "side": 1,
       "message": "ChromiumOS \u003e Developer Library \u003e Guides\n```suggestion\n  - ChromiumOS \u003e Developer Library \u003e Guides\n```",
+      "range": {
+        "startLine": 4,
+        "startChar": 15,
+        "endLine": 4,
+        "endChar": 16
+      },
+      "revId": "72b45341b54541e729adc540ca379a495ed09247",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c48d2e5f_ed22048c",
+        "filename": "site/chromium-os/developer-library/guides/debugging/debugging-hangs/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1516607
+      },
+      "writtenOn": "2024-03-28T15:18:42Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "3e8d1b83_765ff042",
       "range": {
         "startLine": 4,
         "startChar": 15,
@@ -81,6 +123,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "45176938_2e2ba253",
+        "filename": "site/chromium-os/developer-library/guides/debugging/force-out-of-box-experience-oobe/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1516607
+      },
+      "writtenOn": "2024-03-28T15:18:42Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "8bc917ad_f7369fc2",
+      "range": {
+        "startLine": 4,
+        "startChar": 17,
+        "endLine": 4,
+        "endChar": 23
+      },
+      "revId": "72b45341b54541e729adc540ca379a495ed09247",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "eb568d3d_4dd1f3f4",
@@ -94,6 +160,30 @@
       "writtenOn": "2024-03-27T23:49:27Z",
       "side": 1,
       "message": "ChromiumOS \u003e Developer Library \u003e Guides\n```suggestion\n  - ChromiumOS \u003e Developer Library \u003e Guides\n```",
+      "range": {
+        "startLine": 4,
+        "startChar": 17,
+        "endLine": 4,
+        "endChar": 23
+      },
+      "revId": "72b45341b54541e729adc540ca379a495ed09247",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0b699d88_a0bb0a1f",
+        "filename": "site/chromium-os/developer-library/guides/debugging/remote-debugging/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1516607
+      },
+      "writtenOn": "2024-03-28T15:18:42Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "eb568d3d_4dd1f3f4",
       "range": {
         "startLine": 4,
         "startChar": 17,
@@ -127,6 +217,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "59f2e9b7_4ad7e117",
+        "filename": "site/chromium-os/developer-library/guides/debugging/serial-debugging-howto/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1516607
+      },
+      "writtenOn": "2024-03-28T15:18:42Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "c13c5971_297ed26e",
+      "range": {
+        "startLine": 4,
+        "startChar": 16,
+        "endLine": 4,
+        "endChar": 17
+      },
+      "revId": "72b45341b54541e729adc540ca379a495ed09247",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3bea1768_28f178d5",
@@ -140,6 +254,30 @@
       "writtenOn": "2024-03-27T23:49:27Z",
       "side": 1,
       "message": "ChromiumOS \u003e Developer Library \u003e Guides\n```suggestion\n  - ChromiumOS \u003e Developer Library \u003e Guides\n```",
+      "range": {
+        "startLine": 4,
+        "startChar": 17,
+        "endLine": 4,
+        "endChar": 23
+      },
+      "revId": "72b45341b54541e729adc540ca379a495ed09247",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d38f984c_045753d7",
+        "filename": "site/chromium-os/developer-library/guides/debugging/target-serial-access/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1516607
+      },
+      "writtenOn": "2024-03-28T15:18:42Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "3bea1768_28f178d5",
       "range": {
         "startLine": 4,
         "startChar": 17,
