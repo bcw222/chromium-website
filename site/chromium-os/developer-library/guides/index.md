@@ -61,6 +61,7 @@ title: Guides
 
 ## Development
 
+* [Chrome API keys in the Chromium OS SDK chroot](/chromium-os/developer-library/guides/development/chrome-api-keys-in-the-chroot)
 * [Build broken](/chromium-os/developer-library/guides/development/build-broken)
 * [ChromiumOS architecture porting guide](/chromium-os/developer-library/guides/chromiumos-architecture-porting-guide)
 * [ChromiumOS board porting guide](/chromium-os/developer-library/guides/chromiumos-board-porting-guide)
