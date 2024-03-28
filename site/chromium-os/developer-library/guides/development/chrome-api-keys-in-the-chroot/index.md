@@ -1,11 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
-- - /chromium-os/how-tos-and-troubleshooting/building-chromium-browser
-  - Building Chromium for Chromium OS (simple chrome)
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: chrome-api-keys-in-the-chroot
 title: Chrome API keys in the Chromium OS SDK chroot
 ---
