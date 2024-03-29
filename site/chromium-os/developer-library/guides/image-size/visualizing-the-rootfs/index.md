@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: visualizing-the-rootfs
 title: Visualizing the Rootfs
 ---
@@ -41,4 +39,4 @@ your trusty web browser.
 Here's an example snapshot of a Chrome OS image (note: yours will be interactive
 so you can dig in to different areas).
 
-![](/chromium-os/how-tos-and-troubleshooting/visualizing-the-rootfs/Screenshot%20from%202013-04-08%2013_46_48.png)
+![](/chromium-os/developer-library/guides/image-size/visualizing-the-rootfs/Screenshot%20from%202013-04-08%2013_46_48.png)
