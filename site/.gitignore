@@ -317,8 +317,6 @@ chromium-os/developer-library/guides/hardware-schematics/minimuffin/45W Type-C A
 chromium-os/developer-library/guides/hardware-schematics/minimuffin/45W Type-C Adapter Control Board 150710.gif
 chromium-os/packages/biod/biod_diagram.png
 chromium-os/packages/power_manager/suspend-and-resume/suspend_flowchart.png
-chromium-os/how-tos-and-troubleshooting/kernel-configuration/kernel_config_diag.png
-chromium-os/how-tos-and-troubleshooting/kernel-configuration/kernel_config_diag.svg
 chromium-os/developer-library/guides/hardware-schematics/twinkie/pulseview_zoom_packetx3.png
 chromium-os/developer-library/guides/hardware-schematics/twinkie/older-sigrok-packages/twinkie_v1.1.2705-bc6d966.combined.bin
 chromium-os/developer-library/guides/hardware-schematics/twinkie/pulseview_zoom_packet.png
@@ -1147,4 +1145,6 @@ chromium-os/developer-library/guides/testing/bluetooth-tast-tests/secure_ssh_ras
 chromium-os/developer-library/guides/cpp/resolving-dependency-issues/chromeos_dependency_chart.png
 chromium-os/developer-library/guides/cpp/resolving-dependency-issues/delegate_diagram.jpg
 chromium-os/developer-library/guides/testing/touch-firmware-tests/TouchFWTests.png
+chromium-os/developer-library/guides/kernel/kernel-configuration/kernel_config_diag.png
+chromium-os/developer-library/guides/kernel/kernel-configuration/kernel_config_diag.svg
 #end_lob_ignore
