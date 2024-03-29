@@ -222,6 +222,7 @@ title: Guides
 ## Testing
 
 * [Adding builder variants using profiles](/chromium-os/developer-library/guides/testing/adding-builder-variants)
+* [Anatomy of test.test](/chromium-os/developer-library/guides/testing/anatomy-of-test-test)
 * [Autotest design patterns](/chromium-os/developer-library/guides/testing/autotest-design-patterns)
 * [Autotest developer FAQ](/chromium-os/developer-library/guides/testing/autotest-developer-faq)
 * [Best practices for writing ChromeOS unit tests](/chromium-os/developer-library/guides/testing/unit-tests)
