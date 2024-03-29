@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides/#kernel
+  - ChromiumOS > Developer Library > Guides
 page_name: kernel-configuration
 title: Kernel Configuration
 ---
@@ -20,9 +18,9 @@ sort of hierarchy so that the common options are shared as shown in this figure
 (click to enlarge):
 
 [<img alt="image"
-src="/chromium-os/how-tos-and-troubleshooting/kernel-configuration/kernel_config_diag.png"
+src="/chromium-os/developer-library/guides/kernel/kernel-configuration/kernel_config_diag.png"
 height=274
-width=400>](/chromium-os/how-tos-and-troubleshooting/kernel-configuration/kernel_config_diag.png)
+width=400>](/chromium-os/developer-library/guides/kernel/kernel-configuration/kernel_config_diag.png)
 
 Shown here is one family (chromeos) with 6 flavours, three for ARM and three for
 Intel (it is not clear why flavours is spelt the British way).
