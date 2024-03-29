@@ -1,11 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: network-based-development
-title: Network-based Development
+title: Network-based development
 ---
 
 ## FIXME: Most of the instructions below seem to apply only to ancient boards running U-Boot.
@@ -79,7 +77,7 @@ Common objections to using a network, compared to an SD card say, are:
             a network for embedded development when I was growing up; etc." You
             will need to work through these issues yourself.
 
-## Chromium OS Approach
+## ChromiumOS Approach
 
 (ARM only, for now).
 Our approach to network-based development is:
@@ -95,7 +93,7 @@ The remainder of this page shows how to set this up.
 
 ## U-Boot on the board
 
-Chromium OS has several variants of U-Boot for each board, one of which is **the
+ChromiumOS has several variants of U-Boot for each board, one of which is **the
 developer variant**. The developer variant has a number of additional features
 useful to devs: network support, an expanded command set and a saved
 environment.
@@ -175,14 +173,14 @@ up USB then tries various ways of obtaining a kernel:
             a fixed server, then boots with NFS root from a fixed server
 *   `keynfs_boot` - reads the kernel from file '/uImage' on an attached
             USB stick (first partition in ext2 format), then boots with NFS root
-*   `usb_boot` - reads a developer image in standard Chromium OS format
+*   `usb_boot` - reads a developer image in standard ChromiumOS format
             from a USB stick (not network boot)
-*   `mmc_boot` - reads a developer image in standard Chromium OS format
+*   `mmc_boot` - reads a developer image in standard ChromiumOS format
             from eMMC (not network boot)
 
 The first method to succeed is used for the boot. This means that if you don't
 have a network attached, and your USB stick does not have uImage on it, then it
-will try to read a Chromium OS format image from the stick. If no stick is
+will try to read a ChromiumOS format image from the stick. If no stick is
 inserted, it will try to boot from internal eMMC.
 To adjust the boot flow you should create your own boot command. For example you
 might create a method that loads a kernel from partition 2 of the USB stick, so
@@ -249,7 +247,7 @@ CrOS> bootp
 Waiting for Ethernet connection... done.
 BOOTP broadcast 1
 DHCP client bound to address 172.22.73.81
-CrOS> 
+CrOS>
 ```
 
 ### Setting up a TFTP server
@@ -352,7 +350,7 @@ viewing.
 You can find information about setting up NFS root
 [here](https://wiki.archlinux.org/index.php/NFSv4). These instructions replicate
 much of that, and generally follow the same pattern but are more specific to
-Chromium OS. Note that you can use NFSv3 instead but here we will use NFSv4 as
+ChromiumOS. Note that you can use NFSv3 instead but here we will use NFSv4 as
 it has additional features.
 The steps you need to take are:
 
@@ -497,9 +495,9 @@ Restart the NFS kernel server if you are superstitious:
 
 ```none
 $ sudo /etc/init.d/nfs-kernel-server restart
- * Stopping NFS kernel daemon                                            [ OK ] 
- * Unexporting directories for NFS kernel daemon...                      [ OK ] 
- * Exporting directories for NFS kernel daemon...                        [ OK ] 
+ * Stopping NFS kernel daemon                                            [ OK ]
+ * Unexporting directories for NFS kernel daemon...                      [ OK ]
+ * Exporting directories for NFS kernel daemon...                        [ OK ]
  * Starting NFS kernel daemon                                            [ OK ]
 ```
 
@@ -515,7 +513,7 @@ bin  boot  build  dev  etc  home  lib  lost+found  media  mnt  opt  p
 $ sudo umount /tmp/nfs4
 ```
 
-Finally, the standard firewall setup in Chromium OS does not permit NFS. You may
+Finally, the standard firewall setup in ChromiumOS does not permit NFS. You may
 wish to simply disable the firewall - the
 `/export/nfsroot-**yourUsernameHere**-tegra2_seaboard-**yourSerialNumberHere**/etc/init/iptables.conf`
 file should be changed to do this. At the top, change the `start on` line to
@@ -525,7 +523,7 @@ kicks in.
 
 ### Build a suitable kernel
 
-You can build an NFS-enabled kernel for Chromium OS with something like:
+You can build an NFS-enabled kernel for ChromiumOS with something like:
 
 ```none
 USE=nfs emerge-tegra2_seaboard chromeos-kernel
@@ -556,7 +554,7 @@ required. Some of the important options are:
 *   CONFIG_IP_PNP, CONFIG_IP_PNP_DHCP - required if parameter ip=dhcp is
             passed to kernel
 
-[See here](/chromium-os/how-tos-and-troubleshooting/kernel-configuration) for
+[See here](/chromium-os/chromium-os/developer-library/guides/kernel/kernel-configuration) for
 more information about kernel configuration.
 
 Note: some of the options below are required for NFS root, some for NFS mounting
@@ -596,7 +594,7 @@ A partial boot trace is shown below to show the sequence of events:
 
 ```none
 U-Boot 2010.09-00199-g4c814f0-dirty (Feb 14 2011 - 16:33:28)
-TEGRA2 
+TEGRA2
 Board:   Tegra2 Seaboard.developer
 DRAM:  1 GiB
 NAND:  0 MiB
@@ -686,7 +684,7 @@ Uncompressing Linux... done, booting the kernel.
 [   31.428835] chown used greatest stack depth: 4372 bytes left
 [   31.673332] chown used greatest stack depth: 4292 bytes left
 [   31.755995] unknown ioctl code
-[   31.759218] NvRmIoctls_NvRmFbControl: deprecated 
+[   31.759218] NvRmIoctls_NvRmFbControl: deprecated
 NVRM_DAEMON(1261): skipping Audi[   31.779495] nvrm_notifier_store: nvrm_daemon=801
 oFx initialization
 [   31.792064] nvrm_notifier_show: blocking
@@ -707,7 +705,7 @@ In developer mode, it is possible to
 * To set a password for 'chronos', run the following as root:
 echo "chronos:$(openssl passwd -1)" > /mnt/stateful_partition/etc/devmode.passwd
 Have fun and send patches!
-localhost login: 
+localhost login:
 ```
 
 TODO: Troubleshooting?

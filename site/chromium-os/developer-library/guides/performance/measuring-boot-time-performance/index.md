@@ -1,11 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: measuring-boot-time-performance
-title: Tools for Measuring Boot Time Performance
+title: Tools for measuring boot time performance
 ---
 
 This is a short summary of selected tools for measuring boot time performance.
@@ -63,7 +61,7 @@ An example with bootperf
 
 ### Running the test
 
-The `bootperf` command is run from inside the Chromium OS chroot environment;
+The `bootperf` command is run from inside the ChromiumOS chroot environment;
 run `cros_sdk `before using the script. The command should be on the default
 PATH inside the chroot.
 
@@ -72,7 +70,7 @@ PATH inside the chroot.
 16:34:58 - /home/jrbarnette/bootdata/bootperf.sample/run.000/log.txt
 16:40:18 - /home/jrbarnette/bootdata/bootperf.sample/run.001/log.txt
 16:45:23
-(cros-chroot) ~/trunk/src/scripts $ 
+(cros-chroot) ~/trunk/src/scripts $
 ```
 
 In the example above, the `-o` option specifies a directory where the test
@@ -101,7 +99,7 @@ the chroot; this example shows it from inside.
  4482  1%    +18 41%  chrome_main
  5284  1%   +802  2%  login
  6207  9%   +923 60%  network
-(cros-chroot) ~/trunk/src/scripts $ 
+(cros-chroot) ~/trunk/src/scripts $
 ```
 
 The output shows these columns:
@@ -208,7 +206,7 @@ To process the data with custom scripts, raw results can be extracted using the
  17  2290  2570  4410  4450  4470  5260  6060
  18  2310  2590  4450  4490  4520  5350  6040
  19  2310  2600  4440  4480  4510  5310  6070
-(cros-chroot) ~/trunk/src/scripts $ 
+(cros-chroot) ~/trunk/src/scripts $
 ```
 
 The first column is the iteration number; the remaining columns correspond to
@@ -253,7 +251,7 @@ chronos@localhost ~ $ bootstat_summary
  6550  64%    10  75%  network-ethernet-online
  8310  60%  1760  43%  login-prompt-visible
  8340  60%    30  83%  boot-complete
-chronos@localhost ~ $                                                                                                                                                                          
+chronos@localhost ~ $
 ```
 
 The listed events include the events reported in `showbootdata` (using slightly
