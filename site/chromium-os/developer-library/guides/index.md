@@ -230,6 +230,7 @@ title: Guides
 * [Anatomy of test.test](/chromium-os/developer-library/guides/testing/anatomy-of-test-test)
 * [Autotest design patterns](/chromium-os/developer-library/guides/testing/autotest-design-patterns)
 * [Autotest developer FAQ](/chromium-os/developer-library/guides/testing/autotest-developer-faq)
+* [Autotest for ChromiumOS developers](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/user-doc.md)
 * [Best practices for writing ChromeOS unit tests](/chromium-os/developer-library/guides/testing/unit-tests)
 * [Best practices for writing Tast tests](/chromium-os/developer-library/guides/testing/tast-tests-best-practice)
 * [Bluetooth Tast tests](/chromium-os/developer-library/guides/testing/bluetooth-tast-tests)
