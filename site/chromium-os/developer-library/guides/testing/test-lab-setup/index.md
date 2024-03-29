@@ -1,11 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: test-lab-setup
-title: Test Lab Setup
+title: Test lab setup
 ---
 
 This page will walk you through duplicating the majority of the test lab set up
