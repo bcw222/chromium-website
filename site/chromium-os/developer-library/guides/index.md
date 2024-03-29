@@ -155,6 +155,7 @@ title: Guides
 ## Kernel
 
 * [Kernel development](/chromium-os/developer-library/guides/kernel/kernel-development)
+* [Kernel rebase notes](/chromium-os/developer-library/guides/kernel/kernel-rebase-notes)
 * [Using an upstream kernel on ChromeOS](/chromium-os/developer-library/guides/kernel/using-an-upstream-kernel-on-snow)
 
 ## Localization
