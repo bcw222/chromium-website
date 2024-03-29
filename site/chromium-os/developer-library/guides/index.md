@@ -152,6 +152,10 @@ title: Guides
 * [ChromeOS D-Bus best practices](/chromium-os/developer-library/guides/ipc/dbus-best-practices)
 * [ChromeOS D-Bus usage in Chrome](/chromium-os/developer-library/guides/ipc/dbus-in-chrome)
 
+## Image Size
+
+* [Visualizing the rootfs](/chromium-os/developer-library/guides/image-size/visualizing-the-rootfs)
+
 ## Kernel
 
 * [Kernel configuration](/chromium-os/developer-library/guides/kernel/kernel-configuration)
