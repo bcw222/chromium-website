@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: a-brief-perf-how-to
 title: Timechart how-to
 ---
@@ -18,7 +16,7 @@ output from `perf timechart`.
 
 ## Lesson 1 - a simple example
 
-1.  Boot Chromium OS, and open a terminal.
+1.  Boot ChromiumOS, and open a terminal.
 2.  Run this command:
 
     ```none

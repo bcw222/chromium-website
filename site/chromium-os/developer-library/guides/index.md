@@ -80,6 +80,7 @@ title: Guides
 * [Introduction to Git & Gerrit for CrOS contributors](/chromium-os/developer-library/guides/development/git-and-gerrit-intro)
 * [Life of a Chrome commit on ChromeOS](/chromium-os/developer-library/guides/development/chrome-commit-pipeline)
 * [Local trybot](/chromium-os/developer-library/guides/development/local-trybot-documentation)
+* [Network-based development](/chromium-os/developer-library/guides/development/network-based-development)
 * [Remote trybots](/chromium-os/developer-library/guides/development/remote-trybots)
 * [Running graphical applications remotely](/chromium-os/developer-library/guides/development/running-graphical-applications-remotely)
 * [Sandboxing ChromeOS system services](/chromium-os/developer-library/guides/development/sandboxing)
@@ -178,6 +179,10 @@ title: Guides
 ## Mojo
 * [Use Mojom Union in TypeScript and C++](/chromium-os/developer-library/guides/mojo/use-mojom-union)
 
+## Performance
+* [Timechart how-to](/chromium-os/developer-library/guides/performance/a-brief-perf-how-to)
+* [Tools for measuring boot time performance](/chromium-os/developer-library/guides/performance/measuring-boot-time-performance)
+
 ## Portage
 
 * [Adding a New Package](/chromium-os/developer-library/guides/portage/add-a-new-package)
@@ -195,6 +200,7 @@ title: Guides
 
 ## Recipes
 
+* [Cellular modem FAQ](/chromium-os/developer-library/guides/recipes/get-a-3g-modem-running)
 * [Tips And tricks for ChromiumOS developers](/chromium-os/developer-library/guides/recipes/tips-and-tricks)
 
 ## Rust
@@ -248,6 +254,7 @@ title: Guides
 ## Third Party
 
 * [coreboot](/chromium-os/developer-library/guides/third-party/coreboot)
+* [ModemManager care and feeding](/chromium-os/developer-library/guides/third-party/modemmanager)
 
 ## TypeScript
 

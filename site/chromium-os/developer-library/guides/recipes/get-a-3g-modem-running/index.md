@@ -1,17 +1,15 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/how-tos-and-troubleshooting
-  - How Tos and Troubleshooting
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: get-a-3g-modem-running
 title: Cellular modem FAQ
 ---
 
 [TOC]
 
-Chrome OS supports Gobi modems via Cromo, and various other modems via Modem
-Manager. Chrome OS only supports cellular modems that have a cdc_ether (or
+ChromeOS supports Gobi modems via Cromo, and various other modems via Modem
+Manager. ChromeOS only supports cellular modems that have a cdc_ether (or
 similar) network interface. This page documents what is useful to know if you
 wish to bring up new modems and/or GSM carriers.
 
@@ -19,7 +17,7 @@ wish to bring up new modems and/or GSM carriers.
 
 There are several modem tools that are part of the flimflam-testscripts package.
 This package is install on test builds. The tools can be found in
-/usr/local/lib/flimflam/test. The first step is to verify that Chrome OS can see
+/usr/local/lib/flimflam/test. The first step is to verify that ChromeOS can see
 the modem.
 
 > `PATH=${PATH}:/usr/local/lib/flimflam/test`
@@ -231,12 +229,12 @@ Refer to 3GPP spec [TS
 for full details.
 
 [<img alt="image"
-src="/chromium-os/how-tos-and-troubleshooting/get-a-3g-modem-running/GSM%20PIN%20code%20types.png">](/chromium-os/how-tos-and-troubleshooting/get-a-3g-modem-running/GSM%20PIN%20code%20types.png)
+src="/chromium-os/developer-library/guides/recipes/get-a-3g-modem-running/GSM%20PIN%20code%20types.png">](/chromium-os/developer-library/guides/recipes/get-a-3g-modem-running/GSM%20PIN%20code%20types.png)
 
 ## How do I run tests on cell modems?
 
 You can run autotests against a live carrier network, or you can use an
 emulated-network testbed. See [Running and Writing Autotests for Cell
 Emulators](https://docs.google.com/a/google.com/document/pub?id=1FTSAO-5hVTAV9t7RNZWJRN_QOOqpl5qZJua4k3POwKc)
-and [Chrome OS Cellular Testbed
+and [ChromeOS Cellular Testbed
 Setup](https://docs.google.com/a/google.com/document/pub?id=1yG7j8Iw9PnQTH-93zP5BqB0qQRU08az11A_eN0acd70).
