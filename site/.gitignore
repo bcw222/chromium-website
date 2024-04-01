@@ -212,7 +212,7 @@ chromium-os/obsolete/using-eclipse-to-debug-chrome-on-chrome-os/c++ build env.pn
 chromium-os/obsolete/using-eclipse-to-debug-chrome-on-chrome-os/debug connection.png
 chromium-os/obsolete/using-eclipse-to-debug-chrome-on-chrome-os/Resource Filters.png
 chromium-os/obsolete/monitoring-tools/timeline.jpg
-chromium-os/firmware-porting-guide/2-concepts/Verified Boot Flow.png
+chromium-os/developer-library/guides/firmware/firmware-porting-guide/2-concepts/Verified Boot Flow.png
 chromium-os/developer-library/guides/hardware-schematics/plankton/IMG_5169.jpg
 chromium-os/developer-library/guides/hardware-schematics/plankton/leds.jpeg
 chromium-os/developer-library/guides/hardware-schematics/plankton/Plankton Raiden MCU command table.pdf

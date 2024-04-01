@@ -1,11 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/firmware-porting-guide
-  - Firmware Overview and Porting Guide
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: firmware-ec-write-protection
-title: Firmware / EC Write Protection
+title: Firmware / EC write protection
 ---
 
 On customer-ship devices, read-only [AP

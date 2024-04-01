@@ -29,5 +29,3 @@ post](http://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.h
 *   [ChromiumOS Developer
             Guide](/chromium-os/developer-library/guides/development/developer-guide)
 *   [CrOS Developer Library](/chromium-os/developer-library)
-*   [Firmware (Coreboot / U-Boot) Overview and Porting
-            Guide](/chromium-os/firmware-porting-guide)

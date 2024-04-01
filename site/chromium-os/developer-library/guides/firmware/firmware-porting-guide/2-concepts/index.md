@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/firmware-porting-guide
-  - Firmware Overview and Porting Guide
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: 2-concepts
 title: 2. Concepts
 ---
@@ -40,7 +38,7 @@ following:
             before loading and running it
 *   Firmware ID
 *   Embedded Controller image
-*   [Fmap](/chromium-os/firmware-porting-guide/fmap), a data structure
+*   [Fmap](../fmap), a data structure
             that describes the layout and contents of the SPI Flash. This
             structure is required by the Flashrom tool.
 
@@ -145,7 +143,7 @@ U-Boot performs the device initialization for the system, as follows:
             the Verity parameters) to open the root filesystem.
 9.  The system initializes user space and runs X and Chrome.
 
-![Verified boot flow](/chromium-os/firmware-porting-guide/2-concepts/Verified%20Boot%20Flow.png)
+![Verified boot flow](Verified%20Boot%20Flow.png)
 
 ### Recovery Mode
 
@@ -340,8 +338,8 @@ accessed through scripts.
 Other sections in *U-Boot Porting Guide:*
 
 1. [Overview of the Porting
-Process](/chromium-os/firmware-porting-guide/1-overview)
+Process](../1-overview)
 
 2. Concepts (this page)
 
-3. [U-Boot Drivers](/chromium-os/firmware-porting-guide/u-boot-drivers)
+3. [U-Boot Drivers](../u-boot-drivers)

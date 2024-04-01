@@ -1,11 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/firmware-porting-guide
-  - Firmware Overview and Porting Guide
-- - /chromium-os/firmware-porting-guide/1-overview
-  - 1. Overview of the Porting Process
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: the-crosfw-script
 title: The crosfw script
 ---

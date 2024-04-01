@@ -117,6 +117,7 @@ title: Guides
 
 ## Firmware
 
+* [Firmware overview and porting guide](/chromium-os/developer-library/guides/firmware/firmware-porting-guide)
 * [USB Type-C power delivery (PD) firmware](/chromium-os/developer-library/guides/firmware/pd-firmware-update)
 
 ## Git

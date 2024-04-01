@@ -1,9 +1,9 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: firmware-porting-guide
-title: Firmware Overview and Porting Guide
+title: Firmware overview and porting guide
 ---
 
 *4/11/2013*
@@ -71,13 +71,12 @@ information, and examples apply to using U-Boot with any Chromium OS. The guide
 provides a conceptual framework for U-Boot porting tasks as well as
 task-oriented guidance for the porting process.
 
-1. **[Overview of the Porting
-Process](/chromium-os/firmware-porting-guide/1-overview)**
+1. **[Overview of the Porting Process](1-overview)**
 
 *   High-level view of the porting process
 *   Development flow
 
-2. **[Concepts](/chromium-os/firmware-porting-guide/2-concepts)**
+2. **[Concepts](2-concepts)**
 
 *   Boot process
 *   Verified boot
@@ -92,8 +91,7 @@ Process](/chromium-os/firmware-porting-guide/1-overview)**
 *   Keys and signing
 *   Environment
 
-3. **[Drivers for Chrome
-OS](/chromium-os/firmware-porting-guide/u-boot-drivers)**
+3. **[Drivers for Chrome OS](u-boot-drivers)**
 
 *   Audio codec
 *   Clock
