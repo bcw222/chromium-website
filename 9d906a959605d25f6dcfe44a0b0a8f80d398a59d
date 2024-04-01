@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c38ee5a_1f82eeb6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-04-01T16:55:56Z",
+      "side": 1,
+      "message": "LGTM with nit.",
+      "revId": "9d906a959605d25f6dcfe44a0b0a8f80d398a59d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f26072e4_2b1ac1a7",
+        "filename": "site/chromium-os/developer-library/guides/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 233,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-04-01T16:55:56Z",
+      "side": 1,
+      "message": "ChromiumOS\n```suggestion\n* [Autotest for ChromiumOS developers](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/user-doc.md)\n```",
+      "range": {
+        "startLine": 233,
+        "startChar": 24,
+        "endLine": 233,
+        "endChar": 25
+      },
+      "revId": "9d906a959605d25f6dcfe44a0b0a8f80d398a59d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
