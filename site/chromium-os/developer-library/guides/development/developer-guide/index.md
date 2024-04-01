@@ -679,7 +679,7 @@ cros vm --start --image-path=../build/images/amd64-generic/R111-15301.0.0-d2023_
 ```
 
 Remember this command for future use; see [Running an image in a virtual
-machine](#vm).
+machine](#running-an-image-in-a-virtual-machine).
 
 **IMPORTANT NOTE:** It's up to you to delete old builds that you don't need.
 Every time you run `cros build-image`, the command creates files that take up to
