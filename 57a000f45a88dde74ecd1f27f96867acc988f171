@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cb6bbadf_8ef44373",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 703,
+      "author": {
+        "id": 1379860
+      },
+      "writtenOn": "2024-04-03T18:02:54Z",
+      "side": 1,
+      "message": "In practice, this will look something like:\n\n```\n(cr) somegoogler@hostname $\n```\n\nI wonder if this is clear enough, or if we need to update the \"Typography conventions\" section here: http://localhost:8080/chromium-os/developer-library/guides/development/developer-guide/#typography-conventions.",
+      "range": {
+        "startLine": 703,
+        "startChar": 0,
+        "endLine": 703,
+        "endChar": 6
+      },
+      "revId": "57a000f45a88dde74ecd1f27f96867acc988f171",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
