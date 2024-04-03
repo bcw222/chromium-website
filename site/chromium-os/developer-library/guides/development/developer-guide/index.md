@@ -685,63 +685,6 @@ machine](#running-an-image-in-a-virtual-machine).
 Every time you run `cros build-image`, the command creates files that take up to
 **8GB of space (!)**.
 
-### Look at your disk image (optional)
-
-The preferred way to mount the image you just built to look at its contents is:
-
-```bash
-(outside)
-$ cros_sdk ./mount_gpt_image.sh --board=${BOARD} --safe --most_recent
-```
-
-If you built a test image, also make sure to add `-i chromiumos_test_image.bin`
-to this command.
-
-The `--safe` option ensures you do not make accidental changes to the Root FS.
-
-Again, don't forget to unmount the root filesystem when you're done:
-
-```bash
-(outside)
-$ cros_sdk ./mount_gpt_image.sh --board=${BOARD} -u
-```
-
-Optionally, you can unpack the partition as separate files and mount them
-directly:
-
-```bash
-(outside)
-$ cd ~/chromiumos/src/build/images/${BOARD}/latest
-$ ./unpack_partitions.sh chromiumos_image.bin
-$ mkdir -p rootfs
-$ sudo mount -o loop,ro part_3 rootfs
-```
-
-This will do a loopback mount of the rootfs from your image to the location
-`~/chromiumos/src/build/images/${BOARD}/latest/rootfs` in your chroot.
-
-If you built with `--no-enable-rootfs-verification` you can omit the `ro`
-option to mount it read write.
-
-If you built an x86 ChromiumOS image, you can probably even try chrooting into
-the image:
-
-```bash
-(outside)
-$ sudo chroot ~/chromiumos/src/build/images/${BOARD}/latest/rootfs
-```
-
-This is a little hacky (the ChromiumOS rootfs isn't really designed to be a
-chroot for your host machine), but it seems to work pretty well. Don't forget to
-`exit` this chroot when you're done.
-
-When you're done, unmount the root filesystem:
-
-```bash
-(outside)
-$ sudo umount ~/chromiumos/src/build/images/${BOARD}/latest/rootfs
-```
-
 ## Installing ChromiumOS on your Device
 
 ### Put your image on a USB disk
@@ -1794,6 +1737,79 @@ will need to run those programs outside the chroot.  For lightweight editing,
     file system. This is nothing to worry about, and just means that your
     computer doesn't understand this loop either. (If you _can_ understand this
     loop, try [something harder].)
+
+### Inspecting a disk image
+
+To inspect a disk image, such as one built with the `cros build-image` command
+as in section [Build a disk image for your board](
+#build-a-disk-image-for-your-board), first launch an interactive Bash shell
+within the SDK chroot:
+
+```bash
+(outside)
+$ cros_sdk
+```
+
+Then, mount the image and inspect the `/tmp/m` directory (here `[...]` denotes
+parts of the output omitted for brevity; `(inside)` denotes any commands
+executed within the SDK Bash shell):
+
+```bash
+(inside)
+$ ./mount_gpt_image.sh --board=${BOARD} --safe --most_recent
+[...]
+[...] Image specified by [...] mounted at /tmp/m successfully.
+```
+
+If you built a test image, also make sure to add `-i chromiumos_test_image.bin`
+to this command.
+
+The `--safe` option ensures you do not make accidental changes to the Root FS.
+
+When you're done, unmount the image with:
+
+```bash
+(inside)
+$ ./mount_gpt_image.sh --board=${BOARD} -u
+```
+
+Then `exit` the SDK chroot Bash shell.
+
+Optionally, you can unpack the partition as separate files and mount them
+directly:
+
+```bash
+(outside)
+$ cd ~/chromiumos/src/build/images/${BOARD}/latest
+$ ./unpack_partitions.sh chromiumos_image.bin
+$ mkdir -p rootfs
+$ sudo mount -o loop,ro part_3 rootfs
+```
+
+This will do a loopback mount of the rootfs from your image to the location
+`~/chromiumos/src/build/images/${BOARD}/latest/rootfs` in your chroot.
+
+If you built with `--no-enable-rootfs-verification` you can omit the `ro`
+option to mount it read write.
+
+If you built an x86 ChromiumOS image, you can probably even try chrooting into
+the image:
+
+```bash
+(outside)
+$ sudo chroot ~/chromiumos/src/build/images/${BOARD}/latest/rootfs
+```
+
+This is a little hacky (the ChromiumOS rootfs isn't really designed to be a
+chroot for your host machine), but it seems to work pretty well. Don't forget to
+`exit` this chroot when you're done.
+
+When you're done, unmount the root filesystem:
+
+```bash
+(outside)
+$ sudo umount ~/chromiumos/src/build/images/${BOARD}/latest/rootfs
+```
 
 ### Updating the chroot
 
