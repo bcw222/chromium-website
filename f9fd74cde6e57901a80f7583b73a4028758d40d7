@@ -74,6 +74,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "a017b6f9_fe33aa82",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 702,
+      "author": {
+        "id": 1330845
+      },
+      "writtenOn": "2024-04-03T22:43:10Z",
+      "side": 1,
+      "message": "We removed it from the typography conventions as we don\u0027t want people entering the SDK at all.  This lone script is probably the rare exception, and something few people will ever want to do, so that\u0027s why I suggested we just move it below in the advanced section.",
+      "parentUuid": "c27263fd_ba24a17f",
+      "range": {
+        "startLine": 702,
+        "startChar": 1,
+        "endLine": 702,
+        "endChar": 8
+      },
+      "revId": "f9fd74cde6e57901a80f7583b73a4028758d40d7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "4cf44ee0_7e6cde5e",
         "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
         "patchSetId": 5
