@@ -687,11 +687,22 @@ Every time you run `cros build-image`, the command creates files that take up to
 
 ### Look at your disk image (optional)
 
-The preferred way to mount the image you just built to look at its contents is:
+To inspect the image you just built, first launch an interactive Bash shell
+within the SDK chroot:
 
 ```bash
 (outside)
-$ cros_sdk ./mount_gpt_image.sh --board=${BOARD} --safe --most_recent
+$ cros_sdk
+```
+
+Then, mount the image and inspect the `/tmp/m` directory (parts of the output
+omitted for brevity):
+
+```bash
+(outside)
+(cr) $ ./mount_gpt_image.sh --board=${BOARD} --safe --most_recent
+[...]
+[...] Image specified by [...] mounted at /tmp/m successfully.
 ```
 
 If you built a test image, also make sure to add `-i chromiumos_test_image.bin`
@@ -699,12 +710,14 @@ to this command.
 
 The `--safe` option ensures you do not make accidental changes to the Root FS.
 
-Again, don't forget to unmount the root filesystem when you're done:
+When you're done, unmount the image with:
 
 ```bash
 (outside)
-$ cros_sdk ./mount_gpt_image.sh --board=${BOARD} -u
+(cr) $  ./mount_gpt_image.sh --board=${BOARD} -u
 ```
+
+Then `exit` the SDK chroot Bash shell.
 
 Optionally, you can unpack the partition as separate files and mount them
 directly:
