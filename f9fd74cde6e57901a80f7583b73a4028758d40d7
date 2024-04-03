@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9be9f13b_a10f7f2b",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 702,
+      "author": {
+        "id": 1330845
+      },
+      "writtenOn": "2024-04-03T19:51:51Z",
+      "side": 1,
+      "message": "```suggestion\n(inside)\n```",
+      "range": {
+        "startLine": 702,
+        "startChar": 1,
+        "endLine": 702,
+        "endChar": 8
+      },
+      "revId": "f9fd74cde6e57901a80f7583b73a4028758d40d7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4cf44ee0_7e6cde5e",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 716,
+      "author": {
+        "id": 1330845
+      },
+      "writtenOn": "2024-04-03T19:51:51Z",
+      "side": 1,
+      "message": "```suggestion\n(inside)\n```",
+      "range": {
+        "startLine": 716,
+        "startChar": 1,
+        "endLine": 716,
+        "endChar": 8
+      },
+      "revId": "f9fd74cde6e57901a80f7583b73a4028758d40d7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
