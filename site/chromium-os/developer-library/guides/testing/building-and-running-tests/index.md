@@ -1,9 +1,7 @@
 ---
 breadcrumbs:
-- - /chromium-os
-  - Chromium OS
-- - /chromium-os/testing
-  - Testing Home
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Developer Library > Guides
 page_name: building-and-running-tests
 title: Building and Running Tests
 ---
@@ -47,8 +45,7 @@ $ emerge-${board} ${test_ebuild}
 ```
 
 Currently, tests are organized within these notable ebuilds: (see
-[FAQ](/chromium-os/testing/autotest-user-doc#TOC-Q1:-What-autotest-ebuilds-are-out-there-)
-full list)
+[FAQ](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/user-doc.md#Q1_What-autotest-ebuilds-are-out-there)
 chromeos-base/autotest-tests - The main ebuild handling most of autotest.git
 repository and its client and server tests.
 chromeos-base/autotest-tests-\* - Various ebuilds that build other parts of
@@ -93,7 +90,7 @@ commandline override everything else.
 ## Running tests
 
 **NOTE:** In order to run tests on your device, it needs to have a [test-enabled
-image](/chromium-os/testing/common-testing-workflows#TOC-W4.-Create-and-run-a-test-enabled-image-on-your-device).
+image](/chromium-os/developer-library/guides/testing/common-testing-workflows/#TOC-W4.-Create-and-run-a-test-enabled-image-on-your-device).
 
 When running tests, fundamentally, you want to either:
 
@@ -143,7 +140,7 @@ VM tests are conveniently wrapped into a script cros_run_vm_tests that sets up
 the VM using a given image and then calls test_that. This is run by builders to
 test using the Smoke suite.
 If you want to run your tests on the VM (see
-[here](/chromium-os/how-tos-and-troubleshooting/running-chromeos-image-under-virtual-machines)
+[here](/chromium-os/developer-library/guides/containers/cros-vm/)
 for basic instructions for setting up KVM with cros images) be aware of the
 following:
 
@@ -210,52 +207,53 @@ BVT that can run in a VM
 Please refer to the [suites
 documentation](/chromium-os/testing/dynamic-suites/dynamic-test-suites)
 
-**## ****Troubleshooting/FAQ******
+## **Troubleshooting/FAQ**
 
 Fairly asked questions, because yes, some of this may be confusing!
 
-**### Q1: What autotest ebuilds are out there?**
+### Q1: What autotest ebuilds are out there?
 
 **Note that the list of ebuilds may differ per board, as each board has potentially different list of overlays. To find all autotest ebuilds for board foo, you can run:**
 
-**```none
+```none
 $ board=foo
 $ for dir in $(portageq-${board} envvar PORTDIR_OVERLAY); do
-     find . -name '*.ebuild' | xargs grep "inherit.*autotest" | grep "9999" |cut -f1 -d: | \
-     sed -e 's/.*\/\([^/]*\)\/\([^/]*\)\/.*\.ebuild/\1\/\2/'
-   done
-```**
+    find . -name '*.ebuild' | xargs grep "inherit.*autotest" | grep "9999" |cut -f1 -d: | \
+    sed -e 's/.*\/\([^/]*\)\/\([^/]*\)\/.*\.ebuild/\1\/\2/'
+  done
+```
 
-**### Q2: I see a test of the name ‘greattests_TestsEverything’ in build output/logs/whatever! How do I find which ebuild builds it?**
+
+### Q2: I see a test of the name ‘greattests_TestsEverything’ in build output/logs/whatever! How do I find which ebuild builds it?
 
 **All ebuilds have lists of tests exported as USE_EXPANDed lists called TESTS. An expanded use can be searched for in the same way as other use flags, but with the appropriate prefix, in this case, you would search for ‘tests_greattests_TestsEverything’:**
 
-**```none
+```none
 $ use_search=tests_greattests_TestsEverything
 $ equery-$board hasuse $use_search
  * Searching for USE flag tests_greattests_TestsEverything …
 [I-O] [  ] some_ebuild_package_name:0
-```**
+```
 
 **This will however only work on ebuilds which are already installed, ie. their potentially outdated versions.**
 **Alternately, you can run a pretended emerge (emerge -p) of all autotest ebuilds and scan the output.**
 
-**```none
+```none
 $ emerge -p ${all_ebuilds_from_Q1} |grep -C 10 “${use_search}”
-```**
+```
 
-**### Q3: I have an ebuild ‘foo’, where are its sources?**
+### Q3: I have an ebuild ‘foo’, where are its sources?
 
 **Generally speaking, one has to look at the ebuild source to figure that question out (and it shouldn’t be hard). However, all present autotest ebuilds (at the time of this writing) are also ‘cros-workon’, and for those, this should always work:**
 
-**```none
+```none
 $ ebuild_search=foo
 $ ebuild $(equery-$board which $ebuild_search) info
 CROS_WORKON_SRCDIR=”/home/you/trunk/src/third_party/foo”
 CROS_WORKON_PROJECT=”chromiumos/third_party/foo”
-```**
+```
 
-**### Q4: I have an ebuild, what tests does it build?**
+### Q4: I have an ebuild, what tests does it build?
 
 **You can run a pretended emerge on the ebuild and observe the ‘TESTS=’
 statement:**
@@ -327,4 +325,4 @@ Missing pyauto_dep. Unhandled PackageInstallError: Installation of pyauto_dep(
 **You're running the now-deprecated run_remote_tests.sh without the
 --use_emerged flag. Use test_that instead. OR, you are using test_that but have
 never emerged autotest-chrome, and thus the telemetry dep is missing. See
-[here](/chromium-os/testing/building-and-running-tests#TOC-Running-tests-on-a-machine---run_remote_tests.sh).**
+[here](/chromium-os/developer-library/guides/testing/building-and-running-tests/#running-tests-on-a-machine-test_that).**
