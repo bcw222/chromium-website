@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cda947da_6dc18c6a",
+        "filename": "site/chromium-os/developer-library/guides/testing/building-and-running-tests/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1547388
+      },
+      "writtenOn": "2024-04-04T21:36:27Z",
+      "side": 1,
+      "message": "nit: is https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/user-doc.md#Troubleshooting_FAQ a better alternative?",
+      "range": {
+        "startLine": 48,
+        "startChar": 6,
+        "endLine": 48,
+        "endChar": 134
+      },
+      "revId": "43b43a2afcb41f83bc8b7c8081c862c676529ac4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
