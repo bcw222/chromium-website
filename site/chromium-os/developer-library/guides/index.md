@@ -236,6 +236,7 @@ title: Guides
 * [Best practices for writing Tast tests](/chromium-os/developer-library/guides/testing/tast-tests-best-practice)
 * [Bluetooth Tast tests](/chromium-os/developer-library/guides/testing/bluetooth-tast-tests)
 * [Breakage and flake policy](/chromium-os/developer-library/guides/testing/breakages-and-flakes)
+* [Building and running tests](/chromium-os/developer-library/guides/testing/building-and-running-tests)
 * [Chamelium USB audio](/chromium-os/developer-library/guides/testing/chamelium-usb-audio)
 * [ChromeOS performance tests](/chromium-os/developer-library/guides/testing/performance)
 * [ChromiumOS unit testing](/chromium-os/developer-library/guides/testing/running-unit-tests)
