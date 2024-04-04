@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d4c8c3d4_48d2a1c8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1428199
+      },
+      "writtenOn": "2024-04-04T20:51:47Z",
+      "side": 1,
+      "message": "update HP chromebook X2 information into public site",
+      "revId": "8cc50e4fa9f2085a02a93ecf323a6ded357ec133",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
