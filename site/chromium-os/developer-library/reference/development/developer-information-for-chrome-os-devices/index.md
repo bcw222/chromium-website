@@ -3016,6 +3016,21 @@ such as the auto update until date, first release, and more.
     <td></td>
     <td>Yes</td>
   </tr>
+   <tr>
+    <td>2021-01-29</td>
+    <td>HP</td>
+    <td><a href="https://support.hp.com/us-en/document/c07773362">HP Chromebook X2 11</a></td>
+    <td>Coachz</td>
+    <td>Trogdor</td>
+    <td>Trogdor</td>
+    <td>arm</td>
+    <td>5.4</td>
+    <td>aarch64</td>
+    <td>QC-7C</td>
+    <td>Detachable</td>
+    <td></td>
+    <td>Yes</td>
+  </tr>
   <tr>
     <td>2021-01-29</td>
     <td>HP</td>
