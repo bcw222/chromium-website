@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "80c636af_7d4fb1bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1108834
+      },
+      "writtenOn": "2024-04-05T18:43:34Z",
+      "side": 1,
+      "message": "I think automatic redirect is probably better.  We can have some other path for game devs I think.",
+      "revId": "8616b97e19b12f5db296b6d9e95f4ae5ddd1cb4e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
