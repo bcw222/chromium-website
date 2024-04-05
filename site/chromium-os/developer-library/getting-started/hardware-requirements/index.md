@@ -42,8 +42,8 @@ distributed compilation system, building and testing the platform is resource
 intensive and benefits from a powerful machine. The following workstation specs
 are recommended:
 * Multi-core x86-64 CPU
-* 128 GB RAM
-* 1 TB SSD NVMe (Solid State Drive Non-Volatile Memory Express)
+* 32 GB RAM
+* 200 GB free disk space (NVMe SSD recommended)
 
 > Googlers: Please visit <a
 > href="https://go.corp.google.com/cros-hardware-acquisition"
