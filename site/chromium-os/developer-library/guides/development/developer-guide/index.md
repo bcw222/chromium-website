@@ -611,8 +611,6 @@ will build using your local sources.  See below for information about
     `--chromium` flag to guarantee Chromium.
     In all cases, binpkgs will be used whenever available, and the build will
     fall back to building from source if no matching binpkg is available.
-*   `cros build-packages` automatically calls `update_chroot`, which will keep
-    the SDK up-to-date with any possible changes.
 *   By default, packages other than Chrome will be compiled in debug mode; that
     is, with `NDEBUG` undefined and with debugging constructs like `DCHECK`,
     `DLOG`, and the red "Debug image" message present. If you supply
@@ -1811,18 +1809,46 @@ When you're done, unmount the root filesystem:
 $ sudo umount ~/chromiumos/src/build/images/${BOARD}/latest/rootfs
 ```
 
-### Updating the chroot
+### Working on SDK Packages
 
-You should run `update_chroot` after `repo sync`.
-`repo sync` only updates the source code, `update_chroot` is required to apply
-those changes to the chroot.
-`update_chroot` can be run manually, alternatively it is run as part of
-`cros build-packages`.
+SDK packages are normally automatically updated from tarball when you enter the
+SDK, and there's generally no need to manually update SDK packages yourself,
+unless you're actually working on a change which makes a change to the SDK.
 
-```bash
+When making a change to the SDK, you must know that your change won't be
+generally deployed until the next tarball is generated, roughly every 12 hours.
+Thus, if your SDK change is needed for building board packages, you should
+separate the change into two CLs, and land the change which incorporates the SDK
+package change after the tarball uprevs.
+
+If the package you're working on is a `cros-workon` package, you'll want to
+workon the package first:
+
+``` shellsession
 (outside)
-$ cros_sdk update_chroot
+$ cros workon --host chromeos-base/my-package
 ```
+
+Then, to test your SDK package changes locally, you can manually emerge the
+package:
+
+```shellsession
+(outside)
+$ cros_sdk sudo emerge -guj --deep --newuse chromeos-base/my-package
+```
+
+Alternatively, you may update all the SDK packages, including your package:
+
+```shellsession
+(outside)
+$ cros_sdk update_chroot --force
+```
+
+`--force` is required to say, "yes, I really want to update my SDK from the
+current pinned version."  Historically, developers may have been used to calling
+`update_chroot` manually, even if they didn't have SDK package changes they made
+that they want to incorporate, and we added `--force` to train developers that
+they generally shouldn't need to call this command manually.
 
 ### Documentation on this site
 
