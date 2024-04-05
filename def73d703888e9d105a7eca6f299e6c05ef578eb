@@ -16,6 +16,52 @@
       "message": "Rendered markdown at https://chromium-website--cl5428836-ps1-87ujrjqh.web.app/chromium-os/developer-library/guides/portage/ebuild-faq/#what-are-use-flags",
       "revId": "def73d703888e9d105a7eca6f299e6c05ef578eb",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "88f1c452_f41007eb",
+        "filename": "site/chromium-os/developer-library/guides/portage/ebuild-faq/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 1474888
+      },
+      "writtenOn": "2024-04-05T16:27:58Z",
+      "side": 1,
+      "message": "nit: the rest of the doc is using ```bash```; this section is using a mix of bash, shell and shellsession\n```suggestion\n```bash\n```",
+      "range": {
+        "startLine": 142,
+        "startChar": 0,
+        "endLine": 142,
+        "endChar": 15
+      },
+      "revId": "def73d703888e9d105a7eca6f299e6c05ef578eb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6cd9226a_6e46b652",
+        "filename": "site/chromium-os/developer-library/guides/portage/ebuild-faq/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 1474888
+      },
+      "writtenOn": "2024-04-05T16:27:58Z",
+      "side": 1,
+      "message": "```suggestion\n1.  To express a conditional dependency in your ebuild:\n```",
+      "range": {
+        "startLine": 155,
+        "startChar": 0,
+        "endLine": 155,
+        "endChar": 40
+      },
+      "revId": "def73d703888e9d105a7eca6f299e6c05ef578eb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
