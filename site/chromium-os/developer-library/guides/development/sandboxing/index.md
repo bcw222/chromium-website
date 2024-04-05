@@ -710,8 +710,8 @@ lost on reboot.
 
 `/run/daemon-store-cache/<daemon_name>/<user_hash>` works similarly as above,
 however contents inside this directory are automatically cleaned up when device
-disk space is low, for **logged-out users**. This is the ideal directory to
-store cache contents.
+disk space is low, for both logged-in and logged-out users. This is the ideal
+directory to store cache contents.
 
 **Be sure not to write to the folder before the cryptohome is mounted**.
 Consider listening to Session Manager's `SessionStateChanged` signal or similar
