@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c667feef_47c04373",
+        "filename": "site/chromium-os/steam-on-chromeos/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-04-05T02:37:00Z",
+      "side": 1,
+      "message": "why not make it an automatic redirect and not bother with any content at all ?\n\nlook for `redirect:` in this repo for examples",
+      "revId": "44d6ce8d37881089136dc90309da88d366f141d1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "003882ba_ab24ba2e",
+        "filename": "site/chromium-os/steam-on-chromeos/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-04-05T02:37:00Z",
+      "side": 1,
+      "message": "\"ChromeOS\", not \"Chrome OS\"",
+      "revId": "44d6ce8d37881089136dc90309da88d366f141d1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a449ce1_060f3d94",
+        "filename": "site/chromium-os/steam-on-chromeos/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-04-05T02:37:00Z",
+      "side": 1,
+      "message": "stick to 80 cols",
+      "revId": "44d6ce8d37881089136dc90309da88d366f141d1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
