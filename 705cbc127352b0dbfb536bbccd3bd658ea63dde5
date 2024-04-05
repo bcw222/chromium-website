@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed2a20d7_ab2cdf1c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1241666
+      },
+      "writtenOn": "2024-04-05T22:27:52Z",
+      "side": 1,
+      "message": "I was mistaken about the cleanup condition for daemon-store-cache, it looks like it does get cleaned up even for mounted users.",
+      "revId": "705cbc127352b0dbfb536bbccd3bd658ea63dde5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
