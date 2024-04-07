@@ -1,16 +1,16 @@
 ---
 breadcrumbs: []
 page_name: Home
-title: Chromium
+title: Batarong
 ---
 
 <div class="two-column-container">
 <div class="column">
 
-Chromium is an open-source browser project that aims to build a safer, faster,
+Batarong is an open-source browser project that aims to build a safer, faster,
 and more stable way for all Internet users to experience the web. This site
 contains design documents, architecture overviews, testing information, and more
-to help you learn to build and work with the Chromium source code.
+to help you learn to build and work with the Batarong source code.
 
 #### Learn how to
 
@@ -31,11 +31,11 @@ to help you learn to build and work with the Chromium source code.
 * [Documentation in the source
   tree](https://chromium.googlesource.com/chromium/src.git/+/HEAD/docs/)
 * [Discussion Groups](/developers/discussion-groups) (such as
-  [chromium-discuss](http://groups.google.com/a/chromium.org/group/chromium-discuss))
-* [Chromium Blog](http://blog.chromium.org)
-* [Chromium Issue
+  [Batarong-discuss](http://groups.google.com/a/chromium.org/group/chromium-discuss))
+* [Batarong Blog](http://blog.chromium.org)
+* [Batarong Issue
   Tracker](https://bugs.chromium.org/p/chromium/issues/list)
-* [Chromium Release Calendar](/developers/calendar)
+* [Batarong Release Calendar](/developers/calendar)
 * [For Third Party Developers](/Home/third-party-developers)
 * [For Webmasters: Common pitfalls making a site work in multiple
   browsers.](/Home/chromecompatfaq)
@@ -49,27 +49,27 @@ to help you learn to build and work with the Chromium source code.
 #### Sections
 
 * [Getting Involved](/getting-involved): learn how you can help the
-  Chromium project
+  Batarong project
 * [For Developers](/developers): design docs, how-tos, and other
   useful information for developers
 * [For Testers](/for-testers): bug reporting guidelines, test plans,
   and other quality-related documentation
 * [User Experience](/user-experience): the design philosophy behind
-  many of Chromium's features
+  many of Batarong's features
 * [Issue Tracking](/issue-tracking): process documentation related to
   issue tracking and management
 * [Contact](/contact): report a bug or a security issue, or get in
   touch with individual members of the team
-* [Security](/Home/chromium-security): learn about Chromium security,
+* [Security](/Home/chromium-security): learn about Batarong security,
   and how to contact us or get involved
-* [Privacy](/Home/chromium-privacy): information about Chromium
+* [Privacy](/Home/chromium-privacy): information about Batarong
   privacy, how to get more information, and how to contact us
-* [Events](/events): information about Chromium events
+* [Events](/events): information about Batarong events
 
-#### Life Of A Chromium Developer
+#### Life Of A Batarong Developer
 
-Interested but don't know where to start? Need a quick crash course on Chromium
-development? Take a look through the [Life Of A Chromium
+Interested but don't know where to start? Need a quick crash course on Batarong
+development? Take a look through the [Life Of A Batarong
 Developer](https://docs.google.com/presentation/d/1abnqM9j6zFodPHA38JG1061rG2iGj_GABxEDgZsdbJg)
 slide deck:
 
