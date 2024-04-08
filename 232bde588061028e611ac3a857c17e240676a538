@@ -16,6 +16,24 @@
       "message": "https://chromium.googlesource.com/website/+/refs/changes/94/5436194/1/chromium-os/developer-library/guides/recipes/tips-and-tricks#how-to-make-sudo-a-little-more-permissive\n\nthis link doesn\u0027t work for me for some reason",
       "revId": "232bde588061028e611ac3a857c17e240676a538",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea84f1e4_24975284",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1477897
+      },
+      "writtenOn": "2024-04-08T18:02:14Z",
+      "side": 1,
+      "message": "https://www.chromium.org/chromium-os/developer-library/guides/recipes/tips-and-tricks/#How-to-make-sudo-a-little-more-permissive\n\nThis one works\n\nhttps://www.chromium.org/chromium-os/developer-library/guides/recipes/tips-and-tricks/#how-to-make-sudo-a-little-more-permissive\n\nso does this\n\nI guess the git tiles one is a bit weird",
+      "parentUuid": "1c1ccb72_12e70056",
+      "revId": "232bde588061028e611ac3a857c17e240676a538",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
