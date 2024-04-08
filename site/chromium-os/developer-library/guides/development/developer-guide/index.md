@@ -1908,7 +1908,7 @@ Below are a few links to external sites that you might also find helpful
 [RAM-thread]: https://groups.google.com/a/chromium.org/d/topic/chromium-os-dev/ZcbP-33Smiw/discussion
 [install depot_tools]: https://commondatastorage.googleapis.com/chrome-infra-docs/flat/depot_tools/docs/html/depot_tools_tutorial.html#_setting_up
 [Sync to Green]: #Sync-to-Green
-[Making sudo a little more permissive]: /chromium-os/developer-library/guides/recipes/tips-and-tricks/#How-to-make-sudo-a-little-more-permissive
+[Making sudo a little more permissive]: /chromium-os/developer-library/guides/recipes/tips-and-tricks/#how-to-make-sudo-a-little-more-permissive
 [Gerrit guide]: https://www.chromium.org/chromium-os/developer-guide/gerrit-guide
 [repo]: https://code.google.com/p/git-repo/
 [git]: https://git-scm.com/

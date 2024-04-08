@@ -28,7 +28,7 @@ longer than subsequent runs. An incremental run with an existing board takes
             Guide](/chromium-os/developer-library/guides/development/developer-guide/)
             and can kick off a build properly.
 2.  [Modify your sudo
-            config](/chromium-os/developer-library/guides/recipes/tips-and-tricks/#How-to-make-sudo-a-little-more-permissive)
+            config](/chromium-os/developer-library/guides/recipes/tips-and-tricks/#how-to-make-sudo-a-little-more-permissive)
             If you are at Google, you need to follow [these
             instructions](http://go/cros-glinux-sudo#configuring-etcsudoers)
             first (Under 'Tweaking with /etc/sudoers' section).
