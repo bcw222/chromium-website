@@ -34,7 +34,7 @@ before showing the UI to users.
 >                                        : nullptr;
 >     if (primary_window) {
 >       gfx::Rect rect = primary_window->bounds();
->       ui::GrabWindowSnapshotAsyncPNG(
+>       ui::GrabWindowSnapshotAsPNG(
 >           primary_window, rect,
 >           base::BindOnce(&OsFeedbackScreenshotManager::OnScreenshotTaken,
 >                          weak_ptr_factory_.GetWeakPtr(), std::move(callback)));
