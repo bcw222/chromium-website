@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f5640f2f_0f6eaa2d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2024-04-11T16:17:48Z",
+      "side": 1,
+      "message": "Thanks!\nWhen I did that rename, I thought that I also need to update the docs, but then I forgot :(",
+      "revId": "497371c6fb33442e97f691d910fa1adf90afdb1c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
