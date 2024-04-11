@@ -34,9 +34,9 @@ If you want to integrate with our infrastructure, please follow these steps:
     settings, add it in
     [`GetUserSelectableTypeInfo`][GetUserSelectableTypeInfo].
 *   Register a [`ModelTypeController`][ModelTypeController] for your type in
-    [`SyncApiComponentFactoryImpl::CreateCommonDataTypeControllers`][CreateCommonDataTypeControllers]
+    [`SyncApiComponentFactoryImpl::CreateCommonModelTypeControllers`][CreateCommonModelTypeControllers]
     or platform-specific equivalent in
-    [`ChromeSyncClient::CreateDataTypeControllers`][CreateDataTypeControllers].
+    [`ChromeSyncClient::CreateModelTypeControllers`][CreateModelTypeControllers].
 *   Add your KeyedService dependency to
     [`SyncServiceFactory`][SyncServiceFactory].
 *   Implement the actual data type logic. This will mostly be an implementation
@@ -52,8 +52,8 @@ If you want to integrate with our infrastructure, please follow these steps:
 [info_map]: https://cs.chromium.org/search/?q="kModelTypeInfoMap%5B%5D"+file:model_type.cc
 [conversions]: https://cs.chromium.org/chromium/src/components/sync/protocol/proto_value_conversions.h
 [ModelTypeController]: https://cs.chromium.org/chromium/src/components/sync/service/model_type_controller.h
-[CreateCommonDataTypeControllers]: https://cs.chromium.org/search/?q="SyncApiComponentFactoryImpl::CreateCommonDataTypeControllers"
-[CreateDataTypeControllers]: https://cs.chromium.org/search/?q="ChromeSyncClient::CreateDataTypeControllers"
+[CreateCommonModelTypeControllers]: https://cs.chromium.org/search/?q="SyncApiComponentFactoryImpl::CreateCommonModelTypeControllers"
+[CreateModelTypeControllers]: https://cs.chromium.org/search/?q="ChromeSyncClient::CreateModelTypeControllers"
 [SyncServiceFactory]: https://cs.chromium.org/search/?q=:SyncServiceFactory%5C(%5C)
 [NigoriSpecifics]: https://cs.chromium.org/chromium/src/components/sync/protocol/nigori_specifics.proto
 [UserSelectableType]: https://cs.chromium.org/chromium/src/components/sync/base/user_selectable_type.h?type=cs&q="enum+class+UserSelectableType"
