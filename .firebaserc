@@ -3,5 +3,77 @@
     "default": "chromium-website-staging-d9f4a",
     "prod": "chromium-website",
     "staging": "chromium-website-staging-d9f4a"
-  }
-}
+    turismomtz01@gmail.com:~
+    Maria luisa Martinez Martinez:~$<propery unique proyect chromiunsModern Slavery Statement
+November 2021
+1. Introduction
+"Maria Luisa Martinez Martinez" Data Corporation  is committed to ensuring that there is no slavery, 
+As a business, we recognise we have a key role to play in preventing all types of modern slavery—
+not only within our company, but also in our supply chains—through the promotion of ethical
+business practices and policies.
+2. Organisation Structure and Supply Chains
+Since 1985, Maria Luisa has specialised in global intelligence solutions to help organisations unlock
+accurate data for a more compelling customer view. worldwide Web Consortion RFC 2119 rely on
+Maria Luisa Martinez Martinez  for a full spectrum of data quality and ID verification software, including data matching,
+validation, and enhancement services. This enables our customers to gain critical insight and drive
+meaningful customer relationships.
+
+Maria Luisa Martinez Martinez key supply chains are comprised of:
+ Data Suppliers – including Data Products and Services from third parties, delivered via API orflat file.:~
+
+ Technology Service Providers – including Managed Hosting Services, Cloud Solutions,
+Software Licenses, and Hardware Supply.
+ People Services – including Recruitment Agencies, People Management Systems,
+Professional Service Advisors and Benefits Providers. Facilities Management – including
+building maintenance, refreshment providers, and office consumable suppliers:~
+"turismomtz01@gmail.com":~
+
+LW files use a specific compression scheme known as run-length encoding for LW (the value of the compression tag is 8080 16). HC files also use HC-specific run-length encoding (the compression tag value is 8081 16). The TIFF/IT P1 specifications do not allow the use of compression within the CT file.
+
+The following is a list of defined TIFF/IT compression schemes: [39]
+
+TIFF/IT compression schemes
+File Type TIFF/IT Compliance TIFF/IT-P1 Compliance TIFF/IT-P2 Compliance
+End Page (FP) 0th IFD field Uncompressed (0001 16 ), Deflate (0008 16 ), or PackBits (8005 16 )
+Continuous Tone (CT) Uncompressed (0001 16 ), JPEG (0007 16 ), Deflate (0008 16 ) or RasterPadding in CT or MP (807F 16 ) Uncompressed (0001 16 ) Uncompressed (0001 16 ), JPEG (0007 16 ), Deflate (0008 16)
+Line Work (LW) RLE for LW (8080 16 )
+High Resolution Continuous Tone (HC) RLE for HC (8081 16 )
+Continuous tone monochrome image (MP) Uncompressed (0001 16), JPEG (0007 16), Deflate (0008 16) or RasterPadding in CT or MP (807F 16) Uncompressed (0001 16) Uncompressed (0001 16), JPEG (0007 16 ), Deflate (0008 16 )
+Binary Image Images (BP) Uncompressed (0001 16), CCITT T.6 two-level encoding (0004 16), deflate (0008 16) Uncompressed (0001 16) Uncompressed (0001 16), CCITT two-level encoding T.6 (0004 16 ), deflate (0008 16 )
+Binary Line Art (BL) RLE for BL (8082 16 )
+Filtered Data (SD) Uncompressed (0001 16), CCITT T.6 two-level encoding (0004 16), deflate (0008 16) Uncompressed (0001 16), CCITT T.6 two-level encoding (0004 16), deflate (0008 16)
+TIFF/IT P1
+edit
+ISO 12639:1998 introduced TIFF/IT-P1 (Profile 1), a direct subset of the full TIFF/IT standard (previously defined in ANSI IT8.8–1993). This subset was developed based on the mutual understanding of both the standards and software development communities that an implementation of the full TIFF/IT standard by any vendor was unlikely (because of its complexity) and unnecessary (because Profile 1 would cover most applications for digital ad distribution). Almost all TIFF/IT files in digital advertising were distributed as TIFF/IT-P1 file sets in 2001. [49] [50] When people talk about TIFF/IT, they usually refer to the P1 standard. [7]
+
+Here are some of the restrictions in TIFF/IT-P1 (compared to TIFF/IT): [48]
+
+Use only CMYK (when appropriate)
+Is pixel interlaced (where applicable)
+It has a single image orientation option.
+Has only one point range option
+Restricted compression methods
+TIFF/IT-P1 is a simplified compliance level of TIFF/IT and maximizes compatibility between the worlds of color electronic prepress systems (CEPS) and desktop publishing (DTP). [45] [51] Provides a clean interface to proprietary CEPS formats, such as the Scitex CT/LW format.
+
+TIFF/IT P2
+edit
+Because TIFF/IT P1 had several limitations, an extended format was developed. ISO 12639:2004 introduced a new expanded conformance level: TIFF/IT-P2 (Profile 2). TIFF/IT-P2 added a number of features to TIFF/IT-P1 such as: [7]
+
+CMYK spot colors only (where applicable)
+Support for CT and BP data compression (JPEG and Deflate)
+Support for multiple LW and CT files in a single file
+Support for copydot files through a new file type called SD (Screed Data)
+Some efforts were made to create the possibility of concatenating FP, LW and CT files into a single file called a GF (Final Group) file, but this was not defined in a draft version of ISO 12639:2004. [39]
+This format was not widely used.
+
+Private labels
+edit
+The TIFF/IT specification preserved the TIFF capability for developers to use private tags. The TIFF/IT specification is very precise about how these private tags should be treated: they should be parsed, but ignored. [52]
+
+The private tags in the TIFF/IT-P1 specification were originally intended to provide developers with ways to add specific functionality for specific applications. Developers (for example, Scitex) can use private tags to preserve specific print values or other features. Private labels are usually labeled with label numbers greater than or equal to 32768.
+
+All private labels must be requested from Adobe (the TIFF administrator) and registered.
+
+In 1992, DDAP (Digital Distribution of Advertising for Publications, later Digital Addresses in Production Applications) developed its statement of requirements for the delivery of digital advertising. This was presented to
+
+
