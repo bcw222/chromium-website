@@ -8,24 +8,14 @@ title: Server Side test for ChromiumOS autotest codelab
 
 [TOC]
 
-****## References****
+## References
 
-    ****[Autotest Best
-    Practices](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/best-practices.md)****
-
-    ****[Writing
-    Autotests](http://www.chromium.org/chromium-os/testing/autotest-developer-faq#TOC-Writing-Autotests)****
-
-    ****[Codelab for Writing an Autotest
-    Test](https://wiki.corp.google.com/twiki/bin/view/Codelab/WritingAutotestTests)
-    - This is a codelab teaching you how to write a generic test for
-    Autotest.****
-
-    ****[Autotest for ChromiumOS
-    developers](http://www.chromium.org/chromium-os/testing/autotest-user-doc)****
-
-    ****[ChromiumOS Developer
-    Guide](http://www.chromium.org/chromium-os/developer-guide)****
+- [Autotest Best Practices](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/best-practices.md)
+- [Writing Autotests](http://www.chromium.org/chromium-os/testing/autotest-developer-faq#TOC-Writing-Autotests)
+- [Codelab for Writing an Autotest Test](https://wiki.corp.google.com/twiki/bin/view/Codelab/WritingAutotestTests)
+    - This is a codelab teaching you how to write a generic test for Autotest.
+- [Autotest for ChromiumOS developers](http://www.chromium.org/chromium-os/testing/autotest-user-doc)
+- [ChromiumOS Developer Guide](http://www.chromium.org/chromium-os/developer-guide)
 
 ****## Overview****
 
