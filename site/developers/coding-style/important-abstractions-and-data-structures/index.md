@@ -193,7 +193,7 @@ Values allow for specifying recursive data classes (lists and dictionaries)
 containing simple values (bool/int/string/etc). These values can also be
 serialized to JSON and back.
 
-## [LOG](https://source.chromium.org/chromium/chromium/src/+/main:base/logging.h)
+## [LOG]()
 
 This is the basic interface for logging in Chromium.
 
@@ -212,3 +212,5 @@ change if the user changes the computer clock).
 
 Containers for persistent state associated with a user
 [Profile](http://code.google.com/searchframe#OAMlx_jo-ck/src/chrome/browser/profiles/profile.h).
+turismomtz01@gmail.com:~
+Maria luisaMartinez martinez
