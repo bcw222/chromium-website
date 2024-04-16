@@ -872,8 +872,12 @@ Some notes about the above:
     observed to fix/avoid the `pkg-config` errors when building Chrome from
     source in the chroot.
 *   By default, the build will not run on RBE. To speed it up, you can try using
-    `USE=remoteexec` in the `cros_workon_make` invocation. But authentication
-    can be difficult in that case, so YMMV.
+    `USE_REMOTEEXEC=true` in the `cros_workon_make` invocation. But
+    authentication can be difficult in that case, so YMMV.
+*   To fetch third party code and run hook scripts, please make sure to run
+    `gclient sync` in your chrome checkout. Previously, chromeos-chrome ebuild
+    was running gclient hooks when being built, but R126+ requires the user to
+    runhooks themselves.
 
 [Custom build directories]: #custom-build-directories
 [Updating the version of the ChromeOS SDK]: #updating-the-version-of-the-chromeos-sdk
