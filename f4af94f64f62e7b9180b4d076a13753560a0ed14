@@ -16,6 +16,24 @@
       "message": "Are these new documents being moved from somewhere, or are they original content you\u0027re adding? Trying to figure out how closely I need to review the actual document content here.",
       "revId": "f4af94f64f62e7b9180b4d076a13753560a0ed14",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "21bb12c4_e249174f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-04-17T21:58:01Z",
+      "side": 1,
+      "message": "This is from go/howdoicros. A thorough review would be helpful in terms of catching anything confidential I might have missed. If you also notice anything obviously wrong, that would be hepful, but I haven\u0027t done a full run-through of the guide yet to make sure it\u0027s 100% accurate.",
+      "parentUuid": "a5df7d20_00ed5aa9",
+      "revId": "f4af94f64f62e7b9180b4d076a13753560a0ed14",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
