@@ -34,6 +34,41 @@
       "parentUuid": "a5df7d20_00ed5aa9",
       "revId": "f4af94f64f62e7b9180b4d076a13753560a0ed14",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "639b5fa9_73227f38",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001529
+      },
+      "writtenOn": "2024-04-17T22:01:56Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "21bb12c4_e249174f",
+      "revId": "f4af94f64f62e7b9180b4d076a13753560a0ed14",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8102e5bd_d2c437c2",
+        "filename": "site/chromium-os/developer-library/getting-started/setup-chromebook/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 1001529
+      },
+      "writtenOn": "2024-04-17T22:01:56Z",
+      "side": 1,
+      "message": "Probably should remove some of the stuff under this heading about specific offices (TPE, LAX, etc).",
+      "revId": "f4af94f64f62e7b9180b4d076a13753560a0ed14",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
