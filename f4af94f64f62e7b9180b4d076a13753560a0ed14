@@ -69,6 +69,24 @@
       "message": "Probably should remove some of the stuff under this heading about specific offices (TPE, LAX, etc).",
       "revId": "f4af94f64f62e7b9180b4d076a13753560a0ed14",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3dfb1769_5ab376ec",
+        "filename": "site/chromium-os/developer-library/getting-started/setup-chromebook/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-04-17T22:15:10Z",
+      "side": 1,
+      "message": "Is the concern about the office building names?",
+      "parentUuid": "8102e5bd_d2c437c2",
+      "revId": "f4af94f64f62e7b9180b4d076a13753560a0ed14",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
