@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides
-  - ChromiumOS > Developer Library > Guides
+  - ChromiumOS > Guides
 page_name: keep-files-in-sync
 title: How to use LINT.IfChange to keep files in sync
 ---

@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides
-  - ChromiumOS > Developer Library > Guides
+  - ChromiumOS > Guides
 page_name: get-a-3g-modem-running
 title: Cellular modem FAQ
 ---

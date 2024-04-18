@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/reference
-  - ChromiumOS > Developer Library > Reference
+  - ChromiumOS > Reference
 page_name: developer-faq
 title: High-Level Developer FAQ
 ---

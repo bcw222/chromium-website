@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides
-  - ChromiumOS > Developer Library > Guides
+  - ChromiumOS > Guides
 page_name: chrome-api-keys-in-the-chroot
 title: Chrome API keys in the Chromium OS SDK chroot
 ---

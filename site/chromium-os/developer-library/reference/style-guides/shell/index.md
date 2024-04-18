@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/reference
-  - ChromiumOS > Developer Library > Reference
+  - ChromiumOS > Reference
 page_name: shell
 title: Shell style guidelines [go/cros-shstyle]
 ---

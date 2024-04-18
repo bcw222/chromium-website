@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/reference
-  - ChromiumOS > Developer Library > Reference
+  - ChromiumOS > Reference
 page_name: cpp-memory-management
 title: C++ Memory Management
 ---

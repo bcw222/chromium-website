@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides
-  - ChromiumOS > Developer Library > Guides
+  - ChromiumOS > Guides
 page_name: test-accounts
 title: Owned Test Accounts (OTAs) for Manual Testing
 ---

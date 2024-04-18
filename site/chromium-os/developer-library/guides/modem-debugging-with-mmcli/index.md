@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides
-  - ChromiumOS > Developer Library > Guides
+  - ChromiumOS > Guides
 page_name: modem-debugging-with-mmcli
 title: Modem debugging with mmcli (from the modemmanager-next package)
 ---

@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides/#testing
-  - ChromiumOS > Developer Library > Guides
+  - ChromiumOS > Guides
 page_name: anatomy-of-test-test
 title: Anatomy of test.test
 ---

@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/reference/
-  - Chromium OS > Developer Library > Reference
+  - Chromium OS > Reference
 page_name: test-dependencies-in-dynamic-suites
 title: Test dependencies in dynamic suites
 ---

@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides
-  - ChromiumOS > Developer Library > Guides
+  - ChromiumOS > Guides
 page_name: chrome-os-mainline-kernel-on-kevin-chromebook-plus
 title: Chrome OS + mainline kernel on kevin (Chromebook Plus)
 ---

@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/reference
-  - ChromiumOS > Developer Library > Reference
+  - ChromiumOS > Reference
 page_name: cable-and-adapter-tips-and-tricks
 title: USB Type-C Cable and Adapter Tips and Tricks
 ---

@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides/device
-  - ChromiumOS > Developer Library > Guides
+  - ChromiumOS > Guides
 page_name: install-software-on-base-images
 title: 'Dev-Install: Installing Developer and Test packages onto a Chrome OS device'
 ---

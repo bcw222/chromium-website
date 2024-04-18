@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides/#kernel
-  - ChromiumOS > Developer Library > Guides
+  - ChromiumOS > Guides
 page_name: kernel-configuration
 title: Kernel Configuration
 ---

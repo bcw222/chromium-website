@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides
-  - ChromiumOS > Developer Library > Guides
+  - ChromiumOS > Guides
 page_name: boot-mainline-kernel-on-veyron-jaq
 title: Boot mainline kernel on veyron-jaq
 ---

@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides/chromiumos-board-porting-guide
-  - ChromiumOS > Developer Library > Guides > ChromiumOS Board Porting Guide
+  - ChromiumOS > Guides > ChromiumOS Board Porting Guide
 page_name: private-boards
 title: Creating private board overlays
 ---

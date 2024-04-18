@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides
-  - Chromium OS > Developer Library > Guides
+  - Chromium OS > Guides
 page_name: perf-data
 title: 'User Guide: Chrome OS Performance Tests and the Chrome Performance Dashboard'
 ---

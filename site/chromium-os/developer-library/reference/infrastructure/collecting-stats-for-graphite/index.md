@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/reference
-  - Chromium OS > Developer Library > Reference
+  - Chromium OS > Reference
 page_name: collecting-stats-for-graphite
 title: Collecting Stats for Graphite
 ---

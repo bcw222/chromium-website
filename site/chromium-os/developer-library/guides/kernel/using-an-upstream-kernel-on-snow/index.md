@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides
-  - ChromiumOS > Developer Library > Guides
+  - ChromiumOS > Guides
 page_name: using-an-upstream-kernel-on-snow
 title: Using an upstream kernel on ChromeOS
 ---

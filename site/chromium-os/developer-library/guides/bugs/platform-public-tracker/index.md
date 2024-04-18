@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides
-  - ChromiumOS > Developer Library > Guides
+  - ChromiumOS > Guides
 page_name: reporting-chromeos-bugs-public-tracker
 title: Reporting ChromeOS bugs in the buganizer public tracker
 ---

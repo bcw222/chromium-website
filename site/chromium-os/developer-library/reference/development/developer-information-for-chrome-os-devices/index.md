@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/reference
-  - ChromiumOS > Developer Library > Reference
+  - ChromiumOS > Reference
 page_name: developer-information-for-chrome-os-devices
 title: Developer Information for ChromeOS Devices
 ---
@@ -9,7 +9,7 @@ title: Developer Information for ChromeOS Devices
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/reference
-  - ChromiumOS > Developer Library > Reference
+  - ChromiumOS > Reference
 page_name: dir-metadata
 title: Directory metadata
 ---

@@ -1,14 +1,10 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library
-  - ChromiumOS > Developer Library
+  - ChromiumOS
 page_name: guides
 title: Guides
 ---
-
-> 🚧 The library is currently under construction. See
-> [the CrOS Developer Library Proposal](/chromium-os/developer-library/proposal)
-> for more information.
 
 <div class="two-column-container">
 <div class="column">

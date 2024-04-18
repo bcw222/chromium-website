@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides
-  - ChromiumOS > Developer Library > Guides
+  - ChromiumOS > Guides
 page_name: git-and-gerrit-intro
 title: Introduction to Git & Gerrit for CrOS contributors
 ---

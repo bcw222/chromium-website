@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/getting-started
-  - ChromiumOS > Developer Library > Getting Started
+  - ChromiumOS > Getting Started
 page_name: test-chromium
 title: Test Chromium
 ---

@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/training
-  - ChromiumOS > Developer Library > Training
+  - ChromiumOS > Training
 page_name: autotest-results-logs
 title: Autotest results logs
 ---

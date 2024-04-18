@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides/
-  - ChromiumOS > Developer Library > Guides
+  - ChromiumOS > Guides
 page_name: debugging-3g
 title: Debugging a cellular modem
 ---

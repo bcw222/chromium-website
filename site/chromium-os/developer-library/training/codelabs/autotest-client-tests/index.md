@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/training
-  - ChromiumOS > Developer Library > Training
+  - ChromiumOS > Training
 page_name: autotest-client-tests
 title: Autotest client tests
 ---

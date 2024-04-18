@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/reference/#licensing
-  - ChromiumOS > Developer Library > Reference
+  - ChromiumOS > Reference
 page_name: licensing-for-chromiumos-package-owners
 title: Licensing for Chromium OS Package Owners
 ---

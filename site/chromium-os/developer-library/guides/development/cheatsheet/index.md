@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - chromium-os/developer-library/guides/development
-  - ChromiumOS > Developer Library > Guides > Development
+  - ChromiumOS > Guides > Development
 page_name: cheatsheet
 title: CrOS work command cheat sheet
 ---

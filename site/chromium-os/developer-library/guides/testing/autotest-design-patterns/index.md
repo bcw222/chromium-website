@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides
-  - Chromium OS > Developer Library > Guides
+  - Chromium OS > Guides
 page_name: autotest-design-patterns
 title: Autotest design patterns
 ---

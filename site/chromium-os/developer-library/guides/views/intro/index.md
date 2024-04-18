@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides
-  - ChromiumOS > Developer Library > Guides > Views
+  - ChromiumOS > Guides > Views
 page_name: views-intro
 title: Views (Chromium UI Framework)
 ---

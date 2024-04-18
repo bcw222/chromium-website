@@ -1,14 +1,10 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/getting-started
-  - ChromiumOS > Developer Library > Getting Started
+  - ChromiumOS > Getting Started
 page_name: hardware-requirements
 title: Hardware Requirements
 ---
-
-> 🚧 The library is currently under construction. See
-> [the CrOS Developer Library Proposal](/chromium-os/developer-library/proposal)
-> for more information.
 
 Developing an operating system requires a hardware-rich environment. The
 ChromiumOS development infrastructure supports a range of configurations from

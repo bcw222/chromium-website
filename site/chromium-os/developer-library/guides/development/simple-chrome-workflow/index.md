@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/guides
-  - ChromiumOS > Developer Library > Guides
+  - ChromiumOS > Guides
 page_name: simple-chrome-workflow
 title: Building Chrome for ChromeOS (Simple Chrome)
 ---

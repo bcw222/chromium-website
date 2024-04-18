@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library
-  - ChromiumOS > Developer Library
+  - ChromiumOS
 page_name: glossary
 title: Glossary
 ---

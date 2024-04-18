@@ -1,7 +1,7 @@
 ---
 breadcrumbs:
 - - /chromium-os/developer-library/reference
-  - Chromium OS > Developer Library > Reference
+  - Chromium OS > Reference
 page_name: afe-rpc-infrastructure
 title: AFE RPC Infrastructure
 ---
