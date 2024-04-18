@@ -6,38 +6,38 @@ page_name: deploy-chromium
 title: Deploy Chromium
 ---
 
-### Step 0: Set up your Chromebook and verify that you can SSH to it
+## Step 0: Set up your Chromebook and verify that you can SSH to it
 
 You can only deploy a custom chrome if you finished the steps in the previous
-"[Setting up your Chromebook](setup_chromebook.md)" section. Those steps only
+[Setup your development Chromebook](../setup-chromebook) section. Those steps only
 need to be completed once for each Chromebook. Please make sure you finished
 those steps before continuing on here.
 
 As part of these steps, also ensure that you can successfully `ssh` into your
 Chromebook; see previous instructions:
-[SSH into your Chromebook](setup_chromebook.md#ssh-into-your-chromebook). Recall
+[SSH into your Chromebook](../setup-chromebook#ssh-into-your-chromebook). Recall
 that that the password to the Chromebook is `test0000`, and that SSHing can be
 performed like so:
 
-#### Working at the office
+### Working at the office
 
 ```shell
 $ ssh root@${MYDEVICE}
 ```
 
-#### Working from home
+### Working from home
 
 ```shell
 [workstation]$ ssh root@localhost -p 2233
 ```
 
-### Deploy Chrome to your Chromebook
+## Deploy Chrome to your Chromebook
 
 You can now deploy the Chrome you built with autoninja. Run one of the following
 command variations based on whether you are working from the office or from
 home:
 
-#### Working at the office
+### Working at the office
 
 ```shell
 [workstation]$ ./third_party/chromite/bin/deploy_chrome \
@@ -47,7 +47,7 @@ home:
     --compress=always # optional, but recommended to increase deploy speeds
 ```
 
-#### Working from home
+### Working from home
 
 ```shell
 [workstation]$ ./third_party/chromite/bin/deploy_chrome \
@@ -61,7 +61,7 @@ Note: You may see references later on in this doc to use `deploy_chrome` with
 the arg `--device=${MYDEVICE}`. If you're WFH, just replace that with
 `--device=localhost:2233`.
 
-#### After deploying Chrome
+### After deploying Chrome
 
 The `deploy_chrome` command deploys Chrome to the Chromebook via SSH, and
 restarts Chrome (but the Chromebook won't actually reboot). If the command
@@ -74,10 +74,10 @@ SSH into the Chromebook afterwards to read logs.
 [DUT]$ cat /var/log/chrome/chrome
 ```
 
-See the [Logging section](logging.md#viewing-logs) for more log sources to
-inspect.
+See the [Logging documentation](../../guides/logging/logging#viewing-logs) for
+more log sources to inspect.
 
-### Help! deploy_chrome is complaining that my Chromebook doesn’t have enough space
+## Help! deploy_chrome is complaining that my Chromebook doesn’t have enough space
 
 Some Chromebooks have limited space in a particular part of their memory to
 store a larger chrome executable, showing an error of the form:
@@ -119,3 +119,19 @@ Note: If the Chromebook is powered down after being deployed to
 the Chromebook powers back on, it will load whichever Chrome executable was
 there before in `/opt/google/chrome`. This can easily cause you trouble if you
 forget about it. Be aware!
+
+## Up next
+
+The final step in the development process is [testing](../test-chromium) your
+changes.
+
+<div style="text-align: center; margin: 3rem 0 1rem 0;">
+  <div style="margin: 0 1rem; display: inline-block;">
+    <span style="margin-right: 0.5rem;"><</span>
+    <a href="/chromium-os/developer-library/getting-started/build-chromium">Build Chromium</a>
+  </div>
+  <div style="margin: 0 1rem; display: inline-block;">
+    <a href="/chromium-os/developer-library/getting-started/deploy-chromium">Test Chromium</a>
+    <span style="margin-left: 0.5rem;">></span>
+  </div>
+</div>
