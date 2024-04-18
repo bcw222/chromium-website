@@ -98,7 +98,10 @@ title: Training
     <tr>
       <td>WebUI Walkthrough</td>
       <td>
-        TODO(jhawkins): Find the link to the video.
+        <a href="https://drive.google.com/file/d/1bKDsNKP-HdcVCpo3YsgeEdrkrOFp1ABV/view"
+            target="_blank">
+          Video
+        </a>
       </td>
       <td>
         <a href="https://docs.google.com/presentation/d/1HxbpU0js2rqmH2Mb90PIF_Z7g3MYb04ACXngQZfLGfU/edit?usp=sharing"
