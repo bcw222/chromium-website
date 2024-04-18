@@ -87,6 +87,24 @@
       "parentUuid": "8102e5bd_d2c437c2",
       "revId": "f4af94f64f62e7b9180b4d076a13753560a0ed14",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1cf8710c_171699f7",
+        "filename": "site/chromium-os/developer-library/getting-started/setup-chromebook/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 1001529
+      },
+      "writtenOn": "2024-04-18T17:21:20Z",
+      "side": 1,
+      "message": "Discussed offline -- no concern about the building names, but I was wondering if this generic document was the correct place to put subteam/building-specific information. I don\u0027t feel strongly either way.",
+      "parentUuid": "3dfb1769_5ab376ec",
+      "revId": "f4af94f64f62e7b9180b4d076a13753560a0ed14",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
