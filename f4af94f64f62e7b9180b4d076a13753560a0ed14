@@ -105,6 +105,24 @@
       "parentUuid": "3dfb1769_5ab376ec",
       "revId": "f4af94f64f62e7b9180b4d076a13753560a0ed14",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a1c14ccf_621cdb21",
+        "filename": "site/chromium-os/developer-library/getting-started/setup-chromebook/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-04-18T17:55:43Z",
+      "side": 1,
+      "message": "Yeah I hear you. We\u0027re not really editing the content in this phase, just getting it in one place. On the other hand, one of the principles that is tricky to stick to is not sending readers out to a bunch of different docs. At some point the content will be organized by personas such that external developers won\u0027t need to read content like this. Tough problem to solve though.",
+      "parentUuid": "1cf8710c_171699f7",
+      "revId": "f4af94f64f62e7b9180b4d076a13753560a0ed14",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
