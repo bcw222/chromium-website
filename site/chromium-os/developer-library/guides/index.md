@@ -172,7 +172,7 @@ title: Guides
 
 ## LSC
 
-* [ChromeOS platform large ccale changes (LSC)](/chromium-os/developer-library/guides/lsc/large-scale-changes)
+* [ChromeOS platform large scale changes (LSC)](/chromium-os/developer-library/guides/lsc/large-scale-changes)
 * [ChromeOS LSC workflow](/chromium-os/developer-library/guides/lsc/large-scale-changes)
 
 ## Metrics
