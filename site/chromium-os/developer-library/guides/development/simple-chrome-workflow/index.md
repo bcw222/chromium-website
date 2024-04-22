@@ -865,6 +865,7 @@ $ cros_sdk --chrome-root <path-to-chrome-checkout> cros_workon_make --board=${BO
 Some notes about the above:
 *   If you run into Google Storage authentication issues, be sure to follow
     the gsutil [setup](https://www.chromium.org/chromium-os/developer-library/reference/tools/gsutil/) instructions.
+*   `.gclient` in your Chrome checkout should not define `cros_boards` in `custom_vars`.
 *   If you run into errors with `pkg-config`, try first running a full
     `cros build-packages --board=${BOARD}` invocation without
     `chromeos-chrome` and `chrome-icu` being cros workon'ed. That's been
