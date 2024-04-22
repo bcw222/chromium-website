@@ -16,6 +16,24 @@
       "message": "seems odd we\u0027re linking to internal things that non-Googlers don\u0027t have access to",
       "revId": "53b8846bc8c95162135c16b1492a2bf03f578dd9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "34ff0080_77a9cd8e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-04-22T20:06:15Z",
+      "side": 1,
+      "message": "The plan is to copy the video to a chromium.org account (probably mine) and link to that resource instead of the corp resource.",
+      "parentUuid": "ede49994_d0a9d3c3",
+      "revId": "53b8846bc8c95162135c16b1492a2bf03f578dd9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
