@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ede49994_d0a9d3c3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-04-22T19:36:37Z",
+      "side": 1,
+      "message": "seems odd we\u0027re linking to internal things that non-Googlers don\u0027t have access to",
+      "revId": "53b8846bc8c95162135c16b1492a2bf03f578dd9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
