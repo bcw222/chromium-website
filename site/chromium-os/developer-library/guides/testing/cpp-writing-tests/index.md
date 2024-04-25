@@ -477,5 +477,5 @@ TEST_P(UniqueTestSuiteName, Flag0Enabled_Test) {
 
 ## Mojo
 
-See [Stubbing Mojo Pipes](https://www.chromium.org/chromium-os/developer-library/reference/cpp/cpp_mojo) for pointers on how
+See [Stubbing Mojo Pipes](https://www.chromium.org/chromium-os/developer-library/reference/cpp/cpp-mojo/#stubbing-mojo-pipes) for pointers on how
 to unit test Mojo calls.
