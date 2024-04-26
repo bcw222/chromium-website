@@ -141,8 +141,7 @@ file](https://source.chromium.org/chromium/chromium/src/+/main:tools/msan/ignore
 which is applied at compile time, and is used mainly to compensate for tool
 issues. Blocklist rules do not work the way suppression rules do - rather than
 suppressing reports with matching stack traces, they change the way MSan
-instrumentation is applied to the matched function. In addition, blocklist
-changes require a full clobber to take efffect. Please refrain from making
+instrumentation is applied to the matched function. Please refrain from making
 changes to the blocklist file unless you know what you are doing.
 
 Note also that instrumented libraries use separate blocklist files.
