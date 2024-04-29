@@ -75,12 +75,10 @@ DEPEND="
 "
 
 # NB: src_install should be omitted and all install handled by GN.
-# See the install section of https://www.chromium.org/chromium-os/developer-library/reference/build/chromeos-gn/.
+# See the install section of https://www.chromium.org/chromium-os/developer-library/reference/build/chromeos-gn/#how-to-install-files
 
-# This boilerplate function runs all tests registered in the GN files.
-platform_pkg_test() {
-	platform test_all
-}
+# NB: src_test should be omitted and all tests handled by GN.
+# See the test section of https://www.chromium.org/chromium-os/developer-library/guides/testing/running-unit-tests/#for-platform2-packages
 ```
 
 ## Adding generators

@@ -110,10 +110,6 @@ built for AMD systems may fail when your host system uses an Intel CPU.
 For packages using platform2, see the [biod ebuild] and [biod BUILD.gn] as
 a good example of adding your unit test. These steps include:
 
-*   Modifying the package ebuild.
-    *   Create a `platform_pkg_test()` with `platform test_all`. This will
-        run all unit tests registered in the GN files with `run_test =
-        true`
 *   Adding a `*_test.cc` test file (see [example file]).
     *   See `gtest` syntax and the usages from [Google Test] - Chromium's C++
         test harness.
