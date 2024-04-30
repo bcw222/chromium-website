@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e418b96_67aa9630",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1413494
+      },
+      "writtenOn": "2024-04-30T21:51:10Z",
+      "side": 1,
+      "message": "Update OT instructions to account for the updates in go/running-an-origin-trial.",
+      "revId": "a0428e501951d14087925349463b6f7a2b1c7df0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
