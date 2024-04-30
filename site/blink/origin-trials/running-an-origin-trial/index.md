@@ -294,7 +294,9 @@ The process is as follows:
             for your feature](https://chromestatus.com).
 *   Wait for 1 LGTM from at least one API owner (similar to the original
             Intent to Experiment)
-*   If continuing to experiment via a new trial:
+*   If extending the end date of the existing trial:
+    *   Select the "Finalize Trial Extension" button that is now available in the Origin Trial section.
+*   Otherwise if continuing to experiment via a new trial:
     *   This will officially be a new and separate trial, meaning a
                 separate entry in the list of trials, etc.
     *   Request a new trial with the appropriate naming to distinguish the old
@@ -303,11 +305,7 @@ The process is as follows:
     *   Update the integration with the framework - the code must use a
                 different trial name in Chromium ([see integration
                 below](/blink/origin-trials/running-an-origin-trial#integrate-feature)).
-*   If extending the end date of the existing trial:
-    *   Notify the OT team of the change at ChromeStatus by clicking the "Request
-                Trial Extension" button in the Origin Trial section.
-*   Upon approval, the OT team will setup the extension or new trial as
-            appropriate.
+    *   Upon approval, the OT team will setup the new trial.
 
 ## How to integrate your feature with the framework?
 
