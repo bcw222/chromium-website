@@ -1,0 +1,22 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c839209e_f098a636",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2024-04-30T14:25:40Z",
+      "side": 1,
+      "message": "For convenience, deeplink to the actual page:\nhttps://chromium-website--cl5501143-ps1-5au90ups.web.app/developers/design-documents/sync/integration-checklist/",
+      "parentUuid": "562630fe_f63003a4",
+      "revId": "05735758e7e134dcebbcc92036f2118ef59261c1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
