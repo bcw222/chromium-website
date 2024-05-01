@@ -120,8 +120,8 @@ preferences are written to disk (during shutdown), use
 `PrefService::CommitPendingWrite()`.
 
 The **PrefChangeRegistrar** allows to subscribe to preference change events. A
-class that implements the `NotificationObserver` interface
-(`notification_observer.h`) can have a member variable
+class that implements the `PrefChangeRegistrar` interface
+(`components/prefs/pref_change_registrar.h`) can have a member variable
 
 ```none
 PrefChangeRegistrar registrar_;
