@@ -321,7 +321,7 @@ Once you have a complete specification:
    be able to influence the design anymore. If that happens, it's best to notify the TAG so
    that they can close the issue and prioritize other issues.
 
-#### Step 5 (Optional): Origin Trial {:#origin-trials}
+#### Step 5 (Optional): Origin Trial or other Experiments {:#origin-trials}
 
 If you want to gather data on the usability of your feature that an [Origin
 Trial](/blink/origin-trials/running-an-origin-trial) can help collect, proceed
@@ -338,12 +338,13 @@ to Prepare to Ship, or park the feature.
 As noted above, a specification is recommended but not required for an Origin
 Trial.
 
-Please note that Origin Trials are not exempt from requiring cross-functional
-approvals from the Chrome launch review process.
+Please note that neither Origin Trials nor other experiments are exempt from
+requiring cross-functional approvals from the Chrome launch review process.
 
-Depending on your feature and your experimentation goals, running an experiment
-via Finch on a percentage of the user populations may be useful. Features that
-are going through the intent process should adhere to the following guidelines:
+Depending on your feature and your experimentation goals, running a non-Origin
+Trial experiment via Finch on a percentage of the user population may be
+useful. Features that are going through the intent process should adhere to the
+following guidelines:
 * Canary, Dev, and Beta channel experimentation does not require API owners'
   approval.
 * Experimentation on 1% of Stable channel population requires an Intent to
@@ -355,10 +356,10 @@ are going through the intent process should adhere to the following guidelines:
 Note that if your plan for shipping involves a gradual ramp-up on Stable channel,
 this is not considered experimentation, and instead follows the usual Intent to Ship process.
 
-An initial origin trial for a feature may only run for *6 milestones of Chromium*.
-Each request to extend beyond that limit may only be for *3 milestones* at a time,
-and will not be approved unless substantial progress is demonstrated in all of
-these areas:
+An initial origin trial or experiment for a feature may only run for
+*6 milestones of Chromium*. Each request to extend beyond that limit may only be
+for *3 milestones* at a time, and will not be approved unless substantial
+progress is demonstrated in all of these areas:
 * Draft spec (early draft is ok, but must be spec-like and associated with the
   appropriate standardization venue, or WICG)
 * TAG review (see [exceptions](/blink/guidelines/api-owners/process-exceptions/))
@@ -367,7 +368,7 @@ these areas:
 * WPT tests
 
 Each subsequent request to extend an origin trial must provide substantial
-*additional*  progress on top of the previous extension request.
+*additional* progress on top of the previous extension request.
 
 *Technical note:* Origin Trials are nowadays "gapless", which means they are
 configured to end after the version of Chrome with the feature enabled by default
