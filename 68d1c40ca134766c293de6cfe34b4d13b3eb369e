@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2345023f_b39bc24e",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 341,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2024-05-02T15:18:47Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "8de35a69_174d88f7",
+      "revId": "68d1c40ca134766c293de6cfe34b4d13b3eb369e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ff4ae1ee_07a50719",
@@ -48,6 +66,24 @@
       "writtenOn": "2024-05-02T15:12:57Z",
       "side": 1,
       "message": "This is\n\u003e Experimentation ... requires 3 LGTMs\n\nSo I think `s` is correct\n```suggestion\n  should be considered exceptional, and requires 3 LGTMs from API owners.\n```",
+      "revId": "68d1c40ca134766c293de6cfe34b4d13b3eb369e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e9f224c0_79ffd4c9",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 354,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2024-05-02T15:18:47Z",
+      "side": 1,
+      "message": "Oh, right - I misread this as \"Experiments\" not \"Experimentation\". Thanks!",
+      "parentUuid": "ff4ae1ee_07a50719",
       "revId": "68d1c40ca134766c293de6cfe34b4d13b3eb369e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
