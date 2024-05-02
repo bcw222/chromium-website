@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "67f9bdca_8f991699",
+        "filename": "site/chromium-os/developer-library/guides/development/simple-chrome-workflow/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 880,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-05-02T19:00:28Z",
+      "side": 1,
+      "message": "rather than pin to a CL, let\u0027s use a more accessible reference.  e.g. R126+ requires the user to runhooks themselves.",
+      "revId": "0d6b1ddb1dcc6af043fede35cc156b183c81862f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
