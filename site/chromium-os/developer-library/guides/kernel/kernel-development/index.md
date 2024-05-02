@@ -44,7 +44,7 @@ If you are making any changes to the kernel sources, and want to build the
 kernel with your changes, you must first tell the build system to use your
 local sources:
 ```bash
-(chroot) $ cros-workon-${BOARD} start chromeos-kernel-[x_y]  # first time
+(chroot) $ cros workon --board ${BOARD} start chromeos-kernel-[x_y]  # first time
 ```
 
 #### Building with emerge
