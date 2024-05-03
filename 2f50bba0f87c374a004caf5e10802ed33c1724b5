@@ -24,6 +24,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d08e59b_ee1d2acc",
+        "filename": "site/blink/origin-trials/running-an-origin-trial/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 266,
+      "author": {
+        "id": 1413494
+      },
+      "writtenOn": "2024-05-03T18:47:48Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "d4d08535_6a0ca4e7",
+      "range": {
+        "startLine": 266,
+        "startChar": 60,
+        "endLine": 266,
+        "endChar": 68
+      },
+      "revId": "2f50bba0f87c374a004caf5e10802ed33c1724b5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e6552c07_9faa1160",
@@ -37,6 +61,30 @@
       "writtenOn": "2024-05-03T17:40:52Z",
       "side": 1,
       "message": "There\u0027s now three examples for continuing, and I think the paragraph is getting long and hard to read. As the risk of too much indenting, I suggest a sub-list of examples.\n\n\n```suggestion\n                experimenting.\n   * Examples include:\n             * Feedback indicates that changes are ...\n             * You uncover new hypotheses for experimentation, after proving or disproving ...\n             * Returning to a dormant feature ...\n```",
+      "range": {
+        "startLine": 269,
+        "startChar": 31,
+        "endLine": 269,
+        "endChar": 34
+      },
+      "revId": "2f50bba0f87c374a004caf5e10802ed33c1724b5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8364fb0e_cd34976a",
+        "filename": "site/blink/origin-trials/running-an-origin-trial/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 269,
+      "author": {
+        "id": 1413494
+      },
+      "writtenOn": "2024-05-03T18:47:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e6552c07_9faa1160",
       "range": {
         "startLine": 269,
         "startChar": 31,
