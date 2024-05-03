@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d4d08535_6a0ca4e7",
+        "filename": "site/blink/origin-trials/running-an-origin-trial/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 266,
+      "author": {
+        "id": 1153414
+      },
+      "writtenOn": "2024-05-03T17:40:52Z",
+      "side": 1,
+      "message": "Nit: Spelling for \"dormant\".\n\n```suggestion\n2.  Feature changes, new areas experimentation, or reviving dormant features\n```",
+      "range": {
+        "startLine": 266,
+        "startChar": 60,
+        "endLine": 266,
+        "endChar": 68
+      },
+      "revId": "2f50bba0f87c374a004caf5e10802ed33c1724b5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e6552c07_9faa1160",
+        "filename": "site/blink/origin-trials/running-an-origin-trial/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 269,
+      "author": {
+        "id": 1153414
+      },
+      "writtenOn": "2024-05-03T17:40:52Z",
+      "side": 1,
+      "message": "There\u0027s now three examples for continuing, and I think the paragraph is getting long and hard to read. As the risk of too much indenting, I suggest a sub-list of examples.\n\n\n```suggestion\n                experimenting.\n   * Examples include:\n             * Feedback indicates that changes are ...\n             * You uncover new hypotheses for experimentation, after proving or disproving ...\n             * Returning to a dormant feature ...\n```",
+      "range": {
+        "startLine": 269,
+        "startChar": 31,
+        "endLine": 269,
+        "endChar": 34
+      },
+      "revId": "2f50bba0f87c374a004caf5e10802ed33c1724b5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "685c2179_ad97c1c2",
+        "filename": "site/blink/origin-trials/running-an-origin-trial/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 291,
+      "author": {
+        "id": 1153414
+      },
+      "writtenOn": "2024-05-03T17:40:52Z",
+      "side": 1,
+      "message": "I find this a little hard to follow, and the list below as well. I think it would be easier to follow by separating into multiple lists. \n\nMaybe something like:\n\n```\nThe process depends the scenario for your feature, as described in the previous section. If desired, email \u003cOT support\u003e to consult ...\n\nScenario 1: Extending the end date ...\n\u003cbullet list\u003e\n\nScenario 2: Continuing to experiment via a new trial ...\n\u003cbullet list\u003e\n```",
+      "range": {
+        "startLine": 291,
+        "startChar": 5,
+        "endLine": 291,
+        "endChar": 9
+      },
+      "revId": "2f50bba0f87c374a004caf5e10802ed33c1724b5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
