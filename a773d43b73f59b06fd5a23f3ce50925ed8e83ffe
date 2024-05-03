@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7f57fca7_7aa91853",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1153414
+      },
+      "writtenOn": "2024-05-03T18:57:51Z",
+      "side": 1,
+      "message": "Nit: The commit message now leads with \"Clean up the bulleted lists\" which is less helpful.",
+      "revId": "a773d43b73f59b06fd5a23f3ce50925ed8e83ffe",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
