@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "73eb330f_d6df93e5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1126876
+      },
+      "writtenOn": "2024-05-03T15:31:24Z",
+      "side": 1,
+      "message": "As per chat discussion with wanderview@.",
+      "revId": "7d4d3ca6eefb60481abc3ae8d04b02265a93382e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
