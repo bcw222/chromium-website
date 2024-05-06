@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f27ec938_c47c5dea",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 346,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2024-05-06T19:20:54Z",
+      "side": 1,
+      "message": "This isn\u0027t new in this CL, so no need to change it here, but it seemed odd to qualify just this part of the intent process with \"if you\u0027re using the intent process\".",
+      "range": {
+        "startLine": 346,
+        "startChar": 8,
+        "endLine": 346,
+        "endChar": 58
+      },
+      "revId": "1fd809904fd9aae70683f91e5e7e654c8edd142e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
