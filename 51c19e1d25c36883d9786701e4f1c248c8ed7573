@@ -26,6 +26,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "f4c54763_44286d62",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1540773
+      },
+      "writtenOn": "2024-05-06T13:59:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "def04262_21854bb2",
+      "range": {
+        "startLine": 7,
+        "startChar": 34,
+        "endLine": 7,
+        "endChar": 41
+      },
+      "revId": "51c19e1d25c36883d9786701e4f1c248c8ed7573",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "4402b4cb_e004ce9e",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 2
@@ -64,6 +88,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dcc55fd5_e2cef0a8",
+        "filename": "site/chromium-os/developer-library/guides/rust/rust-on-cros/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 231,
+      "author": {
+        "id": 1540773
+      },
+      "writtenOn": "2024-05-06T13:59:44Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "a092a7a7_97d4f492",
+      "range": {
+        "startLine": 231,
+        "startChar": 9,
+        "endLine": 231,
+        "endChar": 18
+      },
+      "revId": "51c19e1d25c36883d9786701e4f1c248c8ed7573",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "af635a7e_5216686e",
@@ -77,6 +125,30 @@
       "writtenOn": "2024-05-06T13:44:07Z",
       "side": 1,
       "message": "I think there is an easier way to do this. Something like:\n```bash\ncros_sdk --working-dir\u003d. -- cargo generate-lockfile\n```\n\nIf you copy it from the build, the lock file will be generated after applying the `# provided by ebuild` patch logic.",
+      "range": {
+        "startLine": 231,
+        "startChar": 49,
+        "endLine": 232,
+        "endChar": 22
+      },
+      "revId": "51c19e1d25c36883d9786701e4f1c248c8ed7573",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1651373b_eea57650",
+        "filename": "site/chromium-os/developer-library/guides/rust/rust-on-cros/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 232,
+      "author": {
+        "id": 1540773
+      },
+      "writtenOn": "2024-05-06T13:59:44Z",
+      "side": 1,
+      "message": "`cros_sdk --working-dir\u003d. -- cargo generate-lockfile` generates a lockfile with more recent versions than those available for the build.",
+      "parentUuid": "af635a7e_5216686e",
       "range": {
         "startLine": 231,
         "startChar": 49,
