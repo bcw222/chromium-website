@@ -39,6 +39,30 @@
       },
       "revId": "61df762425b5b427db02031159a57fa0591b7fec",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee75ab8b_2796d721",
+        "filename": "site/chromium-os/developer-library/guides/rust/rust-on-cros/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 1540773
+      },
+      "writtenOn": "2024-05-06T15:46:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3e89e15d_b79cbb53",
+      "range": {
+        "startLine": 230,
+        "startChar": 0,
+        "endLine": 235,
+        "endChar": 0
+      },
+      "revId": "61df762425b5b427db02031159a57fa0591b7fec",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
