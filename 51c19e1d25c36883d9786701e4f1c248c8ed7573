@@ -157,6 +157,30 @@
       },
       "revId": "51c19e1d25c36883d9786701e4f1c248c8ed7573",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f9a6a8b7_7febb97b",
+        "filename": "site/chromium-os/developer-library/guides/rust/rust-on-cros/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 232,
+      "author": {
+        "id": 1265562
+      },
+      "writtenOn": "2024-05-06T14:09:58Z",
+      "side": 1,
+      "message": "Ah, I forgot about the need for the cargo home changes. Let me see if there is an easy fix or not.",
+      "parentUuid": "1651373b_eea57650",
+      "range": {
+        "startLine": 231,
+        "startChar": 49,
+        "endLine": 232,
+        "endChar": 22
+      },
+      "revId": "51c19e1d25c36883d9786701e4f1c248c8ed7573",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
