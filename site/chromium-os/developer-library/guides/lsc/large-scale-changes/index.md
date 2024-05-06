@@ -74,7 +74,7 @@ smooth.
 
 ### What happens if my LSC Proposal is approved?
 
-In ChromeOS, we will grant the LSC Requestor the Gerrit Global Owners Approver
+In ChromeOS, we will grant the LSC Requester the Gerrit Global Owners Approver
 power for the duration of their change, i.e. a member of ChromeOS LSC Review
 will approve the LSC Proposal which when then gives the LSC Requester the
 ability to bypass OWNERS in the interest of efficiency. (For external
@@ -86,7 +86,7 @@ Chrome reviewers and increases the rate at which your change gets submitted.
 However, this also means that these kinds of LSCs have a high bar of being
 low-risk and non-controversial.
 
-As the LSC Requestor, the process of getting the LSC fully submitted looks like:
+As the LSC Requester, the process of getting the LSC fully submitted looks like:
 
 1.  Create all of the CLs in the set, using a hashtag to identify them. This can
     be done in small batches (using automation or manually), if desired.
@@ -95,7 +95,7 @@ As the LSC Requestor, the process of getting the LSC fully submitted looks like:
 1.  Ask a ChromeOS peer to use the same command-line tool to mass Code-Review
     +1 the set (spot-checking the CLs for correctness)
 
-After the LSC is fully submitted, the LSC Requestor will lose their Global
+After the LSC is fully submitted, the LSC Requester will lose their Global
 Owners Approver power.
 
 If global owners approval does not seem appropriate, we will ask you to send
@@ -110,7 +110,7 @@ process (and have identical policies). But, some are not. For those that are
 under Chrome, this policy applies to all repos. Partners' proprietary repos are
 not yet included in this process.
 
-As a LSC Requestor, you can split your CLs across these boundaries.
+As a LSC Requester, you can split your CLs across these boundaries.
 
 ### Historical examples of candidates for this new process
 

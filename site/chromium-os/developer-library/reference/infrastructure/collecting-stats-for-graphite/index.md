@@ -26,7 +26,7 @@ The second is to write data to a service which will calculate statistics over
 the data you're sending, and then forward it onto carbon. This service is called
 *statsd*. It provides better information, as it will calculate min/mean/max,
 deviation, and provides a more intelligible interface. It also allows for better
-horizontal scaling in case we ever start logging a truely hilarious amount of
+horizontal scaling in case we ever start logging a truly hilarious amount of
 stats. (Which we should!)
 
 I would highly recommend using the statsd over carbon unless you have a specific

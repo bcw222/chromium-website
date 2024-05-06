@@ -85,7 +85,7 @@ def run_once(self, host=None):
 def run_benchmark(machine):
     host = hosts.create_host(machine)
     job.run_test("telemetry_benchmarks", host=host, benchmark="octane", page_sets=["octane.json"])
-parrallel_simple(run_benchmark, machine)
+parallel_simple(run_benchmark, machine)
 ```
 
 ## Locally Testing a Wrapped Telemetry Test:

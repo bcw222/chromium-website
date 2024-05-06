@@ -125,7 +125,7 @@ This is an example of a dynamic test suite.
 @param check_hosts: require appropriate live hosts to exist in the lab.
 @param SKIP_IMAGE: (optional) If present and True, don't re-image devices.
 @param file_bugs: If True your suite will file bugs on failures.
-@param max_run_time: Amount of time each test shoud run in minutes.
+@param max_run_time: Amount of time each test should run in minutes.
 """
 import common
 from autotest_lib.server.cros.dynamic_suite import dynamic_suite
@@ -340,7 +340,7 @@ num: 2
 The fields above specify when suite runs should be triggered, which suite should
 be run, which branches should trigger the suite to run, which machine pool the
 suite should be assigned to, and the number of DUTs that the suite should
-attempt to use. For more information on what pool to select refere to [What pool
+attempt to use. For more information on what pool to select, refer to [What pool
 should I
 select](/chromium-os/testing/test-suites#TOC-What-pool-should-I-select-).
 

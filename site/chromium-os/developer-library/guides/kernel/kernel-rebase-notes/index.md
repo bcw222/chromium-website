@@ -478,7 +478,7 @@ cros build-image --board=$B test --no-enable-rootfs-verification
 
 Once we merge in chromes-verity-v3.2 topic branch, then we can rebuild normally.
 
-Then get the kernel to spew it's verbage to the console. Here's the list the
+Then get the kernel to spew its verbiage to the console. Here's the list the
 parameters to modify:
 
 *   quiet : delete this one
@@ -561,7 +561,7 @@ git cherry-pick <mergetest commits> # in another window
 ```
 
 At this point. it's possible conflicts are due to a change appearing in multiple
-branchs. When working on a topic branch (checked out), check/record the contents
+branches. When working on a topic branch (checked out), check/record the contents
 of that topic branch with:
 
 ```none
@@ -750,7 +750,7 @@ really bad, the manifest can always be switched back to the old branch.
             change in with the offending commit (documenting the fixup in the
             Signed-off-by trail just like with other edits).
 *   Once you move the code over to kernel.git, make sure noone is
-            commiting to kernel-next.git. This causes pain if you want to keep
+            committing to kernel-next.git. This causes pain if you want to keep
             the two trees in sync since things will merge in different order
             instead of just fast-forward when you merge over, and overall it can
             cause confusion.

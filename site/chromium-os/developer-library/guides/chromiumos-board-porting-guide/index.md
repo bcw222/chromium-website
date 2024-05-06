@@ -125,7 +125,7 @@ simple overlay:
 ```none
 overlay-$BOARD/
 |-- metadata/
-|   `-- layout.conf          # Gentoo repo syntatic sugar
+|   `-- layout.conf          # Gentoo repo syntactic sugar
 |-- profiles/
 |   `-- base/
 |       |-- make.defaults    # Board customizations (USE/LINUX_FIRMWARE/etc...)

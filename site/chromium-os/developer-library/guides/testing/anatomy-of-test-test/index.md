@@ -41,7 +41,7 @@ iteration or install the same
 
 # run_once()
 
-This is called by job.run_test N times, where N is controlled by the interations
+This is called by job.run_test N times, where N is controlled by the iterations
 parameter to run_test (Defaulting to one). it also gets called an additional
 time with profilers turn on, if any profilers are enabled.
 

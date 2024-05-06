@@ -217,7 +217,7 @@ Notes:
             partition the drive to use the full capacity.
 *   The battery enable switch and battery enable screw are a safety
             mechanism to prevent the Acer C720 from being powered by the battery
-            while the cover is removed. Either the swich must be pressed OR a
+            while the cover is removed. Either the switch must be pressed OR a
             screw inserted into #6 to power the device from the battery.
 *   The debug header (probably missing) has access to all sorts of
             useful things like a serial UART from the EC and PCH, JTAG for the

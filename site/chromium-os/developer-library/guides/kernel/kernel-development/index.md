@@ -1661,7 +1661,7 @@ to obtain an @chromium.org address.
 
 For google-mail-based addresses, it's recommended to use an "App
 Password" for convenience when storing your real password on disk is
-undesireable (which should be most cases). Follow [these
+undesirable (which should be most cases). Follow [these
 instructions](https://support.google.com/accounts/answer/185833) to obtain an
 App Password, and use it as the `smtppass` value in the next section.
 

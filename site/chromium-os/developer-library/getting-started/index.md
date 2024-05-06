@@ -6,7 +6,7 @@ page_name: getting-started
 title: Getting Started
 ---
 
-Welcome to ChromiumOS development! This guide will help you boostrap your
+Welcome to ChromiumOS development! This guide will help you bootstrap your
 workflow by making sure you have the right hardware, development environment,
 and source checkout. The guide will also step you through building, testing,
 uploading and committing code.

@@ -130,7 +130,7 @@ If you only want the suite to include non-experimental tests. Default: True
 Whether or not bugs should be filed when tests fail (See below for a more
 detailed example)
 
-**file_expermental_bugs**
+**file_experimental_bugs**
 
 Whether or not bugs should be filed when experimental tests fail
 
@@ -270,7 +270,7 @@ $~/trunk/src/third_party/autotest/files/site_utils/suite_enumerator.py -a ~/trun
 
 -a option is to specify what Autotest directory to look in.
 
-The argument **bvt-inline** is the SUITE you are intersted in.
+The argument **bvt-inline** is the SUITE you are interested in.
 
 # How to enumerate what suites are available?
 

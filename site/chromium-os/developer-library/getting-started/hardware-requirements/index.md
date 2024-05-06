@@ -29,7 +29,7 @@ build workstation over Ethernet. Deploying builds from the workstation to the
 DUT often involves transferring files that can be several hundred megabytes to
 gigabytes in size. This configuration requires the following:
 * An Ethernet cable.
-* A USB-to-Ethernet adapater if the DUT does not have an Ethernet port.
+* A USB-to-Ethernet adapter if the DUT does not have an Ethernet port.
 
 ### Workstation
 

@@ -5,7 +5,7 @@ breadcrumbs:
 - - /chromium-os/build
   - Chromium OS Build
 page_name: circular-deps
-title: Dealing with circular dependncies
+title: Dealing with circular dependencies
 ---
 
 ### Dealing with Circular Dependencies
