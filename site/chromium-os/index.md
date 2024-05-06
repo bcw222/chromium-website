@@ -4,7 +4,7 @@ page_name: chromium-os
 title: Developer Library
 ---
 
-The ChromiumOSis the authoritative collection of resources
+The ChromiumOS Developer Library is the authoritative collection of resources
 and materials that enable engineers to efficiently develop the platform.
 
 <div class="two-column-container">
