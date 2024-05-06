@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "39f7cd93_fd7acdf4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1158719
+      },
+      "writtenOn": "2024-05-06T15:42:51Z",
+      "side": 1,
+      "message": "Thanks! Please wait for Allen\u0027s +1 before submitting.",
+      "revId": "61df762425b5b427db02031159a57fa0591b7fec",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e89e15d_b79cbb53",
+        "filename": "site/chromium-os/developer-library/guides/rust/rust-on-cros/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 1158719
+      },
+      "writtenOn": "2024-05-06T15:42:51Z",
+      "side": 1,
+      "message": "nit: Since this command is pretty long:\n\n```suggestion\nOne workaround is to have an up-to-date Cargo.lock file checked in for your\nproject. Run the following outside the chroot in the crate root:\n\n```bash\ncros_sdk --working-dir\u003d. -- \\\n  cargo --config \u0027source.crates-io.directory\u003d\"/usr/lib/cros_rust_registry/registry\"\u0027 generate-lockfile\n\\```\n\nAlso make sure to allow the `Cargo.lock` in the `.gitignore` of your crate.\n```\n\n(Please also remove the \\ before the following triple-backticks. Can\u0027t figure out how to get Gerrit to escape those within a suggestion)",
+      "range": {
+        "startLine": 230,
+        "startChar": 0,
+        "endLine": 235,
+        "endChar": 0
+      },
+      "revId": "61df762425b5b427db02031159a57fa0591b7fec",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
