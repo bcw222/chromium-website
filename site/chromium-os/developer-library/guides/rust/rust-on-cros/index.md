@@ -225,10 +225,16 @@ calling cargo.
 
 The primary downside of using cargo directly is it will fetch dependencies from
 crates.io though the internet. These often do not match with the versions used
-by ChromeOS, leading to undesired consequences. One workaround is to have an
-up-to-date Cargo.lock file checked in for your project. Another is to use the
-same cargo config as cros_workon_make. There is a helper script that set this up
-for you:
+by ChromeOS, leading to undesired consequences.
+
+One workaround is to have an up-to-date Cargo.lock file checked in for your
+project. To do get the Cargo.lock from the build you will have to interrupt the
+build and copy it from `/build/$BOARD/tmp/portage/$PATH_TO_PKG_WORK_DIR/` into
+the directory outside the chroot. Also make sure to allow the file in the
+`.gitignore` of your crate.
+
+Another is to use the same cargo config as cros_workon_make. There is a helper
+script that set this up for you:
 
 ```bash
 BOARD=<board> ~/chromiumos/src/platform/dev/contrib/setup_cros_cargo_home
