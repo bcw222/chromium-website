@@ -61,7 +61,7 @@ to copy out of.
 There are a variety of GS buckets that show up in CrOS.
 We try to cover everything that CrOS developers might see.
 
-As a general rule, buckets that start with `gs://chromeos-` are not browseable
+As a general rule, buckets that start with `gs://chromeos-` are not browsable
 by the public, although some files might be readable for tools to access.
 
 Buckets that start with `gs://chromiumos-` are fully readable by the public.

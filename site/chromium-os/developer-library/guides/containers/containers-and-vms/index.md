@@ -929,7 +929,7 @@ doing everything from scratch.
 
 It is certainly true that [VM]s add overhead when compared to running in only
 a container or directly in the system.
-However, in our tests, the overhead is negligble to the user experience, and
+However, in our tests, the overhead is negligible to the user experience, and
 well worth the strong gains in system security.
 
 For more details, see the [Security] section in this doc.

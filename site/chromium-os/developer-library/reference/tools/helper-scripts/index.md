@@ -54,7 +54,7 @@ The following are some sample use cases:
 
 *   **Add a developer package**
 
-    gmergefs --remote 192.0.0.100 pacakge_name
+    gmergefs --remote 192.0.0.100 package_name
 
 ### Troubleshooting
 

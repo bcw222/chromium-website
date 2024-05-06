@@ -233,7 +233,7 @@ If you have a test with binary dependencies, you must rebuild them explicitly:
 
 This can take a very, very long time since it will rebuild ALL tests.
 
-To speed this up, set the TESTS variable on the command line when runnning
+To speed this up, set the TESTS variable on the command line when running
 emerge to install an individual test:
 
 <pre><code>

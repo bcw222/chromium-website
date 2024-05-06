@@ -42,7 +42,7 @@ for board_root in /build/* ; do
   board=${board_root##*/}
   emerge_board=$(type -P emerge-${board} 2>/dev/null || true)
   if [[ -x "${emerge_board}" ]]; then	
-    # It is a valid baord.
+    # It is a valid board.
     build="/build/${board}"
     if [[ -d ${build} ]] ; then
       # The board has a build root to clear.

@@ -15,7 +15,7 @@ go-to-declaration are indisuputably useful for programmers.
 
 Language Servers provide these features without committing to configuring a full
 IDE like CLion.
-So if you work in Emacs, Vim, Sublime, VSCode or similiar but don't have all
+So if you work in Emacs, Vim, Sublime, VSCode or similar but don't have all
 these features, this guide is for you (assuming you like work being easier).
 
 For Googlers that work in CLion, checkout [go/clion-for-chromeos][go-clion].

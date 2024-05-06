@@ -1307,7 +1307,7 @@ gdb by invoking `gdbserver` with the environment variable
 If you want to suppress some errors reported by fuzzer that are not interesting
 or not actionable, those errors can be suppressed by:
 
-*   (*Preferred*) Using clang's no_sanitize attibute:
+*   (*Preferred*) Using clang's no_sanitize attribute:
     [Clang's no_sanitize attributes] can be used to suppress the specific error
     (e.g. [skia error suppression]). This is strongly preferred for cases where
     source code can be modified.
@@ -1316,7 +1316,7 @@ or not actionable, those errors can be suppressed by:
 
 *   Using a blocklist file:
     If modifying source code is not an option, then a blocklist file can be
-    used to specify compile time supressions. It requires that the package
+    used to specify compile time suppressions. It requires that the package
     [inherits cros-sanitizers eclass] and [calls sanitizers-setup-env] in
     the src_configure stage. Packages that [inherit platform eclass] do not
     need to add this step as the [platform eclass] takes care of calling

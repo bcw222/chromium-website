@@ -314,11 +314,11 @@ the following.
 1.  Create a local branch in the libchrome repository.
     *   `cd src/platform/libchrome`
     *   `repo start ${branch_name}`
-1.  Locally modify the files, and create a local comit.
+1.  Locally modify the files, and create a local commit.
     *   `git commit -am "libchrome: {change description}"`
 1.  Find the git commit hash
     *   `git log -n 1`
-1.  Run `cros_workon-${BAORD} start libchrome` to use local HEAD.
+1.  Run `cros_workon-${BOARD} start libchrome` to use local HEAD.
 1.  Build and deploy libchrome
     *   `emerge-${BOARD} libchrome {plus dependent workon packages, e.g. shill}`
     *   `cros deploy ${IP} libchrome {other packages}`

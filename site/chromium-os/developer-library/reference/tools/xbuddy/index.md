@@ -25,7 +25,7 @@ values such as:
     *   `remote` - xBuddy will search Google storage for artifacts. The exact
         bucket is automatically detected based on the other arguments below.
 *   **board** (required) - Mostly self-explanatory e.g. `amd64-generic` or a
-    specifc builder alias like `amd64-generic-paladin` or
+    specific builder alias like `amd64-generic-paladin` or
     `amd64-generic-paladin-tryjob`.
 *   **version** (optional) - A version string or an alias that maps to a
     version.

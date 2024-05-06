@@ -3,7 +3,7 @@ breadcrumbs:
 - - /chromium-os/developer-library/reference
   - ChromiumOS > Reference
 page_name: cpp-invariant-checks
-title: Invariants and CHECKs in C++
+title: Invariants and CHECKKs in C++
 ---
 
 [TOC]

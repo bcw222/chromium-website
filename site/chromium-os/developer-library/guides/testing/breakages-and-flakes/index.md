@@ -77,7 +77,7 @@ of every 1000 builds. This may seem harmless at first, but lets run
 some numbers:
 
 * Assume that the commit queue spawns 100 builds (which is close to
-  the actual number of builders spawed by the CQ as of this time of
+  the actual number of builders spawned by the CQ as of this time of
   writing).
 
 * Next, assume that we have 300 developers committing to the tree

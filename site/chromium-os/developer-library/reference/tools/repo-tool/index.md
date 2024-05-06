@@ -74,7 +74,7 @@ If you know a new release was made and you're itching to try it out immediately,
 you can run `repo selfupdate` to force it.
 
 This guidance applies equally to [rollbacks] -- repo will automatically roll
-itself back as neeeded; see that section for more details.
+itself back as needed; see that section for more details.
 
 ## Updating The Launcher
 
@@ -242,7 +242,7 @@ $ git commit
 
 # Sign the new release.  The script defaults to signing HEAD.
 # NB: This requires access to official repo keys.  See go/repo-release.
-# NB: --force is required since ChromeOS tag naming convetion is different than
+# NB: --force is required since ChromeOS tag naming convention is different than
 # upstream.
 $ ./release/sign-tag.py --force v2.5-cr1
 

@@ -82,7 +82,7 @@ title: Reference
 * [Design Patterns](/chromium-os/developer-library/reference/cpp/cpp-patterns)
 * [Using Mojo in C++](/chromium-os/developer-library/reference/cpp/cpp-mojo)
 * [C++ Prefs](/chromium-os/developer-library/reference/cpp/cpp-pref)
-* [Invariants and CHECKs in C++](/chromium-os/developer-library/reference/cpp/cpp-invariant-checks)
+* [Invariants and CHECKKs in C++](/chromium-os/developer-library/reference/cpp/cpp-invariant-checks)
 
 </div>
 <div class="column">

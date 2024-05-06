@@ -30,9 +30,9 @@ Once you have done all that, you're ready to start at step 1!
 ## 1. Creating a crash
 
 Crashes can happen for a variety of reasons, some of the most common are segv
-(segmentation faults), UAF (use after free) and CHECKs. Today we will debug a
+(segmentation faults), UAF (use after free) and CHECKKs. Today we will debug a
 crash caused by a CHECK but the same principles can be applied to debugging any
-crash. There are two primary types of CHECKs: 1) CHECK: will cause a crash both
+crash. There are two primary types of CHECKKs: 1) CHECK: will cause a crash both
 in both development and production environments. 2) DCHECK will cause a crash in
 development environments but in production it becomes a no-op instead. By
 default DCHECKS are enabled in your builds. To create a crash, we will insert a
@@ -152,7 +152,7 @@ Then to deploy with symbols, follow the instructions on
 
 Generally the most straightforward way to debug all crashes is to catch them as
 they happen, and inspect them, with `gdb`. This will provide a stack trace for
-all types of crashes whereas looking at logs only shows stack traces for CHECKs.
+all types of crashes whereas looking at logs only shows stack traces for CHECKKs.
 
 Note: If you are debugging a real crash, you'll want to skip straight to using a
 symbolized build and debugging with `gdb`. The purpose of this codelab is to

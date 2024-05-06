@@ -8,7 +8,7 @@ title: Pre-requirements of issue creation
 
 Before filing an issue, please confirm you’ve completed actions below:
 
-    Your moblab is using recommended equipments. (
+    Your moblab is using recommended equipment. (
     https://www.chromium.org/chromium-os/testing/moblab/overview-of-moblab?pli=1
     )
 

@@ -600,7 +600,7 @@ PackageInstallError: Installation of harry(type:dep) failed : dep-harry.tar.bz2 
 ```
 
 then this section is for you. It explains a little more of the detail of how the
-dependencies are transfered from server (your workstation) to the client
+dependencies are transferred from server (your workstation) to the client
 (target).
 When you call self.job.install_pkg(dep, 'dep', self.dep_dir), it causes the
 autotest client to install the dependency. In this case the client will end up

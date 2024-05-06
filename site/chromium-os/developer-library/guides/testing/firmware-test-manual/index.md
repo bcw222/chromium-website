@@ -317,7 +317,7 @@ Follow the below instructions to repack the shellball
 ### Check Firmware Version
 
 *   RO BIOS (Read-only Application Processor Firmware): `crossystem ro_fwid`
-*   RW BIOS (Read/Write Application Processer Firmware): `crossystem fwid`
+*   RW BIOS (Read/Write Application Processor Firmware): `crossystem fwid`
 *   EC: `ectool version`
 *   PD: `ectool --name=cros_pd version` OR `ectool --dev 1 version`
 *   cr50: `gsctool --any --fwver`
@@ -1083,7 +1083,7 @@ Device in dev mode
 
 ### Commands to inspect kernel log information
 
-Go to VT2, press the dmesg command to check the messgaes.
+Go to VT2, press the dmesg command to check the messages.
 Linux kernel can print logs and trace messages, which can by default be
  stored in a ring buffer. dmesg is a one type of shell command on the kernel
 , which displays the content of the ring buffer. Another way to display the

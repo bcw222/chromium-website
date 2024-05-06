@@ -35,7 +35,7 @@ See the [gerrit workflow] for details.
 As of January 2020, ChromeOS is using the parallel CQ. This documentation has
 been updated to reflect how that behaves.
 
-A gross simplification of the ChromeOS Continous Integration (CI):
+A gross simplification of the ChromeOS Continuous Integration (CI):
 ![Simplified diagram of ChromeOS CQ pipeline](/chromium-os/developer-library/reference/development/cros-commit-pipeline/simplified_cq_pipeline.png)
 
 The CQ collects all changes in the patch series, along with any changes linked

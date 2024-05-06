@@ -29,7 +29,7 @@ mmcli -m 0 --simple-connect="apn=foo.carrier.com"
 
 mmcli -m 0 --simple-disconnect
 
-Set logging level to maximium (equivalent to the old mm_debug debug):
+Set logging level to maximum (equivalent to the old mm_debug debug):
 
 mmcli -G DEBUG
 

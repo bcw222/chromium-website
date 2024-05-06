@@ -79,7 +79,7 @@ Changing all the paths in the source and making it work at the same time seems
 downright impossible.
 
 \*Preferred way, if you have a Chromium OS checkout you should already have the
-Autotest soure.
+Autotest source.
 
 ```none
 CHECKOUT=/your/chromiumos/checkout

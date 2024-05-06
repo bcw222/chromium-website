@@ -110,7 +110,7 @@ Note: For tablets, such as Nocturne, press both the increase and decrease volume
 buttons and the power button to enter developer mode. You must use the buttons
 on the actual tablet and not the ones on any attached keyboard. If the recovery
 menu shows up, you can use the same volume buttons to navigate and the power
-button to make selections; press both volume buttons simulatenously to open the
+button to make selections; press both volume buttons simultaneously to open the
 hidden developer mode menu (see go/tablet-dev for more information).
 
 Note: For some devices, such as Teemo, keep the recovery button pressed (press
