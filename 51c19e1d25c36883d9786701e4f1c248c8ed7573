@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4402b4cb_e004ce9e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1540773
+      },
+      "writtenOn": "2024-05-06T12:31:18Z",
+      "side": 1,
+      "message": "Hi Allen,\nCan you please take a look at this before I send it to OWNERS?\nI didn\u0027t find another way of getting the Cargo.lock into my project dir but maybe I\u0027m also missing something.",
+      "revId": "51c19e1d25c36883d9786701e4f1c248c8ed7573",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
