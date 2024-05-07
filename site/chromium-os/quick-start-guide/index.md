@@ -27,12 +27,11 @@ You should have
 
 *   an account with sudo access
 
-1.  Install the git and subversion revision control systems, the curl
-            download helper, and lvm tools. On Ubuntu, the magic incantation to
-            do this is:
+1.  Install the git revision control system, the curl download helper, and
+            xz-utils. On Ubuntu, the magic incantation to do this is:
 
     ```none
-    sudo apt-get install git-core gitk git-gui subversion curl lvm2 thin-provisioning-tools python-pkg-resources python-virtualenv python-oauth2client
+    sudo apt-get install git gitk git-gui curl xz-utils
     ```
 
 2.  You must also [install
