@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e852dc77_fd933c0e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-05-07T16:49:58Z",
+      "side": 1,
+      "message": "we don\u0027t need the packages at all anymore, nor do we need the lvm ones\n\nwe should sync updates from the main guide back",
+      "revId": "8f8fe0ce998d71ce0e395b928d4f1d040649d454",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
