@@ -18,7 +18,7 @@ Guide](/chromium-os/developer-library/guides/development/developer-guide/).
 
 You should have
 
-*   [Ubuntu](http://www.ubuntu.com/) Linux (version == 16.04 - Xenial)
+*   [Ubuntu](http://www.ubuntu.com/) Linux (version == 22.04 - Jammy)
     *   This is the only officially support distro, but building
                 Chromium OS should work fine on any x86_64 Linux distro running
                 a 2.6.16+ kernel
@@ -32,7 +32,7 @@ You should have
             do this is:
 
     ```none
-    sudo apt-get install git-core gitk git-gui subversion curl lvm2 thin-provisioning-tools python-pkg-resources python-virtualenv python-oauth2client
+    sudo apt-get install curl git python3.9 xz-utils
     ```
 
 2.  You must also [install
