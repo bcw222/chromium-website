@@ -51,9 +51,25 @@ src_install() {
 Finally, you need to tell the subtools builder to build your package.  List it
 in [`virtual/target-sdk-subtools`].
 
+After landing your changes, your package will be available in CIPD after the
+next [`build-chromeos-sdk-subtools`] run (kicked off every 30 minutes).
+
 [textproto format]: https://protobuf.dev/reference/protobuf/textformat-spec/
 [`subtools.proto`]: https://chromium.googlesource.com/chromiumos/config/+/HEAD/proto/chromiumos/build/api/subtools.proto
 [`virtual/target-sdk-subtools`]: https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/virtual/target-sdk-subtools/target-sdk-subtools-9999.ebuild
+[`build-chromeos-sdk-subtools`]: https://luci-scheduler.appspot.com/jobs/chromeos/build-chromeos-sdk-subtools
+
+## Running the subtools builder locally
+
+To test your subtools changes, you can run the subtools builder locally.  To do
+so, execute:
+
+```shellsession
+(outside) ~/chromiumos $ chromite/bin/build_sdk_subtools
+```
+
+This tool will create its own specialized chroot for building in, so it should
+be run *outside* the SDK.
 
 ## How it works
 
