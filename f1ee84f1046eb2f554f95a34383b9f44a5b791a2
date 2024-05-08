@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "30030027_b68fc690",
+        "filename": "site/chromium-os/developer-library/guides/portage/subtools-builder/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-05-08T15:05:37Z",
+      "side": 1,
+      "message": "where are you getting these syntax names ?  pretty sure none of these are valid/supported which means they\u0027re just ignored.",
+      "revId": "f1ee84f1046eb2f554f95a34383b9f44a5b791a2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
