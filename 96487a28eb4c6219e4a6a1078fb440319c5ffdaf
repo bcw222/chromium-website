@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b9d05f92_4d5149c1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-05-09T20:11:49Z",
+      "side": 1,
+      "message": "Thanks! LGTM with nit.",
+      "revId": "96487a28eb4c6219e4a6a1078fb440319c5ffdaf",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ff78378f_91932730",
+        "filename": "site/chromium-os/developer-library/getting-started/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-05-09T20:11:49Z",
+      "side": 1,
+      "message": "Will you leave the target\u003d_blank? We want most non-library links to open in a new tab so the reader doesn\u0027t navigate away from the resource.",
+      "range": {
+        "startLine": 45,
+        "startChar": 22,
+        "endLine": 45,
+        "endChar": 23
+      },
+      "revId": "96487a28eb4c6219e4a6a1078fb440319c5ffdaf",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
