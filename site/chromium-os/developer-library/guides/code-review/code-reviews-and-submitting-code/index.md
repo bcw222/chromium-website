@@ -9,7 +9,7 @@ title: Submitting code best practices
 
 [TOC]
 
-## Before You Begins
+## Before You Begin
 
 ### Looping In Your Reviewers
 Before you start coding, select a lead reviewer (likely this will be your TL)
