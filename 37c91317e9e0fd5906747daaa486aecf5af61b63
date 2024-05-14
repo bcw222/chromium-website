@@ -1,0 +1,22 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b99fea03_79421e04",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1353551
+      },
+      "writtenOn": "2024-05-14T07:14:11Z",
+      "side": 1,
+      "message": "See https://chromium-website--cl5535978-ps5-0fmbgfb8.web.app/chromium-os/developer-library/guides/debugging/firmware-uprev/.",
+      "parentUuid": "5edcc9c7_64c82e03",
+      "revId": "37c91317e9e0fd5906747daaa486aecf5af61b63",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
