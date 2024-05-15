@@ -16,6 +16,23 @@
       "message": "LGTM",
       "revId": "6efa485b411d83a2799fa890d36dae1ace4113c7",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f0d8ccd1_379be8fd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2024-05-15T07:45:41Z",
+      "side": 1,
+      "message": "LGTM\n\n(I feel like it would maybe be easier to suggest quitting from the menu, but I suppose that can vary based on platform)",
+      "revId": "6efa485b411d83a2799fa890d36dae1ace4113c7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
