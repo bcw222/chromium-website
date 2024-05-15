@@ -16,6 +16,52 @@
       "message": "Not sure who is a good OWNER for this CL though, \"SUGGEST OWNERS\" doesn\u0027t seem to work.",
       "revId": "dd0cb8025c7583af37a54fc900f18593b5e0e10f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5c8a3497_0b030a40",
+        "filename": "site/chromium-os/developer-library/guides/containers/containers-and-vms/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 392,
+      "author": {
+        "id": 1108259
+      },
+      "writtenOn": "2024-05-15T00:12:23Z",
+      "side": 1,
+      "message": "(vmc start seems to have some flags, does it work?)",
+      "range": {
+        "startLine": 392,
+        "startChar": 0,
+        "endLine": 392,
+        "endChar": 12
+      },
+      "revId": "dd0cb8025c7583af37a54fc900f18593b5e0e10f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3791b5a7_650960d7",
+        "filename": "site/chromium-os/developer-library/guides/containers/containers-and-vms/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 857,
+      "author": {
+        "id": 1108259
+      },
+      "writtenOn": "2024-05-15T00:12:23Z",
+      "side": 1,
+      "message": "I think we have both now. But I recommend steam for chromebooks.",
+      "range": {
+        "startLine": 857,
+        "startChar": 0,
+        "endLine": 857,
+        "endChar": 75
+      },
+      "revId": "dd0cb8025c7583af37a54fc900f18593b5e0e10f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
