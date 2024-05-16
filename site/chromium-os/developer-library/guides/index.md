@@ -244,6 +244,7 @@ title: Guides
 * [Fuzz testing in ChromeOS](/chromium-os/developer-library/guides/testing/fuzzing)
 * [Kernel fuzzing in ChromeOS](/chromium-os/developer-library/guides/testing/kernel-fuzzing)
 * [Perf Data](/chromium-os/developer-library/guides/testing/perf-data)
+* [Power Testing](/chromium-os/developer-library/guides/testing/power-testing)
 * [Python unittest mocking](/chromium-os/developer-library/guides/testing/python-mock)
 * [Run Tast tests with servo](/chromium-os/developer-library/guides/testing/test-with-servo)
 * [Running IGT tests on ChromeOS](/chromium-os/developer-library/guides/testing/igt)
