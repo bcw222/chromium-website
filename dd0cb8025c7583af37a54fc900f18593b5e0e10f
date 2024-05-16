@@ -83,6 +83,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d985343_49b896e0",
+        "filename": "site/chromium-os/developer-library/guides/containers/containers-and-vms/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 392,
+      "author": {
+        "id": 1108259
+      },
+      "writtenOn": "2024-05-16T05:33:17Z",
+      "side": 1,
+      "message": "I think we had this for at least Bru and then now we no longer ship the old host kernel versions with which we didn\u0027t allow untrusted guests.",
+      "parentUuid": "1dbcbf5d_e813709e",
+      "range": {
+        "startLine": 392,
+        "startChar": 0,
+        "endLine": 392,
+        "endChar": 12
+      },
+      "revId": "dd0cb8025c7583af37a54fc900f18593b5e0e10f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3791b5a7_650960d7",
