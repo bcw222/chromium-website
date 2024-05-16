@@ -57,6 +57,30 @@
       ],
       "revId": "c5123101c5590cfcd1be4a0f5d6019df11f866e6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b74fb4fd_772105c7",
+        "filename": "site/chromium-os/developer-library/guides/testing/chamelium/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 1328396
+      },
+      "writtenOn": "2024-05-16T20:55:42Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "381b78c5_d03e9af2",
+      "range": {
+        "startLine": 185,
+        "startChar": 79,
+        "endLine": 185,
+        "endChar": 172
+      },
+      "revId": "c5123101c5590cfcd1be4a0f5d6019df11f866e6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
