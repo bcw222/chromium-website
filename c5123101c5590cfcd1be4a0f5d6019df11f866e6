@@ -16,6 +16,47 @@
       "message": "+kyle for owner review",
       "revId": "c5123101c5590cfcd1be4a0f5d6019df11f866e6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "381b78c5_d03e9af2",
+        "filename": "site/chromium-os/developer-library/guides/testing/chamelium/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 185,
+      "author": {
+        "id": 1501133
+      },
+      "writtenOn": "2024-05-16T15:18:22Z",
+      "side": 1,
+      "message": "This is chameleond for chameleon v2 board. The v3 version is mostly this one file: https://chromium.googlesource.com/chromiumos/platform/chameleon/+/refs/heads/main/v3/chameleond/v3.py (other files are only main and interface). Anything outside of v3 directory is for the previous boards.",
+      "range": {
+        "startLine": 185,
+        "startChar": 79,
+        "endLine": 185,
+        "endChar": 172
+      },
+      "fixSuggestions": [
+        {
+          "fixId": "3f376e91_ac9b9ceb",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/chromium-os/developer-library/guides/testing/chamelium/index.md",
+              "range": {
+                "startLine": 185,
+                "startChar": 0,
+                "endLine": 186,
+                "endChar": 0
+              },
+              "replacement": "The daemon is written in Python and can be found in the [chameleond directory](https://chromium.googlesource.com/chromiumos/platform/chameleon/+/refs/heads/main/v3/chameleond/).\n"
+            }
+          ]
+        }
+      ],
+      "revId": "c5123101c5590cfcd1be4a0f5d6019df11f866e6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
