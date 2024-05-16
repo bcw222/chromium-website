@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d376508c_bfc15fc2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1501133
+      },
+      "writtenOn": "2024-05-16T15:21:52Z",
+      "side": 1,
+      "message": "I do not have a CR+2 privilege here",
+      "revId": "dbd31a0551e591ef27cc61813e692ffeef10adb9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
