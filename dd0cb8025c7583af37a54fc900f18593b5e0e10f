@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "646f2f33_dd796579",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1359131
+      },
+      "writtenOn": "2024-05-16T04:24:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4e169418_30616c82",
+      "revId": "dd0cb8025c7583af37a54fc900f18593b5e0e10f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5c8a3497_0b030a40",
@@ -41,6 +59,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1dbcbf5d_e813709e",
+        "filename": "site/chromium-os/developer-library/guides/containers/containers-and-vms/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 392,
+      "author": {
+        "id": 1359131
+      },
+      "writtenOn": "2024-05-16T04:24:00Z",
+      "side": 1,
+      "message": "Oh, good catch, I actually didn\u0027t realize we expose the `--kernel` and `--initrd` flags to vmc via crosh. I gave it a try and it seems like it\u0027s possible to boot Termina (or other VMs) with your custom kernel even on non-developer builds (I ran it on my corp chromebox). Updated the documentation to reflect that.",
+      "parentUuid": "5c8a3497_0b030a40",
+      "range": {
+        "startLine": 392,
+        "startChar": 0,
+        "endLine": 392,
+        "endChar": 12
+      },
+      "revId": "dd0cb8025c7583af37a54fc900f18593b5e0e10f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3791b5a7_650960d7",
@@ -54,6 +96,30 @@
       "writtenOn": "2024-05-15T00:12:23Z",
       "side": 1,
       "message": "I think we have both now. But I recommend steam for chromebooks.",
+      "range": {
+        "startLine": 857,
+        "startChar": 0,
+        "endLine": 857,
+        "endChar": 75
+      },
+      "revId": "dd0cb8025c7583af37a54fc900f18593b5e0e10f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "25517961_e90fffec",
+        "filename": "site/chromium-os/developer-library/guides/containers/containers-and-vms/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 857,
+      "author": {
+        "id": 1359131
+      },
+      "writtenOn": "2024-05-16T04:24:00Z",
+      "side": 1,
+      "message": "Done, reworded it to prioritize borealis over running steam in crostini.",
+      "parentUuid": "3791b5a7_650960d7",
       "range": {
         "startLine": 857,
         "startChar": 0,
