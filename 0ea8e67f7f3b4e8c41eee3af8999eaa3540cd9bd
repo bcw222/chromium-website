@@ -70,6 +70,30 @@
       },
       "revId": "0ea8e67f7f3b4e8c41eee3af8999eaa3540cd9bd",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a058f910_7ac57c7e",
+        "filename": "site/chromium-os/testing/power-testing/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1548900
+      },
+      "writtenOn": "2024-05-17T22:53:42Z",
+      "side": 1,
+      "message": "Any reason why this is preferred? \n\nhttp://www.chromium.org/chromium-os/testing/power-testing is used by our partners on their own website, it\u0027s easier to take them to the redirect page.",
+      "parentUuid": "c3f334fe_69c2f287",
+      "range": {
+        "startLine": 2,
+        "startChar": 12,
+        "endLine": 2,
+        "endChar": 13
+      },
+      "revId": "0ea8e67f7f3b4e8c41eee3af8999eaa3540cd9bd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
