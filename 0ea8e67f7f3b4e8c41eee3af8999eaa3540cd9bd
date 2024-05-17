@@ -94,6 +94,30 @@
       },
       "revId": "0ea8e67f7f3b4e8c41eee3af8999eaa3540cd9bd",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e942c555_4537a616",
+        "filename": "site/chromium-os/testing/power-testing/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-05-17T22:58:26Z",
+      "side": 1,
+      "message": "I don\u0027t know what you mean. Here is what the code on this page should look like:\n\n```\n---\nredirect: /chromium-os/developer-library/guides/testing/power-testing\n---\n```\n\nIt is exactly the same as your implementation but uses the preferred tool instead of HTML. Please load this in your library build and try it out.",
+      "parentUuid": "a058f910_7ac57c7e",
+      "range": {
+        "startLine": 2,
+        "startChar": 12,
+        "endLine": 2,
+        "endChar": 13
+      },
+      "revId": "0ea8e67f7f3b4e8c41eee3af8999eaa3540cd9bd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
