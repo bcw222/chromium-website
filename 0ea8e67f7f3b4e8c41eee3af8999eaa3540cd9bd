@@ -22,6 +22,30 @@
       },
       "revId": "0ea8e67f7f3b4e8c41eee3af8999eaa3540cd9bd",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "69567f59_4f72ac7e",
+        "filename": "site/chromium-os/testing/power-testing/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1548900
+      },
+      "writtenOn": "2024-05-17T22:39:47Z",
+      "side": 1,
+      "message": "Do you mean something like this? \n\n```\n---\nbreadcrumbs:\n- - /chromium-os\n  - Chromium OS\n- - /chromium-os/testing\n  - Testing Home\npage_name: power-testing\ntitle: Power testing\n---\n\nThis documentation now lives\n[here](https://www.chromium.org/chromium-os/developer-library/guides/testing/power-testing/).\n```",
+      "parentUuid": "a53d8599_c6d5dbd3",
+      "range": {
+        "startLine": 2,
+        "startChar": 12,
+        "endLine": 2,
+        "endChar": 13
+      },
+      "revId": "0ea8e67f7f3b4e8c41eee3af8999eaa3540cd9bd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
