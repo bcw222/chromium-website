@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "57005d2c_4d9e3c2c",
+        "filename": "site/chromium-os/developer-library/guides/testing/power-testing/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-05-17T21:06:11Z",
+      "side": 1,
+      "message": "Please add the breadcrumbs.",
+      "range": {
+        "startLine": 1,
+        "startChar": 8,
+        "endLine": 1,
+        "endChar": 15
+      },
+      "revId": "c80d733f4544da6e6dc9093a22484a3e491c4f11",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
