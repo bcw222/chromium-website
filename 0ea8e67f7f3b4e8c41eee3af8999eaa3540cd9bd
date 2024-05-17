@@ -46,6 +46,30 @@
       },
       "revId": "0ea8e67f7f3b4e8c41eee3af8999eaa3540cd9bd",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c3f334fe_69c2f287",
+        "filename": "site/chromium-os/testing/power-testing/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-05-17T22:45:04Z",
+      "side": 1,
+      "message": "No, this redirect page doesn\u0027t need any breadcrumbs. See example:\n\nhttps://source.chromium.org/chromium/chromium/src/+/main:docs/website/site/chromium-os/developer-guide/chromium-os-sandboxing/index.md;l\u003d2",
+      "parentUuid": "69567f59_4f72ac7e",
+      "range": {
+        "startLine": 2,
+        "startChar": 12,
+        "endLine": 2,
+        "endChar": 13
+      },
+      "revId": "0ea8e67f7f3b4e8c41eee3af8999eaa3540cd9bd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
