@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a53d8599_c6d5dbd3",
+        "filename": "site/chromium-os/testing/power-testing/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000266
+      },
+      "writtenOn": "2024-05-17T22:27:57Z",
+      "side": 1,
+      "message": "Sorry I missed this. Will you change this to use the redirect tool instead?\n\n---\nredirect: URL\n---",
+      "range": {
+        "startLine": 2,
+        "startChar": 12,
+        "endLine": 2,
+        "endChar": 13
+      },
+      "revId": "0ea8e67f7f3b4e8c41eee3af8999eaa3540cd9bd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
