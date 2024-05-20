@@ -1,0 +1,91 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d36b35a1_3e766cc2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1504001
+      },
+      "writtenOn": "2024-05-20T15:26:53Z",
+      "side": 1,
+      "message": "Minor grammatical suggestions but otherwise seems fine.",
+      "revId": "2c6aa6e0956cdc12042b7f20325ef1a8974ddad0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f8e60b0a_793f9d01",
+        "filename": "site/chromium-os/developer-library/reference/security/write-protection/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1504001
+      },
+      "writtenOn": "2024-05-20T15:26:53Z",
+      "side": 1,
+      "message": "nit: I\u0027d rewrite \"even in case of the devices\" as \"even for devices\"",
+      "fixSuggestions": [
+        {
+          "fixId": "e09f193d_cd2329dc",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/chromium-os/developer-library/reference/security/write-protection/index.md",
+              "range": {
+                "startLine": 62,
+                "startChar": 0,
+                "endLine": 66,
+                "endChar": 0
+              },
+              "replacement": "Note that even for devices protected by the SE, opening up the device and\ndisconnecting the battery may still disable write protection. If disconnecting\nthe battery does not disabled write protection immediately, then see the\n[guide for firmware unlock on 2023+ devices].\n"
+            }
+          ]
+        }
+      ],
+      "revId": "2c6aa6e0956cdc12042b7f20325ef1a8974ddad0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f28bb954_808496e6",
+        "filename": "site/chromium-os/developer-library/reference/security/write-protection/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1504001
+      },
+      "writtenOn": "2024-05-20T15:26:53Z",
+      "side": 1,
+      "message": "nit: \"disable\". Not past tense.",
+      "fixSuggestions": [
+        {
+          "fixId": "55f6d785_b0298e90",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/chromium-os/developer-library/reference/security/write-protection/index.md",
+              "range": {
+                "startLine": 64,
+                "startChar": 0,
+                "endLine": 65,
+                "endChar": 0
+              },
+              "replacement": "disconnecting the battery does not disable write protection immediately, then\n"
+            }
+          ]
+        }
+      ],
+      "revId": "2c6aa6e0956cdc12042b7f20325ef1a8974ddad0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
