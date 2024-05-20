@@ -53,6 +53,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e256726_7c30c55d",
+        "filename": "site/chromium-os/developer-library/reference/security/write-protection/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1259838
+      },
+      "writtenOn": "2024-05-20T15:31:15Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "f8e60b0a_793f9d01",
+      "revId": "2c6aa6e0956cdc12042b7f20325ef1a8974ddad0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f28bb954_808496e6",
@@ -84,6 +102,24 @@
           ]
         }
       ],
+      "revId": "2c6aa6e0956cdc12042b7f20325ef1a8974ddad0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "418542f7_bb3b63ea",
+        "filename": "site/chromium-os/developer-library/reference/security/write-protection/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1259838
+      },
+      "writtenOn": "2024-05-20T15:31:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f28bb954_808496e6",
       "revId": "2c6aa6e0956cdc12042b7f20325ef1a8974ddad0",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
