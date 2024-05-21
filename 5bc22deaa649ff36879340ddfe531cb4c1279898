@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c66ac054_c3ac4223",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1474888
+      },
+      "writtenOn": "2024-05-21T15:34:34Z",
+      "side": 1,
+      "message": "Already added it to one of these files: https://crrev.com/c/5555323",
+      "revId": "5bc22deaa649ff36879340ddfe531cb4c1279898",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
