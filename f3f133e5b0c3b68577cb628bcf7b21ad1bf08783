@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6d92d3af_2b79e43b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1128439
+      },
+      "writtenOn": "2024-05-21T21:27:26Z",
+      "side": 1,
+      "message": "The bug number isn\u0027t hyper-linking. I think that\u0027s because there is a blank line after this line. Please delete that and change \"bug\" to \"Bug\"",
+      "revId": "f3f133e5b0c3b68577cb628bcf7b21ad1bf08783",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
