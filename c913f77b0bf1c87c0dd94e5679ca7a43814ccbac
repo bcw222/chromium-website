@@ -16,6 +16,24 @@
       "message": "Would removing this blank line keep the previous paragraph structure, while adding bold text?\n\nAs-is, line 57 and 61 are a bit too far apart.\n\n```\n... the following information. Please ...\n\n* your first ...\n* etc.\n```\n\nvs.\n\n```\n... the following information.\n\nPlease ...\n\n* your first ...\n* etc.\n```",
       "revId": "c913f77b0bf1c87c0dd94e5679ca7a43814ccbac",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0677a1bd_690cf0b7",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1395755
+      },
+      "writtenOn": "2024-05-28T18:31:20Z",
+      "side": 1,
+      "message": "I was originally intending to make it a standalone paragraph, but I can remove the extra line to keep the text inline with the prior paragraph. Done.",
+      "parentUuid": "29bbb42e_77814af8",
+      "revId": "c913f77b0bf1c87c0dd94e5679ca7a43814ccbac",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
