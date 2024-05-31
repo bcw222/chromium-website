@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d09fcdbd_0f6f9c91",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1297197
+      },
+      "writtenOn": "2024-05-31T16:52:36Z",
+      "side": 1,
+      "message": "Hi James,\n\nI\u0027m not sure if you\u0027re the correct owner here, but it looks like you\u0027ve reviewed other CLs for this file. Please feel free to reassign to someone more appropriate otherwise though.",
+      "revId": "91ba671edf6d4ffb4800f79bf7e17895aaeb77fb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
