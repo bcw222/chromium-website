@@ -305,6 +305,9 @@ title: Technical Discussion Groups
                 processes, e.g. milestone branch length, merge and release
                 blocking processes
 
+                [blog](https://groups.google.com/a/chromium.org/g/chromium-reviews/c/5Ca4esDU-O0)
+    *   Discussions 
+
 *Note: On 1/21/2010 we switched our mailing lists to be hosted on chromium.org.
 Posts before that date for the above lists are available at
 [chromium-dev](https://groups.google.com/group/chromium-dev),
