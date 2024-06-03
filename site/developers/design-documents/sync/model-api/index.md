@@ -209,12 +209,18 @@ absl::optional<ModelError> DeviceInfoSyncBridge::ApplySyncChanges(
     std::unique_ptr<MetadataChangeList> metadata_change_list,
     EntityChangeList entity_changes) {
   std::unique_ptr<WriteBatch> batch = store_->CreateWriteBatch();
-  for (const EntityChange& change : entity_changes) {
-    if (change.type() == EntityChange::ACTION_DELETE) {
-      batch->DeleteData(change.storage_key());
-    } else {
-      batch->WriteData(change.storage_key(),
-                       change.data().specifics.your_type().SerializeAsString());
+  for (const std::unique_ptr<syncer::EntityChange>& change : entity_changes) {
+    switch (change->type()) {
+      case syncer::EntityChange::ACTION_ADD:
+      case syncer::EntityChange::ACTION_UPDATE: {
+        batch->WriteData(change->storage_key(),
+                         change->data().specifics.your_type().SerializeAsString());
+        break;
+      }
+      case syncer::EntityChange::ACTION_DELETE: {
+        batch->DeleteData(change->storage_key());
+        break;
+      }
     }
   }
 
