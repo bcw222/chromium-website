@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a99ff66a_2a9c0142",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2024-06-04T17:37:22Z",
+      "side": 1,
+      "message": "```suggestion\nremove references to goma\n```",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 25
+      },
+      "revId": "9e1cc6321ef26728927fc6776fa4bff5190fd537",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b74bb60c_b6bdd3ed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2024-06-04T17:37:22Z",
+      "side": 1,
+      "message": "LGTM",
+      "revId": "9e1cc6321ef26728927fc6776fa4bff5190fd537",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9bc209e0_72a6f185",
+        "filename": "site/developers/testing/threadsanitizer-tsan-v2/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2024-06-04T17:37:22Z",
+      "side": 1,
+      "message": "We definitely don\u0027t use GYP anymore :)\n\nYou could delete this whole section if you wanted.",
+      "revId": "9e1cc6321ef26728927fc6776fa4bff5190fd537",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
