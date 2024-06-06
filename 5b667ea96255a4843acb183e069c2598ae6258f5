@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "570b0707_48a662a3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1550268
+      },
+      "writtenOn": "2024-06-06T20:42:08Z",
+      "side": 1,
+      "message": "Hi Tzarial, can you PTAL? Thanks!",
+      "revId": "5b667ea96255a4843acb183e069c2598ae6258f5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
