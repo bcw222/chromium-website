@@ -64,11 +64,21 @@ containing the following information.
 *   embedded list of links to revisions (about top 10) containing your
             patches
 
+<<<<<<< PATCH SET (448eab Specify the requirements for being a committer seconder)
+Two other committers need to second your nomination. To second a nomination,
+these committers should have reviewed a non-trivial amount of the nominee's CLs
+or otherwise be very familiar with the nominee's work. If no one objects in 5
+working days (U.S.), you're a committer. If anyone objects or wants more
+information, the committers discuss and usually come to a consensus (within the
+5 working days). If issues can't be resolved, there's a vote among current
+committers.
+=======
 Two other committers need to second your nomination. 5 working days (U.S.) after
 the nomination, or 2 working days (U.S.) after the last message in the
 discussion, whichever is later, you're a committer. If anyone objects or wants
 more information, the committers discuss and usually come to a consensus. If
 issues can't be resolved, there's a vote among current committers.
+>>>>>>> BASE      (27928a Update chromium-os guide with vncviewer command)
 
 That's it! There is no further action you need to take on your part. The
 committers will get back to you once they make a decision.
