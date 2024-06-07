@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "70dbb452_4b312ac0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-06-07T19:57:18Z",
+      "side": 1,
+      "message": "The sentence change looks fine. But you need to fix the CL to resolve the patch conflict markers.\n\nAlso, given the recent discussion on committers@, I think we should publicize the change there to let them know that it will be changing and to get feedback.",
+      "revId": "4c7a16b378e629d6f65b21c7b0f3941c708c129a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
