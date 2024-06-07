@@ -64,7 +64,9 @@ nomination email.
 *   embedded list of links to revisions (about top 10) containing your
             patches
 
-Two other committers need to second your nomination. If no one objects in 5
+Two other committers need to second your nomination. To second a nomination,
+these committers should have reviewed a non-trivial amount of the nominee's CLs
+or otherwise be very familiar with the nominee's work. If no one objects in 5
 working days (U.S.), you're a committer. If anyone objects or wants more
 information, the committers discuss and usually come to a consensus (within the
 5 working days). If issues can't be resolved, there's a vote among current
