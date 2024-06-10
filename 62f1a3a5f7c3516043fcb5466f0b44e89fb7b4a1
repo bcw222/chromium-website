@@ -1,0 +1,91 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "77ec1e0e_77ea7628",
+        "filename": "site/chromium-os/developer-library/guides/bugs/security-severity-guidelines/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000985
+      },
+      "writtenOn": "2024-06-10T17:48:13Z",
+      "side": 1,
+      "message": "Wrap to 72 columns.",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 13
+      },
+      "fixSuggestions": [
+        {
+          "fixId": "9f657007_91dbe5b0",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/chromium-os/developer-library/guides/bugs/security-severity-guidelines/index.md",
+              "range": {
+                "startLine": 11,
+                "startChar": 0,
+                "endLine": 12,
+                "endChar": 0
+              },
+              "replacement": "## ChromeOS Security Model \n"
+            }
+          ]
+        }
+      ],
+      "revId": "62f1a3a5f7c3516043fcb5466f0b44e89fb7b4a1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d36e9476_79a532db",
+        "filename": "site/chromium-os/developer-library/guides/bugs/security-severity-guidelines/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000985
+      },
+      "writtenOn": "2024-06-10T17:48:13Z",
+      "side": 1,
+      "message": "Trailing spaces.",
+      "range": {
+        "startLine": 18,
+        "startChar": 103,
+        "endLine": 18,
+        "endChar": 104
+      },
+      "revId": "62f1a3a5f7c3516043fcb5466f0b44e89fb7b4a1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7abf1fa_a8baf89d",
+        "filename": "site/chromium-os/developer-library/guides/bugs/security-severity-guidelines/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 1000985
+      },
+      "writtenOn": "2024-06-10T17:48:13Z",
+      "side": 1,
+      "message": "Let\u0027s turn this to markdown.",
+      "range": {
+        "startLine": 175,
+        "startChar": 0,
+        "endLine": 228,
+        "endChar": 8
+      },
+      "revId": "62f1a3a5f7c3516043fcb5466f0b44e89fb7b4a1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
