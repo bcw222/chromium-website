@@ -1,0 +1,45 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8cd70910_57a9611d",
+        "filename": "site/chromium-os/developer-library/guides/bugs/security-severity-guidelines/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 1000985
+      },
+      "writtenOn": "2024-06-12T18:23:36Z",
+      "side": 1,
+      "message": "HTML tags should not be here.",
+      "range": {
+        "startLine": 216,
+        "startChar": 0,
+        "endLine": 216,
+        "endChar": 3
+      },
+      "fixSuggestions": [
+        {
+          "fixId": "e63b5156_fa934f61",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/chromium-os/developer-library/guides/bugs/security-severity-guidelines/index.md",
+              "range": {
+                "startLine": 212,
+                "startChar": 0,
+                "endLine": 241,
+                "endChar": 0
+              },
+              "replacement": "| Severity | SLO | | ----------- | ----------- | | S0 | - Fix backported to current milestone/s | - Emergency push may be required | - May bypass or have accelerated Dev/Beta soak | - CVE assigned if one doesn’t already exist | | S1 | - Fix backported to current milestone/s | - Fix released as part of a planned weekly respin | - Accelerated Dev/Beta soak | - CVE assigned if one doesn’t already exist | | S2 | - Fix in ToT with no backport to current milestone/s | - Fix released via regular monthly release process | - Full Dev/Beta soak | - CVE assigned if one doesn’t already exist | | S3 | - May be disclosed before fix is released | - Should get fixed or closed within the year | - No CVE assigned |\n"
+            }
+          ]
+        }
+      ],
+      "revId": "c3230be4349eecfd42dd03d5aacf023df3cb1cdd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
