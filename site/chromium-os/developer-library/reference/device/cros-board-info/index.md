@@ -113,9 +113,10 @@ OEM\_ID                    | 1   | integer | yes    | no       | OEM ID
 SKU\_ID                    | 2   | integer | no     | yes      | ID assigned to each SKU.
 DRAM\_PART\_NUM            | 3   | string  | no     | no       | DRAM part name in ascii characters
 OEM\_NAME                  | 4   | string  | yes    | no       | OEM name in ascii characters
-FW\_CONFIG                 | 6   | integer | no     | yes      | Bit-field that encodes information that the firmware needs to make decisions on.
+FW\_CONFIG                 | 6   | integer | no     | yes      | Bit-field that encodes information that the firmware needs to make decisions on
 PCB\_SUPPLIER              | 7   | integer | yes    | no       | ID assigned to each PCB manufacturer (per-board)
-REWORK\_ID                 | 9   | integer | no     | no       | Bit-field that encodes the reworks applied to the device.
+SSFC                       | 8   | integer | no     | no       | Bit-field that encodes information that the firmware needs to make decisions on for second source components
+REWORK\_ID                 | 9   | integer | no     | no       | Bit-field that encodes the reworks applied to the device
 FACTORY\_CALIBRATION\_DATA | 10  | integer | no     | no       | Bit-field that encodes factory calibration data
 COMMON\_CONTROL            | 11  | integer | no     | no       | Bit-field that encodes common control flags
 BATTERY\_CONFIG            | 12  | binary  | no     | no       | Battery configuration #0
@@ -185,7 +186,7 @@ A bit field that tracks the different permutations of HW that the firmware needs
 to be able to handle. The FW\_CONFIG only contains the information that the
 firmware strictly needs to make a branching decision. Any other information
 about a device should be captured and stored in the higher level configuration
-system. See [SKU and FW Configuration Fields](./firmware_config.md) for more
+system. See [SKU and FW Configuration Fields](../firmware_config/) for more
 details.
 
 Below are a few, non-exhaustive examples of how the firmware configuration bits
@@ -205,6 +206,17 @@ Bits | Features                              | Use
 
 This field identifies the printed-circuit-board manufacturer for a device. The
 ID assignment is specific to a board.
+
+
+### SSFC
+
+SSFC (Second Source Factory Cache) is a bit field that tracks the different
+permutations of second source hardware components that the firmware needs to be
+able to handle. Similar to the FW\_CONFIG, the SSFC only contains the
+information that the firmware strictly needs to make a branching decision.  All
+components in SSFC should be probable (e.g.: I2C, SPI or Strappings).  If
+components are non-probable then they should be encoded into FW\_CONFIG instead
+of SSFC.
 
 ### REWORK\_ID
 
