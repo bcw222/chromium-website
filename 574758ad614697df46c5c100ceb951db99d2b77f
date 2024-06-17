@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e14f6ac7_cd7a0c85",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000985
+      },
+      "writtenOn": "2024-06-17T23:46:39Z",
+      "side": 1,
+      "message": "You\u0027re going to have to remove your CR+1 vote to allow this to land.",
+      "revId": "574758ad614697df46c5c100ceb951db99d2b77f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
