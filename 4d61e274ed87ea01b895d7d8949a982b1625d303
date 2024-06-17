@@ -1,0 +1,22 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ffbeb6dc_840c4371",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000808
+      },
+      "writtenOn": "2024-06-17T11:52:43Z",
+      "side": 1,
+      "message": "This is useless suggestions.\n\nGenerated page (https://chromium-website--cl5635481-ps1-mmapfshy.web.app/chromium-os/developer-library/guides/development/contributing/) doesn\u0027t have any valid markdown links.",
+      "parentUuid": "a75ed5c2_fe42b9b2",
+      "revId": "4d61e274ed87ea01b895d7d8949a982b1625d303",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
