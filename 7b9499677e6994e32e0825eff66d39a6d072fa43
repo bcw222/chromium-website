@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "70118576_9e65b6da",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000985
+      },
+      "writtenOn": "2024-06-17T22:11:47Z",
+      "side": 1,
+      "message": "James said that we should be doing 80 cols but the editor sometimes messes things up. That can probably be fixed in a follow-up (some lines are longer than 80 cols.)",
+      "revId": "7b9499677e6994e32e0825eff66d39a6d072fa43",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "455414ff_c9afe55c",
@@ -19,6 +36,29 @@
         "startChar": 56,
         "endLine": 9,
         "endChar": 57
+      },
+      "revId": "7b9499677e6994e32e0825eff66d39a6d072fa43",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cafbe4ef_57c33971",
+        "filename": "site/chromium-os/developer-library/guides/bugs/security-severity-guidelines/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 247,
+      "author": {
+        "id": 1000985
+      },
+      "writtenOn": "2024-06-17T22:11:47Z",
+      "side": 1,
+      "message": "This does not appear to be rendered as a table: https://screenshot.googleplex.com/AjCpa5gT3kiTd7F\n\n\nThe problem is that Markdown does not support lists inside tables.\n\nI think this should work:\n\n```suggestion\n| Severity | SLO |\n| -------- | --- |\n| S0 | **Fix backported to current milestone/s**, emergency push may be required, may bypass or have accelerated dev/beta soak, CVE assigned if one doesn’t already exist. |\n| S1 | **Fix backported to current milestone/s**, fix released as part of a planned weekly respin, accelerated dev/beta soak, CVE assigned if one doesn’t already exist. |\n| S2 | **Fix in ToT with no backport to current milestone/s**, fix released via regular monthly release process, full dev/beta soak, CVE assigned if one doesn’t already exist. |\n| S3 | May be disclosed before the fix is released, should get fixed or closed within the year, no CVE assigned. |\n```",
+      "range": {
+        "startLine": 240,
+        "startChar": 0,
+        "endLine": 247,
+        "endChar": 77
       },
       "revId": "7b9499677e6994e32e0825eff66d39a6d072fa43",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
