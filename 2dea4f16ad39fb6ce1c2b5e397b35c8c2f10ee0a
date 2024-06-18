@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a02d38d_37c22e21",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000985
+      },
+      "writtenOn": "2024-06-18T19:20:43Z",
+      "side": 1,
+      "message": "LGTM but please fix the whitespace. The table renders correctly in https://chromium-website--cl5608707-ps9-van0aec5.web.app/chromium-os/developer-library/guides/bugs/security-severity-guidelines",
+      "revId": "2dea4f16ad39fb6ce1c2b5e397b35c8c2f10ee0a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "852cd064_f8c9ad6b",
+        "filename": "site/chromium-os/developer-library/guides/bugs/security-severity-guidelines/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1000985
+      },
+      "writtenOn": "2024-06-18T19:20:43Z",
+      "side": 1,
+      "message": "There are a few trailing bits of whitespace left that should be removed.",
+      "range": {
+        "startLine": 141,
+        "startChar": 61,
+        "endLine": 141,
+        "endChar": 62
+      },
+      "revId": "2dea4f16ad39fb6ce1c2b5e397b35c8c2f10ee0a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
