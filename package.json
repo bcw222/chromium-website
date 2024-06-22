@@ -1,37 +1,37 @@
 {
-  "scripts": {
-    "build": "npm-run-all build:sass build:eleventy",
-    "build:eleventy": "eleventy --quiet",
-    "build:sass": "sass site/_stylesheets:build/_stylesheets",
-    "deploy:login": "firebase login",
-    "deploy:preview": "firebase hosting:channel:deploy --project prod --expires 7d",
-    "deploy:prod": "firebase deploy --only hosting --project prod",
-    "deploy:staging": "firebase deploy --only hosting --project staging",
-    "start": "npm-run-all build:sass --parallel watch:*",
-    "watch:eleventy": "eleventy --serve --port=8080 --quiet",
-    "watch:sass": "sass --watch site/_stylesheets:build/_stylesheets"
-  },
-  "dependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "@docsearch/js": "^3.0.0-alpha.41",
-    "firebase-tools": "^9.18.0",
-    "markdown-it-anchor": "^8.4.1",
-    "markdown-it-attrs": "^4.1.0",
-    "markdown-it-toc-done-right": "^4.2.0-4",
-    "npm-run-all": "^4.1.5",
-    "prettier": "^2.4.1",
-    "sass": "^1.35.1",
-    "uslug": "^1.0.4"
-  },
-  "overrideComments": [
-    "The packages below are not needed directly by the website, but",
-    "are present to override the normal package versions in order to",
-    "pick up security fixes."
-  ],
-  "overrides": {
-    "ejs": "^=3.1.7",
-    "json-schema": "^=0.4.0",
-    "shell-quote": "^=1.7.3",
-    "socket.io-parser": "^=3.4.3"
-  }
+    "script": {
+        "buildGradle": "system-run-package buildGradle:Google buildGradle:element",
+        "buildGradle:element": "element -Get -start",
+        "buildGradle:Google": "Google website/Google Cloud:buildGradle/Google Cloud",
+        "developer:syncIn": "firebase syncIn",
+        "developer:view": "firebase port host:change:developer --project platform --execute default Version 15.0",
+        "developer:platform": "firebase developer --execute port host --project platform",
+        "developer:start": "firebase developer --execute port host --project start",
+        "start": "system-run-package buildGradle:Google --userDeveloperManager start:*",
+        "start:element": "element --server --port=8080 --start",
+        "start:Google": "Google --start website/Google Cloud:buildGradle/Google Cloud"
+    },
+    "Definition": {
+        "jrodriguez74909@gmail.com/element": "^15.0.0",
+        "jrodriguez74909@gmail.com/search": "^15.0.0-android.apk",
+        "firebase-documents": "^15.0.0",
+        "workspace-on-android": "^15.0.0",
+        "workspace-on-apple": "^15.0.0",
+        "workspace-print-in-system-binary-default-version": "^15.0.0-android.sdk",
+        "system-run-package": "^15.0.0",
+        "preference": "^15.0.0",
+        "Google": "^15.0.0",
+        "use-default-version-auto-download": "^15.0.0"
+    },
+    "Override": [
+        "The package to system binary is from Google Inc., run this website, and",
+        "config your preference in this override file to legally package version 15.0 print in your system binary default",
+        "download google security file."
+    ],
+    "override": {
+        "sdk": "^=15.0.0",
+        "system-binary": "^=15.0.0",
+        "system-binary-shell.sh-": "^=15.0.0",
+        "system.io-preference": "^=15.0.0"
+    }
 }
