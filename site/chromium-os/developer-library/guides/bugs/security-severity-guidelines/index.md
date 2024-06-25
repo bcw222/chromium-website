@@ -138,7 +138,7 @@ other vulnerability in a third party component.
 ### Third Party/Dependent Software Components
 
 Since we are not a general purpose OS, many vulnerabilities in
-software components we ship (including the Chrome browser and 
+software components we ship (including the Chrome browser and
 Android OS) cannot be exploited on ChromeOS, or may not have the
 same severity level.
 
@@ -174,7 +174,7 @@ for more information on denial of service bugs in Chrome.
 
 ### Fuzzers
 
-Fuzzer found bugs are considered security bugs unless they are 
+Fuzzer found bugs are considered security bugs unless they are
 demonstrated to be vulnerabilities e.g. attacker reachable and
 controllable.
 
@@ -190,7 +190,7 @@ considered a vulnerability.
 In the case of graphics virtualization, the Vulkan or Venus
 renderer process is a sandboxed process designed to be an extension
 of the guest process it serves. If an attacker is able to compromise
-the guestOS and trigger a security bug (e.g. UAF, buffer 
+the guestOS and trigger a security bug (e.g. UAF, buffer
 overrun, etc) in the renderer (e.g. via UAF, buffer overrun, etc),
 the attacker may be able to leak data from their own process. However,
 since we consider the process within the guest boundary we would not
@@ -235,15 +235,15 @@ user data in verified boot is rated as Critical severity.
 
 If the vulnerability were exploited, damage could be considerable.
 
-Vulnerabilities that allow an attacker to take control over a 
-sandboxed process are rated as High severity. 
+Vulnerabilities that allow an attacker to take control over a
+sandboxed process are rated as High severity.
 
 
 ### [Medium Severity (S2)](?tab=t.0#heading=h.snhrhvgk9uzq)
 
 If the vulnerability were exploited, damage would be limited.
 
-Medium severity vulnerabilities allow attackers to read or 
+Medium severity vulnerabilities allow attackers to read or
 modify limited amounts of information, or security bugs that
 are potentially more harmful as part of an exploit chain.
 
