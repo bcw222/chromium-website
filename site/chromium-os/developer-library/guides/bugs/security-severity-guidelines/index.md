@@ -74,7 +74,7 @@ bug in the chain may differ.
 
 Security bugs are in scope for our Vulnerability Rewards Program
 but will be rewarded at the Panel’s discretion. Security bugs
-will havetype _bug_ rather than _vulnerability_ in our Issue
+will have type _bug_ rather than _vulnerability_ in our Issue
 Tracker.
 
 
@@ -83,7 +83,8 @@ Tracker.
 Security vulnerabilities may be triggered by user interaction.
 However, an attacker has to be able to control the user interaction.
 If the attacker must rely on social engineering to get a user to
-perform a certain interaction, we don’t consider that a vulnerability.
+perform a certain action that the user would not otherwise perform,
+we don’t consider that a vulnerability.
 
 Social engineering attacks are out of scope for our Vulnerability
 Rewards Program.
@@ -153,7 +154,7 @@ We routinely update third party packages to ensure defense-in-depth.
 ### Toolchain and Code Hardening
 
 We compile with clang and take advantage of compiler hardening
-options such as FORTIFY_SRC. We also use MiraclePtr and other
+options such as FORTIFY_SOURCE. We also use MiraclePtr and other
 techniques to harden code. Many of these techniques will result
 in a crash that prevents an attacker from exploiting a bug.
 We do not consider bugs that are mitigated via these techniques
@@ -174,9 +175,9 @@ for more information on denial of service bugs in Chrome.
 
 ### Fuzzers
 
-Fuzzer found bugs are considered security bugs unless they are 
-demonstrated to be vulnerabilities e.g. attacker reachable and
-controllable.
+Fuzzer found bugs are not considered security bugs unless they
+are demonstrated to be vulnerabilities e.g. attacker reachable
+and controllable.
 
 
 ### Graphics Stack
