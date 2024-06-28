@@ -33,6 +33,24 @@
       "message": "I worry that there are two possible ways to interpret this sentence and that the difference between those interpretations may lead to confusion.  They are:\n1. you must have discussed the technical aspects of the version of the specification that you\u0027re planning to ship\n2. you must have discussed the technical aspects *and the shipping plans* of the version of the specification that you\u0027re planning to ship\n\nI think it literally says (1) and I think that\u0027s probably what you intended, but I think some people may read it as (2), given how close \"discuss\" is to \"planning to ship\".",
       "revId": "0f6dd219ce1704b7a2a4fe5978edbd64cacdff2a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8818f6d5_f6bd1545",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 413,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2024-06-28T03:25:07Z",
+      "side": 1,
+      "message": "Do you think the right way to disambiguate is to add a second sentence like \"Note that you don\u0027t need the WG\u0027s agreement that the feature is ready to ship.\"? Or is there some other way to clarify this?",
+      "parentUuid": "349bb2e0_dbce1400",
+      "revId": "0f6dd219ce1704b7a2a4fe5978edbd64cacdff2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
