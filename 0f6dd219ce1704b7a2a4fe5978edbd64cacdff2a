@@ -51,6 +51,24 @@
       "parentUuid": "349bb2e0_dbce1400",
       "revId": "0f6dd219ce1704b7a2a4fe5978edbd64cacdff2a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e94e39f_daa4e58d",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 413,
+      "author": {
+        "id": 1497432
+      },
+      "writtenOn": "2024-06-28T14:53:16Z",
+      "side": 1,
+      "message": "I think there\u0027s probably a more lightweight way to clarify.  Perhaps it would help to change \"version\" to \"feature\" or \"state of the feature\", or perhaps change \"version you\u0027re planning to ship\" to \"current state of the feature\" (or maybe that but replacing \"state of\" with \"specification for\").  One of these changes might also be helpful to clarify the case where the feature is a small part of a larger specification.",
+      "parentUuid": "8818f6d5_f6bd1545",
+      "revId": "0f6dd219ce1704b7a2a4fe5978edbd64cacdff2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
