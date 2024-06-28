@@ -409,6 +409,11 @@ ships it, but if we're ready to ship it, we need to declare publicly that we
 think incubation is finished. Ask your [spec mentor](/blink/spec-mentors) for
 help with this.
 
+If your specification has been adopted by a working group, you should have
+evidence that you asked the group to discuss the latest specification for the feature
+and either that it has consensus or that you tried to achieve consensus and took
+action on all actionable feedback.
+
 If your specification has more than a handful of open issues, consider labelling
 those issues such that it is clear which of them are editorial, which are
 asking for future enhancements, and which would require breaking changes that
