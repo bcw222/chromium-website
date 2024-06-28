@@ -69,6 +69,23 @@
       "parentUuid": "8818f6d5_f6bd1545",
       "revId": "0f6dd219ce1704b7a2a4fe5978edbd64cacdff2a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1ec6beeb_b37a5122",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 415,
+      "author": {
+        "id": 1312815
+      },
+      "writtenOn": "2024-06-28T19:30:05Z",
+      "side": 1,
+      "message": "I think it\u0027d be good to discuss this addition in an API owners call. Was it discussed in the one that I missed this week?\nI\u0027m curious regarding the motivation here. It seems like we\u0027d be increasing the burden on WG proposals in ways that may discourage folks from getting proposals adopted. It might make sense (to me) to apply this regardless of WG adoption. Anyway, I think it\u0027s worthwhile to chat through this in a high bandwidth env.",
+      "revId": "0f6dd219ce1704b7a2a4fe5978edbd64cacdff2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
