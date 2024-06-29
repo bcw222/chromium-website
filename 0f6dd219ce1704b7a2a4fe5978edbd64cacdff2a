@@ -89,6 +89,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4bfc620_2a3d5bf6",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 413,
+      "author": {
+        "id": 1497432
+      },
+      "writtenOn": "2024-06-29T00:55:56Z",
+      "side": 1,
+      "message": "I think this rewording addresses my concern.",
+      "parentUuid": "03b6e154_5b63a60e",
+      "revId": "0f6dd219ce1704b7a2a4fe5978edbd64cacdff2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1ec6beeb_b37a5122",
