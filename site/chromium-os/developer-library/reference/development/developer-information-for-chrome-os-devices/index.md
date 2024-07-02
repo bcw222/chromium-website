@@ -3961,5 +3961,64 @@ such as the auto update until date, first release, and more.
     <td></td>
     <td></td>
  </tr>
-
+ <tr>
+    <td>2024-05-23</td>
+    <td>ASUS</td>
+    <td><a href="https://www.asus.com/laptops/for-students/chromebook/asus-chromebook-cr12-cr1204c/">ASUS Chromebook CR12 (CR1204C)</a></td>
+    <td>Anraggar</td>
+    <td>Nissa</td>
+    <td>Nissa</td>
+    <td>x86_64</td>
+    <td>6.1</td>
+    <td>x86_64</td>
+    <td>Alderlake-N</td>
+    <td>Clamshell</td>
+    <td>Yes</td>
+    <td>Yes</td>
+ </tr>
+ <tr>
+    <td>2024-05-23</td>
+    <td>ASUS</td>
+    <td><a href="https://www.asus.com/laptops/for-students/chromebook/asus-chromebook-cr11-cr1104c/">ASUS Chromebook CR11 (CR1104C)</a></td>
+    <td>Anraggar</td>
+    <td>Nissa</td>
+    <td>Nissa</td>
+    <td>x86_64</td>
+    <td>6.1</td>
+    <td>x86_64</td>
+    <td>Alderlake-N</td>
+    <td>Clamshell</td>
+    <td>Yes</td>
+    <td>Yes</td>
+ </tr>
+ <tr>
+    <td>2024-05-23</td>
+    <td>ASUS</td>
+    <td><a href="https://www.asus.com/laptops/for-students/chromebook/asus-chromebook-cz12-cz1204c/">ASUS Chromebook CZ12 (CZ1204F)</a></td>
+    <td>Anraggar</td>
+    <td>Nissa</td>
+    <td>Nissa</td>
+    <td>x86_64</td>
+    <td>6.1</td>
+    <td>x86_64</td>
+    <td>Alderlake-N</td>
+    <td>Convertible</td>
+    <td>Yes</td>
+    <td>Yes</td>
+ </tr>
+ <tr>
+    <td>2024-05-23</td>
+    <td>ASUS</td>
+    <td><a href="https://www.asus.com/laptops/for-students/chromebook/asus-chromebook-cz11-cz1104c/">ASUS Chromebook CZ11 (CZ1104F)</a></td>
+    <td>Anraggar</td>
+    <td>Nissa</td>
+    <td>Nissa</td>
+    <td>x86_64</td>
+    <td>6.1</td>
+    <td>x86_64</td>
+    <td>Alderlake-N</td>
+    <td>Convertible</td>
+    <td>Yes</td>
+    <td>Yes</td>
+ </tr>
 </table>
