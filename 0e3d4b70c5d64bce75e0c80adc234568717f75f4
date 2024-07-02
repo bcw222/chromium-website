@@ -22,6 +22,30 @@
       },
       "revId": "0e3d4b70c5d64bce75e0c80adc234568717f75f4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec217a79_b4aa67d0",
+        "filename": "site/Home/chromium-security/crlsets/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1308732
+      },
+      "writtenOn": "2024-07-02T23:21:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a521e964_8e4b5be1",
+      "range": {
+        "startLine": 29,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 2
+      },
+      "revId": "0e3d4b70c5d64bce75e0c80adc234568717f75f4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
