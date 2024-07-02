@@ -1,0 +1,147 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0894af29_58914532",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1477752
+      },
+      "writtenOn": "2024-07-02T07:44:16Z",
+      "side": 1,
+      "message": "also include Anraggar sereis in title",
+      "revId": "21bf9a62f1cc41f199c792d856cec1e1c311683e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "94fed0ff_d8b073c6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1477752
+      },
+      "writtenOn": "2024-07-02T07:44:16Z",
+      "side": 1,
+      "message": "Invite YH for big core device",
+      "revId": "21bf9a62f1cc41f199c792d856cec1e1c311683e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "03b9f77e_22b8ee5f",
+        "filename": "site/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 3949,
+      "author": {
+        "id": 1477752
+      },
+      "writtenOn": "2024-07-02T07:44:16Z",
+      "side": 1,
+      "message": "remove the empty line",
+      "revId": "21bf9a62f1cc41f199c792d856cec1e1c311683e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "16802bcf_3ff755c4",
+        "filename": "site/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 3988,
+      "author": {
+        "id": 1477752
+      },
+      "writtenOn": "2024-07-02T07:44:16Z",
+      "side": 1,
+      "message": "should be 5.15 for all anrggar FSI",
+      "range": {
+        "startLine": 3988,
+        "startChar": 8,
+        "endLine": 3988,
+        "endChar": 11
+      },
+      "revId": "21bf9a62f1cc41f199c792d856cec1e1c311683e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3c8f818c_87088856",
+        "filename": "site/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4013,
+      "author": {
+        "id": 1477752
+      },
+      "writtenOn": "2024-07-02T07:44:16Z",
+      "side": 1,
+      "message": "seems to be Asus MTK device?",
+      "range": {
+        "startLine": 4013,
+        "startChar": 91,
+        "endLine": 4013,
+        "endChar": 98
+      },
+      "revId": "21bf9a62f1cc41f199c792d856cec1e1c311683e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ef51d04a_06460215",
+        "filename": "site/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4014,
+      "author": {
+        "id": 1477752
+      },
+      "writtenOn": "2024-07-02T07:44:16Z",
+      "side": 1,
+      "message": "Anraggar360",
+      "range": {
+        "startLine": 4014,
+        "startChar": 8,
+        "endLine": 4014,
+        "endChar": 16
+      },
+      "revId": "21bf9a62f1cc41f199c792d856cec1e1c311683e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "98f0a51b_f74eae4e",
+        "filename": "site/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4028,
+      "author": {
+        "id": 1477752
+      },
+      "writtenOn": "2024-07-02T07:44:16Z",
+      "side": 1,
+      "message": "same",
+      "range": {
+        "startLine": 4028,
+        "startChar": 91,
+        "endLine": 4028,
+        "endChar": 98
+      },
+      "revId": "21bf9a62f1cc41f199c792d856cec1e1c311683e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
