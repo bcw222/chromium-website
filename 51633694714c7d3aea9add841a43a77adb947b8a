@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "feb87920_b0e8fd3e",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 420,
+      "author": {
+        "id": 1312815
+      },
+      "writtenOn": "2024-07-04T02:14:32Z",
+      "side": 1,
+      "message": "The example rhymes with https://groups.google.com/a/chromium.org/g/blink-dev/c/5Q9m4kNnhOY/m/v0MlnQsgBAAJ?utm_medium\u003demail\u0026utm_source\u003dfooter which we just approved without going to the WG..",
+      "revId": "51633694714c7d3aea9add841a43a77adb947b8a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
