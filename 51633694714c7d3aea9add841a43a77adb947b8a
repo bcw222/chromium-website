@@ -16,6 +16,24 @@
       "message": "The example rhymes with https://groups.google.com/a/chromium.org/g/blink-dev/c/5Q9m4kNnhOY/m/v0MlnQsgBAAJ?utm_medium\u003demail\u0026utm_source\u003dfooter which we just approved without going to the WG..",
       "revId": "51633694714c7d3aea9add841a43a77adb947b8a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9f91ff4e_28cf8f2a",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 420,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2024-07-08T17:25:38Z",
+      "side": 1,
+      "message": "It does, but the thread in which the Intent process was expanded to cover WebDriver changes (https://groups.google.com/a/chromium.org/g/blink-api-owners-discuss/c/SYA56RETDGc/m/yicXrX3qAAAJ) explicitly anticipated that \"WebDriver feature reviews are out of scope for TAG reviews, but instead, a BT\u0026TWG review could be requested.\"\n\nI\u0027ve changed this to a different example anyway, to try to avoid needing to resolve that contradiction in this thread.",
+      "parentUuid": "feb87920_b0e8fd3e",
+      "revId": "51633694714c7d3aea9add841a43a77adb947b8a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
