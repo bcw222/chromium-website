@@ -37,6 +37,47 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "37d1b4ff_a69c5e5a",
+        "filename": "site/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 3942,
+      "author": {
+        "id": 1160139
+      },
+      "writtenOn": "2024-07-10T15:00:57Z",
+      "side": 1,
+      "message": "First FSI (Marasov) was 15474.38.3 for which it was kernel 5.10.",
+      "range": {
+        "startLine": 3942,
+        "startChar": 8,
+        "endLine": 3942,
+        "endChar": 12
+      },
+      "fixSuggestions": [
+        {
+          "fixId": "a933e23c_8c910986",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/index.md",
+              "range": {
+                "startLine": 3943,
+                "startChar": 0,
+                "endLine": 3943,
+                "endChar": 0
+              },
+              "replacement": "    \u003ctd\u003eFirst FS\u003c/td\u003e\n"
+            }
+          ]
+        }
+      ],
+      "revId": "21bf9a62f1cc41f199c792d856cec1e1c311683e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "03b9f77e_22b8ee5f",
         "filename": "site/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/index.md",
         "patchSetId": 3
