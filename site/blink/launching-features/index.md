@@ -205,10 +205,13 @@ proceeding to prototyping.
 
 #### Step 2: Prototyping {:#prototyping}
 
-Proceed to the “Start Prototyping” stage in ChromeStatus - this will generate an
-“Intent to Prototype” mail for you. Send that email to
-[blink-dev](mailto:blink-dev@chromium.org) and start checking in prototype code
-to Chromium under a runtime flag. You should do your detailed API design in the
+Proceed to the “Start Prototyping” stage in ChromeStatus. This will generate an
+“Intent to Prototype” mail for you. To give a heads-up to the community and
+start any discussions early, it's best to send that email to
+[blink-dev](mailto:blink-dev@chromium.org) around the time you start checking in
+prototype code to Chromium under a runtime flag.
+
+You should do your detailed API design in the
 open, in your public repository, and response to feedback filed there. You
 should continue pushing for public engagement (from other vendors and web
 developers), and to move into an <a href="#incubation-venue">incubation
