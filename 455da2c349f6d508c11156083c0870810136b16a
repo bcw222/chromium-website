@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a3aae26_0574d420",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1197619
+      },
+      "writtenOn": "2024-07-10T02:09:52Z",
+      "side": 1,
+      "message": "Jeffrey, you\u0027ve been making several docs changes recently. How did you get them to nicely CC to blink-api-owners-discuss?\n\nAlso, your review is appreciated :)",
+      "revId": "455da2c349f6d508c11156083c0870810136b16a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
