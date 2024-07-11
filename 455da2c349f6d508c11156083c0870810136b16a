@@ -16,6 +16,41 @@
       "message": "Jeffrey, you\u0027ve been making several docs changes recently. How did you get them to nicely CC to blink-api-owners-discuss?\n\nAlso, your review is appreciated :)",
       "revId": "455da2c349f6d508c11156083c0870810136b16a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5c2180df_128f55f8",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 1115878
+      },
+      "writtenOn": "2024-07-11T15:41:28Z",
+      "side": 1,
+      "message": "I don\u0027t think we should encourage this to be optional in general. I would be in favor, however, add language encouraging a combined \"Intent to Prototype \u0026 Ship\" for small improvements or simple features that have already been publicly discussed at a standards venue.",
+      "fixSuggestions": [
+        {
+          "fixId": "9b1b6d24_b8116689",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/blink/launching-features/index.md",
+              "range": {
+                "startLine": 208,
+                "startChar": 0,
+                "endLine": 213,
+                "endChar": 0
+              },
+              "replacement": "Proceed to the “Start Prototyping” stage in ChromeStatus. This will generate a\n“Intent to Prototype \u0026 Ship” mail for you. To give a heads-up to the community\nand start any discussions early, it\u0027s best to send that email to\n[blink-dev](mailto:blink-dev@chromium.org) around the time you start checking\nin prototype code to Chromium under a runtime flag.\n"
+            }
+          ]
+        }
+      ],
+      "revId": "455da2c349f6d508c11156083c0870810136b16a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
