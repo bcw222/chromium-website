@@ -8,8 +8,17 @@ page_name: direct-commit
 title: Directly committing code
 ---
 
+<<<<<<< PATCH SET (ded623 Update links to "Contributing Code")
+[TOC]
+
+When
+[contributing code](https://chromium.googlesource.com/chromium/src/+/main/docs/contributing.md)
+to Chromium, the last step in the life of a change list is committing it, after
+which it's closed.
+=======
 When [contributing code](/developers/contributing-code) to Chromium, the last
 step in the life of a change list is committing it, after which it's closed.
+>>>>>>> BASE      (3605f5 Use non-Google-internal links in CrOS C++ intro.)
 
 The preferred way of committing changes is via the [commit
 queue](/developers/testing/commit-queue).
