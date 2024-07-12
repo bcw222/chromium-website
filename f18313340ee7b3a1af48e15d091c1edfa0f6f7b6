@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c0e1b0e_9b5d9927",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2024-07-12T16:13:11Z",
+      "side": 1,
+      "message": "Nice cleanup here too, LGTM",
+      "revId": "f18313340ee7b3a1af48e15d091c1edfa0f6f7b6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
