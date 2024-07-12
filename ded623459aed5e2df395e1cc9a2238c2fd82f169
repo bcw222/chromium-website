@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "813146e6_b1141451",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1340064
+      },
+      "writtenOn": "2024-07-12T07:09:20Z",
+      "side": 1,
+      "message": "chromium-security parts LGTM",
+      "revId": "ded623459aed5e2df395e1cc9a2238c2fd82f169",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
