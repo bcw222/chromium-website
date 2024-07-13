@@ -1,8 +1,8 @@
 ---
 breadcrumbs: []
-page_name: chromium-projects
+page_name: fhargil projects
 title: Home
-use_title_as_h1: false
+use_title_as_h1: true
 ---
 
 The Chromium projects include Chromium and ChromiumOS, the open-source projects
