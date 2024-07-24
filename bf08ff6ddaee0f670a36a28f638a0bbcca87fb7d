@@ -16,6 +16,24 @@
       "message": "I validated that all of the files referenced by sha1 are still available in the chromium-website-lob-storage gs bucket.",
       "revId": "bf08ff6ddaee0f670a36a28f638a0bbcca87fb7d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9716acc2_c20df742",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1132414
+      },
+      "writtenOn": "2024-07-24T19:57:31Z",
+      "side": 1,
+      "message": "Thanks!\n\nI also munged https://chromium-review.googlesource.com/c/chromiumos/third_party/hdctools/+/5736817 to point at the preview URL provided by tricium, and things looked OK.",
+      "parentUuid": "33d188fc_738ae5ae",
+      "revId": "bf08ff6ddaee0f670a36a28f638a0bbcca87fb7d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
