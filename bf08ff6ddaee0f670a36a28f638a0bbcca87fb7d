@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "33d188fc_738ae5ae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1297374
+      },
+      "writtenOn": "2024-07-24T19:47:13Z",
+      "side": 1,
+      "message": "I validated that all of the files referenced by sha1 are still available in the chromium-website-lob-storage gs bucket.",
+      "revId": "bf08ff6ddaee0f670a36a28f638a0bbcca87fb7d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
