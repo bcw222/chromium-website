@@ -12,4 +12,4 @@ __pycache__
 /infra/.recipe_deps
 /node_modules
 /node_modules.tar.gz
-/third_party/node/linux/.20_11_0*
+/third_party/node/
