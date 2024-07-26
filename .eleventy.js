@@ -5,6 +5,7 @@ module.exports = config => {
   // We need a reference to it to customize its behavior, below.
   const md = require('markdown-it');
 
+
   // `markdown-it-anchor` is an Eleventy plugin that will add <a> tags to header elements.
   // (this improves the accessibility of linking to headers.)
   const anchor = require('markdown-it-anchor');
@@ -38,6 +39,9 @@ module.exports = config => {
   });
 
   config.setLibrary('md', mdlib);
+
+  // Enable indented code blocks.
+  config.amendLibrary("md", (mdLib) => mdLib.enable("code"));
 
   config.addCollection('allSortedByLowerCasedUrl', function(collectionApi) {
     return collectionApi.getAll().sort(function(a, b) {
