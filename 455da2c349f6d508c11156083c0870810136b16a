@@ -51,6 +51,24 @@
       ],
       "revId": "455da2c349f6d508c11156083c0870810136b16a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bd095675_12079f9b",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 1312815
+      },
+      "writtenOn": "2024-07-26T10:01:18Z",
+      "side": 1,
+      "message": "Agree regarding discouraging not being optional. In the past a few teams (e.g. T\u0026S) relied on I2Ps for their review, but maybe they moved to a chromestatus based flow?",
+      "parentUuid": "5c2180df_128f55f8",
+      "revId": "455da2c349f6d508c11156083c0870810136b16a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
