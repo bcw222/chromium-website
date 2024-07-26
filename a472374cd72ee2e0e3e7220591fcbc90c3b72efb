@@ -16,6 +16,29 @@
       "message": "Please take a look. It\u0027s a long-overdue upgrade to Node for the website.\n\nI\u0027ve switched to using the first-class GCS entries for the Node binaries, to reuse what Chromium is doing. @jojwang - can you take a look and see if I\u0027ve done this properly?",
       "revId": "a472374cd72ee2e0e3e7220591fcbc90c3b72efb",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb9761f0_5c632822",
+        "filename": "DEPS",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1237795
+      },
+      "writtenOn": "2024-07-26T02:58:04Z",
+      "side": 1,
+      "message": "curious why `output_file` is needed? if the package is an archive it will be extracted. Is there code expecting the original archive file to live here?",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 47
+      },
+      "revId": "a472374cd72ee2e0e3e7220591fcbc90c3b72efb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
