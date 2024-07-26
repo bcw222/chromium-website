@@ -39,6 +39,30 @@
       },
       "revId": "a472374cd72ee2e0e3e7220591fcbc90c3b72efb",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "01126913_fa3cad7a",
+        "filename": "DEPS",
+        "patchSetId": 4
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-07-26T18:29:18Z",
+      "side": 1,
+      "message": "I don\u0027t know that it is. I just copied this over blindly from Chromium. I\u0027ll delete it and see what happens.",
+      "parentUuid": "cb9761f0_5c632822",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 51,
+        "endChar": 47
+      },
+      "revId": "a472374cd72ee2e0e3e7220591fcbc90c3b72efb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
