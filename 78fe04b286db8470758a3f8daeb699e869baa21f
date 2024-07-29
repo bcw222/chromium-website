@@ -39,6 +39,30 @@
       },
       "revId": "78fe04b286db8470758a3f8daeb699e869baa21f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "89ed3e7f_980d1b5a",
+        "filename": "site/developers/design-documents/sync/integration-checklist/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1339017
+      },
+      "writtenOn": "2024-07-29T11:33:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2569452f_fc9df092",
+      "range": {
+        "startLine": 26,
+        "startChar": 65,
+        "endLine": 26,
+        "endChar": 67
+      },
+      "revId": "78fe04b286db8470758a3f8daeb699e869baa21f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
