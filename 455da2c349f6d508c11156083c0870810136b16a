@@ -104,6 +104,24 @@
       "parentUuid": "bd095675_12079f9b",
       "revId": "455da2c349f6d508c11156083c0870810136b16a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6945a903_15f66351",
+        "filename": "site/blink/launching-features/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 1312815
+      },
+      "writtenOn": "2024-07-30T16:18:22Z",
+      "side": 1,
+      "message": "Indeed. To avoid double negatives, I agree that we should not encourage I2Ps as optional.",
+      "parentUuid": "f5996a0d_821619ac",
+      "revId": "455da2c349f6d508c11156083c0870810136b16a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
