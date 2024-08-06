@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d339e80f_923aaa5f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1549604
+      },
+      "writtenOn": "2024-08-06T02:32:26Z",
+      "side": 1,
+      "message": "I set heading levels for the section titles with my assumption. Please tell me if they don\u0027t meet the contents.",
+      "revId": "91f2eb0e448771aba85f9d75afc4787845db57ca",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
