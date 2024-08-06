@@ -16,6 +16,24 @@
       "message": "Nit: here and below, wrap at 80.",
       "revId": "77efebe610249ec40b87654da90c7d0947fe3b66",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3144a1c7_cc4e908e",
+        "filename": "site/developers/design-documents/rendertext/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1549604
+      },
+      "writtenOn": "2024-08-06T10:15:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f0d39803_99a5680f",
+      "revId": "77efebe610249ec40b87654da90c7d0947fe3b66",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
