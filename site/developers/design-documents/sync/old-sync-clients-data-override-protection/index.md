@@ -38,13 +38,13 @@ To prevent the described data loss scenario, it is necessary for the old client
 **unknown** fields (i.e. fields not even defined in the .proto file at the time
 the binary was built) and **partially-supported** fields (e.g. functionality
 guarded behind a feature toggle). The logic for caching these protos was
-implemented in [`ModelTypeChangeProcessor`][MTCP].
+implemented in [`DataTypeChangeProcessor`][MTCP].
 
 To have this protection for a specific datatype, its
-[`ModelTypeSyncBridge`][MTSB] needs to be updated to include the cached data
+[`DataTypeSyncBridge`][MTSB] needs to be updated to include the cached data
 during commits to the server (more details in the [`Implementation`](#implementation)).
 
-[MTCP]: https://cs.chromium.org/chromium/src/components/sync/model/model_type_change_processor.h
+[MTCP]: https://cs.chromium.org/chromium/src/components/sync/model/data_type_change_processor.h
 
 ### Checklist
 
@@ -63,7 +63,7 @@ The result of these steps is that:
 * Initial sync will be triggered if upgrading the client to a more modern
   version causes an unsupported field to be newly supported.
 
-[TRSFC]: https://cs.chromium.org/chromium/src/components/sync/model/model_type_sync_bridge.h;l=215;drc=0c829042793ff12fd42c7378fc57ed91a33f1eb2
+[TRSFC]: https://cs.chromium.org/chromium/src/components/sync/model/data_type_sync_bridge.h;l=215;drc=0c829042793ff12fd42c7378fc57ed91a33f1eb2
 
 ## Implementation
 
@@ -75,7 +75,7 @@ an additional copy (if the field is already well supported by the client).
 
 Trimming is a functionality that allows each data type to specify which proto
 fields are **supported** in the current browser version. Any field that is
-**not supported** will be cached by the [`ModelTypeChangeProcessor`][MTCP] and
+**not supported** will be cached by the [`DataTypeChangeProcessor`][MTCP] and
 can be used during commits to the server to prevent the data loss.
 
 Fields that should **not** be marked as supported:
@@ -85,14 +85,14 @@ Fields that should **not** be marked as supported:
     * Functionality guarded behind a feature toggle
 
 [`TrimAllSupportedFieldsFromRemoteSpecifics`][TRSFC] is a function of
-[`ModelTypeSyncBridge`][MTSB] that:
+[`DataTypeSyncBridge`][MTSB] that:
 * Takes a [`sync_pb::EntitySpecifics`][EntitySpecifics] object as an argument.
 * Returns [`sync_pb::EntitySpecifics`][EntitySpecifics] object that will be
-  cached by the [`ModelTypeChangeProcessor`][MTCP].
+  cached by the [`DataTypeChangeProcessor`][MTCP].
 * By default trims all proto fields.
 
 To add a data-specific unsupported fields caching, override the trimming
-function in the data-specific [`ModelTypeSyncBridge`][MTSB] to clear all its
+function in the data-specific [`DataTypeSyncBridge`][MTSB] to clear all its
 supported fields (i.e. fields that are actively used by the implementation
 and fully launched):
 
@@ -109,9 +109,9 @@ sync_pb::EntitySpecifics DataSpecificBridge::TrimAllSupportedFieldsFromRemoteSpe
 ```
 
 [EntitySpecifics]: https://cs.chromium.org/chromium/src/components/sync/protocol/entity_specifics.proto
-[MTCP]: https://cs.chromium.org/chromium/src/components/sync/model/model_type_change_processor.h
-[MTSB]: https://cs.chromium.org/chromium/src/components/sync/model/model_type_sync_bridge.h
-[TRSFC]: https://cs.chromium.org/chromium/src/components/sync/model/model_type_sync_bridge.h;l=215;drc=0c829042793ff12fd42c7378fc57ed91a33f1eb2
+[MTCP]: https://cs.chromium.org/chromium/src/components/sync/model/data_type_change_processor.h
+[MTSB]: https://cs.chromium.org/chromium/src/components/sync/model/data_type_sync_bridge.h
+[TRSFC]: https://cs.chromium.org/chromium/src/components/sync/model/data_type_sync_bridge.h;l=215;drc=0c829042793ff12fd42c7378fc57ed91a33f1eb2
 
 ### Safety check
 Forgetting to trim fields that are supported might result in:
@@ -132,7 +132,7 @@ DCHECK_EQ(TrimAllSupportedFieldsFromRemoteSpecifics(datatype_specifics.ByteSizeL
 To use the cached unsupported fields data during commits to the server, add the
 code that does the following steps:
 1. Query cached [`sync_pb::EntitySpecifics`][EntitySpecifics] from the
-   [`ModelTypeChangeProcessor`][MTCP]
+   [`DataTypeChangeProcessor`][MTCP]
    ([`Passwords example`][PasswordCacheQuery]).
 2. Use the cached proto as a base for a commit and fill it with the supported
    fields from the local proto representation
@@ -140,7 +140,7 @@ code that does the following steps:
 3. Commit the merged proto to the server
    ([`Passwords example`][PasswordMergeCommit]).
 
-[MTCP]: https://cs.chromium.org/chromium/src/components/sync/model/model_type_change_processor.h
+[MTCP]: https://cs.chromium.org/chromium/src/components/sync/model/data_type_change_processor.h
 [PasswordCacheQuery]: https://source.chromium.org/chromium/chromium/src/+/main:components/password_manager/core/browser/sync/password_sync_bridge.cc;l=972-979;drc=e95ee489e7a4aee5408d8bb0e13bebc61adcca0d
 [PasswordMergeCommit]: https://source.chromium.org/chromium/chromium/src/+/main:components/password_manager/core/browser/sync/password_sync_bridge.cc;l=366-374;drc=12be03159fe22cd4ef291e9561762531c2589539
 [PasswordProtoMerge]: https://source.chromium.org/chromium/chromium/src/+/main:components/password_manager/core/browser/sync/password_proto_utils.cc;l=226-267;drc=32d86114a7d841e2b1b041b0d8b5434930164f17
@@ -148,7 +148,7 @@ code that does the following steps:
 ### Browser upgrade flow
 To handle the scenario when unsupported fields become supported due to
 a browser upgrade, add the following code to your data-specific
-[`ModelTypeSyncBridge`][MTSB]:
+[`DataTypeSyncBridge`][MTSB]:
 1. On startup, check whether the unsupported fields cache contains any field
    that is supported in the current browser version. This can be done by using
    the trimming function on cached protos and checking if it trims any fields
@@ -168,7 +168,7 @@ make sure to skip entries without these fields present in the startup check (as
 e.g. cache can be empty for entities that were created before this solution
 landed). This can be tested with the following [`Sync integration test`][SyncStartupTest].
 
-[MTSB]: https://cs.chromium.org/chromium/src/components/sync/model/model_type_sync_bridge.h
+[MTSB]: https://cs.chromium.org/chromium/src/components/sync/model/data_type_sync_bridge.h
 [PasswordCheckExample]: https://cs.chromium.org/chromium/src/components/password_manager/core/browser/sync/password_sync_bridge.cc;l=904;drc=d149054a527b4fae61477ce9c338aeff64273d06
 [PasswordCacheCheck]: https://source.chromium.org/chromium/chromium/src/+/main:components/password_manager/core/browser/sync/password_sync_bridge.cc;l=981-1008;drc=e95ee489e7a4aee5408d8bb0e13bebc61adcca0d
 [PasswordInitialSync]: https://source.chromium.org/chromium/chromium/src/+/main:components/password_manager/core/browser/sync/password_sync_bridge.cc;l=284-296;drc=e95ee489e7a4aee5408d8bb0e13bebc61adcca0d
