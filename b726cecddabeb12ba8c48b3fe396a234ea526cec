@@ -18,6 +18,23 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "00950167_55b094b3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1339017
+      },
+      "writtenOn": "2024-08-07T17:52:16Z",
+      "side": 1,
+      "message": "Thanks!",
+      "revId": "b726cecddabeb12ba8c48b3fe396a234ea526cec",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a0d2a086_4e3c761a",
@@ -70,6 +87,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "01c5b0eb_efd11a8f",
+        "filename": "site/developers/design-documents/sync/client-tag-based-data-type-processor/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1339017
+      },
+      "writtenOn": "2024-08-07T17:52:16Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "a47c9b01_d0d2cac6",
+      "revId": "b726cecddabeb12ba8c48b3fe396a234ea526cec",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "92c27859_b99ae4d2",
@@ -107,6 +142,30 @@
       "side": 1,
       "message": "Which class? Both DataTypeStoreService and DataTypeStore continue to exist.",
       "parentUuid": "92c27859_b99ae4d2",
+      "range": {
+        "startLine": 129,
+        "startChar": 2,
+        "endLine": 129,
+        "endChar": 22
+      },
+      "revId": "b726cecddabeb12ba8c48b3fe396a234ea526cec",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e796a50_f97022fe",
+        "filename": "site/developers/design-documents/sync/model-api/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1339017
+      },
+      "writtenOn": "2024-08-07T17:52:16Z",
+      "side": 1,
+      "message": "I meant DataTypeService. I\u0027ll follow up",
+      "parentUuid": "72285e23_e7057371",
       "range": {
         "startLine": 129,
         "startChar": 2,
@@ -165,6 +224,24 @@
       "writtenOn": "2024-08-07T15:49:00Z",
       "side": 1,
       "message": "Neither DataTypeService nor SharedDataTypeProcessor exist.\n\nSharedDataTypeProcessor should probably be ClientTagBasedDataTypeProcessor?\n\nModelTypeService should be DataTypeSyncBridge, according to crbug.com/41283372.",
+      "revId": "b726cecddabeb12ba8c48b3fe396a234ea526cec",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe8ce973_a508e0a6",
+        "filename": "site/developers/design-documents/sync/unified-sync-and-storage-overview/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1339017
+      },
+      "writtenOn": "2024-08-07T17:52:16Z",
+      "side": 1,
+      "message": "I\u0027ll follow up",
+      "parentUuid": "d3f6530f_74f1f112",
       "revId": "b726cecddabeb12ba8c48b3fe396a234ea526cec",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
