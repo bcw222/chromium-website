@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a0d2a086_4e3c761a",
+        "filename": "site/developers/design-documents/sync/client-tag-based-data-type-processor/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1339017
+      },
+      "writtenOn": "2024-08-07T14:31:50Z",
+      "side": 1,
+      "message": "Careful, it\u0027s not just s/ModelType/DataType. Here there\u0027s the new \u0027Local\u0027 too",
+      "revId": "b726cecddabeb12ba8c48b3fe396a234ea526cec",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "92c27859_b99ae4d2",
+        "filename": "site/developers/design-documents/sync/model-api/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 129,
+      "author": {
+        "id": 1339017
+      },
+      "writtenOn": "2024-08-07T14:31:50Z",
+      "side": 1,
+      "message": "This class doesn\u0027t exist anymore. Should we just live with it and update the docs one day? Other instances follow",
+      "range": {
+        "startLine": 129,
+        "startChar": 2,
+        "endLine": 129,
+        "endChar": 22
+      },
+      "revId": "b726cecddabeb12ba8c48b3fe396a234ea526cec",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e01e4eca_e8db6480",
+        "filename": "site/developers/design-documents/sync/old-sync-clients-data-override-protection/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1339017
+      },
+      "writtenOn": "2024-08-07T14:31:50Z",
+      "side": 1,
+      "message": "The class doesn\u0027t exist on the 0c829042793ff12fd42c7378fc57ed91a33f1eb2 revision",
+      "revId": "b726cecddabeb12ba8c48b3fe396a234ea526cec",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
