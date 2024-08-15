@@ -1,0 +1,39 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "adb064c8_9d7dd82b",
+        "filename": "site/Home/chromium-security/security-reviews/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1340064
+      },
+      "writtenOn": "2024-08-15T19:15:11Z",
+      "side": 1,
+      "message": "Nit: you probably officially shouldn\u0027t mention SPUR externally.",
+      "fixSuggestions": [
+        {
+          "fixId": "80ec2a49_11ad1ba7",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/Home/chromium-security/security-reviews/index.md",
+              "range": {
+                "startLine": 68,
+                "startChar": 0,
+                "endLine": 69,
+                "endChar": 0
+              },
+              "replacement": "access. Fill out the questionnaire to request a review.\n"
+            }
+          ]
+        }
+      ],
+      "revId": "294e992e689ae9602af195f5166c0b4539f8e5b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
