@@ -34,6 +34,24 @@
       ],
       "revId": "294e992e689ae9602af195f5166c0b4539f8e5b4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a38d406d_829fe171",
+        "filename": "site/Home/chromium-security/security-reviews/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1553597
+      },
+      "writtenOn": "2024-08-15T19:27:09Z",
+      "side": 1,
+      "message": "Good point!",
+      "parentUuid": "adb064c8_9d7dd82b",
+      "revId": "294e992e689ae9602af195f5166c0b4539f8e5b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
