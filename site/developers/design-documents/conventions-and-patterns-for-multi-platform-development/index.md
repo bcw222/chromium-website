@@ -131,88 +131,97 @@ needs to explicitly tell its view hierarchy not to try and manage its lifetime.
 
 e.g. prefer this:
 
-> // browser.cc:
-> Browser::ExecuteCommand(..) {
-> ...
-> case IDC_COMMAND_EDIT_FOO:
-> window()-&gt;ShowFooDialog();
-> break;
-> ...
-> }
-> // browser_window.h:
-> class BrowserWindow {
-> ...
-> virtual void ShowFooDialog() = 0;
-> ...
-> };
-> // browser_view.cc:
-> BrowserView::ShowFooDialog() {
-> views::Widget::CreateWindow(new FooDialogView)-&gt;Show();
-> }
-> // foo_dialog_view.cc:
-> // FooDialogView and FooDialogController are automatically cleaned up when the
-> window is closed.
-> class FooDialogView : public views::View {
-> ...
-> private:
-> scoped_ptr&lt;FooDialogController&gt; controller_; // Cross-platform
-> state/control logic
-> ...
-> }
+```
+// browser.cc:
+Browser::ExecuteCommand(..) {
+  ...
+  case IDC_COMMAND_EDIT_FOO:
+    window()-&gt;ShowFooDialog();
+    break;
+  ...
+}
+
+// browser_window.h:
+class BrowserWindow {
+  ...
+  virtual void ShowFooDialog() = 0;
+  ...
+};
+
+// browser_view.cc:
+BrowserView::ShowFooDialog() {
+  views::Widget::CreateWindow(new FooDialogView)-&gt;Show();
+}
+
+// FooDialogView and FooDialogController are automatically cleaned up when the
+// window is closed.
+class FooDialogView : public views::View {
+  ...
+  private:
+    // Cross-platform state/control logic
+    scoped_ptr&lt;FooDialogController&gt; controller_;
+  ...
+}
+```
 
 to this:
 
-> // browser.cc:
-> Browser::ExecuteCommand(..) {
-> ...
-> case IDC_COMMAND_EDIT_FOO: {
-> FooDialogController::instance()-&gt;ShowUI();
-> break;
-> }
-> ...
-> }
-> // foo_dialog_controller.h:
-> class FooDialog {
-> public:
-> static FooDialog\* CreateFooDialog(FooDialogController\* controller);
-> virtual void Show() = 0;
-> virtual void Bar() = 0;
-> };
-> class FooDialogController {
-> public:
-> ...
-> static FooDialogController\* instance() {
-> static FooDialogController\* instance = NULL;
-> if (!instance)
-> instance = Singleton&lt;FooDialogController&gt;::get();
-> return instance;
-> }
-> ...
-> private:
-> ...
-> void ShowUI() {
-> if (!dialog_.get())
-> dialog_.reset(FooDialog::CreateFooDialog(this));
-> dialog_-&gt;Show();
-> }
-> // Why bother keeping FooDialog or even FooDialogController around?
-> // Most dialogs are very seldom used.
-> scoped_ptr&lt;FooDialog&gt; dialog_;
-> };
-> // foo_dialog_win.cc:
-> class FooDialogView : public views::View,
-> public FooDialogController {
-> public:
-> ...
-> explicit FooDialogView(FooDialogController\* controller) {
-> set_parent_owned(false); // Now necessary due to scoped_ptr in
-> FooDialogController.
-> }
-> ...
-> };
-> FooDialog\* FooDialog::CreateFooDialog(FooDialogController\* controller) {
-> return new FooDialogView(controller);
-> }
+```
+// browser.cc:
+Browser::ExecuteCommand(..) {
+  ...
+  case IDC_COMMAND_EDIT_FOO: {
+    FooDialogController::instance()-&gt;ShowUI();
+    break;
+  }
+  ...
+}
+
+// foo_dialog_controller.h:
+class FooDialog {
+  public:
+    static FooDialog\* CreateFooDialog(FooDialogController\* controller);
+    virtual void Show() = 0;
+    virtual void Bar() = 0;
+};
+
+class FooDialogController {
+  public:
+  ...
+  static FooDialogController\* instance() {
+  static FooDialogController\* instance = NULL;
+  if (!instance)
+  instance = Singleton&lt;FooDialogController&gt;::get();
+  return instance;
+  }
+  ...
+  private:
+  ...
+  void ShowUI() {
+  if (!dialog_.get())
+  dialog_.reset(FooDialog::CreateFooDialog(this));
+  dialog_-&gt;Show();
+  }
+  // Why bother keeping FooDialog or even FooDialogController around?
+  // Most dialogs are very seldom used.
+  scoped_ptr&lt;FooDialog&gt; dialog_;
+};
+
+// foo_dialog_win.cc:
+class FooDialogView : public views::View,
+public FooDialogController {
+public:
+...
+explicit FooDialogView(FooDialogController\* controller) {
+set_parent_owned(false); // Now necessary due to scoped_ptr in
+FooDialogController.
+}
+...
+};
+FooDialog\* FooDialog::CreateFooDialog(FooDialogController\* controller) {
+return new FooDialogView(controller);
+}
+```
 
 Sometimes this latter pattern is necessary, but these occasions are rare, and
 very well understood by the frontend team. When porting, consider converting
