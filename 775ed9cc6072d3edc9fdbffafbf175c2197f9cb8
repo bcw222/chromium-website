@@ -16,6 +16,23 @@
       "message": "seems this was missed in previous changes https://groups.google.com/a/chromium.org/g/chromium-dev/c/y9i16lBQ5bY/m/3E6wVnL1BAAJ",
       "revId": "775ed9cc6072d3edc9fdbffafbf175c2197f9cb8",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6bf8acbf_0d3486f8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2024-08-19T15:40:42Z",
+      "side": 1,
+      "message": "lgtm, thanks!\n\n(rip irc)",
+      "revId": "775ed9cc6072d3edc9fdbffafbf175c2197f9cb8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
