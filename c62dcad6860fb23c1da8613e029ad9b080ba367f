@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d2e4f224_e6161ef7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-08-20T17:51:16Z",
+      "side": 1,
+      "message": "Hi! From the chromeos toolchain team, and came across this in the wiki. I\u0027m not sure why these were marked as \"arm\" (implying arm32, as is the chromeos convention), but they are definitely aarch64 devices.\n\nExample public resource: https://wiki.postmarketos.org/wiki/MediaTek_Kompanio_520_(MT8186)",
+      "revId": "c62dcad6860fb23c1da8613e029ad9b080ba367f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
