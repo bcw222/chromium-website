@@ -1,0 +1,182 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d207bfa_444eed3e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1457772
+      },
+      "writtenOn": "2024-08-27T21:15:37Z",
+      "side": 1,
+      "message": "This looks good overall, but there are a handful of comments that I have.",
+      "revId": "fc970e5807e3ad955800fced3b71a0e94dd199f0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2288e4ef_4652fa2d",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 1233,
+      "author": {
+        "id": 1457772
+      },
+      "writtenOn": "2024-08-27T21:15:37Z",
+      "side": 1,
+      "message": "```suggestion\nthe proper board-specific libraries, etc., allowing you to run your target\n```",
+      "range": {
+        "startLine": 1233,
+        "startChar": 0,
+        "endLine": 1233,
+        "endChar": 73
+      },
+      "revId": "fc970e5807e3ad955800fced3b71a0e94dd199f0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "68fc912b_d7d01b1f",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 1237,
+      "author": {
+        "id": 1457772
+      },
+      "writtenOn": "2024-08-27T21:15:37Z",
+      "side": 1,
+      "message": "```suggestion\n`cros debug` is intended to be a modern replacement for `gdb-${BOARD}`, defaulting\nto the LLVM debugger (LLDB) instead of GDB. It handles both remote\n```",
+      "range": {
+        "startLine": 1236,
+        "startChar": 0,
+        "endLine": 1237,
+        "endChar": 78
+      },
+      "revId": "fc970e5807e3ad955800fced3b71a0e94dd199f0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c5b94bc7_fd8ad51c",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 1240,
+      "author": {
+        "id": 1457772
+      },
+      "writtenOn": "2024-08-27T21:15:37Z",
+      "side": 1,
+      "message": "```suggestion\nsymbol files and source code files. Although `gdb-${BOARD}` is still available,\nwe expect you will have a better experience with the much newer `cros debug`.\n```",
+      "range": {
+        "startLine": 1239,
+        "startChar": 36,
+        "endLine": 1240,
+        "endChar": 77
+      },
+      "revId": "fc970e5807e3ad955800fced3b71a0e94dd199f0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f26021e6_64a8f0f3",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 1260,
+      "author": {
+        "id": 1457772
+      },
+      "writtenOn": "2024-08-27T21:15:37Z",
+      "side": 1,
+      "message": "```suggestion\nNote that QEMU can often be unreliable for debugging, or fail to work\nat all. Note that you may need to resort to remote debugging on actual\nhardware (e.g. using `crosfleet`) when debugging on non-x86\narchitectures.\n```",
+      "range": {
+        "startLine": 1258,
+        "startChar": 0,
+        "endLine": 1260,
+        "endChar": 62
+      },
+      "revId": "fc970e5807e3ad955800fced3b71a0e94dd199f0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "87fb44d6_30884537",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 1416,
+      "author": {
+        "id": 1457772
+      },
+      "writtenOn": "2024-08-27T21:15:37Z",
+      "side": 1,
+      "message": "```suggestion\n`cros debug`---in remote debugging mode---works by establishing the required\n```",
+      "range": {
+        "startLine": 1416,
+        "startChar": 0,
+        "endLine": 1416,
+        "endChar": 74
+      },
+      "revId": "fc970e5807e3ad955800fced3b71a0e94dd199f0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "99d370bf_7f5d15e9",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 1423,
+      "author": {
+        "id": 1457772
+      },
+      "writtenOn": "2024-08-27T21:15:37Z",
+      "side": 1,
+      "message": "Please indent the contents of the bullet so that it\u0027s clear where one bullet stops and the next starts.",
+      "range": {
+        "startLine": 1423,
+        "startChar": 0,
+        "endLine": 1423,
+        "endChar": 1
+      },
+      "revId": "fc970e5807e3ad955800fced3b71a0e94dd199f0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "68e4dceb_b30f1d48",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 1497,
+      "author": {
+        "id": 1457772
+      },
+      "writtenOn": "2024-08-27T21:15:37Z",
+      "side": 1,
+      "message": "Please use one of `*` or `-` for bullets.",
+      "range": {
+        "startLine": 1497,
+        "startChar": 0,
+        "endLine": 1497,
+        "endChar": 1
+      },
+      "revId": "fc970e5807e3ad955800fced3b71a0e94dd199f0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
