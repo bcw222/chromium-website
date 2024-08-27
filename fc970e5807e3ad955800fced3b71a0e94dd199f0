@@ -41,6 +41,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c17b66e0_79d47309",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 1233,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-27T22:28:19Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "2288e4ef_4652fa2d",
+      "range": {
+        "startLine": 1233,
+        "startChar": 0,
+        "endLine": 1233,
+        "endChar": 73
+      },
+      "revId": "fc970e5807e3ad955800fced3b71a0e94dd199f0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "68fc912b_d7d01b1f",
@@ -54,6 +78,30 @@
       "writtenOn": "2024-08-27T21:15:37Z",
       "side": 1,
       "message": "```suggestion\n`cros debug` is intended to be a modern replacement for `gdb-${BOARD}`, defaulting\nto the LLVM debugger (LLDB) instead of GDB. It handles both remote\n```",
+      "range": {
+        "startLine": 1236,
+        "startChar": 0,
+        "endLine": 1237,
+        "endChar": 78
+      },
+      "revId": "fc970e5807e3ad955800fced3b71a0e94dd199f0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "77d10282_be67c500",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 1237,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-27T22:28:19Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "68fc912b_d7d01b1f",
       "range": {
         "startLine": 1236,
         "startChar": 0,
@@ -87,6 +135,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5030dac_0f1eb003",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 1240,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-27T22:28:19Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "c5b94bc7_fd8ad51c",
+      "range": {
+        "startLine": 1239,
+        "startChar": 36,
+        "endLine": 1240,
+        "endChar": 77
+      },
+      "revId": "fc970e5807e3ad955800fced3b71a0e94dd199f0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f26021e6_64a8f0f3",
@@ -110,6 +182,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb9929f1_17edff54",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 1260,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-27T22:28:19Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "f26021e6_64a8f0f3",
+      "range": {
+        "startLine": 1258,
+        "startChar": 0,
+        "endLine": 1260,
+        "endChar": 62
+      },
+      "revId": "fc970e5807e3ad955800fced3b71a0e94dd199f0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "87fb44d6_30884537",
@@ -123,6 +219,30 @@
       "writtenOn": "2024-08-27T21:15:37Z",
       "side": 1,
       "message": "```suggestion\n`cros debug`---in remote debugging mode---works by establishing the required\n```",
+      "range": {
+        "startLine": 1416,
+        "startChar": 0,
+        "endLine": 1416,
+        "endChar": 74
+      },
+      "revId": "fc970e5807e3ad955800fced3b71a0e94dd199f0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe97ee12_164443ac",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 1416,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-27T22:28:19Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "87fb44d6_30884537",
       "range": {
         "startLine": 1416,
         "startChar": 0,
