@@ -276,6 +276,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "91b49b3f_85717a85",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 1423,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-27T22:32:57Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "99d370bf_7f5d15e9",
+      "range": {
+        "startLine": 1423,
+        "startChar": 0,
+        "endLine": 1423,
+        "endChar": 1
+      },
+      "revId": "fc970e5807e3ad955800fced3b71a0e94dd199f0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "68e4dceb_b30f1d48",
@@ -289,6 +313,30 @@
       "writtenOn": "2024-08-27T21:15:37Z",
       "side": 1,
       "message": "Please use one of `*` or `-` for bullets.",
+      "range": {
+        "startLine": 1497,
+        "startChar": 0,
+        "endLine": 1497,
+        "endChar": 1
+      },
+      "revId": "fc970e5807e3ad955800fced3b71a0e94dd199f0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "738f6cbd_54c93c7c",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 1497,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-27T22:32:57Z",
+      "side": 1,
+      "message": "Done, swapped other instances to `*`.",
+      "parentUuid": "68e4dceb_b30f1d48",
       "range": {
         "startLine": 1497,
         "startChar": 0,
