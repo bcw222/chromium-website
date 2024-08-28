@@ -1,0 +1,414 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a136dfcc_0ee96e56",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-08-28T21:49:34Z",
+      "side": 1,
+      "message": "Thank you for this! Some mostly minor comments.",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2c28668e_9f3ddad8",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1232,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-08-28T21:49:34Z",
+      "side": 1,
+      "message": "\u003e use the proper board-specific libraries, etc.\n\nThe phrasing here feels a little weird. I think it\u0027s the `etc.`. Maybe split into more sentences? Something like:\n\n\"Both tools support local debugging within your board sysroot, and both tools use the appropriate board-specific libraries. They both allow you to run your target compiled binaries locally.\"",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fdcf4c04_e6d95e3c",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1255,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-08-28T21:49:34Z",
+      "side": 1,
+      "message": "You should mention that cros debug requires the user to build lldb for that board first. Perhaps cros debug should check to see if lldb is installed, then either (a) install it or (b) warn that it needs to be installed for that board first.\n\nI would also mention what this particular command does, that is:\n\n`locally starts $VOLTEER_BUILD/usr/sbin/spaced inside lldb within the volteer sysroot`",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d5fbc1d7_24e72e71",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1417,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-08-28T21:49:34Z",
+      "side": 1,
+      "message": "nit: There\u0027s enough steps here (and the steps are long enough), that these should probably be bullet points.",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "37514bbb_633da252",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1420,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-08-28T21:49:34Z",
+      "side": 1,
+      "message": "nit: `locally-built`, just to clarify that it\u0027s not locally `built-debug` while reading this.",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d2652759_3dbff4e0",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1438,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-08-28T21:49:34Z",
+      "side": 1,
+      "message": "nit: Last sentence is probably redundant. Every chromeos developer should know this.",
+      "range": {
+        "startLine": 1437,
+        "startChar": 50,
+        "endLine": 1438,
+        "endChar": 29
+      },
+      "fixSuggestions": [
+        {
+          "fixId": "a45667c7_baf27765",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+              "range": {
+                "startLine": 1437,
+                "startChar": 0,
+                "endLine": 1439,
+                "endChar": 0
+              },
+              "replacement": "     differ from the local machine\u0027s architecture.\n"
+            }
+          ]
+        }
+      ],
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "89b4348a_7b8961dc",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1462,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-08-28T21:49:34Z",
+      "side": 1,
+      "message": "nit: perhaps use an example with `gdb`? Also the invocation doesn\u0027t use an `\u003d`",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a41604bf_939cb1a6",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1475,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-08-28T21:49:34Z",
+      "side": 1,
+      "message": "Are `-g` entries passed quoted, or unquoted? How are spaces handled? We should be clear about this.",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9ef6fcd4_2c2f34ac",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1477,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-08-28T21:49:34Z",
+      "side": 1,
+      "message": "Add an example for launching the debugger with a core file/dmp file.",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e52de94_3b4cb957",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1483,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-08-28T21:49:34Z",
+      "side": 1,
+      "message": "it must be clear that /path/to/debug/files is from within the board sysroot. If tab completion is supported here, you should mention that.",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dca80eb7_1bc664af",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1491,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-08-28T21:49:34Z",
+      "side": 1,
+      "message": "nit: `cros_sdk FEATURES\u003d\"noclean\" -- emerge-${BOARD} ${package}`",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3f13e20e_5fb4dce0",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1496,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-08-28T21:49:34Z",
+      "side": 1,
+      "message": "You don\u0027t have to give out the `--help` in the docs here. I would instead focus on examples and highlight interesting flags and caveats, rather than the entire summary.\n\nAs tools develop, --help changes and that should be the source of truth, not this page. This page should give long examples that are not appropriate for the `--help`.",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e4842e4a_bd89d634",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1499,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-08-28T21:49:34Z",
+      "side": 1,
+      "message": "If this is required for local debugging, mention that. Maybe \"override\" is the wrong word if it _needs_ to be listed for local debugging (as it\u0027s not overriding anything in that case).\n\nAlso potentially remove this one.",
+      "fixSuggestions": [
+        {
+          "fixId": "1022c608_99929971",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+              "range": {
+                "startLine": 1500,
+                "startChar": 0,
+                "endLine": 1500,
+                "endChar": 0
+              },
+              "replacement": " For local debugging, this is required to specify the board.\n"
+            }
+          ]
+        }
+      ],
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a8c37a9_07ee9ccd",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1504,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-08-28T21:49:34Z",
+      "side": 1,
+      "message": "Documentation here is good, but you probably should mention earlier that the *default* behaviour copies over the local executable. You mention it _can_ but not that it _does_ above.",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1006a552_b4dd7ed6",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1509,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-08-28T21:49:34Z",
+      "side": 1,
+      "message": "Give an example for this (e.g. `--debugger-path\u003d/usr/bin/lldb`). Also specify whether this is relative to the remote device, the board build root, the chroot, or the host system.",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "04f777fc_5828f3b7",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1513,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-08-28T21:49:34Z",
+      "side": 1,
+      "message": "I would rephrase this \"while there are extension points for future gdb integration, it is currently unsupported\", rather than just \"planned\".",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "588c4e15_566ecbca",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1516,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-08-28T21:49:34Z",
+      "side": 1,
+      "message": "Weird -- placement?",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bc267f59_52a4f057",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1527,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-08-28T21:49:34Z",
+      "side": 1,
+      "message": "Probably remove this one.",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c224adcb_e60f5c7c",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1537,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-08-28T21:49:34Z",
+      "side": 1,
+      "message": "I believe labtunnel is internal only. While its existence isn\u0027t a secret or anything (it\u0027s just it\u0027s useless to non-googlers), I would find precedent for someone linking it in the public docs, and linking it here.",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "788a54bc_4a6ca21f",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1610,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-08-28T21:49:34Z",
+      "side": 1,
+      "message": "nit: Just to be more explicit and robust, I would prefer:\n\n```\ncros_sdk CFLAGS\u003d\u0027-g\u0027 FEATURES\u003d\u0027noclean\u0027 -- emerge-${BOARD} -v sys-apps/mosys\n```",
+      "fixSuggestions": [
+        {
+          "fixId": "2b5de680_c5be1835",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+              "range": {
+                "startLine": 1610,
+                "startChar": 0,
+                "endLine": 1613,
+                "endChar": 0
+              },
+              "replacement": ""
+            },
+            {
+              "path": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+              "range": {
+                "startLine": 1618,
+                "startChar": 0,
+                "endLine": 1623,
+                "endChar": 0
+              },
+              "replacement": ""
+            }
+          ]
+        }
+      ],
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
