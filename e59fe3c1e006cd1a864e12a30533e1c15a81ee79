@@ -231,6 +231,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "98e77f9b_fbcd3237",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1496,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-08-28T21:51:15Z",
+      "side": 1,
+      "message": "Even more so, I would walk through a full example, from beginning to end, on how to debug a single executable both locally and remotely.",
+      "parentUuid": "3f13e20e_5fb4dce0",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e4842e4a_bd89d634",
         "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
         "patchSetId": 3
