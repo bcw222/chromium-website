@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dad0a2cf_7239cf0a",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1232,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-29T22:08:43Z",
+      "side": 1,
+      "message": "Rephrased and removed the \"etc.\".",
+      "parentUuid": "2c28668e_9f3ddad8",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fdcf4c04_e6d95e3c",
@@ -48,6 +66,24 @@
       "writtenOn": "2024-08-28T21:49:34Z",
       "side": 1,
       "message": "You should mention that cros debug requires the user to build lldb for that board first. Perhaps cros debug should check to see if lldb is installed, then either (a) install it or (b) warn that it needs to be installed for that board first.\n\nI would also mention what this particular command does, that is:\n\n`locally starts $VOLTEER_BUILD/usr/sbin/spaced inside lldb within the volteer sysroot`",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "495e5b85_c9183932",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1255,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-29T22:08:43Z",
+      "side": 1,
+      "message": "Checking that `lldb` is installed for the particular board is a good idea-- I\u0027ll experiment and see if that feature would be simple to add to `cros debug`. Right now, if `lldb` isn\u0027t installed for the board in use, `cros debug` will crash, but with a probably not especially helpful error message. I added clarification on your other points.",
+      "parentUuid": "fdcf4c04_e6d95e3c",
       "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -69,6 +105,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe93193c_ec52a1d1",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1417,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-29T22:08:43Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "d5fbc1d7_24e72e71",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "37514bbb_633da252",
@@ -82,6 +136,24 @@
       "writtenOn": "2024-08-28T21:49:34Z",
       "side": 1,
       "message": "nit: `locally-built`, just to clarify that it\u0027s not locally `built-debug` while reading this.",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "41d60b51_3a4faabd",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1420,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-29T22:08:43Z",
+      "side": 1,
+      "message": "Going to leave this, I think the ordering of adverbs is clear enough. No need for a dash when the adverb ends in -ly (locally).",
+      "parentUuid": "37514bbb_633da252",
       "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -127,6 +199,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "71fe4660_24edcd58",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1438,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-29T22:08:43Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "d2652759_3dbff4e0",
+      "range": {
+        "startLine": 1437,
+        "startChar": 50,
+        "endLine": 1438,
+        "endChar": 29
+      },
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "89b4348a_7b8961dc",
@@ -140,6 +236,24 @@
       "writtenOn": "2024-08-28T21:49:34Z",
       "side": 1,
       "message": "nit: perhaps use an example with `gdb`? Also the invocation doesn\u0027t use an `\u003d`",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c5675da4_ffc4dd79",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1462,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-29T22:08:43Z",
+      "side": 1,
+      "message": "Since GDB support is not yet implemented, I\u0027ll leave it as is. Python\u0027s `argparse` module allows you to specify the options either with an equals sign and no spaces (useful for clarity or when there are special characters in the value), or with space deliniation. All chromite tooling behaves like this, since it all uses `argparse`.",
+      "parentUuid": "89b4348a_7b8961dc",
       "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -161,6 +275,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c4bd5ec_9c531a8e",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1475,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-29T22:08:43Z",
+      "side": 1,
+      "message": "This is really a question about how `argparse` handles options. If there are no `-` characters in the option, you can provide the value to `-g` with spaces, like you would any other option. However, if the value for `-g` has a `-` character, you must use an equals sign `\u003d` to clarify that the option is not for `cros debug` itself. If there are spaces in the option, you must use quotes. I\u0027ve clarified this here.",
+      "parentUuid": "a41604bf_939cb1a6",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9ef6fcd4_2c2f34ac",
@@ -174,6 +306,24 @@
       "writtenOn": "2024-08-28T21:49:34Z",
       "side": 1,
       "message": "Add an example for launching the debugger with a core file/dmp file.",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce44527c_ba06e30c",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1477,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-29T22:08:43Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "9ef6fcd4_2c2f34ac",
       "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -195,6 +345,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2d744ded_95c8bfcc",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1483,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-29T22:08:43Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "3e52de94_3b4cb957",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dca80eb7_1bc664af",
@@ -208,6 +376,24 @@
       "writtenOn": "2024-08-28T21:49:34Z",
       "side": 1,
       "message": "nit: `cros_sdk FEATURES\u003d\"noclean\" -- emerge-${BOARD} ${package}`",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a3717f2_17ff2c58",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1491,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-29T22:08:43Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "dca80eb7_1bc664af",
       "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -247,6 +433,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5828037e_9759e0fa",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1496,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-29T22:08:43Z",
+      "side": 1,
+      "message": "Makes sense, I\u0027ve highlighted a smaller subset of the interesting options here. I also added two full examples, one of local debugging, one of remote debugging.",
+      "parentUuid": "98e77f9b_fbcd3237",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e4842e4a_bd89d634",
@@ -282,6 +486,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "34d4129b_25787416",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1499,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-29T22:08:43Z",
+      "side": 1,
+      "message": "Removed it entirely, I think the common use case is clear. If someone needs to use the override capability, then they can read the `--help`.",
+      "parentUuid": "e4842e4a_bd89d634",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3a8c37a9_07ee9ccd",
@@ -295,6 +517,24 @@
       "writtenOn": "2024-08-28T21:49:34Z",
       "side": 1,
       "message": "Documentation here is good, but you probably should mention earlier that the *default* behaviour copies over the local executable. You mention it _can_ but not that it _does_ above.",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9df6bdb_c01fca05",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1504,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-29T22:08:43Z",
+      "side": 1,
+      "message": "I added some clarification above about how and when copying is done. In what I see as the common use case, the remote binary should be up to date already, and won\u0027t be copied (since it doesn\u0027t need to be).",
+      "parentUuid": "3a8c37a9_07ee9ccd",
       "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -316,6 +556,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "115505ca_512288a6",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1509,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-29T22:08:43Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "1006a552_b4dd7ed6",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "04f777fc_5828f3b7",
@@ -329,6 +587,24 @@
       "writtenOn": "2024-08-28T21:49:34Z",
       "side": 1,
       "message": "I would rephrase this \"while there are extension points for future gdb integration, it is currently unsupported\", rather than just \"planned\".",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e2626049_431212d1",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1513,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-29T22:08:43Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "04f777fc_5828f3b7",
       "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -350,6 +626,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "64e4c1a7_03cf6282",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1516,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-29T22:08:43Z",
+      "side": 1,
+      "message": "Fixed, removed the second phrase entirely.",
+      "parentUuid": "588c4e15_566ecbca",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bc267f59_52a4f057",
@@ -367,6 +661,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6676dad3_8ab76f49",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1527,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-29T22:08:43Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "bc267f59_52a4f057",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c224adcb_e60f5c7c",
@@ -380,6 +692,24 @@
       "writtenOn": "2024-08-28T21:49:34Z",
       "side": 1,
       "message": "I believe labtunnel is internal only. While its existence isn\u0027t a secret or anything (it\u0027s just it\u0027s useless to non-googlers), I would find precedent for someone linking it in the public docs, and linking it here.",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "399a450a_230e9fa9",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1537,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-29T22:08:43Z",
+      "side": 1,
+      "message": "There don\u0027t appear to be any other references to labtunnel anywhere on this site. I\u0027ve removed this line. Although I think it\u0027s a helpful tool for Googlers to know about, the other tips are probably more useful in the context of `cros debug`.",
+      "parentUuid": "c224adcb_e60f5c7c",
       "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -425,6 +755,24 @@
           ]
         }
       ],
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "88bc3c85_d73bf7c9",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1610,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-29T22:08:43Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "788a54bc_4a6ca21f",
       "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
