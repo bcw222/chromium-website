@@ -293,6 +293,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dbc48c57_2d6f5a21",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1475,
+      "author": {
+        "id": 3470754
+      },
+      "writtenOn": "2024-08-30T17:54:57Z",
+      "side": 1,
+      "message": "I\u0027ve now simplified the description here to mention that the arguments are properly shell escaped (see crrev.com/c/5827474)",
+      "parentUuid": "6c4bd5ec_9c531a8e",
+      "revId": "e59fe3c1e006cd1a864e12a30533e1c15a81ee79",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9ef6fcd4_2c2f34ac",
