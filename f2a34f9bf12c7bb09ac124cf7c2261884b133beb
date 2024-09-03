@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "64d314ba_c10413d0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-09-03T20:05:25Z",
+      "side": 1,
+      "message": "Honestly, this looks very good. Great work!",
+      "revId": "f2a34f9bf12c7bb09ac124cf7c2261884b133beb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "28ded7bd_0e438537",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 1259,
+      "author": {
+        "id": 1504745
+      },
+      "writtenOn": "2024-09-03T20:05:25Z",
+      "side": 1,
+      "message": "needs USE\u003d\"libedit\" for x86_64 and aarch64.",
+      "revId": "f2a34f9bf12c7bb09ac124cf7c2261884b133beb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
