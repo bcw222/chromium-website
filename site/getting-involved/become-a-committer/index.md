@@ -10,10 +10,9 @@ title: Become a Committer
 
 ## What is a committer?
 
-Technically, a committer is someone who has write access to the Chromium src Git
-repository. A committer can submit their own patches or patches from others.
-A committer can also review patches from others, though all patches need
-to either be authored by or reviewed by an
+Technically, a committer is someone who can submit their own patches or
+patches from others. A committer can also review patches from others, though
+all patches need to either be authored by or reviewed by an
 [OWNER](https://chromium.googlesource.com/chromium/src/+/main/docs/code_reviews.md#owners-files)
 as well.
 
@@ -41,19 +40,40 @@ of the repo in question.
 In a nutshell, contribute 10-20 non-trivial patches in the [Chromium
 src](https://chromium.googlesource.com/chromium/src/) Git repository, and get at
 least three different people to review them (you'll need three people to support
-you). Then ask someone to nominate you. You're basically demonstrating your
+you). It is unfortunately not easy to define what a non-trivial patch is,
+because a one-line change might be very complicated, and changes that touch
+lots of files might still be trivial. For example, changes that are
+more-or-less mechanical (e.g., renaming functions) will probably be
+considered trivial. That said, don't worry that the bar is impossibly high;
+you likely won't need a hundred CLs to find ten that qualify.
+
+Perhaps the most important aspect of being a committer is that you will be able
+to review and approve other people's changes, so we're looking for whether we
+think you'll do a good job at that.
+
+So, in addition to actually making the code changes, you're basically
+demonstrating your
 
 *   commitment to the project (10+ good patches requires a lot of your
-            valuable time),
-*   ability to collaborate with the team,
+    valuable time),
+*   ability to collaborate with the team and communicate well
 *   understanding of how the team works (policies, processes for testing
-            and code review,
-            [OWNERS](https://chromium.googlesource.com/chromium/src/+/main/docs/code_reviews.md#owners-files)
-            files, etc),
-*   understanding of the projects' code base and coding style, and
+    and code review,
+    [OWNERS](https://chromium.googlesource.com/chromium/src/+/main/docs/code_reviews.md#owners-files)
+    files, etc)
+*   understanding of the projects' code base and coding style,
+*   ability to judge when a patch might be ready for review and to submit
+    (while patches don't need to be perfect in order to be reviewed,
+    they usually should be close and not have obvious things for you
+    to fix), and
 *   ability to write good code (last but certainly not least)
 
-A current committer nominates you by sending email to committers@chromium.org
+If you think you might be ready to be a committer, ask one of the reviewers
+of your CLs or someone who is a committer who is otherwise familiar with
+your work to see if they think you are ready to be a committer and will
+nominate you.
+
+If they are, they nominate you by sending email to committers@chromium.org
 containing the following information.
 **Please do not CC the nominee on the nomination email.**
 
@@ -64,25 +84,31 @@ containing the following information.
 *   embedded list of links to revisions (about top 10) containing your
             patches
 
-Two other committers need to second your nomination. 5 working days (U.S.) after
-the nomination, or 2 working days (U.S.) after the last message in the
-discussion, whichever is later, you're a committer. If anyone objects or wants
-more information, the committers discuss and usually come to a consensus. If
+Two other committers need to second your nomination. We will wait five working
+days (U.S.) after the nomination for votes and discussion. If there is
+discussion, we'll wait an additional two working days (U.S.) after the
+last message in the discussion, to ensure people have time to review
+the nomination. If you get the votes and no one objects, at that point
+you become a committer. If anyone objects or wants more information,
+the committers discuss and usually come to a consensus. If
 issues can't be resolved, there's a vote among current committers.
 
-That's it! There is no further action you need to take on your part. The
-committers will get back to you once they make a decision.
+In the rare cases where a nomination fails, the person who nominated you
+will let you know. The objection is usually something easy to address
+like "more patches" or "not enough people are familiar with this person's work."
 
-This usually won't take longer than two weeks. Keep writing patches! Even in the
-rare cases where a nomination fails, the objection is usually something easy to
-address like "more patches" or "not enough people are familiar with this
-person's work."
+If the person you ask to nominate you thinks you're not ready, they should
+be able to tell you why not and what you need to do to meet the criteria.
 
-Once you get approval from the existing committers, we'll send you instructions
-for write access to Git. You'll also be added to committers@chromium.org. If you
-work for Google, you are expected to [become a
-sheriff](/developers/tree-sheriffs) at this point as well (see the internal
-instructions for how to add yourself to the rotations).
+Mechanically, being a committer means that you are a member of
+committers@chromium.org. It may take a few days longer after your nomination
+to actually be added to the list, but the whole process usually won't take
+longer than two weeks. Keep writing patches!
+
+At this point, if you work for Google, you may also be expected to
+[become a gardener](https://chromium.googlesource.com/chromium/src/+/main/docs/gardener.md) as well (see the internal instructions for more on this and
+how to add yourself to the rotations). Non-googlers cannot be gardeners
+and thus aren't expected to be one.
 
 Historically, most committers have worked at least partially on the Chromium
 core product and thus demonstrated C++ coding ability in their CLs, but this is
@@ -98,6 +124,12 @@ Being a committer is something that a person is, not something an email
 address or account is. This means that you can be a committer under multiple
 email addresses, and you can change your address, without needing each
 address to be re-nominated. To do so, send an email to accounts@chromium.org.
+
+If you have questions about this process, you can ask on community@chromium.org
+and people there will be happy to help you.
+
+Googlers can also look up the committers list
+[here](https://goto.google.com/chromium-committers).
 
 ## Other statuses
 
@@ -167,11 +199,15 @@ following:
             not absolutely necessary.
 
 If no one objects within two (U.S.) working days, you will be approved for
-access. It may take an additional few days for the grant to propagate to all of
-the systems (e.g., Rietveld) and for you to be notified that you're all set.
+access, and someone should get back to you to let you know.
 
-Googlers can look up the committers list
-[here](https://goto.google.com/chromium-committers).
+### Gardening
+
+As noted above, there is a separate process that we expect committers who
+are Google employees on the Chrome team to participate in called
+[gardening](https://chromium.googlesource.com/chromium/src/+/main/docs/gardener.md). You can read a little more about it at that link. The important point here
+is that non-employee committers cannot be gardeners and thus aren't expected to
+do so.
 
 ## Maintaining committer status
 
