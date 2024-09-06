@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd4d6bbe_5f4e0cdd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-06T22:57:42Z",
+      "side": 1,
+      "message": "Hi all,\n\nI\u0027ve taken a stab at trying to clarify the committer process. Please let me know\nwhat you think and whether you still think if anything is unclear.",
+      "revId": "2086eac1bebcbb7f32d2aa282372d212b9177554",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
