@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb36648a_7f5405e9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1541473
+      },
+      "writtenOn": "2024-09-08T08:00:05Z",
+      "side": 1,
+      "message": "Have a nice day",
+      "revId": "3849ab67fb9d950685630d6de3ef5ebb8213ccb5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
