@@ -71,6 +71,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "06605ca9_c2e79858",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-09T19:02:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "79eceac3_70659067",
+      "revId": "fc69c9b592e2b76097d45b6efa0ef942cf82e977",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6755552c_54180b12",
@@ -150,6 +168,30 @@
       "side": 1,
       "message": "SG",
       "parentUuid": "bbf8a31f_080adc41",
+      "range": {
+        "startLine": 206,
+        "startChar": 38,
+        "endLine": 206,
+        "endChar": 39
+      },
+      "revId": "fc69c9b592e2b76097d45b6efa0ef942cf82e977",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11de65bc_b6afc434",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-09T19:02:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ee79553d_22e71d12",
       "range": {
         "startLine": 206,
         "startChar": 38,
