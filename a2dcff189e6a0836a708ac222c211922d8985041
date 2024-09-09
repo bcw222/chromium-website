@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3716a1f2_3e4e29bd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1289508
+      },
+      "writtenOn": "2024-09-09T21:45:36Z",
+      "side": 1,
+      "message": "https://www.chromium.org/chromium-os/developer-library/guides/debugging/debug-buttons\n\ne.g.\nhttps://www.chromium.org/chromium-os/developer-library/guides/debugging/debug-buttons/#firmware-keyboard-interface",
+      "revId": "a2dcff189e6a0836a708ac222c211922d8985041",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
