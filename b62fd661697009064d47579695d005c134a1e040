@@ -37,6 +37,142 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8b27b3b6_5de22cd1",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-09-09T22:15:42Z",
+      "side": 1,
+      "message": "Nit: \"...contribute at least ten non-trivial...\"? \"...contribute ten or so non-trivial...\"? \"...contribute enough non-trivial patches (generally around ten) to demonstrate your work\"?",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4e39302b_94093986",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-09-09T22:15:42Z",
+      "side": 1,
+      "message": "Nit: \"..., and have at least three people willing to support you (generally, your reviewers).\"?",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0aa7dab6_c8c5dc41",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-09-09T22:15:42Z",
+      "side": 1,
+      "message": "Nit: I might say \"might be subtle\" instead of \"might be very complicated, because I wouldn\u0027t want people to assume \"non-trivial\" means \"complex\".",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "859956a3_5c54aa03",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-09-09T22:15:42Z",
+      "side": 1,
+      "message": "Nit: \"...; you won\u0027t normally need a hundred CLs, and if you aren\u0027t certain whether your work meets the bar, just ask an existing committer.\"?",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b191cb33_f8db9519",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-09-09T22:15:42Z",
+      "side": 1,
+      "message": "Nit: \"..., your work should not generally have glaring flaws unless you\u0027re explicitly requesting early feedback on an incomplete patch), ...\"?",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d7ec85e1_fb864cf9",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-09-09T22:15:42Z",
+      "side": 1,
+      "message": "Nit: I would eliminate \"think you are ready to be a committer and\" (redundant)",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "402c0daa_7d215cfc",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-09-09T22:15:42Z",
+      "side": 1,
+      "message": "Nit: Prefix with \"Committers:\"",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3987b736_44e2bf96",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-09-09T22:15:42Z",
+      "side": 1,
+      "message": "Nit: \"embedded list of representative landed patches\"?",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6cb322f3_23acbdb5",
         "filename": "site/getting-involved/become-a-committer/index.md",
         "patchSetId": 3
@@ -66,6 +202,58 @@
           ]
         }
       ],
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9555649a_f24a9a2f",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-09-09T22:15:42Z",
+      "side": 1,
+      "message": "As far as I\u0027m aware, we have multiple gardening rotations (e.g. main tree, branch), but everyone should be on at least one. I\u0027d worry that \"usually\" gives cover to managers who want an exception for their team.",
+      "parentUuid": "6cb322f3_23acbdb5",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dfd19dd1_f9346536",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 204,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-09-09T22:15:42Z",
+      "side": 1,
+      "message": "Nit: Remove first sentence (redundant)",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5621467e_adff3e8b",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-09-09T22:15:42Z",
+      "side": 1,
+      "message": "Nit: I think we should be clear on the \"why\" to forestall concerns about privilege. I would replace this whole paragraph with: \"Because gardeners are granted temporary Owners-Override permissions by an internal tool that only works for Google employees, committers outside the Chrome team cannot be gardeners and are not expected to do so.\"",
       "revId": "b62fd661697009064d47579695d005c134a1e040",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
