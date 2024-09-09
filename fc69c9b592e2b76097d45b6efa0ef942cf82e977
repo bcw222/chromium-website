@@ -37,6 +37,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ee2b6bed_f7756e9e",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-09T18:56:23Z",
+      "side": 1,
+      "message": "Yeah, I debated that in my head. I think it fits naturally here, but then the section below is redundant. And, I did want some place we could directly link to that talked about the gardening requirement, and I don\u0027t that fits here.\n\nI\u0027ll delete this block and we can see if that\u0027s sufficient.",
+      "parentUuid": "50a67d12_c7100425",
+      "revId": "fc69c9b592e2b76097d45b6efa0ef942cf82e977",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6755552c_54180b12",
         "filename": "site/getting-involved/become-a-committer/index.md",
         "patchSetId": 2
@@ -72,6 +90,30 @@
           ]
         }
       ],
+      "revId": "fc69c9b592e2b76097d45b6efa0ef942cf82e977",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bbf8a31f_080adc41",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-09T18:56:23Z",
+      "side": 1,
+      "message": "I think \"responsibility\" is fine; I\u0027d probably omit \"housekeeping\" as it might be a bit too colloquial.",
+      "parentUuid": "6755552c_54180b12",
+      "range": {
+        "startLine": 206,
+        "startChar": 38,
+        "endLine": 206,
+        "endChar": 39
+      },
       "revId": "fc69c9b592e2b76097d45b6efa0ef942cf82e977",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
