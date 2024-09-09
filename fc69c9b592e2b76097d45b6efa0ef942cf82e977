@@ -55,6 +55,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "79eceac3_70659067",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1000112
+      },
+      "writtenOn": "2024-09-09T19:00:51Z",
+      "side": 1,
+      "message": "Ok, SG",
+      "parentUuid": "ee2b6bed_f7756e9e",
+      "revId": "fc69c9b592e2b76097d45b6efa0ef942cf82e977",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6755552c_54180b12",
         "filename": "site/getting-involved/become-a-committer/index.md",
         "patchSetId": 2
@@ -108,6 +126,30 @@
       "side": 1,
       "message": "I think \"responsibility\" is fine; I\u0027d probably omit \"housekeeping\" as it might be a bit too colloquial.",
       "parentUuid": "6755552c_54180b12",
+      "range": {
+        "startLine": 206,
+        "startChar": 38,
+        "endLine": 206,
+        "endChar": 39
+      },
+      "revId": "fc69c9b592e2b76097d45b6efa0ef942cf82e977",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ee79553d_22e71d12",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1000112
+      },
+      "writtenOn": "2024-09-09T19:00:51Z",
+      "side": 1,
+      "message": "SG",
+      "parentUuid": "bbf8a31f_080adc41",
       "range": {
         "startLine": 206,
         "startChar": 38,
