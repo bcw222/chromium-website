@@ -1,0 +1,79 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "637f3ca5_07b5d099",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000112
+      },
+      "writtenOn": "2024-09-09T13:41:07Z",
+      "side": 1,
+      "message": "Thanks Dirk, this is great! Just a couple little suggestions.",
+      "revId": "fc69c9b592e2b76097d45b6efa0ef942cf82e977",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "50a67d12_c7100425",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1000112
+      },
+      "writtenOn": "2024-09-09T13:41:07Z",
+      "side": 1,
+      "message": "This paragraph is redundant with the new section below. Maybe just omit it here? I don\u0027t think this is so important that we need to repeat it, right?",
+      "revId": "fc69c9b592e2b76097d45b6efa0ef942cf82e977",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6755552c_54180b12",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1000112
+      },
+      "writtenOn": "2024-09-09T13:41:07Z",
+      "side": 1,
+      "message": "I worry a little about this sounding like some extra googler-only privilege. Instead of \"separate process\" we say something like \"separate housekeeping responsibility\"?",
+      "range": {
+        "startLine": 206,
+        "startChar": 38,
+        "endLine": 206,
+        "endChar": 39
+      },
+      "fixSuggestions": [
+        {
+          "fixId": "87df346d_69283f1a",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/getting-involved/become-a-committer/index.md",
+              "range": {
+                "startLine": 206,
+                "startChar": 0,
+                "endLine": 208,
+                "endChar": 0
+              },
+              "replacement": "As noted above, there is a separate housekeeping responsibility that we expect\ncommitters who are Google employees on the Chrome team to participate in called\n"
+            }
+          ]
+        }
+      ],
+      "revId": "fc69c9b592e2b76097d45b6efa0ef942cf82e977",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
