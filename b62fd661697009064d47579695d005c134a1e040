@@ -16,6 +16,58 @@
       "message": "LGTM, thanks!",
       "revId": "b62fd661697009064d47579695d005c134a1e040",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "062f8ec9_65d63405",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000112
+      },
+      "writtenOn": "2024-09-09T19:13:34Z",
+      "side": 1,
+      "message": "Sorry, one more tweak. IMHO this was too strong of a statement, maybe still too strong after \"usually\"\u003e",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6cb322f3_23acbdb5",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 1000112
+      },
+      "writtenOn": "2024-09-09T19:13:34Z",
+      "side": 1,
+      "message": "Maybe \"usually expect\"? I think the rule is that you need to be on at least one such rotation, but there are a number of things that can quality in addition to just main chromium gardening, right?",
+      "fixSuggestions": [
+        {
+          "fixId": "176d11f3_d96204f4",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/getting-involved/become-a-committer/index.md",
+              "range": {
+                "startLine": 203,
+                "startChar": 0,
+                "endLine": 204,
+                "endChar": 0
+              },
+              "replacement": "[gardening](https://chromium.googlesource.com/chromium/src/+/main/docs/gardener.md) that we usually expect them to fulfill.\n"
+            }
+          ]
+        }
+      ],
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
