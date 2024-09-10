@@ -310,6 +310,24 @@
       "parentUuid": "5621467e_adff3e8b",
       "revId": "b62fd661697009064d47579695d005c134a1e040",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "381182b7_f83800ec",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-09-10T21:15:47Z",
+      "side": 1,
+      "message": "Interesting. The OO bit was the only thing ever mentioned to me. Whatever we can (briefly) say would be helpful, I think.",
+      "parentUuid": "a1e26f1f_cb4f1004",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
