@@ -226,6 +226,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d2fd61bd_11029654",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 1000112
+      },
+      "writtenOn": "2024-09-10T13:16:47Z",
+      "side": 1,
+      "message": "Sure, but this link is just about chromium build gardening. If we want to be precise we could say \"Committers who are google employees on the Chrome team are also expected to fulfill a gardening responsibility such as [chromium tree gardening](https://chromium.googlesource.com/chromium/src/+/main/docs/gardener.md).",
+      "parentUuid": "9555649a_f24a9a2f",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "dfd19dd1_f9346536",
         "filename": "site/getting-involved/become-a-committer/index.md",
         "patchSetId": 3
