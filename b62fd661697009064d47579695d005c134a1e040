@@ -244,6 +244,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "275d98a6_80f3dbfa",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-10T19:46:11Z",
+      "side": 1,
+      "message": "I don\u0027t mean to focus on just the main rotation, so I\u0027ll see how I can reword things to be more generic.",
+      "parentUuid": "d2fd61bd_11029654",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "dfd19dd1_f9346536",
         "filename": "site/getting-involved/become-a-committer/index.md",
         "patchSetId": 3
@@ -272,6 +290,24 @@
       "writtenOn": "2024-09-09T22:15:42Z",
       "side": 1,
       "message": "Nit: I think we should be clear on the \"why\" to forestall concerns about privilege. I would replace this whole paragraph with: \"Because gardeners are granted temporary Owners-Override permissions by an internal tool that only works for Google employees, committers outside the Chrome team cannot be gardeners and are not expected to do so.\"",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a1e26f1f_cb4f1004",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-10T19:46:11Z",
+      "side": 1,
+      "message": "In my understanding, that\u0027s not why, though. Historically I think we restricted this because we viewed this as a price that we only wanted Googlers to have to pay. Nowadays, we have internal builders as part of the main gardening rotation, so that\u0027s another reason.",
+      "parentUuid": "5621467e_adff3e8b",
       "revId": "b62fd661697009064d47579695d005c134a1e040",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
