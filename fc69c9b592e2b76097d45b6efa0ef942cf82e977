@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd499e4e_eaac627c",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-10T22:49:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "896faf4e_dae96c13",
+      "revId": "fc69c9b592e2b76097d45b6efa0ef942cf82e977",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "50a67d12_c7100425",

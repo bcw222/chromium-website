@@ -35,6 +35,23 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c013ff4d_d42430ee",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-10T22:49:37Z",
+      "side": 1,
+      "message": "I\u0027ve addressed most but not all of the feedback. There were a couple of points I didn\u0027t follow. Please take another look?",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8b27b3b6_5de22cd1",
@@ -48,6 +65,24 @@
       "writtenOn": "2024-09-09T22:15:42Z",
       "side": 1,
       "message": "Nit: \"...contribute at least ten non-trivial...\"? \"...contribute ten or so non-trivial...\"? \"...contribute enough non-trivial patches (generally around ten) to demonstrate your work\"?",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b72b1e75_22284b1f",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-10T22:49:37Z",
+      "side": 1,
+      "message": "I\u0027ll go with \"at least ten\" since that\u0027s the number we theoretically are looking for.",
+      "parentUuid": "8b27b3b6_5de22cd1",
       "revId": "b62fd661697009064d47579695d005c134a1e040",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -71,6 +106,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "9b3f905c_7eb1d8a2",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-10T22:49:37Z",
+      "side": 1,
+      "message": "I\u0027m not so comfortable with this phrasing. We don\u0027t usually ask the nominee for 3 people, right?",
+      "parentUuid": "4e39302b_94093986",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "0aa7dab6_c8c5dc41",
         "filename": "site/getting-involved/become-a-committer/index.md",
         "patchSetId": 3
@@ -82,6 +135,24 @@
       "writtenOn": "2024-09-09T22:15:42Z",
       "side": 1,
       "message": "Nit: I might say \"might be subtle\" instead of \"might be very complicated, because I wouldn\u0027t want people to assume \"non-trivial\" means \"complex\".",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee642a69_62311d11",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-10T22:49:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0aa7dab6_c8c5dc41",
       "revId": "b62fd661697009064d47579695d005c134a1e040",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -103,6 +174,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e395c703_2a666865",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-10T22:49:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "859956a3_5c54aa03",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b191cb33_f8db9519",
@@ -116,6 +205,24 @@
       "writtenOn": "2024-09-09T22:15:42Z",
       "side": 1,
       "message": "Nit: \"..., your work should not generally have glaring flaws unless you\u0027re explicitly requesting early feedback on an incomplete patch), ...\"?",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b68f8ac2_728bb60c",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-10T22:49:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b191cb33_f8db9519",
       "revId": "b62fd661697009064d47579695d005c134a1e040",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -139,6 +246,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4494d71c_78fd9399",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-10T22:49:37Z",
+      "side": 1,
+      "message": "I\u0027m not following your suggestion here, it doesn\u0027t seem like you end up with a grammatically correct sentence?",
+      "parentUuid": "d7ec85e1_fb864cf9",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "402c0daa_7d215cfc",
         "filename": "site/getting-involved/become-a-committer/index.md",
         "patchSetId": 3
@@ -156,6 +281,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "48c96fd6_2e1f28f4",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-10T22:49:37Z",
+      "side": 1,
+      "message": "Prefix line 76 with \"Committers:\"? or line 78? Line 76 isn\u0027t directed at the committers, it\u0027s directed at the nominee.",
+      "parentUuid": "402c0daa_7d215cfc",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3987b736_44e2bf96",
         "filename": "site/getting-involved/become-a-committer/index.md",
         "patchSetId": 3
@@ -167,6 +310,24 @@
       "writtenOn": "2024-09-09T22:15:42Z",
       "side": 1,
       "message": "Nit: \"embedded list of representative landed patches\"?",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "368d187f_651fd3ec",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-10T22:49:37Z",
+      "side": 1,
+      "message": "Mostly done, though in looking at it again I think we can strike \"embedded\". Let me know if you think we should keep it.",
+      "parentUuid": "3987b736_44e2bf96",
       "revId": "b62fd661697009064d47579695d005c134a1e040",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -262,6 +423,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ef812a46_59fac9de",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-10T22:49:37Z",
+      "side": 1,
+      "message": "I\u0027ve posted a CL to https://chromium-review.googlesource.com/c/chromium/src/+/5852511 to make that less trunk-gardening-specific (and fixed a couple links), and then I\u0027m going with \"expected to fulfill\".",
+      "parentUuid": "275d98a6_80f3dbfa",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "dfd19dd1_f9346536",
         "filename": "site/getting-involved/become-a-committer/index.md",
         "patchSetId": 3
@@ -273,6 +452,24 @@
       "writtenOn": "2024-09-09T22:15:42Z",
       "side": 1,
       "message": "Nit: Remove first sentence (redundant)",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1ec2419_09851aba",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 204,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-10T22:49:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dfd19dd1_f9346536",
       "revId": "b62fd661697009064d47579695d005c134a1e040",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -326,6 +523,24 @@
       "side": 1,
       "message": "Interesting. The OO bit was the only thing ever mentioned to me. Whatever we can (briefly) say would be helpful, I think.",
       "parentUuid": "a1e26f1f_cb4f1004",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "22293cca_3467ed6e",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-10T22:49:37Z",
+      "side": 1,
+      "message": "I\u0027ve added a bit more. LMK what you think.",
+      "parentUuid": "381182b7_f83800ec",
       "revId": "b62fd661697009064d47579695d005c134a1e040",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
