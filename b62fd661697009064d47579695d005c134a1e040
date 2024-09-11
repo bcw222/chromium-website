@@ -124,6 +124,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "9afda28a_7112e4b9",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-09-11T01:33:30Z",
+      "side": 1,
+      "message": "My worry is that \"three different people to review\" is not a requirement, and is neither necessary nor sufficient in practice; what\u0027s necessary is support from three total people, whether those are people the nominee is aware of or not. Any phrasing that makes that clear is OK; for example, \"Contribute at least ten patches, be nominated by an existing committer, and have at least two other committers express support. Typically, this means at least three people have reviewed enough patches to have an opinion on your ability to be an effective committer (see below).\"",
+      "parentUuid": "9b3f905c_7eb1d8a2",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "0aa7dab6_c8c5dc41",
         "filename": "site/getting-involved/become-a-committer/index.md",
         "patchSetId": 3
@@ -264,6 +282,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ca271af0_c55276ca",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-09-11T01:33:30Z",
+      "side": 1,
+      "message": "Here\u0027s a full sentence (also trimmed more): \"If you think you might be ready to be a committer, ask one of the reviewers of your CLs or another committer familiar with your work to see if they will nominate you.\"",
+      "parentUuid": "4494d71c_78fd9399",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "402c0daa_7d215cfc",
         "filename": "site/getting-involved/become-a-committer/index.md",
         "patchSetId": 3
@@ -299,6 +335,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7b8ee7d6_c0367b06",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-09-11T01:33:30Z",
+      "side": 1,
+      "message": "78. \"Committers: Please do not CC the nominee\"",
+      "parentUuid": "48c96fd6_2e1f28f4",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3987b736_44e2bf96",
         "filename": "site/getting-involved/become-a-committer/index.md",
         "patchSetId": 3
@@ -328,6 +382,24 @@
       "side": 1,
       "message": "Mostly done, though in looking at it again I think we can strike \"embedded\". Let me know if you think we should keep it.",
       "parentUuid": "3987b736_44e2bf96",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c964f27_06c2eff7",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-09-11T01:33:30Z",
+      "side": 1,
+      "message": "Sure seems fine",
+      "parentUuid": "368d187f_651fd3ec",
       "revId": "b62fd661697009064d47579695d005c134a1e040",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -439,6 +511,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "565802be_8b9eaccb",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-09-11T01:33:30Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "ef812a46_59fac9de",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dfd19dd1_f9346536",
@@ -541,6 +631,24 @@
       "side": 1,
       "message": "I\u0027ve added a bit more. LMK what you think.",
       "parentUuid": "381182b7_f83800ec",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aa87012a_d55cd631",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-09-11T01:33:30Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "22293cca_3467ed6e",
       "revId": "b62fd661697009064d47579695d005c134a1e040",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
