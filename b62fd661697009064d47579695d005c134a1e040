@@ -140,6 +140,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "63d5fe25_a85cbeb7",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-12T18:51:03Z",
+      "side": 1,
+      "message": "Okay, rephrased.",
+      "parentUuid": "9afda28a_7112e4b9",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0aa7dab6_c8c5dc41",
@@ -298,6 +316,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cc6a9899_e1e50d8d",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-12T18:51:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ca271af0_c55276ca",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "402c0daa_7d215cfc",
@@ -347,6 +383,24 @@
       "side": 1,
       "message": "78. \"Committers: Please do not CC the nominee\"",
       "parentUuid": "48c96fd6_2e1f28f4",
+      "revId": "b62fd661697009064d47579695d005c134a1e040",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fbb3dbf9_e03cb748",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-12T18:51:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7b8ee7d6_c0367b06",
       "revId": "b62fd661697009064d47579695d005c134a1e040",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },

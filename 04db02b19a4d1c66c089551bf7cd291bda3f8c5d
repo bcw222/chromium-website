@@ -52,6 +52,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "586bd525_8ac79448",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-12T18:51:03Z",
+      "side": 1,
+      "message": "Everything is wrapped to 80 cols, as far as I see, except where URLs spill over, and we don\u0027t want to wrap those (per the style guide).",
+      "parentUuid": "554859d8_a8bef930",
+      "revId": "04db02b19a4d1c66c089551bf7cd291bda3f8c5d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "87a9f31d_f7df1185",
@@ -65,6 +83,24 @@
       "writtenOn": "2024-09-11T01:33:30Z",
       "side": 1,
       "message": "This seems like a reasonable level of detail.\n\nTrivial nit: Some of the grammar seems a bit awkward, I might tweak like:\n\n\"Committers who are Google employees on the Chrome team are additionally expected to help keep the tree open and waterfall green, a process we call \\[gardening\\](\u003clink\u003e). Non-Google committers are neither expected nor able to be gardeners; this is primarily because we don\u0027t want to require this of people who aren\u0027t being paid to do it, and secondarily because it can require tools, processes, or builder access that are not public.\"",
+      "revId": "04db02b19a4d1c66c089551bf7cd291bda3f8c5d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36cd5b21_36bebc06",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-12T18:51:03Z",
+      "side": 1,
+      "message": "Done, except that I wrote \"and builder access\" instead of \"or builder access\", which I think is slightly more grammatcally correct.",
+      "parentUuid": "87a9f31d_f7df1185",
       "revId": "04db02b19a4d1c66c089551bf7cd291bda3f8c5d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
