@@ -69,6 +69,24 @@
       "parentUuid": "b1c8b182_f841206d",
       "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dcb990b1_3c7551ae",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1481202
+      },
+      "writtenOn": "2024-09-16T19:15:48Z",
+      "side": 1,
+      "message": "Unfortunately I don\u0027t think the requirement that OWNERS be committers is enforced. I have experienced getting a CL reviewed by the owner only to realize I still needed two committers because the owner wasn\u0027t one. That was maybe a year or so ago though, perhaps additional enforcement has been added?",
+      "parentUuid": "61790741_99f895c8",
+      "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
