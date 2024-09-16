@@ -41,14 +41,26 @@ In a nutshell, contribute at least ten non-trivial patches in the [Chromium
 src](https://chromium.googlesource.com/chromium/src/) Git repository, and get
 an existing committer to nominate you. You will need at least two other
 committers to support the nomination, so getting at least three different
-people to review your patches is a good idea.  It is unfortunately not easy to
-define what a non-trivial patch is, because a one-line change might be subtle,
-and changes that touch lots of files might still be trivial. For example,
-changes that are more-or-less mechanical (e.g., renaming functions) will
-probably be considered trivial. That said, don't worry that the bar is
-impossibly high; you won't normally need a hundred CLs to find ten that
-qualify, and if you aren't certain whether your work meets the bar, just ask an
-existing committer.
+people to review your patches is a good idea.
+
+It is unfortunately not easy to define what a non-trivial patch is, because a
+one-line change might be subtle, and changes that touch lots of files might
+still be trivial. For example, changes that are more-or-less mechanical (e.g.,
+renaming functions) will probably be considered trivial. Here are some
+guidelines:
+
+* "nontrivial" means literally "anything other than trivial"; it explicitly is
+  not the same thing as "major" or "significant". If it took you more than 0.5
+  seconds of thought, it's probably nontrivial.
+* Even a small change is nontrivial if the rationale or benefit was nontrivial
+  to arrive at.
+* Almost any change that isn't a pure comment change, symbol rename, or
+  clearly-obvious-on-its-face rewording whose effects are completely local (e.g.
+  a transforms like "a += 1" -> "++a") is a nontrivial change.
+* Don't worry that the bar is impossibly high; you won't normally need a hundred
+  CLs to find ten that qualify.
+* If you aren't certain whether your work meets the bar, ask an existing
+  committer.
 
 Perhaps the most important aspect of being a committer is that you will be able
 to review and approve other people's changes, so we're looking for whether we
