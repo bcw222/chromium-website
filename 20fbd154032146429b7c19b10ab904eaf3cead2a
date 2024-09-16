@@ -87,6 +87,24 @@
       "parentUuid": "61790741_99f895c8",
       "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4c967fec_b4250034",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-16T19:21:44Z",
+      "side": 1,
+      "message": "I\u0027m honestly not sure. I know for a long time it wasn\u0027t enforced, but we have some sort of automated auditing process going on now and I think that might be enforcing it. At any rate, even if it isn\u0027t foolproof, it\u0027s going to work nearly all of the time. If we can find places where non-committers are owners, those are bugs that should be fixed immediately.",
+      "parentUuid": "dcb990b1_3c7551ae",
+      "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
