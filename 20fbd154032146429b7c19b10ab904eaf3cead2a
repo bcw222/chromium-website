@@ -3,6 +3,41 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e4b9c2ba_7423e7c2",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-16T19:09:20Z",
+      "side": 1,
+      "message": "These criteria feel too lax for me, but I don\u0027t know how I\u0027d try to phrase something better.\n\nI think I\u0027ll start a thread on committers@ to see if other people have ideas\nor if we can reach a consensus.",
+      "fixSuggestions": [
+        {
+          "fixId": "b0e14a5a_12ff717d",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/getting-involved/become-a-committer/index.md",
+              "range": {
+                "startLine": 57,
+                "startChar": 0,
+                "endLine": 60,
+                "endChar": 0
+              },
+              "replacement": "* Almost any change that isn\u0027t a pure comment change, symbol rename, or a\n  clearly-obvious-on-its-face rewording whose effects are completely local\n  (e.g. a transforms like \"a +\u003d 1\" -\u003e \"++a\") is a nontrivial change.\n"
+            }
+          ]
+        }
+      ],
+      "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "b1c8b182_f841206d",
         "filename": "site/getting-involved/become-a-committer/index.md",
         "patchSetId": 1
@@ -14,6 +49,24 @@
       "writtenOn": "2024-09-16T18:31:45Z",
       "side": 1,
       "message": "I\u0027d like to describe how to find an existing committer here. I know googlers can use go/chromium-committers, but what would someone external do?",
+      "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "61790741_99f895c8",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-16T19:09:20Z",
+      "side": 1,
+      "message": "There isn\u0027t an external way someone can check to see someone is a committer or not.\n\nThe closest/most useful alternative would probably be to just pick people from OWNERS files, as all owners are supposed to be committers (and probably held to an even higher bar than committers).",
+      "parentUuid": "b1c8b182_f841206d",
       "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
