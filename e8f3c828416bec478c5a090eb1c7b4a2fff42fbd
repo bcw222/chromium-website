@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c8752ef1_d8d7a99d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001168
+      },
+      "writtenOn": "2024-09-17T23:03:11Z",
+      "side": 1,
+      "message": "LGTM\n\nDoes this mean we\u0027re migrating to a new thing? Is that something we can briefly summarize in the CL description? Is there an old way that\u0027s going away?",
+      "revId": "e8f3c828416bec478c5a090eb1c7b4a2fff42fbd",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
