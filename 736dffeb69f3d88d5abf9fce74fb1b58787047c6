@@ -16,6 +16,24 @@
       "message": "nit: not super important, but the 2nd screenshot here doesn\u0027t match what I see in the rendered view",
       "revId": "736dffeb69f3d88d5abf9fce74fb1b58787047c6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d5c50495_9e7da4b5",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 12
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1548757
+      },
+      "writtenOn": "2024-09-19T21:19:52Z",
+      "side": 1,
+      "message": "can you send a screenshot of yours? when I look at the file in gitiles it looks like my screenshot",
+      "parentUuid": "7eab94ad_2ff5ad5e",
+      "revId": "736dffeb69f3d88d5abf9fce74fb1b58787047c6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }

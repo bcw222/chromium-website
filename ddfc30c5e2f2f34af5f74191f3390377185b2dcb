@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d0513b79_3435f650",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 15
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1548757
+      },
+      "writtenOn": "2024-09-19T21:19:52Z",
+      "side": 1,
+      "message": "I could add the note to both \"Setup...\" and \"Deploying...\", or do you feel like the original location was good?",
+      "parentUuid": "fd7acb76_4fc52535",
+      "revId": "ddfc30c5e2f2f34af5f74191f3390377185b2dcb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "0ed6d086_75626fe3",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 15
