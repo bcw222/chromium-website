@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fd7acb76_4fc52535",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 15
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1481202
+      },
+      "writtenOn": "2024-09-19T21:15:41Z",
+      "side": 1,
+      "message": "I\u0027m not sold on this move. If I was skimming these docs to build and deploy shell-less, I\u0027d probably read the \"Shell-less flow\" section followed by the \"Deploying Chrome to the device\", and miss the note about paths.",
+      "revId": "ddfc30c5e2f2f34af5f74191f3390377185b2dcb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ed6d086_75626fe3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 15
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1481202
+      },
+      "writtenOn": "2024-09-19T21:15:41Z",
+      "side": 1,
+      "message": "Any interest in trying to get consensus on just removing the traditional workflow from these docs? That\u0027s not something I would want to unilaterally approve, but I think it would make the docs much clearer if we got rid of the old flow (which, IMO, is not in any way better than the shell-less flow).",
+      "revId": "ddfc30c5e2f2f34af5f74191f3390377185b2dcb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}

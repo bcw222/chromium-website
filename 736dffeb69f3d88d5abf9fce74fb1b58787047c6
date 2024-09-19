@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7eab94ad_2ff5ad5e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 12
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1481202
+      },
+      "writtenOn": "2024-09-19T21:15:41Z",
+      "side": 1,
+      "message": "nit: not super important, but the 2nd screenshot here doesn\u0027t match what I see in the rendered view",
+      "revId": "736dffeb69f3d88d5abf9fce74fb1b58787047c6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
