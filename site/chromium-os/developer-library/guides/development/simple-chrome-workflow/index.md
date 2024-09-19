@@ -83,7 +83,7 @@ The shell-less flow currently [does not handle custom
 toolchains](http://b//187793436) thus you should use the traditional flow
 if you need custom toolchains.
 
-### Shell-less flow
+## Shell-less flow
 
 The shell-less flow conforms more closely to how the browser is built for
 its other supported platforms. In this workflow, the `cros chrome-sdk` is
@@ -161,7 +161,7 @@ For example, a `deploy_chrome` invocation in the shell-less flow looks like:
 (shell) ./third_party/chromite/bin/deploy_chrome --build-dir=out_${BOARD}/Release --device=$IP_ADDR
 ```
 
-### Traditional flow
+## Traditional flow
 
 Building Chrome for ChromeOS requires a toolchain customized for each
 Chromebook model (or "board"). For the ChromeOS [VM], and non-Googlers, use
@@ -189,7 +189,7 @@ Entering the Simple Chrome environment does the following:
     [Additional setup may be required](https://chromium.googlesource.com/chromium/src/+/main/docs/linux/build_instructions.md#use-reclient).
 1.  `--download-vm` will download a ChromeOS VM and a QEMU binary.
 
-### cros chrome-sdk options
+#### cros chrome-sdk options
 
 *   `--chrome-branding` Sets up Simple Chrome to build and deploy the internal *Chrome* instead of *Chromium*.
 *   `--official` Enables the official build level of optimization.
@@ -216,7 +216,7 @@ bugs if you encounter any DCHECK crashes:
 ```
 Alternatively, you can set `dcheck_is_configurable=true` to log DCHECK errors without crashing.
 
-### cros chrome-sdk tips
+#### cros chrome-sdk tips
 
 > **Important:** When you sync/update your Chrome source, the ChromeOS SDK
 > version (src/chromeos/CHROMEOS_LKGM) may change. When the SDK version changes
@@ -232,7 +232,7 @@ Alternatively, you can set `dcheck_is_configurable=true` to log DCHECK errors wi
 
 ---
 
-## Build Chrome
+### Build Chrome
 
 To build Chrome, `cd` into `src` subdirectory of `chromium` checkout and run:
 
