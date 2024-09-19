@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b197e678_b5954b70",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 15
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1481202
+      },
+      "writtenOn": "2024-09-19T22:42:27Z",
+      "side": 1,
+      "message": "IMO the original location was fine",
+      "parentUuid": "d0513b79_3435f650",
+      "revId": "ddfc30c5e2f2f34af5f74191f3390377185b2dcb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "0ed6d086_75626fe3",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 15
