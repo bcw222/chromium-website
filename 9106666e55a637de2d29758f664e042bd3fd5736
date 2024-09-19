@@ -34,6 +34,24 @@
       "parentUuid": "17d0b66a_88b1aac9",
       "revId": "9106666e55a637de2d29758f664e042bd3fd5736",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "25920a9c_8bcf407e",
+        "filename": "site/chromium-os/developer-library/guides/development/simple-chrome-workflow/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1481202
+      },
+      "writtenOn": "2024-09-19T20:50:47Z",
+      "side": 1,
+      "message": "One option is to give it a different name. Example:\n\n```\nand setup [reclient][reclient-googlers] to speed up builds.\n\n[reclient-googlers]: go/chrome-linux-build#setup-remote-execution\n```",
+      "parentUuid": "924d8bc2_7588fedd",
+      "revId": "9106666e55a637de2d29758f664e042bd3fd5736",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
