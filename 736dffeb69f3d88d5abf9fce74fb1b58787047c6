@@ -34,6 +34,24 @@
       "parentUuid": "7eab94ad_2ff5ad5e",
       "revId": "736dffeb69f3d88d5abf9fce74fb1b58787047c6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e904787b_2611a712",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 12
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1481202
+      },
+      "writtenOn": "2024-09-19T21:42:59Z",
+      "side": 1,
+      "message": "I didn\u0027t run it locally, I used the link posted by tricium. I think that explains it tho -- the local build doesn\u0027t actually use the same renderer as the website.",
+      "parentUuid": "d5c50495_9e7da4b5",
+      "revId": "736dffeb69f3d88d5abf9fce74fb1b58787047c6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
