@@ -16,6 +16,24 @@
       "message": "nit: move the reclient link to link list at the bottom and line wrap",
       "revId": "9106666e55a637de2d29758f664e042bd3fd5736",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "924d8bc2_7588fedd",
+        "filename": "site/chromium-os/developer-library/guides/development/simple-chrome-workflow/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1548757
+      },
+      "writtenOn": "2024-09-19T20:49:20Z",
+      "side": 1,
+      "message": "There is already a reclient link in the link list, except its pointing to its git repo (this pre-existing link is intended for the general audience). So I\u0027ll keep the direct link but I have line wrapped.",
+      "parentUuid": "17d0b66a_88b1aac9",
+      "revId": "9106666e55a637de2d29758f664e042bd3fd5736",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
