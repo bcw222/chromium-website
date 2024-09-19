@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "38d23c22_bacbd78b",
+        "filename": "site/chromium-os/developer-library/guides/development/simple-chrome-workflow/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1481202
+      },
+      "writtenOn": "2024-09-19T21:02:11Z",
+      "side": 1,
+      "message": "```suggestion\n`\"checkout_src_internal\": True` and set up [reclient][reclient-googlers]\n```\n\n(noun vs verb)",
+      "revId": "42993805e0fadacb44bfd2db3469caa5c324157a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
