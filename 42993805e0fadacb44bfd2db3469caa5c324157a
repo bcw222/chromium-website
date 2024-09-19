@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "080e1ce6_2255fc8e",
+        "filename": "site/chromium-os/developer-library/guides/development/simple-chrome-workflow/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1548757
+      },
+      "writtenOn": "2024-09-19T21:05:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "38d23c22_bacbd78b",
+      "revId": "42993805e0fadacb44bfd2db3469caa5c324157a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c42dcb62_01c12fdc",
@@ -31,6 +49,24 @@
       "writtenOn": "2024-09-19T21:03:34Z",
       "side": 1,
       "message": "```suggestion\n[reclient-googlers]: https://goto.google.com/chrome-linux-build#set-up-remote-execution\n```\n\n(otherwise it doesn\u0027t go to the right section)",
+      "revId": "42993805e0fadacb44bfd2db3469caa5c324157a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc90d142_70de0606",
+        "filename": "site/chromium-os/developer-library/guides/development/simple-chrome-workflow/index.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 916,
+      "author": {
+        "id": 1548757
+      },
+      "writtenOn": "2024-09-19T21:05:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c42dcb62_01c12fdc",
       "revId": "42993805e0fadacb44bfd2db3469caa5c324157a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
