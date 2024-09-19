@@ -93,7 +93,8 @@ sync`.
 To do this, simply add the board you're interested in to the `cros_boards`
 (device) or `cros_boards_with_qemu_images` (VM) [custom gclient var] of your
 `.gclient` file. For Googlers, be sure to include
-`"checkout_src_internal": True`.
+`"checkout_src_internal": True` and setup [reclient](go/chrome-linux-build#setup-remote-execution)
+to speed up builds.
 
 ```
 solutions = [
