@@ -1,6 +1,29 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "6813f61b_bae570c6",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1322292
+      },
+      "writtenOn": "2024-09-20T20:04:33Z",
+      "side": 1,
+      "message": "Nit: Please make sure this is in imperative form. See https://google.github.io/eng-practices/review/developer/cl-descriptions.html#first-line for guidance. I\u0027d suggest something like \"Change life cycle -\u003e lifecycle in layout-team\u0027s meeting notes\"",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 11
+      },
+      "revId": "599a3391dd2a3cb3116168404f1e071d87910004",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "039314b3_74c836cb",
