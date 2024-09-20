@@ -1,6 +1,29 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "9218e2ab_d7778681",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1337512
+      },
+      "writtenOn": "2024-09-20T21:58:58Z",
+      "side": 1,
+      "message": "Nit: Please make sure this is in imperative form. See https://google.github.io/eng-practices/review/developer/cl-descriptions.html#first-line for guidance. I\u0027d suggest something like \"Fix minor typo in ChromeOS shell script docs\". Also \"filess\" is a typo in itself.",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 37
+      },
+      "revId": "74ea30ca7feb2d10d5da4d17a0625dd43253a87e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "50d88ae5_a455ffbb",
