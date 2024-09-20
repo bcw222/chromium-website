@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a4104c7_556e915a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1556622
+      },
+      "writtenOn": "2024-09-20T00:31:28Z",
+      "side": 1,
+      "message": "Fix a typo in comment",
+      "revId": "dec768060240505442ad946cd51c11864b41b3ea",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
