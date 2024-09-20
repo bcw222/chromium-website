@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "19c40f25_4cf42f66",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1556622
+      },
+      "writtenOn": "2024-09-20T14:49:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "08436d7e_8f338dce",
+      "revId": "dec768060240505442ad946cd51c11864b41b3ea",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8e301e0e_2c7d2f32",
@@ -64,6 +82,54 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "acdb0a8d_135dbf86",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1556622
+      },
+      "writtenOn": "2024-09-20T14:49:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1d8da6cd_ff333fb3",
+      "range": {
+        "startLine": 8,
+        "startChar": 36,
+        "endLine": 8,
+        "endChar": 37
+      },
+      "revId": "dec768060240505442ad946cd51c11864b41b3ea",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "23d6b38b_16105e94",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1556622
+      },
+      "writtenOn": "2024-09-20T14:49:29Z",
+      "side": 1,
+      "message": "Resolve as we discussed: backticks don\u0027t auto-format in Gerrit",
+      "parentUuid": "8e301e0e_2c7d2f32",
+      "range": {
+        "startLine": 8,
+        "startChar": 14,
+        "endLine": 8,
+        "endChar": 37
+      },
+      "revId": "dec768060240505442ad946cd51c11864b41b3ea",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "609e4f1f_e64429ab",
@@ -77,6 +143,24 @@
       "writtenOn": "2024-09-20T00:34:49Z",
       "side": 1,
       "message": "You\u0027ll want to add a line above the bug number",
+      "revId": "dec768060240505442ad946cd51c11864b41b3ea",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a0bf6a8_49ed8b02",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1556622
+      },
+      "writtenOn": "2024-09-20T14:49:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "609e4f1f_e64429ab",
       "revId": "dec768060240505442ad946cd51c11864b41b3ea",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
