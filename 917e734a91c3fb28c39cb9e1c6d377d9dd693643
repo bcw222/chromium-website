@@ -16,6 +16,24 @@
       "message": "PTAL, I think I need one more to submit",
       "revId": "917e734a91c3fb28c39cb9e1c6d377d9dd693643",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "722dfdab_844fdfe5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-20T22:11:19Z",
+      "side": 1,
+      "message": "No, we actually only require one approval in the website repo, but you need a committer (like me) to still submit it for you if you don\u0027t have tryjob access.",
+      "parentUuid": "deed774c_ff157c52",
+      "revId": "917e734a91c3fb28c39cb9e1c6d377d9dd693643",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
