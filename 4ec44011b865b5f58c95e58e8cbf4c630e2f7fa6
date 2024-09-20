@@ -1,0 +1,74 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1a0157b9_aa852a77",
+        "filename": "site/developers/bisect-builds-py/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-20T20:25:30Z",
+      "side": 1,
+      "message": "I don\u0027t think I quite understand this paragraph. Do you mean just that you have to modify whatever tools you\u0027re using to accept a path to the Chrome binary? Or is there some more specific nuance I\u0027m missing?",
+      "fixSuggestions": [
+        {
+          "fixId": "0bd117d0_0b5fb90c",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/developers/bisect-builds-py/index.md",
+              "range": {
+                "startLine": 116,
+                "startChar": 0,
+                "endLine": 120,
+                "endChar": 0
+              },
+              "replacement": "First, you\u0027ll need to alter your test launch settings to accept a path to the\nChrome binary (the actual configuration might differ; please refer to the\ndocumentation for your browser automation framework).\n"
+            }
+          ]
+        }
+      ],
+      "revId": "4ec44011b865b5f58c95e58e8cbf4c630e2f7fa6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a27226cd_677f8053",
+        "filename": "site/developers/bisect-builds-py/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-20T20:25:30Z",
+      "side": 1,
+      "message": "\"Pass\" might be better than \"Enable\" here.",
+      "fixSuggestions": [
+        {
+          "fixId": "135cb942_c254398e",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/developers/bisect-builds-py/index.md",
+              "range": {
+                "startLine": 123,
+                "startChar": 0,
+                "endLine": 124,
+                "endChar": 0
+              },
+              "replacement": "for some frameworks. Pass `--chromedriver` to download it and use `%d` in\n"
+            }
+          ]
+        }
+      ],
+      "revId": "4ec44011b865b5f58c95e58e8cbf4c630e2f7fa6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
