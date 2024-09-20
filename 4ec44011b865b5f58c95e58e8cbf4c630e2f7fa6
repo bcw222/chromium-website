@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8187042b_1f5ad2ab",
+        "filename": "site/developers/bisect-builds-py/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 1497962
+      },
+      "writtenOn": "2024-09-20T20:44:44Z",
+      "side": 1,
+      "message": "The understanding of \"you have to modify whatever tools you\u0027re using to accept a path to the Chrome binary\" is correct.  It\u0027s generally an option called `executable_path` or `executablePath` that pass to launch method like:\n\n\n```\nconst browser \u003d await puppeteer.launch({\n  executablePath: process.env.BROWSER_EXECUTABLE_PATH,\n});\n```\n\nHowever it could also supported directly from high level framework like Cypress which has a `--browser` flag when running the tests.",
+      "parentUuid": "1a0157b9_aa852a77",
+      "revId": "4ec44011b865b5f58c95e58e8cbf4c630e2f7fa6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a27226cd_677f8053",
         "filename": "site/developers/bisect-builds-py/index.md",
         "patchSetId": 1
@@ -67,6 +85,24 @@
           ]
         }
       ],
+      "revId": "4ec44011b865b5f58c95e58e8cbf4c630e2f7fa6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fbbbfb03_2128f6a2",
+        "filename": "site/developers/bisect-builds-py/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 123,
+      "author": {
+        "id": 1497962
+      },
+      "writtenOn": "2024-09-20T20:44:44Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "a27226cd_677f8053",
       "revId": "4ec44011b865b5f58c95e58e8cbf4c630e2f7fa6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
