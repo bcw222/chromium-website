@@ -54,6 +54,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9279539e_77af84a4",
+        "filename": "site/developers/bisect-builds-py/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-09-23T18:20:16Z",
+      "side": 1,
+      "message": "OK :).",
+      "parentUuid": "8187042b_1f5ad2ab",
+      "revId": "4ec44011b865b5f58c95e58e8cbf4c630e2f7fa6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a27226cd_677f8053",
