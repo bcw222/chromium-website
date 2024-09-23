@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c76e073_f1810484",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1385869
+      },
+      "writtenOn": "2024-09-23T15:09:56Z",
+      "side": 1,
+      "message": "LGTM, thanks!",
+      "revId": "1ed763302adade3ffc6f2ab74155ad9a67521bb1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "647efd3c_876104f9",
+        "filename": "site/developers/design-documents/sync/integration-checklist/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1385869
+      },
+      "writtenOn": "2024-09-23T15:09:56Z",
+      "side": 1,
+      "message": "nit: maybe move this to the next item? I think this mostly refers to actual implementation of the bridge.",
+      "range": {
+        "startLine": 44,
+        "startChar": 4,
+        "endLine": 46,
+        "endChar": 44
+      },
+      "revId": "1ed763302adade3ffc6f2ab74155ad9a67521bb1",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
