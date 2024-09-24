@@ -16,6 +16,29 @@
       "message": "Thanks!",
       "revId": "40c5896fd34be18f37d9b66761ca57f17777de89",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3ac16269_b28fed6b",
+        "filename": "site/developers/design-documents/sync/sync-data-best-practices/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2024-09-24T14:49:02Z",
+      "side": 1,
+      "message": "nit: `https` please",
+      "range": {
+        "startLine": 18,
+        "startChar": 16,
+        "endLine": 18,
+        "endChar": 20
+      },
+      "revId": "40c5896fd34be18f37d9b66761ca57f17777de89",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
