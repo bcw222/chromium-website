@@ -55,6 +55,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b444107a_076063fc",
+        "filename": "site/developers/design-documents/sync/sync-data-best-practices/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1556135
+      },
+      "writtenOn": "2024-09-24T10:29:54Z",
+      "side": 1,
+      "message": "Ah, sorry, I meant adding a link to this best practices doc in https://www.chromium.org/developers/design-documents/sync/model-api/#applyincrementalsyncchanges",
+      "parentUuid": "6ec17fac_fc87f042",
+      "revId": "48b20de088ec37325863879f9a12e4f97ec49d5d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "38942aef_66050061",
         "filename": "site/developers/design-documents/sync/sync-data-best-practices/index.md",
         "patchSetId": 1

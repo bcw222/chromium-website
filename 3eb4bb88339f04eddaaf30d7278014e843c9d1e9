@@ -16,6 +16,46 @@
       "message": "Thank you!",
       "revId": "3eb4bb88339f04eddaaf30d7278014e843c9d1e9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a37d328b_6490d7ae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1556135
+      },
+      "writtenOn": "2024-09-24T10:29:54Z",
+      "side": 1,
+      "message": "Thanks!",
+      "revId": "3eb4bb88339f04eddaaf30d7278014e843c9d1e9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d84b939c_337831c3",
+        "filename": "site/developers/design-documents/sync/model-api/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 206,
+      "author": {
+        "id": 1556135
+      },
+      "writtenOn": "2024-09-24T10:29:54Z",
+      "side": 1,
+      "message": "This feels a bit odd here. Maybe this should instead be near lines 235-240 which talk about conflict resolution. And as suggested in other the comment, I think it\u0027d be nice to place a link to the best practices section there?",
+      "range": {
+        "startLine": 204,
+        "startChar": 50,
+        "endLine": 206,
+        "endChar": 10
+      },
+      "revId": "3eb4bb88339f04eddaaf30d7278014e843c9d1e9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
