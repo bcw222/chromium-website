@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "323903e1_4a613623",
+        "filename": "site/developers/design-documents/sync/sync-data-best-practices/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2024-09-24T10:14:24Z",
+      "side": 1,
+      "message": "Note: I\u0027ll rebase this on top of https://chromium-review.googlesource.com/c/website/+/5883154 once that lands.",
+      "revId": "761562bf3ffab1ca7a39648c2c102981cad22ca2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
