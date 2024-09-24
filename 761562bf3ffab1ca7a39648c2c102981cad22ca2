@@ -3,6 +3,23 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "11511427_02f0e82d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1385869
+      },
+      "writtenOn": "2024-09-24T12:38:10Z",
+      "side": 1,
+      "message": "LGTM, thank you!",
+      "revId": "761562bf3ffab1ca7a39648c2c102981cad22ca2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "323903e1_4a613623",
         "filename": "site/developers/design-documents/sync/sync-data-best-practices/index.md",
         "patchSetId": 1
