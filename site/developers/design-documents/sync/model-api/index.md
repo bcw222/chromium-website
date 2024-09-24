@@ -201,7 +201,9 @@ the meantime.
 ### ApplyIncrementalSyncChanges
 
 This method is called whenever new changes have been downloaded from the server.
-These changes must be applied to the local model.
+These changes must be applied to the local model. Note that it is recommended to
+apply remote changes to the local model as is without merging or custom conflict
+detection.
 
 Here’s an example implementation of a type using `DataTypeStore`:
 
