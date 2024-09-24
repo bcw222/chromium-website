@@ -1,3 +1,12 @@
+<<<<<<< PATCH SET (688b91 [sync] Move proto best practices to sync/protocol/README.md)
+--------------------------------------------------------------------------------
+
+breadcrumbs: - - /developers - For Developers - - /developers/design-documents -
+Design Documents - - /developers/design-documents/sync - Sync page_name:
+sync-data-best-practices
+
+## title: Sync Data Best Practices (Needs update)
+=======
 ---
 breadcrumbs:
 - - /developers
@@ -9,11 +18,22 @@ breadcrumbs:
 page_name: sync-data-best-practices
 title: Sync Data Best Practices
 ---
+>>>>>>> BASE      (6d0c21 Sync best practices: Avoiding the ping-pong issue)
 
 ### Changing fields in specifics
 
 [The new sync API](/developers/design-documents/sync/syncable-service-api) uses
 protobufs to communicate with Chrome services, which is nice because protobufs
+<<<<<<< PATCH SET (688b91 [sync] Move proto best practices to sync/protocol/README.md)
+were written to be robust against protocol changes (see
+[protobuf docs](http://code.google.com/apis/protocolbuffers/docs/overview.html)
+for details). However, once you start syncing data, changing your protobuf
+format isn't completely painless; not only can sync users upgrade from one
+Chrome version to another, but they may have different Chrome versions running
+at the same time! Fortunately, there are some best practices to help make it
+easy. There are listed in the
+[Sync Protocol Style guide](https://source.chromium.org/chromium/chromium/src/+/main:components/sync/protocol/README.md;drc=417cbbe33bf13e2ac63d15994f539aa810c2aae8).
+=======
 were written to be robust against protocol changes (see [protobuf
 docs](http://code.google.com/apis/protocolbuffers/docs/overview.html) for
 details). However, once you start syncing data, changing your protobuf format
@@ -88,3 +108,4 @@ Instead, it's usually best to fix up the data locally *without* committing it,
 and relying on the next natural change to commit the fixed data to the server.
 If you absolutely must re-upload the fixed data, this must be rate-limited in
 some way, e.g. do it at most once per browser startup.
+>>>>>>> BASE      (6d0c21 Sync best practices: Avoiding the ping-pong issue)
