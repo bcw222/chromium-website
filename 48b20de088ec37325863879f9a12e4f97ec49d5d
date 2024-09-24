@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ec17fac_fc87f042",
+        "filename": "site/developers/design-documents/sync/sync-data-best-practices/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1385869
+      },
+      "writtenOn": "2024-09-24T10:23:27Z",
+      "side": 1,
+      "message": "SG, added the link below in the conflict resolution part.",
+      "parentUuid": "c5dd0de7_39cc42bc",
+      "revId": "48b20de088ec37325863879f9a12e4f97ec49d5d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "38942aef_66050061",
@@ -48,6 +66,30 @@
       "writtenOn": "2024-09-23T15:33:59Z",
       "side": 1,
       "message": "Maybe remove this?",
+      "range": {
+        "startLine": 10,
+        "startChar": 32,
+        "endLine": 10,
+        "endChar": 46
+      },
+      "revId": "48b20de088ec37325863879f9a12e4f97ec49d5d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7cea6f2b_8696b528",
+        "filename": "site/developers/design-documents/sync/sync-data-best-practices/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1385869
+      },
+      "writtenOn": "2024-09-24T10:23:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "38942aef_66050061",
       "range": {
         "startLine": 10,
         "startChar": 32,
@@ -95,6 +137,30 @@
           ]
         }
       ],
+      "revId": "48b20de088ec37325863879f9a12e4f97ec49d5d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2316f09c_c3aadf44",
+        "filename": "site/developers/design-documents/sync/sync-data-best-practices/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1385869
+      },
+      "writtenOn": "2024-09-24T10:23:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "10771c7a_e7205197",
+      "range": {
+        "startLine": 51,
+        "startChar": 63,
+        "endLine": 51,
+        "endChar": 67
+      },
       "revId": "48b20de088ec37325863879f9a12e4f97ec49d5d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
