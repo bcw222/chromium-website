@@ -16,6 +16,24 @@
       "message": "This is weird, I\u0027ve never needed to run `cros try`, `bb` or `led` inside the chroot?   I think there\u0027s something else going wrong here?",
       "revId": "dff1bba4fb3e004184f08b4295025a2e20a84cd3",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb55f1a6_619dd8de",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1326157
+      },
+      "writtenOn": "2024-09-25T21:28:06Z",
+      "side": 1,
+      "message": "For future historians, copy-pasting my response from https://chat.google.com/room/AAAA8SLvCyc/FKCRoAZHLL8:\n\n\u003e The short answer is that you don\u0027t actually need to run it inside the chroot -- what you really need to do is run `~/chromiumos/src/chromium/depot_tools/bb auth-login`. Running `bb auth-login` inside the chroot just happens to do that today.\n\u003e \n\u003e The root cause is this: https://source.corp.google.com/h/chrome-internal/chromeos/superproject/+/main:chromite/cli/cros/cros_try.py;drc\u003d03a6e360bd53bb5ec85face8f4adb15ecb396587;l\u003d69.\nWhen the `cros try` wrapper calls the `try` CIPD package, it prepends `$SOURCE_ROOT/src/chromium/depot_tools` to the path.\n\u003e \n\u003e The reason it does this is because of a stupid situation with `led`: there is another, unrelated tool called `led` at `/usr/bin/led`. So if your `.bashrc` adds `depot_tools` to the _end_ of your $PATH instead of the beginning, then when you call `led` it\u0027ll call `/usr/bin/led` instead of your depot_tools `led`.\n\u003e \n\u003e This repeatedly caused confusion for `cros try` users, because `cros try` would say `led auth-info`, to which `/usr/bin/led` would say \"wtf?\". See b/266233948.\n\u003e \n\u003e So Brian Norris came up with the solution I linked above. Now when `try` executes, `src/chromium/depot_tools` is at the front of your $PATH, so that\u0027s the version of `bb` and `led` you use.\n\u003e \n\u003e The reason this is causing a problem for you is that your $PATH probably starts with `~/depot_tools`. Or at the very least, when you run `which bb`, it probably shows you `~/depot_tools/bb`. So it\u0027s a different version of `bb` and `led`, with different auth. So when you run `bb auth-login`, it logs you into `~/depot_tools/bb`... which is not the version of `bb` used by `cros try`.\n\u003e \n\u003e I\u0027m not convinced that the $PATH workaround is the best way to make sure the right version of `led` is used. But I haven\u0027t worked on `cros try` in nearly two years (it\u0027s owned by CARP afaik), and I haven\u0027t thought of a better solution.\n\u003e \n\u003e I don\u0027t know why this bug just started appearing recently. Maybe depot_tools started saving separate auths for separate checkouts or something.",
+      "parentUuid": "1944f34c_9ef20cd5",
+      "revId": "dff1bba4fb3e004184f08b4295025a2e20a84cd3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
