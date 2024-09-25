@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1944f34c_9ef20cd5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1330845
+      },
+      "writtenOn": "2024-09-25T20:55:52Z",
+      "side": 1,
+      "message": "This is weird, I\u0027ve never needed to run `cros try`, `bb` or `led` inside the chroot?   I think there\u0027s something else going wrong here?",
+      "revId": "dff1bba4fb3e004184f08b4295025a2e20a84cd3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
