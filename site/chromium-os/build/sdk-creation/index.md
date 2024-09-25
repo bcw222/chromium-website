@@ -207,7 +207,22 @@ cros try chromiumos_sdk -g <cl_1>,<cl_2>
 where `<cl_1> .. <cl_n>` are CLs to be run against, formatted as
 `crrev.com/c/1234578`. This will run the staging builder, and thus will not
 actually merge an uprev, unless you use `--production`. It will work from the
-`main` branch unless you use `--branch`.
+`main` branch unless you use `--branch`. Note that this command may fail with an
+authorization error, e.g.:
+
+```
+2024/09/25 20:41:43.152878 The following tools were not logged in: bb, led. Please run the following commands, then try again:
+        bb auth-login
+        led auth-login
+```
+
+If you see this error, please note that you must run the suggested commands
+**inside the chroot**, so for the above example this would be:
+
+```
+cros_sdk -- bb auth-login
+cros_sdk -- led auth-login
+```
 
 It's likely that just building the SDK board locally would be sufficent for most
 cases. To do that, from `~/chromiumos/chromite/shell` run:
