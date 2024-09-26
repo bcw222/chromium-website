@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "2750958b_7fff8369",
+        "filename": "site/developers/design-documents/sync/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1339017
+      },
+      "writtenOn": "2024-09-26T15:26:48Z",
+      "side": 1,
+      "message": "optional: the what and the where are rendered differently, could consider making them the same\nhttps://screenshot.googleplex.com/nqhpEzhFGYjJ9gz",
+      "revId": "f618c9eca66fc79516ee2b0bb9633baeebb4a80a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "33b8222e_e2464665",
