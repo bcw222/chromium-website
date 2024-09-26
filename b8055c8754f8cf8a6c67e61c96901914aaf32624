@@ -1,0 +1,169 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c77032b_71eec47a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2024-09-26T10:35:55Z",
+      "side": 1,
+      "message": "Thanks for greatly improving our documentation.\n\nI made some suggestions, so I think another review round would be good.",
+      "revId": "b8055c8754f8cf8a6c67e61c96901914aaf32624",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a799df66_fdef8e9c",
+        "filename": "site/developers/design-documents/sync/unique-positions/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2024-09-26T10:35:55Z",
+      "side": 1,
+      "message": "I think it would be worth mentioning here that this reduces the generated traffic and also the likelihood for conflicts.",
+      "revId": "b8055c8754f8cf8a6c67e61c96901914aaf32624",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9699e181_ebc1c6f7",
+        "filename": "site/developers/design-documents/sync/unique-positions/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2024-09-26T10:35:55Z",
+      "side": 1,
+      "message": "Nit: add whitespace before colon.",
+      "revId": "b8055c8754f8cf8a6c67e61c96901914aaf32624",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ba090020_ac7e93b5",
+        "filename": "site/developers/design-documents/sync/unique-positions/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2024-09-26T10:35:55Z",
+      "side": 1,
+      "message": "Instead of {}, this should be { return ... }, { NOTIMPLEMENTED(); } or similar.",
+      "revId": "b8055c8754f8cf8a6c67e61c96901914aaf32624",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f8510f88_b84ffa1f",
+        "filename": "site/developers/design-documents/sync/unique-positions/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2024-09-26T10:35:55Z",
+      "side": 1,
+      "message": "Somewhere in this section, I would mention the need for reviewers to be thorough, the need to add a knowledgeable reviewer from the Sync team, and the need to have extensive unit-testing.",
+      "revId": "b8055c8754f8cf8a6c67e61c96901914aaf32624",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "39de7b5c_e8d81833",
+        "filename": "site/developers/design-documents/sync/unique-positions/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2024-09-26T10:35:55Z",
+      "side": 1,
+      "message": "The way this section follows the recommended approach, it is not entirely clear if the recommended approach is affected by this pitfall.\n\nI would suggest grouping together some of the content below this line into  something like \"Why other solutions run into pitfalls\", and perhaps make it more concise (it\u0027s quite detailed now, and in the end the main purpose is to inform the reader that they shouldn\u0027t use this approach). I would expect many readers would simply trust our recommend solution and are simply seeking information about how to do it, rather than requiring extensive convincing.",
+      "revId": "b8055c8754f8cf8a6c67e61c96901914aaf32624",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b0e407e1_7608b068",
+        "filename": "site/developers/design-documents/sync/unique-positions/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2024-09-26T10:35:55Z",
+      "side": 1,
+      "message": "Nit: an inconsistency.",
+      "range": {
+        "startLine": 147,
+        "startChar": 55,
+        "endLine": 147,
+        "endChar": 68
+      },
+      "revId": "b8055c8754f8cf8a6c67e61c96901914aaf32624",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7d8a598e_2c765541",
+        "filename": "site/developers/design-documents/sync/unique-positions/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2024-09-26T10:35:55Z",
+      "side": 1,
+      "message": "Nit: s/During/While/ reads better.",
+      "revId": "b8055c8754f8cf8a6c67e61c96901914aaf32624",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ce38165c_0b69be94",
+        "filename": "site/developers/design-documents/sync/unique-positions/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 1176649
+      },
+      "writtenOn": "2024-09-26T10:35:55Z",
+      "side": 1,
+      "message": "I think this should be more like: to generate positions that are globally unique guarantee a consistent, well-defined ordering across clients (otherwise, if two positions are equal, their relative ordering is undefined).",
+      "range": {
+        "startLine": 245,
+        "startChar": 31,
+        "endLine": 246,
+        "endChar": 17
+      },
+      "revId": "b8055c8754f8cf8a6c67e61c96901914aaf32624",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
