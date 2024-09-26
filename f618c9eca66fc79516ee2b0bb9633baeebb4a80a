@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "33b8222e_e2464665",
+        "filename": "site/developers/design-documents/sync/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1339017
+      },
+      "writtenOn": "2024-09-26T15:25:26Z",
+      "side": 1,
+      "message": "This section is very well written",
+      "revId": "f618c9eca66fc79516ee2b0bb9633baeebb4a80a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "168aba7c_4e9e7304",
+        "filename": "site/developers/design-documents/sync/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1339017
+      },
+      "writtenOn": "2024-09-26T15:25:26Z",
+      "side": 1,
+      "message": "How about adding a bit more detail here? One possibility: \"The subsystem responsible for handling invalidations (messages from the server that inform the client new data is available).\"",
+      "revId": "f618c9eca66fc79516ee2b0bb9633baeebb4a80a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
