@@ -20,6 +20,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "e5e08822_f356923e",
+        "filename": "site/developers/design-documents/sync/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2024-09-26T15:36:36Z",
+      "side": 1,
+      "message": "D\u0027oh, I didn\u0027t notice. Done.",
+      "parentUuid": "2750958b_7fff8369",
+      "revId": "f618c9eca66fc79516ee2b0bb9633baeebb4a80a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "33b8222e_e2464665",
         "filename": "site/developers/design-documents/sync/index.md",
         "patchSetId": 2
@@ -31,6 +49,24 @@
       "writtenOn": "2024-09-26T15:25:26Z",
       "side": 1,
       "message": "This section is very well written",
+      "revId": "f618c9eca66fc79516ee2b0bb9633baeebb4a80a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e770cbd_9a223393",
+        "filename": "site/developers/design-documents/sync/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2024-09-26T15:36:36Z",
+      "side": 1,
+      "message": "Thank you!",
+      "parentUuid": "33b8222e_e2464665",
       "revId": "f618c9eca66fc79516ee2b0bb9633baeebb4a80a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -48,6 +84,24 @@
       "writtenOn": "2024-09-26T15:25:26Z",
       "side": 1,
       "message": "How about adding a bit more detail here? One possibility: \"The subsystem responsible for handling invalidations (messages from the server that inform the client new data is available).\"",
+      "revId": "f618c9eca66fc79516ee2b0bb9633baeebb4a80a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b95272da_302b0d36",
+        "filename": "site/developers/design-documents/sync/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2024-09-26T15:36:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "168aba7c_4e9e7304",
       "revId": "f618c9eca66fc79516ee2b0bb9633baeebb4a80a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
