@@ -35,6 +35,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "87a25d93_17f5d23b",
+        "filename": "site/developers/design-documents/sync/unique-positions/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1385869
+      },
+      "writtenOn": "2024-09-26T13:15:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a799df66_fdef8e9c",
+      "revId": "b8055c8754f8cf8a6c67e61c96901914aaf32624",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9699e181_ebc1c6f7",
@@ -48,6 +66,24 @@
       "writtenOn": "2024-09-26T10:35:55Z",
       "side": 1,
       "message": "Nit: add whitespace before colon.",
+      "revId": "b8055c8754f8cf8a6c67e61c96901914aaf32624",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cef7f657_98229003",
+        "filename": "site/developers/design-documents/sync/unique-positions/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1385869
+      },
+      "writtenOn": "2024-09-26T13:15:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9699e181_ebc1c6f7",
       "revId": "b8055c8754f8cf8a6c67e61c96901914aaf32624",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -69,6 +105,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1ece50e9_d67dd052",
+        "filename": "site/developers/design-documents/sync/unique-positions/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1385869
+      },
+      "writtenOn": "2024-09-26T13:15:38Z",
+      "side": 1,
+      "message": "Added more realistic example.",
+      "parentUuid": "ba090020_ac7e93b5",
+      "revId": "b8055c8754f8cf8a6c67e61c96901914aaf32624",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f8510f88_b84ffa1f",
@@ -86,6 +140,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "14fb1181_c5b43715",
+        "filename": "site/developers/design-documents/sync/unique-positions/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1385869
+      },
+      "writtenOn": "2024-09-26T13:15:38Z",
+      "side": 1,
+      "message": "Good point! Split into two paragraphs, and mentioned all of these items.",
+      "parentUuid": "f8510f88_b84ffa1f",
+      "revId": "b8055c8754f8cf8a6c67e61c96901914aaf32624",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "39de7b5c_e8d81833",
@@ -99,6 +171,24 @@
       "writtenOn": "2024-09-26T10:35:55Z",
       "side": 1,
       "message": "The way this section follows the recommended approach, it is not entirely clear if the recommended approach is affected by this pitfall.\n\nI would suggest grouping together some of the content below this line into  something like \"Why other solutions run into pitfalls\", and perhaps make it more concise (it\u0027s quite detailed now, and in the end the main purpose is to inform the reader that they shouldn\u0027t use this approach). I would expect many readers would simply trust our recommend solution and are simply seeking information about how to do it, rather than requiring extensive convincing.",
+      "revId": "b8055c8754f8cf8a6c67e61c96901914aaf32624",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "97ecc862_d0c1de3e",
+        "filename": "site/developers/design-documents/sync/unique-positions/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 146,
+      "author": {
+        "id": 1385869
+      },
+      "writtenOn": "2024-09-26T13:15:38Z",
+      "side": 1,
+      "message": "Thank you, removed a lot of details and described the two caveats. I also made it clear that there are actually two solutions possible, not only one (but I\u0027d still keep the first one recommended).",
+      "parentUuid": "39de7b5c_e8d81833",
       "revId": "b8055c8754f8cf8a6c67e61c96901914aaf32624",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -143,6 +233,48 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c9646de8_4f5e3a62",
+        "filename": "site/developers/design-documents/sync/unique-positions/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 1385869
+      },
+      "writtenOn": "2024-09-26T13:15:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7d8a598e_2c765541",
+      "revId": "b8055c8754f8cf8a6c67e61c96901914aaf32624",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a4451744_5082d834",
+        "filename": "site/developers/design-documents/sync/unique-positions/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 1385869
+      },
+      "writtenOn": "2024-09-26T13:15:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b0e407e1_7608b068",
+      "range": {
+        "startLine": 147,
+        "startChar": 55,
+        "endLine": 147,
+        "endChar": 68
+      },
+      "revId": "b8055c8754f8cf8a6c67e61c96901914aaf32624",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ce38165c_0b69be94",
@@ -156,6 +288,30 @@
       "writtenOn": "2024-09-26T10:35:55Z",
       "side": 1,
       "message": "I think this should be more like: to generate positions that are globally unique guarantee a consistent, well-defined ordering across clients (otherwise, if two positions are equal, their relative ordering is undefined).",
+      "range": {
+        "startLine": 245,
+        "startChar": 31,
+        "endLine": 246,
+        "endChar": 17
+      },
+      "revId": "b8055c8754f8cf8a6c67e61c96901914aaf32624",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bbc54770_1fc86382",
+        "filename": "site/developers/design-documents/sync/unique-positions/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 1385869
+      },
+      "writtenOn": "2024-09-26T13:15:38Z",
+      "side": 1,
+      "message": "Thanks, added. Also slightly rephrased the following part regarding using cached position.",
+      "parentUuid": "ce38165c_0b69be94",
       "range": {
         "startLine": 245,
         "startChar": 31,
