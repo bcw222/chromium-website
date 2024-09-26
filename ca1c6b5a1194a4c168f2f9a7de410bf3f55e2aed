@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dba93201_5716c4e2",
+        "filename": "site/developers/design-documents/sync/diagnostics/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2024-09-26T11:52:19Z",
+      "side": 1,
+      "message": "This go/ link is currently broken, but I\u0027ve proposed an update to it, so hopefully it\u0027ll be fixed soon. (If not, I\u0027ll probably just remove it from here; not like it\u0027s super crucial.)",
+      "revId": "ca1c6b5a1194a4c168f2f9a7de410bf3f55e2aed",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
