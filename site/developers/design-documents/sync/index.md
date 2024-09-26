@@ -18,14 +18,14 @@ title: Sync
 
 [Protection against data override by legacy clients](/developers/design-documents/sync/old-sync-clients-data-override-protection)
 
-[Sync diagnostics](/developers/design-documents/sync/diagnostics) (Needs update)
+[Sync diagnostics](/developers/design-documents/sync/diagnostics)
 
 [Sync Data Best
-Practices](/developers/design-documents/sync/sync-data-best-practices) (Needs update)
+Practices](/developers/design-documents/sync/sync-data-best-practices)
 
 [Unified Sync And Storage
 proposal](/developers/design-documents/sync/unified-sync-and-storage-overview)
- (Needs update)
+ (Outdated, kept for historical purposes)
 
 ***What***
 
@@ -47,6 +47,15 @@ The goals for this protocol include:
 
 *Where*
 
-TODO(crbug.com/1006699): Nowadays we have directories with reasonable meaning
-and dependencies between them. Describe that here, just like the password
-manager [folks](https://source.chromium.org/chromium/chromium/src/+/91bcc3658d7f81fde685523091ca94755419a708:components/password_manager/README.md).
+Most sync code (except for UI and integration tests) lives in
+`components/sync/`. Some of the more important subfolders are:
+*   `base`: Various "util" stuff; doesn't depend on any other sync folders.
+*   `protocol`: Contains the `.proto` definitions and some related utils.
+*   `service`: Contains the central `SyncService`, and most other sync stuff
+    that runs on the UI thread.
+*   `engine`: The core sync "engine", i.e. the parts that run on the sync
+    sequence, talk to the server, and propagate changes to and from the various
+    data types.
+*   `model`: Contains the APIs that each data type needs to implement, and sync
+    classes that live on the model sequence.
+*   `test`: Various test doubles and utils.
