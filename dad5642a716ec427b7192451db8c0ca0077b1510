@@ -52,6 +52,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b288bfd9_4882e216",
+        "filename": "site/developers/design-documents/sync/unique-positions/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1385869
+      },
+      "writtenOn": "2024-09-26T16:25:17Z",
+      "side": 1,
+      "message": "Thank you, I think it looks much better now!",
+      "parentUuid": "62005fbc_2b8fa9d7",
+      "revId": "dad5642a716ec427b7192451db8c0ca0077b1510",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "63a67cac_05636f73",
@@ -65,6 +83,24 @@
       "writtenOn": "2024-09-26T14:49:18Z",
       "side": 1,
       "message": "I think this sentence could be moved up, to mention something in the parent section. Maybe in a form along the lines of:\n\nFor types supporting unique positions, applying remote updates is hard to get right. This section covers the recommeded approaches and the various pitfalls.",
+      "revId": "dad5642a716ec427b7192451db8c0ca0077b1510",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "991bc5bb_cfd909ad",
+        "filename": "site/developers/design-documents/sync/unique-positions/index.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 1385869
+      },
+      "writtenOn": "2024-09-26T16:25:17Z",
+      "side": 1,
+      "message": "I actually replaced this line with your suggestiong and moved it up. I also rephrased the problem / pitfall titles below to make them more concise.",
+      "parentUuid": "63a67cac_05636f73",
       "revId": "dad5642a716ec427b7192451db8c0ca0077b1510",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
