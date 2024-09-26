@@ -36,6 +36,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "3f24e336_4cfb6b99",
+        "filename": "site/developers/design-documents/sync/diagnostics/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2024-09-26T16:01:27Z",
+      "side": 1,
+      "message": "(Will give it until tomorrow to see if the owner responds)",
+      "parentUuid": "c23fcdc3_b7554250",
+      "revId": "ca1c6b5a1194a4c168f2f9a7de410bf3f55e2aed",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "513084d5_83fc669d",
@@ -49,6 +67,24 @@
       "writtenOn": "2024-09-26T15:38:21Z",
       "side": 1,
       "message": "TIL",
+      "revId": "ca1c6b5a1194a4c168f2f9a7de410bf3f55e2aed",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2515453c_c1c04059",
+        "filename": "site/developers/design-documents/sync/diagnostics/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2024-09-26T16:01:27Z",
+      "side": 1,
+      "message": "Yeah, I\u0027ve also never used that tab 😅",
+      "parentUuid": "513084d5_83fc669d",
       "revId": "ca1c6b5a1194a4c168f2f9a7de410bf3f55e2aed",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -76,6 +112,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f4dc110_35c15ba4",
+        "filename": "site/developers/design-documents/sync/diagnostics/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2024-09-26T16:01:27Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "23e419fb_3ae96e12",
+      "range": {
+        "startLine": 27,
+        "startChar": 45,
+        "endLine": 27,
+        "endChar": 58
+      },
+      "revId": "ca1c6b5a1194a4c168f2f9a7de410bf3f55e2aed",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4e2cb5b4_23150c32",
@@ -89,6 +149,30 @@
       "writtenOn": "2024-09-26T15:38:21Z",
       "side": 1,
       "message": "Formatting is off\nhttps://screenshot.googleplex.com/jW2c6jEjyGhk5dx",
+      "range": {
+        "startLine": 40,
+        "startChar": 0,
+        "endLine": 42,
+        "endChar": 54
+      },
+      "revId": "ca1c6b5a1194a4c168f2f9a7de410bf3f55e2aed",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "38b21b90_1658d1fd",
+        "filename": "site/developers/design-documents/sync/diagnostics/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2024-09-26T16:01:27Z",
+      "side": 1,
+      "message": "Thanks, fixed.",
+      "parentUuid": "4e2cb5b4_23150c32",
       "range": {
         "startLine": 40,
         "startChar": 0,
