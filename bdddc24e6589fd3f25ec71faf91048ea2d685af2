@@ -16,6 +16,58 @@
       "message": "Thanks!",
       "revId": "bdddc24e6589fd3f25ec71faf91048ea2d685af2",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "534dbf40_cdb98a67",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1385869
+      },
+      "writtenOn": "2024-09-26T12:13:50Z",
+      "side": 1,
+      "message": "LGTM, thank you!",
+      "revId": "bdddc24e6589fd3f25ec71faf91048ea2d685af2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cee4e692_66e962af",
+        "filename": "site/developers/design-documents/sync/model-api/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 1385869
+      },
+      "writtenOn": "2024-09-26T12:13:50Z",
+      "side": 1,
+      "message": "I\u0027d probably consider adding explicitly what it means: something like that MetadataChangeList from the parameter must be passed to the store if the store is not just fully erased (e.g. via ApplyIncrementalSyncChanges(metadata_change_list) call as in default implementation).",
+      "fixSuggestions": [
+        {
+          "fixId": "325674e1_2ea58750",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/developers/design-documents/sync/model-api/index.md",
+              "range": {
+                "startLine": 253,
+                "startChar": 0,
+                "endLine": 254,
+                "endChar": 0
+              },
+              "replacement": "always be deleted** when this method is called. This means that the\n`MetadataChangeList` from the parameter must be passed to the store if the store\nis not just fully erased (e.g. via `DataTypeStore::DeleteAllData`).\n"
+            }
+          ]
+        }
+      ],
+      "revId": "bdddc24e6589fd3f25ec71faf91048ea2d685af2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
