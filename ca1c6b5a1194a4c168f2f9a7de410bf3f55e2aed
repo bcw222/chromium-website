@@ -56,6 +56,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "f48f4d53_b2cacefb",
+        "filename": "site/developers/design-documents/sync/diagnostics/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1116059
+      },
+      "writtenOn": "2024-09-27T08:18:36Z",
+      "side": 1,
+      "message": "No response yet; removed the self-link here for now.",
+      "parentUuid": "3f24e336_4cfb6b99",
+      "revId": "ca1c6b5a1194a4c168f2f9a7de410bf3f55e2aed",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "513084d5_83fc669d",
         "filename": "site/developers/design-documents/sync/diagnostics/index.md",
         "patchSetId": 1
