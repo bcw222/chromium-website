@@ -33,6 +33,23 @@
       "message": "Awesome, thanks! Sorry again that I lost track of this.",
       "revId": "a7b02e9ce6182fff4e8cae1713c746f0c078c0c8",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a34a283_8cb7a23c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1444074
+      },
+      "writtenOn": "2024-10-01T11:46:22Z",
+      "side": 1,
+      "message": "Adding Ewa as a code owner.",
+      "revId": "a7b02e9ce6182fff4e8cae1713c746f0c078c0c8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
