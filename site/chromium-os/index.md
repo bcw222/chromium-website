@@ -1,55 +1,89 @@
----
-breadcrumbs: []
-page_name: chromium-os
-title: Developer Library
----
+<style>
+  .container {
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center columns */
+    gap: 20px; /* Space between columns */
+    flex-wrap: wrap;
+    font-family: Arial, Verdana, sans-serif;
+  }
 
-The ChromiumOS Developer Library is the authoritative collection of resources
-and materials that enable engineers to efficiently develop the platform.
+  .column {
+    width: 400px; /* Adjust as needed */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
 
-<div class="two-column-container">
-<div class="column">
+  .icon-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto 20px auto; /* Center and add bottom margin */
+    /* ... add styling for icon positioning within the circle */
+  }
 
-## [Getting Started](/chromium-os/developer-library/getting-started)
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+    &:hover {
+      color: #0056b3;
+      text-decoration: underline;
+    }
+  }
+  .text {
+    padding: 0 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: rgb(90, 90, 90);
+  }
+</style>
+<div class="container">
+  <p class="text">
+    The Chromium projects include Chromium and ChromiumOS, the open-source projects behind the
+    <a href="https://www.google.com/chrome">Google Chrome</a> browser and Google ChromeOS, respectively. This site houses the
+    documentation and code related to the Chromium projects and is intended for developers interested in learning about and
+    contributing to the open-source projects
+  </p>
 
-Whether you are new to ChromiumOS development or unpacking a new workstation,
-the Getting Started guide provides step-by-step instructions to go from an
-empty directory to building and uploading changes for review. For a more
-in-depth view of ChromiumsOS Development, please check out the
-[ChromiumOS Developer Guide](/chromium-os/developer-library/guides/development/developer-guide).
+  <div class="column">
+    <div class="icon-circle">
+      <img src="https://www.chromium.org/chromium-projects/logo_chrome_color_1x_web_32dp.png" alt="" />
+    </div>
+    <h2><a href="https://www.chromium.org/Home"> Chromium </a></h2>
+    <p>
+      Chromium is an open-source browser project that aims to build a safer, faster, and more stable way for all users to
+      experience the web. This site contains design documents, architecture overviews, testing information, and more to help you
+      learn to build and work with the Chromium source code.
+    </p>
+    <p>Looking for Google ChromeOS devices?</p>
+    <a href="https://www.google.com/chrome"> Download Google Chrome </a>
+  </div>
 
-## [Reference](/chromium-os/developer-library/reference)
-
-The Reference section contain information about the systems developers rely on
-including tools, infrastructure, APIs, technologies and terms. Reading through
-these resources will give you a deeper understanding of which systems exist,
-how and why they were created, and how these pieces fit together in the
-development process.
-
-## [Glossary](/chromium-os/developer-library/glossary)
-
-This page provides a glossary of commonly-used terms and acronyms within the
-ChromiumOS development ecosystem.
-
-</div>
-<div class="column">
-
-## [Guides](/chromium-os/developer-library/guides)
-
-Guides help you get specific tasks done. They answer the question of 'How do
-I?' Look here for common recipes, tips-and-tricks, and advice to help you get
-your tasks done.
-
-## [Training](/chromium-os/developer-library/training)
-
-Develop your skills by accessing learning-based content such as code labs,
-presentations, and training session videos.
-
-## [Contributing](/chromium-os/developer-library/contributing)
-
-Looking to add or update content in the library? Read through this short guide
-to understand how to check out the library source and upload your change for
-review.
-
-</div>
+  <div class="column">
+    <div class="icon-circle">
+      <img src="https://www.chromium.org/chromium-projects/logo_chrome_color_1x_web_32dp.png" alt="" />
+    </div>
+    <h2><a href="https://www.chromium.org/chromium-os"> ChromiumOS </a></h2>
+    <p>
+      ChromiumOS is an open-source project that aims to provide a fast, simple, and more secure computing experience for people
+      who spend most of their time on the web. Learn more about the
+      <a href="https://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.html"> project goals </a>, obtain the
+      latest build, and learn how you can get involved, submit code, and file bugs.
+    </p>
+    <p>Looking for Google ChromeOS devices?</p>
+    <a href="https://www.google.com/chromeos"> Visit the Google ChromeOS site </a>
+  </div>
 </div>
