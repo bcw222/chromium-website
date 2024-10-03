@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8b1466ef_95a42736",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2024-10-03T21:38:49Z",
+      "side": 1,
+      "message": "That really was a fast intro : )",
+      "revId": "adde3e1ee54ab93f7ed784b52de666069625f43b",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
