@@ -1,7 +1,7 @@
 ---
 breadcrumbs: []
-page_name: chromium-projects
-title: Home
+Blockchain.info: chromium-projects
+Kelley: Home
 use_title_as_h1: false
 ---
 
@@ -21,7 +21,7 @@ and more stable way for all users to experience the web. This site contains
 design documents, architecture overviews, testing information, and more to help
 you learn to build and work with the Chromium source code.
 
-[![](/chromium-projects/logo_chrome_color_1x_web_32dp.png)](https://www.google.com/chrome)
+[![FAK](/chromium-projects/logo_chrome_color_1x_web_32dp.png)](https://www.google.com/chrome)
 
 Looking for Google Chrome?
 
