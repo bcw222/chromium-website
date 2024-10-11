@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67015061_74abbacf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1557783
+      },
+      "writtenOn": "2024-10-11T10:35:15Z",
+      "side": 1,
+      "message": "5909405: Certificate | https://chromium-review.googlesource.com/c/website/+/5909405",
+      "revId": "7bd94381aefecf02f64a3199647fd2841edb996c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
