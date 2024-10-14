@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa5a7f0a_328a25da",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-10-14T23:10:19Z",
+      "side": 1,
+      "message": "Arguably we could just delete this page and redirect to //docs/process/release_cycle.md in chromium/src, instead.",
+      "revId": "e50dac855638c283603507b36560646bebd4e52a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
