@@ -103,7 +103,9 @@ be able to tell you why not and what you need to do to meet the criteria.
 Mechanically, being a committer means that you are a member of
 committers@chromium.org. It may take a few days longer after your nomination
 to actually be added to the list, but the whole process usually won't take
-longer than two weeks. Keep writing patches!
+longer than two weeks. If you haven't done so already you'll need to set up a
+security key on your account before you're added to the list. Keep writing
+patches!
 
 Historically, most committers have worked at least partially on the Chromium
 core product and thus demonstrated C++ coding ability in their CLs, but this is
@@ -122,9 +124,6 @@ address to be re-nominated. To do so, send an email to accounts@chromium.org.
 
 If you have questions about this process, you can ask on community@chromium.org
 and people there will be happy to help you.
-
-Googlers can also look up the committers list
-[here](https://goto.google.com/chromium-committers).
 
 ## Other statuses
 
