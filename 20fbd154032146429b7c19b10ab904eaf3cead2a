@@ -105,6 +105,24 @@
       "parentUuid": "dcb990b1_3c7551ae",
       "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "925e0868_440e0c89",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-10-17T14:31:19Z",
+      "side": 1,
+      "message": "This CL has been silent for a month. Dirk, can you try and drive a conclusion on the email thread and here, whether that\u0027s updating/adding something, or explicitly doing nothing?",
+      "parentUuid": "4c967fec_b4250034",
+      "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
