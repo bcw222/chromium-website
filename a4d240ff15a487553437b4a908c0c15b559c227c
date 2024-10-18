@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "85c79fc1_84cd09d4",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 3408137
+      },
+      "writtenOn": "2024-10-18T00:58:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6609f718_d0be0daf",
+      "revId": "a4d240ff15a487553437b4a908c0c15b559c227c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9fb80656_8418c7e2",
@@ -31,6 +49,30 @@
       "writtenOn": "2024-10-17T20:18:10Z",
       "side": 1,
       "message": "Maybe we can move this out into its own paragraph before this one (and possible even add some kind of bold callout), so it\u0027s easier to spot?",
+      "range": {
+        "startLine": 106,
+        "startChar": 23,
+        "endLine": 107,
+        "endChar": 61
+      },
+      "revId": "a4d240ff15a487553437b4a908c0c15b559c227c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14529f3a_b5d7d39e",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 3408137
+      },
+      "writtenOn": "2024-10-18T00:58:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9fb80656_8418c7e2",
       "range": {
         "startLine": 106,
         "startChar": 23,
