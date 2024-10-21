@@ -619,14 +619,23 @@ and autouprev isn't supported) you must manually increase the version number in
 the ebuild filename.
 
 When upgrading to a new version of the package (i.e. grabbing a newer version
-from upstream), then increase the ebuild version number (`foo-M.m.ebuild`).
+from upstream), then increase the ebuild version number (`foo-M.m.ebuild`). If
+upgrading to an upstream version, set the ebuild version number to match the
+upstream version.
 
 When changing the ebuild contents (i.e. applying a custom patch or fixing
-cross-compile issues), then increase the ebuild revision number
-(`foo-M.m-rN.ebuild`).
+cross-compile issues) without switching to a new upstream version, then increase
+the ebuild revision number (`foo-M.m-rN.ebuild`). If the ebuild has not yet had
+changes from its content for this version, start it at -r1 to represent the
+first revision atop the base version.
 
-When uprevving ebuilds, just rename the symlink (by convention, named as
-`*-r#.ebuild`), or create a new one, if it doesn't exist.
+All ebuild content changes are made in the ebuild file (`foo-M.m.ebuild`). To
+tell Portage that the revision has changed, we point a symlink with a
+revisioned name (`foo-M.m-r#.ebuild`) to the ebuild file. If this symlink
+exists, rename it with an incremented revision number. If it doesn't exist,
+create the symlink (with a revision number of -r1). When upreving to a new
+version, delete the symlink if it exists since there is not yet a revision atop
+the base ebuild for the new version.
 
 ```bash
 $ ls -l
