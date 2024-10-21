@@ -22,6 +22,30 @@
       },
       "revId": "79385898b3917caea03692a9efe0824b2bc1287e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "88e86728_7aee7c64",
+        "filename": "site/chromium-os/developer-library/guides/portage/ebuild-faq/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 630,
+      "author": {
+        "id": 1520537
+      },
+      "writtenOn": "2024-10-21T18:48:15Z",
+      "side": 1,
+      "message": "You\u0027re right, I didn\u0027t get all the way to the \"why\" for the symlinks. I\u0027ll add content to highlight the things you\u0027re pointing out.",
+      "parentUuid": "91a33c1f_94dbdf40",
+      "range": {
+        "startLine": 630,
+        "startChar": 24,
+        "endLine": 630,
+        "endChar": 37
+      },
+      "revId": "79385898b3917caea03692a9efe0824b2bc1287e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
