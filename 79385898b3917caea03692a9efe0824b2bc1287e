@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "91a33c1f_94dbdf40",
+        "filename": "site/chromium-os/developer-library/guides/portage/ebuild-faq/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 630,
+      "author": {
+        "id": 1270601
+      },
+      "writtenOn": "2024-10-21T17:08:04Z",
+      "side": 1,
+      "message": "Hrmm, so this is where I struggle...\n\nWhen we have a `-rX` symlink that points to a revionless ebuild, changing the revisionless ebuild actually affects the revisionless ebuild.\n\ni.e.,\n\n`emerge \u003dfoo-M.m` and `emerge \u003dfoo-M.m-r1` technically will emerge the same thing since both ebuilds are \"modified\" when you make a change to the revisionless ebuild. Technically we are violating portage\u0027s expectations when we modify the revisionless ebuild since it shouldn\u0027t change once published. The reason for the \"revbump\" is so that portage will \"upgrade\" and rebuild the package after the ebuild has been modified.\n\nSo maybe we should describe the reasoning for the symlinks instead.\n1) We keep a common file so that it\u0027s easier to view the git history an an ebuild. This is normally the revisionless ebuild. Modifying this file is technically a portage violation since it doesn\u0027t cause a package rebuild.\n2) To force a package rebuild, we create a `-rX` symlink pointing to the revisionless ebuild to inform portage that a new revision of the ebuild exists and the package should be rebuild.",
+      "range": {
+        "startLine": 630,
+        "startChar": 24,
+        "endLine": 630,
+        "endChar": 37
+      },
+      "revId": "79385898b3917caea03692a9efe0824b2bc1287e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
