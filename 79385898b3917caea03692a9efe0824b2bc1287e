@@ -46,6 +46,30 @@
       },
       "revId": "79385898b3917caea03692a9efe0824b2bc1287e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "704b3d9f_49e59d1d",
+        "filename": "site/chromium-os/developer-library/guides/portage/ebuild-faq/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 630,
+      "author": {
+        "id": 1520537
+      },
+      "writtenOn": "2024-10-21T19:30:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "88e86728_7aee7c64",
+      "range": {
+        "startLine": 630,
+        "startChar": 24,
+        "endLine": 630,
+        "endChar": 37
+      },
+      "revId": "79385898b3917caea03692a9efe0824b2bc1287e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
