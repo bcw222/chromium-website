@@ -177,6 +177,24 @@
       "parentUuid": "adb77a4a_e50f4947",
       "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ef23d47e_8cd79682",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1115906
+      },
+      "writtenOn": "2024-10-23T22:58:41Z",
+      "side": 1,
+      "message": "I think the guidance still stands then. If it turns out that the owner is not a committer then we can remove them from OWNERS when this comes up, as opposed to working around this not-WAI behavior.",
+      "parentUuid": "3e168287_e274b194",
+      "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
