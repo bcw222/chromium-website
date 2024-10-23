@@ -141,6 +141,24 @@
       "parentUuid": "925e0868_440e0c89",
       "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "adb77a4a_e50f4947",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1115906
+      },
+      "writtenOn": "2024-10-23T22:03:19Z",
+      "side": 1,
+      "message": "all owners must be  committers. If someone is landing CLs they are already interacting with committers. These are the same committers that would presumably nominate the individual for committer status. Thus these are the right people to ask about \"non-trivialness\"",
+      "parentUuid": "e045029d_a249456b",
+      "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
