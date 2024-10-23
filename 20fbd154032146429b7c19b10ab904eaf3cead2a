@@ -159,6 +159,24 @@
       "parentUuid": "e045029d_a249456b",
       "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e168287_e274b194",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-10-23T22:43:43Z",
+      "side": 1,
+      "message": "\u003e all owners must be committers.\n\nAs mentioned previously in a couple places, this is supposed to be true but is not true in practice, and we don\u0027t currently have a plan in place for how to fix this.\n\nSo, there is a real problem here.",
+      "parentUuid": "adb77a4a_e50f4947",
+      "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
