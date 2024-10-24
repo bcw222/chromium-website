@@ -3,6 +3,41 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "febd4e3b_34a2787b",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-10-24T20:29:44Z",
+      "side": 1,
+      "message": "I have received some feedback from someone (that I mostly agree with) that this bullet doesn\u0027t really help, and that the remaining bullets are good on their own. Doing anything on Gerrit in Chrome takes more than 0.5 seconds of thought. I realize this bullet is more to add some lighthearted character, but I think maybe we\u0027re better off without it.",
+      "fixSuggestions": [
+        {
+          "fixId": "57446270_3a27c97d",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/getting-involved/become-a-committer/index.md",
+              "range": {
+                "startLine": 54,
+                "startChar": 0,
+                "endLine": 55,
+                "endChar": 0
+              },
+              "replacement": "  seconds of thought, it\u0027s probably nontrivial. If you have to ask, it\u0027s\n  probably nontrivial.\n"
+            }
+          ]
+        }
+      ],
+      "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e4b9c2ba_7423e7c2",
         "filename": "site/getting-involved/become-a-committer/index.md",
         "patchSetId": 1
