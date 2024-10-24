@@ -3,6 +3,41 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "6791a999_0acb340d",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-10-24T22:15:42Z",
+      "side": 1,
+      "message": "Can we also add something like what Ted suggested in the committers@ discussion?\n\n\"\"We want to see sufficient evidence that you can follow Chromium best practices, and in situations where you\u0027re uncertain, you ask for additional guidance effectively.\"",
+      "fixSuggestions": [
+        {
+          "fixId": "fd357ef6_946ba737",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/getting-involved/become-a-committer/index.md",
+              "range": {
+                "startLine": 40,
+                "startChar": 0,
+                "endLine": 45,
+                "endChar": 0
+              },
+              "replacement": "In a nutshell, contribute at least ten non-trivial patches in the\n[Chromium src](https://chromium.googlesource.com/chromium/src/) Git repository\n(or other repositories that are part of the Chromium project), and get an\nexisting committer to nominate you. You will need at least two other committers\nto support the nomination, so getting at least three different people to review\nyour patches is a good idea.\n"
+            }
+          ]
+        }
+      ],
+      "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "febd4e3b_34a2787b",
         "filename": "site/getting-involved/become-a-committer/index.md",
         "patchSetId": 1
@@ -50,6 +85,24 @@
       "side": 1,
       "message": "This was kind of the core of Nicholas\u0027 original confusion, so I don\u0027t think we should remove entirely. If you think the description is too flippantly worded, maybe we can tweak?",
       "parentUuid": "febd4e3b_34a2787b",
+      "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ee0ea26_ef2fe600",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-10-24T22:15:42Z",
+      "side": 1,
+      "message": "tweaking would work also.",
+      "parentUuid": "d2f7da1e_887e3897",
       "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
