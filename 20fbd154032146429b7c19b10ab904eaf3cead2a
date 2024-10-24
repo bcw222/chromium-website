@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d2f7da1e_887e3897",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-10-24T20:43:27Z",
+      "side": 1,
+      "message": "This was kind of the core of Nicholas\u0027 original confusion, so I don\u0027t think we should remove entirely. If you think the description is too flippantly worded, maybe we can tweak?",
+      "parentUuid": "febd4e3b_34a2787b",
+      "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e4b9c2ba_7423e7c2",
         "filename": "site/getting-involved/become-a-committer/index.md",
         "patchSetId": 1
@@ -228,6 +246,24 @@
       "side": 1,
       "message": "I think the guidance still stands then. If it turns out that the owner is not a committer then we can remove them from OWNERS when this comes up, as opposed to working around this not-WAI behavior.",
       "parentUuid": "3e168287_e274b194",
+      "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d0e0d52d_083f4763",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-10-24T20:43:27Z",
+      "side": 1,
+      "message": "IMO everyone\u0027s comments have merit.\n\nIf the best way to find a committer is to just ask the owners that have reviewed your CLs (as Erik suggests), let\u0027s say that explicitly, since we don\u0027t. We can probably also say that if you need an opinion from someone else (e.g. because you don\u0027t trust the people who reviewed your CLs -- it happens), you can assume folks in OWNERS files are committers, and if it turns out they\u0027re not, that\u0027s a bug.\n\nIt is true as Nicholas and Dirk mention that this is actually violated fairly commonly and AFAIK we don\u0027t have a fix. That\u0027s worth fixing; it\u0027s probably not worth fixing here, but it happens often enough that this is going to bite people in the real world and we do need to acknowledge it.",
+      "parentUuid": "ef23d47e_8cd79682",
       "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
