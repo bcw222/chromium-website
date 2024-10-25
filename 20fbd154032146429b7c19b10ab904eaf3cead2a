@@ -38,6 +38,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f38dbc98_25dda1e1",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-10-25T17:14:42Z",
+      "side": 1,
+      "message": "Sure; it might make sense to split into a high-level description first of what we\u0027re seeking, followed by a lower-level description of how we try and check for that.",
+      "parentUuid": "6791a999_0acb340d",
+      "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "febd4e3b_34a2787b",
         "filename": "site/getting-involved/become-a-committer/index.md",
         "patchSetId": 1
