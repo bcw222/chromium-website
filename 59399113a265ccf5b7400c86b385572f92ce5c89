@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a612669b_55b91b80",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000805
+      },
+      "writtenOn": "2024-10-28T18:22:26Z",
+      "side": 1,
+      "message": "I feel like Nicholas/Dirk can get this landed together? Or maybe to phrase differently, I feel like me also being on here muddies the waters in terms of who is responsible for taking what action when.\n\nI don\u0027t have strong feelings about text beyond what I\u0027ve said already; I feel like I\u0027ve opined plenty.",
+      "revId": "59399113a265ccf5b7400c86b385572f92ce5c89",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
