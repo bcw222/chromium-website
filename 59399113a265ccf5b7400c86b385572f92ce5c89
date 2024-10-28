@@ -16,6 +16,24 @@
       "message": "I feel like Nicholas/Dirk can get this landed together? Or maybe to phrase differently, I feel like me also being on here muddies the waters in terms of who is responsible for taking what action when.\n\nI don\u0027t have strong feelings about text beyond what I\u0027ve said already; I feel like I\u0027ve opined plenty.",
       "revId": "59399113a265ccf5b7400c86b385572f92ce5c89",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "96004e2c_7bbe2f6a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-10-28T19:09:53Z",
+      "side": 1,
+      "message": "Okay, I\u0027m happy to work w/ Nicholas alone on this. I just wanted to make sure someone was going to post something :).",
+      "parentUuid": "a612669b_55b91b80",
+      "revId": "59399113a265ccf5b7400c86b385572f92ce5c89",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }

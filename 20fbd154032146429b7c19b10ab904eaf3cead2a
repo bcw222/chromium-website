@@ -91,6 +91,42 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3148397c_b095092e",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-10-28T19:09:53Z",
+      "side": 1,
+      "message": "I\u0027d still maybe want something explicit about",
+      "parentUuid": "5a672720_c7913a09",
+      "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0b23ae17_56c96437",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-10-28T19:09:53Z",
+      "side": 1,
+      "message": "I think it is similar, particularly the first part. I don\u0027t think we have anything explicitly about asking for guidance when you\u0027re uncertain; that might be kind of implied by the bullets, but it might be better to be explicit.\n\nIt might also make more sense to flip the order of these things and put the bullets (or their equivalent) before the \"in a nutshell\" section.",
+      "parentUuid": "5a672720_c7913a09",
+      "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "febd4e3b_34a2787b",
         "filename": "site/getting-involved/become-a-committer/index.md",
         "patchSetId": 1
