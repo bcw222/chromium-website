@@ -73,6 +73,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "5a672720_c7913a09",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1481202
+      },
+      "writtenOn": "2024-10-28T18:18:26Z",
+      "side": 1,
+      "message": "\u003e We want to see sufficient evidence that you can follow Chromium best practices, and in situations where you\u0027re uncertain, you ask for additional guidance effectively.\n\nThis seems similar in spirit to some existing text: \"So, in addition to actually making the code changes, you\u0027re basically demonstrating your [...] ability to collaborate with the team and communicate well [...] understanding of how the team works (policies, processes for testing and code review\"",
+      "parentUuid": "f38dbc98_25dda1e1",
+      "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "febd4e3b_34a2787b",
         "filename": "site/getting-involved/become-a-committer/index.md",
         "patchSetId": 1
