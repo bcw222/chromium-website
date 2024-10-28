@@ -372,6 +372,24 @@
       "parentUuid": "ef23d47e_8cd79682",
       "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4ab02edf_e094c7ee",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1481202
+      },
+      "writtenOn": "2024-10-28T18:26:44Z",
+      "side": 1,
+      "message": "I think the main takeaway from this thread is that it would be nice to enforce that all owners are committers. I filed b/376077658. (Please feel free to move that to a more appropriate component, I wasn\u0027t sure where it should go.)",
+      "parentUuid": "d0e0d52d_083f4763",
+      "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
