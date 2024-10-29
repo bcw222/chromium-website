@@ -1,0 +1,66 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5fcee1d_82777b89",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-10-29T18:33:42Z",
+      "side": 1,
+      "message": "I think we\u0027re pretty close. We could land what we have, but I have one other suggestion.",
+      "revId": "a780f3947d05e2673d3212d152f27e7165ee5779",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e1e135e_874db1d4",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-10-29T18:33:42Z",
+      "side": 1,
+      "message": "This paragraph kind of feels like the same block of thought as the previous paragraph, so maybe combine them?",
+      "fixSuggestions": [
+        {
+          "fixId": "e67e3b9a_d866eb67",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/getting-involved/become-a-committer/index.md",
+              "range": {
+                "startLine": 46,
+                "startChar": 0,
+                "endLine": 47,
+                "endChar": 0
+              },
+              "replacement": "We want to see sufficient evidence that you can follow Chromium best practices\n"
+            },
+            {
+              "path": "site/getting-involved/become-a-committer/index.md",
+              "range": {
+                "startLine": 48,
+                "startChar": 0,
+                "endLine": 56,
+                "endChar": 0
+              },
+              "replacement": "effectively. Perhaps the most important aspect of being a committer is that you\nwill be able to review and approve other people\u0027s changes, so we\u0027re looking for\nwhether we think you\u0027ll do a good job at that. So, in addition to actually\nmaking the code changes, you\u0027re basically demonstrating your\n"
+            }
+          ]
+        }
+      ],
+      "revId": "a780f3947d05e2673d3212d152f27e7165ee5779",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
