@@ -125,6 +125,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f5814c96_61d7c498",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1481202
+      },
+      "writtenOn": "2024-10-29T16:39:56Z",
+      "side": 1,
+      "message": "Updated to add Ted\u0027s text, and reorganize into three parts: the initial overview, the description of non-trivial patches, and the details of the nomination process.",
+      "parentUuid": "3148397c_b095092e",
+      "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "febd4e3b_34a2787b",
