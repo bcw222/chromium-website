@@ -249,6 +249,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6fb2cb42_057fd8d8",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 1481202
+      },
+      "writtenOn": "2024-10-29T16:43:40Z",
+      "side": 1,
+      "message": "Resolving this since I think the committers@ discussion has trailed off without any clear consensus that this wording is too lax.",
+      "parentUuid": "e4b9c2ba_7423e7c2",
+      "revId": "20fbd154032146429b7c19b10ab904eaf3cead2a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b1c8b182_f841206d",
