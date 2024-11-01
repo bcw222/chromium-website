@@ -9,7 +9,7 @@ title: Themes
 ---
 
 If you want to write a theme, please see the documentation at:
-<http://code.google.com/chrome/extensions/themes.html>
+<https://developer.chrome.com/docs/extensions/develop/ui/themes>
 
 ## Implementation
 
