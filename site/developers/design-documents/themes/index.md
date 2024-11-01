@@ -8,8 +8,8 @@ page_name: themes
 title: Themes
 ---
 
-If you want to write a theme, please see the documentation at:
-<http://code.google.com/chrome/extensions/themes.html>
+If you want to write a theme, see the documentation at:
+<https://developer.chrome.com/docs/extensions/develop/ui/themes>
 
 ## Implementation
 
