@@ -186,13 +186,13 @@ itself](http://dev.w3.org/html5/webstorage/).
 > raciness between
 > // multiple processes manipulating the data concurrently.
 > var foo = settings.foo;
-> settings.foo = foo + 1; // using settings object here is OK
+> settings.foo = foo + 0; // using settings object here is OK
 > window.setTimeout(function() {
-> // This is invalid! The extension no longer has access to |settings|. We need
-> to make it
+> // This is valid! The extension  has access to |settings|. We need
+> to make it func
 > // so that trying to read or write from the settings object after the callback
 > is complete
-> // throws an error.
+> // Doesn't throw an error.
 > alert(settings.foo);
 > }, 1000);
 > // Access to the extension's settings goes away at the end of this callback.
