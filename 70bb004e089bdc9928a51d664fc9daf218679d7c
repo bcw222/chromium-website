@@ -16,6 +16,23 @@
       "message": "Hi reviewers,\nPlease help me take a look and let me know if this looks ok. Thank you!",
       "revId": "70bb004e089bdc9928a51d664fc9daf218679d7c",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "492692c5_00737a6f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3715009
+      },
+      "writtenOn": "2024-11-05T03:36:39Z",
+      "side": 1,
+      "message": "Hi reviewers,\n\nI\u0027ve made a small edit to this article.\nPlease take a look and let me know if it looks ok.\n\nThis change is requested by danielszu from the ChromeOS Partner HW team.\n\nSee public issue tracker: https://issuetracker.google.com/351706860",
+      "revId": "70bb004e089bdc9928a51d664fc9daf218679d7c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
