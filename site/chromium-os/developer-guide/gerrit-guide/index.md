@@ -32,21 +32,42 @@ google.com can also be used to authenticate with Gerrit.
 
 Follow the steps in [Chromium's Gerrit Guide](/developers/gerrit-guide).
 
-### (Googlers & Partners) To get access to the internal Chrome Gerrit instance
+### To get access to the internal Chrome Gerrit instance
 
-1.  (Googlers only) You must also do the steps above for your @chromium
-            account first
+1.  You must also do the steps above for your @chromium account first
 2.  Go to <http://google.com/> and verify you are logged into your
             @google.com account
-3.  In the same window and session, load
+3.  Set up your account on Gerrit by visiting each Gerrit review instance and
+    signing in once. This makes sure that you have an account on these review
+    systems, which is required for uploading new CLs:
+    1.  <https://chromium-review.googlesource.com/>
+    1.  <https://chrome-internal-review.googlesource.com/>
+4.  To ensure that repo authenticates using SSO:
+    ```
+    git config --global --replace-all url.sso://chromium.insteadOf https://chromium.googlesource.com
+    git config --global --add url.sso://chromium.insteadOf https://chromium-review.googlesource.com
+    git config --global --replace-all url.sso://chrome-internal.insteadOf https://chrome-internal.googlesource.com
+    git config --global --add url.sso://chrome-internal.insteadOf https://chrome-internal-review.googlesource.com
+    ```
+5.  To ensure that `git cl` workflows authenticate using SSO:
+    ```
+    git config --global depot-tools.useNewAuthStack 1
+    ```
+6.  Run `gcert` once a day to authenticate your account.
+
+### (Partners only) To get access to the internal Chrome Gerrit instance
+
+1.  Go to <http://google.com/> and verify you are logged into your
+            @google.com account
+2.  In the same window and session, load
             <https://www.googlesource.com/new-password>
     1.  **Make sure you are logged into your @google.com account.**
     2.  **You can verify this by ensuring that the Username field looks
                 like git-&lt;user&gt;.google.com**
-4.  Follow the directions on the new-password page to append to your
+3.  Follow the directions on the new-password page to append to your
             .gitcookies file. You should click the radio button labeled "only
             chrome-internal.googlesource.com" if it exists.
-5.  **Verification:**
+4.  **Verification:**
     *   **Googlers -** Run `git ls-remote
                 https://chrome-internal.googlesource.com/chromeos/manifest-internal.git`
     *   **Partners -** Find a repo in your local manifest and run `git
