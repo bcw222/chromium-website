@@ -22,14 +22,33 @@ title: Gerrit Guide
                 how you want to use things).**
     *   **You can verify this by ensuring that the Username field looks
                 like git-&lt;user&gt;.chromium.org**
-5.  Follow the directions on the new-password page to set up/append to
-            your .gitcookies file.
-    *   You should click the radio button labeled "only
-                chromium.googlesource.com" if it exists.
-6.  **Verification:** Run `git ls-remote
-            https://chromium.googlesource.com/chromiumos/manifest.git`
-    *   This should **not** prompt for any credentials, and should just
-                print out a list of git references.
+5.  (Non-Googlers only)
+    1.  Follow the directions on the new-password page to set up/append to
+                your .gitcookies file.
+        *   You should click the radio button labeled "only
+                    chromium.googlesource.com" if it exists.
+    2.  **Verification:** Run `git ls-remote
+                https://chromium.googlesource.com/chromiumos/manifest.git`
+        *   This should **not** prompt for any credentials, and should just
+                    print out a list of git references.
+6.  (Googlers only)
+    1.  Set up your account on Gerrit by visiting each Gerrit review instance and
+    signing in once. This makes sure that you have an account on these review
+    systems, which is required for uploading new CLs:
+        *   <https://chromium-review.googlesource.com/>
+        *   <https://chrome-internal-review.googlesource.com/>
+    2.  To ensure that repo authenticates using SSO:
+        ```
+        git config --global --replace-all url.sso://chromium.insteadOf https://chromium.googlesource.com
+        git config --global --add url.sso://chromium.insteadOf https://chromium-review.googlesource.com
+        git config --global --replace-all url.sso://chrome-internal.insteadOf https://chrome-internal.googlesource.com
+        git config --global --add url.sso://chrome-internal.insteadOf https://chrome-internal-review.googlesource.com
+        ```
+    3.  To ensure that `git cl` workflows authenticate using SSO:
+        ```
+        git config --global depot-tools.useNewAuthStack 1
+        ```
+    4.  Run `gcert` once a day to authenticate your account.
 7.  Make sure to set your real name.
     1.  Visit <https://chromium-review.googlesource.com/#/settings/> and
                 check the "Full Name" field.
