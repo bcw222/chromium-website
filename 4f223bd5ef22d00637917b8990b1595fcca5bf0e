@@ -16,6 +16,24 @@
       "message": "Recommend we add Googler-specific instructions to site/developers/gerrit-guide/index.md (for Chromium development) at the same time.",
       "revId": "4f223bd5ef22d00637917b8990b1595fcca5bf0e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e23385af_38747129",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3408137
+      },
+      "writtenOn": "2024-11-10T23:35:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2eddb6af_d749366b",
+      "revId": "4f223bd5ef22d00637917b8990b1595fcca5bf0e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }

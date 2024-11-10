@@ -22,6 +22,30 @@
       },
       "revId": "041f26d6624f0b2ea39071191bb4fe23ba0c0637",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b869aa9c_2aa855c3",
+        "filename": "site/chromium-os/developer-guide/gerrit-guide/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 3408137
+      },
+      "writtenOn": "2024-11-10T23:35:38Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "aef068b8_c3eb92e6",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 58,
+        "endChar": 63
+      },
+      "revId": "041f26d6624f0b2ea39071191bb4fe23ba0c0637",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
