@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aef068b8_c3eb92e6",
+        "filename": "site/chromium-os/developer-guide/gerrit-guide/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1272455
+      },
+      "writtenOn": "2024-11-10T23:15:12Z",
+      "side": 0,
+      "message": "Partners can\u0027t use SSO and will still need to use the old workflow - could you separate them out?",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 58,
+        "endChar": 63
+      },
+      "revId": "041f26d6624f0b2ea39071191bb4fe23ba0c0637",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
