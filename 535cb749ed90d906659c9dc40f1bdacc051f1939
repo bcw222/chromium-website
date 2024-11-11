@@ -24,6 +24,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c0dd1ce0_88112a3a",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 3408137
+      },
+      "writtenOn": "2024-11-11T05:18:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6f7df063_2e8dd4e2",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 52
+      },
+      "revId": "535cb749ed90d906659c9dc40f1bdacc051f1939",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1fae5025_c711d2c5",
@@ -37,6 +61,30 @@
       "writtenOn": "2024-11-11T03:03:01Z",
       "side": 1,
       "message": "this is for everyone, move to the end",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 55
+      },
+      "revId": "535cb749ed90d906659c9dc40f1bdacc051f1939",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3abeb436_8c05b556",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 3408137
+      },
+      "writtenOn": "2024-11-11T05:18:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1fae5025_c711d2c5",
       "range": {
         "startLine": 30,
         "startChar": 0,
@@ -88,6 +136,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b25d8fdd_edfe3a2e",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 3408137
+      },
+      "writtenOn": "2024-11-11T05:18:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "834f73cc_e54c2bb5",
+      "range": {
+        "startLine": 40,
+        "startChar": 23,
+        "endLine": 40,
+        "endChar": 27
+      },
+      "revId": "535cb749ed90d906659c9dc40f1bdacc051f1939",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e88939f3_4ef6867a",
@@ -135,6 +207,30 @@
           ]
         }
       ],
+      "revId": "535cb749ed90d906659c9dc40f1bdacc051f1939",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5802c7be_1c63b78a",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 3408137
+      },
+      "writtenOn": "2024-11-11T05:18:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e88939f3_4ef6867a",
+      "range": {
+        "startLine": 47,
+        "startChar": 0,
+        "endLine": 50,
+        "endChar": 11
+      },
       "revId": "535cb749ed90d906659c9dc40f1bdacc051f1939",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
