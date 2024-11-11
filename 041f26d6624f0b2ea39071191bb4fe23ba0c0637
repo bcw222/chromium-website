@@ -46,6 +46,41 @@
       },
       "revId": "041f26d6624f0b2ea39071191bb4fe23ba0c0637",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "633bf397_32e4fa60",
+        "filename": "site/chromium-os/developer-guide/gerrit-guide/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-11-11T21:29:28Z",
+      "side": 0,
+      "message": "I think you should keep the \"(Googlers \u0026 Partners)\" and \"(Googlers only)\" bits to be clear that this doesn\u0027t apply (or work) for non-Googlers.",
+      "fixSuggestions": [
+        {
+          "fixId": "b4f4b460_68ff263a",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/chromium-os/developer-guide/gerrit-guide/index.md",
+              "range": {
+                "startLine": 37,
+                "startChar": 0,
+                "endLine": 38,
+                "endChar": 0
+              },
+              "replacement": "1.  You must also do the steps above for your @chromium.org account first\n"
+            }
+          ]
+        }
+      ],
+      "revId": "041f26d6624f0b2ea39071191bb4fe23ba0c0637",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }

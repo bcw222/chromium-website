@@ -1,0 +1,91 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5422c489_a044a0ca",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 7
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-11-11T21:29:28Z",
+      "side": 1,
+      "message": "Please add more text to this to explain what you\u0027re documenting and why (for example, why this is changing). There is no explanation either in this description or in the linked bug :(.",
+      "revId": "531ed152c41cfa835172bfac0a2dcb67f52406b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5e180979_8077a57b",
+        "filename": "site/chromium-os/developer-guide/gerrit-guide/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-11-11T21:29:28Z",
+      "side": 1,
+      "message": "Can you add some explanation of what SSO is and what these config settings are doing? In particular, is this some Google-specific form of SSO that only works if you have particular Google-specific things in your path?",
+      "fixSuggestions": [
+        {
+          "fixId": "c60fcdad_511b66a2",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/chromium-os/developer-guide/gerrit-guide/index.md",
+              "range": {
+                "startLine": 45,
+                "startChar": 0,
+                "endLine": 46,
+                "endChar": 0
+              },
+              "replacement": "4.  To ensure that repo authenticates using SSO (Single Sign-On):\n"
+            }
+          ]
+        }
+      ],
+      "revId": "531ed152c41cfa835172bfac0a2dcb67f52406b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "54a5bcaa_4f8a7a1e",
+        "filename": "site/chromium-os/developer-guide/gerrit-guide/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-11-11T21:29:28Z",
+      "side": 1,
+      "message": "Does `gcert` work on Windows? Today, it isn\u0027t needed on either Windows or Mac, but I assume that switching to SSO will require it?",
+      "fixSuggestions": [
+        {
+          "fixId": "e6aed632_a0c8bf55",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/chromium-os/developer-guide/gerrit-guide/index.md",
+              "range": {
+                "startLine": 56,
+                "startChar": 0,
+                "endLine": 57,
+                "endChar": 0
+              },
+              "replacement": "6.  Run `gcert` once a day to authenticate your account. (This is not needed on\n    Windows or Mac.)\n"
+            }
+          ]
+        }
+      ],
+      "revId": "531ed152c41cfa835172bfac0a2dcb67f52406b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
