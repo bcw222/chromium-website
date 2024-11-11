@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6f7df063_2e8dd4e2",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1272455
+      },
+      "writtenOn": "2024-11-11T03:03:01Z",
+      "side": 1,
+      "message": "these lines are also for non-googlers",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 52
+      },
+      "revId": "535cb749ed90d906659c9dc40f1bdacc051f1939",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1fae5025_c711d2c5",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1272455
+      },
+      "writtenOn": "2024-11-11T03:03:01Z",
+      "side": 1,
+      "message": "this is for everyone, move to the end",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 55
+      },
+      "revId": "535cb749ed90d906659c9dc40f1bdacc051f1939",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "834f73cc_e54c2bb5",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1272455
+      },
+      "writtenOn": "2024-11-11T03:03:01Z",
+      "side": 1,
+      "message": "`repo`",
+      "range": {
+        "startLine": 40,
+        "startChar": 23,
+        "endLine": 40,
+        "endChar": 27
+      },
+      "fixSuggestions": [
+        {
+          "fixId": "498517f7_11c88a91",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/developers/gerrit-guide/index.md",
+              "range": {
+                "startLine": 40,
+                "startChar": 0,
+                "endLine": 41,
+                "endChar": 0
+              },
+              "replacement": "    2.  To ensure that `repo` authenticates using SSO:\n"
+            }
+          ]
+        }
+      ],
+      "revId": "535cb749ed90d906659c9dc40f1bdacc051f1939",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e88939f3_4ef6867a",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1272455
+      },
+      "writtenOn": "2024-11-11T03:03:01Z",
+      "side": 1,
+      "message": "can we put this at the top, after \"install depot_tools\"? and remove the SSO bit - this also enables the `luci-auth login` flow for non-Googler accounts, which is already mentioned",
+      "range": {
+        "startLine": 47,
+        "startChar": 0,
+        "endLine": 50,
+        "endChar": 11
+      },
+      "fixSuggestions": [
+        {
+          "fixId": "44b24be5_2fd9e2fc",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/developers/gerrit-guide/index.md",
+              "range": {
+                "startLine": 40,
+                "startChar": 0,
+                "endLine": 40,
+                "endChar": 0
+              },
+              "replacement": "    2.  To ensure that `git cl` workflows authenticate using SSO:\n        ```\n        git config --global depot-tools.useNewAuthStack 1\n        ```\n"
+            },
+            {
+              "path": "site/developers/gerrit-guide/index.md",
+              "range": {
+                "startLine": 47,
+                "startChar": 0,
+                "endLine": 51,
+                "endChar": 0
+              },
+              "replacement": ""
+            }
+          ]
+        }
+      ],
+      "revId": "535cb749ed90d906659c9dc40f1bdacc051f1939",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
