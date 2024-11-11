@@ -136,6 +136,27 @@ grd(p) files in our source tree.
     > for lang in fr de en-GB etc; do echo '<?xml version="1.0" ?><!DOCTYPE translationbundle><translationbundle lang="'$lang'"></translationbundle>' > foo_strings_$lang.xtb; done
     ```
 
+    For adding xtb for all locales script, replace `$dir` and `$file_prefix`
+    appropriately.
+    ```
+      # Create the directory if it doesn't exist
+      mkdir -p "$dir"
+
+      # Loop through the language codes and create empty files
+      for lang in af am ar as az be bg bn bs ca cs cy da de el "en-GB" "es-419" es et eu fa fi fil "fr-CA" fr gl gu hi hr hu hy id is it iw ja ka kk km kn ko ky lo lt lv mk ml mn mr ms my ne nl no  
+      or pa pl "pt-BR" "pt-PT" ro ru si sk sl sq "sr-Latn"  
+      sr sv sw ta te th tr uk ur uz vi "zh-CN" "zh-HK" "zh-TW" zu; do
+        touch "$dir/$file_prefix${lang}.xtb";
+      done
+
+      # Loop through the language codes and populate the files with content
+      for lang in af am ar as az be bg bn bs ca cs cy da de el "en-GB" "es-419" es et eu fa fi fil "fr-CA" fr gl gu hi hr hu hy id is it iw ja ka kk km kn ko ky lo lt lv mk ml mn mr ms my ne nl no  
+      or pa pl "pt-BR" "pt-PT" ro ru si sk sl sq "sr-Latn"  
+      sr sv sw ta te th tr uk ur uz vi "zh-CN" "zh-HK" "zh-TW" zu; do
+        echo '<?xml version="1.0" ?><!DOCTYPE translationbundle><translationbundle lang="'${lang}'"></translationbundle>' > "$dir/$file_prefix${lang}.xtb";
+      done
+    ```
+
 *   If your new grd will NOT be translated (set in
     translation_expectations.pyl and no XTB placeholder files required
     above), there is very minimal XML content required in your grd.
