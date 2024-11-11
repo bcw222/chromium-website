@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e672cc47_898a2612",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1548978
+      },
+      "writtenOn": "2024-11-11T23:44:07Z",
+      "side": 1,
+      "message": "Hi, PTAL!!\n\nThe reason I added this, as it took me some time to figure out that .xtb files placeholders needs to be created for translations files.\n\nSeeing the full script, it would be easier for others to add files and populate content easier and readable.",
+      "revId": "e991d442f0e042db287ba565697f3bb4673be105",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
