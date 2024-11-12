@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa4cbb4b_983dfb06",
+        "filename": "site/getting-involved/become-a-committer/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 141,
+      "author": {
+        "id": 1272455
+      },
+      "writtenOn": "2024-11-12T22:59:44Z",
+      "side": 1,
+      "message": "typo: address",
+      "range": {
+        "startLine": 141,
+        "startChar": 42,
+        "endLine": 141,
+        "endChar": 51
+      },
+      "revId": "69ab54ad660f3fab8753d3edb3e00dc98c081ddc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
