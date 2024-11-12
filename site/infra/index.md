@@ -4,7 +4,7 @@ page_name: infra
 title: Infra
 ---
 
-Infrastructure ('infra') refers to all of the servers and tools which the
+Infrastructure ('infra') refers to all of the services and tools which the
 Chromium project depends on for development.
 
 Most of these are maintained at Google by a dedicated team, but (almost) all of
