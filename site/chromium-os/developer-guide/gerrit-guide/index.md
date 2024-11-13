@@ -10,7 +10,7 @@ title: Gerrit credentials setup (for Chromium OS and Chrome OS)
 
 [TOC]
 
-## Introduction
+## Intro
 
 We have two gerrit instances: Chromium OS and the (internal) Chrome OS gerrit
 instance.
