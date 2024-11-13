@@ -86,6 +86,24 @@
       ],
       "revId": "531ed152c41cfa835172bfac0a2dcb67f52406b4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6b3860e7_64500cb1",
+        "filename": "site/chromium-os/developer-guide/gerrit-guide/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1272455
+      },
+      "writtenOn": "2024-11-13T02:28:59Z",
+      "side": 1,
+      "message": "Yes, it does work. (though note that no-one will be developing chromeos on windows)",
+      "parentUuid": "54a5bcaa_4f8a7a1e",
+      "revId": "531ed152c41cfa835172bfac0a2dcb67f52406b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }

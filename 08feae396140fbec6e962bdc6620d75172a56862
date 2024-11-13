@@ -1,0 +1,85 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "354a64dd_0f8354d7",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1272455
+      },
+      "writtenOn": "2024-11-13T02:28:59Z",
+      "side": 1,
+      "message": "\"if you are not using a @google.com account\"",
+      "range": {
+        "startLine": 20,
+        "startChar": 5,
+        "endLine": 20,
+        "endChar": 22
+      },
+      "revId": "08feae396140fbec6e962bdc6620d75172a56862",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ad821bb_8bf88ad6",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1272455
+      },
+      "writtenOn": "2024-11-13T02:28:59Z",
+      "side": 1,
+      "message": "\"if you are using a @google.com account\"",
+      "revId": "08feae396140fbec6e962bdc6620d75172a56862",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b186cc04_6625e350",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1272455
+      },
+      "writtenOn": "2024-11-13T02:28:59Z",
+      "side": 1,
+      "message": "let\u0027s remove this since repo is only used by chromeos and it\u0027s mentioned in the chromeos guide",
+      "range": {
+        "startLine": 44,
+        "startChar": 0,
+        "endLine": 50,
+        "endChar": 11
+      },
+      "fixSuggestions": [
+        {
+          "fixId": "feee2fe4_49d2bed3",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/developers/gerrit-guide/index.md",
+              "range": {
+                "startLine": 44,
+                "startChar": 0,
+                "endLine": 52,
+                "endChar": 0
+              },
+              "replacement": "    2.  Run `gcert` once a day to authenticate your account.\n"
+            }
+          ]
+        }
+      ],
+      "revId": "08feae396140fbec6e962bdc6620d75172a56862",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
