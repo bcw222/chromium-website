@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0908d383_1da6a7ce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-11-13T00:13:45Z",
+      "side": 1,
+      "message": "Nice. IIRC A big part of the reason the recipe worked the way it did was that there was no concept of a new patchset triggerer at the time. (The other part was that there wasn\u0027t the direct Gerrit API to post comments, I think, either).",
+      "revId": "3c6676d856b0ee233a80d6c33169284da199861c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
