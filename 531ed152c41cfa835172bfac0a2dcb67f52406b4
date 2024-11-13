@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b2bb727d_d473dd4e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 7
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 3408137
+      },
+      "writtenOn": "2024-11-13T02:47:43Z",
+      "side": 1,
+      "message": "SSO will be required for Googlers for some repos on the Chromium host, including ChromiumOS repos. I\u0027ve updated the bug with additional context.",
+      "parentUuid": "5422c489_a044a0ca",
+      "revId": "531ed152c41cfa835172bfac0a2dcb67f52406b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "5e180979_8077a57b",
         "filename": "site/chromium-os/developer-guide/gerrit-guide/index.md",
         "patchSetId": 7
