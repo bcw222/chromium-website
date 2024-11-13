@@ -24,6 +24,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0a63f925_cd35183a",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 3408137
+      },
+      "writtenOn": "2024-11-13T02:33:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "354a64dd_0f8354d7",
+      "range": {
+        "startLine": 20,
+        "startChar": 5,
+        "endLine": 20,
+        "endChar": 22
+      },
+      "revId": "08feae396140fbec6e962bdc6620d75172a56862",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0ad821bb_8bf88ad6",
@@ -37,6 +61,24 @@
       "writtenOn": "2024-11-13T02:28:59Z",
       "side": 1,
       "message": "\"if you are using a @google.com account\"",
+      "revId": "08feae396140fbec6e962bdc6620d75172a56862",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7a6b6a0a_63020f6f",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 3408137
+      },
+      "writtenOn": "2024-11-13T02:33:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0ad821bb_8bf88ad6",
       "revId": "08feae396140fbec6e962bdc6620d75172a56862",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -78,6 +120,30 @@
           ]
         }
       ],
+      "revId": "08feae396140fbec6e962bdc6620d75172a56862",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "251142ec_569149c8",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 3408137
+      },
+      "writtenOn": "2024-11-13T02:33:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b186cc04_6625e350",
+      "range": {
+        "startLine": 44,
+        "startChar": 0,
+        "endLine": 50,
+        "endChar": 11
+      },
       "revId": "08feae396140fbec6e962bdc6620d75172a56862",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
