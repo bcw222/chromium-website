@@ -1,0 +1,129 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "941bbae3_99a1eb5f",
+        "filename": "site/chromium-os/developer-guide/gerrit-guide/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-11-13T17:39:48Z",
+      "side": 1,
+      "message": "Why is all of this on the chromium-os page but not the chromium page? We should be careful and intentional about which stuff is duplicated on each page (i.e., I can be fine w/ duplicating text if it makes it so that everything you need is in one place). The only thing I see here that looks CrOS-specific is the repo in step 4.",
+      "fixSuggestions": [
+        {
+          "fixId": "4ae20d72_7ba14a7e",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/chromium-os/developer-guide/gerrit-guide/index.md",
+              "range": {
+                "startLine": 33,
+                "startChar": 0,
+                "endLine": 34,
+                "endChar": 0
+              },
+              "replacement": "Follow the steps in [Chromium\u0027s Gerrit Guide](/chromium/chromium-os/developer-guide/gerrit-guide).\n"
+            },
+            {
+              "path": "site/chromium-os/developer-guide/gerrit-guide/index.md",
+              "range": {
+                "startLine": 82,
+                "startChar": 0,
+                "endLine": 83,
+                "endChar": 0
+              },
+              "replacement": "Follow the steps in [Chromium\u0027s Gerrit Guide](/chromium/chromium-os/developer-guide/gerrit-guide). You\n"
+            },
+            {
+              "path": "site/chromium-os/developer-guide/gerrit-guide/index.md",
+              "range": {
+                "startLine": 94,
+                "startChar": 0,
+                "endLine": 95,
+                "endChar": 0
+              },
+              "replacement": "Guide](/chromium/chromium-os/developer-guide/gerrit-guide)."
+            }
+          ]
+        }
+      ],
+      "revId": "230477a87dcf67a3877165dc48d811098d3fe154",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "86677997_f87650c9",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-11-13T17:39:48Z",
+      "side": 1,
+      "message": "Why do we need to do lines 41 and 42 if we already did the steps above?",
+      "fixSuggestions": [
+        {
+          "fixId": "9e51e13f_88a18ba3",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/developers/gerrit-guide/index.md",
+              "range": {
+                "startLine": 39,
+                "startChar": 0,
+                "endLine": 45,
+                "endChar": 0
+              },
+              "replacement": "    1.  Run `gcert` once a day to authenticate your account.\n"
+            }
+          ]
+        }
+      ],
+      "revId": "230477a87dcf67a3877165dc48d811098d3fe154",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "80b48544_7bdfd6d0",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-11-13T17:39:48Z",
+      "side": 1,
+      "message": "I realize this was pre-existing, but why do we have step 6 at all? We have no requirement that people publish real names.",
+      "fixSuggestions": [
+        {
+          "fixId": "267aa0d3_1b6ca62b",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/developers/gerrit-guide/index.md",
+              "range": {
+                "startLine": 45,
+                "startChar": 0,
+                "endLine": 46,
+                "endChar": 0
+              },
+              "replacement": "6.  Make sure to set your full name.\n"
+            }
+          ]
+        }
+      ],
+      "revId": "230477a87dcf67a3877165dc48d811098d3fe154",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
