@@ -58,6 +58,70 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "adf8614c_c6e29f93",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1272455
+      },
+      "writtenOn": "2024-11-14T09:57:06Z",
+      "side": 1,
+      "message": "nit: authenticates -\u003e authenticate correctly",
+      "range": {
+        "startLine": 16,
+        "startChar": 38,
+        "endLine": 16,
+        "endChar": 51
+      },
+      "fixSuggestions": [
+        {
+          "fixId": "80b19d8d_9dbffa14",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/developers/gerrit-guide/index.md",
+              "range": {
+                "startLine": 16,
+                "startChar": 0,
+                "endLine": 17,
+                "endChar": 0
+              },
+              "replacement": "2.  To ensure that `git cl` workflows authenticate correctly:\n"
+            }
+          ]
+        }
+      ],
+      "revId": "230477a87dcf67a3877165dc48d811098d3fe154",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "62a034f8_77345432",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1272455
+      },
+      "writtenOn": "2024-11-14T09:57:06Z",
+      "side": 1,
+      "message": "all these lines can be removed, since luci-auth login means you don\u0027t need .gitcookies anymore",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 60
+      },
+      "revId": "230477a87dcf67a3877165dc48d811098d3fe154",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "86677997_f87650c9",
         "filename": "site/developers/gerrit-guide/index.md",
         "patchSetId": 10
@@ -93,6 +157,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "96eee849_e85bbcca",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1272455
+      },
+      "writtenOn": "2024-11-14T09:57:06Z",
+      "side": 1,
+      "message": "Hmm, yeah this needs a bit of tidying up. I suggest:\n\n- Remove mention of chrome-internal, since this page is about getting access to the chromium host\n- Move the \"Set up your account on Gerrit\" bit to the top, right after opting into the new auth stack\n- Move the \"verification\" step to the very end since it applies to both Googler and non-Googler cases\n\nso basically the only difference is: non-google.com accounts use luci-auth login, google accounts run gcert",
+      "parentUuid": "86677997_f87650c9",
+      "revId": "230477a87dcf67a3877165dc48d811098d3fe154",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "80b48544_7bdfd6d0",
         "filename": "site/developers/gerrit-guide/index.md",
         "patchSetId": 10
@@ -122,6 +204,24 @@
           ]
         }
       ],
+      "revId": "230477a87dcf67a3877165dc48d811098d3fe154",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb8386e8_79eeceaf",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1272455
+      },
+      "writtenOn": "2024-11-14T09:57:06Z",
+      "side": 1,
+      "message": "I don\u0027t know :)\n\nI\u0027d prefer if we kept the scope of this CL limited to authentication changes - feel free to tidy this up separately if you think it should be removed.",
+      "parentUuid": "80b48544_7bdfd6d0",
       "revId": "230477a87dcf67a3877165dc48d811098d3fe154",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
