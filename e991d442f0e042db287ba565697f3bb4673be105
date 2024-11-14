@@ -16,6 +16,29 @@
       "message": "Hi, PTAL!!\n\nThe reason I added this, as it took me some time to figure out that .xtb files placeholders needs to be created for translations files.\n\nSeeing the full script, it would be easier for others to add files and populate content easier and readable.",
       "revId": "e991d442f0e042db287ba565697f3bb4673be105",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d9c9de23_47b8ac0a",
+        "filename": "site/developers/design-documents/ui-localization/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 148,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2024-11-14T21:51:54Z",
+      "side": 1,
+      "message": "surely the line breaks aren\u0027t going to work right? maybe this file should be a separate .sh file checked into the repo somewhere?",
+      "range": {
+        "startLine": 146,
+        "startChar": 0,
+        "endLine": 148,
+        "endChar": 69
+      },
+      "revId": "e991d442f0e042db287ba565697f3bb4673be105",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
