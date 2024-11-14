@@ -224,6 +224,24 @@
       "parentUuid": "80b48544_7bdfd6d0",
       "revId": "230477a87dcf67a3877165dc48d811098d3fe154",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "64855034_a5f5d301",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-11-14T15:33:53Z",
+      "side": 1,
+      "message": "Sure, that\u0027s fine.",
+      "parentUuid": "fb8386e8_79eeceaf",
+      "revId": "230477a87dcf67a3877165dc48d811098d3fe154",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
