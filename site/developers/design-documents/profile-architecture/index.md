@@ -109,7 +109,7 @@ class FooServiceFactory : public ProfileKeyedServiceFactory {
   virtual ~FooServiceFactory();
 
   // BrowserContextKeyedServiceFactory:
-  virtual BrowserContextKeyedService* BuildServiceInstanceFor(
+  virtual BrowserContextstd::unique_ptr<KeyedService> BuildServiceInstanceForBrowserContext(
       content::BrowserContext* context) const override;
 };
 ```
