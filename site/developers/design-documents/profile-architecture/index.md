@@ -105,11 +105,11 @@ class FooServiceFactory : public ProfileKeyedServiceFactory {
   static FooServiceFactory* GetInstance();
 
  private:
-  FooServiceFactory();
-  virtual ~FooServiceFactory();
+  FooServiceFactory() override;
+  ~FooServiceFactory() override;
 
   // BrowserContextKeyedServiceFactory:
-  virtual BrowserContextKeyedService* BuildServiceInstanceFor(
+  std::unique_ptr<KeyedService> BuildServiceInstanceForBrowserContext(
       content::BrowserContext* context) const override;
 };
 ```
