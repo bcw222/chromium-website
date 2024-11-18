@@ -1,0 +1,74 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ff8ce7f0_df0fbbe3",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 1520537
+      },
+      "writtenOn": "2024-11-18T18:42:25Z",
+      "side": 1,
+      "message": "Typo.",
+      "fixSuggestions": [
+        {
+          "fixId": "77d8d2e4_e5f7ca8b",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+              "range": {
+                "startLine": 124,
+                "startChar": 0,
+                "endLine": 125,
+                "endChar": 0
+              },
+              "replacement": "    following to re-enable them, otherwise you might encounter some strange\n"
+            }
+          ]
+        }
+      ],
+      "revId": "b647581e2c2e3391cb4737e2cfe9e1f4e3926b29",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "05f152cd_70613329",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1520537
+      },
+      "writtenOn": "2024-11-18T18:42:25Z",
+      "side": 1,
+      "message": "Suggestion: failures, such as `Permission denied: \u0027/proc/self/setgroups\u0027`",
+      "fixSuggestions": [
+        {
+          "fixId": "90bbb9fe_2804fc83",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+              "range": {
+                "startLine": 125,
+                "startChar": 0,
+                "endLine": 126,
+                "endChar": 0
+              },
+              "replacement": "    failures, such as `Permission denied: \u0027/proc/self/setgroups\u0027`:\n"
+            }
+          ]
+        }
+      ],
+      "revId": "b647581e2c2e3391cb4737e2cfe9e1f4e3926b29",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
