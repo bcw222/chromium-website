@@ -36,6 +36,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5c8939e_c67a250d",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 1270601
+      },
+      "writtenOn": "2024-11-18T20:01:56Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "ff8ce7f0_df0fbbe3",
+      "revId": "b647581e2c2e3391cb4737e2cfe9e1f4e3926b29",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "05f152cd_70613329",
@@ -67,6 +85,24 @@
           ]
         }
       ],
+      "revId": "b647581e2c2e3391cb4737e2cfe9e1f4e3926b29",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "df205b2f_460a5385",
+        "filename": "site/chromium-os/developer-library/guides/development/developer-guide/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1270601
+      },
+      "writtenOn": "2024-11-18T20:01:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "05f152cd_70613329",
       "revId": "b647581e2c2e3391cb4737e2cfe9e1f4e3926b29",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
