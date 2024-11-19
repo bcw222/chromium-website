@@ -33,6 +33,24 @@
       "message": "nit: This isn\u0027t an override",
       "revId": "419a2bdc300c4bd30245d5a6f48095d2a8897729",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e7c92066_42f06245",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1545727
+      },
+      "writtenOn": "2024-11-19T09:09:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6189ba84_e38b3abe",
+      "revId": "419a2bdc300c4bd30245d5a6f48095d2a8897729",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
