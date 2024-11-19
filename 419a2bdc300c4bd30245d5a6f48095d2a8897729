@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43e8823e_7348696e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1113941
+      },
+      "writtenOn": "2024-11-19T09:08:07Z",
+      "side": 1,
+      "message": "Thanks!",
+      "revId": "419a2bdc300c4bd30245d5a6f48095d2a8897729",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6189ba84_e38b3abe",
+        "filename": "site/developers/design-documents/profile-architecture/index.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 1113941
+      },
+      "writtenOn": "2024-11-19T09:08:07Z",
+      "side": 1,
+      "message": "nit: This isn\u0027t an override",
+      "revId": "419a2bdc300c4bd30245d5a6f48095d2a8897729",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
