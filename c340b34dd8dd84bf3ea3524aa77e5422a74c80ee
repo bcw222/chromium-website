@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aa71b996_b8058d02",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1537587
+      },
+      "writtenOn": "2024-11-20T22:24:49Z",
+      "side": 1,
+      "message": "Preview: https://chromium-website--cl6039698-ps1-yggp8brq.web.app/chromium-os/developer-library/getting-started/checkout-chromium/",
+      "revId": "c340b34dd8dd84bf3ea3524aa77e5422a74c80ee",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
