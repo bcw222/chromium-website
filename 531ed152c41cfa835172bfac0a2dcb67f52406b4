@@ -72,6 +72,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a58f901e_394fe1e9",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 7
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-11-20T21:22:56Z",
+      "side": 1,
+      "message": "There is very little in the policy that answers this question, just the one line that Googlers must use sso:// to get a daily re-auth. But the next line says that non-Googlers can use OAuth with a daily re-auth as well, so why isn\u0027t OAuth good enough for Googlers?\n\nAlso, the linked bug is private (Google-only), which makes it even more important that you improve the change description to explain what\u0027s going on and why.\n\nSeparately, my comment on the CrOS page is still unaddressed, I\u0027m waiting for that to change before doing another review.",
+      "parentUuid": "fd55f0e4_5b7fac6b",
+      "revId": "531ed152c41cfa835172bfac0a2dcb67f52406b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5e180979_8077a57b",
