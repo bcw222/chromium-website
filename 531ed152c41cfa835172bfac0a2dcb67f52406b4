@@ -108,6 +108,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "86bdaec8_31c3214e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 7
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-11-21T17:25:54Z",
+      "side": 1,
+      "message": "Can we modify this description to also mention that for non-Googlers, we\u0027re telling them to use luci-auth rather than new-password/.gitcookies? Otherwise I think this level of detail is fine, we don\u0027t really need to go into either the why of the change or the mechanics of SSO and luci-auth too much.",
+      "parentUuid": "1f92cccb_66501d06",
+      "revId": "531ed152c41cfa835172bfac0a2dcb67f52406b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5e180979_8077a57b",
@@ -210,6 +228,51 @@
       "side": 1,
       "message": "Yes, it does work. (though note that no-one will be developing chromeos on windows)",
       "parentUuid": "54a5bcaa_4f8a7a1e",
+      "revId": "531ed152c41cfa835172bfac0a2dcb67f52406b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2ec15ad0_2171fbd8",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-11-21T17:25:54Z",
+      "side": 1,
+      "message": "I\u0027m still confused. Why don\u0027t we need all of these steps? Chrome developers are not going to look at the ChromeOS page to get the instructions (they likely won\u0027t even know about that page).",
+      "fixSuggestions": [
+        {
+          "fixId": "0ca5c03e_bd8e8a46",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/developers/gerrit-guide/index.md",
+              "range": {
+                "startLine": 13,
+                "startChar": 0,
+                "endLine": 14,
+                "endChar": 0
+              },
+              "replacement": "### (EVERYONE) To get access to the Chromium Gerrit instances\n"
+            },
+            {
+              "path": "site/developers/gerrit-guide/index.md",
+              "range": {
+                "startLine": 44,
+                "startChar": 0,
+                "endLine": 52,
+                "endChar": 0
+              },
+              "replacement": "    2.  Run `gcert` once a day to authenticate your account.\n"
+            }
+          ]
+        }
+      ],
       "revId": "531ed152c41cfa835172bfac0a2dcb67f52406b4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }

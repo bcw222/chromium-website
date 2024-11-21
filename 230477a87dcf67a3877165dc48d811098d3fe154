@@ -74,6 +74,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "acf743f1_e90b330b",
+        "filename": "site/chromium-os/developer-guide/gerrit-guide/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-11-21T17:25:54Z",
+      "side": 1,
+      "message": "To repeat, I\u0027m fine with duplicating text (in fact, I prefer it in many cases). But see my comment on the other page.",
+      "parentUuid": "c1032b64_3423d755",
+      "revId": "230477a87dcf67a3877165dc48d811098d3fe154",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "adf8614c_c6e29f93",
