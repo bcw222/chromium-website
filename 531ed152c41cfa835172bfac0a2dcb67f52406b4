@@ -128,6 +128,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "80f6d905_d673a899",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 7
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1272455
+      },
+      "writtenOn": "2024-11-21T20:27:37Z",
+      "side": 1,
+      "message": "@mitchella@google.com",
+      "parentUuid": "86bdaec8_31c3214e",
+      "revId": "531ed152c41cfa835172bfac0a2dcb67f52406b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "5e180979_8077a57b",
         "filename": "site/chromium-os/developer-guide/gerrit-guide/index.md",
         "patchSetId": 7
@@ -273,6 +291,24 @@
           ]
         }
       ],
+      "revId": "531ed152c41cfa835172bfac0a2dcb67f52406b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d7ffa734_a15369fd",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1272455
+      },
+      "writtenOn": "2024-11-21T20:27:37Z",
+      "side": 1,
+      "message": "(Note that the text you\u0027re commenting on is an intermediate patchset, not the base.)\n\nThe whole `/new-password` -\u003e `/.gitcookies` flow is no longer needed if you enable `useNewAuthStack` and run `luci-auth login`.\n\nThe `repo` bits don\u0027t need to be listed here because they\u0027re ChromeOS specific.\n\nWe could potentially add back in the verification step at the end, I don\u0027t have a strong opinion about that.",
+      "parentUuid": "2ec15ad0_2171fbd8",
       "revId": "531ed152c41cfa835172bfac0a2dcb67f52406b4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
