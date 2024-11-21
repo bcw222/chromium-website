@@ -4021,6 +4021,21 @@ such as the auto update until date, first release, and more.
     <td></td>
     <td></td>
  </tr>
+ <tr>
+    <td>2024-10-03</td>
+    <td>Samsung</td>
+    <td><a href="https://www.samsung.com/us/computing/chromebooks/chromebook-plus/">Samsung Galaxy Chromebook Plus</a></td>
+    <td>Xol</td>
+    <td>Brya</td>
+    <td>Brya</td>
+    <td>x86_64</td>
+    <td>6.1</td>
+    <td>x86_64</td>
+    <td>Raptor Lake Refresh</td>
+    <td>Chromebook</td>
+    <td>Yes</td>
+    <td>Yes</td>
+  </tr>
 <tr>
     <td>2024-11-02</td>
     <td>Lenovo</td>
