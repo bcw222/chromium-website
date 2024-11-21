@@ -90,6 +90,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1f92cccb_66501d06",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 7
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1272455
+      },
+      "writtenOn": "2024-11-21T03:11:48Z",
+      "side": 1,
+      "message": "The short answer is that some Google-controlled repos on the chromium host (including all ChromeOS and infra repos) now require Googler accounts to use CorpSSO to be trusted as an uploader or reviewer.\n\nAt the same time, we are trying to discourage the use of .gitcookies files with a view to eventual deprecation, hence the replacement of those instructions with `luci-auth login` for non-Googlers.\n\n(Andrew, could you please add that information to the CL description?)\n\nHappy to chat offline if you want more information.",
+      "parentUuid": "a58f901e_394fe1e9",
+      "revId": "531ed152c41cfa835172bfac0a2dcb67f52406b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5e180979_8077a57b",

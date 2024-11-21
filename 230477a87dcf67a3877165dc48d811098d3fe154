@@ -56,6 +56,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c1032b64_3423d755",
+        "filename": "site/chromium-os/developer-guide/gerrit-guide/index.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1272455
+      },
+      "writtenOn": "2024-11-21T03:11:48Z",
+      "side": 1,
+      "message": "I don\u0027t know why chrome-internal is only mentioned here, if that\u0027s what you mean. The `repo` stuff is here because generally only ChromeOS devs use `repo`.\n\nI think there\u0027s some merit in duplicating stuff here so there\u0027s only one doc that ChromeOS devs need to read (though I don\u0027t feel too strongly either way). But really, the point of this CL is just to update the instructions in the structure that already exists - I\u0027d like to avoid shaving the yak of refactoring the whole website here if possible.",
+      "parentUuid": "941bbae3_99a1eb5f",
+      "revId": "230477a87dcf67a3877165dc48d811098d3fe154",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "adf8614c_c6e29f93",
