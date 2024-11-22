@@ -329,6 +329,24 @@
       "parentUuid": "2ec15ad0_2171fbd8",
       "revId": "531ed152c41cfa835172bfac0a2dcb67f52406b4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "39342c6e_fbd91149",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-11-22T02:39:25Z",
+      "side": 1,
+      "message": "(oops re: the wrong patchset).\n\nI\u0027m still kinda confused by why we wouldn\u0027t also need the `git config` changes? Is gclient somehow smart enough to use SSO directly now?",
+      "parentUuid": "d7ffa734_a15369fd",
+      "revId": "531ed152c41cfa835172bfac0a2dcb67f52406b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
