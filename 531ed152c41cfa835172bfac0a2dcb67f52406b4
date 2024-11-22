@@ -347,6 +347,24 @@
       "parentUuid": "d7ffa734_a15369fd",
       "revId": "531ed152c41cfa835172bfac0a2dcb67f52406b4",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c62999b_213d2cc1",
+        "filename": "site/developers/gerrit-guide/index.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1272455
+      },
+      "writtenOn": "2024-11-22T02:59:17Z",
+      "side": 1,
+      "message": "Yes.",
+      "parentUuid": "39342c6e_fbd91149",
+      "revId": "531ed152c41cfa835172bfac0a2dcb67f52406b4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
