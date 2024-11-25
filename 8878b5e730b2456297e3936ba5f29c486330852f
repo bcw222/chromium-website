@@ -16,6 +16,143 @@
       "message": "Nice cleanup, thanks!",
       "revId": "8878b5e730b2456297e3936ba5f29c486330852f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "87b90298_ec3fce0e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1178124
+      },
+      "writtenOn": "2024-11-25T10:27:09Z",
+      "side": 1,
+      "message": "thank you for the cleanups. lgtm w/ some nits.",
+      "revId": "8878b5e730b2456297e3936ba5f29c486330852f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d6cb2485_11ac1aac",
+        "filename": "site/administrators/configuring-other-preferences/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1178124
+      },
+      "writtenOn": "2024-11-25T10:27:09Z",
+      "side": 1,
+      "message": "nit: please adjust line wrapping at 80 cols",
+      "revId": "8878b5e730b2456297e3936ba5f29c486330852f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6a484c05_10d817c3",
+        "filename": "site/administrators/configuring-other-preferences/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 1178124
+      },
+      "writtenOn": "2024-11-25T10:27:09Z",
+      "side": 1,
+      "message": "\"an\"",
+      "range": {
+        "startLine": 61,
+        "startChar": 20,
+        "endLine": 61,
+        "endChar": 21
+      },
+      "revId": "8878b5e730b2456297e3936ba5f29c486330852f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9de423de_c6946e22",
+        "filename": "site/administrators/configuring-other-preferences/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1178124
+      },
+      "writtenOn": "2024-11-25T10:27:09Z",
+      "side": 1,
+      "message": "\"an\"",
+      "range": {
+        "startLine": 63,
+        "startChar": 53,
+        "endLine": 63,
+        "endChar": 54
+      },
+      "revId": "8878b5e730b2456297e3936ba5f29c486330852f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e75c7fe0_103ed9a6",
+        "filename": "site/administrators/configuring-other-preferences/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1178124
+      },
+      "writtenOn": "2024-11-25T10:27:09Z",
+      "side": 1,
+      "message": "wrap at 80 cols",
+      "revId": "8878b5e730b2456297e3936ba5f29c486330852f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "90740362_44eb0e16",
+        "filename": "site/administrators/configuring-other-preferences/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 1178124
+      },
+      "writtenOn": "2024-11-25T10:27:09Z",
+      "side": 1,
+      "message": "nit: remove comma (pre-existing issue -- oops)",
+      "range": {
+        "startLine": 163,
+        "startChar": 29,
+        "endLine": 163,
+        "endChar": 30
+      },
+      "revId": "8878b5e730b2456297e3936ba5f29c486330852f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ec7f2338_e0ba0d75",
+        "filename": "site/developers/design-documents/first-run-customizations/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 1178124
+      },
+      "writtenOn": "2024-11-25T10:27:09Z",
+      "side": 1,
+      "message": "wrap at 80 cols",
+      "revId": "8878b5e730b2456297e3936ba5f29c486330852f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
