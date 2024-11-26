@@ -1,0 +1,45 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6a70c2ff_fe9f5960",
+        "filename": "site/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 4032,
+      "author": {
+        "id": 1160139
+      },
+      "writtenOn": "2024-11-26T02:13:52Z",
+      "side": 1,
+      "message": "IIRC that\u0027s 6.6 kernel?",
+      "range": {
+        "startLine": 4032,
+        "startChar": 8,
+        "endLine": 4032,
+        "endChar": 11
+      },
+      "fixSuggestions": [
+        {
+          "fixId": "181b453b_168cbd50",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/index.md",
+              "range": {
+                "startLine": 4032,
+                "startChar": 0,
+                "endLine": 4033,
+                "endChar": 0
+              },
+              "replacement": "    \u003ctd\u003e5.15\u003c/td\u003e\n"
+            }
+          ]
+        }
+      ],
+      "revId": "ad17313260359946e5f1d9e260fab8c8a1906649",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
