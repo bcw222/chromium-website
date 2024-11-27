@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e351350_22cf187b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000107
+      },
+      "writtenOn": "2024-11-27T18:08:40Z",
+      "side": 1,
+      "message": "A bit of a rubber stamp, but looks fine to me.",
+      "revId": "890119d349a844b864b739b30a7f419ccd36d60e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
