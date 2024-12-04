@@ -39,6 +39,30 @@
       },
       "revId": "d40662191371326af29c7892fc7e735a8753e755",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "008ebcdd_0ceb4538",
+        "filename": "site/issue-tracking/googler-guidelines/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1001982
+      },
+      "writtenOn": "2024-12-04T19:39:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "422c1a26_a8e5bc1f",
+      "range": {
+        "startLine": 48,
+        "startChar": 0,
+        "endLine": 48,
+        "endChar": 2
+      },
+      "revId": "d40662191371326af29c7892fc7e735a8753e755",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
