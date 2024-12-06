@@ -16,6 +16,24 @@
       "message": "Do we not need to document something about how to switch to the credential helper? Or is that covered by useNewAuthStack? Will something set the credential helper config for us?",
       "revId": "9baa9222c9e09b4141bc48aa8d182e35ba0fdc2f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4cac01bb_4afd491b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1560543
+      },
+      "writtenOn": "2024-12-06T17:52:28Z",
+      "side": 1,
+      "message": "I think we should mention something. If we don\u0027t want to duplicate the message, it can be something like - run `gclient / git *` and follow its instructions to fully authenticate.",
+      "parentUuid": "e4986ddf_0d023e8b",
+      "revId": "9baa9222c9e09b4141bc48aa8d182e35ba0fdc2f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
