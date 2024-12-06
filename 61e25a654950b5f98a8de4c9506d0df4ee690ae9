@@ -51,6 +51,24 @@
       "parentUuid": "2bec631b_e4061984",
       "revId": "61e25a654950b5f98a8de4c9506d0df4ee690ae9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6fbbadd5_94e2d2e7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1149979
+      },
+      "writtenOn": "2024-12-06T10:38:59Z",
+      "side": 1,
+      "message": "This is what I see: https://screenshot.googleplex.com/45V2H7ufykCVRfi.png\n\nLooking at your screenshot, the patchset name is \"edit\", so maybe you\u0027ve been editing it in the web UI but not actually committed that?",
+      "parentUuid": "a7a5b249_cc79d59c",
+      "revId": "61e25a654950b5f98a8de4c9506d0df4ee690ae9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
