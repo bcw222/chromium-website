@@ -52,6 +52,24 @@
       "parentUuid": "4cac01bb_4afd491b",
       "revId": "9baa9222c9e09b4141bc48aa8d182e35ba0fdc2f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "31b87e2d_364c0e7e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-12-09T21:42:46Z",
+      "side": 1,
+      "message": "Okay. This is slightly tangential, but we really need to review all of the different authentication mechanisms / steps we expect people to follow and make sure they are all documented correctly where people will look for them. I feel like managing authentication in chromium is a constantly changing game of whack-a-mole at this point.",
+      "parentUuid": "bf74960c_3325b45b",
+      "revId": "9baa9222c9e09b4141bc48aa8d182e35ba0fdc2f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
