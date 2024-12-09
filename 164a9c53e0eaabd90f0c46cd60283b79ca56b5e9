@@ -16,6 +16,23 @@
       "message": "Hi ellyjones@, PTAL? Thank you!",
       "revId": "164a9c53e0eaabd90f0c46cd60283b79ca56b5e9",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9921bb4_8512a934",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2024-12-09T16:32:52Z",
+      "side": 1,
+      "message": "lgtm!",
+      "revId": "164a9c53e0eaabd90f0c46cd60283b79ca56b5e9",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
