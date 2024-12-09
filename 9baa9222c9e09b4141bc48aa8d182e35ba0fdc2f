@@ -70,6 +70,24 @@
       "parentUuid": "bf74960c_3325b45b",
       "revId": "9baa9222c9e09b4141bc48aa8d182e35ba0fdc2f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f845a19_e0f1be21",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3355336
+      },
+      "writtenOn": "2024-12-09T21:56:14Z",
+      "side": 1,
+      "message": "ack, dlf is working on a plan for that in parallel, we do want to consolidate auth because as you say it\u0027s annoying.",
+      "parentUuid": "31b87e2d_364c0e7e",
+      "revId": "9baa9222c9e09b4141bc48aa8d182e35ba0fdc2f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
