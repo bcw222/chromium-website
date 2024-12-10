@@ -91,7 +91,7 @@ board.
     height=55 width=400>](Plankton%20Raiden%20Software%20Care%20%26%20Feed.jpg)
 
 ```none
-sudo ftx_prog --old-vid 0x0403 --new-vid 0x18d1 --old-pid 0x6015 --new-pid 0x500c --new-serial-number <serial number> --cbus 0 GPIO --cbus 1 Tristate --cbus 2 GPIO --cbus 3 GPIO --manufacturer "Google Inc" --product "Plankton" --ftprog-strings
+sudo ftx_prog --old-vid 0x0403 --new-vid 0x18d1 --old-pid 0x6015 --new-pid 0x500c --new-serial-number <serial number> --cbus 0 GPIO --cbus 1 Tristate --cbus 2 GPIO --cbus 3 GPIO --manufacturer "Google LLC" --product "Plankton" --ftprog-strings
 ```
 
 ## Firmware Source Code
