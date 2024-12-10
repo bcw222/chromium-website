@@ -7,6 +7,9 @@ See http://www.chromium.org/developers/how-tos/depottools/presubmit-scripts
 for more details about the presubmit API built into depot_tools.
 """
 
+import difflib
+import json
+
 PRESUBMIT_VERSION = '2.0.0'
 
 # This line is 'magic' in that git-cl looks for it to decide whether to
@@ -108,3 +111,45 @@ def CheckLobIgnores(input_api, output_api):
 def CheckPatchFormatted(input_api, output_api):
     """Check formatting of files."""
     return input_api.canned_checks.CheckPatchFormatted(input_api, output_api)
+
+
+def CheckPagesJson(input_api, output_api):
+    """Check pages.json is up-to-date."""
+    root = input_api.os_path.normpath(
+        input_api.os_path.abspath(input_api.PresubmitLocalPath()))
+    site_dir = input_api.os_path.join(root, 'site')
+    curr_pages_json = input_api.os_path.join(site_dir, 'pages.json')
+    curr_data = input_api.ReadFile(curr_pages_json)
+    curr_pages = json.loads(curr_data)
+
+    # Quick check of current content.
+    sorted_pages = sorted(curr_pages)
+    if sorted_pages != curr_pages:
+        msg = 'site/pages.json needs sorting'
+        diff = list(difflib.unified_diff(curr_pages, sorted_pages, lineterm=""))
+        # Skip the +++/--- lines.
+        diffmsg = "\n".join(diff[2:])
+        return [output_api.PresubmitError(msg, long_text=diffmsg)]
+
+    # Scan the full tree to see what pages should be listed.
+    found_pages = []
+    for dirpath, _, files in input_api.os_walk(site_dir):
+        if dirpath == site_dir:
+            continue
+        if 'index.md' in files:
+            found_pages.append('/' +
+                               input_api.os_path.relpath(dirpath, site_dir))
+    found_pages.sort()
+    if curr_pages != found_pages:
+        msg = 'site/pages.json needs updating'
+        diff = list(difflib.unified_diff(curr_pages, found_pages, lineterm=""))
+        # Skip the +++/--- lines.
+        diffmsg = "\n".join(diff[2:])
+        if input_api.no_diffs:
+            return [
+                output_api.output_api.PresubmitPromptWarning(msg,
+                                                             long_text=diffmsg)
+            ]
+        return [output_api.PresubmitError(msg, long_text=diffmsg)]
+
+    return []
