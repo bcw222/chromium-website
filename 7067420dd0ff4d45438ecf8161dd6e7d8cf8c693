@@ -16,6 +16,23 @@
       "message": "Thank you!",
       "revId": "7067420dd0ff4d45438ecf8161dd6e7d8cf8c693",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1a68ef8b_8d29c8b2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-12-10T21:14:24Z",
+      "side": 1,
+      "message": "I\u0027m pretty sure this file isn\u0027t used for anything anymore, and we should just delete it rather than trying to keep it up to date.",
+      "revId": "7067420dd0ff4d45438ecf8161dd6e7d8cf8c693",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
