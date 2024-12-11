@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "79b4ff64_c4b45554",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303352
+      },
+      "writtenOn": "2024-12-11T08:07:19Z",
+      "side": 1,
+      "message": "Just to be sure, does this remove the containing check_gpu_bots-script/ folder too? If not, please also remove that. If so, LGTM!",
+      "revId": "c0c47696b2c08cfcdf2c5c76d5d5f652eded4601",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
