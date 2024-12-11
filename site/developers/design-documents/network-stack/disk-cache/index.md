@@ -31,7 +31,7 @@ Chromium disk cache are:
             it should be possible to use synchronous or asynchronous operations.
 *   We should be able to avoid conflicts that prevent us from storing
             two given resources simultaneously. In other words, the design
-            should avoid cache trashing.
+            should avoid cache thrashing.
 *   It should be possible to remove a given entry from the cache, and
             keep working with a given entry while at the same time making it
             inaccessible to other requests (as if it was never stored).
