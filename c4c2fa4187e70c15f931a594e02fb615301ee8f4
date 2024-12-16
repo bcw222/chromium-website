@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4cf0eecd_efe261c0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1516607
+      },
+      "writtenOn": "2024-12-16T22:02:43Z",
+      "side": 1,
+      "message": "Update after http://cl/704076962 (pointed out in https://chat.google.com/room/AAAALPyqhXI/2eS9zrsGuOs)",
+      "revId": "c4c2fa4187e70c15f931a594e02fb615301ee8f4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
