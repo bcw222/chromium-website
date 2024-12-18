@@ -1,0 +1,99 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9e2ba4f3_8ef39c20",
+        "filename": "PRESUBMIT.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-12-18T22:12:06Z",
+      "side": 1,
+      "message": "I wonder if we\u0027d be better off with a deny list (i.e., require https for everything but",
+      "fixSuggestions": [
+        {
+          "fixId": "a6433c10_be7ada89",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "PRESUBMIT.py",
+              "range": {
+                "startLine": 133,
+                "startChar": 0,
+                "endLine": 136,
+                "endChar": 0
+              },
+              "replacement": "# Mapping of preferred host names.  If we find people using \u003ckey\u003e, we\u0027ll make them\n# use \u003cvalue\u003e instead.  This is a list of (old, new) tuples.\n_MD_HOST_ALIASES \u003d [\n"
+            },
+            {
+              "path": "PRESUBMIT.py",
+              "range": {
+                "startLine": 137,
+                "startChar": 0,
+                "endLine": 142,
+                "endChar": 0
+              },
+              "replacement": "    (\u0027b\u0027, \u0027issuetracker.google.com\u0027),\n    (\u0027chromium.org\u0027, \u0027www.chromium.org\u0027),\n    (\u0027dev.chromium.org\u0027, \u0027www.chromium.org\u0027),\n    (\u0027goto\u0027, \u0027go\u0027),\n    (\u0027www.youtube.com\u0027, \u0027youtube.com\u0027),\n"
+            },
+            {
+              "path": "PRESUBMIT.py",
+              "range": {
+                "startLine": 143,
+                "startChar": 0,
+                "endLine": 144,
+                "endChar": 0
+              },
+              "replacement": "]\n"
+            },
+            {
+              "path": "PRESUBMIT.py",
+              "range": {
+                "startLine": 145,
+                "startChar": 0,
+                "endLine": 162,
+                "endChar": 0
+              },
+              "replacement": ""
+            },
+            {
+              "path": "PRESUBMIT.py",
+              "range": {
+                "startLine": 208,
+                "startChar": 0,
+                "endLine": 218,
+                "endChar": 0
+              },
+              "replacement": ""
+            },
+            {
+              "path": "PRESUBMIT.py",
+              "range": {
+                "startLine": 219,
+                "startChar": 0,
+                "endLine": 220,
+                "endChar": 0
+              },
+              "replacement": "        for oldhost, newhost in _MD_HOST_ALIASES:\n"
+            },
+            {
+              "path": "PRESUBMIT.py",
+              "range": {
+                "startLine": 224,
+                "startChar": 0,
+                "endLine": 224,
+                "endChar": 0
+              },
+              "replacement": "        # Check for http:// and https:// usage.\n        if o.scheme \u003d\u003d \u0027http\u0027:\n            _create_result(link, \u0027Use https:// with this host\u0027,\n                           o._replace(scheme\u003d\u0027https\u0027))\n        elif o.scheme \u003d\u003d \u0027https\u0027:\n            _create_result(link, \u0027Use http:// with this host\u0027,\n                           o._replace(scheme\u003d\u0027http\u0027))\n\n"
+            }
+          ]
+        }
+      ],
+      "revId": "f29ca6f0af6909cca0c84b7510699acfc78539b5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
