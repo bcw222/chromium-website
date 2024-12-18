@@ -130,6 +130,17 @@ class _MdLink(NamedTuple):
     line_num: int
 
 
+# These hosts should always use http://
+_MD_HTTP_HOSTS = {
+    # keep-sorted start
+    "b",
+    "g",
+    "go",
+    "goto",
+    # keep-sorted end
+}
+
+
 def CheckLinks(input_api, output_api):
     """Check links used in markdown."""
     # Build up the files to analyze.
@@ -174,6 +185,11 @@ def CheckLinks(input_api, output_api):
 
     for link in links:
         o = urllib.parse.urlparse(link.uri)
+
+        # Check bad https:// usage.
+        if o.scheme == 'https' and o.netloc in _MD_HTTP_HOSTS:
+            _create_result(link, 'Always use http:// with this host',
+                           o._replace(scheme='http'))
 
         # Check www.chromium.org aliases.
         if o.netloc in ('chromium.org', 'dev.chromium.org'):
