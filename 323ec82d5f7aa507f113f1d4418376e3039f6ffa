@@ -34,6 +34,24 @@
       ],
       "revId": "323ec82d5f7aa507f113f1d4418376e3039f6ffa",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b4aa53e5_c0ee47a7",
+        "filename": "PRESUBMIT.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-12-18T19:37:21Z",
+      "side": 1,
+      "message": "i\u0027m fine banning goto/.  go/ is def way more common.\n\nthere are some references that aren\u0027t in the Chromium public tracker.  but they are available via https://issuetracker.google.com, so we could force that.",
+      "parentUuid": "17312a38_7cbe4a19",
+      "revId": "323ec82d5f7aa507f113f1d4418376e3039f6ffa",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
