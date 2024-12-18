@@ -146,6 +146,7 @@ _MD_HOST_ALIASES = {
 # This isn't an exhaustive list, just hosts we commonly refer to.
 _MD_HTTPS_HOSTS = {
     # keep-sorted start
+    'crbug.com',
     'youtube.com',
     'youtu.be',
     # keep-sorted end
