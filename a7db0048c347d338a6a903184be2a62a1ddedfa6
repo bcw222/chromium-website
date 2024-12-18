@@ -34,6 +34,24 @@
       ],
       "revId": "a7db0048c347d338a6a903184be2a62a1ddedfa6",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e606597e_8d03ca14",
+        "filename": "site/chromium-os/developer-library/guides/development/tools-used/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-12-18T20:08:23Z",
+      "side": 1,
+      "message": "i started to write that, but left it because this section is about G3/Critique.  doesn\u0027t matter to me either way tbh.",
+      "parentUuid": "917cfd91_8770ac02",
+      "revId": "a7db0048c347d338a6a903184be2a62a1ddedfa6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
