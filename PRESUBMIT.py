@@ -147,6 +147,7 @@ _MD_HOST_ALIASES = {
 _MD_HTTPS_HOSTS = {
     # keep-sorted start
     'crbug.com',
+    'crrev.com',
     'youtube.com',
     'youtu.be',
     # keep-sorted end
