@@ -151,6 +151,7 @@ _MD_HTTPS_HOSTS = {
     'en.wikipedia.org',
     'github.com',
     'issuetracker.google.com',
+    'www.w3.org',
     'youtube.com',
     'youtu.be',
     # keep-sorted end
