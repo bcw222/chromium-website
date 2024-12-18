@@ -1,0 +1,39 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f115a601_457202c1",
+        "filename": "PRESUBMIT.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-12-18T18:50:50Z",
+      "side": 1,
+      "message": "Nit: `[^\\s]+` can just be `\\S+`.",
+      "fixSuggestions": [
+        {
+          "fixId": "a10b02d5_94e91ab9",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "PRESUBMIT.py",
+              "range": {
+                "startLine": 157,
+                "startChar": 0,
+                "endLine": 158,
+                "endChar": 0
+              },
+              "replacement": "            m \u003d re.match(r\u0027^\\[[^]]+\\]:\\s*(\\S+)\u0027, line)\n"
+            }
+          ]
+        }
+      ],
+      "revId": "903b4f664b8ad0e4000b855d41d67608e7d267f5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
