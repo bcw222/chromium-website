@@ -150,6 +150,7 @@ _MD_HTTPS_HOSTS = {
     'crrev.com',
     'en.wikipedia.org',
     'github.com',
+    'google.com',
     'issuetracker.google.com',
     'www.w3.org',
     'youtube.com',
