@@ -68,7 +68,8 @@ extensions to improve your productivity. Here are a few that are recommended:
 -   go/get-gvc-labs Adds helpful tools to Meet, including Meetmoji reactions and
     speaking time.
 -   [G3 Notifications](https://chrome.google.com/webstore/detail/g3-notifications/mdkmkbpoljeogkhbjlehikpbpdmfaopg)
-    notifies you when your action is required on a [Buganizer issue](http://b/)
+    notifies you when your action is required on a
+    [Buganizer issue](https://issuetracker.google.com/)
     or a [Critique CL](http://cl/).
 -   go/kodify allows you to beautifully format code blocks in your design docs.
 -   go/snipit allows you to easily share screenshots for debugging or other
