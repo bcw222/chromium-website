@@ -1,0 +1,39 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "917cfd91_8770ac02",
+        "filename": "site/chromium-os/developer-library/guides/development/tools-used/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-12-18T20:06:32Z",
+      "side": 1,
+      "message": "Should we say \"Issue Tracker\" instead of \"Buganizer\"?",
+      "fixSuggestions": [
+        {
+          "fixId": "04a157dd_99c921d2",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "site/chromium-os/developer-library/guides/development/tools-used/index.md",
+              "range": {
+                "startLine": 72,
+                "startChar": 0,
+                "endLine": 73,
+                "endChar": 0
+              },
+              "replacement": "    [Issue Tracker issue](https://issuetracker.google.com/)\n"
+            }
+          ]
+        }
+      ],
+      "revId": "a7db0048c347d338a6a903184be2a62a1ddedfa6",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
