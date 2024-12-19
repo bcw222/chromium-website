@@ -156,6 +156,7 @@ _MD_HTTPS_HOSTS = {
     'google.com',
     'issuetracker.google.com',
     'www.chromium.org',
+    'www.google.com',
     'www.w3.org',
     'youtu.be',
     'youtube.com',
