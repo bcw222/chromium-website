@@ -94,6 +94,24 @@
       ],
       "revId": "f29ca6f0af6909cca0c84b7510699acfc78539b5",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab439a75_8b807acc",
+        "filename": "PRESUBMIT.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-12-19T01:28:54Z",
+      "side": 1,
+      "message": "that AI suggested change makes no sense :)\n\nto your question, that might work, but that\u0027s way more yak shaving than i want to break off.  there are ~600 unique http://\u003chost\u003e/ in the tree now, with ~400 showing up once.  some of them def only support http.\n\ni don\u0027t super want to write a script to scan them all to see which are listening on port 443 and which ones present a valid certificate.\n\ni was planning on hitting the most common ones and leaving the rest.",
+      "parentUuid": "9e2ba4f3_8ef39c20",
+      "revId": "f29ca6f0af6909cca0c84b7510699acfc78539b5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
