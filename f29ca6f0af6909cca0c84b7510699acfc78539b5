@@ -130,6 +130,24 @@
       "parentUuid": "ab439a75_8b807acc",
       "revId": "f29ca6f0af6909cca0c84b7510699acfc78539b5",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "99854db8_7446e6ab",
+        "filename": "PRESUBMIT.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-12-19T15:02:40Z",
+      "side": 1,
+      "message": "i put in a TODO noting this idea in case we ever find someone who wants to shave the yak :)",
+      "parentUuid": "5c626ff7_08a7f0fc",
+      "revId": "f29ca6f0af6909cca0c84b7510699acfc78539b5",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
