@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74bdc5da_298eb92e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-12-19T22:09:23Z",
+      "side": 1,
+      "message": "You might note that there were a few other edits as well.",
+      "revId": "4b16a2f4bd64a29d344fde54bd9f728958142f50",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ba8ee1c4_b7e293c4",
+        "filename": "site/chromium-os/packages/crash-reporting/debugging-a-minidump/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-12-19T22:09:23Z",
+      "side": 1,
+      "message": "This URL is wrong, yeah? (Here and elsewhere)",
+      "revId": "4b16a2f4bd64a29d344fde54bd9f728958142f50",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1bc53c09_eb179b28",
+        "filename": "site/nativeclient/pnacl/aligned-bundling-support-in-llvm/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-12-19T22:09:23Z",
+      "side": 1,
+      "message": "Miss this one somehow?",
+      "revId": "4b16a2f4bd64a29d344fde54bd9f728958142f50",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
