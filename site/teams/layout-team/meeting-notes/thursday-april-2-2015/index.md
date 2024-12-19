@@ -12,8 +12,8 @@ title: 'Thursday, April 2, 2015: Q1/Q2 OKRs'
 
 Attendees: eae, slightlyoff, benjhayden, bnutter, cbiesinger,
 dsinclair, dglazkov, jchaffraixm, kojiim, nduca, skobes
-Graded Q1 OKRs: <http://www.chromium.org/blink/layout-team/okrs/2015q1>
-Q2 OKRs: <http://www.chromium.org/blink/layout-team/okrs/2015q2>
+Graded Q1 OKRs: <https://www.chromium.org/blink/layout-team/okrs/2015q1>
+Q2 OKRs: <https://www.chromium.org/blink/layout-team/okrs/2015q2>
 Q1 Evaluation
 -------------------
 \* eae presents draft document \*
