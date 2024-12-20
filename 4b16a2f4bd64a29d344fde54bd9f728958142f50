@@ -104,6 +104,24 @@
       "parentUuid": "1bc53c09_eb179b28",
       "revId": "4b16a2f4bd64a29d344fde54bd9f728958142f50",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0c6015da_1250e51b",
+        "filename": "site/nativeclient/pnacl/aligned-bundling-support-in-llvm/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2024-12-20T20:28:58Z",
+      "side": 1,
+      "message": "Makes sense.",
+      "parentUuid": "528d9bb8_76813c4d",
+      "revId": "4b16a2f4bd64a29d344fde54bd9f728958142f50",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
