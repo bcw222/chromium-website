@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "af653480_37239f10",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2024-12-20T00:26:10Z",
+      "side": 1,
+      "message": "Chris, I think you own bit.ly/blink-signals; will you be able to redirect it here once this is merged?",
+      "revId": "5b84109ffd7e794bd398539461a6fa1966400dc0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
