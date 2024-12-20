@@ -16,6 +16,23 @@
       "message": "Chris, I think you own bit.ly/blink-signals; will you be able to redirect it here once this is merged?",
       "revId": "5b84109ffd7e794bd398539461a6fa1966400dc0",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fc705ba6_4fa87ffc",
+        "filename": "site/blink/launching-features/wide-review/index.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-12-20T01:46:57Z",
+      "side": 1,
+      "message": "markdown should be wrapped to 80 cols\nhttps://google.github.io/styleguide/docguide/style.html#character-line-limit",
+      "revId": "5b84109ffd7e794bd398539461a6fa1966400dc0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
