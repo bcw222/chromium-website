@@ -18,6 +18,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e4a9043_bd8c5e35",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-12-20T03:03:01Z",
+      "side": 1,
+      "message": "fair -- i forgot i cleaned up same-site harder than a simple sed",
+      "parentUuid": "74bdc5da_298eb92e",
+      "revId": "4b16a2f4bd64a29d344fde54bd9f728958142f50",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ba8ee1c4_b7e293c4",
@@ -35,6 +53,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f2088c47_1f0eef7d",
+        "filename": "site/chromium-os/packages/crash-reporting/debugging-a-minidump/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-12-20T03:03:01Z",
+      "side": 1,
+      "message": "yes, the chromiumos docs have a ton of broken links.  the migrations out of chromiumos/docs.git and the subsequent \"developer library\" shuffle broke a lot of stuff, and also just general rot from old sites.  i think it\u0027s like O(100s) broken links.  it\u0027s basically what set me down this PRESUBMIT path in the first place.\n\nin some of these CLs i\u0027ve tried to consolidate updated links where possible/reasonable to try and reduce # of CLs later on.  but i haven\u0027t caught them all because i haven\u0027t fully fixed the tree yet :/.\n\ni\u0027ll clean up this doc at least.",
+      "parentUuid": "ba8ee1c4_b7e293c4",
+      "revId": "4b16a2f4bd64a29d344fde54bd9f728958142f50",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1bc53c09_eb179b28",
@@ -48,6 +84,24 @@
       "writtenOn": "2024-12-19T22:09:23Z",
       "side": 1,
       "message": "Miss this one somehow?",
+      "revId": "4b16a2f4bd64a29d344fde54bd9f728958142f50",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "528d9bb8_76813c4d",
+        "filename": "site/nativeclient/pnacl/aligned-bundling-support-in-llvm/index.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2024-12-20T03:03:01Z",
+      "side": 1,
+      "message": "this was intentional.  \u003c...\u003e does not support relaive links (see https://crrev.com/c/6109685 example), and this doc (stylewise) wanted to cite the full URL \u0026 linkify it rather than use descriptive text.\n\ni don\u0027t think we want to ban \u003c...\u003e usage.  there\u0027s a decent amount in the tree already -- ~1000 i think.",
+      "parentUuid": "1bc53c09_eb179b28",
       "revId": "4b16a2f4bd64a29d344fde54bd9f728958142f50",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
