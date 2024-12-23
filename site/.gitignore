@@ -1172,4 +1172,8 @@ chromium-os/developer-library/guides/debugging/firmware-ui/fallback_screen.jpg
 chromium-os/developer-library/guides/testing/firmware-test-manual/menu_ui_screen_state_diagram.png
 chromium-os/developer-library/reference/device/cros-board-info/wp_circuitry_1.png
 chromium-os/developer-library/reference/device/cros-board-info/wp_circuitry_2.png
+chromium-os/upstart-cookbook/favicon.ico
+chromium-os/upstart-cookbook/favicon(1).ico
+chromium-os/upstart-cookbook/upstart_menu-page2.png
+chromium-os/upstart-cookbook/upstart_menu.png
 #end_lob_ignore
