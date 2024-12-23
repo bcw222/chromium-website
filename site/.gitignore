@@ -1160,4 +1160,7 @@ chromium-os/developer-library/guides/cpp/resolving-dependency-issues/delegate_di
 chromium-os/developer-library/guides/testing/touch-firmware-tests/TouchFWTests.png
 chromium-os/developer-library/guides/kernel/kernel-configuration/kernel_config_diag.png
 chromium-os/developer-library/guides/kernel/kernel-configuration/kernel_config_diag.svg
+chromium-os/developer-library/reference/upstart-cookbook/upstart_menu-page2.png
+chromium-os/developer-library/reference/upstart-cookbook/upstart_menu.png
+chromium-os/developer-library/reference/upstart-cookbook/favicon.ico
 #end_lob_ignore
