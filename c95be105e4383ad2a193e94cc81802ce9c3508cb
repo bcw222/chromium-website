@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b6cf43cd_577c2b6a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000028
+      },
+      "writtenOn": "2024-12-23T21:30:34Z",
+      "side": 1,
+      "message": "OK so I had to upload this with `--no-verify` and I understand that the binary files belong to GCS, but then I\u0027d have to change the links in the HTML and I am trying to modify this as little as possible.  So I am asking for various exceptions here (file not in MD format, etc.).\n\nThere\u0027s no question that we\u0027re NOT going to convert this to MD format, as it is too large.\n\nIncidentally, none of the image files are particularly useful, I am happy to live with the broken links.  If we\u0027re afraid that this might hurt our brand,\n\nAdditionally, the `repo upload` was not completely happy, but all files seem to be there.\n```\nremote:   https://chromium-review.googlesource.com/c/website/+/6120452 web/site/chromium-os: add upstart-cookbook. [NEW]        \nremote: \nsend-pack: protocol error: bad band #69\nfatal: the remote end hung up unexpectedly\nfatal: the remote end hung up unexpectedly\nerror: failed to push some refs to \u0027https://chromium-review.googlesource.com/website\u0027\n```\n\nThanks!",
+      "revId": "c95be105e4383ad2a193e94cc81802ce9c3508cb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
