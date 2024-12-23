@@ -1168,4 +1168,8 @@ chromium-os/developer-library/guides/testing/cpp-writing-tests/gerrit_test_cover
 chromium-os/developer-library/guides/testing/cpp-writing-tests/gerrit_test_coverage_line_by_line.png
 chromium-os/developer-library/guides/testing/e2e-tests/verified_submit_requirement.png
 chromium-os/developer-library/reference/security/cpp-security-best-practices/rule-of-two.png
+chromium-os/upstart-cookbook/favicon.ico
+chromium-os/upstart-cookbook/favicon(1).ico
+chromium-os/upstart-cookbook/upstart_menu-page2.png
+chromium-os/upstart-cookbook/upstart_menu.png
 #end_lob_ignore
