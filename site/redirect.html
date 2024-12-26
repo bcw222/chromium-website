@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script>
+            function hey() {
+                if (!document.referrer) return;
+
+                const m = /.*docs\/website\/site\/(.*)\/index\.md$/.exec(document.referrer);
+                if (!m) return;
+
+                const url = "/" + m[1];
+
+                window.location.href = url;
+            }
+        </script>
+    </head>
+    <body>
+        <input type="button" onclick="hey()">
+            hogehoge
+        </input>
+    </body>
+</html>
