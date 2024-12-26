@@ -5,4 +5,6 @@
 
 * [Home][home]
 * [Sitemap](/.)
-* **Please visit https://www.chromium.org/ to see this page rendered properly.**
+* **Please visit [https://www.chromium.org/] to see this page rendered properly.**
+
+[https://www.chromium.org/](https://www.chromium.org/redirect.html)
