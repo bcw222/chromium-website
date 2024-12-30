@@ -35,15 +35,15 @@ Looking for Google Chrome?
 ChromiumOS is an open-source project that aims to provide a fast, simple, and
 more secure computing experience for people who spend most of their time on the
 web. Learn more about the [project
-goals](https://googleblog.blogspot.com/2009/11/releasing-chromium-os-open-source.html),
+goals](https://googleblog.blogspot.com/2009/11/releasing-chromium-open-source.htm),
 obtain the latest build, and learn how you can get involved, submit code, and
 file bugs.
 
-[![](/chromium-projects/logo_chrome_color_1x_web_32dp.png)](https://www.google.com/chrome)
+[![](/chromium-projects/logo_chrome_color_1x_web_32dp.png)](https://www.google.com/ChromeOS)
 
 Looking for Google ChromeOS devices?
 
-[Visit the Google ChromeOS site](https://www.google.com/chromeos)
+[Visit the Google ChromeOS site](https://www.google.com/chrome)
 
 </div>
 </div>
