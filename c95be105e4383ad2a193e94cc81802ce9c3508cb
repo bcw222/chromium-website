@@ -34,6 +34,24 @@
       "parentUuid": "b6cf43cd_577c2b6a",
       "revId": "c95be105e4383ad2a193e94cc81802ce9c3508cb",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b5e7cbd_c9537a43",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-02T23:09:48Z",
+      "side": 1,
+      "message": "\u003e and I understand that the binary files belong to GCS, but then I\u0027d have to change the links in the HTML\n\nyes, we\u0027ll do that as there\u0027s very few files to mangle\n\n\u003e So I am asking for various exceptions here (file not in MD format, etc.)\n\nright, we\u0027re not going to convert it to MD.  leaving it as html is fine.  we just have to figure out how to get the website to integrate it.\n\n\u003e `send-pack: protocol error: bad band #69`\n\nthat\u0027s an unrelated KI.  you can ignore it.\n\n\u003e If we\u0027re afraid that this might hurt our brand, we can add a disclaimer at the top of cookbook.html.\n\ncan\u0027t hurt to add a small banner.",
+      "parentUuid": "1533bb69_56ba03ac",
+      "revId": "c95be105e4383ad2a193e94cc81802ce9c3508cb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
