@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "805a3889_e2d8da7c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-02T21:25:56Z",
+      "side": 1,
+      "message": "i think we want to use `site/chromium-os/developer-library/reference/upstart-cookbook/` instead.  +James to keep me honest.",
+      "revId": "5643d0c56fb164e1baaf40d4c81e33a8fc0f8611",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "18408858_b9acca32",
+        "filename": "site/chromium-os/upstart-cookbook/cookbook.html",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-02T21:25:56Z",
+      "side": 1,
+      "message": "not sure if we\u0027d commit the html file directly to git, or if the LOB system would push it to our GS mirror, and we\u0027d link to that.\n\nwe also might want to name it \"index.html\" so that the website generator provides a page for it.  i\u0027m not sure tbh -- haven\u0027t tried posting HTML directly before.  Dirke might know the answer here.",
+      "revId": "5643d0c56fb164e1baaf40d4c81e33a8fc0f8611",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0a9acb1a_67a72716",
+        "filename": "site/chromium-os/upstart-cookbook/upstart-cookbook_files/favicon.ico",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-02T21:25:56Z",
+      "side": 1,
+      "message": "this is the debian logo.  upstart was created by/for ubuntu.  so you\u0027d want to move `favicon(1).ico` to `favicon.ico`.\n\nalthough for bonus points, i\u0027d use the upstart icon ...\nhttps://launchpadlibrarian.net/7098870/upstart64.png",
+      "revId": "5643d0c56fb164e1baaf40d4c81e33a8fc0f8611",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ef21beb_838d4d0c",
+        "filename": "site/chromium-os/upstart-cookbook/upstart-cookbook_files/upstart_menu.png",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-02T21:25:56Z",
+      "side": 1,
+      "message": "move these files into the same dir as `upstart-cookbook`\n\nthen run `./scripts/upload_lobs.py` to push them to our GS mirror\n\nthen only commit the `.sha1` files to the tree, not the actual images",
+      "revId": "5643d0c56fb164e1baaf40d4c81e33a8fc0f8611",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
