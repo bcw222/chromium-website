@@ -197,9 +197,16 @@ def CheckLinks(input_api, output_api):
                 for x in re.findall(r'\]\(([^) ]+)\)', line)
             ]
             # [anchor]: link
-            m = re.match(r'^\[[^]]+\]:\s*(\S+)', line)
+            m = re.match(r'^\[([^]]+)\]:\s*(\S+)', line)
             if m:
-                links.append(_MdLink(file, m.group(1), True, i))
+                # [^footnote]: link
+                if m.group(1).startswith('^'):
+                    results.append(
+                        output_api.PresubmitError(
+                            f'{file}:{i}: Footnotes are not supported',
+                            long_text=line))
+                else:
+                    links.append(_MdLink(file, m.group(2), True, i))
             # <link>
             links += [
                 _MdLink(file, x, False, i)
