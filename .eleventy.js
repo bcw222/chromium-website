@@ -1,3 +1,17 @@
+const fs = require('fs');
+
+/**
+ * Get the list of known LOB extensions.
+ */
+function getLobExtensions() {
+  const lines = fs.readFileSync('site/.gitignore', 'utf-8').split(/\r?\n/);
+  const start = lines.indexOf('# start_lob_ignore') + 1;
+  const end = lines.indexOf('# end_lob_ignore') - 1;
+  return lines.slice(start, end)
+    .filter((x) => x.length && !x.startsWith('#'))
+    .map((x) => x.slice(1));
+}
+
 module.exports = config => {
   config.addWatchTarget('./site/_stylesheets/');
 
@@ -61,41 +75,7 @@ module.exports = config => {
 
   // Copy binary assets over to the dist/ directory.
 
-  // This list must be kept in sync with the lists in //.eleventy.js and
-  // //scripts/upload_lobs.py.
-  // TODO(crbug.com/1457683): Figure out how to share these lists to eliminate
-  // the duplication and need to keep them in sync.
-  let lob_extensions = [
-    // keep-sorted start
-    '.PNG',
-    '.ai',
-    '.bin',
-    '.bmp',
-    '.brd',
-    '.bz2',
-    '.config',
-    '.crx',
-    '.dia',
-    '.gif',
-    '.graffle',
-    '.ico',
-    '.jpeg',
-    '.jpg',
-    '.mp4',
-    '.msi',
-    '.pdf',
-    '.png',
-    '.svg',
-    '.swf',
-    '.tar.gz',
-    '.tiff',
-    '.webp',
-    '.xcf',
-    '.xlsx',
-    '.zip',
-    '_trace',
-    // keep-sorted end
-  ];
+  const lob_extensions = getLobExtensions();
 
   // This should basically pick up everything that isn't a .md file
   // or a .sha1.
