@@ -155,18 +155,13 @@ def remove_lobs(lob_files):
 
 def add_to_ignore(lob_files):
     with open(common.SITE_DIR + "/.gitignore", 'r') as ignore_file:
-        file_lines = list(line.rstrip() for line in ignore_file.readlines())
+        old_lines = [x.rstrip() for x in ignore_file]
 
-    end_tag_index = file_lines.index('#end_lob_ignore')
-    lob_ignores = set(file_lines[file_lines.index('#start_lob_ignore') +
-                                 1:end_tag_index])
-
-    for lob_file in lob_files:
-        rel_path = os.path.relpath(lob_file, common.SITE_DIR)
-
-        if os.path.exists(lob_file) and not rel_path in lob_ignores:
-            file_lines.insert(end_tag_index, rel_path)
-            end_tag_index += 1
+    start_tag_index = old_lines.index('#start_lob_ignore')
+    end_tag_index = old_lines.index('#end_lob_ignore')
+    file_lines = old_lines[:start_tag_index + 1] + [
+        f'*{x}' for x in LOB_EXTENSIONS
+    ] + old_lines[end_tag_index:]
 
     with open(common.SITE_DIR + "/.gitignore", 'w') as ignore_file:
         ignore_file.writelines(line + '\n' for line in file_lines)

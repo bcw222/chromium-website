@@ -87,28 +87,6 @@ def CheckForLobs(input_api, output_api):
     return output_status
 
 
-def CheckLobIgnores(input_api, output_api):
-    output_status = []
-    with open("site/.gitignore", 'r') as ignore_file:
-        ignored_lobs = list(line.rstrip() for line in ignore_file.readlines())
-        ignored_lobs = set(
-            ignored_lobs[ignored_lobs.index('#start_lob_ignore') +
-                         1:ignored_lobs.index('#end_lob_ignore')])
-
-        for ignored_lob in ignored_lobs:
-            lob_sha_file = input_api.os_path.join('site', ignored_lob + '.sha1')
-            if not lob_sha_file.startswith(
-                    '#') and not input_api.os_path.exists(lob_sha_file):
-                error_msg = (
-                    'The sha1 file \'{removed_file}\' no longer exists, '
-                    'please remove "{ignored_file}" from site/.gitignore'.
-                    format(removed_file=lob_sha_file, ignored_file=ignored_lob))
-
-                error = output_api.PresubmitError(error_msg)
-                output_status.append(error)
-    return output_status
-
-
 def CheckPatchFormatted(input_api, output_api):
     """Check formatting of files."""
     return input_api.canned_checks.CheckPatchFormatted(input_api, output_api)
