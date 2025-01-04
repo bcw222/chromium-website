@@ -259,15 +259,15 @@ and all paperwork your received first. If you just want to see what the inside
 looks like, gaze upon this (click for a high res version):
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-arm-chromebook/arm-chromebook-inside.jpg"
+src="/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/samsung-arm-chromebook/arm-chromebook-inside.jpg"
 height=224
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/samsung-arm-chromebook/arm-chromebook-inside.jpg)
+width=320>](/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/samsung-arm-chromebook/arm-chromebook-inside.jpg)
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-arm-chromebook/snow-bottom-guts.jpg"
+src="/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/samsung-arm-chromebook/snow-bottom-guts.jpg"
 height=140
 width=320>](/chromium-os/developer-information-for-chrome-os-devices/samsung-arm-chromebook/snow-bottom-guts.jpg)
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-arm-chromebook/snow-top-guts.jpg"
+src="/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/samsung-arm-chromebook/snow-top-guts.jpg"
 height=140
 width=320>](/chromium-os/developer-information-for-chrome-os-devices/samsung-arm-chromebook/snow-top-guts.jpg)
 
