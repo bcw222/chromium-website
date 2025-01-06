@@ -16,6 +16,24 @@
       "message": "lgtm, but also:\n\na) this page describes the API as \"under development\" when in fact it is deprecated\nb) this API is now apparently documented here: https://developer.chrome.com/docs/apps/reference/bluetoothSocket\n\nso maybe we can just delete it?",
       "revId": "ce34ea06b6ee5d20bf5c4b5ac193a663a236eaf3",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3bacefe_819a0fd5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-06T18:34:03Z",
+      "side": 1,
+      "message": "sounds reasonable ... i\u0027m trying to avoid large audit of content here as there\u0027s way more than i can do.  in this case, i\u0027m trying to automate link checking in presubmit that this file fails.  i\u0027d rather leave the descision for removal (and cleanup of associated links) to someone working on the BT API.",
+      "parentUuid": "145af090_111ec46d",
+      "revId": "ce34ea06b6ee5d20bf5c4b5ac193a663a236eaf3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
