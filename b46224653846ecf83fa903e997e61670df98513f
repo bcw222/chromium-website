@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "958e6bf9_b20f37bf",
+        "filename": "site/blink/launching-features/wide-review/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1465837
+      },
+      "writtenOn": "2025-01-06T20:07:05Z",
+      "side": 1,
+      "message": "optional nit (I don\u0027t care much about capitalization, but this seems more consistent with the rest of the page)\n\n```suggestion\nevery intent to ship has to show what external stakeholders (in particular the\n```",
+      "revId": "b46224653846ecf83fa903e997e61670df98513f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
