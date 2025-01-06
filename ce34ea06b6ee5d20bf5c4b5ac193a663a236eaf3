@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "145af090_111ec46d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000022
+      },
+      "writtenOn": "2025-01-06T17:39:36Z",
+      "side": 1,
+      "message": "lgtm, but also:\n\na) this page describes the API as \"under development\" when in fact it is deprecated\nb) this API is now apparently documented here: https://developer.chrome.com/docs/apps/reference/bluetoothSocket\n\nso maybe we can just delete it?",
+      "revId": "ce34ea06b6ee5d20bf5c4b5ac193a663a236eaf3",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
