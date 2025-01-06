@@ -16,6 +16,24 @@
       "message": "optional nit (I don\u0027t care much about capitalization, but this seems more consistent with the rest of the page)\n\n```suggestion\nevery intent to ship has to show what external stakeholders (in particular the\n```",
       "revId": "b46224653846ecf83fa903e997e61670df98513f",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc86297f_d868622e",
+        "filename": "site/blink/launching-features/wide-review/index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1001949
+      },
+      "writtenOn": "2025-01-06T20:40:44Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "958e6bf9_b20f37bf",
+      "revId": "b46224653846ecf83fa903e997e61670df98513f",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
