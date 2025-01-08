@@ -52,6 +52,24 @@
       "parentUuid": "1e227ce1_9f4633a8",
       "revId": "5ce6e03a07129b090bdcc9399c4be5301d379131",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "52b273ce_9dc50487",
+        "filename": "PRESUBMIT.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2025-01-08T22:38:22Z",
+      "side": 1,
+      "message": "Ah, I see what you\u0027re trying to catch.\n\nBut I don\u0027t think you got it quite right. I think there\u0027s at least three bugs here (at least per the CommonMark spec), although I didn\u0027t actually test this to be sure:\n\nThe first is that \"```foo``` bar\" will not be treated as code span followed by regular text, it\u0027ll be treated as if it\u0027s starting a fenced code block.\n\nThe second is that you\u0027ll treat:\n\n```\n```bar\n```\n\nas if the \"```bar\" line ends the code block, when it shouldn\u0027t (i.e., you need to check for non-space trailing content when looking for the ending fence).\n\nThe third is that the fence is only allowed to have up to three leading spaces before the triple-backquote. You\u0027ll allow an arbitrary number of them.\n\nWhether it\u0027s worth handling all of these cases, I\u0027m not sure. I\u0027ll +1 this just because it\u0027s at least an improvement over nothing at all.",
+      "parentUuid": "118d3420_37e99b5e",
+      "revId": "5ce6e03a07129b090bdcc9399c4be5301d379131",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
