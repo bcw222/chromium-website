@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a57485a_99f91e7c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2025-01-08T21:20:05Z",
+      "side": 1,
+      "message": "WDYT about just making them work instead? Looks like there\u0027s a footnote plugin available for the markdown renderer.",
+      "revId": "51ce67c8171df5bd6cfb97e8c031bcad1389fcdc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
