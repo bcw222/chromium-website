@@ -1,0 +1,39 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1e227ce1_9f4633a8",
+        "filename": "PRESUBMIT.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2025-01-08T21:30:03Z",
+      "side": 1,
+      "message": "What is the `(len(sline) ...)` clause trying to do? Isn\u0027t it always going to be true?",
+      "fixSuggestions": [
+        {
+          "fixId": "f0edcb08_14be0e5d",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "PRESUBMIT.py",
+              "range": {
+                "startLine": 198,
+                "startChar": 0,
+                "endLine": 200,
+                "endChar": 0
+              },
+              "replacement": "            if sline.startswith(\u0027```\u0027):\n"
+            }
+          ]
+        }
+      ],
+      "revId": "5ce6e03a07129b090bdcc9399c4be5301d379131",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
