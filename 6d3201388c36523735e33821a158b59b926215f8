@@ -34,6 +34,24 @@
       "parentUuid": "836f340a_16815ee1",
       "revId": "6d3201388c36523735e33821a158b59b926215f8",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4334b9ad_3eec819e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2025-01-08T23:43:36Z",
+      "side": 1,
+      "message": "I meant that it is worse in the sense that the existing approach doesn\u0027t actually rely on a separate wildcard list, so you are introducing a fourth copy of the list of wildcards, even if it is in theory automatically kept in sync. But that\u0027s kind of a nit, I agree you\u0027re not *really* making it worse.\n\nAnd, I agree that in general just switching to wildcards should reduce the maintenance. The explicit check was intentional originally, but I guess I\u0027m okay with changing things and seeing how it goes.\n\nFrankly, at this point I\u0027d prefer that we just get rid of the separate LOB code altogether and just check the LOBs into the repo. It would make the .git repo much larger (looks like the repo is ~27MB now and there\u0027s ~440MB of binaries under //site), and that would mean that people who check out the repo but don\u0027t actually run `gclient sync` to fetch the LOBs would get a much bigger checkout and a slower sync time, but I have no idea how common that is. Checking in the LOBs would certainly simplify everything quite a bit.\n\nBut, IIRC, you were strongly against the idea of checking in binaries, at least back then, so I didn\u0027t really ever propose the idea. Anything changed in your thinking?",
+      "parentUuid": "675171ad_fb168fc3",
+      "revId": "6d3201388c36523735e33821a158b59b926215f8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
