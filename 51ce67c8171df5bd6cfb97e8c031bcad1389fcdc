@@ -34,6 +34,24 @@
       "parentUuid": "5a57485a_99f91e7c",
       "revId": "51ce67c8171df5bd6cfb97e8c031bcad1389fcdc",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "30be896f_299fdf98",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-08T22:30:48Z",
+      "side": 1,
+      "message": "maybe i\u0027m missing something obvious, but how does one update node_modules ?  docs/CONTRIBUTING.md talks about building the website, but not about how to install new modules, update package-lock.json, and regen node_modules.tar.gz.  i didn\u0027t see a helper inside package.json or npmw to help me here either.\n\ni could hack npmw to install+update package-lock.json based on package.json changes, but still stuck on the right way to update node_modules without being a supply chain attack :).",
+      "parentUuid": "14d9b67f_32c37930",
+      "revId": "51ce67c8171df5bd6cfb97e8c031bcad1389fcdc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
