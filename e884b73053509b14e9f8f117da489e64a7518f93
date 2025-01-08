@@ -33,6 +33,24 @@
       "message": "Why do you need this, given that we run a try job automatically on upload?\n\nAre you worried that it might conflict with something else that lands between upload and commit?",
       "revId": "e884b73053509b14e9f8f117da489e64a7518f93",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e00f0bd6_ed2ad4ae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-08T21:18:20Z",
+      "side": 1,
+      "message": "that assumes people always edit locally from a chromium/chromiumos checkout and only upload with `git cl`/etc...  the online editor (e.g. Gerrit \u0026 Cider-G) don\u0027t run presubmit anywhere.  so it\u0027s possible for people to make \"quick\" changes and introduce errors like broken links.\n\n`git cl presubmit` in website seems pretty cheap/quick, so i don\u0027t think overhead is a concern here.\n\n```\n$ time git cl presubmit --all\nRunning presubmit commit checks ...\nPresubmit checks took 4.2s to calculate.\npresubmit checks passed.\n\nreal    0m6.190s\nuser    0m2.390s\nsys     0m1.384s\n```",
+      "parentUuid": "f17fc2f6_6224618d",
+      "revId": "e884b73053509b14e9f8f117da489e64a7518f93",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
