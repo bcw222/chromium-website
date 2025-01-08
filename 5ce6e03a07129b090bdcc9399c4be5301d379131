@@ -34,6 +34,24 @@
       ],
       "revId": "5ce6e03a07129b090bdcc9399c4be5301d379131",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "118d3420_37e99b5e",
+        "filename": "PRESUBMIT.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-08T22:12:44Z",
+      "side": 1,
+      "message": "the current code is correct, although i agree it is not obvious.  i\u0027ll expand the comments to explain what it\u0027s trying to handle.\n\ni\u0027ve really been trying to minimize not writing a full blown parser :(.  not sure if i\u0027m losing the battle.\n\nthe nuance is that ``` doesn\u0027t always start a block ... it can be inline too in place of single `.  for example:\n\n```\n```Here is some inline with ` in the middle of the text```\n`Here is some inline text`\n```",
+      "parentUuid": "1e227ce1_9f4633a8",
+      "revId": "5ce6e03a07129b090bdcc9399c4be5301d379131",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
