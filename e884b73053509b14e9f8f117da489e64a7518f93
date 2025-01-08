@@ -87,6 +87,24 @@
       "parentUuid": "acfc9e68_adc1f2c7",
       "revId": "e884b73053509b14e9f8f117da489e64a7518f93",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1e20ace2_facee866",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2025-01-08T23:44:40Z",
+      "side": 1,
+      "message": "Let me ping the infra folks and see if they have a leaning one way or another. I\u0027m happy to update the recipe if need be, so that you don\u0027t have to.",
+      "parentUuid": "5a2b2457_cc9ec5be",
+      "revId": "e884b73053509b14e9f8f117da489e64a7518f93",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
