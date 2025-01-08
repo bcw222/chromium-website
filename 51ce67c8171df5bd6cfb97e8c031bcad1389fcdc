@@ -16,6 +16,24 @@
       "message": "WDYT about just making them work instead? Looks like there\u0027s a footnote plugin available for the markdown renderer.",
       "revId": "51ce67c8171df5bd6cfb97e8c031bcad1389fcdc",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14d9b67f_32c37930",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-08T21:24:11Z",
+      "side": 1,
+      "message": "since GH supports the syntax, i think it\u0027s OK to add to our side.  i wasn\u0027t sure how many extensions we wanted to make available in general ... a curated limit isn\u0027t a bad idea as it keeps the syntax simpler and easier for people to contribute.",
+      "parentUuid": "5a57485a_99f91e7c",
+      "revId": "51ce67c8171df5bd6cfb97e8c031bcad1389fcdc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
