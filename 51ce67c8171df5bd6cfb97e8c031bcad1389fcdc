@@ -70,6 +70,24 @@
       "parentUuid": "30be896f_299fdf98",
       "revId": "51ce67c8171df5bd6cfb97e8c031bcad1389fcdc",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a460b48a_dd594294",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-08T22:49:46Z",
+      "side": 1,
+      "message": "ok, kicked you https://crrev.com/c/6159339 to add markdown-it-footnote",
+      "parentUuid": "da85d27a_2260687f",
+      "revId": "51ce67c8171df5bd6cfb97e8c031bcad1389fcdc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
