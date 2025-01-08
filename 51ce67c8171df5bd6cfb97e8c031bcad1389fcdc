@@ -52,6 +52,24 @@
       "parentUuid": "14d9b67f_32c37930",
       "revId": "51ce67c8171df5bd6cfb97e8c031bcad1389fcdc",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "da85d27a_2260687f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2025-01-08T22:40:49Z",
+      "side": 1,
+      "message": "You\u0027re not missing something obvious. You have to have npm installed separately locally and update the packages by hand. Admittedly this is not ideal, but so far I think we\u0027ve had to update the packages ~2 times in 3+ years :). If you want, just kick this to me and I\u0027ll update things.",
+      "parentUuid": "30be896f_299fdf98",
+      "revId": "51ce67c8171df5bd6cfb97e8c031bcad1389fcdc",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
