@@ -16,6 +16,24 @@
       "message": "I think I\u0027m okay with the general idea of this CL, but I have quibbles about the implementation.\n\nFor starters, I\u0027m not wild about checking in a generated/updated file (//site/.gitignore), particularly not one that doesn\u0027t make clear that it\u0027s generated (which would be easy to fix by just changing the text preceding the list).\n\nSecond, it\u0027s now adding a fourth place where we have to keep this list in sync. I grant that `upload_lobs.py` will at least keep two copies in sync, but I notice that somehow the list in LOB_EXTENSIONS is now sorted differently than the other two lists, which ideally we\u0027d fix.\n\nIn looking at this CL, though, it seems to me that we should be able to simplify all of this even more pretty easily. WDYT about just keeping the source of truth in the `//site/.gitignore` and reading that file in at runtime in PRESUBMIT.py/.eleventy.js/upload_lobs.py? I don\u0027t think that should be a hard change to make (and I\u0027m not sure why I didn\u0027t already do something like this).",
       "revId": "6d3201388c36523735e33821a158b59b926215f8",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "675171ad_fb168fc3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-08T23:26:26Z",
+      "side": 1,
+      "message": "\u003e For starters, I\u0027m not wild about checking in a generated/updated file (//site/.gitignore), particularly not one that doesn\u0027t make clear that it\u0027s generated (which would be easy to fix by just changing the text preceding the list).\n\nsorry, but i\u0027m not following.  this file is already committed in the tree, and we have presubmits enforcing it\u0027s kept in sync.\nhttps://chromium.googlesource.com/website/+/HEAD/site/.gitignore\n\n\u003e Second, it\u0027s now adding a fourth place where we have to keep this list in sync. I grant that upload_lobs.py will at least keep two copies in sync, but I notice that somehow the list in LOB_EXTENSIONS is now sorted differently than the other two lists, which ideally we\u0027d fix.\n\nwhile i don\u0027t disagree keeping multiple files in sync is annoying, i\u0027m not changing the status quo ... this is already how this file works.  people have to run update_lobs.py to regenerate the file whenever they add/remove a LOB from the tree.\n\n\u003e In looking at this CL, though, it seems to me that we should be able to simplify all of this even more pretty easily. WDYT about just keeping the source of truth in the //site/.gitignore and reading that file in at runtime in PRESUBMIT.py/.eleventy.js/upload_lobs.py? I don\u0027t think that should be a hard change to make (and I\u0027m not sure why I didn\u0027t already do something like this).\n\ni can take a look at that ... but again, to be crystal clear, this duplication already exists in the tree today, and i\u0027m not making it worse.  imo, i\u0027m significantly improving the situation (since the list of globs changes far less frequently than the list of LOBs).",
+      "parentUuid": "836f340a_16815ee1",
+      "revId": "6d3201388c36523735e33821a158b59b926215f8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
