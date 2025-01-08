@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "667e4061_d533100e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000028
+      },
+      "writtenOn": "2025-01-08T00:57:07Z",
+      "side": 1,
+      "message": "Oh ouch:\n```\nFetched 1169 LOBs (453.6MB) in 16.393 seconds (221.4Mbps).\nError: Command \u0027vpython3 scripts/fetch_lobs.py\u0027 returned non-zero exit status 1 in /usr/local/google2/chromiumos/website/.\n[339/1170] chromium-os/upstart-cookbook/favicon.ico failed:\nsha1 mismatch: expected 4926319605052bdf09442836fd8d799b236e5db8, got 0e9271f7b0df1095d674b4a7903a02b89fd01087\nchromium-os/upstart-cookbook/favicon.ico failed: sha1 mismatch: expected 4926319605052bdf09442836fd8d799b236e5db8, got 0e9271f7b0df1095d674b4a7903a02b89fd01087\n[1170/1170] chrom...\nFetched 1169 LOBs (453.6MB) in 16.393 seconds (221.4Mbps).\n```",
+      "revId": "b776456299ea8e837476d0188f6a2d1f47f46fae",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
