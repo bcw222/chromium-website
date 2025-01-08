@@ -33,6 +33,23 @@
       "message": "I found https://b.corp.google.com/issues/233715974 with the information I needed, so now I know I need to update the links, but I don\u0027t seem to have access to the LOB bucket, and I am not sure which hash to use because of the mismatch.\n\nMmm, the hash mismatch error message shows the other hash too, maybe I\u0027ll just try that one.",
       "revId": "b776456299ea8e837476d0188f6a2d1f47f46fae",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e6a89e2d_2c6b7030",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000028
+      },
+      "writtenOn": "2025-01-08T01:51:54Z",
+      "side": 1,
+      "message": "Uhm. I moved the \"got\" field into favicon.ico.sha1 and ran \"gclient runhooks\", and the new \"got\" field was different, so the mismatch is still there...",
+      "revId": "b776456299ea8e837476d0188f6a2d1f47f46fae",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
