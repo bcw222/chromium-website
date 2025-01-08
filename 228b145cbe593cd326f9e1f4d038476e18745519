@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed3a4225_7238ec9a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2025-01-08T22:47:04Z",
+      "side": 1,
+      "message": "Nice cleanup!",
+      "revId": "228b145cbe593cd326f9e1f4d038476e18745519",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2879bd4e_296def7d",
+        "filename": "scripts/common.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2025-01-08T22:47:04Z",
+      "side": 1,
+      "message": "TIL ...",
+      "revId": "228b145cbe593cd326f9e1f4d038476e18745519",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
