@@ -50,6 +50,41 @@
       "message": "Uhm. I moved the \"got\" field into favicon.ico.sha1 and ran \"gclient runhooks\", and the new \"got\" field was different, so the mismatch is still there...",
       "revId": "b776456299ea8e837476d0188f6a2d1f47f46fae",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4784311b_05d3298e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-08T17:22:04Z",
+      "side": 1,
+      "message": "you\u0027ll need to update site/.gitignore with the new paths",
+      "revId": "b776456299ea8e837476d0188f6a2d1f47f46fae",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ece7de95_8894708e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-08T17:22:04Z",
+      "side": 1,
+      "message": "this is a HTML/404 error, but fetch_lobs isn\u0027t correctly showing that.  guess you\u0027ll still need to run upload_lobs.py first.",
+      "parentUuid": "667e4061_d533100e",
+      "revId": "b776456299ea8e837476d0188f6a2d1f47f46fae",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
