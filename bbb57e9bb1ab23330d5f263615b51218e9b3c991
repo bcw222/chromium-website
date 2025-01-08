@@ -16,6 +16,24 @@
       "message": "Looks like the failed check failure has the expected order",
       "revId": "bbb57e9bb1ab23330d5f263615b51218e9b3c991",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6b531f7_6a97c7cf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-08T22:04:29Z",
+      "side": 1,
+      "message": "yeah, didn\u0027t realize the analyzer sorted by ASCII rules rather than en_US collation (which is case insensitive and handles punctuation differently).  on the upside, it means the markers are working :).",
+      "parentUuid": "5cdc8e93_0e684ded",
+      "revId": "bbb57e9bb1ab23330d5f263615b51218e9b3c991",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
