@@ -70,6 +70,24 @@
       "parentUuid": "118d3420_37e99b5e",
       "revId": "5ce6e03a07129b090bdcc9399c4be5301d379131",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3408350e_7385ffea",
+        "filename": "PRESUBMIT.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-08T22:53:00Z",
+      "side": 1,
+      "message": "you\u0027re absolutely correct that i\u0027m not handling the full syntax.  i\u0027ve been trying to handle stuff that we actually use, and treat more esoteric stuff as \"don\u0027t do that\".\n\nif this keeps getting out of hand, i might see if i can write a small JS file to run via node to use markdown-it to do the parsing and then dump the links in a structured way for PRESUBMIT to consume.",
+      "parentUuid": "52b273ce_9dc50487",
+      "revId": "5ce6e03a07129b090bdcc9399c4be5301d379131",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
