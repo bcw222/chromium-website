@@ -66,6 +66,7 @@ module.exports = config => {
   // TODO(crbug.com/1457683): Figure out how to share these lists to eliminate
   // the duplication and need to keep them in sync.
   let lob_extensions = [
+    // keep-sorted start
     '.ai',
     '.bin',
     '.bmp',
@@ -84,8 +85,8 @@ module.exports = config => {
     '.pdf',
     '.png',
     '.PNG',
-    '.swf',
     '.svg',
+    '.swf',
     '.tar.gz',
     '.tiff',
     '_trace',
@@ -93,6 +94,7 @@ module.exports = config => {
     '.xcf',
     '.xlsx',
     '.zip',
+    // keep-sorted end
   ];
 
   // This should basically pick up everything that isn't a .md file
@@ -100,6 +102,7 @@ module.exports = config => {
   // TODO(crbug.com/1457688): Figure out how to actually enforce this and get
   // rid of the "basically". There has to be a better approach. :).
   let extensions = lob_extensions.concat([
+    // keep-sorted start
     '.cpp',
     '.css',
     '.csv',
@@ -113,6 +116,7 @@ module.exports = config => {
     '.py',
     '.txt',
     '.xml'
+    // keep-sorted end
   ]);
 
   for (let ext of extensions) {
