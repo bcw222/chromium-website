@@ -14,6 +14,9 @@ module.exports = config => {
   // we use for page names, id's, etc. "Hello world" turns into 'hello-world".
   const uslug = require('uslug');
 
+  // `highlight.js` is a Node package that does syntax highlighting.
+  const hljs = require('highlight.js');
+
   // `markdown-it-attrs` is a markdown-it plugin that lets us customize the
   // `id` and `class` attributes of an element in the generated output;
   // we use this mostly for customizing the links in header tags.
@@ -21,6 +24,14 @@ module.exports = config => {
   // `markdown-it-toc-done-right` is a markdown-it plugin that adds support
   // for the `[TOC]` mechanism for generating the table of contents in a page.
   let mdlib = md({
+    highlight: (str, lang) => {
+      if (lang && hljs.getLanguage(lang)) {
+        try {
+          return hljs.highlight(str, {language: lang}).value;
+        } catch (_) {}
+      }
+      return ''; // use external default escaping
+    },
     html: true,
   }).use(require('markdown-it-attrs'), {
     leftDelimiter: '{:',
@@ -182,7 +193,9 @@ module.exports = config => {
        '_scripts/@docsearch',
      'node_modules/@docsearch/css/dist':
        '_stylesheets/@docsearch',
-  })
+     'node_modules/highlight.js/styles/github*.min.css':
+       '_stylesheets/highlight.js/',
+  });
 
   return {
     dir: {
