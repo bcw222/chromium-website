@@ -33,6 +33,24 @@
       "message": "Are you expecting me to take this and update node_modules? I wasn\u0027t sure. I\u0027m happy to do so.\n\nAlso, did you update package-lock.json directly, or let npm do it? I would\u0027ve expected more churn if the you did the latter.",
       "revId": "604e9967e5e83dd0854f88ab10a2ed24ef599a77",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cbe096e7_871e3c06",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-09T00:44:06Z",
+      "side": 1,
+      "message": "i did as much as i could to verify local builds \u0026 rendering worked correctly.  i don\u0027t know what more you normally do.  so yes, please take it from here.\n\nwrt package-lock.json, if you run `npm install \u003cpkg\u003e`, it only updates the one package.  i didn\u0027t hand edit the file.  if you run `npm update`, then there\u0027s a lot more churn.",
+      "parentUuid": "35731335_fbacd3a8",
+      "revId": "604e9967e5e83dd0854f88ab10a2ed24ef599a77",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
