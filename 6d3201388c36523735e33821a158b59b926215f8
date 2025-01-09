@@ -52,6 +52,24 @@
       "parentUuid": "675171ad_fb168fc3",
       "revId": "6d3201388c36523735e33821a158b59b926215f8",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "389a5226_fb0f3714",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-09T03:43:32Z",
+      "side": 1,
+      "message": "latest version uses site/.gitignore as the SOT.  now we have some duplication in parsing of the file :).  i thought about adding a helper tool that would dump json that the others could import/exec, but that seemed overkill, and i really don\u0027t want to figure out cross-platform portability.\n\nto the question of checking in all the files, i\u0027d be less defensive if the project was standalone.  but it\u0027s included in the chromium \u0026 chromium os checkout, so that\u0027s hundreds of MB for every build, and pinned in releases, and every user.  that\u0027s kind of a big hit, and it only grows over time.  i know chromium/src.git and blink are already magnittudes larger, but i don\u0027t think that\u0027s a compeling case to throw more at people.\n\ni\u0027ll also highlight that every time we\u0027ve had a git project where we checked in large binaries (O(MB)), we\u0027ve regretted it at some point.  iiuc, Android heavily regrets this, and is trying to figure out how to get out of it.  their scale is prob diff than website.\n\ni\u0027m aware of things like shallow clones to mitigate, but those are slower, and only help with initial checkout.  subsequent pulls continue to accumulate objects.",
+      "parentUuid": "4334b9ad_3eec819e",
+      "revId": "6d3201388c36523735e33821a158b59b926215f8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
