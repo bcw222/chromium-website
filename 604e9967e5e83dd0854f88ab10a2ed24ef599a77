@@ -51,6 +51,24 @@
       "parentUuid": "35731335_fbacd3a8",
       "revId": "604e9967e5e83dd0854f88ab10a2ed24ef599a77",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "77c6583c_eb6a17a5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2025-01-09T01:09:47Z",
+      "side": 1,
+      "message": "We need to actually update the node_modules.tar.gz file; that\u0027s why the build failed.\n\nI\u0027ll take it from here though.\n\nGood to know about the difference between `install` and `update`; I suspect I would\u0027ve done the latter by default, but in this case I prefer not having to update all of the other modules if we don\u0027t need to.",
+      "parentUuid": "cbe096e7_871e3c06",
+      "revId": "604e9967e5e83dd0854f88ab10a2ed24ef599a77",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
