@@ -16,6 +16,23 @@
       "message": "also sent you https://crrev.com/c/6159341 to enable syntax highlighting in case you want to regen node_modules just once or something",
       "revId": "604e9967e5e83dd0854f88ab10a2ed24ef599a77",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "35731335_fbacd3a8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2025-01-09T00:23:57Z",
+      "side": 1,
+      "message": "Are you expecting me to take this and update node_modules? I wasn\u0027t sure. I\u0027m happy to do so.\n\nAlso, did you update package-lock.json directly, or let npm do it? I would\u0027ve expected more churn if the you did the latter.",
+      "revId": "604e9967e5e83dd0854f88ab10a2ed24ef599a77",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
