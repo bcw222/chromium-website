@@ -103,6 +103,24 @@
       "parentUuid": "4784311b_05d3298e",
       "revId": "b776456299ea8e837476d0188f6a2d1f47f46fae",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "21e6f7ba_f04997b8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-09T21:05:49Z",
+      "side": 1,
+      "message": "you prob need to use `gcert` and `luci-auth` first",
+      "parentUuid": "90849b5c_315bf765",
+      "revId": "b776456299ea8e837476d0188f6a2d1f47f46fae",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
