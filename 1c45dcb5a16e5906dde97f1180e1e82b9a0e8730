@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6849fb24_61b4f29e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2025-01-09T23:24:59Z",
+      "side": 1,
+      "message": "Examples of this working:\n\nhttps://chromium-website--cl6163982-ps1-i6lp4io1.web.app/administrators/configuring-other-preferences/ (JSON)\nhttps://chromium-website--cl6163982-ps1-i6lp4io1.web.app/Home/chromium-clobber-landmines/ (no highlighting)\nhttps://chromium-website--cl6163982-ps1-i6lp4io1.web.app/Home/chromium-security/deprecating-permissions-in-cross-origin-iframes/ (HTML)\n\nI couldn\u0027t actually find a page where it was autodetecting anything, so I\u0027m not certain that that is working.",
+      "revId": "1c45dcb5a16e5906dde97f1180e1e82b9a0e8730",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
