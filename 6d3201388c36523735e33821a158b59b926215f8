@@ -88,6 +88,24 @@
       "parentUuid": "389a5226_fb0f3714",
       "revId": "6d3201388c36523735e33821a158b59b926215f8",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7a4a0fda_addda3b3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2025-01-09T21:56:42Z",
+      "side": 1,
+      "message": "Unfortunately, I\u0027ve thought of a problem with this approach.\n\nIf the LOB\u0027s are .gitignore\u0027d by default, we won\u0027t be able to tell when someone adds one and doesn\u0027t also add the .sha1; the new LOB will not show up in `input_api.Change.AffectedFiles()` or in `git status`. Offhand, the only way I can think of to address this would be to either scan *every* file under //site looking for missing .sha1\u0027s, or to get a list of the gitignored files and scan just those (I\u0027m not sure which would be faster). Maybe that\u0027s fast enough to do in the presubmit? \n\nOther ideas?",
+      "parentUuid": "76d2ff0d_0e1c0c46",
+      "revId": "6d3201388c36523735e33821a158b59b926215f8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
