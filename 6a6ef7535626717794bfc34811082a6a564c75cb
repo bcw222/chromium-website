@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7d184cae_6f989469",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2025-01-09T03:19:25Z",
+      "side": 1,
+      "message": "You can see the footnote being handled properly @ https://chromium-website--cl6161894-ps1-psbln2ig.web.app/chromium-os/developer-library/guides/enterprise/enterprise-policy/#:~:text\u003dmanaged/test_policy.json-,%5B1%5D,-%2C",
+      "revId": "6a6ef7535626717794bfc34811082a6a564c75cb",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
