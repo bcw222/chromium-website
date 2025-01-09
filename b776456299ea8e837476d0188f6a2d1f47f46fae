@@ -85,6 +85,24 @@
       "parentUuid": "667e4061_d533100e",
       "revId": "b776456299ea8e837476d0188f6a2d1f47f46fae",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "90849b5c_315bf765",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000028
+      },
+      "writtenOn": "2025-01-09T19:53:43Z",
+      "side": 1,
+      "message": "I get authentication errors when trying to upload.  (The security key never flashes.)  upload_lobs does add the .gitignore entries, but I presume those are not used during the upload.\n\nAlso, I momentarily lost favicon.ico, ignore that.\n```\nsemenzato@luigi2:~/chromiumos/website$ scripts/upload_lobs.py site/chromium-os/upstart-cookbook/*.{ico,png}\nMain\u003e Calculating hash for site/chromium-os/upstart-cookbook/favicon(1).ico...\nMain\u003e Done calculating hash for site/chromium-os/upstart-cookbook/favicon(1).ico.\nMain\u003e Calculating hash for site/chromium-os/upstart-cookbook/upstart_menu-page2.png...\nMain\u003e Done calculating hash for site/chromium-os/upstart-cookbook/upstart_menu-page2.png.\nMain\u003e Calculating hash for site/chromium-os/upstart-cookbook/upstart_menu.png...\nMain\u003e Done calculating hash for site/chromium-os/upstart-cookbook/upstart_menu.png.\n0\u003e Uploading site/chromium-os/upstart-cookbook/favicon(1).ico...\n0\u003e Uploading site/chromium-os/upstart-cookbook/upstart_menu-page2.png...\n0\u003e Uploading site/chromium-os/upstart-cookbook/upstart_menu.png...\nHashing 3 files took 0.002507 seconds\nUploading took 151.630813 seconds\nEncountered error on uploading site/chromium-os/upstart-cookbook/favicon(1).ico to gs://chromium-website-lob-storage/be7e4cc6ef7ce95e285337634be009b70561d719\nReauthentication required.\nPlease insert and touch your security key\n```",
+      "parentUuid": "4784311b_05d3298e",
+      "revId": "b776456299ea8e837476d0188f6a2d1f47f46fae",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
