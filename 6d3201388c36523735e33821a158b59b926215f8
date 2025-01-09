@@ -70,6 +70,24 @@
       "parentUuid": "4334b9ad_3eec819e",
       "revId": "6d3201388c36523735e33821a158b59b926215f8",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "76d2ff0d_0e1c0c46",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2025-01-09T21:52:51Z",
+      "side": 1,
+      "message": "It being included in the other project checkouts is a good point, and probably enough to convince me that we shouldn\u0027t change how the LOBs are fetched at this point.",
+      "parentUuid": "389a5226_fb0f3714",
+      "revId": "6d3201388c36523735e33821a158b59b926215f8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
