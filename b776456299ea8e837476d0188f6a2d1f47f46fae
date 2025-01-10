@@ -138,6 +138,24 @@
       "message": "I was gcert-ed, but not luci-auth-ed.  I ran `luci-auth login`, but the outcome of `upload-lobs` remains the same.\n\nIncidentally, `luci-auth login` is a royal pain.  The timeout is too short.  I had to run it multiple times to train myself to do it quickly enough.",
       "revId": "b776456299ea8e837476d0188f6a2d1f47f46fae",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "45194be4_fd8f845b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-10T17:10:46Z",
+      "side": 1,
+      "message": "not sure what auth you need to go through.  i uploaded the files now though.",
+      "parentUuid": "369b19d1_827f5ee3",
+      "revId": "b776456299ea8e837476d0188f6a2d1f47f46fae",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
