@@ -142,6 +142,24 @@
       "parentUuid": "6ecfd5a2_f90aaedf",
       "revId": "6d3201388c36523735e33821a158b59b926215f8",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8788ef06_72efca5d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2025-01-10T23:23:32Z",
+      "side": 1,
+      "message": "Insofar as I think we can fix the issue one way or another, I\u0027m okay with landing this first as long as we agree to fix it shortly.",
+      "parentUuid": "550f8e86_16c92031",
+      "revId": "6d3201388c36523735e33821a158b59b926215f8",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
