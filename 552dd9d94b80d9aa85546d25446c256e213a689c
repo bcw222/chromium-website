@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "df5ae348_73a8847a",
+        "filename": "site/chromium-os/upstart-cookbook/index.html",
+        "patchSetId": 5
+      },
+      "lineNbr": 322,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-10T18:48:31Z",
+      "side": 1,
+      "message": "you\u0027ll have to delete all these `cookbook.html` references.  using `href\u003d\"#meta\"` should be fine.",
+      "revId": "552dd9d94b80d9aa85546d25446c256e213a689c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
