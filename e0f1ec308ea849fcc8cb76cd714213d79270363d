@@ -1,0 +1,94 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "62e8d577_6b5c6915",
+        "filename": "PRESUBMIT.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 300,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2025-01-10T23:22:24Z",
+      "side": 1,
+      "message": "Note that in links to pages on the site, there are no markdown pages that end in anything other than index.md in the built site. There are only 3 pages that link to something ending in `index.md`, and there\u0027s only one page that isn\u0027t an index.md (chromium-os/developer-library/guides/testing/chamelium/chamelium.md, which is resolved correctly though I don\u0027t know why :).\n\nI feel like we should only allow links to directories (for markdown files) and fix the exceptions (in a different CL would be fine).",
+      "fixSuggestions": [
+        {
+          "fixId": "49cb57bc_e53a08dd",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "PRESUBMIT.py",
+              "range": {
+                "startLine": 299,
+                "startChar": 0,
+                "endLine": 301,
+                "endChar": 0
+              },
+              "replacement": ""
+            },
+            {
+              "path": "PRESUBMIT.py",
+              "range": {
+                "startLine": 307,
+                "startChar": 0,
+                "endLine": 308,
+                "endChar": 0
+              },
+              "replacement": ""
+            }
+          ]
+        }
+      ],
+      "revId": "e0f1ec308ea849fcc8cb76cd714213d79270363d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d743fecf_06417fba",
+        "filename": "PRESUBMIT.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 309,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2025-01-10T23:22:24Z",
+      "side": 1,
+      "message": "Won\u0027t this last branch allow you to link to a LOB that doesn\u0027t have a matching .sha1? I feel like you need to have an explicit check that if local_path links to a LOB, then LOB + \u0027.sha1\u0027 also needs to exist (and ideally we\u0027d verify that it\u0027s a checked-in file).",
+      "fixSuggestions": [
+        {
+          "fixId": "d390ec15_f248d842",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "PRESUBMIT.py",
+              "range": {
+                "startLine": 303,
+                "startChar": 0,
+                "endLine": 303,
+                "endChar": 0
+              },
+              "replacement": "                #   /foo/bar.png.sha1 has /foo/bar.png\n"
+            },
+            {
+              "path": "PRESUBMIT.py",
+              "range": {
+                "startLine": 308,
+                "startChar": 0,
+                "endLine": 309,
+                "endChar": 0
+              },
+              "replacement": "                          or (input_api.os_path.exists(local_path + \u0027.sha1\u0027)\n                              and input_api.os_path.isfile(local_path))\n"
+            }
+          ]
+        }
+      ],
+      "revId": "e0f1ec308ea849fcc8cb76cd714213d79270363d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
