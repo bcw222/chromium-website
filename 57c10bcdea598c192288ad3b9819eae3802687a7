@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8f486896_c3eee06b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000028
+      },
+      "writtenOn": "2025-01-10T20:28:52Z",
+      "side": 1,
+      "message": "This should be it.  I also changed the image URLs to point to storage.googleapis.com.  I previewed it at `file:///usr/local/google/home/semenzato/chromiumos/website/site/chromium-os/upstart-cookbook/index.html` and the images load correctly.",
+      "revId": "57c10bcdea598c192288ad3b9819eae3802687a7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
