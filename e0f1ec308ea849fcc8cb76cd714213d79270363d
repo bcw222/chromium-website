@@ -48,6 +48,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "9c5377f8_790373e3",
+        "filename": "PRESUBMIT.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 300,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-11T04:36:14Z",
+      "side": 1,
+      "message": "chromium-os/developer-library/guides/testing/chamelium/ has both index.md and chamelium.md.  if we want to reject that model/usage, then i can tweak the site first.  11ty allows it, so seemed fine to me, but i don\u0027t super care tbh.",
+      "parentUuid": "62e8d577_6b5c6915",
+      "revId": "e0f1ec308ea849fcc8cb76cd714213d79270363d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d743fecf_06417fba",
         "filename": "PRESUBMIT.py",
         "patchSetId": 1
@@ -87,6 +105,24 @@
           ]
         }
       ],
+      "revId": "e0f1ec308ea849fcc8cb76cd714213d79270363d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8e9b3ba2_0e999304",
+        "filename": "PRESUBMIT.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 309,
+      "author": {
+        "id": 1000768
+      },
+      "writtenOn": "2025-01-11T04:36:14Z",
+      "side": 1,
+      "message": "since gitignore doesn\u0027t allow you to add a LOB to the repo, presubmit might pass locally if you have the file, but running presubmit in CI on a new CL would fail because it wouldn\u0027t have the file.  i\u0027m assuming we don\u0027t have to code defensively against people who are force adding files and bypassing the gitignore settings.\n\nif you have a LOB locally (not in git), and you upload it to GS, the .sha1 is created, but local presubmit doesn\u0027t guarantee it\u0027s included in the commit.  only server side presubmit would catch that.\n\nso adding this extra check might catch a few more local scenarios, but it would be redundant with server side presubmit.  i can add it if you want.",
+      "parentUuid": "d743fecf_06417fba",
       "revId": "e0f1ec308ea849fcc8cb76cd714213d79270363d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
