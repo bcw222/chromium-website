@@ -34,6 +34,23 @@
       "parentUuid": "c621bd12_cd19a5a3",
       "revId": "f51909b1173f6a808ef2896e7479baaebd650834",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "57bed6a3_e2f75aa6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2025-01-12T20:46:15Z",
+      "side": 1,
+      "message": "I\u0027m guessing you should abandon this CL now?",
+      "revId": "f51909b1173f6a808ef2896e7479baaebd650834",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
