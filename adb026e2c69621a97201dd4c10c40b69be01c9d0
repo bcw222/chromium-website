@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3bd31c8_08676bc6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 13
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2025-01-12T20:51:28Z",
+      "side": 1,
+      "message": "I wonder if there\u0027s a nicer way to format this ...",
+      "revId": "adb026e2c69621a97201dd4c10c40b69be01c9d0",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
