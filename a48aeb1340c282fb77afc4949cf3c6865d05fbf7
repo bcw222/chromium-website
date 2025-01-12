@@ -1,0 +1,39 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dbfd33df_e47269e2",
+        "filename": "PRESUBMIT.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 267,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2025-01-12T20:12:19Z",
+      "side": 1,
+      "message": "Nit: maybe say \"chromium.org markdown pages\"? Because there are other markdown pages that are just fine (and your presubmit is -- correctly -- only looking for the website pages)",
+      "fixSuggestions": [
+        {
+          "fixId": "448cfb6b_265cf058",
+          "description": "prompt_to_edit API",
+          "replacements": [
+            {
+              "path": "PRESUBMIT.py",
+              "range": {
+                "startLine": 267,
+                "startChar": 0,
+                "endLine": 268,
+                "endChar": 0
+              },
+              "replacement": "        # People shouldn\u0027t link to chromium.org markdown pages via gitiles.\n"
+            }
+          ]
+        }
+      ],
+      "revId": "a48aeb1340c282fb77afc4949cf3c6865d05fbf7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
