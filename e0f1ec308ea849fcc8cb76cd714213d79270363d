@@ -66,6 +66,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d322373d_877801db",
+        "filename": "PRESUBMIT.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 300,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2025-01-12T20:27:44Z",
+      "side": 1,
+      "message": "I think we should probably reject it (meaning move chamelium.md -\u003e chamelium/index.md), just to be consistent.\n\nI have a vague mental model that we should have one page per directory and the directory should contain the markdown file + any assets local to that page, but we don\u0027t particularly try to enforce this. \n\nWe could allow multiple markdown pages per directory, assuming that works w/ 11ty, but I\u0027d probably not do this unless there\u0027s a real demand for it.",
+      "parentUuid": "9c5377f8_790373e3",
+      "revId": "e0f1ec308ea849fcc8cb76cd714213d79270363d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d743fecf_06417fba",
         "filename": "PRESUBMIT.py",
         "patchSetId": 1
@@ -123,6 +141,24 @@
       "side": 1,
       "message": "since gitignore doesn\u0027t allow you to add a LOB to the repo, presubmit might pass locally if you have the file, but running presubmit in CI on a new CL would fail because it wouldn\u0027t have the file.  i\u0027m assuming we don\u0027t have to code defensively against people who are force adding files and bypassing the gitignore settings.\n\nif you have a LOB locally (not in git), and you upload it to GS, the .sha1 is created, but local presubmit doesn\u0027t guarantee it\u0027s included in the commit.  only server side presubmit would catch that.\n\nso adding this extra check might catch a few more local scenarios, but it would be redundant with server side presubmit.  i can add it if you want.",
       "parentUuid": "d743fecf_06417fba",
+      "revId": "e0f1ec308ea849fcc8cb76cd714213d79270363d",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ae654f7_c2d846e3",
+        "filename": "PRESUBMIT.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 309,
+      "author": {
+        "id": 1003232
+      },
+      "writtenOn": "2025-01-12T20:27:44Z",
+      "side": 1,
+      "message": "Fair enough, maybe the server-side presubmit will be sufficient to catch this.",
+      "parentUuid": "8e9b3ba2_0e999304",
       "revId": "e0f1ec308ea849fcc8cb76cd714213d79270363d",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
