@@ -12,8 +12,13 @@ layout: "raw.njk"
            and not page.url.includes("/sitemap.xml") -%}
         {%- if not isFirst -%},{%- endif -%}
         {
+            "objectID": "{{ page.url | safe }}",
             "title": {{ page.data.title | jsonify | safe }},
             "url": "{{ page.url | safe }}",
+            "hierarchy": {
+                "lvl0": {{ page.data.title | jsonify | safe }},
+                "lvl1": {{ page.data.title | jsonify | safe }}
+            },
             "content": {{ page.templateContent | striptags | truncateBytes(10000) | jsonify | safe }}
         }
         {%- set isFirst = false -%}
